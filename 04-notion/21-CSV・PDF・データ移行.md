@@ -32,7 +32,31 @@ SQの「CSVインポート」「CSVエクスポート」「PDFエクスポート
 - CSVエクスポートには「エクスポート」という名前のボタンはなく、**各カテゴリ行のリンク**をクリックして対象カテゴリの画面に遷移します。
 - PDFエクスポートは現在「納品書」の1カテゴリのみで、新規作成画面（`/create`）は実装されていません。
 
+#### 3メニューの関係とインポートの状態遷移
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  CSVインポート        CSVエクスポート      PDFエクスポート   │
+│  （取り込む）         （取り出す）         （取り出す/PDF）   │
+└─────────────────────────────────────────────────────────────┘
+
+CSVインポートの処理フロー:
+  保存する → 検証(実行中) → 検証完了 ─┬─ 実行する → 実行完了（反映）
+                                       │
+                                       └─ 検証失敗 → 失敗詳細画面で原因確認 → CSV修正して再取り込み
+
+CSVエクスポート / ヤマトB2クラウド:
+  エクスポート開始 → 処理中 → 完了 → ダウンロードリンク
+  （ヤマトB2は出荷管理画面起点・完了後メール通知）
+```
+
 ## 画面・項目の説明
+
+> **フォームに出てくる用語のメモ**（初出のみ）
+> - **テナント**: SQ上の事業部（事業の区画）。発注・ディスカウント・チャネル連携・メンバー権限をまとめる単位。設定 > テナントで作成。テナント0件だと各フォームの選択肢が空になる。（詳細は 03.組織・通知）
+> - **ロケーション**: 在庫の置き場所。種別は「倉庫」か「店舗」のみ。倉庫=保管・発注入荷先・出荷元。（詳細は 04.基本マスタ）
+> - **SKU（商品バリエーション）**: 商品の色・サイズ等のバリエーション1つ1つ。在庫・価格はSKU単位で持つ。
+> - **販売価格ルール／予約販売ルール／販売閾値ルール**: いずれも販売設定で**事前作成が必要**なルール。CSVインポート・エクスポートでは、そのドロップダウンから既存ルールを1つ選ぶ（ルール自体はここでは作れない）。
 
 ### CSVインポート `/admin/csv_import`
 
@@ -190,15 +214,15 @@ SQの「CSVインポート」「CSVエクスポート」「PDFエクスポート
 | マスターデータ | 商品バリエーション | `/admin/csv_export/csv_export_operation_product_variants` | `商品情報を含める` チェック + `エクスポートを開始する` |
 | マスターデータ | ロケーション | `/admin/csv_export/csv_export_operation_locations` | ロケーショングループ選択 + `エクスポートを開始する` |
 | 実績 | ディスカウントの利用履歴 | `/admin/csv_export/csv_export_operation_order_price_adjustment_usages` | ディスカウント選択 + `エクスポートを開始する` |
-| 価格 | セール価格 | `/admin/csv_export/csv_export_operation_sale_prices` <!-- TODO: 要確認（正式カテゴリ名・URL末尾） --> | 販売価格ルール選択 + `エクスポートを開始する` |
-| 出荷 | ヤマトB2クラウド | `/admin/csv_export/csv_export_operation_yamato_b2` <!-- TODO: 要確認（正式カテゴリ名・URL末尾） --> | <!-- TODO: 要確認（作成フォーム項目） --> |
-| 実績 | 売上実績（注文軸） | `/admin/csv_export/csv_export_operation_sale_changes` | テナント / 開始日時 / 終了日時 / `エクスポートを開始する` |
-| 実績 | 売上実績（明細軸） | `/admin/csv_export/csv_export_operation_sale_change_line_items` | テナント / 開始日時 / 終了日時 / `エクスポートを開始する` |
-| ポイント | ポイント変動履歴 | `/admin/csv_export/csv_export_operation_point_histories` <!-- TODO: 要確認（正式カテゴリ名・URL末尾） --> | <!-- TODO: 要確認（作成フォーム項目） --> |
+| 価格 | セール価格 | `/admin/csv_export/csv_export_operation_sale_prices` | 販売価格ルール選択（必須） + `エクスポートを開始する` |
+| 出荷 | ヤマトB2クラウド | `/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds` | 当画面は**実行履歴確認専用**（エクスポートボタンなし）。出荷管理画面（`/admin/inventory_outbound_orders`）の条件指定エクスポートから実行し、完了後にメールでダウンロードリンクが通知される |
+| 実績 | 売上実績（注文軸） | `/admin/csv_export/csv_export_operation_sale_changes` | テナント（必須） / 開始日時（必須） / 終了日時（必須） / `エクスポートを開始する` |
+| 実績 | 売上実績（明細軸） | `/admin/csv_export/csv_export_operation_sale_change_line_items` | テナント（必須） / 開始日時（必須） / 終了日時（必須） / `エクスポートを開始する` |
+| ポイント | ポイント変動履歴 | `/admin/csv_export/csv_export_operation_point_histories` | テナント（必須） / 開始日時（必須） / 終了日時（必須） / `エクスポートを開始する` |
 
-- 実績系（売上実績の注文軸・明細軸）では、一覧に実行履歴と `ダウンロード` リンクが表示されます。
+- 実績系（売上実績の注文軸・明細軸）では、一覧に実行履歴と `ダウンロード` リンクが表示されます。実行直後は「処理中」→ 再読み込み後に「完了」になりダウンロードリンクが現れます。
 - 出力実行は `エクスポートを開始する` ボタンで開始します。
-- `csv_export_operation_order_price_adjustment_rule_usages` / `...usage_histories` / `sale_change_line_item_details` は存在しないページになります（誤URL）。
+- 旧版FAQにあった `csv_export_operation_order_price_adjustment_rule_usages` / `...usage_histories` / `sale_change_line_item_details` は存在しないページ（誤URL）。正しくは上表の `...order_price_adjustment_usages` / `...sale_change_line_items` 等。
 
 ### PDFエクスポート `/admin/pdf_export`
 
@@ -212,6 +236,7 @@ SQの「CSVインポート」「CSVエクスポート」「PDFエクスポート
 | 新規作成画面 `/create` | `/admin/pdf_export/pdf_export_operation_packing_slips/create` は存在しないページ（h1「このページは存在しないようです」） |
 
 - 現状、PDFエクスポートは**トップ画面の表示のみ**で、実際のPDF出力操作（新規作成）は実装されていません。
+- 納品書PDFを現在出力する導線は**未確認**です。出荷完了済みの出荷指示詳細画面でも納品書/PDF生成ボタンは確認できておらず、別条件で生成導線が出る可能性は追加確認が必要です。分かり次第追記します。なお、納品書のテンプレートは設定画面（`/admin/settings/pdf_template_package_slip`）で管理されています。
 
 ## 主な操作手順
 
@@ -289,7 +314,7 @@ SQの「CSVインポート」「CSVエクスポート」「PDFエクスポート
 | 売上実績CSV（注文軸・明細軸）のURL・フォーム | 確定 | `csv_export_operation_sale_changes` / `...sale_change_line_items` |
 | ディスカウント利用履歴CSVのURL・フォーム | 確定 | `csv_export_operation_order_price_adjustment_usages` |
 | 在庫／商品バリエーション／ロケーション／セール価格CSVの作成フォーム項目 | 確定 | 各 `/create` で確認 |
-| CSVエクスポート 一部カテゴリの正式カテゴリ名・URL末尾 | 未確認 | セール価格・ヤマトB2クラウド・ポイント変動履歴 |
+| CSVエクスポート 一部カテゴリの正式カテゴリ名・URL末尾 | 確定 | セール価格=`...sale_prices`／ヤマトB2クラウド=`...inventory_outbound_order_yamato_b2_clouds`（履歴確認専用・実行は出荷管理画面）／ポイント変動履歴=`...point_histories`（01-by-feature 102-136行に基づく） |
 | PDFエクスポート トップ画面の表示 | 確定 | `/admin/pdf_export`・h1・出荷>納品書行 |
 | PDFエクスポート 新規作成画面 | 確定（未実装） | `/create` は存在しないページ |
 | 実注文/実顧客前提のCSV（ポイント・売上など）の実データ | 未確認 | 注文/顧客0件・チャネル未接続 |
@@ -298,9 +323,9 @@ SQの「CSVインポート」「CSVエクスポート」「PDFエクスポート
 
 ### 完成寄り（ほぼ確定・残り少なめ）
 
-- [ ] CSVエクスポート「セール価格」カテゴリの正式名称とURL末尾
-- [ ] CSVエクスポート「ヤマトB2クラウド」カテゴリの正式名称とURL末尾・作成フォーム項目
-- [ ] CSVエクスポート「ポイント変動履歴」カテゴリの正式名称とURL末尾・作成フォーム項目
+- [x] CSVエクスポート「セール価格」カテゴリの正式名称とURL末尾 → `csv_export_operation_sale_prices`／フォーム: 販売価格ルール選択（必須）
+- [x] CSVエクスポート「ヤマトB2クラウド」カテゴリ → `csv_export_operation_inventory_outbound_order_yamato_b2_clouds`（履歴確認専用）。実行は出荷管理画面（`/admin/inventory_outbound_orders`）の条件指定エクスポートから。完了後メールでダウンロードリンク通知
+- [x] CSVエクスポート「ポイント変動履歴」カテゴリ → `csv_export_operation_point_histories`／フォーム: テナント・開始日時・終了日時（全て必須）
 - [ ] CSVエクスポート全9カテゴリのグループ分けと表示順の最終突合
 
 ### 連携待ち（外部連携前提・チャネル未接続）
