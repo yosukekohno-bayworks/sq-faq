@@ -57,7 +57,7 @@ last_verified: 2026-06-16
    - テンプレートURL: `https://docs.google.com/spreadsheets/d/1UJVfvgl5wb_5FYazFowbS1UMtfOhV4nNqFkAn4c1FHI`
 4. スプレッドシートを「ファイル > コピーを作成」または「ファイル > ダウンロード > カンマ区切り形式（.csv）」でローカルに保存する。
 
-![販売可能在庫のCSVインポート画面（絶対値/差分値の選択）](../_analysis/screenshots/15-csv-import-inventory-create.png)
+![販売可能在庫のCSVインポート画面（絶対値/差分値の選択）](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/15-csv-import-inventory-create.png)
 
 ---
 

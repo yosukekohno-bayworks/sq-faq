@@ -51,7 +51,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/order_price_adjustment_rules`
 
-![ディスカウント一覧画面](../_analysis/screenshots/gap-crm-discount-list-data.png)
+![ディスカウント一覧画面](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/gap-crm-discount-list-data.png)
 
 #### タブ
 
@@ -79,7 +79,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/order_price_adjustment_rules/create`
 
-![ディスカウント作成フォーム](../_analysis/screenshots/crm-discount-create.png)
+![ディスカウント作成フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/crm-discount-create.png)
 
 #### 基本情報
 
@@ -126,7 +126,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/order_price_adjustment_rules/[id]`
 
-![ディスカウント詳細ページ](../_analysis/screenshots/crm2-discount-detail.png)
+![ディスカウント詳細ページ](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/crm2-discount-detail.png)
 
 作成後の詳細ページは5つのタブで構成されます。
 
@@ -156,7 +156,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/point_calculation_rules/create`
 
-![注文ポイント付与ルール作成フォーム](../_analysis/screenshots/crm-point-create.png)
+![注文ポイント付与ルール作成フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/crm-point-create.png)
 
 #### ルール
 
@@ -209,7 +209,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/point_campaign_order_rules`
 
-![ポイントキャンペーン作成フォーム](../_analysis/screenshots/crm2-campaign-create.png)
+![ポイントキャンペーン作成フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/crm2-campaign-create.png)
 
 #### 共通項目
 
@@ -242,7 +242,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/point_calculation_birthday_rules`
 
-![誕生日ポイント付与ルール作成フォーム](../_analysis/screenshots/crm2-birthday-create.png)
+![誕生日ポイント付与ルール作成フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/crm2-birthday-create.png)
 
 | 項目（UIラベル） | 説明 | 制約・選択肢 |
 |:--|:--|:--|
@@ -281,7 +281,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/customer_rank_calculation_rules/create`
 
-![会員ランク算出ルール作成フォーム](../_analysis/screenshots/crm-rank-create.png)
+![会員ランク算出ルール作成フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/crm-rank-create.png)
 
 #### ルール
 
@@ -309,7 +309,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/customer_rank_calculation_rules/[id]`
 
-![会員ランク算出ルール詳細ページ](../_analysis/screenshots/crm2-rank-detail.png)
+![会員ランク算出ルール詳細ページ](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/crm2-rank-detail.png)
 
 保存すると詳細ページに遷移します。右上の操作ボタンから「ルールを編集」「ルールを削除」を実行できます。
 
@@ -338,7 +338,7 @@ last_verified: 2026-06-20
 
 > URL: `/admin/customer_rank_calculation_rules/[id]/customer_rank_rules/create`
 
-![会員ランク追加フォーム](../_analysis/screenshots/crm2-rank-tier-create.png)
+![会員ランク追加フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/crm2-rank-tier-create.png)
 
 | 項目（UIラベル） | 説明 | 必須 | 制約・選択肢 |
 |:--|:--|:--|:--|

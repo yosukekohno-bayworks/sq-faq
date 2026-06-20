@@ -27,7 +27,7 @@ last_verified: 2026-06-19
 
 カテゴリはグループ別にまとめられている。
 
-![CSVエクスポートのトップ画面](../_analysis/screenshots/15-csv-export-top.png)
+![CSVエクスポートのトップ画面](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/15-csv-export-top.png)
 
 ##### マスターデータグループ
 
@@ -67,7 +67,7 @@ last_verified: 2026-06-19
 
 ##### 在庫エクスポート
 
-![「在庫をCSVでエクスポートする」フォーム](../_analysis/screenshots/15-csv-export-inventory-create.png)
+![「在庫をCSVでエクスポートする」フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/15-csv-export-inventory-create.png)
 
 | 項目（UIラベル） | 必須/任意 | 説明 |
 |:--|:--|:--|
@@ -137,7 +137,7 @@ last_verified: 2026-06-19
 
 ### PDFエクスポート（/admin/pdf_export）
 
-![PDFエクスポートのトップ画面（納品書）](../_analysis/screenshots/verify-pdf_export-2026-06-19.png)
+![PDFエクスポートのトップ画面（納品書）](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/verify-pdf_export-2026-06-19.png)
 
 #### エクスポートできるデータ
 

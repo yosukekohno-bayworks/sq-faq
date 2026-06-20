@@ -132,7 +132,7 @@ SQの「CSVインポート」「CSVエクスポート」「PDFエクスポート
 
 > 販売可能在庫の画面説明原文: 「現在の在庫数が10のとき、CSVで20を指定すると、絶対値で反映した場合の在庫数は20になります。差分値で反映した場合の在庫数は30になります。」
 
-![販売可能在庫のインポートフォーム（ラジオ選択 + ファイル）](../_analysis/screenshots/15-csv-import-inventory-create.png)
+![販売可能在庫のインポートフォーム（ラジオ選択 + ファイル）](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/15-csv-import-inventory-create.png)
 
 ##### パターンCのフィールドラベル
 
@@ -146,7 +146,7 @@ SQの「CSVインポート」「CSVエクスポート」「PDFエクスポート
 
 #### ポイント一括加算・一括減算フォームの固有項目
 
-![ポイント一括加算のインポートフォーム（テナント・顧客IDの種別）](../_analysis/screenshots/15-csv-import-point-plus-create.png)
+![ポイント一括加算のインポートフォーム（テナント・顧客IDの種別）](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/15-csv-import-point-plus-create.png)
 
 | カテゴリ | 項目（UIラベル） | 説明 | 選択肢 |
 |:--|:--|:--|:--|
@@ -168,7 +168,7 @@ SQの「CSVインポート」「CSVエクスポート」「PDFエクスポート
 
 #### 実行履歴・詳細画面
 
-![CSVインポート操作の詳細画面（検証・実行ステータス）](../_analysis/screenshots/gap-csv-import-detail-success.png)
+![CSVインポート操作の詳細画面（検証・実行ステータス）](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/gap-csv-import-detail-success.png)
 
 カテゴリの一覧画面に過去の実行履歴が表示され、各行をクリックすると詳細を確認できます。
 

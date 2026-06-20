@@ -66,7 +66,7 @@ EC運営で一番つまずきやすいのは「商品・バリエーション・
 
 ### 商品一覧（/admin/products）
 
-![商品一覧画面。上部に「すべて」「公開中」「下書き」「アーカイブ済み」のタブ、右上に「インポート」「商品を作成する」ボタン](../_analysis/screenshots/02-products-list.png)
+![商品一覧画面。上部に「すべて」「公開中」「下書き」「アーカイブ済み」のタブ、右上に「インポート」「商品を作成する」ボタン](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/02-products-list.png)
 
 #### タブ
 
@@ -107,7 +107,7 @@ EC運営で一番つまずきやすいのは「商品・バリエーション・
 
 ### 商品作成フォーム（/admin/products/create）
 
-![商品作成フォーム。基本情報・メディア・バリエーション・検索エンジンリスティングの各セクションと、右サイドバーのステータス・商品分類・タグ](../_analysis/screenshots/03-product-create-form.png)
+![商品作成フォーム。基本情報・メディア・バリエーション・検索エンジンリスティングの各セクションと、右サイドバーのステータス・商品分類・タグ](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/03-product-create-form.png)
 
 #### 基本情報
 
@@ -170,7 +170,7 @@ EC運営で一番つまずきやすいのは「商品・バリエーション・
 
 ### バリエーション作成フォーム（/admin/products/{id}/variants/create）
 
-![バリエーション作成フォーム。左ペインにバリエーション一覧、右ペインにオプション・価格設定・在庫・販売・配送・関税情報の入力欄](../_analysis/screenshots/03-variant-create-form-v2.png)
+![バリエーション作成フォーム。左ペインにバリエーション一覧、右ペインにオプション・価格設定・在庫・販売・配送・関税情報の入力欄](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/03-variant-create-form-v2.png)
 
 #### オプション（必須）
 

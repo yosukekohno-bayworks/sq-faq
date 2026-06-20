@@ -121,7 +121,7 @@ CSVファイルをアップロードして「保存する」を押す。
 
 **販売可能在庫の補足（画面内の説明原文）**: 「現在の在庫数が10のとき、CSVで20を指定すると、絶対値で反映した場合の在庫数は20になります。差分値で反映した場合の在庫数は30になります。」
 
-![販売可能在庫のインポートフォーム（ラジオ選択 + ファイル）](../_analysis/screenshots/15-csv-import-inventory-create.png)
+![販売可能在庫のインポートフォーム（ラジオ選択 + ファイル）](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/15-csv-import-inventory-create.png)
 
 #### パターンC：ルール選択 + ファイル
 
@@ -154,7 +154,7 @@ CSVファイルをアップロードして「保存する」を押す。
 
 ポイント一括加算には以下の2フィールドが追加されている。
 
-![ポイント一括加算のインポートフォーム（テナント・顧客IDの種別）](../_analysis/screenshots/15-csv-import-point-plus-create.png)
+![ポイント一括加算のインポートフォーム（テナント・顧客IDの種別）](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/15-csv-import-point-plus-create.png)
 
 | 項目（UIラベル） | 説明 | 選択肢 |
 |:--|:--|:--|
@@ -171,7 +171,7 @@ CSVファイルをアップロードして「保存する」を押す。
 
 #### 実行履歴の詳細画面で確認できる項目
 
-![CSVインポート操作の詳細画面（検証・実行ステータス）](../_analysis/screenshots/gap-csv-import-detail-success.png)
+![CSVインポート操作の詳細画面（検証・実行ステータス）](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/gap-csv-import-detail-success.png)
 
 | 項目（UIラベル） | 説明 |
 |:--|:--|

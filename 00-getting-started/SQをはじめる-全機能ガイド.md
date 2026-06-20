@@ -20,7 +20,7 @@ tags: [はじめに, 全体像, 初心者向け]
 2. お客様が見る購入画面ではなく、**運営スタッフが使う管理画面**です。
 3. いちばんの特徴は、**倉庫と店舗のあいだで在庫を取り寄せる流れ**を伝票でしっかり管理できることです。
 
-![SQのホーム画面。左のサイドナビと、商品管理・在庫管理・注文管理などへのクイックリンク](../_analysis/screenshots/01-home.png)
+![SQのホーム画面。左のサイドナビと、商品管理・在庫管理・注文管理などへのクイックリンク](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/01-home.png)
 
 ### たとえで言うと
 

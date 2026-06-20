@@ -53,7 +53,7 @@ last_verified: 2026-06-16
 
 ### ステップ 3: テナントと顧客IDの種別を選択する
 
-![ポイント一括付与のインポート実行フォーム](../_analysis/screenshots/gap-csv-acct-point-plus-customer-id-type.png)
+![ポイント一括付与のインポート実行フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/gap-csv-acct-point-plus-customer-id-type.png)
 
 1. 「テナント」のセレクトボックスをクリックし、加算対象のテナントを選択する。
 

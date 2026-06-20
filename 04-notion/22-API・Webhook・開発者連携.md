@@ -55,7 +55,7 @@ SQの管理画面で入力したデータ（商品・注文・在庫・顧客な
 
 ### アプリ作成フォーム
 
-![アプリ作成フォーム](../_analysis/screenshots/14-apps-create-full.png)
+![アプリ作成フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/14-apps-create-full.png)
 
 フォームのパス: `/admin/settings/apps/create`
 

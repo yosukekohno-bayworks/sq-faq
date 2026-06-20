@@ -25,7 +25,7 @@ last_verified: 2026-06-10
 
 画面名: 「OmnibusCore連携を作成する」
 
-![「OmnibusCore連携を作成する」フォーム](../_analysis/screenshots/gap-channels-omnibus-create-form.png)
+![「OmnibusCore連携を作成する」フォーム](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/gap-channels-omnibus-create-form.png)
 
 #### 基本情報
 
@@ -78,7 +78,7 @@ URL: `/admin/omnibus_core_integrations/{id}`
 
 #### タブ1: 基本設定
 
-![詳細・編集画面の「基本設定」タブ](../_analysis/screenshots/gap-channels-omnibus-detail.png)
+![詳細・編集画面の「基本設定」タブ](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/gap-channels-omnibus-detail.png)
 
 作成フォームの全セクション（商品同期設定・在庫設定・注文設定）に加え、以下の項目があります。
 
@@ -95,7 +95,7 @@ URL: `/admin/omnibus_core_integrations/{id}`
 
 「追加する」ボタンから「連携サイトを追加する」ダイアログを開きます。
 
-![「連携サイトを追加する」ダイアログ](../_analysis/screenshots/gap-channels-omnibus-site-dialog.png)
+![「連携サイトを追加する」ダイアログ](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/gap-channels-omnibus-site-dialog.png)
 
 **「連携サイトを追加する」ダイアログの項目**:
 
