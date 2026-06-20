@@ -1,0 +1,47 @@
+/admin/b2b/create	このページは存在しないようです		
+/admin/catalogs/create	カタログを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	タイトル
+/admin/companies/create	会社を作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	会社名 | 会社ID | ロケーション名 | ロケーションID | コード | 国/地域 | 性 | 名 | 会社 | 郵便番号 | 都道府県 | 市区町村 | 住所 | 建物名、部屋番号など | 電話番号 | 配送先住所と同じ
+/admin/csv_export/csv_export_operation_point_changes/create	ポイント変動履歴をCSVでエクスポートする	stack-ps-yosuke\n\n陽介 河野 | エクスポートを開始する	テナント | 開始日時 | 終了日時
+/admin/csv_export/csv_export_operation_sale_changes/create	売上実績（注文軸）をCSVでエクスポートする	stack-ps-yosuke\n\n陽介 河野 | エクスポートを開始する	テナント | 開始日時 | 終了日時
+/admin/csv_import/csv_import_operation_catalog_products/create	カタログ商品をCSVでインポートする	stack-ps-yosuke\n\n陽介 河野 | ファイルを選択する | 保存する	カタログ | ファイルをアップロード
+/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create	キャンペーン対象商品をCSVでインポートする	stack-ps-yosuke\n\n陽介 河野 | 検索 | ファイルを選択する | 保存する	ポイントキャンペーン | ファイルをアップロード
+/admin/csv_import/csv_import_operation_point_pluses/create	ポイントをCSVで一括付与する	stack-ps-yosuke\n\n陽介 河野 | ファイルを選択する | 保存する	テナント | 顧客IDの種別 | ファイルをアップロード
+/admin/csv_import/csv_import_operation_products/create	商品をCSVでインポートする	stack-ps-yosuke\n\n陽介 河野 | ファイルを選択する | 保存する	ファイルをアップロード
+/admin/customer_rank_calculation_rules/37f5da19-..._CustomerRankCalculationRule/customer_rank_rules/create		stack-ps-yosuke\n\n陽介 河野	
+/admin/draft_orders/create		stack-ps-yosuke\n\n陽介 河野 | 再実行	
+/admin/inventory_adjustment_orders/create	調整伝票を作成する	stack-ps-yosuke\n\n陽介 河野 | 選択 | 参照 | 保存する	ロケーション
+/admin/inventory_allocation_requests/create	在庫依頼を作成する	stack-ps-yosuke\n\n陽介 河野 | 選択 | 保存する	商品バリエーション | 希望数 | 移動先ロケーション | リクエスト先ロケーション
+/admin/inventory_back_order_rules/create	予約販売のルールを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	タイトル
+/admin/inventory_movement_orders/create	移動伝票を作成する	stack-ps-yosuke\n\n陽介 河野 | 選択 | 参照 | 保存する	配送元 | 配送先 | 商品を追加する
+/admin/inventory_purchase_orders/create	発注伝票を作成	stack-ps-yosuke\n\n陽介 河野 | 参照 | 取り消す | 作成する	取引先 | テナント | 通貨 | 商品を追加する
+/admin/inventory_sale_limit_rules/create	販売上限ルールを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	販売上限ルール名
+/admin/inventory_suppliers/create	このページは存在しないようです		
+/admin/inventory_threshold_rules/create	販売閾値ルールを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	ルール名 | デフォルトの閾値を設定する
+/admin/local_pickup_retail_location_rules/create	店舗受取を作成する	stack-ps-yosuke\n\n陽介 河野 | 選択 | 保存する	ロケーション
+/admin/omnibus_core_integrations/create	OmnibusCore連携を作成する	stack-ps-yosuke\n\n陽介 河野 | オプションを追加 | 保存する	テナント | メーカーコード | カタログ | カラーオプション名 | サイズオプション名 | ロケーショングループ | 在庫予約ルール | 販売上限ルール | 下書き注文の有効期限日数
+/admin/order_price_adjustment_rules/create	ディスカウントを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	タイトル | 説明文 | クーポンコード | テナント | 割引方法 | 割引率 | 割引が適用可能な最高購入額を設定する | 最低購入額 | 最低購入数量 | すべての商品を割引対象に設定する | お客様1人につき1回のみの使用とする | 開始日時 | 終了日時
+/admin/order_returns/create	このページは存在しないようです		
+/admin/point_application_excluded_products/create	利用外商品を追加する	stack-ps-yosuke\n\n陽介 河野 | 選択 | 保存する	商品を選択する
+/admin/point_calculation_birthday_rules/create	誕生日ポイント付与ルールを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	タイトル | 表示タイトル | ポイント | 有効期間
+/admin/point_campaign_order_rules/create	ポイントキャンペーンを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	タイトル | 開始日時 | 終了日時 | ポイントキャンペーン種別
+/admin/point_expiration_notification_rule/create	ポイント失効通知ルールを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	タイトル | 通知予定日
+/admin/product_price_rules/create	販売価格ルールを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	ルール名 | 通貨
+/admin/products/2c32fb97.../variants/create		stack-ps-yosuke\n\n陽介 河野 | 再実行	
+/admin/products/create	商品を作成する	stack-ps-yosuke\n\n陽介 河野 | 追加 | 削除 | 別のオプションを追加する | 選択 | 保存する	商品コード | 商品名 | 説明文 | 画像をアップロード | オプション名 | 種別 | オプション値 | コード | ページタイトル | メタディスクリプション | 商品タイプ | 製造元 | ブランド
+/admin/purchasing_customers/create		stack-ps-yosuke\n\n陽介 河野 | 再実行	
+/admin/recustomer_integrations/create	アカウントを接続する	stack-ps-yosuke\n\n陽介 河野 | 保存する	ストアID | シークレット
+/admin/retail_portal_integrations/create	リテールポータル	stack-ps-yosuke\n\n陽介 河野 | 選択 | 保存する	店舗ロケーション | 在庫ロケーション | テナント | カタログ | 販売閾値ルール | リテールポータルで販売員の選択を必須にする | 配送先住所の編集を許可する | 下書き注文の送料明細の編集を許可する | 下書き注文の注文明細の価格の編集を許可する | 下書き注文の完了を許可する
+/admin/sale_change_line_items/create	このページは存在しないようです		
+/admin/settings/brands/create	ブランド	stack-ps-yosuke\n\n陽介 河野 | 保存する	名前 | 外部ID | コード
+/admin/settings/location_groups/create	グループを作成	stack-ps-yosuke\n\n陽介 河野 | 選択 | 保存する	名前 | ロケーション
+/admin/settings/locations/create	ロケーションを作成	stack-ps-yosuke\n\n陽介 河野 | 保存する	名前 | 表示名 | コード | 場所種別 | ロケーションの住所を登録する | マップ | 電話番号 | メールアドレス | 店舗受け取りを有効にする | 在庫依頼を受け付ける | ポイント利用種別
+/admin/settings/metafield_definitions/product/create	商品メタフィールドの定義を追加する	stack-ps-yosuke\n\n陽介 河野 | 保存する	名前 | 説明 | ネームスペース | キー | メタフィールドのタイプ
+/admin/settings/payment_methods/create	決済方法を作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	名前 | コード | ゲートウェイ | 支払い待ちでも注文を出荷する | 代引き
+/admin/settings/permission_groups/create	権限グループを作成する	stack-ps-yosuke\n\n陽介 河野 | 作成する	グループ名 | お知らせの閲覧権限（announcements:read） | お知らせの編集権限（announcements:write） | アプリの閲覧権限（apps:read） | アプリの編集権限（apps:write） | ブランドの閲覧権限（brands:read） | ブランドの編集権限（brands:write） | カタログの閲覧権限（catalogs:read） | カタログの編集権限（catalogs:write） | 取引先企業の閲覧権限（companies:read） | 取引先企業の編集権限（companies:write） | 顧客マイルの閲覧権限（customer_miles:read） | 顧客マイルの編集権限（customer_miles:write） | 顧客ポイントの閲覧権限（customer_points:read） | 顧客ポイントの編集権限（customer_points:write） | 顧客会員ランクルールの閲覧権限（customer_rank_rules:read） | 顧客会員ランクルールの編集権限（customer_rank_rules:write） | 顧客会員ランクの閲覧権限（customer_ranks:read） | 顧客会員ランクの編集権限（customer_ranks:write） | 顧客の閲覧権限（customers:read） | 顧客の編集権限（customers:write） | ディスカウントの閲覧権限（discounts:read） | ディスカウントの編集権限（discounts:write） | 下書き注文の閲覧権限（draft_orders:read） | 下書き注文の編集権限（draft_orders:write） | 在庫の閲覧権限（inventory:read） | 在庫の編集権限（inventory:write） | 在庫リクエストの閲覧権限（inventory_allocation_requests:read） | 在庫リクエストの編集権限（inventory_allocation_requests:write） | 店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read） | 店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write） | ロケーショングループの閲覧権限（location_groups:read） | ロケーショングループの編集権限（location_groups:write） | ロケーションの閲覧権限（locations:read） | ロケーションの編集権限（locations:write） | マイル商品の閲覧権限（mile_items:read） | マイル商品の編集権限（mile_items:write） | OmnibusCore連携の閲覧権限（omnibus_core_integrations:read） | OmnibusCore連携の編集権限（omnibus_core_integrations:write） | 注文の閲覧権限（orders:read） | 注文の編集権限（orders:write） | ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read） | ポイントキャンペーンの編集権限（point_campaign_order_rules:write） | ポイントルールの閲覧権限（point_rules:read） | ポイントルールの編集権限（point_rules:write） | 販売価格ルールの閲覧権限（product_price_rules:read） | 販売価格ルールの編集権限（product_price_rules:write） | 商品の閲覧権限（products:read） | 商品の編集権限（products:write） | 店舗ポータル連携の閲覧権限（retail_portal_integrations:read） | 店舗ポータル連携の編集権限（retail_portal_integrations:write） | 店舗スタッフの閲覧権限（retail_staff_members:read） | 店舗スタッフの編集権限（retail_staff_members:write） | 売上データの閲覧権限（sales:read） | 売上データの編集権限（sales:write） | Shopify連携の閲覧権限（shopify_integrations:read） | Shopify連携の編集権限（shopify_integrations:write） | スマレジ連携の閲覧権限（smaregi_integrations:read） | スマレジ連携の編集権限（smaregi_integrations:write） | テナントの閲覧権限（tenants:read） | テナントの編集権限（tenants:write） | 翻訳ルールの閲覧権限（translation_rules:read） | 翻訳ルールの編集権限（translation_rules:write） | 翻訳の閲覧権限（translations:read） | 翻訳の編集権限（translations:write） | ユーザー権限の閲覧権限（user_permissions:read） | ユーザー権限の編集権限（user_permissions:write） | ユーザーテナントの閲覧権限（user_tenants:read） | ユーザーテナントの編集権限（user_tenants:write） | ユーザーの閲覧権限（users:read） | ユーザーの編集権限（users:write）
+/admin/settings/product_measurement_rules/create	採寸ルールを作成する	stack-ps-yosuke\n\n陽介 河野 | 採寸項目を追加 | 保存する	ルール名 | 採寸単位 | 採寸項目1
+/admin/settings/retail_staff_members/create	販売員を作成する	stack-ps-yosuke\n\n陽介 河野 | 検索する | 保存する	姓 | 名 | コード | ロケーション
+/admin/settings/suppliers/create	取引先を作成	stack-ps-yosuke\n\n陽介 河野 | 保存する	取引先名
+/admin/settings/translation/translation_rules/create	翻訳ルールを作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	名前 | 言語 | 翻訳データを自動で作成する
+/admin/settings/users/create	ユーザーを追加する	stack-ps-yosuke\n\n陽介 河野 | 保存する	姓 | 名 | メールアドレス | 特権管理者 | TEST_FAQ_店舗スタッフ
+/admin/shopify_integrations/create	ストアを連携する	stack-ps-yosuke\n\n陽介 河野 | 連携する	ストア名 | ショップドメイン | テナント | カタログ | ロケーショングループ | 販売価格ルール | 会員証バーコードのフォーマット | 商品価格は税込価格を連携する | 0円の商品バリエーションを連携する | 送料は税込として処理する | 注文による在庫変動を起こさない
+/admin/smaregi_integrations/create	スマレジ連携を作成する	stack-ps-yosuke\n\n陽介 河野 | 保存する	名前 | テナント | 契約ID | プラン | カタログ | 在庫同期の方向 | 注文による在庫変動を起こさない

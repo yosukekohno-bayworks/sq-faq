@@ -1,0 +1,209 @@
+- generic [active] [ref=e1] [box=0,-6804,1600,1000]:
+  - generic [ref=e16] [box=0,-6804,1600,7804]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e19] [box=0,0,1600,56]:
+      - link [ref=e22] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e24] [box=1040,0,560,56]:
+        - button [ref=e28] [cursor=pointer] [box=1404,12,32,32]:
+          - img [ref=e30] [box=1410,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer] [box=1444,12,148,32]:
+          - generic [ref=e35] [box=1446,14,116,28]:
+            - paragraph [ref=e36] [box=1456,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e38] [box=1456,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40] [box=1562,14,28,28]
+    - generic "メニュー" [ref=e41] [box=0,56,240,944]:
+      - navigation [ref=e42] [box=0,56,240,944]:
+        - generic [ref=e43] [box=0,56,240,944]:
+          - list [ref=e44] [box=0,72,240,268]:
+            - listitem [ref=e45] [box=0,72,240,28]:
+              - link "ホーム" [ref=e48] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e51] [box=20,76,20,20]
+                - generic [ref=e53] [box=48,76,176,20]: ホーム
+            - listitem [ref=e54] [box=0,100,240,28]:
+              - link "商品管理" [ref=e57] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e60] [box=20,104,20,20]
+                - generic [ref=e62] [box=48,104,176,20]: 商品管理
+            - listitem [ref=e63] [box=0,128,240,28]:
+              - link "在庫管理" [ref=e66] [cursor=pointer] [box=12,128,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e69] [box=20,132,20,20]
+                - generic [ref=e71] [box=48,132,176,20]: 在庫管理
+            - listitem [ref=e72] [box=0,156,240,28]:
+              - link "注文管理" [ref=e75] [cursor=pointer] [box=12,156,216,28]:
+                - /url: /admin/orders
+                - img [ref=e78] [box=20,160,20,20]
+                - generic [ref=e80] [box=48,160,172,20]: 注文管理
+            - listitem [ref=e81] [box=0,184,240,28]:
+              - link "顧客管理" [ref=e84] [cursor=pointer] [box=12,184,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e87] [box=20,188,20,20]
+                - generic [ref=e90] [box=48,188,176,20]: 顧客管理
+            - listitem [ref=e91] [box=0,212,240,28]:
+              - link "発注管理" [ref=e94] [cursor=pointer] [box=12,212,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e97] [box=20,216,20,20]
+                - generic [ref=e100] [box=48,216,176,20]: 発注管理
+            - listitem [ref=e101] [box=0,240,240,28]:
+              - link "販売設定" [ref=e104] [cursor=pointer] [box=12,240,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e107] [box=20,244,20,20]
+                - generic [ref=e112] [box=48,244,176,20]: 販売設定
+            - listitem [ref=e113] [box=0,268,240,28]:
+              - link "会計" [ref=e116] [cursor=pointer] [box=12,268,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e119] [box=20,272,20,20]
+                - generic [ref=e121] [box=48,272,176,20]: 会計
+            - listitem [ref=e122] [box=0,296,240,28]:
+              - generic [ref=e123] [box=0,296,240,28]:
+                - generic [box=12,296,216,28]
+          - list [ref=e124] [box=0,340,240,132]:
+            - listitem [ref=e125] [box=0,348,240,24]:
+              - generic [ref=e126] [box=20,352,216,16]: オペレーション
+            - listitem [ref=e127] [box=0,372,240,28]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e130] [cursor=pointer] [box=12,372,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e133] [box=20,376,20,20]
+                - generic [ref=e137] [box=48,376,151,20]: 入荷管理
+                - generic [ref=e139] [box=203,376,21,20]
+            - listitem [ref=e142] [box=0,400,240,28]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e145] [cursor=pointer] [box=12,400,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e148] [box=20,404,20,20]
+                - generic [ref=e150] [box=48,404,151,20]: 出荷管理
+                - generic [ref=e152] [box=203,404,21,20]
+            - listitem [ref=e155] [box=0,428,240,28]:
+              - link "在庫依頼" [ref=e158] [cursor=pointer] [box=12,428,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161] [box=20,432,20,20]
+                - generic [ref=e164] [box=48,432,172,20]: 在庫依頼
+          - list [ref=e165] [box=0,472,240,132]:
+            - listitem [ref=e166] [box=0,480,240,24]:
+              - generic [ref=e167] [box=20,484,216,16]: CRM
+            - listitem [ref=e168] [box=0,504,240,28]:
+              - link "ディスカウント" [ref=e171] [cursor=pointer] [box=12,504,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e174] [box=20,508,20,20]
+                - generic [ref=e176] [box=48,508,176,20]: ディスカウント
+            - listitem [ref=e177] [box=0,532,240,28]:
+              - link "ポイント" [ref=e180] [cursor=pointer] [box=12,532,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e183] [box=20,536,20,20]
+                - generic [ref=e185] [box=48,536,176,20]: ポイント
+            - listitem [ref=e186] [box=0,560,240,28]:
+              - link "会員ランク" [ref=e189] [cursor=pointer] [box=12,560,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e192] [box=20,564,20,20]
+                - generic [ref=e195] [box=48,564,176,20]: 会員ランク
+          - list [ref=e196] [box=0,604,240,344]:
+            - listitem [ref=e197] [box=0,612,240,24]:
+              - generic [ref=e198] [box=20,616,216,16]: 販売チャネル
+            - listitem [ref=e199] [box=0,636,240,28]:
+              - link "Shopify" [ref=e202] [cursor=pointer] [box=12,636,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e203] [box=20,640,204,20]: Shopify
+            - listitem [ref=e204] [box=0,664,240,28]:
+              - link "OmnibusCore" [ref=e207] [cursor=pointer] [box=12,664,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e208] [box=20,668,204,20]: OmnibusCore
+            - listitem [ref=e209] [box=0,692,240,28]:
+              - link "スマレジ" [ref=e212] [cursor=pointer] [box=12,692,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e213] [box=20,696,204,20]: スマレジ
+            - listitem [ref=e214] [box=0,720,240,28]:
+              - link "リテールポータル" [ref=e217] [cursor=pointer] [box=12,720,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e218] [box=20,724,204,20]: リテールポータル
+            - listitem [ref=e219] [box=0,748,240,28]:
+              - generic [ref=e220] [box=0,748,240,28]:
+                - generic [box=12,748,216,28]
+          - list [ref=e221] [box=0,948,240,52]:
+            - listitem [ref=e222] [box=0,956,240,28]:
+              - link "設定" [ref=e225] [cursor=pointer] [box=12,956,216,28]:
+                - /url: /admin/settings
+                - img [ref=e228] [box=20,960,20,20]
+                - generic [ref=e230] [box=48,960,176,20]: 設定
+    - main [ref=e231] [box=0,-6804,1600,7804]:
+      - generic [ref=e484] [box=421,-6748,998,7716]:
+        - generic [ref=e485] [box=445,-6748,950,76]:
+          - status [box=445,-6724,950,0]:
+            - paragraph [ref=e486] [box=445,-6748,1,1]: TEST_FAQ_COVERAGE_20260615_TRANSLATION_RULE_EDIT。このページの準備が整いました
+          - generic [ref=e488] [box=445,-6724,950,28]:
+            - link [ref=e491] [cursor=pointer] [box=445,-6724,28,28]:
+              - /url: /admin/settings/translation/translation_rules
+              - img [ref=e494] [box=449,-6720,20,20]
+            - heading "TEST_FAQ_COVERAGE_20260615_TRANSLATION_RULE_EDIT" [level=1] [ref=e713] [box=477,-6722,588,24]
+        - generic [ref=e500] [box=429,-6688,966,7656]:
+          - generic [ref=e502] [box=445,-6672,950,7564]:
+            - generic [ref=e505] [box=461,-6656,918,128]:
+              - generic [ref=e507] [box=461,-6656,918,56]:
+                - generic [ref=e510] [box=461,-6656,37,20]: 名前*
+                - textbox "名前*" [ref=e514] [box=461,-6632,918,32]: TEST_FAQ_COVERAGE_20260615_TRANSLATION_RULE_EDIT
+              - generic [ref=e516] [box=461,-6584,918,56]:
+                - generic [ref=e519] [box=461,-6584,26,20]: 言語
+                - generic [ref=e520] [box=461,-6560,918,32]
+            - generic [ref=e532] [box=461,-6480,918,64]:
+              - heading "各種設定" [level=2] [ref=e533] [box=461,-6480,918,20]
+              - generic [ref=e534] [cursor=pointer] [box=461,-6444,918,28]:
+                - generic [ref=e536] [box=462,-6438,16,16]
+                - generic [ref=e539] [box=487,-6440,169,20]: 翻訳データを自動で作成する
+            - generic [ref=e542] [box=461,-6368,918,1630]:
+              - heading "商品" [level=2] [ref=e543] [box=461,-6368,918,20]
+              - generic [ref=e544] [box=461,-6332,918,1334]:
+                - generic [ref=e547] [box=461,-6332,78,20]: 親プロンプト
+                - textbox "親プロンプト" [ref=e551] [box=461,-6308,918,1310]: "# OBJECTIVE: 商品情報を高品質に翻訳する。 # PERSONA: あなたは、グローバルなEコマース市場におけるマーケティングとコピーライティングに精通した翻訳のスペシャリストです。 あらゆる言語をネイティブレベルで使いこなし、単に言語を置き換えるだけでなく、商品の魅力を最大限に引き出し、顧客の購買意欲を高める「トランスクリエーション」を得意としています。 # INSTRUCTIONS: 以下の思考プロセスとルールに従って、提供された商品情報を翻訳してください。 **思考プロセス (Chain of Thought):** 1. まず、提供された原文の商品情報を注意深く読み、商品の主要な特徴、素材、利点、用途を完全に理解します。 2. 次に、その商品がどのようなキーワードで検索するかを推測し、最も重要と思われるキーワードをいくつか特定します。 3. 特定したキーワードを効果的に使用し、商品情報を翻訳します。翻訳先の言語圏の顧客にとって魅力的な文章を作成してください。原文の意図を汲み取りつつ、ただの直訳ではなく、商品のストーリーや価値が伝わるような、説得力のある文章を作成します。箇条書きや段落などの構造は維持してください。 4. 翻訳された商品情報が、Eコマースの商品ページとして自然で魅力的かを確認し、必要であれば調整します。 5. 最後に、翻訳結果全体を見直し、誤字脱字がないかを確認します。 **翻訳ルール:** - **SEOの意識:** 翻訳後の商品情報には、顧客が検索しそうな一般的なキーワード（例：素材、用途、スタイルなど）を自然に含めてください。 - **魅力的な表現:** 専門用語は避け、顧客の感情やライフスタイルに訴えかけるような言葉を選んでください。 - **固有名詞の扱い:** 固有名詞や造語と思われる部分は、文脈から判断し、最も適切と思われる一般的な表現に置き換えるか、意味が通じるように表記してください。 # EXAMPLE: 以下は、このタスクの優れた実行例です。 **入力例:** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"title\": \"長袖裾フリルカットソー\", \"description\": \"トレンドのレイヤードスタイルが楽しめるインナー。全てオフホワイトカラーをベースにして、裾はギャザーフリルの無地、レース、シボ感のある布帛のバルーンデザインの3展開です。生地に合わせて裾のギャザーと分量、切り替え位置を変えています。身頃と袖は無地のシアーカットソーを使用。ニットやスウェットとレイヤードして裾からフリルを出すと、スタイリングのアクセントになります。お持ちのトップスと合わせるだけで、今季らしいレイヤードスタイルが楽しめます。<br>※モデルの着用画像の場合、光の当たり具合により、実際の色味と異なって見えることがございます。色味は、商品単体の画像をご参照ください。\" } } **出力例:** { \"title\": \"Sheer Long-Sleeve Frill Hem Layering Top\", \"description\": \"Elevate your layered looks with this versatile inner top. Available in three distinct off-white designs, each featuring a unique frilled hem: a classic plain gathered ruffle, delicate lace, and a stylish textured fabric balloon design. The gathering, volume, and seam placement are meticulously adjusted to complement each fabric's unique drape and texture. The body and sleeves are crafted from a soft, plain sheer cut-and-sew material, perfect for peeking out from under sweaters, knitwear, or sweatshirts. The delicate frill adds a touch of playful elegance and instantly updates your look. Effortlessly achieve this season's most coveted layered style by simply pairing it with your existing wardrobe.<br>Please note: Due to lighting conditions, the color of the product in model images may appear slightly different from the actual item. For the most accurate color representation, please refer to the product-only images.\" } # TASK: 提供された商品情報を、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。 # ADDITIONAL RULES: 以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。 {{ここにカスタムプロンプトが挿入されます}}"
+              - status [ref=e552] [box=461,-4982,918,58]:
+                - generic [ref=e555] [box=469,-4974,826,42]
+              - generic [ref=e569] [box=461,-4908,918,170]:
+                - generic [ref=e572] [box=461,-6384,116,20]: カスタムプロンプト
+                - textbox "カスタムプロンプト" [ref=e576] [box=461,-4908,918,170]:
+                  - /placeholder: 例）商品の説明文の翻訳は150字以内にまとめてください
+            - generic [ref=e579] [box=461,-4690,918,1850]:
+              - heading "商品オプション" [level=2] [ref=e580] [box=461,-4690,918,20]
+              - generic [ref=e581] [box=461,-4654,918,1554]:
+                - generic [ref=e584] [box=461,-4654,78,20]: 親プロンプト
+                - textbox "親プロンプト" [ref=e588] [box=461,-4630,918,1530]: "# OBJECTIVE: 提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。 # PERSONA: あなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。 単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。 # INSTRUCTIONS: 以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。 **思考プロセス (Chain of Thought):** 1. 提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。 2. 原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。 3. 原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。 4. 直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。 5. 翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。 **翻訳ルール:** - **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。 - **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。 - **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。 - **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。 - **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。 - **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。 # EXAMPLE: 以下は、このタスクの優れた実行例です。 **入力例:** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"capacity\": \"500ml\", \"material\": \"本体: SUS304 / パッキン: シリコーン\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"手洗い推奨\" } } **出力例:** { \"capacity\": \"500ml\", \"material\": \"Body: SUS304 / Gasket: Silicone\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"Hand wash recommended\" } **入力例 (JSON値を含む場合):** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\" } } **出力例 (JSON値を含む場合):** { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\" } # TASK: 提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。 # ADDITIONAL RULES: 以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。 {{ここにカスタムプロンプトが挿入されます}}"
+              - status [ref=e589] [box=461,-3084,918,58]:
+                - generic [ref=e592] [box=469,-3076,826,42]
+              - generic [ref=e606] [box=461,-3010,918,170]:
+                - generic [ref=e609] [box=461,-4706,116,20]: カスタムプロンプト
+                - textbox "カスタムプロンプト" [ref=e613] [box=461,-3010,918,170]:
+                  - /placeholder: 例）商品オプションの翻訳は150字以内にまとめてください
+            - generic [ref=e616] [box=461,-2792,918,1770]:
+              - heading "商品オプション値" [level=2] [ref=e617] [box=461,-2792,918,20]
+              - generic [ref=e618] [box=461,-2756,918,1554]:
+                - generic [ref=e621] [box=461,-2756,78,20]: 親プロンプト
+                - textbox "親プロンプト" [ref=e625] [box=461,-2732,918,1530]: "# OBJECTIVE: 提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。 # PERSONA: あなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。 単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。 # INSTRUCTIONS: 以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。 **思考プロセス (Chain of Thought):** 1. 提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。 2. 原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。 3. 原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。 4. 直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。 5. 翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。 **翻訳ルール:** - **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。 - **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。 - **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。 - **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。 - **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。 - **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。 # EXAMPLE: 以下は、このタスクの優れた実行例です。 **入力例:** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"capacity\": \"500ml\", \"material\": \"本体: SUS304 / パッキン: シリコーン\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"手洗い推奨\" } } **出力例:** { \"capacity\": \"500ml\", \"material\": \"Body: SUS304 / Gasket: Silicone\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"Hand wash recommended\" } **入力例 (JSON値を含む場合):** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\" } } **出力例 (JSON値を含む場合):** { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\" } # TASK: 提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。 # ADDITIONAL RULES: 以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。 {{ここにカスタムプロンプトが挿入されます}}"
+              - status [ref=e626] [box=461,-1186,918,58]:
+                - generic [ref=e629] [box=469,-1178,826,42]
+              - generic [ref=e643] [box=461,-1112,918,90]:
+                - generic [ref=e646] [box=461,-2808,116,20]: カスタムプロンプト
+                - textbox "カスタムプロンプト" [ref=e650] [box=461,-1112,918,90]:
+                  - /placeholder: 例）商品オプション値の翻訳は150字以内にまとめてください
+            - generic [ref=e653] [box=461,-974,918,1850]:
+              - heading "メタフィールド" [level=2] [ref=e654] [box=461,-974,918,20]
+              - generic [ref=e655] [box=461,-938,918,1554]:
+                - generic [ref=e658] [box=461,-938,78,20]: 親プロンプト
+                - textbox "親プロンプト" [ref=e662] [box=461,-914,918,1530]: "# OBJECTIVE: 提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。 # PERSONA: あなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。 単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。 # INSTRUCTIONS: 以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。 **思考プロセス (Chain of Thought):** 1. 提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。 2. 原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。 3. 原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。 4. 直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。 5. 翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。 **翻訳ルール:** - **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。 - **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。 - **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。 - **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。 - **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。 - **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。 # EXAMPLE: 以下は、このタスクの優れた実行例です。 **入力例:** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"capacity\": \"500ml\", \"material\": \"本体: SUS304 / パッキン: シリコーン\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"手洗い推奨\" } } **出力例:** { \"capacity\": \"500ml\", \"material\": \"Body: SUS304 / Gasket: Silicone\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"Hand wash recommended\" } **入力例 (JSON値を含む場合):** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\" } } **出力例 (JSON値を含む場合):** { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\" } # TASK: 提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。 # ADDITIONAL RULES: 以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。 {{ここにカスタムプロンプトが挿入されます}}"
+              - status [ref=e663] [box=461,632,918,58]:
+                - generic [ref=e666] [box=469,640,826,42]
+              - generic [ref=e680] [box=461,706,918,170]:
+                - generic [ref=e683] [box=461,-990,116,20]: カスタムプロンプト
+                - textbox "カスタムプロンプト" [ref=e687] [box=461,706,918,170]:
+                  - /placeholder: 例）メタフィールドの翻訳は150字以内にまとめてください
+          - generic [ref=e691] [box=1323,924,72,28]:
+            - button "保存する" [disabled] [box=1323,924,72,28]:
+              - generic [box=1335,930,48,16]: 保存する
+  - region "Notifications alt+T" [box=0,1000,1600,0]:
+    - list [box=622,976,356,0]:
+      - listitem [ref=e714] [box=622,923,356,54]:
+        - button "Close toast" [ref=e715] [cursor=pointer] [box=616,917,20,20]:
+          - img [ref=e716] [box=620,921,12,12]
+        - img [ref=e720] [box=635,939,20,20]
+        - generic [ref=e723] [box=662,940,155,20]: 翻訳ルールを更新しました
+  - alert [ref=e15] [box=-1,999,1,1]

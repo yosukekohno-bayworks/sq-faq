@@ -1,0 +1,121 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイントキャンペーンを作成する。このページの準備が整いました\n\nポイントキャンペーンを作成する\nタイトル\n開始日時\n終了日時\nポイントキャンペーン種別\n選択してください\nなし\n会員ランク\n購入金額\n商品\n選択してください\n保存する",
+  "fields": [
+    {
+      "i": 0,
+      "tag": "input",
+      "type": "text",
+      "id": ":r1f:",
+      "value": "",
+      "placeholder": "ポイントキャンペーン名",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "タイトル"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "input",
+      "type": "datetime-local",
+      "id": ":r1h:",
+      "value": "",
+      "placeholder": null,
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "開始日時"
+      ]
+    },
+    {
+      "i": 2,
+      "tag": "input",
+      "type": "datetime-local",
+      "id": ":r1i:",
+      "value": "",
+      "placeholder": null,
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "終了日時"
+      ]
+    },
+    {
+      "i": 3,
+      "tag": "select",
+      "type": null,
+      "id": ":r1j:",
+      "value": "",
+      "placeholder": null,
+      "disabled": false,
+      "labels": [
+        "ポイントキャンペーン種別"
+      ],
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {
+          "text": "なし",
+          "value": "NONE",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "会員ランク",
+          "value": "CUSTOMER_RANK",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "購入金額",
+          "value": "PURCHASE_PRICE",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "商品",
+          "value": "PRODUCT",
+          "selected": false,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "保存する",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

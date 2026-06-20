@@ -1,0 +1,2019 @@
+{
+  "generatedAt": "2026-06-08T05:11:21.756Z",
+  "records": [
+    {
+      "url": "/admin/csv_import",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import",
+      "h1": [],
+      "buttons": [],
+      "labels": [],
+      "anchors": [],
+      "inputs": [],
+      "tableHeaders": [],
+      "importantLines": [],
+      "flags": {
+        "empty": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/01-csv_import.png"
+    },
+    {
+      "url": "/admin/csv_import/csv_import_operation_products",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products",
+      "h1": [
+        "商品をCSVでインポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "labels": [],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/csv_import",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "テンプレート",
+          "href": "https://docs.google.com/spreadsheets/d/1b2lGs4s6MDIzqTumUDt6WEE42oMv6pJ1leEoMRY4Evk",
+          "target": "_blank",
+          "download": ""
+        },
+        {
+          "text": "テンプレート",
+          "href": "https://docs.google.com/spreadsheets/d/1b2lGs4s6MDIzqTumUDt6WEE42oMv6pJ1leEoMRY4Evk",
+          "target": "_blank",
+          "download": ""
+        },
+        {
+          "text": "新規インポート",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/create",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "2026年05月20日",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/41177e6c-be8a-5066-8890-00db104c9a98_CSVImportOperationProduct",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "accept": "",
+          "placeholder": "",
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "tableHeaders": [
+        "作成日",
+        "実行ステータス"
+      ],
+      "importantLines": [
+        "商品をCSVでインポートする。このページの準備が整いました",
+        "商品をCSVでインポートする",
+        "テンプレート",
+        "新規インポート",
+        "作成日",
+        "実行ステータス",
+        "成功 完了",
+        "完了"
+      ],
+      "flags": {
+        "empty": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/02-csv_import__csv_import_operation_products.png"
+    },
+    {
+      "url": "/admin/csv_import/csv_import_operation_products/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/create",
+      "h1": [
+        "商品をCSVでインポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "labels": [
+        "ファイルをアップロード"
+      ],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/create#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "file",
+          "name": "",
+          "accept": "text/csv",
+          "placeholder": "",
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "tableHeaders": [],
+      "importantLines": [
+        "商品をCSVでインポートする。このページの準備が整いました",
+        "商品をCSVでインポートする",
+        "CSVファイル",
+        "ファイルをアップロード",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "flags": {
+        "empty": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/03-csv_import__csv_import_operation_products__create.png"
+    },
+    {
+      "url": "/admin/csv_import/csv_import_operation_product_variants",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variants",
+      "h1": [
+        "商品バリエーションをCSVでインポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "labels": [],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variants#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/csv_import",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "テンプレート",
+          "href": "https://docs.google.com/spreadsheets/d/1SK2yszMNpwOqIfHelNyLJnbLilJg4q9J0iLccKf0Uu0",
+          "target": "_blank",
+          "download": ""
+        },
+        {
+          "text": "テンプレート",
+          "href": "https://docs.google.com/spreadsheets/d/1SK2yszMNpwOqIfHelNyLJnbLilJg4q9J0iLccKf0Uu0",
+          "target": "_blank",
+          "download": ""
+        },
+        {
+          "text": "新規インポート",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variants/create",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "2026年05月20日",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variants/b5f17d05-6079-5458-8a15-d27d35384046_CSVImportOperationProductVariant",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "accept": "",
+          "placeholder": "",
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "tableHeaders": [
+        "作成日",
+        "実行ステータス"
+      ],
+      "importantLines": [
+        "商品バリエーションをCSVでインポートする。このページの準備が整いました",
+        "商品バリエーションをCSVでインポートする",
+        "テンプレート",
+        "新規インポート",
+        "作成日",
+        "実行ステータス",
+        "成功 完了",
+        "完了"
+      ],
+      "flags": {
+        "empty": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/04-csv_import__csv_import_operation_product_variants.png"
+    },
+    {
+      "url": "/admin/csv_import/csv_import_operation_product_variants/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variants/create",
+      "h1": [
+        "商品バリエーションをCSVでインポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "labels": [
+        "ファイルをアップロード"
+      ],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variants/create#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variants",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "file",
+          "name": "",
+          "accept": "text/csv",
+          "placeholder": "",
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "tableHeaders": [],
+      "importantLines": [
+        "商品バリエーションをCSVでインポートする。このページの準備が整いました",
+        "商品バリエーションをCSVでインポートする",
+        "CSVファイル",
+        "ファイルをアップロード",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "flags": {
+        "empty": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/05-csv_import__csv_import_operation_product_variants__create.png"
+    },
+    {
+      "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+      "h1": [
+        "販売可能在庫をCSVでインポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "labels": [],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/csv_import",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "テンプレート",
+          "href": "https://docs.google.com/spreadsheets/d/1UJVfvgl5wb_5FYazFowbS1UMtfOhV4nNqFkAn4c1FHI",
+          "target": "_blank",
+          "download": ""
+        },
+        {
+          "text": "テンプレート",
+          "href": "https://docs.google.com/spreadsheets/d/1UJVfvgl5wb_5FYazFowbS1UMtfOhV4nNqFkAn4c1FHI",
+          "target": "_blank",
+          "download": ""
+        },
+        {
+          "text": "新規インポート",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [],
+      "tableHeaders": [],
+      "importantLines": [
+        "販売可能在庫をCSVでインポートする。このページの準備が整いました",
+        "販売可能在庫をCSVでインポートする",
+        "テンプレート",
+        "新規インポート",
+        "アイテムが見つかりませんでした"
+      ],
+      "flags": {
+        "empty": true,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/06-csv_import__csv_import_operation_inventory_logical_available_quantities.png"
+    },
+    {
+      "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create",
+      "h1": [
+        "販売可能在庫をCSVでインポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "labels": [
+        "絶対値で反映する",
+        "差分値で反映する",
+        "ファイルをアップロード"
+      ],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": ":r18:",
+          "accept": "",
+          "placeholder": "",
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": ":r18:",
+          "accept": "",
+          "placeholder": "",
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "file",
+          "name": "",
+          "accept": "text/csv",
+          "placeholder": "",
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "tableHeaders": [],
+      "importantLines": [
+        "販売可能在庫をCSVでインポートする。このページの準備が整いました",
+        "販売可能在庫をCSVでインポートする",
+        "現在の在庫数が10のとき、CSVで20を指定すると、絶対値で反映した場合の在庫数は20になります。差分値で反映した場合の在庫数は30になります。",
+        "ファイルをアップロード",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "flags": {
+        "empty": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/07-csv_import__csv_import_operation_inventory_logical_available_quantities__create.png"
+    },
+    {
+      "url": "/admin/csv_import/csv_import_operation_catalog_products",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products",
+      "h1": [
+        "カタログ商品をCSVでインポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "labels": [],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/csv_import",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "テンプレート",
+          "href": "https://docs.google.com/spreadsheets/d/1wYoPdzYA4eRn2pjTAbwt1rwKMFVBbuAlTGPSc9WsSKw",
+          "target": "_blank",
+          "download": ""
+        },
+        {
+          "text": "テンプレート",
+          "href": "https://docs.google.com/spreadsheets/d/1wYoPdzYA4eRn2pjTAbwt1rwKMFVBbuAlTGPSc9WsSKw",
+          "target": "_blank",
+          "download": ""
+        },
+        {
+          "text": "新規インポート",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/create",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [],
+      "tableHeaders": [],
+      "importantLines": [
+        "カタログ商品をCSVでインポートする。このページの準備が整いました",
+        "カタログ商品をCSVでインポートする",
+        "テンプレート",
+        "新規インポート",
+        "アイテムが見つかりませんでした"
+      ],
+      "flags": {
+        "empty": true,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/08-csv_import__csv_import_operation_catalog_products.png"
+    },
+    {
+      "url": "/admin/csv_import/csv_import_operation_catalog_products/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/create",
+      "h1": [
+        "カタログ商品をCSVでインポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "labels": [
+        "カタログ",
+        "ファイルをアップロード"
+      ],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/create#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "accept": "",
+          "placeholder": "",
+          "disabled": false,
+          "value": [
+            "カタログを選択してください",
+            "TEST_FAQ_カタログ001",
+            "TEST_FAQ_DEEP_202606080340_カタログ"
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "file",
+          "name": "",
+          "accept": "text/csv",
+          "placeholder": "",
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "tableHeaders": [],
+      "importantLines": [
+        "カタログ商品をCSVでインポートする。このページの準備が整いました",
+        "カタログ商品をCSVでインポートする",
+        "カタログを選択してください",
+        "ファイルをアップロード",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "flags": {
+        "empty": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/09-csv_import__csv_import_operation_catalog_products__create.png"
+    },
+    {
+      "url": "/admin/pdf_export",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export",
+      "h1": [
+        "PDFエクスポート"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "labels": [],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/pdf_export#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [],
+      "tableHeaders": [],
+      "importantLines": [
+        "PDFエクスポート。このページの準備が整いました",
+        "PDFエクスポート",
+        "指定された出荷指示の納品書をエクスポートします"
+      ],
+      "flags": {
+        "empty": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/10-pdf_export.png"
+    },
+    {
+      "url": "/admin/pdf_export/pdf_export_operation_packing_slips",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips",
+      "h1": [
+        "納品書をPDFでエクスポートする"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "labels": [],
+      "anchors": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips#AppFrameMain",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings",
+          "target": "",
+          "download": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/pdf_export",
+          "target": "",
+          "download": ""
+        }
+      ],
+      "inputs": [],
+      "tableHeaders": [],
+      "importantLines": [
+        "納品書をPDFでエクスポートする。このページの準備が整いました",
+        "納品書をPDFでエクスポートする",
+        "アイテムが見つかりませんでした"
+      ],
+      "flags": {
+        "empty": true,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasFileInput": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-csv-pdf-screenshots/11-pdf_export__pdf_export_operation_packing_slips.png"
+    }
+  ]
+}

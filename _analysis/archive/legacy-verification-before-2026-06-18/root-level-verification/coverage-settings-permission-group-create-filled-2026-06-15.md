@@ -1,0 +1,445 @@
+- generic [ref=e1] [box=0,-4,1600,1000]:
+  - generic [ref=e16] [box=0,-4,1600,2360]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e19] [box=0,0,1600,56]:
+      - link [ref=e22] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e24] [box=1040,0,560,56]:
+        - button [ref=e28] [cursor=pointer] [box=1404,12,32,32]:
+          - img [ref=e30] [box=1410,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer] [box=1444,12,148,32]:
+          - generic [ref=e35] [box=1446,14,116,28]:
+            - paragraph [ref=e36] [box=1456,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e38] [box=1456,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40] [box=1562,14,28,28]
+    - generic "メニュー" [ref=e41] [box=0,56,240,944]:
+      - navigation [ref=e42] [box=0,56,240,944]:
+        - generic [ref=e43] [box=0,56,240,944]:
+          - list [ref=e44] [box=0,72,240,268]:
+            - listitem [ref=e45] [box=0,72,240,28]:
+              - link "ホーム" [ref=e48] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e51] [box=20,76,20,20]
+                - generic [ref=e53] [box=48,76,176,20]: ホーム
+            - listitem [ref=e54] [box=0,100,240,28]:
+              - link "商品管理" [ref=e57] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e60] [box=20,104,20,20]
+                - generic [ref=e62] [box=48,104,176,20]: 商品管理
+            - listitem [ref=e63] [box=0,128,240,28]:
+              - link "在庫管理" [ref=e66] [cursor=pointer] [box=12,128,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e69] [box=20,132,20,20]
+                - generic [ref=e71] [box=48,132,176,20]: 在庫管理
+            - listitem [ref=e72] [box=0,156,240,28]:
+              - link "注文管理" [ref=e75] [cursor=pointer] [box=12,156,216,28]:
+                - /url: /admin/orders
+                - img [ref=e78] [box=20,160,20,20]
+                - generic [ref=e80] [box=48,160,172,20]: 注文管理
+            - listitem [ref=e81] [box=0,184,240,28]:
+              - link "顧客管理" [ref=e84] [cursor=pointer] [box=12,184,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e87] [box=20,188,20,20]
+                - generic [ref=e90] [box=48,188,176,20]: 顧客管理
+            - listitem [ref=e91] [box=0,212,240,28]:
+              - link "発注管理" [ref=e94] [cursor=pointer] [box=12,212,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e97] [box=20,216,20,20]
+                - generic [ref=e100] [box=48,216,176,20]: 発注管理
+            - listitem [ref=e101] [box=0,240,240,28]:
+              - link "販売設定" [ref=e104] [cursor=pointer] [box=12,240,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e107] [box=20,244,20,20]
+                - generic [ref=e112] [box=48,244,176,20]: 販売設定
+            - listitem [ref=e113] [box=0,268,240,28]:
+              - link "会計" [ref=e116] [cursor=pointer] [box=12,268,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e119] [box=20,272,20,20]
+                - generic [ref=e121] [box=48,272,176,20]: 会計
+            - listitem [ref=e122] [box=0,296,240,28]:
+              - generic [ref=e123] [box=0,296,240,28]:
+                - generic [box=12,296,216,28]:
+                  - link "分析" [box=12,296,216,28]:
+                    - /url: /admin/analytics
+                    - generic [box=20,300,20,20]
+                    - generic [box=48,300,176,20]: 分析
+          - list [ref=e124] [box=0,340,240,132]:
+            - listitem [ref=e125] [box=0,348,240,24]:
+              - generic [ref=e126] [box=20,352,216,16]: オペレーション
+            - listitem [ref=e127] [box=0,372,240,28]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e130] [cursor=pointer] [box=12,372,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e133] [box=20,376,20,20]
+                - generic [ref=e137] [box=48,376,151,20]: 入荷管理
+                - generic [ref=e139] [box=203,376,21,20]:
+                  - generic [ref=e140] [box=211,372,1,1]: 未完了の入荷指示 1件
+                  - generic [ref=e141] [box=211,378,5,16]: "1"
+            - listitem [ref=e142] [box=0,400,240,28]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e145] [cursor=pointer] [box=12,400,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e148] [box=20,404,20,20]
+                - generic [ref=e150] [box=48,404,151,20]: 出荷管理
+                - generic [ref=e152] [box=203,404,21,20]:
+                  - generic [ref=e153] [box=211,400,1,1]: 未完了の出荷指示 1件
+                  - generic [ref=e154] [box=211,406,5,16]: "1"
+            - listitem [ref=e155] [box=0,428,240,28]:
+              - link "在庫依頼" [ref=e158] [cursor=pointer] [box=12,428,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161] [box=20,432,20,20]
+                - generic [ref=e164] [box=48,432,172,20]: 在庫依頼
+          - list [ref=e165] [box=0,472,240,132]:
+            - listitem [ref=e166] [box=0,480,240,24]:
+              - generic [ref=e167] [box=20,484,216,16]: CRM
+            - listitem [ref=e168] [box=0,504,240,28]:
+              - link "ディスカウント" [ref=e171] [cursor=pointer] [box=12,504,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e174] [box=20,508,20,20]
+                - generic [ref=e176] [box=48,508,176,20]: ディスカウント
+            - listitem [ref=e177] [box=0,532,240,28]:
+              - link "ポイント" [ref=e180] [cursor=pointer] [box=12,532,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e183] [box=20,536,20,20]
+                - generic [ref=e185] [box=48,536,176,20]: ポイント
+            - listitem [ref=e186] [box=0,560,240,28]:
+              - link "会員ランク" [ref=e189] [cursor=pointer] [box=12,560,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e192] [box=20,564,20,20]
+                - generic [ref=e195] [box=48,564,176,20]: 会員ランク
+          - list [ref=e196] [box=0,604,240,344]:
+            - listitem [ref=e197] [box=0,612,240,24]:
+              - generic [ref=e198] [box=20,616,216,16]: 販売チャネル
+            - listitem [ref=e199] [box=0,636,240,28]:
+              - link "Shopify" [ref=e202] [cursor=pointer] [box=12,636,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e203] [box=20,640,204,20]: Shopify
+            - listitem [ref=e204] [box=0,664,240,28]:
+              - link "OmnibusCore" [ref=e207] [cursor=pointer] [box=12,664,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e208] [box=20,668,204,20]: OmnibusCore
+            - listitem [ref=e209] [box=0,692,240,28]:
+              - link "スマレジ" [ref=e212] [cursor=pointer] [box=12,692,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e213] [box=20,696,204,20]: スマレジ
+            - listitem [ref=e214] [box=0,720,240,28]:
+              - link "リテールポータル" [ref=e217] [cursor=pointer] [box=12,720,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e218] [box=20,724,204,20]: リテールポータル
+            - listitem [ref=e219] [box=0,748,240,28]:
+              - generic [ref=e220] [box=0,748,240,28]:
+                - generic [box=12,748,216,28]:
+                  - link "卸売" [box=12,748,216,28]:
+                    - /url: /admin/b2b
+                    - generic [box=20,752,204,20]: 卸売
+          - list [ref=e221] [box=0,948,240,52]:
+            - listitem [ref=e222] [box=0,956,240,28]:
+              - link "設定" [ref=e225] [cursor=pointer] [box=12,956,216,28]:
+                - /url: /admin/settings
+                - img [ref=e228] [box=20,960,20,20]
+                - generic [ref=e230] [box=48,960,176,20]: 設定
+    - main [ref=e231] [box=0,-4,1600,2360]:
+      - generic [ref=e313] [box=589,52,662,2272]:
+        - generic [ref=e314] [box=613,52,614,76]:
+          - status [box=613,76,614,0]:
+            - paragraph [ref=e315] [box=613,52,1,1]: 権限グループを作成する。このページの準備が整いました
+          - generic [ref=e317] [box=613,76,614,28]:
+            - link [ref=e320] [cursor=pointer] [box=613,76,28,28]:
+              - /url: /admin/settings/permission_groups
+              - img [ref=e323] [box=617,80,20,20]
+            - heading "権限グループを作成する" [level=1] [ref=e327] [box=645,78,215,24]
+        - generic [ref=e329] [box=597,112,630,2212]:
+          - generic [ref=e331] [box=613,128,614,2120]:
+            - generic [ref=e334] [box=629,144,582,56]:
+              - generic [ref=e337] [box=629,144,73,20]: グループ名*
+              - textbox "グループ名*" [ref=e341] [box=629,168,582,32]:
+                - /placeholder: リテールポータル管理者
+                - text: TEST_FAQ_COVERAGE_20260615_PERMISSION_GROUP
+            - group "権限" [ref=e344] [box=629,248,582,1984]:
+              - generic [ref=e345] [box=629,248,26,24]: 権限
+              - list [ref=e346] [box=629,272,582,1960]:
+                - listitem [ref=e347] [box=629,272,582,28]:
+                  - generic [ref=e349] [cursor=pointer] [box=629,272,300,28]:
+                    - generic [ref=e351] [box=630,278,16,16]
+                    - generic [ref=e356] [box=655,278,274,16]: お知らせの閲覧権限（announcements:read）
+                - listitem [ref=e357] [box=629,300,582,28]:
+                  - generic [ref=e359] [cursor=pointer] [box=629,300,303,28]:
+                    - generic [ref=e361] [box=630,306,16,16]
+                    - generic [ref=e366] [box=655,306,277,16]: お知らせの編集権限（announcements:write）
+                - listitem [ref=e367] [box=629,328,582,28]:
+                  - generic [ref=e369] [cursor=pointer] [box=629,328,218,28]:
+                    - generic [ref=e371] [box=630,334,16,16]
+                    - generic [ref=e376] [box=655,334,192,16]: アプリの閲覧権限（apps:read）
+                - listitem [ref=e377] [box=629,356,582,28]:
+                  - generic [ref=e379] [cursor=pointer] [box=629,356,221,28]:
+                    - generic [ref=e381] [box=630,362,16,16]
+                    - generic [ref=e386] [box=655,362,195,16]: アプリの編集権限（apps:write）
+                - listitem [ref=e387] [box=629,384,582,28]:
+                  - generic [ref=e389] [cursor=pointer] [box=629,384,244,28]:
+                    - generic [ref=e391] [box=630,390,16,16]
+                    - generic [ref=e396] [box=655,390,218,16]: ブランドの閲覧権限（brands:read）
+                - listitem [ref=e397] [box=629,412,582,28]:
+                  - generic [ref=e399] [cursor=pointer] [box=629,412,247,28]:
+                    - generic [ref=e401] [box=630,418,16,16]
+                    - generic [ref=e406] [box=655,418,221,16]: ブランドの編集権限（brands:write）
+                - listitem [ref=e407] [box=629,440,582,28]:
+                  - generic [ref=e409] [cursor=pointer] [box=629,440,253,28]:
+                    - generic [ref=e411] [box=630,446,16,16]
+                    - generic [ref=e416] [box=655,446,227,16]: カタログの閲覧権限（catalogs:read）
+                - listitem [ref=e417] [box=629,468,582,28]:
+                  - generic [ref=e419] [cursor=pointer] [box=629,468,256,28]:
+                    - generic [ref=e421] [box=630,474,16,16]
+                    - generic [ref=e426] [box=655,474,230,16]: カタログの編集権限（catalogs:write）
+                - listitem [ref=e427] [box=629,496,582,28]:
+                  - generic [ref=e429] [cursor=pointer] [box=629,496,281,28]:
+                    - generic [ref=e431] [box=630,502,16,16]
+                    - generic [ref=e436] [box=655,502,255,16]: 取引先企業の閲覧権限（companies:read）
+                - listitem [ref=e437] [box=629,524,582,28]:
+                  - generic [ref=e439] [cursor=pointer] [box=629,524,284,28]:
+                    - generic [ref=e441] [box=630,530,16,16]
+                    - generic [ref=e446] [box=655,530,258,16]: 取引先企業の編集権限（companies:write）
+                - listitem [ref=e447] [box=629,552,582,28]:
+                  - generic [ref=e449] [cursor=pointer] [box=629,552,309,28]:
+                    - generic [ref=e451] [box=630,558,16,16]
+                    - generic [ref=e456] [box=655,558,283,16]: 顧客マイルの閲覧権限（customer_miles:read）
+                - listitem [ref=e457] [box=629,580,582,28]:
+                  - generic [ref=e459] [cursor=pointer] [box=629,580,312,28]:
+                    - generic [ref=e461] [box=630,586,16,16]
+                    - generic [ref=e466] [box=655,586,286,16]: 顧客マイルの編集権限（customer_miles:write）
+                - listitem [ref=e467] [box=629,608,582,28]:
+                  - generic [ref=e469] [cursor=pointer] [box=629,608,329,28]:
+                    - generic [ref=e471] [box=630,614,16,16]
+                    - generic [ref=e476] [box=655,614,303,16]: 顧客ポイントの閲覧権限（customer_points:read）
+                - listitem [ref=e477] [box=629,636,582,28]:
+                  - generic [ref=e479] [cursor=pointer] [box=629,636,332,28]:
+                    - generic [ref=e481] [box=630,642,16,16]
+                    - generic [ref=e486] [box=655,642,306,16]: 顧客ポイントの編集権限（customer_points:write）
+                - listitem [ref=e487] [box=629,664,582,28]:
+                  - generic [ref=e489] [cursor=pointer] [box=629,664,406,28]:
+                    - generic [ref=e491] [box=630,670,16,16]
+                    - generic [ref=e496] [box=655,670,380,16]: 顧客会員ランクルールの閲覧権限（customer_rank_rules:read）
+                - listitem [ref=e497] [box=629,692,582,28]:
+                  - generic [ref=e499] [cursor=pointer] [box=629,692,409,28]:
+                    - generic [ref=e501] [box=630,698,16,16]
+                    - generic [ref=e506] [box=655,698,383,16]: 顧客会員ランクルールの編集権限（customer_rank_rules:write）
+                - listitem [ref=e507] [box=629,720,582,28]:
+                  - generic [ref=e509] [cursor=pointer] [box=629,720,338,28]:
+                    - generic [ref=e511] [box=630,726,16,16]
+                    - generic [ref=e516] [box=655,726,312,16]: 顧客会員ランクの閲覧権限（customer_ranks:read）
+                - listitem [ref=e517] [box=629,748,582,28]:
+                  - generic [ref=e519] [cursor=pointer] [box=629,748,341,28]:
+                    - generic [ref=e521] [box=630,754,16,16]
+                    - generic [ref=e526] [box=655,754,315,16]: 顧客会員ランクの編集権限（customer_ranks:write）
+                - listitem [ref=e527] [box=629,776,582,28]:
+                  - generic [ref=e529] [cursor=pointer] [box=629,776,240,28]:
+                    - generic [ref=e531] [box=630,782,16,16]
+                    - generic [ref=e536] [box=655,782,214,16]: 顧客の閲覧権限（customers:read）
+                - listitem [ref=e537] [box=629,804,582,28]:
+                  - generic [ref=e539] [cursor=pointer] [box=629,804,243,28]:
+                    - generic [ref=e541] [box=630,810,16,16]
+                    - generic [ref=e546] [box=655,810,217,16]: 顧客の編集権限（customers:write）
+                - listitem [ref=e547] [box=629,832,582,28]:
+                  - generic [ref=e549] [cursor=pointer] [box=629,832,298,28]:
+                    - generic [ref=e551] [box=630,838,16,16]
+                    - generic [ref=e556] [box=655,838,272,16]: ディスカウントの閲覧権限（discounts:read）
+                - listitem [ref=e557] [box=629,860,582,28]:
+                  - generic [ref=e559] [cursor=pointer] [box=629,860,301,28]:
+                    - generic [ref=e561] [box=630,866,16,16]
+                    - generic [ref=e566] [box=655,866,275,16]: ディスカウントの編集権限（discounts:write）
+                - listitem [ref=e567] [box=629,888,582,28]:
+                  - generic [ref=e569] [cursor=pointer] [box=629,888,289,28]:
+                    - generic [ref=e571] [box=630,894,16,16]
+                    - generic [ref=e576] [box=655,894,263,16]: 下書き注文の閲覧権限（draft_orders:read）
+                - listitem [ref=e577] [box=629,916,582,28]:
+                  - generic [ref=e579] [cursor=pointer] [box=629,916,292,28]:
+                    - generic [ref=e581] [box=630,922,16,16]
+                    - generic [ref=e586] [box=655,922,266,16]: 下書き注文の編集権限（draft_orders:write）
+                - listitem [ref=e587] [box=629,944,582,28]:
+                  - generic [ref=e589] [cursor=pointer] [box=629,944,233,28]:
+                    - generic [ref=e591] [box=630,950,16,16]
+                    - generic [ref=e596] [box=655,950,207,16]: 在庫の閲覧権限（inventory:read）
+                - listitem [ref=e597] [box=629,972,582,28]:
+                  - generic [ref=e599] [cursor=pointer] [box=629,972,236,28]:
+                    - generic [ref=e601] [box=630,978,16,16]
+                    - generic [ref=e606] [box=655,978,210,16]: 在庫の編集権限（inventory:write）
+                - listitem [ref=e607] [box=629,1000,582,28]:
+                  - generic [ref=e609] [cursor=pointer] [box=629,1000,422,28]:
+                    - generic [ref=e611] [box=630,1006,16,16]
+                    - generic [ref=e616] [box=655,1006,396,16]: 在庫リクエストの閲覧権限（inventory_allocation_requests:read）
+                - listitem [ref=e617] [box=629,1028,582,28]:
+                  - generic [ref=e619] [cursor=pointer] [box=629,1028,425,28]:
+                    - generic [ref=e621] [box=630,1034,16,16]
+                    - generic [ref=e626] [box=655,1034,399,16]: 在庫リクエストの編集権限（inventory_allocation_requests:write）
+                - listitem [ref=e627] [box=629,1056,582,28]:
+                  - generic [ref=e629] [cursor=pointer] [box=629,1056,486,28]:
+                    - generic [ref=e631] [box=630,1062,16,16]
+                    - generic [ref=e636] [box=655,1062,460,16]: 店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）
+                - listitem [ref=e637] [box=629,1084,582,28]:
+                  - generic [ref=e639] [cursor=pointer] [box=629,1084,489,28]:
+                    - generic [ref=e641] [box=630,1090,16,16]
+                    - generic [ref=e646] [box=655,1090,463,16]: 店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）
+                - listitem [ref=e647] [box=629,1112,582,28]:
+                  - generic [ref=e649] [cursor=pointer] [box=629,1112,375,28]:
+                    - generic [ref=e651] [box=630,1118,16,16]
+                    - generic [ref=e656] [box=655,1118,349,16]: ロケーショングループの閲覧権限（location_groups:read）
+                - listitem [ref=e657] [box=629,1140,582,28]:
+                  - generic [ref=e659] [cursor=pointer] [box=629,1140,378,28]:
+                    - generic [ref=e661] [box=630,1146,16,16]
+                    - generic [ref=e666] [box=655,1146,352,16]: ロケーショングループの編集権限（location_groups:write）
+                - listitem [ref=e667] [box=629,1168,582,28]:
+                  - generic [ref=e669] [cursor=pointer] [box=629,1168,283,28]:
+                    - generic [ref=e671] [box=630,1174,16,16]
+                    - generic [ref=e676] [box=655,1174,257,16]: ロケーションの閲覧権限（locations:read）
+                - listitem [ref=e677] [box=629,1196,582,28]:
+                  - generic [ref=e679] [cursor=pointer] [box=629,1196,286,28]:
+                    - generic [ref=e681] [box=630,1202,16,16]
+                    - generic [ref=e686] [box=655,1202,260,16]: ロケーションの編集権限（locations:write）
+                - listitem [ref=e687] [box=629,1224,582,28]:
+                  - generic [ref=e689] [cursor=pointer] [box=629,1224,277,28]:
+                    - generic [ref=e691] [box=630,1230,16,16]
+                    - generic [ref=e696] [box=655,1230,251,16]: マイル商品の閲覧権限（mile_items:read）
+                - listitem [ref=e697] [box=629,1252,582,28]:
+                  - generic [ref=e699] [cursor=pointer] [box=629,1252,280,28]:
+                    - generic [ref=e701] [box=630,1258,16,16]
+                    - generic [ref=e706] [box=655,1258,254,16]: マイル商品の編集権限（mile_items:write）
+                - listitem [ref=e707] [box=629,1280,582,28]:
+                  - generic [ref=e709] [cursor=pointer] [box=629,1280,425,28]:
+                    - generic [ref=e711] [box=630,1286,16,16]
+                    - generic [ref=e716] [box=655,1286,399,16]: OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）
+                - listitem [ref=e717] [box=629,1308,582,28]:
+                  - generic [ref=e719] [cursor=pointer] [box=629,1308,428,28]:
+                    - generic [ref=e721] [box=630,1314,16,16]
+                    - generic [ref=e726] [box=655,1314,402,16]: OmnibusCore連携の編集権限（omnibus_core_integrations:write）
+                - listitem [ref=e727] [box=629,1336,582,28]:
+                  - generic [ref=e729] [cursor=pointer] [box=629,1336,215,28]:
+                    - generic [ref=e731] [box=630,1342,16,16]
+                    - generic [ref=e736] [box=655,1342,189,16]: 注文の閲覧権限（orders:read）
+                - listitem [ref=e737] [box=629,1364,582,28]:
+                  - generic [ref=e739] [cursor=pointer] [box=629,1364,218,28]:
+                    - generic [ref=e741] [box=630,1370,16,16]
+                    - generic [ref=e746] [box=655,1370,192,16]: 注文の編集権限（orders:write）
+                - listitem [ref=e747] [box=629,1392,582,28]:
+                  - generic [ref=e749] [cursor=pointer] [box=629,1392,450,28]:
+                    - generic [ref=e751] [box=630,1398,16,16]
+                    - generic [ref=e756] [box=655,1398,424,16]: ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）
+                - listitem [ref=e757] [box=629,1420,582,28]:
+                  - generic [ref=e759] [cursor=pointer] [box=629,1420,453,28]:
+                    - generic [ref=e761] [box=630,1426,16,16]
+                    - generic [ref=e766] [box=655,1426,427,16]: ポイントキャンペーンの編集権限（point_campaign_order_rules:write）
+                - listitem [ref=e767] [box=629,1448,582,28]:
+                  - generic [ref=e769] [cursor=pointer] [box=629,1448,306,28]:
+                    - generic [ref=e771] [box=630,1454,16,16]
+                    - generic [ref=e776] [box=655,1454,280,16]: ポイントルールの閲覧権限（point_rules:read）
+                - listitem [ref=e777] [box=629,1476,582,28]:
+                  - generic [ref=e779] [cursor=pointer] [box=629,1476,309,28]:
+                    - generic [ref=e781] [box=630,1482,16,16]
+                    - generic [ref=e786] [box=655,1482,283,16]: ポイントルールの編集権限（point_rules:write）
+                - listitem [ref=e787] [box=629,1504,582,28]:
+                  - generic [ref=e789] [cursor=pointer] [box=629,1504,362,28]:
+                    - generic [ref=e791] [box=630,1510,16,16]
+                    - generic [ref=e796] [box=655,1510,336,16]: 販売価格ルールの閲覧権限（product_price_rules:read）
+                - listitem [ref=e797] [box=629,1532,582,28]:
+                  - generic [ref=e799] [cursor=pointer] [box=629,1532,365,28]:
+                    - generic [ref=e801] [box=630,1538,16,16]
+                    - generic [ref=e806] [box=655,1538,339,16]: 販売価格ルールの編集権限（product_price_rules:write）
+                - listitem [ref=e807] [box=629,1560,582,28]:
+                  - generic [ref=e809] [cursor=pointer] [box=629,1560,230,28]:
+                    - generic [ref=e811] [box=630,1566,16,16]
+                    - generic [ref=e816] [box=655,1566,204,16]: 商品の閲覧権限（products:read）
+                - listitem [ref=e817] [box=629,1588,582,28]:
+                  - generic [ref=e819] [cursor=pointer] [box=629,1588,233,28]:
+                    - generic [ref=e821] [box=630,1594,16,16]
+                    - generic [ref=e826] [box=655,1594,207,16]: 商品の編集権限（products:write）
+                - listitem [ref=e827] [box=629,1616,582,28]:
+                  - generic [ref=e829] [cursor=pointer] [box=629,1616,404,28]:
+                    - generic [ref=e831] [box=630,1622,16,16]
+                    - generic [ref=e836] [box=655,1622,378,16]: 店舗ポータル連携の閲覧権限（retail_portal_integrations:read）
+                - listitem [ref=e837] [box=629,1644,582,28]:
+                  - generic [ref=e839] [cursor=pointer] [box=629,1644,407,28]:
+                    - generic [ref=e841] [box=630,1650,16,16]
+                    - generic [ref=e846] [box=655,1650,381,16]: 店舗ポータル連携の編集権限（retail_portal_integrations:write）
+                - listitem [ref=e847] [box=629,1672,582,28]:
+                  - generic [ref=e849] [cursor=pointer] [box=629,1672,354,28]:
+                    - generic [ref=e851] [box=630,1678,16,16]
+                    - generic [ref=e856] [box=655,1678,328,16]: 店舗スタッフの閲覧権限（retail_staff_members:read）
+                - listitem [ref=e857] [box=629,1700,582,28]:
+                  - generic [ref=e859] [cursor=pointer] [box=629,1700,357,28]:
+                    - generic [ref=e861] [box=630,1706,16,16]
+                    - generic [ref=e866] [box=655,1706,331,16]: 店舗スタッフの編集権限（retail_staff_members:write）
+                - listitem [ref=e867] [box=629,1728,582,28]:
+                  - generic [ref=e869] [cursor=pointer] [box=629,1728,246,28]:
+                    - generic [ref=e871] [box=630,1734,16,16]
+                    - generic [ref=e876] [box=655,1734,220,16]: 売上データの閲覧権限（sales:read）
+                - listitem [ref=e877] [box=629,1756,582,28]:
+                  - generic [ref=e879] [cursor=pointer] [box=629,1756,249,28]:
+                    - generic [ref=e881] [box=630,1762,16,16]
+                    - generic [ref=e886] [box=655,1762,223,16]: 売上データの編集権限（sales:write）
+                - listitem [ref=e887] [box=629,1784,582,28]:
+                  - generic [ref=e889] [cursor=pointer] [box=629,1784,347,28]:
+                    - generic [ref=e891] [box=630,1790,16,16]
+                    - generic [ref=e896] [box=655,1790,321,16]: Shopify連携の閲覧権限（shopify_integrations:read）
+                - listitem [ref=e897] [box=629,1812,582,28]:
+                  - generic [ref=e899] [cursor=pointer] [box=629,1812,350,28]:
+                    - generic [ref=e901] [box=630,1818,16,16]
+                    - generic [ref=e906] [box=655,1818,324,16]: Shopify連携の編集権限（shopify_integrations:write）
+                - listitem [ref=e907] [box=629,1840,582,28]:
+                  - generic [ref=e909] [cursor=pointer] [box=629,1840,355,28]:
+                    - generic [ref=e911] [box=630,1846,16,16]
+                    - generic [ref=e916] [box=655,1846,329,16]: スマレジ連携の閲覧権限（smaregi_integrations:read）
+                - listitem [ref=e917] [box=629,1868,582,28]:
+                  - generic [ref=e919] [cursor=pointer] [box=629,1868,358,28]:
+                    - generic [ref=e921] [box=630,1874,16,16]
+                    - generic [ref=e926] [box=655,1874,332,16]: スマレジ連携の編集権限（smaregi_integrations:write）
+                - listitem [ref=e927] [box=629,1896,582,28]:
+                  - generic [ref=e929] [cursor=pointer] [box=629,1896,246,28]:
+                    - generic [ref=e931] [box=630,1902,16,16]
+                    - generic [ref=e936] [box=655,1902,220,16]: テナントの閲覧権限（tenants:read）
+                - listitem [ref=e937] [box=629,1924,582,28]:
+                  - generic [ref=e939] [cursor=pointer] [box=629,1924,249,28]:
+                    - generic [ref=e941] [box=630,1930,16,16]
+                    - generic [ref=e946] [box=655,1930,223,16]: テナントの編集権限（tenants:write）
+                - listitem [ref=e947] [box=629,1952,582,28]:
+                  - generic [ref=e949] [cursor=pointer] [box=629,1952,315,28]:
+                    - generic [ref=e951] [box=630,1958,16,16]
+                    - generic [ref=e956] [box=655,1958,289,16]: 翻訳ルールの閲覧権限（translation_rules:read）
+                - listitem [ref=e957] [box=629,1980,582,28]:
+                  - generic [ref=e959] [cursor=pointer] [box=629,1980,318,28]:
+                    - generic [ref=e961] [box=630,1986,16,16]
+                    - generic [ref=e966] [box=655,1986,292,16]: 翻訳ルールの編集権限（translation_rules:write）
+                - listitem [ref=e967] [box=629,2008,582,28]:
+                  - generic [ref=e969] [cursor=pointer] [box=629,2008,247,28]:
+                    - generic [ref=e971] [box=630,2014,16,16]
+                    - generic [ref=e976] [box=655,2014,221,16]: 翻訳の閲覧権限（translations:read）
+                - listitem [ref=e977] [box=629,2036,582,28]:
+                  - generic [ref=e979] [cursor=pointer] [box=629,2036,250,28]:
+                    - generic [ref=e981] [box=630,2042,16,16]
+                    - generic [ref=e986] [box=655,2042,224,16]: 翻訳の編集権限（translations:write）
+                - listitem [ref=e987] [box=629,2064,582,28]:
+                  - generic [ref=e989] [cursor=pointer] [box=629,2064,335,28]:
+                    - generic [ref=e991] [box=630,2070,16,16]
+                    - generic [ref=e996] [box=655,2070,309,16]: ユーザー権限の閲覧権限（user_permissions:read）
+                - listitem [ref=e997] [box=629,2092,582,28]:
+                  - generic [ref=e999] [cursor=pointer] [box=629,2092,338,28]:
+                    - generic [ref=e1001] [box=630,2098,16,16]
+                    - generic [ref=e1006] [box=655,2098,312,16]: ユーザー権限の編集権限（user_permissions:write）
+                - listitem [ref=e1007] [box=629,2120,582,28]:
+                  - generic [ref=e1009] [cursor=pointer] [box=629,2120,331,28]:
+                    - generic [ref=e1011] [box=630,2126,16,16]
+                    - generic [ref=e1016] [box=655,2126,305,16]: ユーザーテナントの閲覧権限（user_tenants:read）
+                - listitem [ref=e1017] [box=629,2148,582,28]:
+                  - generic [ref=e1019] [cursor=pointer] [box=629,2148,334,28]:
+                    - generic [ref=e1021] [box=630,2154,16,16]
+                    - generic [ref=e1026] [box=655,2154,308,16]: ユーザーテナントの編集権限（user_tenants:write）
+                - listitem [ref=e1027] [box=629,2176,582,28]:
+                  - generic [ref=e1029] [cursor=pointer] [box=629,2176,234,28]:
+                    - generic [ref=e1031] [box=630,2182,16,16]
+                    - generic [ref=e1036] [box=655,2182,208,16]: ユーザーの閲覧権限（users:read）
+                - listitem [ref=e1037] [box=629,2204,582,28]:
+                  - generic [ref=e1039] [cursor=pointer] [box=629,2204,237,28]:
+                    - generic [ref=e1041] [box=630,2210,16,16]
+                    - generic [ref=e1046] [box=655,2210,211,16]: ユーザーの編集権限（users:write）
+          - button "作成する" [ref=e1051] [cursor=pointer] [box=1155,2280,72,28]:
+            - generic [ref=e1052] [box=1167,2286,48,16]: 作成する
+  - region "Notifications alt+T" [box=0,2356,1600,0]
+  - alert [ref=e15] [box=-1,2355,1,1]

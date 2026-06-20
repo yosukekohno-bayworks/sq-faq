@@ -1,0 +1,305 @@
+- generic [active] [ref=e1] [box=0,0,1600,1000]:
+  - generic [ref=e16] [box=0,0,1600,4048]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e19] [box=0,0,1600,56]:
+      - link [ref=e22] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e24] [box=1040,0,560,56]:
+        - button [ref=e28] [cursor=pointer] [box=1404,12,32,32]:
+          - img [ref=e30] [box=1410,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer] [box=1444,12,148,32]:
+          - generic [ref=e35] [box=1446,14,116,28]:
+            - paragraph [ref=e36] [box=1456,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e38] [box=1456,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40] [box=1562,14,28,28]
+    - generic "メニュー" [ref=e41] [box=0,56,240,944]:
+      - navigation [ref=e42] [box=0,56,240,944]:
+        - generic [ref=e43] [box=0,56,240,944]:
+          - list [ref=e44] [box=0,72,240,268]:
+            - listitem [ref=e45] [box=0,72,240,28]:
+              - link "ホーム" [ref=e48] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e51] [box=20,76,20,20]
+                - generic [ref=e53] [box=48,76,176,20]: ホーム
+            - listitem [ref=e54] [box=0,100,240,28]:
+              - link "商品管理" [ref=e57] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e60] [box=20,104,20,20]
+                - generic [ref=e62] [box=48,104,176,20]: 商品管理
+            - listitem [ref=e63] [box=0,128,240,28]:
+              - link "在庫管理" [ref=e66] [cursor=pointer] [box=12,128,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e69] [box=20,132,20,20]
+                - generic [ref=e71] [box=48,132,176,20]: 在庫管理
+            - listitem [ref=e72] [box=0,156,240,28]:
+              - link "注文管理" [ref=e75] [cursor=pointer] [box=12,156,216,28]:
+                - /url: /admin/orders
+                - img [ref=e78] [box=20,160,20,20]
+                - generic [ref=e80] [box=48,160,172,20]: 注文管理
+            - listitem [ref=e81] [box=0,184,240,28]:
+              - link "顧客管理" [ref=e84] [cursor=pointer] [box=12,184,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e87] [box=20,188,20,20]
+                - generic [ref=e90] [box=48,188,176,20]: 顧客管理
+            - listitem [ref=e91] [box=0,212,240,28]:
+              - link "発注管理" [ref=e94] [cursor=pointer] [box=12,212,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e97] [box=20,216,20,20]
+                - generic [ref=e100] [box=48,216,176,20]: 発注管理
+            - listitem [ref=e101] [box=0,240,240,28]:
+              - link "販売設定" [ref=e104] [cursor=pointer] [box=12,240,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e107] [box=20,244,20,20]
+                - generic [ref=e112] [box=48,244,176,20]: 販売設定
+            - listitem [ref=e113] [box=0,268,240,28]:
+              - link "会計" [ref=e116] [cursor=pointer] [box=12,268,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e119] [box=20,272,20,20]
+                - generic [ref=e121] [box=48,272,176,20]: 会計
+            - listitem [ref=e122] [box=0,296,240,28]:
+              - generic [ref=e123] [box=0,296,240,28]:
+                - generic [box=12,296,216,28]:
+                  - link "分析" [box=12,296,216,28]:
+                    - /url: /admin/analytics
+                    - generic [box=20,300,20,20]
+                    - generic [box=48,300,176,20]: 分析
+          - list [ref=e124] [box=0,340,240,132]:
+            - listitem [ref=e125] [box=0,348,240,24]:
+              - generic [ref=e126] [box=20,352,216,16]: オペレーション
+            - listitem [ref=e127] [box=0,372,240,28]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e130] [cursor=pointer] [box=12,372,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e133] [box=20,376,20,20]
+                - generic [ref=e137] [box=48,376,151,20]: 入荷管理
+                - generic [ref=e139] [box=203,376,21,20]:
+                  - generic [ref=e140] [box=211,372,1,1]: 未完了の入荷指示 1件
+                  - generic [ref=e141] [box=211,378,5,16]: "1"
+            - listitem [ref=e142] [box=0,400,240,28]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e145] [cursor=pointer] [box=12,400,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e148] [box=20,404,20,20]
+                - generic [ref=e150] [box=48,404,151,20]: 出荷管理
+                - generic [ref=e152] [box=203,404,21,20]:
+                  - generic [ref=e153] [box=211,400,1,1]: 未完了の出荷指示 1件
+                  - generic [ref=e154] [box=211,406,5,16]: "1"
+            - listitem [ref=e155] [box=0,428,240,28]:
+              - link "在庫依頼" [ref=e158] [cursor=pointer] [box=12,428,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161] [box=20,432,20,20]
+                - generic [ref=e164] [box=48,432,172,20]: 在庫依頼
+          - list [ref=e165] [box=0,472,240,132]:
+            - listitem [ref=e166] [box=0,480,240,24]:
+              - generic [ref=e167] [box=20,484,216,16]: CRM
+            - listitem [ref=e168] [box=0,504,240,28]:
+              - link "ディスカウント" [ref=e171] [cursor=pointer] [box=12,504,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e174] [box=20,508,20,20]
+                - generic [ref=e176] [box=48,508,176,20]: ディスカウント
+            - listitem [ref=e177] [box=0,532,240,28]:
+              - link "ポイント" [ref=e180] [cursor=pointer] [box=12,532,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e183] [box=20,536,20,20]
+                - generic [ref=e185] [box=48,536,176,20]: ポイント
+            - listitem [ref=e186] [box=0,560,240,28]:
+              - link "会員ランク" [ref=e189] [cursor=pointer] [box=12,560,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e192] [box=20,564,20,20]
+                - generic [ref=e195] [box=48,564,176,20]: 会員ランク
+          - list [ref=e196] [box=0,604,240,344]:
+            - listitem [ref=e197] [box=0,612,240,24]:
+              - generic [ref=e198] [box=20,616,216,16]: 販売チャネル
+            - listitem [ref=e199] [box=0,636,240,28]:
+              - link "Shopify" [ref=e202] [cursor=pointer] [box=12,636,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e203] [box=20,640,204,20]: Shopify
+            - listitem [ref=e204] [box=0,664,240,28]:
+              - link "OmnibusCore" [ref=e207] [cursor=pointer] [box=12,664,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e208] [box=20,668,204,20]: OmnibusCore
+            - listitem [ref=e209] [box=0,692,240,28]:
+              - link "スマレジ" [ref=e212] [cursor=pointer] [box=12,692,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e213] [box=20,696,204,20]: スマレジ
+            - listitem [ref=e214] [box=0,720,240,28]:
+              - link "リテールポータル" [ref=e217] [cursor=pointer] [box=12,720,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e218] [box=20,724,204,20]: リテールポータル
+            - listitem [ref=e219] [box=0,748,240,28]:
+              - generic [ref=e220] [box=0,748,240,28]:
+                - generic [box=12,748,216,28]:
+                  - link "卸売" [box=12,748,216,28]:
+                    - /url: /admin/b2b
+                    - generic [box=20,752,204,20]: 卸売
+          - list [ref=e221] [box=0,948,240,52]:
+            - listitem [ref=e222] [box=0,956,240,28]:
+              - link "設定" [ref=e225] [cursor=pointer] [box=12,956,216,28]:
+                - /url: /admin/settings
+                - img [ref=e228] [box=20,960,20,20]
+                - generic [ref=e230] [box=48,960,176,20]: 設定
+    - main [ref=e231] [box=0,0,1600,4048]:
+      - generic [ref=e299] [box=589,56,662,3960]:
+        - generic [ref=e300] [box=613,56,614,76]:
+          - status [box=613,80,614,0]:
+            - paragraph [ref=e301] [box=613,56,1,1]: 新しいアプリ。このページの準備が整いました
+          - generic [ref=e303] [box=613,80,614,28]:
+            - link [ref=e306] [cursor=pointer] [box=613,80,28,28]:
+              - /url: /admin/settings/apps
+              - img [ref=e309] [box=617,84,20,20]
+            - heading "新しいアプリ" [level=1] [ref=e313] [box=645,82,119,24]
+        - generic [ref=e315] [box=597,116,630,3900]:
+          - generic [ref=e317] [box=613,132,614,3808]:
+            - generic [ref=e320] [box=629,148,582,56]:
+              - generic [ref=e323] [box=629,148,63,20]: アプリ名*
+              - textbox "アプリ名*" [ref=e327] [box=629,172,582,32]:
+                - /placeholder: モバイルアプリ
+            - generic [ref=e330] [box=629,252,582,3672]:
+              - heading "権限" [level=2] [ref=e331] [box=629,252,582,20]
+              - group [ref=e332] [box=629,284,582,3640]:
+                - list [ref=e333] [box=629,284,582,3640]:
+                  - listitem [ref=e334] [box=629,284,582,52]:
+                    - generic [ref=e336] [box=629,284,582,48]
+                  - listitem [ref=e345] [box=629,336,582,52]:
+                    - generic [ref=e347] [box=629,336,582,48]
+                  - listitem [ref=e356] [box=629,388,582,52]:
+                    - generic [ref=e358] [box=629,388,582,48]
+                  - listitem [ref=e367] [box=629,440,582,52]:
+                    - generic [ref=e369] [box=629,440,582,48]
+                  - listitem [ref=e378] [box=629,492,582,52]:
+                    - generic [ref=e380] [box=629,492,582,48]
+                  - listitem [ref=e389] [box=629,544,582,52]:
+                    - generic [ref=e391] [box=629,544,582,48]
+                  - listitem [ref=e400] [box=629,596,582,52]:
+                    - generic [ref=e402] [box=629,596,582,48]
+                  - listitem [ref=e411] [box=629,648,582,52]:
+                    - generic [ref=e413] [box=629,648,582,48]
+                  - listitem [ref=e422] [box=629,700,582,52]:
+                    - generic [ref=e424] [box=629,700,582,48]
+                  - listitem [ref=e433] [box=629,752,582,52]:
+                    - generic [ref=e435] [box=629,752,582,48]
+                  - listitem [ref=e444] [box=629,804,582,52]:
+                    - generic [ref=e446] [box=629,804,582,48]
+                  - listitem [ref=e455] [box=629,856,582,52]:
+                    - generic [ref=e457] [box=629,856,582,48]
+                  - listitem [ref=e466] [box=629,908,582,52]:
+                    - generic [ref=e468] [box=629,908,582,48]
+                  - listitem [ref=e477] [box=629,960,582,52]:
+                    - generic [ref=e479] [box=629,960,582,48]
+                  - listitem [ref=e488] [box=629,1012,582,52]:
+                    - generic [ref=e490] [box=629,1012,582,48]
+                  - listitem [ref=e499] [box=629,1064,582,52]:
+                    - generic [ref=e501] [box=629,1064,582,48]
+                  - listitem [ref=e510] [box=629,1116,582,52]:
+                    - generic [ref=e512] [box=629,1116,582,48]
+                  - listitem [ref=e521] [box=629,1168,582,52]:
+                    - generic [ref=e523] [box=629,1168,582,48]
+                  - listitem [ref=e532] [box=629,1220,582,52]:
+                    - generic [ref=e534] [box=629,1220,582,48]
+                  - listitem [ref=e543] [box=629,1272,582,52]:
+                    - generic [ref=e545] [box=629,1272,582,48]
+                  - listitem [ref=e554] [box=629,1324,582,52]:
+                    - generic [ref=e556] [box=629,1324,582,48]
+                  - listitem [ref=e565] [box=629,1376,582,52]:
+                    - generic [ref=e567] [box=629,1376,582,48]
+                  - listitem [ref=e576] [box=629,1428,582,52]:
+                    - generic [ref=e578] [box=629,1428,582,48]
+                  - listitem [ref=e587] [box=629,1480,582,52]:
+                    - generic [ref=e589] [box=629,1480,582,48]
+                  - listitem [ref=e598] [box=629,1532,582,52]:
+                    - generic [ref=e600] [box=629,1532,582,48]
+                  - listitem [ref=e609] [box=629,1584,582,52]:
+                    - generic [ref=e611] [box=629,1584,582,48]
+                  - listitem [ref=e620] [box=629,1636,582,52]:
+                    - generic [ref=e622] [box=629,1636,582,48]
+                  - listitem [ref=e631] [box=629,1688,582,52]:
+                    - generic [ref=e633] [box=629,1688,582,48]
+                  - listitem [ref=e642] [box=629,1740,582,52]:
+                    - generic [ref=e644] [box=629,1740,582,48]
+                  - listitem [ref=e653] [box=629,1792,582,52]:
+                    - generic [ref=e655] [box=629,1792,582,48]
+                  - listitem [ref=e664] [box=629,1844,582,52]:
+                    - generic [ref=e666] [box=629,1844,582,48]
+                  - listitem [ref=e675] [box=629,1896,582,52]:
+                    - generic [ref=e677] [box=629,1896,582,48]
+                  - listitem [ref=e686] [box=629,1948,582,52]:
+                    - generic [ref=e688] [box=629,1948,582,48]
+                  - listitem [ref=e697] [box=629,2000,582,52]:
+                    - generic [ref=e699] [box=629,2000,582,48]
+                  - listitem [ref=e708] [box=629,2052,582,52]:
+                    - generic [ref=e710] [box=629,2052,582,48]
+                  - listitem [ref=e719] [box=629,2104,582,52]:
+                    - generic [ref=e721] [box=629,2104,582,48]
+                  - listitem [ref=e730] [box=629,2156,582,52]:
+                    - generic [ref=e732] [box=629,2156,582,48]
+                  - listitem [ref=e741] [box=629,2208,582,52]:
+                    - generic [ref=e743] [box=629,2208,582,48]
+                  - listitem [ref=e752] [box=629,2260,582,52]:
+                    - generic [ref=e754] [box=629,2260,582,48]
+                  - listitem [ref=e763] [box=629,2312,582,52]:
+                    - generic [ref=e765] [box=629,2312,582,48]
+                  - listitem [ref=e774] [box=629,2364,582,52]:
+                    - generic [ref=e776] [box=629,2364,582,48]
+                  - listitem [ref=e785] [box=629,2416,582,52]:
+                    - generic [ref=e787] [box=629,2416,582,48]
+                  - listitem [ref=e796] [box=629,2468,582,52]:
+                    - generic [ref=e798] [box=629,2468,582,48]
+                  - listitem [ref=e807] [box=629,2520,582,52]:
+                    - generic [ref=e809] [box=629,2520,582,48]
+                  - listitem [ref=e818] [box=629,2572,582,52]:
+                    - generic [ref=e820] [box=629,2572,582,48]
+                  - listitem [ref=e829] [box=629,2624,582,52]:
+                    - generic [ref=e831] [box=629,2624,582,48]
+                  - listitem [ref=e840] [box=629,2676,582,52]:
+                    - generic [ref=e842] [box=629,2676,582,48]
+                  - listitem [ref=e851] [box=629,2728,582,52]:
+                    - generic [ref=e853] [box=629,2728,582,48]
+                  - listitem [ref=e862] [box=629,2780,582,52]:
+                    - generic [ref=e864] [box=629,2780,582,48]
+                  - listitem [ref=e873] [box=629,2832,582,52]:
+                    - generic [ref=e875] [box=629,2832,582,48]
+                  - listitem [ref=e884] [box=629,2884,582,52]:
+                    - generic [ref=e886] [box=629,2884,582,48]
+                  - listitem [ref=e895] [box=629,2936,582,52]:
+                    - generic [ref=e897] [box=629,2936,582,48]
+                  - listitem [ref=e906] [box=629,2988,582,52]:
+                    - generic [ref=e908] [box=629,2988,582,48]
+                  - listitem [ref=e917] [box=629,3040,582,52]:
+                    - generic [ref=e919] [box=629,3040,582,48]
+                  - listitem [ref=e928] [box=629,3092,582,52]:
+                    - generic [ref=e930] [box=629,3092,582,48]
+                  - listitem [ref=e939] [box=629,3144,582,52]:
+                    - generic [ref=e941] [box=629,3144,582,48]
+                  - listitem [ref=e950] [box=629,3196,582,52]:
+                    - generic [ref=e952] [box=629,3196,582,48]
+                  - listitem [ref=e961] [box=629,3248,582,52]:
+                    - generic [ref=e963] [box=629,3248,582,48]
+                  - listitem [ref=e972] [box=629,3300,582,52]:
+                    - generic [ref=e974] [box=629,3300,582,48]
+                  - listitem [ref=e983] [box=629,3352,582,52]:
+                    - generic [ref=e985] [box=629,3352,582,48]
+                  - listitem [ref=e994] [box=629,3404,582,52]:
+                    - generic [ref=e996] [box=629,3404,582,48]
+                  - listitem [ref=e1005] [box=629,3456,582,52]:
+                    - generic [ref=e1007] [box=629,3456,582,48]
+                  - listitem [ref=e1016] [box=629,3508,582,52]:
+                    - generic [ref=e1018] [box=629,3508,582,48]
+                  - listitem [ref=e1027] [box=629,3560,582,52]:
+                    - generic [ref=e1029] [box=629,3560,582,48]
+                  - listitem [ref=e1038] [box=629,3612,582,52]:
+                    - generic [ref=e1040] [box=629,3612,582,48]
+                  - listitem [ref=e1049] [box=629,3664,582,52]:
+                    - generic [ref=e1051] [box=629,3664,582,48]
+                  - listitem [ref=e1060] [box=629,3716,582,52]:
+                    - generic [ref=e1062] [box=629,3716,582,48]
+                  - listitem [ref=e1071] [box=629,3768,582,52]:
+                    - generic [ref=e1073] [box=629,3768,582,48]
+                  - listitem [ref=e1082] [box=629,3820,582,52]:
+                    - generic [ref=e1084] [box=629,3820,582,48]
+                  - listitem [ref=e1093] [box=629,3872,582,52]:
+                    - generic [ref=e1095] [box=629,3872,582,48]
+          - button "保存する" [ref=e1108] [cursor=pointer] [box=1155,3972,72,28]:
+            - generic [ref=e1109] [box=1167,3978,48,16]: 保存する
+  - region "Notifications alt+T" [box=0,4048,1600,0]
+  - alert [ref=e15] [box=-1,4047,1,1]

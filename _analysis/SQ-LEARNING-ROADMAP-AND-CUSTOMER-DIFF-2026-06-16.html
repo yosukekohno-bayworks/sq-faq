@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SQ学習ロードマップと顧客別差分レビュー</title>
+  <style>
+    :root {
+      --ink: #20242b;
+      --body: #3e4652;
+      --muted: #697382;
+      --line: #dfe5ec;
+      --soft: #f6f8fb;
+      --soft2: #eef4ff;
+      --blue: #245bd6;
+      --green: #0f7b5c;
+      --amber: #9a6700;
+      --red: #b42318;
+      --white: #fff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #f2f5f8;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+      line-height: 1.85;
+      font-size: 15px;
+      font-feature-settings: "palt";
+      text-size-adjust: 100%;
+    }
+    header {
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+      padding: 22px 28px;
+      position: sticky;
+      top: 0;
+      z-index: 5;
+    }
+    .header-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      line-height: 1.45;
+      margin: 0 0 4px;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      border: 1px solid #c9d7f5;
+      background: var(--soft2);
+      color: #173b8f;
+      border-radius: 999px;
+      padding: 4px 11px;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 26px 28px 70px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 16px;
+    }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px 20px;
+    }
+    .span-12 { grid-column: span 12; }
+    .span-6 { grid-column: span 6; }
+    .span-4 { grid-column: span 4; }
+    h2 {
+      font-size: 18px;
+      line-height: 1.45;
+      margin: 0 0 12px;
+      letter-spacing: 0;
+    }
+    h3 {
+      font-size: 15px;
+      line-height: 1.5;
+      margin: 18px 0 8px;
+      letter-spacing: 0;
+    }
+    p { margin: 8px 0; color: var(--body); }
+    ul, ol { margin: 8px 0 0; padding-left: 1.4em; color: var(--body); }
+    li { margin: 4px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 0;
+      font-size: 13px;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: #edf2f7;
+      color: #253041;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    tbody tr:nth-child(even) td { background: #fbfcfe; }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 23px;
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .ok { background: #e7f6ef; color: var(--green); }
+    .warn { background: #fff4d6; color: var(--amber); }
+    .bad { background: #fde8e7; color: var(--red); }
+    .info { background: #e8f0ff; color: var(--blue); }
+    .note {
+      border-left: 4px solid var(--blue);
+      background: #f7faff;
+      padding: 10px 12px;
+      border-radius: 0 8px 8px 0;
+      color: var(--body);
+    }
+    .danger {
+      border-left-color: var(--red);
+      background: #fff7f7;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #f0f3f6;
+      border-radius: 5px;
+      padding: 1px 5px;
+      font-size: 0.9em;
+      color: #9d174d;
+    }
+    .toc {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .toc a {
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
+      padding: 10px 12px;
+      font-size: 13px;
+      color: var(--ink);
+    }
+    .toc a:hover {
+      background: var(--soft2);
+      text-decoration: none;
+    }
+    @media (max-width: 900px) {
+      header { position: static; padding: 18px; }
+      .header-inner { display: block; }
+      .links { justify-content: flex-start; margin-top: 12px; }
+      main { padding: 18px; }
+      .span-6, .span-4 { grid-column: span 12; }
+      .toc { grid-template-columns: 1fr; }
+      table { font-size: 12.5px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>SQ学習ロードマップと顧客別差分レビュー</h1>
+        <p class="lead">2026-06-16時点。SQ標準FAQ、MICHAELKORS、CHAMPIONの画面目視結果を分けて理解するための入口。</p>
+      </div>
+      <div class="links">
+        <a class="pill" href="../SQ完全ガイド.html">SQ完全ガイド</a>
+        <a class="pill" href="../SQ-FAQ.html">SQ FAQ</a>
+        <a class="pill" href="../SQ-データ相関図.html">データ相関図</a>
+        <a class="pill" href="FAQ-PROJECT-DETAILED-WBS-2026-06-16.html">詳細WBS</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <section class="card span-12">
+        <h2>最初の結論</h2>
+        <div class="note">
+          既存FAQの概念は、SQ標準機能としては大きく間違っていません。問題は、MICHAELKORSやCHAMPIONの顧客別連携を標準FAQに混ぜると誤解が出る点です。
+        </div>
+        <table>
+          <thead>
+            <tr><th>観点</th><th>判定</th><th>補足</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SQ標準機能</td>
+              <td><span class="tag ok">概ね正しい</span></td>
+              <td>商品、在庫、伝票、CRM、CSV、設定、外部連携フォームの説明は実機検証ログと整合しています。</td>
+            </tr>
+            <tr>
+              <td>ステータス/ボタン挙動</td>
+              <td><span class="tag ok">概ね正しい</span></td>
+              <td><code>statuses.md</code> と <code>constraints.md</code> が最新の根拠です。</td>
+            </tr>
+            <tr>
+              <td>取り寄せ販売</td>
+              <td><span class="tag warn">範囲限定で正しい</span></td>
+              <td>在庫依頼起点の社内在庫移動は確認済み。実注文、WMS連携、顧客通知、会計、返品は別扱いです。</td>
+            </tr>
+            <tr>
+              <td>顧客別運用</td>
+              <td><span class="tag bad">追加が必要</span></td>
+              <td>MICHAELKORSとCHAMPIONは、連携先、基幹、WMS、POS、外部モール運用が違います。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card span-12">
+        <h2>今日見る順番</h2>
+        <table>
+          <thead>
+            <tr><th>順番</th><th>資料</th><th>見る理由</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td><a href="FAQ-PROJECT-DETAILED-WBS-2026-06-16.html">詳細WBS</a></td>
+              <td>なぜマスタ、商品、在庫、伝票、注文、CRM、外部連携の順で理解するかを把握します。</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><a href="../00-getting-started/SQ実測学習ガイド.md">SQ実測学習ガイド</a></td>
+              <td>実際に押して確認済みの範囲を短時間で把握します。</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><a href="../SQ完全ガイド.html">SQ完全ガイド</a></td>
+              <td>SQを1から通読して理解します。</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><a href="../SQ-データ相関図.html">SQデータ相関図</a></td>
+              <td>どのデータがどの画面・伝票・連携に影響するかを図で確認します。</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td><a href="../_support/statuses.md">ステータス台帳</a></td>
+              <td>タブ、状態、選択肢、在庫区分を確認します。</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td><a href="../_support/constraints.md">制約・既知問題台帳</a></td>
+              <td>不可逆操作、UIなし、不具合、外部連携待ちを確認します。</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td><a href="CUSTOMER-DOCS-FAQ-REVIEW-2026-06-16.md">顧客別差分レビュー</a></td>
+              <td>MICHAELKORS/CHAMPIONを標準SQと分けて理解します。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card span-6">
+        <h2>概念チェック</h2>
+        <table>
+          <thead>
+            <tr><th>概念</th><th>レビュー結果</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>商品/SKU</td>
+              <td>商品、バリエーション、SKUの3層で理解する方針は正しいです。SKUが在庫・価格・伝票の最小単位です。</td>
+            </tr>
+            <tr>
+              <td>ロケーション</td>
+              <td>在庫はSKU x ロケーションで見る理解で正しいです。顧客別運用では論理ロケーションや倉庫コードの意味を別途説明します。</td>
+            </tr>
+            <tr>
+              <td>在庫</td>
+              <td>販売可能、引当済み、取置中、手持ちの考え方は実測と整合しています。ただし外部WMS連携時の更新タイミングは顧客別です。</td>
+            </tr>
+            <tr>
+              <td>伝票</td>
+              <td>調整、取置、移動、出荷、入荷を分ける理解で正しいです。移動伝票は出荷指示/入荷指示を自動生成します。</td>
+            </tr>
+            <tr>
+              <td>顧客</td>
+              <td>SQ標準では管理画面から直接作成できず、チャネル流入が前提です。顧客別にはCRM/POS/基幹連携の説明が必要です。</td>
+            </tr>
+            <tr>
+              <td>CRM</td>
+              <td>ディスカウント、ポイント、会員ランクの標準説明は概ね正しいです。実注文への適用結果は実データ待ちです。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card span-6">
+        <h2>標準FAQに混ぜてはいけないもの</h2>
+        <ul>
+          <li>MICHAELKORSのMK基幹CRM/SA連携、顧客ID採番、除外タグ、77910/77901/77903/77940のロケーション運用</li>
+          <li>MICHAELKORSのLogizard入出荷、追跡番号必須、ZOZO梱包番号/ケース番号の論点</li>
+          <li>CHAMPIONのAS400中心構成、Logisteed WMS、ReTELA POS、POSポイント照会/更新</li>
+          <li>CHAMPIONの3rd運用、預託在庫/客注在庫補充、使用不可または古い手順</li>
+          <li>BacklogのDRAFT、ゴミ箱、使用不可資料にある手順</li>
+        </ul>
+        <div class="note danger">
+          標準FAQでは「SQとして何ができるか」を書き、顧客別資料では「その会社ではどのシステムを見て、どの運用で処理するか」を書きます。
+        </div>
+      </section>
+
+      <section class="card span-6">
+        <h2>MICHAELKORSの要点</h2>
+        <table>
+          <thead>
+            <tr><th>領域</th><th>見るべきこと</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>主システム</td><td>Shopify、SQ、SQ Retail Portal、Logizard、MK基幹CRM/SA、OmnibusCore</td></tr>
+            <tr><td>主フロー</td><td>EC倉庫在庫不足時に、BtoB倉庫、店舗倉庫、店舗在庫からLogizard EC倉庫へ取り寄せる</td></tr>
+            <tr><td>重要タグ</td><td><code>sq:no-sync-crm</code>、<code>sq:no-sync-sa</code>、<code>sq:account-disabled</code></td></tr>
+            <tr><td>重要ロケーション</td><td><code>77910</code>、<code>77901</code>、<code>77903</code>、<code>77940</code></td></tr>
+            <tr><td>注意点</td><td>店舗ゼロ在庫レコード、販売閾値の反映タイミング、追跡番号なし出荷、ZOZO梱包番号</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card span-6">
+        <h2>CHAMPIONの要点</h2>
+        <table>
+          <thead>
+            <tr><th>領域</th><th>見るべきこと</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>主システム</td><td>AS400、SQ、Logisteed WMS、ReTELA POS、Shopify、OmnibusCore</td></tr>
+            <tr><td>主フロー</td><td>AS400を中心に、商品、在庫、注文、顧客、POSポイント、WMS出荷、3rdモールを連携する</td></tr>
+            <tr><td>CRM</td><td>会員ランク、ポイント、バースデー特典、初回購入特典、POS連携</td></tr>
+            <tr><td>運用</td><td>顧客統合、コンビニ決済手動キャンセル、3rd注文キャンセル/住所変更、出荷指示</td></tr>
+            <tr><td>注意点</td><td>古い/使用不可手順がBacklogに残るため、FAQ本文に混ぜない</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card span-12">
+        <h2>未確認として残す範囲</h2>
+        <table>
+          <thead>
+            <tr><th>区分</th><th>内容</th><th>FAQでの扱い</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>実データ待ち</td>
+              <td>顧客、注文、返品、売上実績、実ポイント付与、会員ランク反映</td>
+              <td>断定しない。サンプルデータ条件を別管理する</td>
+            </tr>
+            <tr>
+              <td>外部連携待ち</td>
+              <td>Shopify、OmnibusCore、スマレジ/ReTELA、Logizard/Logisteed、Recustomer、MK基幹、AS400</td>
+              <td>設定UIまでと、接続後の同期挙動を分ける</td>
+            </tr>
+            <tr>
+              <td>メール/通知</td>
+              <td>管理メンバー招待、通知用メール、店舗通知、顧客出荷通知</td>
+              <td>実送信を伴うため検証範囲外として扱う</td>
+            </tr>
+            <tr>
+              <td>API/シークレット</td>
+              <td>アプリ作成、APIキー、アクセストークン、連携認証情報</td>
+              <td>発行や表示を伴うため実行しない。画面項目のみ記録する</td>
+            </tr>
+            <tr>
+              <td>Backlog外部リンク</td>
+              <td>MICHAELKORSの2026-03-27 Notion、2025-06-30から2025-12-11の課題リンク集</td>
+              <td>本文確認済みとは扱わない</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

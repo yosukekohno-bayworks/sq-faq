@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "i": 0,
+      "text": "すべてのアイテムを選択する\n\t\n名前\n\t\n場所コード",
+      "html": "<tr><th class=\"Polaris-IndexTable__TableHeading Polaris-IndexTable__TableHeading--first\" data-index-table-heading=\"true\"><div class=\"Polaris-IndexTable__ColumnHeaderCheckboxWrapper\"><label class=\"Polaris-Choice Polaris-Choice--labelHidden Polaris-Checkbox__ChoiceLabel\" for=\":r2g:\"><span class=\"Polaris-Choice__Control\"><span class=\"Polaris-Checkbox\"><input id=\":r2g:\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"false\" type=\"checkbox\"><span class=\"Polaris-Checkbox__Backdrop\"></span><span class=\"Polaris-Checkbox__Icon Polaris-Checkbox--animated\"><svg viewBox=\"0 0 16 16\" shape-rendering=\"geometricPrecision\" text-rendering=\"geometricPrecision\"><path class=\"\" d=\"M1.5,5.5L3.44655,8.22517C3.72862,8.62007,4.30578,8.64717,4.62362,8.28044L10.5,1.5\" transform=\"translate(2 2.980376)\" opacity=\"0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pathLength=\"1\"></path></svg></span></span></span><span class=\"Polaris-Choice__Label\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">すべてのアイテムを選択する</span></span></label></div></th><th class=\"Polaris-IndexTable__TableHeading Polaris-IndexTable__TableHeading--second\""
+    },
+    {
+      "i": 1,
+      "text": "アイテムを選択する\n\t\n\nユニクロ - 銀座店\n\n\t\n\nR0001",
+      "html": "<tr id=\"b12adcce-247e-5b58-b65a-4d7397be8f79_Location\" class=\"Polaris-IndexTable__TableRow\"><td class=\"Polaris-IndexTable__TableCell Polaris-IndexTable__TableCell--first\"><div class=\"Polaris-IndexTable-Checkbox__Wrapper\"><label class=\"Polaris-Choice Polaris-Choice--labelHidden Polaris-Checkbox__ChoiceLabel\" for=\"Select-b12adcce-247e-5b58-b65a-4d7397be8f79_Location\"><span class=\"Polaris-Choice__Control\"><span class=\"Polaris-Checkbox\"><input id=\"Select-b12adcce-247e-5b58-b65a-4d7397be8f79_Location\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"false\" type=\"checkbox\"><span class=\"Polaris-Checkbox__Backdrop\"></span><span class=\"Polaris-Checkbox__Icon Polaris-Checkbox--animated\"><svg viewBox=\"0 0 16 16\" shape-rendering=\"geometricPrecision\" text-rendering=\"geometricPrecision\"><path class=\"\" d=\"M1.5,5.5L3.44655,8.22517C3.72862,8.62007,4.30578,8.64717,4.62362,8.28044L10.5,1.5\" transform=\"translate(2 2.980376)\" opacity=\"0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pathLength=\"1\"></path></svg></span></span></span><span class=\"Polaris-Choice__Label\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd"
+    },
+    {
+      "i": 2,
+      "text": "アイテムを選択する\n\t\n\nTEST_FAQ_DEEP2_202606080343_ロケーション\n\n\t\n\ntest_faq_deep2_202606080343_loc",
+      "html": "<tr id=\"b9f67abc-3da0-5165-953b-ea304a92460b_Location\" class=\"Polaris-IndexTable__TableRow\"><td class=\"Polaris-IndexTable__TableCell Polaris-IndexTable__TableCell--first\"><div class=\"Polaris-IndexTable-Checkbox__Wrapper\"><label class=\"Polaris-Choice Polaris-Choice--labelHidden Polaris-Checkbox__ChoiceLabel\" for=\"Select-b9f67abc-3da0-5165-953b-ea304a92460b_Location\"><span class=\"Polaris-Choice__Control\"><span class=\"Polaris-Checkbox\"><input id=\"Select-b9f67abc-3da0-5165-953b-ea304a92460b_Location\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"false\" type=\"checkbox\"><span class=\"Polaris-Checkbox__Backdrop\"></span><span class=\"Polaris-Checkbox__Icon Polaris-Checkbox--animated\"><svg viewBox=\"0 0 16 16\" shape-rendering=\"geometricPrecision\" text-rendering=\"geometricPrecision\"><path class=\"\" d=\"M1.5,5.5L3.44655,8.22517C3.72862,8.62007,4.30578,8.64717,4.62362,8.28044L10.5,1.5\" transform=\"translate(2 2.980376)\" opacity=\"0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pathLength=\"1\"></path></svg></span></span></span><span class=\"Polaris-Choice__Label\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd"
+    },
+    {
+      "i": 3,
+      "text": "アイテムを選択する\n\t\n\nTEST_FAQ_店舗在庫EC販売用\n\n\t\n\nTESTEC01",
+      "html": "<tr id=\"8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location\" class=\"Polaris-IndexTable__TableRow\"><td class=\"Polaris-IndexTable__TableCell Polaris-IndexTable__TableCell--first\"><div class=\"Polaris-IndexTable-Checkbox__Wrapper\"><label class=\"Polaris-Choice Polaris-Choice--labelHidden Polaris-Checkbox__ChoiceLabel\" for=\"Select-8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location\"><span class=\"Polaris-Choice__Control\"><span class=\"Polaris-Checkbox\"><input id=\"Select-8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"false\" type=\"checkbox\"><span class=\"Polaris-Checkbox__Backdrop\"></span><span class=\"Polaris-Checkbox__Icon Polaris-Checkbox--animated\"><svg viewBox=\"0 0 16 16\" shape-rendering=\"geometricPrecision\" text-rendering=\"geometricPrecision\"><path class=\"\" d=\"M1.5,5.5L3.44655,8.22517C3.72862,8.62007,4.30578,8.64717,4.62362,8.28044L10.5,1.5\" transform=\"translate(2 2.980376)\" opacity=\"0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pathLength=\"1\"></path></svg></span></span></span><span class=\"Polaris-Choice__Label\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "閉じる",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "検索結果を並べ替える",
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "前へ",
+      "disabled": true
+    },
+    {
+      "i": 10,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "次へ",
+      "disabled": true
+    },
+    {
+      "i": 11,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "キャンセル",
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "選択する",
+      "disabled": false
+    }
+  ],
+  "dialogText": "ロケーションを選択する\n場所コードで検索する\nすべてのアイテムを選択する\n\t\n名前\n\t\n場所コード\n\n\nアイテムを選択する\n\t\n\nユニクロ - 銀座店\n\n\t\n\nR0001\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP2_202606080343_ロケーション\n\n\t\n\ntest_faq_deep2_202606080343_loc\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_店舗在庫EC販売用\n\n\t\n\nTESTEC01\n\nキャンセル\n選択する"
+}

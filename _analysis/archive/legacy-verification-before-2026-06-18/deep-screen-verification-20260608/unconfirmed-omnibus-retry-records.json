@@ -1,0 +1,695 @@
+{
+  "generatedAt": "2026-06-08T06:03:30.028Z",
+  "records": [
+    {
+      "requestedUrl": "/admin",
+      "finalUrl": "https://www.sqstackstaging.com/admin",
+      "status": 200,
+      "h1": [],
+      "h2": [
+        "Application error: a client-side exception has occurred (see the browser console for more information)."
+      ],
+      "buttons": [],
+      "labels": [],
+      "links": [],
+      "controlSummary": {
+        "total": 0,
+        "selects": [],
+        "checkboxes": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": true,
+        "empty": false,
+        "readyMessage": false
+      },
+      "importantLines": [],
+      "networkIssues": [
+        {
+          "status": 404,
+          "method": "GET",
+          "url": "/_vercel/insights/script.js",
+          "bodySample": ""
+        },
+        {
+          "status": 404,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "<!DOCTYPE html><html lang=\"ja\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"stylesheet\" href=\"/_next/static/css/b63d083c474878ec.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/208105315aaae0a7.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-0ea3a71cfdba5cbe.js\"/><script src=\"/_next/static/chunks/762a8368-f1fe806f3d03847c.js\" async=\"\"></script><script src=\"/_next/static/chunks/10855-32f7d74d02c1bde7.js\" async=\"\"></scri"
+        }
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-omnibus-retry-screenshots/01-admin-root.png"
+    },
+    {
+      "requestedUrl": "/admin/omnibus_core_integrations",
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+      "status": 200,
+      "h1": [
+        "OmnibusCore"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "labels": [],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "追加する",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create"
+        },
+        {
+          "text": "TEST_MAKER_001",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration"
+        }
+      ],
+      "controlSummary": {
+        "total": 1,
+        "selects": [],
+        "checkboxes": [
+          {
+            "label": "アイテムを選択する",
+            "checked": false
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "OmnibusCore",
+        "OmnibusCore。このページの準備が整いました",
+        "追加する",
+        "テナント",
+        "カタログ",
+        "ロケーショングループ",
+        "連携日時",
+        "TEST_MAKER_001"
+      ],
+      "networkIssues": [
+        {
+          "status": 404,
+          "method": "GET",
+          "url": "/_vercel/insights/script.js",
+          "bodySample": ""
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"myPermissions\":[\"announcements:read\",\"announcements:write\",\"apps:read\",\"apps:write\",\"brands:read\",\"brands:write\",\"catalogs:read\",\"catalogs:write\",\"companies:read\",\"companies:write\",\"customer_miles:read\",\"customer_miles:write\",\"customer_points:read\",\"customer_points:write\",\"customer_rank_rules:read\",\"customer_rank_rules:write\",\"customer_ranks:read\",\"customer_ranks:write\",\"customers:read\",\"customers:write\",\"discounts:read\",\"discounts:write\",\"draft_orders:read\",\"draft_orders:write\",\"inventory:read\",\"inventory:write\",\"inventory_allocation_requests:read\",\"inventory_allocation_requests:write\",\"local_pickup_location_rules:read\",\"local_pickup_location_rules:write\",\"location_groups:read\",\"l"
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"orderIncompleteCount\":0,\"inventoryAllocationRequestIncompleteCount\":0,\"inventoryOutboundOrderIncompleteCount\":0,\"inventoryInboundOrderIncompleteCount\":0}}"
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"omnibusCoreIntegrations\":{\"nodes\":[{\"id\":\"703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration\",\"makerCode\":\"TEST_MAKER_001\",\"tenant\":{\"id\":\"da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant\",\"name\":\"ユニクロ\",\"__typename\":\"Tenant\"},\"catalog\":null,\"locationGroup\":null,\"createdAt\":\"2026-06-06T09:46:02Z\",\"__typename\":\"OmnibusCoreIntegration\"}],\"pageInfo\":{\"hasNextPage\":false,\"endCursor\":\"1\",\"hasPreviousPage\":false,\"__typename\":\"PageInfo\"},\"__typename\":\"OmnibusCoreIntegrationConnection\"}}}"
+        }
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-omnibus-retry-screenshots/02-omnibus_core_integrations.png"
+    },
+    {
+      "requestedUrl": "/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration",
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration",
+      "status": 200,
+      "h1": [
+        "OmnibusCore連携 (TEST_MAKER_001)"
+      ],
+      "h2": [
+        "商品同期設定",
+        "在庫設定",
+        "注文設定",
+        "アクセストークン",
+        "連携削除",
+        "基本情報"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "トークンを作成",
+        "連携を削除する",
+        "保存する"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "連携サイト",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration/sites"
+        },
+        {
+          "text": "通知メール",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration/notification_emails"
+        },
+        {
+          "text": "連携サイト",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration/sites"
+        },
+        {
+          "text": "通知メール",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration/notification_emails"
+        }
+      ],
+      "controlSummary": {
+        "total": 9,
+        "selects": [
+          {
+            "label": "カタログ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "ロケーショングループ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_ロケーショングループ"
+            ]
+          },
+          {
+            "label": "在庫予約ルール",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_予約販売ルール",
+              "TEST_FAQ_予約販売ルール_遷移確認_20260607",
+              "TEST_FAQ_DEEP_202606080340_予約販売ルール"
+            ]
+          },
+          {
+            "label": "販売上限ルール",
+            "options": [
+              "選択してください"
+            ]
+          }
+        ],
+        "checkboxes": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "OmnibusCore",
+        "OmnibusCore連携 (TEST_MAKER_001)。このページの準備が整いました",
+        "OmnibusCore連携 (TEST_MAKER_001)",
+        "連携サイト",
+        "カタログ",
+        "選択してください",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "オプションを追加",
+        "ロケーショングループ",
+        "TEST_FAQ_ロケーショングループ",
+        "在庫予約ルール",
+        "TEST_FAQ_予約販売ルール",
+        "TEST_FAQ_予約販売ルール_遷移確認_20260607",
+        "TEST_FAQ_DEEP_202606080340_予約販売ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "OmnibusCoreから連携する下書き注文が何日で期限切れになるかを示す日数（1-365日）",
+        "OmnibusCoreから連携される注文から作成する出荷指示の作業ステータスです。",
+        "トークンを作成",
+        "連携削除",
+        "連携を削除する",
+        "テナント",
+        "TEST_MAKER_001",
+        "連携日時",
+        "保存する"
+      ],
+      "networkIssues": [
+        {
+          "status": 404,
+          "method": "GET",
+          "url": "/_vercel/insights/script.js",
+          "bodySample": ""
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"myPermissions\":[\"announcements:read\",\"announcements:write\",\"apps:read\",\"apps:write\",\"brands:read\",\"brands:write\",\"catalogs:read\",\"catalogs:write\",\"companies:read\",\"companies:write\",\"customer_miles:read\",\"customer_miles:write\",\"customer_points:read\",\"customer_points:write\",\"customer_rank_rules:read\",\"customer_rank_rules:write\",\"customer_ranks:read\",\"customer_ranks:write\",\"customers:read\",\"customers:write\",\"discounts:read\",\"discounts:write\",\"draft_orders:read\",\"draft_orders:write\",\"inventory:read\",\"inventory:write\",\"inventory_allocation_requests:read\",\"inventory_allocation_requests:write\",\"local_pickup_location_rules:read\",\"local_pickup_location_rules:write\",\"location_groups:read\",\"l"
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"omnibusCoreIntegration\":{\"id\":\"703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration\",\"makerCode\":\"TEST_MAKER_001\",\"createdAt\":\"2026-06-06T09:46:02Z\",\"catalog\":null,\"locationGroup\":null,\"inventoryBackOrderRule\":null,\"inventorySaleLimitRule\":null,\"tenant\":{\"id\":\"da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant\",\"name\":\"ユニクロ\",\"__typename\":\"Tenant\"},\"colorOptionNames\":[],\"sizeOptionNames\":[],\"draftOrderExpirationDays\":30,\"createInventoryOutboundOrderAsOnHold\":false,\"accessTokens\":[],\"__typename\":\"OmnibusCoreIntegration\"},\"catalogs\":{\"nodes\":[{\"id\":\"e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog\",\"title\":\"TEST_FAQ_カタログ001\",\"__typename\":\"Catalog\"},{\"id\":\"69a9415f-37c7-5a22-992f-d4c98e572"
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"orderIncompleteCount\":0,\"inventoryAllocationRequestIncompleteCount\":0,\"inventoryOutboundOrderIncompleteCount\":0,\"inventoryInboundOrderIncompleteCount\":0}}"
+        }
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-omnibus-retry-screenshots/03-omnibus_core_integrations__703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration.png"
+    },
+    {
+      "requestedUrl": "/admin/omnibus_core_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+      "status": 200,
+      "h1": [
+        "OmnibusCore連携を作成する"
+      ],
+      "h2": [
+        "商品同期設定",
+        "在庫設定",
+        "注文設定"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "オプションを追加",
+        "保存する"
+      ],
+      "labels": [
+        "テナント",
+        "メーカーコード",
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        }
+      ],
+      "controlSummary": {
+        "total": 9,
+        "selects": [
+          {
+            "label": "テナント",
+            "options": [
+              "選択してください",
+              "ユニクロ"
+            ]
+          },
+          {
+            "label": "カタログ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "ロケーショングループ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_ロケーショングループ"
+            ]
+          },
+          {
+            "label": "在庫予約ルール",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_予約販売ルール",
+              "TEST_FAQ_予約販売ルール_遷移確認_20260607",
+              "TEST_FAQ_DEEP_202606080340_予約販売ルール"
+            ]
+          },
+          {
+            "label": "販売上限ルール",
+            "options": [
+              "選択してください"
+            ]
+          }
+        ],
+        "checkboxes": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "OmnibusCore",
+        "OmnibusCore連携を作成する。このページの準備が整いました",
+        "OmnibusCore連携を作成する",
+        "テナント",
+        "選択してください",
+        "カタログ",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "オプションを追加",
+        "ロケーショングループ",
+        "TEST_FAQ_ロケーショングループ",
+        "在庫予約ルール",
+        "TEST_FAQ_予約販売ルール",
+        "TEST_FAQ_予約販売ルール_遷移確認_20260607",
+        "TEST_FAQ_DEEP_202606080340_予約販売ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "OmnibusCoreから連携する下書き注文が何日で期限切れになるかを示す日数（1-365日）",
+        "保存する"
+      ],
+      "networkIssues": [
+        {
+          "status": 404,
+          "method": "GET",
+          "url": "/_vercel/insights/script.js",
+          "bodySample": ""
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"myPermissions\":[\"announcements:read\",\"announcements:write\",\"apps:read\",\"apps:write\",\"brands:read\",\"brands:write\",\"catalogs:read\",\"catalogs:write\",\"companies:read\",\"companies:write\",\"customer_miles:read\",\"customer_miles:write\",\"customer_points:read\",\"customer_points:write\",\"customer_rank_rules:read\",\"customer_rank_rules:write\",\"customer_ranks:read\",\"customer_ranks:write\",\"customers:read\",\"customers:write\",\"discounts:read\",\"discounts:write\",\"draft_orders:read\",\"draft_orders:write\",\"inventory:read\",\"inventory:write\",\"inventory_allocation_requests:read\",\"inventory_allocation_requests:write\",\"local_pickup_location_rules:read\",\"local_pickup_location_rules:write\",\"location_groups:read\",\"l"
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"orderIncompleteCount\":0,\"inventoryAllocationRequestIncompleteCount\":0,\"inventoryOutboundOrderIncompleteCount\":0,\"inventoryInboundOrderIncompleteCount\":0}}"
+        },
+        {
+          "status": 200,
+          "method": "POST",
+          "url": "/api/graphql",
+          "bodySample": "{\"data\":{\"tenants\":{\"nodes\":[{\"id\":\"da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant\",\"name\":\"ユニクロ\",\"__typename\":\"Tenant\"}],\"__typename\":\"TenantConnection\"},\"catalogs\":{\"nodes\":[{\"id\":\"e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog\",\"title\":\"TEST_FAQ_カタログ001\",\"__typename\":\"Catalog\"},{\"id\":\"69a9415f-37c7-5a22-992f-d4c98e572009_Catalog\",\"title\":\"TEST_FAQ_DEEP_202606080340_カタログ\",\"__typename\":\"Catalog\"}],\"__typename\":\"CatalogConnection\"},\"locationGroups\":{\"nodes\":[{\"id\":\"906401a3-571f-5547-886c-9219c812247f_LocationGroup\",\"title\":\"TEST_FAQ_ロケーショングループ\",\"__typename\":\"LocationGroup\"}],\"__typename\":\"LocationGroupConnection\"},\"inventoryBackOrderRules\":{\"nodes\":[{\"id\":\"50c63370-5a46-57fb-b475-dd8a581258ea_In"
+        }
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-omnibus-retry-screenshots/04-omnibus_core_integrations__create.png"
+    }
+  ]
+}

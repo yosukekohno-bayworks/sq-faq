@@ -1,0 +1,33 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+  "rows": [
+    {
+      "i": 0,
+      "text": "すべてのアイテムを選択する\n\t\nルール\n\t\n利用テナント数",
+      "html": "<tr><th class=\"Polaris-IndexTable__TableHeading Polaris-IndexTable__TableHeading--first\" data-index-table-heading=\"true\"><div class=\"Polaris-IndexTable__ColumnHeaderCheckboxWrapper\"><label class=\"Polaris-Choice Polaris-Choice--labelHidden Polaris-Checkbox__ChoiceLabel\" for=\":r1i:\"><span class=\"Polaris-Choice__Control\"><span class=\"Polaris-Checkbox\"><input id=\":r1i:\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"false\" type=\"checkbox\"><span class=\"Polaris-Checkbox__Backdrop\"></span><span class=\"Polaris-Checkbox__Icon Polaris-Checkbox--animated\"><svg viewBox=\"0 0 16 16\" shape-rendering=\"geometricPrecision\" text-rendering=\"geometricPrecision\"><path class=\"\" d=\"M1.5,5.5L3.44655,8.22517C3.72862,8.62007,4.30578,8.64717,4.62362,8.28044L10.5,1.5\" transform=\"translate(2 2.980376)\" opacity=\"0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pathLength=\"1\"></path></svg></span></span></span><span class=\"Polaris-"
+    },
+    {
+      "i": 1,
+      "text": "アイテムを選択する\n\t\n\nTEST_FAQ_注文ポイント付与ルール\n\n\t\n\n0件",
+      "html": "<tr id=\"4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule\" class=\"Polaris-IndexTable__TableRow\"><td class=\"Polaris-IndexTable__TableCell Polaris-IndexTable__TableCell--first\"><div class=\"Polaris-IndexTable-Checkbox__Wrapper\"><label class=\"Polaris-Choice Polaris-Choice--labelHidden Polaris-Checkbox__ChoiceLabel\" for=\"Select-4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule\"><span class=\"Polaris-Choice__Control\"><span class=\"Polaris-Checkbox\"><input id=\"Select-4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"false\" type=\"checkbox\"><span class=\"Polaris-Checkbox__Backdrop\"></span><span class=\"Polaris-Checkbox__Icon Polaris-Checkbox--animated\"><svg viewBox=\"0 0 16 16\" shape-rendering=\"geometricPrecision\" text-rendering=\"geometricPrecision\"><path class=\"\" d=\"M1.5,5.5L3.44655,8.22517C3.72862,8.62007,4.30578,8.64717,4.62362,8.28044L10.5,1.5\" transform=\"translate(2 2.980376)\" opacity=\"0\""
+    }
+  ],
+  "links": [
+    {
+      "i": 0,
+      "text": "コンテンツにスキップ",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules#AppFrameMain"
+    },
+    {
+      "i": 16,
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+    },
+    {
+      "i": 28,
+      "text": "付与ルールを作成する",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules/create"
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n注文ポイント。このページの準備が整いました\n\n注文ポイント\n付与ルールを作成する\nすべて\nすべてのアイテムを選択する\n\t\nルール\n\t\n利用テナント数\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_注文ポイント付与ルール\n\n\t\n\n0件"
+}

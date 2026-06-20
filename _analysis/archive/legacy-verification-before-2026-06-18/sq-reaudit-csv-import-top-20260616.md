@@ -1,0 +1,381 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "ホーム" [ref=e48] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e51]
+                - generic [ref=e53]: ホーム
+            - listitem [ref=e54]:
+              - link "商品管理" [ref=e57] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e60]
+                - generic [ref=e62]: 商品管理
+            - listitem [ref=e63]:
+              - link "在庫管理" [ref=e66] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e69]
+                - generic [ref=e71]: 在庫管理
+            - listitem [ref=e72]:
+              - link "注文管理" [ref=e75] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e78]
+                - generic [ref=e80]: 注文管理
+            - listitem [ref=e81]:
+              - link "顧客管理" [ref=e84] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e87]
+                - generic [ref=e90]: 顧客管理
+            - listitem [ref=e91]:
+              - link "発注管理" [ref=e94] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e97]
+                - generic [ref=e100]: 発注管理
+            - listitem [ref=e101]:
+              - link "販売設定" [ref=e104] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e107]
+                - generic [ref=e112]: 販売設定
+            - listitem [ref=e113]:
+              - link "会計" [ref=e116] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e119]
+                - generic [ref=e121]: 会計
+            - listitem [ref=e122]:
+              - generic [ref=e123]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - generic [ref=e126]: オペレーション
+            - listitem [ref=e127]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e130] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e133]
+                - generic [ref=e137]: 入荷管理
+                - generic [ref=e139]:
+                  - generic [ref=e140]: 未完了の入荷指示 1件
+                  - generic [ref=e141]: "1"
+            - listitem [ref=e142]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e148]
+                - generic [ref=e150]: 出荷管理
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 未完了の出荷指示 1件
+                  - generic [ref=e154]: "1"
+            - listitem [ref=e155]:
+              - link "在庫依頼" [ref=e158] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161]
+                - generic [ref=e164]: 在庫依頼
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - generic [ref=e167]: CRM
+            - listitem [ref=e168]:
+              - link "ディスカウント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ディスカウント
+            - listitem [ref=e177]:
+              - link "ポイント" [ref=e180] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e185]: ポイント
+            - listitem [ref=e186]:
+              - link "会員ランク" [ref=e189] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e192]
+                - generic [ref=e195]: 会員ランク
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - generic [ref=e198]: 販売チャネル
+            - listitem [ref=e199]:
+              - link "Shopify" [ref=e202] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e203]: Shopify
+            - listitem [ref=e204]:
+              - link "OmnibusCore" [ref=e207] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e208]: OmnibusCore
+            - listitem [ref=e209]:
+              - link "スマレジ" [ref=e212] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e213]: スマレジ
+            - listitem [ref=e214]:
+              - link "リテールポータル" [ref=e217] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e218]: リテールポータル
+            - listitem [ref=e219]:
+              - generic [ref=e220]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - link "設定" [ref=e225] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e228]
+                - generic [ref=e230]: 設定
+    - main [ref=e231]:
+      - generic [ref=e234]:
+        - generic [ref=e235]:
+          - status:
+            - paragraph [ref=e236]: CSVインポート。このページの準備が整いました
+          - generic [ref=e238]:
+            - link [ref=e241] [cursor=pointer]:
+              - /url: /admin
+              - img [ref=e244]
+            - heading "CSVインポート" [level=1] [ref=e248]
+        - generic [ref=e252]:
+          - generic [ref=e255]:
+            - heading "商品" [level=2] [ref=e256]
+            - listbox [ref=e260]:
+              - option "商品 商品を一括で登録・更新することができます。" [ref=e261]:
+                - generic [ref=e266] [cursor=pointer]:
+                  - generic [ref=e267]:
+                    - img [ref=e270]
+                    - generic [ref=e272]:
+                      - heading "商品" [level=2] [ref=e273]
+                      - paragraph [ref=e274]: 商品を一括で登録・更新することができます。
+                  - button [ref=e275]:
+                    - img [ref=e278]
+              - option "商品バリエーション 商品バリエーションを一括で登録・更新することができます。" [ref=e280]:
+                - generic [ref=e285] [cursor=pointer]:
+                  - generic [ref=e286]:
+                    - img [ref=e289]
+                    - generic [ref=e291]:
+                      - heading "商品バリエーション" [level=2] [ref=e292]
+                      - paragraph [ref=e293]: 商品バリエーションを一括で登録・更新することができます。
+                  - button [ref=e294]:
+                    - img [ref=e297]
+              - option "商品画像 商品画像を一括で追加することができます。" [ref=e299]:
+                - generic [ref=e304] [cursor=pointer]:
+                  - generic [ref=e305]:
+                    - img [ref=e308]
+                    - generic [ref=e311]:
+                      - heading "商品画像" [level=2] [ref=e312]
+                      - paragraph [ref=e313]: 商品画像を一括で追加することができます。
+                  - button [ref=e314]:
+                    - img [ref=e317]
+              - option "商品バリエーション画像 商品バリエーション画像を一括で追加することができます。" [ref=e319]:
+                - generic [ref=e324] [cursor=pointer]:
+                  - generic [ref=e325]:
+                    - img [ref=e328]
+                    - generic [ref=e331]:
+                      - heading "商品バリエーション画像" [level=2] [ref=e332]
+                      - paragraph [ref=e333]: 商品バリエーション画像を一括で追加することができます。
+                  - button [ref=e334]:
+                    - img [ref=e337]
+              - option "カタログ カタログに商品を一括で追加・削除することができます。" [ref=e339]:
+                - generic [ref=e344] [cursor=pointer]:
+                  - generic [ref=e345]:
+                    - img [ref=e348]
+                    - generic [ref=e350]:
+                      - heading "カタログ" [level=2] [ref=e351]
+                      - paragraph [ref=e352]: カタログに商品を一括で追加・削除することができます。
+                  - button [ref=e353]:
+                    - img [ref=e356]
+          - generic [ref=e360]:
+            - heading "価格" [level=2] [ref=e361]
+            - listbox [ref=e365]:
+              - option "販売価格 (通常) 通常区分の販売価格を一括で設定することができます。" [ref=e366]:
+                - generic [ref=e371] [cursor=pointer]:
+                  - generic [ref=e372]:
+                    - img [ref=e375]
+                    - generic [ref=e378]:
+                      - heading "販売価格 (通常)" [level=2] [ref=e379]
+                      - paragraph [ref=e380]: 通常区分の販売価格を一括で設定することができます。
+                  - button [ref=e381]:
+                    - img [ref=e384]
+              - option "販売価格 (セール) セール区分の販売価格を一括で設定することができます。" [ref=e386]:
+                - generic [ref=e391] [cursor=pointer]:
+                  - generic [ref=e392]:
+                    - img [ref=e395]
+                    - generic [ref=e398]:
+                      - heading "販売価格 (セール)" [level=2] [ref=e399]
+                      - paragraph [ref=e400]: セール区分の販売価格を一括で設定することができます。
+                  - button [ref=e401]:
+                    - img [ref=e404]
+              - option "原価 SKUごとに原価を一括で設定することができます。" [ref=e406]:
+                - generic [ref=e411] [cursor=pointer]:
+                  - generic [ref=e412]:
+                    - img [ref=e415]
+                    - generic [ref=e418]:
+                      - heading "原価" [level=2] [ref=e419]
+                      - paragraph [ref=e420]: SKUごとに原価を一括で設定することができます。
+                  - button [ref=e421]:
+                    - img [ref=e424]
+          - generic [ref=e428]:
+            - heading "販売" [level=2] [ref=e429]
+            - listbox [ref=e433]:
+              - option "販売閾値 販売閾値ルールごとにSKUと閾値を一括で設定することができます。" [ref=e434]:
+                - generic [ref=e439] [cursor=pointer]:
+                  - generic [ref=e440]:
+                    - img [ref=e443]
+                    - generic [ref=e445]:
+                      - heading "販売閾値" [level=2] [ref=e446]
+                      - paragraph [ref=e447]: 販売閾値ルールごとにSKUと閾値を一括で設定することができます。
+                  - button [ref=e448]:
+                    - img [ref=e451]
+          - generic [ref=e455]:
+            - heading "在庫" [level=2] [ref=e456]
+            - listbox [ref=e460]:
+              - option "販売可能在庫 SKUとロケーションを指定して在庫数を一括で設定することができます。" [ref=e461]:
+                - generic [ref=e466] [cursor=pointer]:
+                  - generic [ref=e467]:
+                    - img [ref=e470]
+                    - generic [ref=e472]:
+                      - heading "販売可能在庫" [level=2] [ref=e473]
+                      - paragraph [ref=e474]: SKUとロケーションを指定して在庫数を一括で設定することができます。
+                  - button [ref=e475]:
+                    - img [ref=e478]
+              - option "予約販売 SKUごとに予約販売の数量を一括で設定することができます。" [ref=e480]:
+                - generic [ref=e485] [cursor=pointer]:
+                  - generic [ref=e486]:
+                    - img [ref=e489]
+                    - generic [ref=e493]:
+                      - heading "予約販売" [level=2] [ref=e494]
+                      - paragraph [ref=e495]: SKUごとに予約販売の数量を一括で設定することができます。
+                  - button [ref=e496]:
+                    - img [ref=e499]
+              - option "在庫移動伝票 在庫移動伝票を一括で作成することができます。" [ref=e501]:
+                - generic [ref=e506] [cursor=pointer]:
+                  - generic [ref=e507]:
+                    - img [ref=e510]
+                    - generic [ref=e512]:
+                      - heading "在庫移動伝票" [level=2] [ref=e513]
+                      - paragraph [ref=e514]: 在庫移動伝票を一括で作成することができます。
+                  - button [ref=e515]:
+                    - img [ref=e518]
+          - generic [ref=e522]:
+            - heading "メタフィールド" [level=2] [ref=e523]
+            - listbox [ref=e527]:
+              - option "商品 商品メタフィールドを一括で追加することができます。" [ref=e528]:
+                - generic [ref=e533] [cursor=pointer]:
+                  - generic [ref=e534]:
+                    - img [ref=e537]
+                    - generic [ref=e539]:
+                      - heading "商品" [level=2] [ref=e540]
+                      - paragraph [ref=e541]: 商品メタフィールドを一括で追加することができます。
+                  - button [ref=e542]:
+                    - img [ref=e545]
+              - option "商品バリエーション 商品バリエーションメタフィールドを一括で登録・更新することができます。" [ref=e547]:
+                - generic [ref=e552] [cursor=pointer]:
+                  - generic [ref=e553]:
+                    - img [ref=e556]
+                    - generic [ref=e558]:
+                      - heading "商品バリエーション" [level=2] [ref=e559]
+                      - paragraph [ref=e560]: 商品バリエーションメタフィールドを一括で登録・更新することができます。
+                  - button [ref=e561]:
+                    - img [ref=e564]
+          - generic [ref=e568]:
+            - heading "出荷" [level=2] [ref=e569]
+            - listbox [ref=e573]:
+              - option "ヤマトB2クラウド ヤマトB2クラウドのCSVで出荷実績を一括で登録することができます。" [ref=e574]:
+                - generic [ref=e579] [cursor=pointer]:
+                  - generic [ref=e580]:
+                    - img [ref=e583]
+                    - generic [ref=e585]:
+                      - heading "ヤマトB2クラウド" [level=2] [ref=e586]
+                      - paragraph [ref=e587]: ヤマトB2クラウドのCSVで出荷実績を一括で登録することができます。
+                  - button [ref=e588]:
+                    - img [ref=e591]
+              - option "DHL DHLのCSVで出荷実績を一括で登録することができます。" [ref=e593]:
+                - generic [ref=e598] [cursor=pointer]:
+                  - generic [ref=e599]:
+                    - img [ref=e602]
+                    - generic [ref=e604]:
+                      - heading "DHL" [level=2] [ref=e605]
+                      - paragraph [ref=e606]: DHLのCSVで出荷実績を一括で登録することができます。
+                  - button [ref=e607]:
+                    - img [ref=e610]
+          - generic [ref=e614]:
+            - heading "ポイント" [level=2] [ref=e615]
+            - listbox [ref=e619]:
+              - option "一括加算 顧客にポイントを一括で加算することができます。" [ref=e620]:
+                - generic [ref=e625] [cursor=pointer]:
+                  - generic [ref=e626]:
+                    - img [ref=e629]
+                    - generic [ref=e631]:
+                      - heading "一括加算" [level=2] [ref=e632]
+                      - paragraph [ref=e633]: 顧客にポイントを一括で加算することができます。
+                  - button [ref=e634]:
+                    - img [ref=e637]
+              - option "一括減算 顧客のポイントを一括で減算することができます。" [ref=e639]:
+                - generic [ref=e644] [cursor=pointer]:
+                  - generic [ref=e645]:
+                    - img [ref=e648]
+                    - generic [ref=e650]:
+                      - heading "一括減算" [level=2] [ref=e651]
+                      - paragraph [ref=e652]: 顧客のポイントを一括で減算することができます。
+                  - button [ref=e653]:
+                    - img [ref=e656]
+              - option "キャンペーン対象商品 キャンペーンの対象商品を一括で設定することができます。" [ref=e658]:
+                - generic [ref=e663] [cursor=pointer]:
+                  - generic [ref=e664]:
+                    - img [ref=e667]
+                    - generic [ref=e669]:
+                      - heading "キャンペーン対象商品" [level=2] [ref=e670]
+                      - paragraph [ref=e671]: キャンペーンの対象商品を一括で設定することができます。
+                  - button [ref=e672]:
+                    - img [ref=e675]
+          - generic [ref=e679]:
+            - heading "会員ランク" [level=2] [ref=e680]
+            - listbox [ref=e684]:
+              - option "基準ランク 顧客の基準ランクを一括で設定することができます。" [ref=e685]:
+                - generic [ref=e690] [cursor=pointer]:
+                  - generic [ref=e691]:
+                    - img [ref=e694]
+                    - generic [ref=e697]:
+                      - heading "基準ランク" [level=2] [ref=e698]
+                      - paragraph [ref=e699]: 顧客の基準ランクを一括で設定することができます。
+                  - button [ref=e700]:
+                    - img [ref=e703]
+          - generic [ref=e707]:
+            - heading "各種マスター" [level=2] [ref=e708]
+            - listbox [ref=e712]:
+              - option "管理ユーザー 管理ユーザーを一括で登録・更新することができます。" [ref=e713]:
+                - generic [ref=e718] [cursor=pointer]:
+                  - generic [ref=e719]:
+                    - img [ref=e722]
+                    - generic [ref=e725]:
+                      - heading "管理ユーザー" [level=2] [ref=e726]
+                      - paragraph [ref=e727]: 管理ユーザーを一括で登録・更新することができます。
+                  - button [ref=e728]:
+                    - img [ref=e731]
+              - option "ロケーション ロケーションを一括で登録・更新することができます。" [ref=e733]:
+                - generic [ref=e738] [cursor=pointer]:
+                  - generic [ref=e739]:
+                    - img [ref=e742]
+                    - generic [ref=e744]:
+                      - heading "ロケーション" [level=2] [ref=e745]
+                      - paragraph [ref=e746]: ロケーションを一括で登録・更新することができます。
+                  - button [ref=e747]:
+                    - img [ref=e750]
+  - region "Notifications alt+T"
+  - alert [ref=e15]

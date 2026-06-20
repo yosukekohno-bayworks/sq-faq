@@ -1,0 +1,297 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/products/179a188e-402d-5b11-a16e-9b084293fdb2_Product",
+  "headings": [
+    "TEST_FAQ_STATUS_20260615080916_商品",
+    "商品コード",
+    "メディア（0件）",
+    "バリエーション",
+    "検索エンジンリスティング",
+    "メタフィールド",
+    "TEST_FAQ_テキストフィールド",
+    "TEST_FAQ_DEEP_202606080340_商品MF",
+    "ステータス",
+    "商品分類",
+    "タグ"
+  ],
+  "controls": [
+    {
+      "i": 0,
+      "tag": "A",
+      "text": "コンテンツにスキップ",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/products/179a188e-402d-5b11-a16e-9b084293fdb2_Product#AppFrameMain"
+    },
+    {
+      "i": 2,
+      "tag": "A",
+      "text": "",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "text": "stack-ps-yosuke | 陽介 | 河野",
+      "value": "",
+      "type": "button",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 5,
+      "tag": "A",
+      "text": "",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 6,
+      "tag": "A",
+      "text": "ホーム",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 7,
+      "tag": "A",
+      "text": "商品管理",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/products"
+    },
+    {
+      "i": 8,
+      "tag": "A",
+      "text": "カタログ",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/catalogs"
+    },
+    {
+      "i": 9,
+      "tag": "A",
+      "text": "店舗受取",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/local_pickup_product_variants"
+    },
+    {
+      "i": 10,
+      "tag": "A",
+      "text": "在庫管理",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/inventory_items"
+    },
+    {
+      "i": 11,
+      "tag": "A",
+      "text": "注文管理",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/orders"
+    },
+    {
+      "i": 12,
+      "tag": "A",
+      "text": "顧客管理",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+    },
+    {
+      "i": 13,
+      "tag": "A",
+      "text": "発注管理",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+    },
+    {
+      "i": 14,
+      "tag": "A",
+      "text": "販売設定",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+    },
+    {
+      "i": 15,
+      "tag": "A",
+      "text": "会計",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+    },
+    {
+      "i": 16,
+      "tag": "A",
+      "text": "分析",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/analytics"
+    },
+    {
+      "i": 17,
+      "tag": "A",
+      "text": "入荷管理 | 未完了の入荷指示 | 1件 | 1",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+    },
+    {
+      "i": 18,
+      "tag": "A",
+      "text": "出荷管理 | 未完了の出荷指示 | 1件 | 1",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+    },
+    {
+      "i": 19,
+      "tag": "A",
+      "text": "在庫依頼",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+    },
+    {
+      "i": 20,
+      "tag": "A",
+      "text": "ディスカウント",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+    },
+    {
+      "i": 21,
+      "tag": "A",
+      "text": "ポイント",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+    },
+    {
+      "i": 22,
+      "tag": "A",
+      "text": "会員ランク",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+    },
+    {
+      "i": 23,
+      "tag": "A",
+      "text": "Shopify",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+    },
+    {
+      "i": 24,
+      "tag": "A",
+      "text": "OmnibusCore",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+    },
+    {
+      "i": 25,
+      "tag": "A",
+      "text": "スマレジ",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+    },
+    {
+      "i": 26,
+      "tag": "A",
+      "text": "リテールポータル",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+    },
+    {
+      "i": 27,
+      "tag": "A",
+      "text": "卸売",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/b2b"
+    },
+    {
+      "i": 28,
+      "tag": "A",
+      "text": "設定",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/settings"
+    },
+    {
+      "i": 30,
+      "tag": "A",
+      "text": "",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/products"
+    },
+    {
+      "i": 33,
+      "tag": "BUTTON",
+      "text": "その他の操作",
+      "value": "",
+      "type": "button",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 35,
+      "tag": "INPUT",
+      "text": "",
+      "value": "TEST_FAQ_STATUS_20260615080916_商品",
+      "type": "text",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 37,
+      "tag": "BUTTON",
+      "text": "追加",
+      "value": "",
+      "type": "button",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 38,
+      "tag": "A",
+      "text": "バリエーションを追加する",
+      "type": "",
+      "ariaDisabled": null,
+      "href": "https://www.sqstackstaging.com/admin/products/179a188e-402d-5b11-a16e-9b084293fdb2_Product/variants/create"
+    },
+    {
+      "i": 46,
+      "tag": "BUTTON",
+      "text": "選択",
+      "value": "",
+      "type": "button",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 48,
+      "tag": "BUTTON",
+      "text": "保存する",
+      "value": "",
+      "type": "button",
+      "disabled": false,
+      "ariaDisabled": "true"
+    }
+  ],
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_STATUS_20260615080916_商品。このページの準備が整いました\n\nTEST_FAQ_STATUS_20260615080916_商品\nアーカイブ済み\nその他の操作\n商品コード\n\nTEST_FAQ_STATUS_20260615080916\n\n商品名\n説明文\n0/5000\nメディア（0件）\n画像をアップロード\n追加\nバリエーション\nバリエーションを追加する\n\nサイズ\n\n情報\nサイズ\nONE\n\nバリエーションがありません\n\n検索エンジンリスティング\nページタイトル\nメタディスクリプション\n0/5000\nメタフィールド\nTEST_FAQ_テキストフィールド\n\n未設定\n\nTEST_FAQ_DEEP_202606080340_商品MF\n\n未設定\n\nステータス\nアーカイブ済み\n\n管理画面では、商品リスト以外は非表示です。\n\n商品分類\n商品タイプ\n製造元\nブランド\n選択\nタグ\n\nタグは付与されていません\n\n保存する"
+}

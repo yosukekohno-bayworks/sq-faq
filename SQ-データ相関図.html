@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SQ データ相関図</title>
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<style>
+:root{ --main:#2864f0; --ink:#323232; --grey:#8c8989; --line:#e9e7e7; --bg:#f7f5f5; --white:#fff; --pale:#ebf3ff; }
+*{ box-sizing:border-box; }
+html,body{ margin:0; height:100%; font-family:'-apple-system',BlinkMacSystemFont,'Helvetica Neue','ヒラギノ角ゴ ProN','Hiragino Kaku Gothic ProN',Arial,'メイリオ',Meiryo,sans-serif; color:var(--ink); background:var(--bg); }
+header{ position:fixed; top:0; left:0; right:0; height:54px; z-index:30; background:var(--white); border-bottom:1px solid var(--line); display:flex; align-items:center; gap:14px; padding:0 16px; flex-wrap:wrap; }
+header .logo{ font-weight:700; font-size:15px; white-space:nowrap; }
+header .logo span{ color:var(--main); }
+header .sub{ font-size:11.5px; color:var(--grey); }
+.searchwrap{ position:relative; flex:1; min-width:180px; max-width:380px; }
+#q{ width:100%; padding:8px 12px 8px 32px; border:1px solid #ccc; border-radius:8px; font-size:13.5px; font-family:inherit; color:var(--ink); outline:none; }
+#q:focus{ border-color:var(--main); box-shadow:0 0 0 3px #dce8ff; }
+.searchwrap::before{ content:"🔍"; position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:12px; opacity:.6; }
+.helplink{ font-size:12.5px; white-space:nowrap; }
+a{ color:var(--main); text-decoration:none; } a:hover{ text-decoration:underline; }
+#net{ position:fixed; top:54px; left:0; right:300px; bottom:0; background:
+  radial-gradient(circle at 1px 1px, #e4e1dd 1px, transparent 0) 0 0/22px 22px, var(--bg); }
+aside{ position:fixed; top:54px; right:0; width:300px; bottom:0; background:var(--white); border-left:1px solid var(--line); overflow-y:auto; padding:16px; z-index:20; }
+aside h2{ font-size:14px; margin:0 0 4px; }
+aside .cat-badge{ display:inline-block; font-size:11px; color:#fff; padding:2px 9px; border-radius:10px; margin-bottom:10px; }
+.legend{ margin-bottom:14px; }
+.legend h3{ font-size:11.5px; color:var(--grey); margin:14px 0 6px; font-weight:600; letter-spacing:.04em; }
+.legend label{ display:flex; align-items:center; gap:7px; font-size:12.5px; padding:3px 0; cursor:pointer; }
+.legend .dot{ width:13px; height:13px; border-radius:50%; flex:none; }
+.legend .ln{ width:22px; height:0; flex:none; border-top-width:3px; border-top-style:solid; }
+.hint{ font-size:11.5px; color:var(--grey); line-height:1.6; margin:6px 0 0; }
+.panel-empty{ color:var(--grey); font-size:12.5px; line-height:1.7; }
+.rel-group{ margin-top:12px; }
+.rel-group h3{ font-size:11.5px; color:var(--grey); margin:0 0 5px; font-weight:600; }
+.rel-item{ font-size:12.5px; line-height:1.55; padding:4px 0; border-bottom:1px dashed var(--line); }
+.rel-item .arrow{ color:var(--main); font-weight:700; }
+.rel-item .rel-label{ color:var(--grey); font-size:11px; }
+.rel-item.unverified .rel-label::after{ content:" ⚠未検証"; color:#c2792e; }
+.docbtn{ display:inline-block; margin-top:14px; font-size:12.5px; padding:7px 12px; background:var(--pale); border-radius:8px; }
+.controls{ display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+.btn{ font-size:12px; border:1px solid var(--line); background:var(--white); border-radius:8px; padding:6px 11px; cursor:pointer; font-family:inherit; color:var(--ink); }
+.btn:hover{ background:var(--pale); }
+@media(max-width:760px){ #net{ right:0; bottom:46%; } aside{ top:auto; width:auto; left:0; height:46%; border-left:none; border-top:1px solid var(--line);} }
+</style></head>
+<body>
+<header>
+  <div><div class="logo">SQ <span>データ相関図</span></div><div class="sub">データ同士のつながり（依存・生成・在庫・同期）</div></div>
+  <div class="searchwrap"><input id="q" type="search" placeholder="データ名で探す（例: 移動伝票 / 在庫）"></div>
+  <div class="controls">
+    <button class="btn" id="reset">全体表示</button>
+    <button class="btn" id="spineBtn">在庫フローだけ</button>
+  </div>
+  <a class="helplink" href="SQ-FAQ.html" target="_blank">📖 ヘルプセンター ↗</a>
+</header>
+<div id="net"></div>
+<aside id="side">
+  <div class="legend">
+    <h3>カテゴリ（クリックで表示切替）</h3>
+    <div id="catfilter"></div>
+    <h3>線の種類</h3>
+    <label><span class="ln" style="border-color:#2864f0"></span> 社内フロー・在庫の流れ（確認済み）</label>
+    <label><span class="ln" style="border-color:#b8b4ae"></span> 依存・参照（必須/選択肢/紐づけ）</label>
+    <label><span class="ln" style="border-color:#8c8989;border-top-style:dashed"></span> 同期・未検証（チャネル接続が前提）</label>
+    <p class="hint">点線は、Shopify等への接続後でないと実機確認できていない関係です（チャネル未接続のため）。</p>
+  </div>
+  <div id="detail"><p class="panel-empty">ノード（データ）をクリックすると、そのデータが<b>何につながっているか</b>を一覧表示します。線をたどると、設定が後続の機能にどう効くかが見えます。</p></div>
+</aside>
+<script>
+const NODES = [{"id": "tenant", "label": "テナント", "cat": "master", "doc": 1}, {"id": "loc", "label": "ロケーション", "cat": "master", "doc": 1}, {"id": "locgroup", "label": "ロケーショングループ", "cat": "master", "doc": 1}, {"id": "brand", "label": "ブランド", "cat": "master", "doc": 1}, {"id": "supplier", "label": "取引先", "cat": "master", "doc": 1}, {"id": "payment", "label": "決済方法", "cat": "master", "doc": 1}, {"id": "staff", "label": "販売員", "cat": "master", "doc": 1}, {"id": "member", "label": "管理メンバー", "cat": "master", "doc": 1}, {"id": "permgroup", "label": "権限グループ", "cat": "master", "doc": 1}, {"id": "metafield", "label": "メタフィールド定義", "cat": "master", "doc": 1}, {"id": "translation", "label": "翻訳ルール", "cat": "master", "doc": 1}, {"id": "product", "label": "商品", "cat": "master", "doc": 2}, {"id": "variant", "label": "バリエーション(SKU)", "cat": "master", "doc": 2}, {"id": "catalog", "label": "カタログ", "cat": "master", "doc": 2}, {"id": "company", "label": "会社(法人顧客)", "cat": "master", "doc": 2}, {"id": "companyloc", "label": "会社ロケーション", "cat": "master", "doc": 2}, {"id": "rank", "label": "会員ランク(段階)", "cat": "master", "doc": 2}, {"id": "adjust", "label": "調整伝票", "cat": "voucher", "doc": 2}, {"id": "reserve", "label": "取置伝票", "cat": "voucher", "doc": 2}, {"id": "move", "label": "移動伝票", "cat": "voucher", "doc": 2}, {"id": "allocreq", "label": "在庫依頼", "cat": "voucher", "doc": 2}, {"id": "purchase", "label": "発注伝票", "cat": "voucher", "doc": 2}, {"id": "order", "label": "注文", "cat": "voucher", "doc": 2}, {"id": "draft", "label": "下書き注文", "cat": "voucher", "doc": 2}, {"id": "ret", "label": "返品", "cat": "voucher", "doc": 2}, {"id": "pricerule", "label": "販売価格ルール", "cat": "rule", "doc": 1}, {"id": "backorder", "label": "予約販売ルール", "cat": "rule", "doc": 1}, {"id": "salelimit", "label": "販売上限ルール", "cat": "rule", "doc": 1}, {"id": "threshold", "label": "販売閾値ルール", "cat": "rule", "doc": 1}, {"id": "autoadd", "label": "自動追加ルール", "cat": "rule", "doc": 2}, {"id": "discount", "label": "ディスカウント", "cat": "rule", "doc": 2}, {"id": "pointrule", "label": "注文ポイント付与ルール", "cat": "rule", "doc": 2}, {"id": "pointcamp", "label": "ポイントキャンペーン", "cat": "rule", "doc": 2}, {"id": "rankrule", "label": "会員ランク算出ルール", "cat": "rule", "doc": 2}, {"id": "inventory", "label": "在庫区分", "cat": "system", "doc": 2}, {"id": "secured", "label": "確保済み", "cat": "system", "doc": 2}, {"id": "outbound", "label": "出荷指示", "cat": "system", "doc": 2}, {"id": "inbound", "label": "入荷指示", "cat": "system", "doc": 2}, {"id": "outresult", "label": "出荷実績", "cat": "system", "doc": 2}, {"id": "inresult", "label": "入荷実績", "cat": "system", "doc": 2}, {"id": "screq", "label": "在庫リクエスト(EC自動)", "cat": "system", "doc": 2}, {"id": "customer", "label": "顧客(購入顧客)", "cat": "system", "doc": 2}, {"id": "sales", "label": "売上実績", "cat": "system", "doc": 2}, {"id": "adjhist", "label": "調整履歴", "cat": "system", "doc": 2}, {"id": "pickup", "label": "店舗受取バリエーション", "cat": "system", "doc": 2}, {"id": "shopify", "label": "Shopify連携", "cat": "integration", "doc": 1}, {"id": "omnibus", "label": "OmnibusCore連携", "cat": "integration", "doc": 1}, {"id": "smaregi", "label": "スマレジ連携", "cat": "integration", "doc": 1}, {"id": "retail", "label": "リテールポータル連携", "cat": "integration", "doc": 1}, {"id": "logizard", "label": "ロジザード連携", "cat": "integration", "doc": 1}, {"id": "recustomer", "label": "Recustomer連携", "cat": "integration", "doc": 1}, {"id": "app", "label": "アプリ / API", "cat": "integration", "doc": 1}, {"id": "webhook", "label": "Webhook", "cat": "integration", "doc": 1}];
+const EDGES = [{"from": "tenant", "to": "purchase", "label": "必須", "kind": "dep", "verified": true}, {"from": "tenant", "to": "discount", "label": "必須", "kind": "dep", "verified": true}, {"from": "tenant", "to": "shopify", "label": "必須", "kind": "dep", "verified": true}, {"from": "tenant", "to": "omnibus", "label": "必須", "kind": "dep", "verified": true}, {"from": "tenant", "to": "smaregi", "label": "必須", "kind": "dep", "verified": true}, {"from": "tenant", "to": "retail", "label": "必須", "kind": "dep", "verified": true}, {"from": "tenant", "to": "member", "label": "アクセス範囲", "kind": "dep", "verified": true}, {"from": "tenant", "to": "pointrule", "label": "参照", "kind": "dep", "verified": true}, {"from": "tenant", "to": "rankrule", "label": "参照", "kind": "dep", "verified": true}, {"from": "loc", "to": "inventory", "label": "在庫はSKU×ロケ", "kind": "dep", "verified": true}, {"from": "loc", "to": "locgroup", "label": "所属", "kind": "dep", "verified": true}, {"from": "loc", "to": "adjust", "label": "選択肢", "kind": "dep", "verified": true}, {"from": "loc", "to": "move", "label": "配送元/先", "kind": "dep", "verified": true}, {"from": "loc", "to": "reserve", "label": "選択肢", "kind": "dep", "verified": true}, {"from": "loc", "to": "allocreq", "label": "移動先/依頼先", "kind": "dep", "verified": true}, {"from": "loc", "to": "staff", "label": "担当", "kind": "dep", "verified": true}, {"from": "loc", "to": "retail", "label": "店舗/在庫ロケ", "kind": "dep", "verified": true}, {"from": "locgroup", "to": "shopify", "label": "必須", "kind": "dep", "verified": true}, {"from": "locgroup", "to": "omnibus", "label": "在庫設定", "kind": "dep", "verified": true}, {"from": "brand", "to": "product", "label": "選択肢", "kind": "dep", "verified": true}, {"from": "brand", "to": "autoadd", "label": "コード一致", "kind": "dep", "verified": true}, {"from": "brand", "to": "threshold", "label": "コード一致(自動追加)", "kind": "dep", "verified": true}, {"from": "supplier", "to": "purchase", "label": "必須選択肢", "kind": "dep", "verified": true}, {"from": "payment", "to": "order", "label": "決済手段", "kind": "dep", "verified": true}, {"from": "staff", "to": "retail", "label": "販売実績", "kind": "dep", "verified": true}, {"from": "member", "to": "permgroup", "label": "権限割当", "kind": "dep", "verified": true}, {"from": "permgroup", "to": "app", "label": "同一権限体系", "kind": "dep", "verified": true}, {"from": "metafield", "to": "product", "label": "入力欄追加", "kind": "dep", "verified": true}, {"from": "metafield", "to": "customer", "label": "絞り込み", "kind": "dep", "verified": true}, {"from": "metafield", "to": "translation", "label": "翻訳対象", "kind": "dep", "verified": true}, {"from": "translation", "to": "product", "label": "翻訳生成", "kind": "dep", "verified": true}, {"from": "product", "to": "variant", "label": "1:N", "kind": "dep", "verified": true}, {"from": "product", "to": "catalog", "label": "追加", "kind": "dep", "verified": true}, {"from": "product", "to": "autoadd", "label": "製造元/ブランド一致", "kind": "dep", "verified": true}, {"from": "variant", "to": "inventory", "label": "SKU単位", "kind": "dep", "verified": true}, {"from": "variant", "to": "pricerule", "label": "SKU紐づけ", "kind": "dep", "verified": true}, {"from": "variant", "to": "backorder", "label": "SKU+販売数", "kind": "dep", "verified": true}, {"from": "variant", "to": "salelimit", "label": "SKU+上限", "kind": "dep", "verified": true}, {"from": "variant", "to": "threshold", "label": "SKU+閾値", "kind": "dep", "verified": true}, {"from": "variant", "to": "pickup", "label": "対象SKU", "kind": "dep", "verified": true}, {"from": "variant", "to": "purchase", "label": "明細", "kind": "dep", "verified": true}, {"from": "variant", "to": "reserve", "label": "明細", "kind": "dep", "verified": true}, {"from": "variant", "to": "adjust", "label": "明細", "kind": "dep", "verified": true}, {"from": "catalog", "to": "shopify", "label": "必須(出す商品)", "kind": "dep", "verified": true}, {"from": "catalog", "to": "omnibus", "label": "出す商品", "kind": "dep", "verified": true}, {"from": "catalog", "to": "smaregi", "label": "出す商品", "kind": "dep", "verified": true}, {"from": "catalog", "to": "retail", "label": "扱う商品", "kind": "dep", "verified": true}, {"from": "pricerule", "to": "shopify", "label": "販売価格", "kind": "dep", "verified": true}, {"from": "pricerule", "to": "omnibus", "label": "サイト価格", "kind": "dep", "verified": true}, {"from": "backorder", "to": "omnibus", "label": "在庫予約ルール", "kind": "dep", "verified": true}, {"from": "shopify", "to": "salelimit", "label": "チャネル必須", "kind": "dep", "verified": true}, {"from": "threshold", "to": "retail", "label": "販売可否", "kind": "dep", "verified": true}, {"from": "rankrule", "to": "pointrule", "label": "紐づけ", "kind": "dep", "verified": true}, {"from": "rankrule", "to": "pointcamp", "label": "種別:会員ランク", "kind": "dep", "verified": true}, {"from": "rankrule", "to": "rank", "label": "段階を定義", "kind": "dep", "verified": true}, {"from": "pointrule", "to": "pointcamp", "label": "対象ルール", "kind": "dep", "verified": true}, {"from": "discount", "to": "customer", "label": "対象顧客", "kind": "dep", "verified": true}, {"from": "discount", "to": "variant", "label": "対象商品", "kind": "dep", "verified": true}, {"from": "discount", "to": "shopify", "label": "連携する", "kind": "dep", "verified": false}, {"from": "company", "to": "companyloc", "label": "納品先", "kind": "dep", "verified": true}, {"from": "company", "to": "order", "label": "法人顧客", "kind": "dep", "verified": true}, {"from": "companyloc", "to": "omnibus", "label": "連携サイト", "kind": "dep", "verified": true}, {"from": "customer", "to": "order", "label": "顧客", "kind": "dep", "verified": true}, {"from": "allocreq", "to": "secured", "label": "引当て", "kind": "spine", "verified": true}, {"from": "secured", "to": "move", "label": "移動伝票を作成", "kind": "spine", "verified": true}, {"from": "move", "to": "outbound", "label": "自動生成", "kind": "spine", "verified": true}, {"from": "move", "to": "inbound", "label": "自動生成", "kind": "spine", "verified": true}, {"from": "move", "to": "inventory", "label": "販売可能→取置中", "kind": "spine", "verified": true}, {"from": "outbound", "to": "outresult", "label": "実績登録", "kind": "spine", "verified": true}, {"from": "outresult", "to": "inventory", "label": "手持ち −", "kind": "spine", "verified": true}, {"from": "inbound", "to": "inresult", "label": "実績登録", "kind": "spine", "verified": true}, {"from": "inresult", "to": "inventory", "label": "手持ち +", "kind": "spine", "verified": true}, {"from": "inresult", "to": "move", "label": "完了", "kind": "spine", "verified": true}, {"from": "reserve", "to": "inventory", "label": "取置中へ", "kind": "spine", "verified": true}, {"from": "adjust", "to": "inventory", "label": "増減を反映", "kind": "spine", "verified": true}, {"from": "inventory", "to": "adjhist", "label": "変更を記録", "kind": "dep", "verified": true}, {"from": "purchase", "to": "supplier", "label": "発注先", "kind": "dep", "verified": true}, {"from": "shopify", "to": "order", "label": "注文流入", "kind": "sync", "verified": false}, {"from": "shopify", "to": "customer", "label": "顧客流入", "kind": "sync", "verified": false}, {"from": "shopify", "to": "inventory", "label": "在庫同期", "kind": "sync", "verified": false}, {"from": "shopify", "to": "product", "label": "商品同期", "kind": "sync", "verified": false}, {"from": "smaregi", "to": "inventory", "label": "在庫同期(方向)", "kind": "sync", "verified": false}, {"from": "smaregi", "to": "order", "label": "注文流入", "kind": "sync", "verified": false}, {"from": "omnibus", "to": "draft", "label": "下書き注文流入", "kind": "sync", "verified": false}, {"from": "omnibus", "to": "outbound", "label": "初期ステータス設定", "kind": "sync", "verified": false}, {"from": "logizard", "to": "inbound", "label": "WMS入荷", "kind": "sync", "verified": false}, {"from": "logizard", "to": "outbound", "label": "WMS出荷", "kind": "sync", "verified": false}, {"from": "recustomer", "to": "ret", "label": "返品・交換を委譲", "kind": "sync", "verified": false}, {"from": "app", "to": "webhook", "label": "配下に作成", "kind": "dep", "verified": true}, {"from": "webhook", "to": "order", "label": "イベント通知", "kind": "sync", "verified": true}, {"from": "webhook", "to": "inventory", "label": "イベント通知", "kind": "sync", "verified": true}, {"from": "order", "to": "inventory", "label": "引当(引当済み)", "kind": "spine", "verified": false}, {"from": "order", "to": "outbound", "label": "出荷", "kind": "spine", "verified": false}, {"from": "order", "to": "ret", "label": "返品", "kind": "dep", "verified": false}, {"from": "order", "to": "sales", "label": "売上実績(自動生成)", "kind": "spine", "verified": false}, {"from": "order", "to": "screq", "label": "在庫不足→在庫リクエスト", "kind": "spine", "verified": false}, {"from": "screq", "to": "retail", "label": "店舗へ通知", "kind": "sync", "verified": false}, {"from": "screq", "to": "move", "label": "取り寄せ→移動伝票", "kind": "spine", "verified": false}, {"from": "customer", "to": "draft", "label": "作成可に(解放条件)", "kind": "dep", "verified": false}];
+const CATS = {"master": {"name": "マスタ", "color": "#2864f0"}, "voucher": {"name": "伝票", "color": "#d97706"}, "rule": {"name": "ルール", "color": "#0891b2"}, "system": {"name": "システム生成", "color": "#6b7280"}, "integration": {"name": "連携設定", "color": "#16a34a"}};
+const DOC = { 1: 'a-00-getting-started----------------', 2: 'a-00-getting-started--------------------------' };
+
+// 次数でサイズ調整
+const deg = {};
+EDGES.forEach(e => { deg[e.from]=(deg[e.from]||0)+1; deg[e.to]=(deg[e.to]||0)+1; });
+
+const nodeColor = id => CATS[NODES.find(n=>n.id===id).cat].color;
+
+const visNodes = new vis.DataSet(NODES.map(n => {
+  const c = CATS[n.cat].color;
+  const d = deg[n.id]||1;
+  return { id:n.id, label:n.label, cat:n.cat, doc:n.doc,
+    shape:'dot', size: 9 + Math.min(d,14)*1.7,
+    color:{ background:c, border:c, highlight:{background:c,border:'#1a1a1a'} },
+    font:{ size:13, color:'#2a2a2a', face:'-apple-system, Hiragino Kaku Gothic ProN, Meiryo, sans-serif', strokeWidth:4, strokeColor:'#f7f5f5' } };
+}));
+
+function edgeStyle(e){
+  if(e.kind==='spine'){
+    return { color:{color: e.verified?'#2864f0':'#9bb6f0', highlight:'#1e46aa'}, width: e.verified?2.4:1.6,
+      dashes: !e.verified, arrows:{to:{enabled:true,scaleFactor:0.6}} };
+  }
+  if(e.kind==='sync'){
+    return { color:{color:'#a9a6a1', highlight:'#6b7280'}, width:1.3, dashes:[4,4], arrows:{to:{enabled:true,scaleFactor:0.5}} };
+  }
+  // dep
+  return { color:{color: e.verified?'#c9c5bf':'#d8c39a', highlight:'#8c8989'}, width:1, dashes:!e.verified, arrows:{to:{enabled:true,scaleFactor:0.45}} };
+}
+const visEdges = new vis.DataSet(EDGES.map((e,i) => Object.assign({
+  id:'e'+i, from:e.from, to:e.to, label:e.label, kind:e.kind, verified:e.verified,
+  font:{ size:9.5, color:'#8c8989', strokeWidth:3, strokeColor:'#f7f5f5', align:'middle' },
+  smooth:{ type:'dynamic' }
+}, edgeStyle(e))));
+
+const container = document.getElementById('net');
+const data = { nodes: visNodes, edges: visEdges };
+const options = {
+  physics:{ solver:'forceAtlas2Based',
+    forceAtlas2Based:{ gravitationalConstant:-46, centralGravity:0.008, springLength:130, springConstant:0.08, avoidOverlap:0.6 },
+    stabilization:{ iterations:300 }, minVelocity:0.6 },
+  interaction:{ hover:true, tooltipDelay:120, navigationButtons:false, keyboard:false },
+  edges:{ selectionWidth: 1.6 },
+};
+const network = new vis.Network(container, data, options);
+network.once('stabilizationIterationsDone', ()=> network.setOptions({ physics:false }));
+
+// 隣接マップ
+const adj = {}; NODES.forEach(n=> adj[n.id]={out:[],inc:[]});
+EDGES.forEach((e,i)=>{ adj[e.from].out.push({i,e}); adj[e.to].inc.push({i,e}); });
+
+const detail = document.getElementById('detail');
+function nodeLabel(id){ return NODES.find(n=>n.id===id).label; }
+
+function showDetail(id){
+  const n = NODES.find(x=>x.id===id);
+  const c = CATS[n.cat];
+  const out = adj[id].out, inc = adj[id].inc;
+  const relRow = (e, dir) => {
+    const other = dir==='out'? e.to : e.from;
+    const verb = dir==='out'? '→' : '←';
+    return `<div class="rel-item ${e.verified?'':'unverified'}"><span class="arrow">${verb}</span> ${nodeLabel(other)} <span class="rel-label">（${e.label}）</span></div>`;
+  };
+  let h = `<h2>${n.label}</h2><span class="cat-badge" style="background:${c.color}">${c.name}</span>`;
+  if(out.length) h += `<div class="rel-group"><h3>このデータがつくる / 効く先（${out.length}）</h3>` + out.map(o=>relRow(o.e,'out')).join('') + `</div>`;
+  if(inc.length) h += `<div class="rel-group"><h3>このデータを使う / 前提にするもの（${inc.length}）</h3>` + inc.map(o=>relRow(o.e,'inc')).join('') + `</div>`;
+  if(!out.length && !inc.length) h += `<p class="panel-empty">記録された関連はありません。</p>`;
+  h += `<a class="docbtn" href="SQ-FAQ.html#${DOC[n.doc]}" target="_blank">📖 データ事典${n.doc==1?'①':'②'}で詳しく ↗</a>`;
+  detail.innerHTML = h;
+}
+
+function focusNode(id){
+  const keep = new Set([id]);
+  const keepEdges = new Set();
+  adj[id].out.forEach(o=>{ keep.add(o.e.to); keepEdges.add('e'+o.i); });
+  adj[id].inc.forEach(o=>{ keep.add(o.e.from); keepEdges.add('e'+o.i); });
+  visNodes.update(NODES.map(n=>({ id:n.id, opacity: keep.has(n.id)?1:0.12 })));
+  visEdges.update(EDGES.map((e,i)=>({ id:'e'+i, hidden:false,
+    color: keepEdges.has('e'+i)? edgeStyle(e).color : {color:'rgba(180,176,170,0.12)'} })));
+  network.selectNodes([id]);
+  showDetail(id);
+}
+function resetView(){
+  visNodes.update(NODES.map(n=>({id:n.id, opacity:1})));
+  visEdges.update(EDGES.map((e,i)=>Object.assign({id:'e'+i, hidden:false}, edgeStyle(e))));
+  network.unselectAll();
+}
+
+network.on('click', p=>{ if(p.nodes.length) focusNode(p.nodes[0]); else { resetView(); detail.innerHTML='<p class="panel-empty">ノード（データ）をクリックすると、そのデータが<b>何につながっているか</b>を一覧表示します。</p>'; } });
+
+// カテゴリフィルタ
+const hiddenCats = new Set();
+const cf = document.getElementById('catfilter');
+Object.entries(CATS).forEach(([k,v])=>{
+  const id='cf_'+k;
+  const lab=document.createElement('label');
+  lab.innerHTML=`<input type="checkbox" id="${id}" checked><span class="dot" style="background:${v.color}"></span>${v.name}`;
+  cf.appendChild(lab);
+  lab.querySelector('input').addEventListener('change', ev=>{
+    if(ev.target.checked) hiddenCats.delete(k); else hiddenCats.add(k);
+    visNodes.update(NODES.map(n=>({id:n.id, hidden: hiddenCats.has(n.cat)})));
+  });
+});
+
+// 在庫フローだけ
+let spineOn=false;
+document.getElementById('spineBtn').addEventListener('click', ()=>{
+  spineOn=!spineOn;
+  if(spineOn){
+    const keep=new Set();
+    EDGES.forEach(e=>{ if(e.kind==='spine'){ keep.add(e.from); keep.add(e.to); } });
+    visNodes.update(NODES.map(n=>({id:n.id, hidden:!keep.has(n.id)})));
+    visEdges.update(EDGES.map((e,i)=>({id:'e'+i, hidden: e.kind!=='spine'})));
+    document.getElementById('spineBtn').style.background='#dce8ff';
+  } else { resetView(); document.getElementById('spineBtn').style.background='';
+    visNodes.update(NODES.map(n=>({id:n.id, hidden:hiddenCats.has(n.cat)}))); }
+});
+
+document.getElementById('reset').addEventListener('click', ()=>{ spineOn=false; document.getElementById('spineBtn').style.background=''; hiddenCats.clear(); cf.querySelectorAll('input').forEach(i=>i.checked=true); resetView(); visNodes.update(NODES.map(n=>({id:n.id,hidden:false}))); network.fit({animation:true}); });
+
+// 検索
+const q=document.getElementById('q');
+q.addEventListener('keydown', ev=>{ if(ev.key!=='Enter') return;
+  const t=q.value.trim(); if(!t) return;
+  const hit = NODES.find(n=> n.label.includes(t));
+  if(hit){ network.focus(hit.id,{scale:1.1,animation:true}); focusNode(hit.id); }
+});
+</script>
+</body></html>

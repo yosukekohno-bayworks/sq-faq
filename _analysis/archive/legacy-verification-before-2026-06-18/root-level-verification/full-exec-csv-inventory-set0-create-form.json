@@ -1,0 +1,77 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create",
+  "inputs": [
+    {
+      "i": 0,
+      "type": "radio",
+      "name": ":r18:",
+      "value": "SET",
+      "checked": true,
+      "placeholder": "",
+      "accept": "",
+      "hidden": false,
+      "display": "block"
+    },
+    {
+      "i": 1,
+      "type": "radio",
+      "name": ":r18:",
+      "value": "ADJUSTMENT",
+      "checked": false,
+      "placeholder": "",
+      "accept": "",
+      "hidden": false,
+      "display": "block"
+    },
+    {
+      "i": 2,
+      "type": "file",
+      "name": "",
+      "value": "",
+      "checked": false,
+      "placeholder": "",
+      "accept": "text/csv",
+      "hidden": false,
+      "display": "inline-block"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 1,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 3,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 4,
+      "text": "ファイルを選択する",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 5,
+      "text": "保存する",
+      "disabled": false,
+      "ariaDisabled": "false"
+    }
+  ],
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売可能在庫をCSVでインポートする。このページの準備が整いました\n\n販売可能在庫をCSVでインポートする\n反映方法\n現在の在庫数が10のとき、CSVで20を指定すると、絶対値で反映した場合の在庫数は20になります。差分値で反映した場合の在庫数は30になります。\n反映方法\n絶対値で反映する\n差分値で反映する\nファイルをアップロード\nファイルを選択する\n\nもしくはドラッグ&ドロップでアップロードすることができます\n\n保存する"
+}

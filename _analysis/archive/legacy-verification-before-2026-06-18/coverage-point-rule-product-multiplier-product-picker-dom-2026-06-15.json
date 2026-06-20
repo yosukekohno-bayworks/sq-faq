@@ -1,0 +1,152 @@
+{
+  "dialogs": [
+    {
+      "i": 0,
+      "text": "商品を選択する 商品コードで検索する すべてのアイテムを選択する 商品 商品コード アイテムを選択する バギーカーブジーンズ 487973 アイテムを選択する UVカットペーパーブレイドハット 482787 アイテムを選択する エアリズムコットンT 483457 アイテムを選択する エアリズムコットンクルーネックTシャツ 486102 アイテムを選択する ポケモン UT 483674 アイテムを選択する オーバーサイズスウェットシャツ 486125 アイテムを選択する product thumbnail TEST_FAQ_非公開ステータス確認用 TEST-FAQ-HIDDEN-001 アイテムを選択する product thumbnail TEST_FAQ_DEEP2_202606080343_商品 test_faq_deep2_202606080343_product アイテムを選択する product thumbnail TEST_FAQ_CSV_RECHECK_20260608_商品 TEST_FAQ_CSV_RECHECK_20260608_01 キャンセル 選択する"
+    }
+  ],
+  "rows": [
+    {
+      "i": 0,
+      "text": "すべてのアイテムを選択する 商品 商品コード",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "アイテムを選択する バギーカーブジーンズ 487973",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "アイテムを選択する UVカットペーパーブレイドハット 482787",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "アイテムを選択する エアリズムコットンT 483457",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ 486102",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "text": "アイテムを選択する ポケモン UT 483674",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ 486125",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "text": "アイテムを選択する product thumbnail TEST_FAQ_非公開ステータス確認用 TEST-FAQ-HIDDEN-001",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "text": "アイテムを選択する product thumbnail TEST_FAQ_DEEP2_202606080343_商品 test_faq_deep2_202606080343_product",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "text": "アイテムを選択する product thumbnail TEST_FAQ_CSV_RECHECK_20260608_商品 TEST_FAQ_CSV_RECHECK_20260608_01",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "閉じる",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": "前へ",
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "",
+      "aria": "次へ",
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "キャンセル",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "選択する",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

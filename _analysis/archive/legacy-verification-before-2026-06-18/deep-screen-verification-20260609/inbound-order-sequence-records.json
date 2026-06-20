@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-06-09T05:25:37.898Z",
+  "records": [
+    {
+      "name": "inbound-list",
+      "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "h1": [
+        "入荷管理"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "入荷待ち\n0",
+        "入荷依頼済み\n新規\n0",
+        "入荷作業中\n新規\n0",
+        "要対応\n新規\n0",
+        "入荷完了",
+        "キャンセル",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "rows": [],
+      "hasInboundRegisterButton": false,
+      "hasOutboundRegisterButton": false,
+      "hasRollbackWarning": false,
+      "importantLines": [
+        "商品管理",
+        "入荷管理",
+        "出荷管理",
+        "入荷管理。このページの準備が整いました",
+        "入荷待ち",
+        "入荷依頼済み",
+        "入荷作業中",
+        "入荷完了",
+        "アイテムが見つかりませんでした"
+      ],
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": true,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inbound-order-sequence-screenshots/01-inbound-list.png"
+    },
+    {
+      "name": "inbound-II-1001-after-click",
+      "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "h1": [
+        "入荷管理"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "入荷待ち\n0",
+        "入荷依頼済み\n新規\n0",
+        "入荷作業中\n新規\n0",
+        "要対応\n新規\n0",
+        "入荷完了",
+        "キャンセル",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "rows": [],
+      "hasInboundRegisterButton": false,
+      "hasOutboundRegisterButton": false,
+      "hasRollbackWarning": false,
+      "importantLines": [
+        "商品管理",
+        "入荷管理",
+        "出荷管理",
+        "入荷管理。このページの準備が整いました",
+        "入荷待ち",
+        "入荷依頼済み",
+        "入荷作業中",
+        "入荷完了",
+        "アイテムが見つかりませんでした"
+      ],
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": true,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inbound-order-sequence-screenshots/02-inbound-II-1001-after-click.png",
+      "interaction": {
+        "inboundClick": ""
+      }
+    },
+    {
+      "name": "outbound-list",
+      "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "h1": [
+        "出荷管理"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "インポート",
+        "条件指定でエクスポート",
+        "保留中\n新規\n0",
+        "出荷待ち\n0",
+        "依頼済み\n新規\n0",
+        "作業中\n新規\n0",
+        "欠品・要対応\n新規\n0",
+        "出荷完了",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "rows": [],
+      "hasInboundRegisterButton": false,
+      "hasOutboundRegisterButton": false,
+      "hasRollbackWarning": false,
+      "importantLines": [
+        "商品管理",
+        "入荷管理",
+        "出荷管理",
+        "出荷管理。このページの準備が整いました",
+        "出荷待ち",
+        "作業中",
+        "出荷完了",
+        "アイテムが見つかりませんでした"
+      ],
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": true,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inbound-order-sequence-screenshots/03-outbound-list.png"
+    },
+    {
+      "name": "outbound-IO-1001-after-click",
+      "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "h1": [
+        "出荷管理"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "インポート",
+        "条件指定でエクスポート",
+        "保留中\n新規\n0",
+        "出荷待ち\n0",
+        "依頼済み\n新規\n0",
+        "作業中\n新規\n0",
+        "欠品・要対応\n新規\n0",
+        "出荷完了",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "rows": [],
+      "hasInboundRegisterButton": false,
+      "hasOutboundRegisterButton": false,
+      "hasRollbackWarning": false,
+      "importantLines": [
+        "商品管理",
+        "入荷管理",
+        "出荷管理",
+        "出荷管理。このページの準備が整いました",
+        "出荷待ち",
+        "作業中",
+        "出荷完了",
+        "アイテムが見つかりませんでした"
+      ],
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": true,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inbound-order-sequence-screenshots/04-outbound-IO-1001-after-click.png",
+      "interaction": {
+        "outboundClick": ""
+      }
+    },
+    {
+      "name": "movement-list",
+      "url": "https://www.sqstackstaging.com/admin/inventory_movement_orders",
+      "h1": [
+        "移動伝票"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "すべて",
+        "出荷作業",
+        "一部受領済み",
+        "受領済み",
+        "キャンセル",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_movement_orders#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "移動伝票",
+          "href": "https://www.sqstackstaging.com/admin/inventory_movement_orders"
+        },
+        {
+          "text": "調整伝票",
+          "href": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders"
+        },
+        {
+          "text": "取置伝票",
+          "href": "https://www.sqstackstaging.com/admin/inventory_reservation_orders"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "移動伝票を作成する",
+          "href": "https://www.sqstackstaging.com/admin/inventory_movement_orders/create"
+        },
+        {
+          "text": "#IM-1001",
+          "href": "https://www.sqstackstaging.com/admin/inventory_movement_orders/2b4da90f-2267-5d38-9037-8893cf0e9446_InventoryMovementOrder"
+        },
+        {
+          "text": "#IM-1000",
+          "href": "https://www.sqstackstaging.com/admin/inventory_movement_orders/37722636-f3ea-5485-b842-8da748d5bb1a_InventoryMovementOrder"
+        }
+      ],
+      "rows": [
+        "管理番号配送元配送先ステータス作成日時",
+        "#IM-1001物流倉庫ユニクロ - 銀座店成功 完了入荷完了2026年06月08日 10:57",
+        "#IM-1000物流倉庫ユニクロ - 銀座店成功 完了入荷完了2026年06月05日 20:20"
+      ],
+      "hasInboundRegisterButton": false,
+      "hasOutboundRegisterButton": false,
+      "hasRollbackWarning": false,
+      "importantLines": [
+        "商品管理",
+        "移動伝票",
+        "入荷管理",
+        "出荷管理",
+        "移動伝票。このページの準備が整いました",
+        "移動伝票を作成する",
+        "出荷作業",
+        "ステータス",
+        "#IM-1001",
+        "成功 完了",
+        "入荷完了",
+        "#IM-1000"
+      ],
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": false,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inbound-order-sequence-screenshots/05-movement-list.png"
+    },
+    {
+      "name": "movement-IM-1001-after-click",
+      "url": "https://www.sqstackstaging.com/admin/inventory_movement_orders/2b4da90f-2267-5d38-9037-8893cf0e9446_InventoryMovementOrder",
+      "h1": [
+        "#IM-1001"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "その他の操作"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_movement_orders/2b4da90f-2267-5d38-9037-8893cf0e9446_InventoryMovementOrder#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "移動伝票",
+          "href": "https://www.sqstackstaging.com/admin/inventory_movement_orders"
+        },
+        {
+          "text": "調整伝票",
+          "href": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders"
+        },
+        {
+          "text": "取置伝票",
+          "href": "https://www.sqstackstaging.com/admin/inventory_reservation_orders"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/inventory_movement_orders"
+        },
+        {
+          "text": "486125-31-L",
+          "href": "https://www.sqstackstaging.com/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product/variants/894871f2-b8b4-5511-ad3d-28abfe5b6044_ProductVariant"
+        },
+        {
+          "text": "#IO-1001",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders/b6e0aaf1-8c54-58f8-9ee8-6cebc84e80bb_InventoryOutboundOrder"
+        },
+        {
+          "text": "#II-1001",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders/6e9b70ed-dde6-53a1-a46b-cbd45cfafafa_InventoryInboundOrder"
+        }
+      ],
+      "rows": [
+        "商品数量",
+        "486125-31-L2"
+      ],
+      "hasInboundRegisterButton": false,
+      "hasOutboundRegisterButton": false,
+      "hasRollbackWarning": false,
+      "importantLines": [
+        "商品管理",
+        "移動伝票",
+        "入荷管理",
+        "出荷管理",
+        "#IM-1001。このページの準備が整いました",
+        "#IM-1001",
+        "成功 完了",
+        "入荷完了",
+        "外部システムから連携されている移動伝票です",
+        "この移動伝票は外部システムから連携されているため、編集（商品の追加や削除など）は制限されています。連携元システムの管理画面より操作を行ってください。",
+        "商品",
+        "数量",
+        "出荷指示",
+        "#IO-1001",
+        "入荷指示",
+        "#II-1001"
+      ],
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": false,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inbound-order-sequence-screenshots/06-movement-IM-1001-after-click.png",
+      "interaction": {
+        "movementClick": "link"
+      }
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+[
+  {
+    "i": 0,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "コンテンツにスキップ",
+    "aria": ""
+  },
+  {
+    "i": 1,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを切り替える",
+    "aria": "メニューを切り替える"
+  },
+  {
+    "i": 4,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "stack-ps-yosuke 陽介 河野",
+    "aria": ""
+  },
+  {
+    "i": 6,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "ホーム",
+    "aria": ""
+  },
+  {
+    "i": 7,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "商品管理",
+    "aria": ""
+  },
+  {
+    "i": 8,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "在庫管理",
+    "aria": ""
+  },
+  {
+    "i": 9,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "注文管理",
+    "aria": ""
+  },
+  {
+    "i": 10,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "顧客管理",
+    "aria": ""
+  },
+  {
+    "i": 11,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "発注管理",
+    "aria": ""
+  },
+  {
+    "i": 12,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "販売設定",
+    "aria": ""
+  },
+  {
+    "i": 13,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "会計",
+    "aria": ""
+  },
+  {
+    "i": 14,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "分析",
+    "aria": ""
+  },
+  {
+    "i": 15,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "入荷管理",
+    "aria": ""
+  },
+  {
+    "i": 16,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "出荷管理",
+    "aria": ""
+  },
+  {
+    "i": 17,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "在庫依頼",
+    "aria": ""
+  },
+  {
+    "i": 18,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "確保済み",
+    "aria": ""
+  },
+  {
+    "i": 19,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "ディスカウント",
+    "aria": ""
+  },
+  {
+    "i": 20,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "ポイント",
+    "aria": ""
+  },
+  {
+    "i": 21,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "会員ランク",
+    "aria": ""
+  },
+  {
+    "i": 22,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "Shopify",
+    "aria": ""
+  },
+  {
+    "i": 23,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "OmnibusCore",
+    "aria": ""
+  },
+  {
+    "i": 24,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "スマレジ",
+    "aria": ""
+  },
+  {
+    "i": 25,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "リテールポータル",
+    "aria": ""
+  },
+  {
+    "i": 26,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "卸売",
+    "aria": ""
+  },
+  {
+    "i": 27,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "設定",
+    "aria": ""
+  },
+  {
+    "i": 28,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを閉じる",
+    "aria": "メニューを閉じる"
+  },
+  {
+    "i": 30,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "商品バリエーション",
+    "aria": ""
+  },
+  {
+    "i": 31,
+    "tag": "INPUT",
+    "role": "",
+    "type": "text",
+    "text": "選択してください",
+    "value": "",
+    "aria": ""
+  },
+  {
+    "i": 32,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "選択",
+    "aria": ""
+  },
+  {
+    "i": 33,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "希望数",
+    "aria": ""
+  },
+  {
+    "i": 34,
+    "tag": "INPUT",
+    "role": "",
+    "type": "number",
+    "text": "0",
+    "value": "0",
+    "aria": ""
+  },
+  {
+    "i": 35,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "移動先ロケーション",
+    "aria": ""
+  },
+  {
+    "i": 36,
+    "tag": "INPUT",
+    "role": "",
+    "type": "text",
+    "text": "選択してください",
+    "value": "",
+    "aria": ""
+  },
+  {
+    "i": 37,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "選択",
+    "aria": ""
+  },
+  {
+    "i": 38,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "リクエスト先ロケーション",
+    "aria": ""
+  },
+  {
+    "i": 39,
+    "tag": "INPUT",
+    "role": "",
+    "type": "text",
+    "text": "選択してください",
+    "value": "",
+    "aria": ""
+  },
+  {
+    "i": 40,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "選択",
+    "aria": ""
+  },
+  {
+    "i": 41,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "保存する",
+    "aria": ""
+  },
+  {
+    "i": 42,
+    "tag": "DIV",
+    "role": "dialog",
+    "type": "",
+    "text": "バリエーションを選択する SKUコードで検索する 絞り込みを追加 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください キャンセル 選択する",
+    "aria": ":r1g:"
+  },
+  {
+    "i": 43,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "閉じる",
+    "aria": "閉じる"
+  },
+  {
+    "i": 44,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "SKUコードで検索する",
+    "aria": ""
+  },
+  {
+    "i": 45,
+    "tag": "INPUT",
+    "role": "",
+    "type": "text",
+    "text": "SKUコードで検索する",
+    "value": "",
+    "aria": ""
+  },
+  {
+    "i": 46,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "絞り込みを追加",
+    "aria": "絞り込みを追加"
+  },
+  {
+    "i": 47,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "前へ",
+    "aria": "前へ"
+  },
+  {
+    "i": 48,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "次へ",
+    "aria": "次へ"
+  },
+  {
+    "i": 49,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "キャンセル",
+    "aria": ""
+  },
+  {
+    "i": 50,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "選択する",
+    "aria": ""
+  }
+]

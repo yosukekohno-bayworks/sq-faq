@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-06-09T05:44:06.967Z",
+  "failed": null,
+  "records": [
+    {
+      "name": "01-before-close",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest",
+      "h1": [
+        "在庫依頼"
+      ],
+      "dialogs": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "その他の操作",
+        "在庫を引当てる"
+      ],
+      "importantLines": [
+        "在庫依頼",
+        "未完了の在庫依頼 1件",
+        "在庫依頼。このページの準備が整いました",
+        "確認待ち",
+        "2026年06月09日 14:34に作成",
+        "SKU: 486125-31-L",
+        "ロケーションはありません",
+        "引当先ロケーション",
+        "物流倉庫",
+        "対応不可ロケーション"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/cleanup-failed-allocation-screenshots/01-01-before-close.png"
+    },
+    {
+      "name": "02-actions-open",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest",
+      "h1": [
+        "在庫依頼"
+      ],
+      "dialogs": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "その他の操作",
+        "在庫を引当てる",
+        "在庫依頼をクローズする"
+      ],
+      "importantLines": [
+        "在庫依頼",
+        "未完了の在庫依頼 1件",
+        "在庫依頼。このページの準備が整いました",
+        "確認待ち",
+        "2026年06月09日 14:34に作成",
+        "SKU: 486125-31-L",
+        "ロケーションはありません",
+        "引当先ロケーション",
+        "物流倉庫",
+        "対応不可ロケーション",
+        "在庫依頼をクローズする"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/cleanup-failed-allocation-screenshots/02-02-actions-open.png"
+    },
+    {
+      "name": "03-close-dialog",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest",
+      "h1": [
+        "在庫依頼"
+      ],
+      "dialogs": [
+        "在庫依頼をクローズしますか？\n\n在庫依頼をクローズします。注文明細に修正が必要な場合はその対応を行なってください。\n\nキャンセル\n実行する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "その他の操作",
+        "在庫を引当てる",
+        "キャンセル",
+        "実行する"
+      ],
+      "importantLines": [
+        "在庫依頼",
+        "未完了の在庫依頼 1件",
+        "在庫依頼。このページの準備が整いました",
+        "確認待ち",
+        "2026年06月09日 14:34に作成",
+        "SKU: 486125-31-L",
+        "ロケーションはありません",
+        "引当先ロケーション",
+        "物流倉庫",
+        "対応不可ロケーション",
+        "在庫依頼をクローズしますか？",
+        "在庫依頼をクローズします。注文明細に修正が必要な場合はその対応を行なってください。",
+        "実行する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/cleanup-failed-allocation-screenshots/03-03-close-dialog.png"
+    },
+    {
+      "name": "04-after-close",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest",
+      "h1": [
+        "在庫依頼"
+      ],
+      "dialogs": [
+        "在庫依頼をクローズしますか？\n\n在庫依頼をクローズします。注文明細に修正が必要な場合はその対応を行なってください。\n\nキャンセル\n読み込み中\n実行する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "その他の操作",
+        "在庫を引当てる",
+        "キャンセル",
+        "読み込み中\n実行する"
+      ],
+      "importantLines": [
+        "在庫依頼",
+        "未完了の在庫依頼 1件",
+        "在庫依頼。このページの準備が整いました",
+        "確認待ち",
+        "2026年06月09日 14:34に作成",
+        "SKU: 486125-31-L",
+        "ロケーションはありません",
+        "引当先ロケーション",
+        "物流倉庫",
+        "対応不可ロケーション",
+        "在庫依頼をクローズしますか？",
+        "在庫依頼をクローズします。注文明細に修正が必要な場合はその対応を行なってください。",
+        "実行する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/cleanup-failed-allocation-screenshots/04-04-after-close.png"
+    },
+    {
+      "name": "05-allocation-list-after-cleanup",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+      "h1": [
+        "在庫依頼"
+      ],
+      "dialogs": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "確認待ち",
+        "確保済み",
+        "終了",
+        "その他のビュー"
+      ],
+      "importantLines": [
+        "在庫依頼",
+        "在庫依頼。このページの準備が整いました",
+        "在庫依頼を作成する",
+        "確認待ち",
+        "終了"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/cleanup-failed-allocation-screenshots/05-05-allocation-list-after-cleanup.png"
+    }
+  ]
+}

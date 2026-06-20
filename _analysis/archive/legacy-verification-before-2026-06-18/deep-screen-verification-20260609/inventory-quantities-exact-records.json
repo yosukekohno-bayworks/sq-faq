@@ -1,0 +1,303 @@
+{
+  "generatedAt": "2026-06-09T07:47:38.466Z",
+  "targets": {
+    "inventoryList": "https://www.sqstackstaging.com/admin/inventory_items",
+    "exactDetail": "https://www.sqstackstaging.com/admin/inventory_items/7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem"
+  },
+  "failed": null,
+  "graphql": [
+    {
+      "operationName": "InventoryItemsPage",
+      "variables": {
+        "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+        "first": 30,
+        "after": null,
+        "filter": {
+          "productCode": null,
+          "sku": null
+        }
+      },
+      "matchingItems": [
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem",
+          "sku": "486125-09-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "BLACK / XL",
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "e0df9c62-6416-5c68-852f-90ab68c620ad_InventoryItem",
+          "sku": "486125-09-L",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "BLACK / L",
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "9644d67a-3493-53ae-a224-854af205281c_InventoryItem",
+          "sku": "486125-03-L",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "GRAY / L",
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "afe19e4f-91fa-5da0-8401-f2f4ec420e08_InventoryItem",
+          "sku": "486125-69-L",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "NAVY / L",
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "331caf7a-c23b-5b8d-b73b-612923982dc9_InventoryItem",
+          "sku": "486125-03-XS",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "GRAY / XS",
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "7413b5c8-9610-566c-a5e1-c9b83c4029d9_InventoryItem",
+          "sku": "486125-69-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "NAVY / XL",
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "30c6cfb5-1cf8-58b4-8f23-0ab604f7dbb9_InventoryItem",
+          "sku": "486125-69-XS",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "NAVY / XS",
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "766417a9-2398-5021-9182-a622d54b30bb_InventoryItem",
+          "sku": "486125-31-S",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "BEIGE / S",
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "id": "7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem",
+          "sku": "486125-31-L",
+          "product": "オーバーサイズスウェットシャツ",
+          "title": "BEIGE / L",
+          "quantity": {
+            "available": -2,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": -2,
+            "__typename": "InventoryQuantity"
+          }
+        }
+      ]
+    },
+    {
+      "operationName": "InventoryItemPage",
+      "variables": {
+        "inventoryItemID": "7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem",
+        "first": 30,
+        "after": null,
+        "filter": {
+          "code": null,
+          "locationType": null
+        }
+      },
+      "inventoryItem": {
+        "id": "7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem",
+        "sku": "486125-31-L",
+        "product": "オーバーサイズスウェットシャツ",
+        "title": "BEIGE / L"
+      },
+      "locationQuantities": [
+        {
+          "name": "TEST_FAQ_DEEP2_202606080343_ロケーション",
+          "code": "",
+          "id": "b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+          "quantity": {
+            "available": 0,
+            "committed": 0,
+            "reserved": 0,
+            "damaged": 0,
+            "qualityControl": 0,
+            "safetyStock": 0,
+            "onHand": 0,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "name": "ユニクロ - 銀座店",
+          "code": "",
+          "id": "b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+          "quantity": {
+            "available": 4,
+            "committed": 0,
+            "reserved": 0,
+            "damaged": 0,
+            "qualityControl": 0,
+            "safetyStock": 0,
+            "onHand": 4,
+            "__typename": "InventoryQuantity"
+          }
+        },
+        {
+          "name": "物流倉庫",
+          "code": "",
+          "id": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+          "quantity": {
+            "available": -2,
+            "committed": 0,
+            "reserved": 0,
+            "damaged": 0,
+            "qualityControl": 0,
+            "safetyStock": 0,
+            "onHand": -2,
+            "__typename": "InventoryQuantity"
+          }
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "name": "01-inventory-list",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items",
+      "h1": [
+        "在庫管理 :"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する商品品番(SKU)販売不可確定済み販売可能手持ち",
+        "アイテムを選択するバギーカーブジーンズBLUE / 36487973-64-360000",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツGREEN / XL486102-52-XL0000",
+        "アイテムを選択するオーバーサイズスウェットシャツBLACK / XL486125-09-XL0000",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツWHITE / L486102-00-L0000",
+        "アイテムを選択するエアリズムコットンTLIGHT GRAY / L483457-02-L0000",
+        "アイテムを選択するオーバーサイズスウェットシャツBLACK / L486125-09-L0000",
+        "アイテムを選択するエアリズムコットンTWHITE / S483457-00-S0000",
+        "アイテムを選択するポケモン UTRED / 100(3-4歳)483674-15-1000000",
+        "アイテムを選択するエアリズムコットンTWHITE / XL483457-00-XL0000",
+        "アイテムを選択するオーバーサイズスウェットシャツGRAY / L486125-03-L0000",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツGREEN / XS486102-52-XS0000",
+        "アイテムを選択するオーバーサイズスウェットシャツNAVY / L486125-69-L0000",
+        "アイテムを選択するエアリズムコットンTBLACK / S483457-09-S0000",
+        "アイテムを選択するバギーカーブジーンズBLUE / 28487973-64-280000",
+        "アイテムを選択するオーバーサイズスウェットシャツGRAY / XS486125-03-XS0000",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツDARK GRAY / L486102-08-L0000",
+        "アイテムを選択するオーバーサイズスウェットシャツNAVY / XL486125-69-XL0000",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツBLACK / L486102-09-L0000",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツLIGHT PURPLE / L486102-70-L0000",
+        "アイテムを選択するエアリズムコットンTPINK / L483457-10-L0000",
+        "アイテムを選択するバギーカーブジーンズBLUE / 24487973-64-240000",
+        "アイテムを選択するオーバーサイズスウェットシャツNAVY / XS486125-69-XS0000",
+        "アイテムを選択するポケモン UTRED / 110(4-5歳)483674-15-1100000",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツDARK GRAY / XS486102-08-XS0000",
+        "アイテムを選択するバギーカーブジーンズBLUE / 25487973-64-250000",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツWHITE / S486102-00-S0000",
+        "アイテムを選択するエアリズムコットンTLIGHT GRAY / XS483457-02-XS0000",
+        "アイテムを選択するオーバーサイズスウェットシャツBEIGE / S486125-31-S0000",
+        "アイテムを選択するバギーカーブジーンズBLUE / 29487973-64-290000",
+        "アイテムを選択するオーバーサイズスウェットシャツBEIGE / L486125-31-L00-2-2"
+      ],
+      "importantLines": [
+        "物流倉庫",
+        "品番(SKU)",
+        "販売不可",
+        "確定済み",
+        "販売可能",
+        "手持ち",
+        "486125-09-XL",
+        "486125-09-L",
+        "486125-03-L",
+        "486125-69-L",
+        "486125-03-XS",
+        "486125-69-XL",
+        "486125-69-XS",
+        "486125-31-S",
+        "486125-31-L"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inventory-quantities-exact-screenshots/01-01-inventory-list.png"
+    },
+    {
+      "name": "02-exact-486125-31-L-detail",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem",
+      "h1": [
+        "オーバーサイズスウェットシャツ / BEIGE / L"
+      ],
+      "rows": [
+        "ロケーション販売可能確定済み確保済み破損検品予備手持ち",
+        "TEST_FAQ_DEEP2_202606080343_ロケーション0000000",
+        "ユニクロ - 銀座店4000004",
+        "物流倉庫-200000-2"
+      ],
+      "importantLines": [
+        "SKU: 486125-31-L",
+        "ロケーション",
+        "販売可能",
+        "確定済み",
+        "確保済み",
+        "破損",
+        "検品",
+        "予備",
+        "手持ち",
+        "TEST_FAQ_DEEP2_202606080343_ロケーション",
+        "ユニクロ - 銀座店",
+        "物流倉庫"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inventory-quantities-exact-screenshots/02-02-exact-486125-31-L-detail.png"
+    }
+  ]
+}

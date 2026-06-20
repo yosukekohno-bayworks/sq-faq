@@ -1,0 +1,21 @@
+{
+  "dialogs": [
+    {
+      "text": "対象店舗を削除しますか？\n\n選択された1件の対象店舗を削除します。この処理は巻き戻すことができません。\n\nキャンセル\n削除する",
+      "buttons": [
+        {
+          "text": "閉じる",
+          "disabled": false
+        },
+        {
+          "text": "キャンセル",
+          "disabled": false
+        },
+        {
+          "text": "削除する",
+          "disabled": false
+        }
+      ]
+    }
+  ]
+}

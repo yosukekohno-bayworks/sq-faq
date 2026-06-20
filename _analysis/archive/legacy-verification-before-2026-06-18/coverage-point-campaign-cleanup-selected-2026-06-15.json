@@ -1,0 +1,69 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイントキャンペーン。このページの準備が整いました\n\nポイントキャンペーン\nキャンペーンを作成する\nすべての5のアイテムを選択する\n3を選択済み\nルールを削除する\nすべてのアイテムを選択する\n\t\nタイトル\n\t\n種別\n\t\n注文ポイント付与ルール\n\t\n開始日時\n\t\n終了日時\n\t\n作成日時\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_COVERAGE_20260615_PC_PURCHASE\n\n\t\n\n購入金額\n\n\t\n\nTEST_FAQ_注文ポイント付与ルール\n\n\t\n\n2026年06月15日 00:00\n\n\t\n\n2026年12月31日 23:59\n\n\t\n\n2026年06月16日 00:49\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_COVERAGE_20260615_PC_PRODUCT\n\n\t\n\n商品\n\n\t\n\nTEST_FAQ_注文ポイント付与ルール\n\n\t\n\n2026年06月15日 00:00\n\n\t\n\n2026年12月31日 23:59\n\n\t\n\n2026年06月16日 00:44\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_COVERAGE_20260615_PC_RANK\n\n\t\n\n会員ランク\n\n\t\n\nTEST_FAQ_注文ポイント付与ルール\n\n\t\n\n2026年06月15日 00:00\n\n\t\n\n2026年12月31日 23:59\n\n\t\n\n2026年06月16日 00:42\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP3_202606080345_ポイントCP\n\n\t\n\nなし\n\n\t\n\nTEST_FAQ_注文ポイント付与ルール\n\n\t\n\n2026年06月08日 00:00\n\n\t\n\n2026年12月31日 23:59\n\n\t\n\n2026年06月08日 12:46\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_ランク別ポイントキャンペーン\n\n\t\n\n会員ランク\n\n\t\n\nTEST_FAQ_注文ポイント付与ルール\n\n\t\n\n2026年01月01日 00:00\n\n\t\n\n2026年12月31日 23:59\n\n\t\n\n2026年06月06日 18:21",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "i": 4,
+      "text": "ルールを削除する",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 5,
+      "text": "",
+      "aria": "その他の操作",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 6,
+      "text": "ルールを削除する",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 7,
+      "text": "",
+      "aria": "前へ",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 8,
+      "text": "",
+      "aria": "次へ",
+      "disabled": false,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "i": 0,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを切り替える",
+    "aria": "メニューを切り替える"
+  },
+  {
+    "i": 2,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "stack-ps-yosuke 陽介 河野",
+    "aria": ""
+  },
+  {
+    "i": 3,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを閉じる",
+    "aria": "メニューを閉じる"
+  },
+  {
+    "i": 6,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "その他のアクション",
+    "aria": ""
+  },
+  {
+    "i": 10,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "その他のビュー",
+    "aria": "その他のビュー"
+  },
+  {
+    "i": 11,
+    "tag": "BUTTON",
+    "role": "tab",
+    "type": "button",
+    "text": "すべて",
+    "aria": ""
+  },
+  {
+    "i": 12,
+    "tag": "BUTTON",
+    "role": "tab",
+    "type": "button",
+    "text": "店舗",
+    "aria": ""
+  },
+  {
+    "i": 13,
+    "tag": "BUTTON",
+    "role": "tab",
+    "type": "button",
+    "text": "倉庫",
+    "aria": ""
+  },
+  {
+    "i": 14,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "その他のビュー",
+    "aria": "その他のビュー"
+  },
+  {
+    "i": 15,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "検索と絞り込みの結果",
+    "aria": "検索と絞り込みの結果"
+  },
+  {
+    "i": 17,
+    "tag": "INPUT",
+    "role": "checkbox",
+    "type": "checkbox",
+    "text": "on",
+    "value": "on",
+    "aria": ""
+  },
+  {
+    "i": 18,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "販売可能数を編集",
+    "aria": "販売可能数を編集"
+  },
+  {
+    "i": 19,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "販売可能数を編集",
+    "aria": "販売可能数を編集"
+  },
+  {
+    "i": 20,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "前へ",
+    "aria": "前へ"
+  },
+  {
+    "i": 21,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "次へ",
+    "aria": "次へ"
+  },
+  {
+    "i": 22,
+    "tag": "DIV",
+    "role": "dialog",
+    "type": "",
+    "text": "販売可能在庫数を編集する 理由 数量 個 キャンセル 保存する",
+    "aria": ":r24:"
+  },
+  {
+    "i": 23,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "閉じる",
+    "aria": "閉じる"
+  },
+  {
+    "i": 24,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "理由",
+    "aria": ""
+  },
+  {
+    "i": 26,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "数量",
+    "aria": ""
+  },
+  {
+    "i": 27,
+    "tag": "INPUT",
+    "role": "",
+    "type": "number",
+    "text": "0",
+    "value": "0",
+    "aria": ""
+  },
+  {
+    "i": 28,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "キャンセル",
+    "aria": ""
+  },
+  {
+    "i": 29,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "保存する",
+    "aria": ""
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules/62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule/exclude_products/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n除外商品を作成。このページの準備が整いました\n\n除外商品を作成\n除外商品を選択する\n選択\nproduct variant thumbnail\nTEST_FAQ_DEEP2_202606080343_商品\n保存する",
+  "fields": [
+    {
+      "type": "text",
+      "value": "",
+      "placeholder": "選択してください",
+      "disabled": false,
+      "ariaDisabled": null
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 1,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 3,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 4,
+      "text": "選択",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 5,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 6,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 7,
+      "text": "保存する",
+      "disabled": false,
+      "ariaDisabled": "false"
+    }
+  ]
+}

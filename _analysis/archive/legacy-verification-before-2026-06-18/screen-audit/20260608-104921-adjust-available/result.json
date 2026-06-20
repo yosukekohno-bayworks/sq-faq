@@ -1,0 +1,10 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_items/7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+  "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 移動伝票 調整伝票 取置伝票 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 オーバーサイズスウェットシャツ / BEIGE / L。このページの準備が整いました オーバーサイズスウェットシャツ / BEIGE / L 調整履歴 商品管理 その他のアクション BEIGE / L SKU: 486125-31-L すべて 店舗 倉庫 ロケーション 販売可能 確定済み 確保済み 破損 検品 予備 手持ち ユニクロ - 銀座店 0 0 0 0 0 0 0 物流倉庫 2 0 0 0 0 0 2 販売可能数を更新しました",
+  "logs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    }
+  ]
+}

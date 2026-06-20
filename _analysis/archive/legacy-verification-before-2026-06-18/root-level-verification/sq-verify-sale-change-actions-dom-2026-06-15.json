@@ -1,0 +1,42 @@
+[
+  {
+    "tag": "A",
+    "text": "会計",
+    "disabled": false,
+    "href": "/admin/sale_change_line_items",
+    "role": null,
+    "class": "Polaris-Navigation__Item Polaris-Navigation__Item--selected Polaris-Navigation--subNavigationActive Polaris-Navigation--itemChildActive"
+  },
+  {
+    "tag": "A",
+    "text": "売上実績",
+    "disabled": false,
+    "href": "/admin/sale_change_line_items",
+    "role": null,
+    "class": "Polaris-Navigation__Item Polaris-Navigation__Item--selected Polaris-Navigation--subNavigationActive Polaris-Navigation--itemLinePointer"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "エクスポート",
+    "disabled": false,
+    "href": null,
+    "role": null,
+    "class": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disclosure"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "エクスポート",
+    "disabled": false,
+    "href": null,
+    "role": null,
+    "class": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disclosure"
+  },
+  {
+    "tag": "A",
+    "text": "売上実績を作成する",
+    "disabled": true,
+    "href": null,
+    "role": null,
+    "class": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disabled"
+  }
+]

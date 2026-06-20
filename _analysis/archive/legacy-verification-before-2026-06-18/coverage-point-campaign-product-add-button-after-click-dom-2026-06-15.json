@@ -1,0 +1,377 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_COVERAGE_20260615_PC_PRODUCT。このページの準備が整いました\n\nTEST_FAQ_COVERAGE_20260615_PC_PRODUCT\n商品\n\n商品ごとのポイント値が設定されていません\n\n商品を追加する\n対象店舗 (0件)\n\nキャンペーンの対象となる店舗が登録されていません\n\n店舗を追加する\n詳細\n注文ポイント付与ルール\nTEST_FAQ_注文ポイント付与ルール\nポイント付与方法\n倍率\nキャンペーン種別\n商品\n開始日時\n2026年06月15日 00:00\n終了日時\n2026年12月31日 23:59\n商品を選択して追加する\nブランドを指定して追加する\nCSVでインポートする",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "parents": [
+        {
+          "tag": "DIV",
+          "text": "",
+          "cls": "Polaris-TopBar__LeftContent"
+        },
+        {
+          "tag": "DIV",
+          "text": "stack-ps-yosuke 陽介 河野",
+          "cls": "Polaris-TopBar__Container"
+        },
+        {
+          "tag": "DIV",
+          "text": "stack-ps-yosuke 陽介 河野",
+          "cls": "Polaris-TopBar"
+        },
+        {
+          "tag": "DIV",
+          "text": "stack-ps-yosuke 陽介 河野",
+          "cls": "Polaris-Frame__TopBar"
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false,
+      "rect": {
+        "x": 1403.71875,
+        "y": 12,
+        "w": 32,
+        "h": 32
+      },
+      "parents": [
+        {
+          "tag": "DIV",
+          "text": "",
+          "cls": "Polaris-TopBar-Menu__ActivatorWrapper"
+        },
+        {
+          "tag": "DIV",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "tag": "DIV",
+          "text": "",
+          "cls": "Polaris-TopBar__SecondaryMenu"
+        },
+        {
+          "tag": "DIV",
+          "text": "stack-ps-yosuke 陽介 河野",
+          "cls": "Polaris-TopBar__RightContent"
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "aria": null,
+      "disabled": false,
+      "rect": {
+        "x": 1443.71875,
+        "y": 12,
+        "w": 148.28125,
+        "h": 32
+      },
+      "parents": [
+        {
+          "tag": "DIV",
+          "text": "stack-ps-yosuke 陽介 河野",
+          "cls": "Polaris-TopBar-Menu__ActivatorWrapper"
+        },
+        {
+          "tag": "DIV",
+          "text": "stack-ps-yosuke 陽介 河野",
+          "cls": ""
+        },
+        {
+          "tag": "DIV",
+          "text": "stack-ps-yosuke 陽介 河野",
+          "cls": "Polaris-TopBar__RightContent"
+        },
+        {
+          "tag": "DIV",
+          "text": "stack-ps-yosuke 陽介 河野",
+          "cls": "Polaris-TopBar__Container"
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "parents": [
+        {
+          "tag": "DIV",
+          "text": "ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 未完了の入荷指示 1件 1 出荷管理 未完了の出荷指示 1件 1 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定",
+          "cls": "Polaris-Frame__Navigation"
+        },
+        {
+          "tag": "DIV",
+          "text": "ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 未完了の入荷指示 1件 1 出荷管理 未完了の出荷指示 1件 1 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定",
+          "cls": ""
+        },
+        {
+          "tag": "DIV",
+          "text": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 未完了の入荷指示 1件 1 出荷管理 未完了の出荷指示 1件 1 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_COVERAGE_20260615_PC_PRODUCT。このページの準備が整いました TEST_FAQ_COVERAGE_20260615_PC_PRODUCT 商品 商品ごとのポイント値が設定されていません 商品を追加する 対象店舗 (0件) キャンペーンの対象となる店舗が登録されていません 店舗を追加する 詳細 注文ポイント付与ルール TEST_FAQ_注文ポイント付与ルール ポイント付与方法 倍率 キャンペーン種別 商品 開始日時 2026年06月15日 00:00 終了日時 2026年12月31日 23:59",
+          "cls": "Polaris-Frame Polaris-Frame--hasNav Polaris-Frame--hasTopBar"
+        },
+        {
+          "tag": "BODY",
+          "text": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 未完了の入荷指示 1件 1 出荷管理 未完了の出荷指示 1件 1 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_COVERAGE_20260615_PC_PRODUCT。このページの準備が整いました TEST_FAQ_COVERAGE_20260615_PC_PRODUCT 商品 商品ごとのポイント値が設定されていません 商品を追加する 対象店舗 (0件) キャンペーンの対象となる店舗が登録されていません 店舗を追加する 詳細 注文ポイント付与ルール TEST_FAQ_注文ポイント付与ルール ポイント付与方法 倍率 キャンペーン種別 商品 開始日時 2026年06月15日 00:00 終了日時 2026年12月31日 23:59 商品を選択して追加する ",
+          "cls": "__className_f367f3"
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "text": "商品を追加する",
+      "aria": null,
+      "disabled": false,
+      "rect": {
+        "x": 947.171875,
+        "y": 314,
+        "w": 108,
+        "h": 28
+      },
+      "parents": [
+        {
+          "tag": "DIV",
+          "text": "商品を追加する",
+          "cls": ""
+        },
+        {
+          "tag": "DIV",
+          "text": "商品を追加する",
+          "cls": "Polaris-InlineStack"
+        },
+        {
+          "tag": "DIV",
+          "text": "商品を追加する",
+          "cls": "Polaris-InlineStack"
+        },
+        {
+          "tag": "DIV",
+          "text": "商品を追加する",
+          "cls": "Polaris-Box"
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "text": "",
+      "aria": null,
+      "disabled": false,
+      "rect": {
+        "x": 1354.5,
+        "y": 144,
+        "w": 28,
+        "h": 28
+      },
+      "parents": [
+        {
+          "tag": "DIV",
+          "text": "",
+          "cls": ""
+        },
+        {
+          "tag": "DIV",
+          "text": "詳細",
+          "cls": "Polaris-InlineStack"
+        },
+        {
+          "tag": "DIV",
+          "text": "詳細 注文ポイント付与ルール TEST_FAQ_注文ポイント付与ルール ポイント付与方法 倍率 キャンペーン種別 商品 開始日時 2026年06月15日 00:00 終了日時 2026年12月31日 23:59",
+          "cls": "Polaris-BlockStack"
+        },
+        {
+          "tag": "DIV",
+          "text": "詳細 注文ポイント付与ルール TEST_FAQ_注文ポイント付与ルール ポイント付与方法 倍率 キャンペーン種別 商品 開始日時 2026年06月15日 00:00 終了日時 2026年12月31日 23:59",
+          "cls": "Polaris-Box"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "i": 0,
+      "text": "コンテンツにスキップ",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule#AppFrameMain"
+    },
+    {
+      "i": 1,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 2,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 3,
+      "text": "ホーム",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 4,
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products"
+    },
+    {
+      "i": 5,
+      "text": "在庫管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_items"
+    },
+    {
+      "i": 6,
+      "text": "注文管理",
+      "href": "https://www.sqstackstaging.com/admin/orders"
+    },
+    {
+      "i": 7,
+      "text": "顧客管理",
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+    },
+    {
+      "i": 8,
+      "text": "発注管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+    },
+    {
+      "i": 9,
+      "text": "販売設定",
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+    },
+    {
+      "i": 10,
+      "text": "会計",
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+    },
+    {
+      "i": 11,
+      "text": "分析",
+      "href": "https://www.sqstackstaging.com/admin/analytics"
+    },
+    {
+      "i": 12,
+      "text": "入荷管理 未完了の入荷指示 1件 1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+    },
+    {
+      "i": 13,
+      "text": "出荷管理 未完了の出荷指示 1件 1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+    },
+    {
+      "i": 14,
+      "text": "在庫依頼",
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+    },
+    {
+      "i": 15,
+      "text": "ディスカウント",
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+    },
+    {
+      "i": 16,
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+    },
+    {
+      "i": 17,
+      "text": "キャンペーン",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules"
+    },
+    {
+      "i": 18,
+      "text": "誕生日",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules"
+    },
+    {
+      "i": 19,
+      "text": "利用外商品",
+      "href": "https://www.sqstackstaging.com/admin/point_application_excluded_products"
+    },
+    {
+      "i": 20,
+      "text": "失効通知",
+      "href": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule"
+    },
+    {
+      "i": 21,
+      "text": "会員ランク",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+    },
+    {
+      "i": 22,
+      "text": "Shopify",
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+    },
+    {
+      "i": 23,
+      "text": "OmnibusCore",
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+    },
+    {
+      "i": 24,
+      "text": "スマレジ",
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+    },
+    {
+      "i": 25,
+      "text": "リテールポータル",
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+    },
+    {
+      "i": 26,
+      "text": "卸売",
+      "href": "https://www.sqstackstaging.com/admin/b2b"
+    },
+    {
+      "i": 27,
+      "text": "設定",
+      "href": "https://www.sqstackstaging.com/admin/settings"
+    },
+    {
+      "i": 28,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules"
+    },
+    {
+      "i": 29,
+      "text": "店舗を追加する",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule/retail_locations/create"
+    },
+    {
+      "i": 30,
+      "text": "商品を選択して追加する",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule/product_variants/create"
+    },
+    {
+      "i": 31,
+      "text": "ブランドを指定して追加する",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule/product_variants/create_by_brand_code"
+    },
+    {
+      "i": 32,
+      "text": "CSVでインポートする",
+      "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create?pointCampaignOrderRuleID=f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule"
+    }
+  ]
+}

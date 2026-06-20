@@ -1,0 +1,19 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company",
+  "dialogCount": 0,
+  "dialogs": [],
+  "rows": [
+    {
+      "i": 1,
+      "text": "TEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション\n\t¥0\t0",
+      "html": "<tr id=\"63e34128-672d-5ddf-a150-bf4c2e26c7a9_CompanyLocation\" class=\"Polaris-IndexTable__TableRow Polaris-IndexTable__TableRow--unclickable\"><td class=\"Polaris-IndexTable__TableCell\"><a class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantMonochromePlain Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" href=\"/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/63e34128-672d-5ddf-a150-bf4c2e26c7a9_CompanyLocation\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular\">TEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション</span></a></td><td class=\"Polaris-IndexTable__TableCell\">¥0</td><td class=\"Polaris-IndexTable__TableCell\">0</td></tr>"
+    },
+    {
+      "i": 3,
+      "text": "アイテムを選択する\n\t\n\nFAQContact20260615\n\n\tfaq-contact-20260615@example.com",
+      "html": "<tr id=\"076f2f83-aaf5-5d74-9169-3439c8aa8a0d_CompanyContact\" class=\"Polaris-IndexTable__TableRow\"><td class=\"Polaris-IndexTable__TableCell Polaris-IndexTable__TableCell--first\"><div class=\"Polaris-IndexTable-Checkbox__Wrapper\"><label class=\"Polaris-Choice Polaris-Choice--labelHidden Polaris-Checkbox__ChoiceLabel\" for=\"Select-076f2f83-aaf5-5d74-9169-3439c8aa8a0d_CompanyContact\"><span class=\"Polaris-Choice__Control\"><span class=\"Polaris-Checkbox\"><input id=\"Select-076f2f83-aaf5-5d74-9169-3439c8aa8a0d_CompanyContact\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"false\" type=\"checkbox\"><span class=\"Polaris-Checkbox__Backdrop\"></span><span class=\"Polaris-Checkbox__Icon Polaris-Checkbox--animated\"><svg viewBox=\"0 0 16 16\" shape-rendering=\"geometricPrecision\" text-rendering=\"geometricPrecision\"><path class=\"\" d=\"M1.5,5.5L3.44655,8.22517C3.72862,8.62007,4.30578,8.64717,4.62362,8.28044L10.5,1.5\" transform=\"translate(2 2.980376)\" opacity=\"0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pathLength=\"1\"></path></svg></span></span></span><span class=\"Polaris-Choice__Label\"><span class=\"Polaris-Text--root Po"
+    }
+  ],
+  "alerts": [],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_COVERAGE_20260615_809686_会社。このページの準備が整いました\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n\n2026年06月15日から顧客\n\n直近の注文\n\nこの会社はまだ注文していません\n\nロケーション\nロケーションを追加\nロケーション\n\t\n売上\n\t\n注文\n\n\nTEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション\n\t¥0\t0\n担当者\n担当者を追加\nすべてのアイテムを選択する\n\t\n名前\n\t\nメールアドレス\n\n\nアイテムを選択する\n\t\n\nFAQContact20260615\n\n\tfaq-contact-20260615@example.com\nTEST_FAQ_COVERAGE_20260615_809686_会社\n会社ID\n\nEXT9686\n\nメモ\n\nこの会社にはメモがありません。"
+}

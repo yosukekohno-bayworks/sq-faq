@@ -1,0 +1,33 @@
+{
+  "captured": "2026-06-14",
+  "lists": {
+    "products": {"tabs":["すべて","公開中","下書き","アーカイブ済み"]},
+    "inventory_movement_orders": {"tabs":["すべて","出荷作業","一部受領済み","受領済み","キャンセル"]},
+    "inventory_adjustment_orders": {"tabs":["すべて","未実施","実施済み","キャンセル"]},
+    "inventory_outbound_orders": {"tabs":["保留中","出荷待ち","依頼済み","作業中","欠品・要対応","出荷完了"],"cols":["管理番号","作業ステータス","引当ステータス","作成元","出荷場所","アイテム","出荷方法","決済種別","作成日時"]},
+    "inventory_inbound_orders": {"tabs":["入荷待ち","入荷依頼済み","入荷作業中","要対応","入荷完了","キャンセル"],"cols":["管理番号","到着ロケーション","種別","作業ステータス","作成日時"]},
+    "inventory_allocation_requests": {"tabs":["確認待ち","確保済み","終了"],"subnav":["inventory_allocation_requests","inventory_allocation_request_confirmations"]},
+    "orders": {"tabs":["すべて"],"subnav":["orders","draft_orders","order_returns"]},
+    "draft_orders": {"tabs":["すべて"],"createBtn":"無効(disabled)のまま"},
+    "order_returns": {"tabs":[],"createBtn":"なし"},
+    "order_price_adjustment_rules": {"tabs":["すべて","有効","スケジュール済み","期限切れ"],"cols":["タイトル","クーポンコード","ステータス","有効期間","対象顧客","対象店舗","利用回数","テナント"]},
+    "inventory_purchase_orders": {"tabs":["すべて"]},
+    "sale_change_line_items": {"h1":"売上実績","createBtn":"売上実績を作成する=無効(disabled)のまま"},
+    "purchasing_customers": {"tabs":["すべて"],"subnav":["purchasing_customers","companies"]},
+    "point_calculation_rules": {"h1":"注文ポイント","subnav":["point_calculation_rules","point_campaign_order_rules","point_calculation_birthday_rules","point_application_excluded_products","point_expiration_notification_rule"]}
+  },
+  "forms": {
+    "adjustment_create": {"理由":["廃棄","見本","紛失","棚卸差異","その他"]},
+    "smaregi_create": {"labels":["名前","テナント","契約ID","プラン","カタログ","在庫同期の方向","注文による在庫変動を起こさない"],"プラン":["スタンダード","プレミアム","プレミアムプラス","フードビジネス","リテールビジネス"],"在庫同期の方向":["スマレジからSQへ","SQからスマレジへ","在庫を同期しない"]},
+    "product_price_rule_create": {"通貨":["米ドル","ユーロ","日本円","タイ バーツ","シンガポール ドル"]},
+    "location_create": {"場所種別":["倉庫","店舗"],"ポイント利用種別":["値引き","金種"],"checks":["ロケーションの住所を登録する","店舗受け取りを有効にする","在庫依頼を受け付ける"]},
+    "metafield_product_create": {"タイプ":["単一行のテキスト","単一行のテキスト(リスト)","複数行のテキスト","日付と時刻","日付","trueまたはfalse","バーコード(NW7)","整数","小数","JSON","ID","リッチテキスト"]},
+    "translation_rule_create": {"言語":["日本語","英語","中国語（簡体字）","中国語（繁体字）","韓国語","スペイン語","フランス語","ドイツ語","ヒンディー語","タイ語"]},
+    "discount_create": {"labels":["タイトル","説明文","クーポンコード","テナント","割引方法","割引率","割引が適用可能な最高購入額を設定する","最低購入額","最低購入数量","すべての商品を割引対象に設定する","お客様1人につき1回のみの使用とする","開始日時","終了日時"],"割引方法":["割引率","割引額"],"radios":["最低購入額","最低購入数量"]},
+    "purchase_order_create": {"labels":["取引先","テナント","通貨","商品を追加する"],"通貨":["米ドル","ユーロ","日本円","タイ バーツ","シンガポール ドル"]},
+    "allocation_request_create": {"labels":["商品バリエーション","希望数","移動先ロケーション","リクエスト先ロケーション"]},
+    "point_calculation_rule_create": {"labels_captured":["タイトル","購入金額","ポイント","ポイントを付与してから有効な日数","会員ランク算出ルール","(優先設定radio x2)"],"note":"事典記載の『オンライン/店舗のポイント有効までの日数』ラベルが今回の<label>抽出に出ず。要再確認（マークアップ差異か変更か）"}
+  },
+  "settings_items_16": ["管理メンバー","テナント","ロケーション","ロケーショングループ","ブランド","取引先","決済方法","販売員","納品書","通知用メールアドレス","アプリ","ロジザード","Recustomer","翻訳","メタフィールド定義","採寸ルール"],
+  "settings_drift": "なし（NEOLogi/Databricks/Canlyは存在しない。16項目構成は従来どおり）"
+}

@@ -1,0 +1,110 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes/create",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "name": "",
+      "value": "",
+      "text": "",
+      "label": "メニューを切り替える",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 1,
+      "tag": "BUTTON",
+      "type": "button",
+      "name": "",
+      "value": "",
+      "text": "",
+      "label": null,
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "name": "",
+      "value": "",
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "label": null,
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "name": "",
+      "value": "",
+      "text": "",
+      "label": "メニューを閉じる",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 4,
+      "tag": "SELECT",
+      "type": "select-one",
+      "name": "",
+      "value": "",
+      "text": "選択してください\nユニクロ",
+      "label": null,
+      "disabled": false,
+      "ariaDisabled": null,
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {
+          "text": "ユニクロ",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+          "selected": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "datetime-local",
+      "name": "",
+      "value": "",
+      "text": "",
+      "placeholder": "",
+      "label": null,
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "datetime-local",
+      "name": "",
+      "value": "",
+      "text": "",
+      "placeholder": "",
+      "label": null,
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 7,
+      "tag": "BUTTON",
+      "type": "button",
+      "name": "",
+      "value": "",
+      "text": "エクスポートを開始する",
+      "label": null,
+      "disabled": false,
+      "ariaDisabled": "false"
+    }
+  ],
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました\n\n売上実績（注文軸）をCSVでエクスポートする\nテナント\n選択してください\nユニクロ\n選択してください\nエクスポートするテナントを選択してください\n開始日時\n絞り込みを開始する日時を入力してください\n終了日時\n絞り込みを終了する日時を入力してください\nエクスポートを開始する"
+}

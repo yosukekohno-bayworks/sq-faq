@@ -1,0 +1,194 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n会員ランク算出ルールを作成する。このページの準備が整いました\n\n会員ランク算出ルールを作成する\nルール\nタイトル\n算出方法\n購入金額\n獲得ポイント\n税抜き価格でランクを算出する\n算出期間\n期間\n1年間\n直近365日\n無期限\n1年間\n開始月\n1月\n2月\n3月\n4月\n5月\n6月\n7月\n8月\n9月\n10月\n11月\n12月\n1月\n開始月に4月を設定した場合、ランク算出期間の1年間は4月1日から3月31日となります\n詳細\n会員ランクを月初に算出する\nこの設定を有効にすることで顧客の会員ランクは毎月1日に再計算されます。\n会員ランクを次の算出期間に持ち越す\n持ち越しを有効にすることで顧客は自分の会員ランクを最大2年間維持することができます。この設定は「開始月」が未選択、もしくは「会員ランクの反映を次の算出期間の開始日に行う」が有効の場合は利用できません。\n保存する",
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "disabled": false,
+      "placeholder": "タイトル",
+      "labels": [
+        "タイトル"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "PURCHASE_PRICE",
+      "checked": true,
+      "disabled": true,
+      "placeholder": null,
+      "labels": [
+        "購入金額"
+      ]
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "EARNED_POINT",
+      "checked": false,
+      "disabled": true,
+      "placeholder": null,
+      "labels": [
+        "獲得ポイント"
+      ]
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "disabled": false,
+      "placeholder": null,
+      "labels": [
+        "税抜き価格でランクを算出する"
+      ]
+    },
+    {
+      "i": 4,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "annual",
+      "disabled": false,
+      "placeholder": null,
+      "labels": [
+        "期間"
+      ],
+      "options": [
+        {
+          "text": "1年間",
+          "value": "annual",
+          "selected": true,
+          "disabled": false
+        },
+        {
+          "text": "直近365日",
+          "value": "last365days",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "無期限",
+          "value": "lifetime",
+          "selected": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "1",
+      "disabled": false,
+      "placeholder": null,
+      "labels": [
+        "開始月"
+      ],
+      "options": [
+        {
+          "text": "1月",
+          "value": "1",
+          "selected": true,
+          "disabled": false
+        },
+        {
+          "text": "2月",
+          "value": "2",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "3月",
+          "value": "3",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "4月",
+          "value": "4",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "5月",
+          "value": "5",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "6月",
+          "value": "6",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "7月",
+          "value": "7",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "8月",
+          "value": "8",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "9月",
+          "value": "9",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "10月",
+          "value": "10",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "11月",
+          "value": "11",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "12月",
+          "value": "12",
+          "selected": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "disabled": false,
+      "placeholder": null,
+      "labels": [
+        "会員ランクを月初に算出する"
+      ]
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "disabled": false,
+      "placeholder": null,
+      "labels": [
+        "会員ランクを次の算出期間に持ち越す"
+      ]
+    }
+  ]
+}

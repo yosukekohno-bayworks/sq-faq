@@ -1,0 +1,514 @@
+{
+  "generatedAt": "2026-06-09T15:29:07.388Z",
+  "failed": null,
+  "targets": [
+    {
+      "name": "history-target-location-8b7",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location"
+    },
+    {
+      "name": "history-clicked-location-b9f",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=b9f67abc-3da0-5165-953b-ea304a92460b_Location"
+    },
+    {
+      "name": "detail-after-edit",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location"
+    }
+  ],
+  "records": [
+    {
+      "name": "history-target-location-8b7",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+      "h1": [
+        "オーバーサイズスウェットシャツ"
+      ],
+      "rows": [
+        "日時アクティビティ販売可能確定済み確保済み破損検品予備手持ち",
+        "2026年06月10日 00:26:21TEST_FAQ_Codex確認_2026-06-091(+1)000001(+1)"
+      ],
+      "importantLines": [
+        "在庫管理",
+        "在庫依頼",
+        "日時\tアクティビティ\t販売可能\t確定済み\t確保済み\t破損\t検品\t予備\t手持ち",
+        "2026年06月10日 00:26:21\tTEST_FAQ_Codex確認_2026-06-09"
+      ],
+      "classification": {
+        "skeletonOnly": false,
+        "emptyHistory": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasReason": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inventory-history-after-edit-screenshots/01-history-target-location-8b7.png"
+    },
+    {
+      "name": "history-clicked-location-b9f",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+      "h1": [
+        "オーバーサイズスウェットシャツ"
+      ],
+      "rows": [],
+      "importantLines": [
+        "在庫管理",
+        "在庫依頼",
+        "在庫の変更履歴はありません"
+      ],
+      "classification": {
+        "skeletonOnly": false,
+        "emptyHistory": true,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasReason": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inventory-history-after-edit-screenshots/02-history-clicked-location-b9f.png"
+    },
+    {
+      "name": "detail-after-edit",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+      "h1": [
+        "オーバーサイズスウェットシャツ / BLACK / XL"
+      ],
+      "rows": [
+        "ロケーション販売可能確定済み確保済み破損検品予備手持ち",
+        "TEST_FAQ_DEEP2_202606080343_ロケーション0000000",
+        "ユニクロ - 銀座店0000000",
+        "物流倉庫1000001"
+      ],
+      "importantLines": [
+        "在庫管理",
+        "在庫依頼",
+        "調整履歴",
+        "SKU: 486125-09-XL",
+        "販売可能",
+        "手持ち",
+        "物流倉庫"
+      ],
+      "classification": {
+        "skeletonOnly": false,
+        "emptyHistory": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "hasReason": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/inventory-history-after-edit-screenshots/03-detail-after-edit.png"
+    }
+  ],
+  "network": [
+    {
+      "status": 307,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_items/%5BinventoryItemID%5D/history/page-992cadd78cf3f6ed.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"PermissionContextProvider\",\"variables\":{},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query PermissionContextProvider {\\n  myPermissions\\n}\"}"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_movement_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_movement_orders/page-75235710a0996ec6.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_items/page-0306acb0effd35fc.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_adjustment_orders/page-4f973e5a957e5746.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_reservation_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_reservation_orders/page-65a6c9a1438bc2f0.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_purchase_orders/page-9896d651b0956d50.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_inbound_orders/page-24f0fdcc0e517279.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_outbound_orders/page-41cce9af435f151e.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_allocation_requests/page-e9aa51fc69e0b0c9.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"Layout\",\"variables\":{\"skipOrderIncompleteCount\":false,\"skipInventoryAllocationRequestIncompleteCount\":false,\"skipInventoryOutboundOrderIncompleteCount\":false,\"skipInventoryInboundOrderIncompleteCount\":false},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query Layout($skipOrderIncompleteCount: Boolean!, $skipInventoryAllocationRequestIncompleteCount: Boolean!, $skipInventoryOutboundOrderIncompleteCount: Boolean!, $skipInventoryInboundOrderIncompleteCount: Boolean!) {\\n  orderIncompleteCount: orderCount(\\n    filter: {inventoryOutboundOrderWorkingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED], isCancelled: false}\\n  ) @skip(if: $skipOrderIncompleteCount)\\n  inventoryAllocationRequestIncompleteCount: inventoryAllocationRequestCount(\\n    filter: {isCompleted: false}\\n  ) @skip(if: $skipInventoryAllocationRequestIncompleteCount)\\n  inventoryOutboundOrderIncompleteCount: inventoryOutboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED]}\\n  ) @skip(if: $skipInventoryOutboundOrderIncompleteCount)\\n  inventoryInboundOrderIncompleteCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, UNDER_INVESTIGATION]}\\n  ) @skip(if: $skipInventoryInboundOrderIncompleteCount)\\n}\"}"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"InventoryItemHistoryPage\",\"variables\":{\"inventoryItemID\":\"a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem\",\"locationID\":\"8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location\",\"locationIDEmpty\":false,\"first\":30,\"after\":null},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query InventoryItemHistoryPage($inventoryItemID: ID!, $locationID: ID!, $locationIDEmpty: Boolean!, $first: Int!, $after: String) {\\n  inventoryLogicalAdjustmentGroups(\\n    inventoryItemID: $inventoryItemID\\n    locationID: $locationID\\n    first: $first\\n    after: $after\\n    isReverse: true\\n  ) @skip(if: $locationIDEmpty) {\\n    nodes {\\n      id\\n      createdAt\\n      reason {\\n        ... on InventoryLogicalAdjustmentGroupReasonOrder {\\n          id\\n          managementCode\\n          __typename\\n        }\\n        ... on InventoryLogicalAdjustmentGroupReasonDraftOrder {\\n          id\\n          managementCode\\n          __typename\\n        }\\n        ... on InventoryLogicalAdjustmentGroupReasonInventoryMovementOrder {\\n          id\\n          managementCode\\n          __typename\\n        }\\n        ... on InventoryLogicalAdjustmentGroupReasonInventoryAdjustmentOrder {\\n          id\\n          managementCode\\n          __typename\\n        }\\n        ... on InventoryLogicalAdjustmentGroupReasonAdjust {\\n          reason\\n          __typename\\n        }\\n        __typename\\n      }\\n      quantitySnapshot(inventoryItemID: $inventoryItemID, locationID: $locationID) {\\n        available {\\n          delta\\n          quantityAfterChange\\n          __type"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_items/%5BinventoryItemID%5D/history/page-992cadd78cf3f6ed.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"PermissionContextProvider\",\"variables\":{},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query PermissionContextProvider {\\n  myPermissions\\n}\"}"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_movement_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_movement_orders/page-75235710a0996ec6.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_adjustment_orders/page-4f973e5a957e5746.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_items/page-0306acb0effd35fc.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_reservation_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_reservation_orders/page-65a6c9a1438bc2f0.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_purchase_orders/page-9896d651b0956d50.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_outbound_orders/page-41cce9af435f151e.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_inbound_orders/page-24f0fdcc0e517279.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_allocation_requests/page-e9aa51fc69e0b0c9.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"InventoryItemHistoryPage\",\"variables\":{\"inventoryItemID\":\"a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem\",\"locationID\":\"b9f67abc-3da0-5165-953b-ea304a92460b_Location\",\"locationIDEmpty\":false,\"first\":30,\"after\":null},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query InventoryItemHistoryPage($inventoryItemID: ID!, $locationID: ID!, $locationIDEmpty: Boolean!, $first: Int!, $after: String) {\\n  inventoryLogicalAdjustmentGroups(\\n    inventoryItemID: $inventoryItemID\\n    locationID: $locationID\\n    first: $first\\n    after: $after\\n    isReverse: true\\n  ) @skip(if: $locationIDEmpty) {\\n    nodes {\\n      id\\n      createdAt\\n      reason {\\n        ... on InventoryLogicalAdjustmentGroupReasonOrder {\\n          id\\n          managementCode\\n          __typename\\n        }\\n        ... on InventoryLogicalAdjustmentGroupReasonDraftOrder {\\n          id\\n          managementCode\\n          __typename\\n        }\\n        ... on InventoryLogicalAdjustmentGroupReasonInventoryMovementOrder {\\n          id\\n          managementCode\\n          __typename\\n        }\\n        ... on InventoryLogicalAdjustmentGroupReasonInventoryAdjustmentOrder {\\n          id\\n          managementCode\\n          __typename\\n        }\\n        ... on InventoryLogicalAdjustmentGroupReasonAdjust {\\n          reason\\n          __typename\\n        }\\n        __typename\\n      }\\n      quantitySnapshot(inventoryItemID: $inventoryItemID, locationID: $locationID) {\\n        available {\\n          delta\\n          quantityAfterChange\\n          __type"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"Layout\",\"variables\":{\"skipOrderIncompleteCount\":false,\"skipInventoryAllocationRequestIncompleteCount\":false,\"skipInventoryOutboundOrderIncompleteCount\":false,\"skipInventoryInboundOrderIncompleteCount\":false},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query Layout($skipOrderIncompleteCount: Boolean!, $skipInventoryAllocationRequestIncompleteCount: Boolean!, $skipInventoryOutboundOrderIncompleteCount: Boolean!, $skipInventoryInboundOrderIncompleteCount: Boolean!) {\\n  orderIncompleteCount: orderCount(\\n    filter: {inventoryOutboundOrderWorkingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED], isCancelled: false}\\n  ) @skip(if: $skipOrderIncompleteCount)\\n  inventoryAllocationRequestIncompleteCount: inventoryAllocationRequestCount(\\n    filter: {isCompleted: false}\\n  ) @skip(if: $skipInventoryAllocationRequestIncompleteCount)\\n  inventoryOutboundOrderIncompleteCount: inventoryOutboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED]}\\n  ) @skip(if: $skipInventoryOutboundOrderIncompleteCount)\\n  inventoryInboundOrderIncompleteCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, UNDER_INVESTIGATION]}\\n  ) @skip(if: $skipInventoryInboundOrderIncompleteCount)\\n}\"}"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem?_rsc=1sz6m",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_items/%5BinventoryItemID%5D/page-92136eb280588d6b.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"PermissionContextProvider\",\"variables\":{},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query PermissionContextProvider {\\n  myPermissions\\n}\"}"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_movement_orders?_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_movement_orders/page-75235710a0996ec6.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders?_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_adjustment_orders/page-4f973e5a957e5746.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items?_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_items/page-0306acb0effd35fc.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_reservation_orders?_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_reservation_orders/page-65a6c9a1438bc2f0.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders?_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_purchase_orders/page-9896d651b0956d50.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests?_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders?_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_allocation_requests/page-e9aa51fc69e0b0c9.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_inbound_orders/page-24f0fdcc0e517279.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders?_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_outbound_orders/page-41cce9af435f151e.js",
+      "method": "GET",
+      "postData": ""
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"Layout\",\"variables\":{\"skipOrderIncompleteCount\":false,\"skipInventoryAllocationRequestIncompleteCount\":false,\"skipInventoryOutboundOrderIncompleteCount\":false,\"skipInventoryInboundOrderIncompleteCount\":false},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query Layout($skipOrderIncompleteCount: Boolean!, $skipInventoryAllocationRequestIncompleteCount: Boolean!, $skipInventoryOutboundOrderIncompleteCount: Boolean!, $skipInventoryInboundOrderIncompleteCount: Boolean!) {\\n  orderIncompleteCount: orderCount(\\n    filter: {inventoryOutboundOrderWorkingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED], isCancelled: false}\\n  ) @skip(if: $skipOrderIncompleteCount)\\n  inventoryAllocationRequestIncompleteCount: inventoryAllocationRequestCount(\\n    filter: {isCompleted: false}\\n  ) @skip(if: $skipInventoryAllocationRequestIncompleteCount)\\n  inventoryOutboundOrderIncompleteCount: inventoryOutboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED]}\\n  ) @skip(if: $skipInventoryOutboundOrderIncompleteCount)\\n  inventoryInboundOrderIncompleteCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, UNDER_INVESTIGATION]}\\n  ) @skip(if: $skipInventoryInboundOrderIncompleteCount)\\n}\"}"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "postData": "{\"operationName\":\"InventoryItemPage\",\"variables\":{\"inventoryItemID\":\"a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem\",\"first\":30,\"after\":null,\"filter\":{\"code\":null,\"locationType\":null}},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query InventoryItemPage($inventoryItemID: ID!, $first: Int!, $after: String, $filter: LocationFilter) {\\n  inventoryItem(id: $inventoryItemID) {\\n    id\\n    sku\\n    productVariant {\\n      id\\n      title\\n      featuredImage {\\n        id\\n        url\\n        __typename\\n      }\\n      product {\\n        id\\n        title\\n        variants(first: 250) {\\n          nodes {\\n            id\\n            title\\n            inventoryItem {\\n              id\\n              sku\\n              __typename\\n            }\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n  locations(first: $first, after: $after, filter: $filter, sortKeys: NAME) {\\n    nodes {\\n      id\\n      name\\n      inventoryLevel(inventoryItemID: $inventoryItemID) {\\n        id\\n        quantity {\\n          available\\n          committed\\n          reserved\\n          damaged\\n          qualityControl\\n          safetyStock\\n          onHand\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    pageInfo {\\n      hasNextPage\\n      endCursor\\n      hasPreviousPage\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}"
+    },
+    {
+      "status": 200,
+      "url": "https://www.sqstackstaging.com/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=b9f67abc-3da0-5165-953b-ea304a92460b_Location&_rsc=1hqwn",
+      "method": "GET",
+      "postData": ""
+    }
+  ],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    }
+  ]
+}

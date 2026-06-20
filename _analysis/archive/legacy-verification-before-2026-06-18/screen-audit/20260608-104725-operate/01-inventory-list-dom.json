@@ -1,0 +1,818 @@
+[
+  {
+    "i": 0,
+    "tag": "A",
+    "role": "",
+    "text": "コンテンツにスキップ",
+    "href": "#AppFrameMain",
+    "aria": ""
+  },
+  {
+    "i": 1,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "メニューを切り替える",
+    "href": "",
+    "aria": "メニューを切り替える"
+  },
+  {
+    "i": 2,
+    "tag": "A",
+    "role": "",
+    "text": "",
+    "href": "/admin",
+    "aria": ""
+  },
+  {
+    "i": 4,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "stack-ps-yosuke 陽介 河野",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 5,
+    "tag": "A",
+    "role": "",
+    "text": "",
+    "href": "/admin",
+    "aria": ""
+  },
+  {
+    "i": 6,
+    "tag": "A",
+    "role": "",
+    "text": "ホーム",
+    "href": "/admin",
+    "aria": ""
+  },
+  {
+    "i": 7,
+    "tag": "A",
+    "role": "",
+    "text": "商品管理",
+    "href": "/admin/products",
+    "aria": ""
+  },
+  {
+    "i": 8,
+    "tag": "A",
+    "role": "",
+    "text": "在庫管理",
+    "href": "/admin/inventory_items",
+    "aria": ""
+  },
+  {
+    "i": 9,
+    "tag": "A",
+    "role": "",
+    "text": "移動伝票",
+    "href": "/admin/inventory_movement_orders",
+    "aria": ""
+  },
+  {
+    "i": 10,
+    "tag": "A",
+    "role": "",
+    "text": "調整伝票",
+    "href": "/admin/inventory_adjustment_orders",
+    "aria": ""
+  },
+  {
+    "i": 11,
+    "tag": "A",
+    "role": "",
+    "text": "取置伝票",
+    "href": "/admin/inventory_reservation_orders",
+    "aria": ""
+  },
+  {
+    "i": 12,
+    "tag": "A",
+    "role": "",
+    "text": "注文管理",
+    "href": "/admin/orders",
+    "aria": ""
+  },
+  {
+    "i": 13,
+    "tag": "A",
+    "role": "",
+    "text": "顧客管理",
+    "href": "/admin/purchasing_customers",
+    "aria": ""
+  },
+  {
+    "i": 14,
+    "tag": "A",
+    "role": "",
+    "text": "発注管理",
+    "href": "/admin/inventory_purchase_orders",
+    "aria": ""
+  },
+  {
+    "i": 15,
+    "tag": "A",
+    "role": "",
+    "text": "販売設定",
+    "href": "/admin/product_price_rules",
+    "aria": ""
+  },
+  {
+    "i": 16,
+    "tag": "A",
+    "role": "",
+    "text": "会計",
+    "href": "/admin/sale_change_line_items",
+    "aria": ""
+  },
+  {
+    "i": 17,
+    "tag": "A",
+    "role": "",
+    "text": "分析",
+    "href": "/admin/analytics",
+    "aria": ""
+  },
+  {
+    "i": 18,
+    "tag": "A",
+    "role": "",
+    "text": "入荷管理",
+    "href": "/admin/inventory_inbound_orders",
+    "aria": ""
+  },
+  {
+    "i": 19,
+    "tag": "A",
+    "role": "",
+    "text": "出荷管理",
+    "href": "/admin/inventory_outbound_orders",
+    "aria": ""
+  },
+  {
+    "i": 20,
+    "tag": "A",
+    "role": "",
+    "text": "在庫依頼",
+    "href": "/admin/inventory_allocation_requests",
+    "aria": ""
+  },
+  {
+    "i": 21,
+    "tag": "A",
+    "role": "",
+    "text": "ディスカウント",
+    "href": "/admin/order_price_adjustment_rules",
+    "aria": ""
+  },
+  {
+    "i": 22,
+    "tag": "A",
+    "role": "",
+    "text": "ポイント",
+    "href": "/admin/point_calculation_rules",
+    "aria": ""
+  },
+  {
+    "i": 23,
+    "tag": "A",
+    "role": "",
+    "text": "会員ランク",
+    "href": "/admin/customer_rank_calculation_rules",
+    "aria": ""
+  },
+  {
+    "i": 24,
+    "tag": "A",
+    "role": "",
+    "text": "Shopify",
+    "href": "/admin/shopify_integrations",
+    "aria": ""
+  },
+  {
+    "i": 25,
+    "tag": "A",
+    "role": "",
+    "text": "OmnibusCore",
+    "href": "/admin/omnibus_core_integrations",
+    "aria": ""
+  },
+  {
+    "i": 26,
+    "tag": "A",
+    "role": "",
+    "text": "スマレジ",
+    "href": "/admin/smaregi_integrations",
+    "aria": ""
+  },
+  {
+    "i": 27,
+    "tag": "A",
+    "role": "",
+    "text": "リテールポータル",
+    "href": "/admin/retail_portal_integrations",
+    "aria": ""
+  },
+  {
+    "i": 28,
+    "tag": "A",
+    "role": "",
+    "text": "卸売",
+    "href": "/admin/b2b",
+    "aria": ""
+  },
+  {
+    "i": 29,
+    "tag": "A",
+    "role": "",
+    "text": "設定",
+    "href": "/admin/settings",
+    "aria": ""
+  },
+  {
+    "i": 30,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "メニューを閉じる",
+    "href": "",
+    "aria": "メニューを閉じる"
+  },
+  {
+    "i": 31,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "物流倉庫",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 32,
+    "tag": "A",
+    "role": "",
+    "text": "",
+    "href": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+    "aria": ""
+  },
+  {
+    "i": 33,
+    "tag": "A",
+    "role": "",
+    "text": "",
+    "href": "/admin/csv_export/csv_export_operation_inventory_logical_quantities",
+    "aria": ""
+  },
+  {
+    "i": 35,
+    "tag": "A",
+    "role": "",
+    "text": "インポート",
+    "href": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+    "aria": ""
+  },
+  {
+    "i": 36,
+    "tag": "A",
+    "role": "",
+    "text": "エクスポート",
+    "href": "/admin/csv_export/csv_export_operation_inventory_logical_quantities",
+    "aria": ""
+  },
+  {
+    "i": 38,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "その他のビュー",
+    "href": "",
+    "aria": "その他のビュー"
+  },
+  {
+    "i": 39,
+    "tag": "BUTTON",
+    "role": "tab",
+    "text": "すべて",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 40,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "その他のビュー",
+    "href": "",
+    "aria": "その他のビュー"
+  },
+  {
+    "i": 41,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "検索と絞り込みの結果",
+    "href": "",
+    "aria": "検索と絞り込みの結果"
+  },
+  {
+    "i": 42,
+    "tag": "TR",
+    "role": "",
+    "text": "すべてのアイテムを選択する 商品 品番(SKU) 販売不可 確定済み 販売可能 手持ち",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 43,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する バギーカーブジーンズ BLUE / 36 487973-64-36 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 44,
+    "tag": "A",
+    "role": "",
+    "text": "バギーカーブジーンズ",
+    "href": "/admin/inventory_items/c7892d64-e675-50ec-8ec2-e750ea6fce52_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 45,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ GREEN / XL 486102-52-XL 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 46,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンクルーネックTシャツ",
+    "href": "/admin/inventory_items/f2b97c88-e54d-50d7-9919-10bdfac969ea_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 47,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / XL 486125-09-XL 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 48,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 49,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ WHITE / L 486102-00-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 50,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンクルーネックTシャツ",
+    "href": "/admin/inventory_items/ceb63b23-19b5-5bbc-9f93-9e998ea95142_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 51,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンT LIGHT GRAY / L 483457-02-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 52,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンT",
+    "href": "/admin/inventory_items/57460846-d07d-5c4e-a454-67e178e9327d_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 53,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / L 486125-09-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 54,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/e0df9c62-6416-5c68-852f-90ab68c620ad_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 55,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンT WHITE / S 483457-00-S 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 56,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンT",
+    "href": "/admin/inventory_items/1e0c197e-ce34-577e-92f5-51134128a5b7_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 57,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する ポケモン UT RED / 100(3-4歳) 483674-15-100 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 58,
+    "tag": "A",
+    "role": "",
+    "text": "ポケモン UT",
+    "href": "/admin/inventory_items/3b3c0eff-aff1-5cf0-a974-fc8cbe4ffdae_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 59,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンT WHITE / XL 483457-00-XL 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 60,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンT",
+    "href": "/admin/inventory_items/90b14b51-c176-508b-81cf-1093f73a2d11_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 61,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / L 486125-03-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 62,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/9644d67a-3493-53ae-a224-854af205281c_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 63,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ GREEN / XS 486102-52-XS 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 64,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンクルーネックTシャツ",
+    "href": "/admin/inventory_items/59a5494e-9c3a-5304-a9e0-ccf6af94586e_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 65,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / L 486125-69-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 66,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/afe19e4f-91fa-5da0-8401-f2f4ec420e08_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 67,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンT BLACK / S 483457-09-S 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 68,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンT",
+    "href": "/admin/inventory_items/e604d8cc-0f88-515f-94c8-c83237ab514a_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 69,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する バギーカーブジーンズ BLUE / 28 487973-64-28 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 70,
+    "tag": "A",
+    "role": "",
+    "text": "バギーカーブジーンズ",
+    "href": "/admin/inventory_items/b3f2a1cd-3dcd-5059-bd37-818c627b7abf_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 71,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / XS 486125-03-XS 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 72,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/331caf7a-c23b-5b8d-b73b-612923982dc9_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 73,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / L 486102-08-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 74,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンクルーネックTシャツ",
+    "href": "/admin/inventory_items/d0c54cea-249b-5044-a3bc-7cd4ac9ce3ca_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 75,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XL 486125-69-XL 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 76,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/7413b5c8-9610-566c-a5e1-c9b83c4029d9_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 77,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ BLACK / L 486102-09-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 78,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンクルーネックTシャツ",
+    "href": "/admin/inventory_items/1d42cf97-e359-501e-8437-d026e4b8a8a2_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 79,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ LIGHT PURPLE / L 486102-70-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 80,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンクルーネックTシャツ",
+    "href": "/admin/inventory_items/3f92d812-7653-5e4c-914b-22760b242ea0_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 81,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンT PINK / L 483457-10-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 82,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンT",
+    "href": "/admin/inventory_items/d9234d19-b915-5862-8b7f-711d2eef5c27_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 83,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する バギーカーブジーンズ BLUE / 24 487973-64-24 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 84,
+    "tag": "A",
+    "role": "",
+    "text": "バギーカーブジーンズ",
+    "href": "/admin/inventory_items/541ab465-4600-56f8-bf9b-5cbddfad5ddc_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 85,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XS 486125-69-XS 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 86,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/30c6cfb5-1cf8-58b4-8f23-0ab604f7dbb9_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 87,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する ポケモン UT RED / 110(4-5歳) 483674-15-110 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 88,
+    "tag": "A",
+    "role": "",
+    "text": "ポケモン UT",
+    "href": "/admin/inventory_items/4fb48a0e-21f3-59be-8009-4c52dac1ecc3_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 89,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / XS 486102-08-XS 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 90,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンクルーネックTシャツ",
+    "href": "/admin/inventory_items/bb2c81ba-0e76-537e-97a3-81d4a21ec333_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 91,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する バギーカーブジーンズ BLUE / 25 487973-64-25 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 92,
+    "tag": "A",
+    "role": "",
+    "text": "バギーカーブジーンズ",
+    "href": "/admin/inventory_items/75b92a6e-6959-534c-b4e4-63862fe08199_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 93,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ WHITE / S 486102-00-S 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 94,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンクルーネックTシャツ",
+    "href": "/admin/inventory_items/e08e9bdb-ac55-52c8-8b56-10360cc25e3f_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 95,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する エアリズムコットンT LIGHT GRAY / XS 483457-02-XS 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 96,
+    "tag": "A",
+    "role": "",
+    "text": "エアリズムコットンT",
+    "href": "/admin/inventory_items/5ec1daeb-38be-564a-b766-a39e847779da_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 97,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / S 486125-31-S 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 98,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/766417a9-2398-5021-9182-a622d54b30bb_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 99,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する バギーカーブジーンズ BLUE / 29 487973-64-29 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 100,
+    "tag": "A",
+    "role": "",
+    "text": "バギーカーブジーンズ",
+    "href": "/admin/inventory_items/5748953b-cc3a-5b78-8b9a-3f9156dd1747_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 101,
+    "tag": "TR",
+    "role": "",
+    "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / L 486125-31-L 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 102,
+    "tag": "A",
+    "role": "",
+    "text": "オーバーサイズスウェットシャツ",
+    "href": "/admin/inventory_items/7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem?location_id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "aria": ""
+  },
+  {
+    "i": 103,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "前へ",
+    "href": "",
+    "aria": "前へ"
+  },
+  {
+    "i": 104,
+    "tag": "BUTTON",
+    "role": "",
+    "text": "次へ",
+    "href": "",
+    "aria": "次へ"
+  }
+]

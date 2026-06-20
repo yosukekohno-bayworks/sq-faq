@@ -1,0 +1,65 @@
+{
+  "rows": [
+    "アイテムを選択する 物流倉庫 W0001",
+    "アイテムを選択する ユニクロ - 銀座店 R0001",
+    "アイテムを選択する TEST_FAQ_DEEP2_202606080343_ロケーション test_faq_deep2_202606080343_loc",
+    "アイテムを選択する TEST_FAQ_店舗在庫EC販売用 TESTEC01"
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n調整伝票を作成する。このページの準備が整いました\n\n調整伝票を作成する\nロケーション\nロケーション\n選択\n理由\n選択してください\n廃棄\n見本\n紛失\n棚卸差異\nその他\n選択してください\n商品\n参照\n保存する\nロケーションを選択する\nすべて\n店舗\n倉庫\nすべてのアイテムを選択する\n\t\n名前\n\t\n場所コード\n\n\nアイテムを選択する\n\t\n\n物流倉庫\n\n\t\n\nW0001\n\n\n\nアイテムを選択する\n\t\n\nユニクロ - 銀座店\n\n\t\n\nR0001\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP2_202606080343_ロケーション\n\n\t\n\ntest_faq_deep2_202606080343_loc\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_店舗在庫EC販売用\n\n\t\n\nTESTEC01\n\nキャンセル\n選択する",
+  "inputs": [
+    {
+      "n": 0,
+      "placeholder": "ロケーションを選択してください",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "n": 1,
+      "placeholder": "商品を検索する",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "n": 2,
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "n": 3,
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "n": 4,
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "n": 5,
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "n": 6,
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "n": 7,
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "n": 8,
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dialogs": [
+    {
+      "text": "担当者を削除する\n\n選択されている1件の担当者を削除しますか？この処理は巻き戻すことができません\n\nキャンセル\n削除する",
+      "buttons": [
+        {
+          "text": "閉じる",
+          "disabled": false
+        },
+        {
+          "text": "キャンセル",
+          "disabled": false
+        },
+        {
+          "text": "削除する",
+          "disabled": false
+        }
+      ]
+    }
+  ]
+}

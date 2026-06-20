@@ -1,0 +1,137 @@
+- table [ref=e307]:
+  - rowgroup [ref=e308]:
+    - row "すべてのアイテムを選択する 商品 商品コード" [ref=e309]:
+      - columnheader "すべてのアイテムを選択する" [ref=e310]:
+        - generic [ref=e312] [cursor=pointer]:
+          - generic [ref=e314]:
+            - checkbox "すべてのアイテムを選択する" [ref=e315]
+            - generic
+          - generic [ref=e317]: すべてのアイテムを選択する
+      - columnheader "商品" [ref=e318]:
+        - generic [ref=e319]: 商品
+      - columnheader "商品コード" [ref=e320]:
+        - generic [ref=e321]: 商品コード
+  - rowgroup [ref=e322]:
+    - row "アイテムを選択する product thumbnail バギーカーブジーンズ 487973" [ref=e323] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e324]:
+        - generic [ref=e326]:
+          - generic [ref=e328]:
+            - checkbox "アイテムを選択する" [ref=e329]
+            - generic
+          - generic [ref=e331]: アイテムを選択する
+      - cell "product thumbnail バギーカーブジーンズ" [ref=e332]:
+        - generic [ref=e333]:
+          - img "product thumbnail" [ref=e335]
+          - paragraph [ref=e336]: バギーカーブジーンズ
+      - cell "487973" [ref=e337]:
+        - generic [ref=e338]: "487973"
+    - row "アイテムを選択する product thumbnail UVカットペーパーブレイドハット 482787" [ref=e339] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e340]:
+        - generic [ref=e342]:
+          - generic [ref=e344]:
+            - checkbox "アイテムを選択する" [ref=e345]
+            - generic
+          - generic [ref=e347]: アイテムを選択する
+      - cell "product thumbnail UVカットペーパーブレイドハット" [ref=e348]:
+        - generic [ref=e349]:
+          - img "product thumbnail" [ref=e351]
+          - paragraph [ref=e352]: UVカットペーパーブレイドハット
+      - cell "482787" [ref=e353]:
+        - generic [ref=e354]: "482787"
+    - row "アイテムを選択する product thumbnail エアリズムコットンT 483457" [ref=e355] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e356]:
+        - generic [ref=e358]:
+          - generic [ref=e360]:
+            - checkbox "アイテムを選択する" [ref=e361]
+            - generic
+          - generic [ref=e363]: アイテムを選択する
+      - cell "product thumbnail エアリズムコットンT" [ref=e364]:
+        - generic [ref=e365]:
+          - img "product thumbnail" [ref=e367]
+          - paragraph [ref=e368]: エアリズムコットンT
+      - cell "483457" [ref=e369]:
+        - generic [ref=e370]: "483457"
+    - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ 486102" [ref=e371] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e372]:
+        - generic [ref=e374]:
+          - generic [ref=e376]:
+            - checkbox "アイテムを選択する" [ref=e377]
+            - generic
+          - generic [ref=e379]: アイテムを選択する
+      - cell "product thumbnail エアリズムコットンクルーネックTシャツ" [ref=e380]:
+        - generic [ref=e381]:
+          - img "product thumbnail" [ref=e383]
+          - paragraph [ref=e384]: エアリズムコットンクルーネックTシャツ
+      - cell "486102" [ref=e385]:
+        - generic [ref=e386]: "486102"
+    - row "アイテムを選択する product thumbnail ポケモン UT 483674" [ref=e387] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e388]:
+        - generic [ref=e390]:
+          - generic [ref=e392]:
+            - checkbox "アイテムを選択する" [ref=e393]
+            - generic
+          - generic [ref=e395]: アイテムを選択する
+      - cell "product thumbnail ポケモン UT" [ref=e396]:
+        - generic [ref=e397]:
+          - img "product thumbnail" [ref=e399]
+          - paragraph [ref=e400]: ポケモン UT
+      - cell "483674" [ref=e401]:
+        - generic [ref=e402]: "483674"
+    - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ 486125" [ref=e403] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e404]:
+        - generic [ref=e406]:
+          - generic [ref=e408]:
+            - checkbox "アイテムを選択する" [ref=e409]
+            - generic
+          - generic [ref=e411]: アイテムを選択する
+      - cell "product thumbnail オーバーサイズスウェットシャツ" [ref=e412]:
+        - generic [ref=e413]:
+          - img "product thumbnail" [ref=e415]
+          - paragraph [ref=e416]: オーバーサイズスウェットシャツ
+      - cell "486125" [ref=e417]:
+        - generic [ref=e418]: "486125"
+    - row "アイテムを選択する product thumbnail TEST_FAQ_非公開ステータス確認用 TEST-FAQ-HIDDEN-001" [ref=e419] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e420]:
+        - generic [ref=e422]:
+          - generic [ref=e424]:
+            - checkbox "アイテムを選択する" [ref=e425]
+            - generic
+          - generic [ref=e427]: アイテムを選択する
+      - cell "product thumbnail TEST_FAQ_非公開ステータス確認用" [ref=e428]:
+        - generic [ref=e429]:
+          - generic [ref=e431]:
+            - generic [ref=e432]: product thumbnail
+            - img [ref=e433]
+          - paragraph [ref=e436]: TEST_FAQ_非公開ステータス確認用
+      - cell "TEST-FAQ-HIDDEN-001" [ref=e437]:
+        - generic [ref=e438]: TEST-FAQ-HIDDEN-001
+    - row "アイテムを選択する product thumbnail TEST_FAQ_DEEP2_202606080343_商品 test_faq_deep2_202606080343_product" [ref=e439] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e440]:
+        - generic [ref=e442]:
+          - generic [ref=e444]:
+            - checkbox "アイテムを選択する" [ref=e445]
+            - generic
+          - generic [ref=e447]: アイテムを選択する
+      - cell "product thumbnail TEST_FAQ_DEEP2_202606080343_商品" [ref=e448]:
+        - generic [ref=e449]:
+          - generic [ref=e451]:
+            - generic [ref=e452]: product thumbnail
+            - img [ref=e453]
+          - paragraph [ref=e456]: TEST_FAQ_DEEP2_202606080343_商品
+      - cell "test_faq_deep2_202606080343_product" [ref=e457]:
+        - generic [ref=e458]: test_faq_deep2_202606080343_product
+    - row "アイテムを選択する product thumbnail TEST_FAQ_CSV_RECHECK_20260608_商品 TEST_FAQ_CSV_RECHECK_20260608_01" [ref=e459] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e460]:
+        - generic [ref=e462]:
+          - generic [ref=e464]:
+            - checkbox "アイテムを選択する" [ref=e465]
+            - generic
+          - generic [ref=e467]: アイテムを選択する
+      - cell "product thumbnail TEST_FAQ_CSV_RECHECK_20260608_商品" [ref=e468]:
+        - generic [ref=e469]:
+          - generic [ref=e471]:
+            - generic [ref=e472]: product thumbnail
+            - img [ref=e473]
+          - paragraph [ref=e476]: TEST_FAQ_CSV_RECHECK_20260608_商品
+      - cell "TEST_FAQ_CSV_RECHECK_20260608_01" [ref=e477]:
+        - generic [ref=e478]: TEST_FAQ_CSV_RECHECK_20260608_01

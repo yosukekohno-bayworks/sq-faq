@@ -1,0 +1,3557 @@
+{
+  "generatedAt": "2026-06-08T08:52:43.159Z",
+  "records": [
+    {
+      "name": "products-before-user-menu",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "h1": [],
+      "buttons": [],
+      "links": [],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": true,
+        "empty": false,
+        "todo": false,
+        "readyMessage": false
+      },
+      "importantLines": [],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/01-products-before-user-menu.png"
+    },
+    {
+      "name": "products-after-user-menu",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "h1": [],
+      "buttons": [],
+      "links": [],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": true,
+        "empty": false,
+        "todo": false,
+        "readyMessage": false
+      },
+      "importantLines": [],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/02-products-after-user-menu.png",
+      "interaction": {
+        "userMenuClicked": ""
+      }
+    },
+    {
+      "name": "orders-list-actions",
+      "url": "https://www.sqstackstaging.com/admin/orders",
+      "h1": [
+        "注文管理"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/orders#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "https://www.sqstackstaging.com/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "https://www.sqstackstaging.com/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "注文管理。このページの準備が整いました",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/03-orders-list-actions.png"
+    },
+    {
+      "name": "draft-orders-list-actions",
+      "url": "https://www.sqstackstaging.com/admin/draft_orders",
+      "h1": [
+        "下書き"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/draft_orders#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "https://www.sqstackstaging.com/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "https://www.sqstackstaging.com/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "注文を作成する",
+          "href": ""
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "下書き。このページの準備が整いました",
+        "注文を作成する",
+        "注文が見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/04-draft-orders-list-actions.png"
+    },
+    {
+      "name": "order-returns-list-actions",
+      "url": "https://www.sqstackstaging.com/admin/order_returns",
+      "h1": [
+        "返品"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/order_returns#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "https://www.sqstackstaging.com/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "https://www.sqstackstaging.com/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "返品。このページの準備が整いました",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/05-order-returns-list-actions.png"
+    },
+    {
+      "name": "sale-change-list-actions",
+      "url": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "h1": [
+        "売上実績"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "売上実績",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "売上実績を作成する",
+          "href": ""
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "売上実績",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "売上実績。このページの準備が整いました",
+        "売上実績を作成する",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/06-sale-change-list-actions.png"
+    },
+    {
+      "name": "purchasing-customers-list-actions",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "h1": [
+        "顧客管理"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "インポート",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "会社",
+          "href": "https://www.sqstackstaging.com/admin/companies"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "会社",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "顧客管理。このページの準備が整いました",
+        "インポート",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/07-purchasing-customers-list-actions.png"
+    },
+    {
+      "name": "purchasing-customers-create-route",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers/create",
+      "h1": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "再実行"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "会社",
+          "href": "https://www.sqstackstaging.com/admin/companies"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": true,
+        "empty": false,
+        "todo": false,
+        "readyMessage": false
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "会社",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "予期せぬエラーが発生しました"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/08-purchasing-customers-create-route.png"
+    },
+    {
+      "name": "b2b-page",
+      "url": "https://www.sqstackstaging.com/admin/b2b",
+      "h1": [
+        "卸売"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/b2b#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": true,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "卸売。このページの準備が整いました",
+        "TODO"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/09-b2b-page.png"
+    },
+    {
+      "name": "b2b-create-route",
+      "url": "https://www.sqstackstaging.com/admin/b2b/create",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "buttons": [],
+      "links": [
+        {
+          "text": "ホームに戻る",
+          "href": "https://www.sqstackstaging.com/admin"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": true,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": false
+      },
+      "importantLines": [
+        "このページは存在しないようです"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/10-b2b-create-route.png"
+    },
+    {
+      "name": "analytics-page",
+      "url": "https://www.sqstackstaging.com/admin/analytics",
+      "h1": [
+        "分析"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/analytics#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "収益",
+          "href": "https://www.sqstackstaging.com/admin/analytics/revenue"
+        },
+        {
+          "text": "レポート",
+          "href": "https://www.sqstackstaging.com/admin/analytics/reports"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": true,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "分析。このページの準備が整いました",
+        "TODO"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/11-analytics-page.png"
+    },
+    {
+      "name": "sale-limit-create-initial",
+      "url": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create",
+      "h1": [
+        "販売上限ルールを作成する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "販売価格",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "予約販売",
+          "href": "https://www.sqstackstaging.com/admin/inventory_back_order_rules"
+        },
+        {
+          "text": "販売上限",
+          "href": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules"
+        },
+        {
+          "text": "販売閾値",
+          "href": "https://www.sqstackstaging.com/admin/inventory_threshold_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules"
+        }
+      ],
+      "labels": [
+        "販売上限ルール名"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "販売上限ルール名",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 1,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "販売上限",
+        "販売閾値",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "販売上限ルールを作成する。このページの準備が整いました",
+        "販売上限ルールを作成する",
+        "販売上限ルール名",
+        "チャネル",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/12-sale-limit-create-initial.png"
+    },
+    {
+      "name": "point-campaign-create-initial",
+      "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+      "h1": [
+        "ポイントキャンペーンを作成する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "キャンペーン",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules"
+        },
+        {
+          "text": "誕生日",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules"
+        },
+        {
+          "text": "利用外商品",
+          "href": "https://www.sqstackstaging.com/admin/point_application_excluded_products"
+        },
+        {
+          "text": "失効通知",
+          "href": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules"
+        }
+      ],
+      "labels": [
+        "タイトル",
+        "開始日時",
+        "終了日時",
+        "ポイントキャンペーン種別"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "タイトル",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "datetime-local",
+          "label": "開始日時",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "datetime-local",
+          "label": "終了日時",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "ポイントキャンペーン種別",
+          "name": "",
+          "context": "選択してくださいなし会員ランク購入金額商品選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "なし",
+              "selected": false
+            },
+            {
+              "text": "会員ランク",
+              "selected": false
+            },
+            {
+              "text": "購入金額",
+              "selected": false
+            },
+            {
+              "text": "商品",
+              "selected": false
+            }
+          ]
+        }
+      ],
+      "controlSummary": {
+        "total": 4,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": [
+          {
+            "label": "ポイントキャンペーン種別",
+            "options": [
+              "*選択してください",
+              "なし",
+              "会員ランク",
+              "購入金額",
+              "商品"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "ポイントキャンペーンを作成する。このページの準備が整いました",
+        "ポイントキャンペーンを作成する",
+        "ポイントキャンペーン種別",
+        "選択してください",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/13-point-campaign-create-initial.png"
+    },
+    {
+      "name": "point-campaign-create-after-type-none",
+      "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+      "h1": [
+        "ポイントキャンペーンを作成する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "キャンペーン",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules"
+        },
+        {
+          "text": "誕生日",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules"
+        },
+        {
+          "text": "利用外商品",
+          "href": "https://www.sqstackstaging.com/admin/point_application_excluded_products"
+        },
+        {
+          "text": "失効通知",
+          "href": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules"
+        }
+      ],
+      "labels": [
+        "タイトル",
+        "開始日時",
+        "終了日時",
+        "ポイントキャンペーン種別",
+        "ポイント付与方法",
+        "ポイント",
+        "対象の注文ポイント付与ルール",
+        "対象店舗"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "タイトル",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "datetime-local",
+          "label": "開始日時",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "datetime-local",
+          "label": "終了日時",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "ポイントキャンペーン種別",
+          "name": "",
+          "context": "選択してくださいなし会員ランク購入金額商品なし",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": false
+            },
+            {
+              "text": "なし",
+              "selected": true
+            },
+            {
+              "text": "会員ランク",
+              "selected": false
+            },
+            {
+              "text": "購入金額",
+              "selected": false
+            },
+            {
+              "text": "商品",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "ポイント付与方法",
+          "name": "",
+          "context": "通常倍率に指定の倍率を加えた合計倍率でポイントを付与する通常付与ポイントに加えて指定のポイントを追加で付与する通常倍率に指定の倍率を加えた合計倍率でポイントを付与する",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "通常倍率に指定の倍率を加えた合計倍率でポイントを付与する",
+              "selected": true
+            },
+            {
+              "text": "通常付与ポイントに加えて指定のポイントを追加で付与する",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "label": "ポイント",
+          "name": "",
+          "context": "通常獲得ポイントに加えて倍分のポイントを追加で付与する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "対象の注文ポイント付与ルール",
+          "name": "",
+          "context": "選択してくださいTEST_FAQ_注文ポイント付与ルール選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_注文ポイント付与ルール",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "対象店舗",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 8,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": [
+          {
+            "label": "ポイントキャンペーン種別",
+            "options": [
+              "選択してください",
+              "*なし",
+              "会員ランク",
+              "購入金額",
+              "商品"
+            ]
+          },
+          {
+            "label": "ポイント付与方法",
+            "options": [
+              "*通常倍率に指定の倍率を加えた合計倍率でポイントを付与する",
+              "通常付与ポイントに加えて指定のポイントを追加で付与する"
+            ]
+          },
+          {
+            "label": "対象の注文ポイント付与ルール",
+            "options": [
+              "*選択してください",
+              "TEST_FAQ_注文ポイント付与ルール"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "ポイントキャンペーンを作成する。このページの準備が整いました",
+        "ポイントキャンペーンを作成する",
+        "ポイントキャンペーン種別",
+        "選択してください",
+        "通常付与ポイントに加えて指定のポイントを追加で付与する",
+        "倍分のポイントを追加で付与する",
+        "ポイントキャンペーン倍率は「通常ポイントに加えた合計倍率」として適用されます。",
+        "例）ポイントキャンペーン倍率に「3」と入力すると、通常倍率が2倍の会員ランクなら、通常2倍 + ポイントキャンペーン3倍 = 合計5倍 となります。",
+        "注文ポイント付与ルール",
+        "ここで選択された注文ポイント付与ルールが適用される注文がこのポイントキャンペーンの対象となります。",
+        "対象の注文ポイント付与ルール",
+        "TEST_FAQ_注文ポイント付与ルール",
+        "ポイントキャンペーンは以下の条件に該当する注文にのみ適用されます。未入力の場合は適用されません。",
+        "チャネル",
+        "選択",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/14-point-campaign-create-after-type-none.png",
+      "interaction": {
+        "selectedNone": true
+      }
+    },
+    {
+      "name": "point-campaign-create-after-type-product",
+      "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+      "h1": [
+        "ポイントキャンペーンを作成する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "キャンペーン",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules"
+        },
+        {
+          "text": "誕生日",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules"
+        },
+        {
+          "text": "利用外商品",
+          "href": "https://www.sqstackstaging.com/admin/point_application_excluded_products"
+        },
+        {
+          "text": "失効通知",
+          "href": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules"
+        }
+      ],
+      "labels": [
+        "タイトル",
+        "開始日時",
+        "終了日時",
+        "ポイントキャンペーン種別",
+        "ポイント付与方法",
+        "対象の注文ポイント付与ルール",
+        "対象店舗"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "タイトル",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "datetime-local",
+          "label": "開始日時",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "datetime-local",
+          "label": "終了日時",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "ポイントキャンペーン種別",
+          "name": "",
+          "context": "選択してくださいなし会員ランク購入金額商品商品",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": false
+            },
+            {
+              "text": "なし",
+              "selected": false
+            },
+            {
+              "text": "会員ランク",
+              "selected": false
+            },
+            {
+              "text": "購入金額",
+              "selected": false
+            },
+            {
+              "text": "商品",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "ポイント付与方法",
+          "name": "",
+          "context": "通常倍率に指定の倍率を加えた合計倍率でポイントを付与する通常付与ポイントに加えて指定のポイントを追加で付与する通常倍率に指定の倍率を加えた合計倍率でポイントを付与する",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "通常倍率に指定の倍率を加えた合計倍率でポイントを付与する",
+              "selected": true
+            },
+            {
+              "text": "通常付与ポイントに加えて指定のポイントを追加で付与する",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "対象の注文ポイント付与ルール",
+          "name": "",
+          "context": "選択してくださいTEST_FAQ_注文ポイント付与ルール選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_注文ポイント付与ルール",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "対象店舗",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 7,
+        "disabled": [],
+        "checkboxes": [],
+        "radios": [],
+        "selects": [
+          {
+            "label": "ポイントキャンペーン種別",
+            "options": [
+              "選択してください",
+              "なし",
+              "会員ランク",
+              "購入金額",
+              "*商品"
+            ]
+          },
+          {
+            "label": "ポイント付与方法",
+            "options": [
+              "*通常倍率に指定の倍率を加えた合計倍率でポイントを付与する",
+              "通常付与ポイントに加えて指定のポイントを追加で付与する"
+            ]
+          },
+          {
+            "label": "対象の注文ポイント付与ルール",
+            "options": [
+              "*選択してください",
+              "TEST_FAQ_注文ポイント付与ルール"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "ポイントキャンペーンを作成する。このページの準備が整いました",
+        "ポイントキャンペーンを作成する",
+        "ポイントキャンペーン種別",
+        "選択してください",
+        "通常付与ポイントに加えて指定のポイントを追加で付与する",
+        "注文ポイント付与ルール",
+        "ここで選択された注文ポイント付与ルールが適用される注文がこのポイントキャンペーンの対象となります。",
+        "対象の注文ポイント付与ルール",
+        "TEST_FAQ_注文ポイント付与ルール",
+        "ポイントキャンペーンは以下の条件に該当する注文にのみ適用されます。未入力の場合は適用されません。",
+        "チャネル",
+        "選択",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/15-point-campaign-create-after-type-product.png",
+      "interaction": {
+        "selectedProduct": true
+      }
+    },
+    {
+      "name": "retail-portal-create-initial",
+      "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "h1": [
+        "リテールポータル"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "店舗受取",
+          "href": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        }
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "店舗ロケーション",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "在庫ロケーション",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "テナント",
+          "name": "",
+          "context": "選択してくださいユニクロ選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "ユニクロ",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "カタログ",
+          "name": "",
+          "context": "選択してくださいTEST_FAQ_カタログ001TEST_FAQ_DEEP_202606080340_カタログ選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_カタログ001",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_カタログ",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "販売閾値ルール",
+          "name": "",
+          "context": "選択してくださいTEST_FAQ_販売閾値ルールTEST_FAQ_販売閾値ルール_遷移確認_20260607TEST_FAQ_DEEP_202606080340_販売閾値ルール選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_販売閾値ルール",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "リテールポータルで販売員の選択を必須にする",
+          "name": "",
+          "context": "リテールポータルで販売員の選択を必須にする",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "配送先住所の編集を許可する",
+          "name": "",
+          "context": "配送先住所の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の送料明細の編集を許可する",
+          "name": "",
+          "context": "下書き注文の送料明細の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の注文明細の価格の編集を許可する",
+          "name": "",
+          "context": "下書き注文の注文明細の価格の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の完了を許可する",
+          "name": "",
+          "context": "下書き注文の完了を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 10,
+        "disabled": [],
+        "checkboxes": [
+          {
+            "label": "リテールポータルで販売員の選択を必須にする",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "配送先住所の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の送料明細の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の注文明細の価格の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の完了を許可する",
+            "checked": false,
+            "disabled": false
+          }
+        ],
+        "radios": [],
+        "selects": [
+          {
+            "label": "テナント",
+            "options": [
+              "*選択してください",
+              "ユニクロ"
+            ]
+          },
+          {
+            "label": "カタログ",
+            "options": [
+              "*選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "販売閾値ルール",
+            "options": [
+              "*選択してください",
+              "TEST_FAQ_販売閾値ルール",
+              "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+              "TEST_FAQ_DEEP_202606080340_販売閾値ルール"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "リテールポータル。このページの準備が整いました",
+        "店舗ロケーション",
+        "選択",
+        "在庫ロケーション",
+        "選択してください",
+        "販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+        "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/16-retail-portal-create-initial.png"
+    },
+    {
+      "name": "retail-portal-store-location-modal",
+      "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "h1": [
+        "リテールポータル"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する",
+        "キャンセル",
+        "選択する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "店舗受取",
+          "href": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        }
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "場所コードで検索する",
+        "すべてのアイテムを選択する",
+        "アイテムを選択する"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "店舗ロケーション",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "在庫ロケーション",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "テナント",
+          "name": "",
+          "context": "選択してくださいユニクロ選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "ユニクロ",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "カタログ",
+          "name": "",
+          "context": "選択してくださいTEST_FAQ_カタログ001TEST_FAQ_DEEP_202606080340_カタログ選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_カタログ001",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_カタログ",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "販売閾値ルール",
+          "name": "",
+          "context": "選択してくださいTEST_FAQ_販売閾値ルールTEST_FAQ_販売閾値ルール_遷移確認_20260607TEST_FAQ_DEEP_202606080340_販売閾値ルール選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_販売閾値ルール",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "リテールポータルで販売員の選択を必須にする",
+          "name": "",
+          "context": "リテールポータルで販売員の選択を必須にする",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "配送先住所の編集を許可する",
+          "name": "",
+          "context": "配送先住所の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の送料明細の編集を許可する",
+          "name": "",
+          "context": "下書き注文の送料明細の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の注文明細の価格の編集を許可する",
+          "name": "",
+          "context": "下書き注文の注文明細の価格の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の完了を許可する",
+          "name": "",
+          "context": "下書き注文の完了を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "場所コードで検索する",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "すべてのアイテムを選択する",
+          "name": "",
+          "context": "すべてのアイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "すべての2のアイテムを選択する",
+          "name": "",
+          "context": "すべての2のアイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "すべてのアイテムを選択する",
+          "name": "",
+          "context": "すべてのアイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "アイテムを選択する",
+          "name": "",
+          "context": "アイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "アイテムを選択する",
+          "name": "",
+          "context": "アイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 16,
+        "disabled": [],
+        "checkboxes": [
+          {
+            "label": "リテールポータルで販売員の選択を必須にする",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "配送先住所の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の送料明細の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の注文明細の価格の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の完了を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "すべてのアイテムを選択する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "すべての2のアイテムを選択する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "すべてのアイテムを選択する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "アイテムを選択する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "アイテムを選択する",
+            "checked": false,
+            "disabled": false
+          }
+        ],
+        "radios": [],
+        "selects": [
+          {
+            "label": "テナント",
+            "options": [
+              "*選択してください",
+              "ユニクロ"
+            ]
+          },
+          {
+            "label": "カタログ",
+            "options": [
+              "*選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "販売閾値ルール",
+            "options": [
+              "*選択してください",
+              "TEST_FAQ_販売閾値ルール",
+              "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+              "TEST_FAQ_DEEP_202606080340_販売閾値ルール"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "リテールポータル。このページの準備が整いました",
+        "店舗ロケーション",
+        "選択",
+        "在庫ロケーション",
+        "選択してください",
+        "販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+        "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "保存する",
+        "ロケーションを選択する",
+        "場所コードで検索する",
+        "すべてのアイテムを選択する",
+        "場所コード",
+        "アイテムを選択する",
+        "選択する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/17-retail-portal-store-location-modal.png",
+      "interaction": {
+        "storeModalOpened": true
+      }
+    },
+    {
+      "name": "retail-portal-inventory-location-modal",
+      "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "h1": [
+        "リテールポータル"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する",
+        "キャンセル",
+        "選択する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "店舗受取",
+          "href": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        }
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "場所コードで検索する",
+        "すべてのアイテムを選択する",
+        "アイテムを選択する"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "店舗ロケーション",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "在庫ロケーション",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "テナント",
+          "name": "",
+          "context": "選択してくださいユニクロ選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "ユニクロ",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "カタログ",
+          "name": "",
+          "context": "選択してくださいTEST_FAQ_カタログ001TEST_FAQ_DEEP_202606080340_カタログ選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_カタログ001",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_カタログ",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "販売閾値ルール",
+          "name": "",
+          "context": "選択してくださいTEST_FAQ_販売閾値ルールTEST_FAQ_販売閾値ルール_遷移確認_20260607TEST_FAQ_DEEP_202606080340_販売閾値ルール選択してください",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_販売閾値ルール",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "リテールポータルで販売員の選択を必須にする",
+          "name": "",
+          "context": "リテールポータルで販売員の選択を必須にする",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "配送先住所の編集を許可する",
+          "name": "",
+          "context": "配送先住所の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の送料明細の編集を許可する",
+          "name": "",
+          "context": "下書き注文の送料明細の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の注文明細の価格の編集を許可する",
+          "name": "",
+          "context": "下書き注文の注文明細の価格の編集を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の完了を許可する",
+          "name": "",
+          "context": "下書き注文の完了を許可する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "場所コードで検索する",
+          "name": "",
+          "context": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "すべてのアイテムを選択する",
+          "name": "",
+          "context": "すべてのアイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "アイテムを選択する",
+          "name": "",
+          "context": "アイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "すべてのアイテムを選択する",
+          "name": "",
+          "context": "すべてのアイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "アイテムを選択する",
+          "name": "",
+          "context": "アイテムを選択する",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 15,
+        "disabled": [],
+        "checkboxes": [
+          {
+            "label": "リテールポータルで販売員の選択を必須にする",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "配送先住所の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の送料明細の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の注文明細の価格の編集を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "下書き注文の完了を許可する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "すべてのアイテムを選択する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "アイテムを選択する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "すべてのアイテムを選択する",
+            "checked": false,
+            "disabled": false
+          },
+          {
+            "label": "アイテムを選択する",
+            "checked": false,
+            "disabled": false
+          }
+        ],
+        "radios": [],
+        "selects": [
+          {
+            "label": "テナント",
+            "options": [
+              "*選択してください",
+              "ユニクロ"
+            ]
+          },
+          {
+            "label": "カタログ",
+            "options": [
+              "*選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "販売閾値ルール",
+            "options": [
+              "*選択してください",
+              "TEST_FAQ_販売閾値ルール",
+              "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+              "TEST_FAQ_DEEP_202606080340_販売閾値ルール"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "todo": false,
+        "readyMessage": true
+      },
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "分析",
+        "販売チャネル",
+        "リテールポータル",
+        "卸売",
+        "リテールポータル。このページの準備が整いました",
+        "店舗ロケーション",
+        "選択",
+        "在庫ロケーション",
+        "選択してください",
+        "販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+        "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "保存する",
+        "ロケーションを選択する",
+        "場所コードで検索する",
+        "すべてのアイテムを選択する",
+        "場所コード",
+        "アイテムを選択する",
+        "選択する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-interactive-readonly-screenshots/18-retail-portal-inventory-location-modal.png",
+      "interaction": {
+        "inventoryModalOpened": true
+      }
+    }
+  ]
+}

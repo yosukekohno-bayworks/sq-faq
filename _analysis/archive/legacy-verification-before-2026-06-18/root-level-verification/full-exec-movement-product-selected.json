@@ -1,0 +1,43 @@
+{
+  "rows": [
+    "オーバーサイズスウェットシャツ BLACK / XL 486125-09-XL 数量"
+  ],
+  "inputs": [
+    {
+      "n": 0,
+      "type": "text",
+      "placeholder": "配送元を選択してください",
+      "value": "物流倉庫",
+      "disabled": false
+    },
+    {
+      "n": 1,
+      "type": "text",
+      "placeholder": "配送先を選択してください",
+      "value": "ユニクロ - 銀座店",
+      "disabled": false
+    },
+    {
+      "n": 2,
+      "type": "text",
+      "placeholder": "商品を検索する",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "n": 3,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "n": 4,
+      "type": "number",
+      "placeholder": "",
+      "value": "0",
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない変更\n取り消す\n保存\n\n移動伝票を作成する。このページの準備が整いました\n\n移動伝票を作成する\n配送元\n配送元\n選択\n配送先\n配送先\n選択\n商品を追加\n商品を追加する\n参照\n商品\n\t\nSKU\n\t\n数量\n\t\n\n\n\nオーバーサイズスウェットシャツ\n\nBLACK / XL\n\t\n\n486125-09-XL\n\n\t\n数量\n\t\n保存する"
+}

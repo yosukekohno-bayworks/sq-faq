@@ -1,0 +1,314 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/update",
+  "fields": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "TEST_FAQ_注文ポイント付与ルール",
+      "placeholder": "タイトル",
+      "aria": null,
+      "id": ":r1o:",
+      "checked": false,
+      "disabled": false,
+      "outer": "<input id=\":r1o:\" placeholder=\"タイトル\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r1o:Label\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"TEST_FAQ_注文ポイント付与ルール\">"
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "100",
+      "placeholder": "100",
+      "aria": null,
+      "id": ":r1q:",
+      "checked": false,
+      "disabled": false,
+      "outer": "<input id=\":r1q:\" placeholder=\"100\" autocomplete=\"off\" class=\"Polaris-TextField__Input Polaris-TextField__Input--suffixed\" aria-labelledby=\":r1q:Label :r1q:-Suffix\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"number\" value=\"100\">"
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "1",
+      "placeholder": "1",
+      "aria": null,
+      "id": ":r1r:",
+      "checked": false,
+      "disabled": false,
+      "outer": "<input id=\":r1r:\" placeholder=\"1\" autocomplete=\"off\" class=\"Polaris-TextField__Input Polaris-TextField__Input--suffixed\" aria-labelledby=\":r1r:Label :r1r:-Suffix\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"number\" value=\"1\">"
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "365",
+      "placeholder": "365",
+      "aria": null,
+      "id": ":r1s:",
+      "checked": false,
+      "disabled": false,
+      "outer": "<input id=\":r1s:\" placeholder=\"365\" autocomplete=\"off\" class=\"Polaris-TextField__Input Polaris-TextField__Input--suffixed\" aria-labelledby=\":r1s:Label :r1s:-Suffix\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"number\" value=\"365\">"
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "0",
+      "placeholder": "",
+      "aria": null,
+      "id": ":r1t:",
+      "checked": false,
+      "disabled": false,
+      "outer": "<input id=\":r1t:\" autocomplete=\"off\" class=\"Polaris-TextField__Input Polaris-TextField__Input--suffixed\" aria-labelledby=\":r1t:Label :r1t:-Suffix\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"number\" value=\"0\">"
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "0",
+      "placeholder": "",
+      "aria": null,
+      "id": ":r1u:",
+      "checked": false,
+      "disabled": false,
+      "outer": "<input id=\":r1u:\" autocomplete=\"off\" class=\"Polaris-TextField__Input Polaris-TextField__Input--suffixed\" aria-labelledby=\":r1u:Label :r1u:-Suffix\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"number\" value=\"0\">"
+    },
+    {
+      "i": 6,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "",
+      "aria": null,
+      "id": ":r1v:",
+      "disabled": false,
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "TEST_FAQ_会員ランク算出ルール",
+          "value": "37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_RANK_20260615081841",
+          "value": "62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule",
+          "disabled": false,
+          "selected": false
+        }
+      ],
+      "outer": "<select id=\":r1v:\" class=\"Polaris-Select__Input\" aria-invalid=\"false\"><option value=\"\" disabled=\"\">選択してください</option><option value=\"37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule\">TEST_FAQ_会員ランク算出ルール</option><option value=\"62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule\">TEST_FAQ_RANK_20260615081841</option></select>"
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "LATEST",
+      "placeholder": "",
+      "aria": null,
+      "id": ":r21:",
+      "checked": true,
+      "disabled": false,
+      "outer": "<input id=\":r21:\" class=\"Polaris-RadioButton__Input\" type=\"radio\" value=\"LATEST\" checked=\"\" name=\":r20:\">"
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "OLDEST",
+      "placeholder": "",
+      "aria": null,
+      "id": ":r22:",
+      "checked": false,
+      "disabled": false,
+      "outer": "<input id=\":r22:\" class=\"Polaris-RadioButton__Input\" type=\"radio\" value=\"OLDEST\" name=\":r20:\">"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 5,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "text": "ホーム",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products",
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "text": "在庫管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "text": "注文管理",
+      "href": "https://www.sqstackstaging.com/admin/orders",
+      "disabled": false
+    },
+    {
+      "i": 10,
+      "text": "顧客管理",
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "i": 11,
+      "text": "発注管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "text": "販売設定",
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "i": 13,
+      "text": "会計",
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "i": 14,
+      "text": "分析",
+      "href": "https://www.sqstackstaging.com/admin/analytics",
+      "disabled": false
+    },
+    {
+      "i": 15,
+      "text": "入荷管理\n未完了の入荷指示 1件\n1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "i": 16,
+      "text": "出荷管理\n未完了の出荷指示 1件\n1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "i": 17,
+      "text": "在庫依頼",
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "i": 18,
+      "text": "ディスカウント",
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "i": 19,
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "i": 20,
+      "text": "キャンペーン",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules",
+      "disabled": false
+    },
+    {
+      "i": 21,
+      "text": "誕生日",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules",
+      "disabled": false
+    },
+    {
+      "i": 22,
+      "text": "利用外商品",
+      "href": "https://www.sqstackstaging.com/admin/point_application_excluded_products",
+      "disabled": false
+    },
+    {
+      "i": 23,
+      "text": "失効通知",
+      "href": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule",
+      "disabled": false
+    },
+    {
+      "i": 24,
+      "text": "会員ランク",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "i": 25,
+      "text": "Shopify",
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "i": 26,
+      "text": "OmnibusCore",
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "i": 27,
+      "text": "スマレジ",
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "i": 28,
+      "text": "リテールポータル",
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "i": 29,
+      "text": "卸売",
+      "href": "https://www.sqstackstaging.com/admin/b2b",
+      "disabled": false
+    },
+    {
+      "i": 30,
+      "text": "設定",
+      "href": "https://www.sqstackstaging.com/admin/settings",
+      "disabled": false
+    },
+    {
+      "i": 31,
+      "text": "メニューを閉じる",
+      "href": "",
+      "disabled": false
+    },
+    {
+      "i": 32,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule",
+      "disabled": false
+    },
+    {
+      "i": 33,
+      "text": "ルールを削除",
+      "href": "",
+      "disabled": false
+    },
+    {
+      "i": 34,
+      "text": "保存する",
+      "href": "",
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイントルール。このページの準備が整いました\n\nポイントルール\n\n0件のテナントで利用\n\nルール\nタイトル\n購入金額\n円ごとに\nポイント\nポイント\n有効期限\nポイントを付与してから有効な日数\n日間\nオンライン注文のポイント有効までの日数\n\nオンラインでの注文の出荷完了から顧客へポイントを付与するまでの日数です。0日に設定した場合、発送が完了後に即時ポイントが付与されます。\n\n日後\n店舗注文のポイント有効までの日数\n\n店舗での決済完了から顧客へポイントを付与するまでの日数です。0日に設定した場合、即時ポイントが付与されます。\n\n日後\n会員ランク算出ルール\n会員ランク算出ルール\n選択してください\nTEST_FAQ_会員ランク算出ルール\nTEST_FAQ_RANK_20260615081841\n選択してください\nポイントキャンペーン\n\n注文に対して条件を満たすポイントキャンペーンが複数個ある場合に、どのキャンペーンを優先的に適用するかを設定します。\n\nキャンペーン適用優先度\n開始日時が新しいキャンペーンを優先する\n開始日時が古いキャンペーンを優先する\nルールを削除\n保存する"
+}

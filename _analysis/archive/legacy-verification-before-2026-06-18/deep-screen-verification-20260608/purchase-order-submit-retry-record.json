@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-06-08T03:53:12.018Z",
+  "record": {
+    "supplier": "TEST_FAQ_DEEP_202606080340_取引先",
+    "attemptedSku": "486125-31-L",
+    "steps": [
+      {
+        "step": "header-selected",
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-submit-retry-screenshots/01-header-selected.png",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する"
+        ]
+      },
+      {
+        "step": "searched",
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-submit-retry-screenshots/02-searched.png",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する",
+          "バリエーションを選択する",
+          "選択する"
+        ]
+      },
+      {
+        "step": "row-checked",
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-submit-retry-screenshots/03-row-checked.png",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する",
+          "バリエーションを選択する",
+          "すべてのアイテムを選択する",
+          "商品コード",
+          "すべての92のアイテムを選択する",
+          "1を選択済み",
+          "アイテムを選択する",
+          "オーバーサイズスウェットシャツ",
+          "486125",
+          "486125-31-XL",
+          "486125-03-M",
+          "486125-03-XL",
+          "486125-69-M",
+          "486125-31-XS",
+          "486125-69-S",
+          "486125-09-M",
+          "486125-31-M",
+          "486125-09-XS",
+          "486125-09-S",
+          "486125-03-S",
+          "486125-31-L",
+          "486125-31-S",
+          "486125-69-XS",
+          "486125-69-XL",
+          "486125-03-XS",
+          "486125-69-L",
+          "486125-03-L",
+          "486125-09-L",
+          "486125-09-XL",
+          "選択する"
+        ]
+      },
+      {
+        "step": "variant-selected",
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-submit-retry-screenshots/04-variant-selected.png",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "単価",
+          "数量",
+          "金額",
+          "486125-31-L",
+          "作成する"
+        ]
+      },
+      {
+        "step": "numbers-filled",
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-submit-retry-screenshots/05-numbers-filled.png",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "単価",
+          "数量",
+          "金額",
+          "486125-31-L",
+          "作成する"
+        ]
+      }
+    ],
+    "final": {
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-submit-retry-screenshots/06-after-submit.png",
+      "text": [
+        "商品管理",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "取引先",
+        "選択してください",
+        "TEST_FAQ_Supplier",
+        "TEST_FAQ_Supplier2",
+        "TEST_FAQ_DEEP_202606080340_取引先",
+        "テナント",
+        "通貨",
+        "商品",
+        "商品を追加する",
+        "単価",
+        "数量",
+        "金額",
+        "486125-31-L",
+        "作成する",
+        "エラーが発生しました。しばらくしてから再度お試しください"
+      ],
+      "unexpectedError": false,
+      "visibleError": true
+    },
+    "error": null,
+    "consoleMessages": [
+      "error: Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  }
+}

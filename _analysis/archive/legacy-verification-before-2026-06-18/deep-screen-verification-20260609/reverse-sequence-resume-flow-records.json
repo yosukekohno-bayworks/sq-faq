@@ -1,0 +1,555 @@
+{
+  "generatedAt": "2026-06-09T05:36:54.050Z",
+  "scenario": {
+    "purpose": "Check whether inbound registration UI is available before outbound completion.",
+    "sku": "486125-31-L",
+    "quantity": "2",
+    "source": "物流倉庫",
+    "destination": "ユニクロ - 銀座店",
+    "finalInboundRegisterClicked": false
+  },
+  "failed": {
+    "message": "locator.selectOption: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('dialog').last().locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select id=\":r1r:\" aria-invalid=\"false\" class=\"Polaris-Select__Input\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    49 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+    "stack": "locator.selectOption: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('dialog').last().locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select id=\":r1r:\" aria-invalid=\"false\" class=\"Polaris-Select__Input\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    49 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at /Users/kounoyousuke/App Building/SQ/faq/_analysis/deep-screen-verification-20260609/reverse_sequence_flow_probe.mjs:259:20\n    at async confirmAllocation (/Users/kounoyousuke/App Building/SQ/faq/_analysis/deep-screen-verification-20260609/reverse_sequence_flow_probe.mjs:258:5)\n    at async file:///Users/kounoyousuke/App%20Building/SQ/faq/_analysis/deep-screen-verification-20260609/reverse_sequence_flow_probe.mjs:359:3"
+  },
+  "consoleLogs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    }
+  ],
+  "records": [
+    {
+      "name": "01-resume-allocation-request-detail",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest",
+      "h1": [
+        "在庫依頼"
+      ],
+      "dialogs": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "その他の操作",
+        "在庫を引当てる"
+      ],
+      "inputs": [],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼未完了の在庫依頼 1件1",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "確保済み",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_request_confirmations"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "オーバーサイズスウェットシャツ",
+          "href": "https://www.sqstackstaging.com/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product/variants/894871f2-b8b4-5511-ad3d-28abfe5b6044_ProductVariant"
+        }
+      ],
+      "rows": [],
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "未完了の在庫依頼 1件",
+        "確保済み",
+        "在庫依頼。このページの準備が整いました",
+        "確認待ち",
+        "2026年06月09日 14:34に作成",
+        "在庫を引当てる",
+        "対象商品",
+        "SKU: 486125-31-L",
+        "確保済み在庫",
+        "確保済みの在庫はありません",
+        "ロケーションはありません",
+        "引当先ロケーション",
+        "物流倉庫",
+        "確保済み数量",
+        "残り確保数",
+        "対応不可ロケーション"
+      ],
+      "registerButtons": {
+        "inbound": [],
+        "outbound": [],
+        "finalRegister": []
+      },
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": false,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/reverse-sequence-resume-screenshots/01-01-resume-allocation-request-detail.png"
+    },
+    {
+      "name": "14-allocation-confirm-dialog-open",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest",
+      "h1": [
+        "在庫依頼"
+      ],
+      "dialogs": [
+        "在庫を引当てる\nロケーション\n選択してください\n選択してください\n数量\n/2\nキャンセル\n引当てる"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "その他の操作",
+        "在庫を引当てる",
+        "キャンセル",
+        "引当てる"
+      ],
+      "inputs": [
+        {
+          "tag": "select",
+          "type": "",
+          "placeholder": "",
+          "value": "",
+          "ariaLabel": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "placeholder": "",
+          "value": "1",
+          "ariaLabel": "",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼未完了の在庫依頼 1件1",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "確保済み",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_request_confirmations"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "オーバーサイズスウェットシャツ",
+          "href": "https://www.sqstackstaging.com/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product/variants/894871f2-b8b4-5511-ad3d-28abfe5b6044_ProductVariant"
+        }
+      ],
+      "rows": [],
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "未完了の在庫依頼 1件",
+        "確保済み",
+        "在庫依頼。このページの準備が整いました",
+        "確認待ち",
+        "2026年06月09日 14:34に作成",
+        "在庫を引当てる",
+        "対象商品",
+        "SKU: 486125-31-L",
+        "確保済み在庫",
+        "確保済みの在庫はありません",
+        "ロケーションはありません",
+        "引当先ロケーション",
+        "物流倉庫",
+        "確保済み数量",
+        "残り確保数",
+        "対応不可ロケーション",
+        "ロケーション",
+        "数量",
+        "引当てる"
+      ],
+      "registerButtons": {
+        "inbound": [],
+        "outbound": [],
+        "finalRegister": []
+      },
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": false,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/reverse-sequence-resume-screenshots/02-14-allocation-confirm-dialog-open.png"
+    },
+    {
+      "name": "99-failure-state",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest",
+      "h1": [
+        "在庫依頼"
+      ],
+      "dialogs": [
+        "在庫を引当てる\nロケーション\n選択してください\n選択してください\n数量\n/2\nキャンセル\n引当てる"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "その他の操作",
+        "在庫を引当てる",
+        "キャンセル",
+        "引当てる"
+      ],
+      "inputs": [
+        {
+          "tag": "select",
+          "type": "",
+          "placeholder": "",
+          "value": "",
+          "ariaLabel": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "placeholder": "",
+          "value": "1",
+          "ariaLabel": "",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/0ed61436-77db-5f97-a45d-80fe5ddfea7d_InventoryAllocationRequest#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼未完了の在庫依頼 1件1",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "確保済み",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_request_confirmations"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "オーバーサイズスウェットシャツ",
+          "href": "https://www.sqstackstaging.com/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product/variants/894871f2-b8b4-5511-ad3d-28abfe5b6044_ProductVariant"
+        }
+      ],
+      "rows": [],
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "未完了の在庫依頼 1件",
+        "確保済み",
+        "在庫依頼。このページの準備が整いました",
+        "確認待ち",
+        "2026年06月09日 14:34に作成",
+        "在庫を引当てる",
+        "対象商品",
+        "SKU: 486125-31-L",
+        "確保済み在庫",
+        "確保済みの在庫はありません",
+        "ロケーションはありません",
+        "引当先ロケーション",
+        "物流倉庫",
+        "確保済み数量",
+        "残り確保数",
+        "対応不可ロケーション",
+        "ロケーション",
+        "数量",
+        "引当てる"
+      ],
+      "registerButtons": {
+        "inbound": [],
+        "outbound": [],
+        "finalRegister": []
+      },
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "empty": false,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/reverse-sequence-resume-screenshots/03-99-failure-state.png",
+      "failed": {
+        "message": "locator.selectOption: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('dialog').last().locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select id=\":r1r:\" aria-invalid=\"false\" class=\"Polaris-Select__Input\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    49 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+        "stack": "locator.selectOption: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('dialog').last().locator('select').first()\u001b[22m\n\u001b[2m    - locator resolved to <select id=\":r1r:\" aria-invalid=\"false\" class=\"Polaris-Select__Input\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    49 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at /Users/kounoyousuke/App Building/SQ/faq/_analysis/deep-screen-verification-20260609/reverse_sequence_flow_probe.mjs:259:20\n    at async confirmAllocation (/Users/kounoyousuke/App Building/SQ/faq/_analysis/deep-screen-verification-20260609/reverse_sequence_flow_probe.mjs:258:5)\n    at async file:///Users/kounoyousuke/App%20Building/SQ/faq/_analysis/deep-screen-verification-20260609/reverse_sequence_flow_probe.mjs:359:3"
+      }
+    }
+  ]
+}

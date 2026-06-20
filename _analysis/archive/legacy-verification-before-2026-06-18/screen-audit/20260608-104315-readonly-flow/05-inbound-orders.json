@@ -1,0 +1,303 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+  "title": "SQ - 管理画面",
+  "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 入荷管理。このページの準備が整いました 入荷管理 入荷待ち 0 入荷依頼済み 新規 0 入荷作業中 新規 0 要対応 新規 0 入荷完了 キャンセル アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください",
+  "visibleTexts": [
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "#AppFrameMain",
+      "text": "コンテンツにスキップ",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "",
+      "type": "button",
+      "href": "",
+      "text": "stack-ps-yosuke 陽介 河野",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin",
+      "text": "ホーム",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/products",
+      "text": "商品管理",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/inventory_items",
+      "text": "在庫管理",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/orders",
+      "text": "注文管理",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/purchasing_customers",
+      "text": "顧客管理",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/inventory_purchase_orders",
+      "text": "発注管理",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/product_price_rules",
+      "text": "販売設定",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/sale_change_line_items",
+      "text": "会計",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/analytics",
+      "text": "分析",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/inventory_inbound_orders",
+      "text": "入荷管理",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/inventory_outbound_orders",
+      "text": "出荷管理",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/inventory_allocation_requests",
+      "text": "在庫依頼",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/order_price_adjustment_rules",
+      "text": "ディスカウント",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/point_calculation_rules",
+      "text": "ポイント",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/customer_rank_calculation_rules",
+      "text": "会員ランク",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/shopify_integrations",
+      "text": "Shopify",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/omnibus_core_integrations",
+      "text": "OmnibusCore",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/smaregi_integrations",
+      "text": "スマレジ",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/retail_portal_integrations",
+      "text": "リテールポータル",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/b2b",
+      "text": "卸売",
+      "visible": true
+    },
+    {
+      "tag": "a",
+      "role": "",
+      "type": "",
+      "href": "/admin/settings",
+      "text": "設定",
+      "visible": true
+    },
+    {
+      "tag": "h1",
+      "role": "",
+      "type": "",
+      "href": "",
+      "text": "入荷管理",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "tab",
+      "type": "button",
+      "href": "",
+      "text": "入荷待ち 0",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "tab",
+      "type": "button",
+      "href": "",
+      "text": "入荷依頼済み 新規 0",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "tab",
+      "type": "button",
+      "href": "",
+      "text": "入荷作業中 新規 0",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "tab",
+      "type": "button",
+      "href": "",
+      "text": "要対応 新規 0",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "tab",
+      "type": "button",
+      "href": "",
+      "text": "入荷完了",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "tab",
+      "type": "button",
+      "href": "",
+      "text": "キャンセル",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "",
+      "type": "button",
+      "href": "",
+      "text": "検索と絞り込みの結果",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "",
+      "type": "button",
+      "href": "",
+      "text": "前へ",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "role": "",
+      "type": "button",
+      "href": "",
+      "text": "次へ",
+      "visible": true
+    }
+  ],
+  "runtimeLogs": {
+    "console": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "type": "log",
+        "text": "[Vercel Web Analytics] Failed to load script from /_vercel/insights/script.js. Be sure to enable Web Analytics for your project and deploy again. See https://vercel.com/docs/analytics/quickstart for more information."
+      }
+    ],
+    "pageErrors": [],
+    "failedRequests": [
+      {
+        "method": "GET",
+        "url": "https://www.sqstackstaging.com/_vercel/insights/script.js",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "method": "POST",
+        "url": "https://www.sqstackstaging.com/api/graphql",
+        "failure": "net::ERR_ABORTED"
+      }
+    ],
+    "responses": [
+      {
+        "status": 404,
+        "url": "https://www.sqstackstaging.com/_vercel/insights/script.js"
+      }
+    ]
+  },
+  "screenshotPath": "/Users/kounoyousuke/App Building/SQ/faq/_analysis/screen-audit/20260608-104315-readonly-flow/05-inbound-orders.png"
+}

@@ -1,0 +1,58 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company",
+  "dialogCount": 1,
+  "dialogs": [
+    {
+      "i": 0,
+      "text": "担当者を作成する\n姓\n名\nメールアドレス\n発注の確認メールなどはこのメールアドレスに配信されます。\n電話番号\nキャンセル\n保存する",
+      "inputs": [
+        {
+          "type": "text",
+          "name": "",
+          "placeholder": "山田",
+          "value": "",
+          "aria": null
+        },
+        {
+          "type": "text",
+          "name": "",
+          "placeholder": "花子",
+          "value": "",
+          "aria": null
+        },
+        {
+          "type": "email",
+          "name": "",
+          "placeholder": "you@company.com",
+          "value": "",
+          "aria": null
+        },
+        {
+          "type": "tel",
+          "name": "",
+          "placeholder": "09012345678",
+          "value": "",
+          "aria": null
+        }
+      ],
+      "buttons": [
+        {
+          "text": "閉じる",
+          "href": "",
+          "disabled": false
+        },
+        {
+          "text": "キャンセル",
+          "href": "",
+          "disabled": false
+        },
+        {
+          "text": "保存する",
+          "href": "",
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "bodyTail": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_COVERAGE_20260615_809686_会社。このページの準備が整いました\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n\n2026年06月15日から顧客\n\n直近の注文\n\nこの会社はまだ注文していません\n\nロケーション\nロケーションを追加\nロケーション\n\t\n売上\n\t\n注文\n\n\nTEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション\n\t¥0\t0\n担当者\n担当者を追加\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n会社ID\n\nEXT9686\n\nメモ\n\nこの会社にはメモがありません。\n\n担当者を作成する\n姓\n名\nメールアドレス\n発注の確認メールなどはこのメールアドレスに配信されます。\n電話番号\nキャンセル\n保存する"
+}

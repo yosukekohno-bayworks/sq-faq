@@ -1,0 +1,68 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules/62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule/customer_rank_rules/394723de-56cd-5c95-b355-d862f440d1c3_CustomerRankRule",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nSilver。このページの準備が整いました\n\nSilver\nランク\n表示名\n達成条件\n購入金額\n円以上で達成\n削除する\n保存する",
+  "fields": [
+    {
+      "i": 0,
+      "tag": "input",
+      "type": "text",
+      "value": "Silver",
+      "placeholder": "ブロンズ",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "表示名"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "input",
+      "type": "number",
+      "value": "5000",
+      "placeholder": "1000",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "購入金額"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "削除する",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "保存する",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

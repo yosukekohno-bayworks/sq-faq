@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-06-08T03:52:07.134Z",
+  "record": {
+    "supplier": "TEST_FAQ_DEEP_202606080340_取引先",
+    "attemptedSku": "486125-31-L",
+    "steps": [
+      {
+        "step": "open",
+        "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する"
+        ],
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-probe-screenshots/01-open.png"
+      },
+      {
+        "step": "selected-header",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する"
+        ],
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-probe-screenshots/02-selected-header.png"
+      },
+      {
+        "step": "searched-sku",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する",
+          "バリエーションを選択する",
+          "選択する"
+        ],
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-probe-screenshots/03-searched-sku.png"
+      },
+      {
+        "step": "candidate-clicked",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する",
+          "バリエーションを選択する",
+          "選択する"
+        ],
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-probe-screenshots/04-candidate-clicked.png"
+      },
+      {
+        "step": "numbers-filled",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する",
+          "バリエーションを選択する",
+          "選択する"
+        ],
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-probe-screenshots/05-numbers-filled.png"
+      },
+      {
+        "step": "error",
+        "text": [
+          "商品管理",
+          "発注伝票を作成。このページの準備が整いました",
+          "発注伝票を作成",
+          "取引先",
+          "選択してください",
+          "TEST_FAQ_Supplier",
+          "TEST_FAQ_Supplier2",
+          "TEST_FAQ_DEEP_202606080340_取引先",
+          "テナント",
+          "通貨",
+          "商品",
+          "商品を追加する",
+          "作成する",
+          "バリエーションを選択する",
+          "すべてのアイテムを選択する",
+          "商品コード",
+          "アイテムを選択する",
+          "オーバーサイズスウェットシャツ",
+          "486125",
+          "486125-31-XL",
+          "486125-03-M",
+          "486125-03-XL",
+          "486125-69-M",
+          "486125-31-XS",
+          "486125-69-S",
+          "486125-09-M",
+          "486125-31-M",
+          "486125-09-XS",
+          "486125-09-S",
+          "486125-03-S",
+          "486125-31-L",
+          "486125-31-S",
+          "486125-69-XS",
+          "486125-69-XL",
+          "486125-03-XS",
+          "486125-69-L",
+          "486125-03-L",
+          "486125-09-L",
+          "486125-09-XL",
+          "選択する"
+        ],
+        "screenshot": "faq/_analysis/deep-screen-verification-20260608/purchase-order-probe-screenshots/99-error.png"
+      }
+    ],
+    "final": null,
+    "error": "locator.click: Timeout 18000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '作成する', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-disabled=\"false\" class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"Polaris-Backdrop\"></div> from <div id=\"PolarisPortalsContainer\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"Polaris-Backdrop\"></div> from <div id=\"PolarisPortalsContainer\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    35 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"Polaris-Backdrop\"></div> from <div id=\"PolarisPortalsContainer\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+    "consoleMessages": [
+      "error: Failed to load resource: the server responded with a status of 404 ()"
+    ]
+  }
+}

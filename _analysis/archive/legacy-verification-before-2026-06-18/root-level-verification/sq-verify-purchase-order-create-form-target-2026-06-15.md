@@ -1,0 +1,53 @@
+- generic [ref=e303]:
+  - generic [ref=e305]:
+    - generic [ref=e308]:
+      - generic [ref=e310]:
+        - heading "取引先" [level=2] [ref=e311]
+        - generic [ref=e312]:
+          - generic [ref=e315]: 取引先*
+          - generic [ref=e316]:
+            - combobox "取引先*" [ref=e317]:
+              - option "選択してください" [disabled] [selected]
+              - option "TEST_FAQ_Supplier"
+              - option "TEST_FAQ_Supplier2"
+              - option "TEST_FAQ_DEEP_202606080340_取引先"
+            - generic [ref=e318]:
+              - generic [ref=e319]: 選択してください
+              - img [ref=e322]
+      - separator [ref=e326]
+      - generic [ref=e328]:
+        - generic [ref=e329]:
+          - generic [ref=e332]: テナント*
+          - generic [ref=e333]:
+            - combobox "テナント*" [ref=e334]:
+              - option "選択してください" [disabled] [selected]
+              - option "ユニクロ"
+            - generic [ref=e335]:
+              - generic [ref=e336]: 選択してください
+              - img [ref=e339]
+        - generic [ref=e343]:
+          - generic [ref=e346]: 通貨
+          - generic [ref=e347]:
+            - combobox "通貨" [ref=e348]:
+              - option "米ドル"
+              - option "ユーロ"
+              - option "日本円" [selected]
+              - option "タイ バーツ"
+              - option "シンガポール ドル"
+            - generic [ref=e349]:
+              - generic [ref=e350]: 日本円
+              - img [ref=e353]
+    - generic [ref=e360]:
+      - heading "商品" [level=2] [ref=e361]
+      - generic [ref=e362]:
+        - generic [ref=e365]: 商品を追加する
+        - generic [ref=e366]:
+          - textbox "商品を追加する" [ref=e369]:
+            - /placeholder: 商品を検索する
+          - button "参照" [ref=e371] [cursor=pointer]:
+            - generic [ref=e372]: 参照
+  - generic [ref=e375]:
+    - button "取り消す" [ref=e379] [cursor=pointer]:
+      - generic [ref=e380]: 取り消す
+    - button "作成する" [ref=e382] [cursor=pointer]:
+      - generic [ref=e383]: 作成する

@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-06-09T05:26:46.297Z",
+  "records": [
+    {
+      "name": "outbound-IO-1001-direct",
+      "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders/b6e0aaf1-8c54-58f8-9ee8-6cebc84e80bb_InventoryOutboundOrder",
+      "h1": [
+        "#IO-1001"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "出荷実績を登録する"
+      ],
+      "rows": [
+        "商品SKU数量",
+        "オーバーサイズスウェットシャツ486125-31-L2",
+        "SKU数量",
+        "486125-31-L2"
+      ],
+      "importantLines": [
+        "商品管理",
+        "入荷管理",
+        "出荷管理",
+        "#IO-1001。このページの準備が整いました",
+        "#IO-1001",
+        "成功 完了",
+        "出荷完了",
+        "情報 未完了",
+        "引当待ち",
+        "出荷実績を登録する",
+        "ロケーション",
+        "配送方法",
+        "出荷明細",
+        "商品",
+        "SKU",
+        "数量",
+        "配送キャリア",
+        "配送希望日",
+        "出荷先ロケーション"
+      ],
+      "hasInboundRegisterButton": false,
+      "hasOutboundRegisterButton": true,
+      "hasRollbackWarning": false,
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/linked-inbound-outbound-screenshots/01-outbound-IO-1001-direct.png"
+    },
+    {
+      "name": "inbound-II-1001-direct",
+      "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders/6e9b70ed-dde6-53a1-a46b-cbd45cfafafa_InventoryInboundOrder",
+      "h1": [
+        "#II-1001"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "入荷実績を登録する"
+      ],
+      "rows": [
+        "商品SKU数量",
+        "オーバーサイズスウェットシャツ486125-31-L2"
+      ],
+      "importantLines": [
+        "商品管理",
+        "入荷管理",
+        "出荷管理",
+        "#II-1001。このページの準備が整いました",
+        "#II-1001",
+        "成功 完了",
+        "入荷完了",
+        "入荷実績を登録する",
+        "ロケーション",
+        "入荷明細",
+        "商品",
+        "SKU",
+        "数量"
+      ],
+      "hasInboundRegisterButton": true,
+      "hasOutboundRegisterButton": false,
+      "hasRollbackWarning": false,
+      "classification": {
+        "unexpectedError": false,
+        "notFound": false,
+        "readyMessage": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/linked-inbound-outbound-screenshots/02-inbound-II-1001-direct.png"
+    }
+  ]
+}

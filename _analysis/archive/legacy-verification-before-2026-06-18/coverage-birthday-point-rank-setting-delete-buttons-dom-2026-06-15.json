@@ -1,0 +1,76 @@
+[
+  {
+    "i": 4,
+    "text": "削除する",
+    "rect": {
+      "x": 967.171875,
+      "y": 193,
+      "w": 64,
+      "h": 24
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-BulkActions__BulkActionButton"
+      },
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-BulkActions__BulkActionsMeasurerLayout"
+      },
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-BulkActions__BulkActionsOuterLayout"
+      },
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-InlineStack"
+      },
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-BulkActions__BulkActionsPromotedActionsWrapper"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "text": "削除する",
+    "rect": {
+      "x": 995.171875,
+      "y": 191,
+      "w": 64,
+      "h": 24
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-BulkActions__BulkActionButton"
+      },
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-BulkActions__BulkActionsLayout"
+      },
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-BulkActions__BulkActionsOuterLayout"
+      },
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-InlineStack"
+      },
+      {
+        "tag": "DIV",
+        "text": "削除する",
+        "cls": "Polaris-BulkActions__BulkActionsPromotedActionsWrapper"
+      }
+    ]
+  }
+]

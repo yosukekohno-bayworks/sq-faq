@@ -1,0 +1,1117 @@
+{
+  "generatedAt": "2026-06-08T03:21:35.458Z",
+  "records": [
+    {
+      "index": 1,
+      "url": "/admin/products/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/products/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/products/create",
+      "h1": [
+        "商品を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "商品コードを入力してください",
+        "商品名を入力してください",
+        "選択してください"
+      ],
+      "labels": [
+        "商品コード",
+        "商品名",
+        "説明文",
+        "画像をアップロード",
+        "オプション名",
+        "種別",
+        "オプション値",
+        "コード",
+        "ページタイトル",
+        "メタディスクリプション",
+        "商品タイプ",
+        "製造元",
+        "ブランド"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "追加",
+        "削除",
+        "別のオプションを追加する",
+        "選択",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品を作成する。このページの準備が整いました\n\n商品を作成する\n商品コード\n商品コードを入力してください\n半角英数字（A〜Z、a〜z、0〜9）、ハイフン（-）、アンダースコア（_）のみご入力ください。\n商品名\n商品名を入力してください\n説明文\n0/5000\nメディア\n画像をアップロード\n追加\nバリエーション\n\nオプション名が空のフィールドがあります\n\nオプション名\n種別\n選択してください\nサイズ\nカラー\nその他\n選択してください\nオプション値\nコード\n削除\n追加\n別のオプションを追加する\n検索エンジンリスティング\nページタイトル\nメタディスクリプション\n0/5000\nメタフィールド\nTEST_FAQ_テキストフィールド\n\n未設定\n\nステータス\n下書き\n公開\n非公開\n下書き\n商品分類\n商品タイプ\n製造元\nブランド\n選択\nタグ\n\nタグは付与されていません\n\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/01-products__create.png"
+    },
+    {
+      "index": 2,
+      "url": "/admin/catalogs/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/catalogs/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/catalogs/create",
+      "h1": [
+        "カタログを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "タイトルを入力してください"
+      ],
+      "labels": [
+        "タイトル"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nカタログを作成する。このページの準備が整いました\n\nカタログを作成する\nタイトル\nタイトルを入力してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/02-catalogs__create.png"
+    },
+    {
+      "index": 3,
+      "url": "/admin/companies/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/companies/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/companies/create",
+      "h1": [
+        "会社を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "会社名を入力してください",
+        "ロケーション名を入力してください",
+        "国を選択してください",
+        "苗字を入力してください",
+        "名前を入力してください",
+        "郵便番号を入力してください",
+        "選択してください",
+        "都道府県を入力してください",
+        "市区町村を入力してください",
+        "住所を入力してください"
+      ],
+      "labels": [
+        "会社名",
+        "会社ID",
+        "ロケーション名",
+        "ロケーションID",
+        "コード",
+        "国/地域",
+        "性",
+        "名",
+        "会社",
+        "郵便番号",
+        "都道府県",
+        "市区町村",
+        "住所",
+        "建物名、部屋番号など",
+        "電話番号",
+        "配送先住所と同じ"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n会社を作成する。このページの準備が整いました\n\n会社を作成する\n会社名\n会社名を入力してください\nこれは請求書および配送ラベルに表示されます。\n会社ID\n会社を識別する外部IDがある場合に登録することができます。\n担当者\n\n担当者なし\n\nロケーション\n\nこの会社にロケーションを追加します。商品は登録されているロケーションに配送します。ロケーションは後からさらに追加することができます。\n\nロケーション名\nロケーション名を入力してください\nロケーションID\nロケーションを識別する外部IDがある場合に登録することができます。\nコード\n配送先住所\n国/地域\n国/地域\nヨルダン\nリベリア\nノーフォーク島\nシエラレオネ\nトルクメニスタン\n赤道ギニア\nマレーシア\nサントメ・プリンシペ\nセントビンセント・グレナディーン\nアルメニア\nウクライナ\nモンゴル\nポルトガル\nアンティグア・バーブーダ\nオランダ\nポーランド\nカタール\nベルギー\nバーレーン\nキューバ\nケニア\n韓国\nネパール\nカーボベルデ\nフィジー\nルクセンブルク\nオマーン\nタンザニア\nブルガリア\nバハマ\nフランス領ギアナ\nリヒテンシュタイン\nブルンジ\nイギリス\nインド\nサモア\nチリ\nカザフスタン\nフィリピン\nトリスタン・ダ・クーニャ\nナイジェリア\nオーストラリア\nボスニア・ヘルツェゴビナ\nジブラルタル\nコモロ\nチュニジア\nコートジボワール\nガボン\nギニア\nシント・マールテン\nトリニダード・トバゴ\nウルグアイ\nコンゴ民主共和国\nキプロス\nグリーンランド\nギリシャ\nモンテネグロ\nマリ\nグアドループ\nウガンダ\nアルバニア\nスイス\nエクアドル\nエリトリア\nインドネシア\nジャージー\n北朝鮮\nルーマニア\nココス諸島\nチェコ\nマン島\nモルディブ\nカメルーン\nケイマン諸島\nセントルシア\n南スーダン\nベトナム\nアルバ\nキュラソー\nスヴァールバル諸島およびヤンマイエン島\nウズベキスタン\n西サハラ\nアメリカ合衆国\nザンビア\nアルゼンチン\nベラルーシ\nベリーズ\nコロンビア\nドイツ\n香港\nレバノン\nソロモン諸島\nスペイン\nサンピエール・ミクロン\nスロベニア\nスロバキア\nセネガル\nボリビア\nコンゴ共和国\nガイアナ\nキルギス\nロシア\nジョージア\nアゼルバイジャン\nホンジュラス\nナウル\nエジプト\nモナコ\nベネズエラ\nニカラグア\nレユニオン\nバヌアツ\nマヨット\nアラブ首長国連邦\nリビア\nフランス南方・南極地域\nオーランド諸島\nギニアビサウ\nミャンマー\nメキシコ\nニュージーランド\nエスワティニ\nボツワナ\nドミニカ国\nアルジェリア\nフランス\nラオス\nピトケアン諸島\nガーンジー\nイラン\nラトビア\nマルティニーク\nパナマ\nトンガ\n中央アフリカ共和国\nモロッコ\nフランス領ポリネシア\nブルネイ\nエストニア\nセーシェル\nシリア\nトケラウ\nガンビア\nイラク\nレソト\nスウェーデン\nバミューダ\nアイルランド\nジャマイカ\n北マケドニア\nノルウェー\nサウジアラビア\nタイ\n南アフリカ\nアセンション島\nバングラデシュ\nエチオピア\nサン・バルテルミー\nエルサルバドル\nタークス・カイコス諸島\nオーストリア\nイギリス領インド洋地域\nアイスランド\nチャド\nカナダ\nサウスジョージア・サウスサンドウィッチ諸島\nイタリア\n日本\nパラグアイ\nセルビア\nスーダン\nシンガポール\nコスタリカ\nリトアニア\nトルコ\nドミニカ共和国\nハイチ\nアンドラ\nフェロー諸島\nクロアチア\nセントクリストファー・ネイビス\nルワンダ\nトーゴ\nクック諸島\nハード島とマクドナルド諸島\nキリバス\nサン・マルタン\nバチカン市国\nウォリス・フツナ\nジンバブエ\nアンギラ\nブラジル\nブータン\nクリスマス島\nフォークランド諸島\nグレナダ\nクウェート\nブーベ島\nデンマーク\nモザンビーク\nニューカレドニア\nサンマリノ\nソマリア\nオランダ領アンティル\nイスラエル\nモルドバ\nアンゴラ\n",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/03-companies__create.png"
+    },
+    {
+      "index": 4,
+      "url": "/admin/settings/suppliers/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/suppliers/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/suppliers/create",
+      "h1": [
+        "取引先を作成"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "取引先名を入力してください"
+      ],
+      "labels": [
+        "取引先名"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n取引先を作成。このページの準備が整いました\n\n取引先を作成\n取引先名\n取引先名を入力してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/04-settings__suppliers__create.png"
+    },
+    {
+      "index": 5,
+      "url": "/admin/inventory_purchase_orders/create",
+      "buttonName": "作成する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "選択してください",
+        "取引先を選択してください",
+        "テナントを選択してください",
+        "商品を1つ以上追加してください"
+      ],
+      "labels": [
+        "取引先",
+        "テナント",
+        "通貨",
+        "商品を追加する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "参照",
+        "取り消す",
+        "作成する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n発注伝票を作成。このページの準備が整いました\n\n発注伝票を作成\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\n選択してください\n取引先を選択してください\nテナント\n選択してください\nユニクロ\n選択してください\nテナントを選択してください\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\n商品を1つ以上追加してください\n取り消す\n作成する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/05-inventory_purchase_orders__create.png"
+    },
+    {
+      "index": 6,
+      "url": "/admin/inventory_allocation_requests/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/create",
+      "h1": [
+        "在庫依頼を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "商品バリエーションを選択してください",
+        "1以上の数量を入力してください",
+        "移動先ロケーションを選択してください"
+      ],
+      "labels": [
+        "商品バリエーション",
+        "希望数",
+        "移動先ロケーション",
+        "リクエスト先ロケーション"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n確保済み\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n在庫依頼を作成する。このページの準備が整いました\n\n在庫依頼を作成する\n商品\n商品バリエーション\n選択\n商品バリエーションを選択してください\nリクエスト内容\n希望数\n1以上の数量を入力してください\n移動先ロケーション\n選択\n移動先ロケーションを選択してください\nリクエスト先ロケーション\n選択\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/06-inventory_allocation_requests__create.png"
+    },
+    {
+      "index": 7,
+      "url": "/admin/inventory_movement_orders/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/inventory_movement_orders/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_movement_orders/create",
+      "h1": [
+        "移動伝票を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "配送元を選択してください",
+        "配送先を選択してください",
+        "商品を1つ以上追加してください"
+      ],
+      "labels": [
+        "配送元",
+        "配送先",
+        "商品を追加する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "参照",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n移動伝票を作成する。このページの準備が整いました\n\n移動伝票を作成する\n配送元\n配送元\n選択\n配送元を選択してください\n配送先\n配送先\n選択\n配送先を選択してください\n商品を追加\n商品を追加する\n参照\n商品を1つ以上追加してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/07-inventory_movement_orders__create.png"
+    },
+    {
+      "index": 8,
+      "url": "/admin/inventory_adjustment_orders/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders/create",
+      "h1": [
+        "調整伝票を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "ロケーションを選択してください",
+        "選択してください",
+        "理由を選択してください",
+        "商品を1つ以上追加してください"
+      ],
+      "labels": [
+        "ロケーション"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "参照",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n調整伝票を作成する。このページの準備が整いました\n\n調整伝票を作成する\nロケーション\nロケーション\n選択\nロケーションを選択してください\n理由\n選択してください\n廃棄\n見本\n紛失\n棚卸差異\nその他\n選択してください\n理由を選択してください\n商品\n参照\n商品を1つ以上追加してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/08-inventory_adjustment_orders__create.png"
+    },
+    {
+      "index": 9,
+      "url": "/admin/product_price_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/product_price_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/product_price_rules/create",
+      "h1": [
+        "販売価格ルールを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "ルール名を入力してください",
+        "通貨を選択してください"
+      ],
+      "labels": [
+        "ルール名",
+        "通貨"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売価格ルールを作成する。このページの準備が整いました\n\n販売価格ルールを作成する\n基本設定\nルール名\nルール名を入力してください\n通貨\n通貨を選択してください\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/09-product_price_rules__create.png"
+    },
+    {
+      "index": 10,
+      "url": "/admin/inventory_back_order_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/inventory_back_order_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_back_order_rules/create",
+      "h1": [
+        "予約販売のルールを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "タイトルを入力してください"
+      ],
+      "labels": [
+        "タイトル"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n予約販売のルールを作成する。このページの準備が整いました\n\n予約販売のルールを作成する\nタイトル\nタイトルを入力してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/10-inventory_back_order_rules__create.png"
+    },
+    {
+      "index": 11,
+      "url": "/admin/inventory_sale_limit_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create",
+      "h1": [
+        "販売上限ルールを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "販売上限ルール名を入力してください",
+        "チャネルを選択してください"
+      ],
+      "labels": [
+        "販売上限ルール名"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売上限ルールを作成する。このページの準備が整いました\n\n販売上限ルールを作成する\n販売上限ルール名\n販売上限ルール名を入力してください\nチャネル\nチャネルを選択してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/11-inventory_sale_limit_rules__create.png"
+    },
+    {
+      "index": 12,
+      "url": "/admin/inventory_threshold_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/inventory_threshold_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_threshold_rules/create",
+      "h1": [
+        "販売閾値ルールを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "ルール名を入力してください"
+      ],
+      "labels": [
+        "ルール名",
+        "デフォルトの閾値を設定する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売閾値ルールを作成する。このページの準備が整いました\n\n販売閾値ルールを作成する\nルール名\nルール名を入力してください\nデフォルトの閾値を設定する\nこの設定を有効にすることで、閾値ルールに含まれていないすべての商品バリエーションにデフォルト閾値を適用することができます。\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/12-inventory_threshold_rules__create.png"
+    },
+    {
+      "index": 13,
+      "url": "/admin/local_pickup_retail_location_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules/create",
+      "h1": [
+        "店舗受取を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "店舗を選択してください"
+      ],
+      "labels": [
+        "ロケーション"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n店舗受取\n卸売\n設定\n\n店舗受取を作成する。このページの準備が整いました\n\n店舗受取を作成する\nロケーション\n選択\n店舗を選択してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/13-local_pickup_retail_location_rules__create.png"
+    },
+    {
+      "index": 14,
+      "url": "/admin/order_price_adjustment_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules/create",
+      "h1": [
+        "ディスカウントを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "タイトルを入力してください",
+        "クーポンコードを入力してください",
+        "テナントを選択してください",
+        "選択してください",
+        "割引率を入力してください",
+        "最低購入額を入力してください",
+        "開始日時を設定してください",
+        "終了日時を設定してください"
+      ],
+      "labels": [
+        "タイトル",
+        "説明文",
+        "クーポンコード",
+        "テナント",
+        "割引方法",
+        "割引率",
+        "割引が適用可能な最高購入額を設定する",
+        "最低購入額",
+        "最低購入数量",
+        "すべての商品を割引対象に設定する",
+        "お客様1人につき1回のみの使用とする",
+        "開始日時",
+        "終了日時"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nディスカウントを作成する。このページの準備が整いました\n\nディスカウントを作成する\n基本情報\nタイトル\nタイトルを入力してください\n説明文\nクーポンコード\nクーポンコードを入力してください\nテナント\nテナントを選択してください\nユニクロ\nテナントを選択してください\nテナントを選択してください\n選択されたテナントでディスカウントが利用できます\n割引設定\n割引方法\n選択してください\n割引率\n割引額\n割引率\n割引率\n%\n割引率を入力してください\n割引が適用可能な最高購入額を設定する\n設定した購入額を超える注文には適用不可になります\n適用条件\n割引要件\n最低購入額\n円\n最低購入額を入力してください\n最低購入数量\n対象商品\nすべての商品を割引対象に設定する\nこの設定を有効にしない場合は、割引の作成後に対象の商品を設定することができます\n利用制限\nお客様1人につき1回のみの使用とする\n有効期間\n開始日時\n開始日時を設定してください\n終了日時\n終了日時を設定してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/14-order_price_adjustment_rules__create.png"
+    },
+    {
+      "index": 15,
+      "url": "/admin/point_calculation_birthday_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules/create",
+      "h1": [
+        "誕生日ポイント付与ルールを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "タイトルを入力してください",
+        "表示タイトルを入力してください",
+        "ポイントを付与してから有効な日数"
+      ],
+      "labels": [
+        "タイトル",
+        "表示タイトル",
+        "ポイント",
+        "有効期間"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n誕生日ポイント付与ルールを作成する。このページの準備が整いました\n\n誕生日ポイント付与ルールを作成する\nタイトル\nタイトルを入力してください\n表示タイトル\n表示タイトルを入力してください\n誕生日ポイントの履歴に表示されるタイトル\nポイント\nポイント\n有効期間\n日\nポイントを付与してから有効な日数\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/15-point_calculation_birthday_rules__create.png"
+    },
+    {
+      "index": 16,
+      "url": "/admin/point_campaign_order_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+      "h1": [
+        "ポイントキャンペーンを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "タイトルを入力してください",
+        "開始日時を入力してください",
+        "終了日時を入力してください",
+        "選択してください",
+        "種別を選択してください"
+      ],
+      "labels": [
+        "タイトル",
+        "開始日時",
+        "終了日時",
+        "ポイントキャンペーン種別"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイントキャンペーンを作成する。このページの準備が整いました\n\nポイントキャンペーンを作成する\nタイトル\nタイトルを入力してください\n開始日時\n開始日時を入力してください\n終了日時\n終了日時を入力してください\nポイントキャンペーン種別\n選択してください\nなし\n会員ランク\n購入金額\n商品\n選択してください\n種別を選択してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/16-point_campaign_order_rules__create.png"
+    },
+    {
+      "index": 17,
+      "url": "/admin/point_expiration_notification_rule/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule/create",
+      "h1": [
+        "ポイント失効通知ルールを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "タイトルを入力してください",
+        "通知予定日を入力してください"
+      ],
+      "labels": [
+        "タイトル",
+        "通知予定日"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイント失効通知ルールを作成する。このページの準備が整いました\n\nポイント失効通知ルールを作成する\nタイトル\nタイトルを入力してください\n通知予定日\n失効日の\n日前\n通知予定日を入力してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/17-point_expiration_notification_rule__create.png"
+    },
+    {
+      "index": 18,
+      "url": "/admin/point_application_excluded_products/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/point_application_excluded_products/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_application_excluded_products/create",
+      "h1": [
+        "利用外商品を追加する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "商品を選択してください"
+      ],
+      "labels": [
+        "商品を選択する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n利用外商品を追加する。このページの準備が整いました\n\n利用外商品を追加する\n商品を選択する\n選択\n商品を選択してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/18-point_application_excluded_products__create.png"
+    },
+    {
+      "index": 19,
+      "url": "/admin/settings/brands/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/brands/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/brands/create",
+      "h1": [
+        "ブランド"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "ブランド名を入力してください",
+        "コードを入力してください"
+      ],
+      "labels": [
+        "名前",
+        "外部ID",
+        "コード"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nブランド。このページの準備が整いました\n\nブランド\n名前\nブランド名を入力してください\n外部ID\nコード\nコードを入力してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/19-settings__brands__create.png"
+    },
+    {
+      "index": 20,
+      "url": "/admin/settings/location_groups/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/location_groups/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/location_groups/create",
+      "h1": [
+        "グループを作成"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "グループ名を入力してください",
+        "ロケーションを選択してください",
+        "このグループに属するロケーションを選択してください"
+      ],
+      "labels": [
+        "名前",
+        "ロケーション"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nグループを作成。このページの準備が整いました\n\nグループを作成\n名前\nグループ名を入力してください\nロケーション\n選択\nロケーションを選択してください\nこのグループに属するロケーションを選択してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/20-settings__location_groups__create.png"
+    },
+    {
+      "index": 21,
+      "url": "/admin/settings/locations/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/locations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/locations/create",
+      "h1": [
+        "ロケーションを作成"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "ロケーション名を入力してください",
+        "コードを入力してください",
+        "選択してください"
+      ],
+      "labels": [
+        "名前",
+        "表示名",
+        "コード",
+        "場所種別",
+        "ロケーションの住所を登録する",
+        "マップ",
+        "電話番号",
+        "メールアドレス",
+        "店舗受け取りを有効にする",
+        "在庫依頼を受け付ける",
+        "ポイント利用種別"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nロケーションを作成。このページの準備が整いました\n\nロケーションを作成\n基本情報\n名前\nロケーション名を入力してください\nこのロケーションに短い名前を付けて、簡単に識別できるようにします。注文や商品などのエリアでこの名前が表示されます。\n表示名\nコード\nコードを入力してください\n場所種別\n選択してください\n倉庫\n店舗\n倉庫\n所在地・連絡先\nロケーションの住所を登録する\nマップ\n電話番号\nメールアドレス\n販売設定\n店舗受け取りを有効にする\n在庫依頼を受け付ける\nポイント利用種別\n選択してください\n値引き\n金種\n値引き\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/21-settings__locations__create.png"
+    },
+    {
+      "index": 22,
+      "url": "/admin/settings/metafield_definitions/product/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/metafield_definitions/product/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/metafield_definitions/product/create",
+      "h1": [
+        "商品メタフィールドの定義を追加する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "定義名を入力してください",
+        "ネームスペースを入力してください",
+        "キーを入力してください",
+        "選択してください",
+        "タイプを選択してください"
+      ],
+      "labels": [
+        "名前",
+        "説明",
+        "ネームスペース",
+        "キー",
+        "メタフィールドのタイプ"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品メタフィールドの定義を追加する。このページの準備が整いました\n\n商品メタフィールドの定義を追加する\n名前\n0/50\n定義名を入力してください\n説明\n0/100\nネームスペース\n0/50\nネームスペースを入力してください\nキー\n0/50\nキーを入力してください\nメタフィールドのタイプ\n選択してください\n単一行のテキスト\n単一行のテキスト(リスト)\n複数行のテキスト\n日付と時刻\n日付\ntrueまたはfalse\nバーコード(NW7)\n整数\n小数\nJSON\nID\nリッチテキスト\n選択してください\nタイプを選択してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/22-settings__metafield_definitions__product__create.png"
+    },
+    {
+      "index": 23,
+      "url": "/admin/settings/payment_methods/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/payment_methods/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/payment_methods/create",
+      "h1": [
+        "決済方法を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "決済方法の名前を入力してください",
+        "この決済方法のコードを入力してください",
+        "ゲートウェイを入力してください"
+      ],
+      "labels": [
+        "名前",
+        "コード",
+        "ゲートウェイ",
+        "支払い待ちでも注文を出荷する",
+        "代引き"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n決済方法を作成する。このページの準備が整いました\n\n決済方法を作成する\n詳細\n名前\n決済方法の名前を入力してください\nコード\nこの決済方法のコードを入力してください\nゲートウェイ\nゲートウェイを入力してください\n支払い待ちでも注文を出荷する\n代引き\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/23-settings__payment_methods__create.png"
+    },
+    {
+      "index": 24,
+      "url": "/admin/settings/permission_groups/create",
+      "buttonName": "作成する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/permission_groups/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/permission_groups/create",
+      "h1": [
+        "権限グループを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "権限グループ名を入力してください",
+        "権限を選択してください"
+      ],
+      "labels": [
+        "グループ名",
+        "お知らせの閲覧権限（announcements:read）",
+        "お知らせの編集権限（announcements:write）",
+        "アプリの閲覧権限（apps:read）",
+        "アプリの編集権限（apps:write）",
+        "ブランドの閲覧権限（brands:read）",
+        "ブランドの編集権限（brands:write）",
+        "カタログの閲覧権限（catalogs:read）",
+        "カタログの編集権限（catalogs:write）",
+        "取引先企業の閲覧権限（companies:read）",
+        "取引先企業の編集権限（companies:write）",
+        "顧客マイルの閲覧権限（customer_miles:read）",
+        "顧客マイルの編集権限（customer_miles:write）",
+        "顧客ポイントの閲覧権限（customer_points:read）",
+        "顧客ポイントの編集権限（customer_points:write）",
+        "顧客会員ランクルールの閲覧権限（customer_rank_rules:read）",
+        "顧客会員ランクルールの編集権限（customer_rank_rules:write）",
+        "顧客会員ランクの閲覧権限（customer_ranks:read）",
+        "顧客会員ランクの編集権限（customer_ranks:write）",
+        "顧客の閲覧権限（customers:read）",
+        "顧客の編集権限（customers:write）",
+        "ディスカウントの閲覧権限（discounts:read）",
+        "ディスカウントの編集権限（discounts:write）",
+        "下書き注文の閲覧権限（draft_orders:read）",
+        "下書き注文の編集権限（draft_orders:write）",
+        "在庫の閲覧権限（inventory:read）",
+        "在庫の編集権限（inventory:write）",
+        "在庫リクエストの閲覧権限（inventory_allocation_requests:read）",
+        "在庫リクエストの編集権限（inventory_allocation_requests:write）",
+        "店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）",
+        "店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）",
+        "ロケーショングループの閲覧権限（location_groups:read）",
+        "ロケーショングループの編集権限（location_groups:write）",
+        "ロケーションの閲覧権限（locations:read）",
+        "ロケーションの編集権限（locations:write）",
+        "マイル商品の閲覧権限（mile_items:read）",
+        "マイル商品の編集権限（mile_items:write）",
+        "OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）",
+        "OmnibusCore連携の編集権限（omnibus_core_integrations:write）",
+        "注文の閲覧権限（orders:read）",
+        "注文の編集権限（orders:write）",
+        "ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）",
+        "ポイントキャンペーンの編集権限（point_campaign_order_rules:write）",
+        "ポイントルールの閲覧権限（point_rules:read）",
+        "ポイントルールの編集権限（point_rules:write）",
+        "販売価格ルールの閲覧権限（product_price_rules:read）",
+        "販売価格ルールの編集権限（product_price_rules:write）",
+        "商品の閲覧権限（products:read）",
+        "商品の編集権限（products:write）",
+        "店舗ポータル連携の閲覧権限（retail_portal_integrations:read）",
+        "店舗ポータル連携の編集権限（retail_portal_integrations:write）",
+        "店舗スタッフの閲覧権限（retail_staff_members:read）",
+        "店舗スタッフの編集権限（retail_staff_members:write）",
+        "売上データの閲覧権限（sales:read）",
+        "売上データの編集権限（sales:write）",
+        "Shopify連携の閲覧権限（shopify_integrations:read）",
+        "Shopify連携の編集権限（shopify_integrations:write）",
+        "スマレジ連携の閲覧権限（smaregi_integrations:read）",
+        "スマレジ連携の編集権限（smaregi_integrations:write）",
+        "テナントの閲覧権限（tenants:read）",
+        "テナントの編集権限（tenants:write）",
+        "翻訳ルールの閲覧権限（translation_rules:read）",
+        "翻訳ルールの編集権限（translation_rules:write）",
+        "翻訳の閲覧権限（translations:read）",
+        "翻訳の編集権限（translations:write）",
+        "ユーザー権限の閲覧権限（user_permissions:read）",
+        "ユーザー権限の編集権限（user_permissions:write）",
+        "ユーザーテナントの閲覧権限（user_tenants:read）",
+        "ユーザーテナントの編集権限（user_tenants:write）",
+        "ユーザーの閲覧権限（users:read）",
+        "ユーザーの編集権限（users:write）"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "作成する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n権限グループを作成する。このページの準備が整いました\n\n権限グループを作成する\nグループ名\n権限グループ名を入力してください\n権限\nお知らせの閲覧権限（announcements:read）\nお知らせの編集権限（announcements:write）\nアプリの閲覧権限（apps:read）\nアプリの編集権限（apps:write）\nブランドの閲覧権限（brands:read）\nブランドの編集権限（brands:write）\nカタログの閲覧権限（catalogs:read）\nカタログの編集権限（catalogs:write）\n取引先企業の閲覧権限（companies:read）\n取引先企業の編集権限（companies:write）\n顧客マイルの閲覧権限（customer_miles:read）\n顧客マイルの編集権限（customer_miles:write）\n顧客ポイントの閲覧権限（customer_points:read）\n顧客ポイントの編集権限（customer_points:write）\n顧客会員ランクルールの閲覧権限（customer_rank_rules:read）\n顧客会員ランクルールの編集権限（customer_rank_rules:write）\n顧客会員ランクの閲覧権限（customer_ranks:read）\n顧客会員ランクの編集権限（customer_ranks:write）\n顧客の閲覧権限（customers:read）\n顧客の編集権限（customers:write）\nディスカウントの閲覧権限（discounts:read）\nディスカウントの編集権限（discounts:write）\n下書き注文の閲覧権限（draft_orders:read）\n下書き注文の編集権限（draft_orders:write）\n在庫の閲覧権限（inventory:read）\n在庫の編集権限（inventory:write）\n在庫リクエストの閲覧権限（inventory_allocation_requests:read）\n在庫リクエストの編集権限（inventory_allocation_requests:write）\n店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）\n店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）\nロケーショングループの閲覧権限（location_groups:read）\nロケーショングループの編集権限（location_groups:write）\nロケーションの閲覧権限（locations:read）\nロケーションの編集権限（locations:write）\nマイル商品の閲覧権限（mile_items:read）\nマイル商品の編集権限（mile_items:write）\nOmnibusCore連携の閲覧権限（omnibus_core_integrations:read）\nOmnibusCore連携の編集権限（omnibus_core_integrations:write）\n注文の閲覧権限（orders:read）\n注文の編集権限（orders:write）\nポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）\nポイントキャンペーンの編集権限（point_campaign_order_rules:write）\nポイントルールの閲覧権限（point_rules:read）\nポイントルールの編集権限（point_rules:write）\n販売価格ルールの閲覧権限（product_price_rules:read）\n販売価格ルールの編集権限（product_price_rules:write）\n商品の閲覧権限（products:re",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/24-settings__permission_groups__create.png"
+    },
+    {
+      "index": 25,
+      "url": "/admin/settings/product_measurement_rules/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/create",
+      "h1": [
+        "採寸ルールを作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "ルール名を入力してください",
+        "採寸項目を1件以上入力してください"
+      ],
+      "labels": [
+        "ルール名",
+        "採寸単位",
+        "採寸項目1"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "採寸項目を追加",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n採寸ルールを作成する。このページの準備が整いました\n\n採寸ルールを作成する\n基本設定\nルール名\nルール名を入力してください\n採寸単位\nなし\nセンチメートル\nなし\n採寸項目\n\n最大5件まで追加できます\n\n採寸項目1\n採寸項目を1件以上入力してください\n採寸項目を追加\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/25-settings__product_measurement_rules__create.png"
+    },
+    {
+      "index": 26,
+      "url": "/admin/settings/retail_staff_members/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/retail_staff_members/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/retail_staff_members/create",
+      "h1": [
+        "販売員を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "名前を入力してください",
+        "苗字を入力してください",
+        "コードを入力してください",
+        "ロケーションを選択してください"
+      ],
+      "labels": [
+        "姓",
+        "名",
+        "コード",
+        "ロケーション"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "検索する",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売員を作成する。このページの準備が整いました\n\n販売員を作成する\n姓\n名前を入力してください\n名\n苗字を入力してください\nコード\nコードを入力してください\nロケーション\n検索する\nロケーションを選択してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/26-settings__retail_staff_members__create.png"
+    },
+    {
+      "index": 27,
+      "url": "/admin/settings/users/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/settings/users/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/users/create",
+      "h1": [
+        "ユーザーを追加する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "姓を入力してください",
+        "名を入力してください",
+        "メールアドレスを入力してください"
+      ],
+      "labels": [
+        "姓",
+        "名",
+        "メールアドレス",
+        "特権管理者",
+        "TEST_FAQ_店舗スタッフ"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nユーザーを追加する。このページの準備が整いました\n\nユーザーを追加する\n姓\n姓を入力してください\n名\n名を入力してください\nメールアドレス\nメールアドレスを入力してください\n権限\n権限グループ\n特権管理者\nTEST_FAQ_店舗スタッフ\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/27-settings__users__create.png"
+    },
+    {
+      "index": 28,
+      "url": "/admin/recustomer_integrations/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations/create",
+      "h1": [
+        "アカウントを接続する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "ストアIDを入力してください",
+        "シークレットを入力してください"
+      ],
+      "labels": [
+        "ストアID",
+        "シークレット"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nアカウントを接続する。このページの準備が整いました\n\nアカウントを接続する\nストアID\nストアIDを入力してください\nシークレット\nシークレットを入力してください\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/28-recustomer_integrations__create.png"
+    },
+    {
+      "index": 29,
+      "url": "/admin/retail_portal_integrations/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "h1": [
+        "リテールポータル"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "店舗ロケーションを選択してください",
+        "在庫ロケーションを選択してください",
+        "選択してください",
+        "テナントを選択してください",
+        "カタログを選択してください",
+        "リテールポータルで販売員の選択を必須にする"
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n店舗受取\n卸売\n設定\n\nリテールポータル。このページの準備が整いました\n\nリテールポータル\n店舗ロケーション\n選択\n店舗ロケーションを選択してください\n在庫ロケーション\n選択\n在庫ロケーションを選択してください\nテナント\n選択してください\nユニクロ\n選択してください\nテナントを選択してください\nカタログ\n選択してください\nTEST_FAQ_カタログ001\n選択してください\nカタログを選択してください\n販売閾値ルール\n選択してください\nTEST_FAQ_販売閾値ルール\nTEST_FAQ_販売閾値ルール_遷移確認_20260607\n選択してください\nリテールポータルで販売員の選択を必須にする\n配送先住所の編集を許可する\n下書き注文の送料明細の編集を許可する\n下書き注文の注文明細の価格の編集を許可する\n下書き注文の完了を許可する\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/29-retail_portal_integrations__create.png"
+    },
+    {
+      "index": 30,
+      "url": "/admin/omnibus_core_integrations/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+      "h1": [
+        "OmnibusCore連携を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "選択してください",
+        "テナントを選択してください",
+        "メーカーコードを入力してください"
+      ],
+      "labels": [
+        "テナント",
+        "メーカーコード",
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "オプションを追加",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nOmnibusCore連携を作成する。このページの準備が整いました\n\nOmnibusCore連携を作成する\nテナント\n選択してください\nユニクロ\n選択してください\nテナントを選択してください\nメーカーコード\nメーカーコードを入力してください\n商品同期設定\nカタログ\n選択してください\nTEST_FAQ_カタログ001\n選択してください\n\nカラーオプション名\n\nカラーオプション名\nオプションを追加\n\nサイズオプション名\n\nサイズオプション名\nオプションを追加\n在庫設定\nロケーショングループ\n選択してください\nTEST_FAQ_ロケーショングループ\n選択してください\n在庫予約ルール\n選択してください\nTEST_FAQ_予約販売ルール\nTEST_FAQ_予約販売ルール_遷移確認_20260607\n選択してください\n販売上限ルール\n選択してください\n選択してください\n注文設定\n下書き注文の有効期限日数\nOmnibusCoreから連携する下書き注文が何日で期限切れになるかを示す日数（1-365日）\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/30-omnibus_core_integrations__create.png"
+    },
+    {
+      "index": 31,
+      "url": "/admin/shopify_integrations/create",
+      "buttonName": "連携する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/shopify_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/shopify_integrations/create",
+      "h1": [
+        "ストアを連携する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "ストア名を入力してください",
+        "ショップドメインを入力してください",
+        "shop.myshopify.com の形式で入力してください",
+        "選択してください",
+        "テナントを選択してください",
+        "カタログを選択してください",
+        "ロケーショングループを選択してください"
+      ],
+      "labels": [
+        "ストア名",
+        "ショップドメイン",
+        "テナント",
+        "カタログ",
+        "ロケーショングループ",
+        "販売価格ルール",
+        "会員証バーコードのフォーマット",
+        "商品価格は税込価格を連携する",
+        "0円の商品バリエーションを連携する",
+        "送料は税込として処理する",
+        "注文による在庫変動を起こさない"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "連携する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nストアを連携する。このページの準備が整いました\n\nストアを連携する\nストア名\nストア名を入力してください\nショップドメイン\nショップドメインを入力してください\nshop.myshopify.com の形式で入力してください\nテナント\n選択してください\nユニクロ\n選択してください\nテナントを選択してください\nこのストアから作成された注文は、選択されたテナントに紐付けられます。\nカタログ\n選択してください\nTEST_FAQ_カタログ001\n選択してください\nカタログを選択してください\nロケーショングループ\n選択してください\nTEST_FAQ_ロケーショングループ\n選択してください\nロケーショングループを選択してください\nShopifyから連携される注文の在庫は、ロケーションの指定がない限り設定されたロケーショングループのデフォルトのロケーションから引き当てられます\n販売価格ルール\n選択してください\nTEST_FAQ_販売価格ルール\nTEST_FAQ_販売価格ルール_遷移確認_20260607\n選択してください\n選択した販売価格ルールに基づいて、Shopifyの販売価格を設定します\n会員証バーコードのフォーマット\nShopify ID（数値部分）\nJAN-13コード（モジュラス10/ウェイト3方式）\nShopify ID（数値部分）\nShopifyから連携される購買顧客の会員証バーコードの生成方法を指定します\n商品価格は税込価格を連携する\n0円の商品バリエーションを連携する\n送料は税込として処理する\n注文による在庫変動を起こさない\n連携する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/31-shopify_integrations__create.png"
+    },
+    {
+      "index": 32,
+      "url": "/admin/smaregi_integrations/create",
+      "buttonName": "保存する",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/smaregi_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/smaregi_integrations/create",
+      "h1": [
+        "スマレジ連携を作成する"
+      ],
+      "clickError": null,
+      "stayedOnForm": true,
+      "unexpectedError": false,
+      "notFound": false,
+      "validationLines": [
+        "名前を入力してください",
+        "選択してください",
+        "テナントを選択してください",
+        "契約IDを入力してください"
+      ],
+      "labels": [
+        "名前",
+        "テナント",
+        "契約ID",
+        "プラン",
+        "カタログ",
+        "在庫同期の方向",
+        "注文による在庫変動を起こさない"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nスマレジ連携を作成する。このページの準備が整いました\n\nスマレジ連携を作成する\nスマレジ連携を利用するには、スマレジにアプリをインストールする必要があります。\n基本情報\n名前\n名前を入力してください\nテナント\n選択してください\nユニクロ\n選択してください\nテナントを選択してください\n契約ID\n契約IDを入力してください\nプラン\nスタンダード\nプレミアム\nプレミアムプラス\nフードビジネス\nリテールビジネス\nリテールビジネス\n商品連携設定\nカタログ\n選択してください\nTEST_FAQ_カタログ001\n選択してください\n在庫設定\n在庫同期の方向\nスマレジからSQへ在庫を同期する\nSQからスマレジへ在庫を同期する\n在庫を同期しない\nスマレジからSQへ在庫を同期する\n注文による在庫変動を起こさない\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/form-validation-screenshots/32-smaregi_integrations__create.png"
+    }
+  ]
+}

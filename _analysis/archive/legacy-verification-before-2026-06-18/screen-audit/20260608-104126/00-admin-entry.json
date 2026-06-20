@@ -1,0 +1,16 @@
+{
+  "url": "https://www.sqstackstaging.com/admin",
+  "title": "",
+  "bodyText": "Application error: a client-side exception has occurred (see the browser console for more information).",
+  "visibleTexts": [
+    {
+      "tag": "h2",
+      "role": "",
+      "type": "",
+      "href": "",
+      "text": "Application error: a client-side exception has occurred (see the browser console for more information).",
+      "visible": true
+    }
+  ],
+  "screenshotPath": "/Users/kounoyousuke/App Building/SQ/faq/_analysis/screen-audit/20260608-104126/00-admin-entry.png"
+}

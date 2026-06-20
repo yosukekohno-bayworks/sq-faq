@@ -1,0 +1,511 @@
+- generic [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "ホーム" [ref=e48] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e51]
+                - generic [ref=e53]: ホーム
+            - listitem [ref=e54]:
+              - link "商品管理" [ref=e57] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e60]
+                - generic [ref=e62]: 商品管理
+              - list [ref=e65]:
+                - listitem [ref=e66]:
+                  - link "カタログ" [ref=e69] [cursor=pointer]:
+                    - /url: /admin/catalogs
+                    - generic [ref=e70]: カタログ
+                - listitem [ref=e71]:
+                  - link "店舗受取" [ref=e74] [cursor=pointer]:
+                    - /url: /admin/local_pickup_product_variants
+                    - generic [ref=e75]: 店舗受取
+            - listitem [ref=e76]:
+              - link "在庫管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e82]
+                - generic [ref=e84]: 在庫管理
+            - listitem [ref=e85]:
+              - link "注文管理" [ref=e88] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e91]
+                - generic [ref=e93]: 注文管理
+            - listitem [ref=e94]:
+              - link "顧客管理" [ref=e97] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100]
+                - generic [ref=e103]: 顧客管理
+            - listitem [ref=e104]:
+              - link "発注管理" [ref=e107] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110]
+                - generic [ref=e113]: 発注管理
+            - listitem [ref=e114]:
+              - link "販売設定" [ref=e117] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120]
+                - generic [ref=e125]: 販売設定
+            - listitem [ref=e126]:
+              - link "会計" [ref=e129] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132]
+                - generic [ref=e134]: 会計
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e139]: オペレーション
+            - listitem [ref=e140]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e143] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146]
+                - generic [ref=e150]: 入荷管理
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 未完了の入荷指示 1件
+                  - generic [ref=e154]: "1"
+            - listitem [ref=e155]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e158] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e161]
+                - generic [ref=e163]: 出荷管理
+                - generic [ref=e165]:
+                  - generic [ref=e166]: 未完了の出荷指示 1件
+                  - generic [ref=e167]: "1"
+            - listitem [ref=e168]:
+              - link "在庫依頼" [ref=e171] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e174]
+                - generic [ref=e177]: 在庫依頼
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - generic [ref=e180]: CRM
+            - listitem [ref=e181]:
+              - link "ディスカウント" [ref=e184] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e187]
+                - generic [ref=e189]: ディスカウント
+            - listitem [ref=e190]:
+              - link "ポイント" [ref=e193] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e196]
+                - generic [ref=e198]: ポイント
+            - listitem [ref=e199]:
+              - link "会員ランク" [ref=e202] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e205]
+                - generic [ref=e208]: 会員ランク
+          - list [ref=e209]:
+            - listitem [ref=e210]:
+              - generic [ref=e211]: 販売チャネル
+            - listitem [ref=e212]:
+              - link "Shopify" [ref=e215] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e216]: Shopify
+            - listitem [ref=e217]:
+              - link "OmnibusCore" [ref=e220] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e221]: OmnibusCore
+            - listitem [ref=e222]:
+              - link "スマレジ" [ref=e225] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e226]: スマレジ
+            - listitem [ref=e227]:
+              - link "リテールポータル" [ref=e230] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e231]: リテールポータル
+            - listitem [ref=e232]:
+              - generic [ref=e233]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "設定" [ref=e238] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e241]
+                - generic [ref=e243]: 設定
+    - main [ref=e244]:
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - status:
+            - paragraph [ref=e249]: オーバーサイズスウェットシャツ。このページの準備が整いました
+          - generic [ref=e251]:
+            - link [ref=e254] [cursor=pointer]:
+              - /url: /admin/products
+              - img [ref=e257]
+            - generic [ref=e260]:
+              - heading "オーバーサイズスウェットシャツ" [level=1] [ref=e261]
+              - generic [ref=e263]:
+                - generic [ref=e264]: 情報
+                - generic [ref=e265]: 下書き
+            - button "その他の操作" [ref=e272] [cursor=pointer]:
+              - generic [ref=e273]: その他の操作
+              - img [ref=e276]
+        - generic [ref=e279]:
+          - generic [ref=e281]:
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - generic [ref=e287]:
+                  - heading "商品コード" [level=2] [ref=e288]
+                  - generic [ref=e289]:
+                    - paragraph [ref=e290]: "486125"
+                    - button [ref=e291] [cursor=pointer]:
+                      - img [ref=e294]
+                - generic [ref=e297]:
+                  - generic [ref=e300]: 商品名*
+                  - textbox "商品名*" [ref=e304]:
+                    - /placeholder: 半袖Tシャツ
+                    - text: オーバーサイズスウェットシャツ
+                - generic [ref=e306]:
+                  - generic [ref=e309]: 説明文
+                  - generic [ref=e312]:
+                    - textbox "説明文" [ref=e313]: "表面はコットンで、適度なハリ感があり、しなやかで、きれいな表情。裏面はポリエステルで滑りがあり、着心地がよい。 首元は1枚でもレイヤリングでも、だらしなく見えにくい襟仕様。 UNIQLO : C 仕様 - 着丈はやや短めの、ゆったりとしたオーバーサイズシルエット。 - 透け感: なし - トップスフィット: ゆったり - ポケット: なし - 31 BEIGE/03 GRAY/05 GRAY色は杢カラーになります。 - XS・XXL・3XL・4XLサイズは、オンラインストアのみでの取り扱いとなります。 素材 本体: 67% ポリエステル, 33% 綿/ リブ部分: 82% 綿, 18% ポリエステル 取扱い 洗濯機可・ネット使用, ドライクリーニング不可, 乾燥機不可 濃色は色落ちする事がありますので、他の物とのお洗濯はお避け下さい。汗や雨等で湿った状態、または摩擦によって、他の物に色移りする事がありますので、ご注意下さい。"
+                    - generic "5000中424の文字を使用": 424/5000
+              - generic [ref=e314]:
+                - heading "メディア（6件）" [level=2] [ref=e317]
+                - generic [ref=e318]:
+                  - img [ref=e320]:
+                    - generic [ref=e321]:
+                      - button [ref=e322]
+                      - generic [ref=e327] [cursor=pointer]:
+                        - checkbox [ref=e328]
+                        - generic:
+                          - img
+                  - img [ref=e332]:
+                    - generic [ref=e333]:
+                      - button [ref=e334]
+                      - generic [ref=e339] [cursor=pointer]:
+                        - checkbox [ref=e340]
+                        - generic:
+                          - img
+                  - img [ref=e344]:
+                    - generic [ref=e345]:
+                      - button [ref=e346]
+                      - generic [ref=e351] [cursor=pointer]:
+                        - checkbox [ref=e352]
+                        - generic:
+                          - img
+                  - img [ref=e356]:
+                    - generic [ref=e357]:
+                      - button [ref=e358]
+                      - generic [ref=e363] [cursor=pointer]:
+                        - checkbox [ref=e364]
+                        - generic:
+                          - img
+                  - img [ref=e368]:
+                    - generic [ref=e369]:
+                      - button [ref=e370]
+                      - generic [ref=e375] [cursor=pointer]:
+                        - checkbox [ref=e376]
+                        - generic:
+                          - img
+                  - img [ref=e380]:
+                    - generic [ref=e381]:
+                      - button [ref=e382]
+                      - generic [ref=e387] [cursor=pointer]:
+                        - checkbox [ref=e388]
+                        - generic:
+                          - img
+                  - generic [ref=e392]:
+                    - generic [ref=e395]: 画像をアップロード
+                    - generic [ref=e396]:
+                      - button "画像をアップロード" [ref=e398]
+                      - button "追加" [ref=e401] [cursor=pointer]:
+                        - generic [ref=e402]: 追加
+            - generic [ref=e404]:
+              - generic [ref=e405]:
+                - generic [ref=e407]:
+                  - heading "バリエーション" [level=2] [ref=e408]
+                  - link "バリエーションを追加する" [ref=e409] [cursor=pointer]:
+                    - /url: /admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product/variants/create
+                    - img [ref=e412]
+                    - generic [ref=e414]: バリエーションを追加する
+                - generic [ref=e416]:
+                  - generic [ref=e417]:
+                    - generic [ref=e420]:
+                      - generic [ref=e421]:
+                        - paragraph [ref=e423]: カラー
+                        - generic [ref=e424]:
+                          - generic [ref=e426]: BEIGE
+                          - generic [ref=e428]: GRAY
+                          - generic [ref=e430]: NAVY
+                          - generic [ref=e432]: BLACK
+                      - button "カラーを展開する" [ref=e433] [cursor=pointer]:
+                        - img [ref=e436]
+                    - separator [ref=e438]
+                  - generic [ref=e442]:
+                    - generic [ref=e443]:
+                      - paragraph [ref=e445]: サイズ
+                      - generic [ref=e446]:
+                        - generic [ref=e448]: XS
+                        - generic [ref=e450]: S
+                        - generic [ref=e452]: M
+                        - generic [ref=e454]: L
+                        - generic [ref=e456]: XL
+                    - button "サイズを展開する" [ref=e457] [cursor=pointer]:
+                      - img [ref=e460]
+                - generic [ref=e464]:
+                  - generic [ref=e825]:
+                    - generic [ref=e828] [cursor=pointer]:
+                      - generic [ref=e830]:
+                        - checkbox "すべてのアイテムを選択する" [ref=e831]
+                        - generic:
+                          - img
+                      - generic [ref=e833]: すべてのアイテムを選択する
+                    - generic [ref=e835]: バリエーション
+                    - generic [ref=e837]: 価格
+                  - table [ref=e466]:
+                    - rowgroup [ref=e467]:
+                      - row "すべてのアイテムを選択する バリエーション 価格" [ref=e468]:
+                        - columnheader "すべてのアイテムを選択する" [ref=e469]:
+                          - generic [ref=e471] [cursor=pointer]:
+                            - generic [ref=e473]
+                            - generic [ref=e476]: すべてのアイテムを選択する
+                        - columnheader "バリエーション" [ref=e477]:
+                          - generic [ref=e478]: バリエーション
+                        - columnheader "価格" [ref=e479]:
+                          - generic [ref=e480]: 価格
+                    - rowgroup [ref=e481]:
+                      - 'row "アイテムを選択する product variant thumbnail BEIGE / XS SKU: 486125-31-XS ￥3,600" [ref=e482] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e483]:
+                          - generic [ref=e485]:
+                            - generic [ref=e487]
+                            - generic [ref=e490]: アイテムを選択する
+                        - 'cell "product variant thumbnail BEIGE / XS SKU: 486125-31-XS" [ref=e491]':
+                          - generic [ref=e492]:
+                            - img "product variant thumbnail" [ref=e494]
+                            - generic [ref=e495]
+                        - cell "￥3,600" [ref=e499]:
+                          - paragraph [ref=e500]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail BEIGE / S SKU: 486125-31-S ￥3,600" [ref=e501] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e502]:
+                          - generic [ref=e504]:
+                            - generic [ref=e506]
+                            - generic [ref=e509]: アイテムを選択する
+                        - 'cell "product variant thumbnail BEIGE / S SKU: 486125-31-S" [ref=e510]':
+                          - generic [ref=e511]:
+                            - img "product variant thumbnail" [ref=e513]
+                            - generic [ref=e514]
+                        - cell "￥3,600" [ref=e518]:
+                          - paragraph [ref=e519]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail BEIGE / M SKU: 486125-31-M ￥3,600" [ref=e520] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e521]:
+                          - generic [ref=e523]:
+                            - generic [ref=e525]
+                            - generic [ref=e528]: アイテムを選択する
+                        - 'cell "product variant thumbnail BEIGE / M SKU: 486125-31-M" [ref=e529]':
+                          - generic [ref=e530]:
+                            - img "product variant thumbnail" [ref=e532]
+                            - generic [ref=e533]
+                        - cell "￥3,600" [ref=e537]:
+                          - paragraph [ref=e538]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail BEIGE / L SKU: 486125-31-L ￥3,600" [ref=e539] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e540]:
+                          - generic [ref=e542]:
+                            - generic [ref=e544]
+                            - generic [ref=e547]: アイテムを選択する
+                        - 'cell "product variant thumbnail BEIGE / L SKU: 486125-31-L" [ref=e548]':
+                          - generic [ref=e549]:
+                            - img "product variant thumbnail" [ref=e551]
+                            - generic [ref=e552]
+                        - cell "￥3,600" [ref=e556]:
+                          - paragraph [ref=e557]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail BEIGE / XL SKU: 486125-31-XL ￥3,600" [ref=e558] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e559]:
+                          - generic [ref=e561]:
+                            - generic [ref=e563]
+                            - generic [ref=e566]: アイテムを選択する
+                        - 'cell "product variant thumbnail BEIGE / XL SKU: 486125-31-XL" [ref=e567]':
+                          - generic [ref=e568]:
+                            - img "product variant thumbnail" [ref=e570]
+                            - generic [ref=e571]
+                        - cell "￥3,600" [ref=e575]:
+                          - paragraph [ref=e576]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail GRAY / XS SKU: 486125-03-XS ￥3,600" [ref=e577] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e578]:
+                          - generic [ref=e580]:
+                            - generic [ref=e582]
+                            - generic [ref=e585]: アイテムを選択する
+                        - 'cell "product variant thumbnail GRAY / XS SKU: 486125-03-XS" [ref=e586]':
+                          - generic [ref=e587]:
+                            - img "product variant thumbnail" [ref=e589]
+                            - generic [ref=e590]
+                        - cell "￥3,600" [ref=e594]:
+                          - paragraph [ref=e595]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail GRAY / S SKU: 486125-03-S ￥3,600" [ref=e596] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e597]:
+                          - generic [ref=e599]:
+                            - generic [ref=e601]
+                            - generic [ref=e604]: アイテムを選択する
+                        - 'cell "product variant thumbnail GRAY / S SKU: 486125-03-S" [ref=e605]':
+                          - generic [ref=e606]:
+                            - img "product variant thumbnail" [ref=e608]
+                            - generic [ref=e609]
+                        - cell "￥3,600" [ref=e613]:
+                          - paragraph [ref=e614]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail GRAY / M SKU: 486125-03-M ￥3,600" [ref=e615] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e616]:
+                          - generic [ref=e618]:
+                            - generic [ref=e620]
+                            - generic [ref=e623]: アイテムを選択する
+                        - 'cell "product variant thumbnail GRAY / M SKU: 486125-03-M" [ref=e624]':
+                          - generic [ref=e625]:
+                            - img "product variant thumbnail" [ref=e627]
+                            - generic [ref=e628]
+                        - cell "￥3,600" [ref=e632]:
+                          - paragraph [ref=e633]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail GRAY / L SKU: 486125-03-L ￥3,600" [ref=e634] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e635]:
+                          - generic [ref=e637]:
+                            - generic [ref=e639]
+                            - generic [ref=e642]: アイテムを選択する
+                        - 'cell "product variant thumbnail GRAY / L SKU: 486125-03-L" [ref=e643]':
+                          - generic [ref=e644]:
+                            - img "product variant thumbnail" [ref=e646]
+                            - generic [ref=e647]
+                        - cell "￥3,600" [ref=e651]:
+                          - paragraph [ref=e652]: ￥3,600
+                      - 'row "アイテムを選択する product variant thumbnail GRAY / XL SKU: 486125-03-XL ￥3,600" [ref=e653] [cursor=pointer]':
+                        - cell "アイテムを選択する" [ref=e654]:
+                          - generic [ref=e656]:
+                            - generic [ref=e658]
+                            - generic [ref=e661]: アイテムを選択する
+                        - 'cell "product variant thumbnail GRAY / XL SKU: 486125-03-XL" [ref=e662]':
+                          - generic [ref=e663]:
+                            - img "product variant thumbnail" [ref=e665]
+                            - generic [ref=e666]
+                        - cell "￥3,600" [ref=e670]:
+                          - paragraph [ref=e671]: ￥3,600
+              - generic [ref=e674]:
+                - separator [ref=e675]
+                - button "すべてのバリエーションを表示" [ref=e678] [cursor=pointer]:
+                  - generic [ref=e679]: すべてのバリエーションを表示
+            - generic [ref=e682]:
+              - heading "検索エンジンリスティング" [level=2] [ref=e683]
+              - generic [ref=e684]:
+                - generic [ref=e686]:
+                  - generic [ref=e689]: ページタイトル
+                  - textbox "ページタイトル" [ref=e693]:
+                    - /placeholder: 半袖Tシャツ
+                - generic [ref=e695]:
+                  - generic [ref=e698]: メタディスクリプション
+                  - generic [ref=e701]:
+                    - textbox "メタディスクリプション" [ref=e702]
+                    - generic "5000中0の文字を使用": 0/5000
+            - generic [ref=e704]:
+              - heading "メタフィールド" [level=2] [ref=e706]
+              - generic [ref=e707]:
+                - generic [ref=e708]:
+                  - separator [ref=e709]
+                  - generic [ref=e712]:
+                    - generic [ref=e713]:
+                      - generic [ref=e714]:
+                        - heading "TEST_FAQ_テキストフィールド" [level=3] [ref=e715]
+                        - img [ref=e718]
+                      - paragraph [ref=e722]: 未設定
+                    - button [ref=e724] [cursor=pointer]:
+                      - img [ref=e727]
+                - generic [ref=e729]:
+                  - separator [ref=e730]
+                  - generic [ref=e733]:
+                    - generic [ref=e734]:
+                      - generic [ref=e735]:
+                        - heading "TEST_FAQ_DEEP_202606080340_商品MF" [level=3] [ref=e736]
+                        - img [ref=e739]
+                      - paragraph [ref=e743]: 未設定
+                    - button [ref=e745] [cursor=pointer]:
+                      - img [ref=e748]
+          - generic [ref=e751]:
+            - generic [ref=e755]:
+              - heading "ステータス" [level=2] [ref=e756]
+              - generic [ref=e758]:
+                - combobox [ref=e759]:
+                  - option "公開中"
+                  - option "下書き" [selected]
+                - generic [ref=e760]:
+                  - generic [ref=e761]: 下書き
+                  - img [ref=e764]
+            - generic [ref=e770]:
+              - heading "商品分類" [level=2] [ref=e771]
+              - generic [ref=e772]:
+                - generic [ref=e774]:
+                  - generic [ref=e777]: 商品タイプ
+                  - textbox "商品タイプ" [ref=e781]:
+                    - /placeholder: Tシャツ
+                    - text: スウェット
+                - generic [ref=e783]:
+                  - generic [ref=e786]: 製造元
+                  - textbox "製造元" [ref=e790]:
+                    - /placeholder: ユニクロ
+                    - text: "UNIQLO : C"
+                - generic [ref=e792]:
+                  - generic [ref=e795]: ブランド
+                  - generic [ref=e796]:
+                    - textbox "ブランド" [ref=e799]:
+                      - /placeholder: 選択してください
+                    - button "選択" [ref=e801] [cursor=pointer]:
+                      - generic [ref=e802]: 選択
+            - generic [ref=e805]:
+              - generic [ref=e806]:
+                - heading "タグ" [level=2] [ref=e807]
+                - button [ref=e808] [cursor=pointer]:
+                  - img [ref=e811]
+              - generic [ref=e813]:
+                - generic [ref=e815]: ゆったり
+                - generic [ref=e817]: クルーネック
+                - generic [ref=e819]: 長袖
+          - generic [ref=e823]:
+            - button "保存する" [disabled]:
+              - generic: 保存する
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "TEST_FAQ_テキストフィールド" [active]:
+              - generic [ref=e838]:
+                - generic [ref=e840]:
+                  - heading "TEST_FAQ_テキストフィールド" [level=2] [ref=e842]
+                  - button "閉じる" [ref=e843] [cursor=pointer]:
+                    - img [ref=e846]
+                - generic [ref=e851]:
+                  - generic [ref=e854]: TEST_FAQ_テキストフィールド
+                  - textbox "TEST_FAQ_テキストフィールド" [ref=e858]
+                  - generic [ref=e859]: TEST_FAQ用のテストメタフィールドです
+                - generic [ref=e862]:
+                  - generic [ref=e863]:
+                    - button "削除する" [disabled]:
+                      - generic: 削除する
+                  - generic [ref=e864]:
+                    - button "キャンセル" [ref=e865] [cursor=pointer]:
+                      - generic [ref=e866]: キャンセル
+                    - button "保存する" [ref=e867] [cursor=pointer]:
+                      - generic [ref=e868]: 保存する
+  - alert [ref=e15]

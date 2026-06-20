@@ -1,0 +1,235 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "ホーム" [ref=e48] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e51]
+                - generic [ref=e53]: ホーム
+            - listitem [ref=e54]:
+              - link "商品管理" [ref=e57] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e60]
+                - generic [ref=e62]: 商品管理
+            - listitem [ref=e63]:
+              - link "在庫管理" [ref=e66] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e69]
+                - generic [ref=e71]: 在庫管理
+            - listitem [ref=e72]:
+              - link "注文管理" [ref=e75] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e78]
+                - generic [ref=e80]: 注文管理
+            - listitem [ref=e81]:
+              - link "顧客管理" [ref=e84] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e87]
+                - generic [ref=e90]: 顧客管理
+            - listitem [ref=e91]:
+              - link "発注管理" [ref=e94] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e97]
+                - generic [ref=e100]: 発注管理
+            - listitem [ref=e101]:
+              - link "販売設定" [ref=e104] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e107]
+                - generic [ref=e112]: 販売設定
+            - listitem [ref=e113]:
+              - link "会計" [ref=e116] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e119]
+                - generic [ref=e121]: 会計
+            - listitem [ref=e122]:
+              - generic [ref=e123]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - generic [ref=e126]: オペレーション
+            - listitem [ref=e127]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e130] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e133]
+                - generic [ref=e137]: 入荷管理
+                - generic [ref=e139]:
+                  - generic [ref=e140]: 未完了の入荷指示 1件
+                  - generic [ref=e141]: "1"
+            - listitem [ref=e142]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e148]
+                - generic [ref=e150]: 出荷管理
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 未完了の出荷指示 1件
+                  - generic [ref=e154]: "1"
+            - listitem [ref=e155]:
+              - link "在庫依頼" [ref=e158] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161]
+                - generic [ref=e164]: 在庫依頼
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - generic [ref=e167]: CRM
+            - listitem [ref=e168]:
+              - link "ディスカウント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ディスカウント
+            - listitem [ref=e177]:
+              - link "ポイント" [ref=e180] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e185]: ポイント
+              - list [ref=e188]:
+                - listitem [ref=e189]:
+                  - link "キャンペーン" [ref=e192] [cursor=pointer]:
+                    - /url: /admin/point_campaign_order_rules
+                    - generic [ref=e193]: キャンペーン
+                - listitem [ref=e194]:
+                  - link "誕生日" [ref=e197] [cursor=pointer]:
+                    - /url: /admin/point_calculation_birthday_rules
+                    - generic [ref=e198]: 誕生日
+                - listitem [ref=e199]:
+                  - link "利用外商品" [ref=e202] [cursor=pointer]:
+                    - /url: /admin/point_application_excluded_products
+                    - generic [ref=e203]: 利用外商品
+                - listitem [ref=e204]:
+                  - link "失効通知" [ref=e207] [cursor=pointer]:
+                    - /url: /admin/point_expiration_notification_rule
+                    - generic [ref=e208]: 失効通知
+            - listitem [ref=e209]:
+              - link "会員ランク" [ref=e212] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e215]
+                - generic [ref=e218]: 会員ランク
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - generic [ref=e221]: 販売チャネル
+            - listitem [ref=e222]:
+              - link "Shopify" [ref=e225] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e226]: Shopify
+            - listitem [ref=e227]:
+              - link "OmnibusCore" [ref=e230] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e231]: OmnibusCore
+            - listitem [ref=e232]:
+              - link "スマレジ" [ref=e235] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e236]: スマレジ
+            - listitem [ref=e237]:
+              - link "リテールポータル" [ref=e240] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e241]: リテールポータル
+            - listitem [ref=e242]:
+              - generic [ref=e243]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e244]:
+            - listitem [ref=e245]:
+              - link "設定" [ref=e248] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e251]
+                - generic [ref=e253]: 設定
+    - main [ref=e254]:
+      - generic [ref=e257]:
+        - generic [ref=e258]:
+          - status:
+            - paragraph [ref=e259]: ポイントキャンペーン。このページの準備が整いました
+          - generic [ref=e261]:
+            - heading "ポイントキャンペーン" [level=1] [ref=e264]
+            - link "キャンペーンを作成する" [ref=e268] [cursor=pointer]:
+              - /url: /admin/point_campaign_order_rules/create
+              - generic [ref=e269]: キャンペーンを作成する
+        - generic [ref=e276]:
+          - table [ref=e278]:
+            - rowgroup [ref=e279]:
+              - row "すべてのアイテムを選択する タイトル 種別 注文ポイント付与ルール 開始日時 終了日時 作成日時" [ref=e280]:
+                - columnheader "すべてのアイテムを選択する" [ref=e281]:
+                  - generic [ref=e283] [cursor=pointer]:
+                    - generic [ref=e285]
+                    - generic [ref=e288]: すべてのアイテムを選択する
+                - columnheader "タイトル" [ref=e289]:
+                  - generic [ref=e290]: タイトル
+                - columnheader "種別" [ref=e291]:
+                  - generic [ref=e292]: 種別
+                - columnheader "注文ポイント付与ルール" [ref=e293]:
+                  - generic [ref=e294]: 注文ポイント付与ルール
+                - columnheader "開始日時" [ref=e295]:
+                  - generic [ref=e296]: 開始日時
+                - columnheader "終了日時" [ref=e297]:
+                  - generic [ref=e298]: 終了日時
+                - columnheader "作成日時" [ref=e299]:
+                  - generic [ref=e300]: 作成日時
+            - rowgroup [ref=e301]:
+              - row "アイテムを選択する TEST_FAQ_DEEP3_202606080345_ポイントCP なし TEST_FAQ_注文ポイント付与ルール 2026年06月08日 00:00 2026年12月31日 23:59 2026年06月08日 12:46" [ref=e302] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e303]:
+                  - generic [ref=e305]:
+                    - generic [ref=e307]
+                    - generic [ref=e310]: アイテムを選択する
+                - cell "TEST_FAQ_DEEP3_202606080345_ポイントCP" [ref=e311]:
+                  - paragraph [ref=e312]: TEST_FAQ_DEEP3_202606080345_ポイントCP
+                - cell "なし" [ref=e313]:
+                  - paragraph [ref=e314]: なし
+                - cell "TEST_FAQ_注文ポイント付与ルール" [ref=e315]:
+                  - paragraph [ref=e316]: TEST_FAQ_注文ポイント付与ルール
+                - cell "2026年06月08日 00:00" [ref=e317]:
+                  - paragraph [ref=e318]: 2026年06月08日 00:00
+                - cell "2026年12月31日 23:59" [ref=e319]:
+                  - paragraph [ref=e320]: 2026年12月31日 23:59
+                - cell "2026年06月08日 12:46" [ref=e321]:
+                  - paragraph [ref=e322]: 2026年06月08日 12:46
+              - row "アイテムを選択する TEST_FAQ_ランク別ポイントキャンペーン 会員ランク TEST_FAQ_注文ポイント付与ルール 2026年01月01日 00:00 2026年12月31日 23:59 2026年06月06日 18:21" [ref=e323] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e324]:
+                  - generic [ref=e326]:
+                    - generic [ref=e328]
+                    - generic [ref=e331]: アイテムを選択する
+                - cell "TEST_FAQ_ランク別ポイントキャンペーン" [ref=e332]:
+                  - paragraph [ref=e333]: TEST_FAQ_ランク別ポイントキャンペーン
+                - cell "会員ランク" [ref=e334]:
+                  - paragraph [ref=e335]: 会員ランク
+                - cell "TEST_FAQ_注文ポイント付与ルール" [ref=e336]:
+                  - paragraph [ref=e337]: TEST_FAQ_注文ポイント付与ルール
+                - cell "2026年01月01日 00:00" [ref=e338]:
+                  - paragraph [ref=e339]: 2026年01月01日 00:00
+                - cell "2026年12月31日 23:59" [ref=e340]:
+                  - paragraph [ref=e341]: 2026年12月31日 23:59
+                - cell "2026年06月06日 18:21" [ref=e342]:
+                  - paragraph [ref=e343]: 2026年06月06日 18:21
+          - navigation "ページネーション" [ref=e347]:
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - button "前へ" [disabled]:
+                  - generic:
+                    - generic
+              - generic [ref=e352]:
+                - button "次へ" [disabled]:
+                  - generic:
+                    - generic
+  - region "Notifications alt+T"
+  - alert [ref=e15]

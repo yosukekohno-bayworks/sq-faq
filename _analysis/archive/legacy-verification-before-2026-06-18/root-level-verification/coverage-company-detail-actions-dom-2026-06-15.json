@@ -1,0 +1,339 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company",
+  "headings": [
+    "TEST_FAQ_COVERAGE_20260615_809686_会社",
+    "直近の注文",
+    "ロケーション",
+    "担当者",
+    "TEST_FAQ_COVERAGE_20260615_809686_会社",
+    "会社ID",
+    "メモ"
+  ],
+  "actions": [
+    {
+      "i": 0,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "コンテンツにスキップ",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company#AppFrameMain"
+    },
+    {
+      "i": 1,
+      "tag": "BUTTON",
+      "type": "button",
+      "role": "",
+      "text": "メニューを切り替える",
+      "disabled": false,
+      "href": ""
+    },
+    {
+      "i": 2,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "role": "",
+      "text": "",
+      "disabled": false,
+      "href": ""
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "type": "button",
+      "role": "",
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "href": ""
+    },
+    {
+      "i": 5,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 6,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "ホーム",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 7,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "商品管理",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/products"
+    },
+    {
+      "i": 8,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "在庫管理",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/inventory_items"
+    },
+    {
+      "i": 9,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "注文管理",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/orders"
+    },
+    {
+      "i": 10,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "顧客管理",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+    },
+    {
+      "i": 11,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "会社",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/companies"
+    },
+    {
+      "i": 12,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "発注管理",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+    },
+    {
+      "i": 13,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "販売設定",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+    },
+    {
+      "i": 14,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "会計",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+    },
+    {
+      "i": 15,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "分析",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/analytics"
+    },
+    {
+      "i": 16,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "入荷管理\n未完了の入荷指示 1件\n1",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+    },
+    {
+      "i": 17,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "出荷管理\n未完了の出荷指示 1件\n1",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+    },
+    {
+      "i": 18,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "在庫依頼",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+    },
+    {
+      "i": 19,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "ディスカウント",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+    },
+    {
+      "i": 20,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "ポイント",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+    },
+    {
+      "i": 21,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "会員ランク",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+    },
+    {
+      "i": 22,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "Shopify",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+    },
+    {
+      "i": 23,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "OmnibusCore",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+    },
+    {
+      "i": 24,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "スマレジ",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+    },
+    {
+      "i": 25,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "リテールポータル",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+    },
+    {
+      "i": 26,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "卸売",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/b2b"
+    },
+    {
+      "i": 27,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "設定",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/settings"
+    },
+    {
+      "i": 28,
+      "tag": "BUTTON",
+      "type": "button",
+      "role": "",
+      "text": "メニューを閉じる",
+      "disabled": false,
+      "href": ""
+    },
+    {
+      "i": 29,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/companies"
+    },
+    {
+      "i": 30,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "ロケーションを追加",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/create"
+    },
+    {
+      "i": 31,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "role": "checkbox",
+      "text": "on",
+      "disabled": false,
+      "href": ""
+    },
+    {
+      "i": 32,
+      "tag": "A",
+      "type": "",
+      "role": "",
+      "text": "TEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション",
+      "disabled": false,
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/63e34128-672d-5ddf-a150-bf4c2e26c7a9_CompanyLocation"
+    },
+    {
+      "i": 33,
+      "tag": "BUTTON",
+      "type": "button",
+      "role": "",
+      "text": "担当者を追加",
+      "disabled": false,
+      "href": ""
+    },
+    {
+      "i": 34,
+      "tag": "BUTTON",
+      "type": "button",
+      "role": "",
+      "text": "",
+      "disabled": false,
+      "href": ""
+    },
+    {
+      "i": 35,
+      "tag": "BUTTON",
+      "type": "button",
+      "role": "",
+      "text": "",
+      "disabled": false,
+      "href": ""
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_COVERAGE_20260615_809686_会社。このページの準備が整いました\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n\n2026年06月15日から顧客\n\n直近の注文\n\nこの会社はまだ注文していません\n\nロケーション\nロケーションを追加\nロケーション\n\t\n売上\n\t\n注文\n\n\nTEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション\n\t¥0\t0\n担当者\n担当者を追加\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n会社ID\n\nEXT9686\n\nメモ\n\nこの会社にはメモがありません。"
+}

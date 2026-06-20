@@ -1,0 +1,214 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "ホーム" [ref=e48] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e51]
+                - generic [ref=e53]: ホーム
+            - listitem [ref=e54]:
+              - link "商品管理" [ref=e57] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e60]
+                - generic [ref=e62]: 商品管理
+            - listitem [ref=e63]:
+              - link "在庫管理" [ref=e66] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e69]
+                - generic [ref=e71]: 在庫管理
+            - listitem [ref=e72]:
+              - link "注文管理" [ref=e75] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e78]
+                - generic [ref=e80]: 注文管理
+            - listitem [ref=e81]:
+              - link "顧客管理" [ref=e84] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e87]
+                - generic [ref=e90]: 顧客管理
+            - listitem [ref=e91]:
+              - link "発注管理" [ref=e94] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e97]
+                - generic [ref=e100]: 発注管理
+            - listitem [ref=e101]:
+              - link "販売設定" [ref=e104] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e107]
+                - generic [ref=e112]: 販売設定
+            - listitem [ref=e113]:
+              - link "会計" [ref=e116] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e119]
+                - generic [ref=e121]: 会計
+            - listitem [ref=e122]:
+              - generic [ref=e123]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - generic [ref=e126]: オペレーション
+            - listitem [ref=e127]:
+              - link "入荷管理 未完了の入荷指示 2件 2" [ref=e130] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e133]
+                - generic [ref=e137]: 入荷管理
+                - generic [ref=e139]:
+                  - generic [ref=e140]: 未完了の入荷指示 2件
+                  - generic [ref=e141]: "2"
+            - listitem [ref=e142]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e148]
+                - generic [ref=e150]: 出荷管理
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 未完了の出荷指示 1件
+                  - generic [ref=e154]: "1"
+            - listitem [ref=e155]:
+              - link "在庫依頼" [ref=e158] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161]
+                - generic [ref=e164]: 在庫依頼
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - generic [ref=e167]: CRM
+            - listitem [ref=e168]:
+              - link "ディスカウント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ディスカウント
+            - listitem [ref=e177]:
+              - link "ポイント" [ref=e180] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e185]: ポイント
+            - listitem [ref=e186]:
+              - link "会員ランク" [ref=e189] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e192]
+                - generic [ref=e195]: 会員ランク
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - generic [ref=e198]: 販売チャネル
+            - listitem [ref=e199]:
+              - link "Shopify" [ref=e202] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e203]: Shopify
+            - listitem [ref=e204]:
+              - link "OmnibusCore" [ref=e207] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e208]: OmnibusCore
+            - listitem [ref=e209]:
+              - link "スマレジ" [ref=e212] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e213]: スマレジ
+            - listitem [ref=e214]:
+              - link "リテールポータル" [ref=e217] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e218]: リテールポータル
+            - listitem [ref=e219]:
+              - generic [ref=e220]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - link "設定" [ref=e225] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e228]
+                - generic [ref=e230]: 設定
+    - main [ref=e231]:
+      - generic [ref=e420]:
+        - generic [ref=e421]:
+          - status:
+            - paragraph [ref=e422]: "#II-1008。このページの準備が整いました"
+          - generic [ref=e424]:
+            - link [ref=e427] [cursor=pointer]:
+              - /url: /admin/inventory_inbound_orders
+              - img [ref=e430]
+            - generic [ref=e433]:
+              - heading "#II-1008" [level=1] [ref=e434]
+              - generic [ref=e436]:
+                - generic [ref=e438]:
+                  - generic [ref=e439]: 成功 完了
+                  - img [ref=e440]
+                - generic [ref=e442]: 入荷完了
+            - generic [ref=e445]:
+              - generic:
+                - generic: 入荷指示を一括受領で完了する
+        - generic [ref=e447]:
+          - generic [ref=e449]:
+            - generic [ref=e453]:
+              - generic [ref=e454]:
+                - generic [ref=e457]: ロケーション
+                - textbox "ロケーション" [ref=e461]: ユニクロ - 銀座店
+              - generic [ref=e462]:
+                - generic [ref=e465]: 種別
+                - textbox "種別" [ref=e469]: 在庫移動
+            - generic [ref=e472]:
+              - generic [ref=e474]:
+                - heading "入荷明細" [level=2] [ref=e475]
+                - generic:
+                  - generic: 入荷実績を登録する
+              - generic [ref=e476]:
+                - separator [ref=e477]
+                - table [ref=e481]:
+                  - rowgroup [ref=e482]:
+                    - row "商品 SKU 入荷予定 入荷済み" [ref=e483]:
+                      - columnheader "商品" [ref=e484]:
+                        - generic [ref=e485]: 商品
+                      - columnheader "SKU" [ref=e486]:
+                        - generic [ref=e487]: SKU
+                      - columnheader "入荷予定" [ref=e488]:
+                        - generic [ref=e489]: 入荷予定
+                      - columnheader "入荷済み" [ref=e490]:
+                        - generic [ref=e491]: 入荷済み
+                  - rowgroup [ref=e492]:
+                    - row "product thumbnail バギーカーブジーンズ BLUE / 36 487973-64-36 1 1" [ref=e493] [cursor=pointer]:
+                      - cell "product thumbnail バギーカーブジーンズ BLUE / 36" [ref=e494]:
+                        - generic [ref=e495]
+                      - cell "487973-64-36" [ref=e503]:
+                        - paragraph [ref=e504]: 487973-64-36
+                      - cell "1" [ref=e505]:
+                        - paragraph [ref=e506]: "1"
+                      - cell "1" [ref=e507]:
+                        - paragraph [ref=e508]: "1"
+            - generic [ref=e512]:
+              - heading "入荷履歴" [level=2] [ref=e514]
+              - generic [ref=e515]:
+                - separator [ref=e516]
+                - generic [ref=e518]:
+                  - paragraph [ref=e520]: 2026年06月16日 23:07
+                  - button "入荷実績の明細を展開する" [ref=e521] [cursor=pointer]:
+                    - img [ref=e524]
+          - generic [ref=e529]:
+            - heading "詳細" [level=2] [ref=e530]
+            - generic [ref=e532]:
+              - term [ref=e533]: 作成日時
+              - definition [ref=e534]: 2026年06月16日 23:05
+  - region "Notifications alt+T"
+  - alert [ref=e15]

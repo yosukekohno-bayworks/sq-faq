@@ -1,0 +1,684 @@
+- generic [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "ホーム" [ref=e48] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e51]
+                - generic [ref=e53]: ホーム
+            - listitem [ref=e54]:
+              - link "商品管理" [ref=e57] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e60]
+                - generic [ref=e62]: 商品管理
+              - list [ref=e65]:
+                - listitem [ref=e66]:
+                  - link "カタログ" [ref=e69] [cursor=pointer]:
+                    - /url: /admin/catalogs
+                    - generic [ref=e70]: カタログ
+                - listitem [ref=e71]:
+                  - link "店舗受取" [ref=e74] [cursor=pointer]:
+                    - /url: /admin/local_pickup_product_variants
+                    - generic [ref=e75]: 店舗受取
+            - listitem [ref=e76]:
+              - link "在庫管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e82]
+                - generic [ref=e84]: 在庫管理
+            - listitem [ref=e85]:
+              - link "注文管理" [ref=e88] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e91]
+                - generic [ref=e93]: 注文管理
+            - listitem [ref=e94]:
+              - link "顧客管理" [ref=e97] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100]
+                - generic [ref=e103]: 顧客管理
+            - listitem [ref=e104]:
+              - link "発注管理" [ref=e107] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110]
+                - generic [ref=e113]: 発注管理
+            - listitem [ref=e114]:
+              - link "販売設定" [ref=e117] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120]
+                - generic [ref=e125]: 販売設定
+            - listitem [ref=e126]:
+              - link "会計" [ref=e129] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132]
+                - generic [ref=e134]: 会計
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e139]: オペレーション
+            - listitem [ref=e140]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e143] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146]
+                - generic [ref=e150]: 入荷管理
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 未完了の入荷指示 1件
+                  - generic [ref=e154]: "1"
+            - listitem [ref=e155]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e158] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e161]
+                - generic [ref=e163]: 出荷管理
+                - generic [ref=e165]:
+                  - generic [ref=e166]: 未完了の出荷指示 1件
+                  - generic [ref=e167]: "1"
+            - listitem [ref=e168]:
+              - link "在庫依頼" [ref=e171] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e174]
+                - generic [ref=e177]: 在庫依頼
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - generic [ref=e180]: CRM
+            - listitem [ref=e181]:
+              - link "ディスカウント" [ref=e184] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e187]
+                - generic [ref=e189]: ディスカウント
+            - listitem [ref=e190]:
+              - link "ポイント" [ref=e193] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e196]
+                - generic [ref=e198]: ポイント
+            - listitem [ref=e199]:
+              - link "会員ランク" [ref=e202] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e205]
+                - generic [ref=e208]: 会員ランク
+          - list [ref=e209]:
+            - listitem [ref=e210]:
+              - generic [ref=e211]: 販売チャネル
+            - listitem [ref=e212]:
+              - link "Shopify" [ref=e215] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e216]: Shopify
+            - listitem [ref=e217]:
+              - link "OmnibusCore" [ref=e220] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e221]: OmnibusCore
+            - listitem [ref=e222]:
+              - link "スマレジ" [ref=e225] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e226]: スマレジ
+            - listitem [ref=e227]:
+              - link "リテールポータル" [ref=e230] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e231]: リテールポータル
+            - listitem [ref=e232]:
+              - generic [ref=e233]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "設定" [ref=e238] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e241]
+                - generic [ref=e243]: 設定
+    - main [ref=e244]:
+      - generic [ref=e1201]:
+        - generic [ref=e1202]:
+          - status:
+            - paragraph [ref=e1203]: 。このページの準備が整いました
+          - generic [ref=e1205]:
+            - generic [ref=e1207]:
+              - heading [level=1]
+              - generic [ref=e1209]:
+                - link [ref=e1210] [cursor=pointer]:
+                  - /url: /admin/products
+                  - img [ref=e1213]
+                - img [ref=e1216]
+                - link "オーバーサイズスウェットシャツ" [ref=e1218] [cursor=pointer]:
+                  - /url: /admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product
+                  - paragraph [ref=e1219]: オーバーサイズスウェットシャツ
+                - img [ref=e1221]
+                - heading "BEIGE / XL" [level=1] [ref=e1223]
+            - link "在庫管理" [ref=e1229] [cursor=pointer]:
+              - /url: /admin/inventory_items/30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem
+              - generic [ref=e1230]: 在庫管理
+        - generic [ref=e1232]:
+          - generic [ref=e1235]:
+            - generic [ref=e1237]:
+              - link "product variant thumbnail" [ref=e1238] [cursor=pointer]:
+                - /url: /admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product
+                - img "product variant thumbnail" [ref=e1240]
+              - generic [ref=e1241]:
+                - paragraph [ref=e1242]: オーバーサイズスウェットシャツ
+                - paragraph [ref=e1243]: 20件のバリエーション
+            - separator [ref=e1244]
+            - listbox [ref=e1247]:
+              - option "variant thumbnail BEIGE / XS" [ref=e1248]:
+                - generic [ref=e1252] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1254]
+                  - paragraph [ref=e1255]: BEIGE / XS
+              - option "variant thumbnail BEIGE / S" [ref=e1256]:
+                - generic [ref=e1260] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1262]
+                  - paragraph [ref=e1263]: BEIGE / S
+              - option "variant thumbnail BEIGE / M" [ref=e1264]:
+                - generic [ref=e1268] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1270]
+                  - paragraph [ref=e1271]: BEIGE / M
+              - option "variant thumbnail BEIGE / L" [ref=e1272]:
+                - generic [ref=e1276] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1278]
+                  - paragraph [ref=e1279]: BEIGE / L
+              - option "variant thumbnail BEIGE / XL" [selected] [ref=e1280]:
+                - generic [ref=e1285] [cursor=pointer]:
+                  - generic [ref=e1286]:
+                    - img "variant thumbnail" [ref=e1288]
+                    - paragraph [ref=e1289]: BEIGE / XL
+                  - img [ref=e1292]
+              - option "variant thumbnail GRAY / XS" [ref=e1294]:
+                - generic [ref=e1298] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1300]
+                  - paragraph [ref=e1301]: GRAY / XS
+              - option "variant thumbnail GRAY / S" [ref=e1302]:
+                - generic [ref=e1306] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1308]
+                  - paragraph [ref=e1309]: GRAY / S
+              - option "variant thumbnail GRAY / M" [ref=e1310]:
+                - generic [ref=e1314] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1316]
+                  - paragraph [ref=e1317]: GRAY / M
+              - option "variant thumbnail GRAY / L" [ref=e1318]:
+                - generic [ref=e1322] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1324]
+                  - paragraph [ref=e1325]: GRAY / L
+              - option "variant thumbnail GRAY / XL" [ref=e1326]:
+                - generic [ref=e1330] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1332]
+                  - paragraph [ref=e1333]: GRAY / XL
+              - option "variant thumbnail NAVY / XS" [ref=e1334]:
+                - generic [ref=e1338] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1340]
+                  - paragraph [ref=e1341]: NAVY / XS
+              - option "variant thumbnail NAVY / S" [ref=e1342]:
+                - generic [ref=e1346] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1348]
+                  - paragraph [ref=e1349]: NAVY / S
+              - option "variant thumbnail NAVY / M" [ref=e1350]:
+                - generic [ref=e1354] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1356]
+                  - paragraph [ref=e1357]: NAVY / M
+              - option "variant thumbnail NAVY / L" [ref=e1358]:
+                - generic [ref=e1362] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1364]
+                  - paragraph [ref=e1365]: NAVY / L
+              - option "variant thumbnail NAVY / XL" [ref=e1366]:
+                - generic [ref=e1370] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1372]
+                  - paragraph [ref=e1373]: NAVY / XL
+              - option "variant thumbnail BLACK / XS" [ref=e1374]:
+                - generic [ref=e1378] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1380]
+                  - paragraph [ref=e1381]: BLACK / XS
+              - option "variant thumbnail BLACK / S" [ref=e1382]:
+                - generic [ref=e1386] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1388]
+                  - paragraph [ref=e1389]: BLACK / S
+              - option "variant thumbnail BLACK / M" [ref=e1390]:
+                - generic [ref=e1394] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1396]
+                  - paragraph [ref=e1397]: BLACK / M
+              - option "variant thumbnail BLACK / L" [ref=e1398]:
+                - generic [ref=e1402] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1404]
+                  - paragraph [ref=e1405]: BLACK / L
+              - option "variant thumbnail BLACK / XL" [ref=e1406]:
+                - generic [ref=e1410] [cursor=pointer]:
+                  - img "variant thumbnail" [ref=e1412]
+                  - paragraph [ref=e1413]: BLACK / XL
+          - generic [ref=e1415]:
+            - generic [ref=e1418]:
+              - heading "オプション" [level=2] [ref=e1419]
+              - generic [ref=e1420]:
+                - generic [ref=e1422]:
+                  - generic [ref=e1425]: カラー*
+                  - generic [ref=e1426]:
+                    - combobox "カラー*" [ref=e1427]:
+                      - option "選択してください" [disabled]
+                      - option "BEIGE" [selected]
+                      - option "GRAY"
+                      - option "NAVY"
+                      - option "BLACK"
+                    - generic [ref=e1428]:
+                      - generic [ref=e1429]: BEIGE
+                      - img [ref=e1432]
+                - generic [ref=e1437]:
+                  - generic [ref=e1440]: サイズ*
+                  - generic [ref=e1441]:
+                    - combobox "サイズ*" [ref=e1442]:
+                      - option "選択してください" [disabled]
+                      - option "XS"
+                      - option "S"
+                      - option "M"
+                      - option "L"
+                      - option "XL" [selected]
+                    - generic [ref=e1443]:
+                      - generic [ref=e1444]: XL
+                      - img [ref=e1447]
+              - generic [ref=e1451]:
+                - heading "メディア" [level=2] [ref=e1454]
+                - generic [ref=e1457]:
+                  - button [ref=e1458]
+                  - generic [ref=e1463] [cursor=pointer]:
+                    - checkbox [ref=e1464]
+                    - generic:
+                      - img
+                - button "画像を選択する" [ref=e1467] [cursor=pointer]:
+                  - generic [ref=e1468]: 画像を選択する
+            - generic [ref=e1471]:
+              - heading "価格" [level=2] [ref=e1472]
+              - generic [ref=e1475]:
+                - generic [ref=e1478]: 上代*
+                - generic [ref=e1481]:
+                  - generic [ref=e1482]: ￥
+                  - spinbutton "上代* ￥" [ref=e1483]: "3600"
+            - generic [ref=e1485]:
+              - generic [ref=e1487]:
+                - heading "在庫" [level=2] [ref=e1488]
+                - generic [ref=e1489]:
+                  - group [ref=e1490]:
+                    - generic [ref=e1491]:
+                      - generic [ref=e1493]:
+                        - generic [ref=e1496]: SKU (最小管理単位)*
+                        - textbox "SKU (最小管理単位)*" [ref=e1500]: 486125-31-XL
+                      - generic [ref=e1502]:
+                        - generic [ref=e1505]: メーカーSKU
+                        - textbox "メーカーSKU" [ref=e1509]
+                  - generic [ref=e1511]:
+                    - generic [ref=e1512] [cursor=pointer]:
+                      - generic [ref=e1514]:
+                        - checkbox "在庫を追跡する" [checked] [ref=e1515]
+                        - generic:
+                          - img
+                      - generic [ref=e1517]: 在庫を追跡する
+                    - generic [ref=e1518] [cursor=pointer]:
+                      - generic [ref=e1520]:
+                        - checkbox "在庫切れの場合でも販売を続ける" [ref=e1521]
+                        - generic:
+                          - img
+                      - generic [ref=e1523]: 在庫切れの場合でも販売を続ける
+              - separator [ref=e1524]
+              - generic [ref=e1526]:
+                - generic [ref=e1527]:
+                  - heading "原価" [level=2] [ref=e1528]
+                  - button "原価を登録する" [ref=e1529] [cursor=pointer]:
+                    - img [ref=e1532]
+                    - generic [ref=e1534]: 原価を登録する
+                - paragraph [ref=e1535]: 原価が設定されていません
+            - generic [ref=e1538]:
+              - heading "販売" [level=2] [ref=e1539]
+              - generic [ref=e1540]:
+                - generic [ref=e1542]:
+                  - generic [ref=e1545]: バーコード
+                  - textbox "バーコード" [ref=e1549]
+                - generic [ref=e1551]:
+                  - generic [ref=e1552]:
+                    - generic [ref=e1555]: JAN
+                    - textbox "JAN" [ref=e1559]
+                  - generic [ref=e1560]:
+                    - generic [ref=e1563]: EAN
+                    - textbox "EAN" [ref=e1567]
+                  - generic [ref=e1568]:
+                    - generic [ref=e1571]: UPC
+                    - textbox "UPC" [ref=e1575]
+            - generic [ref=e1577]:
+              - generic [ref=e1579]:
+                - heading "配送" [level=2] [ref=e1580]
+                - generic [ref=e1581]:
+                  - group [ref=e1582]:
+                    - generic [ref=e1583]:
+                      - generic [ref=e1585]:
+                        - generic [ref=e1588]: 重量
+                        - spinbutton "重量" [ref=e1592]
+                      - generic [ref=e1594]:
+                        - generic [ref=e1597]: 単位
+                        - generic [ref=e1598]:
+                          - combobox "単位" [ref=e1599]:
+                            - option "グラム"
+                            - option "キログラム" [selected]
+                            - option "オンス"
+                            - option "ポンド"
+                          - generic [ref=e1600]:
+                            - generic [ref=e1601]: キログラム
+                            - img [ref=e1604]
+                  - generic [ref=e1609] [cursor=pointer]:
+                    - generic [ref=e1611]:
+                      - checkbox "配送を必須にする" [checked] [ref=e1612]
+                      - generic:
+                        - img
+                    - generic [ref=e1614]: 配送を必須にする
+              - separator [ref=e1615]
+              - generic [ref=e1617]:
+                - heading "関税情報" [level=2] [ref=e1618]
+                - generic [ref=e1619]:
+                  - generic [ref=e1621]:
+                    - generic [ref=e1624]: 原産国コード
+                    - generic [ref=e1625]:
+                      - combobox "原産国コード" [ref=e1626]:
+                        - option "選択してください" [disabled] [selected]
+                        - option "バーレーン"
+                        - option "デンマーク"
+                        - option "コンゴ共和国"
+                        - option "レバノン"
+                        - option "パラグアイ"
+                        - option "ロシア"
+                        - option "ウクライナ"
+                        - option "バヌアツ"
+                        - option "ベナン"
+                        - option "キューバ"
+                        - option "日本"
+                        - option "コスタリカ"
+                        - option "イギリス領インド洋地域"
+                        - option "アンティグア・バーブーダ"
+                        - option "オーストリア"
+                        - option "カーボベルデ"
+                        - option "アイルランド"
+                        - option "キリバス"
+                        - option "モンゴル"
+                        - option "スロバキア"
+                        - option "タンザニア"
+                        - option "香港"
+                        - option "モナコ"
+                        - option "ナウル"
+                        - option "ブルンジ"
+                        - option "リビア"
+                        - option "スウェーデン"
+                        - option "ブーベ島"
+                        - option "クロアチア"
+                        - option "トーゴ"
+                        - option "タイ"
+                        - option "トルクメニスタン"
+                        - option "台湾"
+                        - option "その他の地域"
+                        - option "ボツワナ"
+                        - option "オーストラリア"
+                        - option "グアドループ"
+                        - option "セントルシア"
+                        - option "トンガ"
+                        - option "オランダ領アンティル"
+                        - option "ルクセンブルク"
+                        - option "ノーフォーク島"
+                        - option "ナイジェリア"
+                        - option "フランス南方・南極地域"
+                        - option "ザンビア"
+                        - option "エストニア"
+                        - option "ジョージア"
+                        - option "ガーナ"
+                        - option "カザフスタン"
+                        - option "東ティモール"
+                        - option "トリニダード・トバゴ"
+                        - option "レユニオン"
+                        - option "ツバル"
+                        - option "アゼルバイジャン"
+                        - option "ブータン"
+                        - option "韓国"
+                        - option "ヨルダン"
+                        - option "セルビア"
+                        - option "モーリタニア"
+                        - option "サンマリノ"
+                        - option "サントメ・プリンシペ"
+                        - option "ウルグアイ"
+                        - option "モザンビーク"
+                        - option "イラク"
+                        - option "マダガスカル"
+                        - option "モーリシャス"
+                        - option "ノルウェー"
+                        - option "シンガポール"
+                        - option "フランス領ギアナ"
+                        - option "北朝鮮"
+                        - option "バチカン市国"
+                        - option "イギリス領ヴァージン諸島"
+                        - option "バングラデシュ"
+                        - option "オマーン"
+                        - option "ジブラルタル"
+                        - option "ギリシャ"
+                        - option "ギニアビサウ"
+                        - option "マン島"
+                        - option "サモア"
+                        - option "モントセラト"
+                        - option "セントヘレナ"
+                        - option "アンゴラ"
+                        - option "ベルギー"
+                        - option "キプロス"
+                        - option "ハンガリー"
+                        - option "アイスランド"
+                        - option "シリア"
+                        - option "サン・バルテルミー"
+                        - option "ブラジル"
+                        - option "フェロー諸島"
+                        - option "ガイアナ"
+                        - option "ハード島とマクドナルド諸島"
+                        - option "ポーランド"
+                        - option "タジキスタン"
+                        - option "ラオス"
+                        - option "サンピエール・ミクロン"
+                        - option "ブルガリア"
+                        - option "ニカラグア"
+                        - option "スヴァールバル諸島およびヤンマイエン島"
+                        - option "シエラレオネ"
+                        - option "シント・マールテン"
+                        - option "チュニジア"
+                        - option "ドミニカ国"
+                        - option "サウスジョージア・サウスサンドウィッチ諸島"
+                        - option "バルバドス"
+                        - option "オランダ領カリブ"
+                        - option "パキスタン"
+                        - option "コソボ"
+                        - option "キルギス"
+                        - option "モルディブ"
+                        - option "パプアニューギニア"
+                        - option "エスワティニ"
+                        - option "ココス諸島"
+                        - option "スペイン"
+                        - option "ジャマイカ"
+                        - option "コモロ"
+                        - option "スリランカ"
+                        - option "ニウエ"
+                        - option "オーランド諸島"
+                        - option "ドミニカ共和国"
+                        - option "マカオ"
+                        - option "ブルネイ"
+                        - option "ベネズエラ"
+                        - option "マルタ"
+                        - option "マレーシア"
+                        - option "合衆国領有小離島"
+                        - option "セントビンセント・グレナディーン"
+                        - option "ジンバブエ"
+                        - option "リベリア"
+                        - option "アルバニア"
+                        - option "ブルキナファソ"
+                        - option "チェコ"
+                        - option "西サハラ"
+                        - option "ガボン"
+                        - option "ハイチ"
+                        - option "マラウイ"
+                        - option "レソト"
+                        - option "ボリビア"
+                        - option "フィジー"
+                        - option "ガーンジー"
+                        - option "ミャンマー"
+                        - option "スロベニア"
+                        - option "マヨット"
+                        - option "インド"
+                        - option "マルティニーク"
+                        - option "セネガル"
+                        - option "チャド"
+                        - option "ウズベキスタン"
+                        - option "ボスニア・ヘルツェゴビナ"
+                        - option "中央アフリカ共和国"
+                        - option "メキシコ"
+                        - option "ピトケアン諸島"
+                        - option "モルドバ"
+                        - option "イギリス"
+                        - option "ニュージーランド"
+                        - option "パレスチナ"
+                        - option "アンギラ"
+                        - option "エチオピア"
+                        - option "フィンランド"
+                        - option "ホンジュラス"
+                        - option "エルサルバドル"
+                        - option "バミューダ"
+                        - option "クック諸島"
+                        - option "エクアドル"
+                        - option "セントクリストファー・ネイビス"
+                        - option "ポルトガル"
+                        - option "アンドラ"
+                        - option "カメルーン"
+                        - option "アルジェリア"
+                        - option "ケイマン諸島"
+                        - option "ウォリス・フツナ"
+                        - option "チリ"
+                        - option "キュラソー"
+                        - option "ガンビア"
+                        - option "ルーマニア"
+                        - option "アルバ"
+                        - option "ベラルーシ"
+                        - option "グアテマラ"
+                        - option "イスラエル"
+                        - option "マリ"
+                        - option "フランス領ポリネシア"
+                        - option "トケラウ"
+                        - option "ドイツ"
+                        - option "フォークランド諸島"
+                        - option "フランス"
+                        - option "リヒテンシュタイン"
+                        - option "ニジェール"
+                        - option "セーシェル"
+                        - option "ベリーズ"
+                        - option "コロンビア"
+                        - option "モンテネグロ"
+                        - option "サン・マルタン"
+                        - option "フィリピン"
+                        - option "スリナム"
+                        - option "ラトビア"
+                        - option "サウジアラビア"
+                        - option "ソロモン諸島"
+                        - option "ソマリア"
+                        - option "クリスマス島"
+                        - option "ジブチ"
+                        - option "イタリア"
+                        - option "北マケドニア"
+                        - option "南スーダン"
+                        - option "アルメニア"
+                        - option "エリトリア"
+                        - option "イラン"
+                        - option "ナミビア"
+                        - option "カタール"
+                        - option "イエメン"
+                        - option "カナダ"
+                        - option "インドネシア"
+                        - option "オランダ"
+                        - option "パナマ"
+                        - option "アラブ首長国連邦"
+                        - option "グレナダ"
+                        - option "ネパール"
+                        - option "ベトナム"
+                        - option "アフガニスタン"
+                        - option "アルゼンチン"
+                        - option "ジャージー"
+                        - option "ニューカレドニア"
+                        - option "バハマ"
+                        - option "コートジボワール"
+                        - option "ケニア"
+                        - option "スーダン"
+                        - option "赤道ギニア"
+                        - option "カンボジア"
+                        - option "クウェート"
+                        - option "リトアニア"
+                        - option "モロッコ"
+                        - option "ペルー"
+                        - option "ルワンダ"
+                        - option "アメリカ合衆国"
+                        - option "スイス"
+                        - option "グリーンランド"
+                        - option "タークス・カイコス諸島"
+                        - option "アセンション島"
+                        - option "コンゴ民主共和国"
+                        - option "エジプト"
+                        - option "トルコ"
+                        - option "ウガンダ"
+                        - option "中国"
+                        - option "ギニア"
+                        - option "南アフリカ"
+                        - option "トリスタン・ダ・クーニャ"
+                      - generic [ref=e1627]:
+                        - generic [ref=e1628]: 選択してください
+                        - img [ref=e1631]
+                  - generic [ref=e1636]:
+                    - generic [ref=e1639]: 統計品目 (HS) コード
+                    - textbox "統計品目 (HS) コード" [ref=e1643]
+          - button "更新する" [ref=e1648] [cursor=pointer]:
+            - generic [ref=e1649]: 更新する
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "原価を登録する" [active]:
+              - generic [ref=e1650]:
+                - generic [ref=e1652]:
+                  - heading "原価を登録する" [level=2] [ref=e1654]
+                  - button "閉じる" [ref=e1655] [cursor=pointer]:
+                    - img [ref=e1658]
+                - generic [ref=e1663]:
+                  - generic [ref=e1665]:
+                    - generic [ref=e1668]: 通貨
+                    - generic [ref=e1669]:
+                      - combobox "通貨" [ref=e1670]:
+                        - option "選択してください" [disabled] [selected]
+                        - option "米ドル"
+                        - option "ユーロ"
+                        - option "日本円"
+                        - option "タイ バーツ"
+                        - option "シンガポール ドル"
+                      - generic [ref=e1671]:
+                        - generic [ref=e1672]: 選択してください
+                        - img [ref=e1675]
+                  - generic [ref=e1680]:
+                    - generic [ref=e1683]: 原価
+                    - spinbutton "原価" [ref=e1687]
+                - generic [ref=e1691]:
+                  - button "キャンセル" [ref=e1692] [cursor=pointer]:
+                    - generic [ref=e1693]: キャンセル
+                  - button "登録する" [disabled]:
+                    - generic: 登録する
+  - alert [ref=e15]

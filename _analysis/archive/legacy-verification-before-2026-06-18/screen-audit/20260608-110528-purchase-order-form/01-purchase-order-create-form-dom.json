@@ -1,0 +1,198 @@
+[
+  {
+    "i": 0,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを切り替える",
+    "aria": "メニューを切り替える"
+  },
+  {
+    "i": 2,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "stack-ps-yosuke 陽介 河野",
+    "aria": ""
+  },
+  {
+    "i": 3,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを閉じる",
+    "aria": "メニューを閉じる"
+  },
+  {
+    "i": 4,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "取引先",
+    "aria": ""
+  },
+  {
+    "i": 5,
+    "tag": "SELECT",
+    "role": "",
+    "type": "",
+    "text": "選択してください TEST_FAQ_Supplier TEST_FAQ_Supplier2",
+    "value": "",
+    "aria": ""
+  },
+  {
+    "i": 6,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "選択してください",
+    "aria": ""
+  },
+  {
+    "i": 7,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "TEST_FAQ_Supplier",
+    "aria": ""
+  },
+  {
+    "i": 8,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "TEST_FAQ_Supplier2",
+    "aria": ""
+  },
+  {
+    "i": 9,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "テナント",
+    "aria": ""
+  },
+  {
+    "i": 10,
+    "tag": "SELECT",
+    "role": "",
+    "type": "",
+    "text": "選択してください ユニクロ",
+    "value": "",
+    "aria": ""
+  },
+  {
+    "i": 11,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "選択してください",
+    "aria": ""
+  },
+  {
+    "i": 12,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "ユニクロ",
+    "aria": ""
+  },
+  {
+    "i": 13,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "通貨",
+    "aria": ""
+  },
+  {
+    "i": 14,
+    "tag": "SELECT",
+    "role": "",
+    "type": "",
+    "text": "米ドル ユーロ 日本円 タイ バーツ シンガポール ドル",
+    "value": "JPY",
+    "aria": ""
+  },
+  {
+    "i": 15,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "米ドル",
+    "aria": ""
+  },
+  {
+    "i": 16,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "ユーロ",
+    "aria": ""
+  },
+  {
+    "i": 17,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "日本円",
+    "aria": ""
+  },
+  {
+    "i": 18,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "タイ バーツ",
+    "aria": ""
+  },
+  {
+    "i": 19,
+    "tag": "OPTION",
+    "role": "",
+    "type": "",
+    "text": "シンガポール ドル",
+    "aria": ""
+  },
+  {
+    "i": 20,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "商品を追加する",
+    "aria": ""
+  },
+  {
+    "i": 21,
+    "tag": "INPUT",
+    "role": "",
+    "type": "text",
+    "text": "商品を検索する",
+    "value": "",
+    "aria": ""
+  },
+  {
+    "i": 22,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "参照",
+    "aria": ""
+  },
+  {
+    "i": 23,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "取り消す",
+    "aria": ""
+  },
+  {
+    "i": 24,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "作成する",
+    "aria": ""
+  }
+]

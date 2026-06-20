@@ -1,0 +1,9 @@
+- list [ref=e271]:
+  - listitem [ref=e272]:
+    - generic [ref=e274]:
+      - radio "購入金額" [checked] [disabled] [ref=e277]
+      - generic [ref=e279]: 購入金額
+  - listitem [ref=e280]:
+    - generic [ref=e282]:
+      - radio "獲得ポイント" [disabled] [ref=e285]
+      - generic [ref=e287]: 獲得ポイント

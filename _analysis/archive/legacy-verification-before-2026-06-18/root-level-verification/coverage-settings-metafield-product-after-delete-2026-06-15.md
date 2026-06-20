@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e10]:
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e16]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: stack-ps-yosuke
+            - paragraph [ref=e24]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e26]
+    - generic "メニュー" [ref=e27]:
+      - navigation [ref=e28]:
+        - generic [ref=e29]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "ホーム" [ref=e34] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e37]
+                - generic [ref=e39]: ホーム
+            - listitem [ref=e40]:
+              - link "商品管理" [ref=e43] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e46]
+                - generic [ref=e48]: 商品管理
+            - listitem [ref=e49]:
+              - link "在庫管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e55]
+                - generic [ref=e57]: 在庫管理
+            - listitem [ref=e58]:
+              - link "注文管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e64]
+                - generic [ref=e66]: 注文管理
+            - listitem [ref=e67]:
+              - link "顧客管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e73]
+                - generic [ref=e76]: 顧客管理
+            - listitem [ref=e77]:
+              - link "発注管理" [ref=e80] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e83]
+                - generic [ref=e86]: 発注管理
+            - listitem [ref=e87]:
+              - link "販売設定" [ref=e90] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e93]
+                - generic [ref=e98]: 販売設定
+            - listitem [ref=e99]:
+              - link "会計" [ref=e102] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e105]
+                - generic [ref=e107]: 会計
+            - listitem [ref=e108]:
+              - generic [ref=e109]:
+                - generic
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - generic [ref=e112]: オペレーション
+            - listitem [ref=e113]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e116] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e119]
+                - generic [ref=e123]: 入荷管理
+                - generic [ref=e125]
+            - listitem [ref=e128]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e131] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e134]
+                - generic [ref=e136]: 出荷管理
+                - generic [ref=e138]
+            - listitem [ref=e141]:
+              - link "在庫依頼" [ref=e144] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e147]
+                - generic [ref=e150]: 在庫依頼
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - generic [ref=e153]: CRM
+            - listitem [ref=e154]:
+              - link "ディスカウント" [ref=e157] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e160]
+                - generic [ref=e162]: ディスカウント
+            - listitem [ref=e163]:
+              - link "ポイント" [ref=e166] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e169]
+                - generic [ref=e171]: ポイント
+            - listitem [ref=e172]:
+              - link "会員ランク" [ref=e175] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e178]
+                - generic [ref=e181]: 会員ランク
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - generic [ref=e184]: 販売チャネル
+            - listitem [ref=e185]:
+              - link "Shopify" [ref=e188] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e189]: Shopify
+            - listitem [ref=e190]:
+              - link "OmnibusCore" [ref=e193] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e194]: OmnibusCore
+            - listitem [ref=e195]:
+              - link "スマレジ" [ref=e198] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e199]: スマレジ
+            - listitem [ref=e200]:
+              - link "リテールポータル" [ref=e203] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e204]: リテールポータル
+            - listitem [ref=e205]:
+              - generic [ref=e206]:
+                - generic
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - link "設定" [ref=e211] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e214]
+                - generic [ref=e216]: 設定
+    - main [ref=e217]:
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - status:
+            - paragraph [ref=e222]: 商品メタフィールドの定義。このページの準備が整いました
+          - generic [ref=e224]:
+            - link [ref=e227] [cursor=pointer]:
+              - /url: /admin/settings/metafield_definitions
+              - img [ref=e230]
+            - heading "商品メタフィールドの定義" [level=1] [ref=e234]
+            - link "定義を追加する" [ref=e238] [cursor=pointer]:
+              - /url: /admin/settings/metafield_definitions/product/create
+              - generic [ref=e239]: 定義を追加する
+        - table [ref=e262]:
+          - rowgroup [ref=e263]:
+            - row "すべてのアイテムを選択する 定義名 コンテンツタイプ 権限 使用箇所" [ref=e264]:
+              - columnheader "すべてのアイテムを選択する" [ref=e265]:
+                - generic [ref=e267] [cursor=pointer]
+              - columnheader "定義名" [ref=e273]:
+                - generic [ref=e274]: 定義名
+              - columnheader "コンテンツタイプ" [ref=e275]:
+                - generic [ref=e276]: コンテンツタイプ
+              - columnheader "権限" [ref=e277]:
+                - generic [ref=e278]: 権限
+              - columnheader "使用箇所" [ref=e279]:
+                - generic [ref=e280]: 使用箇所
+          - rowgroup [ref=e281]:
+            - row "アイテムを選択する TEST_FAQ_DEEP_202606080340_商品MF test_faq_deep_202606080340_ns.test_faq_deep_202606080340_key 単一行のテキスト 編集可 0個の商品" [ref=e301] [cursor=pointer]:
+              - cell "アイテムを選択する" [ref=e302]:
+                - generic [ref=e304]
+              - cell "TEST_FAQ_DEEP_202606080340_商品MF test_faq_deep_202606080340_ns.test_faq_deep_202606080340_key" [ref=e310]:
+                - generic [ref=e311]
+              - cell "単一行のテキスト" [ref=e314]:
+                - paragraph [ref=e315]: 単一行のテキスト
+              - cell "編集可" [ref=e316]:
+                - paragraph [ref=e317]: 編集可
+              - cell "0個の商品" [ref=e318]:
+                - paragraph [ref=e319]: 0個の商品
+            - row "アイテムを選択する TEST_FAQ_テキストフィールド test_faq.test_faq_text 単一行のテキスト 編集可 0個の商品" [ref=e320] [cursor=pointer]:
+              - cell "アイテムを選択する" [ref=e321]:
+                - generic [ref=e323]
+              - cell "TEST_FAQ_テキストフィールド test_faq.test_faq_text" [ref=e329]:
+                - generic [ref=e330]
+              - cell "単一行のテキスト" [ref=e333]:
+                - paragraph [ref=e334]: 単一行のテキスト
+              - cell "編集可" [ref=e335]:
+                - paragraph [ref=e336]: 編集可
+              - cell "0個の商品" [ref=e337]:
+                - paragraph [ref=e338]: 0個の商品
+  - region "Notifications alt+T"
+  - alert [ref=e341]

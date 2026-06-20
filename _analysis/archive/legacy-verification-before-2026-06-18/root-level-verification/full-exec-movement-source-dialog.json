@@ -1,0 +1,465 @@
+{
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n移動伝票を作成する。このページの準備が整いました\n\n移動伝票を作成する\n配送元\n配送元\n選択\n配送先\n配送先\n選択\n商品を追加\n商品を追加する\n参照\n保存する\nロケーションを選択する\nすべて\n店舗\n倉庫\nアイテムを読み込んでいます...\nすべてのアイテムを選択する\n\t\n名前\n\t\n場所コード\n\n\nアイテムを選択する\n\t\n\n物流倉庫\n\n\t\n\nW0001\n\n\n\nアイテムを選択する\n\t\n\nユニクロ - 銀座店\n\n\t\n\nR0001\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP2_202606080343_ロケーション\n\n\t\n\ntest_faq_deep2_202606080343_loc\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_店舗在庫EC販売用\n\n\t\n\nTESTEC01\n\nキャンセル\n選択する",
+  "controls": [
+    {
+      "i": 0,
+      "text": "コンテンツにスキップ",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "text": "ホーム",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "text": "商品管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "text": "在庫管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "text": "移動伝票",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 10,
+      "text": "調整伝票",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 11,
+      "text": "取置伝票",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "text": "注文管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 13,
+      "text": "顧客管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 14,
+      "text": "発注管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 15,
+      "text": "販売設定",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 16,
+      "text": "会計",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 17,
+      "text": "分析",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 18,
+      "text": "入荷管理\n未完了の入荷指示 1件\n1",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 19,
+      "text": "出荷管理\n未完了の出荷指示 1件\n1",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 20,
+      "text": "在庫依頼",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 21,
+      "text": "ディスカウント",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 22,
+      "text": "ポイント",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 23,
+      "text": "会員ランク",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 24,
+      "text": "Shopify",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 25,
+      "text": "OmnibusCore",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 26,
+      "text": "スマレジ",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 27,
+      "text": "リテールポータル",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 28,
+      "text": "卸売",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 29,
+      "text": "設定",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 30,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 31,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 32,
+      "text": "",
+      "aria": null,
+      "placeholder": "配送元を選択してください",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 33,
+      "text": "選択",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 34,
+      "text": "",
+      "aria": null,
+      "placeholder": "配送先を選択してください",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 35,
+      "text": "選択",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 36,
+      "text": "",
+      "aria": null,
+      "placeholder": "配送元を選択してください",
+      "value": "",
+      "disabled": true
+    },
+    {
+      "i": 37,
+      "text": "参照",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": "true"
+    },
+    {
+      "i": 38,
+      "text": "保存する",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": "false"
+    },
+    {
+      "i": 39,
+      "text": "",
+      "aria": "閉じる",
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 40,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 41,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 42,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 43,
+      "text": "",
+      "aria": "その他のビュー",
+      "placeholder": null,
+      "value": "",
+      "disabled": "false"
+    },
+    {
+      "i": 44,
+      "text": "すべて",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 45,
+      "text": "店舗",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 46,
+      "text": "倉庫",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 47,
+      "text": "その他のビュー",
+      "aria": "その他のビュー",
+      "placeholder": null,
+      "value": "",
+      "disabled": "false"
+    },
+    {
+      "i": 48,
+      "text": "",
+      "aria": "検索と絞り込みの結果",
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 49,
+      "text": "",
+      "aria": "検索結果を並べ替える",
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 50,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 51,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 52,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 53,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 54,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 55,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 56,
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 57,
+      "text": "",
+      "aria": "前へ",
+      "placeholder": null,
+      "value": "",
+      "disabled": "true"
+    },
+    {
+      "i": 58,
+      "text": "",
+      "aria": "次へ",
+      "placeholder": null,
+      "value": "",
+      "disabled": "true"
+    },
+    {
+      "i": 59,
+      "text": "キャンセル",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 60,
+      "text": "選択する",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    }
+  ]
+}

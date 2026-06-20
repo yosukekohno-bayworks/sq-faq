@@ -1,0 +1,2506 @@
+{
+  "generatedAt": "2026-06-08T03:05:24.642Z",
+  "targetFiles": [
+    "00-admin-sitemap.md",
+    "01-helpcenter-coverage-gap.md",
+    "02-helpcenter-pages.md",
+    "02-home.md",
+    "03-products.md",
+    "04-inventory.md",
+    "05-orders.md",
+    "06-customers.md",
+    "07-purchase-orders.md",
+    "08-sales-settings.md",
+    "09-accounting.md",
+    "10-analytics.md",
+    "11-operations.md",
+    "12-crm.md",
+    "13-channels.md",
+    "14-settings.md",
+    "15-csv-pdf.md",
+    "COMPLEX-OPERATIONS.md",
+    "CONFIRMATION-LIST.md",
+    "README.md",
+    "SUMMARY.md"
+  ],
+  "uniqueStaticUrls": [
+    "/admin/analytics",
+    "/admin/b2b",
+    "/admin/b2b/create",
+    "/admin/catalogs",
+    "/admin/catalogs/create",
+    "/admin/catalogs/e2a819ab-",
+    "/admin/catalogs/e2a819ab-.../catalog_product_variants",
+    "/admin/catalogs/e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog",
+    "/admin/companies",
+    "/admin/companies/",
+    "/admin/companies/9481aa92-6e9d-5c81-9aca-68be833882c3_Company/contacts/b7732de6-f920-5983-af16-e7959b0a62e5_CompanyContact",
+    "/admin/companies/create",
+    "/admin/csv_export",
+    "/admin/csv_export/csv_export_operation_inventory_logical_quantities",
+    "/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds",
+    "/admin/csv_export/csv_export_operation_location_by_location_group",
+    "/admin/csv_export/csv_export_operation_order_price_adjustment_usages",
+    "/admin/csv_export/csv_export_operation_point_changes",
+    "/admin/csv_export/csv_export_operation_point_changes/create",
+    "/admin/csv_export/csv_export_operation_product_price_rule_sale_prices",
+    "/admin/csv_export/csv_export_operation_product_variants",
+    "/admin/csv_export/csv_export_operation_sale_changes",
+    "/admin/csv_export/csv_export_operation_sale_changes/create",
+    "/admin/csv_import",
+    "/admin/csv_import/csv_export_operation_inventory_logical_available_quantities",
+    "/admin/csv_import/csv_import_operation_catalog_products",
+    "/admin/csv_import/csv_import_operation_catalog_products/create",
+    "/admin/csv_import/csv_import_operation_fulfillment_by_dhls",
+    "/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds",
+    "/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants",
+    "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+    "/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create",
+    "/admin/csv_import/csv_import_operation_point_pluses",
+    "/admin/csv_import/csv_import_operation_point_pluses/create",
+    "/admin/csv_import/csv_import_operation_product_images",
+    "/admin/csv_import/csv_import_operation_product_metafields",
+    "/admin/csv_import/csv_import_operation_product_price_rule_sale_prices",
+    "/admin/csv_import/csv_import_operation_product_variant_metafields",
+    "/admin/csv_import/csv_import_operation_product_variants",
+    "/admin/csv_import/csv_import_operation_products",
+    "/admin/csv_import/csv_import_operation_products/create",
+    "/admin/csv_import/csv_import_settings_suppliers",
+    "/admin/customer_rank_calculation_rules",
+    "/admin/customer_rank_calculation_rules/37f5da19-..._CustomerRankCalculationRule/customer_rank_rules/create",
+    "/admin/customer_ranks",
+    "/admin/draft_orders",
+    "/admin/draft_orders/create",
+    "/admin/inventory_adjustment_orders",
+    "/admin/inventory_adjustment_orders/create",
+    "/admin/inventory_allocation_request_confirmations",
+    "/admin/inventory_allocation_requests",
+    "/admin/inventory_allocation_requests/create",
+    "/admin/inventory_back_order_rules",
+    "/admin/inventory_back_order_rules/create",
+    "/admin/inventory_inbound_orders",
+    "/admin/inventory_items",
+    "/admin/inventory_movement_orders",
+    "/admin/inventory_movement_orders/create",
+    "/admin/inventory_outbound_orders",
+    "/admin/inventory_outbound_orders/export/yamato_b2_cloud",
+    "/admin/inventory_purchase_orders",
+    "/admin/inventory_purchase_orders/create",
+    "/admin/inventory_reservation_orders",
+    "/admin/inventory_sale_limit_rules",
+    "/admin/inventory_sale_limit_rules/create",
+    "/admin/inventory_suppliers",
+    "/admin/inventory_suppliers/create",
+    "/admin/inventory_threshold_rules",
+    "/admin/inventory_threshold_rules/create",
+    "/admin/local_pickup_product_variants",
+    "/admin/local_pickup_retail_location_rules",
+    "/admin/local_pickup_retail_location_rules/create",
+    "/admin/logizard_integrations",
+    "/admin/omnibus_core_integrations",
+    "/admin/omnibus_core_integrations/.../",
+    "/admin/omnibus_core_integrations/TEST_MAKER_001",
+    "/admin/omnibus_core_integrations/create",
+    "/admin/order_price_adjustment_rules",
+    "/admin/order_price_adjustment_rules/create",
+    "/admin/order_returns",
+    "/admin/order_returns/create",
+    "/admin/orders",
+    "/admin/orders/",
+    "/admin/pdf_export",
+    "/admin/pdf_export/pdf_export_operation_packing_slips",
+    "/admin/point_application_excluded_products/create",
+    "/admin/point_calculation_birthday_rules/create",
+    "/admin/point_calculation_rules",
+    "/admin/point_campaign_order_rules/create",
+    "/admin/point_expiration_notification_rule/create",
+    "/admin/product_price_rules",
+    "/admin/product_price_rules/409e8f6d-d73a-5c7b-a583-30559aa8a62b_ProductPriceRule",
+    "/admin/product_price_rules/create",
+    "/admin/product_price_rules/eb8cf243-650d-5172-a01b-594d4ae4587f_ProductPriceRule",
+    "/admin/products",
+    "/admin/products/2c32fb97",
+    "/admin/products/2c32fb97-.../variants/ee869106-..._ProductVariant",
+    "/admin/products/2c32fb97.../variants/create",
+    "/admin/products/create",
+    "/admin/purchasing_customers",
+    "/admin/purchasing_customers/create",
+    "/admin/recustomer_integrations",
+    "/admin/recustomer_integrations/create",
+    "/admin/retail_portal_integrations",
+    "/admin/retail_portal_integrations/create",
+    "/admin/sale_change_line_items",
+    "/admin/sale_change_line_items/create",
+    "/admin/settings",
+    "/admin/settings/apps",
+    "/admin/settings/brands",
+    "/admin/settings/brands/9db91120-..._Brand",
+    "/admin/settings/brands/create",
+    "/admin/settings/brands/new",
+    "/admin/settings/company_locations",
+    "/admin/settings/location_groups",
+    "/admin/settings/location_groups/create",
+    "/admin/settings/locations",
+    "/admin/settings/locations/create",
+    "/admin/settings/metafield_definitions",
+    "/admin/settings/metafield_definitions/company",
+    "/admin/settings/metafield_definitions/draft_order",
+    "/admin/settings/metafield_definitions/inventory_adjustment_order",
+    "/admin/settings/metafield_definitions/inventory_inbound_order",
+    "/admin/settings/metafield_definitions/inventory_movement_order",
+    "/admin/settings/metafield_definitions/inventory_outbound_order",
+    "/admin/settings/metafield_definitions/inventory_purchase_order",
+    "/admin/settings/metafield_definitions/inventory_reservation_order",
+    "/admin/settings/metafield_definitions/inventory_supplier",
+    "/admin/settings/metafield_definitions/location",
+    "/admin/settings/metafield_definitions/order",
+    "/admin/settings/metafield_definitions/order_price_adjustment_rule",
+    "/admin/settings/metafield_definitions/organization",
+    "/admin/settings/metafield_definitions/product",
+    "/admin/settings/metafield_definitions/product/create",
+    "/admin/settings/metafield_definitions/product_variant",
+    "/admin/settings/metafield_definitions/purchasing_customer",
+    "/admin/settings/organization_notification_emails",
+    "/admin/settings/payment_methods",
+    "/admin/settings/payment_methods/create",
+    "/admin/settings/pdf_template_package_slip",
+    "/admin/settings/permission_groups",
+    "/admin/settings/permission_groups/434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup",
+    "/admin/settings/permission_groups/create",
+    "/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup",
+    "/admin/settings/product_measurement_rules",
+    "/admin/settings/product_measurement_rules/create",
+    "/admin/settings/retail_staff_members",
+    "/admin/settings/retail_staff_members/create",
+    "/admin/settings/suppliers",
+    "/admin/settings/suppliers/create",
+    "/admin/settings/tenants",
+    "/admin/settings/translation",
+    "/admin/settings/translation/translation_rules/create",
+    "/admin/settings/users",
+    "/admin/settings/users/create",
+    "/admin/shopify_integrations",
+    "/admin/shopify_integrations/create",
+    "/admin/smaregi_integrations",
+    "/admin/smaregi_integrations/create"
+  ],
+  "byFile": {
+    "00-admin-sitemap.md": [
+      {
+        "line": 21,
+        "url": "/admin/products",
+        "dynamic": false,
+        "text": "| 商品管理 | `/admin/products` |"
+      },
+      {
+        "line": 22,
+        "url": "/admin/inventory_items",
+        "dynamic": false,
+        "text": "| 在庫管理 | `/admin/inventory_items` |"
+      },
+      {
+        "line": 23,
+        "url": "/admin/orders",
+        "dynamic": false,
+        "text": "| 注文管理 | `/admin/orders` |"
+      },
+      {
+        "line": 24,
+        "url": "/admin/purchasing_customers",
+        "dynamic": false,
+        "text": "| 顧客管理 | `/admin/purchasing_customers` |"
+      },
+      {
+        "line": 25,
+        "url": "/admin/inventory_purchase_orders",
+        "dynamic": false,
+        "text": "| 発注管理 | `/admin/inventory_purchase_orders` |"
+      },
+      {
+        "line": 26,
+        "url": "/admin/product_price_rules",
+        "dynamic": false,
+        "text": "| 販売設定 | `/admin/product_price_rules` |"
+      },
+      {
+        "line": 27,
+        "url": "/admin/sale_change_line_items",
+        "dynamic": false,
+        "text": "| 会計 | `/admin/sale_change_line_items` |"
+      },
+      {
+        "line": 28,
+        "url": "/admin/analytics",
+        "dynamic": false,
+        "text": "| 分析 | `/admin/analytics` |"
+      },
+      {
+        "line": 33,
+        "url": "/admin/inventory_inbound_orders",
+        "dynamic": false,
+        "text": "| 入荷管理 | `/admin/inventory_inbound_orders` |"
+      },
+      {
+        "line": 34,
+        "url": "/admin/inventory_outbound_orders",
+        "dynamic": false,
+        "text": "| 出荷管理 | `/admin/inventory_outbound_orders` |"
+      },
+      {
+        "line": 35,
+        "url": "/admin/inventory_allocation_requests",
+        "dynamic": false,
+        "text": "| 在庫依頼 | `/admin/inventory_allocation_requests` |"
+      },
+      {
+        "line": 40,
+        "url": "/admin/order_price_adjustment_rules",
+        "dynamic": false,
+        "text": "| ディスカウント | `/admin/order_price_adjustment_rules` |"
+      },
+      {
+        "line": 41,
+        "url": "/admin/point_calculation_rules",
+        "dynamic": false,
+        "text": "| ポイント | `/admin/point_calculation_rules` |"
+      },
+      {
+        "line": 42,
+        "url": "/admin/customer_rank_calculation_rules",
+        "dynamic": false,
+        "text": "| 会員ランク | `/admin/customer_rank_calculation_rules` |"
+      },
+      {
+        "line": 47,
+        "url": "/admin/shopify_integrations",
+        "dynamic": false,
+        "text": "| Shopify | `/admin/shopify_integrations` |"
+      },
+      {
+        "line": 48,
+        "url": "/admin/omnibus_core_integrations",
+        "dynamic": false,
+        "text": "| OmnibusCore | `/admin/omnibus_core_integrations` |"
+      },
+      {
+        "line": 49,
+        "url": "/admin/smaregi_integrations",
+        "dynamic": false,
+        "text": "| スマレジ | `/admin/smaregi_integrations` |"
+      },
+      {
+        "line": 50,
+        "url": "/admin/retail_portal_integrations",
+        "dynamic": false,
+        "text": "| リテールポータル | `/admin/retail_portal_integrations` |"
+      },
+      {
+        "line": 51,
+        "url": "/admin/b2b",
+        "dynamic": false,
+        "text": "| 卸売 | `/admin/b2b` |"
+      },
+      {
+        "line": 56,
+        "url": "/admin/settings",
+        "dynamic": false,
+        "text": "| 設定 | `/admin/settings` |"
+      },
+      {
+        "line": 60,
+        "url": "/admin/csv_import",
+        "dynamic": false,
+        "text": "- CSVインポート `/admin/csv_import` ・ CSVエクスポート `/admin/csv_export` ・ PDFエクスポート `/admin/pdf_export`"
+      },
+      {
+        "line": 60,
+        "url": "/admin/csv_export",
+        "dynamic": false,
+        "text": "- CSVインポート `/admin/csv_import` ・ CSVエクスポート `/admin/csv_export` ・ PDFエクスポート `/admin/pdf_export`"
+      },
+      {
+        "line": 60,
+        "url": "/admin/pdf_export",
+        "dynamic": false,
+        "text": "- CSVインポート `/admin/csv_import` ・ CSVエクスポート `/admin/csv_export` ・ PDFエクスポート `/admin/pdf_export`"
+      },
+      {
+        "line": 73,
+        "url": "/admin/catalogs",
+        "dynamic": false,
+        "text": "- 商品管理 → カタログ `/admin/catalogs` / 店舗受取 `/admin/local_pickup_product_variants`"
+      },
+      {
+        "line": 73,
+        "url": "/admin/local_pickup_product_variants",
+        "dynamic": false,
+        "text": "- 商品管理 → カタログ `/admin/catalogs` / 店舗受取 `/admin/local_pickup_product_variants`"
+      },
+      {
+        "line": 74,
+        "url": "/admin/inventory_movement_orders",
+        "dynamic": false,
+        "text": "- 在庫管理 → 移動伝票 `/admin/inventory_movement_orders` / 調整伝票 `/admin/inventory_adjustment_orders` / 取置伝票 `/admin/inventory_reservation_orders`"
+      },
+      {
+        "line": 74,
+        "url": "/admin/inventory_adjustment_orders",
+        "dynamic": false,
+        "text": "- 在庫管理 → 移動伝票 `/admin/inventory_movement_orders` / 調整伝票 `/admin/inventory_adjustment_orders` / 取置伝票 `/admin/inventory_reservation_orders`"
+      },
+      {
+        "line": 74,
+        "url": "/admin/inventory_reservation_orders",
+        "dynamic": false,
+        "text": "- 在庫管理 → 移動伝票 `/admin/inventory_movement_orders` / 調整伝票 `/admin/inventory_adjustment_orders` / 取置伝票 `/admin/inventory_reservation_orders`"
+      },
+      {
+        "line": 75,
+        "url": "/admin/draft_orders",
+        "dynamic": false,
+        "text": "- 注文管理 → 下書き `/admin/draft_orders` / 返品 `/admin/order_returns`"
+      },
+      {
+        "line": 75,
+        "url": "/admin/order_returns",
+        "dynamic": false,
+        "text": "- 注文管理 → 下書き `/admin/draft_orders` / 返品 `/admin/order_returns`"
+      },
+      {
+        "line": 76,
+        "url": "/admin/companies",
+        "dynamic": false,
+        "text": "- 顧客管理 → 会社 `/admin/companies`"
+      },
+      {
+        "line": 77,
+        "url": "/admin/inventory_back_order_rules",
+        "dynamic": false,
+        "text": "- 販売設定 → 販売価格 / 予約販売 `/admin/inventory_back_order_rules` / 販売上限 `/admin/inventory_sale_limit_rules` / 販売閾値 `/admin/inventory_threshold_rules`"
+      },
+      {
+        "line": 77,
+        "url": "/admin/inventory_sale_limit_rules",
+        "dynamic": false,
+        "text": "- 販売設定 → 販売価格 / 予約販売 `/admin/inventory_back_order_rules` / 販売上限 `/admin/inventory_sale_limit_rules` / 販売閾値 `/admin/inventory_threshold_rules`"
+      },
+      {
+        "line": 77,
+        "url": "/admin/inventory_threshold_rules",
+        "dynamic": false,
+        "text": "- 販売設定 → 販売価格 / 予約販売 `/admin/inventory_back_order_rules` / 販売上限 `/admin/inventory_sale_limit_rules` / 販売閾値 `/admin/inventory_threshold_rules`"
+      },
+      {
+        "line": 78,
+        "url": "/admin/inventory_allocation_request_confirmations",
+        "dynamic": false,
+        "text": "- 在庫依頼 → 確保済み `/admin/inventory_allocation_request_confirmations`"
+      },
+      {
+        "line": 83,
+        "url": "/admin/analytics",
+        "dynamic": false,
+        "text": "**未実装（画面が \"TODO\" 表示）**: 分析 `/admin/analytics` ／ 卸売 `/admin/b2b`"
+      },
+      {
+        "line": 83,
+        "url": "/admin/b2b",
+        "dynamic": false,
+        "text": "**未実装（画面が \"TODO\" 表示）**: 分析 `/admin/analytics` ／ 卸売 `/admin/b2b`"
+      }
+    ],
+    "01-helpcenter-coverage-gap.md": [],
+    "02-helpcenter-pages.md": [],
+    "02-home.md": [
+      {
+        "line": 18,
+        "url": "/admin/products",
+        "dynamic": false,
+        "text": "| 商品管理 | `/admin/products` | 商品の追加・編集、付加情報の管理、カタログの作成ができます。 |"
+      },
+      {
+        "line": 19,
+        "url": "/admin/inventory_items",
+        "dynamic": false,
+        "text": "| 在庫管理 | `/admin/inventory_items` | 在庫の移動、仕入れ、在庫の状況を確認することができます。 |"
+      },
+      {
+        "line": 20,
+        "url": "/admin/orders",
+        "dynamic": false,
+        "text": "| 注文管理 | `/admin/orders` | 販売チャネルで作成された注文の管理、注文の追跡、顧客への通知ができます。 |"
+      },
+      {
+        "line": 21,
+        "url": "/admin/purchasing_customers",
+        "dynamic": false,
+        "text": "| 顧客管理 | `/admin/purchasing_customers` | 顧客情報の管理、顧客の注文履歴、顧客の分析ができます。 |"
+      },
+      {
+        "line": 22,
+        "url": "/admin/csv_import",
+        "dynamic": false,
+        "text": "| CSVでデータをインポートする | `/admin/csv_import` | CSVファイルを使ってデータの書き込み・編集ができます。 |"
+      },
+      {
+        "line": 23,
+        "url": "/admin/csv_export",
+        "dynamic": false,
+        "text": "| CSVでデータをエクスポートする | `/admin/csv_export` | 指定のデータをCSV形式でエクスポートすることができます |"
+      },
+      {
+        "line": 24,
+        "url": "/admin/pdf_export",
+        "dynamic": false,
+        "text": "| PDFでデータをエクスポートする | `/admin/pdf_export` | 指定のデータをPDF形式でエクスポートすることができます |"
+      }
+    ],
+    "03-products.md": [
+      {
+        "line": 3,
+        "url": "/admin/products",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/products` | 読み取り専用"
+      },
+      {
+        "line": 11,
+        "url": "/admin/catalogs",
+        "dynamic": false,
+        "text": "| カタログ | `/admin/catalogs` |"
+      },
+      {
+        "line": 12,
+        "url": "/admin/local_pickup_product_variants",
+        "dynamic": false,
+        "text": "| 店舗受取 | `/admin/local_pickup_product_variants` |"
+      },
+      {
+        "line": 20,
+        "url": "/admin/products/create",
+        "dynamic": false,
+        "text": "- 「商品を作成する」リンクボタン → `/admin/products/create`"
+      },
+      {
+        "line": 88,
+        "url": "/admin/products/{id}/variants/create",
+        "dynamic": true,
+        "text": "- 「バリエーションを追加する」リンクボタン → `/admin/products/{id}/variants/create`"
+      },
+      {
+        "line": 128,
+        "url": "/admin/catalogs/create",
+        "dynamic": false,
+        "text": "- 「カタログを作成する」リンクボタン → `/admin/catalogs/create`"
+      },
+      {
+        "line": 158,
+        "url": "/admin/products/{id}/variants/create",
+        "dynamic": true,
+        "text": "- バリエーション作成フォーム（`/admin/products/{id}/variants/create`）の項目詳細未確認<!-- 解決済み: 2026-06-05追記参照 -->"
+      },
+      {
+        "line": 165,
+        "url": "/admin/products",
+        "dynamic": false,
+        "text": "### 1. 「インポート」ドロップダウン（/admin/products 一覧）"
+      },
+      {
+        "line": 171,
+        "url": "/admin/csv_import/csv_import_operation_products",
+        "dynamic": false,
+        "text": "| 商品 | `/admin/csv_import/csv_import_operation_products` |"
+      },
+      {
+        "line": 172,
+        "url": "/admin/csv_import/csv_import_operation_product_images",
+        "dynamic": false,
+        "text": "| 商品画像 | `/admin/csv_import/csv_import_operation_product_images` |"
+      },
+      {
+        "line": 173,
+        "url": "/admin/csv_import/csv_import_operation_product_variants",
+        "dynamic": false,
+        "text": "| 商品バリエーション | `/admin/csv_import/csv_import_operation_product_variants` |"
+      },
+      {
+        "line": 174,
+        "url": "/admin/csv_import/csv_import_operation_product_metafields",
+        "dynamic": false,
+        "text": "| 商品メタフィールド | `/admin/csv_import/csv_import_operation_product_metafields` |"
+      },
+      {
+        "line": 175,
+        "url": "/admin/csv_import/csv_import_operation_product_variant_metafields",
+        "dynamic": false,
+        "text": "| 商品バリエーションメタフィールド | `/admin/csv_import/csv_import_operation_product_variant_metafields` |"
+      },
+      {
+        "line": 179,
+        "url": "/admin/products",
+        "dynamic": false,
+        "text": "### 2. 検索・フィルター（/admin/products 一覧）"
+      },
+      {
+        "line": 189,
+        "url": "/admin/products/{id}",
+        "dynamic": true,
+        "text": "### 3. 「その他の操作」ドロップダウン（/admin/products/{id} 商品詳細）"
+      },
+      {
+        "line": 366,
+        "url": "/admin/csv_import/csv_import_operation_products/create",
+        "dynamic": false,
+        "text": "- 「新規インポート」リンク → `/admin/csv_import/csv_import_operation_products/create`"
+      },
+      {
+        "line": 407,
+        "url": "/admin/catalogs/e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog",
+        "dynamic": false,
+        "text": "**URL**: `/admin/catalogs/e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog`"
+      },
+      {
+        "line": 420,
+        "url": "/admin/csv_import/csv_import_operation_catalog_products",
+        "dynamic": false,
+        "text": "- 「インポート」リンク → `/admin/csv_import/csv_import_operation_catalog_products`（CSVでカタログへ商品を一括追加）"
+      },
+      {
+        "line": 423,
+        "url": "/admin/catalogs",
+        "dynamic": false,
+        "text": "カタログ一覧（`/admin/catalogs`）の列: **名前** / **商品**（件数） / **販売先**（件数）"
+      },
+      {
+        "line": 431,
+        "url": "/admin/catalogs/{id}/create",
+        "dynamic": true,
+        "text": "#### 「商品を追加する」画面（`/admin/catalogs/{id}/create`）"
+      },
+      {
+        "line": 439,
+        "url": "/admin/catalogs/{id}/automatic_add_rules",
+        "dynamic": true,
+        "text": "#### 「自動追加ルール」画面（`/admin/catalogs/{id}/automatic_add_rules`）"
+      },
+      {
+        "line": 451,
+        "url": "/admin/catalogs/{id}/catalog_product_variants",
+        "dynamic": true,
+        "text": "#### SKU一覧画面（`/admin/catalogs/{id}/catalog_product_variants`）"
+      },
+      {
+        "line": 456,
+        "url": "/admin/csv_import/csv_import_operation_catalog_products/create",
+        "dynamic": false,
+        "text": "#### カタログCSVインポート画面（`/admin/csv_import/csv_import_operation_catalog_products/create`）"
+      },
+      {
+        "line": 519,
+        "url": "/admin/products/create",
+        "dynamic": false,
+        "text": "作成フォーム（`/admin/products/create`）のステータスcombobox:"
+      },
+      {
+        "line": 525,
+        "url": "/admin/products/{id}",
+        "dynamic": true,
+        "text": "編集フォーム（`/admin/products/{id}`）のステータスcombobox:"
+      },
+      {
+        "line": 547,
+        "url": "/admin/products",
+        "dynamic": false,
+        "text": "**確認画面**: `/admin/products`"
+      },
+      {
+        "line": 574,
+        "url": "/admin/settings/brands",
+        "dynamic": false,
+        "text": "- URL: `/admin/settings/brands`（設定 > ブランド）"
+      },
+      {
+        "line": 576,
+        "url": "/admin/settings/brands/create",
+        "dynamic": false,
+        "text": "- 「追加する」リンク → `/admin/settings/brands/create`"
+      },
+      {
+        "line": 578,
+        "url": "/admin/settings/brands/create",
+        "dynamic": false,
+        "text": "#### ブランド作成フォーム（`/admin/settings/brands/create`）"
+      },
+      {
+        "line": 595,
+        "url": "/admin/products/{id}",
+        "dynamic": true,
+        "text": "**確認画面**: 商品詳細（`/admin/products/{id}`）のメディアセクション"
+      },
+      {
+        "line": 651,
+        "url": "/admin/products/2c32fb97",
+        "dynamic": false,
+        "text": "- 編集フォーム (`/admin/products/2c32fb97...`): combobox選択肢 = **「公開中」「下書き」の2択のみ**"
+      },
+      {
+        "line": 653,
+        "url": "/admin/products/create",
+        "dynamic": false,
+        "text": "- 作成フォーム (`/admin/products/create`): combobox選択肢 = **「下書き」（デフォルト）「公開」「非公開」の3択**"
+      },
+      {
+        "line": 673,
+        "url": "/admin/products/2c32fb97.../variants/create",
+        "dynamic": false,
+        "text": "- バリエーション作成フォーム (`/admin/products/2c32fb97.../variants/create`) のDOMスナップショット:"
+      },
+      {
+        "line": 695,
+        "url": "/admin/products/2c32fb97",
+        "dynamic": false,
+        "text": "- 商品詳細 `/admin/products/2c32fb97...` の「追加」ボタンをクリック → Playwrightが `File chooser` モーダル状態を報告（= OSのファイル選択ダイアログが開いた）"
+      },
+      {
+        "line": 719,
+        "url": "/admin/catalogs",
+        "dynamic": false,
+        "text": "カタログ一覧テーブル列（`/admin/catalogs`）:"
+      },
+      {
+        "line": 724,
+        "url": "/admin/catalogs/e2a819ab-",
+        "dynamic": false,
+        "text": "カタログ詳細 (`/admin/catalogs/e2a819ab-...`):"
+      },
+      {
+        "line": 730,
+        "url": "/admin/omnibus_core_integrations/{id}",
+        "dynamic": true,
+        "text": "- OmnibusCoreの連携詳細 (`/admin/omnibus_core_integrations/{id}`) > 「商品同期設定」セクション > **「カタログ」セレクト** に各カタログが選択肢として現れる"
+      },
+      {
+        "line": 756,
+        "url": "/admin/catalogs/e2a819ab-.../catalog_product_variants",
+        "dynamic": false,
+        "text": "- URL: `/admin/catalogs/e2a819ab-.../catalog_product_variants`"
+      },
+      {
+        "line": 773,
+        "url": "/admin/local_pickup_product_variants",
+        "dynamic": false,
+        "text": "店舗受取一覧画面 (`/admin/local_pickup_product_variants`):"
+      },
+      {
+        "line": 799,
+        "url": "/admin/products/2c32fb97-.../variants/ee869106-..._ProductVariant",
+        "dynamic": false,
+        "text": "- バリエーション編集画面 URL: `/admin/products/2c32fb97-.../variants/ee869106-..._ProductVariant`"
+      },
+      {
+        "line": 831,
+        "url": "/admin/catalogs/e2a819ab-.../catalog_product_variants",
+        "dynamic": false,
+        "text": "- URL: `/admin/catalogs/e2a819ab-.../catalog_product_variants`"
+      },
+      {
+        "line": 845,
+        "url": "/admin/catalogs/create",
+        "dynamic": false,
+        "text": "- カタログ作成フォーム (`/admin/catalogs/create`):"
+      },
+      {
+        "line": 867,
+        "url": "/admin/products",
+        "dynamic": false,
+        "text": "- すべて: `/admin/products`（queryなし）"
+      },
+      {
+        "line": 919,
+        "url": "/admin/products/2c32fb97",
+        "dynamic": false,
+        "text": "- 商品詳細 `/admin/products/2c32fb97...` のメディアセクション"
+      }
+    ],
+    "04-inventory.md": [
+      {
+        "line": 3,
+        "url": "/admin/inventory_items",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/inventory_items` | 読み取り専用"
+      },
+      {
+        "line": 11,
+        "url": "/admin/inventory_movement_orders",
+        "dynamic": false,
+        "text": "| 移動伝票 | `/admin/inventory_movement_orders` |"
+      },
+      {
+        "line": 12,
+        "url": "/admin/inventory_adjustment_orders",
+        "dynamic": false,
+        "text": "| 調整伝票 | `/admin/inventory_adjustment_orders` |"
+      },
+      {
+        "line": 13,
+        "url": "/admin/inventory_reservation_orders",
+        "dynamic": false,
+        "text": "| 取置伝票 | `/admin/inventory_reservation_orders` |"
+      },
+      {
+        "line": 22,
+        "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+        "dynamic": false,
+        "text": "- 「インポート」リンク → `/admin/csv_import/csv_import_operation_inventory_logical_available_quantities`"
+      },
+      {
+        "line": 23,
+        "url": "/admin/csv_export/csv_export_operation_inventory_logical_quantities",
+        "dynamic": false,
+        "text": "- 「エクスポート」リンク → `/admin/csv_export/csv_export_operation_inventory_logical_quantities`"
+      },
+      {
+        "line": 64,
+        "url": "/admin/inventory_movement_orders/create",
+        "dynamic": false,
+        "text": "- 「移動伝票を作成する」リンクボタン → `/admin/inventory_movement_orders/create`"
+      },
+      {
+        "line": 86,
+        "url": "/admin/inventory_adjustment_orders/create",
+        "dynamic": false,
+        "text": "- 「調整伝票を作成する」リンクボタン → `/admin/inventory_adjustment_orders/create`"
+      },
+      {
+        "line": 135,
+        "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+        "dynamic": false,
+        "text": "| インポート | リンク | `/admin/csv_import/csv_import_operation_inventory_logical_available_quantities` へ遷移 |（訂正: 旧記述 `csv_import/csv_export_operation_inventory_logical_available_quantities` → 正: `csv_import/csv_import_operation"
+      },
+      {
+        "line": 136,
+        "url": "/admin/csv_export/csv_export_operation_inventory_logical_quantities",
+        "dynamic": false,
+        "text": "| エクスポート | リンク | `/admin/csv_export/csv_export_operation_inventory_logical_quantities` へ遷移 |"
+      },
+      {
+        "line": 570,
+        "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+        "dynamic": false,
+        "text": "**照合内容**: L22『`/admin/csv_import/csv_import_operation_inventory_logical_available_quantities`』と L135『`/admin/csv_import/csv_export_operation_inventory_logical_available_quantities`』の食い違い。"
+      },
+      {
+        "line": 570,
+        "url": "/admin/csv_import/csv_export_operation_inventory_logical_available_quantities",
+        "dynamic": false,
+        "text": "**照合内容**: L22『`/admin/csv_import/csv_import_operation_inventory_logical_available_quantities`』と L135『`/admin/csv_import/csv_export_operation_inventory_logical_available_quantities`』の食い違い。"
+      },
+      {
+        "line": 574,
+        "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+        "dynamic": false,
+        "text": "- 実際の値: `https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities`"
+      }
+    ],
+    "05-orders.md": [
+      {
+        "line": 3,
+        "url": "/admin/orders",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/orders` | 読み取り専用"
+      },
+      {
+        "line": 12,
+        "url": "/admin/draft_orders",
+        "dynamic": false,
+        "text": "| 下書き | `/admin/draft_orders` |"
+      },
+      {
+        "line": 13,
+        "url": "/admin/order_returns",
+        "dynamic": false,
+        "text": "| 返品 | `/admin/order_returns` |"
+      },
+      {
+        "line": 43,
+        "url": "/admin/draft_orders/create",
+        "dynamic": false,
+        "text": "- `/admin/draft_orders/create` へのURLダイレクトアクセスは「予期せぬエラーが発生しました」となる"
+      },
+      {
+        "line": 200,
+        "url": "/admin/settings/apps",
+        "dynamic": false,
+        "text": "| アプリ | /admin/settings/apps | APIを利用するためのアプリを管理することができます |"
+      },
+      {
+        "line": 201,
+        "url": "/admin/logizard_integrations",
+        "dynamic": false,
+        "text": "| ロジザード | /admin/logizard_integrations | ロジザードZEROとの連携設定を管理することができます |"
+      },
+      {
+        "line": 202,
+        "url": "/admin/recustomer_integrations",
+        "dynamic": false,
+        "text": "| Recustomer | /admin/recustomer_integrations | Recustomerとの連携を管理することができます |"
+      },
+      {
+        "line": 230,
+        "url": "/admin/order_returns/create",
+        "dynamic": false,
+        "text": "2. `/admin/order_returns/create` への直接アクセス: 「このページは存在しないようです」エラー → 専用createページは存在しない"
+      },
+      {
+        "line": 234,
+        "url": "/admin/order_returns/create",
+        "dynamic": false,
+        "text": "- ✓実機確認(2026-06-07): 「返品専用createページは存在しない（/admin/order_returns/create は404）」「返品一覧に作成ボタンは存在しない」の2点は確定事実。よって「返品はcreate専用ページや一覧画面からは起票しない」は確定。"
+      },
+      {
+        "line": 235,
+        "url": "/admin/orders/",
+        "dynamic": false,
+        "text": "- 返品の起票入口が注文詳細画面（/admin/orders/:id）内にあるかどうか: 注文データがないため実測不可（②needsRealData）。強い推測として維持。"
+      },
+      {
+        "line": 350,
+        "url": "/admin/draft_orders/create",
+        "dynamic": false,
+        "text": "- L43（下書き）: 「/admin/draft_orders/create へのURLダイレクトアクセスは『予期せぬエラーが発生しました』」"
+      },
+      {
+        "line": 351,
+        "url": "/admin/order_returns/create",
+        "dynamic": false,
+        "text": "- L230（返品）: 「/admin/order_returns/create への直接アクセス: 『このページは存在しないようです』エラー」"
+      },
+      {
+        "line": 352,
+        "url": "/admin/purchasing_customers/create",
+        "dynamic": false,
+        "text": "- 06-customers.md L28: 「/admin/purchasing_customers/create → 『予期せぬエラーが発生しました』」"
+      },
+      {
+        "line": 359,
+        "url": "/admin/draft_orders/create",
+        "dynamic": false,
+        "text": "| `/admin/draft_orders/create` | 「予期せぬエラーが発生しました」＋「エラーが発生しました。しばらくしてから再度お試しください」＋「再実行」ボタン | アプリ内 500 系エラー |"
+      },
+      {
+        "line": 360,
+        "url": "/admin/purchasing_customers/create",
+        "dynamic": false,
+        "text": "| `/admin/purchasing_customers/create` | 「予期せぬエラーが発生しました」＋「エラーが発生しました。しばらくしてから再度お試しください」＋「再実行」ボタン | アプリ内 500 系エラー |"
+      },
+      {
+        "line": 361,
+        "url": "/admin/order_returns/create",
+        "dynamic": false,
+        "text": "| `/admin/order_returns/create` | 「このページは存在しないようです」＋「ホームに戻る」リンクのみ | アプリ内 404 系エラー（ナビ・サイドバーなし） |"
+      },
+      {
+        "line": 364,
+        "url": "/admin/draft_orders/create",
+        "dynamic": false,
+        "text": "- `/admin/draft_orders/create` と `/admin/purchasing_customers/create` は「ルートは存在するがデータ条件が不足して 500」の可能性が高い（ルーター上はマッチするが初期化エラー）"
+      },
+      {
+        "line": 364,
+        "url": "/admin/purchasing_customers/create",
+        "dynamic": false,
+        "text": "- `/admin/draft_orders/create` と `/admin/purchasing_customers/create` は「ルートは存在するがデータ条件が不足して 500」の可能性が高い（ルーター上はマッチするが初期化エラー）"
+      },
+      {
+        "line": 365,
+        "url": "/admin/order_returns/create",
+        "dynamic": false,
+        "text": "- `/admin/order_returns/create` は「そもそもルートが未定義の 404」（Polaris のナビゲーションごと消えたシンプルなエラー画面）"
+      },
+      {
+        "line": 398,
+        "url": "/admin/recustomer_integrations/create",
+        "dynamic": false,
+        "text": "- `/admin/recustomer_integrations/create` で「保存する」ボタンを空フォームでクリック"
+      },
+      {
+        "line": 423,
+        "url": "/admin/draft_orders",
+        "dynamic": false,
+        "text": "- 担当者作成後に /admin/draft_orders を再確認"
+      }
+    ],
+    "06-customers.md": [
+      {
+        "line": 3,
+        "url": "/admin/purchasing_customers",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/purchasing_customers` | 読み取り専用"
+      },
+      {
+        "line": 12,
+        "url": "/admin/companies",
+        "dynamic": false,
+        "text": "| 会社 | `/admin/companies` |"
+      },
+      {
+        "line": 24,
+        "url": "/admin/csv_import/csv_import_operation_point_pluses",
+        "dynamic": false,
+        "text": "| ポイント一括付与 | `/admin/csv_import/csv_import_operation_point_pluses` |"
+      },
+      {
+        "line": 28,
+        "url": "/admin/purchasing_customers/create",
+        "dynamic": false,
+        "text": "- `/admin/purchasing_customers/create` へのURLダイレクトアクセスは「予期せぬエラーが発生しました」となり不可"
+      },
+      {
+        "line": 80,
+        "url": "/admin/csv_import/csv_import_operation_point_pluses",
+        "dynamic": false,
+        "text": "| ポイント一括付与 | リンク（インポートDD内） | `/admin/csv_import/csv_import_operation_point_pluses` へ遷移 |"
+      },
+      {
+        "line": 96,
+        "url": "/admin/purchasing_customers/create",
+        "dynamic": false,
+        "text": "- `/admin/purchasing_customers/create` への直接アクセスは「予期せぬエラーが発生しました」"
+      },
+      {
+        "line": 101,
+        "url": "/admin/companies",
+        "dynamic": false,
+        "text": "- **サブメニュー**: 「会社」（`/admin/companies`）"
+      },
+      {
+        "line": 120,
+        "url": "/admin/companies/create",
+        "dynamic": false,
+        "text": "| 会社を作成する | リンクボタン | `/admin/companies/create` 会社作成フォームへ遷移 |"
+      },
+      {
+        "line": 139,
+        "url": "/admin/companies",
+        "dynamic": false,
+        "text": "| （戻る矢印リンク） | リンク | `/admin/companies`（会社一覧）へ戻る |"
+      },
+      {
+        "line": 179,
+        "url": "/admin/csv_import",
+        "dynamic": false,
+        "text": "| （戻る矢印リンク） | リンク | `/admin/csv_import`（CSVインポート一覧）へ戻る |"
+      },
+      {
+        "line": 181,
+        "url": "/admin/csv_import/csv_import_operation_point_pluses/create",
+        "dynamic": false,
+        "text": "| 新規インポート | リンク | `/admin/csv_import/csv_import_operation_point_pluses/create` へ遷移（CSVアップロードフォーム） |"
+      },
+      {
+        "line": 238,
+        "url": "/admin/companies/",
+        "dynamic": false,
+        "text": "### [検証2] 会社 詳細画面（/admin/companies/:id）— 全セクション・タブ・操作ボタン"
+      },
+      {
+        "line": 241,
+        "url": "/admin/companies/{uuid}_Company",
+        "dynamic": true,
+        "text": "**URL形式**: `/admin/companies/{uuid}_Company`"
+      },
+      {
+        "line": 253,
+        "url": "/admin/companies/",
+        "dynamic": false,
+        "text": "| ロケーション | h2。テーブル: 列は「ロケーション」「売上」「注文」の3列。「ロケーションを追加」リンクボタン（/admin/companies/:id/locations/create）あり |"
+      },
+      {
+        "line": 275,
+        "url": "/admin/companies/",
+        "dynamic": false,
+        "text": "### [検証3] 会社 ロケーション追加フォーム（/admin/companies/:id/locations/create）"
+      },
+      {
+        "line": 277,
+        "url": "/admin/companies/{id}/locations/create",
+        "dynamic": true,
+        "text": "**検証結果**: 実機確認済み（URL: `/admin/companies/{id}/locations/create`）"
+      },
+      {
+        "line": 292,
+        "url": "/admin/companies/",
+        "dynamic": false,
+        "text": "- 戻るリンクは会社詳細画面（/admin/companies/:id）"
+      },
+      {
+        "line": 319,
+        "url": "/admin/companies/{company_id}/locations/{location_id}_CompanyLocation",
+        "dynamic": true,
+        "text": "- URL形式: `/admin/companies/{company_id}/locations/{location_id}_CompanyLocation`"
+      },
+      {
+        "line": 326,
+        "url": "/admin/companies/:id/locations/",
+        "dynamic": true,
+        "text": "### [検証5] 会社 ロケーション詳細画面（/admin/companies/:id/locations/:location_id）"
+      },
+      {
+        "line": 329,
+        "url": "/admin/companies/{company_id}/locations/{uuid}_CompanyLocation",
+        "dynamic": true,
+        "text": "**URL形式**: `/admin/companies/{company_id}/locations/{uuid}_CompanyLocation`"
+      },
+      {
+        "line": 334,
+        "url": "/admin/companies/",
+        "dynamic": false,
+        "text": "- 戻るリンク: 会社詳細画面（/admin/companies/:id）"
+      },
+      {
+        "line": 399,
+        "url": "/admin/b2b",
+        "dynamic": false,
+        "text": "- URL: `/admin/b2b`"
+      },
+      {
+        "line": 423,
+        "url": "/admin/purchasing_customers",
+        "dynamic": false,
+        "text": "3. 担当者作成直後に /admin/purchasing_customers を再度確認: **引き続き空のまま（担当者は顧客管理に出現しない）**"
+      },
+      {
+        "line": 441,
+        "url": "/admin/companies/{company_id}/contacts/{contact_id}_CompanyContact",
+        "dynamic": true,
+        "text": "- 担当者行はクリック可能（cursor=pointer）。✓実機確認(2026-06-07): 担当者詳細画面は存在する。URL形式: `/admin/companies/{company_id}/contacts/{contact_id}_CompanyContact`。ただし画面コンテンツは「h1: 担当者名」「サブテキスト: 作成日時」「本文: UUID生テキスト（例: b7732de6-..._CompanyContact）」"
+      },
+      {
+        "line": 480,
+        "url": "/admin/companies/9481aa92-6e9d-5c81-9aca-68be833882c3_Company/contacts/b7732de6-f920-5983-af16-e7959b0a62e5_CompanyContact",
+        "dynamic": false,
+        "text": "- 遷移先URL: `/admin/companies/9481aa92-6e9d-5c81-9aca-68be833882c3_Company/contacts/b7732de6-f920-5983-af16-e7959b0a62e5_CompanyContact`"
+      },
+      {
+        "line": 481,
+        "url": "/admin/companies/{company_uuid}_Company/contacts/{contact_uuid}_CompanyContact",
+        "dynamic": true,
+        "text": "- URL形式: `/admin/companies/{company_uuid}_Company/contacts/{contact_uuid}_CompanyContact`"
+      }
+    ],
+    "07-purchase-orders.md": [
+      {
+        "line": 3,
+        "url": "/admin/inventory_purchase_orders",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/inventory_purchase_orders` | 読み取り専用"
+      },
+      {
+        "line": 13,
+        "url": "/admin/inventory_purchase_orders/create",
+        "dynamic": false,
+        "text": "- 「発注伝票を作成する」リンクボタン → `/admin/inventory_purchase_orders/create`"
+      },
+      {
+        "line": 52,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "- 取引先マスターは`/admin/settings/suppliers`で管理。（※「取引先データなし」は調査初期のスナップショット。後段[V1]で `TEST_FAQ_Supplier / TEST_FAQ_Supplier2` を作成済み。最新は後段[V1][V2]を参照）"
+      },
+      {
+        "line": 67,
+        "url": "/admin/settings/suppliers/create",
+        "dynamic": false,
+        "text": "- **正しいURL**: `/admin/settings/suppliers/create`（`/admin/inventory_suppliers/create` は404）"
+      },
+      {
+        "line": 67,
+        "url": "/admin/inventory_suppliers/create",
+        "dynamic": false,
+        "text": "- **正しいURL**: `/admin/settings/suppliers/create`（`/admin/inventory_suppliers/create` は404）"
+      },
+      {
+        "line": 72,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "- **保存成功後の遷移**: `/admin/settings/suppliers`（取引先一覧）"
+      },
+      {
+        "line": 101,
+        "url": "/admin/inventory_purchase_orders/create",
+        "dynamic": false,
+        "text": "**結果**: 保存失敗。画面は `/admin/inventory_purchase_orders/create` のままで遷移しない"
+      },
+      {
+        "line": 143,
+        "url": "/admin/inventory_suppliers",
+        "dynamic": false,
+        "text": "- `/admin/inventory_suppliers` → 「このページは存在しないようです」（404相当）"
+      },
+      {
+        "line": 144,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "- `/admin/settings/suppliers` → 取引先一覧が正常表示 ✓"
+      }
+    ],
+    "08-sales-settings.md": [
+      {
+        "line": 3,
+        "url": "/admin/product_price_rules",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/product_price_rules` | 初期偵察は読み取り中心。後続の検証では TEST_FAQ 接頭辞で一部書き込み操作を実施（販売価格/予約販売/販売閾値ルール等を作成。破壊的・不可逆操作は未実施）"
+      },
+      {
+        "line": 11,
+        "url": "/admin/product_price_rules",
+        "dynamic": false,
+        "text": "| 販売価格 | `/admin/product_price_rules` | 販売価格 |"
+      },
+      {
+        "line": 12,
+        "url": "/admin/inventory_back_order_rules",
+        "dynamic": false,
+        "text": "| 予約販売 | `/admin/inventory_back_order_rules` | 予約販売 |"
+      },
+      {
+        "line": 13,
+        "url": "/admin/inventory_sale_limit_rules",
+        "dynamic": false,
+        "text": "| 販売上限 | `/admin/inventory_sale_limit_rules` | 販売上限 |"
+      },
+      {
+        "line": 14,
+        "url": "/admin/inventory_threshold_rules",
+        "dynamic": false,
+        "text": "| 販売閾値 | `/admin/inventory_threshold_rules` | 販売閾値 |"
+      },
+      {
+        "line": 24,
+        "url": "/admin/product_price_rules/create",
+        "dynamic": false,
+        "text": "- 「販売価格ルールを作成する」リンクボタン → `/admin/product_price_rules/create`"
+      },
+      {
+        "line": 100,
+        "url": "/admin/product_price_rules/create",
+        "dynamic": false,
+        "text": "| 販売価格ルールを作成する | リンクボタン | `/admin/product_price_rules/create` へ遷移 |"
+      },
+      {
+        "line": 242,
+        "url": "/admin/inventory_back_order_rules/create",
+        "dynamic": false,
+        "text": "| 予約販売ルールを作成する | リンクボタン | `/admin/inventory_back_order_rules/create` へ遷移 |"
+      },
+      {
+        "line": 281,
+        "url": "/admin/inventory_sale_limit_rules/create",
+        "dynamic": false,
+        "text": "| 販売上限ルールを作成する | リンクボタン | `/admin/inventory_sale_limit_rules/create` へ遷移 |"
+      },
+      {
+        "line": 323,
+        "url": "/admin/inventory_threshold_rules/create",
+        "dynamic": false,
+        "text": "| 販売閾値ルールを作成する | リンクボタン | `/admin/inventory_threshold_rules/create` へ遷移 |"
+      },
+      {
+        "line": 339,
+        "url": "/admin/inventory_threshold_rules",
+        "dynamic": false,
+        "text": "| 保存する | ボタン | ✓実機確認(2026-06-07): 保存成功後、**販売閾値一覧（`/admin/inventory_threshold_rules`）へ遷移**する（詳細画面ではなく一覧へ）。販売価格・予約販売とは異なる挙動 |"
+      },
+      {
+        "line": 365,
+        "url": "/admin/csv_import/csv_import_operation_product_price_rule_sale_prices",
+        "dynamic": false,
+        "text": "| インポート | リンクボタン | `/admin/csv_import/csv_import_operation_product_price_rule_sale_prices` へ遷移（CSVインポート画面） |"
+      },
+      {
+        "line": 625,
+        "url": "/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants",
+        "dynamic": false,
+        "text": "| インポート | リンクボタン | `/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants` へ遷移 |"
+      },
+      {
+        "line": 655,
+        "url": "/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants",
+        "dynamic": false,
+        "text": "- インポートURL: `/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants`"
+      },
+      {
+        "line": 672,
+        "url": "/admin/product_price_rules/eb8cf243-650d-5172-a01b-594d4ae4587f_ProductPriceRule",
+        "dynamic": false,
+        "text": "1. **詳細画面（/admin/product_price_rules/[id]）の実在**: 実機で確認。URLは `/admin/product_price_rules/eb8cf243-650d-5172-a01b-594d4ae4587f_ProductPriceRule` 形式。L135以降の記述内容（ページタイトル「販売価格ルール」・バッジ・通常価格/セール価格カード）はすべて実測と一致。"
+      },
+      {
+        "line": 674,
+        "url": "/admin/product_price_rules/409e8f6d-d73a-5c7b-a583-30559aa8a62b_ProductPriceRule",
+        "dynamic": false,
+        "text": "2. **保存後遷移の確定（2026-06-07 追加実測で確定）**: ✓実機確認(2026-06-07) — TEST_FAQ_販売価格ルール_遷移確認_20260607 を実際に作成・保存したところ、保存後 `/admin/product_price_rules/409e8f6d-d73a-5c7b-a583-30559aa8a62b_ProductPriceRule`（詳細画面）へ遷移することを直接確認。**推測を事実に置換**"
+      },
+      {
+        "line": 674,
+        "url": "/admin/inventory_threshold_rules",
+        "dynamic": false,
+        "text": "2. **保存後遷移の確定（2026-06-07 追加実測で確定）**: ✓実機確認(2026-06-07) — TEST_FAQ_販売価格ルール_遷移確認_20260607 を実際に作成・保存したところ、保存後 `/admin/product_price_rules/409e8f6d-d73a-5c7b-a583-30559aa8a62b_ProductPriceRule`（詳細画面）へ遷移することを直接確認。**推測を事実に置換**"
+      },
+      {
+        "line": 719,
+        "url": "/admin/inventory_threshold_rules",
+        "dynamic": false,
+        "text": "| 推測5c | 販売閾値ルール保存後遷移先 | ✓確定（**一覧**、販売価格・予約販売と異なる） | TEST_FAQ_データで実測: 保存後 `/admin/inventory_threshold_rules`（一覧）へ遷移。詳細画面ではない |"
+      }
+    ],
+    "09-accounting.md": [
+      {
+        "line": 3,
+        "url": "/admin/sale_change_line_items",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/sale_change_line_items` | 読み取り専用"
+      },
+      {
+        "line": 13,
+        "url": "/admin/sale_change_line_items",
+        "dynamic": false,
+        "text": "- 「売上実績」（`/admin/sale_change_line_items`）が唯一のサブページ"
+      },
+      {
+        "line": 47,
+        "url": "/admin/sale_change_line_items",
+        "dynamic": false,
+        "text": "- 現環境（`/admin/sale_change_line_items`）のデータは0件（空状態）"
+      },
+      {
+        "line": 60,
+        "url": "/admin/sale_change_line_items/create",
+        "dynamic": false,
+        "text": "- `/admin/sale_change_line_items/create` は404（存在しない）"
+      },
+      {
+        "line": 73,
+        "url": "/admin/sale_change_line_items",
+        "dynamic": false,
+        "text": "- サイドナビ: 「**会計**」リンク → URL: `/admin/sale_change_line_items`"
+      },
+      {
+        "line": 74,
+        "url": "/admin/sale_change_line_items",
+        "dynamic": false,
+        "text": "- サブメニュー: 「**売上実績**」リンク → 同URL（`/admin/sale_change_line_items`）"
+      },
+      {
+        "line": 121,
+        "url": "/admin/sale_change_line_items",
+        "dynamic": false,
+        "text": "- 会計画面URL: `/admin/sale_change_line_items`"
+      },
+      {
+        "line": 122,
+        "url": "/admin/csv_export/csv_export_operation_sale_changes",
+        "dynamic": false,
+        "text": "- CSVエクスポートURL: `/admin/csv_export/csv_export_operation_sale_changes`"
+      }
+    ],
+    "10-analytics.md": [
+      {
+        "line": 3,
+        "url": "/admin/analytics",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/analytics` | 読み取り専用"
+      },
+      {
+        "line": 33,
+        "url": "/admin/analytics",
+        "dynamic": false,
+        "text": "- URL: `/admin/analytics`"
+      }
+    ],
+    "11-operations.md": [
+      {
+        "line": 96,
+        "url": "/admin/inventory_allocation_request_confirmations",
+        "dynamic": false,
+        "text": "| 確保済み | `/admin/inventory_allocation_request_confirmations` |"
+      },
+      {
+        "line": 99,
+        "url": "/admin/inventory_allocation_requests/create",
+        "dynamic": false,
+        "text": "- 「在庫依頼を作成する」リンクボタン → `/admin/inventory_allocation_requests/create`"
+      },
+      {
+        "line": 134,
+        "url": "/admin/inventory_allocation_request_confirmations",
+        "dynamic": false,
+        "text": "- 「確保済み」（`/admin/inventory_allocation_request_confirmations`）の詳細: 画面見出しは「確保済み」、「移動伝票を作成する」ボタンがある。在庫依頼が確保されると、ここから移動伝票を作成するフローと判明。"
+      },
+      {
+        "line": 439,
+        "url": "/admin/inventory_allocation_requests/create",
+        "dynamic": false,
+        "text": "- **画面**: `/admin/inventory_allocation_requests/create`"
+      },
+      {
+        "line": 602,
+        "url": "/admin/inventory_allocation_requests/create",
+        "dynamic": false,
+        "text": "| 1. 在庫依頼作成 | /admin/inventory_allocation_requests/create | 「**保存する**」 | → 確認待ち | 在庫依頼を作成しました |"
+      },
+      {
+        "line": 604,
+        "url": "/admin/inventory_allocation_request_confirmations",
+        "dynamic": false,
+        "text": "| 3. 移動伝票作成 | /admin/inventory_allocation_request_confirmations → ダイアログ | 「**移動伝票を作成する**」→「**実行する**」 | 確保済み → （伝票作成完了） | 移動伝票を一括作成しました |"
+      },
+      {
+        "line": 632,
+        "url": "/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds",
+        "dynamic": false,
+        "text": "- **「ヤマトB2クラウド（出荷実績）」** → `/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds` へ遷移"
+      },
+      {
+        "line": 633,
+        "url": "/admin/csv_import/csv_import_operation_fulfillment_by_dhls",
+        "dynamic": false,
+        "text": "- **「DHL（出荷実績）」** → `/admin/csv_import/csv_import_operation_fulfillment_by_dhls` へ遷移"
+      },
+      {
+        "line": 648,
+        "url": "/admin/inventory_outbound_orders/export/yamato_b2_cloud",
+        "dynamic": false,
+        "text": "- 遷移先URL: `/admin/inventory_outbound_orders/export/yamato_b2_cloud`"
+      },
+      {
+        "line": 677,
+        "url": "/admin/settings/suppliers/create",
+        "dynamic": false,
+        "text": "- **正しいURL**: `/admin/settings/suppliers/create`（`/admin/inventory_suppliers/create` は404）"
+      },
+      {
+        "line": 677,
+        "url": "/admin/inventory_suppliers/create",
+        "dynamic": false,
+        "text": "- **正しいURL**: `/admin/settings/suppliers/create`（`/admin/inventory_suppliers/create` は404）"
+      },
+      {
+        "line": 684,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "- **保存成功後の遷移**: 取引先一覧（`/admin/settings/suppliers`）に遷移"
+      },
+      {
+        "line": 707,
+        "url": "/admin/inventory_suppliers",
+        "dynamic": false,
+        "text": "- `/admin/inventory_suppliers` → 「このページは存在しないようです」（404相当）。存在しない。"
+      },
+      {
+        "line": 708,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "- `/admin/settings/suppliers` → 取引先一覧が正常表示される。**こちらが正しいURL**。"
+      },
+      {
+        "line": 710,
+        "url": "/admin/inventory_suppliers",
+        "dynamic": false,
+        "text": "**訂正（L232〜L253の取引先一覧・管理セクション）**: 見出しURLを `/admin/inventory_suppliers` から `/admin/settings/suppliers` に訂正する（下記セクション見出し訂正済み）。"
+      },
+      {
+        "line": 710,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "**訂正（L232〜L253の取引先一覧・管理セクション）**: 見出しURLを `/admin/inventory_suppliers` から `/admin/settings/suppliers` に訂正する（下記セクション見出し訂正済み）。"
+      },
+      {
+        "line": 714,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "- URL: `/admin/settings/suppliers` ✓"
+      },
+      {
+        "line": 718,
+        "url": "/admin/settings/suppliers/create",
+        "dynamic": false,
+        "text": "- 「取引先を作成」の遷移先: `/admin/settings/suppliers/create`"
+      },
+      {
+        "line": 862,
+        "url": "/admin/csv_import/csv_import_settings_suppliers",
+        "dynamic": false,
+        "text": "- `/admin/csv_import/csv_import_settings_suppliers` は404"
+      },
+      {
+        "line": 876,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "- **一覧画面のリンクボタン名**: 「**取引先を作成**」（/admin/settings/suppliers の右上リンク）"
+      }
+    ],
+    "12-crm.md": [
+      {
+        "line": 13,
+        "url": "/admin/order_price_adjustment_rules/create",
+        "dynamic": false,
+        "text": "- 「ディスカウントを作成する」リンクボタン → `/admin/order_price_adjustment_rules/create`"
+      },
+      {
+        "line": 122,
+        "url": "/admin/order_price_adjustment_rules/create",
+        "dynamic": false,
+        "text": "| ディスカウントを作成する | ボタン（右上） | 作成フォーム `/admin/order_price_adjustment_rules/create` へ遷移 |"
+      },
+      {
+        "line": 232,
+        "url": "/admin/customer_rank_calculation_rules",
+        "dynamic": false,
+        "text": "| ← 会員ランク算出ルールを作成する（ページタイトル左の矢印） | リンク | 一覧画面 `/admin/customer_rank_calculation_rules` へ戻る |"
+      },
+      {
+        "line": 277,
+        "url": "/admin/point_calculation_birthday_rules/create",
+        "dynamic": false,
+        "text": "- **主要アクション**: 「付与ルールを作成する」リンク → `/admin/point_calculation_birthday_rules/create`"
+      },
+      {
+        "line": 306,
+        "url": "/admin/point_campaign_order_rules/create",
+        "dynamic": false,
+        "text": "- **主要アクション**: 「キャンペーンを作成する」リンク → `/admin/point_campaign_order_rules/create`"
+      },
+      {
+        "line": 369,
+        "url": "/admin/point_application_excluded_products/create",
+        "dynamic": false,
+        "text": "- **主要アクション**: 「追加する」リンク → `/admin/point_application_excluded_products/create`"
+      },
+      {
+        "line": 396,
+        "url": "/admin/point_expiration_notification_rule/create",
+        "dynamic": false,
+        "text": "- **主要アクション**: 「失効通知ルールを作成する」リンク → `/admin/point_expiration_notification_rule/create`"
+      },
+      {
+        "line": 422,
+        "url": "/admin/customer_ranks",
+        "dynamic": false,
+        "text": "- **結論**: 会員ランクの段階（具体的なランク名・達成条件）は、**算出ルールの詳細ページ**内で管理する。独立したURL `/admin/customer_ranks` は存在しない（404）。"
+      },
+      {
+        "line": 425,
+        "url": "/admin/customer_rank_calculation_rules/{id}",
+        "dynamic": true,
+        "text": "- **URL**: `/admin/customer_rank_calculation_rules/{id}`"
+      },
+      {
+        "line": 427,
+        "url": "/admin/customer_rank_calculation_rules/{id}/exclude_products",
+        "dynamic": true,
+        "text": "- **主要リンク**: 「除外商品を管理する」（→ `/admin/customer_rank_calculation_rules/{id}/exclude_products`）"
+      },
+      {
+        "line": 433,
+        "url": "/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create",
+        "dynamic": true,
+        "text": "- 「会員ランクを追加する」リンク → `/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create`"
+      },
+      {
+        "line": 449,
+        "url": "/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create",
+        "dynamic": true,
+        "text": "- **URL**: `/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create`"
+      },
+      {
+        "line": 463,
+        "url": "/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/{rank_id}",
+        "dynamic": true,
+        "text": "- **URL**: `/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/{rank_id}`"
+      },
+      {
+        "line": 471,
+        "url": "/admin/customer_rank_calculation_rules/{id}/exclude_products",
+        "dynamic": true,
+        "text": "- **URL**: `/admin/customer_rank_calculation_rules/{id}/exclude_products`"
+      },
+      {
+        "line": 473,
+        "url": "/admin/customer_rank_calculation_rules/{id}/exclude_products/create",
+        "dynamic": true,
+        "text": "- 主要アクション: 「除外商品を追加する」リンク → `/admin/customer_rank_calculation_rules/{id}/exclude_products/create`"
+      },
+      {
+        "line": 486,
+        "url": "/admin/order_price_adjustment_rules/{id}",
+        "dynamic": true,
+        "text": "| 基本情報 | `/admin/order_price_adjustment_rules/{id}` | ルールの設定内容表示・編集 |"
+      },
+      {
+        "line": 487,
+        "url": "/admin/order_price_adjustment_rules/{id}/usages",
+        "dynamic": true,
+        "text": "| 利用履歴 | `/admin/order_price_adjustment_rules/{id}/usages` | 利用された注文の履歴 |"
+      },
+      {
+        "line": 488,
+        "url": "/admin/order_price_adjustment_rules/{id}/customers",
+        "dynamic": true,
+        "text": "| 顧客管理 | `/admin/order_price_adjustment_rules/{id}/customers` | 対象顧客の管理 |"
+      },
+      {
+        "line": 489,
+        "url": "/admin/order_price_adjustment_rules/{id}/locations",
+        "dynamic": true,
+        "text": "| 店舗管理 | `/admin/order_price_adjustment_rules/{id}/locations` | 対象店舗の管理 |"
+      },
+      {
+        "line": 490,
+        "url": "/admin/order_price_adjustment_rules/{id}/product_variants",
+        "dynamic": true,
+        "text": "| 商品管理 | `/admin/order_price_adjustment_rules/{id}/product_variants` | 対象商品バリエーションの管理 |"
+      },
+      {
+        "line": 497,
+        "url": "/admin/order_price_adjustment_rules/{id}/product_variants",
+        "dynamic": true,
+        "text": "- **URL**: `/admin/order_price_adjustment_rules/{id}/product_variants`"
+      },
+      {
+        "line": 542,
+        "url": "/admin/customer_rank_calculation_rules/{id}",
+        "dynamic": true,
+        "text": "**会員ランク詳細ページにポイント設定なし**: `/admin/customer_rank_calculation_rules/{id}` の詳細ページには、ポイント関連のセクションは存在しない。倍率設定はポイントキャンペーン側から行う。"
+      },
+      {
+        "line": 631,
+        "url": "/admin/csv_export/csv_export_operation_order_price_adjustment_usages",
+        "dynamic": false,
+        "text": "- **追加アクション**: 「CSVエクスポート」リンク（→ `/admin/csv_export/csv_export_operation_order_price_adjustment_usages`）"
+      },
+      {
+        "line": 716,
+        "url": "/admin/point_campaign_order_rules/create",
+        "dynamic": false,
+        "text": "1. `/admin/point_campaign_order_rules/create` にてTEST_FAQ_ランク別ポイントキャンペーンを作成（種別=会員ランク、ポイント付与方法=倍率、対象ルール=TEST_FAQ_注文ポイント付与ルール）"
+      },
+      {
+        "line": 722,
+        "url": "/admin/point_campaign_order_rules/{id}",
+        "dynamic": true,
+        "text": "URL: `/admin/point_campaign_order_rules/{id}`"
+      },
+      {
+        "line": 745,
+        "url": "/admin/point_campaign_order_rules/{id}/customer_ranks/create",
+        "dynamic": true,
+        "text": "URL: `/admin/point_campaign_order_rules/{id}/customer_ranks/create`"
+      },
+      {
+        "line": 776,
+        "url": "/admin/point_campaign_order_rules/{id}/update",
+        "dynamic": true,
+        "text": "URL: `/admin/point_campaign_order_rules/{id}/update`"
+      },
+      {
+        "line": 811,
+        "url": "/admin/customer_rank_calculation_rules/{id}/update",
+        "dynamic": true,
+        "text": "URL: `/admin/customer_rank_calculation_rules/{id}/update`"
+      },
+      {
+        "line": 828,
+        "url": "/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/{rank_id}",
+        "dynamic": true,
+        "text": "URL: `/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/{rank_id}`"
+      },
+      {
+        "line": 838,
+        "url": "/admin/customer_rank_calculation_rules/{id}/exclude_products",
+        "dynamic": true,
+        "text": "URL: `/admin/customer_rank_calculation_rules/{id}/exclude_products`"
+      },
+      {
+        "line": 848,
+        "url": "/admin/orders/{id}",
+        "dynamic": true,
+        "text": "- 注文詳細URLパターン（`/admin/orders/{id}`）へのアクセスも0件のため辿れない"
+      },
+      {
+        "line": 881,
+        "url": "/admin/order_price_adjustment_rules",
+        "dynamic": false,
+        "text": "ディスカウント一覧（`/admin/order_price_adjustment_rules`）のテーブル列:"
+      },
+      {
+        "line": 946,
+        "url": "/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create",
+        "dynamic": true,
+        "text": "**確認対象**: `/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create` のh1"
+      },
+      {
+        "line": 950,
+        "url": "/admin/customer_rank_calculation_rules/37f5da19-..._CustomerRankCalculationRule/customer_rank_rules/create",
+        "dynamic": false,
+        "text": "- URL: `/admin/customer_rank_calculation_rules/37f5da19-..._CustomerRankCalculationRule/customer_rank_rules/create`"
+      },
+      {
+        "line": 1015,
+        "url": "/admin/point_campaign_order_rules/{id}/update",
+        "dynamic": true,
+        "text": "- href: `/admin/point_campaign_order_rules/{id}/update` → フルページ遷移（ダイアログではない）"
+      }
+    ],
+    "13-channels.md": [
+      {
+        "line": 33,
+        "url": "/admin/omnibus_core_integrations/create",
+        "dynamic": false,
+        "text": "- 「追加する」ボタン → `/admin/omnibus_core_integrations/create`"
+      },
+      {
+        "line": 78,
+        "url": "/admin/smaregi_integrations/create",
+        "dynamic": false,
+        "text": "- 「追加する」ボタン → `/admin/smaregi_integrations/create`"
+      },
+      {
+        "line": 153,
+        "url": "/admin/shopify_integrations/create",
+        "dynamic": false,
+        "text": "**URL**: `/admin/shopify_integrations/create`"
+      },
+      {
+        "line": 183,
+        "url": "/admin/shopify_integrations/create",
+        "dynamic": false,
+        "text": "- 前回調査時は「ストアを接続（外部連携のため停止）」として未踏だったが、フォーム画面が `/admin/shopify_integrations/create` として存在し、入力項目・バリデーションともに実機確認できた。"
+      },
+      {
+        "line": 197,
+        "url": "/admin/omnibus_core_integrations/create",
+        "dynamic": false,
+        "text": "**URL**: `/admin/omnibus_core_integrations/create`"
+      },
+      {
+        "line": 241,
+        "url": "/admin/smaregi_integrations/create",
+        "dynamic": false,
+        "text": "**URL**: `/admin/smaregi_integrations/create`"
+      },
+      {
+        "line": 282,
+        "url": "/admin/retail_portal_integrations/create",
+        "dynamic": false,
+        "text": "**URL**: `/admin/retail_portal_integrations/create`"
+      },
+      {
+        "line": 313,
+        "url": "/admin/settings/locations/{id}",
+        "dynamic": true,
+        "text": "- ✓実機確認(2026-06-07): 採番元・形式は SQ 内のロケーションマスタ（`/admin/settings/locations/{id}` の「基本情報を編集」ダイアログ）で管理者が**手動入力**する仕様。自動採番ではない。フィールドは任意項目（必須マークなし）、placeholder は「12345」。"
+      },
+      {
+        "line": 328,
+        "url": "/admin/local_pickup_retail_location_rules",
+        "dynamic": false,
+        "text": "- **「店舗受取」サブメニュー**がリテールポータルの配下（`/admin/local_pickup_retail_location_rules`）に存在することを新たに発見（ナビゲーションに表示）。前回調査未踏。"
+      },
+      {
+        "line": 340,
+        "url": "/admin/local_pickup_retail_location_rules",
+        "dynamic": false,
+        "text": "**URL**: `/admin/local_pickup_retail_location_rules`"
+      },
+      {
+        "line": 345,
+        "url": "/admin/local_pickup_retail_location_rules/create",
+        "dynamic": false,
+        "text": "**作成フォーム**（`/admin/local_pickup_retail_location_rules/create`）:"
+      },
+      {
+        "line": 369,
+        "url": "/admin/b2b",
+        "dynamic": false,
+        "text": "**URL**: `/admin/b2b`"
+      },
+      {
+        "line": 374,
+        "url": "/admin/b2b/create",
+        "dynamic": false,
+        "text": "**サブURL直接アクセス**: `/admin/b2b/create` にアクセスすると「このページは存在しないようです」エラー画面（ホームに戻るリンクのみ）。"
+      },
+      {
+        "line": 376,
+        "url": "/admin/b2b",
+        "dynamic": false,
+        "text": "**確定事実**: 卸売は `/admin/b2b` 自体は存在するが機能は完全未実装（TODO表示）。サブパスは 404 相当のエラーページ。FAQ対象外。"
+      },
+      {
+        "line": 384,
+        "url": "/admin/omnibus_core_integrations/{id}",
+        "dynamic": true,
+        "text": "**URL**: `/admin/omnibus_core_integrations/{id}`"
+      },
+      {
+        "line": 545,
+        "url": "/admin/settings/company_locations",
+        "dynamic": false,
+        "text": "**CompanyLocationマスタの調査**: ✓実機確認(2026-06-07): `/admin/settings/company_locations`は404。設定画面のデータ管理メニューにも独立した「CompanyLocation」項目は存在しない。CompanyLocationは独立マスタではなく **「会社(Company)」の配下リソース**であることが確定。"
+      },
+      {
+        "line": 547,
+        "url": "/admin/companies/{companyID}/locations/{companyLocationID}",
+        "dynamic": true,
+        "text": "- **CompanyLocation管理URL**: `/admin/companies/{companyID}/locations/{companyLocationID}`"
+      },
+      {
+        "line": 548,
+        "url": "/admin/companies",
+        "dynamic": false,
+        "text": "- **Company一覧URL**: `/admin/companies`（「顧客管理」のサブメニュー「会社」として存在）"
+      },
+      {
+        "line": 550,
+        "url": "/admin/companies/{companyID}/locations/create",
+        "dynamic": true,
+        "text": "- **「ロケーションを追加」URL**: `/admin/companies/{companyID}/locations/create`"
+      },
+      {
+        "line": 570,
+        "url": "/admin/smaregi_integrations/create",
+        "dynamic": false,
+        "text": "**実機確認結果（2026-06-07）**: JavaScriptで `/admin/smaregi_integrations/create` の「在庫同期の方向」要素を取得 → **`SELECT`（コンボボックス）**と確定。`input[type=radio]`は存在しない。"
+      },
+      {
+        "line": 584,
+        "url": "/admin/omnibus_core_integrations/TEST_MAKER_001",
+        "dynamic": false,
+        "text": "**実機確認結果（2026-06-07）**: `/admin/omnibus_core_integrations/TEST_MAKER_001`の基本設定タブで確認。"
+      },
+      {
+        "line": 615,
+        "url": "/admin/omnibus_core_integrations/.../",
+        "dynamic": false,
+        "text": "**実機確認結果（2026-06-07）**: TEST_MAKER_001の詳細画面（`/admin/omnibus_core_integrations/.../`）で以下を再確認。"
+      },
+      {
+        "line": 640,
+        "url": "/admin/shopify_integrations/create",
+        "dynamic": false,
+        "text": "**実機確認結果（2026-06-07）**: Shopify作成フォーム（`/admin/shopify_integrations/create`）の全select要素を確認。"
+      },
+      {
+        "line": 669,
+        "url": "/admin/companies",
+        "dynamic": false,
+        "text": "- CompanyLocationマスタの管理画面URL: ✓実機確認(2026-06-07)。独立マスタではなく「顧客管理」→「会社」(`/admin/companies`)の配下。会社詳細 → ロケーションセクションで管理。URL: `/admin/companies/{companyID}/locations/{companyLocationID}`"
+      },
+      {
+        "line": 669,
+        "url": "/admin/companies/{companyID}/locations/{companyLocationID}",
+        "dynamic": true,
+        "text": "- CompanyLocationマスタの管理画面URL: ✓実機確認(2026-06-07)。独立マスタではなく「顧客管理」→「会社」(`/admin/companies`)の配下。会社詳細 → ロケーションセクションで管理。URL: `/admin/companies/{companyID}/locations/{companyLocationID}`"
+      }
+    ],
+    "14-settings.md": [
+      {
+        "line": 3,
+        "url": "/admin/settings",
+        "dynamic": false,
+        "text": "> 調査日: 2026-06-05 | URL: `/admin/settings` | 読み取り中心（動作検証のため一部マスタへ `TEST_FAQ_` テストデータを作成）"
+      },
+      {
+        "line": 22,
+        "url": "/admin/settings/users",
+        "dynamic": false,
+        "text": "| 管理メンバー | `/admin/settings/users` | 管理画面にアクセス可能なメンバーを管理することができます | 4名登録済み |"
+      },
+      {
+        "line": 23,
+        "url": "/admin/settings/tenants",
+        "dynamic": false,
+        "text": "| テナント | `/admin/settings/tenants` | 事業部を表すテナントデータを管理することができます。 | 1件（ユニクロ） |"
+      },
+      {
+        "line": 24,
+        "url": "/admin/settings/locations",
+        "dynamic": false,
+        "text": "| ロケーション | `/admin/settings/locations` | 在庫を管理するロケーションを管理することができます。 | 2件 |"
+      },
+      {
+        "line": 25,
+        "url": "/admin/settings/location_groups",
+        "dynamic": false,
+        "text": "| ロケーショングループ | `/admin/settings/location_groups` | ロケーションをグループ化して管理することができます。 | 1件（TEST_FAQ_ロケーショングループ、調査中作成のテストデータ）【訂正 2026-06-07: 調査開始時は空、後続調査でマスタ作成済み。13-channels.md L163/L208 参照】 |"
+      },
+      {
+        "line": 26,
+        "url": "/admin/settings/brands",
+        "dynamic": false,
+        "text": "| ブランド | `/admin/settings/brands` | ブランド情報を管理することができます | 1件以上（TEST_FAQ_ブランド、調査中作成のテストデータ）【訂正 2026-06-07: 後続調査で実在を確認。下記ブランド一覧 L596-598 参照】 |"
+      },
+      {
+        "line": 27,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "| 取引先 | `/admin/settings/suppliers` | 在庫を仕入れる取引先の業者を管理することができます。 | 調査初期は空。後続監査で TEST_FAQ_Supplier / TEST_FAQ_Supplier2 の2件を確認【[A10] L1167-1171 参照】 |"
+      },
+      {
+        "line": 28,
+        "url": "/admin/settings/payment_methods",
+        "dynamic": false,
+        "text": "| 決済方法 | `/admin/settings/payment_methods` | 顧客が注文時に利用する決済方法を管理することができます | 調査初期は未確認。後続監査で TEST_FAQ_決済 1件を確認【[A07] L1138-1144 参照】 |"
+      },
+      {
+        "line": 29,
+        "url": "/admin/settings/retail_staff_members",
+        "dynamic": false,
+        "text": "| 販売員 | `/admin/settings/retail_staff_members` | 販売員情報を管理することができます | 未確認 |"
+      },
+      {
+        "line": 36,
+        "url": "/admin/settings/pdf_template_package_slip",
+        "dynamic": false,
+        "text": "| 納品書 | `/admin/settings/pdf_template_package_slip` | 納品書テンプレートを管理することができます |"
+      },
+      {
+        "line": 41,
+        "url": "/admin/settings/organization_notification_emails",
+        "dynamic": false,
+        "text": "| 通知用メールアドレス | `/admin/settings/organization_notification_emails` | お知らせやアラートなどのメールを受け取るためのアドレスを管理することができます。 |"
+      },
+      {
+        "line": 46,
+        "url": "/admin/settings/apps",
+        "dynamic": false,
+        "text": "| アプリ | `/admin/settings/apps` | APIを利用するためのアプリを管理することができます |"
+      },
+      {
+        "line": 47,
+        "url": "/admin/logizard_integrations",
+        "dynamic": false,
+        "text": "| ロジザード | `/admin/logizard_integrations` | ロジザードZEROとの連携設定を管理することができます |"
+      },
+      {
+        "line": 48,
+        "url": "/admin/recustomer_integrations",
+        "dynamic": false,
+        "text": "| Recustomer | `/admin/recustomer_integrations` | Recustomerとの連携を管理することができます |"
+      },
+      {
+        "line": 53,
+        "url": "/admin/settings/translation",
+        "dynamic": false,
+        "text": "| 翻訳 | `/admin/settings/translation` | 翻訳を管理することができます |"
+      },
+      {
+        "line": 54,
+        "url": "/admin/settings/metafield_definitions",
+        "dynamic": false,
+        "text": "| メタフィールド定義 | `/admin/settings/metafield_definitions` | オブジェクトのカスタムフィールドを管理することができます |"
+      },
+      {
+        "line": 55,
+        "url": "/admin/settings/product_measurement_rules",
+        "dynamic": false,
+        "text": "| 採寸ルール | `/admin/settings/product_measurement_rules` | 商品ごとの採寸ルールを管理することができます |"
+      },
+      {
+        "line": 156,
+        "url": "/admin/settings/users",
+        "dynamic": false,
+        "text": "管理メンバー一覧（`/admin/settings/users`）の「権限グループ一覧」ボタンから遷移。"
+      },
+      {
+        "line": 165,
+        "url": "/admin/settings/permission_groups/create",
+        "dynamic": false,
+        "text": "- 「作成する」（`/admin/settings/permission_groups/create`）"
+      },
+      {
+        "line": 168,
+        "url": "/admin/settings/permission_groups/434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup",
+        "dynamic": false,
+        "text": "- URL: `/admin/settings/permission_groups/434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup`"
+      },
+      {
+        "line": 173,
+        "url": "/admin/settings/permission_groups/create",
+        "dynamic": false,
+        "text": "- URL: `/admin/settings/permission_groups/create`"
+      },
+      {
+        "line": 190,
+        "url": "/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup",
+        "dynamic": false,
+        "text": "- URL: `/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup`"
+      },
+      {
+        "line": 289,
+        "url": "/admin/settings/translation/translation_rules/create",
+        "dynamic": false,
+        "text": "- 「作成する」ボタン → `/admin/settings/translation/translation_rules/create`"
+      },
+      {
+        "line": 307,
+        "url": "/admin/settings/translation/translation_rules/{id}_TranslationRule",
+        "dynamic": true,
+        "text": "**URL**: `/admin/settings/translation/translation_rules/{id}_TranslationRule`"
+      },
+      {
+        "line": 351,
+        "url": "/admin/settings/product_measurement_rules/create",
+        "dynamic": false,
+        "text": "- 「採寸ルールを作成する」（`/admin/settings/product_measurement_rules/create`）"
+      },
+      {
+        "line": 372,
+        "url": "/admin/settings/product_measurement_rules/{id}_ProductMeasurementRule",
+        "dynamic": true,
+        "text": "**URL**: `/admin/settings/product_measurement_rules/{id}_ProductMeasurementRule`"
+      },
+      {
+        "line": 394,
+        "url": "/admin/products/{id}",
+        "dynamic": true,
+        "text": "- **商品詳細画面**（`/admin/products/{id}`）に「採寸」関連のセクション・プルダウンは一切出現しない（複数商品で確認）"
+      },
+      {
+        "line": 411,
+        "url": "/admin/recustomer_integrations/create",
+        "dynamic": false,
+        "text": "- 「アカウントを接続」（`/admin/recustomer_integrations/create`）"
+      },
+      {
+        "line": 443,
+        "url": "/admin/settings/users/create",
+        "dynamic": false,
+        "text": "**実機確認日: 2026-06-06** URL: `/admin/settings/users/create`"
+      },
+      {
+        "line": 472,
+        "url": "/admin/settings/users/{user_id}",
+        "dynamic": true,
+        "text": "**実機確認日: 2026-06-06** URL: `/admin/settings/users/{user_id}`"
+      },
+      {
+        "line": 507,
+        "url": "/admin/settings/locations/create",
+        "dynamic": false,
+        "text": "**実機確認日: 2026-06-06** URL: `/admin/settings/locations/create`"
+      },
+      {
+        "line": 526,
+        "url": "/admin/settings/retail_staff_members/create",
+        "dynamic": false,
+        "text": "**実機確認日: 2026-06-06** URL: `/admin/settings/retail_staff_members/create`"
+      },
+      {
+        "line": 547,
+        "url": "/admin/settings/brands/{id}_Brand",
+        "dynamic": true,
+        "text": "**実機確認日: 2026-06-06** URL: `/admin/settings/brands/{id}_Brand`"
+      },
+      {
+        "line": 762,
+        "url": "/admin/logizard_integrations",
+        "dynamic": false,
+        "text": "| ← （戻るアイコン） | リンク | /admin/logizard_integrations 一覧へ戻る |"
+      },
+      {
+        "line": 832,
+        "url": "/admin/settings/apps",
+        "dynamic": false,
+        "text": "| ← （戻るアイコン） | リンク | /admin/settings/apps 一覧へ戻る |"
+      },
+      {
+        "line": 936,
+        "url": "/admin/settings/location_groups/create",
+        "dynamic": false,
+        "text": "| グループを作成 | ボタン（右上） | /admin/settings/location_groups/create へ遷移 |"
+      },
+      {
+        "line": 963,
+        "url": "/admin/settings/location_groups/{id}/locations",
+        "dynamic": true,
+        "text": "- 「編集する」リンク → `/admin/settings/location_groups/{id}/locations` へ遷移"
+      },
+      {
+        "line": 970,
+        "url": "/admin/settings/location_groups/{id}_LocationGroup",
+        "dynamic": true,
+        "text": "- 保存ボタン押下後、URL が `/admin/settings/location_groups/{id}_LocationGroup` に変わる（成功）"
+      },
+      {
+        "line": 995,
+        "url": "/admin/settings/metafield_definitions/organization",
+        "dynamic": false,
+        "text": "| 組織 | /admin/settings/metafield_definitions/organization |"
+      },
+      {
+        "line": 996,
+        "url": "/admin/settings/metafield_definitions/product",
+        "dynamic": false,
+        "text": "| 商品 | /admin/settings/metafield_definitions/product |"
+      },
+      {
+        "line": 997,
+        "url": "/admin/settings/metafield_definitions/product_variant",
+        "dynamic": false,
+        "text": "| バリエーション | /admin/settings/metafield_definitions/product_variant |"
+      },
+      {
+        "line": 998,
+        "url": "/admin/settings/metafield_definitions/purchasing_customer",
+        "dynamic": false,
+        "text": "| 顧客 | /admin/settings/metafield_definitions/purchasing_customer |"
+      },
+      {
+        "line": 999,
+        "url": "/admin/settings/metafield_definitions/order",
+        "dynamic": false,
+        "text": "| 注文 | /admin/settings/metafield_definitions/order |"
+      },
+      {
+        "line": 1000,
+        "url": "/admin/settings/metafield_definitions/draft_order",
+        "dynamic": false,
+        "text": "| 下書き注文 | /admin/settings/metafield_definitions/draft_order |"
+      },
+      {
+        "line": 1001,
+        "url": "/admin/settings/metafield_definitions/company",
+        "dynamic": false,
+        "text": "| 会社 | /admin/settings/metafield_definitions/company |"
+      },
+      {
+        "line": 1002,
+        "url": "/admin/settings/metafield_definitions/location",
+        "dynamic": false,
+        "text": "| ロケーション | /admin/settings/metafield_definitions/location |"
+      },
+      {
+        "line": 1003,
+        "url": "/admin/settings/metafield_definitions/order_price_adjustment_rule",
+        "dynamic": false,
+        "text": "| ディスカウント | /admin/settings/metafield_definitions/order_price_adjustment_rule |"
+      },
+      {
+        "line": 1004,
+        "url": "/admin/settings/metafield_definitions/inventory_movement_order",
+        "dynamic": false,
+        "text": "| 在庫移動伝票 | /admin/settings/metafield_definitions/inventory_movement_order |"
+      },
+      {
+        "line": 1005,
+        "url": "/admin/settings/metafield_definitions/inventory_adjustment_order",
+        "dynamic": false,
+        "text": "| 在庫調整伝票 | /admin/settings/metafield_definitions/inventory_adjustment_order |"
+      },
+      {
+        "line": 1006,
+        "url": "/admin/settings/metafield_definitions/inventory_reservation_order",
+        "dynamic": false,
+        "text": "| 在庫取置伝票 | /admin/settings/metafield_definitions/inventory_reservation_order |"
+      },
+      {
+        "line": 1007,
+        "url": "/admin/settings/metafield_definitions/inventory_purchase_order",
+        "dynamic": false,
+        "text": "| 発注伝票 | /admin/settings/metafield_definitions/inventory_purchase_order |"
+      },
+      {
+        "line": 1008,
+        "url": "/admin/settings/metafield_definitions/inventory_inbound_order",
+        "dynamic": false,
+        "text": "| 入荷指示 | /admin/settings/metafield_definitions/inventory_inbound_order |"
+      },
+      {
+        "line": 1009,
+        "url": "/admin/settings/metafield_definitions/inventory_outbound_order",
+        "dynamic": false,
+        "text": "| 出荷指示 | /admin/settings/metafield_definitions/inventory_outbound_order |"
+      },
+      {
+        "line": 1010,
+        "url": "/admin/settings/metafield_definitions/inventory_supplier",
+        "dynamic": false,
+        "text": "| 仕入れ先 | /admin/settings/metafield_definitions/inventory_supplier |"
+      },
+      {
+        "line": 1014,
+        "url": "/admin/settings/metafield_definitions/product/create",
+        "dynamic": false,
+        "text": "- ボタン: 「定義を追加する」→ /admin/settings/metafield_definitions/product/create"
+      },
+      {
+        "line": 1058,
+        "url": "/admin/settings/brands/new",
+        "dynamic": false,
+        "text": "- `/admin/settings/brands/new` を直接ナビゲート → 「予期せぬエラーが発生しました」エラーページ（404相当）"
+      },
+      {
+        "line": 1059,
+        "url": "/admin/settings/brands/create",
+        "dynamic": false,
+        "text": "- `/admin/settings/brands/create` を直接ナビゲート → 正常なブランド作成フォーム（名前* / 外部ID / コード*）が表示"
+      },
+      {
+        "line": 1060,
+        "url": "/admin/settings/brands/create",
+        "dynamic": false,
+        "text": "- ブランド一覧（/admin/settings/brands）の「追加する」リンクのhref属性: `/admin/settings/brands/create`（スナップショットで実測）"
+      },
+      {
+        "line": 1065,
+        "url": "/admin/settings/brands/create",
+        "dynamic": false,
+        "text": "- 03-products.md L541/L543 の `/admin/settings/brands/create` は正しかった（こちらが合っていた）"
+      },
+      {
+        "line": 1072,
+        "url": "/admin/inventory_suppliers",
+        "dynamic": false,
+        "text": "**照合結果: `/admin/inventory_suppliers` は404（存在しない）。`/admin/settings/suppliers` が正しい。**"
+      },
+      {
+        "line": 1072,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "**照合結果: `/admin/inventory_suppliers` は404（存在しない）。`/admin/settings/suppliers` が正しい。**"
+      },
+      {
+        "line": 1074,
+        "url": "/admin/inventory_suppliers",
+        "dynamic": false,
+        "text": "- `/admin/inventory_suppliers` → 「このページは存在しないようです」（404ページ）"
+      },
+      {
+        "line": 1075,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "- `/admin/settings/suppliers` → 正常な取引先一覧画面（TEST_FAQ_Supplier / TEST_FAQ_Supplier2 の2件が表示）"
+      },
+      {
+        "line": 1076,
+        "url": "/admin/settings/suppliers/create",
+        "dynamic": false,
+        "text": "- 「取引先を作成」リンクのhref: `/admin/settings/suppliers/create`"
+      },
+      {
+        "line": 1078,
+        "url": "/admin/inventory_suppliers",
+        "dynamic": false,
+        "text": "**訂正要件:** 11-operations.md L232 の見出し `/admin/inventory_suppliers` は誤り。`/admin/settings/suppliers` に訂正すること（11-operations.mdは別ファイルのため別途訂正）。"
+      },
+      {
+        "line": 1078,
+        "url": "/admin/settings/suppliers",
+        "dynamic": false,
+        "text": "**訂正要件:** 11-operations.md L232 の見出し `/admin/inventory_suppliers` は誤り。`/admin/settings/suppliers` に訂正すること（11-operations.mdは別ファイルのため別途訂正）。"
+      },
+      {
+        "line": 1085,
+        "url": "/admin/settings/retail_staff_members/create",
+        "dynamic": false,
+        "text": "**照合結果: 実際のURLは `/admin/settings/retail_staff_members/create`（`/new` ではない）**"
+      },
+      {
+        "line": 1087,
+        "url": "/admin/settings/retail_staff_members/create",
+        "dynamic": false,
+        "text": "- 実機で `/admin/settings/retail_staff_members/create` にアクセスしフォームを確認"
+      },
+      {
+        "line": 1118,
+        "url": "/admin/settings/locations/create",
+        "dynamic": false,
+        "text": "**照合結果: 実際のURLは `/admin/settings/locations/create`（`/new` ではない）**"
+      },
+      {
+        "line": 1120,
+        "url": "/admin/settings/locations/create",
+        "dynamic": false,
+        "text": "- 実機で `/admin/settings/locations/create` にアクセスしフォームを確認"
+      },
+      {
+        "line": 1141,
+        "url": "/admin/settings/payment_methods/create",
+        "dynamic": false,
+        "text": "**照合結果: 実際のURLは `/admin/settings/payment_methods/create`（`/new` ではない）**"
+      },
+      {
+        "line": 1143,
+        "url": "/admin/settings/payment_methods/create",
+        "dynamic": false,
+        "text": "- 決済方法一覧（/admin/settings/payment_methods）の「決済方法を作成」リンクのhref: `/admin/settings/payment_methods/create`（スナップショット実測）"
+      },
+      {
+        "line": 1178,
+        "url": "/admin/settings/locations/create",
+        "dynamic": false,
+        "text": "**照合結果: 実際のURLは `/admin/settings/locations/create`（実機ナビゲートで確認）**"
+      },
+      {
+        "line": 1181,
+        "url": "/admin/settings/locations/create",
+        "dynamic": false,
+        "text": "- フォームURL: `https://www.sqstackstaging.com/admin/settings/locations/create`（URL欄でも確認）"
+      },
+      {
+        "line": 1190,
+        "url": "/admin/settings/brands/9db91120-..._Brand",
+        "dynamic": false,
+        "text": "- ブランド詳細画面（`/admin/settings/brands/9db91120-..._Brand`）のフィールド: 「ブランド名*」テキストボックスと「コード*」テキストボックスの2項目のみ"
+      },
+      {
+        "line": 1200,
+        "url": "/admin/inventory_suppliers",
+        "dynamic": false,
+        "text": "1. **11-operations.md L232 の `/admin/inventory_suppliers` 誤記** → 本ファイル外（11-operations.md を別途訂正要）"
+      }
+    ],
+    "15-csv-pdf.md": [
+      {
+        "line": 133,
+        "url": "/admin/csv_import/csv_import_operation_products",
+        "dynamic": false,
+        "text": "#### 一覧画面ヘッダー（例: 商品 → `/admin/csv_import/csv_import_operation_products`）"
+      },
+      {
+        "line": 139,
+        "url": "/admin/csv_import/csv_import_operation_products/create",
+        "dynamic": false,
+        "text": "#### インポート実行フォーム（例: `/admin/csv_import/csv_import_operation_products/create`）"
+      },
+      {
+        "line": 150,
+        "url": "/admin/csv_import/csv_import_operation_products",
+        "dynamic": false,
+        "text": "| 商品 | `/admin/csv_import/csv_import_operation_products` | `https://docs.google.com/spreadsheets/d/1b2lGs4s6MDIzqTumUDt6WEE42oMv6pJ1leEoMRY4Evk` |"
+      },
+      {
+        "line": 151,
+        "url": "/admin/csv_import/csv_import_operation_point_pluses",
+        "dynamic": false,
+        "text": "| ポイント一括付与 | `/admin/csv_import/csv_import_operation_point_pluses` | `https://docs.google.com/spreadsheets/d/1bZ9BM7wtuX6q5ngUysR__BB98cGaDK4JRaHpQJe5oVU` |"
+      },
+      {
+        "line": 161,
+        "url": "/admin/csv_import/csv_import_operation_products",
+        "dynamic": false,
+        "text": "- CSVインポートの各項目はそれぞれ専用URLへ遷移する（例: `/admin/csv_import/csv_import_operation_products`）"
+      },
+      {
+        "line": 165,
+        "url": "/admin/settings/pdf_template_package_slip",
+        "dynamic": false,
+        "text": "- PDFエクスポートの「納品書テンプレート」は`/admin/settings/pdf_template_package_slip`で管理"
+      },
+      {
+        "line": 547,
+        "url": "/admin/inventory_outbound_orders",
+        "dynamic": false,
+        "text": "- **重要な挙動（実測）**: この一覧画面には「エクスポート」ボタンが存在しない。出荷指示CSVの生成は出荷管理画面（`/admin/inventory_outbound_orders`）側から行う設計と推測される。<!-- TODO: 要確認 — 出荷管理のどの操作でヤマトB2クラウドCSVが生成されるか -->"
+      },
+      {
+        "line": 561,
+        "url": "/admin/pdf_export/pdf_export_operation_packing_slips",
+        "dynamic": false,
+        "text": "| 納品書（矢印ボタン） | ボタン | `/admin/pdf_export/pdf_export_operation_packing_slips` へ遷移 |"
+      },
+      {
+        "line": 571,
+        "url": "/admin/settings/pdf_template_package_slip",
+        "dynamic": false,
+        "text": "- **重要な挙動（実測）**: ヤマトB2クラウドCSVエクスポートと同様、この一覧画面には「エクスポート」ボタンが存在しない。納品書PDFの生成は出荷管理画面側から行う設計と推測される。設定は `/admin/settings/pdf_template_package_slip` でテンプレートを管理。<!-- TODO: 要確認 — 出荷管理の具体的な操作手順 -->"
+      },
+      {
+        "line": 583,
+        "url": "/admin/csv_export/csv_export_operation_inventory_logical_quantities",
+        "dynamic": false,
+        "text": "| 在庫 | `/admin/csv_export/csv_export_operation_inventory_logical_quantities` | 同上 + `/create` |"
+      },
+      {
+        "line": 584,
+        "url": "/admin/csv_export/csv_export_operation_location_by_location_group",
+        "dynamic": false,
+        "text": "| ロケーション | `/admin/csv_export/csv_export_operation_location_by_location_group` | 同上 + `/create` |"
+      },
+      {
+        "line": 585,
+        "url": "/admin/csv_export/csv_export_operation_order_price_adjustment_usages",
+        "dynamic": false,
+        "text": "| ディスカウントの利用履歴 | `/admin/csv_export/csv_export_operation_order_price_adjustment_usages` | 同上 + `/create` |"
+      },
+      {
+        "line": 586,
+        "url": "/admin/csv_export/csv_export_operation_product_variants",
+        "dynamic": false,
+        "text": "| 商品バリエーション | `/admin/csv_export/csv_export_operation_product_variants` | 同上 + `/create` |"
+      },
+      {
+        "line": 587,
+        "url": "/admin/csv_export/csv_export_operation_product_price_rule_sale_prices",
+        "dynamic": false,
+        "text": "| セール価格 | `/admin/csv_export/csv_export_operation_product_price_rule_sale_prices` | 同上 + `/create` |"
+      },
+      {
+        "line": 588,
+        "url": "/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds",
+        "dynamic": false,
+        "text": "| ヤマトB2クラウド | `/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds` | createフォームなし（出荷管理側から実行） |"
+      },
+      {
+        "line": 589,
+        "url": "/admin/csv_export/csv_export_operation_sale_changes",
+        "dynamic": false,
+        "text": "| 売上実績（注文軸） | `/admin/csv_export/csv_export_operation_sale_changes` | 同上 + `/create` |"
+      },
+      {
+        "line": 590,
+        "url": "/admin/csv_export/csv_export_operation_point_changes",
+        "dynamic": false,
+        "text": "| ポイント変動履歴 | `/admin/csv_export/csv_export_operation_point_changes` | 同上 + `/create` |"
+      },
+      {
+        "line": 591,
+        "url": "/admin/pdf_export/pdf_export_operation_packing_slips",
+        "dynamic": false,
+        "text": "| 納品書（PDF） | `/admin/pdf_export/pdf_export_operation_packing_slips` | createフォームなし（出荷管理側から実行） |"
+      },
+      {
+        "line": 623,
+        "url": "/admin/csv_import",
+        "dynamic": false,
+        "text": "- CSVインポートトップ（`/admin/csv_import`）の「出荷」グループ内「ヤマトB2クラウド」= `csv_import_operation_fulfillment_by_yamato_b2_clouds`"
+      },
+      {
+        "line": 624,
+        "url": "/admin/inventory_outbound_orders",
+        "dynamic": false,
+        "text": "- 出荷管理（`/admin/inventory_outbound_orders`）の「インポート」ドロップダウン → 「ヤマトB2クラウド（出荷実績）」= 同URL"
+      },
+      {
+        "line": 657,
+        "url": "/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create",
+        "dynamic": false,
+        "text": "- 正確なURL: `/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create`（既存記録のURLは不正確だった）"
+      },
+      {
+        "line": 721,
+        "url": "/admin/inventory_outbound_orders",
+        "dynamic": false,
+        "text": "1. 出荷管理（`/admin/inventory_outbound_orders`）へ移動"
+      },
+      {
+        "line": 724,
+        "url": "/admin/inventory_outbound_orders/export/yamato_b2_cloud",
+        "dynamic": false,
+        "text": "4. 遷移先URL: `/admin/inventory_outbound_orders/export/yamato_b2_cloud`"
+      },
+      {
+        "line": 755,
+        "url": "/admin/pdf_export/pdf_export_operation_packing_slips",
+        "dynamic": false,
+        "text": "- PDFエクスポート一覧画面（`/admin/pdf_export/pdf_export_operation_packing_slips`）は実行履歴の確認専用"
+      },
+      {
+        "line": 756,
+        "url": "/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds",
+        "dynamic": false,
+        "text": "- CSVエクスポート一覧画面（`/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds`）も実行履歴の確認専用"
+      },
+      {
+        "line": 795,
+        "url": "/admin/csv_import/csv_import_operation_{snake_case}",
+        "dynamic": true,
+        "text": "**URL命名パターン（判明）**: `/admin/csv_import/csv_import_operation_{snake_case}` の形式。`data-value`属性がPascalCaseでURLのsnake_caseに対応。"
+      },
+      {
+        "line": 962,
+        "url": "/admin/csv_import",
+        "dynamic": false,
+        "text": "**実機確認**: CSVインポートトップ画面（`/admin/csv_import`）の全セクションをDOMスナップショットで確認。合計20件（商品5/価格3/販売1/在庫2/メタフィールド2/出荷2/ポイント2/会員ランク1/各種マスター2）。"
+      },
+      {
+        "line": 971,
+        "url": "/admin/csv_export/csv_export_operation_sale_changes/create",
+        "dynamic": false,
+        "text": "- 売上実績(注文軸)エクスポートフォーム (`/admin/csv_export/csv_export_operation_sale_changes/create`): ラベル `テナント*` で * マーク実在確認 ✓"
+      },
+      {
+        "line": 972,
+        "url": "/admin/csv_export/csv_export_operation_point_changes/create",
+        "dynamic": false,
+        "text": "- ポイント変動履歴エクスポートフォーム (`/admin/csv_export/csv_export_operation_point_changes/create`): ラベル `テナント*` で * マーク実在確認 ✓"
+      }
+    ],
+    "COMPLEX-OPERATIONS.md": [
+      {
+        "line": 65,
+        "url": "/admin/settings/location_groups",
+        "dynamic": false,
+        "text": "| 1 | 設定 > ロケーショングループ に移動 | `/admin/settings/location_groups` |"
+      },
+      {
+        "line": 93,
+        "url": "/admin/inventory_back_order_rules",
+        "dynamic": false,
+        "text": "**関連画面**: 販売設定 > 予約販売（`/admin/inventory_back_order_rules`）、在庫管理（販売可能/確定済み）、Shopify連携"
+      },
+      {
+        "line": 120,
+        "url": "/admin/logizard_integrations",
+        "dynamic": false,
+        "text": "**関連画面**: 設定 > 外部連携 > ロジザード（`/admin/logizard_integrations`）、入荷管理、出荷管理"
+      },
+      {
+        "line": 142,
+        "url": "/admin/settings/permission_groups",
+        "dynamic": false,
+        "text": "| 1 | 設定 > 管理メンバー > 「権限グループ一覧」ボタンから遷移 | `/admin/settings/permission_groups` |"
+      },
+      {
+        "line": 143,
+        "url": "/admin/settings/permission_groups/create",
+        "dynamic": false,
+        "text": "| 2 | 「作成する」ボタンをクリック | 作成フォームへ遷移 `/admin/settings/permission_groups/create` |"
+      },
+      {
+        "line": 155,
+        "url": "/admin/retail_portal_integrations",
+        "dynamic": false,
+        "text": "- **リテールポータルとの関連**: リテールポータル接続設定は `/admin/retail_portal_integrations` で行う（未接続）。権限グループとの具体的な紐づけ方法は未確認 <!-- TODO: 要確認 -->"
+      },
+      {
+        "line": 158,
+        "url": "/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup",
+        "dynamic": false,
+        "text": "- URL: `/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup`"
+      },
+      {
+        "line": 174,
+        "url": "/admin/settings/metafield_definitions",
+        "dynamic": false,
+        "text": "**関連画面**: 設定 > メタフィールド定義（`/admin/settings/metafield_definitions`）、商品詳細"
+      },
+      {
+        "line": 181,
+        "url": "/admin/settings/metafield_definitions",
+        "dynamic": false,
+        "text": "| 1 | 設定 > メタフィールド定義 に移動 | `/admin/settings/metafield_definitions` |"
+      },
+      {
+        "line": 201,
+        "url": "/admin/settings/metafield_definitions/product",
+        "dynamic": false,
+        "text": "- URL（一覧）: `/admin/settings/metafield_definitions/product`"
+      }
+    ],
+    "CONFIRMATION-LIST.md": [],
+    "README.md": [],
+    "SUMMARY.md": []
+  }
+}

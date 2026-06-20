@@ -1,0 +1,13 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/local_pickup_product_variants",
+  "title": "SQ - 管理画面",
+  "duplicateSkuRows": 1,
+  "rows": [
+    {
+      "index": 5,
+      "text": "アイテムを選択する\n\t\n\nオーバーサイズスウェットシャツ\n\nBEIGE / XL\n\n\t\n\n486125\n\n\t\n\n486125-31-XL"
+    }
+  ],
+  "alerts": [],
+  "bodyIncludesDuplicateSku": true
+}

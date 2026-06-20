@@ -1,0 +1,272 @@
+[
+  {
+    "i": 0,
+    "tag": "a",
+    "text": "コンテンツにスキップ",
+    "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule#AppFrameMain",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 2,
+    "tag": "a",
+    "text": "",
+    "href": "https://www.sqstackstaging.com/admin",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 4,
+    "tag": "button",
+    "text": "stack-ps-yosuke 陽介 河野",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 6,
+    "tag": "a",
+    "text": "ホーム",
+    "href": "https://www.sqstackstaging.com/admin",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 7,
+    "tag": "a",
+    "text": "商品管理",
+    "href": "https://www.sqstackstaging.com/admin/products",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 8,
+    "tag": "a",
+    "text": "在庫管理",
+    "href": "https://www.sqstackstaging.com/admin/inventory_items",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 9,
+    "tag": "a",
+    "text": "注文管理",
+    "href": "https://www.sqstackstaging.com/admin/orders",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 10,
+    "tag": "a",
+    "text": "顧客管理",
+    "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 11,
+    "tag": "a",
+    "text": "発注管理",
+    "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 12,
+    "tag": "a",
+    "text": "販売設定",
+    "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 13,
+    "tag": "a",
+    "text": "会計",
+    "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 14,
+    "tag": "a",
+    "text": "分析",
+    "href": "https://www.sqstackstaging.com/admin/analytics",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 15,
+    "tag": "a",
+    "text": "入荷管理 未完了の入荷指示 1件 1",
+    "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 16,
+    "tag": "a",
+    "text": "出荷管理 未完了の出荷指示 1件 1",
+    "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 17,
+    "tag": "a",
+    "text": "在庫依頼",
+    "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 18,
+    "tag": "a",
+    "text": "ディスカウント",
+    "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 19,
+    "tag": "a",
+    "text": "ポイント",
+    "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 20,
+    "tag": "a",
+    "text": "キャンペーン",
+    "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 21,
+    "tag": "a",
+    "text": "誕生日",
+    "href": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 22,
+    "tag": "a",
+    "text": "利用外商品",
+    "href": "https://www.sqstackstaging.com/admin/point_application_excluded_products",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 23,
+    "tag": "a",
+    "text": "失効通知",
+    "href": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 24,
+    "tag": "a",
+    "text": "会員ランク",
+    "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 25,
+    "tag": "a",
+    "text": "Shopify",
+    "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 26,
+    "tag": "a",
+    "text": "OmnibusCore",
+    "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 27,
+    "tag": "a",
+    "text": "スマレジ",
+    "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 28,
+    "tag": "a",
+    "text": "リテールポータル",
+    "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 29,
+    "tag": "a",
+    "text": "卸売",
+    "href": "https://www.sqstackstaging.com/admin/b2b",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 30,
+    "tag": "a",
+    "text": "設定",
+    "href": "https://www.sqstackstaging.com/admin/settings",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 32,
+    "tag": "a",
+    "text": "",
+    "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 33,
+    "tag": "button",
+    "text": "商品を追加する",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 34,
+    "tag": "a",
+    "text": "店舗を追加する",
+    "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule/retail_locations/create",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 36,
+    "tag": "a",
+    "text": "商品を選択して追加する",
+    "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule/product_variants/create",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 37,
+    "tag": "a",
+    "text": "ブランドを指定して追加する",
+    "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule/product_variants/create_by_brand_code",
+    "visible": true,
+    "aria": null
+  },
+  {
+    "i": 38,
+    "tag": "a",
+    "text": "CSVでインポートする",
+    "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create?pointCampaignOrderRuleID=f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule",
+    "visible": true,
+    "aria": null
+  }
+]

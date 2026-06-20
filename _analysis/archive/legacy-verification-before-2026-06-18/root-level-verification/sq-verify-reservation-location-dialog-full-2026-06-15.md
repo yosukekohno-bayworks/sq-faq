@@ -1,0 +1,102 @@
+- generic [ref=e459]:
+  - generic [ref=e461]:
+    - heading "ロケーションを選択する" [level=2] [ref=e463]
+    - button "閉じる" [ref=e464] [cursor=pointer]:
+      - img [ref=e467]
+  - generic [ref=e469]:
+    - generic [ref=e475]:
+      - tablist [ref=e482]:
+        - tab "すべて" [selected] [ref=e483] [cursor=pointer]:
+          - generic [ref=e485]: すべて
+        - tab "店舗" [ref=e486] [cursor=pointer]:
+          - generic [ref=e488]: 店舗
+        - tab "倉庫" [ref=e489] [cursor=pointer]:
+          - generic [ref=e491]: 倉庫
+      - generic [ref=e492]:
+        - button "検索と絞り込みの結果" [ref=e495] [cursor=pointer]:
+          - generic [ref=e497]:
+            - img [ref=e499]
+            - img [ref=e502]
+        - button "検索結果を並べ替える" [ref=e508] [cursor=pointer]:
+          - img [ref=e511]
+    - generic [ref=e515]:
+      - table [ref=e517]:
+        - rowgroup [ref=e518]:
+          - row "すべてのアイテムを選択する 名前 場所コード" [ref=e519]:
+            - columnheader "すべてのアイテムを選択する" [ref=e520]:
+              - generic [ref=e522] [cursor=pointer]:
+                - generic [ref=e524]:
+                  - checkbox "すべてのアイテムを選択する" [ref=e525]
+                  - generic:
+                    - img
+                - generic [ref=e527]: すべてのアイテムを選択する
+            - columnheader "名前" [ref=e528]:
+              - generic [ref=e529]: 名前
+            - columnheader "場所コード" [ref=e530]:
+              - generic [ref=e531]: 場所コード
+        - rowgroup [ref=e532]:
+          - row "アイテムを選択する 物流倉庫 W0001" [ref=e533] [cursor=pointer]:
+            - cell "アイテムを選択する" [ref=e534]:
+              - generic [ref=e536]:
+                - generic [ref=e538]:
+                  - checkbox "アイテムを選択する" [ref=e539]
+                  - generic:
+                    - img
+                - generic [ref=e541]: アイテムを選択する
+            - cell "物流倉庫" [ref=e542]:
+              - paragraph [ref=e543]: 物流倉庫
+            - cell "W0001" [ref=e544]:
+              - paragraph [ref=e545]: W0001
+          - row "アイテムを選択する ユニクロ - 銀座店 R0001" [ref=e546] [cursor=pointer]:
+            - cell "アイテムを選択する" [ref=e547]:
+              - generic [ref=e549]:
+                - generic [ref=e551]:
+                  - checkbox "アイテムを選択する" [ref=e552]
+                  - generic:
+                    - img
+                - generic [ref=e554]: アイテムを選択する
+            - cell "ユニクロ - 銀座店" [ref=e555]:
+              - paragraph [ref=e556]: ユニクロ - 銀座店
+            - cell "R0001" [ref=e557]:
+              - paragraph [ref=e558]: R0001
+          - row "アイテムを選択する TEST_FAQ_DEEP2_202606080343_ロケーション test_faq_deep2_202606080343_loc" [ref=e559] [cursor=pointer]:
+            - cell "アイテムを選択する" [ref=e560]:
+              - generic [ref=e562]:
+                - generic [ref=e564]:
+                  - checkbox "アイテムを選択する" [ref=e565]
+                  - generic:
+                    - img
+                - generic [ref=e567]: アイテムを選択する
+            - cell "TEST_FAQ_DEEP2_202606080343_ロケーション" [ref=e568]:
+              - paragraph [ref=e569]: TEST_FAQ_DEEP2_202606080343_ロケーション
+            - cell "test_faq_deep2_202606080343_loc" [ref=e570]:
+              - paragraph [ref=e571]: test_faq_deep2_202606080343_loc
+          - row "アイテムを選択する TEST_FAQ_店舗在庫EC販売用 TESTEC01" [ref=e572] [cursor=pointer]:
+            - cell "アイテムを選択する" [ref=e573]:
+              - generic [ref=e575]:
+                - generic [ref=e577]:
+                  - checkbox "アイテムを選択する" [ref=e578]
+                  - generic:
+                    - img
+                - generic [ref=e580]: アイテムを選択する
+            - cell "TEST_FAQ_店舗在庫EC販売用" [ref=e581]:
+              - paragraph [ref=e582]: TEST_FAQ_店舗在庫EC販売用
+            - cell "TESTEC01" [ref=e583]:
+              - paragraph [ref=e584]: TESTEC01
+      - navigation "ページネーション" [ref=e588]:
+        - generic [ref=e591]:
+          - generic [ref=e592]:
+            - button "前へ" [disabled]:
+              - generic:
+                - generic:
+                  - img
+          - generic [ref=e593]:
+            - button "次へ" [disabled]:
+              - generic:
+                - generic:
+                  - img
+  - generic [ref=e597]:
+    - button "キャンセル" [ref=e598] [cursor=pointer]:
+      - generic [ref=e599]: キャンセル
+    - button "選択する" [ref=e600] [cursor=pointer]:
+      - generic [ref=e601]: 選択する

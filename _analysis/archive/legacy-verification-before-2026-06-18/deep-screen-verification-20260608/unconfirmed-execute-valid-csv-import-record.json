@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-06-08T05:19:09.050Z",
+  "detailUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/43a9a5c7-2508-57e2-a635-f00e74e8f388_CSVImportOperationProduct",
+  "productCode": "TEST_FAQ_CSV_RECHECK_20260608_01",
+  "steps": [
+    {
+      "step": "before-execute",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/43a9a5c7-2508-57e2-a635-f00e74e8f388_CSVImportOperationProduct",
+      "text": [
+        "商品管理",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "作成日",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1個の商品",
+        "検証失敗",
+        "0個の商品"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-execute-valid-csv-import-screenshots/01-before-execute.png"
+    },
+    {
+      "step": "after-click-execute",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/43a9a5c7-2508-57e2-a635-f00e74e8f388_CSVImportOperationProduct",
+      "text": [
+        "商品管理",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "作成日",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1個の商品",
+        "検証失敗",
+        "0個の商品",
+        "CSVの取り込み処理を実行しますか？",
+        "1件の商品を登録します。この操作は巻き戻すことができません。"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-execute-valid-csv-import-screenshots/02-after-click-execute.png"
+    },
+    {
+      "step": "after-confirm-execute",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/43a9a5c7-2508-57e2-a635-f00e74e8f388_CSVImportOperationProduct",
+      "text": [
+        "商品管理",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "作成日",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1個の商品",
+        "検証失敗",
+        "0個の商品",
+        "CSVの取り込みを実行しました。この処理は時間がかかります"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-execute-valid-csv-import-screenshots/025-after-confirm-execute.png"
+    },
+    {
+      "step": "detail-after-poll",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/43a9a5c7-2508-57e2-a635-f00e74e8f388_CSVImportOperationProduct",
+      "text": [
+        "商品管理",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "作成日",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1個の商品",
+        "検証失敗",
+        "0個の商品",
+        "CSVの取り込みを実行しました。この処理は時間がかかります"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-execute-valid-csv-import-screenshots/03-detail-after-poll.png"
+    },
+    {
+      "step": "products-search-after-execute",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "text": [
+        "商品管理",
+        "商品管理。このページの準備が整いました",
+        "インポート",
+        "商品を作成する",
+        "商品",
+        "ステータス",
+        "商品コード",
+        "商品タイプ",
+        "TEST_FAQ_DEEP2_202606080343_商品",
+        "0個のバリエーション",
+        "検証",
+        "TEST_FAQ",
+        "TEST_FAQ_非公開ステータス確認用",
+        "20個のバリエーション"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-execute-valid-csv-import-screenshots/04-products-search-after-execute.png"
+    }
+  ],
+  "productVisibleAfterExecution": false,
+  "error": null
+}

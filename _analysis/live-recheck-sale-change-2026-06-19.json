@@ -1,0 +1,37 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+  "h1": [
+    "売上実績"
+  ],
+  "lines": [
+    "売上実績。このページの準備が整いました",
+    "売上実績",
+    "エクスポート",
+    "売上実績を作成する",
+    "アイテムが見つかりませんでした",
+    "絞り込みや検索ワードを変更してみてください"
+  ],
+  "buttons": [
+    {
+      "text": "エクスポート",
+      "aria": "",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "aria": "前へ",
+      "disabled": true
+    },
+    {
+      "text": "",
+      "aria": "次へ",
+      "disabled": true
+    }
+  ],
+  "links": [
+    {
+      "text": "売上実績を作成する",
+      "href": ""
+    }
+  ]
+}

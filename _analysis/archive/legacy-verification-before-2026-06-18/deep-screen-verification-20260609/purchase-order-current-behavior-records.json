@@ -1,0 +1,4889 @@
+{
+  "generatedAt": "2026-06-09T15:35:58.631Z",
+  "targets": {
+    "create": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+    "list": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+    "inbound": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+  },
+  "failed": null,
+  "consoleLogs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    }
+  ],
+  "network": [
+    {
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "method": "GET",
+      "status": 307,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_purchase_orders/create/page-b4fb0083bd72fdbb.js",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"PermissionContextProvider\",\"variables\":{},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query PermissionContextProvider {\\n  myPermissions\\n}\"}",
+      "body": "{\"data\":{\"myPermissions\":[\"announcements:read\",\"announcements:write\",\"apps:read\",\"apps:write\",\"brands:read\",\"brands:write\",\"catalogs:read\",\"catalogs:write\",\"companies:read\",\"companies:write\",\"customer_miles:read\",\"customer_miles:write\",\"customer_points:read\",\"customer_points:write\",\"customer_rank_rules:read\",\"customer_rank_rules:write\",\"customer_ranks:read\",\"customer_ranks:write\",\"customers:read\",\"customers:write\",\"discounts:read\",\"discounts:write\",\"draft_orders:read\",\"draft_orders:write\",\"inventory:read\",\"inventory:write\",\"inventory_allocation_requests:read\",\"inventory_allocation_requests:write\",\"local_pickup_location_rules:read\",\"local_pickup_location_rules:write\",\"location_groups:read\",\"location_groups:write\",\"locations:read\",\"locations:write\",\"mile_items:read\",\"mile_items:write\",\"omnibus_core_integrations:read\",\"omnibus_core_integrations:write\",\"orders:read\",\"orders:write\",\"point_campaign_order_rules:read\",\"point_campaign_order_rules:write\",\"point_rules:read\",\"point_rules:write\",\"product_price_rules:read\",\"product_price_rules:write\",\"products:read\",\"products:write\",\"retail_portal_integrations:read\",\"retail_portal_integrations:write\",\"retail_staff_members:read\",\"retail_staff_members:write\",\"sales:read\",\"sales:write\",\"shopify_integrations:read\",\"shopify_integrations:write\",\"smaregi_integrations:read\",\"smaregi_integrations:write\",\"tenants:read\",\"tenants:write\",\"translation_rules:read\",\"translation_rules:write\",\"translations:read\",\"translations:write\",\"user_permissions:read\",\"user_permissions:write\",\"user_tenants:read\",\"user_tenants:write\",\"users:read\",\"users:write\"]}}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders?_rsc=7w22p",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_purchase_orders/page-9896d651b0956d50.js",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"InventoryPurchaseOrderCreatePage\",\"variables\":{},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query InventoryPurchaseOrderCreatePage {\\n  tenants(first: 250) {\\n    nodes {\\n      id\\n      name\\n      __typename\\n    }\\n    __typename\\n  }\\n  inventorySuppliers(first: 250) {\\n    nodes {\\n      id\\n      name\\n      __typename\\n    }\\n    __typename\\n  }\\n  currencyCodes\\n}\"}",
+      "body": "{\"data\":{\"tenants\":{\"nodes\":[{\"id\":\"da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant\",\"name\":\"ユニクロ\",\"__typename\":\"Tenant\"}],\"__typename\":\"TenantConnection\"},\"inventorySuppliers\":{\"nodes\":[{\"id\":\"e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier\",\"name\":\"TEST_FAQ_Supplier\",\"__typename\":\"InventorySupplier\"},{\"id\":\"4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier\",\"name\":\"TEST_FAQ_Supplier2\",\"__typename\":\"InventorySupplier\"},{\"id\":\"0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier\",\"name\":\"TEST_FAQ_DEEP_202606080340_取引先\",\"__typename\":\"InventorySupplier\"}],\"__typename\":\"InventorySupplierConnection\"},\"currencyCodes\":[\"USD\",\"EUR\",\"JPY\",\"THB\",\"SGD\"]}}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"Layout\",\"variables\":{\"skipOrderIncompleteCount\":false,\"skipInventoryAllocationRequestIncompleteCount\":false,\"skipInventoryOutboundOrderIncompleteCount\":false,\"skipInventoryInboundOrderIncompleteCount\":false},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query Layout($skipOrderIncompleteCount: Boolean!, $skipInventoryAllocationRequestIncompleteCount: Boolean!, $skipInventoryOutboundOrderIncompleteCount: Boolean!, $skipInventoryInboundOrderIncompleteCount: Boolean!) {\\n  orderIncompleteCount: orderCount(\\n    filter: {inventoryOutboundOrderWorkingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED], isCancelled: false}\\n  ) @skip(if: $skipOrderIncompleteCount)\\n  inventoryAllocationRequestIncompleteCount: inventoryAllocationRequestCount(\\n    filter: {isCompleted: false}\\n  ) @skip(if: $skipInventoryAllocationRequestIncompleteCount)\\n  inventoryOutboundOrderIncompleteCount: inventoryOutboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED]}\\n  ) @skip(if: $skipInventoryOutboundOrderIncompleteCount)\\n  inventoryInboundOrderIncompleteCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, UNDER_INVESTIGATION]}\\n  ) @skip(if: $skipInventoryInboundOrderIncompleteCount)\\n}\"}",
+      "body": "{\"data\":{\"orderIncompleteCount\":0,\"inventoryAllocationRequestIncompleteCount\":0,\"inventoryOutboundOrderIncompleteCount\":0,\"inventoryInboundOrderIncompleteCount\":0}}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"ProductVariantsResourcePicker\",\"variables\":{\"after\":null,\"first\":250,\"displaysInventory\":false,\"locationID\":\"\",\"filter\":{}},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query ProductVariantsResourcePicker($after: String, $first: Int, $locationID: ID!, $displaysInventory: Boolean!, $filter: ProductVariantFilter) {\\n  productVariants(first: $first, after: $after, filter: $filter) {\\n    nodes {\\n      id\\n      title\\n      index\\n      price {\\n        amount\\n        currencyCode\\n        __typename\\n      }\\n      product {\\n        id\\n        title\\n        productCode\\n        __typename\\n      }\\n      featuredImage {\\n        id\\n        url\\n        __typename\\n      }\\n      inventoryItem {\\n        id\\n        sku\\n        inventoryLevel(locationID: $locationID) @include(if: $displaysInventory) {\\n          id\\n          quantity {\\n            available\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    pageInfo {\\n      hasNextPage\\n      hasPreviousPage\\n      endCursor\\n      startCursor\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+      "body": "{\"data\":{\"productVariants\":{\"nodes\":[{\"id\":\"21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant\",\"title\":\"BEIGE / XL\",\"index\":4,\"price\":{\"amount\":\"3600\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"2c32fb97-1f83-5cae-b20c-3d83046800d0_Product\",\"title\":\"オーバーサイズスウェットシャツ\",\"productCode\":\"486125\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"b5abb668-53a9-594d-88a0-35972cd25103_Image\",\"url\":\"https://lh3.googleusercontent.com/B8CSlSsEgmqiXEG7817-jfxZUWKBQoi5_xk7CmoKeOx3Cj5MeeIzNoHj9Qefq_XUSMccWaCLJCVLPCUiEGw6mg_ykvLNGBz547yhpOdZJHwf\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem\",\"sku\":\"486125-31-XL\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"505ffa58-952d-5932-9a5b-57036ea7eb39_ProductVariant\",\"title\":\"LIGHT PURPLE / S\",\"index\":1,\"price\":{\"amount\":\"1800\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"b51463a5-6d46-5c70-81d1-c8cd15758976_Product\",\"title\":\"エアリズムコットンクルーネックTシャツ\",\"productCode\":\"486102\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"6443b4e6-4232-55c7-badd-ee2c0cfe7d20_Image\",\"url\":\"https://lh3.googleusercontent.com/qjdKzB5xCzJ2hB7ujGjMNhjpGHZ5VgFugbgCpSRpvjQktuZcY1IeL1ip1avDHZFZvma8oFDnujwgnZumSxMw1he5PTcX270xV-u754Z6YlrkHg\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"0d5dab1c-5889-5963-966f-01aa6a4c588c_InventoryItem\",\"sku\":\"486102-70-S\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"cfdf6b24-e220-5444-a48b-48d4aa2889a9_ProductVariant\",\"title\":\"NATURAL / ONE SIZE\",\"index\":0,\"price\":{\"amount\":\"2900\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"5407c6bf-092c-5c2f-96a6-fa37fcff594f_Product\",\"title\":\"UVカットペーパーブレイドハット\",\"productCode\":\"482787\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"01b228bb-d153-5db3-9081-ca66cc3f56c4_Image\",\"url\":\"https://lh3.googleusercontent.com/zbivxTKHM5UpK9cMRmP1IzcRqCAJrKo4GlZPBqmWHFxt0YfOjSP9Dgw9iBuYJUb82Jn0288hLP7KtuXWT32M__XV8T3YoH92GD-r0K2OzsAn8A\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"3958c166-7a2c-57c9-a666-8b07d64b82b9_InventoryItem\",\"sku\":\"482787-30-ONE\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"f295afc6-25a6-5bb2-8d09-8c4429ee24fa_ProductVariant\",\"title\":\"GRAY / M\",\"index\":7,\"price\":{\"amount\":\"3600\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"2c32fb97-1f83-5cae-b20c-3d83046800d0_Product\",\"title\":\"オーバーサイズスウェットシャツ\",\"productCode\":\"486125\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"a167d498-41c3-5c8f-8a93-c1c61c1fb587_Image\",\"url\":\"https://lh3.googleusercontent.com/p0Ewg06tkltZuziG7NHYMD07Ieh-Jc8wY5jREd4RAZbpmqRqREfwK_hjpIglWRnywsyvVtzLz8l_4pH4WRiqT7OlFGKr2kv1HmNy6y3nA_2w\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"749b9fdd-e087-57af-8f5e-ebd0e8aaabfe_InventoryItem\",\"sku\":\"486125-03-M\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"b231c110-925e-53b0-af73-7018402add10_ProductVariant\",\"title\":\"DARK GRAY / XL\",\"index\":9,\"price\":{\"amount\":\"1800\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"b51463a5-6d46-5c70-81d1-c8cd15758976_Product\",\"title\":\"エアリズムコットンクルーネックTシャツ\",\"productCode\":\"486102\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"9a9424c8-333a-502a-a776-6a076281b192_Image\",\"url\":\"https://lh3.googleusercontent.com/rIV2yYtvoQ-CtOJ4_Oig5RoY5dqXT1LzMH3A62hwlONu4y-09RJN7CdzuZd8KD0xw0QZtNyANNPzTnk_v0P-SvIbw4GaaRhQ36Y9axl1pve51Q\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"752ea1b6-e4d7-56a8-8e22-c193cbe05f72_InventoryItem\",\"sku\":\"486102-08-XL\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"b324713f-d968-50cf-9b7a-ac03a86073f9_ProductVariant\",\"title\":\"BLUE / 27\",\"index\":6,\"price\":{\"amount\":\"4500\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"85649f94-007f-5bcf-b6c9-9676528376a4_Product\",\"title\":\"バギーカーブジーンズ\",\"productCode\":\"487973\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"34efe94d-0ded-5823-aa7d-4f9410b09a53_Image\",\"url\":\"https://lh3.googleusercontent.com/ZlGt1Opeqx6N71QMaOtkSb4b-cESrlZ6oUvLNv6gIIw8JDo8A8zZNm9rXknqZCR1meI2gHA5nKuZoWF5oDQADzN63EnHMraH0wQeGmpYDEmp\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"6f06d77f-9a41-596f-8230-9daac4faf8a3_InventoryItem\",\"sku\":\"487973-64-27\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"40329bb5-4734-57b7-884c-b3b137522be6_ProductVariant\",\"title\":\"LIGHT PURPLE / XS\",\"index\":0,\"price\":{\"amount\":\"1800\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"b51463a5-6d46-5c70-81d1-c8cd15758976_Product\",\"title\":\"エアリズムコットンクルーネックTシャツ\",\"productCode\":\"486102\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"6443b4e6-4232-55c7-badd-ee2c0cfe7d20_Image\",\"url\":\"https://lh3.googleusercontent.com/qjdKzB5xCzJ2hB7ujGjMNhjpGHZ5VgFugbgCpSRpvjQktuZcY1IeL1ip1avDHZFZvma8oFDnujwgnZumSxMw1he5PTcX270xV-u754Z6YlrkHg\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"b9c137df-08e4-59d6-bb3d-ae4a217791db_InventoryItem\",\"sku\":\"486102-70-XS\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"d607e9a6-b661-5520-bfa7-841ce5e09d84_ProductVariant\",\"title\":\"BLACK / L\",\"index\":3,\"price\":{\"amount\":\"1500\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"f4551421-df89-57b7-9e5b-e036941af999_Product\",\"title\":\"エアリズムコットンT\",\"productCode\":\"483457\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"22c9f94c-5748-5451-ad73-c2316b2d5abc_Image\",\"url\":\"https://lh3.googleusercontent.com/c0L51Qr6rV26svEWt_ZyRjPwEr0-b7YjHInFHfV4wZacrsmCX3_LYQX_XLRDHFto-6LuUHQQz0rpWZ7UR4TAissTXjDvPHSjozRH2q0jJfW_JHk\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"c79f3ccc-1abc-5575-a44f-6aaa94b07260_InventoryItem\",\"sku\":\"483457-09-L\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"203aa49b-287f-5e63-ac2a-ef2d40eb4f6e_ProductVariant\",\"title\":\"RED / 160(14歳)\",\"index\":6,\"price\":{\"amount\":\"900\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"129d6f9c-c8ea-559c-952b-8b3727a23206_Product\",\"title\":\"ポケモン UT\",\"productCode\":\"483674\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"f2ea6744-941e-5582-a73e-c8c42f294680_Image\",\"url\":\"https://lh3.googleusercontent.com/X2jd5tDEfjImTmxtlcJTtz8dKukMbaZrM6eqB-YS6o1MKugWf_OywylkzmIearxg7MhL2-cF3URE40N-iGDtK6H_VhC2hkv3XRhQmVrEM8GxDg\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"61b779fb-6b02-53d5-8c78-4e36d9b47e78_InventoryItem\",\"sku\":\"483674-15-160\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"c837697a-acda-5940-b599-8bf360e48ea3_ProductVariant\",\"title\":\"LIGHT GRAY / S\",\"index\":6,\"price\":{\"amount\":\"1500\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"f4551421-df89-57b7-9e5b-e036941af999_Product\",\"title\":\"エアリズムコットンT\",\"productCode\":\"483457\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"50b64cb7-23db-53ab-a4cc-40f2f1b6f2be_Image\",\"url\":\"https://lh3.googleusercontent.com/_u6NOQbqBuSK35BldTHZNP6_E7r95dNx8h7o94BGnV2vTzGJdgCfwDbgGPyd278ue6HKFqxNGlRnaSc6Lq3TglYpsVgth9PEjGRjKFGB-m8F3A\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"9f6e90a5-c50d-52e5-972c-a14905b8de6a_InventoryItem\",\"sku\":\"483457-02-S\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"43240290-45f6-5c7d-9d92-6cdb83b44ea7_ProductVariant\",\"title\":\"BLACK / XS\",\"index\":10,\"price\":{\"amount\":\"1800\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"b51463a5-6d46-5c70-81d1-c8cd15758976_Product\",\"title\":\"エアリズムコットンクルーネックTシャツ\",\"productCode\":\"486102\",\"__typename\":\"Product\"},\"featuredImage\":{\"id\":\"e9e789e8-716a-5d26-b652-8307ed60f5f5_Image\",\"url\":\"https://lh3.googleusercontent.com/IexM2fPPzWGDl0d2_-rVYwibcES44MBSScgDcx8BamoL4kFLMC4BYlqoshWZbQYcESTeV4AfKh1v3929769pyFR4WoedsvI7QHTESIc8RT_2ONE\",\"__typename\":\"Image\"},\"inventoryItem\":{\"id\":\"4699bbef-c50c-5575-8a86-e813124b4de2_InventoryItem\",\"sku\":\"486102-09-XS\",\"__typename\":\"InventoryItem\"},\"__typename\":\"ProductVariant\"},{\"id\":\"5580d038-e712-5bb8-9230-261e98e6e3c6_ProductVariant\",\"title\":\"DARK GRAY / S\",\"index\":6,\"price\":{\"amount\":\"1800\",\"currencyCode\":\"JPY\",\"__typename\":\"Money\"},\"product\":{\"id\":\"b51463a5-6d46-5c70-81d1-c8cd15758976_Product\",\"title\":\"エアリズムコットンクルーネックTシャツ\",\"productCode\":\"486102\",\"__typename\":\"Product\"},\"featuredI"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"InventoryPurchaseOrderCreate\",\"variables\":{\"input\":{\"tenantID\":\"da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant\",\"supplierID\":\"0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier\",\"currencyCode\":\"JPY\",\"lineItems\":[{\"productVariantID\":\"894871f2-b8b4-5511-ad3d-28abfe5b6044_ProductVariant\",\"inventoryItemID\":\"7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem\",\"quantity\":1,\"unitPrice\":{\"amount\":\"100\",\"currencyCode\":\"JPY\"},\"taxPercent\":\"1\"}]}},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"mutation InventoryPurchaseOrderCreate($input: InventoryPurchaseOrderCreateInput!) {\\n  inventoryPurchaseOrderCreate(input: $input) {\\n    inventoryPurchaseOrder {\\n      id\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+      "body": "{\"errors\":[{\"message\":\"エラーが発生しました。しばらくしてから再度お試しください\",\"path\":[\"variable\",\"input\",\"lineItems\",0,\"inventoryItemID\"],\"extensions\":{\"code\":\"UNKNOWN\",\"http_status_code\":500,\"original_error\":\"unknown field\",\"severity\":500}}],\"data\":null}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_purchase_orders/page-9896d651b0956d50.js",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"PermissionContextProvider\",\"variables\":{},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query PermissionContextProvider {\\n  myPermissions\\n}\"}",
+      "body": "{\"data\":{\"myPermissions\":[\"announcements:read\",\"announcements:write\",\"apps:read\",\"apps:write\",\"brands:read\",\"brands:write\",\"catalogs:read\",\"catalogs:write\",\"companies:read\",\"companies:write\",\"customer_miles:read\",\"customer_miles:write\",\"customer_points:read\",\"customer_points:write\",\"customer_rank_rules:read\",\"customer_rank_rules:write\",\"customer_ranks:read\",\"customer_ranks:write\",\"customers:read\",\"customers:write\",\"discounts:read\",\"discounts:write\",\"draft_orders:read\",\"draft_orders:write\",\"inventory:read\",\"inventory:write\",\"inventory_allocation_requests:read\",\"inventory_allocation_requests:write\",\"local_pickup_location_rules:read\",\"local_pickup_location_rules:write\",\"location_groups:read\",\"location_groups:write\",\"locations:read\",\"locations:write\",\"mile_items:read\",\"mile_items:write\",\"omnibus_core_integrations:read\",\"omnibus_core_integrations:write\",\"orders:read\",\"orders:write\",\"point_campaign_order_rules:read\",\"point_campaign_order_rules:write\",\"point_rules:read\",\"point_rules:write\",\"product_price_rules:read\",\"product_price_rules:write\",\"products:read\",\"products:write\",\"retail_portal_integrations:read\",\"retail_portal_integrations:write\",\"retail_staff_members:read\",\"retail_staff_members:write\",\"sales:read\",\"sales:write\",\"shopify_integrations:read\",\"shopify_integrations:write\",\"smaregi_integrations:read\",\"smaregi_integrations:write\",\"tenants:read\",\"tenants:write\",\"translation_rules:read\",\"translation_rules:write\",\"translations:read\",\"translations:write\",\"user_permissions:read\",\"user_permissions:write\",\"user_tenants:read\",\"user_tenants:write\",\"users:read\",\"users:write\"]}}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"InventoryPurchaseOrders\",\"variables\":{\"first\":30,\"after\":null},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query InventoryPurchaseOrders($first: Int, $after: String) {\\n  inventoryPurchaseOrders(first: $first, after: $after, isReverse: true) {\\n    nodes {\\n      id\\n      managementCode\\n      currencyCode\\n      supplier {\\n        id\\n        name\\n        __typename\\n      }\\n      isOrdered\\n      isCancelled\\n      createdAt\\n      orderedAt\\n      lineItems(first: 250) {\\n        nodes {\\n          id\\n          totalPrice {\\n            amount\\n            currencyCode\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    pageInfo {\\n      hasNextPage\\n      endCursor\\n      hasPreviousPage\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+      "body": "{\"data\":{\"inventoryPurchaseOrders\":{\"nodes\":[],\"pageInfo\":{\"hasNextPage\":false,\"endCursor\":\"0\",\"hasPreviousPage\":false,\"__typename\":\"PageInfo\"},\"__typename\":\"InventoryPurchaseOrderConnection\"}}}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"Layout\",\"variables\":{\"skipOrderIncompleteCount\":false,\"skipInventoryAllocationRequestIncompleteCount\":false,\"skipInventoryOutboundOrderIncompleteCount\":false,\"skipInventoryInboundOrderIncompleteCount\":false},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query Layout($skipOrderIncompleteCount: Boolean!, $skipInventoryAllocationRequestIncompleteCount: Boolean!, $skipInventoryOutboundOrderIncompleteCount: Boolean!, $skipInventoryInboundOrderIncompleteCount: Boolean!) {\\n  orderIncompleteCount: orderCount(\\n    filter: {inventoryOutboundOrderWorkingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED], isCancelled: false}\\n  ) @skip(if: $skipOrderIncompleteCount)\\n  inventoryAllocationRequestIncompleteCount: inventoryAllocationRequestCount(\\n    filter: {isCompleted: false}\\n  ) @skip(if: $skipInventoryAllocationRequestIncompleteCount)\\n  inventoryOutboundOrderIncompleteCount: inventoryOutboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED]}\\n  ) @skip(if: $skipInventoryOutboundOrderIncompleteCount)\\n  inventoryInboundOrderIncompleteCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, UNDER_INVESTIGATION]}\\n  ) @skip(if: $skipInventoryInboundOrderIncompleteCount)\\n}\"}",
+      "body": "{\"data\":{\"orderIncompleteCount\":0,\"inventoryAllocationRequestIncompleteCount\":0,\"inventoryOutboundOrderIncompleteCount\":0,\"inventoryInboundOrderIncompleteCount\":0}}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create?_rsc=qpab8",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_purchase_orders/create/page-b4fb0083bd72fdbb.js",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"PermissionContextProvider\",\"variables\":{},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query PermissionContextProvider {\\n  myPermissions\\n}\"}",
+      "body": "{\"data\":{\"myPermissions\":[\"announcements:read\",\"announcements:write\",\"apps:read\",\"apps:write\",\"brands:read\",\"brands:write\",\"catalogs:read\",\"catalogs:write\",\"companies:read\",\"companies:write\",\"customer_miles:read\",\"customer_miles:write\",\"customer_points:read\",\"customer_points:write\",\"customer_rank_rules:read\",\"customer_rank_rules:write\",\"customer_ranks:read\",\"customer_ranks:write\",\"customers:read\",\"customers:write\",\"discounts:read\",\"discounts:write\",\"draft_orders:read\",\"draft_orders:write\",\"inventory:read\",\"inventory:write\",\"inventory_allocation_requests:read\",\"inventory_allocation_requests:write\",\"local_pickup_location_rules:read\",\"local_pickup_location_rules:write\",\"location_groups:read\",\"location_groups:write\",\"locations:read\",\"locations:write\",\"mile_items:read\",\"mile_items:write\",\"omnibus_core_integrations:read\",\"omnibus_core_integrations:write\",\"orders:read\",\"orders:write\",\"point_campaign_order_rules:read\",\"point_campaign_order_rules:write\",\"point_rules:read\",\"point_rules:write\",\"product_price_rules:read\",\"product_price_rules:write\",\"products:read\",\"products:write\",\"retail_portal_integrations:read\",\"retail_portal_integrations:write\",\"retail_staff_members:read\",\"retail_staff_members:write\",\"sales:read\",\"sales:write\",\"shopify_integrations:read\",\"shopify_integrations:write\",\"smaregi_integrations:read\",\"smaregi_integrations:write\",\"tenants:read\",\"tenants:write\",\"translation_rules:read\",\"translation_rules:write\",\"translations:read\",\"translations:write\",\"user_permissions:read\",\"user_permissions:write\",\"user_tenants:read\",\"user_tenants:write\",\"users:read\",\"users:write\"]}}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders?_rsc=9icnz",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/_next/static/chunks/app/(context)/admin/inventory_purchase_orders/page-9896d651b0956d50.js",
+      "method": "GET",
+      "status": 200,
+      "postData": "",
+      "body": ""
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"InventoryInboundOrdersPage\",\"variables\":{\"first\":30,\"after\":null,\"filter\":{\"workingStatuses\":[\"WAITING\"]},\"locationID\":\"\",\"hasLocationID\":false},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query InventoryInboundOrdersPage($first: Int, $after: String, $filter: InventoryInboundOrderFilter, $locationID: ID!, $hasLocationID: Boolean!) {\\n  inventoryInboundOrders(\\n    first: $first\\n    after: $after\\n    filter: $filter\\n    isReverse: true\\n  ) {\\n    nodes {\\n      id\\n      managementCode\\n      kind\\n      workingStatus\\n      inventoryLocation {\\n        id\\n        name\\n        __typename\\n      }\\n      createdAt\\n      __typename\\n    }\\n    pageInfo {\\n      hasNextPage\\n      endCursor\\n      hasPreviousPage\\n      __typename\\n    }\\n    __typename\\n  }\\n  location(id: $locationID) @include(if: $hasLocationID) {\\n    id\\n    name\\n    __typename\\n  }\\n  onHoldCount: inventoryInboundOrderCount(filter: {workingStatuses: [ON_HOLD]})\\n  waitingCount: inventoryInboundOrderCount(filter: {workingStatuses: [WAITING]})\\n  requestedCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [REQUESTED]}\\n  )\\n  inProgressCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [IN_PROGRESS]}\\n  )\\n  underInvestigationCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [UNDER_INVESTIGATION]}\\n  )\\n}\"}",
+      "body": "{\"data\":{\"inventoryInboundOrders\":{\"nodes\":[],\"pageInfo\":{\"hasNextPage\":false,\"endCursor\":\"0\",\"hasPreviousPage\":false,\"__typename\":\"PageInfo\"},\"__typename\":\"InventoryInboundOrderConnection\"},\"onHoldCount\":0,\"waitingCount\":0,\"requestedCount\":0,\"inProgressCount\":0,\"underInvestigationCount\":0}}"
+    },
+    {
+      "url": "https://www.sqstackstaging.com/api/graphql",
+      "method": "POST",
+      "status": 200,
+      "postData": "{\"operationName\":\"Layout\",\"variables\":{\"skipOrderIncompleteCount\":false,\"skipInventoryAllocationRequestIncompleteCount\":false,\"skipInventoryOutboundOrderIncompleteCount\":false,\"skipInventoryInboundOrderIncompleteCount\":false},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query Layout($skipOrderIncompleteCount: Boolean!, $skipInventoryAllocationRequestIncompleteCount: Boolean!, $skipInventoryOutboundOrderIncompleteCount: Boolean!, $skipInventoryInboundOrderIncompleteCount: Boolean!) {\\n  orderIncompleteCount: orderCount(\\n    filter: {inventoryOutboundOrderWorkingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED], isCancelled: false}\\n  ) @skip(if: $skipOrderIncompleteCount)\\n  inventoryAllocationRequestIncompleteCount: inventoryAllocationRequestCount(\\n    filter: {isCompleted: false}\\n  ) @skip(if: $skipInventoryAllocationRequestIncompleteCount)\\n  inventoryOutboundOrderIncompleteCount: inventoryOutboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, REJECTED]}\\n  ) @skip(if: $skipInventoryOutboundOrderIncompleteCount)\\n  inventoryInboundOrderIncompleteCount: inventoryInboundOrderCount(\\n    filter: {workingStatuses: [WAITING, ON_HOLD, REQUESTED, IN_PROGRESS, UNDER_INVESTIGATION]}\\n  ) @skip(if: $skipInventoryInboundOrderIncompleteCount)\\n}\"}",
+      "body": "{\"data\":{\"orderIncompleteCount\":0,\"inventoryAllocationRequestIncompleteCount\":0,\"inventoryOutboundOrderIncompleteCount\":0,\"inventoryInboundOrderIncompleteCount\":0}}"
+    }
+  ],
+  "records": [
+    {
+      "name": "01-purchase-order-create-open",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "取引先",
+        "選択してください",
+        "TEST_FAQ_DEEP_202606080340_取引先",
+        "テナント",
+        "通貨",
+        "商品",
+        "商品を追加する",
+        "作成する"
+      ],
+      "rows": [],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいTEST_FAQ_SupplierTEST_FAQ_Supplier2TEST_FAQ_DEEP_202606080340_取引先",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいユニクロ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "米ドルユーロ日本円タイ バーツシンガポール ドル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "JPY",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "商品を検索する",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "参照",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "作成する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        }
+      ],
+      "classification": {
+        "visibleError": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/01-01-purchase-order-create-open.png"
+    },
+    {
+      "name": "02-purchase-order-header-selected",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "保存されていない発注伝票",
+        "保存",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "取引先",
+        "選択してください",
+        "TEST_FAQ_DEEP_202606080340_取引先",
+        "テナント",
+        "通貨",
+        "商品",
+        "商品を追加する",
+        "作成する"
+      ],
+      "rows": [],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "取り消す",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "保存",
+          "ariaLabel": "保存",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいTEST_FAQ_SupplierTEST_FAQ_Supplier2TEST_FAQ_DEEP_202606080340_取引先",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいユニクロ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "米ドルユーロ日本円タイ バーツシンガポール ドル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "JPY",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "商品を検索する",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "参照",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "作成する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        }
+      ],
+      "classification": {
+        "visibleError": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/02-02-purchase-order-header-selected.png",
+      "selected": {
+        "supplier": {
+          "index": 3,
+          "label": "TEST_FAQ_DEEP_202606080340_取引先",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier"
+        },
+        "tenant": {
+          "index": 1,
+          "label": "ユニクロ",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant"
+        },
+        "currency": {
+          "index": 2,
+          "label": "日本円",
+          "value": "JPY"
+        }
+      }
+    },
+    {
+      "name": "03-purchase-order-variant-search",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "保存されていない発注伝票",
+        "保存",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "取引先",
+        "選択してください",
+        "TEST_FAQ_DEEP_202606080340_取引先",
+        "テナント",
+        "通貨",
+        "商品",
+        "商品を追加する",
+        "作成する",
+        "バリエーションを選択する",
+        "アイテムが見つかりませんでした",
+        "選択する"
+      ],
+      "rows": [],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "取り消す",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "保存",
+          "ariaLabel": "保存",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいTEST_FAQ_SupplierTEST_FAQ_Supplier2TEST_FAQ_DEEP_202606080340_取引先",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいユニクロ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "米ドルユーロ日本円タイ バーツシンガポール ドル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "JPY",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "商品を検索する",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "参照",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "作成する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "SKUコードで検索する",
+          "value": "486125-31-L",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "クリア",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "絞り込みを追加",
+          "ariaLabel": "絞り込みを追加",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "前へ",
+          "placeholder": "",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "次へ",
+          "placeholder": "",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "キャンセル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "選択する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        }
+      ],
+      "classification": {
+        "visibleError": false,
+        "unexpectedError": false,
+        "empty": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/03-03-purchase-order-variant-search.png"
+    },
+    {
+      "name": "04-purchase-order-variant-checked",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "保存されていない発注伝票",
+        "保存",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "取引先",
+        "選択してください",
+        "TEST_FAQ_DEEP_202606080340_取引先",
+        "テナント",
+        "通貨",
+        "商品",
+        "商品を追加する",
+        "作成する",
+        "バリエーションを選択する",
+        "すべてのアイテムを選択する",
+        "商品コード",
+        "すべての92のアイテムを選択する",
+        "1を選択済み",
+        "アイテムを選択する",
+        "オーバーサイズスウェットシャツ",
+        "486125",
+        "486125-31-XL",
+        "486125-03-M",
+        "486125-03-XL",
+        "486125-69-M",
+        "486125-31-XS",
+        "486125-69-S",
+        "486125-09-M",
+        "486125-31-M",
+        "486125-09-XS",
+        "486125-09-S",
+        "486125-03-S",
+        "486125-31-L",
+        "486125-31-S",
+        "486125-69-XS",
+        "486125-69-XL",
+        "486125-03-XS",
+        "486125-69-L",
+        "486125-03-L",
+        "486125-09-L",
+        "486125-09-XL",
+        "選択する"
+      ],
+      "rows": [
+        "すべてのアイテムを選択するバリエーション商品コードSKU",
+        "アイテムを選択するオーバーサイズスウェットシャツBEIGE / XL486125486125-31-XL",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツLIGHT PURPLE / S486102486102-70-S",
+        "アイテムを選択するUVカットペーパーブレイドハットNATURAL / ONE SIZE482787482787-30-ONE",
+        "アイテムを選択するオーバーサイズスウェットシャツGRAY / M486125486125-03-M",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツDARK GRAY / XL486102486102-08-XL",
+        "アイテムを選択するバギーカーブジーンズBLUE / 27487973487973-64-27",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツLIGHT PURPLE / XS486102486102-70-XS",
+        "アイテムを選択するエアリズムコットンTBLACK / L483457483457-09-L",
+        "アイテムを選択するポケモン UTRED / 160(14歳)483674483674-15-160",
+        "アイテムを選択するエアリズムコットンTLIGHT GRAY / S483457483457-02-S",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツBLACK / XS486102486102-09-XS",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツDARK GRAY / S486102486102-08-S",
+        "アイテムを選択するオーバーサイズスウェットシャツGRAY / XL486125486125-03-XL",
+        "アイテムを選択するバギーカーブジーンズBLUE / 32487973487973-64-32",
+        "アイテムを選択するポケモン UTRED / 140(10-11歳)483674483674-15-140",
+        "アイテムを選択するバギーカーブジーンズBLUE / 30487973487973-64-30",
+        "アイテムを選択するバギーカーブジーンズBLUE / 21487973487973-64-21",
+        "アイテムを選択するオーバーサイズスウェットシャツNAVY / M486125486125-69-M",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツBLACK / XL486102486102-09-XL",
+        "アイテムを選択するバギーカーブジーンズBLUE / 22487973487973-64-22",
+        "アイテムを選択するエアリズムコットンTWHITE / L483457483457-00-L",
+        "アイテムを選択するエアリズムコットンTLIGHT GRAY / M483457483457-02-M",
+        "アイテムを選択するエアリズムコットンTWHITE / M483457483457-00-M",
+        "アイテムを選択するポケモン UTRED / 120(6-7歳)483674483674-15-120",
+        "アイテムを選択するオーバーサイズスウェットシャツBEIGE / XS486125486125-31-XS",
+        "アイテムを選択するエアリズムコットンTPINK / XL483457483457-10-XL",
+        "アイテムを選択するエアリズムコットンTDARK BROWN / XL483457483457-38-XL",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツWHITE / XL486102486102-00-XL",
+        "アイテムを選択するエアリズムコットンTWHITE / XS483457483457-00-XS",
+        "アイテムを選択するエアリズムコットンTPINK / M483457483457-10-M",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツGREEN / S486102486102-52-S",
+        "アイテムを選択するエアリズムコットンTBLACK / M483457483457-09-M",
+        "アイテムを選択するオーバーサイズスウェットシャツNAVY / S486125486125-69-S",
+        "アイテムを選択するエアリズムコットンTBLACK / XL483457483457-09-XL",
+        "アイテムを選択するオーバーサイズスウェットシャツBLACK / M486125486125-09-M",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツWHITE / XS486102486102-00-XS",
+        "アイテムを選択するUVカットペーパーブレイドハットBEIGE / ONE SIZE482787482787-32-ONE",
+        "アイテムを選択するエアリズムコットンTDARK BROWN / XS483457483457-38-XS",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツLIGHT PURPLE / XL486102486102-70-XL",
+        "アイテムを選択するポケモン UTRED / 130(8-9歳)483674483674-15-130",
+        "アイテムを選択するバギーカーブジーンズBLUE / 23487973487973-64-23",
+        "アイテムを選択するオーバーサイズスウェットシャツBEIGE / M486125486125-31-M",
+        "アイテムを選択するエアリズムコットンTDARK BROWN / M483457483457-38-M",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツDARK GRAY / M486102486102-08-M",
+        "アイテムを選択するオーバーサイズスウェットシャツBLACK / XS486125486125-09-XS",
+        "アイテムを選択するエアリズムコットンTBLACK / XS483457483457-09-XS",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツBLACK / S486102486102-09-S",
+        "アイテムを選択するエアリズムコットンTDARK BROWN / S483457483457-38-S",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツBLACK / M486102486102-09-M",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツLIGHT PURPLE / M486102486102-70-M",
+        "アイテムを選択するオーバーサイズスウェットシャツBLACK / S486125486125-09-S",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツGREEN / M486102486102-52-M",
+        "アイテムを選択するエアリズムコットンTDARK BROWN / L483457483457-38-L",
+        "アイテムを選択するバギーカーブジーンズBLUE / 34487973487973-64-34",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツGREEN / L486102486102-52-L",
+        "アイテムを選択するエアリズムコットンTLIGHT GRAY / XL483457483457-02-XL",
+        "アイテムを選択するエアリズムコットンTPINK / S483457483457-10-S",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツWHITE / M486102486102-00-M",
+        "アイテムを選択するエアリズムコットンTPINK / XS483457483457-10-XS",
+        "アイテムを選択するポケモン UTRED / 150(12-13歳)483674483674-15-150",
+        "アイテムを選択するバギーカーブジーンズBLUE / 26487973487973-64-26",
+        "アイテムを選択するオーバーサイズスウェットシャツGRAY / S486125486125-03-S",
+        "アイテムを選択するオーバーサイズスウェットシャツBEIGE / L486125486125-31-L",
+        "アイテムを選択するバギーカーブジーンズBLUE / 29487973487973-64-29",
+        "アイテムを選択するオーバーサイズスウェットシャツBEIGE / S486125486125-31-S",
+        "アイテムを選択するエアリズムコットンTLIGHT GRAY / XS483457483457-02-XS",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツWHITE / S486102486102-00-S",
+        "アイテムを選択するバギーカーブジーンズBLUE / 25487973487973-64-25",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツDARK GRAY / XS486102486102-08-XS",
+        "アイテムを選択するポケモン UTRED / 110(4-5歳)483674483674-15-110",
+        "アイテムを選択するオーバーサイズスウェットシャツNAVY / XS486125486125-69-XS",
+        "アイテムを選択するバギーカーブジーンズBLUE / 24487973487973-64-24",
+        "アイテムを選択するエアリズムコットンTPINK / L483457483457-10-L",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツLIGHT PURPLE / L486102486102-70-L",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツBLACK / L486102486102-09-L",
+        "アイテムを選択するオーバーサイズスウェットシャツNAVY / XL486125486125-69-XL",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツDARK GRAY / L486102486102-08-L",
+        "アイテムを選択するオーバーサイズスウェットシャツGRAY / XS486125486125-03-XS",
+        "アイテムを選択するバギーカーブジーンズBLUE / 28487973487973-64-28",
+        "アイテムを選択するエアリズムコットンTBLACK / S483457483457-09-S",
+        "アイテムを選択するオーバーサイズスウェットシャツNAVY / L486125486125-69-L",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツGREEN / XS486102486102-52-XS",
+        "アイテムを選択するオーバーサイズスウェットシャツGRAY / L486125486125-03-L",
+        "アイテムを選択するエアリズムコットンTWHITE / XL483457483457-00-XL",
+        "アイテムを選択するポケモン UTRED / 100(3-4歳)483674483674-15-100",
+        "アイテムを選択するエアリズムコットンTWHITE / S483457483457-00-S",
+        "アイテムを選択するオーバーサイズスウェットシャツBLACK / L486125486125-09-L",
+        "アイテムを選択するエアリズムコットンTLIGHT GRAY / L483457483457-02-L",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツWHITE / L486102486102-00-L",
+        "アイテムを選択するオーバーサイズスウェットシャツBLACK / XL486125486125-09-XL",
+        "アイテムを選択するエアリズムコットンクルーネックTシャツGREEN / XL486102486102-52-XL",
+        "アイテムを選択するバギーカーブジーンズBLUE / 36487973487973-64-36"
+      ],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "取り消す",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "保存",
+          "ariaLabel": "保存",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいTEST_FAQ_SupplierTEST_FAQ_Supplier2TEST_FAQ_DEEP_202606080340_取引先",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいユニクロ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "米ドルユーロ日本円タイ バーツシンガポール ドル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "JPY",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "商品を検索する",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "参照",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "作成する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "SKUコードで検索する",
+          "value": "486125-31-L",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "クリア",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "絞り込みを追加",
+          "ariaLabel": "絞り込みを追加",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "その他の操作",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "前へ",
+          "placeholder": "",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "次へ",
+          "placeholder": "",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "キャンセル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "選択する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        }
+      ],
+      "classification": {
+        "visibleError": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/04-04-purchase-order-variant-checked.png"
+    },
+    {
+      "name": "05-purchase-order-variant-selected",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "保存されていない発注伝票",
+        "保存",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "取引先",
+        "選択してください",
+        "TEST_FAQ_DEEP_202606080340_取引先",
+        "テナント",
+        "通貨",
+        "商品",
+        "商品を追加する",
+        "単価",
+        "数量",
+        "金額",
+        "486125-31-L",
+        "作成する"
+      ],
+      "rows": [
+        "SKU単価数量税率金額",
+        "486125-31-L単価￥数量税率%￥0"
+      ],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "取り消す",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "保存",
+          "ariaLabel": "保存",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいTEST_FAQ_SupplierTEST_FAQ_Supplier2TEST_FAQ_DEEP_202606080340_取引先",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいユニクロ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "米ドルユーロ日本円タイ バーツシンガポール ドル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "JPY",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "商品を検索する",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "参照",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "3600",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "0",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "10",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "商品を削除",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "作成する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        }
+      ],
+      "classification": {
+        "visibleError": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/05-05-purchase-order-variant-selected.png"
+    },
+    {
+      "name": "06-purchase-order-numbers-filled",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "保存されていない発注伝票",
+        "保存",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "取引先",
+        "選択してください",
+        "TEST_FAQ_DEEP_202606080340_取引先",
+        "テナント",
+        "通貨",
+        "商品",
+        "商品を追加する",
+        "単価",
+        "数量",
+        "金額",
+        "486125-31-L",
+        "作成する"
+      ],
+      "rows": [
+        "SKU単価数量税率金額",
+        "486125-31-L単価￥数量税率%￥100"
+      ],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "取り消す",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "保存",
+          "ariaLabel": "保存",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいTEST_FAQ_SupplierTEST_FAQ_Supplier2TEST_FAQ_DEEP_202606080340_取引先",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいユニクロ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "米ドルユーロ日本円タイ バーツシンガポール ドル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "JPY",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "商品を検索する",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "参照",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "100",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "1",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "1",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "商品を削除",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "作成する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        }
+      ],
+      "classification": {
+        "visibleError": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/06-06-purchase-order-numbers-filled.png",
+      "filled": [
+        {
+          "index": 0,
+          "value": "100"
+        },
+        {
+          "index": 1,
+          "value": "1"
+        },
+        {
+          "index": 2,
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "07-purchase-order-after-submit",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "保存されていない発注伝票",
+        "保存",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "取引先",
+        "選択してください",
+        "TEST_FAQ_DEEP_202606080340_取引先",
+        "テナント",
+        "通貨",
+        "商品",
+        "商品を追加する",
+        "単価",
+        "数量",
+        "金額",
+        "486125-31-L",
+        "作成する",
+        "エラーが発生しました。しばらくしてから再度お試しください"
+      ],
+      "rows": [
+        "SKU単価数量税率金額",
+        "486125-31-L単価￥数量税率%￥100"
+      ],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "取り消す",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "保存",
+          "ariaLabel": "保存",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいTEST_FAQ_SupplierTEST_FAQ_Supplier2TEST_FAQ_DEEP_202606080340_取引先",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "選択してくださいユニクロ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+          "disabled": false
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "text": "米ドルユーロ日本円タイ バーツシンガポール ドル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "JPY",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "商品を検索する",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "参照",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "on",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "100",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "1",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "1",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "商品を削除",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "取り消す",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "作成する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "",
+          "text": "",
+          "ariaLabel": "Close toast",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        }
+      ],
+      "classification": {
+        "visibleError": true,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/07-07-purchase-order-after-submit.png",
+      "beforeUrl": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create"
+    },
+    {
+      "name": "08-purchase-order-list-after-submit",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "h1": [
+        "発注管理"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "発注管理。このページの準備が整いました",
+        "発注伝票を作成する",
+        "アイテムが見つかりませんでした"
+      ],
+      "rows": [],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注伝票を作成する",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "すべて",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "その他のビュー",
+          "ariaLabel": "その他のビュー",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "すべて",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "その他のビュー",
+          "ariaLabel": "その他のビュー",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "前へ",
+          "placeholder": "",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "次へ",
+          "placeholder": "",
+          "value": "",
+          "disabled": true
+        }
+      ],
+      "classification": {
+        "visibleError": false,
+        "unexpectedError": false,
+        "empty": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/08-08-purchase-order-list-after-submit.png"
+    },
+    {
+      "name": "09-inbound-list-after-purchase-order-submit",
+      "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "h1": [
+        "入荷管理"
+      ],
+      "importantLines": [
+        "商品管理",
+        "発注管理",
+        "入荷管理",
+        "入荷管理。このページの準備が整いました",
+        "入荷待ち",
+        "入荷依頼済み",
+        "入荷作業中",
+        "入荷完了",
+        "アイテムが見つかりませんでした"
+      ],
+      "rows": [],
+      "controls": [
+        {
+          "tag": "a",
+          "type": "",
+          "text": "コンテンツにスキップ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "stack-ps-yosuke陽介 河野",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ホーム",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "商品管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "注文管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "顧客管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "発注管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "販売設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会計",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "分析",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "入荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "出荷管理",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "在庫依頼",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ディスカウント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "ポイント",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "会員ランク",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "Shopify",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "OmnibusCore",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "スマレジ",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "リテールポータル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "卸売",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "a",
+          "type": "",
+          "text": "設定",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "入荷待ち",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "入荷依頼済み",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "入荷作業中",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "要対応",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "入荷完了",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "キャンセル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "その他のビュー",
+          "ariaLabel": "その他のビュー",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "入荷待ち0",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "入荷依頼済み新規0",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "入荷作業中新規0",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "要対応新規0",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "入荷完了",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "キャンセル",
+          "ariaLabel": "",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "その他のビュー",
+          "ariaLabel": "その他のビュー",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "検索と絞り込みの結果",
+          "placeholder": "",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "前へ",
+          "placeholder": "",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "text": "",
+          "ariaLabel": "次へ",
+          "placeholder": "",
+          "value": "",
+          "disabled": true
+        }
+      ],
+      "classification": {
+        "visibleError": false,
+        "unexpectedError": false,
+        "empty": true
+      },
+      "screenshot": "faq/_analysis/deep-screen-verification-20260609/purchase-order-current-screenshots/09-09-inbound-list-after-purchase-order-submit.png"
+    }
+  ]
+}

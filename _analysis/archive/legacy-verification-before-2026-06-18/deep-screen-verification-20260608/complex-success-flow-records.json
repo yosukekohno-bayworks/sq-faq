@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-06-08T03:44:30.472Z",
+  "prefix": "TEST_FAQ_DEEP2_202606080343",
+  "records": [
+    {
+      "index": 1,
+      "id": "location",
+      "name": "TEST_FAQ_DEEP2_202606080343_ロケーション",
+      "createUrl": "/admin/settings/locations/create",
+      "listUrl": "/admin/settings/locations",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/locations/create",
+        "h1": [
+          "ロケーションを作成"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nロケーションを作成。このページの準備が整いました\n\nロケーションを作成\n基本情報\n名前\nこのロケーションに短い名前を付けて、簡単に識別できるようにします。注文や商品などのエリアでこの名前が表示されます。\n表示名\nコード\n場所種別\n選択してください\n倉庫\n店舗\n倉庫\n所在地・連絡先\nロケーションの住所を登録する\nマップ\n電話番号\nメールアドレス\n販売設定\n店舗受け取りを有効にする\n在庫依頼を受け付ける\nポイント利用種別\n選択してください\n値引き\n金種\n値引き\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/settings/locations/b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+        "h1": [
+          "ロケーション"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nロケーション。このページの準備が整いました\n\nロケーション\n\nTEST_FAQ_DEEP2_202606080343_ロケーション\n\nその他の操作\n基本情報\nロケーションID\n\nb9f67abc-3da0-5165-953b-ea304a92460b_Location\n\n外部ID\n\n未設定\n\nコード\n\ntest_faq_deep2_202606080343_loc\n\n表示名\n\nTEST_FAQ_DEEP2_202606080343_ロケーション_表示\n\n場所種別\n情報\n店舗\n営業状態\n成功\n営業中\n所在地・連絡先\n住所\n\n未設定\n\nマップ\n\n未設定\n\n電話番号\n\n03-1234-5678\n\nメールアドレス\n\ntest@example.com\n\n所属ロケーショングループ\n\n0個のグループに属しています\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\n公開設定\n成功\n公開中\n販売設定\n店舗受取\n無効\n在庫依頼\n無効\nポイント利用種別\n値引き\n備考欄\n\n備考はありません\n\nタグ\n\nタグは付与されていません\n\nロケーションを作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "validationLines": [],
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/01-location-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/01-location-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/01-location-list.png"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "company",
+      "name": "TEST_FAQ_DEEP2_202606080343_会社",
+      "createUrl": "/admin/companies/create",
+      "listUrl": "/admin/companies",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/companies/create",
+        "h1": [
+          "会社を作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n会社を作成する。このページの準備が整いました\n\n会社を作成する\n会社名\nこれは請求書および配送ラベルに表示されます。\n会社ID\n会社を識別する外部IDがある場合に登録することができます。\n担当者\n\n担当者なし\n\nロケーション\n\nこの会社にロケーションを追加します。商品は登録されているロケーションに配送します。ロケーションは後からさらに追加することができます。\n\nロケーション名\nロケーションID\nロケーションを識別する外部IDがある場合に登録することができます。\nコード\n配送先住所\n国/地域\n国/地域\nリヒテンシュタイン\nチュニジア\nアンゴラ\nカザフスタン\n東ティモール\nフィリピン\nカメルーン\nニウエ\nブルンジ\nドミニカ国\nホンジュラス\nイスラエル\n中国\nセーシェル\nトケラウ\nコートジボワール\nジョージア\nマカオ\nサンマリノ\nブータン\nドイツ\nパラグアイ\nスロベニア\nトリニダード・トバゴ\nウガンダ\nバヌアツ\nキューバ\nココス諸島\nソマリア\nタークス・カイコス諸島\nチリ\nルクセンブルク\nモーリタニア\nマレーシア\nニカラグア\n南スーダン\nフェロー諸島\nイギリス領インド洋地域\nリベリア\nニュージーランド\nカタール\nアセンション島\nカーボベルデ\nジブラルタル\nルワンダ\nツバル\nベネズエラ\nアンドラ\nキプロス\nサウスジョージア・サウスサンドウィッチ諸島\nケニア\nキリバス\nレバノン\nオーランド諸島\nベルギー\nレソト\nモントセラト\nイエメン\nアンティグア・バーブーダ\nアルジェリア\nギニア\nソロモン諸島\nドミニカ共和国\nチャド\nアルバニア\nクック諸島\nグリーンランド\nラオス\nマリ\nナミビア\nハイチ\nサントメ・プリンシペ\nトンガ\nアルゼンチン\nエクアドル\nナウル\nジャマイカ\nジンバブエ\nブルキナファソ\nガボン\nモロッコ\nサン・マルタン\nトーゴ\nオマーン\nフランス領ポリネシア\nアルメニア\nコロンビア\nマルタ\nピトケアン諸島\nベナン\nガンビア\nギリシャ\n合衆国領有小離島\nブラジル\nパナマ\nペルー\nポーランド\nスーダン\nスロバキア\nシント・マールテン\nバルバドス\nサン・バルテルミー\nチェコ\nエチオピア\nガーンジー\nケイマン諸島\nリトアニア\nフランス南方・南極地域\nマン島\nグアテマラ\nリビア\nセネガル\nイギリス\nグアドループ\n香港\nオランダ\nデンマーク\nハード島とマクドナルド諸島\nミャンマー\nコンゴ共和国\nイラン\n日本\nトルクメニスタン\nボスニア"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/companies/create",
+        "h1": [
+          "会社を作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない変更\n取り消す\n保存する\n\n会社を作成する。このページの準備が整いました\n\n会社を作成する\n会社名\nこれは請求書および配送ラベルに表示されます。\n会社ID\n会社を識別する外部IDがある場合に登録することができます。\n担当者\n\n担当者なし\n\nロケーション\n\nこの会社にロケーションを追加します。商品は登録されているロケーションに配送します。ロケーションは後からさらに追加することができます。\n\nロケーション名\nロケーションID\nロケーションを識別する外部IDがある場合に登録することができます。\nコード\n配送先住所\n国/地域\n国/地域\nリヒテンシュタイン\nチュニジア\nアンゴラ\nカザフスタン\n東ティモール\nフィリピン\nカメルーン\nニウエ\nブルンジ\nドミニカ国\nホンジュラス\nイスラエル\n中国\nセーシェル\nトケラウ\nコートジボワール\nジョージア\nマカオ\nサンマリノ\nブータン\nドイツ\nパラグアイ\nスロベニア\nトリニダード・トバゴ\nウガンダ\nバヌアツ\nキューバ\nココス諸島\nソマリア\nタークス・カイコス諸島\nチリ\nルクセンブルク\nモーリタニア\nマレーシア\nニカラグア\n南スーダン\nフェロー諸島\nイギリス領インド洋地域\nリベリア\nニュージーランド\nカタール\nアセンション島\nカーボベルデ\nジブラルタル\nルワンダ\nツバル\nベネズエラ\nアンドラ\nキプロス\nサウスジョージア・サウスサンドウィッチ諸島\nケニア\nキリバス\nレバノン\nオーランド諸島\nベルギー\nレソト\nモントセラト\nイエメン\nアンティグア・バーブーダ\nアルジェリア\nギニア\nソロモン諸島\nドミニカ共和国\nチャド\nアルバニア\nクック諸島\nグリーンランド\nラオス\nマリ\nナミビア\nハイチ\nサントメ・プリンシペ\nトンガ\nアルゼンチン\nエクアドル\nナウル\nジャマイカ\nジンバブエ\nブルキナファソ\nガボン\nモロッコ\nサン・マルタン\nトーゴ\nオマーン\nフランス領ポリネシア\nアルメニア\nコロンビア\nマルタ\nピトケアン諸島\nベナン\nガンビア\nギリシャ\n合衆国領有小離島\nブラジル\nパナマ\nペルー\nポーランド\nスーダン\nスロバキア\nシント・マールテン\nバルバドス\nサン・バルテルミー\nチェコ\nエチオピア\nガーンジー\nケイマン諸島\nリトアニア\nフランス南方・南極地域\nマン島\nグアテマラ\nリビア\nセネガル\nイギリス\nグアドループ\n香港\nオランダ\nデンマーク\nハード島とマクドナルド諸島\nミャンマー\nコンゴ共和国\nイラン\n日本\nトルクメニスタン\nボスニア・ヘルツェゴビナ\nコンゴ民主共和国\nフィンランド\nクウェート\nモンテネグロ\nオランダ領アンティル\nカンボジア\nナイジェリア\nエルサルバドル\nカナダ\nアイルランド\nシエラレオネ\nアンギラ\nフランス\nヨルダン\n北マケドニア\nノーフォーク島\nシンガポール\nウズベキスタン\nオランダ領カリブ\nボツワナ\nエストニア\nアイスランド\nレユニオン\nセルビア\nバチカン市国\nアフガニスタン\nブルネイ\nハンガリー\nポルトガル\nキュラソー\nスペイン\nガイアナ\nエスワティニ\nオーストラリア\nバングラデシュ\nセントルシア\nベラルーシ\n西サハラ\nエリトリア\nグレナダ\nガーナ\nマダガスカル\nコソボ\nマヨット\nセントヘレナ\nオーストリア\nアルバ\nモンゴル\nパレスチナ\nベリーズ\nイタリア\nスリランカ\nモナコ\nタイ\nサウジアラビア\nフランス領ギアナ\nセントクリストファー・ネイビス\nウォリス・フツナ\nアゼルバイジャン\nバハマ\nニューカレドニア\nニジェール\nアラブ首長国連邦\nルーマニア\nトリスタン・ダ・クーニャ\nトルコ\nサモア\nその他の地域\n赤道ギニア\nインド\nジャージー\nキルギス\nモザンビーク\n中央アフリカ共和国\nフィジー\nクロアチア\n北朝鮮\n韓国\nジブチ\nマルティニーク\nマラウイ\nタジキスタン\nベトナム\nブーベ島\nエジプト\nイラク\nスウェーデン\nセントビンセント・グレナディーン\n",
+        "unexpectedError": false
+      },
+      "listContains": false,
+      "validationLines": [
+        "選択してください",
+        "postalCodeは郵便番号の形式で入力してください"
+      ],
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/02-company-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/02-company-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/02-company-list.png"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "product",
+      "name": "TEST_FAQ_DEEP2_202606080343_商品",
+      "createUrl": "/admin/products/create",
+      "listUrl": "/admin/products",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/products/create",
+        "h1": [
+          "商品を作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品を作成する。このページの準備が整いました\n\n商品を作成する\n商品コード\n半角英数字（A〜Z、a〜z、0〜9）、ハイフン（-）、アンダースコア（_）のみご入力ください。\n商品名\n説明文\n0/5000\nメディア\n画像をアップロード\n追加\nバリエーション\nオプション名\n種別\n選択してください\nサイズ\nカラー\nその他\n選択してください\nオプション値\nコード\n削除\n追加\n別のオプションを追加する\n検索エンジンリスティング\nページタイトル\nメタディスクリプション\n0/5000\nメタフィールド\nTEST_FAQ_テキストフィールド\n\n未設定\n\nTEST_FAQ_DEEP_202606080340_商品MF\n\n未設定\n\nステータス\n下書き\n公開\n非公開\n下書き\n商品分類\n商品タイプ\n製造元\nブランド\n選択\nタグ\n\nタグは付与されていません\n\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/products/6213c45e-1a23-5b75-a1de-67ea972b6e30_Product",
+        "h1": [
+          "TEST_FAQ_DEEP2_202606080343_商品"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_DEEP2_202606080343_商品。このページの準備が整いました\n\nTEST_FAQ_DEEP2_202606080343_商品\n情報\n下書き\nその他の操作\n商品コード\n\ntest_faq_deep2_202606080343_product\n\n商品名\n説明文\n29/5000\nメディア（0件）\n画像をアップロード\n追加\nバリエーション\nバリエーションを追加する\n\nサイズ\n\n情報\nサイズ\nF\n\nバリエーションがありません\n\n検索エンジンリスティング\nページタイトル\nメタディスクリプション\n0/5000\nメタフィールド\nTEST_FAQ_テキストフィールド\n\n未設定\n\nTEST_FAQ_DEEP_202606080340_商品MF\n\n未設定\n\nステータス\n公開中\n下書き\n下書き\n商品分類\n商品タイプ\n製造元\nブランド\n選択\nタグ\n\nタグは付与されていません\n\n保存する\n商品を作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "validationLines": [],
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/03-product-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/03-product-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/03-product-list.png"
+      ]
+    },
+    {
+      "index": 4,
+      "id": "discount",
+      "name": "TEST_FAQ_DEEP2_202606080343_ディスカウント",
+      "createUrl": "/admin/order_price_adjustment_rules/create",
+      "listUrl": "/admin/order_price_adjustment_rules",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules/create",
+        "h1": [
+          "ディスカウントを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nディスカウントを作成する。このページの準備が整いました\n\nディスカウントを作成する\n基本情報\nタイトル\n説明文\nクーポンコード\nテナント\nテナントを選択してください\nユニクロ\nテナントを選択してください\n選択されたテナントでディスカウントが利用できます\n割引設定\n割引方法\n選択してください\n割引率\n割引額\n割引率\n割引率\n%\n割引が適用可能な最高購入額を設定する\n設定した購入額を超える注文には適用不可になります\n適用条件\n割引要件\n最低購入額\n円\n最低購入数量\n対象商品\nすべての商品を割引対象に設定する\nこの設定を有効にしない場合は、割引の作成後に対象の商品を設定することができます\n利用制限\nお客様1人につき1回のみの使用とする\n有効期間\n開始日時\n終了日時\n保存する"
+      },
+      "after": null,
+      "listContains": false,
+      "validationLines": [
+        "テナントを選択してください",
+        "選択してください"
+      ],
+      "error": "locator.fill: Error: Input of type \"radio\" cannot be filled\nCall log:\n\u001b[2m  - waiting for getByLabel('最低購入額', { exact: true }).first()\u001b[22m\n\u001b[2m    - locator resolved to <input checked id=\":r1k:\" type=\"radio\" name=\":r1j:\" value=\"AMOUNT\" class=\"Polaris-RadioButton__Input\"/>\u001b[22m\n\u001b[2m    - fill(\"1000\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and editable\u001b[22m\n",
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/04-discount-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/04-discount-error.png"
+      ]
+    },
+    {
+      "index": 5,
+      "id": "birthday_point_rule",
+      "name": "TEST_FAQ_DEEP2_202606080343_誕生日ポイント",
+      "createUrl": "/admin/point_calculation_birthday_rules/create",
+      "listUrl": "/admin/point_calculation_birthday_rules",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules/create",
+        "h1": [
+          "誕生日ポイント付与ルールを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n誕生日ポイント付与ルールを作成する。このページの準備が整いました\n\n誕生日ポイント付与ルールを作成する\nタイトル\n表示タイトル\n誕生日ポイントの履歴に表示されるタイトル\nポイント\nポイント\n有効期間\n日\nポイントを付与してから有効な日数\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules/18e1062c-ca03-5b08-bc7e-42100beffa7b_PointCalculationBirthdayRule",
+        "h1": [
+          "TEST_FAQ_DEEP2_202606080343_誕生日ポイント"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_DEEP2_202606080343_誕生日ポイント。このページの準備が整いました\n\nTEST_FAQ_DEEP2_202606080343_誕生日ポイント\n会員ランク\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\n会員ランクごとに誕生日ポイントを設定する\n詳細\n利用テナント数\n0\nタイトル\nTEST_FAQ_DEEP2_202606080343_誕生日ポイント\n表示タイトル\nTEST_FAQ_DEEP2_202606080343_誕生日ポイント_表示\nポイント\n100ポイント\n有効期間\n30日\n誕生日ポイント付与ルールを作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "validationLines": [],
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/05-birthday_point_rule-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/05-birthday_point_rule-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/05-birthday_point_rule-list.png"
+      ]
+    },
+    {
+      "index": 6,
+      "id": "point_expiration_rule",
+      "name": "TEST_FAQ_DEEP2_202606080343_失効通知",
+      "createUrl": "/admin/point_expiration_notification_rule/create",
+      "listUrl": "/admin/point_expiration_notification_rule",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule/create",
+        "h1": [
+          "ポイント失効通知ルールを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイント失効通知ルールを作成する。このページの準備が整いました\n\nポイント失効通知ルールを作成する\nタイトル\n通知予定日\n失効日の\n日前\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule",
+        "h1": [
+          "失効通知"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n失効通知。このページの準備が整いました\n\n失効通知\n失効通知ルールを作成する\nアイテムを読み込んでいます...\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nルールを追加しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "validationLines": [],
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/06-point_expiration_rule-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/06-point_expiration_rule-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/06-point_expiration_rule-list.png"
+      ]
+    },
+    {
+      "index": 7,
+      "id": "point_campaign_none",
+      "name": "TEST_FAQ_DEEP2_202606080343_ポイントCP",
+      "createUrl": "/admin/point_campaign_order_rules/create",
+      "listUrl": "/admin/point_campaign_order_rules",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+        "h1": [
+          "ポイントキャンペーンを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイントキャンペーンを作成する。このページの準備が整いました\n\nポイントキャンペーンを作成する\nタイトル\n開始日時\n終了日時\nポイントキャンペーン種別\n選択してください\nなし\n会員ランク\n購入金額\n商品\n選択してください\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+        "h1": [
+          "ポイントキャンペーンを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイントキャンペーンを作成する。このページの準備が整いました\n\nポイントキャンペーンを作成する\nタイトル\n開始日時\n終了日時\nポイントキャンペーン種別\n選択してください\nなし\n会員ランク\n購入金額\n商品\nなし\nポイント付与方法\n通常倍率に指定の倍率を加えた合計倍率でポイントを付与する\n通常付与ポイントに加えて指定のポイントを追加で付与する\n通常倍率に指定の倍率を加えた合計倍率でポイントを付与する\nポイント\n通常獲得ポイントに加えて\n倍分のポイントを追加で付与する\nポイント倍率を入力してください\n\nポイントキャンペーン倍率は「通常ポイントに加えた合計倍率」として適用されます。\n例）ポイントキャンペーン倍率に「3」と入力すると、通常倍率が2倍の会員ランクなら、通常2倍 + ポイントキャンペーン3倍 = 合計5倍 となります。\n\n注文ポイント付与ルール\n\nここで選択された注文ポイント付与ルールが適用される注文がこのポイントキャンペーンの対象となります。\n\n対象の注文ポイント付与ルール\n選択してください\nTEST_FAQ_注文ポイント付与ルール\n選択してください\n対象の注文ポイント付与ルールを選択してください\n適用条件\nポイントキャンペーンは以下の条件に該当する注文にのみ適用されます。未入力の場合は適用されません。\nチャネル\n対象店舗\n選択\n保存する",
+        "unexpectedError": false
+      },
+      "listContains": false,
+      "validationLines": [
+        "選択してください",
+        "ポイント倍率を入力してください",
+        "対象の注文ポイント付与ルールを選択してください"
+      ],
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/07-point_campaign_none-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/07-point_campaign_none-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/complex-success-screenshots/07-point_campaign_none-list.png"
+      ]
+    }
+  ]
+}

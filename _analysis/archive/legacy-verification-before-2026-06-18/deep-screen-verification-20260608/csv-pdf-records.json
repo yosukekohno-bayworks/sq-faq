@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-06-08T03:49:41.967Z",
+  "invalidCsv": "faq/_analysis/deep-screen-verification-20260608/fixtures/invalid-products.csv",
+  "records": [
+    {
+      "index": 1,
+      "id": "sale_changes_export",
+      "url": "/admin/csv_export/csv_export_operation_sale_changes/create",
+      "listUrl": "/admin/csv_export/csv_export_operation_sale_changes",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes/create",
+        "h1": [
+          "売上実績（注文軸）をCSVでエクスポートする"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました\n\n売上実績（注文軸）をCSVでエクスポートする\nテナント\n選択してください\nユニクロ\n選択してください\nエクスポートするテナントを選択してください\n開始日時\n絞り込みを開始する日時を入力してください\n終了日時\n絞り込みを終了する日時を入力してください\nエクスポートを開始する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes",
+        "h1": [
+          "売上実績（注文軸）をCSVでエクスポートする"
+        ],
+        "importantLines": [
+          "売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました",
+          "売上実績（注文軸）をCSVでエクスポートする",
+          "エクスポート",
+          "ダウンロード",
+          "エクスポートを開始しました"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました\n\n売上実績（注文軸）をCSVでエクスポートする\nエクスポート\n作成日\n\t\nテナント\n\t\n対象期間\n\t\nステータス\n\t\nダウンロード\n\n\n\n2026年06月08日 12:49\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月01日 00:00 〜 2026年06月08日 23:59\n\n\t\n注意\n処理中\n\t\n\nエクスポートを開始しました",
+        "notFound": false,
+        "unexpectedError": false
+      },
+      "list": {
+        "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes",
+        "h1": [
+          "売上実績（注文軸）をCSVでエクスポートする"
+        ],
+        "importantLines": [
+          "売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました",
+          "売上実績（注文軸）をCSVでエクスポートする",
+          "エクスポート",
+          "ダウンロード"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました\n\n売上実績（注文軸）をCSVでエクスポートする\nエクスポート\n作成日\n\t\nテナント\n\t\n対象期間\n\t\nステータス\n\t\nダウンロード\n\n\n\n2026年06月08日 12:49\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月01日 00:00 〜 2026年06月08日 23:59\n\n\t\n注意\n処理中\n\t"
+      },
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/01-sale_changes_export-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/01-sale_changes_export-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/01-sale_changes_export-list.png"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "point_changes_export",
+      "url": "/admin/csv_export/csv_export_operation_point_changes/create",
+      "listUrl": "/admin/csv_export/csv_export_operation_point_changes",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_point_changes/create",
+        "h1": [
+          "ポイント変動履歴をCSVでエクスポートする"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイント変動履歴をCSVでエクスポートする。このページの準備が整いました\n\nポイント変動履歴をCSVでエクスポートする\nテナント\n選択してください\nユニクロ\n選択してください\nエクスポートするテナントを選択してください\n開始日時\nポイント変動履歴の絞り込みを開始する日時を入力してください\n終了日時\nポイント変動履歴の絞り込みを終了する日時を入力してください\nエクスポートを開始する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_point_changes",
+        "h1": [
+          "ポイント変動履歴をCSVでエクスポートする"
+        ],
+        "importantLines": [
+          "ポイント変動履歴をCSVでエクスポートする。このページの準備が整いました",
+          "ポイント変動履歴をCSVでエクスポートする",
+          "エクスポート",
+          "ダウンロード",
+          "エクスポートを開始しました"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイント変動履歴をCSVでエクスポートする。このページの準備が整いました\n\nポイント変動履歴をCSVでエクスポートする\nエクスポート\n作成日\n\t\nテナント\n\t\n対象期間\n\t\nステータス\n\t\nダウンロード\n\n\n\n2026年06月08日 12:49\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月01日 00:00 〜 2026年06月08日 23:59\n\n\t\n注意\n処理中\n\t\n\nエクスポートを開始しました",
+        "notFound": false,
+        "unexpectedError": false
+      },
+      "list": {
+        "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_point_changes",
+        "h1": [
+          "ポイント変動履歴をCSVでエクスポートする"
+        ],
+        "importantLines": [
+          "ポイント変動履歴をCSVでエクスポートする。このページの準備が整いました",
+          "ポイント変動履歴をCSVでエクスポートする",
+          "エクスポート",
+          "ダウンロード"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイント変動履歴をCSVでエクスポートする。このページの準備が整いました\n\nポイント変動履歴をCSVでエクスポートする\nエクスポート\n作成日\n\t\nテナント\n\t\n対象期間\n\t\nステータス\n\t\nダウンロード\n\n\n\n2026年06月08日 12:49\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月01日 00:00 〜 2026年06月08日 23:59\n\n\t\n注意\n処理中\n\t"
+      },
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/02-point_changes_export-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/02-point_changes_export-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/02-point_changes_export-list.png"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "yamato_b2_conditional_export",
+      "url": "/admin/inventory_outbound_orders/export/yamato_b2_cloud",
+      "listUrl": "/admin/inventory_outbound_orders",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders/export/yamato_b2_cloud",
+        "h1": [
+          "条件指定でヤマトB2クラウドのCSVをエクスポートする"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n条件指定でヤマトB2クラウドのCSVをエクスポートする。このページの準備が整いました\n\n条件指定でヤマトB2クラウドのCSVをエクスポートする\nエクスポート完了後、メールにて以下のダウンロードリンクをお知らせいたします\n\nヤマトB2クラウド取り込み用CSV\n\n同梱する納品書PDF\n\n開始日時\n出荷指示の絞り込みを開始する日時を入力してください\n終了日時\n出荷指示の絞り込みを終了する日時を入力してください\n配送先 (国)\n決済方法\nすべての決済\n代引きのみ\n代引き以外の決済\nすべての決済\n出荷作業ステータス\n選択してください\n指定しない\n出荷待ち\n保留中\n依頼済み\n作業中\n欠品・要対応\nキャンセル済み\n出荷完了\n選択してください\n特定の出荷作業ステータスで絞り込みたい場合に選択してください\n注文タグ（含む）\n入力されたタグを含む出荷指示のみが対象になります\n注文タグ（除外）\n入力されたタグを含まない出荷指示のみが対象になります。\nCSVの出力後に出荷指示のステータスを出荷作業中に変更する\n実行する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+        "h1": [
+          "出荷管理"
+        ],
+        "importantLines": [
+          "インポート",
+          "条件指定でエクスポート",
+          "アイテムが見つかりませんでした",
+          "ヤマトB2クラウドのエクスポートを開始しました"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n出荷管理。このページの準備が整いました\n\n出荷管理\nインポート\n条件指定でエクスポート\n保留中\n新規\n0\n出荷待ち\n0\n依頼済み\n新規\n0\n作業中\n新規\n0\n欠品・要対応\n新規\n0\n出荷完了\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nヤマトB2クラウドのエクスポートを開始しました",
+        "notFound": false,
+        "unexpectedError": false
+      },
+      "list": {
+        "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+        "h1": [
+          "出荷管理"
+        ],
+        "importantLines": [
+          "インポート",
+          "条件指定でエクスポート",
+          "アイテムが見つかりませんでした"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n出荷管理。このページの準備が整いました\n\n出荷管理\nインポート\n条件指定でエクスポート\n保留中\n新規\n0\n出荷待ち\n0\n依頼済み\n新規\n0\n作業中\n新規\n0\n欠品・要対応\n新規\n0\n出荷完了\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください"
+      },
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/03-yamato_b2_conditional_export-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/03-yamato_b2_conditional_export-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/03-yamato_b2_conditional_export-list.png"
+      ]
+    },
+    {
+      "index": 4,
+      "id": "invalid_product_import",
+      "url": "/admin/csv_import/csv_import_operation_products/create",
+      "listUrl": "/admin/csv_import/csv_import_operation_products",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/create",
+        "h1": [
+          "商品をCSVでインポートする"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品をCSVでインポートする。このページの準備が整いました\n\n商品をCSVでインポートする\nCSVファイル\nファイルをアップロード\nファイルを選択する\n\nもしくはドラッグ&ドロップでアップロードすることができます\n\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/create",
+        "h1": [
+          "商品をCSVでインポートする"
+        ],
+        "importantLines": [
+          "商品をCSVでインポートする。このページの準備が整いました",
+          "商品をCSVでインポートする",
+          "CSVファイル",
+          "ファイルを選択してください"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品をCSVでインポートする。このページの準備が整いました\n\n商品をCSVでインポートする\nCSVファイル\n\ninvalid-products.csv\n\n保存する\nファイルを選択してください",
+        "notFound": false,
+        "unexpectedError": false
+      },
+      "list": {
+        "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products",
+        "h1": [
+          "商品をCSVでインポートする"
+        ],
+        "importantLines": [
+          "商品をCSVでインポートする。このページの準備が整いました",
+          "商品をCSVでインポートする",
+          "テンプレート",
+          "新規インポート",
+          "実行ステータス",
+          "成功 完了"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品をCSVでインポートする。このページの準備が整いました\n\n商品をCSVでインポートする\nテンプレート\n新規インポート\n作成日\n\t\n実行ステータス\n\n\n\n2026年05月20日\n\n\t\n\n成功 完了\n完了"
+      },
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/04-invalid_product_import-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/04-invalid_product_import-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/csv-pdf-screenshots/04-invalid_product_import-list.png"
+      ]
+    }
+  ]
+}

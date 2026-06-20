@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e10]:
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e16]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: stack-ps-yosuke
+            - paragraph [ref=e24]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e26]
+    - generic "メニュー" [ref=e27]:
+      - navigation [ref=e28]:
+        - generic [ref=e29]:
+          - list [ref=e30]:
+            - listitem [ref=e31]
+            - listitem [ref=e40]
+            - listitem [ref=e49]
+            - listitem [ref=e58]
+            - listitem [ref=e67]
+            - listitem [ref=e77]
+            - listitem [ref=e87]
+            - listitem [ref=e99]
+            - listitem [ref=e108]
+          - list [ref=e110]:
+            - listitem [ref=e111]
+            - listitem [ref=e113]
+            - listitem [ref=e124]
+            - listitem [ref=e133]
+          - list [ref=e143]:
+            - listitem [ref=e144]
+            - listitem [ref=e146]
+            - listitem [ref=e155]
+            - listitem [ref=e164]
+          - list [ref=e174]:
+            - listitem [ref=e175]
+            - listitem [ref=e177]
+            - listitem [ref=e182]
+            - listitem [ref=e187]
+            - listitem [ref=e192]
+            - listitem [ref=e197]
+          - list [ref=e199]:
+            - listitem [ref=e200]
+    - main [ref=e209]:
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - status:
+            - paragraph [ref=e214]: 販売可能在庫をCSVでインポートする。このページの準備が整いました
+          - generic [ref=e216]:
+            - link [ref=e219] [cursor=pointer]:
+              - /url: /admin/csv_import/csv_import_operation_inventory_logical_available_quantities
+            - heading "販売可能在庫をCSVでインポートする" [level=1] [ref=e226]
+        - generic [ref=e228]:
+          - generic [ref=e230]:
+            - generic [ref=e233]
+            - generic [ref=e271]
+          - button "保存する" [ref=e289] [cursor=pointer]:
+            - generic [ref=e290]: 保存する
+  - region "Notifications alt+T"
+  - alert [ref=e291]

@@ -1,0 +1,320 @@
+{
+  "generatedAt": "2026-06-08T03:47:50.698Z",
+  "newCompanyUrl": "/admin/companies/8ccb4fa0-84f0-5812-98b5-d86b6b1fd4fe_Company",
+  "newProductUrl": "/admin/products/6213c45e-1a23-5b75-a1de-67ea972b6e30_Product",
+  "records": [
+    {
+      "index": 1,
+      "url": "/admin/purchasing_customers",
+      "finalUrl": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "顧客管理"
+      ],
+      "h2": [],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": true,
+      "createLikeLinks": [],
+      "primaryButtons": [],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n顧客管理。このページの準備が整いました\n\n顧客管理\nインポート\nすべて\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/01-purchasing_customers.png"
+    },
+    {
+      "index": 2,
+      "url": "/admin/purchasing_customers/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/purchasing_customers/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [
+        "予期せぬエラーが発生しました"
+      ],
+      "notFound": false,
+      "unexpectedError": true,
+      "empty": false,
+      "createLikeLinks": [],
+      "primaryButtons": [
+        {
+          "text": "再実行",
+          "disabled": false,
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter"
+        }
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n予期せぬエラーが発生しました\n\nエラーが発生しました。しばらくしてから再度お試しください\n\n再実行",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/02-purchasing_customers__create.png"
+    },
+    {
+      "index": 3,
+      "url": "/admin/draft_orders",
+      "finalUrl": "https://www.sqstackstaging.com/admin/draft_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "下書き"
+      ],
+      "h2": [],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": false,
+      "createLikeLinks": [
+        {
+          "text": "注文を作成する",
+          "href": null,
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disabled",
+          "ariaDisabled": "",
+          "pointerEvents": "none"
+        }
+      ],
+      "primaryButtons": [],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n下書き\n返品\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n下書き。このページの準備が整いました\n\n下書き\n注文を作成する\nすべて\n\n注文が見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/03-draft_orders.png"
+    },
+    {
+      "index": 4,
+      "url": "/admin/draft_orders/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/draft_orders/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [
+        "予期せぬエラーが発生しました"
+      ],
+      "notFound": false,
+      "unexpectedError": true,
+      "empty": false,
+      "createLikeLinks": [],
+      "primaryButtons": [
+        {
+          "text": "再実行",
+          "disabled": false,
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter"
+        }
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n下書き\n返品\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n予期せぬエラーが発生しました\n\nエラーが発生しました。しばらくしてから再度お試しください\n\n再実行",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/04-draft_orders__create.png"
+    },
+    {
+      "index": 5,
+      "url": "/admin/orders",
+      "finalUrl": "https://www.sqstackstaging.com/admin/orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "注文管理"
+      ],
+      "h2": [],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": true,
+      "createLikeLinks": [],
+      "primaryButtons": [],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n下書き\n返品\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n注文管理。このページの準備が整いました\n\n注文管理\nすべて\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/05-orders.png"
+    },
+    {
+      "index": 6,
+      "url": "/admin/order_returns",
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_returns",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "返品"
+      ],
+      "h2": [],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": true,
+      "createLikeLinks": [],
+      "primaryButtons": [],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n下書き\n返品\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n返品。このページの準備が整いました\n\n返品\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/06-order_returns.png"
+    },
+    {
+      "index": 7,
+      "url": "/admin/order_returns/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_returns/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "notFound": true,
+      "unexpectedError": false,
+      "empty": false,
+      "createLikeLinks": [],
+      "primaryButtons": [],
+      "textStart": "このページは存在しないようです\nホームに戻る",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/07-order_returns__create.png"
+    },
+    {
+      "index": 8,
+      "url": "/admin/sale_change_line_items",
+      "finalUrl": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "売上実績"
+      ],
+      "h2": [],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": true,
+      "createLikeLinks": [
+        {
+          "text": "売上実績を作成する",
+          "href": null,
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disabled",
+          "ariaDisabled": "",
+          "pointerEvents": "none"
+        }
+      ],
+      "primaryButtons": [],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n売上実績\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n売上実績。このページの準備が整いました\n\n売上実績\n売上実績を作成する\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/08-sale_change_line_items.png"
+    },
+    {
+      "index": 9,
+      "url": "/admin/sale_change_line_items/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/sale_change_line_items/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "notFound": true,
+      "unexpectedError": false,
+      "empty": false,
+      "createLikeLinks": [],
+      "primaryButtons": [],
+      "textStart": "このページは存在しないようです\nホームに戻る",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/09-sale_change_line_items__create.png"
+    },
+    {
+      "index": 10,
+      "url": "/admin/companies",
+      "finalUrl": "https://www.sqstackstaging.com/admin/companies",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "会社"
+      ],
+      "h2": [],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": false,
+      "createLikeLinks": [
+        {
+          "text": "会社を作成する",
+          "href": "/admin/companies/create",
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter",
+          "ariaDisabled": "",
+          "pointerEvents": "auto"
+        }
+      ],
+      "primaryButtons": [],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n会社。このページの準備が整いました\n\n会社\nインポート\n会社を作成する\nすべて\nすべてのアイテムを選択する\n\t\n会社\n\t\nロケーション\n\t\n総注文数\n\t\n販売合計\n\t\n作成日\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP3_202606080345_会社\n\n\t\n\n1箇所のロケーション\n\n\t\n\n0個の注文\n\n\t\n\n¥0\n\n\t\n\n2026年06月08日 12:45\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_株式会社テスト\n\n\t\n\n1箇所のロケーション\n\n\t\n\n0個の注文\n\n\t\n\n¥0\n\n\t\n\n2026年06月06日 17:39",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/10-companies.png"
+    },
+    {
+      "index": 11,
+      "url": "/admin/companies/8ccb4fa0-84f0-5812-98b5-d86b6b1fd4fe_Company",
+      "finalUrl": "https://www.sqstackstaging.com/admin/companies/8ccb4fa0-84f0-5812-98b5-d86b6b1fd4fe_Company",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "TEST_FAQ_DEEP3_202606080345_会社"
+      ],
+      "h2": [
+        "直近の注文",
+        "ロケーション",
+        "担当者",
+        "TEST_FAQ_DEEP3_202606080345_会社",
+        "メモ"
+      ],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": true,
+      "createLikeLinks": [
+        {
+          "text": "ロケーションを追加",
+          "href": "/admin/companies/8ccb4fa0-84f0-5812-98b5-d86b6b1fd4fe_Company/locations/create",
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter",
+          "ariaDisabled": "",
+          "pointerEvents": "auto"
+        }
+      ],
+      "primaryButtons": [
+        {
+          "text": "担当者を追加",
+          "disabled": false,
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter"
+        }
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_DEEP3_202606080345_会社。このページの準備が整いました\n\nTEST_FAQ_DEEP3_202606080345_会社\n\n2026年06月08日から顧客\n\n直近の注文\n\nこの会社はまだ注文していません\n\nロケーション\nロケーションを追加\nロケーション\n\t\n売上\n\t\n注文\n\n\nTEST_FAQ_DEEP3_202606080345_会社_ロケーション\n\t¥0\t0\n担当者\n担当者を追加\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nTEST_FAQ_DEEP3_202606080345_会社\n会社ID\n\ntest_faq_deep3_202606080345_company\n\nメモ\n\nこの会社にはメモがありません。",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/11-companies__8ccb4fa0-84f0-5812-98b5-d86b6b1fd4fe_Company.png"
+    },
+    {
+      "index": 12,
+      "url": "/admin/products",
+      "finalUrl": "https://www.sqstackstaging.com/admin/products",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "商品管理"
+      ],
+      "h2": [],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": false,
+      "createLikeLinks": [
+        {
+          "text": "商品を作成する",
+          "href": "/admin/products/create",
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter",
+          "ariaDisabled": "",
+          "pointerEvents": "auto"
+        }
+      ],
+      "primaryButtons": [],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品管理。このページの準備が整いました\n\n商品管理\nインポート\n商品を作成する\nすべて\n公開中\n下書き\nアーカイブ済み\nすべてのアイテムを選択する\n\t\n商品\n\t\nステータス\n\t\n商品コード\n\t\n在庫\n\t\nカタログ\n\t\n商品タイプ\n\t\n製造元\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nTEST_FAQ_DEEP2_202606080343_商品\n\t\n情報\n下書き\n\t\n\ntest_faq_deep2_202606080343_product\n\n\t\n\n0個のバリエーション\n\n\t\n\n0\n\n\t\n\n検証\n\n\t\n\nTEST_FAQ\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nTEST_FAQ_非公開ステータス確認用\n\t\n情報\n下書き\n\t\n\nTEST-FAQ-HIDDEN-001\n\n\t\n\n0個のバリエーション\n\n\t\n\n0\n\n\t\n\n\t\n\n\n\nアイテムを選択する\n\t\nオーバーサイズスウェットシャツ\n\t\n情報\n下書き\n\t\n\n486125\n\n\t\n\n20個のバリエーション\n\n\t\n\n0\n\n\t\n\nスウェット\n\n\t\n\nUNIQLO : C\n\n\n\nアイテムを選択する\n\t\nポケモン UT\n\t\n情報\n下書き\n\t\n\n483674\n\n\t\n\n7個のバリエーション\n\n\t\n\n0\n\n\t\n\nTシャツ\n\n\t\n\nUNIQLO : UT\n\n\n\nアイテムを選択する\n\t\nエアリズムコットンクルーネックTシャツ\n\t\n情報\n下書き\n\t\n\n486102\n\n\t\n\n25個のバリエーション\n\n\t\n\n0\n\n\t\n\nTシャツ\n\n\t\n\nUNIQLO\n\n\n\nアイテムを選択する\n\t\nエアリズムコットンT\n\t\n情報\n下書き\n\t\n\n483457\n\n\t\n\n25個のバリエーション\n\n\t\n\n0\n\n\t\n\nTシャツ\n\n\t\n\nUNIQLO\n\n\n\nアイテムを選択する\n\t\nUVカットペーパーブレイドハット\n\t\n情報\n下書き\n\t\n\n482787\n\n\t\n\n2個のバリエーション\n\n\t\n\n0\n\n\t\n\n帽子・キャップ・ハット\n\n\t\n\nUNIQLO\n\n\n\nアイテムを選択する\n\t\nバギーカーブジーンズ\n\t\n情報\n下書き\n\t\n\n487973\n\n\t\n\n13個のバリエーション\n\n\t\n\n0\n\n\t\n\nジーンズ\n\n\t\n\nUNIQLO",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/12-products.png"
+    },
+    {
+      "index": 13,
+      "url": "/admin/products/6213c45e-1a23-5b75-a1de-67ea972b6e30_Product",
+      "finalUrl": "https://www.sqstackstaging.com/admin/products/6213c45e-1a23-5b75-a1de-67ea972b6e30_Product",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "TEST_FAQ_DEEP2_202606080343_商品"
+      ],
+      "h2": [
+        "商品コード",
+        "メディア（0件）",
+        "バリエーション",
+        "検索エンジンリスティング",
+        "メタフィールド",
+        "ステータス",
+        "商品分類",
+        "タグ"
+      ],
+      "notFound": false,
+      "unexpectedError": false,
+      "empty": false,
+      "createLikeLinks": [
+        {
+          "text": "バリエーションを追加する",
+          "href": "/admin/products/6213c45e-1a23-5b75-a1de-67ea972b6e30_Product/variants/create",
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeSlim Polaris-Button--textAlignCenter Polaris-Button--iconWithText",
+          "ariaDisabled": "",
+          "pointerEvents": "auto"
+        }
+      ],
+      "primaryButtons": [
+        {
+          "text": "追加",
+          "disabled": false,
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter"
+        },
+        {
+          "text": "保存する",
+          "disabled": false,
+          "className": "Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disabled"
+        }
+      ],
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_DEEP2_202606080343_商品。このページの準備が整いました\n\nTEST_FAQ_DEEP2_202606080343_商品\n情報\n下書き\nその他の操作\n商品コード\n\ntest_faq_deep2_202606080343_product\n\n商品名\n説明文\n29/5000\nメディア（0件）\n画像をアップロード\n追加\nバリエーション\nバリエーションを追加する\n\nサイズ\n\n情報\nサイズ\nF\n\nバリエーションがありません\n\n検索エンジンリスティング\nページタイトル\nメタディスクリプション\n0/5000\nメタフィールド\nTEST_FAQ_テキストフィールド\n\n未設定\n\nTEST_FAQ_DEEP_202606080340_商品MF\n\n未設定\n\nステータス\n公開中\n下書き\n下書き\n商品分類\n商品タイプ\n製造元\nブランド\n選択\nタグ\n\nタグは付与されていません\n\n保存する",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/data-dependency-screenshots/13-products__6213c45e-1a23-5b75-a1de-67ea972b6e30_Product.png"
+    }
+  ]
+}

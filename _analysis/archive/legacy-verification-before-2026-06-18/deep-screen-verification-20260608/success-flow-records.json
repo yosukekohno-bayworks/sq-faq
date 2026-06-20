@@ -1,0 +1,263 @@
+{
+  "generatedAt": "2026-06-08T03:41:45.883Z",
+  "prefix": "TEST_FAQ_DEEP_202606080340",
+  "records": [
+    {
+      "index": 1,
+      "id": "supplier",
+      "name": "TEST_FAQ_DEEP_202606080340_取引先",
+      "createUrl": "/admin/settings/suppliers/create",
+      "listUrl": "/admin/settings/suppliers",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/suppliers/create",
+        "h1": [
+          "取引先を作成"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n取引先を作成。このページの準備が整いました\n\n取引先を作成\n取引先名\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+        "h1": [
+          "取引先"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n取引先。このページの準備が整いました\n\n取引先\nインポート\n取引先を作成\nすべて\nアーカイブ\nすべてのアイテムを選択する\n\t\n名前\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP_202606080340_取引先\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_Supplier2\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_Supplier\n\n取引先を作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/01-supplier-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/01-supplier-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/01-supplier-list.png"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "brand",
+      "name": "TEST_FAQ_DEEP_202606080340_ブランド",
+      "createUrl": "/admin/settings/brands/create",
+      "listUrl": "/admin/settings/brands",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/brands/create",
+        "h1": [
+          "ブランド"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nブランド。このページの準備が整いました\n\nブランド\n名前\n外部ID\nコード\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/settings/brands",
+        "h1": [
+          "ブランド"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nブランド。このページの準備が整いました\n\nブランド\n追加する\nすべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\t\n外部ID\n\t\n更新日時\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_ブランドGAP\n\n\t\n\nTEST_FAQ_GAP_B\n\n\t\n\nTEST_FAQ_GAP_001\n\n\t\n\n2026年06月06日\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP_202606080340_ブランド\n\n\t\n\ntest_faq_deep_202606080340_brand\n\n\t\n\n\t\n\n2026年06月08日\n\nブランドを追加しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/02-brand-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/02-brand-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/02-brand-list.png"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "catalog",
+      "name": "TEST_FAQ_DEEP_202606080340_カタログ",
+      "createUrl": "/admin/catalogs/create",
+      "listUrl": "/admin/catalogs",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/catalogs/create",
+        "h1": [
+          "カタログを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nカタログを作成する。このページの準備が整いました\n\nカタログを作成する\nタイトル\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/catalogs/69a9415f-37c7-5a22-992f-d4c98e572009_Catalog",
+        "h1": [],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n自動追加ルール\nSKU一覧\n編集する\nその他の操作\n商品を追加する\n商品コードで検索する\nアイテムを読み込んでいます...\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\n商品を作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/03-catalog-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/03-catalog-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/03-catalog-list.png"
+      ]
+    },
+    {
+      "index": 4,
+      "id": "product_price_rule",
+      "name": "TEST_FAQ_DEEP_202606080340_販売価格ルール",
+      "createUrl": "/admin/product_price_rules/create",
+      "listUrl": "/admin/product_price_rules",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/product_price_rules/create",
+        "h1": [
+          "販売価格ルールを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売価格ルールを作成する。このページの準備が整いました\n\n販売価格ルールを作成する\n基本設定\nルール名\n通貨\n通貨を選択してください\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/product_price_rules/407b1402-6d11-5672-bc33-5de49d5ce9bc_ProductPriceRule",
+        "h1": [
+          "販売価格ルール"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売価格ルール。このページの準備が整いました\n\n販売価格ルール\n通貨: 日本円\n\nTEST_FAQ_DEEP_202606080340_販売価格ルール\n\nルールを編集\n通常価格\n\n通常価格を設定することができます。\n\nセール価格\n\nセール価格を設定することができます。\n\n販売価格ルールを作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/04-product_price_rule-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/04-product_price_rule-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/04-product_price_rule-list.png"
+      ]
+    },
+    {
+      "index": 5,
+      "id": "back_order_rule",
+      "name": "TEST_FAQ_DEEP_202606080340_予約販売ルール",
+      "createUrl": "/admin/inventory_back_order_rules/create",
+      "listUrl": "/admin/inventory_back_order_rules",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/inventory_back_order_rules/create",
+        "h1": [
+          "予約販売のルールを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n予約販売のルールを作成する。このページの準備が整いました\n\n予約販売のルールを作成する\nタイトル\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/inventory_back_order_rules/c885e9d7-ecb2-514e-a1ec-aadb6d57a5cb_InventoryBackOrderRule",
+        "h1": [],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\nルールを編集する\nインポート\nバリエーションを追加する\nSKUコードで検索する\nアイテムを読み込んでいます...\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nルールを作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/05-back_order_rule-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/05-back_order_rule-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/05-back_order_rule-list.png"
+      ]
+    },
+    {
+      "index": 6,
+      "id": "threshold_rule",
+      "name": "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+      "createUrl": "/admin/inventory_threshold_rules/create",
+      "listUrl": "/admin/inventory_threshold_rules",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/inventory_threshold_rules/create",
+        "h1": [
+          "販売閾値ルールを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売閾値ルールを作成する。このページの準備が整いました\n\n販売閾値ルールを作成する\nルール名\nデフォルトの閾値を設定する\nこの設定を有効にすることで、閾値ルールに含まれていないすべての商品バリエーションにデフォルト閾値を適用することができます。\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/inventory_threshold_rules",
+        "h1": [
+          "販売閾値"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売閾値。このページの準備が整いました\n\n販売閾値\n販売閾値ルールを作成する\nアイテムを読み込んでいます...\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\n保存しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/06-threshold_rule-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/06-threshold_rule-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/06-threshold_rule-list.png"
+      ]
+    },
+    {
+      "index": 7,
+      "id": "payment_method",
+      "name": "TEST_FAQ_DEEP_202606080340_決済",
+      "createUrl": "/admin/settings/payment_methods/create",
+      "listUrl": "/admin/settings/payment_methods",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/payment_methods/create",
+        "h1": [
+          "決済方法を作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n決済方法を作成する。このページの準備が整いました\n\n決済方法を作成する\n詳細\n名前\nコード\nゲートウェイ\n支払い待ちでも注文を出荷する\n代引き\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/settings/payment_methods",
+        "h1": [
+          "決済方法"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n決済方法。このページの準備が整いました\n\n決済方法\n決済方法を作成\nすべて\nすべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\t\nゲートウェイ\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_決済\n\n\t\n\ntest_faq_payment\n\n\t\ntest_gateway\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP_202606080340_決済\n\n\t\n\ntest_faq_deep_202606080340_payment\n\n\t\ntest_faq_deep_202606080340_gateway\n決済方法を作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/07-payment_method-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/07-payment_method-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/07-payment_method-list.png"
+      ]
+    },
+    {
+      "index": 8,
+      "id": "measurement_rule",
+      "name": "TEST_FAQ_DEEP_202606080340_採寸ルール",
+      "createUrl": "/admin/settings/product_measurement_rules/create",
+      "listUrl": "/admin/settings/product_measurement_rules",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/create",
+        "h1": [
+          "採寸ルールを作成する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n採寸ルールを作成する。このページの準備が整いました\n\n採寸ルールを作成する\n基本設定\nルール名\n採寸単位\nなし\nセンチメートル\nなし\n採寸項目\n\n最大5件まで追加できます\n\n採寸項目1\n採寸項目を追加\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/f1988cf7-18f4-52cf-9463-6a4694268e7f_ProductMeasurementRule",
+        "h1": [
+          "採寸ルール"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n採寸ルール。このページの準備が整いました\n\n採寸ルール\n\nTEST_FAQ_DEEP_202606080340_採寸ルール\n\n基本設定\nルール名\n採寸単位\n採寸項目\n採寸項目1\n採寸ルールを作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/08-measurement_rule-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/08-measurement_rule-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/08-measurement_rule-list.png"
+      ]
+    },
+    {
+      "index": 9,
+      "id": "product_metafield",
+      "name": "TEST_FAQ_DEEP_202606080340_商品MF",
+      "createUrl": "/admin/settings/metafield_definitions/product/create",
+      "listUrl": "/admin/settings/metafield_definitions/product",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/metafield_definitions/product/create",
+        "h1": [
+          "商品メタフィールドの定義を追加する"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品メタフィールドの定義を追加する。このページの準備が整いました\n\n商品メタフィールドの定義を追加する\n名前\n0/50\n説明\n0/100\nネームスペース\n0/50\nキー\n0/50\nメタフィールドのタイプ\n選択してください\n単一行のテキスト\n単一行のテキスト(リスト)\n複数行のテキスト\n日付と時刻\n日付\ntrueまたはfalse\nバーコード(NW7)\n整数\n小数\nJSON\nID\nリッチテキスト\n選択してください\n保存する"
+      },
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/settings/metafield_definitions/product",
+        "h1": [
+          "商品メタフィールドの定義"
+        ],
+        "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品メタフィールドの定義。このページの準備が整いました\n\n商品メタフィールドの定義\n定義を追加する\nアイテムを読み込んでいます...\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nメタフィールドの定義を作成しました",
+        "unexpectedError": false
+      },
+      "listContains": true,
+      "error": null,
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/09-product_metafield-before.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/09-product_metafield-after.png",
+        "faq/_analysis/deep-screen-verification-20260608/success-flow-screenshots/09-product_metafield-list.png"
+      ]
+    }
+  ]
+}

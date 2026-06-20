@@ -1,0 +1,3 @@
+- combobox "会員ランク*" [ref=e304]:
+  - option "選択してください" [disabled] [selected]
+  - option "Bronze"

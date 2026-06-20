@@ -1,0 +1,111 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders/dd42171f-e98c-5254-b236-9fc6f4357f2a_InventoryInboundOrder",
+  "h1": "#II-1006",
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 2件\n2\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#II-1006。このページの準備が整いました\n\n#II-1006\n成功 完了\n入荷完了\nステータスを完了にする\n入荷指示を一括受領で完了する\nロケーション\n種別\n入荷明細\n入荷実績を登録する\n商品\n\t\nSKU\n\t\n入荷予定\n\t\n入荷済み\n\n\nオーバーサイズスウェットシャツ\nBLACK / XL\n\t\n\n486125-09-XL\n\n\t\n\n1\n\n\t\n\n1\n\n入荷履歴\n\n2026年06月15日 18:12\n\n詳細\n作成日時\n2026年06月15日 18:11\n入荷実績を登録しました",
+  "links": [
+    {
+      "text": "コンテンツにスキップ",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders/dd42171f-e98c-5254-b236-9fc6f4357f2a_InventoryInboundOrder#AppFrameMain"
+    },
+    {
+      "text": "ホーム",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products"
+    },
+    {
+      "text": "在庫管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_items"
+    },
+    {
+      "text": "注文管理",
+      "href": "https://www.sqstackstaging.com/admin/orders"
+    },
+    {
+      "text": "顧客管理",
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+    },
+    {
+      "text": "発注管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+    },
+    {
+      "text": "販売設定",
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+    },
+    {
+      "text": "会計",
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+    },
+    {
+      "text": "分析",
+      "href": "https://www.sqstackstaging.com/admin/analytics"
+    },
+    {
+      "text": "入荷管理\n未完了の入荷指示 2件\n2",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+    },
+    {
+      "text": "出荷管理\n未完了の出荷指示 1件\n1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+    },
+    {
+      "text": "在庫依頼",
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+    },
+    {
+      "text": "ディスカウント",
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+    },
+    {
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+    },
+    {
+      "text": "会員ランク",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+    },
+    {
+      "text": "Shopify",
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+    },
+    {
+      "text": "OmnibusCore",
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+    },
+    {
+      "text": "スマレジ",
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+    },
+    {
+      "text": "リテールポータル",
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+    },
+    {
+      "text": "卸売",
+      "href": "https://www.sqstackstaging.com/admin/b2b"
+    },
+    {
+      "text": "設定",
+      "href": "https://www.sqstackstaging.com/admin/settings"
+    },
+    {
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+    },
+    {
+      "text": "入荷指示を一括受領で完了する",
+      "href": ""
+    },
+    {
+      "text": "入荷実績を登録する",
+      "href": ""
+    },
+    {
+      "text": "オーバーサイズスウェットシャツ",
+      "href": "https://www.sqstackstaging.com/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product/variants/92cfda5b-cf04-55f2-a4a1-719e562cbc0a_ProductVariant"
+    }
+  ]
+}

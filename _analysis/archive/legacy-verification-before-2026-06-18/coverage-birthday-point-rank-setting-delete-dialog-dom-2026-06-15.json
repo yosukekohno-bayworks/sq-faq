@@ -1,0 +1,71 @@
+{
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_DEEP2_202606080343_誕生日ポイント。このページの準備が整いました\n\nTEST_FAQ_DEEP2_202606080343_誕生日ポイント\n会員ランク\nアイテムの選択を解除する\n1を選択済み\n削除する\nすべてのアイテムを選択する\n\t\nルール\n\t\n会員ランク\n\t\nポイント\n\n\nアイテムを選択する\n\tTEST_FAQ_会員ランク算出ルール\t\n\nBronze\n\n\t\n\n200ポイント\n\n会員ランクごとに誕生日ポイントを設定する\n詳細\n利用テナント数\n0\nタイトル\nTEST_FAQ_DEEP2_202606080343_誕生日ポイント\n表示タイトル\nTEST_FAQ_DEEP2_202606080343_誕生日ポイント_表示\nポイント\n100ポイント\n有効期間\n30日\n誕生日ポイント付与ルールを削除しますか？\n\n選択された1件の会員ランクを削除します。この処理は巻き戻すことができません。\n\n削除する",
+  "dialogs": [
+    {
+      "i": 0,
+      "text": "誕生日ポイント付与ルールを削除しますか？ 選択された1件の会員ランクを削除します。この処理は巻き戻すことができません。 削除する"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 3,
+      "text": "",
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "i": 4,
+      "text": "削除する",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 5,
+      "text": "",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 6,
+      "text": "削除する",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 7,
+      "text": "",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 8,
+      "text": "",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 9,
+      "text": "削除する",
+      "disabled": false,
+      "visible": true
+    }
+  ]
+}

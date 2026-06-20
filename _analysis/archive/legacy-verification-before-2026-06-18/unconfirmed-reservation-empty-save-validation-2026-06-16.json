@@ -1,0 +1,36 @@
+{
+  "clicked": true,
+  "url": "https://www.sqstackstaging.com/admin/inventory_reservation_orders/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n取置伝票を作成する。このページの準備が整いました\n\n取置伝票を作成する\nロケーション\n選択\nロケーションを選択してください\nメモ\n商品\n参照\n商品を1つ以上選択してください\n保存する",
+  "alerts": [],
+  "inputs": [
+    {
+      "i": 0,
+      "value": "",
+      "placeholder": "ロケーションを選択してください",
+      "labels": [
+        "ロケーション"
+      ],
+      "describedby": ":r1b:Error",
+      "invalid": "true"
+    },
+    {
+      "i": 1,
+      "value": "",
+      "placeholder": "例: 店舗での取置用在庫",
+      "labels": [
+        "メモ"
+      ],
+      "describedby": null,
+      "invalid": "false"
+    },
+    {
+      "i": 2,
+      "value": "",
+      "placeholder": "商品を検索する",
+      "labels": [],
+      "describedby": ":r1d:Error",
+      "invalid": "true"
+    }
+  ]
+}

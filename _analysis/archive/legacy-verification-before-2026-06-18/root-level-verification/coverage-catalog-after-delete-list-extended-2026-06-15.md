@@ -1,0 +1,210 @@
+- generic [active] [ref=e1] [box=0,0,1600,1000]:
+  - generic [ref=e16] [box=0,0,1600,1000]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e19] [box=0,0,1600,56]:
+      - link [ref=e22] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e24] [box=1040,0,560,56]:
+        - button [ref=e28] [cursor=pointer] [box=1404,12,32,32]:
+          - img [ref=e30] [box=1410,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer] [box=1444,12,148,32]:
+          - generic [ref=e35] [box=1446,14,116,28]:
+            - paragraph [ref=e36] [box=1456,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e38] [box=1456,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40] [box=1562,14,28,28]
+    - generic "メニュー" [ref=e41] [box=0,56,240,944]:
+      - navigation [ref=e42] [box=0,56,240,944]:
+        - generic [ref=e43] [box=0,56,240,944]:
+          - list [ref=e44] [box=0,72,240,332]:
+            - listitem [ref=e45] [box=0,72,240,28]:
+              - link "ホーム" [ref=e48] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e51] [box=20,76,20,20]
+                - generic [ref=e53] [box=48,76,176,20]: ホーム
+            - listitem [ref=e54] [box=0,100,240,92]:
+              - link "商品管理" [ref=e57] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e60] [box=20,104,20,20]
+                - generic [ref=e62] [box=48,104,176,20]: 商品管理
+              - list [ref=e65] [box=0,128,240,56]:
+                - listitem [ref=e66] [box=0,128,240,28]:
+                  - link "カタログ" [ref=e69] [cursor=pointer] [box=12,128,216,28]:
+                    - /url: /admin/catalogs
+                    - generic [ref=e70] [box=48,132,176,20]: カタログ
+                - listitem [ref=e71] [box=0,156,240,28]:
+                  - link "店舗受取" [ref=e74] [cursor=pointer] [box=12,156,216,28]:
+                    - /url: /admin/local_pickup_product_variants
+                    - generic [ref=e75] [box=48,160,176,20]: 店舗受取
+            - listitem [ref=e76] [box=0,192,240,28]:
+              - link "在庫管理" [ref=e79] [cursor=pointer] [box=12,192,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e82] [box=20,196,20,20]
+                - generic [ref=e84] [box=48,196,176,20]: 在庫管理
+            - listitem [ref=e85] [box=0,220,240,28]:
+              - link "注文管理" [ref=e88] [cursor=pointer] [box=12,220,216,28]:
+                - /url: /admin/orders
+                - img [ref=e91] [box=20,224,20,20]
+                - generic [ref=e93] [box=48,224,172,20]: 注文管理
+            - listitem [ref=e94] [box=0,248,240,28]:
+              - link "顧客管理" [ref=e97] [cursor=pointer] [box=12,248,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100] [box=20,252,20,20]
+                - generic [ref=e103] [box=48,252,176,20]: 顧客管理
+            - listitem [ref=e104] [box=0,276,240,28]:
+              - link "発注管理" [ref=e107] [cursor=pointer] [box=12,276,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110] [box=20,280,20,20]
+                - generic [ref=e113] [box=48,280,176,20]: 発注管理
+            - listitem [ref=e114] [box=0,304,240,28]:
+              - link "販売設定" [ref=e117] [cursor=pointer] [box=12,304,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120] [box=20,308,20,20]
+                - generic [ref=e125] [box=48,308,176,20]: 販売設定
+            - listitem [ref=e126] [box=0,332,240,28]:
+              - link "会計" [ref=e129] [cursor=pointer] [box=12,332,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132] [box=20,336,20,20]
+                - generic [ref=e134] [box=48,336,176,20]: 会計
+            - listitem [ref=e135] [box=0,360,240,28]:
+              - generic [ref=e136] [box=0,360,240,28]:
+                - generic [box=12,360,216,28]:
+                  - link "分析" [box=12,360,216,28]:
+                    - /url: /admin/analytics
+                    - generic [box=20,364,20,20]
+                    - generic [box=48,364,176,20]: 分析
+          - list [ref=e137] [box=0,404,240,132]:
+            - listitem [ref=e138] [box=0,412,240,24]:
+              - generic [ref=e139] [box=20,416,216,16]: オペレーション
+            - listitem [ref=e140] [box=0,436,240,28]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e143] [cursor=pointer] [box=12,436,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146] [box=20,440,20,20]
+                - generic [ref=e150] [box=48,440,151,20]: 入荷管理
+                - generic [ref=e152] [box=203,440,21,20]:
+                  - generic [ref=e153] [box=211,436,1,1]: 未完了の入荷指示 1件
+                  - generic [ref=e154] [box=211,442,5,16]: "1"
+            - listitem [ref=e155] [box=0,464,240,28]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e158] [cursor=pointer] [box=12,464,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e161] [box=20,468,20,20]
+                - generic [ref=e163] [box=48,468,151,20]: 出荷管理
+                - generic [ref=e165] [box=203,468,21,20]:
+                  - generic [ref=e166] [box=211,464,1,1]: 未完了の出荷指示 1件
+                  - generic [ref=e167] [box=211,470,5,16]: "1"
+            - listitem [ref=e168] [box=0,492,240,28]:
+              - link "在庫依頼" [ref=e171] [cursor=pointer] [box=12,492,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e174] [box=20,496,20,20]
+                - generic [ref=e177] [box=48,496,172,20]: 在庫依頼
+          - list [ref=e178] [box=0,536,240,132]:
+            - listitem [ref=e179] [box=0,544,240,24]:
+              - generic [ref=e180] [box=20,548,216,16]: CRM
+            - listitem [ref=e181] [box=0,568,240,28]:
+              - link "ディスカウント" [ref=e184] [cursor=pointer] [box=12,568,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e187] [box=20,572,20,20]
+                - generic [ref=e189] [box=48,572,176,20]: ディスカウント
+            - listitem [ref=e190] [box=0,596,240,28]:
+              - link "ポイント" [ref=e193] [cursor=pointer] [box=12,596,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e196] [box=20,600,20,20]
+                - generic [ref=e198] [box=48,600,176,20]: ポイント
+            - listitem [ref=e199] [box=0,624,240,28]:
+              - link "会員ランク" [ref=e202] [cursor=pointer] [box=12,624,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e205] [box=20,628,20,20]
+                - generic [ref=e208] [box=48,628,176,20]: 会員ランク
+          - list [ref=e209] [box=0,668,240,280]:
+            - listitem [ref=e210] [box=0,676,240,24]:
+              - generic [ref=e211] [box=20,680,216,16]: 販売チャネル
+            - listitem [ref=e212] [box=0,700,240,28]:
+              - link "Shopify" [ref=e215] [cursor=pointer] [box=12,700,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e216] [box=20,704,204,20]: Shopify
+            - listitem [ref=e217] [box=0,728,240,28]:
+              - link "OmnibusCore" [ref=e220] [cursor=pointer] [box=12,728,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e221] [box=20,732,204,20]: OmnibusCore
+            - listitem [ref=e222] [box=0,756,240,28]:
+              - link "スマレジ" [ref=e225] [cursor=pointer] [box=12,756,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e226] [box=20,760,204,20]: スマレジ
+            - listitem [ref=e227] [box=0,784,240,28]:
+              - link "リテールポータル" [ref=e230] [cursor=pointer] [box=12,784,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e231] [box=20,788,204,20]: リテールポータル
+            - listitem [ref=e232] [box=0,812,240,28]:
+              - generic [ref=e233] [box=0,812,240,28]:
+                - generic [box=12,812,216,28]:
+                  - link "卸売" [box=12,812,216,28]:
+                    - /url: /admin/b2b
+                    - generic [box=20,816,204,20]: 卸売
+          - list [ref=e234] [box=0,948,240,52]:
+            - listitem [ref=e235] [box=0,956,240,28]:
+              - link "設定" [ref=e238] [cursor=pointer] [box=12,956,216,28]:
+                - /url: /admin/settings
+                - img [ref=e241] [box=20,960,20,20]
+                - generic [ref=e243] [box=48,960,176,20]: 設定
+    - main [ref=e244] [box=0,0,1600,1000]:
+      - generic [ref=e380] [box=421,56,998,264]:
+        - generic [ref=e381] [box=445,56,950,76]:
+          - status [box=445,80,950,0]:
+            - paragraph [ref=e382] [box=445,56,1,1]: カタログ。このページの準備が整いました
+          - generic [ref=e384] [box=445,80,950,28]:
+            - heading "カタログ" [level=1] [ref=e387] [box=445,82,79,24]
+            - link "カタログを作成する" [ref=e391] [cursor=pointer] [box=1263,80,132,28]:
+              - /url: /admin/catalogs/create
+              - generic [ref=e392] [box=1275,86,108,16]: カタログを作成する
+        - generic [ref=e397] [box=445,132,950,188]:
+          - generic [ref=e403] [box=445,132,950,44]:
+            - tablist [ref=e410] [box=453,140,882,28]:
+              - tab "すべて" [selected] [ref=e411] [cursor=pointer] [box=457,141,59,28]:
+                - generic [ref=e413] [box=469,147,35,16]: すべて
+            - button "検索結果を並べ替える" [ref=e417] [cursor=pointer] [box=1359,140,28,28]:
+              - img [ref=e420] [box=1363,144,20,20]
+          - generic [ref=e424] [box=445,177,950,143]:
+            - table [ref=e433] [box=445,177,950,102]:
+              - rowgroup [ref=e434] [box=445,177,950,37]:
+                - row "すべてのアイテムを選択する 名前 商品 販売先" [ref=e435] [box=445,177,950,37]:
+                  - columnheader "すべてのアイテムを選択する" [ref=e436] [box=445,177,38,37]:
+                    - generic [ref=e438] [cursor=pointer] [box=457,186,18,18]
+                  - columnheader "名前" [ref=e444] [box=483,177,573,37]:
+                    - generic [ref=e445] [box=489,185,561,20]: 名前
+                  - columnheader "商品" [ref=e446] [box=1056,177,150,37]:
+                    - generic [ref=e447] [box=1062,185,138,20]: 商品
+                  - columnheader "販売先" [ref=e448] [box=1205,177,189,37]:
+                    - generic [ref=e449] [box=1211,185,171,20]: 販売先
+              - rowgroup [ref=e450] [box=445,214,950,66]:
+                - row "アイテムを選択する TEST_FAQ_カタログ001 1個の商品 0つの販売先" [ref=e451] [cursor=pointer] [box=445,214,950,33]:
+                  - cell "アイテムを選択する" [ref=e452] [box=445,214,38,33]:
+                    - generic [ref=e454] [box=457,221,18,18]
+                  - cell "TEST_FAQ_カタログ001" [ref=e460] [box=483,214,573,33]:
+                    - link "TEST_FAQ_カタログ001" [ref=e461] [box=489,222,143,16]:
+                      - /url: /admin/catalogs/e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog
+                  - cell "1個の商品" [ref=e462] [box=1056,214,150,33]:
+                    - paragraph [ref=e463] [box=1062,220,138,20]: 1個の商品
+                  - cell "0つの販売先" [ref=e464] [box=1205,214,189,33]:
+                    - paragraph [ref=e465] [box=1211,220,171,20]: 0つの販売先
+                - row "アイテムを選択する TEST_FAQ_DEEP_202606080340_カタログ 0個の商品 0つの販売先" [ref=e466] [cursor=pointer] [box=445,247,950,33]:
+                  - cell "アイテムを選択する" [ref=e467] [box=445,247,38,33]:
+                    - generic [ref=e469] [box=457,254,18,18]
+                  - cell "TEST_FAQ_DEEP_202606080340_カタログ" [ref=e475] [box=483,247,573,33]:
+                    - link "TEST_FAQ_DEEP_202606080340_カタログ" [ref=e476] [box=489,255,265,16]:
+                      - /url: /admin/catalogs/69a9415f-37c7-5a22-992f-d4c98e572009_Catalog
+                  - cell "0個の商品" [ref=e477] [box=1056,247,150,33]:
+                    - paragraph [ref=e478] [box=1062,253,138,20]: 0個の商品
+                  - cell "0つの販売先" [ref=e479] [box=1205,247,189,33]:
+                    - paragraph [ref=e480] [box=1211,253,171,20]: 0つの販売先
+            - navigation "ページネーション" [ref=e484] [box=445,279,950,41]:
+              - generic [ref=e487] [box=893,286,57,28]:
+                - generic [ref=e488] [box=893,286,28,28]:
+                  - button "前へ" [disabled] [box=893,286,28,28]:
+                    - generic [box=897,290,20,20]
+                - generic [ref=e489] [box=922,286,28,28]:
+                  - button "次へ" [disabled] [box=922,286,28,28]:
+                    - generic [box=926,290,20,20]
+  - region "Notifications alt+T" [box=0,1000,1600,0]
+  - alert [ref=e15] [box=-1,999,1,1]

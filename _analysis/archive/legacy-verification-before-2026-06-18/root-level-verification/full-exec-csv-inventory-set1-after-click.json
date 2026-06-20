@@ -1,0 +1,63 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/d47a4ae6-bb8b-5340-9be8-d898e6a5fa30_CSVImportOperationInventoryLogicalAvailableQuantity",
+  "headings": [
+    "CSVインポート操作の詳細",
+    "作成日",
+    "検証ステータス",
+    "実行ステータス",
+    "検証成功",
+    "検証失敗",
+    "CSVの取り込み処理を実行しますか？"
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 1,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 3,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 4,
+      "text": "実行する",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 5,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 6,
+      "text": "キャンセル",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 7,
+      "text": "実行する",
+      "disabled": false,
+      "ariaDisabled": "false"
+    }
+  ],
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nCSVインポート操作の詳細。このページの準備が整いました\n\nCSVインポート操作の詳細\n実行する\n作成日\n\n2026年06月15日\n\n検証ステータス\n成功 完了\n完了\n実行ステータス\n未実行\n検証成功\n\n1個の商品\n\n検証失敗\n\n0個の商品\n\nCSVの取り込み処理を実行しますか？\n\n1件の商品の在庫数を更新します。この操作は巻き戻すことができません。\n\nキャンセル\n実行する"
+}

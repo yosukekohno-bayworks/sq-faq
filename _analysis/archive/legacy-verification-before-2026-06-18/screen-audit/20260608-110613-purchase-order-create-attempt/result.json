@@ -1,0 +1,23 @@
+{
+  "artifactDir": "/Users/kounoyousuke/App Building/SQ/faq/_analysis/screen-audit/20260608-110613-purchase-order-create-attempt",
+  "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+  "afterVariant": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 保存されていない発注伝票 取り消す 保存 発注伝票を作成。このページの準備が整いました 発注伝票を作成 取引先 取引先 選択してください TEST_FAQ_Supplier TEST_FAQ_Supplier2 TEST_FAQ_Supplier2 テナント 選択してください ユニクロ ユニクロ 通貨 米ドル ユーロ 日本円 タイ バーツ シンガポール ドル 日本円 商品 商品を追加する 参照 SKU 単価 数量 税率 金額 486125-31-L 単価 ￥ 数量 税率 % ￥0 取り消す 作成する",
+  "beforeCreate": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 保存されていない発注伝票 取り消す 保存 発注伝票を作成。このページの準備が整いました 発注伝票を作成 取引先 取引先 選択してください TEST_FAQ_Supplier TEST_FAQ_Supplier2 TEST_FAQ_Supplier2 テナント 選択してください ユニクロ ユニクロ 通貨 米ドル ユーロ 日本円 タイ バーツ シンガポール ドル 日本円 商品 商品を追加する 参照 SKU 単価 数量 税率 金額 486125-31-L 単価 ￥ 数量 税率 % ￥3,600 取り消す 作成する",
+  "afterCreate": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 保存されていない発注伝票 取り消す 保存 発注伝票を作成。このページの準備が整いました 発注伝票を作成 取引先 取引先 選択してください TEST_FAQ_Supplier TEST_FAQ_Supplier2 TEST_FAQ_Supplier2 テナント 選択してください ユニクロ ユニクロ 通貨 米ドル ユーロ 日本円 タイ バーツ シンガポール ドル 日本円 商品 商品を追加する 参照 SKU 単価 数量 税率 金額 486125-31-L 単価 ￥ 数量 税率 % ￥3,600 取り消す 作成する エラーが発生しました。しばらくしてから再度お試しください",
+  "logs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()"
+    },
+    {
+      "type": "pageerror",
+      "text": "CombinedGraphQLErrors: エラーが発生しました。しばらくしてから再度お試しください\n    at https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:130005\n    at https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:52257\n    at c._next (https://www.sqstackstaging.com/_next/static/chunks/8688-ccaf787f6518db55.js:1:4888)\n    at r.next (https://www.sqstackstaging.com/_next/static/chunks/8688-ccaf787f6518db55.js:1:606)\n    at https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:100457\n    at c._next (https://www.sqstackstaging.com/_next/static/chunks/8688-ccaf787f6518db55.js:1:4888)\n    at r.next (https://www.sqstackstaging.com/_next/static/chunks/8688-ccaf787f6518db55.js:1:606)\n    at https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:50960"
+    }
+  ],
+  "responses": [
+    {
+      "status": 404,
+      "url": "https://www.sqstackstaging.com/_vercel/insights/script.js"
+    }
+  ]
+}

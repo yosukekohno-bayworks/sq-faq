@@ -1,0 +1,79 @@
+{
+  "dialogs": [
+    {
+      "i": 0,
+      "text": "ロケーションを選択して追加する 適用種別 選択してください 値引き 金種 選択してください ロケーション 選択 キャンセル 追加する"
+    }
+  ],
+  "fields": [
+    {
+      "i": 0,
+      "tag": "select",
+      "type": null,
+      "value": "",
+      "placeholder": null,
+      "disabled": false,
+      "labels": [
+        "適用種別"
+      ],
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {
+          "text": "値引き",
+          "value": "DISCOUNT",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "金種",
+          "value": "PAYMENT",
+          "selected": false,
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "placeholder": "選択してください",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "ロケーション"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "閉じる",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "選択",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "キャンセル",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "追加する",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

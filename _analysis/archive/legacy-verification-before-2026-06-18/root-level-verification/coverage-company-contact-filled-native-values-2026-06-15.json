@@ -1,0 +1,22 @@
+[
+  {
+    "type": "text",
+    "value": "FAQ",
+    "outer": "<input id=\":r24:\" placeholder=\"山田\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r24:Label\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"FAQ\">"
+  },
+  {
+    "type": "text",
+    "value": "Contact20260615",
+    "outer": "<input id=\":r25:\" placeholder=\"花子\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r25:Label\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"Contact20260615\">"
+  },
+  {
+    "type": "email",
+    "value": "faq-contact-20260615@example.com",
+    "outer": "<input id=\":r26:\" placeholder=\"you@company.com\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-describedby=\":r26:HelpText\" aria-labelledby=\":r26:Label\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"email\" value=\"faq-contac"
+  },
+  {
+    "type": "tel",
+    "value": "09000000000",
+    "outer": "<input id=\":r27:\" placeholder=\"09012345678\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r27:Label\" aria-invalid=\"false\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"tel\" value=\"09000000000\">"
+  }
+]

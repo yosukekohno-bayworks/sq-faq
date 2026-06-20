@@ -1,0 +1,98 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules/2c0e23bd-77df-5440-a291-2c8dfd057f45_OrderPriceAdjustmentRule/customers",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_DEEP3_202606080345_ディスカウント。このページの準備が整いました\n\nTEST_FAQ_DEEP3_202606080345_ディスカウント\n成功\n有効\n基本情報\n利用履歴\n顧客管理\n店舗管理\n商品管理\n顧客管理\n追加する\nメールアドレスで検索する\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください",
+  "fields": [
+    {
+      "i": 0,
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "placeholder": "メールアドレスで検索する",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "メールアドレスで検索する"
+      ]
+    }
+  ],
+  "rows": [],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "i": 4,
+      "text": "顧客管理",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 5,
+      "text": "その他のビュー",
+      "aria": "その他のビュー",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 6,
+      "text": "顧客管理",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 7,
+      "text": "その他のビュー",
+      "aria": "その他のビュー",
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "i": 8,
+      "text": "追加する",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 9,
+      "text": "",
+      "aria": "前へ",
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "i": 10,
+      "text": "",
+      "aria": "次へ",
+      "disabled": false,
+      "visible": true
+    }
+  ]
+}

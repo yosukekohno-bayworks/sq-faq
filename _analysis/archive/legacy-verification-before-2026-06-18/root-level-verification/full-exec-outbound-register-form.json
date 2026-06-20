@@ -1,0 +1,314 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders/bed1900a-1d18-5bc4-8724-5d193124224f_InventoryOutboundOrder",
+  "h1": "#IO-1006",
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 2件\n2\n出荷管理\n未完了の出荷指示 2件\n2\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IO-1006。このページの準備が整いました\n\n#IO-1006\n情報 未完了\n出荷待ち\n情報 未完了\n引当待ち\n出荷実績を登録する\nロケーション\n配送方法\n出荷明細\n商品\n\t\nSKU\n\t\n数量\n\n\nオーバーサイズスウェットシャツ\n\t\n\n486125-09-XL\n\n\t\n\n1\n\n詳細\n配送希望日\n-\n作成日時\n2026年06月15日 18:11\n出荷先ロケーション\n\nユニクロ - 銀座店\n\n出荷実績を登録する\n配送キャリア\n追跡コード\nキャンセル\n登録する",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "A",
+      "type": null,
+      "text": "コンテンツにスキップ",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "aria": "メニューを切り替える",
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "tag": "A",
+      "type": null,
+      "text": "ホーム",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "tag": "A",
+      "type": null,
+      "text": "商品管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "tag": "A",
+      "type": null,
+      "text": "在庫管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "tag": "A",
+      "type": null,
+      "text": "注文管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 10,
+      "tag": "A",
+      "type": null,
+      "text": "顧客管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 11,
+      "tag": "A",
+      "type": null,
+      "text": "発注管理",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "tag": "A",
+      "type": null,
+      "text": "販売設定",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 13,
+      "tag": "A",
+      "type": null,
+      "text": "会計",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 14,
+      "tag": "A",
+      "type": null,
+      "text": "分析",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 15,
+      "tag": "A",
+      "type": null,
+      "text": "入荷管理\n未完了の入荷指示 2件\n2",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 16,
+      "tag": "A",
+      "type": null,
+      "text": "出荷管理\n未完了の出荷指示 2件\n2",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 17,
+      "tag": "A",
+      "type": null,
+      "text": "在庫依頼",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 18,
+      "tag": "A",
+      "type": null,
+      "text": "ディスカウント",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 19,
+      "tag": "A",
+      "type": null,
+      "text": "ポイント",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 20,
+      "tag": "A",
+      "type": null,
+      "text": "会員ランク",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 21,
+      "tag": "A",
+      "type": null,
+      "text": "Shopify",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 22,
+      "tag": "A",
+      "type": null,
+      "text": "OmnibusCore",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 23,
+      "tag": "A",
+      "type": null,
+      "text": "スマレジ",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 24,
+      "tag": "A",
+      "type": null,
+      "text": "リテールポータル",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 25,
+      "tag": "A",
+      "type": null,
+      "text": "卸売",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 26,
+      "tag": "A",
+      "type": null,
+      "text": "設定",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 27,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "aria": "メニューを閉じる",
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 29,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "出荷実績を登録する",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 30,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "物流倉庫",
+      "disabled": false
+    },
+    {
+      "i": 31,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "配送",
+      "disabled": false
+    },
+    {
+      "i": 32,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "aria": null,
+      "placeholder": null,
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 33,
+      "tag": "A",
+      "type": null,
+      "text": "オーバーサイズスウェットシャツ",
+      "aria": null,
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "i": 34,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "aria": "閉じる",
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 37,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "キャンセル",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 38,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "登録する",
+      "aria": null,
+      "placeholder": null,
+      "value": "",
+      "disabled": "false"
+    }
+  ]
+}

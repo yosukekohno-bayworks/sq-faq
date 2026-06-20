@@ -1,0 +1,12 @@
+- generic [active] [ref=e1] [box=0,0,1600,1000]:
+  - generic [ref=e16] [box=0,0,1600,1000]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - main [ref=e19] [box=0,0,1600,1000]:
+      - generic [ref=e24] [box=325,76,950,49]:
+        - img [ref=e26] [box=318,70,56,56]
+        - status [box=369,107,0,16]
+  - region "Notifications alt+T" [box=0,1000,1600,0]
+  - alert [ref=e15] [box=-1,999,1,1]

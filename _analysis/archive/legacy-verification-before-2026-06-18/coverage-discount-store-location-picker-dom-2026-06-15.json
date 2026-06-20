@@ -1,0 +1,120 @@
+{
+  "dialogs": [
+    {
+      "i": 0,
+      "text": "ロケーションを選択して追加する 適用種別 選択してください 値引き 金種 値引き ロケーション 選択 キャンセル 追加する"
+    },
+    {
+      "i": 1,
+      "text": "ロケーションを選択する 場所コードで検索する すべてのアイテムを選択する 名前 場所コード アイテムを選択する ユニクロ - 銀座店 R0001 アイテムを選択する TEST_FAQ_DEEP2_202606080343_ロケーション test_faq_deep2_202606080343_loc アイテムを選択する TEST_FAQ_店舗在庫EC販売用 TESTEC01 キャンセル 選択する"
+    }
+  ],
+  "rows": [
+    {
+      "i": 0,
+      "text": "すべてのアイテムを選択する 名前 場所コード",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "アイテムを選択する ユニクロ - 銀座店 R0001",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "アイテムを選択する TEST_FAQ_DEEP2_202606080343_ロケーション test_faq_deep2_202606080343_loc",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "アイテムを選択する TEST_FAQ_店舗在庫EC販売用 TESTEC01",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "閉じる",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "選択",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "キャンセル",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "追加する",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "",
+      "aria": "閉じる",
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "",
+      "aria": "検索結果を並べ替える",
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "text": "",
+      "aria": "前へ",
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "text": "",
+      "aria": "次へ",
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "text": "キャンセル",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "text": "選択する",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイントキャンペーンを作成する。このページの準備が整いました\n\nポイントキャンペーンを作成する\nタイトル\n開始日時\n終了日時\nポイントキャンペーン種別\n選択してください\nなし\n会員ランク\n購入金額\n商品\nなし\nポイント付与方法\n通常倍率に指定の倍率を加えた合計倍率でポイントを付与する\n通常付与ポイントに加えて指定のポイントを追加で付与する\n通常付与ポイントに加えて指定のポイントを追加で付与する\nポイント\n通常獲得ポイントに加えて\nポイントを追加で付与する\n通常獲得ポイントが500ポイントの場合、100を入力することで追加で100ポイントが付与されます。顧客の獲得ポイントは合計600ポイントとなります。\n注文ポイント付与ルール\n\nここで選択された注文ポイント付与ルールが適用される注文がこのポイントキャンペーンの対象となります。\n\n対象の注文ポイント付与ルール\n選択してください\nTEST_FAQ_注文ポイント付与ルール\n選択してください\n適用条件\nポイントキャンペーンは以下の条件に該当する注文にのみ適用されます。未入力の場合は適用されません。\nチャネル\n対象店舗\n選択\n保存する",
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "ポイントキャンペーン名",
+      "labels": [
+        "タイトル"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "datetime-local",
+      "value": "",
+      "placeholder": null,
+      "labels": [
+        "開始日時"
+      ]
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "datetime-local",
+      "value": "",
+      "placeholder": null,
+      "labels": [
+        "終了日時"
+      ]
+    },
+    {
+      "i": 3,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "NONE",
+      "placeholder": null,
+      "labels": [
+        "ポイントキャンペーン種別"
+      ]
+    },
+    {
+      "i": 4,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "POINT_FIXED",
+      "placeholder": null,
+      "labels": [
+        "ポイント付与方法"
+      ]
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "",
+      "placeholder": "0",
+      "labels": [
+        "ポイント"
+      ]
+    },
+    {
+      "i": 6,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "",
+      "placeholder": null,
+      "labels": [
+        "対象の注文ポイント付与ルール"
+      ]
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "店舗を選択してください",
+      "labels": [
+        "対象店舗"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "disabled": null
+    },
+    {
+      "i": 1,
+      "text": "",
+      "disabled": null
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": null
+    },
+    {
+      "i": 3,
+      "text": "",
+      "disabled": null
+    },
+    {
+      "i": 4,
+      "text": "選択",
+      "disabled": null
+    },
+    {
+      "i": 5,
+      "text": "保存する",
+      "disabled": "false"
+    }
+  ]
+}

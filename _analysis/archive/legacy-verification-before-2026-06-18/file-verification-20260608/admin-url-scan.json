@@ -1,0 +1,2885 @@
+{
+  "createdAt": "2026-06-08T02:49:54.952Z",
+  "total": 122,
+  "results": [
+    {
+      "path": "/admin",
+      "url": "https://www.sqstackstaging.com/admin",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ"
+    },
+    {
+      "path": "/admin/products",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/products",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "商品管理"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 商品管理 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/products/create",
+      "url": "https://www.sqstackstaging.com/admin/products/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/products/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ"
+    },
+    {
+      "path": "/admin/catalogs",
+      "url": "https://www.sqstackstaging.com/admin/catalogs",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/catalogs",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "カタログ"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "カタログを作成する",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 カタログ。このページの準備が整いました カタログ カタログを作成する すべて アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/catalogs/create",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/catalogs/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ"
+    },
+    {
+      "path": "/admin/local_pickup_product_variants",
+      "url": "https://www.sqstackstaging.com/admin/local_pickup_product_variants",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/local_pickup_product_variants",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "店舗受取"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "バリエーションを追加する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 店舗受取。このページの準備が整いました 店舗受取 店舗受取可能バリエーション一覧 バリエーションを追加する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_items",
+      "url": "https://www.sqstackstaging.com/admin/inventory_items",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_items",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 移動伝票 調整伝票 取置伝票 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/inventory_movement_orders",
+      "url": "https://www.sqstackstaging.com/admin/inventory_movement_orders",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_movement_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "移動伝票"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 移動伝票 調整伝票 取置伝票 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 移動伝票 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_movement_orders/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_movement_orders/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_movement_orders/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "移動伝票を作成する"
+      ],
+      "h2": [
+        "配送元",
+        "配送先",
+        "商品を追加"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "選択",
+        "参照",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 移動伝票 調整伝票 取置伝票 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 移動伝票を作成する。このページの準備が整いました 移動伝票を作成する 配送元 配送元 選択 配送先 配送先 選択 商品を追加 商品を追加する 参照 保存する"
+    },
+    {
+      "path": "/admin/inventory_adjustment_orders",
+      "url": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "調整伝票"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 移動伝票 調整伝票 取置伝票 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 調整伝票 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_adjustment_orders/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "調整伝票を作成する"
+      ],
+      "h2": [
+        "ロケーション",
+        "理由",
+        "商品"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "参照",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 移動伝票 調整伝票 取置伝票 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 調整伝票を作成する。このページの準備が整いました 調整伝票を作成する ロケーション ロケーション 選択 理由 選択してください 廃棄 見本 紛失 棚卸差異 その他 選択してください 商品 参照 保存する"
+    },
+    {
+      "path": "/admin/inventory_reservation_orders",
+      "url": "https://www.sqstackstaging.com/admin/inventory_reservation_orders",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_reservation_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "取置伝票"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 移動伝票 調整伝票 取置伝票 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取置伝票 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_reservation_orders/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_reservation_orders/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_reservation_orders/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "取置伝票を作成する"
+      ],
+      "h2": [
+        "商品"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "参照",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 移動伝票 調整伝票 取置伝票 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取置伝票を作成する。このページの準備が整いました 取置伝票を作成する ロケーション 選択 メモ 商品 参照 保存する"
+    },
+    {
+      "path": "/admin/orders",
+      "url": "https://www.sqstackstaging.com/admin/orders",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "注文管理"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/draft_orders",
+      "url": "https://www.sqstackstaging.com/admin/draft_orders",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/draft_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "下書き"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "注文を作成する",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 下書き。このページの準備が整いました 下書き 注文を作成する すべて 注文を読み込んでいます... 注文が見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/draft_orders/create",
+      "url": "https://www.sqstackstaging.com/admin/draft_orders/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/draft_orders/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/order_returns",
+      "url": "https://www.sqstackstaging.com/admin/order_returns",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_returns",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "返品"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 返品。このページの準備が整いました 返品 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/order_returns/create",
+      "url": "https://www.sqstackstaging.com/admin/order_returns/create",
+      "status": 404,
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_returns/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [
+        "ホームに戻る"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": true,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "このページは存在しないようです ホームに戻る"
+    },
+    {
+      "path": "/admin/purchasing_customers",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "顧客管理"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 顧客管理 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/purchasing_customers/create",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/purchasing_customers/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/companies",
+      "url": "https://www.sqstackstaging.com/admin/companies",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/companies",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "会社"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "インポート",
+        "会社を作成する",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 会社。このページの準備が整いました 会社 インポート 会社を作成する すべて アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/companies/create",
+      "url": "https://www.sqstackstaging.com/admin/companies/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/companies/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/inventory_purchase_orders",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "発注管理"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 発注管理 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_purchase_orders/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/settings/suppliers",
+      "url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/suppliers",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "取引先"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "インポート",
+        "取引先を作成",
+        "すべて",
+        "アーカイブ",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取引先。このページの準備が整いました 取引先 インポート 取引先を作成 すべて アーカイブ アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/suppliers/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/suppliers/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/suppliers/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "取引先を作成"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取引先を作成。このページの準備が整いました 取引先を作成 取引先名 保存する"
+    },
+    {
+      "path": "/admin/inventory_suppliers",
+      "url": "https://www.sqstackstaging.com/admin/inventory_suppliers",
+      "status": 404,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_suppliers",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [
+        "ホームに戻る"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": true,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "このページは存在しないようです ホームに戻る"
+    },
+    {
+      "path": "/admin/inventory_suppliers/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_suppliers/create",
+      "status": 404,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_suppliers/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [
+        "ホームに戻る"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": true,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "このページは存在しないようです ホームに戻る"
+    },
+    {
+      "path": "/admin/product_price_rules",
+      "url": "https://www.sqstackstaging.com/admin/product_price_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/product_price_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "販売価格"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/product_price_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/product_price_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/product_price_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/inventory_back_order_rules",
+      "url": "https://www.sqstackstaging.com/admin/inventory_back_order_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_back_order_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "予約販売"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "予約販売ルールを作成する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予約販売。このページの準備が整いました 予約販売 予約販売ルールを作成する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_back_order_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_back_order_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_back_order_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "予約販売のルールを作成する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予約販売のルールを作成する。このページの準備が整いました 予約販売のルールを作成する タイトル 保存する"
+    },
+    {
+      "path": "/admin/inventory_sale_limit_rules",
+      "url": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "販売上限"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "販売上限ルールを作成する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売上限。このページの準備が整いました 販売上限 販売上限ルールを作成する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_sale_limit_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/inventory_threshold_rules",
+      "url": "https://www.sqstackstaging.com/admin/inventory_threshold_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_threshold_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "販売閾値"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "販売閾値ルールを作成する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売閾値。このページの準備が整いました 販売閾値 販売閾値ルールを作成する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_threshold_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_threshold_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_threshold_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "販売閾値ルールを作成する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売閾値ルールを作成する。このページの準備が整いました 販売閾値ルールを作成する ルール名 デフォルトの閾値を設定する この設定を有効にすることで、閾値ルールに含まれていないすべての商品バリエーションにデフォルト閾値を適用することができます。 保存する"
+    },
+    {
+      "path": "/admin/sale_change_line_items",
+      "url": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "売上実績"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 売上実績 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 売上実績 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/sale_change_line_items/create",
+      "url": "https://www.sqstackstaging.com/admin/sale_change_line_items/create",
+      "status": 404,
+      "finalUrl": "https://www.sqstackstaging.com/admin/sale_change_line_items/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [
+        "ホームに戻る"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": true,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "このページは存在しないようです ホームに戻る"
+    },
+    {
+      "path": "/admin/analytics",
+      "url": "https://www.sqstackstaging.com/admin/analytics",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/analytics",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "分析"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": true,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 収益 レポート オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 分析。このページの準備が整いました 分析 TODO"
+    },
+    {
+      "path": "/admin/inventory_inbound_orders",
+      "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "入荷管理"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 入荷管理 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_outbound_orders",
+      "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "出荷管理"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 出荷管理 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_allocation_requests",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "在庫依頼"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 確保済み CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 在庫依頼 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/inventory_allocation_requests/create",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_allocation_requests/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "在庫依頼を作成する"
+      ],
+      "h2": [
+        "商品",
+        "リクエスト内容"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "選択",
+        "選択",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 確保済み CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 在庫依頼を作成する。このページの準備が整いました 在庫依頼を作成する 商品 商品バリエーション 選択 リクエスト内容 希望数 移動先ロケーション 選択 リクエスト先ロケーション 選択 保存する"
+    },
+    {
+      "path": "/admin/inventory_allocation_request_confirmations",
+      "url": "https://www.sqstackstaging.com/admin/inventory_allocation_request_confirmations",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_allocation_request_confirmations",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "確保済み"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "移動伝票を作成する",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 確保済み CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 確保済み。このページの準備が整いました 確保済み 移動伝票を作成する すべて アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/order_price_adjustment_rules",
+      "url": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ディスカウント"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ディスカウント アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/order_price_adjustment_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/point_calculation_rules",
+      "url": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "注文ポイント"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "付与ルールを作成する",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文ポイント。このページの準備が整いました 注文ポイント 付与ルールを作成する すべて アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/point_calculation_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_calculation_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/customer_rank_calculation_rules",
+      "url": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "会員ランク"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "会員ランク算出ルールを作成する",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 会員ランク。このページの準備が整いました 会員ランク 会員ランク算出ルールを作成する すべて アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/customer_rank_calculation_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "会員ランク算出ルールを作成する"
+      ],
+      "h2": [
+        "ルール",
+        "算出期間",
+        "詳細"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 会員ランク算出ルールを作成する。このページの準備が整いました 会員ランク算出ルールを作成する ルール タイトル 算出方法 購入金額 獲得ポイント 税抜き価格でランクを算出する 算出期間 期間 1年間 直近365日 無期限 1年間 開始月 1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月 1月 開始月に4月を設定した場合、ランク算出期間の1年間は4月1日から3月31日となります 詳細 会員ランクを月初に算出する この設定を有効にすることで顧客の会員ランクは毎月1日に再計算されます。 会員ランクを次の算出期間に持ち越す 持ち越しを有効にすることで顧客は自分の会員ランクを最大2年間維持することができます。この設定は「開始月」が未選択、もし"
+    },
+    {
+      "path": "/admin/point_calculation_birthday_rules",
+      "url": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "誕生日ポイント"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "付与ルールを作成する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 誕生日ポイント。このページの準備が整いました 誕生日ポイント 付与ルールを作成する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/point_calculation_birthday_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "誕生日ポイント付与ルールを作成する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 誕生日ポイント付与ルールを作成する。このページの準備が整いました 誕生日ポイント付与ルールを作成する タイトル 表示タイトル 誕生日ポイントの履歴に表示されるタイトル ポイント ポイント 有効期間 日 ポイントを付与してから有効な日数 保存する"
+    },
+    {
+      "path": "/admin/point_campaign_order_rules",
+      "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_campaign_order_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ポイントキャンペーン"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "キャンペーンを作成する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ポイントキャンペーン。このページの準備が整いました ポイントキャンペーン キャンペーンを作成する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/point_campaign_order_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/point_application_excluded_products",
+      "url": "https://www.sqstackstaging.com/admin/point_application_excluded_products",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_application_excluded_products",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "利用外商品"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "追加する",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 利用外商品。このページの準備が整いました 利用外商品 追加する すべて アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/point_application_excluded_products/create",
+      "url": "https://www.sqstackstaging.com/admin/point_application_excluded_products/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_application_excluded_products/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "利用外商品を追加する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 利用外商品を追加する。このページの準備が整いました 利用外商品を追加する 商品を選択する 選択 保存する"
+    },
+    {
+      "path": "/admin/point_expiration_notification_rule",
+      "url": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "失効通知"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "失効通知ルールを作成する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 失効通知。このページの準備が整いました 失効通知 失効通知ルールを作成する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/point_expiration_notification_rule/create",
+      "url": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ポイント失効通知ルールを作成する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ポイント失効通知ルールを作成する。このページの準備が整いました ポイント失効通知ルールを作成する タイトル 通知予定日 失効日の 日前 保存する"
+    },
+    {
+      "path": "/admin/shopify_integrations",
+      "url": "https://www.sqstackstaging.com/admin/shopify_integrations",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/shopify_integrations",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "Shopify"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 Shopify"
+    },
+    {
+      "path": "/admin/shopify_integrations/create",
+      "url": "https://www.sqstackstaging.com/admin/shopify_integrations/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/shopify_integrations/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ストアを連携する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ストアを連携する"
+    },
+    {
+      "path": "/admin/omnibus_core_integrations",
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "OmnibusCore連携"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 OmnibusCore連携 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/omnibus_core_integrations/create",
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/smaregi_integrations",
+      "url": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/smaregi_integrations/create",
+      "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/smaregi_integrations/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/retail_portal_integrations",
+      "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "リテールポータル"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "追加する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定 リテールポータル。このページの準備が整いました リテールポータル 追加する 場所コードを入力してください アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/retail_portal_integrations/create",
+      "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定"
+    },
+    {
+      "path": "/admin/local_pickup_retail_location_rules",
+      "url": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "店舗受取"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "追加する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定 店舗受取。このページの準備が整いました 店舗受取 追加する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/local_pickup_retail_location_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "店舗受取を作成する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定 店舗受取を作成する。このページの準備が整いました 店舗受取を作成する ロケーション 選択 保存する"
+    },
+    {
+      "path": "/admin/b2b",
+      "url": "https://www.sqstackstaging.com/admin/b2b",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/b2b",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "卸売"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": true,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 卸売。このページの準備が整いました 卸売 TODO"
+    },
+    {
+      "path": "/admin/b2b/create",
+      "url": "https://www.sqstackstaging.com/admin/b2b/create",
+      "status": 404,
+      "finalUrl": "https://www.sqstackstaging.com/admin/b2b/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [
+        "ホームに戻る"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": true,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "このページは存在しないようです ホームに戻る"
+    },
+    {
+      "path": "/admin/settings",
+      "url": "https://www.sqstackstaging.com/admin/settings",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/settings/users",
+      "url": "https://www.sqstackstaging.com/admin/settings/users",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/users",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/users/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/users/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/users/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/settings/tenants",
+      "url": "https://www.sqstackstaging.com/admin/settings/tenants",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/tenants",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "テナント"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 テナント アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/locations",
+      "url": "https://www.sqstackstaging.com/admin/settings/locations",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/locations",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/locations/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/locations/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/locations/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/settings/location_groups",
+      "url": "https://www.sqstackstaging.com/admin/settings/location_groups",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/location_groups",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ロケーショングループ"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロケーショングループ アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/location_groups/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/location_groups/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/location_groups/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "グループを作成"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 グループを作成。このページの準備が整いました グループを作成 名前 ロケーション 選択 このグループに属するロケーションを選択してください 保存する"
+    },
+    {
+      "path": "/admin/settings/brands",
+      "url": "https://www.sqstackstaging.com/admin/settings/brands",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/brands",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ブランド"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "追加する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ブランド。このページの準備が整いました ブランド 追加する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/brands/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/brands/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/brands/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ブランド"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ブランド。このページの準備が整いました ブランド 名前 外部ID コード 保存する"
+    },
+    {
+      "path": "/admin/settings/payment_methods",
+      "url": "https://www.sqstackstaging.com/admin/settings/payment_methods",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/payment_methods",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "決済方法"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "決済方法を作成",
+        "すべて",
+        "その他のビュー"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 決済方法。このページの準備が整いました 決済方法 決済方法を作成 すべて アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/payment_methods/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/payment_methods/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/payment_methods/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "決済方法を作成する"
+      ],
+      "h2": [
+        "詳細"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 決済方法を作成する。このページの準備が整いました 決済方法を作成する 詳細 名前 コード ゲートウェイ 支払い待ちでも注文を出荷する 代引き 保存する"
+    },
+    {
+      "path": "/admin/settings/retail_staff_members",
+      "url": "https://www.sqstackstaging.com/admin/settings/retail_staff_members",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/retail_staff_members",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "販売員"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "販売員を追加する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売員。このページの準備が整いました 販売員 販売員を追加する 販売員コードで検索する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/retail_staff_members/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/retail_staff_members/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/retail_staff_members/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "販売員を作成する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "検索する",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売員を作成する。このページの準備が整いました 販売員を作成する 姓 名 コード ロケーション 検索する 保存する"
+    },
+    {
+      "path": "/admin/settings/apps",
+      "url": "https://www.sqstackstaging.com/admin/settings/apps",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/apps",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/settings/apps/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/apps/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/apps/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/logizard_integrations",
+      "url": "https://www.sqstackstaging.com/admin/logizard_integrations",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/logizard_integrations",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ロジザード連携"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロジザード連携 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/logizard_integrations/create",
+      "url": "https://www.sqstackstaging.com/admin/logizard_integrations/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/logizard_integrations/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ロジザード連携を作成する"
+      ],
+      "h2": [
+        "接続情報",
+        "認証情報",
+        "入荷設定",
+        "出荷設定",
+        "出荷箱明細実績エクスポート設定",
+        "商品マッピング設定"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロジザード連携を作成する。このページの準備が整いました ロジザード連携を作成する 設定名 接続情報 グループ番号 ロジザードZEROのAPIエンドポイントURLに使用される3桁の番号。 接続番号 ロジザードZEROのAPIエンドポイントURLに使用される3桁の番号。 Partner APIエンドポイントを使用する 認証情報 オーナーID ユーザーID パスワード アプリケーションキー AuthKeyの発行をスキップする すでにAuthKeyを発行済みの場合に有効にしてください。 入荷設定 入荷予定登録ファイルID ロジザードZEROの入荷予定登録APIに使用するファイルIDです。 入荷予定登録パターンID ロジザードZEROの入荷予定登録APIに使用するパター"
+    },
+    {
+      "path": "/admin/recustomer_integrations",
+      "url": "https://www.sqstackstaging.com/admin/recustomer_integrations",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "Recustomer"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "アカウントを接続"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 Recustomer。このページの準備が整いました Recustomer アカウントを接続 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/recustomer_integrations/create",
+      "url": "https://www.sqstackstaging.com/admin/recustomer_integrations/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "アカウントを接続する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 アカウントを接続する。このページの準備が整いました アカウントを接続する ストアID シークレット 保存する"
+    },
+    {
+      "path": "/admin/settings/permission_groups",
+      "url": "https://www.sqstackstaging.com/admin/settings/permission_groups",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/permission_groups",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "権限グループ"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "作成する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 権限グループ。このページの準備が整いました 権限グループ 作成する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/permission_groups/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/permission_groups/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/permission_groups/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/settings/translation",
+      "url": "https://www.sqstackstaging.com/admin/settings/translation",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/translation",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/settings/translation/translation_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/settings/product_measurement_rules",
+      "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "採寸ルール"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 採寸ルール アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/settings/product_measurement_rules/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "採寸ルールを作成する"
+      ],
+      "h2": [
+        "基本設定",
+        "採寸項目"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "採寸項目を追加",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 採寸ルールを作成する。このページの準備が整いました 採寸ルールを作成する 基本設定 ルール名 採寸単位 なし センチメートル なし 採寸項目 最大5件まで追加できます 採寸項目1 採寸項目を追加 保存する"
+    },
+    {
+      "path": "/admin/settings/metafield_definitions",
+      "url": "https://www.sqstackstaging.com/admin/settings/metafield_definitions",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/metafield_definitions",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "メタフィールド定義"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 メタフィールド定義。このページの準備が整いました メタフィールド定義 組織 商品 バリエーション 顧客 注文 下書き注文 会社 ロケーション ディスカウント 在庫移動伝票 在庫調整伝票 在庫取置伝票 発注伝票 入荷指示 出荷指示 仕入れ先"
+    },
+    {
+      "path": "/admin/settings/metafield_definitions/product/create",
+      "url": "https://www.sqstackstaging.com/admin/settings/metafield_definitions/product/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/metafield_definitions/product/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "商品メタフィールドの定義を追加する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 商品メタフィールドの定義を追加する。このページの準備が整いました 商品メタフィールドの定義を追加する 名前 0/50 説明 0/100 ネームスペース 0/50 キー 0/50 メタフィールドのタイプ 選択してください 単一行のテキスト 単一行のテキスト(リスト) 複数行のテキスト 日付と時刻 日付 trueまたはfalse バーコード(NW7) 整数 小数 JSON ID リッチテキスト 選択してください 保存する"
+    },
+    {
+      "path": "/admin/settings/company_locations",
+      "url": "https://www.sqstackstaging.com/admin/settings/company_locations",
+      "status": 404,
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/company_locations",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [
+        "ホームに戻る"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": true,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "このページは存在しないようです ホームに戻る"
+    },
+    {
+      "path": "/admin/csv_import",
+      "url": "https://www.sqstackstaging.com/admin/csv_import",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "CSVインポート"
+      ],
+      "h2": [
+        "商品",
+        "商品",
+        "商品バリエーション",
+        "商品画像",
+        "商品バリエーション画像",
+        "カタログ",
+        "価格",
+        "販売価格 (通常)"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート。このページの準備が整いました CSVインポート 商品 商品 商品を一括で登録・更新することができます。 商品バリエーション 商品バリエーションを一括で登録・更新することができます。 商品画像 商品画像を一括で追加することができます。 商品バリエーション画像 商品バリエーション画像を一括で追加することができます。 カタログ カタログに商品を一括で追加・削除することができます。 価格 販売価格 (通常) 通常区分の販売価格を一括で設定することができます。 販売価格 (セール) セール区分の販売価格を一括で設定することができます。 原価 SKUごとに原価を一括で設定することができます。 販売 販売閾値 販売閾値ルールごとにSKUと閾値を一括で設定す"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "販売可能在庫をCSVでインポートする"
+      ],
+      "h2": [
+        "反映方法"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売可能在庫をCSVでインポートする。このページの準備が整いました 販売可能在庫をCSVでインポートする 反映方法 現在の在庫数が10のとき、CSVで20を指定すると、絶対値で反映した場合の在庫数は20になります。差分値で反映した場合の在庫数は30になります。 反映方法 絶対値で反映する 差分値で反映する ファイルをアップロード ファイルを選択する もしくはドラッグ&ドロップでアップロードすることができます 保存する"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ヤマトB2クラウドの出荷実績をCSVでインポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ヤマトB2クラウドの出荷実績をCSVでインポートする。このページの準備が整いました ヤマトB2クラウドの出荷実績をCSVでインポートする CSVファイル ファイルをアップロード ファイルを選択する もしくはドラッグ&ドロップでアップロードすることができます 保存する"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_fulfillment_by_dhls",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_dhls",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_dhls",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "予約販売バリエーションをCSVでインポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "テンプレート",
+        "新規インポート"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予約販売バリエーションをCSVでインポートする。このページの準備が整いました 予約販売バリエーションをCSVでインポートする テンプレート 新規インポート アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_point_pluses",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_pluses",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_pluses",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ポイントをCSVで一括付与する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ポイントをCSVで一括付与する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_point_pluses/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_pluses/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_pluses/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "キャンペーン対象商品をCSVでインポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "検索",
+        "ファイルを選択する",
+        "保存する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 キャンペーン対象商品をCSVでインポートする。このページの準備が整いました キャンペーン対象商品をCSVでインポートする ポイントキャンペーン 検索 ファイルをアップロード ファイルを選択する もしくはドラッグ&ドロップでアップロードすることができます 保存する"
+    },
+    {
+      "path": "/admin/csv_import/csv_import_settings_suppliers",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_settings_suppliers",
+      "status": 404,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_settings_suppliers",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [
+        "ホームに戻る"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": true,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "このページは存在しないようです ホームに戻る"
+    },
+    {
+      "path": "/admin/csv_export",
+      "url": "https://www.sqstackstaging.com/admin/csv_export",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "CSVエクスポート"
+      ],
+      "h2": [
+        "マスターデータ",
+        "在庫",
+        "ロケーション",
+        "ディスカウントの利用履歴",
+        "商品バリエーション",
+        "価格",
+        "セール価格",
+        "出荷"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVエクスポート。このページの準備が整いました CSVエクスポート マスターデータ 在庫 指定されたロケーションの在庫数をエクスポートします ロケーション 指定されたロケーショングループに含まれているすべてのロケーションをエクスポートします ディスカウントの利用履歴 指定されたディスカウントの利用履歴をエクスポートします 商品バリエーション 商品バリエーション一覧をエクスポートします 価格 セール価格 指定された販売価格ルールのセール価格をエクスポートします 出荷 ヤマトB2クラウド ヤマトB2クラウドに取り込む出荷指示をエクスポートします 実績 売上実績（注文軸） 指定された期間の注文軸の売上実績をエクスポートします ポイント ポイント変動履歴 指定された"
+    },
+    {
+      "path": "/admin/csv_export/csv_export_operation_inventory_logical_quantities/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_inventory_logical_quantities/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_inventory_logical_quantities/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "在庫をCSVでエクスポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "エクスポートを開始する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 在庫をCSVでエクスポートする。このページの準備が整いました 在庫をCSVでエクスポートする ロケーション 選択 選択したロケーションの在庫数をCSVでエクスポートします。 エクスポートを開始する"
+    },
+    {
+      "path": "/admin/csv_export/csv_export_operation_location_by_location_group/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_location_by_location_group/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_location_by_location_group/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ロケーションをCSVでエクスポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "エクスポートを開始する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロケーションをCSVでエクスポートする。このページの準備が整いました ロケーションをCSVでエクスポートする ロケーショングループ 選択 選択したロケーショングループに属するロケーションをCSVでエクスポートします。 エクスポートを開始する"
+    },
+    {
+      "path": "/admin/csv_export/csv_export_operation_order_price_adjustment_usages/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_order_price_adjustment_usages/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_order_price_adjustment_usages/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "ディスカウントの利用履歴をCSVでエクスポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "エクスポートを開始する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ディスカウントの利用履歴をCSVでエクスポートする。このページの準備が整いました ディスカウントの利用履歴をCSVでエクスポートする ディスカウント 選択 選択したディスカウントの使用履歴をCSVでエクスポートします。 エクスポートを開始する"
+    },
+    {
+      "path": "/admin/csv_export/csv_export_operation_product_variants/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_product_variants/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_product_variants/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "商品バリエーションをCSVでエクスポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "エクスポートを開始する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 商品バリエーションをCSVでエクスポートする。このページの準備が整いました 商品バリエーションをCSVでエクスポートする 商品情報を含める CSVに商品情報（商品コード、商品タイトル、ブランド名など）を含めます エクスポートを開始する"
+    },
+    {
+      "path": "/admin/csv_export/csv_export_operation_product_price_rule_sale_prices/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_product_price_rule_sale_prices/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_product_price_rule_sale_prices/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "セール価格をCSVでエクスポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "エクスポートを開始する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 セール価格をCSVでエクスポートする。このページの準備が整いました セール価格をCSVでエクスポートする 販売価格ルール 販売価格ルールを選択してください TEST_FAQ_販売価格ルール (JPY) TEST_FAQ_販売価格ルール_遷移確認_20260607 (JPY) 販売価格ルールを選択してください 選択した販売価格ルールのセール価格をCSVでエクスポートします。 エクスポートを開始する"
+    },
+    {
+      "path": "/admin/csv_export/csv_export_operation_sale_changes/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes/create",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "売上実績（注文軸）をCSVでエクスポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "エクスポートを開始する"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました 売上実績（注文軸）をCSVでエクスポートする テナント 選択してください ユニクロ 選択してください エクスポートするテナントを選択してください 開始日時 絞り込みを開始する日時を入力してください 終了日時 絞り込みを終了する日時を入力してください エクスポートを開始する"
+    },
+    {
+      "path": "/admin/csv_export/csv_export_operation_point_changes/create",
+      "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_point_changes/create",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_point_changes/create",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定"
+    },
+    {
+      "path": "/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds",
+      "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "path": "/admin/pdf_export",
+      "url": "https://www.sqstackstaging.com/admin/pdf_export",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "PDFエクスポート"
+      ],
+      "h2": [
+        "納品書"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": false
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 PDFエクスポート。このページの準備が整いました PDFエクスポート 納品書 指定された出荷指示の納品書をエクスポートします"
+    },
+    {
+      "path": "/admin/pdf_export/pdf_export_operation_packing_slips",
+      "url": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips",
+      "status": 200,
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips",
+      "title": "SQ - 管理画面",
+      "h1": [],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "flags": {
+        "login": false,
+        "notFound": false,
+        "unexpected": false,
+        "genericError": false,
+        "todo": false,
+        "empty": true
+      },
+      "textSample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    }
+  ]
+}

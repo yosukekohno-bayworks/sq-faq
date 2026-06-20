@@ -1,0 +1,222 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nディスカウントを作成する。このページの準備が整いました\n\nディスカウントを作成する\n基本情報\nタイトル\n説明文\nクーポンコード\nテナント\nテナントを選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテナントを選択してください\n選択されたテナントでディスカウントが利用できます\n割引設定\n割引方法\n選択してください\n割引率\n割引額\n割引率\n割引率\n%\n割引が適用可能な最高購入額を設定する\n設定した購入額を超える注文には適用不可になります\n適用条件\n割引要件\n最低購入額\n円\n最低購入数量\n対象商品\nすべての商品を割引対象に設定する\nこの設定を有効にしない場合は、割引の作成後に対象の商品を設定することができます\n利用制限\nお客様1人につき1回のみの使用とする\n有効期間\n開始日時\n終了日時\n保存する",
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "placeholder": "年末セール",
+      "labels": [
+        "タイトル"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "value": "",
+      "placeholder": "",
+      "labels": [
+        "説明文"
+      ]
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "placeholder": "SEHD-DEKH",
+      "labels": [
+        "クーポンコード"
+      ]
+    },
+    {
+      "i": 3,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "",
+      "placeholder": null,
+      "labels": [
+        "テナント"
+      ],
+      "options": [
+        {
+          "text": "テナントを選択してください",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {
+          "text": "ユニクロ",
+          "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "TEST_FAQ_COVERAGE_20260615_テナント_EDIT",
+          "value": "702f62d5-0ae6-55ec-a5ff-f8462435b8a6_Tenant",
+          "selected": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "PERCENTAGE",
+      "placeholder": null,
+      "labels": [
+        "割引方法"
+      ],
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "selected": false,
+          "disabled": true
+        },
+        {
+          "text": "割引率",
+          "value": "PERCENTAGE",
+          "selected": true,
+          "disabled": false
+        },
+        {
+          "text": "割引額",
+          "value": "AMOUNT",
+          "selected": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "",
+      "checked": false,
+      "placeholder": "10",
+      "labels": [
+        "割引率"
+      ]
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": null,
+      "labels": [
+        "割引が適用可能な最高購入額を設定する"
+      ]
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "AMOUNT",
+      "checked": true,
+      "placeholder": null,
+      "labels": [
+        "最低購入額"
+      ]
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "number",
+      "value": "",
+      "checked": false,
+      "placeholder": "1000",
+      "labels": []
+    },
+    {
+      "i": 9,
+      "tag": "INPUT",
+      "type": "radio",
+      "value": "QUANTITY",
+      "checked": false,
+      "placeholder": null,
+      "labels": [
+        "最低購入数量"
+      ]
+    },
+    {
+      "i": 10,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": null,
+      "labels": [
+        "すべての商品を割引対象に設定する"
+      ]
+    },
+    {
+      "i": 11,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": null,
+      "labels": [
+        "お客様1人につき1回のみの使用とする"
+      ]
+    },
+    {
+      "i": 12,
+      "tag": "INPUT",
+      "type": "datetime-local",
+      "value": "",
+      "checked": false,
+      "placeholder": null,
+      "labels": [
+        "開始日時"
+      ]
+    },
+    {
+      "i": 13,
+      "tag": "INPUT",
+      "type": "datetime-local",
+      "value": "",
+      "checked": false,
+      "placeholder": null,
+      "labels": [
+        "終了日時"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "disabled": null
+    },
+    {
+      "i": 1,
+      "text": "",
+      "disabled": null
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": null
+    },
+    {
+      "i": 3,
+      "text": "",
+      "disabled": null
+    },
+    {
+      "i": 4,
+      "text": "保存する",
+      "disabled": "false"
+    }
+  ]
+}

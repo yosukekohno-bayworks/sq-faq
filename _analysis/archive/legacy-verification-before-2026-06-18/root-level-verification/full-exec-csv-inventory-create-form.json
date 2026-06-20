@@ -1,0 +1,215 @@
+{
+  "h1": "販売可能在庫をCSVでインポートする",
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売可能在庫をCSVでインポートする。このページの準備が整いました\n\n販売可能在庫をCSVでインポートする\n反映方法\n現在の在庫数が10のとき、CSVで20を指定すると、絶対値で反映した場合の在庫数は20になります。差分値で反映した場合の在庫数は30になります。\n反映方法\n絶対値で反映する\n差分値で反映する\nファイルをアップロード\nファイルを選択する\n\nもしくはドラッグ&ドロップでアップロードすることができます\n\n保存する",
+  "inputs": [
+    {
+      "n": 0,
+      "type": "radio",
+      "accept": "",
+      "checked": true,
+      "value": "SET",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "n": 1,
+      "type": "radio",
+      "accept": "",
+      "checked": false,
+      "value": "ADJUSTMENT",
+      "placeholder": "",
+      "disabled": false
+    },
+    {
+      "n": 2,
+      "type": "file",
+      "accept": "text/csv",
+      "checked": false,
+      "value": "",
+      "placeholder": "",
+      "disabled": false
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "コンテンツにスキップ",
+      "href": "#AppFrameMain",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "メニューを切り替える",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "text": "ホーム",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "text": "商品管理",
+      "href": "/admin/products",
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "text": "在庫管理",
+      "href": "/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "text": "注文管理",
+      "href": "/admin/orders",
+      "disabled": false
+    },
+    {
+      "i": 10,
+      "text": "顧客管理",
+      "href": "/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "i": 11,
+      "text": "発注管理",
+      "href": "/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "text": "販売設定",
+      "href": "/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "i": 13,
+      "text": "会計",
+      "href": "/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "i": 14,
+      "text": "分析",
+      "href": "/admin/analytics",
+      "disabled": false
+    },
+    {
+      "i": 15,
+      "text": "入荷管理\n未完了の入荷指示 1件\n1",
+      "href": "/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "i": 16,
+      "text": "出荷管理\n未完了の出荷指示 1件\n1",
+      "href": "/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "i": 17,
+      "text": "在庫依頼",
+      "href": "/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "i": 18,
+      "text": "ディスカウント",
+      "href": "/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "i": 19,
+      "text": "ポイント",
+      "href": "/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "i": 20,
+      "text": "会員ランク",
+      "href": "/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "i": 21,
+      "text": "Shopify",
+      "href": "/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "i": 22,
+      "text": "OmnibusCore",
+      "href": "/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "i": 23,
+      "text": "スマレジ",
+      "href": "/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "i": 24,
+      "text": "リテールポータル",
+      "href": "/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "i": 25,
+      "text": "卸売",
+      "href": "/admin/b2b",
+      "disabled": false
+    },
+    {
+      "i": 26,
+      "text": "設定",
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "i": 27,
+      "text": "メニューを閉じる",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "i": 28,
+      "text": "",
+      "href": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+      "disabled": false
+    },
+    {
+      "i": 29,
+      "text": "ファイルを選択する",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "i": 30,
+      "text": "保存する",
+      "href": null,
+      "disabled": "false"
+    }
+  ]
+}

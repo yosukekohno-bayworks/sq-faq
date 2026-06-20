@@ -1,0 +1,58 @@
+- table [ref=e823]:
+  - rowgroup [ref=e824]:
+    - row "すべてのアイテムを選択する 名前 場所コード" [ref=e825]:
+      - columnheader "すべてのアイテムを選択する" [ref=e826]:
+        - generic [ref=e828] [cursor=pointer]:
+          - generic [ref=e830]:
+            - checkbox "すべてのアイテムを選択する" [ref=e831]
+            - generic
+          - generic [ref=e833]: すべてのアイテムを選択する
+      - columnheader "名前" [ref=e834]:
+        - generic [ref=e835]: 名前
+      - columnheader "場所コード" [ref=e836]:
+        - generic [ref=e837]: 場所コード
+  - rowgroup [ref=e838]:
+    - row "アイテムを選択する ユニクロ - 銀座店 R0001" [ref=e839] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e840]:
+        - generic [ref=e842]:
+          - generic [ref=e844]:
+            - checkbox "アイテムを選択する" [ref=e845]
+            - generic
+          - generic [ref=e847]: アイテムを選択する
+      - cell "ユニクロ - 銀座店" [ref=e848]:
+        - paragraph [ref=e849]: ユニクロ - 銀座店
+      - cell "R0001" [ref=e850]:
+        - paragraph [ref=e851]: R0001
+    - row "アイテムを選択する TEST_FAQ_DEEP2_202606080343_ロケーション test_faq_deep2_202606080343_loc" [ref=e852] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e853]:
+        - generic [ref=e855]:
+          - generic [ref=e857]:
+            - checkbox "アイテムを選択する" [ref=e858]
+            - generic
+          - generic [ref=e860]: アイテムを選択する
+      - cell "TEST_FAQ_DEEP2_202606080343_ロケーション" [ref=e861]:
+        - paragraph [ref=e862]: TEST_FAQ_DEEP2_202606080343_ロケーション
+      - cell "test_faq_deep2_202606080343_loc" [ref=e863]:
+        - paragraph [ref=e864]: test_faq_deep2_202606080343_loc
+    - row "アイテムを選択する TEST_FAQ_店舗在庫EC販売用 TESTEC01" [ref=e865] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e866]:
+        - generic [ref=e868]:
+          - generic [ref=e870]:
+            - checkbox "アイテムを選択する" [ref=e871]
+            - generic
+          - generic [ref=e873]: アイテムを選択する
+      - cell "TEST_FAQ_店舗在庫EC販売用" [ref=e874]:
+        - paragraph [ref=e875]: TEST_FAQ_店舗在庫EC販売用
+      - cell "TESTEC01" [ref=e876]:
+        - paragraph [ref=e877]: TESTEC01
+    - row "アイテムを選択する Test1 12456789098765" [ref=e878] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e879]:
+        - generic [ref=e881]:
+          - generic [ref=e883]:
+            - checkbox "アイテムを選択する" [ref=e884]
+            - generic
+          - generic [ref=e886]: アイテムを選択する
+      - cell "Test1" [ref=e887]:
+        - paragraph [ref=e888]: Test1
+      - cell "12456789098765" [ref=e889]:
+        - paragraph [ref=e890]: "12456789098765"

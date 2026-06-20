@@ -1,0 +1,156 @@
+[
+  {
+    "i": 0,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを切り替える",
+    "aria": "メニューを切り替える"
+  },
+  {
+    "i": 2,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "stack-ps-yosuke 陽介 河野",
+    "aria": ""
+  },
+  {
+    "i": 3,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを閉じる",
+    "aria": "メニューを閉じる"
+  },
+  {
+    "i": 4,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "移動伝票を作成する",
+    "aria": ""
+  },
+  {
+    "i": 6,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "その他のビュー",
+    "aria": "その他のビュー"
+  },
+  {
+    "i": 7,
+    "tag": "BUTTON",
+    "role": "tab",
+    "type": "button",
+    "text": "すべて",
+    "aria": ""
+  },
+  {
+    "i": 8,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "その他のビュー",
+    "aria": "その他のビュー"
+  },
+  {
+    "i": 9,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "検索と絞り込みの結果",
+    "aria": "検索と絞り込みの結果"
+  },
+  {
+    "i": 11,
+    "tag": "INPUT",
+    "role": "checkbox",
+    "type": "checkbox",
+    "text": "on",
+    "value": "on",
+    "aria": ""
+  },
+  {
+    "i": 12,
+    "tag": "TR",
+    "role": "",
+    "type": "",
+    "text": "商品 SKU 確保数 移動元 移動先 確保日時",
+    "aria": ""
+  },
+  {
+    "i": 13,
+    "tag": "TR",
+    "role": "",
+    "type": "",
+    "text": "オーバーサイズスウェットシャツ 486125-31-L 2 物流倉庫 ユニクロ - 銀座店 2026年06月08日 10:55",
+    "aria": ""
+  },
+  {
+    "i": 14,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "前へ",
+    "aria": "前へ"
+  },
+  {
+    "i": 15,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "次へ",
+    "aria": "次へ"
+  },
+  {
+    "i": 16,
+    "tag": "DIV",
+    "role": "dialog",
+    "type": "",
+    "text": "移動伝票を作成する 確保済みの在庫引当リクエストから在庫移動伝票を作成します。対象のロケーションを選択してください。 移動元 キャンセル 実行する",
+    "aria": ":r1k:"
+  },
+  {
+    "i": 17,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "閉じる",
+    "aria": "閉じる"
+  },
+  {
+    "i": 18,
+    "tag": "LABEL",
+    "role": "",
+    "type": "",
+    "text": "移動元",
+    "aria": ""
+  },
+  {
+    "i": 19,
+    "tag": "INPUT",
+    "role": "",
+    "type": "text",
+    "text": "選択してください",
+    "value": "",
+    "aria": ""
+  },
+  {
+    "i": 21,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "キャンセル",
+    "aria": ""
+  },
+  {
+    "i": 22,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "実行する",
+    "aria": ""
+  }
+]

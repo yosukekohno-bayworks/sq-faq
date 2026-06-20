@@ -1,0 +1,98 @@
+[
+  {
+    "i": 0,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "TEST_FAQ_COVERAGE_20260615_会社ロケーション2",
+    "checked": false
+  },
+  {
+    "i": 1,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "EXT-COMP-LOC-20260615",
+    "checked": false
+  },
+  {
+    "i": 2,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "TFCCL20260615",
+    "checked": false
+  },
+  {
+    "i": 3,
+    "tag": "SELECT",
+    "type": "select-one",
+    "value": "JP"
+  },
+  {
+    "i": 4,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "FAQ",
+    "checked": false
+  },
+  {
+    "i": 5,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "Location20260615",
+    "checked": false
+  },
+  {
+    "i": 6,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "TEST_FAQ_COVERAGE_COMPANY_LOCATION",
+    "checked": false
+  },
+  {
+    "i": 7,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "100-0001",
+    "checked": false
+  },
+  {
+    "i": 8,
+    "tag": "SELECT",
+    "type": "select-one",
+    "value": "JP-13"
+  },
+  {
+    "i": 9,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "千代田区",
+    "checked": false
+  },
+  {
+    "i": 10,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "千代田1-1",
+    "checked": false
+  },
+  {
+    "i": 11,
+    "tag": "INPUT",
+    "type": "text",
+    "value": "テストビル101",
+    "checked": false
+  },
+  {
+    "i": 12,
+    "tag": "INPUT",
+    "type": "tel",
+    "value": "0312345678",
+    "checked": false
+  },
+  {
+    "i": 13,
+    "tag": "INPUT",
+    "type": "checkbox",
+    "value": "on",
+    "checked": true
+  }
+]

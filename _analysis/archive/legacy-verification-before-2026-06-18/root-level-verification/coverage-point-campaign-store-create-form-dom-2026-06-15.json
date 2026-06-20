@@ -1,0 +1,351 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/98fc50d6-1b4c-5a9c-9fa5-f97fe68e33ee_PointCampaignOrderRule/retail_locations/create",
+  "actions": [
+    {
+      "i": 0,
+      "tag": "A",
+      "type": "",
+      "text": "コンテンツにスキップ",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/98fc50d6-1b4c-5a9c-9fa5-f97fe68e33ee_PointCampaignOrderRule/retail_locations/create#AppFrameMain",
+      "disabled": false,
+      "html": "<a href=\"#AppFrameMain\"><span class=\"Polaris-Text--root Polaris-Text--bodyLg Polaris-Text--medium\">コンテンツにスキップ</span></a>"
+    },
+    {
+      "i": 1,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "メニューを切り替える",
+      "href": "",
+      "disabled": false,
+      "html": "<button type=\"button\" class=\"Polaris-TopBar__NavigationIcon\" aria-label=\"メニューを切り替える\"><div class=\"Polaris-TopBar__IconWrapper\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M3 4.75a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 0 1.5h-12.5a.75.75 0 0 1-.75-.75Z\"></path><path fill-rule=\"evenodd\" d=\"M3 10a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 0 1.5h-12.5a.75.75 0 0 1-.75-.75Z\"></path><path fill-rule=\"evenodd\" d=\"M3 15.25a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 0 1.5h-12.5a.75.75 0 0 1-.75-.75Z\"></path></svg></span></div></button>"
+    },
+    {
+      "i": 2,
+      "tag": "A",
+      "type": "",
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false,
+      "html": "<a class=\"Polaris-TopBar__LogoLink\" href=\"/admin\"><img alt=\"\" src=\"/logo_white.png\" class=\"Polaris-TopBar__Logo\" style=\"width: 40px;\"></a>"
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "href": "",
+      "disabled": false,
+      "html": "<button type=\"button\" class=\"Polaris-TopBar-Menu__Activator\" tabindex=\"0\" aria-controls=\":r1:\" aria-owns=\":r1:\" aria-expanded=\"false\" data-state=\"closed\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"m7.252 14.424-2.446-.281c-1.855-.213-2.38-2.659-.778-3.616l.065-.038a2.887 2.887 0 0 0 1.407-2.48v-.509a4.5 4.5 0 0 1 9 0v.51c0 1.016.535 1.958 1.408 2.479l.065.038c1.602.957 1.076 3.403-.778 3.616l-2.543.292v.365a2.7 2.7 0 0 1-5.4 0v-.376Zm3.9.076h-2.4v.3a1.2 1.2 0 0 0 2.4 0v-.3Zm-3.152-1.5h4l3.024-.348a.452.452 0 0 0 .18-.837l-.065-.038a4.414 4.414 0 0 1-.747-.562 4.387 4.387 0 0 1-1.392-3.205v-.51a3 3 0 0 0-6 0v.51a4.387 4.387 0 0 1-2.138 3.767l-.065.038a.452.452 0 0 0 .18.838l3.023.347Z\"></path></svg></span></button>"
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "href": "",
+      "disabled": false,
+      "html": "<button type=\"button\" class=\"Polaris-TopBar-Menu__Activator Polaris-TopBar-Menu__Activator--userMenu\" tabindex=\"0\" aria-controls=\":r2:\" aria-owns=\":r2:\" aria-expanded=\"false\" data-state=\"closed\"><span class=\"Polaris-TopBar-UserMenu__Details\"><p class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium Polaris-Text--block Polaris-Text--start Polaris-Text--truncate\">stack-ps-yosuke</p><span><p class=\"Polaris-Text--root Polaris-Text--bodyXs Polaris-Text--block Polaris-Text--start Polaris-Text--textInverseSecondary Polaris-Text--truncate\">陽介 河野</p></span></span><div class=\"Polaris-MessageIndicator__MessageIndicatorWrapper\"><span aria-label=\"stack-ps-yosuke\" role=\"img\" class=\"Polaris-Avatar Polaris-Avatar--sizeMd Polaris-Avatar--imageHasLoaded\"><img alt=\"\" src=\"https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzNEeUxzWnVsRG1UTGpqTlpkcHRBOTIzT3NpMiJ9\" class=\"Polaris-Avatar__Image\" role=\"presentation\"></span></div></button>"
+    },
+    {
+      "i": 5,
+      "tag": "A",
+      "type": "",
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__LogoLink\" href=\"/admin\"><img alt=\"\" src=\"/logo_white.png\" class=\"Polaris-Navigation__Logo\" style=\"width: 40px;\"></a>"
+    },
+    {
+      "i": 6,
+      "tag": "A",
+      "type": "",
+      "text": "ホーム",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M14 16h-2a1 1 0 0 1-1-1v-2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v2.5a1 1 0 0 1-1 1h-2a2 2 0 0 1-2-2v-4.257a3 3 0 0 1 .879-2.122l3.707-3.707a2 2 0 0 1 2.828 0l3.707 3.707a3 3 0 0 1 .879 2.122v4.257a2 2 0 0 1-2 2Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">ホーム</span></span></a>"
+    },
+    {
+      "i": 7,
+      "tag": "A",
+      "type": "",
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/products\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M8.575 4.649a3.75 3.75 0 0 1 2.7-1.149h1.975a3.25 3.25 0 0 1 3.25 3.25v2.187a3.25 3.25 0 0 1-.996 2.34l-4.747 4.572a2.5 2.5 0 0 1-3.502-.033l-2.898-2.898a2.75 2.75 0 0 1-.036-3.852l4.254-4.417Zm4.425 3.351a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">商品管理</span></span></a>"
+    },
+    {
+      "i": 8,
+      "tag": "A",
+      "type": "",
+      "text": "在庫管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_items",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/inventory_items\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M8.77 3.406a2.25 2.25 0 0 1 2.46 0l3.569 2.328a3.75 3.75 0 0 1 1.701 3.141v6.875c0 .69-.56 1.25-1.25 1.25h-10.5c-.69 0-1.25-.56-1.25-1.25v-6.875a3.75 3.75 0 0 1 1.702-3.141l3.569-2.328Zm.73 9.844a.5.5 0 0 0-.5-.5h-1.5a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h1.5a.5.5 0 0 0 .5-.5v-2Zm1.25-4.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1.5a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1.5Zm2.25 4.5a.5.5 0 0 0-.5-.5h-1.5a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h1.5a.5.5 0 0 0 .5-.5v-2Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">在庫管理</span></span></a>"
+    },
+    {
+      "i": 9,
+      "tag": "A",
+      "type": "",
+      "text": "注文管理",
+      "href": "https://www.sqstackstaging.com/admin/orders",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/orders\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4.255 5.847a2.75 2.75 0 0 1 2.72-2.347h6.05a2.75 2.75 0 0 1 2.72 2.347l.66 4.46c.063.425.095.853.095 1.282v1.661a3.25 3.25 0 0 1-3.25 3.25h-6.5a3.25 3.25 0 0 1-3.25-3.25v-1.66c0-.43.032-.858.094-1.283l.661-4.46Zm2.72-.847a1.25 1.25 0 0 0-1.236 1.067l-.583 3.933h2.484a1.25 1.25 0 0 1 1.185.855l.159.474a.25.25 0 0 0 .237.171h1.558a.25.25 0 0 0 .237-.17l.159-.475a1.25 1.25 0 0 1 1.185-.855h2.484l-.583-3.933a1.25 1.25 0 0 0-1.236-1.067h-6.05Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">注文管理</span></span><div class=\"Polaris-Navigation__Badge\"></div></a>"
+    },
+    {
+      "i": 10,
+      "tag": "A",
+      "type": "",
+      "text": "顧客管理",
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/purchasing_customers\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M10 9.75a3.25 3.25 0 1 0 0-6.5 3.25 3.25 0 0 0 0 6.5Z\"></path><path d=\"M10 11.5c-1.968 0-3.815.95-4.959 2.552l-.561.786a1.05 1.05 0 0 0 .855 1.662h9.33a1.05 1.05 0 0 0 .855-1.662l-.561-.786a6.094 6.094 0 0 0-4.959-2.552Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">顧客管理</span></span></a>"
+    },
+    {
+      "i": 11,
+      "tag": "A",
+      "type": "",
+      "text": "発注管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/inventory_purchase_orders\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 3.5h8.5a1 1 0 0 1 1 1v3.765a2 2 0 0 0-2.076 1.167 3.251 3.251 0 0 0-1.366 5.212 1.997 1.997 0 0 0-.793 1.856h-5.265a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1Zm1.125 3.25c0-.345.28-.625.625-.625h5a.625.625 0 1 1 0 1.25h-5a.625.625 0 0 1-.625-.625Zm0 3c0-.345.28-.625.625-.625h2.75a.625.625 0 1 1 0 1.25h-2.75a.625.625 0 0 1-.625-.625Zm0 3c0-.345.28-.625.625-.625h2.25a.625.625 0 1 1 0 1.25h-2.25a.625.625 0 0 1-.625-.625Z\"></path><path d=\"M13.25 9.5a.749.749 0 0 1 .75.75v.25h.75a.75.75 0 0 1 0 1.5h-2.25a.5.5 0 0 0 0 1h1a2 2 0 1 1 0 4 .75.75 0 0 1-1.5 0h-.75a.75.75 0 0 1-.002-1.5h2.252a.5.5 0 0 0 0-1h-1a2 2 0 1 1 0-4v-.25a.75.75 0 0 1 .75-.75Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polar"
+    },
+    {
+      "i": 12,
+      "tag": "A",
+      "type": "",
+      "text": "販売設定",
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/product_price_rules\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M14.772 9c-.63 0-1.232.254-1.669.704l-2.628 2.709c-.642.661-.632 1.712.023 2.361l1.79 1.777c.595.59 1.557.6 2.164.02l2.933-2.802c.393-.376.615-.894.615-1.436v-1.34c0-1.1-.899-1.993-2.008-1.993h-1.22Zm.978 3c.414 0 .75-.336.75-.75s-.336-.75-.75-.75-.75.336-.75.75.336.75.75.75Z\"></path><path d=\"M4.95 6.7c0-1.27 1.03-2.3 2.3-2.3h5.55c1.27 0 2.3 1.03 2.3 2.3v.4c0 .387.313.7.7.7.387 0 .7-.313.7-.7v-.4c0-2.043-1.656-3.7-3.7-3.7h-5.55c-2.043 0-3.7 1.657-3.7 3.7v6.55c0 2.044 1.657 3.7 3.7 3.7h1.75c.387 0 .7-.313.7-.7 0-.386-.313-.7-.7-.7h-1.75c-1.27 0-2.3-1.03-2.3-2.3v-6.55Z\"></path><path d=\"M7 7c0-.414.336-.75.75-.75h4.5c.414 0 .75.336.75.75s-.336.75-.75.75h-4.5c-.414 0-.75-.336-.75-.75Z\"></path><path d=\"M7 10c0-.414.336-.75.75-.75h2c.414 0 .75."
+    },
+    {
+      "i": 13,
+      "tag": "A",
+      "type": "",
+      "text": "会計",
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/sale_change_line_items\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M10.54 3.177a1.25 1.25 0 0 0-1.08 0l-5.25 2.51a1.25 1.25 0 0 0-.71 1.128v1.185c0 .69.56 1.25 1.25 1.25v3h-.25a1 1 0 0 0-1 1v1.5a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-1.5a1 1 0 0 0-1-1h-.25v-3c.69 0 1.25-.56 1.25-1.25v-1.185c0-.481-.276-.92-.71-1.128l-5.25-2.51Zm1.71 6.073h1.5v3h-1.5v-3Zm-3 0h1.5v3h-1.5v-3Zm-3 0h1.5v3h-1.5v-3Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">会計</span></span></a>"
+    },
+    {
+      "i": 14,
+      "tag": "A",
+      "type": "",
+      "text": "分析",
+      "href": "https://www.sqstackstaging.com/admin/analytics",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item Polaris-Navigation__Item--disabled\" href=\"/admin/analytics\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M9.971 4c-.204 0-.344 0-.465.024a1.25 1.25 0 0 0-.982.982c-.024.121-.024.26-.024.465v9.058c0 .204 0 .344.024.465.099.496.486.883.982.982a2.5 2.5 0 0 0 .465.024h.058c.204 0 .344 0 .465-.024a1.25 1.25 0 0 0 .982-.982 2.5 2.5 0 0 0 .024-.465v-9.058c0-.204 0-.344-.024-.465a1.25 1.25 0 0 0-.982-.982 2.504 2.504 0 0 0-.465-.024h-.058Z\"></path><path d=\"M5.471 9.5c-.204 0-.344 0-.465.024a1.25 1.25 0 0 0-.982.982c-.024.121-.024.26-.024.465v3.558c0 .204 0 .344.024.465.099.496.486.883.982.982a2.5 2.5 0 0 0 .465.024h.058c.204 0 .344 0 .465-.024a1.25 1.25 0 0 0 .982-.982c.024-.121.024-.26.024-.465v-3.558c0-.204 0-.344-.024-.465a1.25 1.25 0 0 0-.982-.982 2.503 2.503 0 0 0-.465-.024h-.058Z\"></path><path d=\"M14.471 6.5c-.204 0-.344 0-.465.024a1.25 1"
+    },
+    {
+      "i": 15,
+      "tag": "A",
+      "type": "",
+      "text": "入荷管理\n未完了の入荷指示 1件\n1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/inventory_inbound_orders\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M15 10.75v-2.75h-10v6.75c0 .138.112.25.25.25h4c.414 0 .75.336.75.75s-.336.75-.75.75h-4c-.966 0-1.75-.784-1.75-1.75v-6.863c0-.57.177-1.125.506-1.59l1.309-1.848c.421-.595 1.106-.949 1.836-.949h5.796c.753 0 1.455.376 1.872 1.002l1.22 1.828c.3.452.461.983.461 1.526v2.894c0 .414-.336.75-.75.75s-.75-.336-.75-.75Zm-8.461-5.434c.14-.198.368-.316.612-.316h2.099v1.5h-3.55l.839-1.184Zm7.81 1.184h-3.599v-1.5h2.197c.251 0 .485.125.624.334l.778 1.166Z\"></path><path fill-rule=\"evenodd\" d=\"M6 10c0-.552.448-1 1-1h4c.552 0 1 .448 1 1v3c0 .552-.448 1-1 1h-4c-.552 0-1-.448-1-1v-3Zm1.5.5v2h3v-2h-3Z\"></path><path d=\"M17.5 12.75c0-.414-.336-.75-.75-.75s-.75.336-.75.75v.5c0 .966-.784 1.75-1.75 1.75h-.94l.22-.22c.293-.293.293-.767 0-1.06-.293-.293-.767-.293-"
+    },
+    {
+      "i": 16,
+      "tag": "A",
+      "type": "",
+      "text": "出荷管理\n未完了の出荷指示 1件\n1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/inventory_outbound_orders\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4.75 4.5a.75.75 0 0 0 0 1.5h3.25a1 1 0 0 1 0 2h-4.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 0 0 1.5h.458a2.5 2.5 0 1 0 4.78.75h3.024a2.5 2.5 0 1 0 4.955-.153 1.75 1.75 0 0 0 1.033-1.597v-1.22a1.75 1.75 0 0 0-1.326-1.697l-1.682-.42a.25.25 0 0 1-.18-.174l-.426-1.494a2.75 2.75 0 0 0-2.645-1.995h-6.991Zm2.75 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">出荷管理</span></span><div class=\"Polaris-Navigation__Badge\"><span class=\"Polaris-Badge\"><span class=\"Polaris-Text--root Polaris-Text--visuallyHidden\">未完了の出荷指示 1件</span><span class=\"Polaris-Text--root Polaris-Text--bo"
+    },
+    {
+      "i": 17,
+      "tag": "A",
+      "type": "",
+      "text": "在庫依頼",
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/inventory_allocation_requests\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M4.5 4.75a.75.75 0 0 0-1.5 0v10.5a.75.75 0 0 0 1.5 0v-6.75h6.94l-.72.72a.75.75 0 1 0 1.06 1.06l2-2a.75.75 0 0 0 0-1.06l-2-2a.75.75 0 1 0-1.06 1.06l.72.72h-6.94v-2.25Z\"></path><path d=\"M17 4.75a.75.75 0 0 0-1.5 0v7.25h-6.94l.72-.72a.75.75 0 1 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 0 0 1.06-1.06l-.72-.72h6.94v1.75a.75.75 0 0 0 1.5 0v-10.5Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">在庫依頼</span></span><div class=\"Polaris-Navigation__Badge\"></div></a>"
+    },
+    {
+      "i": 18,
+      "tag": "A",
+      "type": "",
+      "text": "ディスカウント",
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/order_price_adjustment_rules\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M11.527 3.327c-.6-1.306-2.455-1.306-3.054 0a1.68 1.68 0 0 1-2.112.874c-1.347-.5-2.66.813-2.16 2.16a1.68 1.68 0 0 1-.874 2.112c-1.306.6-1.306 2.455 0 3.054a1.68 1.68 0 0 1 .874 2.112c-.5 1.347.813 2.659 2.16 2.16a1.68 1.68 0 0 1 2.112.874c.6 1.306 2.455 1.306 3.054 0a1.68 1.68 0 0 1 2.112-.874c1.347.499 2.66-.813 2.16-2.16a1.68 1.68 0 0 1 .874-2.112c1.306-.6 1.306-2.455 0-3.054a1.68 1.68 0 0 1-.874-2.112c.5-1.347-.813-2.66-2.16-2.16a1.68 1.68 0 0 1-2.112-.874Zm-2.527 4.923a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm3.53.53-4 4a.75.75 0 1 1-1.06-1.06l4-4a.75.75 0 1 1 1.06 1.06Zm.47 3.47a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text-"
+    },
+    {
+      "i": 19,
+      "tag": "A",
+      "type": "",
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item Polaris-Navigation__Item--selected Polaris-Navigation--subNavigationActive Polaris-Navigation--itemChildActive\" href=\"/admin/point_calculation_rules\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14Zm-.5-10.5a.75.75 0 0 1 1.5 0v.25h.75a.75.75 0 0 1 0 1.5h-2.25a.5.5 0 0 0 0 1h1a2 2 0 1 1 0 4v.25a.75.75 0 0 1-1.5 0v-.25h-.75a.75.75 0 0 1 0-1.5h2.25a.5.5 0 0 0 0-1h-1a2 2 0 1 1 0-4v-.25Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">ポイント</span></span></a>"
+    },
+    {
+      "i": 20,
+      "tag": "A",
+      "type": "",
+      "text": "キャンペーン",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item Polaris-Navigation__Item--selected Polaris-Navigation--subNavigationActive Polaris-Navigation--itemLinePointer\" href=\"/admin/point_campaign_order_rules\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--semibold\">キャンペーン</span></span></a>"
+    },
+    {
+      "i": 21,
+      "tag": "A",
+      "type": "",
+      "text": "誕生日",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/point_calculation_birthday_rules\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular Polaris-Text--subdued\">誕生日</span></span></a>"
+    },
+    {
+      "i": 22,
+      "tag": "A",
+      "type": "",
+      "text": "利用外商品",
+      "href": "https://www.sqstackstaging.com/admin/point_application_excluded_products",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/point_application_excluded_products\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular Polaris-Text--subdued\">利用外商品</span></span></a>"
+    },
+    {
+      "i": 23,
+      "tag": "A",
+      "type": "",
+      "text": "失効通知",
+      "href": "https://www.sqstackstaging.com/admin/point_expiration_notification_rule",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/point_expiration_notification_rule\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular Polaris-Text--subdued\">失効通知</span></span></a>"
+    },
+    {
+      "i": 24,
+      "tag": "A",
+      "type": "",
+      "text": "会員ランク",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/customer_rank_calculation_rules\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"m14.208 4.688 1.533-2.3a.25.25 0 0 0-.208-.388h-3.066a.25.25 0 0 0-.208.389l1.533 2.299a.25.25 0 0 0 .416 0Z\"></path><path fill-rule=\"evenodd\" d=\"M11.25 7c0-.69.56-1.25 1.25-1.25h3.25c.69 0 1.25.56 1.25 1.25v8.75c0 .69-.56 1.25-1.25 1.25h-11.5c-.69 0-1.25-.56-1.25-1.25v-2.75c0-.69.56-1.25 1.25-1.25h2.75v-1.75c0-.69.56-1.25 1.25-1.25h3v-1.75Zm1.5.25v2.25h1.5v-2.25h-1.5Zm-4.25 3h1.5v2.25h-1.5v-2.25Zm-4 3h1.5v2.25h-1.5v-2.25Z\"></path></svg></span></div><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">会員ランク</span></span></a>"
+    },
+    {
+      "i": 25,
+      "tag": "A",
+      "type": "",
+      "text": "Shopify",
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/shopify_integrations\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">Shopify</span></span></a>"
+    },
+    {
+      "i": 26,
+      "tag": "A",
+      "type": "",
+      "text": "OmnibusCore",
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/omnibus_core_integrations\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">OmnibusCore</span></span></a>"
+    },
+    {
+      "i": 27,
+      "tag": "A",
+      "type": "",
+      "text": "スマレジ",
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/smaregi_integrations\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">スマレジ</span></span></a>"
+    },
+    {
+      "i": 28,
+      "tag": "A",
+      "type": "",
+      "text": "リテールポータル",
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/retail_portal_integrations\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">リテールポータル</span></span></a>"
+    },
+    {
+      "i": 29,
+      "tag": "A",
+      "type": "",
+      "text": "卸売",
+      "href": "https://www.sqstackstaging.com/admin/b2b",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item Polaris-Navigation__Item--disabled\" href=\"/admin/b2b\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">卸売</span></span></a>"
+    },
+    {
+      "i": 30,
+      "tag": "A",
+      "type": "",
+      "text": "設定",
+      "href": "https://www.sqstackstaging.com/admin/settings",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item\" href=\"/admin/settings\"><div class=\"Polaris-Navigation__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M8.013 4.389c0-.767.621-1.389 1.389-1.389h1.196c.767 0 1.39.622 1.39 1.389v.66c0 .153.101.33.307.436.141.074.278.155.411.241.196.128.402.13.536.052l.576-.332a1.389 1.389 0 0 1 1.897.508l.599 1.037a1.39 1.39 0 0 1-.509 1.897l-.621.359c-.131.075-.232.249-.225.477a5.135 5.135 0 0 1-.004.427c-.012.233.09.412.223.489l.627.362c.665.384.892 1.233.509 1.897l-.599 1.037a1.39 1.39 0 0 1-1.897.508l-.672-.388c-.132-.076-.332-.076-.526.045a4.928 4.928 0 0 1-.325.185c-.206.108-.308.284-.308.437v.778a1.39 1.39 0 0 1-1.389 1.39h-1.196a1.389 1.389 0 0 1-1.39-1.39v-.778c0-.153-.102-.33-.307-.437a4.96 4.96 0 0 1-.325-.185c-.194-.121-.395-.12-.526-.045l-.672.388a1.39 1.39 0 0 1-1.898-.508l-.598-1.037a1.389 1.389 0 0 1 .509-1.897l.627-.362c.133-.077.235-.256.223-.49a5.0"
+    },
+    {
+      "i": 31,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "メニューを閉じる",
+      "href": "",
+      "disabled": false,
+      "html": "<button type=\"button\" class=\"Polaris-Frame__NavigationDismiss\" aria-hidden=\"true\" aria-label=\"メニューを閉じる\" tabindex=\"-1\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M13.97 15.03a.75.75 0 1 0 1.06-1.06l-3.97-3.97 3.97-3.97a.75.75 0 0 0-1.06-1.06l-3.97 3.97-3.97-3.97a.75.75 0 0 0-1.06 1.06l3.97 3.97-3.97 3.97a.75.75 0 1 0 1.06 1.06l3.97-3.97 3.97 3.97Z\"></path></svg></span></button>"
+    },
+    {
+      "i": 32,
+      "tag": "A",
+      "type": "",
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/98fc50d6-1b4c-5a9c-9fa5-f97fe68e33ee_PointCampaignOrderRule/retail_locations",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--iconOnly\" href=\"/admin/point_campaign_order_rules/98fc50d6-1b4c-5a9c-9fa5-f97fe68e33ee_PointCampaignOrderRule/retail_locations\"><span class=\"Polaris-Button__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M16.5 10a.75.75 0 0 1-.75.75h-9.69l2.72 2.72a.75.75 0 0 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 1 1 1.06 1.06l-2.72 2.72h9.69a.75.75 0 0 1 .75.75Z\"></path></svg></span></span></a>"
+    },
+    {
+      "i": 33,
+      "tag": "INPUT",
+      "type": "radio",
+      "text": "LOCATION",
+      "href": "",
+      "disabled": false,
+      "checked": true,
+      "html": "<input id=\":r22:\" class=\"Polaris-RadioButton__Input\" type=\"radio\" value=\"LOCATION\" checked=\"\" name=\":r21:\">"
+    },
+    {
+      "i": 34,
+      "tag": "INPUT",
+      "type": "radio",
+      "text": "LOCATION_GROUP",
+      "href": "",
+      "disabled": false,
+      "checked": false,
+      "html": "<input id=\":r23:\" class=\"Polaris-RadioButton__Input\" type=\"radio\" value=\"LOCATION_GROUP\" name=\":r21:\">"
+    },
+    {
+      "i": 35,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "選択してください",
+      "href": "",
+      "disabled": false,
+      "checked": false,
+      "html": "<input id=\":r24:\" placeholder=\"選択してください\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r24:Label\" aria-invalid=\"false\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\">"
+    },
+    {
+      "i": 36,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "選択",
+      "href": "",
+      "disabled": false,
+      "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeLarge Polaris-Button--textAlignCenter\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">選択</span></button>"
+    },
+    {
+      "i": 37,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "保存する",
+      "href": "",
+      "disabled": false,
+      "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" aria-disabled=\"false\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">保存する</span></button>"
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n対象店舗を追加する。このページの準備が整いました\n\n対象店舗を追加する\n\nTEST_FAQ_DEEP3_202606080345_ポイントCP\n\n選択方法\n店舗を選択して追加する\n店舗グループを選択して追加する\n店舗\n選択\n保存する"
+}

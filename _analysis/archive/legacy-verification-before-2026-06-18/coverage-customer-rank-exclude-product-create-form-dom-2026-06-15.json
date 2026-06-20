@@ -1,0 +1,183 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules/62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule/exclude_products/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n除外商品を作成。このページの準備が整いました\n\n除外商品を作成\n除外商品を選択する\n選択\n保存する",
+  "fields": [
+    {
+      "i": 0,
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "placeholder": "選択してください",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "除外商品を選択する"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "選択",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "保存する",
+      "aria": null,
+      "disabled": false
+    }
+  ],
+  "links": [
+    {
+      "i": 0,
+      "text": "コンテンツにスキップ",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules/62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule/exclude_products/create#AppFrameMain"
+    },
+    {
+      "i": 1,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 2,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 3,
+      "text": "ホーム",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "i": 4,
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products"
+    },
+    {
+      "i": 5,
+      "text": "在庫管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_items"
+    },
+    {
+      "i": 6,
+      "text": "注文管理",
+      "href": "https://www.sqstackstaging.com/admin/orders"
+    },
+    {
+      "i": 7,
+      "text": "顧客管理",
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+    },
+    {
+      "i": 8,
+      "text": "発注管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+    },
+    {
+      "i": 9,
+      "text": "販売設定",
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+    },
+    {
+      "i": 10,
+      "text": "会計",
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+    },
+    {
+      "i": 11,
+      "text": "分析",
+      "href": "https://www.sqstackstaging.com/admin/analytics"
+    },
+    {
+      "i": 12,
+      "text": "入荷管理 未完了の入荷指示 1件 1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+    },
+    {
+      "i": 13,
+      "text": "出荷管理 未完了の出荷指示 1件 1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+    },
+    {
+      "i": 14,
+      "text": "在庫依頼",
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+    },
+    {
+      "i": 15,
+      "text": "ディスカウント",
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+    },
+    {
+      "i": 16,
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+    },
+    {
+      "i": 17,
+      "text": "会員ランク",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+    },
+    {
+      "i": 18,
+      "text": "Shopify",
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+    },
+    {
+      "i": 19,
+      "text": "OmnibusCore",
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+    },
+    {
+      "i": 20,
+      "text": "スマレジ",
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+    },
+    {
+      "i": 21,
+      "text": "リテールポータル",
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+    },
+    {
+      "i": 22,
+      "text": "卸売",
+      "href": "https://www.sqstackstaging.com/admin/b2b"
+    },
+    {
+      "i": 23,
+      "text": "設定",
+      "href": "https://www.sqstackstaging.com/admin/settings"
+    },
+    {
+      "i": 24,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules/62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule/exclude_products"
+    }
+  ]
+}

@@ -1,0 +1,2707 @@
+{
+  "generatedAt": "2026-06-08T03:18:07.925Z",
+  "records": [
+    {
+      "url": "https://docs.sqstack.com/docs/guide/introduction",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/introduction",
+      "status": 200,
+      "gotoError": null,
+      "title": "SQガイド - SQ HelpCenter",
+      "h1": [
+        "SQガイド"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n管理",
+        "商品",
+        "顧客",
+        "在庫",
+        "注文",
+        "倉庫",
+        "​\nCRM",
+        "ポイント",
+        "会員ランク",
+        "ディスカウント",
+        "​\n販売チャネル連携",
+        "Shopify",
+        "リテールポータル",
+        "POSシステム",
+        "​\n設定",
+        "データ管理",
+        "カスタムデータ",
+        "外部連携",
+        "インポート/エクスポート"
+      ],
+      "textLength": 674,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 37,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/import-export",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n管理\nCRM\n販売チャネル連携\n設定\nはじめに\nSQガイド\n\nSQはあらゆるチャネルを横断して在庫・受注・商品を一元管理。SQは”売り切る力”と”効率化”を両立する次世代の基幹システムです。\n\n​\n管理\n商品\n顧客\n在庫\n注文\n倉庫\n​\nCRM\nポイント\n会員ランク\nディスカウント\n​\n販売チャネル連携\nShopify\nリテールポータル\nPOSシステム\nSoon come…\n​\n設定\nデータ管理\nカスタムデータ\n外部連携\nインポート/エクスポート\n商品管理\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/001-introduction.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/app-integrations",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/app-integrations",
+      "status": 200,
+      "gotoError": null,
+      "title": "外部連携 - SQ HelpCenter",
+      "h1": [
+        "外部連携"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n標準機能で連携可能なサービス",
+        "Shopify",
+        "スマレジ（近日連携予定）",
+        "OmnibusCore",
+        "Recustomer",
+        "​\nSQのAPIを外部から利用可能にする",
+        "SQのAPIを利用するためのトークンを発行"
+      ],
+      "textLength": 699,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 28,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/app-integrations/recustomer",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/access-token",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/shopifyflow"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n標準機能で連携可能なサービス\n販売チャネル\n業務効率化\nSQのAPIを外部から利用可能にする\n設定\n外部連携\n\n外部システムとAPI連携を行うためのアクセストークンの発行と、外部システムのトークンの登録を行うことができます。\n\n​\n標準機能で連携可能なサービス\n​\n販売チャネル\nShopify\nスマレジ（近日連携予定）\nComing Soon...\nOmnibusCore\n​\n業務効率化\nRecustomer\n​\nSQのAPIを外部から利用可能にする\nSQのAPIを利用するためのトークンを発行\nデータ管理\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/002-app-integrations.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/customers",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/customers",
+      "status": 200,
+      "gotoError": null,
+      "title": "顧客管理 - SQ HelpCenter",
+      "h1": [
+        "顧客管理"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 480,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 18,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\n管理\n顧客管理\n\n顧客情報の管理、顧客の注文履歴、顧客の分析ができます。\n\n商品管理\n在庫管理機能\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/003-customers.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management",
+      "status": 200,
+      "gotoError": null,
+      "title": "データ管理 - SQ HelpCenter",
+      "h1": [
+        "データ管理"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n目次",
+        "​\n管理メンバー",
+        "​\nテナント",
+        "​\nロケーション",
+        "​\nロケーショングループ",
+        "​\nブランド",
+        "​\n取引先",
+        "​\n決済方法",
+        "​\n販売員"
+      ],
+      "textLength": 1353,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 43,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-brands",
+        "https://docs.sqstack.com/docs/guide/data-management/create-location-groups",
+        "https://docs.sqstack.com/docs/guide/data-management/create-locations",
+        "https://docs.sqstack.com/docs/guide/data-management/create-payment-methods",
+        "https://docs.sqstack.com/docs/guide/data-management/create-retail-staff-members",
+        "https://docs.sqstack.com/docs/guide/data-management/create-tenants",
+        "https://docs.sqstack.com/docs/guide/data-management/create-users",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n目次\n管理メンバー\nテナント\nロケーション\nロケーショングループ\nブランド\n取引先\n決済方法\n販売員\n設定\nデータ管理\n\nデータ管理では、さまざまな情報のマスタ管理が行えます。\n\n​\n目次\nデータ管理で管理できる項目は以下です。\n管理メンバー\nテナント\nロケーション\nロケーショングループ\nブランド\n取引先\n決済方法\n販売員\n​\n管理メンバー\n管理メンバーでは、SQにログインするためのアカウントを管理しています。それぞれのアカウントに対して閲覧や編集権限を設定することができます。\n管理メンバーの登録方法\n権限グループの作成\n​\nテナント\nテナントとは、組織の1つ下の単位でポイントや会員ランクルールが紐づく単位です。一般的にはブランドや、部門の単位で作成されます。\nテナントの登録方法\n​\nロケーション\n在庫や店舗などの場所情報・在庫を管理するための単位です。\nロケーションの登録方法\n​\nロケーショングループ\nロケーションをグループ化したものです。販売チャネルの連携設定に必要です。\nロケーショングループの登録方法\n​\nブランド\nブランドとは、商品の分類の1つです。ブランドとブランドコードを設定しておくことで、商品管理のブランド欄で、ブランド名を選択できるようになります。\nブランドの登録方法\n​\n取引先\n取引先とは、商品の仕入元や販売先などの外部パートナーを管理するためのマスタです。\n※現在詳細ガイド準備中\n​\n決済方法\n決済方法とは、ストアフロントで利用されている決済手段のことです。例）NP後払い\n決済方法を登録しておくことで、会計監査時に必要な、決済種別データを会計システムに送信することができます。\n決済方法の登録方法\n​\n販売員\n販売員では、店舗スタッフのアカウントを管理しています。主に店舗ポータルを利用する際に役立ちます。販売員マスタを登録しておくことで、店舗ポータル利用時に販売員に対して、販売員コードの入力を求めることができます。これにより、どの販売員がどの顧客の個人情報を閲覧したのかや、どの販売員が客注注文を作成したのかを記録することができます。\n販売員の登録方法\n店舗連携\n外部連携\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/004-data-management.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/discounts",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/discounts",
+      "status": 200,
+      "gotoError": null,
+      "title": "ディスカウント利用 - SQ HelpCenter",
+      "h1": [
+        "ディスカウント利用"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nディスカウントを作成する"
+      ],
+      "textLength": 621,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 21,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/discounts/create-discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nディスカウントを作成する\nCRM\nディスカウント利用\n\nSQでディスカウントを発行することで、販売チャネルを横断したクーポン利用を管理したり、顧客の所有しているクーポン一覧を表示することができるようになります。SQでクーポンを発行して、販売機会の拡大を促しましょう。\n\n​\nディスカウントを作成する\nディスカウントを配布する\nポイント機能\n会員ランク機能\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/005-discounts.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/import-export",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/import-export",
+      "status": 200,
+      "gotoError": null,
+      "title": "インポート/エクスポート - SQ HelpCenter",
+      "h1": [
+        "インポート/エクスポート"
+      ],
+      "h2": [
+        "Documentation Index",
+        "CSVインポート",
+        "CSVエクスポート",
+        "PDFエクスポート"
+      ],
+      "textLength": 526,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 19,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/import-export",
+        "https://docs.sqstack.com/docs/guide/import-export/export-csv-files",
+        "https://docs.sqstack.com/docs/guide/import-export/export-pdf-files",
+        "https://docs.sqstack.com/docs/guide/import-export/import-csv-files",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nインポート/エクスポート\n\nCSVを利用してSQにデータを登録・更新したり、CSVやPDFファイルに出力したりすることができます。\n\nCSVインポート\nCSVエクスポート\nPDFエクスポート\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/006-import-export.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/inventory",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/inventory",
+      "status": 200,
+      "gotoError": null,
+      "title": "在庫管理機能 - SQ HelpCenter",
+      "h1": [
+        "在庫管理機能"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n在庫管理メニュー"
+      ],
+      "textLength": 536,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n在庫管理メニュー\n管理\n在庫管理機能\n\n在庫の移動、仕入れ、在庫の状況を確認することができます。\n\n​\n在庫管理メニュー\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n顧客管理\n注文管理機能\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/007-inventory.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/orders",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/orders",
+      "status": 200,
+      "gotoError": null,
+      "title": "注文管理機能 - SQ HelpCenter",
+      "h1": [
+        "注文管理機能"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 582,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 19,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/order/check-order-information",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\n管理\n注文管理機能\n\nSQでは、接続されている全ての販売チャネルからの注文を一元管理できます。\n\n注文情報を確認する\n返品・キャンセル処理 　\n基本的には注文作成元での操作となります。\n※外部ツールとの設計により、SQで操作する運用の場合もございます。\n交換 （実装日未定）\n在庫管理機能\nポイント機能\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/008-orders.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point",
+      "status": 200,
+      "gotoError": null,
+      "title": "ポイント機能 - SQ HelpCenter",
+      "h1": [
+        "ポイント機能"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nポイントの基本ルールを設定する",
+        "​\nポイントで施策を実施する",
+        "​\n顧客にポイントを手動で付与する",
+        "​\nポイントの利用・調整に関する仕様"
+      ],
+      "textLength": 862,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 36,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/adjust-points",
+        "https://docs.sqstack.com/docs/guide/point/create-point-calculation-rules",
+        "https://docs.sqstack.com/docs/guide/point/create-point-campaign",
+        "https://docs.sqstack.com/docs/guide/point/handle-returns-and-cancellations",
+        "https://docs.sqstack.com/docs/guide/point/send-point-notification",
+        "https://docs.sqstack.com/docs/guide/point/set-birthday-points",
+        "https://docs.sqstack.com/docs/guide/point/set-point-application-excluded-products",
+        "https://docs.sqstack.com/docs/guide/point/set-point-multiplier-products",
+        "https://docs.sqstack.com/docs/guide/point/understand-point-logic",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nポイントの基本ルールを設定する\nポイントで施策を実施する\n顧客にポイントを手動で付与する\nポイントの利用・調整に関する仕様\nCRM\nポイント機能\n\nリピート購入やブランドへの愛着を促す機能です。 期間限定のポイントアップや特定商品の優遇などで顧客接点を強化できるほか、ランク制度と組み合わせることで施策の幅が大きく広がります。\n\n​\nポイントの基本ルールを設定する\nポイントの計算方法について\nポイント付与ルールを作成する\nポイントの利用対象外商品を設定する\nポイントの付与対象外商品を設定する\n​\nポイントで施策を実施する\nポイントキャンペーンを設定する\n誕生日ポイントを設定する\nポイント失効通知を顧客に送る\n無期限で特定の商品倍率の変更を設定する\n​\n顧客にポイントを手動で付与する\n管理画面からポイントを付与する\n​\nポイントの利用・調整に関する仕様\n返品・キャンセル時のポイントの扱いについて\n注文管理機能\nディスカウント利用\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/009-point.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products",
+      "status": 200,
+      "gotoError": null,
+      "title": "商品管理 - SQ HelpCenter",
+      "h1": [
+        "商品管理"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 585,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 23,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-metafields",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/products/create-catalog",
+        "https://docs.sqstack.com/docs/guide/products/create-product",
+        "https://docs.sqstack.com/docs/guide/products/update-product",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\n管理\n商品管理\n\n商品の追加・編集、付加情報の管理、カタログの作成ができます。\n\n商品を作成する\n商品をアーカイブする\nカタログを作成・商品を追加する\n商品メタフィールドを追加する\nオンライン購入商品を店舗受取可能商品に設定する　※近日中にガイド追加予定\n商品をShopifyに連携する\nSQガイド\n顧客管理\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/010-products.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank",
+      "status": 200,
+      "gotoError": null,
+      "title": "会員ランク機能 - SQ HelpCenter",
+      "h1": [
+        "会員ランク機能"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n会員ランクの基本設定をする",
+        "​\n会員ランクで施策を実施する",
+        "​\n会員ランク情報を販売チャネルに連携する"
+      ],
+      "textLength": 825,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 30,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/discounts/create-discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/create-point-campaign",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/rank/adjusting-purchase-amount",
+        "https://docs.sqstack.com/docs/guide/rank/create-customer-rank-calculation-rules",
+        "https://docs.sqstack.com/docs/guide/rank/min-rank",
+        "https://docs.sqstack.com/docs/guide/rank/rank-up",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n会員ランクの基本設定をする\n会員ランクで施策を実施する\n会員ランク情報を販売チャネルに連携する\nCRM\n会員ランク機能\n\n顧客のロイヤルティを高め、継続的な購買を促す仕組みです。 購入実績に応じた特典の差別化により顧客体験を向上させ、上位顧客（収益性の高い層）に向けた戦略的なマーケティングが可能になります。\n\n​\n会員ランクの基本設定をする\n会員ランクの基本ルールを作成する\n会員ランクの計算の対象となる購入金額を手動で入力する\n会員の最低ランクの固定をする\n​\n会員ランクで施策を実施する\n会員ランク別のポイントキャンペーンを設定する\n会員ランク別のディスカウントを発行する\n会員ランクアップポイント・クーポンを付与する\n​\n会員ランク情報を販売チャネルに連携する\nShopifyのストアフロントに会員ランクを表示する\nディスカウント利用\nShopify連携\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/011-rank.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+      "status": 200,
+      "gotoError": null,
+      "title": "店舗連携 - SQ HelpCenter",
+      "h1": [
+        "店舗連携"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nPOSシステムとの接続方法",
+        "​\nリテールポータル",
+        "​\n店舗受取"
+      ],
+      "textLength": 813,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 26,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration/setup-retail-portal",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nPOSシステムとの接続方法\nリテールポータル\n店舗受取\n販売チャネル連携\n店舗連携\n\n店舗システムとSQを接続すると、販売チャネルの1つとして店舗を認識できるようになり、商品、在庫、顧客、ポイントやランクの管理をSQで一元化することができるようになります。\n\n​\nPOSシステムとの接続方法\n標準連携しているPOSサービス以外は開発が必要になります。ご相談ください。\n​\nリテールポータル\nリテールポータルとは、オンラインの在庫を店頭で注文・支払いできる客注注文や、他店舗在庫の確認などを可能にする、店舗スタッフ向けのサポート機能です。\nリテールポータルにログインする\n客注注文（オンライン発送商品を店舗で注文・支払い）を行う\n店舗の在庫を検索する\n注文にメモを追加する\n​\n店舗受取\nSoon Come…\nShopify連携\nデータ管理\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/012-retail-portal-integration.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration",
+      "status": 200,
+      "gotoError": null,
+      "title": "Shopify連携 - SQ HelpCenter",
+      "h1": [
+        "Shopify連携"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n目次",
+        "​\nShopifyとSQを連携したらできること",
+        "​\nShopifyと連携する手順",
+        "SQコネクター - Shopifyアプリ",
+        "​\nSQの提供するShopifyFlowのトリガーとアクション"
+      ],
+      "textLength": 1715,
+      "hasImage": true,
+      "imageCount": 3,
+      "linkCount": 40,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-location-groups",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/products/create-catalog",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/access-token",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/import-data",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/initial-setup-product",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/link-location",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/set-start-date",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/shopifyflow"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        },
+        {
+          "alt": "CLerrtzmj4UDEAE=",
+          "src": "https://cdn.shopify.com/app-store/listing_images/6adc0180ea26088e4ab97ee8e2fec875/promotional_image/CLerrtzmj4UDEAE=.jpeg?height=720&quality=90&width=1280"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n目次\nShopifyとSQを連携したらできること\nShopifyと連携する手順\nSQの提供するShopifyFlowのトリガーとアクション\n販売チャネル連携\nShopify連携\n\nSQとShopifyを連携すると、販売チャネルの1つとしてShopifyが認識されるようになり、商品、在庫、顧客、ポイントやランクの管理を行うことができるようになります。\n\n​\n目次\nShopifyとSQを連携したらできること\nShopifyと連携する手順\nSQの提供するShopifyFlowのトリガーとアクション\n​\nShopifyとSQを連携したらできること\nShopifyとSQを連携することで、以下の機能を活用できるようになります。\n商品マスタの自動同期\nShopifyの商品情報をSQと連携し、一元管理が可能になります\nロケーション（店舗や倉庫情報）の統合管理\n店舗やオンライン倉庫のロケーション情報（ロケーション名、住所、電話番号、Google Mapsリンク）を一元管理することができます。SQからSDKを用いてストアフロントに表示することができます\n在庫のリアルタイム管理\n複数の販売チャネルを跨いだ在庫のリアルタイム一括管理が可能になります。SQからSDKを用いて、店舗在庫をオンラインに表示することが可能になります\n顧客データ・ポイント・会員ランクの同期\nストアフロントから連携された顧客情報を基に、顧客の会員ランクやポイント管理を行うことができます。SQからSDKを用いて、SQで計算されたポイントや会員ランクをShopifyに表示することができます\nShopify Flow の利用 SQはShopifyFlowのトリガーとアクションを提供しています。SQの提供するトリガーとアクションを利用して商品管理やCRMに役立つ処理を自動化できます\n​\nShopifyと連携する手順\nSQと接続するShopifyストアを登録する\nShopifyストアにSQコネクターアプリをインストールする\n登録したストアとSQの接続詳細を設定する\n1\n\nSQと接続するShopifyストアを登録する\n\nSQの管理画面を開いて、[販売チャネル] の [Shopify]を選択します\n[ストアを接続] をクリックします\n必須項目を入力します\n\nストア名\n\nショップドメイン\n\nテナント\n\nカタログ\n\nロケーショングループ\n\n2\n\nShopifyストアにSQコネクターアプリをインストールする\n\nShopify アプリストアから、**【SQコネクターアプリ】**をインストールしてください。\nSQコネクター - Shopifyアプリ\nインストールする\n3\n\n登録したストアとSQの接続詳細を設定する\n\nShopifyストア登録後、以下の接続オプションを設定します。\n基本設定\nリスティング\nデータ連携\nロケーション\nアクセストークン\n​\nSQの提供するShopifyFlowのトリガーとアクション\nSQの提供するShopifyFlow一覧\n会員ランク機能\n店舗連携\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/013-shopify-integration.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/app-integrations/recustomer",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/app-integrations/recustomer",
+      "status": 200,
+      "gotoError": null,
+      "title": "Recsutomerと接続する - SQ HelpCenter",
+      "h1": [
+        "Recsutomerと接続する"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 507,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 16,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/app-integrations/recustomer",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nRecsutomerと接続する\n\nRecustomerをご契約の場合はSQとシームレスな接続が可能です。連携手順は下記を追ってください。\n\n近日公開予定\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/014-app-integrations__recustomer.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/access-token",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/access-token",
+      "status": 200,
+      "gotoError": null,
+      "title": "アクセストークンを設定する - SQ HelpCenter",
+      "h1": [
+        "アクセストークンを設定する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nShopify連携のためのアクセストークンの設定方法"
+      ],
+      "textLength": 2110,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 29,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/access-token"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nShopify連携のためのアクセストークンの設定方法\nShopify上でアクセストークンを発行する手順\nSQ上でShopifyのアクセストークンを設定する方法\nアクセストークンを設定する\n\nアクセストークンを設定することで、SQからShopifyへの連携が可能になります。\n\n​\nShopify連携のためのアクセストークンの設定方法\nShopifyとSQを連携するためのアクセストークン設定方法は、大きく2つのステップがあります。まずはShopify管理画面から、SQがShopifyにアクセスするためのトークンを発行します。つづいて、SQにShopifyで発行したトークンを登録します。\n​\nShopify上でアクセストークンを発行する手順\n1\n\nカスタムアプリを作成する\n\nShopifyを開き、設定を選択し、[アプリと販売チャネル]をクリックします。\n[アプリを開発]をクリックします。\n各アプリは異なる目的で利用するため、必要なスコープも異なります。\nたとえば「SQ - 商品連携」は商品情報の読み書きに特化しています。全部で6つのアプリを作成します。下記を参考にアプリ名とアプリ開発者を入力し、[アプリを作成]をクリックしてください。\nアプリ名：SQ - 在庫再連携　開発者：適切な担当者\nアプリ名：SQ - 在庫差分同期　開発者：適切な担当者\nアプリ名：SQ - 商品連携　開発者：適切な担当者\nアプリ名：SQ - 割引操作　開発者：適切な担当者\nアプリ名：SQ - 注文操作　開発者：適切な担当者\nアプリ名：SQ - 出荷指示　開発者：適切な担当者\n2\n\nAdmin APIスコープを設定する\n\n作成したアプリの [概要] 内から [Admin APIスコープを設定する] をクリックします。\n[設定] を選択し、Admin APIアクセススコープの検索バーから設定するスコープを選択します。アプリごとに必要なスコープが異なるので、下記を参照してそれぞれのアプリに必要なスコープにチェックを入れてください。すべてのチェックが完了したら、[保存] をクリックします。\n\nSQ - 在庫再連携\n\nSQ - 在庫差分同期\n\nSQ - 商品連携\n\nSQ - 割引操作\n\nSQ - 注文操作\n\nSQ - 出荷指示\n\n3\n\nアプリをインストールしてAPIアクセストークンを取得する\n\nアプリのAPIスコープを設定すると、アプリをインストールできるようになります。インストール後にAPIアクセストークン、APIキー、シークレットキーを保存します。\n[アプリをインストール] をクリックします。\nモーダルウィンドウで、[アプリをインストール] をクリックします。\nアクセストークンを取得します。\nアプリに対してAdmin APIスコープを選択した場合、[Admin APIアクセストークン] セクションに移動し、[トークンを一度開示] をクリックします。アクセストークン全文は、このページへの最初のアクセス時のみ開示され、以降のアクセスの際には、このページには参照用としてアクセストークンの最後の4桁のみが表示されます。\nアクセストークン全文は一度しか表示されないため、控える前にページをリフレッシュしないように注意してください。\n4\n\nAPIキーとシークレットキーを取得する\n\n[Admin APIアクセストークン] セクション内に表示されているAPIキーとシークレットキーを控えてください。\n​\nSQ上でShop",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/015-shopify-integration__access-token.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/shopifyflow",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/shopifyflow",
+      "status": 200,
+      "gotoError": null,
+      "title": "SQの提供するShopifyFlow - SQ HelpCenter",
+      "h1": [
+        "SQの提供するShopifyFlow"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nSQの提供するShopify Flow トリガー",
+        "​\nSQの提供するShopify Flow アクション"
+      ],
+      "textLength": 1339,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 22,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/send-point-notification",
+        "https://docs.sqstack.com/docs/guide/point/set-birthday-points",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/shopifyflow"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nSQの提供するShopify Flow トリガー\nSQの提供するShopify Flow アクション\nSQの提供するShopifyFlow\n\nSQはShopifyFlowのトリガーとアクションを提供しています。このページではSQの提供するトリガーとアクションの一覧を確認できます。ShopifyFlowの基本的な利用方法はShopifyFlowを参照してください。\n\n​\nSQの提供するShopify Flow トリガー\nトリガー名\t説明\nShopify商品タグが更新されました\tShopify上で商品タグが更新されるとワークフローが起動します。\nShopify商品バリエーション価格が更新されました\t商品バリエーションの価格変更時にワークフローが起動します。\nポイント失効のN日前になりました\t顧客のポイント失効日からN日前になると起動します。設定は 失効通知画面 で行います。\n会員ランクがアップしました\t顧客の会員ランクがアップすると起動。2段階以上アップしても1回のみ発火します。\n会員ランクがダウンしました\t顧客の会員ランクがダウンすると起動。2段階以上ダウンしても1回のみ発火します。\n誕生日ポイントが付与されました\t誕生日ポイントが付与されたときに起動します。\n顧客の保有ポイントが更新されました\t顧客のポイントに変動があるとワークフローが起動します（加算・減算問わず）。\n​\nSQの提供するShopify Flow アクション\nアクション名\t機能概要\nディスカウントに利用可能な顧客を追加する\t指定された顧客IDをディスカウントの利用可能顧客一覧に追加します。\nポイントを付与する\t顧客から指定されたポイント数を付与します。\nポイントを減算する\t顧客から指定されたポイント数を減算します。\nマイルを加算する\tマイルを指定の顧客に加算します。\nマイルを減算する\tマイルを指定の顧客に減算します。\n商品バリエーションの連携を解除する\t指定された商品バリエーションがSQからShopifyへ連携されている場合に、その連携を解除します。SQからShopifyへは再度連携が可能です。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/016-shopify-integration__shopifyflow.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-brands",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-brands",
+      "status": 200,
+      "gotoError": null,
+      "title": "ブランドを作成する - SQ HelpCenter",
+      "h1": [
+        "ブランドを作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nブランドの作成手順"
+      ],
+      "textLength": 675,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-brands",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nブランドの作成手順\nブランドを作成する\n\nあらかじめ「ブランド名」と「ブランドコード」を登録しておくことで、商品登録の際にプルダウンから選択できるようになります。SQの一部メニューの自動設定にも利用できます。\n\n​\nブランドの作成手順\n1\n\nブランドを作成する\n\nSQ管理画面を開き、[設定]から[ブランド]を選択します\n右上から、[追加する]を選択します\n2\n\nブランドの詳細を設定する\n\nブランド名・外部ID・コードを入力します\n[保存する]をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/017-data-management__create-brands.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-location-groups",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-location-groups",
+      "status": 200,
+      "gotoError": null,
+      "title": "ロケーショングループを作成する - SQ HelpCenter",
+      "h1": [
+        "ロケーショングループを作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nロケーショングループの作成手順"
+      ],
+      "textLength": 791,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 21,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-location-groups",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/import-export/export-csv-files",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nロケーショングループの作成手順\nロケーショングループを作成する\n\n販売チャネルとの連携の設定に必要です。\n\n​\nロケーショングループの作成手順\n1\n\nロケーショングループを作成する\n\n設定ページ内の[ロケーショングループ]ボタンをクリックします\n[グループを作成する]ボタンをクリックします\n2\n\nロケーショングループの情報を入力する\n\nロケーショングループの名前を入力します\nグループ化したいロケーションを選択します\n[保存する]ボタンをクリックします\n販売チャネルに紐づくロケーションが1箇所のみの場合も、ロケーショングループを設定する必要があります\nロケーショングループを設定しておくことで、ロケーション一覧をCSVでダウンロードすることができます CSVでファイルをエクスポートする方法\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/018-data-management__create-location-groups.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-locations",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-locations",
+      "status": 200,
+      "gotoError": null,
+      "title": "ロケーションを作成する - SQ HelpCenter",
+      "h1": [
+        "ロケーションを作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nロケーションとは",
+        "​\nロケーションの作成手順",
+        "​\nロケーションを一括で作成する",
+        "​\n注意事項"
+      ],
+      "textLength": 2024,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 30,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-locations",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nロケーションとは\nロケーションの作成手順\nロケーションを一括で作成する\n注意事項\nロケーションを作成する\n\nロケーション作成をすることで、SQ内で在庫を管理する単位を設定できるようになります。また、店舗注文をSQに取り込む際に、どの店舗からの注文かを識別できるようになります。\n\n​\nロケーションとは\nロケーションとは、SQにおいて在庫および注文を管理するための拠点単位です。\n倉庫や実店舗をロケーションとして登録することで、在庫管理や店舗注文の識別が可能になります。\nまた、SQが提供するSDKを利用することで、Shopifyのストアフロント上にロケーション情報を公開することもできます。\n​\nロケーションの作成手順\n1\n\nロケーション作成ページを開く\n\nホーム画面左下の「設定」をクリックします\n「データ管理」内の「ロケーション」を選択します\n「ロケーションを作成する」ボタンをクリックします\n2\n\nロケーション情報を入力する\n\n以下のロケーション情報を入力します\n項目\t項目の使い方\t要否\n名前\tSQ内でロケーションが表示される際に利用される名称です。\t*必須\n表示名\tSDK経由でストアフロントに送信され、エンドユーザーに表示される名称です。\t任意\n外部ID\t外部システムで利用しているロケーションIDがある場合に設定します。\t任意\nコード\tSQ内でロケーションを一意に識別するIDです。他のロケーションと重複できません。\t*必須\n場所種別\t「倉庫」または「店舗」を選択します。\t*必須\nポイント利用種別\t店舗ロケーションの場合に、店舗で利用されたポイントを「値引き」または「金種（支払い手段の一部）」として扱うかを選択します。オンラインストアと同じ条件でポイントを扱いたい場合は「値引き」を推奨します。\t*必須\nメールアドレス\t店舗の問い合わせ先として表示するメールアドレスです。SDKを通じてストアフロントに公開できます。\t任意\n電話番号\t店舗の問い合わせ先として表示する電話番号です。SDKを通じてストアフロントに公開できます。\t任意\nマップ\t店舗の地図情報として表示するURLを設定できます。SDKを通じてストアフロントに公開できます。\t任意\nタグ\tロケーションの属性情報をタグとして設定できます。例：「ブランド名」「店舗受取対応」「アウトレット店」など。SDK利用時の分類や絞り込みに使用できます。\t任意\nロケーションの住所を登録する場合は、チェックボックスを選択します\n在庫をオンラインチャネルと共有する場合は、チェックボックスを選択します\n在庫をオンラインチャネルと共有すると、オンラインストアの購入可能在庫に、このロケーションの在庫が含まれるようになります。\n店舗受け取りを有効にする場合は、チェックボックスを選択します\n「保存する」をクリックします\n​\nロケーションを一括で作成する\n1\n\n一括インポートページを開く\n\nホーム画面から「CSVでデータをインポートする」を開き、「ロケーション」をクリックします。\n2\n\nテンプレートをダウンロードする\n\n「テンプレート」ボタンをクリックし、スプレッドシートをダウンロードします。\n3\n\nCSVを作成する\n\n「定義書」タブを確認しながら、ロケーション作成に必要な情報を入力し、CSVファイルを作成してください。\n4\n\nロケーションの一括インポートを実行する\n\n画面右上の「インポート」ボタンをクリックし、CSVファイルをアップロード後、「保存",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/019-data-management__create-locations.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-payment-methods",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-payment-methods",
+      "status": 200,
+      "gotoError": null,
+      "title": "決済方法の登録をする - SQ HelpCenter",
+      "h1": [
+        "決済方法の登録をする"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n決済種別の登録手順"
+      ],
+      "textLength": 1054,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-payment-methods",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n決済種別の登録手順\n決済方法の登録をする\n\n決済方法とは、ストアフロントで利用されている決済手段のことです。 あらかじめ決済方法を登録しておくことで、会計監査時に必要なデータを会計システムと自動連携できるようになります。\n\n​\n決済種別の登録手順\n1\n\n決済方法を作成する\n\nSQ管理画面を開き、[設定]から[決済方法]を選択します\n右上から、[決済方法を作成する]を選択します\n2\n\n決済方法を設定する\n\n名前・コード・ゲートウェイを入力します\n名前：管理しやすい名前を入れてください。SQ上で表示されます。\nコード：会計システムなどで管理しているコードがある場合は、ここに入力します。SQから注文を連携する必要がある際に自動でマッピングして連携できるようになります。\nゲートウェイ：各販売チャネルからSQに送信されてくるゲートウェイの名称を正確に入力してください。\nShopifyで利用している決済ゲートウェイを確認するには、Shopify管理画面 > 設定 > 支払い設定　から現在有効になっている決済ゲートウェイが確認できます\n支払い待ちのステータスでも注文を出荷したい場合は、[支払い待ちでも注文を出荷する]を選択します\n一般的に、代金を回収できていない間は発送をしないことが多いです。\n代引き・コンビニ払いなど、代金を未回収の状態でも出荷していい場合はチェックを入れてください。\n[保存する]をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/020-data-management__create-payment-methods.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-retail-staff-members",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-retail-staff-members",
+      "status": 200,
+      "gotoError": null,
+      "title": "販売員を作成する - SQ HelpCenter",
+      "h1": [
+        "販売員を作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n販売員の追加手順"
+      ],
+      "textLength": 778,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-retail-staff-members",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n販売員の追加手順\n販売員を作成する\n\n販売員では、店舗スタッフのアカウントを管理しています。主に店舗ポータルを利用する際に役立ちます。販売員マスタを登録しておくことで、店舗ポータル利用時に販売員に対して、販売員コードの入力を求めることができます。これにより、どの販売員がどの顧客の個人情報を閲覧したのかや、どの販売員が客注注文を作成したのかを記録することができます。販売を作成する際は以下の手順を追ってください。\n\n​\n販売員の追加手順\n1\n\n販売員を追加する\n\nSQ管理画面を開き、[設定]から[販売員]を選択します\n右上から、[販売員を追加する]を選択します\n2\n\n販売員を設定する\n\n姓名・コード・外部ID・ロケーションを入力します\n[保存する]をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/021-data-management__create-retail-staff-members.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-tenants",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-tenants",
+      "status": 200,
+      "gotoError": null,
+      "title": "テナントを作成する - SQ HelpCenter",
+      "h1": [
+        "テナントを作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nテナントの作成手順"
+      ],
+      "textLength": 692,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-tenants",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nテナントの作成手順\nテナントを作成する\n\n「ブランド」や「部門」ごとに、独自のルール（ポイント・会員ランクなど）を管理するための箱のことです。組織の中に複数のブランドがある場合、それぞれのブランドを「テナント」として分けることで、別々のルールで運用できます。\n\n​\nテナントの作成手順\n1\n\nテナントを作成する\n\nSQ管理画面を開き、[設定]から[テナント]を選択します\n右上から、[テナントを作成]を選択します\n2\n\nテナント名を入力する\n\nテナント名を入力します\n[保存する]をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/022-data-management__create-tenants.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-users",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-users",
+      "status": 200,
+      "gotoError": null,
+      "title": "管理メンバーを登録する - SQ HelpCenter",
+      "h1": [
+        "管理メンバーを登録する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n管理メンバーの作成手順"
+      ],
+      "textLength": 773,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 21,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-authority-group",
+        "https://docs.sqstack.com/docs/guide/data-management/create-users",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n管理メンバーの作成手順\n管理メンバーを登録する\n\nSQや店舗ポータルを利用できるアカウントの管理を行うことができます。各アカウントに付与する権限のつけ外しも可能です。\n\n​\n管理メンバーの作成手順\n1\n\n管理メンバーを作成する\n\nSQ管理画面を開き、[設定]から[管理メンバー]を選択します\n右上から、[追加する]を選択します\n2\n\nユーザーを追加する\n\n姓名とメールアドレスを入力します\n権限を設定します\n\nグループを選択して設定する\n\n権限グループを作成することで複数の権限を一括選択することができます\n\n個別で選択して設定する(停止中26/5/1)\n\nユーザーに対して機能ごとに付与したい権限を細かく設定することができます\n[保存する]をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/023-data-management__create-users.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/discounts/create-discounts",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/discounts/create-discounts",
+      "status": 200,
+      "gotoError": null,
+      "title": "ディスカウントの作成方法 - SQ HelpCenter",
+      "h1": [
+        "ディスカウントの作成方法"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nディスカウントを作成する手順"
+      ],
+      "textLength": 1005,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 31,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-tenants",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/discounts/create-discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nディスカウントを作成する手順\nディスカウントの作成方法\n\nディスカウントを作成するには以下の手順を追ってください。\n\n​\nディスカウントを作成する手順\n1\n\nディスカウントを作成する\n\nSQ管理画面を開き、[ディスカウント]を選択します\n右上の[ディスカウントを作成]を開きます\n2\n\nディスカウントを設定する\n\nタイトル・説明文を入力します\n該当するテナントを選択します\nテナントを作成していない場合は、まずはテナントを作成してください\nクーポンコード、割引方法を入力します\n\n割引率を設定する場合\n\n割引額を設定する場合\n\nすべての商品を割引の対象とする場合は、[すべての商品を割引対象に設定する]にチェックボックスを選択します\nディスカウントの利用制限を設定する場合は、[お客様1人につき1回のみの使用とする]にチェックボックスを選択します\nSQと接続しているPOSをご利用の場合は、店舗とオンラインのどちらかで1回利用されたら利用済みにすることができます。\n開始日時と終了日時を設定します\n[保存する]を選択します\n3\n\nディスカウント利用対象を設定する\n\n顧客を設定する\n\n商品を設定する\n\n4\n\nディスカウントを利用する販売チャネルを設定する\n\nShopifyで利用する場合\n\n店舗ロケーションで利用する場合\n\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/024-discounts__create-discounts.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/import-export/export-csv-files",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/import-export/export-csv-files",
+      "status": 200,
+      "gotoError": null,
+      "title": "CSVでファイルをエクスポートする方法 - SQ HelpCenter",
+      "h1": [
+        "CSVでファイルをエクスポートする方法"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page"
+      ],
+      "textLength": 2609,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 42,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/import-export/export-csv-files",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n在庫データをエクスポートする手順\nエクスポート可能な主要項目名\nロケーションデータをエクスポートする手順\nディスカウントの利用履歴をエクスポートする手順\nエクスポート可能な主要項目名\nヤマトB2クラウドの出荷指図をエクスポートする\n条件指定でヤマトB2クラウドのCSVをエクスポートする\n指定可能な主要条件\nCSVでファイルをエクスポートする方法\n\nこのページではCSV形式のファイルを用いて各種データをSQ管理画面から一括でエクスポートする方法を説明します。\n\n​\n在庫データをエクスポートする手順\n任意のロケーションを選択して在庫情報をエクスポートします。\n​\nエクスポート可能な主要項目名\nSKU\nステータス別の在庫数\n仕入れ\n販売可能\n確定済み\n確保済み\n破損\n予備\n検品\n手持ち\n1\n\nロケーションを選択する\n\nSQ管理画面の[ホーム]より[CSVでデータをエクスポートする]を選択します\n[マスターデータ]セクションより[在庫]を選択します\n右上の[エクスポート]を選択します\n該当のロケーションを選択し、[エクスポートを開始する]を押下します\n2\n\nデータのエクスポート\n\nエクスポートが完了すると管理画面上のステータスが[完了]となります\nあわせて登録メールアドレス宛に[CSVエクスポート完了]メールが届きます\n管理画面、またはメール内リンクよりファイルをダウンロードします\n​\nロケーションデータをエクスポートする手順\nロケーションデータとしてSQに登録されたフィールド情報（ロケーション名、コード、グループ、状態など）をエクスポートすることができます。\n1\n\nロケーショングループを選択する\n\nSQ管理画面の[ホーム]より[CSVでデータをエクスポートする]を選択します\n[マスターデータ]セクションより[ロケーション]を選択します\n右上の[エクスポート]を選択します\n該当のロケーショングループを選択し、[エクスポートを開始する]を押下します\n2\n\nデータのエクスポート\n\nエクスポートが完了すると管理画面上のステータスが[完了]となります\nあわせて登録メールアドレス宛に[CSVエクスポート完了]メールが届きます\n管理画面、またはメール内リンクよりファイルをダウンロードします\n​\nディスカウントの利用履歴をエクスポートする手順\nSQに設定したディスカウントの利用履歴をエクスポートすることができます。\n​\nエクスポート可能な主要項目名\n顧客ID（SQ顧客ID、Shopify顧客ID）\n店舗名、店舗コード\n利用日時\n1\n\nディスカウントを選択する\n\nSQ管理画面の[ホーム]より[CSVでデータをエクスポートする]を選択します\n[マスターデータ]セクションより[ディスカウントの利用履歴]を選択します\n右上の[エクスポート]を選択します\n該当のディスカウントを選択し、[エクスポートを開始する]を押下します\n2\n\nデータのエクスポート\n\nエクスポートが完了すると管理画面上のステータスが[完了]となります\nあわせて登録メールアドレス宛に[CSVエクスポート完了]メールが届きます\n管理画面、またはメール内リンクよりファイルをダウンロードします\n​\nヤマトB2クラウドの出荷指図をエクスポートする\nヤマトB2クラウドに取り込む出荷指図をエクスポートします。通常のエクスポートとは異なり、出荷管理画面から選択します。\n1\n\n該当する出荷指図を選択する\n\nSQ管理画面の[倉庫管理]より[出荷",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/025-import-export__export-csv-files.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/import-export/export-pdf-files",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/import-export/export-pdf-files",
+      "status": 200,
+      "gotoError": null,
+      "title": "PDFでファイルをエクスポートする方法 - SQ HelpCenter",
+      "h1": [
+        "PDFでファイルをエクスポートする方法"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page"
+      ],
+      "textLength": 896,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/import-export/export-pdf-files",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n納品書をPDFでエクスポートする\nPDFでファイルをエクスポートする方法\n\nこのページでは管理画面から納品書をPDF形式でエクスポート（出力・書き出し）する方法を説明します。\n\n​\n納品書をPDFでエクスポートする\n指定された出荷指図の納品書をエクスポートします。\n1\n\n該当する出荷指図を選択する\n\nSQ管理画面の[倉庫管理]より[出荷管理]を選択します\n該当する出荷管理番号を選択します\n右上の3点リーダー(•••)より、[PDF 納品書]を選択します\nモーダル[納品書をPDFでエクスポートする]より**、**[エクスポート]を選択します\n2\n\nデータのエクスポート\n\n[エクスポート]を選択すると、SQ管理画面の[ホーム]、[PDFでデータをエクスポートする]、[納品書]に遷移します\nエクスポートが完了すると管理画面上のステータスが[完了]となります\nあわせて登録メールアドレス宛に[納品書PDFエクスポート完了]メールが届きます\n管理画面、またはメール内リンクよりファイルをダウンロードします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/026-import-export__export-pdf-files.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/import-export/import-csv-files",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/import-export/import-csv-files",
+      "status": 200,
+      "gotoError": null,
+      "title": "CSVでファイルをインポートする方法 - SQ HelpCenter",
+      "h1": [
+        "CSVでファイルをインポートする方法"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 1517,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 54,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/import-export/import-csv-files",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nCSVでファイルをインポートする方法\n\nこのページでは、SQ管理画面に各種データをCSV形式で一括登録・更新するための手順を説明します。\n\n1\n\nインポートしたい情報に必要なテンプレートを準備する\n\nCSVでのデータインポートには、以下のテンプレートをご利用いただけます。\nインポートしたい内容に対応するテンプレートをダウンロードしてご活用ください。\n\n商品\n\n商品バリエーション\n\n商品画像\n\nカタログ\n\n販売価格（通常）\n\n販売価格（セール）\n\n原価\n\n販売閾値\n\n販売可能在庫（絶対値or差分）\n\n予約販売\n\n商品メタフィールド\n\n商品バリエーションメタフィールド\n\nヤマトB2クラウド\n\nDHL\n\nポイント一括付与\n\nキャンペーン対象商品\n\n管理ユーザー\n\nロケーション\n\n2\n\n定義書の確認\n\n各テンプレートファイルの下部にある「定義書」タブをご確認ください。\n定義と異なる形式・値が入力されている場合、エラーとなり登録できません。\n3\n\n必要事項を記載し、CSVファイルを保存する\n\n定義書内のデータ型・許容値・バリデーションを確認し、正しい形式でファイルを作成してください。\n文字コードUTF-8、拡張子**「.csv」**で保存してください。\n4\n\nCSVファイルのインポートを行う\n\nSQ管理画面で [ホーム] → [CSVでデータをインポートする] を開きます\n登録・更新したい項目（商品、在庫、メタフィールド等）を選択します\n右上の [新規インポート] をクリックします\nCSVファイルを選択、またはドラッグ＆ドロップでアップロードします\n[保存する] をクリックします\n5\n\nCSVファイルの検証を行う\n\n保存後、自動で検証が開始されます\nステータスが [検証完了] になると、登録メールアドレスに完了メールが届きます\n成功件数・失敗件数を確認します\nエラーがある場合は「検証失敗」をクリックし、エラー内容と行番号を確認します\n内容を修正し、再度アップロードします\nすべての検証が成功するまで繰り返してください\n検証失敗が含まれていても、検証成功した行だけインポートされます\n6\n\nデータのインポートを実行する\n\n全データが検証成功になったら右上の [実行する] をクリックします\nデータのインポートが実行されます\n完了後、登録メールアドレスに取り込み完了メールが届きます\nUPDATEの場合、更新したい項目のみ入力し、それ以外は空欄のままで構いません（空欄は既存値が保持されます）\n検証失敗が含まれていても、検証成功した行だけ インポートされます\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/027-import-export__import-csv-files.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/order/check-order-information",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/order/check-order-information",
+      "status": 200,
+      "gotoError": null,
+      "title": "注文情報を確認する - SQ HelpCenter",
+      "h1": [
+        "注文情報を確認する"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 504,
+      "hasImage": true,
+      "imageCount": 4,
+      "linkCount": 16,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/order/check-order-information",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        },
+        {
+          "alt": "Image",
+          "src": "https://mintcdn.com/stack/bOykcfXjHs3M1xy2/images/image-4.png?fit=max&auto=format&n=bOykcfXjHs3M1xy2&q=85&s=bbd8f7afce9ae0c5cae29b70b97a4c9c"
+        },
+        {
+          "alt": "Image",
+          "src": "https://mintcdn.com/stack/bOykcfXjHs3M1xy2/images/image-4.png?w=1100&fit=max&auto=format&n=bOykcfXjHs3M1xy2&q=85&s=e048fa152236c71f1977b7de0fcf3a7e"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\n注文情報を確認する\n注文管理メニューにて対象の注文をクリック\n※管理画面UIは随時アップデートが入るため、下記とデザインが異なる場合がございます。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/028-order__check-order-information.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/adjust-points",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/adjust-points",
+      "status": 200,
+      "gotoError": null,
+      "title": "保有ポイントを手動で付与・減算する - SQ HelpCenter",
+      "h1": [
+        "保有ポイントを手動で付与・減算する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nポイントを加算する手順",
+        "​\nポイントを減算する手順"
+      ],
+      "textLength": 847,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 24,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/adjust-points",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nポイントを加算する手順\nポイントを減算する手順\n保有ポイントを手動で付与・減算する\n\n何かしらの事由により、お客様の保有ポイントを管理画面から付与や減算する必要のある場合は以下の手順を追ってください。\n\n​\nポイントを加算する手順\n1\n\n顧客を選択する\n\n顧客管理ページから、該当する顧客を選択します\n顧客詳細ページに移動します\n2\n\nポイントを加算する\n\n[ポイント]ブロック内の[ポイントを加算] ボタンをクリックします\n加算理由・付与ポイント数・有効期限を入力します\n[保存する] をクリックします\n​\nポイントを減算する手順\n1\n\n顧客を選択する\n\n顧客管理ページから、該当する顧客を選択します\n顧客詳細ページに移動します\n2\n\nポイントを減算する\n\n[ポイント]ブロック内の[ポイントを減算] ボタンをクリックします\n減算理由・付与ポイント数・有効期限を入力します\n[保存する] をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/029-point__adjust-points.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/create-point-calculation-rules",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/create-point-calculation-rules",
+      "status": 200,
+      "gotoError": null,
+      "title": "ポイントルールを作成する - SQ HelpCenter",
+      "h1": [
+        "ポイントルールを作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nポイントルールを作成する手順"
+      ],
+      "textLength": 1241,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 24,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/create-point-calculation-rules",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nポイントルールを作成する手順\nポイントルールを作成する\n\nポイントルールを作成すると、SQに入ってきた注文を元にその顧客にポイントを付与することができるようになります。\n\n​\nポイントルールを作成する手順\n1\n\nポイント画面を開く\n\nSQ管理画面から[ポイント]を選択します\n画面右上の[ルールを作成する]を選択します\n2\n\nルールを入力する\n\nタイトルを入力\n複数のテナントやブランドがある場合は、その名前を入れると管理がしやすくなります。\n例）【テナント名】ブランド：ポイントルール\n購入金額とポイントを入力し、ポイント付与率を設定\n例）購入金額：100、ポイント：1 と入力した場合、\n注文の小計に対して100円ごとに1ポイントが付与されます。\n3\n\n有効期限を設定する\n\nポイントが確定してから失効するまでの日数を設定します。\n例）365日と入力すると、購入で付与されるポイントは365日間有効にすることができます。\n4\n\nポイントが有効になるまでの日数を設定する\n\nその注文が発送されてから、ポイントが有効になるまでの日数を設定することができます。\n0日と入力すると発送直後からそのポイントを利用できるようになります。\n店舗注文は、SQに注文が作成されたタイミングで発送されます。\n有効日数を設定する理由\n購入直後にポイントを付与すると、利用後に商品が返品されることで不正利用される恐れがあります。\nそのため一般的には、発送後かつ返品期限を過ぎたタイミングでポイントを有効化します。\n5\n\nポイントキャンペーンの優先順位設定\n\n注文に対して条件を満たすポイントキャンペーンが複数個ある場合に、どのキャンペーンを優先的に適用するかを設定しておきます。ポイントキャンペーンの作成方法はこちらから確認できます。\n6\n\n保存して終了する\n\n保存ボタンを押して、ポイントルール作成を終了します。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/030-point__create-point-calculation-rules.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/create-point-campaign",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/create-point-campaign",
+      "status": 200,
+      "gotoError": null,
+      "title": "ポイントキャンペーンを設定する - SQ HelpCenter",
+      "h1": [
+        "ポイントキャンペーンを設定する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nポイントキャンペーンを設定する手順"
+      ],
+      "textLength": 1283,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 26,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-location",
+        "https://docs.sqstack.com/docs/guide/data-management/create-location-group",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/create-point-campaign",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nポイントキャンペーンを設定する手順\nポイントキャンペーンを設定する\n\n会員ランクや商品、購入金額、購入者全員に対してポイントを付与するキャンペーンを設定をしたい場合は、以下の手順を追ってください。\n\n​\nポイントキャンペーンを設定する手順\n1\n\nポイント画面を開く\n\nSQ管理画面を開き、[CRM]から[ポイント]を選択します\n[キャンペーン]を選択します\n2\n\nキャンペーンを作成する\n\n[作成する]を選択します\nタイトル、開始日時、終了日時を選択します\n3\n\nキャンペーンを種別を選択する\n\n以下のようなキャンペーンを実施することが可能です。キャンペーンの目的や訴求軸に応じて最適な種別をお選びください。\nGOLDランク以上の方対象！通常+3倍ポイント付与キャンペーン（会員ランクが対象）\n特定の商品が対象！通常＋2倍ポイント付与キャンペーン（商品が対象）\n1万円以上ご購入で、＋1,000ptプレゼントキャンペーン（購入金額が対象）\n全員対象！週末限定・ポイント＋5倍キャンペーン（全ての購入者が対象）\n\n会員ランクを対象とする場合\n\n商品を対象とする場合\n\n購入金額を対象とする場合\n\nすべての購入者を対象とする場合\n\n4\n\nポイント算出ルールを選択する\n\n該当するテナントのポイント算出ルールを選択します\n5\n\n適用条件を選択する\n\nキャンペーンを適用したい販売チャネルを選択します。\n店舗で利用する場合は、対象店舗も選択します。\n該当するロケーションが存在しない場合は、ロケーションを作成するを参照してロケーションを作成します\nロケーショングループの作成方法はこちら。\n[保存する]を選択します\n6\n\n各種別のキャンペーンポイント詳細を設定する\n\nStep5で作成したキャンペーンをキャンペーン一覧から選択します\n種別ごとに、キャンペーンで加算したいポイント倍率もしくはポイント数を登録します\n追加したい店舗がある場合はここでも編集できます\n[保存する]を選択します\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/031-point__create-point-campaign.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/handle-returns-and-cancellations",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/handle-returns-and-cancellations",
+      "status": 200,
+      "gotoError": null,
+      "title": "返品・キャンセル時のポイントの扱いについて - SQ HelpCenter",
+      "h1": [
+        "返品・キャンセル時のポイントの扱いについて"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nキャンセル・返品時のポイントの挙動"
+      ],
+      "textLength": 966,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 22,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/handle-returns-and-cancellations",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nキャンセル・返品時のポイントの挙動\n注文に利用したポイント\n注文で獲得したポイント\n返品・キャンセル時のポイントの扱いについて\n\n本ページでは、注文の返品・キャンセルが発生した場合のポイントの付与・利用・返却の挙動について説明します。\n\n​\nキャンセル・返品時のポイントの挙動\n​\n注文に利用したポイント\n注文時にポイントを利用していた場合、キャンセル・返品時の挙動は以下のとおりです。\nキャンセル・返品時点で有効期限内のポイント\n→ 利用分のポイントは顧客に返却されます\nキャンセル・返品時点で有効期限が切れているポイント\n→ ポイントは返却されません\n※ 返却されたポイントの有効期限は、元の有効期限を引き継ぎます。\n​\n注文で獲得したポイント\n注文により付与されたポイントは、キャンセル・返品処理にあわせて 同額のマイナスポイントが付与され、相殺されます。\n全キャンセル・全返品の場合\n→ 注文によって付与されたポイントはすべて減算されて相殺されます\n一部返品の場合\n→ 返品商品分の付与ポイントのみが相殺されます\n通常、ポイントキャンペーンや商品倍率設定によって付与されたポイントも、注文に紐づくポイントとして同様に相殺対象となります。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/032-point__handle-returns-and-cancellations.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/send-point-notification",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/send-point-notification",
+      "status": 200,
+      "gotoError": null,
+      "title": "ポイント失効通知を顧客に送る - SQ HelpCenter",
+      "h1": [
+        "ポイント失効通知を顧客に送る"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nSQ上でポイント失効通知を設定する手順"
+      ],
+      "textLength": 925,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 21,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/send-point-notification",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nSQ上でポイント失効通知を設定する手順\nポイント失効通知を顧客に送る\n\nお客様の保有ポイントが失効する前に、ポイントの失効通知を送りたい場合は以下の手順を追ってください。SQとShopifyの両方で設定が必要です。\n\n​\nSQ上でポイント失効通知を設定する手順\n1\n\nポイント画面を開く\n\nSQ管理画面を開き、[CRM]から[ポイント]を選択します\n[失効通知]を選択します\n2\n\nポイント失効通知を設定する\n\n[ルールを作成する]を選択します\nタイトル、通知予定日を入力します\n[保存する]を選択します\n3\n\n続いてShopify上でShopifyFlowを設定します\n\nShopify画面を開き、[ShopifyFlow]を選択します\nSQの提供する[ポイント失効のN日前になりました]トリガーを選択します\n任意の配信ツールの提供する配信アクションを選択します\n\nStackの提供するAppifyモバイルアプリをご利用のお客様は、[Send a push notifications] アクションを利用することでポイント失効のお知らせをプッシュ配信できます。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/033-point__send-point-notification.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/set-birthday-points",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/set-birthday-points",
+      "status": 200,
+      "gotoError": null,
+      "title": "誕生日ポイントを設定する - SQ HelpCenter",
+      "h1": [
+        "誕生日ポイントを設定する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n誕生日ポイントを設定する手順"
+      ],
+      "textLength": 664,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/set-birthday-points",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n誕生日ポイントを設定する手順\n誕生日ポイントを設定する\n\nお客様の誕生日にポイントを付与したい場合は、以下の手順を追ってください。\n\n​\n誕生日ポイントを設定する手順\n1\n\nポイント画面を開く\n\nSQ管理画面を開き、[CRM]から[ポイント]を選択します\n[誕生日]を選択します\n2\n\n誕生日ポイントを設定する\n\n[ルールを作成する]を選択します\nタイトル、表示タイトル、ポイント数、ポイントの有効期間を入力します\n[保存する]を選択します\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/034-point__set-birthday-points.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/set-point-application-excluded-products",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/set-point-application-excluded-products",
+      "status": 200,
+      "gotoError": null,
+      "title": "ポイントの利用対象外商品を設定する - SQ HelpCenter",
+      "h1": [
+        "ポイントの利用対象外商品を設定する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nポイントの利用対象外商品を設定する手順",
+        "​\n対象のポイント利用種別の説明"
+      ],
+      "textLength": 864,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 22,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/set-point-application-excluded-products",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nポイントの利用対象外商品を設定する手順\n対象のポイント利用種別の説明\nポイントの利用対象外商品を設定する\n\n原価が高いものやすでに値下げされているもの、契約上値引きが制限されているもの、ギフトカードなど換金性の高いものなど、ポイント利用が望ましくない商品に対して、ポイントを利用できないよう設定することが可能です。\n\n​\nポイントの利用対象外商品を設定する手順\n1\n\nポイント画面を開く\n\nSQ管理画面を開き、[CRM]から[ポイント]を選択します\n[利用外商品]を選択します\n2\n\nポイントの利用対象外を設定する\n\n[追加する]を選択します\nポイントの利用を対象外にしたい商品を選択します\n対象のポイント利用種別を選択します\n[保存する]を選択します\n​\n対象のポイント利用種別の説明\n種別\t説明\nディスカウント\t商品金額の小計に対してポイントを適用したい場合に設定します\n金種\t商品金額の合計に対してポイントを適用したい場合に選択します\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/035-point__set-point-application-excluded-products.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/set-point-multiplier-products",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/set-point-multiplier-products",
+      "status": 200,
+      "gotoError": null,
+      "title": "特別なポイント付与倍率の商品を設定する - SQ HelpCenter",
+      "h1": [
+        "特別なポイント付与倍率の商品を設定する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n前提条件",
+        "​\n設定手順"
+      ],
+      "textLength": 942,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 25,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/create-point-calculation-rules",
+        "https://docs.sqstack.com/docs/guide/point/set-point-multiplier-products",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/products/create-product",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n前提条件\n設定手順\n特別なポイント付与倍率の商品を設定する\n\n特定の商品に対して、基本倍率とは異なるポイント付与倍率を無期限で設定する機能です。セール対象外商品やギフトカードをポイント付与対象外にしたい場合や、特定商品のポイント還元を強化したい場合などに利用します。\n\n​\n前提条件\nポイントルールが作成済みであること（未作成の場合はポイントルールを作成してください）\n対象商品が商品マスタに登録済みであること（未登録の場合は商品を作成してください）\n​\n設定手順\n1\n\nポイントルールを選択する\n\nSQ管理画面から [CRM] > [ポイント] を選択します\n対象のポイントルールを選択します\n[商品倍率] から [商品倍率を作成する] を選択します\n2\n\n対象商品を選択する\n\n特別な倍率を設定したい商品を選択します。\n3\n\n倍率を入力して保存する\n\n倍率欄に設定したい数値を入力し、[保存する] を選択します。\n設定値\t挙動\n0倍\tポイント付与対象外の商品になります\n1倍\t通常と同じポイントが付与されます\n2倍以上\t基本倍率を上回るポイントが付与されます\n設定は保存後、即時反映されます。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/036-point__set-point-multiplier-products.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/understand-point-logic",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/understand-point-logic",
+      "status": 200,
+      "gotoError": null,
+      "title": "ポイント計算のロジックについて知る - SQ HelpCenter",
+      "h1": [
+        "ポイント計算のロジックについて知る"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nポイント計算式",
+        "​\n用語の説明",
+        "​\n計算例",
+        "​\nまとめ"
+      ],
+      "textLength": 1939,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 30,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/point/understand-point-logic",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nポイント計算式\n用語の説明\n計算例\n⚫︎手順1：商品ポイント換算額の計算\n⚫︎手順2：基準ポイントおよび倍率の適用\n⚫︎手順3：キャンペーン固定ポイント数を加算\nまとめ\nポイント計算のロジックについて知る\n\n注文により付与されるポイントロジック詳細について説明しているページです。\n\n​\nポイント計算式\n付与ポイント\n\t\n=\n⌊\n(\n商品A代金\n×\nA倍率\n×\nA点数\n)\n+\n(\n商品B代金\n×\nB倍率\n×\nB点数\n)\n+\n…\n基準価格\n⌋\n\n\n\t\n×\n基準ポイント\n×\n(\n会員ランク倍率\n(\nなければ \n1\n)\n+\nキャンペーン倍率\n)\n\n\n\t\n+\nキャンペーン固定ポイント\n付与ポイント\n\t​\n\n=⌊\n基準価格\n(商品A代金×A倍率×A点数)+(商品B代金×B倍率×B点数)+…\n\t​\n\n⌋\n×基準ポイント×(会員ランク倍率(なければ 1)+キャンペーン倍率)\n+キャンペーン固定ポイント\n\t​\n\n​\n用語の説明\n用語\t説明\n基準価格\tポイント算出の基準となる金額（例：100円）\n基準ポイント\t基準価格あたりの付与ポイント数（例：4ポイント）\n商品ポイント倍率\t商品に設定された倍率（通常 1倍）\n会員ランク倍率\t会員ランクによって適用される倍率（例：3倍）\nキャンペーン倍率\tキャンペーンにより追加される倍率（例：+6倍）\nキャンペーン固定ポイント\tキャンペーンにより付与される固定ポイント（例：なし）\n※会員ランク倍率とキャンペーン倍率は「掛け算」ではなく 足し算 します。\n​\n計算例\n100円(基準価格)で4ポイント(基準ポイント)付与のストアで、Cさんが、商品Aを１点、商品Bを3点を、一万円以上の購入でポイント+6倍キャンペーン期間中に購入した場合。\n計算例の条件\n基準価格：100円\n基準ポイント：4ポイント\n商品A：99,990円（商品ポイント倍率 2倍、数量 1）\n商品B：5,000円（商品ポイント倍率 1倍、数量 3）\n会員ランク倍率：3倍\nキャンペーン倍率：+6倍\nキャンペーン固定ポイント：0ポイント\n​\n⚫︎手順1：商品ポイント換算額の計算\nまずは [ ] 内の計算 をして、小数点を切り捨てます。\n商品代金合計（商品ポイント倍率適用後）を算出\n\n(\n99\n,\n990\n×\n2\n×\n1\n)\n+\n(\n5\n,\n000\n×\n1\n×\n3\n)\n=\n199\n,\n980\n+\n15\n,\n000\n=\n214\n,\n980\n(99,990×2×1)+(5,000×1×3)=199,980+15,000=214,980\n基準価格で割って換算額を算出\n\n214\n,\n980\n÷\n100\n=\n2149.8\n214,980÷100=2149.8\n→ ここで小数点を切り捨て：2149\n​\n⚫︎手順2：基準ポイントおよび倍率の適用\n手順1で算出した整数値に対し、基準ポイントと、\n会員ランク倍率・キャンペーン倍率の合計を掛けます。\n手順1の結果：2149\n基準ポイント：4\n会員ランク倍率：3\nキャンペーン倍率：6\n2149\n×\n4\n×\n(\n3\n+\n6\n)\n=\n77364\n2149×4×(3+6)=77364\n​\n⚫︎手順3：キャンペーン固定ポイント数を加算\nキャンペーン固定ポイントがある場合は、最後に加算します。\n77364\n+\n0\n=\n77364\n77364+0=77364\n​\nまとめ\n商品ごとのポイント倍率\n会員ランク倍率\nキャンペーン倍率・固定ポイント\nが組み合わさってポイントが計算されま",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/037-point__understand-point-logic.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-metafields",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-metafields",
+      "status": 200,
+      "gotoError": null,
+      "title": "メタフィールドを作成する - SQ HelpCenter",
+      "h1": [
+        "メタフィールドを作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n目次",
+        "​\nSQ上でメタフィールドを作る手順",
+        "​\nメタフィールド事例"
+      ],
+      "textLength": 1082,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 28,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-metafields",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n目次\nSQ上でメタフィールドを作る手順\nメタフィールド事例\n顧客\n商品\nメタフィールドを作成する\n\nメタフィールドは、各管理ページの表示をカスタマイズできる項目です。メタフィールドを使用すると、通常では管理画面に取り込めない特定の情報を保存することができ、販売プラットフォーム上に必要な外観や機能をカスタマイズすることができます。\n\n​\n目次\nSQ上でメタフィールドを作る手順\nメタフィールド例\n​\nSQ上でメタフィールドを作る手順\n1\n\nメタフィールドを追加するメニューを選択\n\nサイズバー下部の[設定]をクリック\nページ下部カスタムデータ部分の[メタフィールド定義]をクリック\nメタフィールドを追加したいメニューを選択します\n2\n\nメタフィールドを設定する\n\n[定義を追加する]ボタンをクリック\n内容を入力し、[保存する]をクリック\n項目\t説明\n名前\t管理画面でメタフィールドを特定するために使用。\n説明\tメタフィールドに入力する値などの説明情報を入力。\nネームスペースとキー\tメタフィールドの固有のID\n各ネームスペースとキーは固有である必要があります。\nネームスペースで類似のメタフィールドをグループ化できます。\n​\nメタフィールド事例\n​\n顧客\n性別\nネームスペース：facts\nキー：gender\n会員登録日時\nネームスペース：facts\nキー：registerDatetime\n​\n商品\nシーズンコード\nネームスペース：custom\nキー：season-code\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/038-data-management__create-metafields.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products/create-catalog",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products/create-catalog",
+      "status": 200,
+      "gotoError": null,
+      "title": "カタログを作成・商品を追加する - SQ HelpCenter",
+      "h1": [
+        "カタログを作成・商品を追加する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nカタログの作成",
+        "​\n商品を追加"
+      ],
+      "textLength": 1243,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 32,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/products/add-to-catalog",
+        "https://docs.sqstack.com/docs/guide/products/create-catalog",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nカタログの作成\n商品を追加\n手動でカタログに商品を追加する手順\n自動追加ルールを利用してカタログに商品を追加する手順\nカタログを作成・商品を追加する\n\nカタログ＝商品リストです。販売チャネルごとの出品リストを指定したり、店舗ポータルに表示される商品を制限することができます。また、社内の管理リストとしても活用可能です。\n\n​\nカタログの作成\n1\n\nカタログを作成する\n\n商品管理の中にある[カタログ]セクションを開く\n右上の [カタログを作成] ボタンをクリックします\n2\n\nカタログのタイトルを入力する\n\nカタログのタイトルを入力します（例：渋谷店用、オンラインストア用 など）\n[保存]をクリックしてカタログの作成を完了させます\n3\n\nカタログに商品を追加する\n\nカタログを作成したら、その中に商品を追加してみましょう。商品の追加方法については、カタログに商品を追加する方法を参照してください。（新しいタブで開きます）\n​\n商品を追加\n​\n手動でカタログに商品を追加する手順\n1\n\nカタログを選択する\n\n商品管理の中にある[カタログ]セクションを開く\n商品を追加したいカタログを選択します\n2\n\n商品を追加する\n\n商品リストから追加したい商品を選択します\n[カタログを追加する]をクリックします\n​\n自動追加ルールを利用してカタログに商品を追加する手順\n1\n\nカタログを選択する\n\n商品管理の中にある[カタログ]セクションを開く\n商品を追加したいカタログを選択します\n2\n\n自動追加ルールを設定する\n\n[カタログ]セクション内の[自動追加ルール]を選択します\n[追加する]を選択します\n項目、条件、値を入力します\n[追加する]をクリックし、追加を完了してください\n自動追加ルールは、設定完了後のみカタログや商品に反映されます。\n追加されていない商品がある場合は手動でカタログに追加してください。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/039-products__create-catalog.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products/create-product",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products/create-product",
+      "status": 200,
+      "gotoError": null,
+      "title": "商品を作成する - SQ HelpCenter",
+      "h1": [
+        "商品を作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n目次",
+        "​\n①商品を作成",
+        "​\n②バリエーションの中身を作成"
+      ],
+      "textLength": 2128,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 41,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-brands",
+        "https://docs.sqstack.com/docs/guide/data-management/metafields",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/products/create-product",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n目次\n1.商品を作成\n2.バリエーションの中身を作成\n①商品を作成\n(例：商品マスターの箱を作成)\n▶︎管理画面での作成\n▶︎外部システムと連携して自動で追加する場合\n②バリエーションの中身を作成\n(例：カラー/REDのJANコードなどを登録)\n商品を作成する\n\nSQに商品を作成する際は下記の手順を追ってください。\n\n​\n目次\n​\n1.商品を作成\n管理画面での作成\n外部システムと連携して自動で追加する場合\n​\n2.バリエーションの中身を作成\n​\n①商品を作成\n​\n(例：商品マスターの箱を作成)\n​\n▶︎管理画面での作成\n1\n\n商品管理ページにアクセスする\n\n[商品管理] ページ画面右上の [商品を作成する] ボタンをクリックします\n2\n\n商品の各項目を入力する\n\n商品情報として、以下の項目を入力します\n項目\t説明\t要否\n商品コード\t商品を識別するコード（品番など）を入力します。\n検索にも使用できます。\t*必須\n商品名\t商品の名称を入力します。\t*必須\n説明文\t商品の概要や特徴を記載します。\t任意\nメディア\tオンラインストアに表示される商品画像を登録します。\t任意\nステータス\t「公開中」または「下書き」を選択できます。\n公開中に設定すると、ストアフロントで\nエンドユーザーに公開されます。\t*必須\n商品タイプ\t商品の大分類を設定します。例：[Tシャツ]\n検索性向上や分類用途に使用します。\t任意\n製造元\t生産元ブランド名など、商品の製造元を入力します。\t任意\nブランド\tあらかじめブランドを作成していると選択できます。\n※出品リストなどの設定に使用できます。\t任意\nタグ\t商品の補足的な分類情報\n（例：[ロンT], [セール対象]など）を入力できます。\t任意\nバリエーション\t・カラー・サイズ等をオプション名として登録します。\n・RED・23.5等をオプション値として登録します。\t*必須\nメタフィールド\tメニューに無いが登録したい商品情報がある場合に、\nカスタム項目が作成できます。\n詳細はメタフィールドを参照してください。\t任意\n3\n\n入力内容を確認し、[保存する] をクリックします\n\n​\n▶︎外部システムと連携して自動で追加する場合\n外部商品マスタ管理ツールなどとの自動連携をご希望の場合は、営業またはサポートまでお問い合わせください。\n​\n②バリエーションの中身を作成\n​\n(例：カラー/REDのJANコードなどを登録)\n1\n\nバリエーション追加画面に入る方法\n\n対象品番ページのバリエーション部分へ\nバリエーション部分の右上にある【＋バリエーションを追加する】ボタンを押す\n2\n\nバリエーションの各項目を入力\n\n項目\t説明\t要否\nオプション\t更新したいオプションを選択（カラーやサイズ）\t*必須\nメディア\t①で登録した中からSKUの窓画像を設定できます。\n※SKU毎に画像を出し分ける場合は窓画像以外も登録します。\n（サイトの仕様によります）\t任意\n上代価格\t税抜価格の上代価格を登録します。\t*必須\n仕入価格\t登録することで利益率を算出できるようになります。\t任意\nSKU\t在庫管理単位を登録します。重複不可です。\t*必須\nメーカーSKU\t仕入れ商品の場合ショッピング広告に出稿する際に\n出稿が有利になる場合があります。\t任意\nバーコード等\tJANやEAN形式のバーコードを入力します。\t任意\n重量・単位\t送料の計算等に利用ができます。\t任意\n関税情報\t関税に必要なコードを登録できます",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/040-products__create-product.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products/update-product",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products/update-product",
+      "status": 200,
+      "gotoError": null,
+      "title": "商品をアーカイブする - SQ HelpCenter",
+      "h1": [
+        "商品をアーカイブする"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 648,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 18,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/products/update-product",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\n商品をアーカイブする\n1\n\n商品ごとアーカイブする\n\n商品詳細ページに移動します\n画面右上の [商品をアーカイブする] をクリックします\n2\n\n一部のSKUのみアーカイブする\n\n商品詳細ページのバリーション部分へ\n対象のバリエーションのチェックボックスを選択すると、ボタンが表示されます\n[アーカイブする] をクリックします\nアーカイブされた商品は、商品管理画面の「アーカイブ」タブに表示され、通常の商品一覧には表示されなくなります。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/041-products__update-product.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank/adjusting-purchase-amount",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank/adjusting-purchase-amount",
+      "status": 200,
+      "gotoError": null,
+      "title": "購入金額を加算・減算する - SQ HelpCenter",
+      "h1": [
+        "購入金額を加算・減算する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n購入金額を加算する手順",
+        "​\n購入金額を減算する手順"
+      ],
+      "textLength": 893,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 24,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/rank/adjusting-purchase-amount",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n購入金額を加算する手順\n購入金額を減算する手順\n購入金額を加算・減算する\n\n何らかの理由により、顧客の購入金額の加算・減算を行いたい場合は、下記の手順を追ってください。購入金額の加算・減算を行うことで、会員ランク計算に必要な金額を操作することができるため、CS対応時に役立ちます。\n\n​\n購入金額を加算する手順\n1\n\n該当する顧客を選択する\n\n顧客管理から購入金額を加算したい顧客を選択し、顧客詳細ページへ移動\n2\n\n購入金額を加算する\n\n[会員ランクブロック]内の[購入金額を加算]をクリックします\nタイトル/加算理由・金額を入力、有効日・発生日を設定します\n[保存する]をクリックします\n​\n購入金額を減算する手順\n1\n\n該当する顧客を選択する\n\n顧客管理から購入金額を加算したい顧客を選択し、顧客詳細ページへ移動\n2\n\n購入金額を減算する\n\n[会員ランクブロック]内の[購入金額を減算]をクリックします\nタイトル/減算理由・金額を入力、有効日・発生日を設定します\n[保存する]をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/042-rank__adjusting-purchase-amount.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank/create-customer-rank-calculation-rules",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank/create-customer-rank-calculation-rules",
+      "status": 200,
+      "gotoError": null,
+      "title": "会員ランクルールを作成する - SQ HelpCenter",
+      "h1": [
+        "会員ランクルールを作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n会員ランクルールを作成する手順"
+      ],
+      "textLength": 726,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 22,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/rank/create-customer-rank-calculation-rules",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n会員ランクルールを作成する手順\n会員ランクルールを作成する\n\n会員ランクルールを作成すると、SQに入ってきた注文を元にその顧客の会員ランクを計算することができるようになります。\n\n​\n会員ランクルールを作成する手順\n1\n\n会員ランクルールを作成する\n\nSQ管理画面を開き、[会員ランク]を選択します\n右上の[ルールを作成する]を開きます\n2\n\n会員ランク計算ルールを作成する\n\n[タイトル]を入力し、会員ランクの算出方法を選択します\n\n購入金額ベースで会員ランクを算出する場合\n\n算出期間を選択します\n\n1年間\n\n直近365日\n\n無期限\n\n[保存する]を選択します\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/043-rank__create-customer-rank-calculation-rules.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank/min-rank",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank/min-rank",
+      "status": 200,
+      "gotoError": null,
+      "title": "固定ランクを設定する - SQ HelpCenter",
+      "h1": [
+        "固定ランクを設定する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n固定ランクの設定手順"
+      ],
+      "textLength": 825,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/rank/min-rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n固定ランクの設定手順\n固定ランクを設定する\n\n会員の最低ランクを固定することができます。設定すると設定したランクがその顧客の最低ランクとなり指定した会員ランクより下がらなくなります。\n\n​\n固定ランクの設定手順\n1\n\n該当する顧客を選択する\n\n顧客管理からランクを固定する顧客を選択する\n2\n\n固定ランクを設定する\n\n顧客詳細ページ内の[固定ランクを設定する]をクリックする\n固定ランクを設定するページが開き、固定ランクを選択する\n[保存する]をクリックする\n例）会員ランクが「BRONZE」の顧客に、固定ランク「SILVER」を設定した場合\n\nこの顧客の累計購入金額が0円でも、会員ランクは「SILVER」として判定されます。\nこの会員が「GOLD（SILVERの1つ上のランク）」に到達するには、0円からGOLDの閾値金額まで購入が達成される必要があります。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/044-rank__min-rank.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank/rank-up",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank/rank-up",
+      "status": 200,
+      "gotoError": null,
+      "title": "会員ランクアップポイント・クーポンを付与する - SQ HelpCenter",
+      "h1": [
+        "会員ランクアップポイント・クーポンを付与する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n会員ランクアップの際の特典としてポイントやクーポンを付与する方法"
+      ],
+      "textLength": 782,
+      "hasImage": true,
+      "imageCount": 6,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/rank/rank-up",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        },
+        {
+          "alt": "Image",
+          "src": "https://mintcdn.com/stack/DLj-wilGmUMyGnxh/images/image-1.png?fit=max&auto=format&n=DLj-wilGmUMyGnxh&q=85&s=e9f883e366a2a68099e76754d6f71442"
+        },
+        {
+          "alt": "Image",
+          "src": "https://mintcdn.com/stack/DLj-wilGmUMyGnxh/images/image-2.png?fit=max&auto=format&n=DLj-wilGmUMyGnxh&q=85&s=7f7b5fd1a9b870b3a24dddab3efe09df"
+        },
+        {
+          "alt": "Image",
+          "src": "https://mintcdn.com/stack/DLj-wilGmUMyGnxh/images/image-2.png?w=1100&fit=max&auto=format&n=DLj-wilGmUMyGnxh&q=85&s=2d69ad53b6dd3e40e68ae6b6849bbc90"
+        },
+        {
+          "alt": "Image",
+          "src": "https://mintcdn.com/stack/DLj-wilGmUMyGnxh/images/image-1.png?w=1100&fit=max&auto=format&n=DLj-wilGmUMyGnxh&q=85&s=ed88c4f7e67cdd861bd4e59f61378019"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n会員ランクアップの際の特典としてポイントやクーポンを付与する方法\n会員ランクアップポイント・クーポンを付与する\n​\n会員ランクアップの際の特典としてポイントやクーポンを付与する方法\n1\n\nポイント付与の場合\n\nShopify FlowのSQ内トリガーから「会員ランクがアップしました」を選択\nSQのアクションから、【ポイントを付与する】を選択\nポイント付与のお知らせを配信するアクションを追加\n1\n\nクーポン付与の場合\n\nあらかじめランクアップ特典のクーポンを作成しておく\nShopify FlowのSQ内トリガーから「会員ランクがアップしました」を選択\nShopifyのアクションから、「メールを送信する」・「SNSで配信する」などを選択\n2の配信内容に、クーポンを記載する\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/045-rank__rank-up.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/retail-portal-integration/setup-retail-portal",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/retail-portal-integration/setup-retail-portal",
+      "status": 200,
+      "gotoError": null,
+      "title": "リテールポータルを利用する - SQ HelpCenter",
+      "h1": [
+        "リテールポータルを利用する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n前提条件",
+        "​\nリテールポータルを設定する手順",
+        "​\nリテールポータルにログインする"
+      ],
+      "textLength": 1547,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 37,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-locations",
+        "https://docs.sqstack.com/docs/guide/data-management/create-retail-staff-members",
+        "https://docs.sqstack.com/docs/guide/data-management/create-users",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/products/create-catalog",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration/setup-retail-portal",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n前提条件\nリテールポータルを設定する手順\nリテールポータルにログインする\nリテールポータルを利用する\n​\n前提条件\n管理メンバーアカウントを作成済み\nロケーションを作成済み\n販売員を作成済み\nカタログを作成済み\n​\nリテールポータルを設定する手順\n1\n\nポータル設定画面を開く\n\nSQ管理画面の販売チャネル配下で[リテールポータル]を開きます\n右上の[追加する]を選択します\n2\n\n店舗ロケーションを選択する\n\n作成済みのロケーションから、リテールポータルを利用したい店舗のロケーションを選択します\n3\n\n在庫ロケーションを選択する\n\n客注注文が作成された時に、在庫を引き当てたいロケーションを選択します。ロケーションの[場所種別] が [倉庫] で登録されているロケーションが選択可能です。\n4\n\nテナントを選択する\n\n店舗が所属するテナントを選択します。\n5\n\nカタログを選択する\n\nその店舗から注文可能なカタログを選択します。このカタログに含まれている商品のみ、リテールポータルから注文が可能です。\n6\n\n在庫閾値ルールを設定する\n\n在庫がその閾値以下になった際には客注注文を受け付けない様にすることができます。閾値を設定することで、なんらかの理由で売越してしまった場合のリスク回避を行うことができます。\n7\n\n詳細の選択（チェックボックス）\n\nリテールポータルで販売員の選択を必須にする\nリテールポータルで販売員の選択を必須にすると、リテールポータルを開く際に、必ず販売員コードの入力を求められます。どの販売員によって閲覧されていたのかをSQ内に一定期間記録しておくことができます。\n配送先住所の編集を許可する\n配送先住所の編集を許可すると、店舗スタッフが顧客の配送先住所を入力することができるようになります。編集を許可しない場合は、顧客があらかじめマイページから登録している配送先住所を選択できます。\n下書き注文の送料明細の編集を許可する\n下書き注文の送料明細の編集を許可できます。\n下書き注文の注文明細の価格の編集を許可する\n下書き注文の注文明細の価格を変更することができます。\n​\nリテールポータルにログインする\nリテールポータルへのログインには、販売員コードが必須となります。販売員コードはあらかじめ設定されたロケーションに紐づいており、紐付けされた店舗の注文履歴のみ参照可能となっています。\nリテールポータルにアクセスします\n[＋販売員を選択する]をクリックします\n検索画面より該当の販売員コードを検索し、[選択する]をクリックします\n販売員コードに紐づくリテールポータルへログインします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/046-retail-portal-integration__setup-retail-portal.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/import-data",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/import-data",
+      "status": 200,
+      "gotoError": null,
+      "title": "データ連携 - SQ HelpCenter",
+      "h1": [
+        "データ連携"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n・同期設定",
+        "​\n・操作連携"
+      ],
+      "textLength": 892,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/import-data"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n・同期設定\n・操作連携\nデータ連携\n\nデータ取込では、Shopifyから送られてくるデータの取込を有効にするかどうかを設定できます。\n\n​\n・同期設定\n連携有無をチェックボックスで選択ができます。\n注文データの同期\n有効にすることで、SQで注文データの一元管理が行えます。\n会員ランクやポイント機能を利用する場合には、有効にする必要があります。\n顧客データの同期\n有効にすることで、SQで顧客データの一元管理が行えます。\n会員ランクやポイント機能、アカウント統合機能を利用する場合には、有効にする必要があります。\n​\n・操作連携\n連携有無をチェックボックスで選択ができます。\n\n出荷操作を連携する\nShopifyで登録された出荷実績をSQに自動で反映します\n返金操作を連携する\nShopifyで登録された返金をSQに自動で反映します\n返品操作を連携する\nShopifyで登録された返品をSQに自動で反映します\nキャンセル操作を連携する\nShopifyで登録されたキャンセルをSQに自動で反映します\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/047-shopify-integration__import-data.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/initial-setup-product",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/initial-setup-product",
+      "status": 200,
+      "gotoError": null,
+      "title": "リスティング - SQ HelpCenter",
+      "h1": [
+        "リスティング"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n・基本設定",
+        "​\n・商品情報の上書き設定"
+      ],
+      "textLength": 815,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/initial-setup-product"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n・基本設定\n・商品情報の上書き設定\nリスティング\n\nSQからShopifyへ商品情報を自動連携をする場合に設定が必要です。\n\n​\n・基本設定\nカタログ\nShopifyに連携するカタログを選択します。\nカタログはあらかじめ作成する必要があります。\n翻訳\nShopifyに適用する翻訳を選択できます。\n商品の紹介自動連携を有効にする\n[商品の初回自動連携を有効する]にチェックをします\n[保存する]をクリックします\n※初回連携のみ30分程時間がかかります。二回目以降は随時SQ→Shopifyに連携されます。\n会員ランクやポイントのみの連携の場合は、初回自動連携の必要はありません\n​\n・商品情報の上書き設定\nSQの商品情報を更新した際に、Shopifyの情報を上書きしない項目を設定します。\n各項目の上書き有無をチェックボックスで設定できます。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/048-shopify-integration__initial-setup-product.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/link-location",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/link-location",
+      "status": 200,
+      "gotoError": null,
+      "title": "ロケーションの接続 - SQ HelpCenter",
+      "h1": [
+        "ロケーションの接続"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\nロケーションを接続する手順"
+      ],
+      "textLength": 709,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/link-location"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nロケーションを接続する手順\nロケーションの接続\n\nShopifyのどのロケーションにSQのどのロケーションの在庫を連携するかを設定できます。\n\n​\nロケーションを接続する手順\n1\n\n基本情報を更新する\n\nSQ管理画面を開き、[販売チャネル]から[Shopify]を選択します\n注文データを同期したいストアを選択します\n右上の[ロケーション管理]を開きます\n2\n\nロケーションを接続する\n\n[ロケーションを接続する]を選択します\n接続したいShopifyのロケーションと、SQのロケーションを選択します\n[接続する]をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/049-shopify-integration__link-location.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/set-start-date",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/set-start-date",
+      "status": 200,
+      "gotoError": null,
+      "title": "基本設定 - SQ HelpCenter",
+      "h1": [
+        "基本設定"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n・基本設定",
+        "​\n・顧客設定",
+        "​\n・価格",
+        "​\n・在庫設定"
+      ],
+      "textLength": 1072,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 40,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration/set-start-date"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n・基本設定\n運用開始日\n出荷指示のステータス\n重量の単位\n・顧客設定\n会員証バーコードのフォーマット\n・価格\n販売価格ルール\n・在庫設定\nロケーショングループ\n予約販売ルール\n販売上限ルール\n基本設定\n​\n・基本設定\n​\n運用開始日\n運用開始日を設定すると、その日付より前の注文に関する返品などの更新データをSQで受けとらないことで、移行期のデータ連携エラーを防ぐことができます。\n​\n出荷指示のステータス\nShopifyから連携される注文から作成する出荷指示の作業ステータスです。\n​\n重量の単位\nShopifyに連携する際の重量単位です。\n​\n・顧客設定\n​\n会員証バーコードのフォーマット\nShopifyから連携される購買顧客の会員証バーコードの生成方法を指定します。\n​\n・価格\n​\n販売価格ルール\n選択した販売価格ルールに基づいて、Shopifyの販売価格を設定します。\n販売価格ルールはあらかじめ作成する必要があります。\n​\n・在庫設定\n​\nロケーショングループ\nShopifyから連携される注文の在庫は、ロケーションの指定がない限り設定されたロケーショングループのデフォルトのロケーションから引き当てられます\n​\n予約販売ルール\n選択した予約販売ルールに基づいて、Shopifyの販売可能在庫に対して予約販売可能な数量を設定します\n​\n販売上限ルール\n選択した販売上限ルールに基づいて、Shopifyの販売可能在庫に対して販売上限を設定します\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/050-shopify-integration__set-start-date.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-authority-group",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-authority-group",
+      "status": 200,
+      "gotoError": null,
+      "title": "権限グループを作成する - SQ HelpCenter",
+      "h1": [
+        "権限グループを作成する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n作成手順"
+      ],
+      "textLength": 643,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 20,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-authority-group",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n作成手順\n権限グループを作成する\nSQのアクセス権限を管理するグループを作成し、管理メンバーの設定に使用します。\n​\n作成手順\n1\n\n権限グループ画面へ\n\nSQ管理画面を開き、[設定]から[管理メンバー]を選択します\n右上の[権限グループ一覧]を選択します\n2\n\n権限を設定する\n\n権限グループページ右上の[作成する]をクリック\nグループ名を入力し、対象権限をクリック\n[保存する]をクリックします\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/051-data-management__create-authority-group.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-location",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-location",
+      "status": 404,
+      "gotoError": null,
+      "title": "Page Not Found",
+      "h1": [
+        "Page Not Found"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 329,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 16,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-location",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\n404\nPage Not Found\nWe couldn't find the page. Maybe you were looking for one of these pages below?\nSQガイド",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/052-data-management__create-location.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-location-group",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-location-group",
+      "status": 404,
+      "gotoError": null,
+      "title": "Page Not Found",
+      "h1": [
+        "Page Not Found"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 329,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 16,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/create-location-group",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\n404\nPage Not Found\nWe couldn't find the page. Maybe you were looking for one of these pages below?\nSQガイド",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/053-data-management__create-location-group.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products/add-to-catalog",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products/add-to-catalog",
+      "status": 200,
+      "gotoError": null,
+      "title": "カタログに商品を追加する - SQ HelpCenter",
+      "h1": [
+        "カタログに商品を追加する"
+      ],
+      "h2": [
+        "Documentation Index",
+        "On this page",
+        "​\n手動でカタログに商品を追加する手順",
+        "​\n自動追加ルールを利用してカタログに商品を追加する手順"
+      ],
+      "textLength": 1054,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 24,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/products/add-to-catalog",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n手動でカタログに商品を追加する手順\n自動追加ルールを利用してカタログに商品を追加する手順\nカタログに商品を追加する\n\n商品カタログを作成することで、特定の商品群を管理・分類し、販売チャネルや店舗ごとに柔軟に商品を公開できます。\n\nカタログに商品を追加する場合は、手動での追加と自動追加ルールを設定して自動でカタログを作成する方法の2つがあります。\n​\n手動でカタログに商品を追加する手順\n1\n\nカタログを選択する\n\nSQ管理画面から[商品管理]を選択します\n商品管理の中にある[カタログ]セクションを開き、商品を追加したカタログを選択します\n2\n\n商品を追加する\n\n商品リストから追加したい商品を選択します\n商品を選択後、[カタログを追加する]をクリックし、追加を完了してください\n​\n自動追加ルールを利用してカタログに商品を追加する手順\n1\n\nカタログを選択する\n\nSQ管理画面から[商品管理]を選択します\n商品管理の中にある[カタログ]セクションを開き、商品を追加したカタログを選択します\n2\n\n自動追加ルールを設定する\n\n[カタログ]セクション内の[自動追加ルール]を選択します\n[追加する]を選択します\n項目、条件、値を入力します\n[追加する]をクリックし、追加を完了してください\n自動追加ルールは、設定完了後のみカタログや商品に反映されます。\n追加されていない商品がある場合は手動でカタログに追加してください。\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/054-products__add-to-catalog.png"
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/metafields",
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/metafields",
+      "status": 404,
+      "gotoError": null,
+      "title": "Page Not Found",
+      "h1": [
+        "Page Not Found"
+      ],
+      "h2": [
+        "Documentation Index"
+      ],
+      "textLength": 270,
+      "hasImage": true,
+      "imageCount": 2,
+      "linkCount": 15,
+      "guideLinks": [
+        "https://docs.sqstack.com/docs/guide/app-integrations",
+        "https://docs.sqstack.com/docs/guide/customers",
+        "https://docs.sqstack.com/docs/guide/data-management",
+        "https://docs.sqstack.com/docs/guide/data-management/metafields",
+        "https://docs.sqstack.com/docs/guide/discounts",
+        "https://docs.sqstack.com/docs/guide/introduction",
+        "https://docs.sqstack.com/docs/guide/inventory",
+        "https://docs.sqstack.com/docs/guide/orders",
+        "https://docs.sqstack.com/docs/guide/point",
+        "https://docs.sqstack.com/docs/guide/products",
+        "https://docs.sqstack.com/docs/guide/rank",
+        "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+        "https://docs.sqstack.com/docs/guide/shopify-integration"
+      ],
+      "images": [
+        {
+          "alt": "light logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_light.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=ea77993848e7d476a5dd33a81e749c97"
+        },
+        {
+          "alt": "dark logo",
+          "src": "https://mintcdn.com/stack/DctK6e8aa1L8-M22/logo/logo_dark.svg?fit=max&auto=format&n=DctK6e8aa1L8-M22&q=85&s=b4a8f2e055c23e5d8f213feaa7ba9a59"
+        }
+      ],
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\n404\nPage Not Found\nWe couldn't find the page.",
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/public-help-screenshots/055-data-management__metafields.png"
+    }
+  ],
+  "directChecks": [
+    {
+      "url": "https://docs.sqstack.com/docs/llms.txt",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/llms.txt",
+      "textStart": "# SQ HelpCenter\n\n## Docs\n\n- [外部連携](https://docs.sqstack.com/docs/guide/app-integrations.md): 外部システムとAPI連携を行うためのアクセストークンの発行と、外部システムのトークンの登録を行うことができます。\n- [顧客管理](https://docs.sqstack.com/docs/guide/customers.md): 顧客情報の管理、顧客の注文履歴、顧客の分析ができます。\n- [データ管理](https://docs.sqstack.com/docs/guide/data-management.md): データ管理では、さまざまな情報のマスタ管理が行えます。\n- [ディスカウント利用](https://docs.sqstack.com/docs/guide/discounts.md): SQでディスカウントを発行することで、販売チャネルを横断したクーポン利用を管理したり、顧客の所有しているクーポン一覧を表示することができるようになります。SQでクーポンを発行して、販売機会の拡大を促しましょう。\n- [SQガイド](https://docs.sqstack.com/docs/guide/introduction.md): SQはあらゆるチャネルを横断して在庫・受注・商品を一元管理。SQは\"売り切る力\"と\"効率化\"を両立する次世代の基幹システムです。\n- [在庫管理機能](https://docs.sqstack.com/docs/guide/inventory.md): 在庫の移動、仕入れ、在庫の状況を確認することができます。\n- [注文管理機能](https://docs.sqstack.com/docs/guide/orders.md): SQでは、接続されている全ての販売チャネルからの注文を一元管理できます。\n- [ポイント機能](https://docs.sqstack.com/docs/guide/point.md): リピート購入やブランドへの愛着を促す機能です。 期間限定のポイントアップや特定商品の優遇などで顧客接点を強化できるほか、ランク制度と組み合わせることで施策の幅が大きく広がります。\n- [商品管理](https://docs.sqstack.com/docs/guide/products.md): 商品の追加・編集、付加情報の管理、カタログの作成ができます。\n- [会員ランク機能](https://docs.sqstack.com/docs/guide/rank.md): 顧客のロイヤルティを高め、継続的な購買を促す仕組みです。 購入実績に応じた特典の差別化により顧客体験を向上させ、上位顧客（収益性の高い層）に向けた戦略的なマーケティング"
+    },
+    {
+      "url": "https://docs.sqstack.com/llms.txt",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/llms.txt",
+      "textStart": "404: NOT_FOUND\nCode: NOT_FOUND\nID: hnd1:iad1::rl792-1780888682731-cb7fa796daf3\n\nRead our documentation to learn more about this error."
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/llms-full.txt",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/llms-full.txt",
+      "textStart": "# 外部連携\nSource: https://docs.sqstack.com/docs/guide/app-integrations\n\n外部システムとAPI連携を行うためのアクセストークンの発行と、外部システムのトークンの登録を行うことができます。\n\n## 標準機能で連携可能なサービス\n\n### 販売チャネル\n\n<CardGroup>\n  <Card title=\"Shopify\" href=\"/guide/shopify-integration/shopifyflow\" />\n\n  <Card title=\"スマレジ（近日連携予定）\" />\n\n  <Card title=\"OmnibusCore\" />\n</CardGroup>\n\n### 業務効率化\n\n<CardGroup>\n  <Card title=\"Recustomer\" href=\"/guide/app-integrations/recustomer\" />\n</CardGroup>\n\n## SQのAPIを外部から利用可能にする\n\n<CardGroup>\n  <Card title=\"SQのAPIを利用するためのトークンを発行\" icon=\"shield-keyhole\" href=\"/guide/shopify-integration/access-token\" />\n</CardGroup>\n\n\n# 顧客管理\nSource: https://docs.sqstack.com/docs/guide/customers\n\n顧客情報の管理、顧客の注文履歴、顧客の分析ができます。\n\n\n\n# データ管理\nSource: https://docs.sqstack.com/docs/guide/data-management\n\nデータ管理では、さまざまな情報のマスタ管理が行えます。\n\n## 目次\n\nデータ管理で管理できる項目は以下です。\n\n* 管理メンバー\n* テナント\n* ロケーション\n* ロケーショングループ\n* ブランド\n* 取引先\n* 決済方法\n* 販売員\n\n## 管理メンバー\n\n管理メンバーでは、SQにログインするためのアカウントを管理しています。それぞれのアカウントに対して閲覧や編集権限を設定することができます。\n\n* [管理メンバーの登録方法](/docs/guide/data-management/create-users)\n* 権限グループの作成\n\n## テナント\n\nテナントとは、組織の1つ下の単位でポイントや会員ランクルールが紐づく単位です。一般的にはブランドや、部門の単位で作成されます。\n\n* [テナントの登録方法](/docs/guide/data-management/create-tenants)\n\n## ロケーション\n\n在庫や店舗などの場所情報・在庫を管理するための単位です。"
+    },
+    {
+      "url": "https://docs.sqstack.com/llms-full.txt",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/llms-full.txt",
+      "textStart": "404: NOT_FOUND\nCode: NOT_FOUND\nID: hnd1:iad1::mxggm-1780888684190-303237738d1c\n\nRead our documentation to learn more about this error."
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration",
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\n目次\nShopifyとSQを連携したらできること\nShopifyと連携する手順\nSQの提供するShopifyFlowのトリガーとアクション\n販売チャネル連携\nShopify連携\n\nSQとShopifyを連携すると、販売チャネルの1つとしてShopifyが認識されるようになり、商品、在庫、顧客、ポイントやランクの管理を行うことができるようになります。\n\n​\n目次\nShopifyとSQを連携したらできること\nShopifyと連携する手順\nSQの提供するShopifyFlowのトリガーとアクション\n​\nShopifyとSQを連携したらできること\nShopifyとSQを連携することで、以下の機能を活用できるようになります。\n商品マスタの自動同期\nShopifyの商品情報をSQと連携し、一元管理が可能になります\nロケーション（店舗や倉庫情報）の統合管理\n店舗やオンライン倉庫のロケーション情報（ロケーション名、住所、電話番号、Google Mapsリンク）を一元管理することができます。SQからSDKを用いてストアフロントに表示することができます\n在庫のリアルタイム管理\n複数の販売チャネルを跨いだ在庫のリアルタイム一括管理が可能になります。SQからSDKを用いて、店舗在庫をオンラインに表示することが可能になります\n顧客データ・ポイント・会員ランクの同期\nストアフロントから連携された顧客情報を基に、顧客の会員ランクやポイント管理を行うことができます。SQからSDKを用いて、SQで計算されたポイントや会員ランクをShopifyに表示することができます\nShopify Flow の利用 SQはShopifyFlowのトリガーとアクションを提供しています。SQの提供するトリガーとアクションを利用して商品管理やCRMに役立つ処理を自動化できます\n​\nShopifyと連携する手順\nSQと接続するShopifyストアを登録する\nShopifyストアにSQコネクターアプリをインストールする\n登録したストアとSQの接"
+    },
+    {
+      "url": "https://docs.sqstack.com/guide/shopify-integration",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/guide/shopify-integration",
+      "textStart": "404: NOT_FOUND\nCode: NOT_FOUND\nID: hnd1:iad1::z77zn-1780888685729-8f3fffe25212\n\nRead our documentation to learn more about this error."
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+      "textStart": "Documentation Index\n\nFetch the complete documentation index at: /docs/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nSQ HelpCenter home page\nSearch...\n⌘K\nAsk Assistant\nはじめに\nSQガイド\n管理\n商品管理\n顧客管理\n在庫管理機能\n注文管理機能\nCRM\nポイント機能\nディスカウント利用\n会員ランク機能\n販売チャネル連携\nShopify連携\n店舗連携\n設定\nデータ管理\n外部連携\nOn this page\nPOSシステムとの接続方法\nリテールポータル\n店舗受取\n販売チャネル連携\n店舗連携\n\n店舗システムとSQを接続すると、販売チャネルの1つとして店舗を認識できるようになり、商品、在庫、顧客、ポイントやランクの管理をSQで一元化することができるようになります。\n\n​\nPOSシステムとの接続方法\n標準連携しているPOSサービス以外は開発が必要になります。ご相談ください。\n​\nリテールポータル\nリテールポータルとは、オンラインの在庫を店頭で注文・支払いできる客注注文や、他店舗在庫の確認などを可能にする、店舗スタッフ向けのサポート機能です。\nリテールポータルにログインする\n客注注文（オンライン発送商品を店舗で注文・支払い）を行う\n店舗の在庫を検索する\n注文にメモを追加する\n​\n店舗受取\nSoon Come…\nShopify連携\nデータ管理\n⌘I\nPowered by\nThis documentation is built and hosted on Mintlify, a developer documentation platform"
+    },
+    {
+      "url": "https://docs.sqstack.com/guide/retail-portal-integration",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/guide/retail-portal-integration",
+      "textStart": "404: NOT_FOUND\nCode: NOT_FOUND\nID: hnd1:iad1::5rg8h-1780888687271-c4f6a6f5aab9\n\nRead our documentation to learn more about this error."
+    }
+  ]
+}

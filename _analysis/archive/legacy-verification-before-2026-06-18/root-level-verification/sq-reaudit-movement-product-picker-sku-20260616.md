@@ -1,0 +1,340 @@
+- generic [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "ホーム" [ref=e48] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e51]
+                - generic [ref=e53]: ホーム
+            - listitem [ref=e54]:
+              - link "商品管理" [ref=e57] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e60]
+                - generic [ref=e62]: 商品管理
+            - listitem [ref=e63]:
+              - link "在庫管理" [ref=e66] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e69]
+                - generic [ref=e71]: 在庫管理
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - link "移動伝票" [ref=e78] [cursor=pointer]:
+                    - /url: /admin/inventory_movement_orders
+                    - generic [ref=e79]: 移動伝票
+                - listitem [ref=e80]:
+                  - link "調整伝票" [ref=e83] [cursor=pointer]:
+                    - /url: /admin/inventory_adjustment_orders
+                    - generic [ref=e84]: 調整伝票
+                - listitem [ref=e85]:
+                  - link "取置伝票" [ref=e88] [cursor=pointer]:
+                    - /url: /admin/inventory_reservation_orders
+                    - generic [ref=e89]: 取置伝票
+            - listitem [ref=e90]:
+              - link "注文管理" [ref=e93] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e96]
+                - generic [ref=e98]: 注文管理
+            - listitem [ref=e99]:
+              - link "顧客管理" [ref=e102] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e105]
+                - generic [ref=e108]: 顧客管理
+            - listitem [ref=e109]:
+              - link "発注管理" [ref=e112] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e115]
+                - generic [ref=e118]: 発注管理
+            - listitem [ref=e119]:
+              - link "販売設定" [ref=e122] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e125]
+                - generic [ref=e130]: 販売設定
+            - listitem [ref=e131]:
+              - link "会計" [ref=e134] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e137]
+                - generic [ref=e139]: 会計
+            - listitem [ref=e140]:
+              - generic [ref=e141]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e142]:
+            - listitem [ref=e143]:
+              - generic [ref=e144]: オペレーション
+            - listitem [ref=e145]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e314] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e151]
+                - generic [ref=e155]: 入荷管理
+                - generic [ref=e316]:
+                  - generic [ref=e317]: 未完了の入荷指示 1件
+                  - generic [ref=e318]: "1"
+            - listitem [ref=e156]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e319] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e162]
+                - generic [ref=e164]: 出荷管理
+                - generic [ref=e321]:
+                  - generic [ref=e322]: 未完了の出荷指示 1件
+                  - generic [ref=e323]: "1"
+            - listitem [ref=e165]:
+              - link "在庫依頼" [ref=e168] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e171]
+                - generic [ref=e174]: 在庫依頼
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - generic [ref=e177]: CRM
+            - listitem [ref=e178]:
+              - link "ディスカウント" [ref=e181] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e184]
+                - generic [ref=e186]: ディスカウント
+            - listitem [ref=e187]:
+              - link "ポイント" [ref=e190] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e193]
+                - generic [ref=e195]: ポイント
+            - listitem [ref=e196]:
+              - link "会員ランク" [ref=e199] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e202]
+                - generic [ref=e205]: 会員ランク
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - generic [ref=e208]: 販売チャネル
+            - listitem [ref=e209]:
+              - link "Shopify" [ref=e212] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e213]: Shopify
+            - listitem [ref=e214]:
+              - link "OmnibusCore" [ref=e217] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e218]: OmnibusCore
+            - listitem [ref=e219]:
+              - link "スマレジ" [ref=e222] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e223]: スマレジ
+            - listitem [ref=e224]:
+              - link "リテールポータル" [ref=e227] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e228]: リテールポータル
+            - listitem [ref=e229]:
+              - generic [ref=e230]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e231]:
+            - listitem [ref=e232]:
+              - link "設定" [ref=e235] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e238]
+                - generic [ref=e240]: 設定
+    - generic [ref=e504]:
+      - generic [ref=e505]:
+        - img [ref=e507]
+        - heading "保存されていない変更" [level=2] [ref=e511]
+      - generic [ref=e513]:
+        - link "取り消す" [ref=e515] [cursor=pointer]:
+          - /url: /admin/inventory_movement_orders
+          - generic [ref=e516]: 取り消す
+        - button "保存" [ref=e518] [cursor=pointer]:
+          - generic [ref=e519]: 保存
+    - main [ref=e241]:
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - status:
+            - paragraph [ref=e246]: 移動伝票を作成する。このページの準備が整いました
+          - generic [ref=e248]:
+            - link [ref=e251] [cursor=pointer]:
+              - /url: /admin/inventory_movement_orders
+              - img [ref=e254]
+            - heading "移動伝票を作成する" [level=1] [ref=e258]
+        - generic [ref=e260]:
+          - generic [ref=e262]:
+            - generic [ref=e265]:
+              - generic [ref=e267]:
+                - heading "配送元" [level=2] [ref=e268]
+                - generic [ref=e269]:
+                  - generic [ref=e272]: 配送元
+                  - generic [ref=e273]:
+                    - textbox "配送元" [ref=e276]:
+                      - /placeholder: 配送元を選択してください
+                      - text: 物流倉庫
+                    - button "選択" [ref=e278] [cursor=pointer]:
+                      - generic [ref=e279]: 選択
+              - generic [ref=e281]:
+                - heading "配送先" [level=2] [ref=e282]
+                - generic [ref=e283]:
+                  - generic [ref=e286]: 配送先
+                  - generic [ref=e287]:
+                    - textbox "配送先" [ref=e290]:
+                      - /placeholder: 配送先を選択してください
+                      - text: ユニクロ - 銀座店
+                    - button "選択" [ref=e292] [cursor=pointer]:
+                      - generic [ref=e293]: 選択
+            - generic [ref=e297]:
+              - heading "商品を追加" [level=2] [ref=e298]
+              - generic [ref=e299]:
+                - generic [ref=e302]: 商品を追加する
+                - generic [ref=e303]:
+                  - textbox "商品を追加する" [ref=e306]:
+                    - /placeholder: 商品を検索する
+                  - button "参照" [ref=e520] [cursor=pointer]:
+                    - generic [ref=e521]: 参照
+          - button "保存する" [ref=e312] [cursor=pointer]:
+            - generic [ref=e313]: 保存する
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "バリエーションを選択する":
+              - generic [ref=e699]:
+                - generic [ref=e701]:
+                  - heading "バリエーションを選択する" [level=2] [ref=e703]
+                  - button "閉じる" [ref=e704] [cursor=pointer]:
+                    - img [ref=e707]
+                - generic [ref=e709]:
+                  - generic [ref=e714]:
+                    - generic [ref=e719]:
+                      - generic [ref=e722]: SKUコードで検索する
+                      - generic [ref=e725]:
+                        - img [ref=e729]
+                        - textbox "SKUコードで検索する" [active] [ref=e731]: 487973-64-36
+                        - button "クリア" [ref=e732] [cursor=pointer]
+                    - button "絞り込みを追加" [ref=e744] [cursor=pointer]:
+                      - generic [ref=e745]: 絞り込みを追加
+                      - img [ref=e746]
+                  - generic [ref=e749]:
+                    - table [ref=e751]:
+                      - rowgroup [ref=e752]:
+                        - row "すべてのアイテムを選択する バリエーション 商品コード SKU 在庫数" [ref=e753]
+                      - rowgroup [ref=e770]:
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BEIGE / XL 486125 486125-31-XL 2個" [ref=e771] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / S 486102 486102-70-S 0個" [ref=e793] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail UVカットペーパーブレイドハット NATURAL / ONE SIZE 482787 482787-30-ONE 0個" [ref=e815] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ GRAY / M 486125 486125-03-M 0個" [ref=e837] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / XL 486102 486102-08-XL 0個" [ref=e859] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 27 487973 487973-64-27 0個" [ref=e881] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / XS 486102 486102-70-XS 0個" [ref=e903] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT BLACK / L 483457 483457-09-L 0個" [ref=e925] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail ポケモン UT RED / 160(14歳) 483674 483674-15-160 0個" [ref=e947] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT LIGHT GRAY / S 483457 483457-02-S 0個" [ref=e969] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ BLACK / XS 486102 486102-09-XS 0個" [ref=e991] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / S 486102 486102-08-S 0個" [ref=e1013] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ GRAY / XL 486125 486125-03-XL 0個" [ref=e1035] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 32 487973 487973-64-32 0個" [ref=e1057] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail ポケモン UT RED / 140(10-11歳) 483674 483674-15-140 0個" [ref=e1079] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 30 487973 487973-64-30 0個" [ref=e1101] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 21 487973 487973-64-21 0個" [ref=e1123] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ NAVY / M 486125 486125-69-M 0個" [ref=e1145] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ BLACK / XL 486102 486102-09-XL 0個" [ref=e1167] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 22 487973 487973-64-22 0個" [ref=e1189] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT WHITE / L 483457 483457-00-L 0個" [ref=e1211] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT LIGHT GRAY / M 483457 483457-02-M 0個" [ref=e1233] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT WHITE / M 483457 483457-00-M 0個" [ref=e1255] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail ポケモン UT RED / 120(6-7歳) 483674 483674-15-120 0個" [ref=e1277] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BEIGE / XS 486125 486125-31-XS 0個" [ref=e1299] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT PINK / XL 483457 483457-10-XL 0個" [ref=e1321] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT DARK BROWN / XL 483457 483457-38-XL 0個" [ref=e1343] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ WHITE / XL 486102 486102-00-XL 0個" [ref=e1365] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT WHITE / XS 483457 483457-00-XS 0個" [ref=e1387] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT PINK / M 483457 483457-10-M 0個" [ref=e1409] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ GREEN / S 486102 486102-52-S 0個" [ref=e1431] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT BLACK / M 483457 483457-09-M 0個" [ref=e1453] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ NAVY / S 486125 486125-69-S 0個" [ref=e1475] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT BLACK / XL 483457 483457-09-XL 0個" [ref=e1497] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BLACK / M 486125 486125-09-M 0個" [ref=e1519] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ WHITE / XS 486102 486102-00-XS 0個" [ref=e1541] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail UVカットペーパーブレイドハット BEIGE / ONE SIZE 482787 482787-32-ONE 0個" [ref=e1563] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT DARK BROWN / XS 483457 483457-38-XS 0個" [ref=e1585] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / XL 486102 486102-70-XL 0個" [ref=e1607] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail ポケモン UT RED / 130(8-9歳) 483674 483674-15-130 0個" [ref=e1629] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 23 487973 487973-64-23 0個" [ref=e1651] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BEIGE / M 486125 486125-31-M 0個" [ref=e1673] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT DARK BROWN / M 483457 483457-38-M 0個" [ref=e1695] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / M 486102 486102-08-M 0個" [ref=e1717] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BLACK / XS 486125 486125-09-XS 0個" [ref=e1739] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT BLACK / XS 483457 483457-09-XS 0個" [ref=e1761] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ BLACK / S 486102 486102-09-S 0個" [ref=e1783] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT DARK BROWN / S 483457 483457-38-S 0個" [ref=e1805] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ BLACK / M 486102 486102-09-M 0個" [ref=e1827] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / M 486102 486102-70-M 0個" [ref=e1849] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BLACK / S 486125 486125-09-S 0個" [ref=e1871] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ GREEN / M 486102 486102-52-M 0個" [ref=e1893] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT DARK BROWN / L 483457 483457-38-L 0個" [ref=e1915] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 34 487973 487973-64-34 0個" [ref=e1937] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ GREEN / L 486102 486102-52-L 0個" [ref=e1959] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT LIGHT GRAY / XL 483457 483457-02-XL 0個" [ref=e1981] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT PINK / S 483457 483457-10-S 0個" [ref=e2003] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ WHITE / M 486102 486102-00-M 0個" [ref=e2025] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT PINK / XS 483457 483457-10-XS 0個" [ref=e2047] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail ポケモン UT RED / 150(12-13歳) 483674 483674-15-150 0個" [ref=e2069] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 26 487973 487973-64-26 0個" [ref=e2091] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ GRAY / S 486125 486125-03-S 0個" [ref=e2113] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BEIGE / L 486125 486125-31-L -2個" [ref=e2135] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 29 487973 487973-64-29 0個" [ref=e2157] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BEIGE / S 486125 486125-31-S 0個" [ref=e2179] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT LIGHT GRAY / XS 483457 483457-02-XS 0個" [ref=e2201] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ WHITE / S 486102 486102-00-S 0個" [ref=e2223] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 25 487973 487973-64-25 0個" [ref=e2245] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / XS 486102 486102-08-XS 0個" [ref=e2267] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail ポケモン UT RED / 110(4-5歳) 483674 483674-15-110 0個" [ref=e2289] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ NAVY / XS 486125 486125-69-XS 0個" [ref=e2311] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 24 487973 487973-64-24 0個" [ref=e2333] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT PINK / L 483457 483457-10-L 100個" [ref=e2355] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / L 486102 486102-70-L 0個" [ref=e2377] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ BLACK / L 486102 486102-09-L 0個" [ref=e2399] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ NAVY / XL 486125 486125-69-XL 0個" [ref=e2421] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / L 486102 486102-08-L 0個" [ref=e2443] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ GRAY / XS 486125 486125-03-XS 0個" [ref=e2465] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 28 487973 487973-64-28 0個" [ref=e2487] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT BLACK / S 483457 483457-09-S 0個" [ref=e2509] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ NAVY / L 486125 486125-69-L 0個" [ref=e2531] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ GREEN / XS 486102 486102-52-XS 0個" [ref=e2553] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ GRAY / L 486125 486125-03-L 0個" [ref=e2575] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT WHITE / XL 483457 483457-00-XL 0個" [ref=e2597] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail ポケモン UT RED / 100(3-4歳) 483674 483674-15-100 0個" [ref=e2619] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT WHITE / S 483457 483457-00-S 0個" [ref=e2641] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BLACK / L 486125 486125-09-L 0個" [ref=e2663] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンT LIGHT GRAY / L 483457 483457-02-L 0個" [ref=e2685] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ WHITE / L 486102 486102-00-L 0個" [ref=e2707] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail オーバーサイズスウェットシャツ BLACK / XL 486125 486125-09-XL 7個" [ref=e2729] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail エアリズムコットンクルーネックTシャツ GREEN / XL 486102 486102-52-XL 0個" [ref=e2751] [cursor=pointer]
+                        - row "アイテムを選択する productVariant thumbnail バギーカーブジーンズ BLUE / 36 487973 487973-64-36 100個" [ref=e2773] [cursor=pointer]
+                    - navigation "ページネーション" [ref=e2798]:
+                      - generic [ref=e2801]:
+                        - generic [ref=e2802]
+                        - generic [ref=e2803]
+                - generic [ref=e2807]:
+                  - button "キャンセル" [ref=e2808] [cursor=pointer]:
+                    - generic [ref=e2809]: キャンセル
+                  - button "選択する" [ref=e2810] [cursor=pointer]:
+                    - generic [ref=e2811]: 選択する
+  - alert [ref=e15]

@@ -1,0 +1,230 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "ホーム" [ref=e48] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e51]
+                - generic [ref=e53]: ホーム
+            - listitem [ref=e54]:
+              - link "商品管理" [ref=e57] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e60]
+                - generic [ref=e62]: 商品管理
+            - listitem [ref=e63]:
+              - link "在庫管理" [ref=e66] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e69]
+                - generic [ref=e71]: 在庫管理
+            - listitem [ref=e72]:
+              - link "注文管理" [ref=e75] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e78]
+                - generic [ref=e80]: 注文管理
+            - listitem [ref=e81]:
+              - link "顧客管理" [ref=e84] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e87]
+                - generic [ref=e90]: 顧客管理
+            - listitem [ref=e91]:
+              - link "発注管理" [ref=e94] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e97]
+                - generic [ref=e100]: 発注管理
+            - listitem [ref=e101]:
+              - link "販売設定" [ref=e104] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e107]
+                - generic [ref=e112]: 販売設定
+            - listitem [ref=e113]:
+              - link "会計" [ref=e116] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e119]
+                - generic [ref=e121]: 会計
+            - listitem [ref=e122]:
+              - generic [ref=e123]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - generic [ref=e126]: オペレーション
+            - listitem [ref=e127]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e130] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e133]
+                - generic [ref=e137]: 入荷管理
+                - generic [ref=e139]:
+                  - generic [ref=e140]: 未完了の入荷指示 1件
+                  - generic [ref=e141]: "1"
+            - listitem [ref=e142]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e148]
+                - generic [ref=e150]: 出荷管理
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 未完了の出荷指示 1件
+                  - generic [ref=e154]: "1"
+            - listitem [ref=e155]:
+              - link "在庫依頼" [ref=e158] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161]
+                - generic [ref=e164]: 在庫依頼
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - generic [ref=e167]: CRM
+            - listitem [ref=e168]:
+              - link "ディスカウント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ディスカウント
+            - listitem [ref=e177]:
+              - link "ポイント" [ref=e180] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e185]: ポイント
+            - listitem [ref=e186]:
+              - link "会員ランク" [ref=e189] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e192]
+                - generic [ref=e195]: 会員ランク
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - generic [ref=e198]: 販売チャネル
+            - listitem [ref=e199]:
+              - link "Shopify" [ref=e202] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e203]: Shopify
+            - listitem [ref=e204]:
+              - link "OmnibusCore" [ref=e207] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e208]: OmnibusCore
+            - listitem [ref=e209]:
+              - link "スマレジ" [ref=e212] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e213]: スマレジ
+            - listitem [ref=e214]:
+              - link "リテールポータル" [ref=e217] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e218]: リテールポータル
+            - listitem [ref=e219]:
+              - generic [ref=e220]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - link "設定" [ref=e225] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e228]
+                - generic [ref=e230]: 設定
+    - main [ref=e231]:
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - status:
+            - paragraph [ref=e301]: 売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました
+          - generic [ref=e303]:
+            - link [ref=e306] [cursor=pointer]:
+              - /url: /admin/csv_export
+              - img [ref=e309]
+            - heading "売上実績（注文軸）をCSVでエクスポートする" [level=1] [ref=e313]
+            - link "エクスポート" [ref=e317] [cursor=pointer]:
+              - /url: /admin/csv_export/csv_export_operation_sale_changes/create
+              - generic [ref=e318]: エクスポート
+        - generic [ref=e325]:
+          - table [ref=e327]:
+            - rowgroup [ref=e328]:
+              - row "作成日 テナント 対象期間 ステータス ダウンロード" [ref=e329]:
+                - columnheader "作成日" [ref=e330]:
+                  - generic [ref=e331]: 作成日
+                - columnheader "テナント" [ref=e332]:
+                  - generic [ref=e333]: テナント
+                - columnheader "対象期間" [ref=e334]:
+                  - generic [ref=e335]: 対象期間
+                - columnheader "ステータス" [ref=e336]:
+                  - generic [ref=e337]: ステータス
+                - columnheader "ダウンロード" [ref=e338]:
+                  - generic [ref=e339]: ダウンロード
+            - rowgroup [ref=e340]:
+              - row "2026年06月16日 23:41 ユニクロ 2026年06月16日 00:00 〜 2026年06月16日 23:59 注意 処理中" [ref=e341]:
+                - cell "2026年06月16日 23:41" [ref=e342]:
+                  - paragraph [ref=e343]: 2026年06月16日 23:41
+                - cell "ユニクロ" [ref=e344]:
+                  - paragraph [ref=e345]: ユニクロ
+                - cell "2026年06月16日 00:00 〜 2026年06月16日 23:59" [ref=e346]:
+                  - paragraph [ref=e347]: 2026年06月16日 00:00 〜 2026年06月16日 23:59
+                - cell "注意 処理中" [ref=e348]:
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: 注意
+                    - generic [ref=e351]: 処理中
+                - cell [ref=e352]:
+                  - paragraph
+              - row "2026年06月15日 18:43 ユニクロ 2026年06月15日 00:00 〜 2026年06月15日 23:59 成功 完了 ダウンロード" [ref=e353]:
+                - cell "2026年06月15日 18:43" [ref=e354]:
+                  - paragraph [ref=e355]: 2026年06月15日 18:43
+                - cell "ユニクロ" [ref=e356]:
+                  - paragraph [ref=e357]: ユニクロ
+                - cell "2026年06月15日 00:00 〜 2026年06月15日 23:59" [ref=e358]:
+                  - paragraph [ref=e359]: 2026年06月15日 00:00 〜 2026年06月15日 23:59
+                - cell "成功 完了" [ref=e360]:
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: 成功
+                    - generic [ref=e363]: 完了
+                - cell "ダウンロード" [ref=e364]:
+                  - paragraph [ref=e365]:
+                    - link "ダウンロード" [ref=e366] [cursor=pointer]:
+                      - /url: https://storage.googleapis.com/erp-server-staging-file-storage/a8225dc5-ac86-5658-96ed-ef51cd1bae3e_Organization/csv/sale-change/20260615_1843.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=cloud-run%40erp-server-staging.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T144131Z&X-Goog-Expires=107999&X-Goog-Signature=1f853f469bee6e0f511b885518fed5d8547de64887a8e7633fc05e67d379e6911223ec6944d6fda70458bfdc05733bd9acbcc83d7c1bf6baef98cffa2f318df8277af0d186a7fb3f859f67100549d2153f8894fa8bd6506b6b06336480aa2683ae49c63831776090585d183bca7e4d9e560f9f2c9d61ffe266e7d287fbfcc3dbbeef176bb028e4fad816f3c8c11536a7170bb61169d0d23fb5214d0c9e33ad5ff8a664ab9f91313f4bef59bdebb7e0569afcbd5d1224b16383c736f170f9d06c40cfdd25e2b38c3ea7fddd778816cfbf8419c0248fc2295eebecf39a0751d66470c059ee2651d1c943b0d5746051918c54192fb84d80ebfd2ed5be9ee8ff2243&X-Goog-SignedHeaders=host
+                      - generic [ref=e367]: ダウンロード
+              - row "2026年06月08日 12:49 ユニクロ 2026年06月01日 00:00 〜 2026年06月08日 23:59 成功 完了 ダウンロード" [ref=e368]:
+                - cell "2026年06月08日 12:49" [ref=e369]:
+                  - paragraph [ref=e370]: 2026年06月08日 12:49
+                - cell "ユニクロ" [ref=e371]:
+                  - paragraph [ref=e372]: ユニクロ
+                - cell "2026年06月01日 00:00 〜 2026年06月08日 23:59" [ref=e373]:
+                  - paragraph [ref=e374]: 2026年06月01日 00:00 〜 2026年06月08日 23:59
+                - cell "成功 完了" [ref=e375]:
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: 成功
+                    - generic [ref=e378]: 完了
+                - cell "ダウンロード" [ref=e379]:
+                  - paragraph [ref=e380]:
+                    - link "ダウンロード" [ref=e381] [cursor=pointer]:
+                      - /url: https://storage.googleapis.com/erp-server-staging-file-storage/a8225dc5-ac86-5658-96ed-ef51cd1bae3e_Organization/csv/sale-change/20260608_1249.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=cloud-run%40erp-server-staging.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T144131Z&X-Goog-Expires=107999&X-Goog-Signature=741e43297c99ba9837ff3760dd8dc26cad928ee0d7b3a249c6875df4182427ddf9600d8ee55d0624cce1eb995c6ecf251f4e7fcba92a4b64151e7c42e3fa780f53c57aec6bfb62f359dc75b070ebbad293789fac7f1b854e9d7bfd8ca099a67280a1ede330154bb6f0026ddc595600c8e760784fe1e734b63083aabaac70eded58c7425c8c8fffa9c12a69b0baceed162677237cd0efb92a67addf3370b6d99e46f697209e1a8586b9a86eee093dbad68278f9bd88997024e02e0b0ff7ea66b308fbda2a738c0e8488b0c2850ab290c1a387a89194d30adf72699a3196d9ca8b753b721db496f2443dc5cf2343e7759ef55ac6bfc50164f09b96fb4677e76aba&X-Goog-SignedHeaders=host
+                      - generic [ref=e382]: ダウンロード
+          - navigation "ページネーション" [ref=e386]:
+            - generic [ref=e389]:
+              - generic [ref=e390]:
+                - button "前へ" [disabled]:
+                  - generic:
+                    - generic:
+                      - img
+              - generic [ref=e391]:
+                - button "次へ" [disabled]:
+                  - generic:
+                    - generic:
+                      - img
+  - region "Notifications alt+T"
+  - alert [ref=e15]

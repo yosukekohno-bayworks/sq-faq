@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "i": 11,
+      "role": null,
+      "text": "会社",
+      "href": "https://www.sqstackstaging.com/admin/companies",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Navigation__Item Polaris-Navigation__Item--selected Polaris-Navigation--subNavigationActive Polaris-Navigation--itemLinePointer\" href=\"/admin/companies\"><span class=\"Polaris-Navigation__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--semibold\">会社</span></span></a>"
+    },
+    {
+      "i": 30,
+      "role": null,
+      "text": "ロケーションを追加",
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/create",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" href=\"/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/create\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">ロケーションを追加</span></a>"
+    },
+    {
+      "i": 31,
+      "role": null,
+      "text": "TEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション",
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/63e34128-672d-5ddf-a150-bf4c2e26c7a9_CompanyLocation",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantMonochromePlain Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" href=\"/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/63e34128-672d-5ddf-a150-bf4c2e26c7a9_CompanyLocation\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular\">TEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション</span></a>"
+    },
+    {
+      "i": 32,
+      "role": null,
+      "text": "TEST_FAQ_COVERAGE_20260615_会社ロケーション2",
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/fb14f554-5d83-5d5b-84b7-3e92c9df8174_CompanyLocation",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantMonochromePlain Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" href=\"/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/fb14f554-5d83-5d5b-84b7-3e92c9df8174_CompanyLocation\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular\">TEST_FAQ_COVERAGE_20260615_会社ロケーション2</span></a>"
+    },
+    {
+      "i": 33,
+      "role": null,
+      "text": "TEST_FAQ_COVERAGE_20260615_会社ロケーション2",
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/8d99b96f-bbe2-55fd-86eb-e4ecff272044_CompanyLocation",
+      "disabled": false,
+      "html": "<a class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantMonochromePlain Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" href=\"/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/8d99b96f-bbe2-55fd-86eb-e4ecff272044_CompanyLocation\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular\">TEST_FAQ_COVERAGE_20260615_会社ロケーション2</span></a>"
+    },
+    {
+      "i": 34,
+      "role": null,
+      "text": "担当者を追加",
+      "href": "",
+      "disabled": false,
+      "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">担当者を追加</span></button>"
+    },
+    {
+      "i": 37,
+      "role": "menuitem",
+      "text": "会社の詳細を編集",
+      "href": "",
+      "disabled": false,
+      "html": "<button type=\"button\" class=\"Polaris-ActionList__Item Polaris-ActionList--default\" role=\"menuitem\"><div class=\"Polaris-Box\" style=\"--pc-box-width: 100%;\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-block-align: center; --pc-inline-stack-wrap: nowrap; --pc-inline-stack-gap-xs: var(--p-space-150); --pc-inline-stack-flex-direction-xs: row;\"><span class=\"Polaris-ActionList__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular\">会社の詳細を編集</span></span></span></div></div></button>"
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_COVERAGE_20260615_809686_会社。このページの準備が整いました\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n\n2026年06月15日から顧客\n\n直近の注文\n\nこの会社はまだ注文していません\n\nロケーション\nロケーションを追加\nロケーション\n\t\n売上\n\t\n注文\n\n\nTEST_FAQ_COVERAGE_20260615_809686_会社_ロケーション\n\t¥0\t0\n\nTEST_FAQ_COVERAGE_20260615_会社ロケーション2\n\t¥0\t0\n\nTEST_FAQ_COVERAGE_20260615_会社ロケーション2\n\t¥0\t0\n担当者\n担当者を追加\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n会社ID\n\nEXT9686\n\nメモ\n\nこの会社にはメモがありません。\n\n会社の詳細を編集"
+}

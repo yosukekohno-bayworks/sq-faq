@@ -1,0 +1,25 @@
+No,項目名,項目値,データ型,必須,許容値,具体例,バリデーション,備考
+1,コマンド,command,"列挙型 
+(候補値参照)",TRUE,"・NEW
+・UPDATE",NEW,候補値のいずれかであること,
+2,品番,product_code,"半角英数字
+記号混在",TRUE,,SS-HM-102234,1文字以上、100文字以内,
+3,商品名,title,文字列,TRUE,,,1文字以上、100文字以内,
+4,商品説明,description,文字列,FALSE,,,5000文字以下,
+5,商品ステータス,product_status,"列挙型 
+(候補値参照)",TRUE,"・DRAFT
+・ACTIVE",DRAFT,候補値のいずれかであること,更新（UPDATE) の時は空文字を許容している
+6,ブランド,brand_code,"半角英数字
+記号混在",FALSE,,A-001,1文字以上、250文字以内,
+7,商品生産者・メーカー,product_vendor,文字列,FALSE,,,1文字以上、100文字以内,
+8,商品タイプ,product_type,文字列,FALSE,,,1文字以上、100文字以内,
+9,タグ (文字列をコンマ区切り) ,tags,文字列,FALSE,,"NEW,SALE,リング",半角カンマ区切り、1タグにつき100文字以内,250要素まで登録可能
+10,オプション1,option1_name,文字列,TRUE,,サイズ,,更新（UPDATE) の時は設定の必要なし
+11,オプション2,option2_name,文字列,FALSE,,カラー,,
+12,オプション3,option3_name,文字列,FALSE,,,,
+13,SEO タイトル,seo_title,文字列,FALSE,,,100文字以内,
+14,SEO 説明文,seo_description,文字列,FALSE,,,5000文字以内,
+15,アウトレット区分,is_outlet,文字列,FALSE,"・TRUE
+・FALSE",FALSE,候補値のいずれかであること,指定しなかった場合 false
+16,販売開始日,sale_start_date,文字列,FALSE,,2026-04-06,YYYY-MM-DD,
+17,販売終了日,sale_end_date,文字列,FALSE,,2026-04-06,YYYY-MM-DD,開始日が指定されている場合必須。開始日よりも未来であること。

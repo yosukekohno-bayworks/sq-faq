@@ -1,0 +1,5554 @@
+{
+  "generatedAt": "2026-06-08T05:57:40.416Z",
+  "records": [
+    {
+      "url": "/admin/pdf_export",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [],
+      "h2": [
+        "Application error: a client-side exception has occurred (see the browser console for more information)."
+      ],
+      "buttons": [],
+      "links": [],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": true,
+        "empty": false
+      },
+      "importantLines": [],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()",
+        "error: ServerError: Response not successful: Received status code 404\n    at E (https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:157331)\n    at https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:160812\n    at https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:160819"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/01-pdf_export.png"
+    },
+    {
+      "url": "/admin/pdf_export/pdf_export_operation_packing_slips",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "納品書をPDFでエクスポートする"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/pdf_export"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "納品書をPDFでエクスポートする。このページの準備が整いました",
+        "納品書をPDFでエクスポートする",
+        "アイテムが見つかりませんでした"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/02-pdf_export__pdf_export_operation_packing_slips.png"
+    },
+    {
+      "url": "/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "responseStatus": 404,
+      "gotoError": null,
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [],
+      "links": [
+        {
+          "text": "ホームに戻る",
+          "href": "https://www.sqstackstaging.com/admin"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": true,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "このページは存在しないようです"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/03-pdf_export__pdf_export_operation_packing_slips__create.png"
+    },
+    {
+      "url": "/admin/pdf_export/pdf_export_operation_packing_slips/new",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips/new",
+      "responseStatus": 404,
+      "gotoError": null,
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [],
+      "links": [
+        {
+          "text": "ホームに戻る",
+          "href": "https://www.sqstackstaging.com/admin"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": true,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "このページは存在しないようです"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/04-pdf_export__pdf_export_operation_packing_slips__new.png"
+    },
+    {
+      "url": "/admin/settings/pdf_template_package_slip",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/pdf_template_package_slip",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "PDF納品書テンプレート"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/settings/pdf_template_package_slip#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "labels": [
+        "HTMLテンプレート"
+      ],
+      "controls": [
+        {
+          "tag": "textarea",
+          "type": "text",
+          "name": "",
+          "label": "HTMLテンプレート",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 1,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "PDF納品書テンプレート。このページの準備が整いました",
+        "PDF納品書テンプレート",
+        "HTMLテンプレート",
+        "保存する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/05-settings__pdf_template_package_slip.png"
+    },
+    {
+      "url": "/admin/shopify_integrations",
+      "finalUrl": "https://www.sqstackstaging.com/admin/shopify_integrations",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "Shopify"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "ストアを接続",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations/create"
+        },
+        {
+          "text": "ストアを接続する",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations/create"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "Shopify。このページの準備が整いました",
+        "ストアを接続",
+        "Shopifyストアを接続する",
+        "Shopifyと連携して、商品や注文データの連携を行います。",
+        "ストアを接続する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/06-shopify_integrations.png"
+    },
+    {
+      "url": "/admin/shopify_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/shopify_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "ストアを連携する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "連携する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        }
+      ],
+      "labels": [
+        "ストア名",
+        "ショップドメイン",
+        "テナント",
+        "カタログ",
+        "ロケーショングループ",
+        "販売価格ルール",
+        "会員証バーコードのフォーマット",
+        "商品価格は税込価格を連携する",
+        "0円の商品バリエーションを連携する",
+        "送料は税込として処理する",
+        "注文による在庫変動を起こさない"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "ストア名",
+          "placeholder": "オンラインストア",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "ショップドメイン",
+          "placeholder": "stack.myshopify.com",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "テナント",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "ユニクロ",
+              "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "カタログ",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_カタログ001",
+              "value": "e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_カタログ",
+              "value": "69a9415f-37c7-5a22-992f-d4c98e572009_Catalog",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "ロケーショングループ",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_ロケーショングループ",
+              "value": "906401a3-571f-5547-886c-9219c812247f_LocationGroup",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "販売価格ルール",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_販売価格ルール",
+              "value": "eb8cf243-650d-5172-a01b-594d4ae4587f_ProductPriceRule",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_販売価格ルール_遷移確認_20260607",
+              "value": "409e8f6d-d73a-5c7b-a583-30559aa8a62b_ProductPriceRule",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_販売価格ルール",
+              "value": "407b1402-6d11-5672-bc33-5de49d5ce9bc_ProductPriceRule",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "会員証バーコードのフォーマット",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "Shopify ID（数値部分）",
+              "value": "SHOPIFY_LEGACY_RESOURCE_ID",
+              "selected": true
+            },
+            {
+              "text": "JAN-13コード（モジュラス10/ウェイト3方式）",
+              "value": "JAN13_MODULUS10_WEIGHT3",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "商品価格は税込価格を連携する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "0円の商品バリエーションを連携する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "送料は税込として処理する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "注文による在庫変動を起こさない",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 11,
+        "checkboxes": 4,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": [
+          {
+            "label": "テナント",
+            "options": [
+              "選択してください",
+              "ユニクロ"
+            ]
+          },
+          {
+            "label": "カタログ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "ロケーショングループ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_ロケーショングループ"
+            ]
+          },
+          {
+            "label": "販売価格ルール",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_販売価格ルール",
+              "TEST_FAQ_販売価格ルール_遷移確認_20260607",
+              "TEST_FAQ_DEEP_202606080340_販売価格ルール"
+            ]
+          },
+          {
+            "label": "会員証バーコードのフォーマット",
+            "options": [
+              "Shopify ID（数値部分）",
+              "JAN-13コード（モジュラス10/ウェイト3方式）"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "ストアを連携する。このページの準備が整いました",
+        "ストアを連携する",
+        "shop.myshopify.com の形式で入力してください",
+        "テナント",
+        "選択してください",
+        "このストアから作成された注文は、選択されたテナントに紐付けられます。",
+        "カタログ",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "ロケーショングループ",
+        "TEST_FAQ_ロケーショングループ",
+        "Shopifyから連携される注文の在庫は、ロケーションの指定がない限り設定されたロケーショングループのデフォルトのロケーションから引き当てられます",
+        "選択した販売価格ルールに基づいて、Shopifyの販売価格を設定します",
+        "会員証バーコードのフォーマット",
+        "Shopify ID（数値部分）",
+        "Shopifyから連携される購買顧客の会員証バーコードの生成方法を指定します",
+        "商品価格は税込価格を連携する",
+        "0円の商品バリエーションを連携する",
+        "注文による在庫変動を起こさない",
+        "連携する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/07-shopify_integrations__create.png"
+    },
+    {
+      "url": "/admin/omnibus_core_integrations",
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "OmnibusCore"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "追加する",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create"
+        },
+        {
+          "text": "TEST_MAKER_001",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/703c48d1-ffad-55d2-8683-613762453668_OmnibusCoreIntegration"
+        }
+      ],
+      "labels": [],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "アイテムを選択する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 1,
+        "checkboxes": 1,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "OmnibusCore。このページの準備が整いました",
+        "追加する",
+        "テナント",
+        "カタログ",
+        "ロケーショングループ",
+        "連携日時"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/08-omnibus_core_integrations.png"
+    },
+    {
+      "url": "/admin/omnibus_core_integrations/TEST_MAKER_001",
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/TEST_MAKER_001",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [],
+      "h2": [
+        "予期せぬエラーが発生しました"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "再実行"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/TEST_MAKER_001#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": true,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "予期せぬエラーが発生しました",
+        "再実行"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()",
+        "error: CombinedGraphQLErrors: エラーが発生しました。しばらくしてから再度お試しください\n    at https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:139472\n    at https://www.sqstackstaging.com/_next/static/chunks/39219-18bfa495c1cf6162.js:9:52257\n    at r._next (https://www.sqstackstaging.com/_next/static/chunks/8688-ccaf787f6518db55.js:1:4888)\n    at r.next (https://www.sqstackstaging.com/_next/static/chunks/8688-ccaf787f6518db55.js:1:606)\n    at r._next (https://www.sqstackstaging.com/_next/static/chunks/8688-ccaf787f6518db55.js:1:989)\n    at r.next (https://www.sqstackstaging.com/_next/static/"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/09-omnibus_core_integrations__TEST_MAKER_001.png"
+    },
+    {
+      "url": "/admin/omnibus_core_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "OmnibusCore連携を作成する"
+      ],
+      "h2": [
+        "商品同期設定",
+        "在庫設定",
+        "注文設定"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "オプションを追加",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        }
+      ],
+      "labels": [
+        "テナント",
+        "メーカーコード",
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数"
+      ],
+      "controls": [
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "テナント",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "ユニクロ",
+              "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "メーカーコード",
+          "placeholder": "メーカーコードを入力してください",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "カタログ",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_カタログ001",
+              "value": "e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_カタログ",
+              "value": "69a9415f-37c7-5a22-992f-d4c98e572009_Catalog",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "カラーオプション名",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "サイズオプション名",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "ロケーショングループ",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_ロケーショングループ",
+              "value": "906401a3-571f-5547-886c-9219c812247f_LocationGroup",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "在庫予約ルール",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_予約販売ルール",
+              "value": "50c63370-5a46-57fb-b475-dd8a581258ea_InventoryBackOrderRule",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_予約販売ルール_遷移確認_20260607",
+              "value": "fa753a7c-a0bf-5f89-a650-75b79e3224c1_InventoryBackOrderRule",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_予約販売ルール",
+              "value": "c885e9d7-ecb2-514e-a1ec-aadb6d57a5cb_InventoryBackOrderRule",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "販売上限ルール",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "number",
+          "name": "",
+          "label": "下書き注文の有効期限日数",
+          "placeholder": "30",
+          "checked": false,
+          "disabled": false,
+          "value": "30"
+        }
+      ],
+      "controlSummary": {
+        "total": 9,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": [
+          {
+            "label": "テナント",
+            "options": [
+              "選択してください",
+              "ユニクロ"
+            ]
+          },
+          {
+            "label": "カタログ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "ロケーショングループ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_ロケーショングループ"
+            ]
+          },
+          {
+            "label": "在庫予約ルール",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_予約販売ルール",
+              "TEST_FAQ_予約販売ルール_遷移確認_20260607",
+              "TEST_FAQ_DEEP_202606080340_予約販売ルール"
+            ]
+          },
+          {
+            "label": "販売上限ルール",
+            "options": [
+              "選択してください"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "OmnibusCore連携を作成する。このページの準備が整いました",
+        "OmnibusCore連携を作成する",
+        "テナント",
+        "選択してください",
+        "商品同期設定",
+        "カタログ",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "オプションを追加",
+        "在庫設定",
+        "ロケーショングループ",
+        "TEST_FAQ_ロケーショングループ",
+        "在庫予約ルール",
+        "注文設定",
+        "下書き注文の有効期限日数",
+        "OmnibusCoreから連携する下書き注文が何日で期限切れになるかを示す日数（1-365日）",
+        "保存する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/10-omnibus_core_integrations__create.png"
+    },
+    {
+      "url": "/admin/smaregi_integrations",
+      "finalUrl": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "スマレジ連携"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "追加する",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations/create"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "スマレジ連携。このページの準備が整いました",
+        "スマレジ連携",
+        "追加する",
+        "アイテムが見つかりませんでした"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/11-smaregi_integrations.png"
+    },
+    {
+      "url": "/admin/smaregi_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/smaregi_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "スマレジ連携を作成する"
+      ],
+      "h2": [
+        "基本情報",
+        "商品連携設定",
+        "在庫設定"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        }
+      ],
+      "labels": [
+        "名前",
+        "テナント",
+        "契約ID",
+        "プラン",
+        "カタログ",
+        "在庫同期の方向",
+        "注文による在庫変動を起こさない"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "名前",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "テナント",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "ユニクロ",
+              "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "契約ID",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "プラン",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "スタンダード",
+              "value": "STANDARD",
+              "selected": false
+            },
+            {
+              "text": "プレミアム",
+              "value": "PREMIUM",
+              "selected": false
+            },
+            {
+              "text": "プレミアムプラス",
+              "value": "PREMIUM_PLUS",
+              "selected": false
+            },
+            {
+              "text": "フードビジネス",
+              "value": "FOOD_BUSINESS",
+              "selected": false
+            },
+            {
+              "text": "リテールビジネス",
+              "value": "RETAIL_BUSINESS",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "カタログ",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_カタログ001",
+              "value": "e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_カタログ",
+              "value": "69a9415f-37c7-5a22-992f-d4c98e572009_Catalog",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "在庫同期の方向",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "スマレジからSQへ在庫を同期する",
+              "value": "FROM_SMAREGI",
+              "selected": true
+            },
+            {
+              "text": "SQからスマレジへ在庫を同期する",
+              "value": "TO_SMAREGI",
+              "selected": false
+            },
+            {
+              "text": "在庫を同期しない",
+              "value": "NONE",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "注文による在庫変動を起こさない",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 7,
+        "checkboxes": 1,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": [
+          {
+            "label": "テナント",
+            "options": [
+              "選択してください",
+              "ユニクロ"
+            ]
+          },
+          {
+            "label": "プラン",
+            "options": [
+              "スタンダード",
+              "プレミアム",
+              "プレミアムプラス",
+              "フードビジネス",
+              "リテールビジネス"
+            ]
+          },
+          {
+            "label": "カタログ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "在庫同期の方向",
+            "options": [
+              "スマレジからSQへ在庫を同期する",
+              "SQからスマレジへ在庫を同期する",
+              "在庫を同期しない"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "スマレジ連携を作成する。このページの準備が整いました",
+        "スマレジ連携を作成する",
+        "スマレジ連携を利用するには、スマレジにアプリをインストールする必要があります。",
+        "テナント",
+        "選択してください",
+        "商品連携設定",
+        "カタログ",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "在庫設定",
+        "在庫同期の方向",
+        "スマレジからSQへ在庫を同期する",
+        "SQからスマレジへ在庫を同期する",
+        "在庫を同期しない",
+        "注文による在庫変動を起こさない",
+        "保存する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/12-smaregi_integrations__create.png"
+    },
+    {
+      "url": "/admin/recustomer_integrations",
+      "finalUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "Recustomer"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/recustomer_integrations#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "アカウントを接続",
+          "href": "https://www.sqstackstaging.com/admin/recustomer_integrations/create"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "Recustomer。このページの準備が整いました",
+        "Recustomer",
+        "アカウントを接続",
+        "アイテムが見つかりませんでした"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/13-recustomer_integrations.png"
+    },
+    {
+      "url": "/admin/recustomer_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "アカウントを接続する"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/recustomer_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/recustomer_integrations"
+        }
+      ],
+      "labels": [
+        "ストアID",
+        "シークレット"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "ストアID",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "シークレット",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 2,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "アカウントを接続する。このページの準備が整いました",
+        "アカウントを接続する",
+        "保存する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/14-recustomer_integrations__create.png"
+    },
+    {
+      "url": "/admin/logizard_integrations",
+      "finalUrl": "https://www.sqstackstaging.com/admin/logizard_integrations",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "ロジザード連携"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/logizard_integrations#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "追加する",
+          "href": "https://www.sqstackstaging.com/admin/logizard_integrations/create"
+        }
+      ],
+      "labels": [],
+      "controls": [],
+      "controlSummary": {
+        "total": 0,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "ロジザード連携。このページの準備が整いました",
+        "ロジザード連携",
+        "追加する",
+        "アイテムが見つかりませんでした"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/15-logizard_integrations.png"
+    },
+    {
+      "url": "/admin/retail_portal_integrations",
+      "finalUrl": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "リテールポータル"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "店舗受取",
+          "href": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "追加する",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create"
+        }
+      ],
+      "labels": [
+        "場所コードを入力してください"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "場所コードを入力してください",
+          "placeholder": "場所コードを入力してください",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 1,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "リテールポータル。このページの準備が整いました",
+        "追加する",
+        "場所コードを入力してください",
+        "アイテムが見つかりませんでした"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/16-retail_portal_integrations.png"
+    },
+    {
+      "url": "/admin/retail_portal_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "リテールポータル"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "店舗受取",
+          "href": "https://www.sqstackstaging.com/admin/local_pickup_retail_location_rules"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        }
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "店舗ロケーション",
+          "placeholder": "選択してください",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "在庫ロケーション",
+          "placeholder": "選択してください",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "テナント",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "ユニクロ",
+              "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "カタログ",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_カタログ001",
+              "value": "e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_カタログ",
+              "value": "69a9415f-37c7-5a22-992f-d4c98e572009_Catalog",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "",
+          "label": "販売閾値ルール",
+          "placeholder": "",
+          "checked": null,
+          "disabled": false,
+          "value": [
+            {
+              "text": "選択してください",
+              "value": "",
+              "selected": true
+            },
+            {
+              "text": "TEST_FAQ_販売閾値ルール",
+              "value": "6f3b3f77-bc76-5026-aeb0-ad88f7e9efdc_InventoryThresholdRule",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+              "value": "340afb6c-e184-5a32-8da0-5ea0a4c81ad5_InventoryThresholdRule",
+              "selected": false
+            },
+            {
+              "text": "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+              "value": "706c3da3-623c-5456-839f-57c14cbb6b8d_InventoryThresholdRule",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "リテールポータルで販売員の選択を必須にする",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "配送先住所の編集を許可する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "下書き注文の送料明細の編集を許可する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "下書き注文の注文明細の価格の編集を許可する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "下書き注文の完了を許可する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 10,
+        "checkboxes": 5,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": [
+          {
+            "label": "テナント",
+            "options": [
+              "選択してください",
+              "ユニクロ"
+            ]
+          },
+          {
+            "label": "カタログ",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_カタログ001",
+              "TEST_FAQ_DEEP_202606080340_カタログ"
+            ]
+          },
+          {
+            "label": "販売閾値ルール",
+            "options": [
+              "選択してください",
+              "TEST_FAQ_販売閾値ルール",
+              "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+              "TEST_FAQ_DEEP_202606080340_販売閾値ルール"
+            ]
+          }
+        ]
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "リテールポータル。このページの準備が整いました",
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "選択してください",
+        "カタログ",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "保存する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/17-retail_portal_integrations__create.png"
+    },
+    {
+      "url": "/admin/settings/permission_groups",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/permission_groups",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "権限グループ"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/settings/permission_groups#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/settings/users"
+        },
+        {
+          "text": "作成する",
+          "href": "https://www.sqstackstaging.com/admin/settings/permission_groups/create"
+        },
+        {
+          "text": "TEST_FAQ_店舗スタッフ",
+          "href": "https://www.sqstackstaging.com/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup"
+        },
+        {
+          "text": "特権管理者",
+          "href": "https://www.sqstackstaging.com/admin/settings/permission_groups/434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup"
+        }
+      ],
+      "labels": [
+        "すべてのアイテムを選択する",
+        "アイテムを選択する"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "すべてのアイテムを選択する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "すべての2のアイテムを選択する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "すべてのアイテムを選択する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "アイテムを選択する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "",
+          "label": "アイテムを選択する",
+          "placeholder": "",
+          "checked": false,
+          "disabled": true,
+          "value": ""
+        }
+      ],
+      "controlSummary": {
+        "total": 5,
+        "checkboxes": 5,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "権限グループ。このページの準備が整いました",
+        "権限グループ",
+        "作成する",
+        "権限数"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/18-settings__permission_groups.png"
+    },
+    {
+      "url": "/admin/settings/permission_groups/434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/permission_groups/434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "特権管理者"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/settings/permission_groups/434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/settings/permission_groups"
+        }
+      ],
+      "labels": [
+        "グループ名",
+        "お知らせの閲覧権限（announcements:read）",
+        "お知らせの編集権限（announcements:write）",
+        "アプリの閲覧権限（apps:read）",
+        "アプリの編集権限（apps:write）",
+        "ブランドの閲覧権限（brands:read）",
+        "ブランドの編集権限（brands:write）",
+        "カタログの閲覧権限（catalogs:read）",
+        "カタログの編集権限（catalogs:write）",
+        "取引先企業の閲覧権限（companies:read）",
+        "取引先企業の編集権限（companies:write）",
+        "顧客マイルの閲覧権限（customer_miles:read）",
+        "顧客マイルの編集権限（customer_miles:write）",
+        "顧客ポイントの閲覧権限（customer_points:read）",
+        "顧客ポイントの編集権限（customer_points:write）",
+        "顧客会員ランクルールの閲覧権限（customer_rank_rules:read）",
+        "顧客会員ランクルールの編集権限（customer_rank_rules:write）",
+        "顧客会員ランクの閲覧権限（customer_ranks:read）",
+        "顧客会員ランクの編集権限（customer_ranks:write）",
+        "顧客の閲覧権限（customers:read）",
+        "顧客の編集権限（customers:write）",
+        "ディスカウントの閲覧権限（discounts:read）",
+        "ディスカウントの編集権限（discounts:write）",
+        "下書き注文の閲覧権限（draft_orders:read）",
+        "下書き注文の編集権限（draft_orders:write）",
+        "在庫の閲覧権限（inventory:read）",
+        "在庫の編集権限（inventory:write）",
+        "在庫リクエストの閲覧権限（inventory_allocation_requests:read）",
+        "在庫リクエストの編集権限（inventory_allocation_requests:write）",
+        "店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）",
+        "店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）",
+        "ロケーショングループの閲覧権限（location_groups:read）",
+        "ロケーショングループの編集権限（location_groups:write）",
+        "ロケーションの閲覧権限（locations:read）",
+        "ロケーションの編集権限（locations:write）",
+        "マイル商品の閲覧権限（mile_items:read）",
+        "マイル商品の編集権限（mile_items:write）",
+        "OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）",
+        "OmnibusCore連携の編集権限（omnibus_core_integrations:write）",
+        "注文の閲覧権限（orders:read）",
+        "注文の編集権限（orders:write）",
+        "ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）",
+        "ポイントキャンペーンの編集権限（point_campaign_order_rules:write）",
+        "ポイントルールの閲覧権限（point_rules:read）",
+        "ポイントルールの編集権限（point_rules:write）",
+        "販売価格ルールの閲覧権限（product_price_rules:read）",
+        "販売価格ルールの編集権限（product_price_rules:write）",
+        "商品の閲覧権限（products:read）",
+        "商品の編集権限（products:write）",
+        "店舗ポータル連携の閲覧権限（retail_portal_integrations:read）",
+        "店舗ポータル連携の編集権限（retail_portal_integrations:write）",
+        "店舗スタッフの閲覧権限（retail_staff_members:read）",
+        "店舗スタッフの編集権限（retail_staff_members:write）",
+        "売上データの閲覧権限（sales:read）",
+        "売上データの編集権限（sales:write）",
+        "Shopify連携の閲覧権限（shopify_integrations:read）",
+        "Shopify連携の編集権限（shopify_integrations:write）",
+        "スマレジ連携の閲覧権限（smaregi_integrations:read）",
+        "スマレジ連携の編集権限（smaregi_integrations:write）",
+        "テナントの閲覧権限（tenants:read）",
+        "テナントの編集権限（tenants:write）",
+        "翻訳ルールの閲覧権限（translation_rules:read）",
+        "翻訳ルールの編集権限（translation_rules:write）",
+        "翻訳の閲覧権限（translations:read）",
+        "翻訳の編集権限（translations:write）",
+        "ユーザー権限の閲覧権限（user_permissions:read）",
+        "ユーザー権限の編集権限（user_permissions:write）",
+        "ユーザーテナントの閲覧権限（user_tenants:read）",
+        "ユーザーテナントの編集権限（user_tenants:write）",
+        "ユーザーの閲覧権限（users:read）",
+        "ユーザーの編集権限（users:write）"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "グループ名",
+          "placeholder": "リテールポータル管理者",
+          "checked": false,
+          "disabled": false,
+          "value": "特権管理者"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "お知らせの閲覧権限（announcements:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "announcements:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "お知らせの編集権限（announcements:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "announcements:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "アプリの閲覧権限（apps:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "apps:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "アプリの編集権限（apps:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "apps:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ブランドの閲覧権限（brands:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "brands:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ブランドの編集権限（brands:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "brands:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "カタログの閲覧権限（catalogs:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "catalogs:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "カタログの編集権限（catalogs:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "catalogs:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "取引先企業の閲覧権限（companies:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "companies:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "取引先企業の編集権限（companies:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "companies:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客マイルの閲覧権限（customer_miles:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customer_miles:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客マイルの編集権限（customer_miles:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customer_miles:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客ポイントの閲覧権限（customer_points:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customer_points:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客ポイントの編集権限（customer_points:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customer_points:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客会員ランクルールの閲覧権限（customer_rank_rules:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customer_rank_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客会員ランクルールの編集権限（customer_rank_rules:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customer_rank_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客会員ランクの閲覧権限（customer_ranks:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customer_ranks:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客会員ランクの編集権限（customer_ranks:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customer_ranks:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客の閲覧権限（customers:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customers:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客の編集権限（customers:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "customers:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ディスカウントの閲覧権限（discounts:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "discounts:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ディスカウントの編集権限（discounts:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "discounts:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "下書き注文の閲覧権限（draft_orders:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "draft_orders:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "下書き注文の編集権限（draft_orders:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "draft_orders:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "在庫の閲覧権限（inventory:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "inventory:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "在庫の編集権限（inventory:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "inventory:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "在庫リクエストの閲覧権限（inventory_allocation_requests:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "inventory_allocation_requests:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "在庫リクエストの編集権限（inventory_allocation_requests:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "inventory_allocation_requests:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "local_pickup_location_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "local_pickup_location_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ロケーショングループの閲覧権限（location_groups:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "location_groups:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ロケーショングループの編集権限（location_groups:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "location_groups:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ロケーションの閲覧権限（locations:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "locations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ロケーションの編集権限（locations:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "locations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "マイル商品の閲覧権限（mile_items:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "mile_items:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "マイル商品の編集権限（mile_items:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "mile_items:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "omnibus_core_integrations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "OmnibusCore連携の編集権限（omnibus_core_integrations:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "omnibus_core_integrations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "注文の閲覧権限（orders:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "orders:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "注文の編集権限（orders:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "orders:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "point_campaign_order_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ポイントキャンペーンの編集権限（point_campaign_order_rules:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "point_campaign_order_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ポイントルールの閲覧権限（point_rules:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "point_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ポイントルールの編集権限（point_rules:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "point_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "販売価格ルールの閲覧権限（product_price_rules:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "product_price_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "販売価格ルールの編集権限（product_price_rules:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "product_price_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "商品の閲覧権限（products:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "products:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "商品の編集権限（products:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "products:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗ポータル連携の閲覧権限（retail_portal_integrations:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "retail_portal_integrations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗ポータル連携の編集権限（retail_portal_integrations:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "retail_portal_integrations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗スタッフの閲覧権限（retail_staff_members:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "retail_staff_members:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗スタッフの編集権限（retail_staff_members:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "retail_staff_members:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "売上データの閲覧権限（sales:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "sales:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "売上データの編集権限（sales:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "sales:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "Shopify連携の閲覧権限（shopify_integrations:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "shopify_integrations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "Shopify連携の編集権限（shopify_integrations:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "shopify_integrations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "スマレジ連携の閲覧権限（smaregi_integrations:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "smaregi_integrations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "スマレジ連携の編集権限（smaregi_integrations:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "smaregi_integrations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "テナントの閲覧権限（tenants:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "tenants:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "テナントの編集権限（tenants:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "tenants:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "翻訳ルールの閲覧権限（translation_rules:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "translation_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "翻訳ルールの編集権限（translation_rules:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "translation_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "翻訳の閲覧権限（translations:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "translations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "翻訳の編集権限（translations:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "translations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザー権限の閲覧権限（user_permissions:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "user_permissions:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザー権限の編集権限（user_permissions:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "user_permissions:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザーテナントの閲覧権限（user_tenants:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "user_tenants:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザーテナントの編集権限（user_tenants:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "user_tenants:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザーの閲覧権限（users:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "users:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザーの編集権限（users:write）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": true,
+          "value": "users:write"
+        }
+      ],
+      "controlSummary": {
+        "total": 71,
+        "checkboxes": 70,
+        "checkedPermissionCount": 70,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "グループ名",
+        "権限",
+        "お知らせの閲覧権限（announcements:read）",
+        "お知らせの編集権限（announcements:write）",
+        "アプリの閲覧権限（apps:read）",
+        "アプリの編集権限（apps:write）",
+        "ブランドの閲覧権限（brands:read）",
+        "ブランドの編集権限（brands:write）",
+        "カタログの閲覧権限（catalogs:read）",
+        "カタログの編集権限（catalogs:write）",
+        "取引先企業の閲覧権限（companies:read）",
+        "取引先企業の編集権限（companies:write）",
+        "顧客マイルの閲覧権限（customer_miles:read）",
+        "顧客マイルの編集権限（customer_miles:write）",
+        "顧客ポイントの閲覧権限（customer_points:read）",
+        "顧客ポイントの編集権限（customer_points:write）",
+        "顧客会員ランクルールの閲覧権限（customer_rank_rules:read）",
+        "顧客会員ランクルールの編集権限（customer_rank_rules:write）",
+        "顧客会員ランクの閲覧権限（customer_ranks:read）",
+        "顧客会員ランクの編集権限（customer_ranks:write）",
+        "顧客の閲覧権限（customers:read）",
+        "顧客の編集権限（customers:write）",
+        "ディスカウントの閲覧権限（discounts:read）",
+        "ディスカウントの編集権限（discounts:write）",
+        "下書き注文の閲覧権限（draft_orders:read）",
+        "下書き注文の編集権限（draft_orders:write）",
+        "在庫の閲覧権限（inventory:read）",
+        "在庫の編集権限（inventory:write）",
+        "在庫リクエストの閲覧権限（inventory_allocation_requests:read）",
+        "在庫リクエストの編集権限（inventory_allocation_requests:write）",
+        "店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）",
+        "店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）",
+        "ロケーショングループの閲覧権限（location_groups:read）",
+        "ロケーショングループの編集権限（location_groups:write）",
+        "ロケーションの閲覧権限（locations:read）",
+        "ロケーションの編集権限（locations:write）",
+        "マイル商品の閲覧権限（mile_items:read）",
+        "マイル商品の編集権限（mile_items:write）",
+        "OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）",
+        "OmnibusCore連携の編集権限（omnibus_core_integrations:write）",
+        "注文の閲覧権限（orders:read）",
+        "注文の編集権限（orders:write）",
+        "ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）",
+        "ポイントキャンペーンの編集権限（point_campaign_order_rules:write）",
+        "ポイントルールの閲覧権限（point_rules:read）",
+        "ポイントルールの編集権限（point_rules:write）",
+        "販売価格ルールの閲覧権限（product_price_rules:read）",
+        "販売価格ルールの編集権限（product_price_rules:write）",
+        "商品の閲覧権限（products:read）",
+        "商品の編集権限（products:write）",
+        "店舗ポータル連携の閲覧権限（retail_portal_integrations:read）",
+        "店舗ポータル連携の編集権限（retail_portal_integrations:write）",
+        "店舗スタッフの閲覧権限（retail_staff_members:read）",
+        "店舗スタッフの編集権限（retail_staff_members:write）",
+        "売上データの閲覧権限（sales:read）",
+        "売上データの編集権限（sales:write）",
+        "Shopify連携の閲覧権限（shopify_integrations:read）",
+        "Shopify連携の編集権限（shopify_integrations:write）",
+        "スマレジ連携の閲覧権限（smaregi_integrations:read）",
+        "スマレジ連携の編集権限（smaregi_integrations:write）",
+        "テナントの閲覧権限（tenants:read）",
+        "テナントの編集権限（tenants:write）",
+        "翻訳ルールの閲覧権限（translation_rules:read）",
+        "翻訳ルールの編集権限（translation_rules:write）",
+        "翻訳の閲覧権限（translations:read）",
+        "翻訳の編集権限（translations:write）",
+        "ユーザー権限の閲覧権限（user_permissions:read）",
+        "ユーザー権限の編集権限（user_permissions:write）",
+        "ユーザーテナントの閲覧権限（user_tenants:read）",
+        "ユーザーテナントの編集権限（user_tenants:write）",
+        "ユーザーの閲覧権限（users:read）",
+        "ユーザーの編集権限（users:write）",
+        "保存する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/19-settings__permission_groups__434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup.png"
+    },
+    {
+      "url": "/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "TEST_FAQ_店舗スタッフ"
+      ],
+      "h2": [],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/settings/permission_groups/f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/settings/permission_groups"
+        }
+      ],
+      "labels": [
+        "グループ名",
+        "お知らせの閲覧権限（announcements:read）",
+        "お知らせの編集権限（announcements:write）",
+        "アプリの閲覧権限（apps:read）",
+        "アプリの編集権限（apps:write）",
+        "ブランドの閲覧権限（brands:read）",
+        "ブランドの編集権限（brands:write）",
+        "カタログの閲覧権限（catalogs:read）",
+        "カタログの編集権限（catalogs:write）",
+        "取引先企業の閲覧権限（companies:read）",
+        "取引先企業の編集権限（companies:write）",
+        "顧客マイルの閲覧権限（customer_miles:read）",
+        "顧客マイルの編集権限（customer_miles:write）",
+        "顧客ポイントの閲覧権限（customer_points:read）",
+        "顧客ポイントの編集権限（customer_points:write）",
+        "顧客会員ランクルールの閲覧権限（customer_rank_rules:read）",
+        "顧客会員ランクルールの編集権限（customer_rank_rules:write）",
+        "顧客会員ランクの閲覧権限（customer_ranks:read）",
+        "顧客会員ランクの編集権限（customer_ranks:write）",
+        "顧客の閲覧権限（customers:read）",
+        "顧客の編集権限（customers:write）",
+        "ディスカウントの閲覧権限（discounts:read）",
+        "ディスカウントの編集権限（discounts:write）",
+        "下書き注文の閲覧権限（draft_orders:read）",
+        "下書き注文の編集権限（draft_orders:write）",
+        "在庫の閲覧権限（inventory:read）",
+        "在庫の編集権限（inventory:write）",
+        "在庫リクエストの閲覧権限（inventory_allocation_requests:read）",
+        "在庫リクエストの編集権限（inventory_allocation_requests:write）",
+        "店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）",
+        "店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）",
+        "ロケーショングループの閲覧権限（location_groups:read）",
+        "ロケーショングループの編集権限（location_groups:write）",
+        "ロケーションの閲覧権限（locations:read）",
+        "ロケーションの編集権限（locations:write）",
+        "マイル商品の閲覧権限（mile_items:read）",
+        "マイル商品の編集権限（mile_items:write）",
+        "OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）",
+        "OmnibusCore連携の編集権限（omnibus_core_integrations:write）",
+        "注文の閲覧権限（orders:read）",
+        "注文の編集権限（orders:write）",
+        "ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）",
+        "ポイントキャンペーンの編集権限（point_campaign_order_rules:write）",
+        "ポイントルールの閲覧権限（point_rules:read）",
+        "ポイントルールの編集権限（point_rules:write）",
+        "販売価格ルールの閲覧権限（product_price_rules:read）",
+        "販売価格ルールの編集権限（product_price_rules:write）",
+        "商品の閲覧権限（products:read）",
+        "商品の編集権限（products:write）",
+        "店舗ポータル連携の閲覧権限（retail_portal_integrations:read）",
+        "店舗ポータル連携の編集権限（retail_portal_integrations:write）",
+        "店舗スタッフの閲覧権限（retail_staff_members:read）",
+        "店舗スタッフの編集権限（retail_staff_members:write）",
+        "売上データの閲覧権限（sales:read）",
+        "売上データの編集権限（sales:write）",
+        "Shopify連携の閲覧権限（shopify_integrations:read）",
+        "Shopify連携の編集権限（shopify_integrations:write）",
+        "スマレジ連携の閲覧権限（smaregi_integrations:read）",
+        "スマレジ連携の編集権限（smaregi_integrations:write）",
+        "テナントの閲覧権限（tenants:read）",
+        "テナントの編集権限（tenants:write）",
+        "翻訳ルールの閲覧権限（translation_rules:read）",
+        "翻訳ルールの編集権限（translation_rules:write）",
+        "翻訳の閲覧権限（translations:read）",
+        "翻訳の編集権限（translations:write）",
+        "ユーザー権限の閲覧権限（user_permissions:read）",
+        "ユーザー権限の編集権限（user_permissions:write）",
+        "ユーザーテナントの閲覧権限（user_tenants:read）",
+        "ユーザーテナントの編集権限（user_tenants:write）",
+        "ユーザーの閲覧権限（users:read）",
+        "ユーザーの編集権限（users:write）"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "グループ名",
+          "placeholder": "リテールポータル管理者",
+          "checked": false,
+          "disabled": false,
+          "value": "TEST_FAQ_店舗スタッフ"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "お知らせの閲覧権限（announcements:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "announcements:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "お知らせの編集権限（announcements:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "announcements:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "アプリの閲覧権限（apps:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "apps:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "アプリの編集権限（apps:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "apps:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ブランドの閲覧権限（brands:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "brands:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ブランドの編集権限（brands:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "brands:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "カタログの閲覧権限（catalogs:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "catalogs:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "カタログの編集権限（catalogs:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "catalogs:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "取引先企業の閲覧権限（companies:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "companies:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "取引先企業の編集権限（companies:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "companies:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客マイルの閲覧権限（customer_miles:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customer_miles:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客マイルの編集権限（customer_miles:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customer_miles:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客ポイントの閲覧権限（customer_points:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customer_points:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客ポイントの編集権限（customer_points:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customer_points:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客会員ランクルールの閲覧権限（customer_rank_rules:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customer_rank_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客会員ランクルールの編集権限（customer_rank_rules:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customer_rank_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客会員ランクの閲覧権限（customer_ranks:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customer_ranks:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客会員ランクの編集権限（customer_ranks:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customer_ranks:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客の閲覧権限（customers:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customers:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "顧客の編集権限（customers:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "customers:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ディスカウントの閲覧権限（discounts:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "discounts:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ディスカウントの編集権限（discounts:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "discounts:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "下書き注文の閲覧権限（draft_orders:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "draft_orders:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "下書き注文の編集権限（draft_orders:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "draft_orders:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "在庫の閲覧権限（inventory:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": false,
+          "value": "inventory:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "在庫の編集権限（inventory:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "inventory:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "在庫リクエストの閲覧権限（inventory_allocation_requests:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "inventory_allocation_requests:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "在庫リクエストの編集権限（inventory_allocation_requests:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "inventory_allocation_requests:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "local_pickup_location_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "local_pickup_location_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ロケーショングループの閲覧権限（location_groups:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "location_groups:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ロケーショングループの編集権限（location_groups:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "location_groups:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ロケーションの閲覧権限（locations:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "locations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ロケーションの編集権限（locations:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "locations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "マイル商品の閲覧権限（mile_items:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "mile_items:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "マイル商品の編集権限（mile_items:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "mile_items:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "omnibus_core_integrations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "OmnibusCore連携の編集権限（omnibus_core_integrations:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "omnibus_core_integrations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "注文の閲覧権限（orders:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": false,
+          "value": "orders:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "注文の編集権限（orders:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "orders:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "point_campaign_order_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ポイントキャンペーンの編集権限（point_campaign_order_rules:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "point_campaign_order_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ポイントルールの閲覧権限（point_rules:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "point_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ポイントルールの編集権限（point_rules:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "point_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "販売価格ルールの閲覧権限（product_price_rules:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "product_price_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "販売価格ルールの編集権限（product_price_rules:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "product_price_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "商品の閲覧権限（products:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "products:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "商品の編集権限（products:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "products:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗ポータル連携の閲覧権限（retail_portal_integrations:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": false,
+          "value": "retail_portal_integrations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗ポータル連携の編集権限（retail_portal_integrations:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "retail_portal_integrations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗スタッフの閲覧権限（retail_staff_members:read）",
+          "placeholder": "",
+          "checked": true,
+          "disabled": false,
+          "value": "retail_staff_members:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "店舗スタッフの編集権限（retail_staff_members:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "retail_staff_members:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "売上データの閲覧権限（sales:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "sales:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "売上データの編集権限（sales:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "sales:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "Shopify連携の閲覧権限（shopify_integrations:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "shopify_integrations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "Shopify連携の編集権限（shopify_integrations:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "shopify_integrations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "スマレジ連携の閲覧権限（smaregi_integrations:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "smaregi_integrations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "スマレジ連携の編集権限（smaregi_integrations:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "smaregi_integrations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "テナントの閲覧権限（tenants:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "tenants:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "テナントの編集権限（tenants:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "tenants:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "翻訳ルールの閲覧権限（translation_rules:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "translation_rules:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "翻訳ルールの編集権限（translation_rules:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "translation_rules:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "翻訳の閲覧権限（translations:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "translations:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "翻訳の編集権限（translations:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "translations:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザー権限の閲覧権限（user_permissions:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "user_permissions:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザー権限の編集権限（user_permissions:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "user_permissions:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザーテナントの閲覧権限（user_tenants:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "user_tenants:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザーテナントの編集権限（user_tenants:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "user_tenants:write"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザーの閲覧権限（users:read）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "users:read"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": ":r1c:[]",
+          "label": "ユーザーの編集権限（users:write）",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "users:write"
+        }
+      ],
+      "controlSummary": {
+        "total": 71,
+        "checkboxes": 70,
+        "checkedPermissionCount": 4,
+        "uncheckedPermissionCount": 66,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "グループ名",
+        "権限",
+        "お知らせの閲覧権限（announcements:read）",
+        "お知らせの編集権限（announcements:write）",
+        "アプリの閲覧権限（apps:read）",
+        "アプリの編集権限（apps:write）",
+        "ブランドの閲覧権限（brands:read）",
+        "ブランドの編集権限（brands:write）",
+        "カタログの閲覧権限（catalogs:read）",
+        "カタログの編集権限（catalogs:write）",
+        "取引先企業の閲覧権限（companies:read）",
+        "取引先企業の編集権限（companies:write）",
+        "顧客マイルの閲覧権限（customer_miles:read）",
+        "顧客マイルの編集権限（customer_miles:write）",
+        "顧客ポイントの閲覧権限（customer_points:read）",
+        "顧客ポイントの編集権限（customer_points:write）",
+        "顧客会員ランクルールの閲覧権限（customer_rank_rules:read）",
+        "顧客会員ランクルールの編集権限（customer_rank_rules:write）",
+        "顧客会員ランクの閲覧権限（customer_ranks:read）",
+        "顧客会員ランクの編集権限（customer_ranks:write）",
+        "顧客の閲覧権限（customers:read）",
+        "顧客の編集権限（customers:write）",
+        "ディスカウントの閲覧権限（discounts:read）",
+        "ディスカウントの編集権限（discounts:write）",
+        "下書き注文の閲覧権限（draft_orders:read）",
+        "下書き注文の編集権限（draft_orders:write）",
+        "在庫の閲覧権限（inventory:read）",
+        "在庫の編集権限（inventory:write）",
+        "在庫リクエストの閲覧権限（inventory_allocation_requests:read）",
+        "在庫リクエストの編集権限（inventory_allocation_requests:write）",
+        "店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）",
+        "店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）",
+        "ロケーショングループの閲覧権限（location_groups:read）",
+        "ロケーショングループの編集権限（location_groups:write）",
+        "ロケーションの閲覧権限（locations:read）",
+        "ロケーションの編集権限（locations:write）",
+        "マイル商品の閲覧権限（mile_items:read）",
+        "マイル商品の編集権限（mile_items:write）",
+        "OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）",
+        "OmnibusCore連携の編集権限（omnibus_core_integrations:write）",
+        "注文の閲覧権限（orders:read）",
+        "注文の編集権限（orders:write）",
+        "ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）",
+        "ポイントキャンペーンの編集権限（point_campaign_order_rules:write）",
+        "ポイントルールの閲覧権限（point_rules:read）",
+        "ポイントルールの編集権限（point_rules:write）",
+        "販売価格ルールの閲覧権限（product_price_rules:read）",
+        "販売価格ルールの編集権限（product_price_rules:write）",
+        "商品の閲覧権限（products:read）",
+        "商品の編集権限（products:write）",
+        "店舗ポータル連携の閲覧権限（retail_portal_integrations:read）",
+        "店舗ポータル連携の編集権限（retail_portal_integrations:write）",
+        "店舗スタッフの閲覧権限（retail_staff_members:read）",
+        "店舗スタッフの編集権限（retail_staff_members:write）",
+        "売上データの閲覧権限（sales:read）",
+        "売上データの編集権限（sales:write）",
+        "Shopify連携の閲覧権限（shopify_integrations:read）",
+        "Shopify連携の編集権限（shopify_integrations:write）",
+        "スマレジ連携の閲覧権限（smaregi_integrations:read）",
+        "スマレジ連携の編集権限（smaregi_integrations:write）",
+        "テナントの閲覧権限（tenants:read）",
+        "テナントの編集権限（tenants:write）",
+        "翻訳ルールの閲覧権限（translation_rules:read）",
+        "翻訳ルールの編集権限（translation_rules:write）",
+        "翻訳の閲覧権限（translations:read）",
+        "翻訳の編集権限（translations:write）",
+        "ユーザー権限の閲覧権限（user_permissions:read）",
+        "ユーザー権限の編集権限（user_permissions:write）",
+        "ユーザーテナントの閲覧権限（user_tenants:read）",
+        "ユーザーテナントの編集権限（user_tenants:write）",
+        "ユーザーの閲覧権限（users:read）",
+        "ユーザーの編集権限（users:write）",
+        "保存する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/20-settings__permission_groups__f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup.png"
+    },
+    {
+      "url": "/admin/settings/users/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/users/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "ユーザーを追加する"
+      ],
+      "h2": [
+        "権限"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "https://www.sqstackstaging.com/admin/settings/users/create#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "https://www.sqstackstaging.com/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "https://www.sqstackstaging.com/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "https://www.sqstackstaging.com/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "https://www.sqstackstaging.com/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "https://www.sqstackstaging.com/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "https://www.sqstackstaging.com/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "https://www.sqstackstaging.com/admin/settings/users"
+        }
+      ],
+      "labels": [
+        "姓",
+        "名",
+        "メールアドレス",
+        "特権管理者",
+        "TEST_FAQ_店舗スタッフ"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "姓",
+          "placeholder": "山田",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "label": "名",
+          "placeholder": "花子",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "email",
+          "name": "",
+          "label": "メールアドレス",
+          "placeholder": "you@company.com",
+          "checked": false,
+          "disabled": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": ":r1f:",
+          "label": "特権管理者",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": ":r1f:",
+          "label": "TEST_FAQ_店舗スタッフ",
+          "placeholder": "",
+          "checked": false,
+          "disabled": false,
+          "value": "f974f72a-838e-5bed-9202-1160c6fbe462_PermissionGroup"
+        }
+      ],
+      "controlSummary": {
+        "total": 5,
+        "checkboxes": 0,
+        "checkedPermissionCount": 0,
+        "uncheckedPermissionCount": 0,
+        "selects": []
+      },
+      "classification": {
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false
+      },
+      "importantLines": [
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "在庫依頼",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "ユーザーを追加する。このページの準備が整いました",
+        "ユーザーを追加する",
+        "権限",
+        "権限グループ",
+        "保存する"
+      ],
+      "consoleMessages": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-other-deep-screenshots/21-settings__users__create.png"
+    }
+  ]
+}

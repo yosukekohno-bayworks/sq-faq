@@ -1,0 +1,452 @@
+[
+  {
+    "i": 0,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "コンテンツにスキップ",
+    "href": "#AppFrameMain",
+    "aria": ""
+  },
+  {
+    "i": 1,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを切り替える",
+    "href": "",
+    "aria": "メニューを切り替える"
+  },
+  {
+    "i": 2,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "",
+    "href": "/admin",
+    "aria": ""
+  },
+  {
+    "i": 4,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "stack-ps-yosuke 陽介 河野",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 5,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "",
+    "href": "/admin",
+    "aria": ""
+  },
+  {
+    "i": 6,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "ホーム",
+    "href": "/admin",
+    "aria": ""
+  },
+  {
+    "i": 7,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "商品管理",
+    "href": "/admin/products",
+    "aria": ""
+  },
+  {
+    "i": 8,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "在庫管理",
+    "href": "/admin/inventory_items",
+    "aria": ""
+  },
+  {
+    "i": 9,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "移動伝票",
+    "href": "/admin/inventory_movement_orders",
+    "aria": ""
+  },
+  {
+    "i": 10,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "調整伝票",
+    "href": "/admin/inventory_adjustment_orders",
+    "aria": ""
+  },
+  {
+    "i": 11,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "取置伝票",
+    "href": "/admin/inventory_reservation_orders",
+    "aria": ""
+  },
+  {
+    "i": 12,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "注文管理",
+    "href": "/admin/orders",
+    "aria": ""
+  },
+  {
+    "i": 13,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "顧客管理",
+    "href": "/admin/purchasing_customers",
+    "aria": ""
+  },
+  {
+    "i": 14,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "発注管理",
+    "href": "/admin/inventory_purchase_orders",
+    "aria": ""
+  },
+  {
+    "i": 15,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "販売設定",
+    "href": "/admin/product_price_rules",
+    "aria": ""
+  },
+  {
+    "i": 16,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "会計",
+    "href": "/admin/sale_change_line_items",
+    "aria": ""
+  },
+  {
+    "i": 17,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "分析",
+    "href": "/admin/analytics",
+    "aria": ""
+  },
+  {
+    "i": 18,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "入荷管理",
+    "href": "/admin/inventory_inbound_orders",
+    "aria": ""
+  },
+  {
+    "i": 19,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "出荷管理",
+    "href": "/admin/inventory_outbound_orders",
+    "aria": ""
+  },
+  {
+    "i": 20,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "在庫依頼",
+    "href": "/admin/inventory_allocation_requests",
+    "aria": ""
+  },
+  {
+    "i": 21,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "ディスカウント",
+    "href": "/admin/order_price_adjustment_rules",
+    "aria": ""
+  },
+  {
+    "i": 22,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "ポイント",
+    "href": "/admin/point_calculation_rules",
+    "aria": ""
+  },
+  {
+    "i": 23,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "会員ランク",
+    "href": "/admin/customer_rank_calculation_rules",
+    "aria": ""
+  },
+  {
+    "i": 24,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "Shopify",
+    "href": "/admin/shopify_integrations",
+    "aria": ""
+  },
+  {
+    "i": 25,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "OmnibusCore",
+    "href": "/admin/omnibus_core_integrations",
+    "aria": ""
+  },
+  {
+    "i": 26,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "スマレジ",
+    "href": "/admin/smaregi_integrations",
+    "aria": ""
+  },
+  {
+    "i": 27,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "リテールポータル",
+    "href": "/admin/retail_portal_integrations",
+    "aria": ""
+  },
+  {
+    "i": 28,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "卸売",
+    "href": "/admin/b2b",
+    "aria": ""
+  },
+  {
+    "i": 29,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "設定",
+    "href": "/admin/settings",
+    "aria": ""
+  },
+  {
+    "i": 30,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "メニューを閉じる",
+    "href": "",
+    "aria": "メニューを閉じる"
+  },
+  {
+    "i": 31,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "",
+    "href": "/admin/inventory_items",
+    "aria": ""
+  },
+  {
+    "i": 32,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "",
+    "href": "/admin/inventory_items/7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem/history?location_id=b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+    "aria": ""
+  },
+  {
+    "i": 33,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "",
+    "href": "/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+    "aria": ""
+  },
+  {
+    "i": 36,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "調整履歴",
+    "href": "/admin/inventory_items/7505ea2c-71b4-5e57-bb7f-9ddb6ddb7668_InventoryItem/history?location_id=b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+    "aria": ""
+  },
+  {
+    "i": 37,
+    "tag": "A",
+    "role": "",
+    "type": "",
+    "text": "商品管理",
+    "href": "/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+    "aria": ""
+  },
+  {
+    "i": 38,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "その他のアクション",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 42,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "その他のビュー",
+    "href": "",
+    "aria": "その他のビュー"
+  },
+  {
+    "i": 43,
+    "tag": "BUTTON",
+    "role": "tab",
+    "type": "button",
+    "text": "すべて",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 44,
+    "tag": "BUTTON",
+    "role": "tab",
+    "type": "button",
+    "text": "店舗",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 45,
+    "tag": "BUTTON",
+    "role": "tab",
+    "type": "button",
+    "text": "倉庫",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 46,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "その他のビュー",
+    "href": "",
+    "aria": "その他のビュー"
+  },
+  {
+    "i": 47,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "検索と絞り込みの結果",
+    "href": "",
+    "aria": "検索と絞り込みの結果"
+  },
+  {
+    "i": 48,
+    "tag": "INPUT",
+    "role": "checkbox",
+    "type": "checkbox",
+    "text": "on",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 49,
+    "tag": "TR",
+    "role": "",
+    "type": "",
+    "text": "ロケーション 販売可能 確定済み 確保済み 破損 検品 予備 手持ち",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 50,
+    "tag": "TR",
+    "role": "",
+    "type": "",
+    "text": "ユニクロ - 銀座店 0 0 0 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 51,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "販売可能数を編集",
+    "href": "",
+    "aria": "販売可能数を編集"
+  },
+  {
+    "i": 52,
+    "tag": "TR",
+    "role": "",
+    "type": "",
+    "text": "物流倉庫 0 0 0 0 0 0 0",
+    "href": "",
+    "aria": ""
+  },
+  {
+    "i": 53,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "販売可能数を編集",
+    "href": "",
+    "aria": "販売可能数を編集"
+  },
+  {
+    "i": 54,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "前へ",
+    "href": "",
+    "aria": "前へ"
+  },
+  {
+    "i": 55,
+    "tag": "BUTTON",
+    "role": "",
+    "type": "button",
+    "text": "次へ",
+    "href": "",
+    "aria": "次へ"
+  }
+]

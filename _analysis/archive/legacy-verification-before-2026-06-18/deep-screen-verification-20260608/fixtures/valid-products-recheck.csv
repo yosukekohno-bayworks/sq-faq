@@ -1,0 +1,2 @@
+command,product_code,title,description,product_status,brand_code,product_vendor,product_type,tags,option1_name,option2_name,option3_name,seo_title,seo_description,is_outlet,sale_start_date,sale_end_date
+NEW,TEST_FAQ_CSV_RECHECK_20260608_01,TEST_FAQ_CSV_RECHECK_20260608_商品,CSV正常インポート検証用の下書き商品,DRAFT,,,,TEST_FAQ_CSV,サイズ,,,,,FALSE,,

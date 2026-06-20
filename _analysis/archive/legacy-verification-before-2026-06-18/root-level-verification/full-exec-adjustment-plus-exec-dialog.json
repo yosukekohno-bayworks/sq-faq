@@ -1,0 +1,173 @@
+{
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IA-1002。このページの準備が整いました\n\n#IA-1002\n注意 未完了\n未実施\nキャンセル\n実行\nロケーション\nロケーション\n選択\n商品\n参照\n商品\n\t\n商品コード\n\t\nSKU\n\t\n増減数\n\t\n\n\nオーバーサイズスウェットシャツ\nBLACK / XL\n\t\n\n486125\n\n\t\n\n486125-09-XL\n\n\t\n増減数\n\t\n詳細\n理由\n選択してください\n廃棄\n見本\n紛失\n棚卸差異\nその他\n選択してください\n作成者\n河野陽介\n作成日\n2026年06月15日 18:14\n変更を破棄\n保存する\n在庫調整を実行する\n\n在庫調整を実行することで明細に登録されている差分値が在庫数に反映されます。この処理は巻き戻すことができません。\n\nキャンセル\n実行する",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "キャンセル",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "実行",
+      "value": "",
+      "disabled": "false"
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "value": "TEST_FAQ_店舗在庫EC販売用",
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "選択",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 10,
+      "tag": "INPUT",
+      "type": "text",
+      "text": "",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 11,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "参照",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "i": 13,
+      "tag": "INPUT",
+      "type": "number",
+      "text": "",
+      "value": "1",
+      "disabled": false
+    },
+    {
+      "i": 14,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 15,
+      "tag": "SELECT",
+      "type": null,
+      "text": "選択してください\n廃棄\n見本\n紛失\n棚卸差異\nその他",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 16,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "変更を破棄",
+      "value": "",
+      "disabled": "true"
+    },
+    {
+      "i": 17,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "保存する",
+      "value": "",
+      "disabled": "true"
+    },
+    {
+      "i": 18,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 19,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "キャンセル",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "i": 20,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "実行する",
+      "value": "",
+      "disabled": "false"
+    }
+  ]
+}

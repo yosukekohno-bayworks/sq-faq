@@ -1,0 +1,958 @@
+{
+  "createdAt": "2026-06-08T02:51:16.815Z",
+  "total": 46,
+  "results": [
+    {
+      "url": "https://docs.sqstack.com/docs/guide/app-integrations",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/app-integrations",
+      "title": "外部連携 - SQ HelpCenter",
+      "bytes": 208029,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "外部連携",
+        "​標準機能で連携可能なサービス",
+        "​販売チャネル",
+        "Shopify",
+        "スマレジ（近日連携予定）",
+        "OmnibusCore",
+        "​業務効率化",
+        "Recustomer",
+        "​SQのAPIを外部から利用可能にする",
+        "SQのAPIを利用するためのトークンを発行"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/customers",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/customers",
+      "title": "顧客管理 - SQ HelpCenter",
+      "bytes": 187334,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "顧客管理"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management",
+      "title": "データ管理 - SQ HelpCenter",
+      "bytes": 216286,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "データ管理",
+        "​目次",
+        "​管理メンバー",
+        "​テナント",
+        "​ロケーション",
+        "​ロケーショングループ",
+        "​ブランド",
+        "​取引先",
+        "​決済方法",
+        "​販売員"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-brands",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-brands",
+      "title": "ブランドを作成する - SQ HelpCenter",
+      "bytes": 199944,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ブランドを作成する",
+        "​ブランドの作成手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-location-groups",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-location-groups",
+      "title": "ロケーショングループを作成する - SQ HelpCenter",
+      "bytes": 197784,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ロケーショングループを作成する",
+        "​ロケーショングループの作成手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-locations",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-locations",
+      "title": "ロケーションを作成する - SQ HelpCenter",
+      "bytes": 231662,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ロケーションを作成する",
+        "​ロケーションとは",
+        "​ロケーションの作成手順",
+        "​ロケーションを一括で作成する",
+        "​注意事項"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-metafields",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-metafields",
+      "title": "メタフィールドを作成する - SQ HelpCenter",
+      "bytes": 217546,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "メタフィールドを作成する",
+        "​目次",
+        "​SQ上でメタフィールドを作る手順",
+        "​メタフィールド事例",
+        "​顧客",
+        "​商品"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-payment-methods",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-payment-methods",
+      "title": "決済方法の登録をする - SQ HelpCenter",
+      "bytes": 207749,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "決済方法の登録をする",
+        "​決済種別の登録手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-retail-staff-members",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-retail-staff-members",
+      "title": "販売員を作成する - SQ HelpCenter",
+      "bytes": 205883,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "販売員を作成する",
+        "​販売員の追加手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-tenants",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-tenants",
+      "title": "テナントを作成する - SQ HelpCenter",
+      "bytes": 201744,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "テナントを作成する",
+        "​テナントの作成手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/data-management/create-users",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/data-management/create-users",
+      "title": "管理メンバーを登録する - SQ HelpCenter",
+      "bytes": 206301,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "管理メンバーを登録する",
+        "​管理メンバーの作成手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/discounts",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/discounts",
+      "title": "ディスカウント利用 - SQ HelpCenter",
+      "bytes": 189587,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ディスカウント利用",
+        "​ディスカウントを作成する"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/discounts/create-discounts",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/discounts/create-discounts",
+      "title": "ディスカウントの作成方法 - SQ HelpCenter",
+      "bytes": 258242,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ディスカウントの作成方法",
+        "​ディスカウントを作成する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/import-export",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/import-export",
+      "title": "インポート/エクスポート - SQ HelpCenter",
+      "bytes": 193017,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "インポート/エクスポート",
+        "CSVインポート",
+        "CSVエクスポート",
+        "PDFエクスポート"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/introduction",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/introduction",
+      "title": "SQガイド - SQ HelpCenter",
+      "bytes": 229658,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "SQガイド",
+        "​管理",
+        "商品",
+        "顧客",
+        "在庫",
+        "注文",
+        "倉庫",
+        "​CRM",
+        "ポイント",
+        "会員ランク",
+        "ディスカウント",
+        "​販売チャネル連携",
+        "Shopify"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/inventory",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/inventory",
+      "title": "在庫管理機能 - SQ HelpCenter",
+      "bytes": 192454,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "在庫管理機能",
+        "​在庫管理メニュー"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/order/check-order-information",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/order/check-order-information",
+      "title": "注文情報を確認する - SQ HelpCenter",
+      "bytes": 190170,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "注文情報を確認する"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/orders",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/orders",
+      "title": "注文管理機能 - SQ HelpCenter",
+      "bytes": 189901,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "注文管理機能"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point",
+      "title": "ポイント機能 - SQ HelpCenter",
+      "bytes": 208817,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ポイント機能",
+        "​ポイントの基本ルールを設定する",
+        "​ポイントで施策を実施する",
+        "​顧客にポイントを手動で付与する",
+        "​ポイントの利用・調整に関する仕様"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/adjust-points",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/adjust-points",
+      "title": "保有ポイントを手動で付与・減算する - SQ HelpCenter",
+      "bytes": 206368,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "保有ポイントを手動で付与・減算する",
+        "​ポイントを加算する手順",
+        "​ポイントを減算する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/create-point-calculation-rules",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/create-point-calculation-rules",
+      "title": "ポイントルールを作成する - SQ HelpCenter",
+      "bytes": 211772,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ポイントルールを作成する",
+        "​ポイントルールを作成する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/create-point-campaign",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/create-point-campaign",
+      "title": "ポイントキャンペーンを設定する - SQ HelpCenter",
+      "bytes": 230553,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ポイントキャンペーンを設定する",
+        "​ポイントキャンペーンを設定する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/handle-returns-and-cancellations",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/handle-returns-and-cancellations",
+      "title": "返品・キャンセル時のポイントの扱いについて - SQ HelpCenter",
+      "bytes": 202363,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "返品・キャンセル時のポイントの扱いについて",
+        "​キャンセル・返品時のポイントの挙動",
+        "​注文に利用したポイント",
+        "​注文で獲得したポイント"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/send-point-notification",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/send-point-notification",
+      "title": "ポイント失効通知を顧客に送る - SQ HelpCenter",
+      "bytes": 202921,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ポイント失効通知を顧客に送る",
+        "​SQ上でポイント失効通知を設定する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/set-birthday-points",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/set-birthday-points",
+      "title": "誕生日ポイントを設定する - SQ HelpCenter",
+      "bytes": 197144,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "誕生日ポイントを設定する",
+        "​誕生日ポイントを設定する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/set-point-application-excluded-products",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/set-point-application-excluded-products",
+      "title": "ポイントの利用対象外商品を設定する - SQ HelpCenter",
+      "bytes": 208278,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ポイントの利用対象外商品を設定する",
+        "​ポイントの利用対象外商品を設定する手順",
+        "​対象のポイント利用種別の説明"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/set-point-multiplier-products",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/set-point-multiplier-products",
+      "title": "特別なポイント付与倍率の商品を設定する - SQ HelpCenter",
+      "bytes": 211920,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "特別なポイント付与倍率の商品を設定する",
+        "​前提条件",
+        "​設定手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/point/understand-point-logic",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/point/understand-point-logic",
+      "title": "ポイント計算のロジックについて知る - SQ HelpCenter",
+      "bytes": 365228,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ポイント計算のロジックについて知る",
+        "​ポイント計算式",
+        "​用語の説明",
+        "​計算例",
+        "​⚫︎手順1：商品ポイント換算額の計算",
+        "​⚫︎手順2：基準ポイントおよび倍率の適用",
+        "​⚫︎手順3：キャンペーン固定ポイント数を加算",
+        "​まとめ"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products",
+      "title": "商品管理 - SQ HelpCenter",
+      "bytes": 190574,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "商品管理"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products/create-catalog",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products/create-catalog",
+      "title": "カタログを作成・商品を追加する - SQ HelpCenter",
+      "bytes": 223300,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "カタログを作成・商品を追加する",
+        "​カタログの作成",
+        "​商品を追加"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products/create-product",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products/create-product",
+      "title": "商品を作成する - SQ HelpCenter",
+      "bytes": 243608,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "商品を作成する",
+        "​目次",
+        "​①商品を作成",
+        "​▶︎外部システムと連携して自動で追加する場合",
+        "​②バリエーションの中身を作成"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/products/update-product",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/products/update-product",
+      "title": "商品をアーカイブする - SQ HelpCenter",
+      "bytes": 191438,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "商品をアーカイブする"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank",
+      "title": "会員ランク機能 - SQ HelpCenter",
+      "bytes": 196576,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "会員ランク機能",
+        "​会員ランクの基本設定をする",
+        "​会員ランクで施策を実施する",
+        "​会員ランク情報を販売チャネルに連携する"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank/adjusting-purchase-amount",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank/adjusting-purchase-amount",
+      "title": "購入金額を加算・減算する - SQ HelpCenter",
+      "bytes": 209134,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "購入金額を加算・減算する",
+        "​購入金額を加算する手順",
+        "​購入金額を減算する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank/create-customer-rank-calculation-rules",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank/create-customer-rank-calculation-rules",
+      "title": "会員ランクルールを作成する - SQ HelpCenter",
+      "bytes": 222990,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "会員ランクルールを作成する",
+        "​会員ランクルールを作成する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank/min-rank",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank/min-rank",
+      "title": "固定ランクを設定する - SQ HelpCenter",
+      "bytes": 201591,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "固定ランクを設定する",
+        "​固定ランクの設定手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/rank/rank-up",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/rank/rank-up",
+      "title": "会員ランクアップポイント・クーポンを付与する - SQ HelpCenter",
+      "bytes": 206584,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "会員ランクアップポイント・クーポンを付与する",
+        "​会員ランクアップの際の特典としてポイントやクーポンを付与する方法"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+      "title": "店舗連携 - SQ HelpCenter",
+      "bytes": 202384,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "店舗連携",
+        "​POSシステムとの接続方法",
+        "​リテールポータル",
+        "​店舗受取"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/retail-portal-integration/setup-retail-portal",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/retail-portal-integration/setup-retail-portal",
+      "title": "リテールポータルを利用する - SQ HelpCenter",
+      "bytes": 216166,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "リテールポータルを利用する",
+        "​前提条件",
+        "​リテールポータルを設定する手順",
+        "​リテールポータルにログインする"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration",
+      "title": "Shopify連携 - SQ HelpCenter",
+      "bytes": 277905,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "Shopify連携",
+        "​目次",
+        "​ShopifyとSQを連携したらできること",
+        "​Shopifyと連携する手順",
+        "SQコネクター - Shopifyアプリ",
+        "​SQの提供するShopifyFlowのトリガーとアクション"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/access-token",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/access-token",
+      "title": "アクセストークンを設定する - SQ HelpCenter",
+      "bytes": 248092,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "アクセストークンを設定する",
+        "​Shopify連携のためのアクセストークンの設定方法",
+        "​Shopify上でアクセストークンを発行する手順",
+        "​SQ上でShopifyのアクセストークンを設定する方法"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/import-data",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/import-data",
+      "title": "データ連携 - SQ HelpCenter",
+      "bytes": 197203,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "データ連携",
+        "​・同期設定",
+        "​・操作連携"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/initial-setup-product",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/initial-setup-product",
+      "title": "リスティング - SQ HelpCenter",
+      "bytes": 197142,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "リスティング",
+        "​・基本設定",
+        "​・商品情報の上書き設定"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/link-location",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/link-location",
+      "title": "ロケーションの接続 - SQ HelpCenter",
+      "bytes": 197463,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "ロケーションの接続",
+        "​ロケーションを接続する手順"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/set-start-date",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/set-start-date",
+      "title": "基本設定 - SQ HelpCenter",
+      "bytes": 212673,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "基本設定",
+        "​・基本設定",
+        "​・顧客設定",
+        "​・価格",
+        "​・在庫設定"
+      ]
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration/shopifyflow",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration/shopifyflow",
+      "title": "SQの提供するShopifyFlow - SQ HelpCenter",
+      "bytes": 207668,
+      "headings": [
+        "Documentation Index",
+        "はじめに",
+        "管理",
+        "CRM",
+        "販売チャネル連携",
+        "設定",
+        "On this page",
+        "SQの提供するShopifyFlow",
+        "​SQの提供するShopify Flow トリガー",
+        "​SQの提供するShopify Flow アクション"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "url": "https://docs.sqstack.com/docs/llms.txt",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/llms.txt",
+      "bytes": 1622
+    },
+    {
+      "url": "https://docs.sqstack.com/llms.txt",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/llms.txt",
+      "bytes": 84
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/llms-full.txt",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/llms-full.txt",
+      "bytes": 9927
+    },
+    {
+      "url": "https://docs.sqstack.com/llms-full.txt",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/llms-full.txt",
+      "bytes": 84
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/introduction",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/introduction",
+      "bytes": 229658
+    },
+    {
+      "url": "https://docs.sqstack.com/guide/introduction",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/guide/introduction",
+      "bytes": 84
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/shopify-integration",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/shopify-integration",
+      "bytes": 277905
+    },
+    {
+      "url": "https://docs.sqstack.com/guide/shopify-integration",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/guide/shopify-integration",
+      "bytes": 84
+    },
+    {
+      "url": "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+      "status": 200,
+      "finalUrl": "https://docs.sqstack.com/docs/guide/retail-portal-integration",
+      "bytes": 202384
+    },
+    {
+      "url": "https://docs.sqstack.com/guide/retail-portal-integration",
+      "status": 404,
+      "finalUrl": "https://docs.sqstack.com/guide/retail-portal-integration",
+      "bytes": 84
+    }
+  ]
+}

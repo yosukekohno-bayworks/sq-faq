@@ -1,0 +1,18 @@
+[
+  {
+    "type": "text",
+    "value": "FAQ"
+  },
+  {
+    "type": "text",
+    "value": "Contact20260615"
+  },
+  {
+    "type": "email",
+    "value": "faq-contact-20260615@example.com"
+  },
+  {
+    "type": "tel",
+    "value": "09000000000"
+  }
+]

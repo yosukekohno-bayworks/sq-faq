@@ -1,0 +1,1038 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SQ FAQ構築 詳細WBS 2026-06-16</title>
+  <style>
+    :root {
+      --bg: #f7f8f7;
+      --surface: #ffffff;
+      --surface-2: #eef4f2;
+      --ink: #17211f;
+      --muted: #60716b;
+      --line: #d9e1de;
+      --teal: #0f766e;
+      --green: #2f7d32;
+      --amber: #a05a00;
+      --red: #b42318;
+      --blue: #2563eb;
+      --shadow: 0 1px 2px rgba(23, 33, 31, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "YuGothic", "Noto Sans JP", "Segoe UI", sans-serif;
+      font-feature-settings: "palt";
+      line-height: 1.75;
+      color: var(--ink);
+      background: var(--bg);
+    }
+
+    body {
+      margin: 0;
+      text-size-adjust: 100%;
+      overflow-wrap: anywhere;
+    }
+
+    a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 40px 0 28px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--teal);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 920px;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 880px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .meta {
+      padding: 14px 16px;
+      background: var(--surface-2);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .meta b {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(8px);
+    }
+
+    .nav-row {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+
+    .nav-row a {
+      flex: 0 0 auto;
+      padding: 7px 11px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: var(--surface);
+      text-decoration: none;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    main {
+      padding: 28px 0 56px;
+    }
+
+    section {
+      margin: 28px 0;
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
+      line-height: 1.45;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 24px 0 10px;
+      font-size: 18px;
+      line-height: 1.55;
+      letter-spacing: 0;
+    }
+
+    p { margin: 0 0 12px; }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 16px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 16px 0 4px;
+    }
+
+    .summary > div,
+    .note,
+    .phase-box {
+      padding: 15px 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+    }
+
+    .summary strong,
+    .phase-box strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .note {
+      border-left: 4px solid var(--teal);
+      margin-top: 14px;
+    }
+
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      margin: 14px 0 6px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 860px;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      padding: 10px 12px;
+      vertical-align: top;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+    }
+
+    th {
+      background: var(--surface-2);
+      color: #25322e;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .small { font-size: 13px; color: var(--muted); }
+    .nowrap { white-space: nowrap; }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface-2);
+      color: var(--ink);
+      font-size: 12px;
+      line-height: 1.6;
+      white-space: nowrap;
+    }
+
+    .tag.green { border-color: #b7d8ba; background: #edf7ee; color: var(--green); }
+    .tag.amber { border-color: #eed0a3; background: #fff7e9; color: var(--amber); }
+    .tag.red { border-color: #f2b8b5; background: #fff1f0; color: var(--red); }
+    .tag.blue { border-color: #b9cdfb; background: #eff5ff; color: var(--blue); }
+
+    .timeline {
+      display: grid;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .bar-label {
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .bar-track {
+      position: relative;
+      height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: repeating-linear-gradient(
+        to right,
+        #ffffff 0,
+        #ffffff 11.11%,
+        #f1f5f3 11.11%,
+        #f1f5f3 11.4%
+      );
+      overflow: hidden;
+    }
+
+    .bar {
+      position: absolute;
+      top: 5px;
+      height: 22px;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 22px;
+      padding: 0 8px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .b0 { left: 0%; width: 11.11%; background: var(--amber); }
+    .b1 { left: 11.11%; width: 11.11%; background: var(--teal); }
+    .b2 { left: 22.22%; width: 11.11%; background: var(--teal); }
+    .b3 { left: 33.33%; width: 11.11%; background: var(--teal); }
+    .b4 { left: 44.44%; width: 11.11%; background: var(--teal); }
+    .b5 { left: 55.55%; width: 11.11%; background: var(--blue); }
+    .b6 { left: 66.66%; width: 11.11%; background: var(--blue); }
+    .b7 { left: 77.77%; width: 11.11%; background: var(--green); }
+    .b8 { left: 88.88%; width: 11.12%; background: var(--green); }
+
+    .month-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 16px;
+    }
+
+    .checklist {
+      columns: 2;
+      column-gap: 28px;
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+
+    .checklist li { break-inside: avoid; margin-bottom: 6px; }
+
+    footer {
+      padding: 22px 0 40px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 820px) {
+      .wrap { width: min(100% - 20px, 1180px); }
+      .hero { padding: 28px 0 20px; }
+      section { padding: 18px; }
+      .meta-grid,
+      .summary,
+      .two-col,
+      .month-grid {
+        grid-template-columns: 1fr;
+      }
+      .bar-row { grid-template-columns: 1fr; }
+      .checklist { columns: 1; }
+      table { min-width: 760px; }
+    }
+
+    @media print {
+      nav { position: static; }
+      section { break-inside: avoid; box-shadow: none; }
+      .nav-row { display: none; }
+      body { background: #fff; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <p class="eyebrow">SQ Help Center Project</p>
+      <h1>SQ FAQ構築 詳細WBS</h1>
+      <p class="lead">最初の1ヶ月で「どのデータをどこまで理解するか」を固め、残り1ヶ月でFAQ/ヘルプセンター向けのデータ構造・記事・レビュー運用へ落とし込むための進行表です。AI利用は前提にせず、担当者が実機操作・事実確認・整理・レビューで進める計画です。</p>
+      <div class="meta-grid">
+        <div class="meta"><b>対象期間</b>2026-06-16（火）〜 2026-08-14（金）</div>
+        <div class="meta"><b>第1月</b>製品理解・データ理解・実測範囲確定</div>
+        <div class="meta"><b>第2月</b>データベース設計・FAQ化・公開準備</div>
+        <div class="meta"><b>最終成果</b>通読資料、FAQ、作業別手順、サポート資料</div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrap nav-row" aria-label="ページ内ナビゲーション">
+      <a href="#overview">全体方針</a>
+      <a href="#gantt">ガント</a>
+      <a href="#month1">第1月</a>
+      <a href="#order-rationale">順番の理由</a>
+      <a href="#data-scope">理解データ</a>
+      <a href="#month2">第2月</a>
+      <a href="#db-design">DB設計</a>
+      <a href="#review">レビュー</a>
+      <a href="#checklist">完了基準</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section id="overview">
+      <h2>全体方針</h2>
+      <div class="summary">
+        <div>
+          <strong>1. 先に理解する</strong>
+          操作手順を書く前に、SQの機能、データ、ステータス、前提条件、外部連携待ち範囲を整理する。
+        </div>
+        <div>
+          <strong>2. 使いどころを書く</strong>
+          「どのボタンを押すか」だけでなく、「いつ必要か」「何を先に作るか」「何に影響するか」を残す。
+        </div>
+        <div>
+          <strong>3. 標準と個別を分ける</strong>
+          SQ標準機能として説明できる範囲と、顧客別の個別開発・連携ロジックを混ぜない。
+        </div>
+      </div>
+      <div class="note">
+        <p><strong>2ヶ月の分け方:</strong> 2026-06-16〜2026-07-17を「理解の1ヶ月」、2026-07-20〜2026-08-14を「FAQ/データ構築の1ヶ月」とする。第1月が弱いと第2月で記事の品質が崩れるため、最初の1ヶ月は執筆量よりも理解の正確さを優先する。</p>
+      </div>
+    </section>
+
+    <section id="gantt">
+      <h2>ガントチャート</h2>
+      <p class="small">W0〜W4が第1月、W5〜W8が第2月です。W4は理解の締めと情報設計の橋渡しに使います。</p>
+      <div class="timeline" aria-label="ガントチャート">
+        <div class="bar-row">
+          <div class="bar-label">W0 6/16-6/19</div>
+          <div class="bar-track"><div class="bar b0">立ち上げ</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">W1 6/22-6/26</div>
+          <div class="bar-track"><div class="bar b1">土台データ</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">W2 6/29-7/3</div>
+          <div class="bar-track"><div class="bar b2">商品/販売</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">W3 7/6-7/10</div>
+          <div class="bar-track"><div class="bar b3">在庫/伝票</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">W4 7/13-7/17</div>
+          <div class="bar-track"><div class="bar b4">注文/CRM/連携</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">W5 7/20-7/24</div>
+          <div class="bar-track"><div class="bar b5">DB設計</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">W6 7/27-7/31</div>
+          <div class="bar-track"><div class="bar b6">記事構築</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">W7 8/3-8/7</div>
+          <div class="bar-track"><div class="bar b7">レビュー反映</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">W8 8/10-8/14</div>
+          <div class="bar-track"><div class="bar b8">公開準備</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="month1">
+      <h2>第1月: どこまで何を理解するか</h2>
+      <div class="month-grid">
+        <div class="phase-box">
+          <strong>第1月の到達点</strong>
+          <p>SQを「画面の集まり」ではなく、「データがどこで作られ、どこから参照され、どの操作で状態が変わるか」で説明できる状態にする。</p>
+        </div>
+        <div class="phase-box">
+          <strong>第1月で作るもの</strong>
+          <p>機能マップ、データ一覧、操作カバレッジ、未確認リスト、制約一覧、ステータス表、FAQ化すべき論点リスト。</p>
+        </div>
+      </div>
+
+      <h3 id="order-rationale">この順番で理解する理由</h3>
+      <p>SQは、後から作るデータほど前に作ったデータを参照します。そのため、画面のメニュー順ではなく、依存関係の下流へ向かって理解します。先に「選択肢になるデータ」を押さえ、その後に「商品」「在庫」「注文」「CRM」「連携」「制約」へ進む順番です。</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>順番</th>
+              <th>理解するデータ</th>
+              <th>なぜこの位置か</th>
+              <th>先に理解しないと困ること</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="nowrap">0</td>
+              <td>既存資料・画面一覧・未確認事項</td>
+              <td>いきなり操作に入ると、どこまで確認したか分からなくなるため。最初に地図を作る。</td>
+              <td>調査済み/未確認/外部連携待ちが混ざり、FAQに推測が入る。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">1</td>
+              <td>組織/権限・基本マスタ</td>
+              <td>テナント、権限、取引先、ブランド、決済方法などは他画面の選択肢になるため。</td>
+              <td>フォームの選択肢が空の理由、誰が操作できるか、初期設定の順番を説明できない。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">2</td>
+              <td>ロケーション/ロケーショングループ</td>
+              <td>在庫は「SKU × ロケーション」で持つため。さらにShopify、リテールポータル、在庫依頼でも参照される。</td>
+              <td>在庫管理、取り寄せ販売、店舗受取、論理ロケーションの説明が崩れる。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">3</td>
+              <td>商品/バリエーション/SKU</td>
+              <td>在庫、価格、出荷、入荷、販売ルール、CSVの多くがSKU単位で動くため。</td>
+              <td>どの単位で在庫や価格が変わるのか、商品作成後に変更できない項目が説明できない。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">4</td>
+              <td>カタログ</td>
+              <td>商品をどのチャネルに出すかを決める入れ物で、Shopify等の連携前提になるため。</td>
+              <td>「商品はあるのにチャネルに出ない」理由や、販売先の見方を説明できない。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">5</td>
+              <td>価格/販売設定</td>
+              <td>商品/SKUが存在して初めて、販売価格、予約販売、上限、閾値を設定できるため。</td>
+              <td>在庫0販売、売りすぎ防止、価格ルールの使い分けを業務シーンで説明できない。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">6</td>
+              <td>在庫区分</td>
+              <td>伝票操作を見る前に、販売可能、引当済み、取置中、手持ちなどの意味を理解する必要があるため。</td>
+              <td>操作後に何が増減したのか判断できず、在庫FAQが表面的になる。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">7</td>
+              <td>在庫操作/伝票</td>
+              <td>在庫区分を理解した後で、調整、取置、移動、出荷、入荷が状態をどう変えるかを見るため。</td>
+              <td>取り寄せ販売の流れ、不可逆操作、誤登録時の対処を説明できない。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">8</td>
+              <td>注文/返品/会計</td>
+              <td>注文はチャネルから流入し、在庫引当や売上実績につながる下流データのため。</td>
+              <td>注文が表示されない理由、下書き注文、返品、売上実績CSVの位置付けが説明できない。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">9</td>
+              <td>顧客/会社</td>
+              <td>購入顧客は注文/チャネル流入が前提で、会社・会社担当者とは用途が違うため。</td>
+              <td>顧客と会社担当者を混同し、ディスカウント対象顧客やポイント説明を誤る。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">10</td>
+              <td>CRM</td>
+              <td>ディスカウント、ポイント、会員ランクは商品、顧客、店舗、注文に影響するため、基礎データの後に見る。</td>
+              <td>ルールを作れても、実注文への影響や未確認範囲を切り分けられない。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">11</td>
+              <td>CSV/PDF</td>
+              <td>CSVは横断機能で、商品・在庫・価格・CRMなど既存データを一括で作る/変えるため。</td>
+              <td>何を一括変更しているか理解しないまま、不可逆操作や失敗時の対処を書いてしまう。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">12</td>
+              <td>外部連携</td>
+              <td>連携は、ここまで理解した商品、在庫、注文、顧客、ロケーションを外部サービスとつなぐ層のため。</td>
+              <td>stagingで確認できない範囲と標準機能の範囲を混同する。</td>
+            </tr>
+            <tr>
+              <td class="nowrap">13</td>
+              <td>未実装/制約/エラー</td>
+              <td>通常フローを理解した後で、例外として何が使えないのかを整理するため。</td>
+              <td>未実装、不具合、外部連携不足、実データ不足を同じものとして説明してしまう。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">
+        <p><strong>判断基準:</strong> 「他の画面の前提になるデータ」ほど先に理解し、「前提データを使って状態を変える操作」ほど後で理解します。最後に、通常フローから外れる未実装・不具合・外部連携待ちを整理します。</p>
+      </div>
+
+      <h3>週別WBS</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>週</th>
+              <th>期間</th>
+              <th>主テーマ</th>
+              <th>理解するデータ</th>
+              <th>確認する操作</th>
+              <th>完了条件</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="nowrap">W0</td>
+              <td class="nowrap">6/16〜6/19</td>
+              <td>計画と棚卸し</td>
+              <td>既存資料、画面一覧、FAQ分類、調査根拠、未確認事項</td>
+              <td>既存HTML/Markdownを確認し、公開候補/下書き/根拠を分類する</td>
+              <td>2ヶ月計画、詳細WBS、資料棚卸し、初回レビュー論点がある</td>
+            </tr>
+            <tr>
+              <td class="nowrap">W1</td>
+              <td class="nowrap">6/22〜6/26</td>
+              <td>土台データ</td>
+              <td>テナント、ロケーション、ロケーショングループ、取引先、ブランド、決済方法、管理ユーザー、権限</td>
+              <td>作成、編集、削除/アーカイブ、選択肢への反映、必須チェック、変更不可項目の確認</td>
+              <td>他画面の選択肢になるデータと、先に作るべき順番を説明できる</td>
+            </tr>
+            <tr>
+              <td class="nowrap">W2</td>
+              <td class="nowrap">6/29〜7/3</td>
+              <td>商品/販売データ</td>
+              <td>商品、バリエーション、SKU、商品画像、カタログ、価格、原価、予約販売、販売上限、販売閾値</td>
+              <td>商品作成、SKU編集、カタログ追加、価格ルール、予約/上限/閾値の作成と制約確認</td>
+              <td>商品から販売ルールまで、どの単位がSKU単位か説明できる</td>
+            </tr>
+            <tr>
+              <td class="nowrap">W3</td>
+              <td class="nowrap">7/6〜7/10</td>
+              <td>在庫/伝票データ</td>
+              <td>在庫区分、販売可能、引当済み、取置中、手持ち、積送中、入荷予定、調整伝票、取置伝票、移動伝票、出荷指示、入荷指示、発注伝票</td>
+              <td>調整、取置、移動、キャンセル、出荷実績、入荷実績、在庫依頼、ステータス遷移を確認する</td>
+              <td>どの操作でどの在庫区分が増減するか説明できる</td>
+            </tr>
+            <tr>
+              <td class="nowrap">W4</td>
+              <td class="nowrap">7/13〜7/17</td>
+              <td>注文/顧客/CRM/連携</td>
+              <td>注文、下書き注文、返品、売上実績、顧客、会社、会社担当者、ディスカウント、ポイント、会員ランク、CSV、外部連携</td>
+              <td>顧客/会社の違い、CRMルール、CSV入出力、外部連携待ち範囲、実データ待ち範囲を確認する</td>
+              <td>標準機能として確認済みの範囲と、外部連携/実データ待ち範囲を分けて説明できる</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="data-scope">
+      <h2>第1月で理解するデータ領域</h2>
+      <p class="small">各データ領域ごとに「理解すること」「確認する画面」「FAQに落とす観点」を分けます。</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>データ領域</th>
+              <th>理解すること</th>
+              <th>確認する画面/操作</th>
+              <th>FAQ/ヘルプ化する観点</th>
+              <th>完了ステータス</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>D01</td>
+              <td>組織/権限</td>
+              <td>管理メンバー、権限グループ、ユーザーテナント、ログイン方式、招待/除外の扱い</td>
+              <td>設定 > 管理メンバー、権限グループ、メンバー詳細</td>
+              <td>誰が何を操作できるか、初期設定でどこまで必要か</td>
+              <td><span class="tag amber">実測確認</span></td>
+            </tr>
+            <tr>
+              <td>D02</td>
+              <td>マスタ</td>
+              <td>テナント、ブランド、取引先、決済方法、販売員、通知メール、納品書テンプレート</td>
+              <td>設定配下の作成/編集/削除/アーカイブ</td>
+              <td>先に作らないとどのフォームが空になるか</td>
+              <td><span class="tag amber">依存関係整理</span></td>
+            </tr>
+            <tr>
+              <td>D03</td>
+              <td>ロケーション</td>
+              <td>倉庫/店舗、在庫依頼を受け付ける、店舗受取、論理ロケーション、ロケーショングループ</td>
+              <td>ロケーション作成、グループ作成、在庫一覧/連携フォームへの反映</td>
+              <td>どんな時にロケーション登録が必要か</td>
+              <td><span class="tag green">重点領域</span></td>
+            </tr>
+            <tr>
+              <td>D04</td>
+              <td>商品/SKU</td>
+              <td>商品、バリエーション、SKU、商品コード、オプション、ステータス、画像、メタフィールド</td>
+              <td>商品作成、編集、アーカイブ、削除、SKU詳細、CSV投入</td>
+              <td>作成後に変更できない項目、SKU単位で動く処理</td>
+              <td><span class="tag amber">実測確認</span></td>
+            </tr>
+            <tr>
+              <td>D05</td>
+              <td>カタログ</td>
+              <td>商品グループ、チャネル連携範囲、手動追加、自動追加ルール、販売先表示</td>
+              <td>カタログ作成、商品追加、CSV、チャネル側の参照</td>
+              <td>Shopify等にどの商品を出すかをどう決めるか</td>
+              <td><span class="tag amber">要整理</span></td>
+            </tr>
+            <tr>
+              <td>D06</td>
+              <td>価格/販売設定</td>
+              <td>販売価格、原価、予約販売、販売上限、販売閾値、チャネル前提</td>
+              <td>各ルール作成、SKU追加、削除、チャネル未接続時の制約</td>
+              <td>在庫0販売、売りすぎ防止、価格ルールの使い分け</td>
+              <td><span class="tag amber">実測確認</span></td>
+            </tr>
+            <tr>
+              <td>D07</td>
+              <td>在庫区分</td>
+              <td>販売可能、引当済み、取置中、破損、検品、予備、手持ち、積送中、入荷予定</td>
+              <td>在庫一覧、SKU詳細、各伝票実行後の変動</td>
+              <td>画面ごとの列の違い、手持ち計算式、マイナス在庫</td>
+              <td><span class="tag green">最重要</span></td>
+            </tr>
+            <tr>
+              <td>D08</td>
+              <td>在庫操作/伝票</td>
+              <td>調整、取置、移動、発注、在庫依頼、出荷指示、入荷指示、実績登録</td>
+              <td>作成、実行、キャンセル、ステータス遷移、不可逆操作</td>
+              <td>取り寄せ販売の流れ、巻き戻せない操作、誤登録時の対処</td>
+              <td><span class="tag green">最重要</span></td>
+            </tr>
+            <tr>
+              <td>D09</td>
+              <td>注文/会計</td>
+              <td>注文、下書き注文、返品、売上実績、CSVエクスポート、チャネル流入前提</td>
+              <td>注文一覧、下書き、返品、売上実績、手動作成ボタンの状態</td>
+              <td>注文が表示されない理由、売上実績の出口</td>
+              <td><span class="tag blue">実データ待ちあり</span></td>
+            </tr>
+            <tr>
+              <td>D10</td>
+              <td>顧客/会社</td>
+              <td>購入顧客、会社、会社ロケーション、会社担当者、顧客作成不可、B2Bとの違い</td>
+              <td>顧客管理、会社作成、担当者作成、ディスカウント顧客検索</td>
+              <td>顧客と会社担当者を混同しない説明</td>
+              <td><span class="tag amber">実測確認</span></td>
+            </tr>
+            <tr>
+              <td>D11</td>
+              <td>CRM</td>
+              <td>ディスカウント、ポイント付与ルール、ポイントキャンペーン、誕生日ポイント、会員ランク</td>
+              <td>ルール作成、配下設定、削除、対象商品/店舗/顧客追加</td>
+              <td>どのルールが何に影響するか、実注文適用の未確認範囲</td>
+              <td><span class="tag blue">実注文待ちあり</span></td>
+            </tr>
+            <tr>
+              <td>D12</td>
+              <td>CSV/PDF</td>
+              <td>CSVインポート22カテゴリ、CSVエクスポート9カテゴリ、PDFエクスポート、履歴、失敗詳細</td>
+              <td>テンプレート、保存、検証、実行、履歴、ダウンロード</td>
+              <td>一括処理の入口/出口、不可逆操作、失敗時の対処</td>
+              <td><span class="tag green">重要</span></td>
+            </tr>
+            <tr>
+              <td>D13</td>
+              <td>外部連携</td>
+              <td>Shopify、OmnibusCore、スマレジ、リテールポータル、ロジザード、Recustomer、APIアプリ</td>
+              <td>作成フォーム、必須項目、接続前提、staging制約</td>
+              <td>連携できない時の前提確認、標準機能と外部依存の切り分け</td>
+              <td><span class="tag blue">外部連携待ち</span></td>
+            </tr>
+            <tr>
+              <td>D14</td>
+              <td>未実装/制約/エラー</td>
+              <td>分析、卸売、会社/取引先インポート、発注→入荷連動なし（発注伝票自体は作成可能・2026-06-20実機確定）、下書き注文作成不可</td>
+              <td>ボタン押下、直接URL、エラー文言、TODO表示</td>
+              <td>顧客にどう説明するか、開発中/不具合/外部不足の分類</td>
+              <td><span class="tag red">要明記</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>第1月の完了判定</h3>
+      <ul class="checklist">
+        <li>主要データごとに作成元、参照先、変更可否、削除可否が説明できる</li>
+        <li>ロケーション、SKU、テナント、カタログの依存関係を説明できる</li>
+        <li>在庫区分と在庫を動かす操作を説明できる</li>
+        <li>取り寄せ販売の一連の流れを図なしでも説明できる</li>
+        <li>顧客、会社、会社担当者の違いを説明できる</li>
+        <li>CRMが注文、顧客、商品、店舗にどう影響するか説明できる</li>
+        <li>CSVの入口、出口、不可逆操作、失敗時の見方を説明できる</li>
+        <li>外部連携待ち、実データ待ち、未実装、不具合を分けて説明できる</li>
+      </ul>
+    </section>
+
+    <section id="month2">
+      <h2>第2月: どういうデータ構築にするか</h2>
+      <div class="month-grid">
+        <div class="phase-box">
+          <strong>第2月の到達点</strong>
+          <p>第1月で理解したデータを、ヘルプセンターの情報設計に変換する。記事を単体で書くのではなく、検索、関連リンク、サポート対応、更新運用まで含むデータ構造にする。</p>
+        </div>
+        <div class="phase-box">
+          <strong>第2月で作るもの</strong>
+          <p>Notion投入を想定したデータベース設計、記事テンプレート、FAQ優先度表、レビュー表、公開候補リスト、次月バックログ。</p>
+        </div>
+      </div>
+
+      <h3>週別WBS</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>週</th>
+              <th>期間</th>
+              <th>主テーマ</th>
+              <th>構築するデータ</th>
+              <th>具体作業</th>
+              <th>完了条件</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="nowrap">W5</td>
+              <td class="nowrap">7/20〜7/24</td>
+              <td>DB設計</td>
+              <td>記事DB、機能DB、データ辞書DB、操作DB、FAQ DB、制約DB、根拠DB</td>
+              <td>プロパティ、リレーション、ステータス、タグ、記事テンプレートを決める</td>
+              <td>どの記事がどの機能/データ/根拠に紐づくか設計できている</td>
+            </tr>
+            <tr>
+              <td class="nowrap">W6</td>
+              <td class="nowrap">7/27〜7/31</td>
+              <td>記事構築</td>
+              <td>完全ガイド、セットアップ、機能別、作業別、FAQ、サポート資料</td>
+              <td>第1月の理解メモを記事テンプレートに流し込み、関連リンクを付ける</td>
+              <td>主要記事の初稿が揃い、読者別導線が成立している</td>
+            </tr>
+            <tr>
+              <td class="nowrap">W7</td>
+              <td class="nowrap">8/3〜8/7</td>
+              <td>レビュー/補正</td>
+              <td>レビュー指摘DB、顧客要望DB、標準/個別切り分け表、未確認DB</td>
+              <td>Stackレビュー、CS/現場レビュー、顧客要望リスト反映、矛盾修正</td>
+              <td>公開候補、社内限定、次フェーズ送りが判定されている</td>
+            </tr>
+            <tr>
+              <td class="nowrap">W8</td>
+              <td class="nowrap">8/10〜8/14</td>
+              <td>公開準備</td>
+              <td>公開候補DB、運用ルール、更新履歴、次月バックログ</td>
+              <td>Notion投入前チェック、リンク/画像/表/用語統一、残課題整理</td>
+              <td>公開できる範囲と未公開にする範囲が明確になっている</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="db-design">
+      <h2>FAQ/ヘルプセンターのデータ構築案</h2>
+      <p class="small">Notion等に入れる場合は、単一のページ群ではなく、複数のデータベースを関連付ける設計にします。</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>DB</th>
+              <th>役割</th>
+              <th>主なプロパティ</th>
+              <th>関連DB</th>
+              <th>使い方</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>記事DB</td>
+              <td>公開/社内用の記事本体</td>
+              <td>タイトル、分類、読者、ステータス、最終確認日、公開可否、優先度</td>
+              <td>機能DB、データ辞書DB、FAQ DB、根拠DB</td>
+              <td>ヘルプセンターの中心。完全ガイド、機能別、作業別を管理する</td>
+            </tr>
+            <tr>
+              <td>機能DB</td>
+              <td>SQの機能単位を管理</td>
+              <td>機能名、画面URL、領域、対応ロール、確認ステータス、制約</td>
+              <td>記事DB、操作DB、制約DB</td>
+              <td>「この機能の記事は揃っているか」を確認する</td>
+            </tr>
+            <tr>
+              <td>データ辞書DB</td>
+              <td>SQ内データとステータスを管理</td>
+              <td>データ名、作成元、参照先、変更可否、削除可否、影響範囲</td>
+              <td>記事DB、操作DB、ステータスDB</td>
+              <td>製品理解の核。FAQの根拠として使う</td>
+            </tr>
+            <tr>
+              <td>操作DB</td>
+              <td>ユーザー操作と挙動を管理</td>
+              <td>操作名、入口、前提、結果、不可逆性、確認日、証跡</td>
+              <td>機能DB、データ辞書DB、根拠DB</td>
+              <td>ボタンを押した結果、保存/削除/CSV実行などを追跡する</td>
+            </tr>
+            <tr>
+              <td>FAQ DB</td>
+              <td>質問と回答を管理</td>
+              <td>質問、回答、カテゴリ、想定読者、優先度、関連機能、関連データ</td>
+              <td>記事DB、機能DB、データ辞書DB、制約DB</td>
+              <td>顧客が検索するQ&Aを管理する</td>
+            </tr>
+            <tr>
+              <td>制約/エラーDB</td>
+              <td>不具合、未実装、外部連携待ちを管理</td>
+              <td>区分、症状、原因、ユーザー説明、回避策、確認日</td>
+              <td>記事DB、FAQ DB、根拠DB</td>
+              <td>サポート対応とFAQの注意書きに使う</td>
+            </tr>
+            <tr>
+              <td>根拠DB</td>
+              <td>実測記録、スクショ、会議メモを管理</td>
+              <td>根拠名、種類、対象画面、確認日、ファイル、要約</td>
+              <td>記事DB、操作DB、制約DB</td>
+              <td>「なぜそう書いたか」を後から確認する</td>
+            </tr>
+            <tr>
+              <td>レビューDB</td>
+              <td>レビュー指摘と反映状況を管理</td>
+              <td>指摘者、対象記事、指摘内容、対応方針、ステータス、期限</td>
+              <td>記事DB、FAQ DB</td>
+              <td>Stackレビュー、CSレビュー、公開前レビューを管理する</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>記事テンプレートの必須項目</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>項目</th>
+              <th>必須理由</th>
+              <th>書く内容</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>このページで分かること</td>
+              <td>読者が読むべきページか判断するため</td>
+              <td>機能の目的、解決する課題、対象読者</td>
+            </tr>
+            <tr>
+              <td>いつ使うか</td>
+              <td>操作方法だけでは顧客が判断できないため</td>
+              <td>業務シーン、使うタイミング、使わないケース</td>
+            </tr>
+            <tr>
+              <td>前提</td>
+              <td>マスタ不足や連携不足で詰まるため</td>
+              <td>先に必要なデータ、権限、連携、実データ</td>
+            </tr>
+            <tr>
+              <td>操作手順</td>
+              <td>実務で再現するため</td>
+              <td>1ステップ1動作、UIラベル原文、確認ポイント</td>
+            </tr>
+            <tr>
+              <td>結果/影響</td>
+              <td>在庫や注文などへの影響を理解するため</td>
+              <td>作成されるデータ、変わるステータス、不可逆性</td>
+            </tr>
+            <tr>
+              <td>うまくいかない時</td>
+              <td>FAQとサポート対応へつなげるため</td>
+              <td>症状、原因、確認箇所、回避策、未確認範囲</td>
+            </tr>
+            <tr>
+              <td>関連ページ</td>
+              <td>ヘルプセンター内の回遊を作るため</td>
+              <td>関連機能、作業別手順、FAQ、データ事典</td>
+            </tr>
+            <tr>
+              <td>根拠/最終確認</td>
+              <td>古い情報や推測を混ぜないため</td>
+              <td>確認日、確認環境、根拠メモ、未確認TODO</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="review">
+      <h2>レビューと進捗管理</h2>
+      <div class="two-col">
+        <div>
+          <h3>毎週レビューで見ること</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>観点</th>
+                  <th>確認内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>理解の正確性</td>
+                  <td>機能、データ、ステータスの説明が実システムと合っているか</td>
+                </tr>
+                <tr>
+                  <td>抜け漏れ</td>
+                  <td>未確認の画面、ボタン、外部連携、実データ待ちが見えているか</td>
+                </tr>
+                <tr>
+                  <td>顧客目線</td>
+                  <td>操作方法だけでなく「いつ使うか」が書けているか</td>
+                </tr>
+                <tr>
+                  <td>標準/個別</td>
+                  <td>顧客別の個別連携ロジックを標準FAQに混ぜていないか</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h3>進捗ステータス</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>ステータス</th>
+                  <th>意味</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><span class="tag">未着手</span></td><td>まだ確認していない</td></tr>
+                <tr><td><span class="tag amber">調査中</span></td><td>画面や資料を確認中</td></tr>
+                <tr><td><span class="tag green">実測済み</span></td><td>実機で表示/操作を確認済み</td></tr>
+                <tr><td><span class="tag blue">外部連携待ち</span></td><td>接続環境がないと確認不可</td></tr>
+                <tr><td><span class="tag blue">実データ待ち</span></td><td>注文/顧客/売上などが必要</td></tr>
+                <tr><td><span class="tag red">未実装/不具合</span></td><td>動かない、エラー、TODO表示</td></tr>
+                <tr><td><span class="tag green">公開候補</span></td><td>レビュー済みで公開可能</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="checklist">
+      <h2>最終完了基準</h2>
+      <p>2026-08-14時点で、以下を満たしていれば2ヶ月計画の完了とする。</p>
+      <ul class="checklist">
+        <li>SQの全体像を初学者向けに説明できる</li>
+        <li>商品、SKU、ロケーション、テナント、カタログの関係を説明できる</li>
+        <li>在庫区分と各伝票による在庫変動を説明できる</li>
+        <li>取り寄せ販売の開始から出荷/入荷まで説明できる</li>
+        <li>顧客、会社、会社担当者の違いを説明できる</li>
+        <li>ディスカウント、ポイント、会員ランクの関係を説明できる</li>
+        <li>CSVインポート/エクスポートの対象と注意点を説明できる</li>
+        <li>外部連携待ちと実データ待ちの範囲を明記できる</li>
+        <li>標準FAQと顧客別個別資料を分けられる</li>
+        <li>Notion投入またはヘルプセンター化に必要なDB構造がある</li>
+        <li>公開候補、社内限定、次フェーズ送りが判定されている</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      作成日: 2026-06-16 / 根拠: 2026-06-12 キックオフ方針、既存FAQ構成、実測資料
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders/export/yamato_b2_cloud",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "value": "",
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 1,
+      "tag": "BUTTON",
+      "type": "button",
+      "value": "",
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "value": "",
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "value": "",
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "datetime-local",
+      "value": "2026-06-12T08:40",
+      "checked": false,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "datetime-local",
+      "value": "2026-06-12T08:55",
+      "checked": false,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 7,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "ALL",
+      "text": "すべての決済\n代引きのみ\n代引き以外の決済",
+      "disabled": false,
+      "ariaDisabled": null,
+      "selected": [
+        "すべての決済"
+      ]
+    },
+    {
+      "i": 8,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "WAITING",
+      "text": "選択してください\n指定しない\n出荷待ち\n保留中\n依頼済み\n作業中\n欠品・要対応\nキャンセル済み\n出荷完了",
+      "disabled": false,
+      "ariaDisabled": null,
+      "selected": [
+        "出荷待ち"
+      ]
+    },
+    {
+      "i": 9,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 10,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 11,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 12,
+      "tag": "BUTTON",
+      "type": "button",
+      "value": "",
+      "text": "実行する",
+      "disabled": false,
+      "ariaDisabled": "false"
+    }
+  ],
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n条件指定でヤマトB2クラウドのCSVをエクスポートする。このページの準備が整いました\n\n条件指定でヤマトB2クラウドのCSVをエクスポートする\nエクスポート完了後、メールにて以下のダウンロードリンクをお知らせいたします\n\nヤマトB2クラウド取り込み用CSV\n\n同梱する納品書PDF\n\n開始日時\n出荷指示の絞り込みを開始する日時を入力してください\n終了日時\n出荷指示の絞り込みを終了する日時を入力してください\n配送先 (国)\n決済方法\nすべての決済\n代引きのみ\n代引き以外の決済\nすべての決済\n出荷作業ステータス\n選択してください\n指定しない\n出荷待ち\n保留中\n依頼済み\n作業中\n欠品・要対応\nキャンセル済み\n出荷完了\n出荷待ち\n特定の出荷作業ステータスで絞り込みたい場合に選択してください\n注文タグ（含む）\n入力されたタグを含む出荷指示のみが対象になります\n注文タグ（除外）\n入力されたタグを含まない出荷指示のみが対象になります。\nCSVの出力後に出荷指示のステータスを出荷作業中に変更する\n実行する"
+}

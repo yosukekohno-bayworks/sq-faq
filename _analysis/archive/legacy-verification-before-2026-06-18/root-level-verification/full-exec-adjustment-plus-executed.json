@@ -1,0 +1,274 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_adjustment_orders/7e6b7a13-b921-51fe-b5dc-36b910b64124_InventoryAdjustmentOrder",
+  "h1": "#IA-1002",
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IA-1002。このページの準備が整いました\n\n#IA-1002\n完了\n実施済み\nキャンセル\nロケーション\n\nTEST_FAQ_店舗在庫EC販売用\n\n商品\n商品\n\t\n商品コード\n\t\nSKU\n\t\n増減数\n\n\nオーバーサイズスウェットシャツ\nBLACK / XL\n\t\n\n486125\n\n\t\n\n486125-09-XL\n\n\t\n+1\n詳細\n作成者\n河野陽介\n作成日\n2026年06月15日 18:14\n実行者\n河野陽介\n実行日\n2026年06月15日 18:15\n在庫調整を実行しました",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "A",
+      "type": null,
+      "text": "コンテンツにスキップ",
+      "href": "#AppFrameMain",
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "tag": "A",
+      "type": null,
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "value": "",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "tag": "A",
+      "type": null,
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "tag": "A",
+      "type": null,
+      "text": "ホーム",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "tag": "A",
+      "type": null,
+      "text": "商品管理",
+      "href": "/admin/products",
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "tag": "A",
+      "type": null,
+      "text": "在庫管理",
+      "href": "/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "tag": "A",
+      "type": null,
+      "text": "移動伝票",
+      "href": "/admin/inventory_movement_orders",
+      "disabled": false
+    },
+    {
+      "i": 10,
+      "tag": "A",
+      "type": null,
+      "text": "調整伝票",
+      "href": "/admin/inventory_adjustment_orders",
+      "disabled": false
+    },
+    {
+      "i": 11,
+      "tag": "A",
+      "type": null,
+      "text": "取置伝票",
+      "href": "/admin/inventory_reservation_orders",
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "tag": "A",
+      "type": null,
+      "text": "注文管理",
+      "href": "/admin/orders",
+      "disabled": false
+    },
+    {
+      "i": 13,
+      "tag": "A",
+      "type": null,
+      "text": "顧客管理",
+      "href": "/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "i": 14,
+      "tag": "A",
+      "type": null,
+      "text": "発注管理",
+      "href": "/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "i": 15,
+      "tag": "A",
+      "type": null,
+      "text": "販売設定",
+      "href": "/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "i": 16,
+      "tag": "A",
+      "type": null,
+      "text": "会計",
+      "href": "/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "i": 17,
+      "tag": "A",
+      "type": null,
+      "text": "分析",
+      "href": "/admin/analytics",
+      "disabled": false
+    },
+    {
+      "i": 18,
+      "tag": "A",
+      "type": null,
+      "text": "入荷管理\n未完了の入荷指示 1件\n1",
+      "href": "/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "i": 19,
+      "tag": "A",
+      "type": null,
+      "text": "出荷管理\n未完了の出荷指示 1件\n1",
+      "href": "/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "i": 20,
+      "tag": "A",
+      "type": null,
+      "text": "在庫依頼",
+      "href": "/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "i": 21,
+      "tag": "A",
+      "type": null,
+      "text": "ディスカウント",
+      "href": "/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "i": 22,
+      "tag": "A",
+      "type": null,
+      "text": "ポイント",
+      "href": "/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "i": 23,
+      "tag": "A",
+      "type": null,
+      "text": "会員ランク",
+      "href": "/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "i": 24,
+      "tag": "A",
+      "type": null,
+      "text": "Shopify",
+      "href": "/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "i": 25,
+      "tag": "A",
+      "type": null,
+      "text": "OmnibusCore",
+      "href": "/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "i": 26,
+      "tag": "A",
+      "type": null,
+      "text": "スマレジ",
+      "href": "/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "i": 27,
+      "tag": "A",
+      "type": null,
+      "text": "リテールポータル",
+      "href": "/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "i": 28,
+      "tag": "A",
+      "type": null,
+      "text": "卸売",
+      "href": "/admin/b2b",
+      "disabled": false
+    },
+    {
+      "i": 29,
+      "tag": "A",
+      "type": null,
+      "text": "設定",
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "i": 31,
+      "tag": "A",
+      "type": null,
+      "text": "",
+      "href": "/admin/inventory_adjustment_orders",
+      "disabled": false
+    },
+    {
+      "i": 34,
+      "tag": "BUTTON",
+      "type": "button",
+      "text": "キャンセル",
+      "value": "",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "i": 35,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "value": "on",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "i": 36,
+      "tag": "A",
+      "type": null,
+      "text": "オーバーサイズスウェットシャツ",
+      "href": "/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product/variants/92cfda5b-cf04-55f2-a4a1-719e562cbc0a_ProductVariant",
+      "disabled": false
+    },
+    {
+      "i": 37,
+      "tag": "A",
+      "type": null,
+      "text": "+1",
+      "href": "/admin/inventory_items/a1da5885-98b4-5b9b-bcee-891a9c3fd29e_InventoryItem/history?location_id=8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location",
+      "disabled": false
+    }
+  ]
+}

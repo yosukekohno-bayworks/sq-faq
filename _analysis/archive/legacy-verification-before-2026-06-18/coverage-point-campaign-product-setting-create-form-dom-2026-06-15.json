@@ -1,0 +1,70 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/f4f1f19e-3fd1-5e1a-babf-ad0088088ba4_PointCampaignOrderRule/product_variants/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品を追加する。このページの準備が整いました\n\n商品を追加する\n\nTEST_FAQ_COVERAGE_20260615_PC_PRODUCT\n\n商品\n商品バリエーションを選択する\n検索\nポイント\nポイント倍率\n通常獲得ポイントに追加で\n倍分のポイントを付与する\n\nキャンペーン倍率は「通常ポイントに加えた合計倍率」として適用されます。\n例）キャンペーン倍率に「3」と入力すると、通常倍率が2倍の会員ランクなら、通常2倍 + キャンペーン3倍 = 合計5倍 となります。\n\n追加する",
+  "fields": [
+    {
+      "i": 0,
+      "tag": "input",
+      "type": "text",
+      "id": ":r24:",
+      "value": "",
+      "placeholder": "選択してください",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "商品バリエーションを選択する"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "input",
+      "type": "number",
+      "id": ":r25:",
+      "value": "",
+      "placeholder": "0",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "ポイント倍率"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "検索",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "追加する",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

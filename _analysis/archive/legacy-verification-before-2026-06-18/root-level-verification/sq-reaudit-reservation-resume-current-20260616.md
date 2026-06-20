@@ -1,0 +1,75 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]
+            - listitem [ref=e54]
+            - listitem [ref=e63]
+            - listitem [ref=e90]
+            - listitem [ref=e99]
+            - listitem [ref=e109]
+            - listitem [ref=e119]
+            - listitem [ref=e131]
+            - listitem [ref=e140]
+          - list [ref=e142]:
+            - listitem [ref=e143]
+            - listitem [ref=e145]
+            - listitem [ref=e160]
+            - listitem [ref=e173]
+          - list [ref=e183]:
+            - listitem [ref=e184]
+            - listitem [ref=e186]
+            - listitem [ref=e195]
+            - listitem [ref=e204]
+          - list [ref=e214]:
+            - listitem [ref=e215]
+            - listitem [ref=e217]
+            - listitem [ref=e222]
+            - listitem [ref=e227]
+            - listitem [ref=e232]
+            - listitem [ref=e237]
+          - list [ref=e239]:
+            - listitem [ref=e240]
+    - generic [ref=e494]:
+      - generic [ref=e495]:
+        - img [ref=e497]
+        - heading "保存されていない変更" [level=2] [ref=e501]
+      - generic [ref=e503]:
+        - button "取り消す" [ref=e505] [cursor=pointer]:
+          - generic [ref=e506]: 取り消す
+        - button "保存" [ref=e508] [cursor=pointer]:
+          - generic [ref=e509]: 保存
+    - main [ref=e249]:
+      - generic [ref=e252]:
+        - generic [ref=e253]:
+          - status:
+            - paragraph [ref=e254]: 取置伝票を作成する。このページの準備が整いました
+          - generic [ref=e256]:
+            - link [ref=e259] [cursor=pointer]:
+              - /url: /admin/inventory_reservation_orders
+            - heading "取置伝票を作成する" [level=1] [ref=e266]
+        - generic [ref=e268]:
+          - generic [ref=e270]:
+            - generic [ref=e273]
+            - generic [ref=e296]
+          - button "保存する" [ref=e312] [cursor=pointer]:
+            - generic [ref=e313]: 保存する
+  - region "Notifications alt+T"
+  - alert [ref=e15]

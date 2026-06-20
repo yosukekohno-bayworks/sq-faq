@@ -1,0 +1,13 @@
+{
+  "exists": true,
+  "anchors": [],
+  "buttons": [
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "text": "",
+      "checked": false
+    }
+  ],
+  "html": "<tr id=\"9391adcc-ad5b-52de-b703-6f45fb969388_Company\" class=\"Polaris-IndexTable__TableRow\"><td class=\"Polaris-IndexTable__TableCell Polaris-IndexTable__TableCell--first\"><div class=\"Polaris-IndexTable-Checkbox__Wrapper\"><label class=\"Polaris-Choice Polaris-Choice--labelHidden Polaris-Checkbox__ChoiceLabel\" for=\"Select-9391adcc-ad5b-52de-b703-6f45fb969388_Company\"><span class=\"Polaris-Choice__Control\"><span class=\"Polaris-Checkbox\"><input id=\"Select-9391adcc-ad5b-52de-b703-6f45fb969388_Company\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"false\" type=\"checkbox\"><span class=\"Polaris-Checkbox__Backdrop\"></span><span class=\"Polaris-Checkbox__Icon Polaris-Checkbox--animated\"><svg viewBox=\"0 0 16 16\" shape-rendering=\"geometricPrecision\" text-rendering=\"geometricPrecision\"><path class=\"\" d=\"M1.5,5.5L3.44655,8.22517C3.72862,8.62007,4.30578,8.64717,4.62362,8.28044L10.5,1.5\" transform=\"translate(2 2.980376)\" opacity=\"0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" pathLength=\"1\"></path></svg></span></span></span><span class=\"Polaris-Choice__Label\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">アイテムを選択する</span></span></label></div></td><td class=\"Polaris-IndexTable__TableCell\"><p>TEST_FAQ_COVERAGE_20260615_809686_会社</p></td><td class=\"Polaris-IndexTable__TableCell\"><p>1箇所のロケーション</p></td><td class=\"Polaris-IndexTable__TableCell\"><p>0個の注文</p></td><td class=\"Polaris-IndexTable__TableCell\"><p>¥0</p></td><td class=\"Polaris-IndexTable__TableCell\"><p>2026年06月15日 21:51</p></td></tr>"
+}

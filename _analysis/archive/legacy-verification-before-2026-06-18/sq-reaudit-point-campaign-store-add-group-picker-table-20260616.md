@@ -1,0 +1,30 @@
+- table [ref=e934]:
+  - rowgroup [ref=e935]:
+    - row "すべてのアイテムを選択する ロケーショングループ" [ref=e936]:
+      - columnheader "すべてのアイテムを選択する" [ref=e937]:
+        - generic [ref=e939] [cursor=pointer]:
+          - generic [ref=e941]:
+            - checkbox "すべてのアイテムを選択する" [ref=e942]
+            - generic
+          - generic [ref=e944]: すべてのアイテムを選択する
+      - columnheader "ロケーショングループ" [ref=e945]:
+        - generic [ref=e946]: ロケーショングループ
+  - rowgroup [ref=e947]:
+    - row "アイテムを選択する TEST_FAQ_COVERAGE_20260615_403698_ロケーショングループ" [ref=e948] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e949]:
+        - generic [ref=e951]:
+          - generic [ref=e953]:
+            - checkbox "アイテムを選択する" [ref=e954]
+            - generic
+          - generic [ref=e956]: アイテムを選択する
+      - cell "TEST_FAQ_COVERAGE_20260615_403698_ロケーショングループ" [ref=e957]:
+        - paragraph [ref=e958]: TEST_FAQ_COVERAGE_20260615_403698_ロケーショングループ
+    - row "アイテムを選択する TEST_FAQ_ロケーショングループ" [ref=e959] [cursor=pointer]:
+      - cell "アイテムを選択する" [ref=e960]:
+        - generic [ref=e962]:
+          - generic [ref=e964]:
+            - checkbox "アイテムを選択する" [ref=e965]
+            - generic
+          - generic [ref=e967]: アイテムを選択する
+      - cell "TEST_FAQ_ロケーショングループ" [ref=e968]:
+        - paragraph [ref=e969]: TEST_FAQ_ロケーショングループ

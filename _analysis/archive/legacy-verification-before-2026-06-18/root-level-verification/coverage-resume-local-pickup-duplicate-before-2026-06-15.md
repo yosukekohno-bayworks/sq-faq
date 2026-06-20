@@ -1,0 +1,71 @@
+- generic [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]
+            - listitem [ref=e54]
+            - listitem [ref=e76]
+            - listitem [ref=e85]
+            - listitem [ref=e94]
+            - listitem [ref=e104]
+            - listitem [ref=e114]
+            - listitem [ref=e126]
+            - listitem [ref=e135]
+          - list [ref=e137]:
+            - listitem [ref=e138]
+            - listitem [ref=e140]
+            - listitem [ref=e155]
+            - listitem [ref=e168]
+          - list [ref=e178]:
+            - listitem [ref=e179]
+            - listitem [ref=e181]
+            - listitem [ref=e190]
+            - listitem [ref=e199]
+          - list [ref=e209]:
+            - listitem [ref=e210]
+            - listitem [ref=e212]
+            - listitem [ref=e217]
+            - listitem [ref=e222]
+            - listitem [ref=e227]
+            - listitem [ref=e232]
+          - list [ref=e234]:
+            - listitem [ref=e235]
+    - main [ref=e244]:
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - status:
+            - paragraph [ref=e249]: 店舗受取。このページの準備が整いました
+          - generic [ref=e251]:
+            - generic [ref=e252]
+            - button "バリエーションを追加する" [ref=e260] [cursor=pointer]
+        - generic [ref=e268]:
+          - table [ref=e270]:
+            - rowgroup [ref=e271]
+            - rowgroup [ref=e287]
+          - navigation "ページネーション" [ref=e391]:
+            - generic [ref=e394]
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "バリエーションを選択する"
+  - alert [ref=e15]

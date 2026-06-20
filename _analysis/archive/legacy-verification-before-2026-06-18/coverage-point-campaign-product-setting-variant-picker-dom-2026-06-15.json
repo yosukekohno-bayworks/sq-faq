@@ -1,0 +1,1071 @@
+{
+  "dialogs": [
+    {
+      "i": 0,
+      "text": "バリエーションを選択する SKUコードで検索する 絞り込みを追加 すべてのアイテムを選択する バリエーション 商品コード SKU アイテムを選択する オーバーサイズスウェットシャツ BEIGE / XL 486125 486125-31-XL アイテムを選択する エアリズムコットンクルーネックTシャツ LIGHT PURPLE / S 486102 486102-70-S アイテムを選択する UVカットペーパーブレイドハット NATURAL / ONE SIZE 482787 482787-30-ONE アイテムを選択する オーバーサイズスウェットシャツ GRAY / M 486125 486125-03-M アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / XL 486102 486102-08-XL アイテムを選択する バギーカーブジーンズ BLUE / 27 487973 487973-64-27 アイテムを選択する エアリズムコットンクルーネックTシャツ LIGHT PURPLE / XS 486102 486102-70-XS アイテムを選択する エアリズムコットンT BLACK / L 483457 483457-09-L アイテムを選択する ポケモン UT RED / 160(14歳) 483674 483674-15-160 アイテムを選択する エアリズムコットンT LIGHT GRAY / S 483457 483457-02-S アイテムを選択する エアリズムコットンクルーネックTシャツ BLACK / XS 486102 486102-09-XS アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / S 486102 486102-08-S アイテムを選択する オーバーサイズスウェットシャツ GRAY / XL 486125 486125-03-XL アイテムを選択する バギーカーブジーンズ BLUE / 32 487973 487973-64-32 アイテムを選択する ポケモン UT RED / 140(10-11歳) 483674 483674-15-140 アイテムを選択する バギーカーブジーンズ BLUE / 30 487973 487973-64-30 アイテムを選択する バギーカーブジーンズ BLUE / 21 487973 487973-64-21 アイテムを選択する オーバーサイズスウェットシャツ NAVY / M 486125 486125-69-M アイテムを選択する エアリズムコットンクルーネックTシャツ BLACK / XL 486102 486102-09-XL アイテムを選択する バギーカーブジーンズ BLUE / 22 487973 487973-64-22 アイテムを選択する エアリズムコットンT WHITE / L 483457 483457-00-L アイテムを選択する エアリズムコットンT LIGHT GRAY / M 483457 483457-02-M アイテムを選択する エアリズムコットンT WHITE / M 483457 483457-00-M アイテムを選択する ポケモン UT RED / 120(6-7歳) 483674 483674-15-120 アイテムを選択する オーバーサイズスウェットシャツ BEIGE / XS 486125 486125-31-XS アイテムを選択する エアリズムコットンT PINK / XL 483457 483457-10-XL アイテムを選択する エアリズムコットンT DARK BROWN / XL 483457 483457-38-XL アイテムを選択する エアリズムコッ"
+    }
+  ],
+  "rows": [
+    {
+      "i": 0,
+      "text": "すべてのアイテムを選択する バリエーション 商品コード SKU",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / XL 486125 486125-31-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ LIGHT PURPLE / S 486102 486102-70-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "アイテムを選択する UVカットペーパーブレイドハット NATURAL / ONE SIZE 482787 482787-30-ONE",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / M 486125 486125-03-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / XL 486102 486102-08-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 27 487973 487973-64-27",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ LIGHT PURPLE / XS 486102 486102-70-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "text": "アイテムを選択する エアリズムコットンT BLACK / L 483457 483457-09-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "text": "アイテムを選択する ポケモン UT RED / 160(14歳) 483674 483674-15-160",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "text": "アイテムを選択する エアリズムコットンT LIGHT GRAY / S 483457 483457-02-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ BLACK / XS 486102 486102-09-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / S 486102 486102-08-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / XL 486125 486125-03-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 32 487973 487973-64-32",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "text": "アイテムを選択する ポケモン UT RED / 140(10-11歳) 483674 483674-15-140",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 16,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 30 487973 487973-64-30",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 17,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 21 487973 487973-64-21",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 18,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / M 486125 486125-69-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 19,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ BLACK / XL 486102 486102-09-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 20,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 22 487973 487973-64-22",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 21,
+      "text": "アイテムを選択する エアリズムコットンT WHITE / L 483457 483457-00-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 22,
+      "text": "アイテムを選択する エアリズムコットンT LIGHT GRAY / M 483457 483457-02-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 23,
+      "text": "アイテムを選択する エアリズムコットンT WHITE / M 483457 483457-00-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 24,
+      "text": "アイテムを選択する ポケモン UT RED / 120(6-7歳) 483674 483674-15-120",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / XS 486125 486125-31-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 26,
+      "text": "アイテムを選択する エアリズムコットンT PINK / XL 483457 483457-10-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 27,
+      "text": "アイテムを選択する エアリズムコットンT DARK BROWN / XL 483457 483457-38-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 28,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ WHITE / XL 486102 486102-00-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 29,
+      "text": "アイテムを選択する エアリズムコットンT WHITE / XS 483457 483457-00-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 30,
+      "text": "アイテムを選択する エアリズムコットンT PINK / M 483457 483457-10-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 31,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ GREEN / S 486102 486102-52-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "text": "アイテムを選択する エアリズムコットンT BLACK / M 483457 483457-09-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 33,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / S 486125 486125-69-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 34,
+      "text": "アイテムを選択する エアリズムコットンT BLACK / XL 483457 483457-09-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 35,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / M 486125 486125-09-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 36,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ WHITE / XS 486102 486102-00-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 37,
+      "text": "アイテムを選択する UVカットペーパーブレイドハット BEIGE / ONE SIZE 482787 482787-32-ONE",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 38,
+      "text": "アイテムを選択する エアリズムコットンT DARK BROWN / XS 483457 483457-38-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 39,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ LIGHT PURPLE / XL 486102 486102-70-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 40,
+      "text": "アイテムを選択する ポケモン UT RED / 130(8-9歳) 483674 483674-15-130",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 41,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 23 487973 487973-64-23",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 42,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / M 486125 486125-31-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 43,
+      "text": "アイテムを選択する エアリズムコットンT DARK BROWN / M 483457 483457-38-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 44,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / M 486102 486102-08-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 45,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / XS 486125 486125-09-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 46,
+      "text": "アイテムを選択する エアリズムコットンT BLACK / XS 483457 483457-09-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 47,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ BLACK / S 486102 486102-09-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 48,
+      "text": "アイテムを選択する エアリズムコットンT DARK BROWN / S 483457 483457-38-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 49,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ BLACK / M 486102 486102-09-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 50,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ LIGHT PURPLE / M 486102 486102-70-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 51,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / S 486125 486125-09-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 52,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ GREEN / M 486102 486102-52-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 53,
+      "text": "アイテムを選択する エアリズムコットンT DARK BROWN / L 483457 483457-38-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 54,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 34 487973 487973-64-34",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 55,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ GREEN / L 486102 486102-52-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 56,
+      "text": "アイテムを選択する エアリズムコットンT LIGHT GRAY / XL 483457 483457-02-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 57,
+      "text": "アイテムを選択する エアリズムコットンT PINK / S 483457 483457-10-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 58,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ WHITE / M 486102 486102-00-M",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 59,
+      "text": "アイテムを選択する エアリズムコットンT PINK / XS 483457 483457-10-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 60,
+      "text": "アイテムを選択する ポケモン UT RED / 150(12-13歳) 483674 483674-15-150",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 61,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 26 487973 487973-64-26",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 62,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / S 486125 486125-03-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 63,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / L 486125 486125-31-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 64,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 29 487973 487973-64-29",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 65,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / S 486125 486125-31-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 66,
+      "text": "アイテムを選択する エアリズムコットンT LIGHT GRAY / XS 483457 483457-02-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 67,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ WHITE / S 486102 486102-00-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 68,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 25 487973 487973-64-25",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 69,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / XS 486102 486102-08-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 70,
+      "text": "アイテムを選択する ポケモン UT RED / 110(4-5歳) 483674 483674-15-110",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 71,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XS 486125 486125-69-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 72,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 24 487973 487973-64-24",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 73,
+      "text": "アイテムを選択する エアリズムコットンT PINK / L 483457 483457-10-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 74,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ LIGHT PURPLE / L 486102 486102-70-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 75,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ BLACK / L 486102 486102-09-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 76,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XL 486125 486125-69-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 77,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ DARK GRAY / L 486102 486102-08-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 78,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / XS 486125 486125-03-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 79,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 28 487973 487973-64-28",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 80,
+      "text": "アイテムを選択する エアリズムコットンT BLACK / S 483457 483457-09-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 81,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / L 486125 486125-69-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 82,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ GREEN / XS 486102 486102-52-XS",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 83,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / L 486125 486125-03-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 84,
+      "text": "アイテムを選択する エアリズムコットンT WHITE / XL 483457 483457-00-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 85,
+      "text": "アイテムを選択する ポケモン UT RED / 100(3-4歳) 483674 483674-15-100",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 86,
+      "text": "アイテムを選択する エアリズムコットンT WHITE / S 483457 483457-00-S",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 87,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / L 486125 486125-09-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 88,
+      "text": "アイテムを選択する エアリズムコットンT LIGHT GRAY / L 483457 483457-02-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 89,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ WHITE / L 486102 486102-00-L",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 90,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / XL 486125 486125-09-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 91,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ GREEN / XL 486102 486102-52-XL",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 92,
+      "text": "アイテムを選択する バギーカーブジーンズ BLUE / 36 487973 487973-64-36",
+      "inputs": [
+        {
+          "type": "checkbox",
+          "checked": false,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "閉じる",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "絞り込みを追加",
+      "aria": "絞り込みを追加",
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "",
+      "aria": "前へ",
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "次へ",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "キャンセル",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "選択する",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

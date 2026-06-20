@@ -1,0 +1,103 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/point_campaign_order_rules/4e7c7d97-79f6-5150-a3ad-7f698b19b48c_PointCampaignOrderRule/customer_ranks/create",
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n会員ランクのキャンペーン設定を追加する。このページの準備が整いました\n\n会員ランクのキャンペーン設定を追加する\n\nTEST_FAQ_COVERAGE_20260615_PC_RANK\n\n会員ランク\n会員ランク算出ルール\n選択してください\nTEST_FAQ_RANK_20260615081841\nTEST_FAQ_会員ランク算出ルール\n選択してください\n会員ランク\n選択してください\n選択してください\n既に設定されている会員ランクは選択できません\nポイント\nポイント倍率\n通常獲得ポイントに追加で\n倍分のポイントを付与する\n\nキャンペーン倍率は「通常ポイントに加えた合計倍率」として適用されます。\n例）キャンペーン倍率に「3」と入力すると、通常倍率が2倍の会員ランクなら、通常2倍 + キャンペーン3倍 = 合計5倍 となります。\n\n保存する",
+  "fields": [
+    {
+      "i": 0,
+      "tag": "select",
+      "type": null,
+      "id": ":r1f:",
+      "value": "",
+      "placeholder": null,
+      "disabled": false,
+      "labels": [
+        "会員ランク算出ルール"
+      ],
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {
+          "text": "TEST_FAQ_RANK_20260615081841",
+          "value": "62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule",
+          "selected": false,
+          "disabled": false
+        },
+        {
+          "text": "TEST_FAQ_会員ランク算出ルール",
+          "value": "37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule",
+          "selected": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "select",
+      "type": null,
+      "id": ":r1g:",
+      "value": "",
+      "placeholder": null,
+      "disabled": true,
+      "labels": [
+        "会員ランク"
+      ],
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "tag": "input",
+      "type": "number",
+      "id": ":r1h:",
+      "value": "",
+      "placeholder": "0",
+      "checked": false,
+      "disabled": false,
+      "labels": [
+        "ポイント倍率"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke 陽介 河野",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "保存する",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

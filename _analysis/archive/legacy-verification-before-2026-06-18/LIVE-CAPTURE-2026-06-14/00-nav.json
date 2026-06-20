@@ -1,0 +1,7 @@
+{
+  "captured": "2026-06-14",
+  "navCount": 21,
+  "nav": ["ホーム /admin","商品管理 /admin/products","在庫管理 /admin/inventory_items","注文管理 /admin/orders","顧客管理 /admin/purchasing_customers","発注管理 /admin/inventory_purchase_orders","販売設定 /admin/product_price_rules","会計 /admin/sale_change_line_items","分析 /admin/analytics","入荷管理 /admin/inventory_inbound_orders","出荷管理 /admin/inventory_outbound_orders","在庫依頼 /admin/inventory_allocation_requests","ディスカウント /admin/order_price_adjustment_rules","ポイント /admin/point_calculation_rules","会員ランク /admin/customer_rank_calculation_rules","Shopify /admin/shopify_integrations","OmnibusCore /admin/omnibus_core_integrations","スマレジ /admin/smaregi_integrations","リテールポータル /admin/retail_portal_integrations","卸売 /admin/b2b","設定 /admin/settings"],
+  "homeQuicklinks": ["商品管理","在庫管理","注文管理","顧客管理","CSVでデータをインポートする","CSVでデータをエクスポートする","PDFでデータをエクスポートする","製品アップデート","ヘルプセンター"],
+  "note": "ナビは既知21項目と一致。分析・卸売も従来どおり存在（未実装の想定）"
+}

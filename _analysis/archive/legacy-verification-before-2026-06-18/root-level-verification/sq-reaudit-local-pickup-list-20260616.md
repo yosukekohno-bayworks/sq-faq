@@ -1,0 +1,186 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e16]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e19]:
+      - link [ref=e22] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e24]:
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: stack-ps-yosuke
+            - paragraph [ref=e38]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40]
+    - generic "メニュー" [ref=e41]:
+      - navigation [ref=e42]:
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "ホーム" [ref=e48] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e51]
+                - generic [ref=e53]: ホーム
+            - listitem [ref=e54]:
+              - link "商品管理" [ref=e57] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e60]
+                - generic [ref=e62]: 商品管理
+              - list [ref=e65]:
+                - listitem [ref=e66]
+                - listitem [ref=e71]
+            - listitem [ref=e76]:
+              - link "在庫管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e82]
+                - generic [ref=e84]: 在庫管理
+            - listitem [ref=e85]:
+              - link "注文管理" [ref=e88] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e91]
+                - generic [ref=e93]: 注文管理
+            - listitem [ref=e94]:
+              - link "顧客管理" [ref=e97] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100]
+                - generic [ref=e103]: 顧客管理
+            - listitem [ref=e104]:
+              - link "発注管理" [ref=e107] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110]
+                - generic [ref=e113]: 発注管理
+            - listitem [ref=e114]:
+              - link "販売設定" [ref=e117] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120]
+                - generic [ref=e125]: 販売設定
+            - listitem [ref=e126]:
+              - link "会計" [ref=e129] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132]
+                - generic [ref=e134]: 会計
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - generic
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e139]: オペレーション
+            - listitem [ref=e140]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e143] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146]
+                - generic [ref=e150]: 入荷管理
+                - generic [ref=e152]
+            - listitem [ref=e155]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e158] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e161]
+                - generic [ref=e163]: 出荷管理
+                - generic [ref=e165]
+            - listitem [ref=e168]:
+              - link "在庫依頼" [ref=e171] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e174]
+                - generic [ref=e177]: 在庫依頼
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - generic [ref=e180]: CRM
+            - listitem [ref=e181]:
+              - link "ディスカウント" [ref=e184] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e187]
+                - generic [ref=e189]: ディスカウント
+            - listitem [ref=e190]:
+              - link "ポイント" [ref=e193] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e196]
+                - generic [ref=e198]: ポイント
+            - listitem [ref=e199]:
+              - link "会員ランク" [ref=e202] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e205]
+                - generic [ref=e208]: 会員ランク
+          - list [ref=e209]:
+            - listitem [ref=e210]:
+              - generic [ref=e211]: 販売チャネル
+            - listitem [ref=e212]:
+              - link "Shopify" [ref=e215] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e216]: Shopify
+            - listitem [ref=e217]:
+              - link "OmnibusCore" [ref=e220] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e221]: OmnibusCore
+            - listitem [ref=e222]:
+              - link "スマレジ" [ref=e225] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e226]: スマレジ
+            - listitem [ref=e227]:
+              - link "リテールポータル" [ref=e230] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e231]: リテールポータル
+            - listitem [ref=e232]:
+              - generic [ref=e233]:
+                - generic
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "設定" [ref=e238] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e241]
+                - generic [ref=e243]: 設定
+    - main [ref=e244]:
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - status:
+            - paragraph [ref=e249]: 店舗受取。このページの準備が整いました
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - heading "店舗受取" [level=1] [ref=e254]
+              - paragraph [ref=e256]: 店舗受取可能バリエーション一覧
+            - button "バリエーションを追加する" [ref=e260] [cursor=pointer]:
+              - generic [ref=e261]: バリエーションを追加する
+        - generic [ref=e268]:
+          - table [ref=e270]:
+            - rowgroup [ref=e271]:
+              - row "すべてのアイテムを選択する バリエーション 商品コード SKU" [ref=e272]:
+                - columnheader "すべてのアイテムを選択する" [ref=e273]
+                - columnheader "バリエーション" [ref=e281]
+                - columnheader "商品コード" [ref=e283]
+                - columnheader "SKU" [ref=e285]
+            - rowgroup [ref=e287]:
+              - row "アイテムを選択する product variant thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / XL 486102 486102-08-XL" [ref=e288] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e289]
+                - cell "product variant thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / XL" [ref=e297]
+                - cell "486102" [ref=e304]
+                - cell "486102-08-XL" [ref=e306]
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ GRAY / M 486125 486125-03-M" [ref=e308] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e309]
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ GRAY / M" [ref=e317]
+                - cell "486125" [ref=e324]
+                - cell "486125-03-M" [ref=e326]
+              - row "アイテムを選択する product variant thumbnail UVカットペーパーブレイドハット NATURAL / ONE SIZE 482787 482787-30-ONE" [ref=e328] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e329]
+                - cell "product variant thumbnail UVカットペーパーブレイドハット NATURAL / ONE SIZE" [ref=e337]
+                - cell "482787" [ref=e344]
+                - cell "482787-30-ONE" [ref=e346]
+              - row "アイテムを選択する product variant thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / S 486102 486102-70-S" [ref=e348] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e349]
+                - cell "product variant thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / S" [ref=e357]
+                - cell "486102" [ref=e364]
+                - cell "486102-70-S" [ref=e366]
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BEIGE / XL 486125 486125-31-XL" [ref=e368] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e369]
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BEIGE / XL" [ref=e377]
+                - cell "486125" [ref=e384]
+                - cell "486125-31-XL" [ref=e386]
+          - navigation "ページネーション" [ref=e391]:
+            - generic [ref=e394]:
+              - generic [ref=e395]:
+                - button "前へ" [disabled]
+              - generic [ref=e396]:
+                - button "次へ" [disabled]
+  - region "Notifications alt+T"
+  - alert [ref=e15]

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes",
+  "headings": [
+    "売上実績（注文軸）をCSVでエクスポートする"
+  ],
+  "rows": [
+    {
+      "i": 0,
+      "text": "2026年06月15日 | 18:43 | ユニクロ | 2026年06月15日 | 00:00 | 〜 | 2026年06月15日 | 23:59 | 注意 | 処理中",
+      "linkTexts": [],
+      "linkCount": 0
+    },
+    {
+      "i": 1,
+      "text": "2026年06月08日 | 12:49 | ユニクロ | 2026年06月01日 | 00:00 | 〜 | 2026年06月08日 | 23:59 | 成功 | 完了 | ダウンロード",
+      "linkTexts": [
+        "ダウンロード"
+      ],
+      "linkCount": 1
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 1,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 3,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 4,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": "true"
+    },
+    {
+      "i": 5,
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": "true"
+    }
+  ],
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました\n\n売上実績（注文軸）をCSVでエクスポートする\nエクスポート\n作成日\n\t\nテナント\n\t\n対象期間\n\t\nステータス\n\t\nダウンロード\n\n\n\n2026年06月15日 18:43\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月15日 00:00 〜 2026年06月15日 23:59\n\n\t\n注意\n処理中\n\t\n\n\n\n\n2026年06月08日 12:49\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月01日 00:00 〜 2026年06月08日 23:59\n\n\t\n成功\n完了\n\t\n\nダウンロード"
+}

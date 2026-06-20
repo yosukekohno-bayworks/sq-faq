@@ -1,0 +1,405 @@
+{
+  "generatedAt": "2026-06-08T05:22:12.718Z",
+  "queries": [
+    "TEST_FAQ_CSV_RECHECK_20260608_01",
+    "TEST_FAQ_CSV_RECHECK_20260608_商品",
+    "test_faq_csv_recheck_20260608_01"
+  ],
+  "steps": [
+    {
+      "step": "initial",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "text": [
+        "商品管理",
+        "商品管理。このページの準備が整いました",
+        "インポート",
+        "商品を作成する",
+        "公開中",
+        "下書き",
+        "アーカイブ済み",
+        "商品",
+        "ステータス",
+        "商品コード",
+        "商品タイプ",
+        "TEST_FAQ_CSV_RECHECK_20260608_商品",
+        "TEST_FAQ_CSV_RECHECK_20260608_01",
+        "TEST_FAQ_DEEP2_202606080343_商品",
+        "TEST_FAQ",
+        "TEST_FAQ_非公開ステータス確認用"
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "aria": "メニューを切り替える",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "stack-ps-yosuke陽介 河野",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "aria": "メニューを閉じる",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "インポート",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "その他の操作",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "インポート",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "すべて",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "公開中",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "下書き",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "アーカイブ済み",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "その他のビュー",
+          "aria": "その他のビュー",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "すべて",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "公開中",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "下書き",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "アーカイブ済み",
+          "aria": "",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "その他のビュー",
+          "aria": "その他のビュー",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "aria": "検索と絞り込みの結果",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "aria": "前へ",
+          "title": "",
+          "disabled": false
+        },
+        {
+          "text": "",
+          "aria": "次へ",
+          "title": "",
+          "disabled": false
+        }
+      ],
+      "inputs": [
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        }
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-product-search-screenshots/01-initial.png"
+    },
+    {
+      "step": "after-open-search",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "text": [
+        "商品管理",
+        "商品管理。このページの準備が整いました",
+        "インポート",
+        "商品を作成する",
+        "商品コードで検索する",
+        "商品",
+        "ステータス",
+        "商品コード",
+        "商品タイプ",
+        "TEST_FAQ_CSV_RECHECK_20260608_商品",
+        "下書き",
+        "TEST_FAQ_CSV_RECHECK_20260608_01",
+        "TEST_FAQ_DEEP2_202606080343_商品",
+        "TEST_FAQ",
+        "TEST_FAQ_非公開ステータス確認用"
+      ],
+      "inputs": [
+        {
+          "type": "text",
+          "placeholder": "商品コードで検索する",
+          "aria": "",
+          "value": ""
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        },
+        {
+          "type": "checkbox",
+          "placeholder": "",
+          "aria": "",
+          "value": "on"
+        }
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-product-search-screenshots/02-after-open-search.png"
+    },
+    {
+      "step": "search-1",
+      "query": "TEST_FAQ_CSV_RECHECK_20260608_01",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "found": true,
+      "text": [
+        "商品管理",
+        "商品管理。このページの準備が整いました",
+        "インポート",
+        "商品を作成する",
+        "商品コードで検索する",
+        "商品",
+        "ステータス",
+        "商品コード",
+        "商品タイプ",
+        "TEST_FAQ_CSV_RECHECK_20260608_商品",
+        "下書き",
+        "TEST_FAQ_CSV_RECHECK_20260608_01",
+        "TEST_FAQ_DEEP2_202606080343_商品",
+        "TEST_FAQ",
+        "TEST_FAQ_非公開ステータス確認用"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-product-search-screenshots/03-search-1.png"
+    },
+    {
+      "step": "search-2",
+      "query": "TEST_FAQ_CSV_RECHECK_20260608_商品",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "found": true,
+      "text": [
+        "商品管理",
+        "商品管理。このページの準備が整いました",
+        "インポート",
+        "商品を作成する",
+        "商品コードで検索する",
+        "商品",
+        "ステータス",
+        "商品コード",
+        "商品タイプ",
+        "TEST_FAQ_CSV_RECHECK_20260608_商品",
+        "下書き",
+        "TEST_FAQ_CSV_RECHECK_20260608_01",
+        "TEST_FAQ_DEEP2_202606080343_商品",
+        "TEST_FAQ",
+        "TEST_FAQ_非公開ステータス確認用"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-product-search-screenshots/04-search-2.png"
+    },
+    {
+      "step": "search-3",
+      "query": "test_faq_csv_recheck_20260608_01",
+      "url": "https://www.sqstackstaging.com/admin/products",
+      "found": true,
+      "text": [
+        "商品管理",
+        "商品管理。このページの準備が整いました",
+        "インポート",
+        "商品を作成する",
+        "商品コードで検索する",
+        "商品",
+        "ステータス",
+        "商品コード",
+        "商品タイプ",
+        "TEST_FAQ_CSV_RECHECK_20260608_商品",
+        "下書き",
+        "TEST_FAQ_CSV_RECHECK_20260608_01",
+        "TEST_FAQ_DEEP2_202606080343_商品",
+        "TEST_FAQ",
+        "TEST_FAQ_非公開ステータス確認用"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-product-search-screenshots/05-search-3.png"
+    }
+  ],
+  "found": true,
+  "error": null
+}

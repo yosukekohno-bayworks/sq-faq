@@ -1,0 +1,506 @@
+{
+  "generatedAt": "2026-06-08T08:57:24.264Z",
+  "records": [
+    {
+      "name": "initial",
+      "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "h1": [
+        "リテールポータル"
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "rows": [],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "店舗ロケーション",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "在庫ロケーション",
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "テナント",
+          "value": [
+            "*選択してください",
+            "ユニクロ"
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "カタログ",
+          "value": [
+            "*選択してください",
+            "TEST_FAQ_カタログ001",
+            "TEST_FAQ_DEEP_202606080340_カタログ"
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "販売閾値ルール",
+          "value": [
+            "*選択してください",
+            "TEST_FAQ_販売閾値ルール",
+            "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+            "TEST_FAQ_DEEP_202606080340_販売閾値ルール"
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "リテールポータルで販売員の選択を必須にする",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "配送先住所の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の送料明細の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の注文明細の価格の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の完了を許可する",
+          "value": ""
+        }
+      ],
+      "textLines": [
+        "コンテンツにスキップ",
+        "stack-ps-yosuke",
+        "陽介 河野",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "オペレーション",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "CRM",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "販売チャネル",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "店舗受取",
+        "卸売",
+        "設定",
+        "リテールポータル。このページの準備が整いました",
+        "店舗ロケーション",
+        "選択",
+        "在庫ロケーション",
+        "テナント",
+        "選択してください",
+        "ユニクロ",
+        "カタログ",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+        "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-retail-tenant-screenshots/01-initial.png"
+    },
+    {
+      "name": "tenant-selected",
+      "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "h1": [
+        "リテールポータル"
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "rows": [],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "店舗ロケーション",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "在庫ロケーション",
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "テナント",
+          "value": [
+            "選択してください",
+            "*ユニクロ"
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "カタログ",
+          "value": [
+            "*選択してください",
+            "TEST_FAQ_カタログ001",
+            "TEST_FAQ_DEEP_202606080340_カタログ"
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "販売閾値ルール",
+          "value": [
+            "*選択してください",
+            "TEST_FAQ_販売閾値ルール",
+            "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+            "TEST_FAQ_DEEP_202606080340_販売閾値ルール"
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "リテールポータルで販売員の選択を必須にする",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "配送先住所の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の送料明細の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の注文明細の価格の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の完了を許可する",
+          "value": ""
+        }
+      ],
+      "textLines": [
+        "コンテンツにスキップ",
+        "stack-ps-yosuke",
+        "陽介 河野",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "オペレーション",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "CRM",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "販売チャネル",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "店舗受取",
+        "卸売",
+        "設定",
+        "リテールポータル。このページの準備が整いました",
+        "店舗ロケーション",
+        "選択",
+        "在庫ロケーション",
+        "テナント",
+        "選択してください",
+        "ユニクロ",
+        "カタログ",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+        "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-retail-tenant-screenshots/02-tenant-selected.png"
+    },
+    {
+      "name": "inventory-modal-after-tenant",
+      "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "h1": [
+        "リテールポータル"
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "場所コードで検索する",
+        "すべてのアイテムを選択する",
+        "アイテムを選択する"
+      ],
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する",
+        "キャンセル",
+        "選択する"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する名前場所コード",
+        "アイテムを選択する物流倉庫W0001"
+      ],
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "店舗ロケーション",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "在庫ロケーション",
+          "value": ""
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "テナント",
+          "value": [
+            "選択してください",
+            "*ユニクロ"
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "カタログ",
+          "value": [
+            "*選択してください",
+            "TEST_FAQ_カタログ001",
+            "TEST_FAQ_DEEP_202606080340_カタログ"
+          ]
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "label": "販売閾値ルール",
+          "value": [
+            "*選択してください",
+            "TEST_FAQ_販売閾値ルール",
+            "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+            "TEST_FAQ_DEEP_202606080340_販売閾値ルール"
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "リテールポータルで販売員の選択を必須にする",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "配送先住所の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の送料明細の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の注文明細の価格の編集を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "下書き注文の完了を許可する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "label": "場所コードで検索する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "すべてのアイテムを選択する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "アイテムを選択する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "すべてのアイテムを選択する",
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "label": "アイテムを選択する",
+          "value": ""
+        }
+      ],
+      "textLines": [
+        "コンテンツにスキップ",
+        "stack-ps-yosuke",
+        "陽介 河野",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "オペレーション",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "CRM",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "販売チャネル",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "店舗受取",
+        "卸売",
+        "設定",
+        "リテールポータル。このページの準備が整いました",
+        "店舗ロケーション",
+        "選択",
+        "在庫ロケーション",
+        "テナント",
+        "選択してください",
+        "ユニクロ",
+        "カタログ",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_DEEP_202606080340_カタログ",
+        "販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール",
+        "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+        "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "保存する",
+        "ロケーションを選択する",
+        "場所コードで検索する",
+        "すべてのアイテムを選択する",
+        "名前",
+        "場所コード",
+        "アイテムを選択する",
+        "物流倉庫",
+        "W0001",
+        "キャンセル",
+        "選択する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-retail-tenant-screenshots/03-inventory-modal-after-tenant.png",
+      "interaction": {
+        "inventoryClicked": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "i": 0,
+    "value": "NONE",
+    "labels": [
+      "ポイントキャンペーン種別"
+    ],
+    "options": [
+      {
+        "text": "選択してください",
+        "value": "",
+        "disabled": true,
+        "selected": false
+      },
+      {
+        "text": "なし",
+        "value": "NONE",
+        "disabled": false,
+        "selected": true
+      },
+      {
+        "text": "会員ランク",
+        "value": "CUSTOMER_RANK",
+        "disabled": false,
+        "selected": false
+      },
+      {
+        "text": "購入金額",
+        "value": "PURCHASE_PRICE",
+        "disabled": false,
+        "selected": false
+      },
+      {
+        "text": "商品",
+        "value": "PRODUCT",
+        "disabled": false,
+        "selected": false
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "value": "POINT_MULTIPLIER",
+    "labels": [
+      "ポイント付与方法"
+    ],
+    "options": [
+      {
+        "text": "通常倍率に指定の倍率を加えた合計倍率でポイントを付与する",
+        "value": "POINT_MULTIPLIER",
+        "disabled": false,
+        "selected": true
+      },
+      {
+        "text": "通常付与ポイントに加えて指定のポイントを追加で付与する",
+        "value": "POINT_FIXED",
+        "disabled": false,
+        "selected": false
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "value": "",
+    "labels": [],
+    "options": [
+      {
+        "text": "選択してください",
+        "value": "",
+        "disabled": true,
+        "selected": true
+      },
+      {
+        "text": "TEST_FAQ_注文ポイント付与ルール",
+        "value": "4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule",
+        "disabled": false,
+        "selected": false
+      }
+    ]
+  }
+]

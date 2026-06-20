@@ -1,0 +1,36 @@
+{
+  "rows": [
+    "オーバーサイズスウェットシャツ BLACK / XL 486125 486125-09-XL 増減数"
+  ],
+  "inputs": [
+    {
+      "n": 0,
+      "type": "text",
+      "placeholder": "ロケーションを選択してください",
+      "value": "TEST_FAQ_店舗在庫EC販売用",
+      "disabled": false
+    },
+    {
+      "n": 1,
+      "type": "text",
+      "placeholder": "商品を検索する",
+      "value": "",
+      "disabled": false
+    },
+    {
+      "n": 2,
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "disabled": false
+    },
+    {
+      "n": 3,
+      "type": "number",
+      "placeholder": "",
+      "value": "0",
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない変更があります\n変更を破棄\n保存する\n\n調整伝票を作成する。このページの準備が整いました\n\n調整伝票を作成する\nロケーション\nロケーション\n選択\n理由\n選択してください\n廃棄\n見本\n紛失\n棚卸差異\nその他\nその他\n商品\n参照\n商品\n\t\n商品コード\n\t\nSKU\n\t\n増減数\n\t\n\n\n\nオーバーサイズスウェットシャツ\n\nBLACK / XL\n\t\n\n486125\n\n\t\n\n486125-09-XL\n\n\t\n増減数\n\t\n保存する"
+}

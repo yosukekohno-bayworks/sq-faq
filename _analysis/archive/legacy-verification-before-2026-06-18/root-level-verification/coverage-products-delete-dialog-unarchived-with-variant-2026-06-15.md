@@ -1,0 +1,304 @@
+- generic [ref=e1] [box=0,0,1600,1000]:
+  - generic [ref=e16] [box=0,0,1600,1000]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e19] [box=0,0,1600,56]:
+      - link [ref=e22] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e24] [box=1040,0,560,56]:
+        - button [ref=e28] [cursor=pointer] [box=1404,12,32,32]:
+          - img [ref=e30] [box=1410,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer] [box=1444,12,148,32]:
+          - generic [ref=e35] [box=1446,14,116,28]:
+            - paragraph [ref=e36] [box=1456,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e38] [box=1456,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40] [box=1562,14,28,28]
+    - generic "メニュー" [ref=e41] [box=0,56,240,944]:
+      - navigation [ref=e42] [box=0,56,240,944]:
+        - generic [ref=e43] [box=0,56,240,944]:
+          - list [ref=e44] [box=0,72,240,332]:
+            - listitem [ref=e45] [box=0,72,240,28]:
+              - link "ホーム" [ref=e48] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e51] [box=20,76,20,20]
+                - generic [ref=e53] [box=48,76,176,20]: ホーム
+            - listitem [ref=e54] [box=0,100,240,92]:
+              - link "商品管理" [ref=e57] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e60] [box=20,104,20,20]
+                - generic [ref=e62] [box=48,104,176,20]: 商品管理
+              - list [ref=e65] [box=0,128,240,56]:
+                - listitem [ref=e66] [box=0,128,240,28]:
+                  - link "カタログ" [ref=e69] [cursor=pointer] [box=12,128,216,28]:
+                    - /url: /admin/catalogs
+                    - generic [ref=e70] [box=48,132,176,20]: カタログ
+                - listitem [ref=e71] [box=0,156,240,28]:
+                  - link "店舗受取" [ref=e74] [cursor=pointer] [box=12,156,216,28]:
+                    - /url: /admin/local_pickup_product_variants
+                    - generic [ref=e75] [box=48,160,176,20]: 店舗受取
+            - listitem [ref=e76] [box=0,192,240,28]:
+              - link "在庫管理" [ref=e79] [cursor=pointer] [box=12,192,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e82] [box=20,196,20,20]
+                - generic [ref=e84] [box=48,196,176,20]: 在庫管理
+            - listitem [ref=e85] [box=0,220,240,28]:
+              - link "注文管理" [ref=e88] [cursor=pointer] [box=12,220,216,28]:
+                - /url: /admin/orders
+                - img [ref=e91] [box=20,224,20,20]
+                - generic [ref=e93] [box=48,224,172,20]: 注文管理
+            - listitem [ref=e94] [box=0,248,240,28]:
+              - link "顧客管理" [ref=e97] [cursor=pointer] [box=12,248,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100] [box=20,252,20,20]
+                - generic [ref=e103] [box=48,252,176,20]: 顧客管理
+            - listitem [ref=e104] [box=0,276,240,28]:
+              - link "発注管理" [ref=e107] [cursor=pointer] [box=12,276,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110] [box=20,280,20,20]
+                - generic [ref=e113] [box=48,280,176,20]: 発注管理
+            - listitem [ref=e114] [box=0,304,240,28]:
+              - link "販売設定" [ref=e117] [cursor=pointer] [box=12,304,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120] [box=20,308,20,20]
+                - generic [ref=e125] [box=48,308,176,20]: 販売設定
+            - listitem [ref=e126] [box=0,332,240,28]:
+              - link "会計" [ref=e129] [cursor=pointer] [box=12,332,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132] [box=20,336,20,20]
+                - generic [ref=e134] [box=48,336,176,20]: 会計
+            - listitem [ref=e135] [box=0,360,240,28]:
+              - generic [ref=e136] [box=0,360,240,28]:
+                - generic [box=12,360,216,28]:
+                  - link "分析" [box=12,360,216,28]:
+                    - /url: /admin/analytics
+                    - generic [box=20,364,20,20]
+                    - generic [box=48,364,176,20]: 分析
+          - list [ref=e137] [box=0,404,240,132]:
+            - listitem [ref=e138] [box=0,412,240,24]:
+              - generic [ref=e139] [box=20,416,216,16]: オペレーション
+            - listitem [ref=e140] [box=0,436,240,28]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e143] [cursor=pointer] [box=12,436,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146] [box=20,440,20,20]
+                - generic [ref=e150] [box=48,440,151,20]: 入荷管理
+                - generic [ref=e152] [box=203,440,21,20]:
+                  - generic [ref=e153] [box=211,436,1,1]: 未完了の入荷指示 1件
+                  - generic [ref=e154] [box=211,442,5,16]: "1"
+            - listitem [ref=e155] [box=0,464,240,28]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e158] [cursor=pointer] [box=12,464,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e161] [box=20,468,20,20]
+                - generic [ref=e163] [box=48,468,151,20]: 出荷管理
+                - generic [ref=e165] [box=203,468,21,20]:
+                  - generic [ref=e166] [box=211,464,1,1]: 未完了の出荷指示 1件
+                  - generic [ref=e167] [box=211,470,5,16]: "1"
+            - listitem [ref=e168] [box=0,492,240,28]:
+              - link "在庫依頼" [ref=e171] [cursor=pointer] [box=12,492,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e174] [box=20,496,20,20]
+                - generic [ref=e177] [box=48,496,172,20]: 在庫依頼
+          - list [ref=e178] [box=0,536,240,132]:
+            - listitem [ref=e179] [box=0,544,240,24]:
+              - generic [ref=e180] [box=20,548,216,16]: CRM
+            - listitem [ref=e181] [box=0,568,240,28]:
+              - link "ディスカウント" [ref=e184] [cursor=pointer] [box=12,568,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e187] [box=20,572,20,20]
+                - generic [ref=e189] [box=48,572,176,20]: ディスカウント
+            - listitem [ref=e190] [box=0,596,240,28]:
+              - link "ポイント" [ref=e193] [cursor=pointer] [box=12,596,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e196] [box=20,600,20,20]
+                - generic [ref=e198] [box=48,600,176,20]: ポイント
+            - listitem [ref=e199] [box=0,624,240,28]:
+              - link "会員ランク" [ref=e202] [cursor=pointer] [box=12,624,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e205] [box=20,628,20,20]
+                - generic [ref=e208] [box=48,628,176,20]: 会員ランク
+          - list [ref=e209] [box=0,668,240,280]:
+            - listitem [ref=e210] [box=0,676,240,24]:
+              - generic [ref=e211] [box=20,680,216,16]: 販売チャネル
+            - listitem [ref=e212] [box=0,700,240,28]:
+              - link "Shopify" [ref=e215] [cursor=pointer] [box=12,700,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e216] [box=20,704,204,20]: Shopify
+            - listitem [ref=e217] [box=0,728,240,28]:
+              - link "OmnibusCore" [ref=e220] [cursor=pointer] [box=12,728,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e221] [box=20,732,204,20]: OmnibusCore
+            - listitem [ref=e222] [box=0,756,240,28]:
+              - link "スマレジ" [ref=e225] [cursor=pointer] [box=12,756,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e226] [box=20,760,204,20]: スマレジ
+            - listitem [ref=e227] [box=0,784,240,28]:
+              - link "リテールポータル" [ref=e230] [cursor=pointer] [box=12,784,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e231] [box=20,788,204,20]: リテールポータル
+            - listitem [ref=e232] [box=0,812,240,28]:
+              - generic [ref=e233] [box=0,812,240,28]:
+                - generic [box=12,812,216,28]:
+                  - link "卸売" [box=12,812,216,28]:
+                    - /url: /admin/b2b
+                    - generic [box=20,816,204,20]: 卸売
+          - list [ref=e234] [box=0,948,240,52]:
+            - listitem [ref=e235] [box=0,956,240,28]:
+              - link "設定" [ref=e238] [cursor=pointer] [box=12,956,216,28]:
+                - /url: /admin/settings
+                - img [ref=e241] [box=20,960,20,20]
+                - generic [ref=e243] [box=48,960,176,20]: 設定
+    - main [ref=e244] [box=0,0,1600,1000]:
+      - generic [ref=e247] [box=421,56,998,1442]:
+        - generic [ref=e248] [box=445,56,950,76]:
+          - status [box=445,80,950,0]:
+            - paragraph [ref=e249] [box=445,56,1,1]: TEST_FAQ_COVERAGE_20260615_EXT_PRODUCT。このページの準備が整いました
+          - generic [ref=e251] [box=445,80,950,28]:
+            - link [ref=e254] [cursor=pointer] [box=445,80,28,28]:
+              - /url: /admin/products
+              - img [ref=e257] [box=449,84,20,20]
+            - generic [ref=e260] [box=477,80,538,28]:
+              - heading "TEST_FAQ_COVERAGE_20260615_EXT_PRODUCT" [level=1] [ref=e261] [box=477,82,478,24]
+              - generic [ref=e263] [box=962,84,52,20]:
+                - generic [ref=e264] [box=970,56,1,1]: 情報
+                - generic [ref=e265] [box=970,86,36,16]: 下書き
+            - button "その他の操作" [ref=e578] [cursor=pointer] [box=1283,80,112,28]:
+              - generic [ref=e273] [box=1295,86,72,16]: その他の操作
+              - img [ref=e276] [box=1369,84,20,20]
+        - generic [ref=e279] [box=429,116,966,1382]:
+          - generic [ref=e281] [box=445,132,623,1290]:
+            - generic [ref=e284] [box=461,148,591,429]:
+              - generic [ref=e285] [box=461,148,591,294]:
+                - generic [ref=e287] [box=461,148,591,44]:
+                  - heading "商品コード" [level=2] [ref=e288] [box=461,148,591,20]
+                  - generic [ref=e289] [box=461,172,591,20]:
+                    - paragraph [ref=e290] [box=461,172,143,20]: TFC-EXT-20260615-01
+                    - button [ref=e291] [cursor=pointer] [box=607,172,20,20]
+                - generic [ref=e297] [box=461,208,591,56]:
+                  - generic [ref=e300] [box=461,208,50,20]: 商品名*
+                  - textbox "商品名*" [ref=e304] [box=461,232,591,32]:
+                    - /placeholder: 半袖Tシャツ
+                    - text: TEST_FAQ_COVERAGE_20260615_EXT_PRODUCT
+                - generic [ref=e306] [box=461,280,591,162]:
+                  - generic [ref=e309] [box=461,280,39,20]: 説明文
+                  - generic [ref=e312] [box=461,304,591,138]:
+                    - textbox "説明文" [ref=e313] [box=461,304,591,110]: FAQカバレッジ確認用の商品です。
+                    - generic "5000中17の文字を使用" [box=465,414,575,28]: 17/5000
+              - generic [ref=e314] [box=461,454,591,123]:
+                - heading "メディア（0件）" [level=2] [ref=e317] [box=461,462,90,16]
+                - generic [ref=e320] [box=461,484,93,93]:
+                  - generic [ref=e323] [box=461,132,116,20]: 画像をアップロード
+                  - generic [ref=e324] [box=461,484,93,93]:
+                    - button "画像をアップロード" [ref=e326] [box=507,484,253,27]
+                    - button "追加" [ref=e329] [cursor=pointer] [box=483,517,48,28]
+            - generic [ref=e333] [box=445,609,623,277]:
+              - generic [ref=e335] [box=461,625,591,28]:
+                - heading "バリエーション" [level=2] [ref=e336] [box=461,629,98,20]
+                - link "バリエーションを追加する" [ref=e337] [cursor=pointer] [box=868,625,184,28]:
+                  - /url: /admin/products/f633e7dd-960b-5c06-9f88-25bf7260b377_Product/variants/create
+                  - img [ref=e340] [box=874,629,20,20]
+                  - generic [ref=e342] [box=896,631,144,16]: バリエーションを追加する
+              - generic [ref=e348] [box=474,678,565,56]:
+                - generic [ref=e349] [box=474,678,114,56]:
+                  - generic [ref=e350] [box=474,678,114,20]:
+                    - paragraph [ref=e351] [box=474,678,42,20]: サイズ
+                    - generic [ref=e353] [box=524,678,64,20]
+                  - generic [ref=e362] [box=482,712,11,20]: M
+                - button "サイズを展開する" [ref=e363] [cursor=pointer] [box=1018,678,20,56]:
+                  - img [ref=e366] [box=1018,696,20,20]
+              - table [ref=e372] [box=445,776,623,109]:
+                - rowgroup [ref=e373] [box=445,776,623,37]:
+                  - row "すべてのアイテムを選択する バリエーション 価格" [ref=e374] [box=445,776,623,37]:
+                    - columnheader "すべてのアイテムを選択する" [ref=e375] [box=445,776,38,37]
+                    - columnheader "バリエーション" [ref=e383] [box=483,776,471,37]
+                    - columnheader "価格" [ref=e385] [box=953,776,114,37]
+                - rowgroup [ref=e387] [box=445,813,623,73]:
+                  - 'row "アイテムを選択する product variant thumbnail M SKU: TFC-EXT-20260615-01-M ￥2,200" [ref=e388] [cursor=pointer] [box=445,813,623,73]':
+                    - cell "アイテムを選択する" [ref=e389] [box=445,813,38,73]
+                    - 'cell "product variant thumbnail M SKU: TFC-EXT-20260615-01-M" [ref=e397] [box=483,813,471,73]'
+                    - cell "￥2,200" [ref=e409] [box=953,813,114,73]
+            - generic [ref=e415] [box=461,918,591,266]:
+              - heading "検索エンジンリスティング" [level=2] [ref=e416] [box=461,918,591,20]
+              - generic [ref=e417] [box=461,950,591,234]:
+                - generic [ref=e419] [box=461,950,591,56]:
+                  - generic [ref=e422] [box=461,950,90,20]: ページタイトル
+                  - textbox "ページタイトル" [ref=e426] [box=461,974,591,32]:
+                    - /placeholder: 半袖Tシャツ
+                    - text: TEST FAQ EXT PRODUCT
+                - generic [ref=e428] [box=461,1022,591,162]:
+                  - generic [ref=e431] [box=461,1022,141,20]: メタディスクリプション
+                  - generic [ref=e434] [box=461,1046,591,138]:
+                    - textbox "メタディスクリプション" [ref=e435] [box=461,1046,591,110]: FAQカバレッジ確認用の商品メタディスクリプションです。
+                    - generic "5000中28の文字を使用" [box=465,1156,575,28]: 28/5000
+            - generic [ref=e437] [box=445,1216,623,206]:
+              - heading "メタフィールド" [level=2] [ref=e439] [box=461,1232,591,20]
+              - generic [ref=e440] [box=445,1268,623,154]:
+                - generic [ref=e441] [box=445,1268,623,77]:
+                  - separator [ref=e442] [box=445,1268,623,1]
+                  - generic [ref=e445] [box=461,1285,591,44]:
+                    - generic [ref=e446] [box=461,1285,209,44]
+                    - button [ref=e457] [cursor=pointer] [box=1027,1281,28,28]
+                - generic [ref=e462] [box=445,1345,623,77]:
+                  - separator [ref=e463] [box=445,1345,623,1]
+                  - generic [ref=e466] [box=461,1362,591,44]:
+                    - generic [ref=e467] [box=461,1362,288,44]
+                    - button [ref=e478] [cursor=pointer] [box=1027,1358,28,28]
+          - generic [ref=e484] [box=1083,132,311,468]:
+            - generic [ref=e488] [box=1099,148,279,56]:
+              - heading "ステータス" [level=2] [ref=e489] [box=1099,148,279,20]
+              - generic [ref=e491] [box=1099,172,279,32]:
+                - combobox [ref=e492] [box=1099,172,279,32]:
+                  - option "公開中" [box=0,0,0,0]
+                  - option "下書き" [selected] [box=0,0,0,0]
+                - generic [ref=e493] [box=1099,172,279,32]:
+                  - generic [ref=e494] [box=1111,178,239,20]: 下書き
+                  - img [ref=e497] [box=1351,178,20,20]
+            - generic [ref=e503] [box=1099,252,279,232]:
+              - heading "商品分類" [level=2] [ref=e504] [box=1099,252,279,20]
+              - generic [ref=e505] [box=1099,284,279,200]:
+                - generic [ref=e507] [box=1099,284,279,56]:
+                  - generic [ref=e510] [box=1099,284,65,20]: 商品タイプ
+                  - textbox "商品タイプ" [ref=e514] [box=1099,308,279,32]:
+                    - /placeholder: Tシャツ
+                    - text: FAQテスト
+                - generic [ref=e516] [box=1099,356,279,56]:
+                  - generic [ref=e519] [box=1099,356,39,20]: 製造元
+                  - textbox "製造元" [ref=e523] [box=1099,380,279,32]:
+                    - /placeholder: ユニクロ
+                    - text: TEST_VENDOR
+                - generic [ref=e525] [box=1099,428,279,56]:
+                  - generic [ref=e528] [box=1099,428,52,20]: ブランド
+                  - generic [ref=e529] [box=1099,452,279,32]:
+                    - textbox "ブランド" [ref=e532] [box=1099,452,225,32]:
+                      - /placeholder: 選択してください
+                    - button "選択" [ref=e534] [cursor=pointer] [box=1329,452,50,32]
+            - generic [ref=e538] [box=1099,532,279,52]:
+              - generic [ref=e539] [box=1099,532,279,20]:
+                - heading "タグ" [level=2] [ref=e540] [box=1099,532,26,20]
+                - button [ref=e541] [cursor=pointer] [box=1355,528,28,28]:
+                  - img [ref=e544] [box=1359,532,20,20]
+              - generic [ref=e548] [box=1105,564,114,20]: FAQ_TAG_20260615
+          - generic [ref=e552] [box=1323,1454,72,28]:
+            - button "保存する" [disabled] [box=1323,1454,72,28]:
+              - generic [box=1335,1460,48,16]: 保存する
+  - region "Notifications alt+T" [box=0,1000,1600,0]
+  - generic [box=0,1000,1600,0]:
+    - generic [box=0,1000,1600,0]:
+      - generic [box=0,1000,1600,0]:
+        - generic [box=0,0,1600,1000]:
+          - generic [box=0,407,1600,186]:
+            - dialog "商品を削除しますか？" [active] [box=0,407,1600,186]:
+              - generic [ref=e579] [box=490,407,620,186]:
+                - generic [ref=e581] [box=506,423,588,20]:
+                  - heading "商品を削除しますか？" [level=2] [ref=e583] [box=506,423,140,20]
+                  - button "閉じる" [ref=e584] [cursor=pointer] [box=1070,419,28,28]:
+                    - img [ref=e587] [box=1074,423,20,20]
+                - paragraph [ref=e592] [box=506,476,588,40]:
+                  - text: この商品を削除しますか？
+                  - text: この処理は巻き戻すことができません。
+                - generic [ref=e596] [box=930,549,164,28]:
+                  - button "キャンセル" [ref=e597] [cursor=pointer] [box=930,549,84,28]:
+                    - generic [ref=e598] [box=942,555,60,16]: キャンセル
+                  - button "削除する" [ref=e599] [cursor=pointer] [box=1022,549,72,28]:
+                    - generic [ref=e600] [box=1034,555,48,16]: 削除する
+  - alert [ref=e15] [box=-1,999,1,1]

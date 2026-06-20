@@ -1,0 +1,30 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/products/179a188e-402d-5b11-a16e-9b084293fdb2_Product",
+  "menuItems": [
+    {
+      "i": 7,
+      "tag": "A",
+      "role": null,
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products",
+      "ariaDisabled": null
+    },
+    {
+      "i": 43,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "商品のアーカイブを解除する",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "i": 44,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "商品を削除する",
+      "disabled": false,
+      "ariaDisabled": null
+    }
+  ],
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_STATUS_20260615080916_商品。このページの準備が整いました\n\nTEST_FAQ_STATUS_20260615080916_商品\nアーカイブ済み\nその他の操作\n商品コード\n\nTEST_FAQ_STATUS_20260615080916\n\n商品名\n説明文\n0/5000\nメディア（0件）\n画像をアップロード\n追加\nバリエーション\nバリエーションを追加する\n\nサイズ\n\n情報\nサイズ\nONE\n\nバリエーションがありません\n\n検索エンジンリスティング\nページタイトル\nメタディスクリプション\n0/5000\nメタフィールド\nTEST_FAQ_テキストフィールド\n\n未設定\n\nTEST_FAQ_DEEP_202606080340_商品MF\n\n未設定\n\nステータス\nアーカイブ済み\n\n管理画面では、商品リスト以外は非表示です。\n\n商品分類\n商品タイプ\n製造元\nブランド\n選択\nタグ\n\nタグは付与されていません\n\n保存する\n商品のアーカイブを解除する\n商品を削除する"
+}

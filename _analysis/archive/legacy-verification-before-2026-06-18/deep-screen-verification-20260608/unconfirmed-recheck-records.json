@@ -1,0 +1,1158 @@
+{
+  "generatedAt": "2026-06-08T05:09:27.621Z",
+  "selectedProfile": "/tmp/sq-codex-profile-66be74c-1780895298",
+  "profileAttempts": [
+    {
+      "profileDir": "/tmp/sq-codex-profile-66be74c-1780895298",
+      "login": false,
+      "admin": true,
+      "finalUrl": "https://www.sqstackstaging.com/admin/orders",
+      "textStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n下書き\n返品\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n注文管理。このページの準備が整いました\n\n注文管理\nすべて\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください"
+    }
+  ],
+  "records": [
+    {
+      "index": 1,
+      "url": "/admin/orders",
+      "finalUrl": "https://www.sqstackstaging.com/admin/orders",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "注文管理"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [],
+      "importantLines": [
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "注文管理。このページの準備が整いました",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/01-orders.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 2,
+      "url": "/admin/order_returns",
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_returns",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "返品"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [],
+      "importantLines": [
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "返品。このページの準備が整いました",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/02-order_returns.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 3,
+      "url": "/admin/purchasing_customers",
+      "finalUrl": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "顧客管理"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "インポート",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "会社",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "顧客管理。このページの準備が整いました",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/03-purchasing_customers.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 4,
+      "url": "/admin/draft_orders",
+      "finalUrl": "https://www.sqstackstaging.com/admin/draft_orders",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "下書き"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "disabledCreate": true
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定",
+        "注文を作成する"
+      ],
+      "labels": [],
+      "importantLines": [
+        "注文管理",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "下書き。このページの準備が整いました",
+        "注文を作成する",
+        "注文が見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/04-draft_orders.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 5,
+      "url": "/admin/sale_change_line_items",
+      "finalUrl": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "売上実績"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "disabledCreate": true
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "売上実績",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定",
+        "売上実績を作成する"
+      ],
+      "labels": [],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "売上実績",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "売上実績。このページの準備が整いました",
+        "売上実績を作成する",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/05-sale_change_line_items.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 6,
+      "url": "/admin/inventory_purchase_orders",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "発注管理"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "disabledCreate": true
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定",
+        "発注伝票を作成する"
+      ],
+      "labels": [],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "発注管理。このページの準備が整いました",
+        "発注伝票を作成する",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/06-inventory_purchase_orders.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 7,
+      "url": "/admin/inventory_purchase_orders/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "発注伝票を作成"
+      ],
+      "h2": [
+        "取引先",
+        "商品"
+      ],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "参照",
+        "取り消す",
+        "作成する"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [
+        "取引先",
+        "テナント",
+        "通貨",
+        "商品を追加する"
+      ],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "発注伝票を作成。このページの準備が整いました",
+        "発注伝票を作成",
+        "作成する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/07-inventory_purchase_orders__create.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 8,
+      "url": "/admin/inventory_inbound_orders",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "入荷管理"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "入荷待ち\n0",
+        "入荷依頼済み\n新規\n0",
+        "入荷作業中\n新規\n0",
+        "要対応\n新規\n0",
+        "入荷完了",
+        "キャンセル",
+        "その他のビュー"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "入荷管理。このページの準備が整いました",
+        "入荷待ち",
+        "入荷依頼済み",
+        "入荷作業中",
+        "入荷完了",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/08-inventory_inbound_orders.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 9,
+      "url": "/admin/pdf_export/pdf_export_operation_packing_slips",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "納品書をPDFでエクスポートする"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": true,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "納品書をPDFでエクスポートする。このページの準備が整いました",
+        "納品書をPDFでエクスポートする",
+        "アイテムが見つかりませんでした"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/09-pdf_export__pdf_export_operation_packing_slips.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 10,
+      "url": "/admin/shopify_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/shopify_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "ストアを連携する"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "連携する"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [
+        "ストア名",
+        "ショップドメイン",
+        "テナント",
+        "カタログ",
+        "ロケーショングループ",
+        "販売価格ルール",
+        "会員証バーコードのフォーマット",
+        "商品価格は税込価格を連携する",
+        "0円の商品バリエーションを連携する",
+        "送料は税込として処理する",
+        "注文による在庫変動を起こさない"
+      ],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "ストアを連携する。このページの準備が整いました",
+        "ストアを連携する",
+        "Shopifyから連携される注文の在庫は、ロケーションの指定がない限り設定されたロケーショングループのデフォルトのロケーションから引き当てられます",
+        "選択した販売価格ルールに基づいて、Shopifyの販売価格を設定します",
+        "Shopify ID（数値部分）",
+        "Shopifyから連携される購買顧客の会員証バーコードの生成方法を指定します",
+        "商品価格は税込価格を連携する",
+        "0円の商品バリエーションを連携する",
+        "連携する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/10-shopify_integrations__create.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 11,
+      "url": "/admin/smaregi_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/smaregi_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "スマレジ連携を作成する"
+      ],
+      "h2": [
+        "基本情報",
+        "商品連携設定",
+        "在庫設定"
+      ],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [
+        "名前",
+        "テナント",
+        "契約ID",
+        "プラン",
+        "カタログ",
+        "在庫同期の方向",
+        "注文による在庫変動を起こさない"
+      ],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "スマレジ連携を作成する。このページの準備が整いました",
+        "スマレジ連携を作成する",
+        "スマレジ連携を利用するには、スマレジにアプリをインストールする必要があります。",
+        "スマレジからSQへ在庫を同期する",
+        "SQからスマレジへ在庫を同期する",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/11-smaregi_integrations__create.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 12,
+      "url": "/admin/omnibus_core_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "OmnibusCore連携を作成する"
+      ],
+      "h2": [
+        "商品同期設定",
+        "在庫設定",
+        "注文設定"
+      ],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "オプションを追加",
+        "保存する"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [
+        "テナント",
+        "メーカーコード",
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数"
+      ],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "OmnibusCore連携を作成する。このページの準備が整いました",
+        "OmnibusCore連携を作成する",
+        "下書き注文の有効期限日数",
+        "OmnibusCoreから連携する下書き注文が何日で期限切れになるかを示す日数（1-365日）",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/12-omnibus_core_integrations__create.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 13,
+      "url": "/admin/recustomer_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "アカウントを接続する"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [
+        "ストアID",
+        "シークレット"
+      ],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/13-recustomer_integrations__create.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 14,
+      "url": "/admin/retail_portal_integrations/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "リテールポータル"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "選択",
+        "保存する"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "店舗受取",
+        "卸売",
+        "設定"
+      ],
+      "labels": [
+        "店舗ロケーション",
+        "在庫ロケーション",
+        "テナント",
+        "カタログ",
+        "販売閾値ルール",
+        "リテールポータルで販売員の選択を必須にする",
+        "配送先住所の編集を許可する",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する"
+      ],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "リテールポータル。このページの準備が整いました",
+        "リテールポータルで販売員の選択を必須にする",
+        "下書き注文の送料明細の編集を許可する",
+        "下書き注文の注文明細の価格の編集を許可する",
+        "下書き注文の完了を許可する",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/14-retail_portal_integrations__create.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 15,
+      "url": "/admin/settings/permission_groups",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/permission_groups",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "権限グループ"
+      ],
+      "h2": [],
+      "classification": {
+        "login": false,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "disabledCreate": true
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定",
+        "作成する",
+        "TEST_FAQ_店舗スタッフ",
+        "特権管理者"
+      ],
+      "labels": [
+        "すべてのアイテムを選択する",
+        "アイテムを選択する"
+      ],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "権限グループ。このページの準備が整いました",
+        "権限グループ",
+        "作成する",
+        "権限数"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/15-settings__permission_groups.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    },
+    {
+      "index": 16,
+      "url": "/admin/settings/users/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/users/create",
+      "responseStatus": 200,
+      "gotoError": null,
+      "h1": [
+        "ユーザーを追加する"
+      ],
+      "h2": [
+        "権限"
+      ],
+      "classification": {
+        "login": true,
+        "notFound": false,
+        "unexpectedError": false,
+        "empty": false,
+        "disabledCreate": false
+      },
+      "buttons": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "保存する"
+      ],
+      "links": [
+        "コンテンツにスキップ",
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理",
+        "在庫依頼",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "labels": [
+        "姓",
+        "名",
+        "メールアドレス",
+        "特権管理者",
+        "TEST_FAQ_店舗スタッフ"
+      ],
+      "importantLines": [
+        "注文管理",
+        "顧客管理",
+        "発注管理",
+        "入荷管理",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "ユーザーを追加する。このページの準備が整いました",
+        "ユーザーを追加する",
+        "権限",
+        "権限グループ",
+        "保存する"
+      ],
+      "screenshot": "faq/_analysis/deep-screen-verification-20260608/unconfirmed-recheck-screenshots/16-settings__users__create.png",
+      "consoleErrors": [
+        "error: Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    }
+  ]
+}

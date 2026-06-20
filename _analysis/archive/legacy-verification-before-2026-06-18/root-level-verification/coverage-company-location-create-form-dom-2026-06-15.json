@@ -1,0 +1,426 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/create",
+  "labels": [
+    {
+      "i": 0,
+      "text": "ロケーション名",
+      "for": ":r2f:"
+    },
+    {
+      "i": 1,
+      "text": "ロケーションID",
+      "for": ":r2g:"
+    },
+    {
+      "i": 2,
+      "text": "コード",
+      "for": ":r2h:"
+    },
+    {
+      "i": 3,
+      "text": "国/地域",
+      "for": ":r2i:"
+    },
+    {
+      "i": 4,
+      "text": "性",
+      "for": ":r2k:"
+    },
+    {
+      "i": 5,
+      "text": "名",
+      "for": ":r2l:"
+    },
+    {
+      "i": 6,
+      "text": "会社",
+      "for": ":r2m:"
+    },
+    {
+      "i": 7,
+      "text": "郵便番号",
+      "for": ":r2o:"
+    },
+    {
+      "i": 8,
+      "text": "都道府県",
+      "for": ":r2p:"
+    },
+    {
+      "i": 9,
+      "text": "市区町村",
+      "for": ":r2q:"
+    },
+    {
+      "i": 10,
+      "text": "住所",
+      "for": ":r2r:"
+    },
+    {
+      "i": 11,
+      "text": "建物名、部屋番号など",
+      "for": ":r2s:"
+    },
+    {
+      "i": 12,
+      "text": "電話番号",
+      "for": ":r2t:"
+    },
+    {
+      "i": 13,
+      "text": "配送先住所と同じ",
+      "for": ":r2u:"
+    }
+  ],
+  "fields": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2f:",
+      "disabled": false,
+      "outer": "<input id=\":r2f:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-describedby=\":r2f:Error :r2f:HelpText\" aria-labelledby=\":r2f:Label\" aria-invalid=\"true\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\">"
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2g:",
+      "disabled": false,
+      "outer": "<input id=\":r2g:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-describedby=\":r2g:HelpText\" aria-labelledby=\":r2g:Label\" aria-invalid=\"false\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\">"
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "12345",
+      "aria": null,
+      "name": "",
+      "id": ":r2h:",
+      "disabled": false,
+      "outer": "<input id=\":r2h:\" placeholder=\"12345\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2h:Label\" aria-invalid=\"false\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\">"
+    },
+    {
+      "i": 3,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2i:",
+      "disabled": false,
+      "outer": "<select id=\":r2i:\" class=\"Polaris-Select__Input\" aria-invalid=\"true\" aria-required=\"true\" aria-describedby=\":r2i:Error\"><option value=\"\" disabled=\"\">国/地域</option><option value=\"BV\">ブーベ島</option><option value=\"MQ\">マルティニーク</option><option value=\"SM\">サンマリノ</option><option value=\"SS\">南スーダン</option><option value=\"WF\">ウォリス・フツナ</option><option value=\"KG\">キルギス</option><option value=\"KN\">セントクリストファー・ネイビス</option><option value=\"MM\">ミャンマー</option><option value=\"SD\">スーダン</option><option value=\"BM\">バミューダ</opt"
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2k:",
+      "disabled": false,
+      "outer": "<input id=\":r2k:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2k:Label\" aria-invalid=\"true\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\" aria-describedby=\":r2k:Error\">"
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2l:",
+      "disabled": false,
+      "outer": "<input id=\":r2l:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2l:Label\" aria-invalid=\"true\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\" aria-describedby=\":r2l:Error\">"
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2m:",
+      "disabled": false,
+      "outer": "<input id=\":r2m:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2m:Label\" aria-invalid=\"false\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\">"
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2o:",
+      "disabled": false,
+      "outer": "<input id=\":r2o:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2o:Label\" aria-invalid=\"true\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\" aria-describedby=\":r2o:Error\">"
+    },
+    {
+      "i": 8,
+      "tag": "SELECT",
+      "type": "select-one",
+      "value": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2p:",
+      "disabled": false,
+      "outer": "<select id=\":r2p:\" class=\"Polaris-Select__Input\" aria-invalid=\"true\" aria-required=\"true\" aria-describedby=\":r2p:Error\"><option value=\"\" disabled=\"\">選択してください</option><option value=\"JP-01\">北海道</option><option value=\"JP-02\">青森県</option><option value=\"JP-03\">岩手県</option><option value=\"JP-04\">宮城県</option><option value=\"JP-05\">秋田県</option><option value=\"JP-06\">山形県</option><option value=\"JP-07\">福島県</option><option value=\"JP-08\">茨城県</option><option value=\"JP-09\">栃木県</option><option value=\"JP-10\">群馬県</o"
+    },
+    {
+      "i": 9,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2q:",
+      "disabled": false,
+      "outer": "<input id=\":r2q:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2q:Label\" aria-invalid=\"true\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\" aria-describedby=\":r2q:Error\">"
+    },
+    {
+      "i": 10,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2r:",
+      "disabled": false,
+      "outer": "<input id=\":r2r:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2r:Label\" aria-invalid=\"true\" aria-required=\"true\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\" aria-describedby=\":r2r:Error\">"
+    },
+    {
+      "i": 11,
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2s:",
+      "disabled": false,
+      "outer": "<input id=\":r2s:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2s:Label\" aria-invalid=\"false\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"text\" value=\"\">"
+    },
+    {
+      "i": 12,
+      "tag": "INPUT",
+      "type": "tel",
+      "value": "",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2t:",
+      "disabled": false,
+      "outer": "<input id=\":r2t:\" autocomplete=\"off\" class=\"Polaris-TextField__Input\" aria-labelledby=\":r2t:Label\" aria-invalid=\"false\" data-1p-ignore=\"true\" data-lpignore=\"true\" data-form-type=\"other\" type=\"tel\" value=\"\">"
+    },
+    {
+      "i": 13,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "value": "on",
+      "placeholder": "",
+      "aria": null,
+      "name": "",
+      "id": ":r2u:",
+      "disabled": false,
+      "outer": "<input id=\":r2u:\" class=\"Polaris-Checkbox__Input\" aria-invalid=\"false\" role=\"checkbox\" aria-checked=\"true\" type=\"checkbox\" checked=\"\">"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "コンテンツにスキップ",
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company/locations/create#AppFrameMain",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "メニューを切り替える",
+      "href": "",
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "href": "",
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "text": "ホーム",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products",
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "text": "在庫管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "i": 9,
+      "text": "注文管理",
+      "href": "https://www.sqstackstaging.com/admin/orders",
+      "disabled": false
+    },
+    {
+      "i": 10,
+      "text": "顧客管理",
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "i": 11,
+      "text": "会社",
+      "href": "https://www.sqstackstaging.com/admin/companies",
+      "disabled": false
+    },
+    {
+      "i": 12,
+      "text": "発注管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "i": 13,
+      "text": "販売設定",
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "i": 14,
+      "text": "会計",
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "i": 15,
+      "text": "分析",
+      "href": "https://www.sqstackstaging.com/admin/analytics",
+      "disabled": false
+    },
+    {
+      "i": 16,
+      "text": "入荷管理\n未完了の入荷指示 1件\n1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "i": 17,
+      "text": "出荷管理\n未完了の出荷指示 1件\n1",
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "i": 18,
+      "text": "在庫依頼",
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "i": 19,
+      "text": "ディスカウント",
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "i": 20,
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "i": 21,
+      "text": "会員ランク",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "i": 22,
+      "text": "Shopify",
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "i": 23,
+      "text": "OmnibusCore",
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "i": 24,
+      "text": "スマレジ",
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "i": 25,
+      "text": "リテールポータル",
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "i": 26,
+      "text": "卸売",
+      "href": "https://www.sqstackstaging.com/admin/b2b",
+      "disabled": false
+    },
+    {
+      "i": 27,
+      "text": "設定",
+      "href": "https://www.sqstackstaging.com/admin/settings",
+      "disabled": false
+    },
+    {
+      "i": 28,
+      "text": "メニューを閉じる",
+      "href": "",
+      "disabled": false
+    },
+    {
+      "i": 29,
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin/companies/9391adcc-ad5b-52de-b703-6f45fb969388_Company",
+      "disabled": false
+    },
+    {
+      "i": 30,
+      "text": "保存する",
+      "href": "",
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n新しいロケーション。このページの準備が整いました\n\n新しいロケーション\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n\nロケーション名\nロケーション名を入力してください\n注文のロケーションを特定するために使用します。例：ミッドタウン\nロケーションID\n会社のロケーションを識別する外部IDがある場合に登録することができます。\nコード\n配送先住所\n国/地域\n国/地域\nブーベ島\nマルティニーク\nサンマリノ\n南スーダン\nウォリス・フツナ\nキルギス\nセントクリストファー・ネイビス\nミャンマー\nスーダン\nバミューダ\nバハマ\nニューカレドニア\nルーマニア\n北朝鮮\nリトアニア\nオマーン\nボリビア\nジョージア\nガーンジー\nマリ\nザンビア\nフランス領ギアナ\nピトケアン諸島\nクリスマス島\nインドネシア\nマン島\nキューバ\nキプロス\nモルディブ\nモザンビーク\nノーフォーク島\nタークス・カイコス諸島\n中央アフリカ共和国\nニカラグア\nアルジェリア\nギリシャ\nハンガリー\nフィリピン\nアルバ\nリビア\nモーリタニア\nニウエ\nシエラレオネ\nバーレーン\nエジプト\nイラク\n赤道ギニア\nパラグアイ\nシリア\nベトナム\nニジェール\nタイ\nスペイン\nフォークランド諸島\nカザフスタン\nパプアニューギニア\nパキスタン\nセントビンセント・グレナディーン\nガイアナ\nレバノン\nナウル\nトルクメニスタン\nドイツ\nマラウイ\nニュージーランド\nスロバキア\nソマリア\nタンザニア\nオーストリア\nケニア\nオランダ領アンティル\nシンガポール\nアンドラ\nバルバドス\nカーボベルデ\nガーナ\nジブラルタル\n北マケドニア\nブルンジ\nコンゴ共和国\nルクセンブルク\nチリ\nスロベニア\nジンバブエ\nマヨット\nベナン\nコスタリカ\n西サハラ\nガンビア\nネパール\nウルグアイ\nギニア\n香港\nサン・マルタン\nサウスジョージア・サウスサンドウィッチ諸島\nハイチ\nイスラエル\nサンピエール・ミクロン\nアメリカ合衆国\nジブチ\nイギリス\nクウェート\nセントルシア\nナイジェリア\nポーランド\nチュニジア\n台湾\nフランス\nその他の地域\nベネズエラ\nアルメニア\nエクアドル\nセーシェル\nアンギラ\nアゼルバイジャン\nイギリス領インド洋地域\nモーリシャス\nアセンション島\nブラジル\nスウェーデン\n中国\nキュラソー\nドミニカ共和国\nフェロー諸島\nロシア\nセネガル\nイギリス領ヴァージン諸島\nベルギー\nコートジボワール\nエチオピア\nルワンダ\nアラブ首長国連邦\nオランダ領カリブ\nドミニカ国\nジャマイカ\nカタール\nスリナム\nアンゴラ\nサン・バルテルミー\nチェコ\nイタリア\nレソト\nウズベキスタン\nボスニア・ヘルツェゴビナ\nフィジー\nインド\nケイマン諸島\nフィンランド\nリベリア\nチャド\nベラルーシ\nアイスランド\nアフガニスタン\nカナダ\nグレナダ\nモナコ\nタジキスタン\nバチカン市国\nベリーズ\nエストニア\nグリーンランド\nイラン\nウガンダ\nクロアチア\nポルトガル\n東ティモール\nトリスタン・ダ・クーニャ\nトケラウ\nウクライナ\nコロンビア\nホンジュラス\nパレスチナ\nアイルランド\nヨルダン\nカンボジア\nキリバス\nコモロ\nラオス\nメキシコ\nサモア\nクック諸島\nガボン\nハード島とマクドナルド諸島\nジャージー\nオランダ\nサントメ・プリンシペ\nグアドループ\nモンゴル\nモントセラト\nシント・マールテン\n韓国\nモロッコ\nパナマ\nトリニダード・トバゴ\nカメルーン\nグアテマラ\nマダガスカル\nリヒテンシュタイン\nマカオ\nスヴァールバル諸島およびヤンマイエン島\nアルゼンチン\nオーランド諸島\nブルキナファソ\nトルコ\n合衆国領有小離島\nバヌアツ\nコソボ\n南アフリカ\nアルバニア\nボツワナ\nスイス\nコンゴ民主共和国\nトーゴ\nモンテネグロ\nエルサルバドル\nスリランカ\nラトビア\nサウジアラビア\nブルネイ\nココス諸島\n日本\nマルタ\nレユニオン\nソロモン諸島\nフランス南方・南極地域\nトンガ\nオーストラリア\nペルー\nツバル\nイエメン\nバングラデシュ\nブータン\nデンマーク\nギニアビサウ\nノルウェー\nフランス領ポリネシア\nセルビア\nセントヘレナ\nアンティグア・バーブーダ\nブルガリア\nエリトリア\nモルドバ\nマレーシア\nナミビア\nエスワティニ\n国/地域\n国を選択してください\n性\n苗字を入力してください\n名\n名前を入力してください\n会社\n郵便番号\n郵便番号を入力してください\n都道府県\n選択してください\n北海道\n青森県\n岩手県\n宮城県\n秋田県\n山形県\n福島県\n茨城県\n栃木県\n群馬県\n埼玉県\n千葉県\n東京都\n神奈川県\n新潟県\n富山県\n石川県\n福井県\n山梨県\n長野県\n岐阜県\n静岡県\n愛知県\n三重県\n滋賀県\n京都府\n大阪府\n兵庫県\n奈良県\n和歌山県\n鳥取県\n島根県\n岡山県\n広島県\n山口県\n徳島県\n香川県\n愛媛県\n高知県\n福岡県\n佐賀県\n長崎県\n熊本県\n大分県\n宮崎県\n鹿児島県\n沖縄県\n選択してください\n都道府県を入力してください\n市区町村\n市区町村を入力してください\n住所\n住所を入力してください\n建物名、部屋番号など\n電話番号\n請求先住所\n配送先住所と同じ\n保存する"
+}

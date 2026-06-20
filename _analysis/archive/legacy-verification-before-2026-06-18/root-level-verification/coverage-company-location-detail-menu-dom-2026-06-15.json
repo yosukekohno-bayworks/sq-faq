@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "i": 32,
+      "role": "menuitem",
+      "text": "ロケーションを編集",
+      "href": "",
+      "disabled": false,
+      "html": "<button type=\"button\" class=\"Polaris-ActionList__Item Polaris-ActionList--default\" role=\"menuitem\"><div class=\"Polaris-Box\" style=\"--pc-box-width: 100%;\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-block-align: center; --pc-inline-stack-wrap: nowrap; --pc-inline-stack-gap-xs: var(--p-space-150); --pc-inline-stack-flex-direction-xs: row;\"><span class=\"Polaris-ActionList__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--regular\">ロケーションを編集</span></span></span></div></div></button>"
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nロケーション。このページの準備が整いました\n\nロケーション\n\nTEST_FAQ_COVERAGE_20260615_会社ロケーション2\n\n直近の注文\n\nこのロケーションからはまだ注文がありません\n\nTEST_FAQ_COVERAGE_20260615_会社ロケーション2\nロケーションID\n\nEXT-COMP-LOC-20260615\n\nコード\n\nTFCCL20260615\n\n配送先住所\n\nFAQLocation20260615\n\nTEST_FAQ_COVERAGE_COMPANY_LOCATION\n\n日本 〒100-0001\n\n東京都 千代田区\n\n千代田1-1\n\nテストビル101\n\n0312345678\n\n請求先住所\n\nFAQLocation20260615\n\nTEST_FAQ_COVERAGE_COMPANY_LOCATION\n\n日本 〒100-0001\n\n東京都 千代田区\n\n千代田1-1\n\nテストビル101\n\n0312345678\n\nメモ\n\nこの会社にはメモがありません。\n\nロケーションを編集"
+}

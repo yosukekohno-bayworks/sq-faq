@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-06-08T03:50:41.722Z",
+  "records": [
+    {
+      "index": 1,
+      "id": "sale_changes_csv",
+      "url": "/admin/csv_export/csv_export_operation_sale_changes",
+      "pageTextStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました\n\n売上実績（注文軸）をCSVでエクスポートする\nエクスポート\n作成日\n\t\nテナント\n\t\n対象期間\n\t\nステータス\n\t\nダウンロード\n\n\n\n2026年06月08日 12:49\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月01日 00:00 〜 2026年06月08日 23:59\n\n\t\n成功\n完了\n\t\n\nダウンロード",
+      "downloadError": null,
+      "download": {
+        "suggestedFilename": "20260608_1249.csv",
+        "path": "faq/_analysis/deep-screen-verification-20260608/downloads/sale_changes_csv-20260608_1249.csv",
+        "size": 304,
+        "headUtf8": "ID,イベント,作成元,作成元オブジェクトID,店舗コード,処理日時,税込フラグ,通貨コード,売上,税額,小計,小計に対する税額,送料,送料に対する税額,注文に対する割引額,注文明細に対する割引額,送料に対する割引額,利用ポイント\n"
+      },
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/download-screenshots/01-sale_changes_csv-before.png"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "point_changes_csv",
+      "url": "/admin/csv_export/csv_export_operation_point_changes",
+      "pageTextStart": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nポイント変動履歴をCSVでエクスポートする。このページの準備が整いました\n\nポイント変動履歴をCSVでエクスポートする\nエクスポート\n作成日\n\t\nテナント\n\t\n対象期間\n\t\nステータス\n\t\nダウンロード\n\n\n\n2026年06月08日 12:49\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月01日 00:00 〜 2026年06月08日 23:59\n\n\t\n成功\n完了\n\t\n\nダウンロード",
+      "downloadError": null,
+      "download": {
+        "suggestedFilename": "20260608_1249.csv",
+        "path": "faq/_analysis/deep-screen-verification-20260608/downloads/point_changes_csv-20260608_1249.csv",
+        "size": 147,
+        "headUtf8": "PointChangeID,PurchasingCustomerID,PurchasingCustomerBarcode,Title,Delta,AvailableAt,ExpiresDate,PointChangeCreatedAt,PointChangeActivityType,Note\n"
+      },
+      "screenshots": [
+        "faq/_analysis/deep-screen-verification-20260608/download-screenshots/02-point_changes_csv-before.png"
+      ]
+    }
+  ]
+}

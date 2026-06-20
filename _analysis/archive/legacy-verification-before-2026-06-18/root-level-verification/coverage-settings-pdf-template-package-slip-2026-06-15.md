@@ -1,0 +1,159 @@
+- generic [active] [ref=e1] [box=0,0,1600,1000]:
+  - generic [ref=e16] [box=0,0,1600,3586]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e19] [box=0,0,1600,56]:
+      - link [ref=e22] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e24] [box=1040,0,560,56]:
+        - button [ref=e28] [cursor=pointer] [box=1404,12,32,32]:
+          - img [ref=e30] [box=1410,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e34] [cursor=pointer] [box=1444,12,148,32]:
+          - generic [ref=e35] [box=1446,14,116,28]:
+            - paragraph [ref=e36] [box=1456,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e38] [box=1456,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e40] [box=1562,14,28,28]
+    - generic "メニュー" [ref=e41] [box=0,56,240,944]:
+      - navigation [ref=e42] [box=0,56,240,944]:
+        - generic [ref=e43] [box=0,56,240,944]:
+          - list [ref=e44] [box=0,72,240,268]:
+            - listitem [ref=e45] [box=0,72,240,28]:
+              - link "ホーム" [ref=e48] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e51] [box=20,76,20,20]
+                - generic [ref=e53] [box=48,76,176,20]: ホーム
+            - listitem [ref=e54] [box=0,100,240,28]:
+              - link "商品管理" [ref=e57] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e60] [box=20,104,20,20]
+                - generic [ref=e62] [box=48,104,176,20]: 商品管理
+            - listitem [ref=e63] [box=0,128,240,28]:
+              - link "在庫管理" [ref=e66] [cursor=pointer] [box=12,128,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e69] [box=20,132,20,20]
+                - generic [ref=e71] [box=48,132,176,20]: 在庫管理
+            - listitem [ref=e72] [box=0,156,240,28]:
+              - link "注文管理" [ref=e75] [cursor=pointer] [box=12,156,216,28]:
+                - /url: /admin/orders
+                - img [ref=e78] [box=20,160,20,20]
+                - generic [ref=e80] [box=48,160,172,20]: 注文管理
+            - listitem [ref=e81] [box=0,184,240,28]:
+              - link "顧客管理" [ref=e84] [cursor=pointer] [box=12,184,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e87] [box=20,188,20,20]
+                - generic [ref=e90] [box=48,188,176,20]: 顧客管理
+            - listitem [ref=e91] [box=0,212,240,28]:
+              - link "発注管理" [ref=e94] [cursor=pointer] [box=12,212,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e97] [box=20,216,20,20]
+                - generic [ref=e100] [box=48,216,176,20]: 発注管理
+            - listitem [ref=e101] [box=0,240,240,28]:
+              - link "販売設定" [ref=e104] [cursor=pointer] [box=12,240,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e107] [box=20,244,20,20]
+                - generic [ref=e112] [box=48,244,176,20]: 販売設定
+            - listitem [ref=e113] [box=0,268,240,28]:
+              - link "会計" [ref=e116] [cursor=pointer] [box=12,268,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e119] [box=20,272,20,20]
+                - generic [ref=e121] [box=48,272,176,20]: 会計
+            - listitem [ref=e122] [box=0,296,240,28]:
+              - generic [ref=e123] [box=0,296,240,28]:
+                - generic [box=12,296,216,28]:
+                  - link "分析" [box=12,296,216,28]:
+                    - /url: /admin/analytics
+                    - generic [box=20,300,20,20]
+                    - generic [box=48,300,176,20]: 分析
+          - list [ref=e124] [box=0,340,240,132]:
+            - listitem [ref=e125] [box=0,348,240,24]:
+              - generic [ref=e126] [box=20,352,216,16]: オペレーション
+            - listitem [ref=e127] [box=0,372,240,28]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e130] [cursor=pointer] [box=12,372,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e133] [box=20,376,20,20]
+                - generic [ref=e137] [box=48,376,151,20]: 入荷管理
+                - generic [ref=e139] [box=203,376,21,20]:
+                  - generic [ref=e140] [box=211,372,1,1]: 未完了の入荷指示 1件
+                  - generic [ref=e141] [box=211,378,5,16]: "1"
+            - listitem [ref=e142] [box=0,400,240,28]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e145] [cursor=pointer] [box=12,400,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e148] [box=20,404,20,20]
+                - generic [ref=e150] [box=48,404,151,20]: 出荷管理
+                - generic [ref=e152] [box=203,404,21,20]:
+                  - generic [ref=e153] [box=211,400,1,1]: 未完了の出荷指示 1件
+                  - generic [ref=e154] [box=211,406,5,16]: "1"
+            - listitem [ref=e155] [box=0,428,240,28]:
+              - link "在庫依頼" [ref=e158] [cursor=pointer] [box=12,428,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161] [box=20,432,20,20]
+                - generic [ref=e164] [box=48,432,172,20]: 在庫依頼
+          - list [ref=e165] [box=0,472,240,132]:
+            - listitem [ref=e166] [box=0,480,240,24]:
+              - generic [ref=e167] [box=20,484,216,16]: CRM
+            - listitem [ref=e168] [box=0,504,240,28]:
+              - link "ディスカウント" [ref=e171] [cursor=pointer] [box=12,504,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e174] [box=20,508,20,20]
+                - generic [ref=e176] [box=48,508,176,20]: ディスカウント
+            - listitem [ref=e177] [box=0,532,240,28]:
+              - link "ポイント" [ref=e180] [cursor=pointer] [box=12,532,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e183] [box=20,536,20,20]
+                - generic [ref=e185] [box=48,536,176,20]: ポイント
+            - listitem [ref=e186] [box=0,560,240,28]:
+              - link "会員ランク" [ref=e189] [cursor=pointer] [box=12,560,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e192] [box=20,564,20,20]
+                - generic [ref=e195] [box=48,564,176,20]: 会員ランク
+          - list [ref=e196] [box=0,604,240,344]:
+            - listitem [ref=e197] [box=0,612,240,24]:
+              - generic [ref=e198] [box=20,616,216,16]: 販売チャネル
+            - listitem [ref=e199] [box=0,636,240,28]:
+              - link "Shopify" [ref=e202] [cursor=pointer] [box=12,636,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e203] [box=20,640,204,20]: Shopify
+            - listitem [ref=e204] [box=0,664,240,28]:
+              - link "OmnibusCore" [ref=e207] [cursor=pointer] [box=12,664,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e208] [box=20,668,204,20]: OmnibusCore
+            - listitem [ref=e209] [box=0,692,240,28]:
+              - link "スマレジ" [ref=e212] [cursor=pointer] [box=12,692,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e213] [box=20,696,204,20]: スマレジ
+            - listitem [ref=e214] [box=0,720,240,28]:
+              - link "リテールポータル" [ref=e217] [cursor=pointer] [box=12,720,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e218] [box=20,724,204,20]: リテールポータル
+            - listitem [ref=e219] [box=0,748,240,28]:
+              - generic [ref=e220] [box=0,748,240,28]:
+                - generic [box=12,748,216,28]:
+                  - link "卸売" [box=12,748,216,28]:
+                    - /url: /admin/b2b
+                    - generic [box=20,752,204,20]: 卸売
+          - list [ref=e221] [box=0,948,240,52]:
+            - listitem [ref=e222] [box=0,956,240,28]:
+              - link "設定" [ref=e225] [cursor=pointer] [box=12,956,216,28]:
+                - /url: /admin/settings
+                - img [ref=e228] [box=20,960,20,20]
+                - generic [ref=e230] [box=48,960,176,20]: 設定
+    - main [ref=e231] [box=0,0,1600,3586]:
+      - generic [ref=e234] [box=589,56,662,3498]:
+        - generic [ref=e235] [box=613,56,614,76]:
+          - status [box=613,80,614,0]:
+            - paragraph [ref=e236] [box=613,56,1,1]: PDF納品書テンプレート。このページの準備が整いました
+          - generic [ref=e238] [box=613,80,614,28]:
+            - link [ref=e241] [cursor=pointer] [box=613,80,28,28]:
+              - /url: /admin/settings
+              - img [ref=e244] [box=617,84,20,20]
+            - heading "PDF納品書テンプレート" [level=1] [ref=e248] [box=645,82,217,24]
+        - generic [ref=e250] [box=597,116,630,3438]:
+          - generic [ref=e256] [box=629,148,582,3314]:
+            - generic [ref=e259] [box=629,148,126,20]: HTMLテンプレート*
+            - textbox "HTMLテンプレート*" [ref=e263] [box=629,172,582,3290]: "<div class=\"delivery-note\"> <!-- ヘッダー --> <div class=\"dn-header\"> <div class=\"dn-title\">納品書</div> <div class=\"dn-meta\"> <div class=\"dn-meta-item\"> <span class=\"dn-meta-label\">注文日：</span> {{if .Order.PurchasedAt}}<span class=\"no-wrap\">{{(.Order.PurchasedAt | InTZ \"Asia/Tokyo\").Format \"2006/01/02\"}}</span>{{end}} </div> <div class=\"dn-meta-item\"> <span class=\"dn-meta-label\">注文番号：</span> {{if .Order.ManagementCode}}<span class=\"no-wrap\">{{.Order.ManagementCode}}</span>{{end}} </div> </div> </div> <!-- ご請求先 / お届け先 --> <div class=\"dn-boxes\"> <div class=\"dn-box\"> <h3>ご請求先</h3> {{if .Order.BillingAddress}} {{if or .Order.BillingAddress.LastName .Order.BillingAddress.FirstName}} <div>{{.Order.BillingAddress.LastName}}{{.Order.BillingAddress.FirstName}}</div> {{end}} {{if or .Order.BillingAddress.PostalCode .Order.BillingAddress.Province .Order.BillingAddress.City .Order.BillingAddress.Address1}} <div>〒{{.Order.BillingAddress.PostalCode}} {{.Order.BillingAddress.Province}}{{.Order.BillingAddress.City}}{{.Order.BillingAddress.Address1}}</div> {{end}} {{if .Order.BillingAddress.Address2}}<div>{{.Order.BillingAddress.Address2}}</div>{{end}} {{if .Order.BillingAddress.Phone}}<div>TEL: {{.Order.BillingAddress.Phone}}</div>{{end}} {{end}} </div> <div class=\"dn-box\"> <h3>お届け先</h3> {{if .Order.ShippingAddress}} {{if or .Order.ShippingAddress.LastName .Order.ShippingAddress.FirstName}} <div>{{.Order.ShippingAddress.LastName}}{{.Order.ShippingAddress.FirstName}}</div> {{end}} {{if or .Order.ShippingAddress.PostalCode .Order.ShippingAddress.Province .Order.ShippingAddress.City .Order.ShippingAddress.Address1}} <div>〒{{.Order.ShippingAddress.PostalCode}} {{.Order.ShippingAddress.Province}}{{.Order.ShippingAddress.City}}{{.Order.ShippingAddress.Address1}}</div> {{end}} {{if .Order.ShippingAddress.Address2}}<div>{{.Order.ShippingAddress.Address2}}</div>{{end}} {{if .Order.ShippingAddress.Phone}}<div>TEL: {{.Order.ShippingAddress.Phone}}</div>{{end}} {{end}} </div> </div> <div class=\"dn-rule\"></div> <!-- 明細 --> <table class=\"dn-table\"> <thead> <tr> <th class=\"dn-col-thumb\"></th> <th class=\"dn-col-brand\">ブランド</th> <th class=\"dn-col-name\">商品名</th> <th class=\"dn-col-color\">カラー/サイズ</th> <th class=\"dn-col-price\">単価</th> <th class=\"dn-col-qty\">数量</th> <th class=\"dn-col-subtotal\">小計</th> </tr> </thead> <tbody> {{range .LineItems.Nodes}} {{ $oli := .OrderLineItem }} <tr> <td class=\"dn-col-thumb\"> {{if and $oli $oli.ProductVariant $oli.ProductVariant.FeaturedImage $oli.ProductVariant.FeaturedImage.URL}} <img class=\"dn-thumb\" src=\"{{$oli.ProductVariant.FeaturedImage.URL}}\" alt=\"\"> {{end}} </td> <td class=\"dn-col-brand\">{{if and $oli $oli.ProductVariant $oli.ProductVariant.Product}}{{$oli.ProductVariant.Product.ProductVendor}}{{end}}</td> <td class=\"dn-col-name\"> {{if $oli.ProductTitle}}<span class=\"dn-product-title\">{{$oli.ProductTitle}}</span>{{end}} </td> <td class=\"dn-col-color\">{{if $oli.ProductVariantTitle}}{{$oli.ProductVariantTitle}}{{end}}</td> <td class=\"dn-col-price\">{{if $oli.UnitPrice}}{{FormatWithComma $oli.UnitPrice.Amount}}{{end}}</td> <td class=\"dn-col-qty\">{{if $oli.CurrentQuantity}}{{$oli.CurrentQuantity}}{{end}}</td> <td class=\"dn-col-subtotal\">{{if $oli.CurrentPrice}}{{FormatWithComma $oli.CurrentPrice.Amount}}{{end}}</td> </tr> {{end}} </tbody> </table> <!-- 注記 --> <div class=\"dn-notes\"> {{if .Order.PaymentMethods}} {{with index .Order.PaymentMethods 0}} {{if .Name}}<div>お支払い方法：{{.Name}}</div>{{end}} {{end}} {{else}} <div>お支払い方法：—</div> {{end}} </div> </div> <style> .delivery-note { font-family: \"Noto Sans JP\",\"Noto Sans CJK JP\",sans-serif; font-size: 13px; color: #111; } .no-wrap { white-space: nowrap; } .dn-header { border-bottom: 2px solid #111; padding-bottom: 8px; margin-bottom: 12px; } .dn-title { font-size: 18px; font-weight: 700; letter-spacing: .5px; } .dn-meta { display: flex; gap: 24px; align-items: baseline; } .dn-meta-item { display: inline-flex; align-items: baseline; gap: 6px; white-space: nowrap; min-width: 0; } .dn-meta-label { color: #666; } .dn-boxes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; } .dn-box { border: 1px solid #cfcfcf; min-height: 96px; padding: 10px 12px; } .dn-box h3 { margin: 0 0 6px; font-size: 12px; font-weight: 700; } .dn-rule { height: 1px; background: #999; margin: 14px 0; opacity: .6; } .dn-table { width: 100%; border-collapse: collapse; } .dn-table thead th { background: #f6f6f6; border-top: 1px solid #cfcfcf; border-bottom: 1px solid #cfcfcf; padding: 8px; font-weight: 700; font-size: 12px; } .dn-table tbody td { border-bottom: 1px solid #e6e6e6; padding: 8px; vertical-align: middle; } .dn-col-thumb { width: 40px; } .dn-thumb { width: 32px; height: 32px; object-fit: cover; border: 1px solid #e0e0e0; } .dn-col-brand { width: 110px; } .dn-col-name { width: 40%; white-space: normal; word-break: break-word; overflow-wrap: anywhere; } .dn-product-title { display: inline; } .dn-col-color { width: 160px; text-align: center; } .dn-col-price, .dn-col-qty, .dn-col-subtotal { width: 90px; text-align: right; } .dn-notes { margin-top: 18px; font-size: 11px; color: #444; } @media print { .dn-table thead { display: table-header-group; } .dn-table tr { page-break-inside: avoid; break-inside: avoid; } } </style>"
+          - button "保存する" [ref=e268] [cursor=pointer] [box=1155,3510,72,28]:
+            - generic [ref=e269] [box=1167,3516,48,16]: 保存する
+  - region "Notifications alt+T" [box=0,3586,1600,0]
+  - alert [ref=e15] [box=-1,3585,1,1]

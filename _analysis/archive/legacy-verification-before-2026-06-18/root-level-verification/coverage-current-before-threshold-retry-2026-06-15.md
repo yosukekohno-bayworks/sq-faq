@@ -1,0 +1,169 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e10]:
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e16]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: stack-ps-yosuke
+            - paragraph [ref=e24]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e26]
+    - generic "メニュー" [ref=e27]:
+      - navigation [ref=e28]:
+        - generic [ref=e29]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "ホーム" [ref=e34] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e37]
+                - generic [ref=e39]: ホーム
+            - listitem [ref=e40]:
+              - link "商品管理" [ref=e43] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e46]
+                - generic [ref=e48]: 商品管理
+            - listitem [ref=e49]:
+              - link "在庫管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e55]
+                - generic [ref=e57]: 在庫管理
+            - listitem [ref=e58]:
+              - link "注文管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e64]
+                - generic [ref=e66]: 注文管理
+            - listitem [ref=e67]:
+              - link "顧客管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e73]
+                - generic [ref=e76]: 顧客管理
+            - listitem [ref=e77]:
+              - link "発注管理" [ref=e80] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e83]
+                - generic [ref=e86]: 発注管理
+            - listitem [ref=e87]:
+              - link "販売設定" [ref=e90] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e93]
+                - generic [ref=e98]: 販売設定
+              - list [ref=e101]:
+                - listitem [ref=e102]
+                - listitem [ref=e107]
+                - listitem [ref=e112]
+                - listitem [ref=e117]
+            - listitem [ref=e122]:
+              - link "会計" [ref=e125] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e128]
+                - generic [ref=e130]: 会計
+            - listitem [ref=e131]:
+              - generic [ref=e132]:
+                - generic
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - generic [ref=e135]: オペレーション
+            - listitem [ref=e136]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e139] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e142]
+                - generic [ref=e146]: 入荷管理
+                - generic [ref=e148]
+            - listitem [ref=e151]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e154] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e157]
+                - generic [ref=e159]: 出荷管理
+                - generic [ref=e161]
+            - listitem [ref=e164]:
+              - link "在庫依頼" [ref=e167] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e170]
+                - generic [ref=e173]: 在庫依頼
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: CRM
+            - listitem [ref=e177]:
+              - link "ディスカウント" [ref=e180] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e183]
+                - generic [ref=e185]: ディスカウント
+            - listitem [ref=e186]:
+              - link "ポイント" [ref=e189] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e192]
+                - generic [ref=e194]: ポイント
+            - listitem [ref=e195]:
+              - link "会員ランク" [ref=e198] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e201]
+                - generic [ref=e204]: 会員ランク
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - generic [ref=e207]: 販売チャネル
+            - listitem [ref=e208]:
+              - link "Shopify" [ref=e211] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e212]: Shopify
+            - listitem [ref=e213]:
+              - link "OmnibusCore" [ref=e216] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e217]: OmnibusCore
+            - listitem [ref=e218]:
+              - link "スマレジ" [ref=e221] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e222]: スマレジ
+            - listitem [ref=e223]:
+              - link "リテールポータル" [ref=e226] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e227]: リテールポータル
+            - listitem [ref=e228]:
+              - generic [ref=e229]:
+                - generic
+          - list [ref=e230]:
+            - listitem [ref=e231]:
+              - link "設定" [ref=e234] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e237]
+                - generic [ref=e239]: 設定
+    - main [ref=e240]:
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - status:
+            - paragraph [ref=e245]: 販売閾値。このページの準備が整いました
+          - generic [ref=e247]:
+            - heading "販売閾値" [level=1] [ref=e250]
+            - link "販売閾値ルールを作成する" [ref=e254] [cursor=pointer]:
+              - /url: /admin/inventory_threshold_rules/create
+              - generic [ref=e255]: 販売閾値ルールを作成する
+        - generic [ref=e262]:
+          - table [ref=e264]:
+            - rowgroup [ref=e265]:
+              - row "すべてのアイテムを選択する 名前" [ref=e266]:
+                - columnheader "すべてのアイテムを選択する" [ref=e267]
+                - columnheader "名前" [ref=e275]
+            - rowgroup [ref=e277]:
+              - row "アイテムを選択する TEST_FAQ_DEEP_202606080340_販売閾値ルール" [ref=e278] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e279]
+                - cell "TEST_FAQ_DEEP_202606080340_販売閾値ルール" [ref=e287]
+              - row "アイテムを選択する TEST_FAQ_販売閾値ルール_遷移確認_20260607" [ref=e289] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e290]
+                - cell "TEST_FAQ_販売閾値ルール_遷移確認_20260607" [ref=e298]
+              - row "アイテムを選択する TEST_FAQ_販売閾値ルール" [ref=e300] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e301]
+                - cell "TEST_FAQ_販売閾値ルール" [ref=e309]
+          - navigation "ページネーション" [ref=e314]:
+            - generic [ref=e317]:
+              - generic [ref=e318]:
+                - button "前へ" [disabled]
+              - generic [ref=e319]:
+                - button "次へ" [disabled]
+  - region "Notifications alt+T"
+  - alert [ref=e320]

@@ -1,0 +1,13 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create",
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売上限ルールを作成する。このページの準備が整いました\n\n販売上限ルールを作成する\n販売上限ルール名\nチャネル\nチャネルを選択してください\n保存する",
+  "fields": [
+    {
+      "i": 0,
+      "type": "text",
+      "value": "TEST_FAQ_COVERAGE_20260615_SALE_LIMIT",
+      "invalid": "false"
+    }
+  ],
+  "alerts": []
+}

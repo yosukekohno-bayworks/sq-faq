@@ -1,0 +1,40 @@
+{
+  "menuitems": [
+    {
+      "i": 11,
+      "role": null,
+      "text": "会社",
+      "href": "https://www.sqstackstaging.com/admin/companies",
+      "disabled": false
+    },
+    {
+      "i": 32,
+      "role": null,
+      "text": "会社を作成する",
+      "href": "https://www.sqstackstaging.com/admin/companies/create",
+      "disabled": false
+    },
+    {
+      "i": 34,
+      "role": null,
+      "text": "その他のビュー",
+      "href": "",
+      "disabled": false
+    },
+    {
+      "i": 36,
+      "role": null,
+      "text": "その他のビュー",
+      "href": "",
+      "disabled": false
+    },
+    {
+      "i": 37,
+      "role": null,
+      "text": "その他の操作",
+      "href": "",
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n未完了の出荷指示 1件\n1\n在庫依頼\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n会社。このページの準備が整いました\n\n会社\nインポート\n会社を作成する\nすべて\nすべての3のアイテムを選択する\n1を選択済み\nすべてのアイテムを選択する\n\t\n会社\n\t\nロケーション\n\t\n総注文数\n\t\n販売合計\n\t\n作成日\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_COVERAGE_20260615_809686_会社\n\n\t\n\n3箇所のロケーション\n\n\t\n\n0個の注文\n\n\t\n\n¥0\n\n\t\n\n2026年06月15日 21:51\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP3_202606080345_会社\n\n\t\n\n1箇所のロケーション\n\n\t\n\n0個の注文\n\n\t\n\n¥0\n\n\t\n\n2026年06月08日 12:45\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_株式会社テスト\n\n\t\n\n1箇所のロケーション\n\n\t\n\n0個の注文\n\n\t\n\n¥0\n\n\t\n\n2026年06月06日 17:39"
+}
