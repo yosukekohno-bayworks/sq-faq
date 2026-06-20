@@ -55,7 +55,7 @@ strong{color:#0b2d4d}
 <hr>
 <h3 id="00_getting_started_SQ_____________md__2">1. SQとは？ — まず3行で</h3>
 <ol><li>SQは、ネット通販（Shopify）と実店舗（POSレジ）の<strong>商品・在庫・注文を、裏側でまとめて管理する</strong>システムです。</li><li>お客様が見る購入画面ではなく、<strong>運営スタッフが使う管理画面</strong>です。</li><li>いちばんの特徴は、<strong>倉庫と店舗のあいだで在庫を取り寄せる流れ</strong>を伝票でしっかり管理できることです。</li></ol>
-<p><img src="../_analysis/screenshots/01-home.png" alt="SQのホーム画面。左のサイドナビと、商品管理・在庫管理・注文管理などへのクイックリンク" loading="lazy"></p>
+<p><img src="_analysis/screenshots/01-home.png" alt="SQのホーム画面。左のサイドナビと、商品管理・在庫管理・注文管理などへのクイックリンク" loading="lazy"></p>
 <h4 id="00_getting_started_SQ_____________md__3">たとえで言うと</h4>
 <p>お店にたとえると、SQは「売り場」ではなく<strong>バックヤード</strong>です。</p>
 <div class="tablewrap"><table><thead><tr><th></th><th>担当するもの</th><th>例</th></tr></thead><tbody><tr><td>売り場（お客様が見る）</td><td>商品を見せる・売る</td><td>ShopifyのECサイト、店舗のレジ（スマレジ）</td></tr><tr><td><strong>バックヤード（SQ）</strong></td><td>商品台帳・在庫表・注文の控え・仕入れ記録</td><td><strong>SQの管理画面</strong></td></tr></tbody></table></div>
@@ -1485,7 +1485,7 @@ strong{color:#0b2d4d}
   F --&gt; H[&quot;⑥ 移動伝票 完了&quot;]
   G --&gt; H</pre>
 <blockquote>注意: 出荷実績・入荷実績の登録は <strong>巻き戻せません</strong>。商品・ロケーション・数量を確認してから登録してください。 詳細手順: <a href="../02-by-task/取り寄せ販売の処理手順.md">取り寄せ販売の処理手順</a></blockquote>
-<p><img src="../_analysis/screenshots/flow-03-movement-detail.png" alt="移動伝票の詳細画面。「関連」欄に出荷指示（#IO）と入荷指示（#II）が自動生成されている" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-03-movement-detail.png" alt="移動伝票の詳細画面。「関連」欄に出荷指示（#IO）と入荷指示（#II）が自動生成されている" loading="lazy"></p>
 <hr>
 <h3 id="00_getting_started___________md__4">3. 在庫が動くタイミング（取り寄せ販売）</h3>
 <p>取り寄せ販売の操作で、移動元ロケーションの在庫がいつ・どう動くかの実際の流れです。ポイントは「<strong>引当てた時点では数字は動かず、移動伝票を作った瞬間に動く</strong>」ことです。</p>
@@ -1498,7 +1498,7 @@ strong{color:#0b2d4d}
   C -.-&gt;|キャンセルした場合&lt;br/&gt;取置中 → 販売可能に全数戻る| G[&quot;キャンセル&quot;]</pre>
 <blockquote><strong>2026-06-14更新</strong>: 在庫の区分名が変わりました（確定済み→引当済み、確保済み→取置中）。「在庫依頼のステータス『確保済み』」は名称変更なし（上図の②）。移動伝票作成では移動元の販売可能→取置中へ振替（実機検証済み）。移動先には入荷予定が立ち、出荷実績で積送中、入荷実績で販売可能・手持ちへ移る。</blockquote>
 <p>計算式: <strong>手持ち = 販売可能 + 引当済み + 取置中 + 破損 + 検品 + 予備</strong>（SKU詳細画面。これに加えて「積送中」「入荷予定」の2列があり、手持ちには含まれません）</p>
-<p><img src="../_analysis/screenshots/verify-inventory-detail-2026-06-19.png" alt="SKU詳細画面。ロケーション別に販売可能・引当済み・取置中・破損・検品・予備・手持ち・積送中・入荷予定が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/verify-inventory-detail-2026-06-19.png" alt="SKU詳細画面。ロケーション別に販売可能・引当済み・取置中・破損・検品・予備・手持ち・積送中・入荷予定が表示される" loading="lazy"></p>
 <blockquote>注意: 在庫数は<strong>マイナスになることがあります</strong>（在庫0のロケーションから出荷実績を登録しても処理はブロックされないため）。マイナスは調整伝票で修正してください。</blockquote>
 <hr>
 <h3 id="00_getting_started___________md__5">4. 外部サービスとのデータ連携</h3>
@@ -1803,7 +1803,7 @@ strong{color:#0b2d4d}
 <p>処理方法をラジオボタンで選んでからCSVファイルをアップロードする。</p>
 <div class="tablewrap"><table><thead><tr><th>カテゴリ</th><th>ラジオボタンの選択肢（デフォルト → 変更可）</th></tr></thead><tbody><tr><td>商品画像</td><td>「画像を追加する」（デフォルト） / 「画像を上書きする」</td></tr><tr><td>商品バリエーション画像</td><td>「画像を追加する」（デフォルト） / 「画像を上書きする」</td></tr><tr><td>販売可能在庫</td><td>「絶対値で反映する」（デフォルト） / 「差分値で反映する」</td></tr></tbody></table></div>
 <p><strong>販売可能在庫の補足（画面内の説明原文）</strong>: 「現在の在庫数が10のとき、CSVで20を指定すると、絶対値で反映した場合の在庫数は20になります。差分値で反映した場合の在庫数は30になります。」</p>
-<p><img src="../_analysis/screenshots/15-csv-import-inventory-create.png" alt="販売可能在庫のインポートフォーム（ラジオ選択 + ファイル）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/15-csv-import-inventory-create.png" alt="販売可能在庫のインポートフォーム（ラジオ選択 + ファイル）" loading="lazy"></p>
 <h5 id="01_by_feature_CSV______md__18">パターンC：ルール選択 + ファイル</h5>
 <p>対象となるルールをドロップダウンで選んでからCSVファイルをアップロードする。</p>
 <div class="tablewrap"><table><thead><tr><th>カテゴリ</th><th>フィールドラベル</th></tr></thead><tbody><tr><td>販売価格 (通常)</td><td>販売価格ルール</td></tr><tr><td>販売価格 (セール)</td><td>販売価格ルール</td></tr><tr><td>販売閾値</td><td>販売閾値ルール</td></tr><tr><td>予約販売</td><td>予約販売ルール</td></tr><tr><td>基準ランク</td><td>テナント</td></tr></tbody></table></div>
@@ -1815,14 +1815,14 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>画面</th><th>URL</th><th>補足</th></tr></thead><tbody><tr><td>一覧</td><td><code>/admin/csv_import/csv_import_operation_inventory_movement_orders</code></td><td>見出しは「在庫移動伝票をCSVで一括取り込む」</td></tr><tr><td>新規インポート</td><td><code>/admin/csv_import/csv_import_operation_inventory_movement_orders/create</code></td><td>見出しは「在庫移動をCSVで一括取り込む」。空保存時は「ファイルを選択してください」</td></tr></tbody></table></div>
 <h4 id="01_by_feature_CSV______md__21">ポイント一括加算・一括減算フォームの固有項目</h4>
 <p>ポイント一括加算には以下の2フィールドが追加されている。</p>
-<p><img src="../_analysis/screenshots/15-csv-import-point-plus-create.png" alt="ポイント一括加算のインポートフォーム（テナント・顧客IDの種別）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/15-csv-import-point-plus-create.png" alt="ポイント一括加算のインポートフォーム（テナント・顧客IDの種別）" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>選択肢</th></tr></thead><tbody><tr><td>テナント</td><td>加算対象のテナントを選択する</td><td>セレクトボックス（プレースホルダ「選択してください」）</td></tr><tr><td>顧客IDの種別</td><td>CSV内の顧客識別子の種類を指定する</td><td>「SQが発番した顧客ID」 / 「外部システムが発番した顧客ID」</td></tr></tbody></table></div>
 <p>どちらのフィールドも画面上に必須マーク（*）は表示されていないが、未選択で「保存する」を押すとバリデーションエラーが表示される（実質必須）。</p>
 <p>ポイント一括減算フォームの固有項目は「テナント」とCSVファイルのみ。一括加算の「顧客IDの種別」は表示されない。空保存時は「テナントを選択してください」、テナント選択済みでファイル未選択の場合は「ファイルを選択してください」と表示される。</p>
 <h4 id="01_by_feature_CSV______md__22">実行履歴</h4>
 <p>カテゴリの一覧画面に過去のインポート実行履歴が表示される。各履歴行をクリックすると詳細を確認できる。</p>
 <h5 id="01_by_feature_CSV______md__23">実行履歴の詳細画面で確認できる項目</h5>
-<p><img src="../_analysis/screenshots/gap-csv-import-detail-success.png" alt="CSVインポート操作の詳細画面（検証・実行ステータス）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-csv-import-detail-success.png" alt="CSVインポート操作の詳細画面（検証・実行ステータス）" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th></tr></thead><tbody><tr><td>作成日</td><td>インポートを実行した日付</td></tr><tr><td>検証ステータス</td><td>CSVの内容を検証した結果（例: 完了）</td></tr><tr><td>実行ステータス</td><td>実際のデータ反映の結果（例: 完了）</td></tr><tr><td>検証成功</td><td>検証に成功した件数（例: 6個の商品）</td></tr><tr><td>検証失敗</td><td>検証に失敗した件数。クリックで失敗詳細画面（見出し「検証失敗」）へ移動できる</td></tr></tbody></table></div>
 <p>インポートは「検証」→「実行」の2段階で処理される。検証で失敗した行がある場合は、失敗詳細画面でエラー内容を確認できる。</p>
 <p>2026-06-16に販売可能在庫CSVで確認した流れ:</p>
@@ -1839,7 +1839,7 @@ strong{color:#0b2d4d}
 <h4 id="01_by_feature_CSV_______PDF_______md__4">CSVエクスポート（/admin/csv_export）</h4>
 <h5 id="01_by_feature_CSV_______PDF_______md__5">エクスポートできるデータカテゴリ（9種）</h5>
 <p>カテゴリはグループ別にまとめられている。</p>
-<p><img src="../_analysis/screenshots/15-csv-export-top.png" alt="CSVエクスポートのトップ画面" loading="lazy"></p>
+<p><img src="_analysis/screenshots/15-csv-export-top.png" alt="CSVエクスポートのトップ画面" loading="lazy"></p>
 <h6 id="01_by_feature_CSV_______PDF_______md__6">マスターデータグループ</h6>
 <div class="tablewrap"><table><thead><tr><th>カテゴリ（UIラベル）</th><th>説明</th></tr></thead><tbody><tr><td>在庫</td><td>指定されたロケーションの在庫数をエクスポートします</td></tr><tr><td>ロケーション</td><td>指定されたロケーショングループに含まれているすべてのロケーションをエクスポートします</td></tr><tr><td>ディスカウントの利用履歴</td><td>指定されたディスカウントの利用履歴をエクスポートします</td></tr><tr><td>商品バリエーション</td><td>商品バリエーション一覧をエクスポートします</td></tr></tbody></table></div>
 <h6 id="01_by_feature_CSV_______PDF_______md__7">価格グループ</h6>
@@ -1852,7 +1852,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>カテゴリ（UIラベル）</th><th>説明</th></tr></thead><tbody><tr><td>ポイント変動履歴</td><td>指定された期間のポイント変動履歴をエクスポートします</td></tr></tbody></table></div>
 <h5 id="01_by_feature_CSV_______PDF_______md__11">各カテゴリのフォーム詳細</h5>
 <h6 id="01_by_feature_CSV_______PDF_______md__12">在庫エクスポート</h6>
-<p><img src="../_analysis/screenshots/15-csv-export-inventory-create.png" alt="「在庫をCSVでエクスポートする」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/15-csv-export-inventory-create.png" alt="「在庫をCSVでエクスポートする」フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>説明</th></tr></thead><tbody><tr><td>ロケーション</td><td>実質必須（* マークなし）</td><td>「選択」ボタンを押してロケーション選択ダイアログから選ぶ。複数選択可。未選択のままではエクスポートが実行されない</td></tr></tbody></table></div>
 <p><strong>ロケーション選択ダイアログの構成</strong>: タブ「すべて」「店舗」「倉庫」の3種。列はチェックボックス・名前・場所コード。複数選択できる。</p>
 <h6 id="01_by_feature_CSV_______PDF_______md__13">ロケーションエクスポート</h6>
@@ -1878,7 +1878,7 @@ strong{color:#0b2d4d}
 <h6 id="01_by_feature_CSV_______PDF_______md__20">ポイント変動履歴エクスポート</h6>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>説明</th></tr></thead><tbody><tr><td>テナント</td><td>必須（* マーク付き）</td><td>ドロップダウンから対象のテナントを選ぶ</td></tr><tr><td>開始日時</td><td>必須（* マーク付き）</td><td>ポイント変動履歴の絞り込みを開始する日時を入力する</td></tr><tr><td>終了日時</td><td>必須（* マーク付き）</td><td>ポイント変動履歴の絞り込みを終了する日時を入力する</td></tr></tbody></table></div>
 <h4 id="01_by_feature_CSV_______PDF_______md__21">PDFエクスポート（/admin/pdf_export）</h4>
-<p><img src="../_analysis/screenshots/verify-pdf_export-2026-06-19.png" alt="PDFエクスポートのトップ画面（納品書）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/verify-pdf_export-2026-06-19.png" alt="PDFエクスポートのトップ画面（納品書）" loading="lazy"></p>
 <h5 id="01_by_feature_CSV_______PDF_______md__22">エクスポートできるデータ</h5>
 <div class="tablewrap"><table><thead><tr><th>カテゴリ（UIラベル）</th><th>説明</th></tr></thead><tbody><tr><td>納品書</td><td>指定された出荷指示の納品書をエクスポートします</td></tr></tbody></table></div>
 <h5 id="01_by_feature_CSV_______PDF_______md__23">納品書PDFの生成方法</h5>
@@ -1897,7 +1897,7 @@ strong{color:#0b2d4d}
 <h3 id="01_by_feature_OmnibusCore___md__3">画面・項目の説明</h3>
 <h4 id="01_by_feature_OmnibusCore___md__4">作成フォーム（<code>/admin/omnibus_core_integrations/create</code>）</h4>
 <p>画面名: 「OmnibusCore連携を作成する」</p>
-<p><img src="../_analysis/screenshots/gap-channels-omnibus-create-form.png" alt="「OmnibusCore連携を作成する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-omnibus-create-form.png" alt="「OmnibusCore連携を作成する」フォーム" loading="lazy"></p>
 <h5 id="01_by_feature_OmnibusCore___md__5">基本情報</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>テナント</td><td>連携するSQ内テナント</td><td>必須</td><td>コンボボックス（SQ内マスタから選択）</td></tr><tr><td>メーカーコード</td><td>OmnibusCore側のメーカーコード</td><td>必須</td><td>テキスト入力（placeholder: 「メーカーコードを入力してください」）</td></tr></tbody></table></div>
 <h5 id="01_by_feature_OmnibusCore___md__6">商品同期設定</h5>
@@ -1915,14 +1915,14 @@ strong{color:#0b2d4d}
 <p>URL: <code>/admin/omnibus_core_integrations/{id}</code></p>
 <p>詳細・編集画面は次の3タブで構成されます。</p>
 <h5 id="01_by_feature_OmnibusCore___md__11">タブ1: 基本設定</h5>
-<p><img src="../_analysis/screenshots/gap-channels-omnibus-detail.png" alt="詳細・編集画面の「基本設定」タブ" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-omnibus-detail.png" alt="詳細・編集画面の「基本設定」タブ" loading="lazy"></p>
 <p>作成フォームの全セクション（商品同期設定・在庫設定・注文設定）に加え、以下の項目があります。</p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>出荷指示のステータス</td><td>OmnibusCoreから連携される注文で作成する出荷指示の作業ステータス</td><td>ラジオボタン。「出荷待ち」（デフォルト）/ 「保留中」。ヒント: 「OmnibusCoreから連携される注文から作成する出荷指示の作業ステータスです。」</td></tr><tr><td>アクセストークン</td><td>OmnibusCoreとのAPI連携に使用するトークン</td><td>「トークンを作成」ボタンで生成</td></tr></tbody></table></div>
 <p>備考: 詳細・編集画面では「下書き注文の有効期限日数」の必須マーク（*）が外れます（任意扱い）。</p>
 <p>右サイドバーにはテナント・メーカーコード・連携日時が読み取り専用で表示されます。</p>
 <h5 id="01_by_feature_OmnibusCore___md__12">タブ2: 連携サイト</h5>
 <p>「追加する」ボタンから「連携サイトを追加する」ダイアログを開きます。</p>
-<p><img src="../_analysis/screenshots/gap-channels-omnibus-site-dialog.png" alt="「連携サイトを追加する」ダイアログ" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-omnibus-site-dialog.png" alt="「連携サイトを追加する」ダイアログ" loading="lazy"></p>
 <p><strong>「連携サイトを追加する」ダイアログの項目</strong>:</p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>連携サイトの場所コード</td><td>サイトを識別する場所コード</td><td>必須</td><td>テキスト入力</td></tr><tr><td>連携サイト名</td><td>サイトの表示名</td><td>必須</td><td>テキスト入力</td></tr><tr><td>販売価格</td><td>サイトに適用する販売価格ルール</td><td>任意</td><td>コンボボックス。ヒント: 「時間に00:00以外が含まれる価格ルールはOmnibusCoreに連携できません。連携できないSKUはメールで通知します。」</td></tr><tr><td>ロケーション</td><td>会社に紐づくロケーション（CompanyLocation）</td><td>任意</td><td>コンボボックス（「会社」配下のロケーションマスタから選択）</td></tr><tr><td>サイト倉庫ロケーション</td><td>サイトに割り当てる倉庫ロケーション</td><td>任意</td><td>コンボボックス（SQのロケーションマスタから選択）</td></tr></tbody></table></div>
 <p>操作ボタン: 「キャンセル」「追加する」</p>
@@ -1947,14 +1947,14 @@ strong{color:#0b2d4d}
 <p>Shopifyストアが未接続の場合、次のメッセージが表示されます。</p>
 <blockquote>「Shopifyストアを接続する / Shopifyと連携して、商品や注文データの連携を行います。」</blockquote>
 <p>「ストアを接続する」ボタンまたはリンクから接続フォーム（<code>/admin/shopify_integrations/create</code>）に進みます。</p>
-<p><img src="../_analysis/screenshots/gap-channels-shopify-list.png" alt="Shopify連携の接続前の画面（空状態）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-shopify-list.png" alt="Shopify連携の接続前の画面（空状態）" loading="lazy"></p>
 <h4 id="01_by_feature_Shopify___md__6">接続フォーム「ストアを連携する」の項目</h4>
-<p><img src="../_analysis/screenshots/gap-channels-shopify-create-form.png" alt="「ストアを連携する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-shopify-create-form.png" alt="「ストアを連携する」フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>ストア名</td><td>SQ内でのストア識別名</td><td>必須</td><td>テキスト入力</td></tr><tr><td>ショップドメイン</td><td>ShopifyストアのURL</td><td>必須</td><td><code>shop.myshopify.com</code> の形式で入力</td></tr><tr><td>テナント</td><td>連携するSQ内テナント</td><td>必須</td><td>コンボボックス（SQ内マスタから選択）</td></tr><tr><td>カタログ</td><td>連携する商品カタログ</td><td>必須</td><td>コンボボックス（SQ内マスタから選択）</td></tr><tr><td>ロケーショングループ</td><td>注文在庫の引当元グループ</td><td>必須</td><td>コンボボックス（SQ内マスタから選択）。ヒント: 「Shopifyから連携される注文の在庫は、ロケーションの指定がない限り設定されたロケーショングループのデフォルトのロケーションから引き当てられます」</td></tr><tr><td>販売価格ルール</td><td>Shopify側の販売価格算出ルール</td><td>任意</td><td>コンボボックス。ヒント: 「選択した販売価格ルールに基づいて、Shopifyの販売価格を設定します」</td></tr><tr><td>会員証バーコードのフォーマット</td><td>購買顧客の会員証バーコード生成方法</td><td>任意</td><td>「Shopify ID（数値部分）」（デフォルト）/ 「JAN-13コード（モジュラス10/ウェイト3方式）」。ヒント: 「Shopifyから連携される購買顧客の会員証バーコードの生成方法を指定します」</td></tr><tr><td>商品価格は税込価格を連携する</td><td>商品価格を税込でShopifyに送るかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr><tr><td>0円の商品バリエーションを連携する</td><td>価格が0円のバリエーションも連携対象にするかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr><tr><td>送料は税込として処理する</td><td>送料を税込で処理するかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr><tr><td>注文による在庫変動を起こさない</td><td>Shopify経由の注文で在庫数を変動させないかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr></tbody></table></div>
 <p><strong>送信ボタン</strong>: 「連携する」</p>
 <h4 id="01_by_feature_Shopify___md__7">バリデーション</h4>
 <p>必須項目が未入力・未選択の場合、フィールド直下にエラーが表示されます。</p>
-<p><img src="../_analysis/screenshots/gap-channels-shopify-create-validation.png" alt="必須項目未入力時のバリデーションエラー表示" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-shopify-create-validation.png" alt="必須項目未入力時のバリデーションエラー表示" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>条件</th><th>エラー文言</th></tr></thead><tbody><tr><td>ストア名が空</td><td>「ストア名を入力してください」</td></tr><tr><td>ショップドメインが空</td><td>「ショップドメインを入力してください」</td></tr><tr><td>テナント未選択</td><td>「テナントを選択してください」</td></tr><tr><td>カタログ未選択</td><td>「カタログを選択してください」</td></tr><tr><td>ロケーショングループ未選択</td><td>「ロケーショングループを選択してください」</td></tr></tbody></table></div>
 <h3 id="01_by_feature_Shopify___md__8">補足・注意点</h3>
 <ul><li>テナント・カタログ・ロケーショングループは、Shopifyと接続する前にSQ内であらかじめ作成しておく必要があります。</li><li>Shopifyストア側にSQ Connectが未インストールの場合、SQ側の「連携する」実行時にエラーになります。</li><li>「連携する」ボタン押下後にShopify側のOAuth認証フローが起動すると推測されますが、接続後の実際の遷移先・認証手順は未接続環境のため未確認です。</li></ul>
@@ -1974,7 +1974,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>列名</th><th>内容</th></tr></thead><tbody><tr><td>名前</td><td>カタログ名</td></tr><tr><td>商品</td><td>このカタログに登録されている商品の数（例: 0個の商品）</td></tr><tr><td>販売先</td><td>このカタログを参照しているチャネル連携の数（例: 0つの販売先）</td></tr></tbody></table></div>
 <hr>
 <h3 id="01_by_feature______md__6">カタログ詳細画面（/admin/catalogs/{id}）</h3>
-<p><img src="../_analysis/screenshots/03-catalog-detail-created.png" alt="カタログ詳細画面。上部に「自動追加ルール」「SKU一覧」「編集する」「その他の操作」「商品を追加する」ボタンと「商品コードで検索する」欄" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-catalog-detail-created.png" alt="カタログ詳細画面。上部に「自動追加ルール」「SKU一覧」「編集する」「その他の操作」「商品を追加する」ボタンと「商品コードで検索する」欄" loading="lazy"></p>
 <h4 id="01_by_feature______md__7">画面上部のボタン</h4>
 <div class="tablewrap"><table><thead><tr><th>ボタン</th><th>機能</th></tr></thead><tbody><tr><td>自動追加ルール</td><td>自動追加ルールの一覧・設定画面へ遷移</td></tr><tr><td>SKU一覧</td><td>このカタログのSKU一覧画面へ遷移</td></tr><tr><td>編集する</td><td>カタログ名を変更するダイアログを開く</td></tr><tr><td>その他の操作</td><td>「カタログを削除する」「インポート」のメニューが表示される</td></tr><tr><td>商品を追加する（右側）</td><td>商品を選択してカタログに追加する画面へ遷移</td></tr></tbody></table></div>
 <h4 id="01_by_feature______md__8">商品の検索</h4>
@@ -1983,13 +1983,13 @@ strong{color:#0b2d4d}
 <h3 id="01_by_feature______md__9">商品の追加（/admin/catalogs/{id}/create）</h3>
 <p>「商品を追加する」をクリックすると「カタログに商品を追加する」画面が開きます。</p>
 <ul><li>テーブル列: 商品（サムネイル＋商品名）/ 商品コード</li><li>「商品コードで検索する」テキストボックスで絞り込みができます</li><li>商品行のチェックボックスを選択すると「カタログに追加する」ボタンが表示されます</li><li>一括チェックボックスで全件を選択することもできます</li></ul>
-<p><img src="../_analysis/screenshots/03-catalog-add-product.png" alt="「カタログに商品を追加する」画面。商品コードで検索する欄と、チェックボックス付きの商品一覧" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-catalog-add-product.png" alt="「カタログに商品を追加する」画面。商品コードで検索する欄と、チェックボックス付きの商品一覧" loading="lazy"></p>
 <hr>
 <h3 id="01_by_feature______md__10">自動追加ルール（/admin/catalogs/{id}/automatic_add_rules）</h3>
 <p>条件に一致する商品を自動的にカタログへ追加するルールを設定できます。</p>
 <h4 id="01_by_feature______md__11">ルールの設定項目</h4>
 <p>「追加する」ボタンで「ルールを追加する」ダイアログが開きます。</p>
-<p><img src="../_analysis/screenshots/03-catalog-auto-rule-dialog.png" alt="「ルールを追加する」ダイアログ。項目・条件・値の3つの入力欄と「キャンセル」「追加する」ボタン" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-catalog-auto-rule-dialog.png" alt="「ルールを追加する」ダイアログ。項目・条件・値の3つの入力欄と「キャンセル」「追加する」ボタン" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>選択肢</th></tr></thead><tbody><tr><td>項目</td><td>「製造元」「ブランドコード」の2択</td></tr><tr><td>条件</td><td>「一致する」の1択</td></tr><tr><td>値</td><td>テキストで自由入力</td></tr></tbody></table></div>
 <p>設定したルールと完全一致する商品が自動的にカタログに追加されます。</p>
 <p>登録済みルールは「項目」「条件」「値」の一覧で確認できます。行を選択すると「ルールを削除する」ボタンが表示され、確認ダイアログ「カタログのルールを削除しますか？」から削除できます。本文は「選択された1件のルールを削除します。この処理は巻き戻すことができません。」です。</p>
@@ -2025,7 +2025,7 @@ strong{color:#0b2d4d}
 <p>画面上部に次のバナーが表示されます。</p>
 <blockquote>「スマレジ連携を利用するには、スマレジにアプリをインストールする必要があります。」</blockquote>
 <p>スマレジ側での事前作業（スマレジのアプリストアからSQアプリのインストール）が前提となります。</p>
-<p><img src="../_analysis/screenshots/gap-channels-smaregi-create-form.png" alt="「スマレジ連携を作成する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-smaregi-create-form.png" alt="「スマレジ連携を作成する」フォーム" loading="lazy"></p>
 <h5 id="01_by_feature________md__6">基本情報</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>名前</td><td>SQ内でのスマレジ連携の識別名</td><td>必須</td><td>テキスト入力</td></tr><tr><td>テナント</td><td>連携するSQ内テナント</td><td>必須</td><td>コンボボックス（SQ内マスタから選択）</td></tr><tr><td>契約ID</td><td>スマレジの契約ID</td><td>必須</td><td>テキスト入力</td></tr><tr><td>プラン</td><td>スマレジの契約プラン</td><td>必須</td><td>コンボボックス。「スタンダード」「プレミアム」「プレミアムプラス」「フードビジネス」「リテールビジネス」（デフォルト: リテールビジネス）</td></tr></tbody></table></div>
 <h5 id="01_by_feature________md__7">商品連携設定</h5>
@@ -2034,7 +2034,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>在庫同期の方向</td><td>在庫数値をどちらからどちらへ同期するかの方向設定</td><td>任意</td><td>コンボボックス。「スマレジからSQへ在庫を同期する」（デフォルト）/ 「SQからスマレジへ在庫を同期する」/ 「在庫を同期しない」</td></tr><tr><td>注文による在庫変動を起こさない</td><td>スマレジ経由の注文で在庫数を変動させないかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr></tbody></table></div>
 <p><strong>送信ボタン</strong>: 「保存する」</p>
 <h4 id="01_by_feature________md__9">バリデーション</h4>
-<p><img src="../_analysis/screenshots/gap-channels-smaregi-validation.png" alt="必須項目未入力時のバリデーションエラー表示" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-smaregi-validation.png" alt="必須項目未入力時のバリデーションエラー表示" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>条件</th><th>エラー文言</th></tr></thead><tbody><tr><td>名前が空</td><td>「名前を入力してください」</td></tr><tr><td>テナント未選択</td><td>「テナントを選択してください」</td></tr><tr><td>契約IDが空</td><td>「契約IDを入力してください」</td></tr></tbody></table></div>
 <p>プランはデフォルト値（リテールビジネス）が設定済みのためバリデーションエラーになりません。</p>
 <h3 id="01_by_feature________md__10">補足・注意点</h3>
@@ -2047,7 +2047,7 @@ strong{color:#0b2d4d}
 <ul><li>クーポンコードを使った注文割引ルールを作成・管理する</li><li>割引率（%）または割引額（円）の2方式を選べる</li><li>適用できる購入金額の上限・下限を設定する</li><li>対象商品を全商品または個別バリエーション単位で指定する</li><li>対象顧客・対象店舗をルールごとに管理する</li><li>利用回数を「お客様1人につき1回のみ」に制限する</li><li>有効期間（開始日時・終了日時）を指定してスケジュール管理する</li></ul>
 <h3 id="01_by_feature_________md__3">画面・項目の説明</h3>
 <h4 id="01_by_feature_________md__4">一覧画面（<code>/admin/order_price_adjustment_rules</code>）</h4>
-<p><img src="../_analysis/screenshots/gap-crm-discount-list-data.png" alt="ディスカウント一覧画面" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-crm-discount-list-data.png" alt="ディスカウント一覧画面" loading="lazy"></p>
 <h5 id="01_by_feature_________md__5">タブ</h5>
 <div class="tablewrap"><table><thead><tr><th>タブ名</th><th>表示内容</th></tr></thead><tbody><tr><td>すべて</td><td>作成済み全ディスカウント</td></tr><tr><td>有効</td><td>現在有効なディスカウント</td></tr><tr><td>スケジュール済み</td><td>開始前のディスカウント</td></tr><tr><td>期限切れ</td><td>終了したディスカウント</td></tr></tbody></table></div>
 <h5 id="01_by_feature_________md__6">一覧の列</h5>
@@ -2056,7 +2056,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>操作</th><th>説明</th></tr></thead><tbody><tr><td>ディスカウントを作成する</td><td>右上のボタン。作成フォームへ遷移する</td></tr><tr><td>検索と絞り込みの結果（右上アイコン）</td><td>クリックするとタブが非表示になり、「絞り込みを追加」モードに切り替わる。絞り込み条件として「テナント」を指定できる</td></tr></tbody></table></div>
 <hr>
 <h4 id="01_by_feature_________md__8">作成フォーム（<code>/admin/order_price_adjustment_rules/create</code>）</h4>
-<p><img src="../_analysis/screenshots/crm-discount-create.png" alt="ディスカウント作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm-discount-create.png" alt="ディスカウント作成フォーム" loading="lazy"></p>
 <h5 id="01_by_feature_________md__9">基本情報</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>タイトル</td><td>ディスカウントの管理名</td><td>必須（★）</td><td>テキスト。入力例（プレースホルダ）: 「年末セール」</td></tr><tr><td>説明文</td><td>ディスカウントの説明</td><td>任意</td><td>テキストエリア</td></tr><tr><td>クーポンコード</td><td>顧客が入力するコード</td><td>必須（★）</td><td>テキスト。入力例（プレースホルダ）: 「SEHD-DEKH」（自動生成ではない）。空欄で保存すると「クーポンコードを入力してください」のエラーが表示される</td></tr><tr><td>テナント</td><td>このディスカウントを利用できるテナント</td><td>必須（★）</td><td>コンボボックス。ヘルプ文: 「選択されたテナントでディスカウントが利用できます」</td></tr></tbody></table></div>
 <h5 id="01_by_feature_________md__10">割引設定</h5>
@@ -2070,7 +2070,7 @@ strong{color:#0b2d4d}
 <hr>
 <h4 id="01_by_feature_________md__14">詳細ページのタブ</h4>
 <p>作成後の詳細ページは5つのタブで構成される。</p>
-<p><img src="../_analysis/screenshots/crm2-discount-detail.png" alt="ディスカウント詳細ページ（基本情報タブ）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm2-discount-detail.png" alt="ディスカウント詳細ページ（基本情報タブ）" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>タブ名</th><th>URL</th><th>内容</th></tr></thead><tbody><tr><td>基本情報</td><td><code>/admin/order_price_adjustment_rules/{id}</code></td><td>ルールの設定内容表示・編集</td></tr><tr><td>利用履歴</td><td><code>/admin/order_price_adjustment_rules/{id}/usages</code></td><td>利用された注文の履歴。「CSVエクスポート」リンクあり</td></tr><tr><td>顧客管理</td><td><code>/admin/order_price_adjustment_rules/{id}/customers</code></td><td>対象顧客の追加・管理</td></tr><tr><td>店舗管理</td><td><code>/admin/order_price_adjustment_rules/{id}/locations</code></td><td>対象店舗の追加・管理</td></tr><tr><td>商品管理</td><td><code>/admin/order_price_adjustment_rules/{id}/product_variants</code></td><td>対象商品バリエーションの追加・管理</td></tr></tbody></table></div>
 <p>2026-06-19の実機確認では、全商品対象の既存ルールは基本情報タブの「対象商品」に「すべての商品」と表示され、個別設定の既存ルールは「個別設定」と表示されました。</p>
 <p>割引率に150を入力して保存を試した場合、作成フォームから遷移せず、一覧にも作成されませんでした。画面上のエラーメッセージは表示されません。</p>
@@ -2098,7 +2098,7 @@ strong{color:#0b2d4d}
 <ul><li>画面の見出し（h1）は「注文ポイント」。ナビゲーションのラベル「ポイント」とは異なる</li><li>タブは「すべて」のみ</li><li>「付与ルールを作成する」ボタンから作成フォームへ遷移する</li></ul>
 <hr>
 <h4 id="01_by_feature______md__5">注文ポイント付与ルール作成フォーム（<code>/admin/point_calculation_rules/create</code>）</h4>
-<p><img src="../_analysis/screenshots/crm-point-create.png" alt="注文ポイント付与ルール作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm-point-create.png" alt="注文ポイント付与ルール作成フォーム" loading="lazy"></p>
 <h5 id="01_by_feature______md__6">ルール</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>タイトル</td><td>ルールの管理名</td><td>必須（★）</td><td>テキスト</td></tr><tr><td>購入金額（円ごとに）</td><td>ポイントを付与する購入金額の単位</td><td>必須（★）</td><td>数値。入力例（プレースホルダ）: 100。例: 100と入力した場合「100円ごとに」という単位になる</td></tr><tr><td>ポイント</td><td>上記金額単位あたりの付与ポイント数</td><td>必須（★）</td><td>数値。入力例（プレースホルダ）: 1。例: 「100円ごとに1ポイント付与」</td></tr></tbody></table></div>
 <h5 id="01_by_feature______md__7">有効期限</h5>
@@ -2130,7 +2130,7 @@ strong{color:#0b2d4d}
 <hr>
 <h4 id="01_by_feature______md__16">キャンペーン（<code>/admin/point_campaign_order_rules</code>）</h4>
 <h5 id="01_by_feature______md__17">ポイントキャンペーン作成フォームの共通項目</h5>
-<p><img src="../_analysis/screenshots/crm2-campaign-create.png" alt="ポイントキャンペーン作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm2-campaign-create.png" alt="ポイントキャンペーン作成フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>タイトル</td><td>キャンペーンの管理名</td><td>必須（★）</td><td>テキスト。プレースホルダ: 「ポイントキャンペーン名」</td></tr><tr><td>開始日時</td><td>キャンペーンの開始日時</td><td>必須（★）</td><td>日時テキストボックス</td></tr><tr><td>終了日時</td><td>キャンペーンの終了日時</td><td>必須（★）</td><td>日時テキストボックス</td></tr><tr><td>ポイントキャンペーン種別</td><td>キャンペーンの対象タイプ</td><td>必須（★）</td><td>コンボボックス。選択肢: 「なし」/ 「会員ランク」/ 「購入金額」/ 「商品」</td></tr><tr><td>ポイント付与方法</td><td>ポイントの上乗せ方式</td><td>必須（★）</td><td>コンボボックス。選択肢: 「通常倍率に指定の倍率を加えた合計倍率でポイントを付与する」/ 「通常付与ポイントに加えて指定のポイントを追加で付与する」</td></tr><tr><td>対象の注文ポイント付与ルール</td><td>このキャンペーンを適用するポイント付与ルール</td><td>必須（★）</td><td>コンボボックス（既存ルールを選択）。説明文: 「ここで選択された注文ポイント付与ルールが適用される注文がこのポイントキャンペーンの対象となります。」</td></tr><tr><td>チャネル</td><td>適用するチャネル</td><td>任意</td><td>リスト形式。注意文: 「ポイントキャンペーンは以下の条件に該当する注文にのみ適用されます。未入力の場合は適用されません。」</td></tr><tr><td>対象店舗</td><td>適用する店舗</td><td>任意</td><td>保存後の詳細画面で設定。店舗単位または店舗グループ単位で追加できる</td></tr></tbody></table></div>
 <p>保存後の詳細画面には「対象店舗」セクションが表示されます。対象店舗が未登録の場合は「キャンペーンの対象となる店舗が登録されていません」と表示され、「店舗を追加する」から追加できます。「対象店舗を追加する」画面には選択方法として「店舗を選択して追加する」と「店舗グループを選択して追加する」があります。店舗グループを選ぶと、保存後の「キャンペーン対象店舗」一覧にはグループ名ではなく、グループに含まれる店舗が「店舗名」「店舗コード」の行として展開されます。行を選択すると「対象店舗を削除」ボタンが表示され、確認ダイアログ「対象店舗を削除しますか？」から削除できます。</p>
 <h5 id="01_by_feature______md__18">ポイントキャンペーン種別による動作の違い</h5>
@@ -2144,7 +2144,7 @@ strong{color:#0b2d4d}
 <ul><li>ポイント付与方法（編集フォームに項目が表示されない）</li><li>対象の注文ポイント付与ルール（編集フォームに項目が表示されない）</li></ul>
 <hr>
 <h4 id="01_by_feature______md__22">誕生日ポイント（<code>/admin/point_calculation_birthday_rules</code>）</h4>
-<p><img src="../_analysis/screenshots/crm2-birthday-create.png" alt="誕生日ポイント付与ルール作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm2-birthday-create.png" alt="誕生日ポイント付与ルール作成フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>タイトル</td><td>ルールの管理名</td><td>テキスト。プレースホルダ: 「誕生日ポイント付与ルール」</td></tr><tr><td>表示タイトル</td><td>顧客のポイント履歴に表示されるタイトル</td><td>テキスト。プレースホルダ: 「誕生日ボーナス」</td></tr><tr><td>ポイント</td><td>付与するポイント数</td><td>数値（スピンボタン）。デフォルト: 0</td></tr><tr><td>有効期間</td><td>ポイントを付与してから有効な日数</td><td>数値（スピンボタン）。デフォルト: 1</td></tr></tbody></table></div>
 <hr>
 <h4 id="01_by_feature______md__23">利用外商品（<code>/admin/point_application_excluded_products</code>）</h4>
@@ -2168,12 +2168,12 @@ strong{color:#0b2d4d}
 <h4 id="01_by_feature____________md__4">接続前の画面（空状態）</h4>
 <p>リテールポータル連携が未設定の場合、「追加する」ボタンと「場所コードを入力してください」フィルター欄が表示されます。「追加する」ボタンから作成フォーム（<code>/admin/retail_portal_integrations/create</code>）に進みます。</p>
 <h4 id="01_by_feature____________md__5">作成フォーム（<code>/admin/retail_portal_integrations/create</code>）</h4>
-<p><img src="../_analysis/screenshots/gap-channels-retail-portal-create-form.png" alt="リテールポータルの作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-retail-portal-create-form.png" alt="リテールポータルの作成フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>店舗ロケーション</td><td>連携する店舗のロケーション</td><td>必須</td><td>「選択」ボタンからダイアログで選択。店舗種別のロケーションのみ表示</td></tr><tr><td>在庫ロケーション</td><td>在庫の引当元となるロケーション</td><td>必須</td><td>「選択」ボタンからダイアログで選択。倉庫種別のロケーションのみ表示</td></tr><tr><td>テナント</td><td>連携するSQ内テナント</td><td>必須</td><td>コンボボックス（SQ内マスタから選択）</td></tr><tr><td>カタログ</td><td>連携する商品カタログ</td><td>必須</td><td>コンボボックス（SQ内マスタから選択）</td></tr><tr><td>販売閾値ルール</td><td>販売可否を判断する在庫閾値ルール</td><td>任意</td><td>コンボボックス（SQ内マスタから選択）</td></tr><tr><td>リテールポータルで販売員の選択を必須にする</td><td>注文時に販売員の選択を必須とするかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr><tr><td>配送先住所の編集を許可する</td><td>店舗スタッフが配送先住所を編集できるかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr><tr><td>下書き注文の送料明細の編集を許可する</td><td>店舗スタッフが下書き注文の送料明細を編集できるかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr><tr><td>下書き注文の注文明細の価格の編集を許可する</td><td>店舗スタッフが下書き注文の注文明細の価格を編集できるかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr><tr><td>下書き注文の完了を許可する</td><td>店舗スタッフが下書き注文を完了できるかどうか</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr></tbody></table></div>
 <p><strong>送信ボタン</strong>: 「保存する」</p>
 <h4 id="01_by_feature____________md__6">ロケーション選択ダイアログの仕様</h4>
 <p>「店舗ロケーション」または「在庫ロケーション」の「選択」ボタンを押すと、「ロケーションを選択する」ダイアログが開きます。</p>
-<p><img src="../_analysis/screenshots/gap-channels-retail-portal-location-dialog.png" alt="「ロケーションを選択する」ダイアログ" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-retail-portal-location-dialog.png" alt="「ロケーションを選択する」ダイアログ" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>要素</th><th>内容</th></tr></thead><tbody><tr><td>ダイアログタイトル</td><td>「ロケーションを選択する」</td></tr><tr><td>表示列</td><td>「名前」「場所コード」</td></tr><tr><td>検索フィールド</td><td>「場所コードで検索する」</td></tr><tr><td>操作ボタン</td><td>「キャンセル」「選択する」</td></tr></tbody></table></div>
 <p>ダイアログはロケーションの種別でフィルタリングされています。</p>
 <ul><li>「店舗ロケーション」の選択ダイアログ: 店舗種別のロケーションのみ表示</li><li>「在庫ロケーション」の選択ダイアログ: 倉庫種別のロケーションのみ表示</li></ul>
@@ -2193,7 +2193,7 @@ strong{color:#0b2d4d}
 <h5 id="01_by_feature____________md__11">一覧画面</h5>
 <p>空状態では「追加する」ボタンのみ表示されます。</p>
 <h5 id="01_by_feature____________md__12">作成フォーム（<code>/admin/local_pickup_retail_location_rules/create</code>）</h5>
-<p><img src="../_analysis/screenshots/gap-channels-local-pickup-create.png" alt="「店舗受取を作成する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-local-pickup-create.png" alt="「店舗受取を作成する」フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>ロケーション</td><td>店舗受取を設定するロケーション</td><td>必須</td><td>「選択」ボタンからダイアログで選択。店舗種別のロケーションのみ表示（リテールポータル作成フォームの「店舗ロケーション」ダイアログと同一構造）</td></tr></tbody></table></div>
 <h3 id="01_by_feature____________md__13">店舗スタッフ側でできること（取り寄せ販売）</h3>
 <p>リテールポータルは、取り寄せ販売フローにおいて店舗スタッフが操作する画面でもあります。EC注文が入り、倉庫に実在庫が不足している場合、店舗スタッフはリテールポータルで次の操作を行います。</p>
@@ -2213,7 +2213,7 @@ strong{color:#0b2d4d}
 <ul><li>タブは「すべて」のみ</li><li>「会員ランク算出ルールを作成する」ボタンから作成フォームへ遷移する</li></ul>
 <hr>
 <h4 id="01_by_feature_______md__5">会員ランク算出ルール作成フォーム（<code>/admin/customer_rank_calculation_rules/create</code>）</h4>
-<p><img src="../_analysis/screenshots/crm-rank-create.png" alt="会員ランク算出ルール作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm-rank-create.png" alt="会員ランク算出ルール作成フォーム" loading="lazy"></p>
 <h5 id="01_by_feature_______md__6">ルール</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>タイトル</td><td>ルールの管理名</td><td>必須（★）</td><td>テキスト</td></tr><tr><td>算出方法</td><td>ランクを算出する基準</td><td>—</td><td>ラジオボタン。選択肢: 「購入金額」/ 「獲得ポイント」。現在どちらも変更できない状態（購入金額固定）</td></tr><tr><td>税抜き価格でランクを算出する</td><td>税抜き金額でランクを計算するかどうか</td><td>任意</td><td>チェックボックス。OFFの場合は税込み金額で計算する</td></tr></tbody></table></div>
 <h5 id="01_by_feature_______md__7">算出期間</h5>
@@ -2224,7 +2224,7 @@ strong{color:#0b2d4d}
 <hr>
 <h4 id="01_by_feature_______md__9">算出ルール詳細ページ（<code>/admin/customer_rank_calculation_rules/{id}</code>）</h4>
 <p>算出ルールを保存すると詳細ページに遷移する。詳細ページには以下の情報が表示される。</p>
-<p><img src="../_analysis/screenshots/crm2-rank-detail.png" alt="会員ランク算出ルール詳細ページ" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm2-rank-detail.png" alt="会員ランク算出ルール詳細ページ" loading="lazy"></p>
 <h5 id="01_by_feature_______md__10">「詳細」セクションの表示項目</h5>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>説明</th></tr></thead><tbody><tr><td>テナント数</td><td>紐付いているテナント数</td></tr><tr><td>算出方法</td><td>購入金額（現在は固定）</td></tr><tr><td>算出期間</td><td>例: 「1月から1年間」</td></tr><tr><td>算出タイミング</td><td>「リアルタイムに算出」（設定項目なし）</td></tr><tr><td>税金処理</td><td>「消費税を含む」（税抜きチェックがOFFの場合）</td></tr><tr><td>会員ランクの持ち越し</td><td>「無効」または「有効」</td></tr></tbody></table></div>
 <p>右上の操作ボタンをクリックするとドロップダウンが展開し、「ルールを編集」（<code>/update</code> へ遷移）と「ルールを削除」が表示される。</p>
@@ -2237,7 +2237,7 @@ strong{color:#0b2d4d}
 <h4 id="01_by_feature_______md__13">ランクの段階（会員ランク追加フォーム）</h4>
 <p>URL: <code>/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create</code></p>
 <p>ランクの段階を追加するフォーム。ページタイトル（h1）は「会員ランク算出ルールを作成する」と表示される（算出ルール本体の作成フォームと同じ文言になっているが、入力項目が異なる）。</p>
-<p><img src="../_analysis/screenshots/crm2-rank-tier-create.png" alt="会員ランク追加フォーム（表示名・購入金額）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm2-rank-tier-create.png" alt="会員ランク追加フォーム（表示名・購入金額）" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>表示名</td><td>ランク名</td><td>必須（★）</td><td>テキスト。プレースホルダ: 「ブロンズ」</td></tr><tr><td>購入金額</td><td>達成に必要な購入金額</td><td>必須（★）</td><td>数値。ラベル形式: 「[n] 円以上で達成」</td></tr></tbody></table></div>
 <hr>
 <h4 id="01_by_feature_______md__14">初期ランク（Bronze）の制約</h4>
@@ -2271,7 +2271,7 @@ strong{color:#0b2d4d}
 <blockquote><strong>注意:</strong> 会社一覧で行選択しても、会社本体を削除する通常操作は確認できていません。削除導線は表示・実行できない状態です。</blockquote>
 <hr>
 <h3 id="01_by_feature____md__7">会社作成フォーム（/admin/companies/create）</h3>
-<p><img src="../_analysis/screenshots/companies-create-form.png" alt="「会社を作成する」フォーム（会社情報・担当者・ロケーション・配送先住所・請求先住所）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/companies-create-form.png" alt="「会社を作成する」フォーム（会社情報・担当者・ロケーション・配送先住所・請求先住所）" loading="lazy"></p>
 <p>「会社を作成する」ボタンから遷移します。入力後「保存する」で会社が作成されます。</p>
 <h4 id="01_by_feature____md__8">会社情報</h4>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>補足</th></tr></thead><tbody><tr><td>会社名</td><td>必須（*）</td><td>請求書・配送ラベルに表示されます</td></tr><tr><td>会社ID</td><td>任意</td><td>外部IDがある場合に登録します</td></tr><tr><td>担当者</td><td>任意</td><td>検索テキストボックスで顧客を紐付けます</td></tr></tbody></table></div>
@@ -2284,7 +2284,7 @@ strong{color:#0b2d4d}
 <p>「配送先住所と同じ」チェックボックスがあり、デフォルトでチェック済みです。チェックを外すと配送先住所と同一の項目が展開され、個別に入力できます。</p>
 <hr>
 <h3 id="01_by_feature____md__12">会社詳細画面（/admin/companies/{id}）</h3>
-<p><img src="../_analysis/screenshots/gap-company-detail-top.png" alt="会社詳細画面（直近の注文・ロケーション・担当者と右サイドバー）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-company-detail-top.png" alt="会社詳細画面（直近の注文・ロケーション・担当者と右サイドバー）" loading="lazy"></p>
 <h4 id="01_by_feature____md__13">ページヘッダー</h4>
 <ul><li>会社名が大見出しで表示されます</li><li>「2026年XX月XX日から顧客」（作成日）がサブテキストとして表示されます</li></ul>
 <h4 id="01_by_feature____md__14">左カラム（メインコンテンツ）</h4>
@@ -2299,7 +2299,7 @@ strong{color:#0b2d4d}
 <p>続いて「配送先住所」と「請求先住所」（デフォルトで配送先と同じ）を入力します。</p>
 <hr>
 <h3 id="01_by_feature____md__18">担当者の追加</h3>
-<p><img src="../_analysis/screenshots/gap-company-detail-add-contact-dialog.png" alt="「担当者を作成する」ダイアログ（姓・名・メールアドレス・電話番号）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-company-detail-add-contact-dialog.png" alt="「担当者を作成する」ダイアログ（姓・名・メールアドレス・電話番号）" loading="lazy"></p>
 <p>会社詳細の「担当者を追加」ボタンを押すと「担当者を作成する」ダイアログが開きます。</p>
 <h4 id="01_by_feature____md__19">担当者を作成するダイアログの入力項目</h4>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>プレースホルダー</th></tr></thead><tbody><tr><td>姓</td><td>必須（*）</td><td>山田</td></tr><tr><td>名</td><td>必須（*）</td><td>花子</td></tr><tr><td>メールアドレス</td><td>必須（*）</td><td>you@company.com</td></tr><tr><td>電話番号</td><td>任意</td><td>09012345678</td></tr></tbody></table></div>
@@ -2334,7 +2334,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>場所</th><th>表示名</th></tr></thead><tbody><tr><td>サイドナビ</td><td>会計</td></tr><tr><td>サブメニュー</td><td>売上実績</td></tr><tr><td>画面見出し（h1）</td><td>売上実績</td></tr></tbody></table></div>
 <ul><li>サイドナビの「会計」とサブメニューの「売上実績」は同じ画面（<code>/admin/sale_change_line_items</code>）に遷移します。</li><li>現在の「会計」機能は「売上実績」のみで構成されており、サブページは1つです。</li></ul>
 <h4 id="01_by_feature__________md__5">売上実績 一覧画面</h4>
-<p><img src="../_analysis/screenshots/gap-accounting-empty-list.png" alt="売上実績の一覧画面（データ0件の空状態。「売上実績を作成する」リンクから遷移できない）" loading="lazy"> <img src="../_analysis/screenshots/verify-sale-change-line-items-2026-06-19.png" alt="売上実績画面。エクスポートボタンとhrefなしの「売上実績を作成する」リンク、空状態が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-accounting-empty-list.png" alt="売上実績の一覧画面（データ0件の空状態。「売上実績を作成する」リンクから遷移できない）" loading="lazy"> <img src="_analysis/screenshots/verify-sale-change-line-items-2026-06-19.png" alt="売上実績画面。エクスポートボタンとhrefなしの「売上実績を作成する」リンク、空状態が表示される" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>タブ</td><td>なし</td></tr><tr><td>空状態の文言</td><td>「アイテムが見つかりませんでした」「絞り込みや検索ワードを変更してみてください」</td></tr><tr><td>テーブル列の構成</td><td></td></tr></tbody></table></div>
 <h4 id="01_by_feature__________md__6">「売上実績を作成する」ボタン</h4>
 <ul><li>画面上に「売上実績を作成する」リンクボタンが表示されますが、現在は DOM 上に <code>href</code> がなく、クリックしても操作できません。</li><li><code>/admin/sale_change_line_items/create</code> に直接アクセスすると「このページは存在しないようです」画面になります。</li><li>手動での売上実績作成は現時点ではできません。</li></ul>
@@ -2352,7 +2352,7 @@ strong{color:#0b2d4d}
 <ul><li>入荷指示の一覧をステータス別タブで確認する</li><li>入荷指示の詳細から入荷実績を登録し、ステータスを入荷完了にする</li><li>移動伝票がキャンセルされた入荷指示を「キャンセル」タブで確認する</li></ul>
 <h3 id="01_by_feature______md__3">画面・項目の説明</h3>
 <h4 id="01_by_feature______md__4">ステータスタブ</h4>
-<p><img src="../_analysis/screenshots/audit-purchase-ops-09-inbound-tabs.png" alt="入荷管理のステータスタブ（入荷待ち・入荷依頼済み・入荷作業中・要対応・入荷完了・キャンセル）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/audit-purchase-ops-09-inbound-tabs.png" alt="入荷管理のステータスタブ（入荷待ち・入荷依頼済み・入荷作業中・要対応・入荷完了・キャンセル）" loading="lazy"></p>
 <p>入荷指示はステータスによって 6 つのタブに分類されます。</p>
 <div class="tablewrap"><table><thead><tr><th>タブ名</th><th>説明</th></tr></thead><tbody><tr><td>入荷待ち</td><td>入荷作業を待っている入荷指示</td></tr><tr><td>入荷依頼済み</td><td>入荷依頼を済ませた入荷指示</td></tr><tr><td>入荷作業中</td><td>入荷作業中の入荷指示</td></tr><tr><td>要対応</td><td>対応が必要な入荷指示</td></tr><tr><td>入荷完了</td><td>入荷実績が登録された入荷指示</td></tr><tr><td>キャンセル</td><td>キャンセルされた入荷指示</td></tr></tbody></table></div>
 <h4 id="01_by_feature______md__5">一覧の「種別」列</h4>
@@ -2360,10 +2360,10 @@ strong{color:#0b2d4d}
 <h4 id="01_by_feature______md__6">サイドバーの未完了バッジ</h4>
 <p>サイドナビの「入荷管理」横に未完了の入荷指示件数がバッジ表示されます。0 件のときはバッジが非表示になります。件数が 100 を超える場合は「100+」と表示されます。この仕様は出荷管理と同じです。</p>
 <h4 id="01_by_feature______md__7">「入荷実績を登録する」ボタン（入荷指示詳細）</h4>
-<p><img src="../_analysis/screenshots/flow-05-inbound-detail.png" alt="入荷指示詳細画面。右上に「入荷実績を登録する」ボタンが表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-05-inbound-detail.png" alt="入荷指示詳細画面。右上に「入荷実績を登録する」ボタンが表示される" loading="lazy"></p>
 <p>入荷指示の詳細画面右上に表示されます。実機では、入荷実績を登録するフォームへ遷移して数量を入力するパターンと、一括受領・完了更新の確認画面へ遷移するパターンを確認しています。</p>
 <p>確認画面には「この処理は巻き戻すことができません。」という注意文が明記されています。「登録する」または完了系の実行ボタンを押すと入荷実績が記録されます。</p>
-<p><img src="../_analysis/screenshots/flow-05-inbound-dialog.png" alt="「入荷実績を登録する」確認ダイアログ。「この処理は巻き戻すことができません。」の注意文が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-05-inbound-dialog.png" alt="「入荷実績を登録する」確認ダイアログ。「この処理は巻き戻すことができません。」の注意文が表示される" loading="lazy"></p>
 <p>登録後の変化は次のとおりです。</p>
 <ul><li>予定数どおりに受領した場合、入荷指示のステータスが「入荷完了」になる</li><li>一部だけ受領した場合、入荷指示は「入荷待ち」のまま残る</li><li>予定数より多い数量も登録できる。過入荷でも自動完了せず、必要に応じて「完了に更新する」を実行する</li><li>紐づく移動伝票は、出荷指示と入荷指示の両方が完了した時点で完了になる</li></ul>
 <p>2026-06-18の実機確認では、次の挙動を確認しています。</p>
@@ -2380,14 +2380,14 @@ strong{color:#0b2d4d}
 <ul><li>出荷指示の一覧をステータス別タブで確認する</li><li>出荷指示の詳細から出荷実績（配送キャリア・追跡コード）を登録し、ステータスを出荷完了にする</li><li>ヤマトB2クラウドまたは DHL の出荷実績 CSV をインポートして出荷実績を一括登録する</li><li>条件を指定してヤマトB2クラウド取り込み用 CSV を生成する</li></ul>
 <h3 id="01_by_feature______md__3">画面・項目の説明</h3>
 <h4 id="01_by_feature______md__4">ステータスタブ</h4>
-<p><img src="../_analysis/screenshots/audit-purchase-ops-06-outbound-tabs.png" alt="出荷管理のステータスタブ（保留中・出荷待ち・依頼済み・作業中・欠品・要対応・出荷完了）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/audit-purchase-ops-06-outbound-tabs.png" alt="出荷管理のステータスタブ（保留中・出荷待ち・依頼済み・作業中・欠品・要対応・出荷完了）" loading="lazy"></p>
 <p>出荷指示はステータスによって 6 つのタブに分類されます。</p>
 <div class="tablewrap"><table><thead><tr><th>タブ名</th><th>説明</th></tr></thead><tbody><tr><td>保留中</td><td>出荷作業を保留している出荷指示</td></tr><tr><td>出荷待ち</td><td>出荷作業を待っている出荷指示</td></tr><tr><td>依頼済み</td><td>出荷依頼を済ませた出荷指示</td></tr><tr><td>作業中</td><td>出荷作業中の出荷指示</td></tr><tr><td>欠品・要対応</td><td>欠品など対応が必要な出荷指示</td></tr><tr><td>出荷完了</td><td>出荷実績が登録された出荷指示</td></tr></tbody></table></div>
 <p>キャンセルタブは一覧に存在しません。移動伝票がキャンセルされた出荷指示は一覧タブには表示されません。ただし、移動伝票詳細などの関連リンクや直接URLからは、キャンセル済みの出荷指示詳細を開ける場合があります。条件指定エクスポートには出荷作業ステータス「キャンセル済み」の選択肢があります。</p>
 <h4 id="01_by_feature______md__5">サイドバーの未完了バッジ</h4>
 <p>サイドナビの「出荷管理」横に未完了の出荷指示件数がバッジ表示されます。0 件のときはバッジが非表示になります。件数が 100 を超える場合は「100+」と表示されます。</p>
 <h4 id="01_by_feature______md__6">「インポート」ボタン（ドロップダウン）</h4>
-<p><img src="../_analysis/screenshots/gap-purchase-ops-15-outbound-import-dropdown.png" alt="「インポート」ボタンのドロップダウン（ヤマトB2クラウド（出荷実績）・DHL（出荷実績））" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-purchase-ops-15-outbound-import-dropdown.png" alt="「インポート」ボタンのドロップダウン（ヤマトB2クラウド（出荷実績）・DHL（出荷実績））" loading="lazy"></p>
 <p>出荷実績 CSV をインポートします。クリックすると 2 種類の選択肢が表示されます。</p>
 <div class="tablewrap"><table><thead><tr><th>選択肢</th><th>遷移先</th></tr></thead><tbody><tr><td>ヤマトB2クラウド（出荷実績）</td><td>ヤマトB2クラウドの出荷実績インポート画面</td></tr><tr><td>DHL（出荷実績）</td><td>DHL の出荷実績インポート画面</td></tr></tbody></table></div>
 <p>いずれの画面でも「新規インポート」から CSV ファイルをアップロードして出荷実績を一括登録できます。アップロードするファイルはCSV ファイルのみです。</p>
@@ -2400,7 +2400,7 @@ strong{color:#0b2d4d}
 <ul><li>ヤマトB2クラウド取り込み用 CSV</li></ul>
 <p>納品書PDFについては、2026-06-16の実機確認ではPDFエクスポート画面・出荷完了済み出荷指示詳細のどちらにも新規生成導線を確認できませんでした。ヤマトB2クラウドCSVと納品書PDFが必ず同時生成されるとは案内しないでください。</p>
 <h4 id="01_by_feature______md__9">「出荷実績を登録する」ボタン（出荷指示詳細）</h4>
-<p><img src="../_analysis/screenshots/flow-06-outbound-shipment-dialog.png" alt="「出荷実績を登録する」ダイアログ（配送キャリア・追跡コード）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-06-outbound-shipment-dialog.png" alt="「出荷実績を登録する」ダイアログ（配送キャリア・追跡コード）" loading="lazy"></p>
 <p>出荷指示の詳細画面右上に表示されます。クリックするとダイアログが開きます。</p>
 <h5 id="01_by_feature______md__10">ダイアログの入力項目</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>説明</th></tr></thead><tbody><tr><td>配送キャリア</td><td>任意</td><td>配送業者名（空でも登録可）</td></tr><tr><td>追跡コード</td><td>任意</td><td>荷物追跡番号（空でも登録可）</td></tr></tbody></table></div>
@@ -2424,7 +2424,7 @@ strong{color:#0b2d4d}
 <h4 id="01_by_feature______md__6">作成フォーム（<code>/admin/inventory_reservation_orders/create</code>）</h4>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・補足</th></tr></thead><tbody><tr><td>ロケーション</td><td>在庫を確保するロケーション（「ロケーションを選択してください」）</td><td>必須</td><td>「選択」ボタンからロケーション選択モーダルを使う</td></tr><tr><td>メモ</td><td>取置の目的や補足事項を記録する自由記述欄（「例: 店舗での取置用在庫」）</td><td>任意</td><td>テキストエリア。調整伝票の「理由」に相当する選択肢欄はなく、自由記述のみ</td></tr><tr><td>商品（商品を検索する）</td><td>取り置く商品を指定する</td><td>必須（1件以上）</td><td>テキスト検索または「参照」ボタンで商品を選ぶ。数量0は保存不可</td></tr></tbody></table></div>
 <blockquote>調整伝票と異なり「理由」の選択肢フィールドはありません。</blockquote>
-<p><img src="../_analysis/screenshots/04-reservation-order-create-form.png" alt="取置伝票の作成フォーム。ロケーション・メモ・商品の各欄がある" loading="lazy"></p>
+<p><img src="_analysis/screenshots/04-reservation-order-create-form.png" alt="取置伝票の作成フォーム。ロケーション・メモ・商品の各欄がある" loading="lazy"></p>
 <p>空のまま保存すると、ロケーション欄に「ロケーションを選択してください」、商品欄に「商品を1つ以上選択してください」と表示される。商品を選択して数量0で保存すると「数量は1以上を入力してください」と表示される。メモは任意。</p>
 <h4 id="01_by_feature______md__7">操作ボタン（作成フォーム）</h4>
 <div class="tablewrap"><table><thead><tr><th>ボタン（UIラベル）</th><th>操作</th></tr></thead><tbody><tr><td>選択</td><td>ロケーション選択モーダルを開く</td></tr><tr><td>参照</td><td>商品選択モーダルを開く</td></tr><tr><td>保存する</td><td>取置伝票を保存して一覧画面に戻る。保存後は「取置伝票を作成しました」と表示される</td></tr></tbody></table></div>
@@ -2451,7 +2451,7 @@ strong{color:#0b2d4d}
 <ul><li>商品の一覧表示・ステータス別の絞り込み（タブ切替）</li><li>商品コードによる検索</li><li>商品の新規作成・編集・アーカイブ・削除</li><li>バリエーション（サイズ・カラーなど）の追加・編集</li><li>CSVによる商品データの一括インポート</li></ul>
 <hr>
 <h3 id="01_by_feature______md__3">商品一覧（/admin/products）</h3>
-<p><img src="../_analysis/screenshots/02-products-list.png" alt="商品一覧画面。上部に「すべて」「公開中」「下書き」「アーカイブ済み」のタブ、右上に「インポート」「商品を作成する」ボタン" loading="lazy"></p>
+<p><img src="_analysis/screenshots/02-products-list.png" alt="商品一覧画面。上部に「すべて」「公開中」「下書き」「アーカイブ済み」のタブ、右上に「インポート」「商品を作成する」ボタン" loading="lazy"></p>
 <h4 id="01_by_feature______md__4">タブ</h4>
 <div class="tablewrap"><table><thead><tr><th>タブ名</th><th>表示対象</th></tr></thead><tbody><tr><td>すべて</td><td>ステータスを問わず全商品</td></tr><tr><td>公開中</td><td>ステータスが公開中の商品</td></tr><tr><td>下書き</td><td>ステータスが下書きの商品</td></tr><tr><td>アーカイブ済み</td><td>アーカイブ済みの商品</td></tr></tbody></table></div>
 <h4 id="01_by_feature______md__5">一覧の列</h4>
@@ -2463,7 +2463,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>項目ラベル</th><th>用途</th></tr></thead><tbody><tr><td>商品</td><td>商品データをCSVでインポートする</td></tr><tr><td>商品画像</td><td>商品画像の割り当てをCSVでインポートする</td></tr><tr><td>商品バリエーション</td><td>バリエーションデータをCSVでインポートする</td></tr><tr><td>商品メタフィールド</td><td>商品のメタフィールドをCSVでインポートする</td></tr><tr><td>商品バリエーションメタフィールド</td><td>バリエーションのメタフィールドをCSVでインポートする</td></tr></tbody></table></div>
 <hr>
 <h3 id="01_by_feature______md__8">商品作成フォーム（/admin/products/create）</h3>
-<p><img src="../_analysis/screenshots/03-product-create-form.png" alt="商品作成フォーム。基本情報・メディア・バリエーション・検索エンジンリスティングの各セクションと、右サイドバーのステータス・商品分類・タグ" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-product-create-form.png" alt="商品作成フォーム。基本情報・メディア・バリエーション・検索エンジンリスティングの各セクションと、右サイドバーのステータス・商品分類・タグ" loading="lazy"></p>
 <h4 id="01_by_feature______md__9">基本情報</h4>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>制約・説明</th></tr></thead><tbody><tr><td>商品コード*</td><td>必須</td><td>半角英数字・ハイフン・アンダースコアのみ使用可（例: 7835152003XL180）</td></tr><tr><td>商品名*</td><td>必須</td><td>テキスト（例: 半袖Tシャツ）</td></tr><tr><td>説明文</td><td>任意</td><td>テキストエリア、5000字上限</td></tr></tbody></table></div>
 <h4 id="01_by_feature______md__10">メディア</h4>
@@ -2493,7 +2493,7 @@ strong{color:#0b2d4d}
 <p>商品詳細画面の「その他の操作」ボタンから以下の操作ができます。</p>
 <div class="tablewrap"><table><thead><tr><th>操作</th><th>説明</th></tr></thead><tbody><tr><td>商品をアーカイブする</td><td>商品をアーカイブ済みにする（取り消し可能）</td></tr><tr><td>商品を削除する</td><td>商品を完全に削除する（取り消し不可）</td></tr></tbody></table></div>
 <p>アーカイブ済みの商品の「その他の操作」では「商品のアーカイブを解除する」が表示されます。</p>
-<p><img src="../_analysis/screenshots/03-product-archive-dialog.png" alt="「商品をアーカイブしますか?」確認ダイアログ。「キャンセル」と「商品をアーカイブする」ボタン" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-product-archive-dialog.png" alt="「商品をアーカイブしますか?」確認ダイアログ。「キャンセル」と「商品をアーカイブする」ボタン" loading="lazy"></p>
 <p>アーカイブ解除時は、確認ダイアログに「この商品のアーカイブを解除すると、ステータスが下書きに変更され再び作業できるようになります。」と表示されます。実行後のステータスは「下書き」です。</p>
 <p>削除時は確認ダイアログ「商品を削除しますか？」が表示され、本文に「この商品を削除しますか？」「この処理は巻き戻すことができません。」と表示されます。ボタンは「キャンセル」「削除する」です。削除後は商品一覧へ戻り、削除済み商品の詳細URLへ直接アクセスすると「予期せぬエラーが発生しました」「該当するProductが見つかりませんでした。」と表示されます。</p>
 <hr>
@@ -2540,7 +2540,7 @@ strong{color:#0b2d4d}
 <h4 id="01_by_feature______md__5">サブメニュー「確保済み」（/admin/inventory_allocation_request_confirmations）</h4>
 <p>左サイドバーの「在庫依頼」配下に「確保済み」サブメニューがある。引当て完了済みの在庫をまとめて確認し、移動伝票を一括作成する専用画面。</p>
 <div class="tablewrap"><table><thead><tr><th>列名</th><th>内容</th></tr></thead><tbody><tr><td>商品</td><td>商品名・バリエーション情報</td></tr><tr><td>SKU</td><td>SKUコード</td></tr><tr><td>確保数</td><td>引当て済みの数量</td></tr><tr><td>移動元</td><td>引当て元ロケーション</td></tr><tr><td>移動先</td><td>在庫を届けるロケーション</td></tr><tr><td>確保日時</td><td>引当てが完了した日時</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/flow-02-kakuho-list.png" alt="「確保済み」一覧画面。商品・SKU・確保数・移動元・移動先・確保日時の列と「移動伝票を作成する」ボタンが表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-02-kakuho-list.png" alt="「確保済み」一覧画面。商品・SKU・確保数・移動元・移動先・確保日時の列と「移動伝票を作成する」ボタンが表示される" loading="lazy"></p>
 <hr>
 <h3 id="01_by_feature______md__6">作成フォームの項目（/admin/inventory_allocation_requests/create）</h3>
 <p>右上の「在庫依頼を作成する」から遷移する。</p>
@@ -2556,7 +2556,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>作成フォームのラベル</th><th>詳細画面でのラベル</th></tr></thead><tbody><tr><td>移動先ロケーション</td><td>引当先ロケーション</td></tr><tr><td>リクエスト先ロケーション</td><td>依頼先</td></tr></tbody></table></div>
 <p>依頼直後の詳細画面には次の情報が表示される。</p>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>引当先ロケーション</td><td>在庫の届け先</td></tr><tr><td>確保済み数量</td><td>引当て済み数 / 希望数（例: 0 / 2 点）</td></tr><tr><td>残り確保数</td><td>まだ引当てが必要な数量</td></tr><tr><td>チャネル</td><td>依頼の発生元（例: web-admin）</td></tr><tr><td>依頼先</td><td>リクエスト先として指定したロケーション名</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/flow-01-allocation-request-created.png" alt="在庫依頼の詳細画面（確認待ち）。引当先ロケーション・確保済み数量・残り確保数・チャネル・依頼先が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-01-allocation-request-created.png" alt="在庫依頼の詳細画面（確認待ち）。引当先ロケーション・確保済み数量・残り確保数・チャネル・依頼先が表示される" loading="lazy"></p>
 <hr>
 <h3 id="01_by_feature______md__10">ステータス遷移</h3>
 <pre><code>在庫依頼を作成
@@ -2572,7 +2572,7 @@ strong{color:#0b2d4d}
 <p>詳細画面右上の「在庫を引当てる」をクリックするとダイアログが開く。</p>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>ロケーション</td><td>選択肢はリクエスト先として指定したロケーションのみ表示される</td></tr><tr><td>数量</td><td>数値入力。上限は希望数まで</td></tr></tbody></table></div>
 <p>「引当てる」ボタンで確定すると確保済み数量が増えます。希望数全量を引当てるとステータスが「確保済み」に変わります（部分引当では「確認待ち」のまま。詳細は補足を参照）。</p>
-<p><img src="../_analysis/screenshots/flow-02-hikiate-dialog.png" alt="「在庫を引当てる」ダイアログ。ロケーションと数量を指定して「引当てる」で確定する" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-02-hikiate-dialog.png" alt="「在庫を引当てる」ダイアログ。ロケーションと数量を指定して「引当てる」で確定する" loading="lazy"></p>
 <hr>
 <h3 id="01_by_feature______md__12">クローズ操作（在庫依頼をクローズする）</h3>
 <p>詳細画面の「その他の操作」メニューに「在庫依頼をクローズする」がある。</p>
@@ -2603,14 +2603,14 @@ strong{color:#0b2d4d}
 <h5 id="01_by_feature______md__8">一覧テーブルの列</h5>
 <div class="tablewrap"><table><thead><tr><th>列名</th><th>内容</th></tr></thead><tbody><tr><td>（チェックボックス）</td><td>行選択。全選択しても一括操作ボタンは表示されない</td></tr><tr><td>商品</td><td>サムネイル + 商品名 + バリエーション名（カラー / サイズ）</td></tr><tr><td>品番（SKU）</td><td>SKUコード</td></tr><tr><td>販売可能</td><td>販売可能な在庫数（鉛筆アイコン付き）</td></tr><tr><td>引当済み</td><td>注文に引き当て済みの在庫数（旧「確定済み」）</td></tr><tr><td>取置中</td><td>取置・移動用に確保された在庫数（旧「確保済み」）</td></tr><tr><td>手持ち</td><td>手元にある実在庫数</td></tr></tbody></table></div>
 <blockquote><strong>2026-06-14更新</strong>: 一覧の列が「販売可能 / 引当済み / 取置中 / 手持ち」に変わりました（旧: 販売不可 / 確定済み / 販売可能 / 手持ち。「販売不可」合算列は廃止）。 行をクリックすると在庫詳細画面（<code>/admin/inventory_items/[id]</code>）へ遷移します。</blockquote>
-<p><img src="../_analysis/screenshots/verify-inventory_list-2026-06-19.png" alt="在庫管理の一覧画面。商品・品番（SKU）・販売可能・引当済み・取置中・手持ちの列が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/verify-inventory_list-2026-06-19.png" alt="在庫管理の一覧画面。商品・品番（SKU）・販売可能・引当済み・取置中・手持ちの列が表示される" loading="lazy"></p>
 <h5 id="01_by_feature______md__9">インポート・エクスポート</h5>
 <div class="tablewrap"><table><thead><tr><th>ラベル</th><th>遷移先</th></tr></thead><tbody><tr><td>インポート</td><td><code>/admin/csv_import/csv_import_operation_inventory_logical_available_quantities</code></td></tr><tr><td>エクスポート</td><td><code>/admin/csv_export/csv_export_operation_inventory_logical_quantities</code></td></tr></tbody></table></div>
 <hr>
 <h4 id="01_by_feature______md__10">ロケーション切替モーダル</h4>
 <p>一覧ヘッダーのロケーション名ボタン（例: 「<strong>物流倉庫 ▼</strong>」）をクリックすると「<strong>ロケーションを選択する</strong>」モーダルが開きます。</p>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>タブ</td><td>すべて / 店舗 / 倉庫 の3種。タブで種別を絞り込める</td></tr><tr><td>列</td><td>名前 / 場所コード</td></tr><tr><td>ボタン</td><td>キャンセル / 選択する</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/gap-inventory-02-location-modal-all.png" alt="「ロケーションを選択する」モーダル。すべて／店舗／倉庫のタブと、名前・場所コードの列が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-inventory-02-location-modal-all.png" alt="「ロケーションを選択する」モーダル。すべて／店舗／倉庫のタブと、名前・場所コードの列が表示される" loading="lazy"></p>
 <hr>
 <h4 id="01_by_feature______md__11">在庫詳細画面（/admin/inventory_items/[id]）</h4>
 <p>特定のSKUの在庫数をロケーション別に確認・操作する画面です。</p>
@@ -2623,7 +2623,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>列名</th><th>内容</th></tr></thead><tbody><tr><td>ロケーション</td><td>ロケーション名</td></tr><tr><td>販売可能</td><td>販売できる在庫数（鉛筆アイコン付き）</td></tr><tr><td>引当済み</td><td>注文に引き当て済みの在庫数（旧「確定済み」）</td></tr><tr><td>取置中</td><td>取置・移動用に確保された在庫数（旧「確保済み」）</td></tr><tr><td>破損</td><td>破損品の在庫数</td></tr><tr><td>検品</td><td>検品中の在庫数</td></tr><tr><td>予備</td><td>予備在庫の数</td></tr><tr><td>手持ち</td><td>実在庫合計（= 販売可能 + 引当済み + 取置中 + 破損 + 検品 + 予備）</td></tr><tr><td>積送中</td><td>出荷済み・入荷前の<strong>輸送中の数</strong>（移動先で計上・手持ちに含まれない）</td></tr><tr><td>入荷予定</td><td>移動伝票作成〜出荷前の<strong>入荷予定数</strong>（移動先で計上・手持ちに含まれない）</td></tr></tbody></table></div>
 <p><strong>手持ちの計算式</strong>（積送中・入荷予定は含まない）</p>
 <pre><code>手持ち = 販売可能 + 引当済み + 取置中 + 破損 + 検品 + 予備</code></pre>
-<p><img src="../_analysis/screenshots/verify-inventory-detail-2026-06-19.png" alt="在庫詳細画面。ロケーション別に販売可能・引当済み・取置中・破損・検品・予備・手持ち・積送中・入荷予定が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/verify-inventory-detail-2026-06-19.png" alt="在庫詳細画面。ロケーション別に販売可能・引当済み・取置中・破損・検品・予備・手持ち・積送中・入荷予定が表示される" loading="lazy"></p>
 <p>例（物流倉庫、SKU: 486125-09-XL）:</p>
 <ul><li>手持ち 7 = 販売可能 7（他区分はすべて 0。2026-06-15時点の検証環境データ）</li></ul>
 <hr>
@@ -2670,14 +2670,14 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>備考</th></tr></thead><tbody><tr><td>検索と絞り込みの結果</td><td>クリックすると検索バーと「絞り込みを追加」ボタンを展開する</td><td>フィルター非表示時はこのボタンのみ表示</td></tr><tr><td>注文番号で検索する</td><td>注文番号で一覧を絞り込むテキストボックス</td><td>フィルター展開時に表示</td></tr><tr><td>絞り込みを追加</td><td>絞り込み条件の選択肢を展開するドロップダウンボタン</td><td>選択肢は下表のとおり</td></tr><tr><td>キャンセル</td><td>フィルター入力を閉じる（変更を破棄）</td><td>フィルター展開時に表示</td></tr><tr><td>名前を付けて保存</td><td>現在のフィルター条件をビューとして保存する</td><td>フィルター展開時に表示。条件が空の場合は保存されない</td></tr><tr><td>前へ／次へ</td><td>ページネーションボタン。データがない場合はクリック不可</td><td></td></tr></tbody></table></div>
 <p><strong>「絞り込みを追加」の選択肢（全4種）</strong></p>
 <div class="tablewrap"><table><thead><tr><th>選択肢</th><th>絞り込みの内容</th></tr></thead><tbody><tr><td>テナント</td><td>テナントで絞り込む</td></tr><tr><td>タグ付けされている</td><td>タグが設定されている注文で絞り込む</td></tr><tr><td>タグ付けされていません</td><td>タグが設定されていない注文で絞り込む</td></tr><tr><td>チャネル</td><td>販売チャネル（Shopify等）で絞り込む</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/orders-filter-dropdown.png" alt="注文管理一覧の「絞り込みを追加」ドロップダウン（テナント・タグ付けされている・タグ付けされていません・チャネル）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/orders-filter-dropdown.png" alt="注文管理一覧の「絞り込みを追加」ドロップダウン（テナント・タグ付けされている・タグ付けされていません・チャネル）" loading="lazy"></p>
 <p><strong>タブ構成</strong></p>
 <ul><li>「すべて」タブのみ固定表示。データ量に応じてタブが増える仕様ではありません。</li></ul>
 <p><strong>空状態のメッセージ</strong></p>
 <ul><li>「アイテムが見つかりませんでした」「絞り込みや検索ワードを変更してみてください」</li></ul>
 <hr>
 <h4 id="01_by_feature______md__6">下書き（/admin/draft_orders）</h4>
-<p><img src="../_analysis/screenshots/draft-orders-list.png" alt="下書き一覧画面。右上の「注文を作成する」ボタンから遷移できない" loading="lazy"></p>
+<p><img src="_analysis/screenshots/draft-orders-list.png" alt="下書き一覧画面。右上の「注文を作成する」ボタンから遷移できない" loading="lazy"></p>
 <p>管理画面から手動で注文を起票するための画面です。</p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>備考</th></tr></thead><tbody><tr><td>注文を作成する</td><td>下書き注文の作成フォームへ進むボタン</td><td>現在は <code>href</code> がなく、クリックしても遷移しない。詳細は下記の注意点を参照</td></tr><tr><td>検索と絞り込みの結果</td><td>クリックすると「注文番号で検索する」テキストボックスを展開する</td><td></td></tr><tr><td>注文番号で検索する</td><td>注文番号で一覧を絞り込むテキストボックス</td><td>フィルター展開時に表示</td></tr><tr><td>キャンセル</td><td>フィルター入力を閉じる（変更を破棄）</td><td>フィルター展開時に表示</td></tr><tr><td>前へ／次へ</td><td>ページネーションボタン。データがない場合はクリック不可</td><td></td></tr></tbody></table></div>
 <p><strong>注文管理一覧との主な違い</strong></p>
@@ -2695,7 +2695,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>備考</th></tr></thead><tbody><tr><td>検索と絞り込みの結果</td><td>クリックすると「絞り込みを追加」と「キャンセル」ボタンを展開する</td><td>注文管理・下書きと異なり、注文番号の検索テキストボックスはなし</td></tr><tr><td>絞り込みを追加</td><td>絞り込み条件の選択肢を展開するドロップダウンボタン</td><td>選択肢は下表のとおり</td></tr><tr><td>キャンセル</td><td>フィルター入力を閉じる（変更を破棄）</td><td></td></tr><tr><td>前へ／次へ</td><td>ページネーションボタン。データがない場合はクリック不可</td><td></td></tr></tbody></table></div>
 <p><strong>「絞り込みを追加」の選択肢（2種）</strong></p>
 <div class="tablewrap"><table><thead><tr><th>選択肢</th><th>絞り込みの内容</th></tr></thead><tbody><tr><td>キャンセル</td><td>キャンセル扱いの返品で絞り込む</td></tr><tr><td>交換出荷</td><td>交換出荷を伴う返品で絞り込む</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/order-returns-filter.png" alt="返品一覧の「絞り込みを追加」ドロップダウン（キャンセル・交換出荷）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/order-returns-filter.png" alt="返品一覧の「絞り込みを追加」ドロップダウン（キャンセル・交換出荷）" loading="lazy"></p>
 <p><strong>注文管理・下書きとの主な違い</strong></p>
 <ul><li>タブが存在しない（「すべて」タブも表示されない）</li><li>注文番号の検索テキストボックスがない</li><li>返品を新規作成するボタンはない</li><li>絞り込みの選択肢が返品固有の2種類のみ</li></ul>
 <p><strong>空状態のメッセージ</strong></p>
@@ -2722,18 +2722,18 @@ strong{color:#0b2d4d}
 <p><strong>タブ</strong>: 「すべて」のみ</p>
 <p><strong>空状態の表示</strong>: 「アイテムが見つかりませんでした」</p>
 <p><strong>一覧テーブル列</strong>（実機確認 2026-06-20、<code>#IP-1000</code>〜<code>#IP-1003</code> 存在）: 管理番号 / 取引先 / ステータス / 合計金額 / 発注日 / 作成日</p>
-<p><img src="../_analysis/screenshots/11-purchase-orders-list.png" alt="発注管理の一覧画面（右上に「発注伝票を作成する」ボタン）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/11-purchase-orders-list.png" alt="発注管理の一覧画面（右上に「発注伝票を作成する」ボタン）" loading="lazy"></p>
 <p>実機では発注伝票 <code>#IP-1000</code> / <code>#IP-1001</code> / <code>#IP-1003</code> を作成し、下書き・発注済み・キャンセル済みの状態を確認しています。</p>
 <hr>
 <h4 id="01_by_feature______md__5">発注伝票 作成フォーム（/admin/inventory_purchase_orders/create）</h4>
-<p><img src="../_analysis/screenshots/12-purchase-order-create-form.png" alt="「発注伝票を作成」フォーム（取引先・テナント・通貨・商品）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/12-purchase-order-create-form.png" alt="「発注伝票を作成」フォーム（取引先・テナント・通貨・商品）" loading="lazy"></p>
 <h5 id="01_by_feature______md__6">取引先・基本情報</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>取引先*</td><td>仕入先となる取引先をマスタから選択する</td><td>必須</td><td>コンボボックス（「設定 &gt; 取引先」に登録された取引先が選択肢に表示される）</td></tr><tr><td>テナント*</td><td>発注を紐付けるテナントを選択する</td><td>必須</td><td>コンボボックス</td></tr><tr><td>通貨</td><td>発注伝票で使用する通貨を選択する</td><td>任意</td><td>米ドル / ユーロ / 日本円 / タイ バーツ / シンガポール ドル（デフォルト: 日本円）</td></tr></tbody></table></div>
 <h5 id="01_by_feature______md__7">商品セクション</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>商品を追加する</td><td>発注する商品バリエーションをテキスト検索または「参照」ボタンで追加する</td><td>必須（1件以上）</td><td>テキスト検索 + 「参照」ボタン</td></tr><tr><td>単価（明細行）</td><td>商品1点あたりの仕入価格</td><td>—</td><td>数値入力</td></tr><tr><td>数量（明細行）</td><td>発注数量</td><td>—</td><td>数値入力</td></tr><tr><td>税率（明細行）</td><td>消費税率</td><td>—</td><td>初期値: 10%</td></tr><tr><td>金額（明細行）</td><td>単価 × 数量の税抜き金額（読み取り専用）</td><td>—</td><td>単価・数量の変更に連動してリアルタイムで更新される</td></tr></tbody></table></div>
 <p><strong>「参照」ボタンで開くバリエーション選択ダイアログ</strong></p>
 <div class="tablewrap"><table><thead><tr><th>要素</th><th>説明</th></tr></thead><tbody><tr><td>検索ボックス</td><td>「SKUコードで検索する」</td></tr><tr><td>絞り込みを追加</td><td>選択肢は「商品コード」のみ。選択すると商品コード入力欄と「検索」「クリア」ボタンが追加される</td></tr><tr><td>テーブル列</td><td>バリエーション / 商品コード / SKU</td></tr><tr><td>フッターボタン</td><td>「キャンセル」「選択する」</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/gap-purchase-ops-05-variant-picker-dialog.png" alt="「バリエーションを選択する」ダイアログ（SKUコード検索とバリエーション一覧）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-purchase-ops-05-variant-picker-dialog.png" alt="「バリエーションを選択する」ダイアログ（SKUコード検索とバリエーション一覧）" loading="lazy"></p>
 <h5 id="01_by_feature______md__8">フォーム下部ボタン</h5>
 <div class="tablewrap"><table><thead><tr><th>ボタン</th><th>動作</th></tr></thead><tbody><tr><td>取り消す</td><td>フォームを閉じ、一覧画面へ戻る</td></tr><tr><td>作成する</td><td>発注伝票を下書きとして保存する</td></tr></tbody></table></div>
 <h5 id="01_by_feature______md__9">空のまま「作成する」を押したときのバリデーションエラー</h5>
@@ -2774,7 +2774,7 @@ strong{color:#0b2d4d}
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・補足</th></tr></thead><tbody><tr><td>配送元</td><td>在庫の移動元ロケーション（「配送元を選択してください」）</td><td>必須</td><td>「選択」ボタンからロケーション選択モーダルを使う。配送元を先に選択しないと商品欄がグレーアウトする</td></tr><tr><td>配送先</td><td>在庫の移動先ロケーション（「配送先を選択してください」）</td><td>必須</td><td>「選択」ボタンからロケーション選択モーダルを使う。配送元と同じロケーションも選択でき、保存時も拒否されない</td></tr><tr><td>商品を追加</td><td>移動する商品の指定</td><td>必須（1件以上）</td><td>配送元を選択するまでdisabled。テキスト検索または「参照」ボタンで商品を選ぶ。数量0は保存不可</td></tr></tbody></table></div>
 <blockquote>注意: 配送元と配送先に同じロケーションを選択してもUIレベル・保存時ともにエラーにならず、移動伝票・出荷指示・入荷指示が作成されます。誤作成した場合は詳細の「その他の操作」&gt;「キャンセル」で取り消してください。</blockquote>
 <blockquote>注意: 配送元の表示在庫が0のSKUでも、商品候補に出て移動伝票を作成できます。出荷実績登録も在庫不足でブロックされないため、マイナス在庫になり得ます。</blockquote>
-<p><img src="../_analysis/screenshots/04-movement-order-create-form.png" alt="移動伝票の作成フォーム。配送元・配送先・商品を追加の各欄があり、配送元を選択するまで商品欄はグレーアウトする" loading="lazy"></p>
+<p><img src="_analysis/screenshots/04-movement-order-create-form.png" alt="移動伝票の作成フォーム。配送元・配送先・商品を追加の各欄があり、配送元を選択するまで商品欄はグレーアウトする" loading="lazy"></p>
 <h4 id="01_by_feature______md__6">伝票詳細のステータスバッジ</h4>
 <p>単体作成した移動伝票でも、出荷実績と入荷実績を最後まで登録すると「<strong>成功 完了</strong>」と「<strong>入荷完了</strong>」の2つのバッジが並んで表示されます。</p>
 <h3 id="01_by_feature______md__7">移動伝票の2つの作られ方</h3>
@@ -2782,7 +2782,7 @@ strong{color:#0b2d4d}
 <p>在庫依頼 → 引当て → 確保済み一覧（<code>/admin/inventory_allocation_request_confirmations</code>）の「<strong>移動伝票を作成する</strong>」ボタンから自動作成されます。</p>
 <p>この場合、伝票詳細に次の注意文が表示され、商品の追加・削除などの編集ができません。</p>
 <blockquote>「この移動伝票は外部システムから連携されているため、編集（商品の追加や削除など）は制限されています。連携元システムの管理画面より操作を行ってください。」</blockquote>
-<p><img src="../_analysis/screenshots/flow-03-movement-detail.png" alt="取り寄せ販売フロー経由で自動作成された移動伝票の詳細。編集制限の注意文と、関連欄の出荷指示・入荷指示が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-03-movement-detail.png" alt="取り寄せ販売フロー経由で自動作成された移動伝票の詳細。編集制限の注意文と、関連欄の出荷指示・入荷指示が表示される" loading="lazy"></p>
 <h4 id="01_by_feature______md__9">2. 単体作成</h4>
 <p>上記フロー以外に、「<strong>移動伝票を作成する</strong>」リンクボタンから単体で作成できます。</p>
 <h3 id="01_by_feature______md__10">補足・注意点</h3>
@@ -2814,7 +2814,7 @@ strong{color:#0b2d4d}
 <hr>
 <h3 id="01_by_feature____md__3">設定トップページ</h3>
 <p>設定トップページには「組織ID」セクションがあり、組織IDと右隣のコピーボタン（クリップボードアイコン）でIDをコピーできます。</p>
-<p><img src="../_analysis/screenshots/14-settings-top.png" alt="設定トップページ" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-settings-top.png" alt="設定トップページ" loading="lazy"></p>
 <hr>
 <h3 id="01_by_feature____md__4">サブページ一覧</h3>
 <p>設定画面は以下の16サブページで構成されています。</p>
@@ -2855,7 +2855,7 @@ strong{color:#0b2d4d}
 <p>すべてのリソース: お知らせ(announcements) / アプリ(apps) / ブランド(brands) / カタログ(catalogs) / 取引先企業(companies) / 顧客マイル(customer_miles) / 顧客ポイント(customer_points) / 顧客会員ランクルール(customer_rank_rules) / 顧客会員ランク(customer_ranks) / 顧客(customers) / ディスカウント(discounts) / 下書き注文(draft_orders) / 在庫(inventory) / 在庫リクエスト(inventory_allocation_requests) / 発注返品伝票(inventory_purchase_order_returns) / 発注伝票(inventory_purchase_orders) / 店舗受取ロケーションルール(local_pickup_location_rules) / ロケーショングループ(location_groups) / ロケーション(locations) / マイル商品(mile_items) / ネクストエンジン連携(next_engine_integrations) / OmnibusCore連携(omnibus_core_integrations) / 注文(orders) / ポイントキャンペーン(point_campaign_order_rules) / ポイントルール(point_rules) / 販売価格ルール(product_price_rules) / 商品(products) / 店舗ポータル連携(retail_portal_integrations) / 店舗スタッフ(retail_staff_members) / 売上データ(sales) / Shopify連携(shopify_integrations) / スマレジ連携(smaregi_integrations) / テナント(tenants) / 翻訳ルール(translation_rules) / 翻訳(translations) / ユーザー権限(user_permissions) / ユーザーテナント(user_tenants) / ユーザー(users)</p>
 <h4 id="01_by_feature____md__18">カスタム権限グループ作成フォーム（/admin/settings/permission_groups/create）</h4>
 <p>フォームタイトル: <strong>「権限グループを作成する」</strong></p>
-<p><img src="../_analysis/screenshots/bfg-F-01-permission-group-create-form.png" alt="「権限グループを作成する」フォーム（76権限のチェックボックス）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/bfg-F-01-permission-group-create-form.png" alt="「権限グループを作成する」フォーム（76権限のチェックボックス）" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIの原文）</th><th>必須</th><th>補足</th></tr></thead><tbody><tr><td>グループ名 *</td><td>必須</td><td>テキストボックス</td></tr><tr><td>権限（チェックボックス群）</td><td>—</td><td>76権限から個別に選択。デフォルトは全オフ</td></tr></tbody></table></div>
 <p>作成済みのカスタム権限グループは、権限グループ一覧で行を選択して「権限グループを削除」から削除できます。確認ダイアログは「権限グループを削除しますか？」で、本文は「選択された1件の権限グループを削除します。この処理は巻き戻すことができません。」です。削除後はトースト「権限グループを削除しました」が表示されます。</p>
 <hr>
@@ -2863,7 +2863,7 @@ strong{color:#0b2d4d}
 <p>在庫管理の拠点（店舗・倉庫）を登録・管理します。</p>
 <h4 id="01_by_feature____md__20">ロケーション作成フォーム（/admin/settings/locations/create）</h4>
 <p>フォームは3セクション11項目で構成されます。</p>
-<p><img src="../_analysis/screenshots/14-location-create.png" alt="「ロケーションを作成」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-location-create.png" alt="「ロケーションを作成」フォーム" loading="lazy"></p>
 <p><strong>基本情報セクション</strong></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIの原文）</th><th>必須</th><th>選択肢・補足</th></tr></thead><tbody><tr><td>名前 *</td><td>必須</td><td>テキストボックス。注文や商品などの画面で表示される名前</td></tr><tr><td>表示名</td><td>任意</td><td>テキストボックス</td></tr><tr><td>コード *</td><td>必須</td><td>テキストボックス</td></tr><tr><td>場所種別 *</td><td>必須</td><td>セレクトボックス（<strong>倉庫 / 店舗</strong> の2種のみ）</td></tr></tbody></table></div>
 <p><strong>所在地・連絡先セクション</strong></p>
@@ -2968,7 +2968,7 @@ strong{color:#0b2d4d}
 <p>空のまま「<strong>保存する</strong>」を押すと次のエラーがフィールド下にインライン表示されます。</p>
 <ul><li>「ロケーションを選択してください」</li><li>「理由を選択してください」</li><li>「商品を1つ以上追加してください」</li></ul>
 <p>2026-06-18の再確認では、ロケーションと商品を入力した状態でも、理由未選択のまま保存すると「理由を選択してください」で保存できませんでした。</p>
-<p><img src="../_analysis/screenshots/04-adjustment-order-create-form.png" alt="調整伝票の作成フォーム。ロケーション・理由・商品の3項目を入力する" loading="lazy"></p>
+<p><img src="_analysis/screenshots/04-adjustment-order-create-form.png" alt="調整伝票の作成フォーム。ロケーション・理由・商品の3項目を入力する" loading="lazy"></p>
 <h4 id="01_by_feature______md__6">詳細画面（<code>/admin/inventory_adjustment_orders/[id]</code>）</h4>
 <div class="tablewrap"><table><thead><tr><th>表示項目</th><th>内容</th></tr></thead><tbody><tr><td>ロケーション</td><td>選択済みのロケーション名</td></tr><tr><td>商品テーブル</td><td>商品名・バリエーション / 商品コード / SKU / 増減数</td></tr><tr><td>作成者</td><td>作成したスタッフ名</td></tr><tr><td>作成日</td><td>作成日時</td></tr><tr><td>実行者</td><td>実施したスタッフ名（実施済みのみ表示）</td></tr><tr><td>実行日</td><td>実施日時（実施済みのみ表示）</td></tr><tr><td>理由</td><td>詳細画面ではドロップダウンで表示（未実施時は変更可）</td></tr></tbody></table></div>
 <h3 id="01_by_feature______md__7">ステータスと操作</h3>
@@ -2983,11 +2983,11 @@ strong{color:#0b2d4d}
 <p>未実施の間は、詳細画面からロケーション・理由・商品（追加・削除）・増減数を変更できます。変更後は「<strong>保存する</strong>」ボタンが有効化されるので、実行前に「<strong>保存する</strong>」で変更を確定してください（未保存状態では「実行」ボタンがグレーアウトして押せません）。</p>
 <h4 id="01_by_feature______md__10">実行する前の注意</h4>
 <p>未保存の変更がある状態（画面上部に「⚠ 保存されていない変更があります」バナーが表示されている状態）は、「<strong>実行</strong>」ボタンがグレーアウトして押せません。先に「<strong>保存する</strong>」を押してから「<strong>実行</strong>」を押してください。</p>
-<p><img src="../_analysis/screenshots/04-adjustment-exec-disabled.png" alt="未保存の変更がある状態の調整伝票詳細。上部にバナーが表示され、「実行」ボタンがグレーアウトしている" loading="lazy"></p>
+<p><img src="_analysis/screenshots/04-adjustment-exec-disabled.png" alt="未保存の変更がある状態の調整伝票詳細。上部にバナーが表示され、「実行」ボタンがグレーアウトしている" loading="lazy"></p>
 <h4 id="01_by_feature______md__11">実行確認ダイアログ</h4>
 <p>「<strong>実行</strong>」ボタンを押すと次のダイアログが表示されます。</p>
 <blockquote>タイトル「在庫調整を実行する」 本文「在庫調整を実行することで明細に登録されている差分値が在庫数に反映されます。この処理は巻き戻すことができません。」</blockquote>
-<p><img src="../_analysis/screenshots/04-adjustment-exec-confirm-dialog.png" alt="「在庫調整を実行する」確認ダイアログ。巻き戻し不可の注意文と「実行する」ボタンが表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/04-adjustment-exec-confirm-dialog.png" alt="「在庫調整を実行する」確認ダイアログ。巻き戻し不可の注意文と「実行する」ボタンが表示される" loading="lazy"></p>
 <p>「<strong>実行する</strong>」を押すと在庫数に即時反映されます。実施後は取り消せません。</p>
 <p>実施済みの伝票でも画面右上に「<strong>キャンセル</strong>」ボタンは表示されます。ただし押してもキャンセルは実行されず、次のトーストが表示され、ステータスは「実施済み」のままです。</p>
 <blockquote>「キャンセルできない在庫調整伝票が含まれています。既にキャンセル済みまたは完了済みの伝票はキャンセルできません。」</blockquote>
@@ -3012,7 +3012,7 @@ strong{color:#0b2d4d}
 <p>保存すると、作成したルールの詳細画面へ遷移します。</p>
 <h4 id="01_by_feature______md__5">ルールの詳細画面</h4>
 <p>詳細画面（<code>/admin/product_price_rules/[id]</code>）には以下の情報とカードが表示されます。</p>
-<p><img src="../_analysis/screenshots/08-price-rule-detail.png" alt="販売価格ルール詳細画面（通常価格・セール価格カード）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/08-price-rule-detail.png" alt="販売価格ルール詳細画面（通常価格・セール価格カード）" loading="lazy"></p>
 <ul><li>ページタイトル: 「販売価格ルール」</li><li>バッジ: 「通貨: 日本円」（設定した通貨の名称が常時表示）</li><li>「通常価格」カード: 「通常価格を設定することができます。」</li><li>「セール価格」カード: 「セール価格を設定することができます。」</li></ul>
 <p>「ルールを編集」ボタンから編集モーダルを開くと、ルール名を変更できます。ただし通貨はモーダルで「JPY」と読み取り専用で表示され、「通貨は編集できません」と注釈があります。通貨はルール作成後に変更できません。</p>
 <h4 id="01_by_feature______md__6">通常価格の登録（「販売価格ルール (通常価格)」）</h4>
@@ -3035,7 +3035,7 @@ strong{color:#0b2d4d}
 <ul><li>在庫が0になっても販売を続けるルールを作成する</li><li>ルールに対象のSKUと予約受付数（販売数）を登録する</li><li>CSVインポートでSKUを一括登録できる</li></ul>
 <h4 id="01_by_feature______md__11">ルールの作成</h4>
 <p>「予約販売ルールを作成する」ボタンから作成画面（<code>/admin/inventory_back_order_rules/create</code>）へ進みます。ページタイトルは「予約販売のルールを作成する」です。</p>
-<p><img src="../_analysis/screenshots/08-back-order-rule-create.png" alt="予約販売のルール作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/08-back-order-rule-create.png" alt="予約販売のルール作成フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>タイトル *</td><td>ルールを識別する名前</td><td>必須</td><td>テキスト入力。プレースホルダー「2025SS先行販売」</td></tr></tbody></table></div>
 <p>保存すると、作成したルールの詳細画面へ遷移します。</p>
 <h4 id="01_by_feature______md__12">ルールの詳細画面</h4>
@@ -3067,7 +3067,7 @@ strong{color:#0b2d4d}
 <ul><li>在庫数の販売閾値（しきいち）を設定するルールを作成する</li><li>ルールに含まれていないすべての商品バリエーションに適用する「デフォルト閾値」を設定できる</li><li>条件（ブランドコード）を指定してSKUを自動追加する「自動追加ルール」を設定できる</li><li>個別のSKUに閾値を手動で追加することもできる</li></ul>
 <h4 id="01_by_feature______md__21">ルールの作成</h4>
 <p>「販売閾値ルールを作成する」ボタンから作成画面（<code>/admin/inventory_threshold_rules/create</code>）へ進みます。ページタイトルは「販売閾値ルールを作成する」です。</p>
-<p><img src="../_analysis/screenshots/08-threshold-rule-create.png" alt="販売閾値ルール作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/08-threshold-rule-create.png" alt="販売閾値ルール作成フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>ルール名 *</td><td>ルールを識別する名前</td><td>必須</td><td>テキスト入力</td></tr><tr><td>デフォルトの閾値を設定する</td><td>デフォルト閾値を有効にするチェックボックス</td><td>任意</td><td>チェックボックス。チェックをONにすると「デフォルトの閾値 *」数値入力欄が展開される</td></tr></tbody></table></div>
 <p>チェックボックス「デフォルトの閾値を設定する」の説明文:</p>
 <blockquote>この設定を有効にすることで、閾値ルールに含まれていないすべての商品バリエーションにデフォルト閾値を適用することができます。</blockquote>
@@ -3102,14 +3102,14 @@ strong{color:#0b2d4d}
 <h4 id="01_by_feature______md__4">タブ</h4>
 <div class="tablewrap"><table><thead><tr><th>タブ名</th><th>表示対象</th></tr></thead><tbody><tr><td>すべて</td><td>全顧客</td></tr></tbody></table></div>
 <p>現時点では「すべて」タブのみ表示されます。</p>
-<p><img src="../_analysis/screenshots/customers-import-click.png" alt="顧客管理の一覧画面（「すべて」タブと右上の「インポート」ボタン）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/customers-import-click.png" alt="顧客管理の一覧画面（「すべて」タブと右上の「インポート」ボタン）" loading="lazy"></p>
 <h4 id="01_by_feature______md__5">主な操作</h4>
 <div class="tablewrap"><table><thead><tr><th>要素（UIラベル）</th><th>種別</th><th>操作すると何が起こるか</th></tr></thead><tbody><tr><td>インポート</td><td>ドロップダウンボタン</td><td>「ポイント一括付与」のリンクを含むドロップダウンを展開する</td></tr><tr><td>ポイント一括付与</td><td>リンク（インポートドロップダウン内）</td><td><code>/admin/csv_import/csv_import_operation_point_pluses</code>（ポイント一括付与CSVインポート画面）へ遷移</td></tr><tr><td>検索と絞り込みの結果</td><td>ボタン</td><td>「メールアドレスで検索する」テキストボックスと「絞り込みを追加」ボタンを展開する</td></tr><tr><td>メールアドレスで検索する</td><td>テキストボックス</td><td>メールアドレスで顧客を絞り込む（フィルター展開時に表示）</td></tr><tr><td>絞り込みを追加</td><td>ドロップダウンボタン</td><td>絞り込み条件の選択肢メニューを展開する</td></tr><tr><td>前へ／次へ</td><td>ページネーションボタン</td><td>前後ページへ移動</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/customers-point-import.png" alt="「ポイント一括付与」リンクから遷移する「ポイントをCSVで一括付与する」画面" loading="lazy"></p>
+<p><img src="_analysis/screenshots/customers-point-import.png" alt="「ポイント一括付与」リンクから遷移する「ポイントをCSVで一括付与する」画面" loading="lazy"></p>
 <h4 id="01_by_feature______md__6">絞り込み条件</h4>
 <p>「絞り込みを追加」を押すと以下の条件から選択できます。</p>
 <div class="tablewrap"><table><thead><tr><th>選択肢</th><th>内容</th></tr></thead><tbody><tr><td>テナント</td><td>テナントで絞り込む</td></tr><tr><td>メタフィールド</td><td>メタフィールドの値で絞り込む</td></tr><tr><td>会員証バーコード</td><td>会員証バーコードで絞り込む（2026-06-04 追加）</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/customers-filter-dropdown.png" alt="「絞り込みを追加」ドロップダウン（テナント・メタフィールド・会員証バーコード）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/customers-filter-dropdown.png" alt="「絞り込みを追加」ドロップダウン（テナント・メタフィールド・会員証バーコード）" loading="lazy"></p>
 <h4 id="01_by_feature______md__7">一覧テーブル列</h4>
 <hr>
 <h3 id="01_by_feature______md__8">顧客の作成方法</h3>
@@ -3143,7 +3143,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_CSV___________md__5">手順</h3>
 <h4 id="02_by_task_CSV___________md__6">ステップ 1: テンプレートを入手する</h4>
 <ol><li>左メニューの「<strong>CSVインポート</strong>」をクリックし、CSVインポートのトップ画面を開く。</li><li>「在庫」グループの「<strong>販売可能在庫</strong>」をクリックして、販売可能在庫インポートの一覧画面へ遷移する。</li><li>右上の「<strong>テンプレート</strong>」ボタンをクリックする。Googleスプレッドシートのテンプレートが別タブで開く。</li><li>テンプレートURL: <code>https://docs.google.com/spreadsheets/d/1UJVfvgl5wb_5FYazFowbS1UMtfOhV4nNqFkAn4c1FHI</code></li><li>スプレッドシートを「ファイル &gt; コピーを作成」または「ファイル &gt; ダウンロード &gt; カンマ区切り形式（.csv）」でローカルに保存する。</li></ol>
-<p><img src="../_analysis/screenshots/15-csv-import-inventory-create.png" alt="販売可能在庫のCSVインポート画面（絶対値/差分値の選択）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/15-csv-import-inventory-create.png" alt="販売可能在庫のCSVインポート画面（絶対値/差分値の選択）" loading="lazy"></p>
 <hr>
 <h4 id="02_by_task_CSV___________md__7">ステップ 2: CSVファイルを作成する</h4>
 <p>テンプレートに従い、更新したいSKUとロケーション・在庫数を記入してCSVファイルを保存する。</p>
@@ -3187,7 +3187,7 @@ strong{color:#0b2d4d}
 <h4 id="02_by_task______________md__5">手順</h4>
 <ol><li>左メニュー下部の「設定」をクリックする。設定トップページが開く。</li><li>「ブランド」をクリックする。ブランド一覧画面（<code>/admin/settings/brands</code>）に遷移する。</li><li>右上の「<strong>追加する</strong>」ボタンをクリックする。ブランド作成フォームが開く。</li><li>次の項目を入力する。</li></ol>
 <h4 id="02_by_task______________md__6">ブランド作成フォームの入力項目</h4>
-<p><img src="../_analysis/screenshots/14-brands-create.png" alt="ブランド作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-brands-create.png" alt="ブランド作成フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIの原文）</th><th>必須/任意</th><th>補足</th></tr></thead><tbody><tr><td>名前 *</td><td>必須</td><td>ブランドの名称</td></tr><tr><td>外部ID</td><td>任意</td><td>外部システム連携用の識別子。<strong>作成時のみ設定可。保存後は変更不可</strong></td></tr><tr><td>コード *</td><td>必須</td><td>SQ内でブランドを識別するコード</td></tr></tbody></table></div>
 <blockquote><strong>「外部ID」の注意点:</strong> 外部IDは作成フォームにのみ表示され、保存後の編集フォームには表示されません。後から変更することはできないため、入力する場合は作成時に確定した値を入力してください。</blockquote>
 <ol><li>「<strong>保存する</strong>」ボタンをクリックする。ブランド一覧に戻り、登録が完了する。</li></ol>
@@ -3200,7 +3200,7 @@ strong{color:#0b2d4d}
 <h4 id="02_by_task______________md__9">手順</h4>
 <ol><li>設定トップページで「<strong>ロケーショングループ</strong>」をクリックする。一覧画面（<code>/admin/settings/location_groups</code>）に遷移する。</li><li>右上の「<strong>グループを作成</strong>」ボタンをクリックする。作成フォームが開く。</li><li>次の項目を入力する。</li></ol>
 <h4 id="02_by_task______________md__10">ロケーショングループ作成フォームの入力項目</h4>
-<p><img src="../_analysis/screenshots/bfg-B-01-location-group-create-form.png" alt="「グループを作成」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/bfg-B-01-location-group-create-form.png" alt="「グループを作成」フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIの原文）</th><th>必須/任意</th><th>補足</th></tr></thead><tbody><tr><td>名前 *</td><td>必須</td><td>グループの名称（例: 関東全店）</td></tr><tr><td>このグループに新しいロケーションを自動的に含める</td><td>任意</td><td>チェックボックス。オンにすると今後作成したロケーションを自動でグループに追加する。<strong>作成後は変更不可</strong></td></tr></tbody></table></div>
 <p><strong>ロケーションは保存後の詳細画面から追加します（後述）。</strong></p>
 <ol><li>「<strong>保存する</strong>」ボタンをクリックする。グループ詳細画面に遷移する。</li></ol>
@@ -3217,7 +3217,7 @@ strong{color:#0b2d4d}
 <h4 id="02_by_task______________md__14">手順</h4>
 <ol><li>設定トップページで「<strong>販売員</strong>」をクリックする。販売員一覧画面（<code>/admin/settings/retail_staff_members</code>）に遷移する。</li><li>「<strong>販売員を作成</strong>」ボタンをクリックする。作成フォームが開く。</li><li>次の項目を入力する。</li></ol>
 <h4 id="02_by_task______________md__15">販売員作成フォームの入力項目</h4>
-<p><img src="../_analysis/screenshots/14-retail-staff-create.png" alt="「販売員を作成する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-retail-staff-create.png" alt="「販売員を作成する」フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIの原文）</th><th>必須/任意</th><th>補足</th></tr></thead><tbody><tr><td>姓 *</td><td>必須</td><td>姓・名は同じ行に横並びで表示</td></tr><tr><td>名 *</td><td>必須</td><td>—</td></tr><tr><td>コード *</td><td>必須</td><td>販売員を識別するコード</td></tr><tr><td>ロケーション</td><td>任意</td><td>初期の担当ロケーション。「検索する」ボタンから1件選択する（後述）。作成後の販売員詳細画面では店舗を追加できる</td></tr></tbody></table></div>
 <p><strong>ロケーションの選択方法:</strong></p>
 <ol><li>ロケーション欄右の「<strong>検索する</strong>」ボタンをクリックする。「ロケーションを選択する」モーダルが開く。</li><li>タブ（「<strong>すべて</strong>」「<strong>店舗</strong>」「<strong>倉庫</strong>」）で絞り込む。</li><li>ロケーションのチェックボックスにチェックを入れる。作成フォームでは、<strong>1件にチェックを入れると他の行はグレーアウトされ、選択できるのは1件のみ</strong>。</li><li>「<strong>選択する</strong>」ボタンをクリックする。フォームにロケーション名が反映される。</li></ol>
@@ -3262,7 +3262,7 @@ strong{color:#0b2d4d}
 <p>組織 / 商品 / バリエーション / 顧客 / 注文 / 下書き注文 / 会社 / ロケーション / ディスカウント / 在庫移動伝票 / 在庫調整伝票 / 在庫取置伝票 / 発注伝票 / 入荷指示 / 出荷指示 / 仕入れ先</p>
 <h4 id="02_by_task______________md__5">手順</h4>
 <ol><li>左メニュー下部の「設定」をクリックする。設定トップページが開く。</li><li>「メタフィールド定義」をクリックする。オブジェクトの一覧が表示される。</li><li>カスタムフィールドを追加したいオブジェクト名（例: 「商品」）をクリックする。そのオブジェクトのメタフィールド定義一覧画面に遷移する。</li><li>「定義を追加する」ボタンをクリックする。定義作成フォームが開く。</li><li>次の項目を入力する。</li></ol>
-<p><img src="../_analysis/screenshots/bfg-G-01-metafield-create-form.png" alt="「商品メタフィールドの定義を追加する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/bfg-G-01-metafield-create-form.png" alt="「商品メタフィールドの定義を追加する」フォーム" loading="lazy"></p>
 <h5 id="02_by_task______________md__6">入力項目</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIの原文）</th><th>必須/任意</th><th>制約・補足</th></tr></thead><tbody><tr><td>名前 *</td><td>必須</td><td>最大50文字。文字数カウンターが表示される</td></tr><tr><td>説明</td><td>任意</td><td>最大100文字</td></tr><tr><td>ネームスペース *</td><td>必須</td><td>最大50文字・最低4文字</td></tr><tr><td>キー *</td><td>必須</td><td>最大50文字・最低4文字</td></tr><tr><td>メタフィールドのタイプ *</td><td>必須</td><td>コンボボックス（下記12種から選択）</td></tr></tbody></table></div>
 <p><strong>「メタフィールドのタイプ」の選択肢（12種）:</strong></p>
@@ -3281,7 +3281,7 @@ strong{color:#0b2d4d}
 <p>日本語 / 英語 / 中国語（簡体字） / 中国語（繁体字） / 韓国語 / スペイン語 / フランス語 / ドイツ語 / ヒンディー語 / タイ語</p>
 <h4 id="02_by_task______________md__10">手順</h4>
 <ol><li>左メニュー下部の「設定」をクリックする。設定トップページが開く。</li><li>「翻訳」をクリックする。翻訳一覧画面に遷移する。</li><li>翻訳ルールが1件もない場合は「翻訳を始める」という案内と「作成する」ボタンが表示される。</li><li>「ルールを管理する」をクリックする。翻訳ルール一覧画面に遷移する。</li><li>ルールがない初期状態では、翻訳一覧画面の「作成する」ボタンをクリックしてフォームへ遷移することもできる。</li><li>翻訳ルール作成フォームが開いたら、次の項目を入力する。2026-06-19の実機確認では、翻訳ルールは <code>/admin/settings/translation/translation_rules</code> で一覧確認でき、作成フォームへ遷移できる。</li></ol>
-<p><img src="../_analysis/screenshots/kill-settings-01-translation-create-form.png" alt="「翻訳ルールを作成する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/kill-settings-01-translation-create-form.png" alt="「翻訳ルールを作成する」フォーム" loading="lazy"></p>
 <h5 id="02_by_task______________md__11">入力項目</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIの原文）</th><th>必須/任意</th><th>補足</th></tr></thead><tbody><tr><td>名前 *</td><td>必須</td><td>テキストボックス</td></tr><tr><td>言語 *</td><td>必須</td><td>コンボボックス（上記10言語から選択）</td></tr><tr><td>翻訳データを自動で作成する</td><td>任意</td><td>チェックボックス。オンにすると商品・商品オプション・商品オプション値・メタフィールドの翻訳データが自動生成される</td></tr></tbody></table></div>
 <ol><li>「保存する」ボタンをクリックする。</li></ol>
@@ -3303,7 +3303,7 @@ strong{color:#0b2d4d}
 <h5 id="02_by_task______________md__16">採寸項目セクションの入力</h5>
 <ol><li>「採寸項目を追加」ボタン（+アイコン付き）をクリックして、採寸項目の入力欄を追加する。</li><li>採寸項目名（例: 「肩幅」「バスト」）を入力する。採寸項目は最大5件まで追加できる。</li><li>「保存する」ボタンをクリックする。</li></ol>
 <p>保存が完了すると採寸ルールの詳細画面に遷移します。</p>
-<p><img src="../_analysis/screenshots/kill-settings-04-measurement-rule-detail.png" alt="保存後の採寸ルール詳細画面" loading="lazy"></p>
+<p><img src="_analysis/screenshots/kill-settings-04-measurement-rule-detail.png" alt="保存後の採寸ルール詳細画面" loading="lazy"></p>
 <h4 id="02_by_task______________md__17">採寸ルール一覧の表示列</h4>
 <div class="tablewrap"><table><thead><tr><th>列名</th><th>内容</th></tr></thead><tbody><tr><td>ルール名</td><td>作成したルール名（クリックで詳細へ遷移）</td></tr><tr><td>単位</td><td>採寸単位（例: センチメートル）</td></tr><tr><td>採寸項目</td><td>設定した採寸項目名（カンマ区切り）</td></tr></tbody></table></div>
 <h4 id="02_by_task______________md__18">注意: 商品への紐付けについて</h4>
@@ -3338,11 +3338,11 @@ strong{color:#0b2d4d}
 <ol><li>左メニューの「商品管理」をクリックし、サブメニューの「カタログ」をクリックして、カタログ一覧画面（<code>/admin/catalogs</code>）を開く。</li><li>「カタログを作成する」ボタンをクリックする。カタログ作成フォーム（<code>/admin/catalogs/create</code>）へ遷移する。</li><li>「タイトル*」欄にカタログ名を入力する（例: 渋谷店）。</li></ol>
 <blockquote>カタログ名はチャネル連携でカタログを選ぶときの識別名になります。拠点名や用途がわかる名称をつけることを推奨します。</blockquote>
 <ol><li>「保存する」ボタンをクリックする。カタログ詳細画面へ遷移することを確認する。</li></ol>
-<p><img src="../_analysis/screenshots/03-catalog-create-form.png" alt="「カタログを作成する」フォーム。「タイトル*」入力欄と「保存する」ボタン" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-catalog-create-form.png" alt="「カタログを作成する」フォーム。「タイトル*」入力欄と「保存する」ボタン" loading="lazy"></p>
 <hr>
 <h3 id="02_by_task__________________md__5">ステップ 2: カタログに商品を手動で追加する</h3>
 <ol><li>カタログ詳細画面の右上にある「商品を追加する」ボタンをクリックする。「カタログに商品を追加する」画面（<code>/admin/catalogs/{id}/create</code>）へ遷移する。</li><li>追加したい商品を一覧から探す。商品コードで絞り込みたい場合は「商品コードで検索する」テキストボックスに商品コードを入力する。</li></ol>
-<p><img src="../_analysis/screenshots/03-catalog-add-product.png" alt="「カタログに商品を追加する」画面。「商品コードで検索する」欄とチェックボックス付きの商品一覧" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-catalog-add-product.png" alt="「カタログに商品を追加する」画面。「商品コードで検索する」欄とチェックボックス付きの商品一覧" loading="lazy"></p>
 <ol><li>追加したい商品行のチェックボックスをオンにする。複数選択も可能。画面上部に「N を選択済み」と選択件数が表示され、「カタログに追加する」ボタンが出現する。</li><li>全商品を選択したい場合は一覧上部の一括チェックボックスをオンにする。</li><li>「カタログに追加する」ボタンをクリックする。</li><li>カタログ詳細画面に戻り、追加した商品が一覧に表示されることを確認する。</li></ol>
 <hr>
 <h3 id="02_by_task__________________md__6">ステップ 3: 自動追加ルールを設定する（任意）</h3>
@@ -3387,7 +3387,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task______________md__4">手順</h3>
 <h4 id="02_by_task______________md__5">ステップ 1: 作成フォームを開く</h4>
 <ol><li>左メニューの「ディスカウント」をクリックし、ディスカウント一覧画面を開く。</li><li>右上の「ディスカウントを作成する」ボタンをクリックする。作成フォーム（<code>/admin/order_price_adjustment_rules/create</code>）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/crm-discount-create.png" alt="ディスカウント作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/crm-discount-create.png" alt="ディスカウント作成フォーム" loading="lazy"></p>
 <hr>
 <h4 id="02_by_task______________md__6">ステップ 2: 基本情報を入力する</h4>
 <ol><li>「タイトル」欄にディスカウントの管理名を入力する（必須）。入力例（プレースホルダ）: 「年末セール」。</li><li>「説明文」欄に説明を入力する（任意）。</li><li>「クーポンコード」欄に顧客が注文時に入力するコードを入力する（必須）。</li></ol>
@@ -3416,7 +3416,7 @@ strong{color:#0b2d4d}
 <hr>
 <h4 id="02_by_task______________md__12">ステップ 8（任意）: 詳細ページで対象顧客・店舗・商品を設定する</h4>
 <p>作成後の詳細ページは5つのタブで構成される。ステップ 4 で「すべての商品を割引対象に設定する」をOFFにした場合や、特定の顧客・店舗のみに限定したい場合はここで設定する。</p>
-<p><img src="../_analysis/screenshots/crm2-discount-detail.png" alt="ディスカウント詳細ページ（5つのタブ）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm2-discount-detail.png" alt="ディスカウント詳細ページ（5つのタブ）" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>タブ名</th><th>操作できること</th></tr></thead><tbody><tr><td>基本情報</td><td>ルール設定の確認・編集</td></tr><tr><td>利用履歴</td><td>利用された注文の履歴を確認。CSV エクスポートも可能</td></tr><tr><td>顧客管理</td><td>対象顧客を「顧客を選択して追加」から個別に追加する</td></tr><tr><td>店舗管理</td><td>対象店舗を「ロケーションを追加する」または「ロケーショングループを追加する」から追加する</td></tr><tr><td>商品管理</td><td>対象商品バリエーションを「追加する」ボタンから「バリエーションを選択する」ダイアログで追加する</td></tr></tbody></table></div>
 <blockquote><strong>「商品管理」タブの操作:</strong> ダイアログではSKUコードで商品を検索できます。チェックボックスで複数のバリエーションを同時に選択して追加できます。</blockquote>
 <hr>
@@ -3450,14 +3450,14 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_____CSV_PDF__________md__4">エクスポートの共通の流れ</h3>
 <p>CSVエクスポートの各カテゴリは以下の共通手順で実行する。ヤマトB2クラウド向けCSVは例外で、出荷管理画面の「条件指定でエクスポート」から実行する。</p>
 <ol><li>左メニューから「CSVエクスポート」をクリックし、CSVエクスポートのトップ画面（<code>/admin/csv_export</code>）を開く。</li><li>エクスポートしたいカテゴリの行をクリックする。そのカテゴリの一覧画面へ遷移する。</li><li>「エクスポート」ボタンをクリックする。エクスポート実行フォーム（<code>/create</code> ページ）へ遷移する。</li><li>条件を入力する（カテゴリごとに異なる。各カテゴリの手順を参照）。</li><li>「エクスポートを開始する」ボタンをクリックする。</li></ol>
-<p><img src="../_analysis/screenshots/15-csv-export-top.png" alt="CSVエクスポートのトップ画面（カテゴリ一覧）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/15-csv-export-top.png" alt="CSVエクスポートのトップ画面（カテゴリ一覧）" loading="lazy"></p>
 <p>エクスポートは非同期処理で実行される。完了後は、対象カテゴリの一覧画面に実行履歴が残り、成功した行にはダウンロードリンクが表示される。</p>
 <p>メール通知の有無、メール本文、ダウンロードリンクの有効期限は今回の実機確認範囲外です。FAQでは、画面上の実行履歴確認を主導線として案内します。</p>
 <hr>
 <h3 id="02_by_task_____CSV_PDF__________md__5">在庫をCSVでエクスポートする</h3>
 <h4 id="02_by_task_____CSV_PDF__________md__6">手順</h4>
 <ol><li>CSVエクスポートのトップ画面（<code>/admin/csv_export</code>）を開く。</li><li>「マスターデータ」グループ内の「在庫」の行をクリックする。</li><li>「エクスポート」ボタンをクリックする。在庫エクスポートの実行フォームへ遷移する。</li><li>「ロケーション」欄の「選択」ボタンをクリックする。「ロケーションを選択する」ダイアログが開く。</li><li>ダイアログでエクスポートしたいロケーションにチェックを入れる。</li><li>「選択する」ボタンをクリックしてダイアログを閉じる。</li><li>「エクスポートを開始する」ボタンをクリックする。</li></ol>
-<p><img src="../_analysis/screenshots/15-csv-export-inventory-create.png" alt="「在庫をCSVでエクスポートする」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/15-csv-export-inventory-create.png" alt="「在庫をCSVでエクスポートする」フォーム" loading="lazy"></p>
 <h4 id="02_by_task_____CSV_PDF__________md__7">ロケーション選択ダイアログの構成</h4>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>タブ</td><td>「すべて」「店舗」「倉庫」の3種類</td></tr><tr><td>列構成</td><td>チェックボックス・名前・場所コード</td></tr><tr><td>複数選択</td><td>可能（チェックボックス形式）</td></tr><tr><td>ボタン</td><td>「キャンセル」「選択する」</td></tr></tbody></table></div>
 <p><strong>注意</strong>: 「ロケーション」フィールドは画面上 * マークがないが、ロケーションを選択しないままでは「エクスポートを開始する」を押しても処理が実行されない。必ず1件以上選択すること。</p>
@@ -3502,7 +3502,7 @@ strong{color:#0b2d4d}
 <p>そのため、現時点では「PDFエクスポート画面から任意に納品書PDFを新規作成できる」とは案内しないでください。注文起点の出荷指示など、別条件で生成導線が出る可能性は追加確認が必要です。</p>
 <h4 id="02_by_task_____CSV_PDF__________md__23">ヤマトB2クラウドCSVの条件指定エクスポート</h4>
 <ol><li>左メニューから「出荷管理」をクリックし、出荷管理の一覧画面（<code>/admin/inventory_outbound_orders</code>）を開く。</li><li>右上の「条件指定でエクスポート」ボタン（ドロップダウン）をクリックする。</li><li>展開したメニューから「ヤマトB2クラウド」を選択する。「条件指定でヤマトB2クラウドのCSVをエクスポートする」フォーム画面（<code>/admin/inventory_outbound_orders/export/yamato_b2_cloud</code>）へ遷移する。</li><li>以下の項目を入力する。</li></ol>
-<p><img src="../_analysis/screenshots/gap-outbound-yamato-export-form.png" alt="「条件指定でヤマトB2クラウドのCSVをエクスポートする」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-outbound-yamato-export-form.png" alt="「条件指定でヤマトB2クラウドのCSVをエクスポートする」フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>説明</th></tr></thead><tbody><tr><td>開始日時</td><td>必須（* マーク付き）</td><td>出荷指示の絞り込みを開始する日時を入力する</td></tr><tr><td>終了日時</td><td>必須（* マーク付き）</td><td>出荷指示の絞り込みを終了する日時を入力する</td></tr><tr><td>配送先 (国)</td><td>任意</td><td>マルチ選択可。「すべて選択」あり</td></tr><tr><td>決済方法</td><td>任意</td><td>「すべての決済」（デフォルト）/「代引きのみ」/「代引き以外の決済」</td></tr><tr><td>出荷作業ステータス</td><td>任意</td><td>特定のステータスで絞り込みたい場合に選択する</td></tr><tr><td>注文タグ（含む）</td><td>任意</td><td>入力したタグを含む出荷指示のみを対象にする</td></tr><tr><td>注文タグ（除外）</td><td>任意</td><td>入力したタグを含まない出荷指示のみを対象にする</td></tr><tr><td>CSVの出力後に出荷指示のステータスを出荷作業中に変更する</td><td>任意</td><td>チェックボックス（デフォルト: 未チェック）</td></tr></tbody></table></div>
 <ol><li>「実行する」ボタンをクリックする。</li></ol>
 <p>エクスポートは非同期処理で実行されます。2026-06-16時点では、ヤマトB2クラウドCSVの出力フォームは確認済みですが、納品書PDFが同時生成されることは実機上で確認できていません。</p>
@@ -3540,7 +3540,7 @@ strong{color:#0b2d4d}
 <ol><li>一覧画面右上の「新規インポート」ボタンをクリックする。インポート実行フォームへ遷移する。</li></ol>
 <hr>
 <h4 id="02_by_task______CSV___________md__7">ステップ 3: テナントと顧客IDの種別を選択する</h4>
-<p><img src="../_analysis/screenshots/gap-csv-acct-point-plus-customer-id-type.png" alt="ポイント一括付与のインポート実行フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-csv-acct-point-plus-customer-id-type.png" alt="ポイント一括付与のインポート実行フォーム" loading="lazy"></p>
 <ol><li>「テナント」のセレクトボックスをクリックし、加算対象のテナントを選択する。</li></ol>
 <blockquote>画面上に必須マーク（*）は表示されていませんが、未選択のまま「保存する」を押すと「テナントを選択してください」というエラーが表示されます。必ず選択してください。</blockquote>
 <ol><li>「顧客IDの種別」のセレクトボックスをクリックし、CSVに記載した顧客IDの種類を選択する。</li></ol>
@@ -3613,7 +3613,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_________________md__4">手順</h3>
 <h4 id="02_by_task_________________md__5">ステップ 1: 作成フォームを開く</h4>
 <ol><li>左メニューの「ポイント」をクリックして子メニューを展開する。</li><li>子メニューの「キャンペーン」をクリックする。ポイントキャンペーン一覧画面（h1: 「ポイントキャンペーン」）が開く。</li><li>「キャンペーンを作成する」リンクをクリックする。作成フォーム（h1: 「ポイントキャンペーンを作成する」）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/crm2-campaign-create.png" alt="ポイントキャンペーン作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/crm2-campaign-create.png" alt="ポイントキャンペーン作成フォーム" loading="lazy"></p>
 <hr>
 <h4 id="02_by_task_________________md__6">ステップ 2: 基本情報を入力する</h4>
 <ol><li>「タイトル」欄にキャンペーンの管理名を入力する（必須）。プレースホルダ: 「ポイントキャンペーン名」。</li><li>「開始日時」欄にキャンペーンの開始日時を入力する（必須）。</li><li>「終了日時」欄にキャンペーンの終了日時を入力する（必須）。</li></ol>
@@ -3621,7 +3621,7 @@ strong{color:#0b2d4d}
 <h4 id="02_by_task_________________md__7">ステップ 3: ポイントキャンペーン種別を選択する</h4>
 <ol><li>「ポイントキャンペーン種別」のコンボボックスをクリックし、対象タイプを選択する（必須）。</li></ol>
 <div class="tablewrap"><table><thead><tr><th>選択肢（UIラベル）</th><th>概要</th></tr></thead><tbody><tr><td>なし</td><td>すべての注文が対象。作成フォームで倍率またはポイント数を直接入力する</td></tr><tr><td>会員ランク</td><td>会員ランクごとに異なるポイントを設定できる。設定値はキャンペーン保存後の詳細ページから入力する</td></tr><tr><td>購入金額</td><td>購入金額ごとに異なるポイントを設定できる。設定値はキャンペーン保存後の詳細ページから入力する</td></tr><tr><td>商品</td><td>商品バリエーション、ブランド、CSVで対象商品ごとのポイントを設定できる。設定値はキャンペーン保存後の詳細ページから入力する</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/crm2-campaign-create-rank.png" alt="種別に「会員ランク」を選択した場合の作成フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm2-campaign-create-rank.png" alt="種別に「会員ランク」を選択した場合の作成フォーム" loading="lazy"></p>
 <hr>
 <h4 id="02_by_task_________________md__8">ステップ 4: ポイント付与方法を選択する</h4>
 <ol><li>「ポイント付与方法」のコンボボックスをクリックし、ポイントの上乗せ方式を選択する（必須）。</li></ol>
@@ -3697,7 +3697,7 @@ strong{color:#0b2d4d}
 <h4 id="02_by_task____B2_____________md__6">ステップ 1: 出荷指示CSVをエクスポートする</h4>
 <ol><li>左メニューの「出荷管理」をクリックし、出荷管理の一覧画面を開く。</li><li>画面右上の「条件指定でエクスポート」ボタン（右側に下向き矢印がある）をクリックする。ドロップダウンが開く。</li><li>「ヤマトB2クラウド」を選択する。エクスポートフォーム画面「条件指定でヤマトB2クラウドのCSVをエクスポートする」へ遷移する。</li><li>以下の項目を入力する。</li></ol>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>説明・選択肢</th></tr></thead><tbody><tr><td>開始日時</td><td>必須（*）</td><td>絞り込みを開始する日時を入力する</td></tr><tr><td>終了日時</td><td>必須（*）</td><td>絞り込みを終了する日時を入力する（デフォルト: 現在日時が入力済み）</td></tr><tr><td>配送先 (国)</td><td>任意</td><td>国を選択して絞り込む（マルチ選択可）</td></tr><tr><td>決済方法</td><td>任意</td><td>すべての決済 / 代引きのみ / 代引き以外の決済</td></tr><tr><td>出荷作業ステータス</td><td>任意</td><td>指定しない / 出荷待ち / 保留中 / 依頼済み / 作業中 / 欠品・要対応 / キャンセル済み / 出荷完了</td></tr><tr><td>注文タグ（含む）</td><td>任意</td><td>入力したタグを含む出荷指示のみが対象になる（例: priority）</td></tr><tr><td>注文タグ（除外）</td><td>任意</td><td>入力したタグを含まない出荷指示のみが対象になる（例: test）</td></tr><tr><td>CSVの出力後に出荷指示のステータスを出荷作業中に変更する</td><td>任意</td><td>チェックボックス（デフォルト: 未チェック）。チェックをONにするとエクスポートと同時に対象の出荷指示ステータスが変わる</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/gap-outbound-yamato-export-form.png" alt="「条件指定でヤマトB2クラウドのCSVをエクスポートする」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-outbound-yamato-export-form.png" alt="「条件指定でヤマトB2クラウドのCSVをエクスポートする」フォーム" loading="lazy"></p>
 <ol><li>「実行する」ボタンをクリックする。</li></ol>
 <hr>
 <h4 id="02_by_task____B2_____________md__7">ステップ 2: 出力結果を確認する</h4>
@@ -3712,13 +3712,13 @@ strong{color:#0b2d4d}
 <hr>
 <h4 id="02_by_task____B2_____________md__9">ステップ 4: 出荷実績CSVをSQへインポートする</h4>
 <ol><li>左メニューの「出荷管理」をクリックし、出荷管理の一覧画面を開く。</li><li>画面右上の「インポート」ボタン（右側に下向き矢印がある）をクリックする。ドロップダウンが開く。</li><li>「ヤマトB2クラウド（出荷実績）」を選択する。ヤマトB2クラウドの出荷実績インポート画面へ遷移する。</li></ol>
-<p><img src="../_analysis/screenshots/gap-purchase-ops-15-outbound-import-dropdown.png" alt="出荷管理の「インポート」ドロップダウン（ヤマトB2クラウド（出荷実績）・DHL（出荷実績））" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-purchase-ops-15-outbound-import-dropdown.png" alt="出荷管理の「インポート」ドロップダウン（ヤマトB2クラウド（出荷実績）・DHL（出荷実績））" loading="lazy"></p>
 <ol><li>「テンプレート」リンクをクリックすると、CSVフォーマットの定義書（Googleスプレッドシート）を確認できる。</li></ol>
 <p>   ヤマトB2クラウドCSVのフォーマット仕様（必須列と任意列）:</p>
 <div class="tablewrap"><table><thead><tr><th>列</th><th>項目名</th><th>必須/任意</th></tr></thead><tbody><tr><td>A</td><td>伝票番号</td><td>必須</td></tr><tr><td>B</td><td>お届け先コード</td><td>任意</td></tr><tr><td>C</td><td>お届け先名</td><td>任意</td></tr><tr><td>D</td><td>荷物状況</td><td>任意</td></tr><tr><td>E</td><td>日付</td><td>任意</td></tr><tr><td>F</td><td>時刻</td><td>任意</td></tr><tr><td>G</td><td>出荷日</td><td>必須</td></tr><tr><td>H</td><td>サイズ品目</td><td>任意</td></tr><tr><td>I</td><td>運賃</td><td>任意</td></tr><tr><td>J</td><td>お客様管理番号</td><td>必須</td></tr></tbody></table></div>
 <p>   必須列は A（伝票番号）・G（出荷日）・J（お客様管理番号）の3列のみ。任意列はインポート処理で読み捨てられる。</p>
 <ol><li>「新規インポート」ボタンをクリックする。インポート実行フォームへ遷移する。</li></ol>
-<p><img src="../_analysis/screenshots/gap-purchase-ops-16-yamato-import-form.png" alt="「ヤマトB2クラウドの出荷実績をCSVでインポートする」フォーム（ファイル選択と「保存する」ボタン）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-purchase-ops-16-yamato-import-form.png" alt="「ヤマトB2クラウドの出荷実績をCSVでインポートする」フォーム（ファイル選択と「保存する」ボタン）" loading="lazy"></p>
 <ol><li>「ファイルを選択する」ボタンをクリックしてCSVファイルを選ぶか、ファイルをドラッグ&amp;ドロップでアップロードエリアに置く。</li><li>「保存する」ボタンをクリックする。</li></ol>
 <blockquote>インポート後の実行履歴はインポート一覧画面で確認できる。各履歴行をクリックすると詳細（検証ステータス・実行ステータス・成功件数・失敗件数）を確認できる。</blockquote>
 <hr>
@@ -3753,7 +3753,7 @@ strong{color:#0b2d4d}
 <ul><li>RecustomerのストアIDとシークレットキーを取得済みであること（Recustomerの管理画面から取得してください）</li></ul>
 <h4 id="02_by_task_______Recustomer______md__6">手順</h4>
 <ol><li>左メニュー下部の「設定」をクリックする。設定トップページが開く。</li><li>「外部連携」グループの「Recustomer」をクリックする。Recustomer連携一覧画面（<code>/admin/recustomer_integrations</code>）が開く。</li><li>「アカウントを接続」ボタンをクリックする。接続フォーム（<code>/admin/recustomer_integrations/create</code>）が開く。</li><li>次の項目を入力する（どちらも必須）。</li></ol>
-<p><img src="../_analysis/screenshots/14-recustomer-create.png" alt="Recustomerの「アカウントを接続する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-recustomer-create.png" alt="Recustomerの「アカウントを接続する」フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>入力内容</th></tr></thead><tbody><tr><td>ストアID *</td><td>必須</td><td>RecustomerのストアIDを入力する</td></tr><tr><td>シークレット *</td><td>必須</td><td>RecustomerのAPIシークレットキーを入力する</td></tr></tbody></table></div>
 <ol><li>「保存する」ボタンをクリックする。</li></ol>
 <h4 id="02_by_task_______Recustomer______md__7">うまくいかないとき（Recustomer）</h4>
@@ -3767,7 +3767,7 @@ strong{color:#0b2d4d}
 <ul><li>ロジザードZEROの契約情報（グループ番号・接続番号・オーナーID・ユーザーID・パスワード・アプリケーションキー）を手元に用意していること</li><li>各設定で使用するファイルID・パターンIDをロジザードZERO側で確認済みであること</li></ul>
 <h4 id="02_by_task_______Recustomer______md__11">手順</h4>
 <ol><li>左メニュー下部の「設定」をクリックする。設定トップページが開く。</li><li>「外部連携」グループの「ロジザード」をクリックする。ロジザード連携一覧画面（<code>/admin/logizard_integrations</code>）が開く。</li><li>「追加する」ボタンをクリックする。作成フォーム（<code>/admin/logizard_integrations/create</code>）が開く。</li><li>次の各セクションを順番に入力する（* 印は必須）。</li></ol>
-<p><img src="../_analysis/screenshots/14-logizard-create-full.png" alt="「ロジザード連携を作成する」フォーム（全セクション）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-logizard-create-full.png" alt="「ロジザード連携を作成する」フォーム（全セクション）" loading="lazy"></p>
 <h5 id="02_by_task_______Recustomer______md__12">セクション1: 設定名</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>入力内容</th></tr></thead><tbody><tr><td>設定名 *</td><td>必須</td><td>この連携設定の識別名を入力する</td></tr></tbody></table></div>
 <h5 id="02_by_task_______Recustomer______md__13">セクション2: 接続情報</h5>
@@ -3791,7 +3791,7 @@ strong{color:#0b2d4d}
 <h4 id="02_by_task_______Recustomer______md__21">手順</h4>
 <ol><li>左メニュー下部の「設定」をクリックする。設定トップページが開く。</li><li>「外部連携」グループの「アプリ」をクリックする。アプリ一覧画面（<code>/admin/settings/apps</code>）が開く。</li><li>「アプリを作成する」リンクボタンをクリックする。アプリ作成フォーム（<code>/admin/settings/apps/create</code>）が開く。</li></ol>
 <blockquote>アプリ一覧画面に「APIアクセスを管理する / アプリを作成して、SQのアドミンAPIにアクセスしましょう。」と表示されます。</blockquote>
-<p><img src="../_analysis/screenshots/14-apps-create.png" alt="アプリ作成フォーム（アプリ名と権限のチェックボックス）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-apps-create.png" alt="アプリ作成フォーム（アプリ名と権限のチェックボックス）" loading="lazy"></p>
 <ol><li>「アプリ名 *」フィールドにアプリの識別名を入力する（例: モバイルアプリ）。</li><li>付与する権限（スコープ）をチェックボックスから選択する。権限は読み取り（:read）と書き込み（:write）を個別に選択できる。各権限には説明文が付いている（例: 「商品情報を閲覧することができます。」）。</li><li>「保存する」ボタンをクリックする。アプリ詳細画面へ遷移する。</li></ol>
 <h4 id="02_by_task_______Recustomer______md__22">アプリ作成後の詳細画面</h4>
 <p>アプリを保存すると詳細画面が開き、以下の情報とセクションが表示されます。</p>
@@ -3826,13 +3826,13 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task___________md__4">手順</h3>
 <h4 id="02_by_task___________md__5">ステップ 1: 予約販売ルールを作成する</h4>
 <ol><li>左メニューの「販売設定」&gt;「予約販売」をクリックし、予約販売一覧画面を開く。</li><li>「予約販売ルールを作成する」ボタンをクリックする。作成フォーム（ページタイトル: 「予約販売のルールを作成する」）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/08-back-order-rule-create.png" alt="予約販売のルール作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/08-back-order-rule-create.png" alt="予約販売のルール作成フォーム" loading="lazy"></p>
 <ol><li>「タイトル」欄にルールの管理名を入力する（必須）。入力例（プレースホルダ）: 「2025SS先行販売」。</li><li>「保存する」ボタンをクリックする。保存が成功するとルールの詳細画面へ遷移する。</li></ol>
 <hr>
 <h4 id="02_by_task___________md__6">ステップ 2: 対象SKUを追加する</h4>
 <h5 id="02_by_task___________md__7">1件ずつ追加する場合</h5>
 <ol><li>詳細画面の「バリエーションを追加する」ボタンをクリックする。登録フォーム（ページタイトル: 「バリエーションを追加する」）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/audit-sales-settings-back-order-variant-add-form-2026-06-07.png" alt="バリエーションを追加するフォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/audit-sales-settings-back-order-variant-add-form-2026-06-07.png" alt="バリエーションを追加するフォーム" loading="lazy"></p>
 <ol><li>「商品バリエーション」欄の「選択」ボタンをクリックし、対象のSKUを選ぶ（必須）。</li><li>「販売数」欄に予約販売を受け付ける数量を入力する（必須）。初期値は「0」です。</li></ol>
 <blockquote>「販売数」は予約販売が可能な在庫数の固定値として設定します。</blockquote>
 <ol><li>「保存する」ボタンをクリックする。</li><li>他のSKUも追加する場合は手順1〜4を繰り返す。</li></ol>
@@ -3862,7 +3862,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_________________md__4">手順</h3>
 <h4 id="02_by_task_________________md__5">ステップ 1: 作成フォームを開く</h4>
 <ol><li>左メニューの「会員ランク」をクリックし、会員ランク一覧画面を開く。</li><li>右上の「会員ランク算出ルールを作成する」ボタンをクリックする。作成フォームへ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/crm-rank-create.png" alt="会員ランク算出ルール作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/crm-rank-create.png" alt="会員ランク算出ルール作成フォーム" loading="lazy"></p>
 <hr>
 <h4 id="02_by_task_________________md__6">ステップ 2: ルールの基本設定をする</h4>
 <ol><li>「タイトル」欄にルールの管理名を入力する（必須）。</li><li>「算出方法」のラジオボタンを確認する。</li></ol>
@@ -3890,7 +3890,7 @@ strong{color:#0b2d4d}
 <hr>
 <h4 id="02_by_task_________________md__10">ステップ 6: ランクの段階を追加する</h4>
 <p>ランク段階の管理は、算出ルール詳細ページ内の「会員ランク」セクションで行います。</p>
-<p><img src="../_analysis/screenshots/crm2-rank-tier-create.png" alt="会員ランク追加フォーム（表示名・購入金額）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/crm2-rank-tier-create.png" alt="会員ランク追加フォーム（表示名・購入金額）" loading="lazy"></p>
 <ol><li>詳細ページの「会員ランク」セクションにある「会員ランクを追加する」リンクをクリックする。ランク段階の追加フォームへ遷移する。</li></ol>
 <blockquote>ページタイトル（h1）は「会員ランク算出ルールを作成する」と表示されます。これはアプリの仕様で、算出ルール本体の作成フォームと同じ文言が使われています。URL（<code>/customer_rank_rules/create</code>）と入力項目（表示名・購入金額）でランク段階の追加フォームであることを確認してください。</blockquote>
 <ol><li>「表示名」欄にランク名を入力する（必須）。入力例（プレースホルダ）: 「ブロンズ」。</li><li>「購入金額」欄にランク達成に必要な購入金額を入力する（必須）。入力欄には「[n] 円以上で達成」というラベル形式で表示されます。</li><li>「保存する」ボタンをクリックする。詳細ページに戻り、追加したランクが一覧に表示されます。</li><li>必要なランク段階の数だけ手順 1〜4 を繰り返す。</li></ol>
@@ -3923,7 +3923,7 @@ strong{color:#0b2d4d}
 <hr>
 <h3 id="02_by_task_______________md__3">手順1: 会社を作成する</h3>
 <ol><li>左メニューの「顧客管理」をクリックし、サブメニューの「会社」をクリックする。会社一覧画面（/admin/companies）が開く。</li><li>「会社を作成する」ボタンをクリックする。会社作成フォーム（/admin/companies/create）へ遷移する。</li><li>次の項目を入力する。</li></ol>
-<p><img src="../_analysis/screenshots/companies-create-form.png" alt="「会社を作成する」フォーム（会社情報・担当者・ロケーション・配送先住所・請求先住所）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/companies-create-form.png" alt="「会社を作成する」フォーム（会社情報・担当者・ロケーション・配送先住所・請求先住所）" loading="lazy"></p>
 <h4 id="02_by_task_______________md__4">会社情報</h4>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>補足</th></tr></thead><tbody><tr><td>会社名</td><td>必須（*）</td><td>請求書・配送ラベルに表示される</td></tr><tr><td>会社ID</td><td>任意</td><td>外部ID（社内コード等）がある場合に入力する</td></tr></tbody></table></div>
 <h4 id="02_by_task_______________md__5">ロケーション（初回の納品先住所）</h4>
@@ -3940,7 +3940,7 @@ strong{color:#0b2d4d}
 <p>担当者とは、発注確認メールなどの送付先となる会社の連絡先です。会社作成後に会社詳細画面から追加します。</p>
 <blockquote><strong>注意:</strong> 担当者は顧客管理（/admin/purchasing_customers）の顧客とは別のエンティティです。担当者を追加しても顧客管理の一覧には表示されません。</blockquote>
 <ol><li>会社詳細画面（/admin/companies/{id}）を開く。</li><li>「担当者」セクションの「担当者を追加」ボタンをクリックする。「担当者を作成する」ダイアログが開く。</li></ol>
-<p><img src="../_analysis/screenshots/gap-company-detail-add-contact-dialog.png" alt="「担当者を作成する」ダイアログ（姓・名・メールアドレス・電話番号）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-company-detail-add-contact-dialog.png" alt="「担当者を作成する」ダイアログ（姓・名・メールアドレス・電話番号）" loading="lazy"></p>
 <ol><li>次の項目を入力する。</li></ol>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>プレースホルダー</th></tr></thead><tbody><tr><td>姓</td><td>必須（*）</td><td>山田</td></tr><tr><td>名</td><td>必須（*）</td><td>花子</td></tr><tr><td>メールアドレス</td><td>必須（*）</td><td>you@company.com</td></tr><tr><td>電話番号</td><td>任意</td><td>09012345678</td></tr></tbody></table></div>
 <blockquote>「発注の確認メールなどはこのメールアドレスに配信されます。」</blockquote>
@@ -3949,7 +3949,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_______________md__9">手順3: ロケーションを追加する</h3>
 <p>2拠点目以降の納品先を追加する場合は、次の手順で行います。</p>
 <ol><li>会社詳細画面（/admin/companies/{id}）を開く。</li></ol>
-<p><img src="../_analysis/screenshots/gap-company-detail-top.png" alt="会社詳細画面。「ロケーション」セクションに「ロケーションを追加」ボタンがある" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-company-detail-top.png" alt="会社詳細画面。「ロケーション」セクションに「ロケーションを追加」ボタンがある" loading="lazy"></p>
 <ol><li>「ロケーション」セクションの「ロケーションを追加」ボタンをクリックする。ロケーション追加フォーム（/admin/companies/{id}/locations/create）へ遷移する。</li><li>次の項目を入力する。</li></ol>
 <h4 id="02_by_task_______________md__10">ロケーション情報</h4>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>補足</th></tr></thead><tbody><tr><td>ロケーション名</td><td>必須（*）</td><td>「注文のロケーションを特定するために使用します。例：ミッドタウン」</td></tr><tr><td>ロケーションID</td><td>任意</td><td>「会社のロケーションを識別する外部IDがある場合に登録することができます。」</td></tr><tr><td>コード</td><td>任意</td><td>プレースホルダー: 12345</td></tr></tbody></table></div>
@@ -3988,14 +3988,14 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_________md__4">ステップ 1: テナントを確認する</h3>
 <p>テナントとは、SQ内でブランド・部門などの運用単位を分けるための管理単位です。ポイント、会員ランク、チャネル連携など複数機能の紐づけ先になります。初期状態で1件登録されている場合があります。</p>
 <ol><li>左メニュー下部の「設定」をクリックする。設定トップページが開く。</li></ol>
-<p><img src="../_analysis/screenshots/14-settings-top.png" alt="設定トップページ" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-settings-top.png" alt="設定トップページ" loading="lazy"></p>
 <ol><li>「テナント」をクリックする。テナント一覧画面に遷移する。</li><li>一覧に表示されているテナント名・件数を確認する。</li><li>新規にテナントを追加する場合は「テナントを作成」ボタンをクリックし、必要事項を入力して保存する。</li></ol>
 <blockquote>ここで確認したテナントは、後続のロケーション・管理メンバー・発注・ポイント/会員ランク・チャネル連携などの設定に紐づきます。</blockquote>
 <hr>
 <h3 id="02_by_task_________md__5">ステップ 2: ロケーションを登録する</h3>
 <p>ロケーションとは、在庫を管理する物理的な拠点（倉庫・店舗）です。在庫移動・発注・出荷などのすべての在庫操作に必要です。</p>
 <ol><li>設定トップページで「ロケーション」をクリックする。ロケーション一覧画面に遷移する。</li><li>「ロケーションを作成」ボタンをクリックする。作成フォームが開く。</li><li>次の項目を入力する。</li></ol>
-<p><img src="../_analysis/screenshots/14-location-create.png" alt="「ロケーションを作成」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-location-create.png" alt="「ロケーションを作成」フォーム" loading="lazy"></p>
 <h4 id="02_by_task_________md__6">基本情報セクションの入力項目</h4>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>必須/任意</th><th>説明</th></tr></thead><tbody><tr><td>名前 *</td><td>必須</td><td>このロケーションの短い名前。注文・商品などの画面で表示される（例: 物流倉庫）</td></tr><tr><td>表示名</td><td>任意</td><td>顧客向けなど別途表示名が必要な場合に入力する</td></tr><tr><td>コード *</td><td>必須</td><td>ロケーションを識別するコード（例: W0001）</td></tr><tr><td>場所種別 *</td><td>必須</td><td>セレクトボックスで選択。選択肢は「倉庫」「店舗」の2種類のみ</td></tr></tbody></table></div>
 <h4 id="02_by_task_________md__7">所在地・連絡先セクションの入力項目</h4>
@@ -4016,7 +4016,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_________md__11">ステップ 4: 決済方法を登録する</h3>
 <p>決済方法とは、顧客が注文時に利用する支払い手段（クレジットカード・代引きなど）の設定です。</p>
 <ol><li>設定トップページで「決済方法」をクリックする。決済方法一覧画面に遷移する。</li><li>「決済方法を作成」ボタンをクリックする。作成フォームが開く。</li><li>次の項目を入力する。</li></ol>
-<p><img src="../_analysis/screenshots/14-payment-methods-create.png" alt="「決済方法を作成する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/14-payment-methods-create.png" alt="「決済方法を作成する」フォーム" loading="lazy"></p>
 <h4 id="02_by_task_________md__12">決済方法作成フォームの入力項目</h4>
 <div class="tablewrap"><table><thead><tr><th>項目</th><th>必須/任意</th><th>説明</th></tr></thead><tbody><tr><td>名前 *</td><td>必須</td><td>決済方法の名称（例: クレジットカード）</td></tr><tr><td>コード *</td><td>必須</td><td>識別コード（例: credit_card）</td></tr><tr><td>ゲートウェイ *</td><td>必須</td><td>決済ゲートウェイの識別子（例: shopify_payments）</td></tr><tr><td>支払い待ちでも注文を出荷する</td><td>任意</td><td>チェックボックス（デフォルト: オフ）</td></tr><tr><td>代引き</td><td>任意</td><td>チェックボックス（デフォルト: オフ）。代金引換の場合にチェックする</td></tr></tbody></table></div>
 <ol><li>「保存する」ボタンをクリックする。</li><li>必要な決済方法の数だけ手順 2〜4 を繰り返す。</li></ol>
@@ -4062,7 +4062,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_____________md__7">手順</h3>
 <h4 id="02_by_task_____________md__8">ステップ 1: 在庫依頼を作成する</h4>
 <ol><li>左メニューの「在庫依頼」をクリックし、在庫依頼の一覧画面を開く。</li><li>「在庫依頼を作成する」ボタンをクリックする。在庫依頼の作成フォームへ遷移する。</li><li>「商品バリエーション」欄の「選択」ボタンをクリックし、移動したい商品バリエーションを検索して選ぶ。</li><li>「希望数」に移動させたい数量を入力する。</li><li>「移動先ロケーション」欄の「選択」ボタンをクリックし、在庫の届け先ロケーション（例: 店舗）を選ぶ。</li><li>「リクエスト先ロケーション」欄の「選択」ボタンをクリックし、在庫の引当元ロケーション（例: 倉庫）を選ぶ。</li><li>「保存する」ボタンをクリックする。</li><li>在庫依頼の詳細画面に遷移し、画面右上に「在庫依頼を作成しました」というメッセージが表示される。ステータスが「確認待ち」になったことを確認する。</li></ol>
-<p><img src="../_analysis/screenshots/flow-01-allocation-request-form.png" alt="在庫依頼の作成フォーム。商品バリエーション・希望数・移動先ロケーション・リクエスト先ロケーションを入力する" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-01-allocation-request-form.png" alt="在庫依頼の作成フォーム。商品バリエーション・希望数・移動先ロケーション・リクエスト先ロケーションを入力する" loading="lazy"></p>
 <blockquote><strong>「リクエスト先ロケーション」について:</strong> この項目が引当元（在庫を取り出す元）のロケーションになります。次のステップで引当てダイアログを開くと、ここで指定したロケーションのみが選択肢として表示されます。</blockquote>
 <blockquote><strong>項目ラベルの補足:</strong> 詳細画面では「リクエスト先ロケーション」は「依頼先」、「移動先ロケーション」は「引当先ロケーション」と表示が変わります。同じ意味です。</blockquote>
 <hr>
@@ -4073,7 +4073,7 @@ strong{color:#0b2d4d}
 <h4 id="02_by_task_____________md__10">ステップ 3: 移動伝票を作成する</h4>
 <p>移動伝票を作成すると、同時に <strong>出荷指示と入荷指示が自動生成</strong> されます。出荷管理・入荷管理の各画面にも件数バッジが表示されます。</p>
 <ol><li>左メニューの「在庫依頼」→「確保済み」をクリックし、確保済み一覧画面を開く。</li><li>一覧に対象の引当行（商品・数量・移動元・移動先）が表示されていることを確認する。</li><li>画面右上の「移動伝票を作成する」ボタンをクリックする。「移動伝票を作成する」ダイアログが開く。</li><li>「移動元」欄のボタンをクリックし、在庫の出発元ロケーション（例: 物流倉庫）を選ぶ。</li><li>「実行する」ボタンをクリックする（移動元が未選択の場合はグレーアウトして押せない）。</li><li>「移動伝票を一括作成しました」というメッセージが表示され、一覧の該当行が消えることを確認する。</li><li>左メニューの「出荷管理」と「入荷管理」にそれぞれ未完了件数のバッジが出ていることを確認する。</li></ol>
-<p><img src="../_analysis/screenshots/flow-03-movement-dialog.png" alt="確保済み一覧から開いた「移動伝票を作成する」ダイアログ。移動元を選択して「実行する」を押す" loading="lazy"></p>
+<p><img src="_analysis/screenshots/flow-03-movement-dialog.png" alt="確保済み一覧から開いた「移動伝票を作成する」ダイアログ。移動元を選択して「実行する」を押す" loading="lazy"></p>
 <blockquote><strong>移動伝票の編集制限について:</strong> 作成された移動伝票の詳細を開くと次のメッセージが表示されます。  見出し「外部システムから連携されている移動伝票です」 本文「この移動伝票は外部システムから連携されているため、編集（商品の追加や削除など）は制限されています。連携元システムの管理画面より操作を行ってください。」  移動伝票自体にステータスを進めるボタンはなく、後続の出荷・入荷の実績登録に連動して自動的に完了します。</blockquote>
 <hr>
 <h4 id="02_by_task_____________md__11">ステップ 4: 出荷実績を登録する</h4>
@@ -4087,7 +4087,7 @@ strong{color:#0b2d4d}
 <p>入荷管理画面から、移動先ロケーションへの入荷を完了させます。</p>
 <ol><li>左メニューの「入荷管理」をクリックし、入荷管理の一覧画面を開く。</li><li>「入荷待ち」タブに対象の入荷指示があることを確認する。</li><li>入荷指示の行をクリックして詳細画面を開く。種別が「移動」と表示されていることを確認する。商品・数量・ロケーションが正しいことを確認する。</li><li>画面右上の「入荷実績を登録する」または「入荷指示を一括受領で完了する」をクリックする（※ボタンではなく <code>&lt;a&gt;</code> リンク。遷移先は <code>/receive</code> または <code>/complete</code>）。入荷実績登録フォーム、または完了確認画面が開く。</li><li>画面の説明文「この処理は巻き戻すことができません。」を確認する。</li></ol>
 <blockquote><strong>この操作は巻き戻せません。</strong> 登録後は取り消しができません。</blockquote>
-<p>   <img src="../_analysis/screenshots/flow-05-inbound-dialog.png" alt="「入荷実績を登録する」ダイアログ。「この処理は巻き戻すことができません。」と表示される" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/flow-05-inbound-dialog.png" alt="「入荷実績を登録する」ダイアログ。「この処理は巻き戻すことができません。」と表示される" loading="lazy"></p>
 <ol><li>数量を入力する画面の場合は受領数を確認し、「登録する」ボタンをクリックする。一括受領・完了更新画面の場合は内容を確認して実行する。</li><li>「入荷実績を登録しました」というメッセージが表示され、ステータスが「入荷完了」になったことを確認する。</li><li>移動伝票の詳細画面を開くと、ステータスバッジに「完了」と「入荷完了」の2つが並んで表示されていることを確認する。</li></ol>
 <blockquote><strong>注意:</strong> 予定数より少ない数量、または多い数量でも入荷実績を登録できます。予定数と実績数が一致しない場合は、入荷指示詳細の「完了に更新する」で手動完了するケースがあります。</blockquote>
 <hr>
@@ -4196,7 +4196,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task___________md__4">手順1: 取置伝票を作成する</h3>
 <ol><li>左メニューの「在庫管理」をクリックし、サブメニューの「取置伝票」をクリックする。取置伝票の一覧画面（<code>/admin/inventory_reservation_orders</code>）が開く。</li><li>画面右上の「取置伝票を作成する」ボタンをクリックする。作成フォーム（<code>/admin/inventory_reservation_orders/create</code>）へ遷移する。</li><li>「ロケーション」欄の「選択」ボタンをクリックする。ロケーション選択モーダルが開く。</li><li>取り置く在庫のロケーションを選んで「選択する」をクリックする。</li><li>「メモ」欄に取置の目的や備考を入力する（任意。例: 「店舗での取置用在庫」）。</li><li>商品欄の検索フィールドに商品名またはSKUを入力して検索するか、「参照」ボタンをクリックして商品選択モーダルから取り置く商品を選ぶ。</li><li>「保存する」ボタンをクリックする。取置伝票の一覧画面へ戻り、「取置伝票を作成しました」と表示される。作成された伝票は「未完了 / 未処理」と表示される。</li></ol>
 <blockquote>保存と同時に対象商品の在庫が「取置中」の区分に移動します。</blockquote>
-<p><img src="../_analysis/screenshots/04-reservation-order-create-form.png" alt="取置伝票の作成フォーム。ロケーション・メモ・商品の各欄がある" loading="lazy"></p>
+<p><img src="_analysis/screenshots/04-reservation-order-create-form.png" alt="取置伝票の作成フォーム。ロケーション・メモ・商品の各欄がある" loading="lazy"></p>
 <p>伝票番号は <code>#IR-1002</code> のように <code>#IR-</code> から始まる形式で採番されます。</p>
 <hr>
 <h3 id="02_by_task___________md__5">手順2: 処理済みにして在庫を解放する</h3>
@@ -4237,7 +4237,7 @@ strong{color:#0b2d4d}
 <p>以下の手順は「商品」カテゴリ（<code>/admin/csv_import/csv_import_operation_products</code>）を代表例として説明します。他のカテゴリも同様のフローで操作します（フォームの構成のみ異なる場合があります）。</p>
 <h4 id="02_by_task____CSV________md__5">ステップ 1: テンプレートを入手する</h4>
 <ol><li>左メニューから「CSVインポート」をクリックしてCSVインポートトップ画面（<code>/admin/csv_import</code>）を開く。</li><li>「商品グループ」内の「商品」をクリックする。商品インポートの一覧画面（<code>/admin/csv_import/csv_import_operation_products</code>）へ遷移する。</li><li>「テンプレート」ボタンをクリックする。Googleスプレッドシートのテンプレートが別タブで開く。</li></ol>
-<p><img src="../_analysis/screenshots/03-csv-import-products.png" alt="「商品をCSVでインポートする」一覧画面。右上に「テンプレート」「新規インポート」ボタン、下に実行履歴の一覧" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-csv-import-products.png" alt="「商品をCSVでインポートする」一覧画面。右上に「テンプレート」「新規インポート」ボタン、下に実行履歴の一覧" loading="lazy"></p>
 <ol><li>スプレッドシートをダウンロードまたはコピーして、CSVファイルとして保存する。</li></ol>
 <blockquote>CSVのカラム順・ヘッダー名はテンプレートに準拠する必要があります。列の順番を変えたり、ヘッダー名を変更したりすると取り込みに失敗します。</blockquote>
 <hr>
@@ -4257,7 +4257,7 @@ strong{color:#0b2d4d}
 <p>「保存する」を押した後、インポートは「検証」→「実行」の2段階で処理されます。</p>
 <ol><li>商品インポートの一覧画面（<code>/admin/csv_import/csv_import_operation_products</code>）で実行履歴を確認する。</li><li>実行した行をクリックして詳細画面を開く。</li><li>以下の項目を確認する。</li></ol>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>内容</th></tr></thead><tbody><tr><td>検証ステータス</td><td>CSVの検証結果（例: 完了）</td></tr><tr><td>実行ステータス</td><td>データ反映の結果（例: 完了）</td></tr><tr><td>検証成功</td><td>成功した件数（例: 6個の商品）</td></tr><tr><td>検証失敗</td><td>失敗した件数。クリックで失敗詳細画面（「検証失敗」）へ移動できる</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/gap-csv-import-detail-success.png" alt="「CSVインポート操作の詳細」画面。検証ステータス・実行ステータス・検証成功・検証失敗の各項目" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-csv-import-detail-success.png" alt="「CSVインポート操作の詳細」画面。検証ステータス・実行ステータス・検証成功・検証失敗の各項目" loading="lazy"></p>
 <hr>
 <h4 id="02_by_task____CSV________md__11">ステップ 7: 検証成功後に「実行する」ボタンをクリックする</h4>
 <ol><li>検証ステータスが「完了」で、「検証失敗」が0件であることを確認する。</li><li>「実行する」ボタンをクリックしてデータをシステムに反映させる。</li></ol>
@@ -4293,14 +4293,14 @@ strong{color:#0b2d4d}
 <hr>
 <h3 id="02_by_task_______________md__4">商品をアーカイブする</h3>
 <ol><li>左メニューの「商品管理」をクリックして、商品一覧画面を開く。</li><li>アーカイブしたい商品の行をクリックして、商品詳細画面を開く。</li><li>画面右上の「その他の操作」ボタンをクリックする。ドロップダウンメニューが開く。</li><li>「商品をアーカイブする」をクリックする。</li><li>確認ダイアログ「商品をアーカイブしますか?」が表示される。本文には「この商品をアーカイブすると、販売チャネルと管理画面上で非表示になります。商品リストにあるステータス絞り込み機能を使用して商品を探します。」と表示される。</li><li>「商品をアーカイブする」ボタンをクリックする（やめる場合は「キャンセル」）。</li></ol>
-<p><img src="../_analysis/screenshots/03-product-archive-dialog.png" alt="「商品をアーカイブしますか?」確認ダイアログ。「キャンセル」と「商品をアーカイブする」ボタン" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-product-archive-dialog.png" alt="「商品をアーカイブしますか?」確認ダイアログ。「キャンセル」と「商品をアーカイブする」ボタン" loading="lazy"></p>
 <ol><li>商品のステータスが「アーカイブ済み」に変わり、商品一覧の「アーカイブ済み」タブに移動することを確認する。</li></ol>
 <hr>
 <h3 id="02_by_task_______________md__5">アーカイブを解除する（復元する）</h3>
 <p>アーカイブ済みの商品は「下書き」ステータスに戻して再び編集できるようにできます。</p>
 <ol><li>左メニューの「商品管理」をクリックして、商品一覧画面を開く。</li><li>「アーカイブ済み」タブをクリックする。アーカイブ済みの商品一覧が表示される。</li><li>復元したい商品の行をクリックして、商品詳細画面を開く。</li><li>画面右上の「その他の操作」ボタンをクリックする。ドロップダウンメニューが開く。</li><li>「商品のアーカイブを解除する」をクリックする。以下の確認ダイアログが表示される。</li></ol>
 <blockquote><strong>ダイアログタイトル:</strong> 「商品のアーカイブを解除しますか？」  <strong>説明文:</strong> 「この商品のアーカイブを解除すると、ステータスが下書きに変更され再び作業できるようになります。」  <strong>ボタン:</strong> 「キャンセル」「商品のアーカイブを解除する」</blockquote>
-<p><img src="../_analysis/screenshots/kill-products-unarchive-confirm-dialog.png" alt="「商品のアーカイブを解除しますか？」確認ダイアログ。ステータスが下書きに変更される旨の説明と「キャンセル」「商品のアーカイブを解除する」ボタン" loading="lazy"></p>
+<p><img src="_analysis/screenshots/kill-products-unarchive-confirm-dialog.png" alt="「商品のアーカイブを解除しますか？」確認ダイアログ。ステータスが下書きに変更される旨の説明と「キャンセル」「商品のアーカイブを解除する」ボタン" loading="lazy"></p>
 <ol><li>「商品のアーカイブを解除する」ボタンをクリックする。</li><li>商品のステータスが「下書き」に変わることを確認する。</li></ol>
 <blockquote><strong>注意: アーカイブ解除後のステータスは必ず「下書き」になります。</strong> アーカイブ前に「公開中」だった商品も、解除後は「下書き」に変わります。再び公開するには、編集画面でステータスを「公開中」に変更してください。</blockquote>
 <hr>
@@ -4330,7 +4330,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_________md__4">第1部: 商品の基本情報を登録する</h3>
 <h4 id="02_by_task_________md__5">ステップ 1: 作成フォームを開く</h4>
 <ol><li>左メニューの「商品管理」をクリックして、商品一覧画面を開く。</li><li>右上の「商品を作成する」ボタンをクリックする。商品作成フォーム（<code>/admin/products/create</code>）へ遷移する。</li></ol>
-<p><img src="../_analysis/screenshots/03-product-create-form.png" alt="商品作成フォーム。商品コード・商品名・説明文・メディア・バリエーションの入力欄と、右サイドバーのステータス・商品分類・タグ" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-product-create-form.png" alt="商品作成フォーム。商品コード・商品名・説明文・メディア・バリエーションの入力欄と、右サイドバーのステータス・商品分類・タグ" loading="lazy"></p>
 <hr>
 <h4 id="02_by_task_________md__6">ステップ 2: 基本情報を入力する</h4>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>入力内容</th></tr></thead><tbody><tr><td>商品コード*</td><td>必須</td><td>半角英数字・ハイフン・アンダースコアのみ使用可（例: 7835152003XL180）。作成後に変更できません</td></tr><tr><td>商品名*</td><td>必須</td><td>商品名を入力する（例: 半袖Tシャツ）</td></tr><tr><td>説明文</td><td>任意</td><td>商品説明（5000字以内）</td></tr></tbody></table></div>
@@ -4358,7 +4358,7 @@ strong{color:#0b2d4d}
 <p>第1部で保存した商品には、設定したオプション軸の組み合わせ分だけバリエーションが作成されています。次に各バリエーションの価格・SKU・在庫・配送情報を登録します。</p>
 <h4 id="02_by_task_________md__13">ステップ 6: バリエーション詳細を作成する</h4>
 <ol><li>商品詳細画面の「バリエーション」セクションで「バリエーションを追加する」リンクをクリックする。バリエーション作成フォーム（<code>/admin/products/{id}/variants/create</code>）へ遷移する。</li><li>画面左ペインに既存バリエーションの一覧が表示されている。右ペインで各項目を入力する。</li></ol>
-<p><img src="../_analysis/screenshots/03-variant-create-form-v2.png" alt="バリエーション作成フォーム。左ペインにバリエーション一覧、右ペインにオプション・価格設定・在庫・販売・配送・関税情報の入力欄" loading="lazy"></p>
+<p><img src="_analysis/screenshots/03-variant-create-form-v2.png" alt="バリエーション作成フォーム。左ペインにバリエーション一覧、右ペインにオプション・価格設定・在庫・販売・配送・関税情報の入力欄" loading="lazy"></p>
 <h5 id="02_by_task_________md__14">オプション（必須）</h5>
 <p>商品のオプション軸（カラー・サイズなど）から、このバリエーションに対応する値をセレクトで選ぶ。</p>
 <h5 id="02_by_task_________md__15">価格設定</h5>
@@ -4408,7 +4408,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task_________md__7">3. バリエーションを編集する</h3>
 <p>バリエーション（SKU・サイズ・カラーなど）の詳細を変更します。</p>
 <ol><li>商品詳細画面の「バリエーション」セクションで、編集したいバリエーションの行をクリックする。バリエーション編集画面（<code>/admin/products/{id}/variants/{variant_id}</code>）へ遷移する。</li><li>各セクションの項目を変更する。</li></ol>
-<p>   <img src="../_analysis/screenshots/03-variant-detail.png" alt="バリエーション編集画面。右上に「在庫管理」リンク、オプション・価格・原価・在庫・販売・配送の各セクションと「更新する」ボタン" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/03-variant-detail.png" alt="バリエーション編集画面。右上に「在庫管理」リンク、オプション・価格・原価・在庫・販売・配送の各セクションと「更新する」ボタン" loading="lazy"></p>
 <p>   #### オプション    商品に設定されているオプション軸（カラー・サイズなど）の値を変更できます。</p>
 <p>   #### 価格</p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>内容</th></tr></thead><tbody><tr><td>上代*</td><td>必須</td><td>販売価格（円）</td></tr></tbody></table></div>
@@ -4468,7 +4468,7 @@ strong{color:#0b2d4d}
 <p>棚卸差異・廃棄・紛失・見本などの理由を記録しながら在庫を増減する方法です。マイナス在庫（手持ちが 0 未満になっている状態）を修正する際にも使います。</p>
 <h4 id="02_by_task_________md__6">手順</h4>
 <ol><li>左メニューの「在庫管理」をクリックし、サブメニューから「<strong>調整伝票</strong>」を選ぶ。</li><li>右上の「<strong>調整伝票を作成する</strong>」ボタンをクリックする。作成フォームへ遷移する。</li><li>「ロケーション」欄の「<strong>選択</strong>」ボタンをクリックし、調整対象の在庫があるロケーションを選んで「<strong>選択する</strong>」を押す。</li><li>「理由」ドロップダウンから調整の理由を選ぶ。選択肢は以下の5種類。</li><li>廃棄</li><li>見本</li><li>紛失</li><li>棚卸差異</li><li>その他</li><li>「<strong>参照</strong>」ボタンをクリックして商品を検索し、調整したい商品バリエーションを選ぶ。商品行が追加される。</li><li>商品行に表示された「増減数」欄に数値を入力する（在庫を増やすときはプラス、減らすときはマイナスの値を入力する）。</li><li>「<strong>保存する</strong>」ボタンをクリックする。調整伝票の詳細画面へ遷移し、ステータスが「未実施」になる。</li></ol>
-<p>   <img src="../_analysis/screenshots/04-adjustment-order-filled.png" alt="調整伝票の作成フォーム。ロケーション・理由を選び、商品行の「増減数」に数値を入力する" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/04-adjustment-order-filled.png" alt="調整伝票の作成フォーム。ロケーション・理由を選び、商品行の「増減数」に数値を入力する" loading="lazy"></p>
 <ol><li>内容（ロケーション・理由・商品・増減数）を確認する。</li></ol>
 <blockquote><strong>未実施の間は内容を修正できます。</strong> 詳細画面でロケーション・理由・商品・増減数を変更して「<strong>保存する</strong>」を押すと変更が確定します。変更後に「変更を破棄」を押すと元の値に戻ります。</blockquote>
 <ol><li>「<strong>実行</strong>」ボタンをクリックする。</li></ol>
@@ -4483,7 +4483,7 @@ strong{color:#0b2d4d}
 <h4 id="02_by_task_________md__9">手順</h4>
 <ol><li>左メニューの「<strong>在庫管理</strong>」をクリックして一覧画面を開く。</li><li>変更したいSKUの行をクリックして在庫詳細画面へ遷移する。</li><li>ロケーション一覧の「販売可能」列にある <strong>鉛筆アイコン</strong>（aria-label: 「販売可能数を編集」）をクリックする。「<strong>販売可能在庫数を編集する</strong>」ダイアログが開く。</li><li>「<strong>理由</strong>」欄に変更の理由をテキストで入力する（必須。空のままでは保存できない）。</li><li>「<strong>数量</strong>」欄に設定したい販売可能数を入力する（初期値: 0）。</li><li>「<strong>保存する</strong>」ボタンをクリックして確定する。</li></ol>
 <blockquote>「理由」は必須です。空のまま「保存する」を押すと「理由を入力してください」というエラーが表示されて保存がブロックされます。</blockquote>
-<p><img src="../_analysis/screenshots/gap-inventory-10-pencil-dialog.png" alt="「販売可能在庫数を編集する」ダイアログ。理由（必須）と数量を入力して保存する" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-inventory-10-pencil-dialog.png" alt="「販売可能在庫数を編集する」ダイアログ。理由（必須）と数量を入力して保存する" loading="lazy"></p>
 <h4 id="02_by_task_________md__10">保存したときの挙動</h4>
 <ul><li>入力した数量が、そのまま新しい <strong>販売可能数</strong> になる（絶対値の上書き。例: 販売可能95の状態で数量1を入力すると、販売可能は96ではなく1になる）</li><li>「手持ち」は販売可能の変更差分だけ増減する</li><li>負数も保存できる（例: 数量-1で販売可能・手持ちが-1になる）。通常運用では実在庫と合わなくなるため、補正目的に限定する</li><li>調整伝票（<code>/admin/inventory_adjustment_orders</code>）には新しい伝票は作成されない</li><li>変更は SKU詳細の「<strong>調整履歴</strong>」ボタンから確認できる変更履歴ページに記録される。履歴には各区分の変更後数量と差分（例: 5 (+5)）が表示され、入力した「理由」がアクティビティ名として記録される</li></ul>
 <hr>
@@ -4492,7 +4492,7 @@ strong{color:#0b2d4d}
 <blockquote><strong>対象制限</strong>: 振替先は同一商品内の他バリエーションのみです。別商品への振替や、振替元と同一バリエーションへの振替はできません。</blockquote>
 <h4 id="02_by_task_________md__12">手順</h4>
 <ol><li>左メニューの「<strong>在庫管理</strong>」をクリックして一覧画面を開く。</li><li>振替元となるSKUの行をクリックして在庫詳細画面へ遷移する。</li><li>右上の「<strong>その他のアクション ▼</strong>」ボタンをクリックし、展開したメニューから「<strong>在庫振替を行う</strong>」を選ぶ。「在庫振替を行う」ダイアログが開く。</li><li>「<strong>ロケーション</strong>」欄の「<strong>選択</strong>」ボタンをクリックして、振替元のロケーションを選ぶ。</li><li>「<strong>振替先のバリエーション</strong>」ドロップダウンから振替先のバリエーションを選ぶ（同一商品内の他バリエーションのみ表示される）。</li><li>「<strong>理由</strong>」欄に振替の理由を入力する（任意）。</li><li>「<strong>保存する</strong>」ボタンをクリックして確定する。</li></ol>
-<p><img src="../_analysis/screenshots/04-inventory-detail-zaiko-furi.png" alt="「在庫振替を行う」ダイアログ。ロケーション・振替先のバリエーション・理由を指定する" loading="lazy"></p>
+<p><img src="_analysis/screenshots/04-inventory-detail-zaiko-furi.png" alt="「在庫振替を行う」ダイアログ。ロケーション・振替先のバリエーション・理由を指定する" loading="lazy"></p>
 <hr>
 <h3 id="02_by_task_________md__13">うまくいかないとき</h3>
 <p><strong>「実行」ボタンがグレーアウトして押せない</strong></p>
@@ -4519,7 +4519,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task______CSV_________md__4">手順</h3>
 <h4 id="02_by_task______CSV_________md__5">売上実績（注文軸）をエクスポートする</h4>
 <ol><li>左メニューから「CSVエクスポート」をクリックし、CSVエクスポートのトップ画面（<code>/admin/csv_export</code>）を開く。</li><li>「実績」グループ内の「売上実績（注文軸）」の行をクリックする。売上実績（注文軸）の一覧画面へ遷移する。</li><li>売上実績一覧（<code>/admin/sale_change_line_items</code>）の「エクスポート」&gt;「注文軸」からも同じ一覧画面へ遷移できる。</li><li>「エクスポート」ボタンをクリックする。エクスポート実行フォーム（<code>/admin/csv_export/csv_export_operation_sale_changes/create</code>）へ遷移する。</li><li>以下の項目を入力する。</li></ol>
-<p><img src="../_analysis/screenshots/audit-csv-acct-003-export-sale-changes-create.png" alt="「売上実績（注文軸）をCSVでエクスポートする」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/audit-csv-acct-003-export-sale-changes-create.png" alt="「売上実績（注文軸）をCSVでエクスポートする」フォーム" loading="lazy"></p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>説明</th></tr></thead><tbody><tr><td>テナント</td><td>必須（*）</td><td>ドロップダウンからエクスポート対象のテナントを選ぶ</td></tr><tr><td>開始日時</td><td>必須（*）</td><td>絞り込みを開始する日時を入力する</td></tr><tr><td>終了日時</td><td>必須（*）</td><td>絞り込みを終了する日時を入力する</td></tr></tbody></table></div>
 <ol><li>「エクスポートを開始する」ボタンをクリックする。</li></ol>
 <p>2026-06-16/2026-06-19の実機確認では、「エクスポートを開始する」押下後に一覧へ戻り、直近行が「注意 処理中」になりました。再読み込み後に「成功 完了」になり、ダウンロードリンクが表示されました。</p>
@@ -4529,7 +4529,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task______CSV_________md__6">CSVエクスポートで取得できる他のデータ</h3>
 <p>売上実績の他に、以下のデータも同様の手順でエクスポートできる。</p>
 <div class="tablewrap"><table><thead><tr><th>カテゴリ（UIラベル）</th><th>グループ</th><th>説明</th></tr></thead><tbody><tr><td>ポイント変動履歴</td><td>ポイント</td><td>指定された期間のポイント変動履歴をエクスポートします</td></tr><tr><td>在庫</td><td>マスターデータ</td><td>指定されたロケーションの在庫数をエクスポートします</td></tr><tr><td>ロケーション</td><td>マスターデータ</td><td>指定されたロケーショングループに含まれているすべてのロケーションをエクスポートします</td></tr><tr><td>ディスカウントの利用履歴</td><td>マスターデータ</td><td>指定されたディスカウントの利用履歴をエクスポートします</td></tr><tr><td>商品バリエーション</td><td>マスターデータ</td><td>商品バリエーション一覧をエクスポートします</td></tr><tr><td>セール価格</td><td>価格</td><td>指定された販売価格ルールのセール価格をエクスポートします</td></tr></tbody></table></div>
-<p><img src="../_analysis/screenshots/audit-csv-acct-004-export-point-changes-create.png" alt="「ポイント変動履歴をCSVでエクスポートする」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/audit-csv-acct-004-export-point-changes-create.png" alt="「ポイント変動履歴をCSVでエクスポートする」フォーム" loading="lazy"></p>
 <p><strong>ポイント変動履歴エクスポートのフォーム項目</strong>（売上実績と同じ構成）:</p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須</th><th>説明</th></tr></thead><tbody><tr><td>テナント</td><td>必須（*）</td><td>ドロップダウンからエクスポート対象のテナントを選ぶ</td></tr><tr><td>開始日時</td><td>必須（*）</td><td>ポイント変動履歴の絞り込みを開始する日時を入力する</td></tr><tr><td>終了日時</td><td>必須（*）</td><td>ポイント変動履歴の絞り込みを終了する日時を入力する</td></tr></tbody></table></div>
 <hr>
@@ -4595,7 +4595,7 @@ strong{color:#0b2d4d}
 <ol><li>左メニューの「ポイント」をクリックする。注文ポイント一覧画面（h1: 「注文ポイント」）が開く。</li></ol>
 <blockquote>ナビゲーションのラベルは「ポイント」ですが、画面見出しは「注文ポイント」と表示されます。</blockquote>
 <ol><li>「付与ルールを作成する」ボタンをクリックする。作成フォーム（ページタイトル: 「注文ポイント付与ルールを作成する」）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/crm-point-create.png" alt="注文ポイント付与ルール作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/crm-point-create.png" alt="注文ポイント付与ルール作成フォーム" loading="lazy"></p>
 <hr>
 <h4 id="02_by_task__________________md__6">ステップ 2: ルールの基本設定をする</h4>
 <ol><li>「タイトル」欄にルールの管理名を入力する（必須）。</li><li>「購入金額（円ごとに）」欄にポイントを付与する購入金額の単位となる数値を入力する（必須）。</li></ol>
@@ -4656,7 +4656,7 @@ strong{color:#0b2d4d}
 <hr>
 <h3 id="02_by_task______________md__3">手順</h3>
 <ol><li>左メニューの「在庫管理」をクリックし、サブメニューの「移動伝票」をクリックする。移動伝票の一覧画面（<code>/admin/inventory_movement_orders</code>）が開く。</li><li>画面右上の「移動伝票を作成する」リンクボタンをクリックする。作成フォーム（<code>/admin/inventory_movement_orders/create</code>）へ遷移する。</li><li>「配送元」欄の「選択」ボタンをクリックする。ロケーション選択モーダルが開く。</li><li>移動元となるロケーション（例: 物流倉庫）を選んで「選択する」をクリックする。</li><li>「配送先」欄の「選択」ボタンをクリックする。ロケーション選択モーダルが開く。</li><li>移動先となるロケーション（例: ユニクロ - 銀座店）を選んで「選択する」をクリックする。</li><li>商品欄（「配送元を選択してください」と表示されていたフィールド）が入力可能な状態になっていることを確認する。</li><li>商品名またはSKUを入力して検索するか、「参照」ボタンをクリックして商品選択モーダルから移動する商品を選ぶ。</li><li>「保存する」ボタンをクリックする。</li></ol>
-<p><img src="../_analysis/screenshots/04-movement-order-create-form.png" alt="移動伝票の作成フォーム。配送元・配送先・商品を追加の各欄があり、配送元を選択するまで商品欄はグレーアウトする" loading="lazy"></p>
+<p><img src="_analysis/screenshots/04-movement-order-create-form.png" alt="移動伝票の作成フォーム。配送元・配送先・商品を追加の各欄があり、配送元を選択するまで商品欄はグレーアウトする" loading="lazy"></p>
 <p>保存後は移動伝票詳細へ遷移し、トースト「移動伝票を作成しました」が表示されます。伝票番号は <code>#IM-1007</code> のような <code>#IM-連番</code> 形式です。</p>
 <hr>
 <h3 id="02_by_task______________md__4">注意点</h3>
@@ -4737,7 +4737,7 @@ strong{color:#0b2d4d}
 <blockquote>注意: 公開されている「SQコネクター」アプリは本番環境（<code>sq.stackservice.com</code>）向けです。検証・ステージング環境（<code>sqstackstaging.com</code>）のSQに接続する場合は、環境に対応したアプリのインストールリンクを開発元から入手してください。</blockquote>
 <h4 id="02_by_task_____________md__7">手順</h4>
 <ol><li>左メニューの「Shopify」をクリックする。Shopify連携一覧画面（<code>/admin/shopify_integrations</code>）が開く。</li><li>「ストアを接続」ボタン（または「ストアを接続する」リンク）をクリックする。「ストアを連携する」フォーム（<code>/admin/shopify_integrations/create</code>）が開く。</li><li>次の項目を入力する（必須項目は *印）。</li></ol>
-<p><img src="../_analysis/screenshots/gap-channels-shopify-create-form.png" alt="「ストアを連携する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-shopify-create-form.png" alt="「ストアを連携する」フォーム" loading="lazy"></p>
 <h5 id="02_by_task_____________md__8">基本情報</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>入力内容</th></tr></thead><tbody><tr><td>ストア名 *</td><td>必須</td><td>SQ内でのストア識別名（例: オンラインストア）</td></tr><tr><td>ショップドメイン *</td><td>必須</td><td><code>shop.myshopify.com</code> の形式で入力</td></tr><tr><td>テナント *</td><td>必須</td><td>コンボボックスから選択</td></tr><tr><td>カタログ *</td><td>必須</td><td>コンボボックスから選択</td></tr><tr><td>ロケーショングループ *</td><td>必須</td><td>コンボボックスから選択。ヒント: 「Shopifyから連携される注文の在庫は、ロケーションの指定がない限り設定されたロケーショングループのデフォルトのロケーションから引き当てられます」</td></tr></tbody></table></div>
 <h5 id="02_by_task_____________md__9">オプション設定（すべて任意）</h5>
@@ -4751,7 +4751,7 @@ strong{color:#0b2d4d}
 <ul><li>テナントがSQ内に作成済みであること</li><li>OmnibusCoreのメーカーコードがわかっていること</li></ul>
 <h4 id="02_by_task_____________md__13">手順</h4>
 <ol><li>左メニューの「OmnibusCore」をクリックする。OmnibusCore連携一覧画面（<code>/admin/omnibus_core_integrations</code>）が開く。</li><li>「追加する」ボタンをクリックする。「OmnibusCore連携を作成する」フォーム（<code>/admin/omnibus_core_integrations/create</code>）が開く。</li><li>次の項目を入力する（必須項目は *印）。</li></ol>
-<p><img src="../_analysis/screenshots/gap-channels-omnibus-create-form.png" alt="「OmnibusCore連携を作成する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-omnibus-create-form.png" alt="「OmnibusCore連携を作成する」フォーム" loading="lazy"></p>
 <h5 id="02_by_task_____________md__14">基本情報</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>入力内容</th></tr></thead><tbody><tr><td>テナント *</td><td>必須</td><td>コンボボックスから選択</td></tr><tr><td>メーカーコード *</td><td>必須</td><td>OmnibusCoreのメーカーコードを入力する</td></tr></tbody></table></div>
 <h5 id="02_by_task_____________md__15">商品同期設定（すべて任意）</h5>
@@ -4772,7 +4772,7 @@ strong{color:#0b2d4d}
 <ul><li>テナントがSQ内に作成済みであること</li><li>スマレジの契約IDがわかっていること</li></ul>
 <h4 id="02_by_task_____________md__21">手順</h4>
 <ol><li>左メニューの「スマレジ」をクリックする。スマレジ連携一覧画面（<code>/admin/smaregi_integrations</code>）が開く。</li><li>「追加する」ボタンをクリックする。「スマレジ連携を作成する」フォーム（<code>/admin/smaregi_integrations/create</code>）が開く。</li><li>次の項目を入力する（必須項目は *印）。</li></ol>
-<p><img src="../_analysis/screenshots/gap-channels-smaregi-create-form.png" alt="「スマレジ連携を作成する」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-channels-smaregi-create-form.png" alt="「スマレジ連携を作成する」フォーム" loading="lazy"></p>
 <h5 id="02_by_task_____________md__22">基本情報</h5>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>必須/任意</th><th>入力内容</th></tr></thead><tbody><tr><td>名前 *</td><td>必須</td><td>SQ内でのスマレジ連携の識別名を入力する</td></tr><tr><td>テナント *</td><td>必須</td><td>コンボボックスから選択する</td></tr><tr><td>契約ID *</td><td>必須</td><td>スマレジの契約IDを入力する</td></tr><tr><td>プラン *</td><td>必須</td><td>コンボボックスから選択する。選択肢: 「スタンダード」「プレミアム」「プレミアムプラス」「フードビジネス」「リテールビジネス」（デフォルト: リテールビジネス）</td></tr></tbody></table></div>
 <h5 id="02_by_task_____________md__23">商品連携設定（任意）</h5>
@@ -4825,7 +4825,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task___________md__4">手順</h3>
 <h4 id="02_by_task___________md__5">ステップ 1: 販売上限ルールを作成する</h4>
 <ol><li>左メニューの「販売設定」&gt;「販売上限」をクリックし、販売上限一覧画面を開く。</li><li>「販売上限ルールを作成する」ボタンをクリックする。作成フォーム（ページタイトル: 「販売上限ルールを作成する」）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/08-sale-limit-rule-create.png" alt="販売上限ルール作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/08-sale-limit-rule-create.png" alt="販売上限ルール作成フォーム" loading="lazy"></p>
 <ol><li>「販売上限ルール名」欄にルールの管理名を入力する（必須）。</li><li>「チャネル」欄に表示されているチェックボックスリストから、このルールを適用する販売チャネルをひとつ以上選択する（必須）。</li></ol>
 <blockquote>チャネルの選択肢は、統合設定済みのチャネルのみ表示されます。選択肢が表示されない場合はチャネルの統合設定が完了していません。</blockquote>
 <ol><li>「保存する」ボタンをクリックする。</li></ol>
@@ -4853,7 +4853,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task___________md__4">手順</h3>
 <h4 id="02_by_task___________md__5">ステップ 1: 販売価格ルールを作成する</h4>
 <ol><li>左メニューの「販売設定」&gt;「販売価格」をクリックし、販売価格一覧画面を開く。</li><li>「販売価格ルールを作成する」ボタンをクリックする。作成フォーム（<code>/admin/product_price_rules/create</code>）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/08-price-rule-create.png" alt="販売価格ルール作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/08-price-rule-create.png" alt="販売価格ルール作成フォーム" loading="lazy"></p>
 <ol><li>「ルール名」に管理用の名前を入力する（必須）。入力例（プレースホルダ）: 「年末セール価格」。</li><li>「通貨」のコンボボックスで、このルールに適用する通貨を選択する（必須）。デフォルトは「日本円」。</li></ol>
 <p>   選択できる通貨は以下のとおりです。</p>
 <div class="tablewrap"><table><thead><tr><th>選択肢</th></tr></thead><tbody><tr><td>米ドル</td></tr><tr><td>ユーロ</td></tr><tr><td>日本円</td></tr><tr><td>タイ バーツ</td></tr><tr><td>シンガポール ドル</td></tr></tbody></table></div>
@@ -4862,7 +4862,7 @@ strong{color:#0b2d4d}
 <hr>
 <h4 id="02_by_task___________md__6">ステップ 2: 通常価格を登録する</h4>
 <ol><li>詳細画面（<code>/admin/product_price_rules/[id]</code>）の「通常価格」カードをクリックする。通常価格SKU一覧画面（ページタイトル: 「販売価格ルール (通常価格)」）へ遷移する。</li><li>「通常価格を登録する」ボタンをクリックする。通常価格作成フォーム（ページタイトル: 「通常価格を作成する」）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/08-price-rule-regular-create.png" alt="通常価格作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/08-price-rule-regular-create.png" alt="通常価格作成フォーム" loading="lazy"></p>
 <ol><li>「商品バリエーションを選択する」欄の「選択」ボタンをクリックし、対象のSKUを選ぶ（必須）。</li><li>「価格」欄に税抜き価格を数値で入力する（必須）。入力欄には通貨記号「￥」が表示されます。</li><li>「価格(税込)」欄に税込み価格を入力する（任意）。</li><li>「保存する」ボタンをクリックする。</li></ol>
 <blockquote>通常価格にもCSVインポートのカテゴリ「販売価格 (通常)」がありますが、テンプレートファイルは提供されていません。画面から登録する場合はSKUごとに手順2〜6を繰り返してください。</blockquote>
 <hr>
@@ -4897,7 +4897,7 @@ strong{color:#0b2d4d}
 <h3 id="02_by_task___________md__4">手順</h3>
 <h4 id="02_by_task___________md__5">ステップ 1: 販売閾値ルールを作成する</h4>
 <ol><li>左メニューの「販売設定」&gt;「販売閾値」をクリックし、販売閾値一覧画面を開く。</li><li>「販売閾値ルールを作成する」ボタンをクリックする。作成フォーム（ページタイトル: 「販売閾値ルールを作成する」）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/08-threshold-rule-create.png" alt="販売閾値ルール作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/08-threshold-rule-create.png" alt="販売閾値ルール作成フォーム" loading="lazy"></p>
 <ol><li>「ルール名」欄にルールの管理名を入力する（必須）。</li><li>ルールに含まれていないすべてのSKUにデフォルト閾値を適用したい場合は、「デフォルトの閾値を設定する」チェックボックスをONにする（任意）。</li></ol>
 <p>   チェックをONにすると以下の入力欄が展開されます。</p>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th></tr></thead><tbody><tr><td>デフォルトの閾値 *</td><td>全バリエーションに適用するデフォルト閾値の数値</td><td>必須（チェックON時）</td></tr></tbody></table></div>
@@ -4919,7 +4919,7 @@ strong{color:#0b2d4d}
 <h5 id="02_by_task___________md__9">ブランドコードを条件に自動追加する場合</h5>
 <p>ブランドコードが一致するSKUをまとめてルールに追加し、一括で閾値を設定できます。</p>
 <ol><li>詳細画面の「自動追加ルール」ボタンをクリックする。自動追加ルール一覧画面（<code>/admin/inventory_threshold_rules/[id]/automatic_add_rules</code>）へ遷移する。</li><li>「自動追加ルールを追加する」ボタンをクリックする。作成フォーム（ページタイトル: 「自動追加ルールを追加する」）へ遷移する。</li></ol>
-<p>   <img src="../_analysis/screenshots/gap-sales-settings-threshold-auto-add-rule.png" alt="自動追加ルール作成フォーム" loading="lazy"></p>
+<p>   <img src="_analysis/screenshots/gap-sales-settings-threshold-auto-add-rule.png" alt="自動追加ルール作成フォーム" loading="lazy"></p>
 <ol><li>各項目を入力する。</li></ol>
 <div class="tablewrap"><table><thead><tr><th>項目（UIラベル）</th><th>説明</th><th>必須</th><th>制約・選択肢</th></tr></thead><tbody><tr><td>項目</td><td>自動追加の対象とする属性</td><td>必須</td><td>コンボボックス。現在の選択肢: 「ブランドコード」のみ</td></tr><tr><td>条件</td><td>一致の条件</td><td>必須</td><td>コンボボックス。現在の選択肢: 「一致する」のみ</td></tr><tr><td>値</td><td>照合するブランドコードの値</td><td>必須</td><td>テキスト入力</td></tr><tr><td>閾値</td><td>自動追加されたSKUに設定する閾値</td><td>必須（初期値あり）</td><td>数値入力（spinbutton）。初期値「1」</td></tr></tbody></table></div>
 <p>   設定例: 「項目: ブランドコード」「条件: 一致する」「値: BRAND01」「閾値: 5」と入力すると、ブランドコードが「BRAND01」のSKUが閾値5でルールに自動追加されます。</p>
@@ -5074,12 +5074,12 @@ strong{color:#0b2d4d}
 <p><strong>在庫一覧画面（4列）</strong></p>
 <div class="tablewrap"><table><thead><tr><th>区分</th><th>意味</th></tr></thead><tbody><tr><td>販売可能</td><td>実際に販売に使える在庫数</td></tr><tr><td>引当済み</td><td>注文に引き当て済みの在庫数（旧「確定済み」）</td></tr><tr><td>取置中</td><td>取置・移動用に確保された在庫数（旧「確保済み」）</td></tr><tr><td>手持ち</td><td>物理的に手元にある在庫の合計数</td></tr></tbody></table></div>
 <p>（旧一覧は「販売不可・確定済み・販売可能・手持ち」でしたが、「販売不可」合算列は廃止され、「引当済み」「取置中」が表示されるようになりました）</p>
-<p><img src="../_analysis/screenshots/verify-inventory_list-2026-06-19.png" alt="在庫一覧画面。販売可能・引当済み・取置中・手持ちの列で表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/verify-inventory_list-2026-06-19.png" alt="在庫一覧画面。販売可能・引当済み・取置中・手持ちの列で表示される" loading="lazy"></p>
 <p><strong>SKU詳細画面（9列）</strong></p>
 <div class="tablewrap"><table><thead><tr><th>区分</th><th>意味</th></tr></thead><tbody><tr><td>販売可能</td><td>販売に使える在庫数</td></tr><tr><td>引当済み</td><td>注文に引き当て済みの在庫数（旧「確定済み」）</td></tr><tr><td>取置中</td><td>取置・移動用に確保された在庫数（旧「確保済み」）</td></tr><tr><td>破損</td><td>品質問題により販売不可の在庫数</td></tr><tr><td>検品</td><td>検品中で販売不可の在庫数</td></tr><tr><td>予備</td><td>予備として確保された在庫数</td></tr><tr><td>手持ち</td><td>上記6区分の合計</td></tr><tr><td>積送中</td><td>出荷済み・入荷前の輸送中の数（移動先で計上・手持ちに含まれない）</td></tr><tr><td>入荷予定</td><td>移動伝票作成〜出荷前の入荷予定数（移動先で計上・手持ちに含まれない）</td></tr></tbody></table></div>
 <p>「破損」「検品」「予備」は販売不可の在庫です（旧一覧の「販売不可」列に合算されていたもの）。</p>
 <p>計算式: <strong>手持ち = 販売可能 + 引当済み + 取置中 + 破損 + 検品 + 予備</strong>（積送中・入荷予定は含まない）</p>
-<p><img src="../_analysis/screenshots/verify-inventory-detail-2026-06-19.png" alt="SKU詳細画面。ロケーション別に販売可能・引当済み・取置中・破損・検品・予備・手持ち・積送中・入荷予定が表示される" loading="lazy"></p>
+<p><img src="_analysis/screenshots/verify-inventory-detail-2026-06-19.png" alt="SKU詳細画面。ロケーション別に販売可能・引当済み・取置中・破損・検品・予備・手持ち・積送中・入荷予定が表示される" loading="lazy"></p>
 <p>2026-06-19の実機確認では、SKU詳細の「その他のアクション」から「在庫振替を行う」を開けます。ただし、このモーダルは「振替先のバリエーション」と「理由」を入力する同一商品内の別バリエーションへの振替UIであり、破損・検品・予備への区分振替UIではありません。破損・検品・予備へ直接振り替える管理画面操作は確認できていません。</p>
 <hr>
 <h3 id="03_faq__________________md__13">Q. 商品の「非公開」と「アーカイブ済み」は同じものですか？</h3>
@@ -5145,7 +5145,7 @@ strong{color:#0b2d4d}
 <h3 id="03_faq______________md__2">Q. 注文一覧に注文が表示されません。なぜですか？</h3>
 <p>A. 最も多い原因は<strong>販売チャネルがSQに接続されていない</strong>ことです。</p>
 <p>SQの注文管理（<code>/admin/orders</code>）には、ShopifyなどのチャネルからSQへ流入した注文のみが表示されます。チャネルが1件も接続されていない場合、注文一覧は空の状態になります。</p>
-<p><img src="../_analysis/screenshots/orders-list.png" alt="チャネル未接続時の注文管理一覧（「アイテムが見つかりませんでした」）" loading="lazy"></p>
+<p><img src="_analysis/screenshots/orders-list.png" alt="チャネル未接続時の注文管理一覧（「アイテムが見つかりませんでした」）" loading="lazy"></p>
 <p>注文一覧の「絞り込みを追加」で「チャネル」を選択すると、特定チャネルからの注文に絞り込むことができます。チャネルを接続するにはサイドナビの「チャネル」セクション（Shopify・スマレジ・OmnibusCore・リテールポータル）から設定してください。</p>
 <p>関連: <a href="../01-by-feature/注文管理.md">注文管理</a></p>
 <hr>
@@ -5161,7 +5161,7 @@ strong{color:#0b2d4d}
 <hr>
 <h3 id="03_faq______________md__5">Q. 下書きの「注文を作成する」ボタンが押せません。</h3>
 <p>A. 現在、「注文を作成する」は <code>href</code> がない状態で、クリックしても遷移しません。直接 <code>/admin/draft_orders/create</code> にアクセスすると「予期せぬエラーが発生しました」画面になります。</p>
-<p><img src="../_analysis/screenshots/draft-orders-list.png" alt="下書き一覧画面。右上の「注文を作成する」ボタンから遷移できない" loading="lazy"></p>
+<p><img src="_analysis/screenshots/draft-orders-list.png" alt="下書き一覧画面。右上の「注文を作成する」ボタンから遷移できない" loading="lazy"></p>
 <p>実機確認では、会社データや担当者データを作成した状態でも遷移できませんでした。販売チャネル（Shopify等）との連携によって生成される「購入顧客」データが必要と推測されていますが、チャネル未接続の現環境では確認できていません。</p>
 <p>チャネルを接続してから再度お試しください。</p>
 <p>関連: <a href="../01-by-feature/注文管理.md">注文管理</a></p>
@@ -5170,7 +5170,7 @@ strong{color:#0b2d4d}
 <p>A. SQとヤマトB2クラウドの連携には<strong>エクスポート（出荷指示CSVの書き出し）とインポート（出荷実績CSVの取り込み）</strong>の2方向の操作があります。</p>
 <h4 id="03_faq______________md__7">出荷指示をヤマトB2クラウドへ渡す（エクスポート）</h4>
 <ol><li>出荷管理（<code>/admin/inventory_outbound_orders</code>）を開く</li><li>右上の「<strong>条件指定でエクスポート</strong>」ボタンをクリックする</li><li>ドロップダウンから「<strong>ヤマトB2クラウド</strong>」を選択する</li><li>日時・配送先・出荷作業ステータスなどの条件を入力して「実行する」をクリックする</li><li>エクスポート完了後にメールでダウンロードリンクが届く</li><li>ダウンロードしたCSVをヤマトB2クラウドに取り込む</li></ol>
-<p><img src="../_analysis/screenshots/gap-outbound-yamato-export-form.png" alt="「条件指定でヤマトB2クラウドのCSVをエクスポートする」フォーム" loading="lazy"></p>
+<p><img src="_analysis/screenshots/gap-outbound-yamato-export-form.png" alt="「条件指定でヤマトB2クラウドのCSVをエクスポートする」フォーム" loading="lazy"></p>
 <h4 id="03_faq______________md__8">出荷実績をヤマトB2クラウドから取り込む（インポート）</h4>
 <ol><li>ヤマトB2クラウドから出荷実績CSVをダウンロードする</li><li>SQの出荷管理（<code>/admin/inventory_outbound_orders</code>）またはCSVインポート（<code>/admin/csv_import</code>）の「出荷 &gt; ヤマトB2クラウド」からインポート画面を開く</li><li>CSVファイルをアップロードして「保存する」をクリックする</li></ol>
 <p><strong>インポートCSVの形式について</strong>: ヤマトB2クラウド独自のフォーマット（固定カラム順・ヘッダー名一致方式）を使用します。テンプレートはインポート一覧画面の「テンプレート」ボタンからGoogleスプレッドシートで確認できます。</p>
