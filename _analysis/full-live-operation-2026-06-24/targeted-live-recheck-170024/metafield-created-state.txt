@@ -1,0 +1,109 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[120020]<a />
+	コンテンツにスキップ
+stack-ps-yosuke
+陽介 河野
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[120028]<a />
+		ホーム
+	[120029]<a />
+		商品管理
+	[120030]<a />
+		在庫管理
+	[120031]<a />
+		注文管理
+		[120244]<div />
+	[120032]<a />
+		顧客管理
+	[120033]<a />
+		発注管理
+	[120034]<a />
+		販売設定
+	[120035]<a />
+		会計
+	[120036]<a />
+		分析
+	オペレーション
+	[120037]<a />
+		入荷管理
+		[120328]<div />
+	[120038]<a />
+		出荷管理
+		[120339]<div />
+	[120039]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[120040]<a />
+		ディスカウント
+	[120041]<a />
+		ポイント
+	[120042]<a />
+		会員ランク
+	販売チャネル
+	[120043]<a />
+		Shopify
+	[120044]<a />
+		OmnibusCore
+	[120045]<a />
+		スマレジ
+	[120012]<a />
+		リテールポータル
+	[120046]<a />
+		卸売
+	[120047]<a />
+		設定
+[121013]<span />
+	[121012]<svg /> <!-- SVG content collapsed -->
+保存されていない定義
+[121016]<button aria-label=取り消す />
+	取り消す
+[121018]<button aria-label=保存する />
+	保存する
+組織メタフィールドの定義を追加する。このページの準備が整いました
+[120792]<div />
+	[120788]<div />
+		[120787]<a />
+組織メタフィールドの定義を追加する
+[120799]<div />
+	[120797]<span />
+		名前
+|SHADOW(open)|[120801]<input id=:r1g: autocomplete=off maxlength=50 type=text value=TEST_FAQ_20260624_META_170126 required=true />
+[120802]<div id=:r1g:-CharacterCounter aria-label=50中29の文字を使用 />
+	[120800]<span />
+		29/50
+[120811]<div />
+	[120809]<span />
+		説明
+|SHADOW(open)|[120813]<input id=:r1h: autocomplete=off maxlength=100 type=text value=FAQ検証用 />
+[120814]<div id=:r1h:-CharacterCounter aria-label=100中6の文字を使用 />
+	[120812]<span />
+		6/100
+ネームスペース
+|SHADOW(open)|[120825]<input id=:r1i: autocomplete=off minlength=4 maxlength=50 type=text value=test_faq required=true />
+[120826]<div id=:r1i:-CharacterCounter aria-label=50中8の文字を使用 />
+	[120824]<span />
+		8/50
+[120835]<div />
+	[120833]<span />
+		キー
+|SHADOW(open)|[120837]<input id=:r1j: autocomplete=off minlength=4 maxlength=50 type=text value=faq_170126 required=true />
+[120838]<div id=:r1j:-CharacterCounter aria-label=50中10の文字を使用 />
+	[120836]<span />
+		10/50
+メタフィールドのタイプ
+選択してください
+[120899]<span />
+	[120897]<span />
+		[120896]<svg /> <!-- SVG content collapsed -->
+[121052]<div />
+	[121051]<span />
+		[121050]<svg /> <!-- SVG content collapsed -->
+タイプを選択してください
+[120915]<button />
+	保存する
+[120708]<section aria-label=Notifications alt+T live=polite />
+[120066]<div id=PolarisPortalsContainer />
+[120068]<div id=clerk-components />

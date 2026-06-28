@@ -1,0 +1,82 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[104381]<a />
+	コンテンツにスキップ
+[104495]<div />
+[104384]<button data-state=closed expanded=false />
+[104385]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[104512]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[104389]<a />
+		ホーム
+	[104390]<a />
+		商品管理
+	[104391]<a />
+		在庫管理
+	[104392]<a />
+		注文管理
+		[104563]<div />
+	[104393]<a />
+		顧客管理
+	[104394]<a />
+		発注管理
+	[104395]<a />
+		販売設定
+	[104396]<a />
+		販売価格
+	[104397]<a />
+		予約販売
+	[104398]<a />
+		販売上限
+	[104399]<a />
+		販売閾値
+	[104325]<a />
+		会計
+	[104330]<a />
+		分析
+	オペレーション
+	[104338]<a />
+		入荷管理
+		[104660]<div />
+	[104343]<a />
+		出荷管理
+		[104668]<div />
+	[104348]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[104354]<a />
+		ディスカウント
+	[104359]<a />
+		ポイント
+	[104364]<a />
+		会員ランク
+	販売チャネル
+	[104370]<a />
+		Shopify
+	[104374]<a />
+		OmnibusCore
+	[104400]<a />
+		スマレジ
+	[104401]<a />
+		リテールポータル
+	[104402]<a />
+		卸売
+	[104403]<a />
+		設定
+販売上限ルールを作成する。このページの準備が整いました
+[104768]<div />
+	[104769]<div />
+		[104405]<a />
+販売上限ルールを作成する
+販売上限ルール名
+|SHADOW(open)|[104379]<input id=:r1g: autocomplete=off type=text required=true />
+チャネル
+[104378]<button />
+	保存する
+[104810]<section aria-label=Notifications alt+T live=polite />
+[104407]<div id=PolarisPortalsContainer />
+[104409]<div id=clerk-components />

@@ -1,0 +1,292 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/shopify_integrations/create",
+  "title": "SQ - 管理画面",
+  "h1": "ストアを連携する",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": "メニューを切り替える",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "stack-ps-yosuke\n\n陽介 河野 / stack-ps-yosuke / 陽介 河野",
+      "aria": null,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "ホーム / ホーム / 商品管理",
+      "aria": "メニューを閉じる",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "ストア名",
+      "aria": null,
+      "text": "",
+      "placeholder": "オンラインストア",
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "ショップドメイン",
+      "aria": null,
+      "text": "",
+      "placeholder": "stack.myshopify.com",
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 6,
+      "tag": "SELECT",
+      "type": null,
+      "label": "テナント",
+      "aria": null,
+      "text": "選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nTEST_FAQ_20260624_TENANT_170037",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "ユニクロ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_COVERAGE_20260615_テナント_EDIT",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "テストテナント",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_TENANT_170037",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "tag": "SELECT",
+      "type": null,
+      "label": "カタログ",
+      "aria": null,
+      "text": "選択してください\nTEST_FAQ_カタログ001\nUNIQLO",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "TEST_FAQ_カタログ001",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "UNIQLO",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "tag": "SELECT",
+      "type": null,
+      "label": "ロケーショングループ",
+      "aria": null,
+      "text": "選択してください\nGU グループ\nユニクログループ\nTEST_FAQ_20260624_LG_171810",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "GU グループ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "ユニクログループ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_LG_171810",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "tag": "SELECT",
+      "type": null,
+      "label": "販売価格ルール",
+      "aria": null,
+      "text": "選択してください\nTEST_FAQ_販売価格ルール\nTEST_FAQ_販売価格ルール_遷移確認_20260607\nTEST_FAQ_DEEP_202606080340_販売価格ルール\nTEST_FAQ_20260624_販売価格_100908",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "TEST_FAQ_販売価格ルール",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_販売価格ルール_遷移確認_20260607",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_DEEP_202606080340_販売価格ルール",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_販売価格_100908",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "tag": "SELECT",
+      "type": null,
+      "label": "会員番号の生成方法",
+      "aria": null,
+      "text": "Shopify ID（数値部分）\nJAN-13コード（モジュラス10/ウェイト3方式）",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "SHOPIFY_LEGACY_RESOURCE_ID",
+      "options": [
+        {
+          "text": "Shopify ID（数値部分）",
+          "disabled": false,
+          "selected": true
+        },
+        {
+          "text": "JAN-13コード（モジュラス10/ウェイト3方式）",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "商品価格は税込価格を連携する",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 12,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "0円の商品バリエーションを連携する",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 13,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "送料は税込として処理する",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 14,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "注文による在庫変動を起こさない",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 15,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "連携する",
+      "aria": null,
+      "text": "連携する",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    }
+  ]
+}

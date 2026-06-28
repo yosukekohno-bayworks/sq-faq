@@ -1,0 +1,235 @@
+- generic [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - status:
+            - paragraph [ref=e227]: 翻訳ルール。このページの準備が整いました
+          - generic [ref=e229]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: /admin/settings/translation
+              - img [ref=e235]
+            - heading "翻訳ルール" [level=1] [ref=e239]
+            - link "翻訳ルールを作成" [ref=e243] [cursor=pointer]:
+              - /url: /admin/settings/translation/translation_rules/create
+              - img [ref=e246]
+              - generic [ref=e248]: 翻訳ルールを作成
+        - generic [ref=e255]:
+          - generic [ref=e350]:
+            - generic [ref=e352] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic
+                  - generic: すべての4のアイテムを選択する
+              - generic [ref=e354]: 1を選択済み
+            - button "削除する" [ref=e360] [cursor=pointer]:
+              - generic [ref=e361]: 削除する
+          - table [ref=e257]:
+            - rowgroup [ref=e258]:
+              - row "すべてのアイテムを選択する 名前 言語 作成日時" [ref=e259]:
+                - columnheader "すべてのアイテムを選択する" [ref=e260]:
+                  - generic [ref=e262] [cursor=pointer]
+                - columnheader "名前" [ref=e268]:
+                  - generic [ref=e269]: 名前
+                - columnheader "言語" [ref=e270]:
+                  - generic [ref=e271]: 言語
+                - columnheader "作成日時" [ref=e272]:
+                  - generic [ref=e273]: 作成日時
+            - rowgroup [ref=e274]:
+              - row "アイテムを選択する TEST_TRANSLATION_20260627_0438 英語 2026年06月27日 04:38" [ref=e275] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e276]:
+                  - generic [ref=e278]
+                - cell "TEST_TRANSLATION_20260627_0438" [ref=e284]:
+                  - link "TEST_TRANSLATION_20260627_0438" [ref=e285]:
+                    - /url: /admin/settings/translation/translation_rules/619ae2ba-0e57-575b-95bb-db39ae0b98dc_TranslationRule
+                - cell "英語" [ref=e287]:
+                  - paragraph [ref=e288]: 英語
+                - cell "2026年06月27日 04:38" [ref=e289]:
+                  - paragraph [ref=e290]: 2026年06月27日 04:38
+              - row "アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33" [ref=e291] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e292]:
+                  - generic [ref=e294]
+                - cell "Test_中国語" [ref=e300]:
+                  - link "Test_中国語" [ref=e301]:
+                    - /url: /admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule
+                - cell "中国語（簡体字）" [ref=e303]:
+                  - paragraph [ref=e304]: 中国語（簡体字）
+                - cell "2026年06月16日 17:33" [ref=e305]:
+                  - paragraph [ref=e306]: 2026年06月16日 17:33
+              - row "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41" [ref=e307] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e308]:
+                  - generic [ref=e310]
+                - cell "TEST_FAQ_翻訳ルール_英語" [ref=e316]:
+                  - link "TEST_FAQ_翻訳ルール_英語" [ref=e317]:
+                    - /url: /admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule
+                - cell "英語" [ref=e319]:
+                  - paragraph [ref=e320]: 英語
+                - cell "2026年06月07日 08:41" [ref=e321]:
+                  - paragraph [ref=e322]: 2026年06月07日 08:41
+              - row "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57" [ref=e323] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e324]:
+                  - generic [ref=e326]
+                - cell "TEST_FAQ_英語翻訳ルール" [ref=e332]:
+                  - link "TEST_FAQ_英語翻訳ルール" [ref=e333]:
+                    - /url: /admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule
+                - cell "英語" [ref=e335]:
+                  - paragraph [ref=e336]: 英語
+                - cell "2026年06月06日 18:57" [ref=e337]:
+                  - paragraph [ref=e338]: 2026年06月06日 18:57
+          - navigation "ページネーション" [ref=e342]:
+            - generic [ref=e345]:
+              - generic [ref=e346]:
+                - button "前へ" [disabled]:
+                  - generic
+              - generic [ref=e347]:
+                - button "次へ" [disabled]:
+                  - generic
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "翻訳ルールを削除しますか？" [active]:
+              - generic [ref=e362]:
+                - generic [ref=e364]:
+                  - heading "翻訳ルールを削除しますか？" [level=2] [ref=e366]
+                  - button "閉じる" [ref=e367] [cursor=pointer]
+                - paragraph [ref=e375]: 選択されている1件の翻訳ルールを削除しますか？ この処理は巻き戻すことができません。
+                - generic [ref=e379]:
+                  - button "キャンセル" [ref=e380] [cursor=pointer]
+                  - button "削除する" [ref=e382] [cursor=pointer]
+  - alert [ref=e10]

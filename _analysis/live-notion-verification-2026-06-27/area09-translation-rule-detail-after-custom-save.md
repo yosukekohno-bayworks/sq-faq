@@ -1,0 +1,251 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e257] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e259]:
+                  - generic [ref=e260]: 未完了の在庫依頼 3件
+                  - generic [ref=e261]: "3"
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - generic [ref=e154]: CRM
+            - listitem [ref=e155]:
+              - link "ディスカウント" [ref=e158] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e161]
+                - generic [ref=e163]: ディスカウント
+            - listitem [ref=e164]:
+              - link "ポイント" [ref=e167] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e170]
+                - generic [ref=e172]: ポイント
+            - listitem [ref=e173]:
+              - link "会員ランク" [ref=e176] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e179]
+                - generic [ref=e182]: 会員ランク
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - generic [ref=e185]: 販売チャネル
+            - listitem [ref=e186]:
+              - link "Shopify" [ref=e189] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e190]: Shopify
+            - listitem [ref=e191]:
+              - link "OmnibusCore" [ref=e194] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e195]: OmnibusCore
+            - listitem [ref=e196]:
+              - link "スマレジ" [ref=e199] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e200]: スマレジ
+            - listitem [ref=e201]:
+              - link "リテールポータル" [ref=e204] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e205]: リテールポータル
+            - listitem [ref=e206]:
+              - generic [ref=e207]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "設定" [ref=e212] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e215]
+                - generic [ref=e217]: 設定
+    - main [ref=e221]:
+      - generic [ref=e448]:
+        - generic [ref=e449]:
+          - status:
+            - paragraph [ref=e450]: TEST_TRANSLATION_20260627_0438。このページの準備が整いました
+          - generic [ref=e452]:
+            - link [ref=e455] [cursor=pointer]:
+              - /url: /admin/settings/translation/translation_rules
+              - img [ref=e458]
+            - heading "TEST_TRANSLATION_20260627_0438" [level=1] [ref=e462]
+        - generic [ref=e464]:
+          - generic [ref=e466]:
+            - generic [ref=e469]:
+              - generic [ref=e471]:
+                - generic [ref=e474]: 名前*
+                - textbox "名前*" [ref=e478]: TEST_TRANSLATION_20260627_0438
+              - generic [ref=e480]:
+                - generic [ref=e483]: 言語
+                - generic [ref=e484]:
+                  - combobox "言語" [disabled] [ref=e485]:
+                    - option "日本語"
+                    - option "英語" [selected]
+                    - option "中国語（簡体字）"
+                    - option "中国語（繁体字）"
+                    - option "韓国語"
+                    - option "スペイン語"
+                    - option "フランス語"
+                    - option "ドイツ語"
+                    - option "ヒンディー語"
+                    - option "タイ語"
+                  - generic [ref=e486]:
+                    - generic [ref=e487]: 英語
+                    - img [ref=e490]
+            - generic [ref=e496]:
+              - heading "各種設定" [level=2] [ref=e497]
+              - generic [ref=e498] [cursor=pointer]:
+                - generic [ref=e500]:
+                  - checkbox "翻訳データを自動で作成する" [ref=e501]
+                  - generic:
+                    - img
+                - generic [ref=e503]: 翻訳データを自動で作成する
+            - generic [ref=e506]:
+              - heading "商品" [level=2] [ref=e507]
+              - generic [ref=e508]:
+                - generic [ref=e511]: 親プロンプト
+                - textbox "親プロンプト" [ref=e515]: "# OBJECTIVE: 商品情報を高品質に翻訳する。 # PERSONA: あなたは、グローバルなEコマース市場におけるマーケティングとコピーライティングに精通した翻訳のスペシャリストです。 あらゆる言語をネイティブレベルで使いこなし、単に言語を置き換えるだけでなく、商品の魅力を最大限に引き出し、顧客の購買意欲を高める「トランスクリエーション」を得意としています。 # INSTRUCTIONS: 以下の思考プロセスとルールに従って、提供された商品情報を翻訳してください。 **思考プロセス (Chain of Thought):** 1. まず、提供された原文の商品情報を注意深く読み、商品の主要な特徴、素材、利点、用途を完全に理解します。 2. 次に、その商品がどのようなキーワードで検索するかを推測し、最も重要と思われるキーワードをいくつか特定します。 3. 特定したキーワードを効果的に使用し、商品情報を翻訳します。翻訳先の言語圏の顧客にとって魅力的な文章を作成してください。原文の意図を汲み取りつつ、ただの直訳ではなく、商品のストーリーや価値が伝わるような、説得力のある文章を作成します。箇条書きや段落などの構造は維持してください。 4. 翻訳された商品情報が、Eコマースの商品ページとして自然で魅力的かを確認し、必要であれば調整します。 5. 最後に、翻訳結果全体を見直し、誤字脱字がないかを確認します。 **翻訳ルール:** - **SEOの意識:** 翻訳後の商品情報には、顧客が検索しそうな一般的なキーワード（例：素材、用途、スタイルなど）を自然に含めてください。 - **魅力的な表現:** 専門用語は避け、顧客の感情やライフスタイルに訴えかけるような言葉を選んでください。 - **固有名詞の扱い:** 固有名詞や造語と思われる部分は、文脈から判断し、最も適切と思われる一般的な表現に置き換えるか、意味が通じるように表記してください。 # EXAMPLE: 以下は、このタスクの優れた実行例です。 **入力例:** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"title\": \"長袖裾フリルカットソー\", \"description\": \"トレンドのレイヤードスタイルが楽しめるインナー。全てオフホワイトカラーをベースにして、裾はギャザーフリルの無地、レース、シボ感のある布帛のバルーンデザインの3展開です。生地に合わせて裾のギャザーと分量、切り替え位置を変えています。身頃と袖は無地のシアーカットソーを使用。ニットやスウェットとレイヤードして裾からフリルを出すと、スタイリングのアクセントになります。お持ちのトップスと合わせるだけで、今季らしいレイヤードスタイルが楽しめます。<br>※モデルの着用画像の場合、光の当たり具合により、実際の色味と異なって見えることがございます。色味は、商品単体の画像をご参照ください。\" } } **出力例:** { \"title\": \"Sheer Long-Sleeve Frill Hem Layering Top\", \"description\": \"Elevate your layered looks with this versatile inner top. Available in three distinct off-white designs, each featuring a unique frilled hem: a classic plain gathered ruffle, delicate lace, and a stylish textured fabric balloon design. The gathering, volume, and seam placement are meticulously adjusted to complement each fabric's unique drape and texture. The body and sleeves are crafted from a soft, plain sheer cut-and-sew material, perfect for peeking out from under sweaters, knitwear, or sweatshirts. The delicate frill adds a touch of playful elegance and instantly updates your look. Effortlessly achieve this season's most coveted layered style by simply pairing it with your existing wardrobe.<br>Please note: Due to lighting conditions, the color of the product in model images may appear slightly different from the actual item. For the most accurate color representation, please refer to the product-only images.\" } # TASK: 提供された商品情報を、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。 # ADDITIONAL RULES: 以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。 {{ここにカスタムプロンプトが挿入されます}}"
+              - status [ref=e516]:
+                - generic [ref=e519]:
+                  - img [ref=e522]
+                  - generic [ref=e528]:
+                    - heading "カスタマイズ項目を追加する" [level=2] [ref=e529]
+                    - paragraph [ref=e532]: "親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。"
+              - generic [ref=e533]:
+                - generic [ref=e536]: カスタムプロンプト
+                - textbox "カスタムプロンプト" [ref=e540]:
+                  - /placeholder: 例）商品の説明文の翻訳は150字以内にまとめてください
+                  - text: TEST_CUSTOM_PROMPT_20260627
+            - generic [ref=e543]:
+              - heading "商品オプション" [level=2] [ref=e544]
+              - generic [ref=e545]:
+                - generic [ref=e548]: 親プロンプト
+                - textbox "親プロンプト" [ref=e552]: "# OBJECTIVE: 提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。 # PERSONA: あなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。 単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。 # INSTRUCTIONS: 以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。 **思考プロセス (Chain of Thought):** 1. 提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。 2. 原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。 3. 原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。 4. 直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。 5. 翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。 **翻訳ルール:** - **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。 - **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。 - **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。 - **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。 - **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。 - **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。 # EXAMPLE: 以下は、このタスクの優れた実行例です。 **入力例:** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"capacity\": \"500ml\", \"material\": \"本体: SUS304 / パッキン: シリコーン\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"手洗い推奨\" } } **出力例:** { \"capacity\": \"500ml\", \"material\": \"Body: SUS304 / Gasket: Silicone\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"Hand wash recommended\" } **入力例 (JSON値を含む場合):** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\" } } **出力例 (JSON値を含む場合):** { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\" } # TASK: 提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。 # ADDITIONAL RULES: 以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。 {{ここにカスタムプロンプトが挿入されます}}"
+              - status [ref=e553]:
+                - generic [ref=e556]:
+                  - img [ref=e559]
+                  - generic [ref=e565]:
+                    - heading "カスタマイズ項目を追加する" [level=2] [ref=e566]
+                    - paragraph [ref=e569]: "親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。"
+              - generic [ref=e570]:
+                - generic [ref=e573]: カスタムプロンプト
+                - textbox "カスタムプロンプト" [ref=e577]:
+                  - /placeholder: 例）商品オプションの翻訳は150字以内にまとめてください
+            - generic [ref=e580]:
+              - heading "商品オプション値" [level=2] [ref=e581]
+              - generic [ref=e582]:
+                - generic [ref=e585]: 親プロンプト
+                - textbox "親プロンプト" [ref=e589]: "# OBJECTIVE: 提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。 # PERSONA: あなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。 単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。 # INSTRUCTIONS: 以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。 **思考プロセス (Chain of Thought):** 1. 提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。 2. 原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。 3. 原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。 4. 直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。 5. 翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。 **翻訳ルール:** - **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。 - **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。 - **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。 - **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。 - **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。 - **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。 # EXAMPLE: 以下は、このタスクの優れた実行例です。 **入力例:** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"capacity\": \"500ml\", \"material\": \"本体: SUS304 / パッキン: シリコーン\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"手洗い推奨\" } } **出力例:** { \"capacity\": \"500ml\", \"material\": \"Body: SUS304 / Gasket: Silicone\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"Hand wash recommended\" } **入力例 (JSON値を含む場合):** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\" } } **出力例 (JSON値を含む場合):** { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\" } # TASK: 提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。 # ADDITIONAL RULES: 以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。 {{ここにカスタムプロンプトが挿入されます}}"
+              - status [ref=e590]:
+                - generic [ref=e593]:
+                  - img [ref=e596]
+                  - generic [ref=e602]:
+                    - heading "カスタマイズ項目を追加する" [level=2] [ref=e603]
+                    - paragraph [ref=e606]: "親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。"
+              - generic [ref=e607]:
+                - generic [ref=e610]: カスタムプロンプト
+                - textbox "カスタムプロンプト" [ref=e614]:
+                  - /placeholder: 例）商品オプション値の翻訳は150字以内にまとめてください
+            - generic [ref=e617]:
+              - heading "メタフィールド" [level=2] [ref=e618]
+              - generic [ref=e619]:
+                - generic [ref=e622]: 親プロンプト
+                - textbox "親プロンプト" [ref=e626]: "# OBJECTIVE: 提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。 # PERSONA: あなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。 単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。 # INSTRUCTIONS: 以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。 **思考プロセス (Chain of Thought):** 1. 提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。 2. 原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。 3. 原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。 4. 直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。 5. 翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。 **翻訳ルール:** - **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。 - **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。 - **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。 - **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。 - **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。 - **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。 # EXAMPLE: 以下は、このタスクの優れた実行例です。 **入力例:** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"capacity\": \"500ml\", \"material\": \"本体: SUS304 / パッキン: シリコーン\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"手洗い推奨\" } } **出力例:** { \"capacity\": \"500ml\", \"material\": \"Body: SUS304 / Gasket: Silicone\", \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\", \"weight\": \"320g\", \"care_instructions\": \"Hand wash recommended\" } **入力例 (JSON値を含む場合):** { \"translate_from\": \"日本語\", \"translate_to\": \"英語\", \"values\": { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\" } } **出力例 (JSON値を含む場合):** { \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\" } # TASK: 提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。 # ADDITIONAL RULES: 以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。 {{ここにカスタムプロンプトが挿入されます}}"
+              - status [ref=e627]:
+                - generic [ref=e630]:
+                  - img [ref=e633]
+                  - generic [ref=e639]:
+                    - heading "カスタマイズ項目を追加する" [level=2] [ref=e640]
+                    - paragraph [ref=e643]: "親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。"
+              - generic [ref=e644]:
+                - generic [ref=e647]: カスタムプロンプト
+                - textbox "カスタムプロンプト" [ref=e651]:
+                  - /placeholder: 例）メタフィールドの翻訳は150字以内にまとめてください
+          - generic [ref=e655]:
+            - button "保存する" [disabled]:
+              - generic: 保存する
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e666]:
+        - button "Close toast" [ref=e667] [cursor=pointer]:
+          - img [ref=e668]
+        - img [ref=e672]
+        - generic [ref=e675]: 翻訳ルールを更新しました
+  - alert [ref=e10]

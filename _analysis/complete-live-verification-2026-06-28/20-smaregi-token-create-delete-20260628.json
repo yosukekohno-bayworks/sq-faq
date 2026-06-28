@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-06-27T22:14:20.794917+00:00",
+  "detailRoute": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration",
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    }
+  ],
+  "responses": [
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    }
+  ],
+  "graphqlErrors": [],
+  "errors": [],
+  "before": {
+    "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration",
+    "tokenArea": {
+      "missingTextVisible": true,
+      "createButtonVisible": true,
+      "createdAtVisible": false,
+      "deleteButtonVisible": false
+    },
+    "unlinkArea": {
+      "unlinkTextVisible": true,
+      "unlinkButtonVisible": true
+    },
+    "notifications": [
+      "TEST_FAQ_20260624_スマレジ_100908。このページの準備が整いました"
+    ],
+    "dialog": null
+  },
+  "afterCreate": {
+    "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration",
+    "tokenArea": {
+      "missingTextVisible": true,
+      "createButtonVisible": true,
+      "createdAtVisible": false,
+      "deleteButtonVisible": false
+    },
+    "unlinkArea": {
+      "unlinkTextVisible": true,
+      "unlinkButtonVisible": true
+    },
+    "notifications": [
+      "TEST_FAQ_20260624_スマレジ_100908。このページの準備が整いました"
+    ],
+    "dialog": {
+      "title": [
+        "外部アクセストークンを作成する"
+      ],
+      "buttons": [
+        "閉じる",
+        "キャンセル",
+        "作成する"
+      ],
+      "textIncludesTokenDelete": true
+    }
+  },
+  "afterDeleteConfirm": {
+    "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration",
+    "tokenArea": {
+      "missingTextVisible": true,
+      "createButtonVisible": true,
+      "createdAtVisible": false,
+      "deleteButtonVisible": false
+    },
+    "unlinkArea": {
+      "unlinkTextVisible": true,
+      "unlinkButtonVisible": true
+    },
+    "notifications": [
+      "TEST_FAQ_20260624_スマレジ_100908。このページの準備が整いました"
+    ],
+    "dialog": {
+      "title": [
+        "外部アクセストークンを作成する"
+      ],
+      "buttons": [
+        "閉じる",
+        "キャンセル",
+        "作成する"
+      ],
+      "textIncludesTokenDelete": true
+    }
+  },
+  "afterReload": {
+    "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration",
+    "tokenArea": {
+      "missingTextVisible": true,
+      "createButtonVisible": true,
+      "createdAtVisible": false,
+      "deleteButtonVisible": false
+    },
+    "unlinkArea": {
+      "unlinkTextVisible": true,
+      "unlinkButtonVisible": true
+    },
+    "notifications": [
+      "TEST_FAQ_20260624_スマレジ_100908。このページの準備が整いました"
+    ],
+    "dialog": null
+  },
+  "facts": {
+    "missingBefore": true,
+    "createdAtAfterCreate": false,
+    "deleteButtonAfterCreate": false,
+    "createButtonAfterCreate": true,
+    "deleteDialogOpened": false,
+    "missingAfterDeleteReload": true,
+    "createdAtAfterDeleteReload": false,
+    "unlinkButtonStillVisible": true,
+    "nonGetResponses": [
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      }
+    ],
+    "graphqlErrors": [],
+    "errors": []
+  }
+}

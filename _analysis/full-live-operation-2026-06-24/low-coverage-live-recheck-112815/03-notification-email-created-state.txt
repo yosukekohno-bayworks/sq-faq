@@ -1,0 +1,118 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[93474]<a />
+	コンテンツにスキップ
+[93600]<div />
+[93477]<button data-state=closed expanded=false />
+[93478]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[93617]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[93482]<a />
+		ホーム
+	[93483]<a />
+		商品管理
+	[93484]<a />
+		在庫管理
+	[93485]<a />
+		注文管理
+		[93668]<div />
+	[93486]<a />
+		顧客管理
+	[93487]<a />
+		発注管理
+	[93488]<a />
+		販売設定
+	[93489]<a />
+		会計
+	[93490]<a />
+		分析
+	オペレーション
+	[93491]<a />
+		入荷管理
+		[93752]<div />
+	[93492]<a />
+		出荷管理
+		[93763]<div />
+	[93493]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[93494]<a />
+		ディスカウント
+	[93495]<a />
+		ポイント
+	[93496]<a />
+		会員ランク
+	販売チャネル
+	[93497]<a />
+		Shopify
+	[93498]<a />
+		OmnibusCore
+	[93499]<a />
+		スマレジ
+	[93500]<a />
+		リテールポータル
+	[93501]<a />
+		卸売
+	[93502]<a />
+		設定
+通知用メールアドレス。このページの準備が整いました
+*[94070]<div />
+	*[94062]<div />
+		*[94061]<a />
+通知用メールアドレス
+*[94067]<a />
+	メールアドレスを追加
+*[94263]<button id=1 role=tab selected=true />
+	すべて
+*[94225]<hr />
+*[94165]<tr />
+	*[94162]<th />
+		*[94157]<div />
+			*[94154]<span />
+				*[94150]<span />
+				*[94148]<svg /> <!-- SVG content collapsed -->
+			*[94155]<span />
+				*[94153]<span />
+					すべてのアイテムを選択する
+	*[94158]<span />
+		名前
+	メールアドレス
+*[94198]<tr id=d2291d98-ed8f-5bcb-b72c-0003665a6323_OrganizationNotificationEmail />
+	*[94179]<td />
+		*[94176]<div />
+			*[94173]<span />
+				*[94169]<span />
+				*[94167]<svg /> <!-- SVG content collapsed -->
+			*[94174]<span />
+				*[94172]<span />
+					アイテムを選択する
+	*[94180]<td />
+		*[94177]<p />
+			test
+	*[94181]<td />
+		*[94178]<p />
+			you.4235@gmail.com
+*[94199]<tr id=ae976ba2-6c53-5a86-a98b-9c42e2de2ade_OrganizationNotificationEmail />
+	*[94195]<td />
+		*[94192]<div />
+			*[94189]<span />
+				*[94185]<span />
+				*[94183]<svg /> <!-- SVG content collapsed -->
+			*[94190]<span />
+				*[94188]<span />
+					アイテムを選択する
+	*[94196]<td />
+		*[94193]<p />
+			test+faq-113425@example.comTEST_FAQ_20260624_NOTIFY_113425
+	*[94197]<td />
+		*[94194]<p />
+			test+faq-113425@example.com
+*[94207]<button id=previousURL aria-label=前へ disabled=true />
+*[94212]<button id=nextURL aria-label=次へ disabled=true />
+[93931]<section aria-label=Notifications alt+T live=polite />
+[93507]<div id=PolarisPortalsContainer />
+[93509]<div id=clerk-components />

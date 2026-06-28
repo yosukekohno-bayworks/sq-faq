@@ -1,0 +1,81 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[103862]<a />
+	コンテンツにスキップ
+[103977]<div />
+[103865]<button data-state=closed expanded=false />
+[103866]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[103994]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[103870]<a />
+		ホーム
+	[103871]<a />
+		商品管理
+	[103872]<a />
+		在庫管理
+	[103873]<a />
+		注文管理
+		[104045]<div />
+	[103874]<a />
+		顧客管理
+	[103875]<a />
+		発注管理
+	[103876]<a />
+		販売設定
+	[103877]<a />
+		販売価格
+	[103878]<a />
+		予約販売
+	[103879]<a />
+		販売上限
+	[103880]<a />
+		販売閾値
+	[103806]<a />
+		会計
+	[103811]<a />
+		分析
+	オペレーション
+	[103819]<a />
+		入荷管理
+		[104142]<div />
+	[103824]<a />
+		出荷管理
+		[104150]<div />
+	[103829]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[103835]<a />
+		ディスカウント
+	[103840]<a />
+		ポイント
+	[103845]<a />
+		会員ランク
+	販売チャネル
+	[103851]<a />
+		Shopify
+	[103855]<a />
+		OmnibusCore
+	[103881]<a />
+		スマレジ
+	[103882]<a />
+		リテールポータル
+	[103883]<a />
+		卸売
+	[103884]<a />
+		設定
+予約販売のルールを作成する。このページの準備が整いました
+[104250]<div />
+	[104251]<div />
+		[103886]<a />
+予約販売のルールを作成する
+タイトル
+|SHADOW(open)|[103859]<input id=:r1d: placeholder=2025SS先行販売 autocomplete=off type=text required=true />
+[103801]<button />
+	保存する
+[104286]<section aria-label=Notifications alt+T live=polite />
+[103888]<div id=PolarisPortalsContainer />
+[103890]<div id=clerk-components />

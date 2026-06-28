@@ -1,0 +1,15 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/users?query=%E7%89%B9%E6%A8%A9%E7%AE%A1%E7%90%86%E8%80%85",
+  "h1": [
+    "管理メンバー"
+  ],
+  "inputs": [
+    {
+      "placeholder": "キーワードで検索する",
+      "value": "特権管理者",
+      "disabled": false
+    }
+  ],
+  "rows": [],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n管理メンバー。このページの準備が整いました\n\n管理メンバー\n権限グループ一覧\nインポート\n追加する\nキーワードで検索する\nクリア\n絞り込みを追加\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください"
+}

@@ -1,0 +1,150 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_import",
+  "savedAt": "2026-06-26T17:15:35.209Z",
+  "groupCount": 9,
+  "categoryCount": 22,
+  "sections": [
+    {
+      "group": "商品",
+      "itemCount": 6,
+      "items": [
+        {
+          "text": "商品 商品を一括で登録・更新できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products"
+        },
+        {
+          "text": "商品画像 商品画像を一括で追加できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_images"
+        },
+        {
+          "text": "商品バリエーション 商品バリエーションを一括で登録・更新できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variants"
+        },
+        {
+          "text": "商品バリエーション画像 商品バリエーション画像を一括で追加できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variant_images"
+        },
+        {
+          "text": "カタログ カタログに商品を一括で追加・削除できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products"
+        },
+        {
+          "text": "原価 SKUごとに原価を一括で設定できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_unit_costs"
+        }
+      ]
+    },
+    {
+      "group": "価格",
+      "itemCount": 2,
+      "items": [
+        {
+          "text": "販売価格 (通常) 通常区分の販売価格を一括で設定できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_price_rule_regular_prices"
+        },
+        {
+          "text": "販売価格 (セール) セール区分の販売価格を一括で設定できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_price_rule_sale_prices"
+        }
+      ]
+    },
+    {
+      "group": "販売",
+      "itemCount": 1,
+      "items": [
+        {
+          "text": "販売閾値 販売閾値ルールごとにSKUと閾値を一括で設定できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_threshold_rule_product_variants"
+        }
+      ]
+    },
+    {
+      "group": "在庫",
+      "itemCount": 3,
+      "items": [
+        {
+          "text": "販売可能在庫 SKUとロケーションを指定して在庫数を一括で設定できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_logical_available_quantities"
+        },
+        {
+          "text": "予約販売 SKUごとに予約販売の数量を一括で設定できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants"
+        },
+        {
+          "text": "在庫移動伝票 在庫移動伝票を一括で作成できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_inventory_movement_orders"
+        }
+      ]
+    },
+    {
+      "group": "メタフィールド",
+      "itemCount": 2,
+      "items": [
+        {
+          "text": "商品 商品メタフィールドを一括で追加できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_metafields"
+        },
+        {
+          "text": "商品バリエーション 商品バリエーションメタフィールドを一括で登録・更新できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_product_variant_metafields"
+        }
+      ]
+    },
+    {
+      "group": "出荷",
+      "itemCount": 2,
+      "items": [
+        {
+          "text": "ヤマトB2クラウド ヤマトB2クラウドのCSVで出荷実績を一括で登録できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds"
+        },
+        {
+          "text": "DHL DHLのCSVで出荷実績を一括で登録できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_dhls"
+        }
+      ]
+    },
+    {
+      "group": "ポイント",
+      "itemCount": 3,
+      "items": [
+        {
+          "text": "一括加算 顧客にポイントを一括で加算できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_pluses"
+        },
+        {
+          "text": "一括減算 顧客のポイントを一括で減算できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_minuses"
+        },
+        {
+          "text": "キャンペーン対象商品 キャンペーンの対象商品を一括で設定できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants"
+        }
+      ]
+    },
+    {
+      "group": "会員ランク",
+      "itemCount": 1,
+      "items": [
+        {
+          "text": "基準ランク 顧客の基準ランクを一括で設定できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_customer_rank_baselines"
+        }
+      ]
+    },
+    {
+      "group": "各種マスター",
+      "itemCount": 2,
+      "items": [
+        {
+          "text": "管理ユーザー 管理ユーザーを一括で登録・更新できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_users"
+        },
+        {
+          "text": "ロケーション ロケーションを一括で登録・更新できます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_locations"
+        }
+      ]
+    }
+  ]
+}

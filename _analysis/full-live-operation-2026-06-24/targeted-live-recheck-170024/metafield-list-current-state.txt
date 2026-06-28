@@ -1,0 +1,109 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[120020]<a />
+	コンテンツにスキップ
+[120176]<div />
+[120023]<button data-state=closed expanded=false />
+[120024]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[120193]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[120028]<a />
+		ホーム
+	[120029]<a />
+		商品管理
+	[120030]<a />
+		在庫管理
+	[120031]<a />
+		注文管理
+		[120244]<div />
+	[120032]<a />
+		顧客管理
+	[120033]<a />
+		発注管理
+	[120034]<a />
+		販売設定
+	[120035]<a />
+		会計
+	[120036]<a />
+		分析
+	オペレーション
+	[120037]<a />
+		入荷管理
+		[120328]<div />
+	[120038]<a />
+		出荷管理
+		[120339]<div />
+	[120039]<a />
+		在庫依頼
+		[120351]<div />
+	CRM
+	[120040]<a />
+		ディスカウント
+	[120041]<a />
+		ポイント
+	[120042]<a />
+		会員ランク
+	販売チャネル
+	[120043]<a />
+		Shopify
+	[120044]<a />
+		OmnibusCore
+	[120045]<a />
+		スマレジ
+	[120012]<a />
+		リテールポータル
+	[120046]<a />
+		卸売
+	[120047]<a />
+		設定
+メタフィールド定義。このページの準備が整いました
+[120452]<div />
+	[120453]<div />
+		[120049]<a />
+メタフィールド定義
+[120471]<div />
+	[120050]<button role=menuitem />
+		組織
+	[120051]<button role=menuitem />
+		ロケーション
+	[120052]<button role=menuitem />
+		会社
+	[120053]<button role=menuitem />
+		仕入れ先ベンダー
+	[120054]<button role=menuitem />
+		商品
+	[120055]<button role=menuitem />
+		バリエーション
+	[120056]<button role=menuitem />
+		顧客
+	[120057]<button role=menuitem />
+		注文
+	[120058]<button role=menuitem />
+		下書き注文
+	[120059]<button role=menuitem />
+		ディスカウント
+	[120060]<button role=menuitem />
+		在庫移動伝票
+	[120061]<button role=menuitem />
+		在庫調整伝票
+	[120062]<button role=menuitem />
+		在庫取置伝票
+	[120063]<button role=menuitem />
+		発注伝票
+	[120064]<button role=menuitem />
+		入荷指示
+	[120065]<button role=menuitem />
+		出荷指示
+組織のメタフィールド定義
+[120010]<a />
+	定義を追加する
+[120686]<hr />
+[120698]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+[120708]<section aria-label=Notifications alt+T live=polite />
+[120066]<div id=PolarisPortalsContainer />
+[120068]<div id=clerk-components />

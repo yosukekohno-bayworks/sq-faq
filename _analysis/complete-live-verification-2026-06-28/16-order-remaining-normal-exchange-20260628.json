@@ -1,0 +1,3828 @@
+{
+  "generatedAt": "2026-06-28T05:01:17.316755+00:00",
+  "tenant": {
+    "id": "[REDACTED_LONG_VALUE]",
+    "name": "ユニクロ"
+  },
+  "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+  "warehouse": {
+    "id": "[REDACTED_LONG_VALUE]",
+    "name": "TEST_E2E_20260622_GU倉庫_ON_1905"
+  },
+  "customer": {
+    "id": "[REDACTED_LONG_VALUE]",
+    "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+    "fullName": "検証顧客ユニクロ095318FAQ"
+  },
+  "steps": [
+    {
+      "label": "orders-before",
+      "url": "https://www.sqstackstaging.com/admin/orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "注文管理"
+      ],
+      "h2": [],
+      "nav": [
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ",
+        "アイテムを選択する FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 検証顧客ユニクロ095318FAQ FAQ_REMAINING_DECREMENT 1個のアイテム ￥1,990 成功 完了 支払い済み 注意 未完了 未出荷 #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT",
+        "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+      ],
+      "buttons": [
+        {
+          "text": "メニューを切り替える",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "メニューを閉じる",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "すべて",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        },
+        {
+          "text": "すべて",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        },
+        {
+          "text": "検索と絞り込みの結果",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "前へ",
+          "disabled": false,
+          "ariaDisabled": "true"
+        },
+        {
+          "text": "次へ",
+          "disabled": false,
+          "ariaDisabled": "true"
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "FAQ-REMAINING-DECREMENT-20260628135953",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order"
+        },
+        {
+          "text": "FAQ-ORDER-BYPASS-20260628100919",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 検証顧客ユニクロ095318FAQ FAQ_REMAINING_DECREMENT 1個のアイテム ￥1,990 成功 完了 支払い済み 注意 未完了 未出荷 #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+    },
+    {
+      "label": "orders-list-after",
+      "url": "https://www.sqstackstaging.com/admin/orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "注文管理"
+      ],
+      "h2": [],
+      "nav": [
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ",
+        "アイテムを選択する FAQ-REMAINING-EXCHANGE-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_EXCHANGE 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み 情報 一部完了済み 返品処理中 #ON-6 FAQ_REMAINING_20260628 FAQ_REMAINING_EXCHANGE",
+        "アイテムを選択する [REDACTED_LONG_VALUE] 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_UNPAID-NOFULFILL 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-5 FAQ_REMAINING_20260628 FAQ_REMAINING_UNPAID-NOFULFILL",
+        "アイテムを選択する FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 検証顧客ユニクロ095318FAQ FAQ_REMAINING_DECREMENT 1個のアイテム ￥1,990 成功 完了 支払い済み 注意 未完了 未出荷 #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT",
+        "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+      ],
+      "buttons": [
+        {
+          "text": "メニューを切り替える",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "メニューを閉じる",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "すべて",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        },
+        {
+          "text": "すべて",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        },
+        {
+          "text": "検索と絞り込みの結果",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "前へ",
+          "disabled": false,
+          "ariaDisabled": "true"
+        },
+        {
+          "text": "次へ",
+          "disabled": false,
+          "ariaDisabled": "true"
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "FAQ-REMAINING-EXCHANGE-20260628140117",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order"
+        },
+        {
+          "text": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order"
+        },
+        {
+          "text": "FAQ-REMAINING-DECREMENT-20260628135953",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order"
+        },
+        {
+          "text": "FAQ-ORDER-BYPASS-20260628100919",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-REMAINING-EXCHANGE-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_EXCHANGE 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み 情報 一部完了済み 返品処理中 #ON-6 FAQ_REMAINING_20260628 FAQ_REMAINING_EXCHANGE アイテムを選択する [REDACTED_LONG_VALUE] 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_UNPAID-NOFULFILL 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-5 FAQ_REMAINING_20260628 FAQ_REMAINING_UNPAID-NOFULFILL アイテムを選択する FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 検証顧客ユニクロ095318FAQ FAQ_REMAINING_DECREMENT 1個のアイテム ￥1,990 成功 完了 支払い済み 注意 未完了 未出荷 #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+    },
+    {
+      "label": "order-returns-list-after",
+      "url": "https://www.sqstackstaging.com/admin/order_returns",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "返品"
+      ],
+      "h2": [],
+      "nav": [
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時",
+        "アイテムを選択する [REDACTED_LONG_VALUE] 情報 返送待ち 2026年06月28日 14:01",
+        "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13"
+      ],
+      "buttons": [
+        {
+          "text": "メニューを切り替える",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "メニューを閉じる",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        },
+        {
+          "text": "検索と絞り込みの結果",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "前へ",
+          "disabled": false,
+          "ariaDisabled": "true"
+        },
+        {
+          "text": "次へ",
+          "disabled": false,
+          "ariaDisabled": "true"
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 返品。このページの準備が整いました 返品 すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時 アイテムを選択する [REDACTED_LONG_VALUE] 情報 返送待ち 2026年06月28日 14:01 アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13"
+    },
+    {
+      "label": "outbound-orders-list-after",
+      "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "出荷管理"
+      ],
+      "h2": [],
+      "nav": [
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 管理番号 作業ステータス 引当ステータス 作成元 出荷場所 アイテム 出荷方法 決済種別 作成日時",
+        "アイテムを選択する #IO-1038 成功 完了 出荷完了 情報 未完了 引当待ち 注文： FAQ-REMAINING-EXCHANGE-20260628140117 TEST_E2E_20260622_GU倉庫_ON_1905 1個 店頭販売による商品の受け渡し - 2026年06月28日 14:01",
+        "アイテムを選択する #IO-1037 成功 完了 出荷完了 情報 未完了 引当待ち 注文： [REDACTED_LONG_VALUE] TEST_E2E_20260622_GU倉庫_ON_1905 1個 店頭販売による商品の受け渡し - 2026年06月28日 14:01",
+        "アイテムを選択する #IO-1034 情報 未完了 出荷待ち 情報 未完了 引当待ち 注文： FAQ-REMAINING-DECREMENT-20260628135953 TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 14:00",
+        "アイテムを選択する #IO-1033 成功 完了 出荷完了 情報 未完了 引当待ち 注文： FAQ-ORDER-BYPASS-20260628100919 ユニクロ物流倉庫 1個 店頭販売による商品の受け渡し - 2026年06月28日 10:11",
+        "アイテムを選択する #IO-1032 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 09:01",
+        "アイテムを選択する #IO-1031 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 08:54",
+        "アイテムを選択する #IO-1030 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 08:52",
+        "アイテムを選択する #IO-1029 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 06:48",
+        "アイテムを選択する #IO-1028 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 06:44",
+        "アイテムを選択する #IO-1027 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 2個 配送 - 2026年06月28日 03:32",
+        "アイテムを選択する #IO-1026 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 03:17",
+        "アイテムを選択する #IO-1025 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月27日 01:01",
+        "アイテムを選択する #IO-1024 成功 完了 出荷完了 情報 未完了 引当待ち TEST_FAQ_20260624_GU倉庫_ON_092214 1個 配送 - 2026年06月24日 09:49",
+        "アイテムを選択する #IO-1023 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月22日 08:41",
+        "アイテムを選択する #IO-1022 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 3個 配送 - 2026年06月21日 14:03",
+        "アイテムを選択する #IO-1021 成功 完了 出荷完了 情報 未完了 引当待ち TEST_FAQ_DEEP2_202606080343_ロケーション 1個 配送 - 2026年06月21日 13:57",
+        "アイテムを選択する #IO-1020 成功 完了 出荷完了 成功 完了 引当済み ユニクロ - 銀座店 5個 配送 - 2026年06月21日 12:34",
+        "アイテムを選択する #IO-1019 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 15個 配送 - 2026年06月21日 12:10",
+        "アイテムを選択する #IO-1018 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月20日 03:37",
+        "アイテムを選択する #IO-1017 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:38",
+        "アイテムを選択する #IO-1016 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:27",
+        "アイテムを選択する #IO-1015 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月18日 22:25",
+        "アイテムを選択する #IO-1014 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月18日 22:21",
+        "アイテムを選択する #IO-1013 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:20",
+        "アイテムを選択する #IO-1012 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月18日 22:18",
+        "アイテムを選択する #IO-1011 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:15",
+        "アイテムを選択する #IO-1010 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:05",
+        "アイテムを選択する #IO-1009 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月16日 23:19",
+        "アイテムを選択する #IO-1008 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月16日 23:05",
+        "アイテムを選択する #IO-1007 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月16日 09:26"
+      ],
+      "buttons": [
+        {
+          "text": "メニューを切り替える",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "メニューを閉じる",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "インポート",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "条件指定でエクスポート",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "インポート",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "条件指定でエクスポート",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "すべて",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "保留中",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "出荷待ち",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "依頼済み",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "作業中",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "欠品・要対応",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "出荷完了",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        },
+        {
+          "text": "すべて",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "保留中 新規 0",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "出荷待ち 新規 1",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "依頼済み 新規 0",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "作業中 新規 0",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "欠品・要対応 新規 0",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "出荷完了",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        },
+        {
+          "text": "検索と絞り込みの結果",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "前へ",
+          "disabled": false,
+          "ariaDisabled": "true"
+        },
+        {
+          "text": "次へ",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "#IO-1038",
+          "href": "/admin/inventory_outbound_orders/c90ddc67-e196-598b-ac9b-17aa4768b553_InventoryOutboundOrder"
+        },
+        {
+          "text": "FAQ-REMAINING-EXCHANGE-20260628140117",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order"
+        },
+        {
+          "text": "#IO-1037",
+          "href": "/admin/inventory_outbound_orders/364123c7-c4c3-5fe9-ae4a-e6525a0333ea_InventoryOutboundOrder"
+        },
+        {
+          "text": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order"
+        },
+        {
+          "text": "#IO-1034",
+          "href": "/admin/inventory_outbound_orders/41221f48-99d8-593b-aebf-509ddc052b0b_InventoryOutboundOrder"
+        },
+        {
+          "text": "FAQ-REMAINING-DECREMENT-20260628135953",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order"
+        },
+        {
+          "text": "#IO-1033",
+          "href": "/admin/inventory_outbound_orders/f6a8271a-c842-5f62-abc0-b6ebab13b246_InventoryOutboundOrder"
+        },
+        {
+          "text": "FAQ-ORDER-BYPASS-20260628100919",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order"
+        },
+        {
+          "text": "#IO-1032",
+          "href": "/admin/inventory_outbound_orders/86512457-59a5-5807-b39e-0510bd916aec_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1031",
+          "href": "/admin/inventory_outbound_orders/748a2721-d846-5f83-9625-540a9539cb53_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1030",
+          "href": "/admin/inventory_outbound_orders/9978c349-25dc-5817-8cb9-e1171286023e_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1029",
+          "href": "/admin/inventory_outbound_orders/380d6c15-ba98-5391-8397-f8c7ec577c45_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1028",
+          "href": "/admin/inventory_outbound_orders/1a8ec738-b3dd-5ffd-897e-40b268e78a5f_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1027",
+          "href": "/admin/inventory_outbound_orders/d1d390e7-c44c-5e45-b55d-5dc5e2c2126d_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1026",
+          "href": "/admin/inventory_outbound_orders/43e2bd21-bdc2-585d-b72d-c33d2e56ad19_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1025",
+          "href": "/admin/inventory_outbound_orders/c4193b40-0c12-5f7c-bddc-c07605fbb49a_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1024",
+          "href": "/admin/inventory_outbound_orders/9adf7a2b-802f-5b6c-9d05-ea3e07a7c5f7_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1023",
+          "href": "/admin/inventory_outbound_orders/823b625c-5e37-518f-a2f0-f324a0abc013_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1022",
+          "href": "/admin/inventory_outbound_orders/de6aa7c3-d276-5c7d-bed5-29e9af103bec_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1021",
+          "href": "/admin/inventory_outbound_orders/31afdaa7-979f-5196-ac8a-22ed0acd62c3_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1020",
+          "href": "/admin/inventory_outbound_orders/7a4f2644-d1f0-5edb-aca7-0364ce0db0e0_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1019",
+          "href": "/admin/inventory_outbound_orders/0de36243-d11f-5168-84fc-67491fa162c9_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1018",
+          "href": "/admin/inventory_outbound_orders/8db8e26b-6b0b-512a-9480-adf24c6ed96e_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1017",
+          "href": "/admin/inventory_outbound_orders/b9c3f9c5-aa21-5835-b0ea-242834458207_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1016",
+          "href": "/admin/inventory_outbound_orders/e48c92ae-5a12-547d-908c-665bfa4ac114_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1015",
+          "href": "/admin/inventory_outbound_orders/ce627e74-830a-5b37-964d-8985994e28eb_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1014",
+          "href": "/admin/inventory_outbound_orders/527ecb19-a1c2-5a3b-b221-59b319eb81e8_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1013",
+          "href": "/admin/inventory_outbound_orders/6d63163b-281e-5d9e-a92c-4f200fa6cec9_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1012",
+          "href": "/admin/inventory_outbound_orders/d6240c4e-f7f1-5172-9e5c-e5fa8cb66217_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1011",
+          "href": "/admin/inventory_outbound_orders/ac72a22d-dd6d-5df5-b8c3-e5dd8484423d_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1010",
+          "href": "/admin/inventory_outbound_orders/c7e2b883-f414-525e-b936-07fd3002a40d_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1009",
+          "href": "/admin/inventory_outbound_orders/e068a208-c4e3-5f44-9d2e-064ffd272039_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1008",
+          "href": "/admin/inventory_outbound_orders/b4cf8da0-c368-58fe-8000-528f5cb56054_InventoryOutboundOrder"
+        },
+        {
+          "text": "#IO-1007",
+          "href": "/admin/inventory_outbound_orders/097f0d71-76fe-57f7-b398-97b1c7b95e3e_InventoryOutboundOrder"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 出荷管理。このページの準備が整いました 出荷管理 インポート 条件指定でエクスポート すべて 保留中 新規 0 出荷待ち 新規 1 依頼済み 新規 0 作業中 新規 0 欠品・要対応 新規 0 出荷完了 すべてのアイテムを選択する 管理番号 作業ステータス 引当ステータス 作成元 出荷場所 アイテム 出荷方法 決済種別 作成日時 アイテムを選択する #IO-1038 成功 完了 出荷完了 情報 未完了 引当待ち 注文： FAQ-REMAINING-EXCHANGE-20260628140117 TEST_E2E_20260622_GU倉庫_ON_1905 1個 店頭販売による商品の受け渡し - 2026年06月28日 14:01 アイテムを選択する #IO-1037 成功 完了 出荷完了 情報 未完了 引当待ち 注文： [REDACTED_LONG_VALUE] TEST_E2E_20260622_GU倉庫_ON_1905 1個 店頭販売による商品の受け渡し - 2026年06月28日 14:01 アイテムを選択する #IO-1034 情報 未完了 出荷待ち 情報 未完了 引当待ち 注文： FAQ-REMAINING-DECREMENT-20260628135953 TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 14:00 アイテムを選択する #IO-1033 成功 完了 出荷完了 情報 未完了 引当待ち 注文： FAQ-ORDER-BYPASS-20260628100919 ユニクロ物流倉庫 1個 店頭販売による商品の受け渡し - 2026年06月28日 10:11 アイテムを選択する #IO-1032 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 09:01 アイテムを選択する #IO-1031 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 08:54 アイテムを選択する #IO-1030 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 08:52 アイテムを選択する #IO-1029 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 06:48 アイテムを選択する #IO-1028 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 06:44 アイテムを選択する #IO-1027 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 2個 配送 - 2026年06月28日 03:32 アイテムを選択する #IO-1026 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月28日 03:17 アイテムを選択する #IO-1025 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月27日 01:01 アイテムを選択する #IO-1024 成功 完了 出荷完了 情報 未完了 引当待ち TEST_FAQ_20260624_GU倉庫_ON_092214 1個 配送 - 2026年06月24日 09:49 アイテムを選択する #IO-1023 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月22日 08:41 アイテムを選択する #IO-1022 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 3個 配送 - 2026年06月21日 14:03 アイテムを選択する #IO-1021 成功 完了 出荷完了 情報 未完了 引当待ち TEST_FAQ_DEEP2_202606080343_ロケーション 1個 配送 - 2026年06月21日 13:57 アイテムを選択する #IO-1020 成功 完了 出荷完了 成功 完了 引当済み ユニクロ - 銀座店 5個 配送 - 2026年06月21日 12:34 アイテムを選択する #IO-1019 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 15個 配送 - 2026年06月21日 12:10 アイテムを選択する #IO-1018 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月20日 03:37 アイテムを選択する #IO-1017 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:38 アイテムを選択する #IO-1016 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:27 アイテムを選択する #IO-1015 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月18日 22:25 アイテムを選択する #IO-1014 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月18日 22:21 アイテムを選択する #IO-1013 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:20 アイテムを選択する #IO-1012 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月18日 22:18 アイテムを選択する #IO-1011 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:15 アイテムを選択する #IO-1010 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:05 アイテムを選択する #IO-1009 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月16日 23:19 アイテムを選択する #IO-1008 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月16日 23:05 アイテムを選択する #IO-1007 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月16日 09:26"
+    },
+    {
+      "label": "normal-order-detail",
+      "url": "https://www.sqstackstaging.com/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "FAQ-REMAINING-DECREMENT-20260628135953"
+      ],
+      "h2": [
+        "注文詳細",
+        "FAQ-REMAINING-DECREMENT-20260628135953",
+        "￥1,990",
+        "支払い情報",
+        "支払い合計",
+        "決済履歴",
+        "メモ",
+        "顧客情報",
+        "連絡先情報",
+        "配送先住所",
+        "請求先住所",
+        "ポイント",
+        "会員ランク",
+        "タグ"
+      ],
+      "nav": [
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "rows": [
+        "日付 ゲートウェイ ペイメントID タイプ ステータス 金額",
+        "2026年06月28日 14:00 FAQ_GATEWAY FAQ-PAY-20260628135953 確定(自動承認) 成功 ￥1,990"
+      ],
+      "buttons": [
+        {
+          "text": "メニューを切り替える",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "メニューを閉じる",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "送料の返金",
+          "disabled": false,
+          "ariaDisabled": "true"
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "注文情報",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "注文情報",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "返金",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order/refund"
+        },
+        {
+          "text": "返金",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order/refund"
+        },
+        {
+          "text": "返金履歴",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order/refunds"
+        },
+        {
+          "text": "出荷指示",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order/inventory-outbound-orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order/inventory-allocation-requests"
+        },
+        {
+          "text": "返金履歴",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order/refunds"
+        },
+        {
+          "text": "出荷指示",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order/inventory-outbound-orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "/admin/orders/d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order/inventory-allocation-requests"
+        },
+        {
+          "text": "FAQ残件検証商品",
+          "href": "/admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product/variants/9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant"
+        },
+        {
+          "text": "検証顧客ユニクロ095318FAQ",
+          "href": "/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer"
+        },
+        {
+          "text": "過去に4個の注文",
+          "href": "/admin/orders?purchasingCustomerID=[REDACTED_LONG_VALUE]"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ-REMAINING-DECREMENT-20260628135953。このページの準備が整いました FAQ-REMAINING-DECREMENT-20260628135953 成功 完了 支払い済み 注意 未完了 未出荷 2026年06月28日 14:00 にFAQ_REMAINING_DECREMENT FAQ-REMAINING-DECREMENT-20260628135953 から注文 返金 その他の操作 注文情報 返金履歴 出荷指示 在庫依頼 注文詳細 FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 ￥1,990 product thumbnail FAQ残件検証商品 新規 NAVY / M - TEST_E2E_20260622_GU_1905_NAVY_M 単価 ￥1,990 x 1 ￥1,990 支払い情報 成功 完了 支払い済み 支払い合計 ￥1,990 小計 1個のアイテム ￥1,990 送料 ￥0 税 ￥0 合計 ￥1,990 決済履歴 日付 ゲートウェイ ペイメントID タイプ ステータス 金額 2026年06月28日 14:00 FAQ_GATEWAY FAQ-PAY-20260628135953 確定(自動承認) 成功 ￥1,990 メモ FAQ残件実機検証 顧客情報 検証顧客ユニクロ095318FAQ 過去に4個の注文 連絡先情報 sq-faq-uniqlo-customer-20260628095318@example.invalid 配送先住所 日本 〒104-0061 東京都 Chuo-ku 1-1-1 FAQ Bayworks 検証 FAQ 0312345678 請求先住所 日本 〒104-0061 東京都 Chuo-ku 1-1-1 FAQ Bayworks 検証 FAQFAQ 0312345678 ポイント 付与対象に含む 成功 はい ポイント付与 0ポイント 会員ランク 算出対象に含む 成功 はい タグ #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT"
+    },
+    {
+      "label": "unpaid-no-fulfillment-order-detail",
+      "url": "https://www.sqstackstaging.com/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117"
+      ],
+      "h2": [
+        "この注文による在庫変動は無視されます",
+        "注文詳細",
+        "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+        "￥1,990",
+        "支払い情報",
+        "支払い合計",
+        "決済履歴",
+        "メモ",
+        "顧客情報",
+        "連絡先情報",
+        "配送先住所",
+        "請求先住所",
+        "ポイント",
+        "会員ランク",
+        "タグ"
+      ],
+      "nav": [
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "rows": [],
+      "buttons": [
+        {
+          "text": "メニューを切り替える",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "メニューを閉じる",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "送料の返金",
+          "disabled": false,
+          "ariaDisabled": "true"
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "注文情報",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "注文情報",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "返品・交換を作成",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order/return"
+        },
+        {
+          "text": "返金履歴",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order/refunds"
+        },
+        {
+          "text": "出荷指示",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order/inventory-outbound-orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order/inventory-allocation-requests"
+        },
+        {
+          "text": "返金履歴",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order/refunds"
+        },
+        {
+          "text": "出荷指示",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order/inventory-outbound-orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "/admin/orders/c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order/inventory-allocation-requests"
+        },
+        {
+          "text": "FAQ残件検証商品",
+          "href": "/admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product/variants/9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant"
+        },
+        {
+          "text": "検証顧客ユニクロ095318FAQ",
+          "href": "/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer"
+        },
+        {
+          "text": "過去に4個の注文",
+          "href": "/admin/orders?purchasingCustomerID=[REDACTED_LONG_VALUE]"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 [REDACTED_LONG_VALUE]。このページの準備が整いました [REDACTED_LONG_VALUE] 成功 完了 支払い済み 成功 完了 発送済み 2026年06月28日 14:01 にFAQ_REMAINING_UNPAID-NOFULFILL [REDACTED_LONG_VALUE] から注文 返金 その他の操作 注文情報 返金履歴 出荷指示 在庫依頼 この注文による在庫変動は無視されます この注文によって発生する在庫減少はSQで管理されている在庫数には反映されません。 注文詳細 [REDACTED_LONG_VALUE] 2026年06月28日 14:01 ￥1,990 product thumbnail FAQ残件検証商品 新規 NAVY / M - TEST_E2E_20260622_GU_1905_NAVY_M 単価 ￥1,990 x 1 ￥1,990 支払い情報 成功 完了 支払い済み 支払い合計 ￥1,990 小計 1個のアイテム ￥1,990 送料 ￥0 税 ￥0 合計 ￥1,990 決済履歴 決済履歴がありません。ポイント利用などで注文の合計が0円の場合はトランザクションは発生しません。 メモ FAQ残件実機検証 顧客情報 検証顧客ユニクロ095318FAQ 過去に4個の注文 連絡先情報 sq-faq-uniqlo-customer-20260628095318@example.invalid 配送先住所 日本 〒104-0061 東京都 Chuo-ku 1-1-1 FAQ Bayworks 検証 FAQ 0312345678 請求先住所 日本 〒104-0061 東京都 Chuo-ku 1-1-1 FAQ Bayworks 検証 FAQFAQ 0312345678 ポイント 付与対象に含む 成功 はい ポイント付与 0ポイント 会員ランク 算出対象に含む 成功 はい タグ #ON-5 FAQ_REMAINING_20260628 FAQ_REMAINING_UNPAID-NOFULFILL"
+    },
+    {
+      "label": "exchange-order-detail",
+      "url": "https://www.sqstackstaging.com/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order",
+      "title": "SQ - 管理画面",
+      "h1": [
+        "FAQ-REMAINING-EXCHANGE-20260628140117"
+      ],
+      "h2": [
+        "この注文による在庫変動は無視されます",
+        "返品",
+        "注文詳細",
+        "FAQ-REMAINING-EXCHANGE-20260628140117",
+        "￥1,990",
+        "支払い情報",
+        "支払い合計",
+        "決済履歴",
+        "メモ",
+        "顧客情報",
+        "連絡先情報",
+        "配送先住所",
+        "請求先住所",
+        "ポイント",
+        "会員ランク",
+        "タグ"
+      ],
+      "nav": [
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "rows": [
+        "日付 ゲートウェイ ペイメントID タイプ ステータス 金額",
+        "2026年06月28日 14:01 FAQ_GATEWAY [REDACTED_LONG_VALUE] 確定(自動承認) 成功 ￥1,990"
+      ],
+      "buttons": [
+        {
+          "text": "メニューを切り替える",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "メニューを閉じる",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "送料の返金",
+          "disabled": false,
+          "ariaDisabled": "true"
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "注文情報",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "注文情報",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "返品をキャンセルする",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "出荷指示を先に作成する",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "最新の注文",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "最初の注文",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "最新の注文",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "最初の注文",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理 未完了の注文 1件 1",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理 未完了の出荷指示 1件 1",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "返金履歴",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order/refunds"
+        },
+        {
+          "text": "出荷指示",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order/inventory-outbound-orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order/inventory-allocation-requests"
+        },
+        {
+          "text": "返金履歴",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order/refunds"
+        },
+        {
+          "text": "出荷指示",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order/inventory-outbound-orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order/inventory-allocation-requests"
+        },
+        {
+          "text": "FAQ残件検証商品",
+          "href": "/admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product"
+        },
+        {
+          "text": "TEST_E2E_20260622 GU検証Tシャツ 1905",
+          "href": "/admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product"
+        },
+        {
+          "text": "商品を受け取る",
+          "href": "/admin/orders/2d53b63c-df1e-58c4-89b8-338b2537276a_Order/return/95335064-00d1-51c1-8206-fa953bf11bbe_OrderReturn"
+        },
+        {
+          "text": "FAQ残件検証商品",
+          "href": "/admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product/variants/9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant"
+        },
+        {
+          "text": "検証顧客ユニクロ095318FAQ",
+          "href": "/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer"
+        },
+        {
+          "text": "過去に4個の注文",
+          "href": "/admin/orders?purchasingCustomerID=[REDACTED_LONG_VALUE]"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ-REMAINING-EXCHANGE-20260628140117。このページの準備が整いました FAQ-REMAINING-EXCHANGE-20260628140117 成功 完了 支払い済み 成功 完了 発送済み 情報 一部完了済み 返品処理中 2026年06月28日 14:01 にFAQ_REMAINING_EXCHANGE FAQ-REMAINING-EXCHANGE-20260628140117 から注文 返金 その他の操作 注文情報 返金履歴 出荷指示 在庫依頼 この注文による在庫変動は無視されます この注文によって発生する在庫減少はSQで管理されている在庫数には反映されません。 返品 [REDACTED_LONG_VALUE] 2026年06月28日 14:01 作成 情報 返送待ち 1 個中の 0 個を受け取り済み product thumbnail FAQ残件検証商品 NAVY / M SKU: TEST_E2E_20260622_GU_1905_NAVY_M 1個中の0個を受け取り済み x 1 未処理の交換アイテム product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M SKU: TEST_E2E_20260622_GU_1905_NAVY_M x 1 返品をキャンセルする 出荷指示を先に作成する 商品を受け取る 注文詳細 最新の注文 最初の注文 FAQ-REMAINING-EXCHANGE-20260628140117 2026年06月28日 14:01 ￥1,990 product thumbnail FAQ残件検証商品 新規 NAVY / M - TEST_E2E_20260622_GU_1905_NAVY_M 単価 ￥1,990 x 1 ￥1,990 支払い情報 成功 完了 支払い済み 支払い合計 ￥1,990 小計 1個のアイテム ￥1,990 送料 ￥0 税 ￥0 合計 ￥1,990 決済履歴 日付 ゲートウェイ ペイメントID タイプ ステータス 金額 2026年06月28日 14:01 FAQ_GATEWAY [REDACTED_LONG_VALUE] 確定(自動承認) 成功 ￥1,990 メモ FAQ残件実機検証 顧客情報 検証顧客ユニクロ095318FAQ 過去に4個の注文 連絡先情報 sq-faq-uniqlo-customer-20260628095318@example.invalid 配送先住所 日本 〒104-0061 東京都 Chuo-ku 1-1-1 FAQ Bayworks 検証 FAQ 0312345678 請求先住所 日本 〒104-0061 東京都 Chuo-ku 1-1-1 FAQ Bayworks 検証 FAQFAQ 0312345678 ポイント 付与対象に含む 成功 はい ポイント付与 0ポイント 会員ランク 算出対象に含む 成功 はい タグ #ON-6 FAQ_REMAINING_20260628 FAQ_REMAINING_EXCHANGE"
+    }
+  ],
+  "facts": {
+    "normalOrder": {
+      "id": "[REDACTED_LONG_VALUE]",
+      "externalID": "FAQ_REMAINING_DECREMENT_20260628135953",
+      "source": "FAQ_REMAINING_DECREMENT",
+      "managementCode": "FAQ-REMAINING-DECREMENT-20260628135953",
+      "managementNumber": "2",
+      "receiptNumber": "FAQ-RECEIPT-20260628135953",
+      "inventoryBehavior": "DECREMENT",
+      "paymentStatus": "PAID",
+      "fulfillmentStatus": "UNFULFILLED",
+      "requiresFulfillment": true,
+      "isFulfillmentInProgress": false,
+      "merchantFulfillable": true,
+      "merchantReturnable": false,
+      "merchantRefundable": true,
+      "totalQuantity": 1,
+      "currentTotalQuantity": 1,
+      "totalReturnableQuantity": 0,
+      "hasActiveOrderReturns": false,
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "tags": [
+        "#ON-2",
+        "FAQ_REMAINING_20260628",
+        "FAQ_REMAINING_DECREMENT"
+      ],
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+            "quantity": 1,
+            "currentQuantity": 1,
+            "returnableQuantity": 0,
+            "refundableQuantity": 1
+          }
+        ]
+      },
+      "inventoryOutboundOrders": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "externalID": "",
+            "managementCode": "#IO-1034",
+            "kind": "ORDER",
+            "workingStatus": "WAITING",
+            "totalQuantity": 1,
+            "isInventoryAllocated": false,
+            "isFulfillable": true,
+            "inventoryAllocationStatus": "WAITING",
+            "inventoryLocation": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "code": "TEST_E2E_20260622_WH_1905",
+              "locationType": "WAREHOUSE"
+            }
+          }
+        ]
+      }
+    },
+    "unpaidNoFulfillmentOrder": {
+      "id": "[REDACTED_LONG_VALUE]",
+      "externalID": "FAQ_REMAINING_UNPAID_NOFULFILL_20260628140117",
+      "source": "FAQ_REMAINING_UNPAID-NOFULFILL",
+      "managementCode": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+      "managementNumber": "5",
+      "receiptNumber": "FAQ-RECEIPT-20260628140117",
+      "inventoryBehavior": "BYPASS",
+      "paymentStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "requiresFulfillment": false,
+      "isFulfillmentInProgress": false,
+      "merchantFulfillable": false,
+      "merchantReturnable": true,
+      "merchantRefundable": false,
+      "totalQuantity": 1,
+      "currentTotalQuantity": 1,
+      "totalReturnableQuantity": 1,
+      "hasActiveOrderReturns": false,
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "tags": [
+        "#ON-5",
+        "FAQ_REMAINING_20260628",
+        "FAQ_REMAINING_UNPAID-NOFULFILL"
+      ],
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+            "quantity": 1,
+            "currentQuantity": 1,
+            "returnableQuantity": 1,
+            "refundableQuantity": 1
+          }
+        ]
+      },
+      "inventoryOutboundOrders": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "externalID": "",
+            "managementCode": "#IO-1037",
+            "kind": "ORDER",
+            "workingStatus": "COMPLETE",
+            "totalQuantity": 1,
+            "isInventoryAllocated": false,
+            "isFulfillable": false,
+            "inventoryAllocationStatus": "WAITING",
+            "inventoryLocation": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "code": "TEST_E2E_20260622_WH_1905",
+              "locationType": "WAREHOUSE"
+            }
+          }
+        ]
+      }
+    },
+    "exchangeOrderBeforeReturn": {
+      "id": "[REDACTED_LONG_VALUE]",
+      "externalID": "FAQ_REMAINING_EXCHANGE_20260628140117",
+      "source": "FAQ_REMAINING_EXCHANGE",
+      "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+      "managementNumber": "6",
+      "receiptNumber": "FAQ-RECEIPT-20260628140117",
+      "inventoryBehavior": "BYPASS",
+      "paymentStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "requiresFulfillment": false,
+      "isFulfillmentInProgress": false,
+      "merchantFulfillable": false,
+      "merchantReturnable": true,
+      "merchantRefundable": false,
+      "totalQuantity": 1,
+      "currentTotalQuantity": 1,
+      "totalReturnableQuantity": 1,
+      "hasActiveOrderReturns": false,
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "tags": [
+        "#ON-6",
+        "FAQ_REMAINING_20260628",
+        "FAQ_REMAINING_EXCHANGE"
+      ],
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+            "quantity": 1,
+            "currentQuantity": 1,
+            "returnableQuantity": 1,
+            "refundableQuantity": 1
+          }
+        ]
+      },
+      "inventoryOutboundOrders": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "externalID": "",
+            "managementCode": "#IO-1038",
+            "kind": "ORDER",
+            "workingStatus": "COMPLETE",
+            "totalQuantity": 1,
+            "isInventoryAllocated": false,
+            "isFulfillable": false,
+            "inventoryAllocationStatus": "WAITING",
+            "inventoryLocation": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "code": "TEST_E2E_20260622_WH_1905",
+              "locationType": "WAREHOUSE"
+            }
+          }
+        ]
+      }
+    },
+    "exchangeReturn": {
+      "id": "[REDACTED_LONG_VALUE]",
+      "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117-R1",
+      "externalID": "FAQ_EXCHANGE_RETURN_20260628140117",
+      "status": "WAITING",
+      "receivable": true,
+      "completable": false,
+      "cancellable": true,
+      "totalQuantity": 1,
+      "totalReceivedQuantity": 0,
+      "exchangeLineItemCount": 1,
+      "hasExchangeLineItems": true,
+      "exchangeLineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "quantity": 1,
+            "productVariant": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "title": "NAVY / M",
+              "inventoryItem": {
+                "sku": "TEST_E2E_20260622_GU_1905_NAVY_M"
+              }
+            }
+          }
+        ]
+      },
+      "exchangeInventoryOutboundOrder": null,
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "quantity": 1,
+            "receivedQuantity": 0,
+            "receivableQuantity": 1,
+            "currentQuantity": 1,
+            "orderLineItem": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+              "returnableQuantity": 0,
+              "refundableQuantity": 1,
+              "currentQuantity": 1
+            }
+          }
+        ]
+      },
+      "order": {
+        "id": "[REDACTED_LONG_VALUE]",
+        "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+        "managementNumber": "6",
+        "paymentStatus": "PAID",
+        "fulfillmentStatus": "FULFILLED",
+        "totalReturnableQuantity": 0,
+        "hasActiveOrderReturns": true
+      }
+    }
+  },
+  "errors": [],
+  "before": {
+    "inventory": {
+      "result": {
+        "status": 200,
+        "ok": true,
+        "json": {
+          "data": {
+            "productVariantBySKU": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "title": "NAVY / M",
+              "inventoryItem": {
+                "id": "[REDACTED_LONG_VALUE]",
+                "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                "inventoryLevel": {
+                  "id": "[REDACTED_LONG_VALUE]",
+                  "quantity": {
+                    "incoming": 0,
+                    "inTransit": 0,
+                    "available": 1,
+                    "committed": 0,
+                    "reserved": 0,
+                    "damaged": 0,
+                    "safetyStock": 0,
+                    "qualityControl": 0,
+                    "onHand": 1,
+                    "sellableQuantity": 1
+                  }
+                }
+              },
+              "locationAvailability": {
+                "inventoryQuantity": 1
+              }
+            }
+          }
+        },
+        "textSample": "{\"data\":{\"productVariantBySKU\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"title\":\"NAVY / M\",\"inventoryItem\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"inventoryLevel\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"quantity\":{\"incoming\":0,\"inTransit\":0,\"available\":1,\"committed\":0,\"reserved\":0,\"damaged\":0,\"safetyStock\":0,\"qualityControl\":0,\"onHand\":1,\"sellableQuantity\":1}}},\"locationAvailability\":{\"inventoryQuantity\":1}}}}"
+      },
+      "quantity": {
+        "incoming": 0,
+        "inTransit": 0,
+        "available": 1,
+        "committed": 0,
+        "reserved": 0,
+        "damaged": 0,
+        "safetyStock": 0,
+        "qualityControl": 0,
+        "onHand": 1,
+        "sellableQuantity": 1
+      },
+      "locationAvailabilityQuantity": 1
+    },
+    "orderCounts": {
+      "WAITING": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "ON_HOLD": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "REQUESTED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "IN_PROGRESS": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "REJECTED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "COMPLETE": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 1
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":1}}"
+        },
+        "count": 1
+      },
+      "CANCELLED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "NON_TERMINAL": {
+        "statuses": [
+          "WAITING",
+          "ON_HOLD",
+          "REQUESTED",
+          "IN_PROGRESS",
+          "REJECTED"
+        ],
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      }
+    }
+  },
+  "normalOrderCreate": {
+    "reusedFromPreviousRun": true,
+    "previousExternalID": "FAQ_REMAINING_DECREMENT_20260628135953",
+    "lookup": {
+      "status": 200,
+      "ok": true,
+      "json": {
+        "data": {
+          "orderByExternalID": {
+            "id": "[REDACTED_LONG_VALUE]",
+            "externalID": "FAQ_REMAINING_DECREMENT_20260628135953",
+            "source": "FAQ_REMAINING_DECREMENT",
+            "managementCode": "FAQ-REMAINING-DECREMENT-20260628135953",
+            "managementNumber": "2",
+            "receiptNumber": "FAQ-RECEIPT-20260628135953",
+            "inventoryBehavior": "DECREMENT",
+            "paymentStatus": "PAID",
+            "fulfillmentStatus": "UNFULFILLED",
+            "requiresFulfillment": true,
+            "isFulfillmentInProgress": false,
+            "merchantFulfillable": true,
+            "merchantReturnable": false,
+            "merchantRefundable": true,
+            "totalQuantity": 1,
+            "currentTotalQuantity": 1,
+            "totalReturnableQuantity": 0,
+            "hasActiveOrderReturns": false,
+            "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+            "tags": [
+              "#ON-2",
+              "FAQ_REMAINING_20260628",
+              "FAQ_REMAINING_DECREMENT"
+            ],
+            "lineItems": {
+              "nodes": [
+                {
+                  "id": "[REDACTED_LONG_VALUE]",
+                  "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                  "quantity": 1,
+                  "currentQuantity": 1,
+                  "returnableQuantity": 0,
+                  "refundableQuantity": 1
+                }
+              ]
+            },
+            "inventoryOutboundOrders": {
+              "nodes": [
+                {
+                  "id": "[REDACTED_LONG_VALUE]",
+                  "externalID": "",
+                  "managementCode": "#IO-1034",
+                  "kind": "ORDER",
+                  "workingStatus": "WAITING",
+                  "totalQuantity": 1,
+                  "isInventoryAllocated": false,
+                  "isFulfillable": true,
+                  "inventoryAllocationStatus": "WAITING",
+                  "inventoryLocation": {
+                    "id": "[REDACTED_LONG_VALUE]",
+                    "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+                    "code": "TEST_E2E_20260622_WH_1905",
+                    "locationType": "WAREHOUSE"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "textSample": "{\"data\":{\"orderByExternalID\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"externalID\":\"FAQ_REMAINING_DECREMENT_20260628135953\",\"source\":\"FAQ_REMAINING_DECREMENT\",\"managementCode\":\"FAQ-REMAINING-DECREMENT-20260628135953\",\"managementNumber\":\"2\",\"receiptNumber\":\"FAQ-RECEIPT-20260628135953\",\"inventoryBehavior\":\"DECREMENT\",\"paymentStatus\":\"PAID\",\"fulfillmentStatus\":\"UNFULFILLED\",\"requiresFulfillment\":true,\"isFulfillmentInProgress\":false,\"merchantFulfillable\":true,\"merchantReturnable\":false,\"merchantRefundable\":true,\"totalQuantity\":1,\"currentTotalQuantity\":1,\"totalReturnableQuantity\":0,\"hasActiveOrderReturns\":false,\"email\":\"sq-faq-uniqlo-customer-20260628095318@example.invalid\",\"tags\":[\"#ON-2\",\"FAQ_REMAINING_20260628\",\"FAQ_REMAINING_DECREMENT\"],\"lineItems\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"quantity\":1,\"currentQuantity\":1,\"returnableQuantity\":0,\"refundableQuantity\":1}]},\"inventoryOutboundOrders\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"externalID\":\"\",\"managementCode\":\"#IO-1034\",\"kind\":\"ORDER\",\"workingStatus\":\"WAITING\",\"totalQuantity\":1,\"isInventoryAllocated\":false,\"isFulfillable\":true,\"inventoryAllocationStatus\":\"WAITING\",\"inventoryLocation\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"name\":\"TEST_E2E_20260622_GU倉庫_ON_1905\",\"code\":\"TEST_E2E_20260622_WH_1905\",\"locationType\":\"WAREHOUSE\"}}]}}}}"
+    },
+    "order": {
+      "id": "[REDACTED_LONG_VALUE]",
+      "externalID": "FAQ_REMAINING_DECREMENT_20260628135953",
+      "source": "FAQ_REMAINING_DECREMENT",
+      "managementCode": "FAQ-REMAINING-DECREMENT-20260628135953",
+      "managementNumber": "2",
+      "receiptNumber": "FAQ-RECEIPT-20260628135953",
+      "inventoryBehavior": "DECREMENT",
+      "paymentStatus": "PAID",
+      "fulfillmentStatus": "UNFULFILLED",
+      "requiresFulfillment": true,
+      "isFulfillmentInProgress": false,
+      "merchantFulfillable": true,
+      "merchantReturnable": false,
+      "merchantRefundable": true,
+      "totalQuantity": 1,
+      "currentTotalQuantity": 1,
+      "totalReturnableQuantity": 0,
+      "hasActiveOrderReturns": false,
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "tags": [
+        "#ON-2",
+        "FAQ_REMAINING_20260628",
+        "FAQ_REMAINING_DECREMENT"
+      ],
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+            "quantity": 1,
+            "currentQuantity": 1,
+            "returnableQuantity": 0,
+            "refundableQuantity": 1
+          }
+        ]
+      },
+      "inventoryOutboundOrders": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "externalID": "",
+            "managementCode": "#IO-1034",
+            "kind": "ORDER",
+            "workingStatus": "WAITING",
+            "totalQuantity": 1,
+            "isInventoryAllocated": false,
+            "isFulfillable": true,
+            "inventoryAllocationStatus": "WAITING",
+            "inventoryLocation": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "code": "TEST_E2E_20260622_WH_1905",
+              "locationType": "WAREHOUSE"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "afterNormal": {
+    "inventory": {
+      "result": {
+        "status": 200,
+        "ok": true,
+        "json": {
+          "data": {
+            "productVariantBySKU": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "title": "NAVY / M",
+              "inventoryItem": {
+                "id": "[REDACTED_LONG_VALUE]",
+                "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                "inventoryLevel": {
+                  "id": "[REDACTED_LONG_VALUE]",
+                  "quantity": {
+                    "incoming": 0,
+                    "inTransit": 0,
+                    "available": 0,
+                    "committed": 1,
+                    "reserved": 0,
+                    "damaged": 0,
+                    "safetyStock": 0,
+                    "qualityControl": 0,
+                    "onHand": 1,
+                    "sellableQuantity": 0
+                  }
+                }
+              },
+              "locationAvailability": {
+                "inventoryQuantity": 0
+              }
+            }
+          }
+        },
+        "textSample": "{\"data\":{\"productVariantBySKU\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"title\":\"NAVY / M\",\"inventoryItem\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"inventoryLevel\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"quantity\":{\"incoming\":0,\"inTransit\":0,\"available\":0,\"committed\":1,\"reserved\":0,\"damaged\":0,\"safetyStock\":0,\"qualityControl\":0,\"onHand\":1,\"sellableQuantity\":0}}},\"locationAvailability\":{\"inventoryQuantity\":0}}}}"
+      },
+      "quantity": {
+        "incoming": 0,
+        "inTransit": 0,
+        "available": 0,
+        "committed": 1,
+        "reserved": 0,
+        "damaged": 0,
+        "safetyStock": 0,
+        "qualityControl": 0,
+        "onHand": 1,
+        "sellableQuantity": 0
+      },
+      "locationAvailabilityQuantity": 0
+    },
+    "orderCounts": {
+      "WAITING": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 1
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":1}}"
+        },
+        "count": 1
+      },
+      "ON_HOLD": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "REQUESTED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "IN_PROGRESS": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "REJECTED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "COMPLETE": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 1
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":1}}"
+        },
+        "count": 1
+      },
+      "CANCELLED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "NON_TERMINAL": {
+        "statuses": [
+          "WAITING",
+          "ON_HOLD",
+          "REQUESTED",
+          "IN_PROGRESS",
+          "REJECTED"
+        ],
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 1
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":1}}"
+        },
+        "count": 1
+      }
+    }
+  },
+  "unpaidNoFulfillmentOrderCreate": {
+    "order": {
+      "id": "[REDACTED_LONG_VALUE]",
+      "externalID": "FAQ_REMAINING_UNPAID_NOFULFILL_20260628140117",
+      "source": "FAQ_REMAINING_UNPAID-NOFULFILL",
+      "managementCode": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+      "managementNumber": "5",
+      "receiptNumber": "FAQ-RECEIPT-20260628140117",
+      "inventoryBehavior": "BYPASS",
+      "paymentStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "requiresFulfillment": false,
+      "isFulfillmentInProgress": false,
+      "merchantFulfillable": false,
+      "merchantReturnable": true,
+      "merchantRefundable": false,
+      "totalQuantity": 1,
+      "currentTotalQuantity": 1,
+      "totalReturnableQuantity": 1,
+      "hasActiveOrderReturns": false,
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "tags": [
+        "#ON-5",
+        "FAQ_REMAINING_20260628",
+        "FAQ_REMAINING_UNPAID-NOFULFILL"
+      ],
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+            "quantity": 1,
+            "currentQuantity": 1,
+            "returnableQuantity": 1,
+            "refundableQuantity": 1
+          }
+        ]
+      },
+      "inventoryOutboundOrders": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "externalID": "",
+            "managementCode": "#IO-1037",
+            "kind": "ORDER",
+            "workingStatus": "COMPLETE",
+            "totalQuantity": 1,
+            "isInventoryAllocated": false,
+            "isFulfillable": false,
+            "inventoryAllocationStatus": "WAITING",
+            "inventoryLocation": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "code": "TEST_E2E_20260622_WH_1905",
+              "locationType": "WAREHOUSE"
+            }
+          }
+        ]
+      }
+    },
+    "existing": false,
+    "attempts": [
+      {
+        "includeOutbound": false,
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCreate": {
+                "order": {
+                  "id": "[REDACTED_LONG_VALUE]",
+                  "externalID": "FAQ_REMAINING_UNPAID_NOFULFILL_20260628140117",
+                  "source": "FAQ_REMAINING_UNPAID-NOFULFILL",
+                  "managementCode": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+                  "managementNumber": "5",
+                  "receiptNumber": "FAQ-RECEIPT-20260628140117",
+                  "inventoryBehavior": "BYPASS",
+                  "paymentStatus": "PAID",
+                  "fulfillmentStatus": "FULFILLED",
+                  "requiresFulfillment": false,
+                  "isFulfillmentInProgress": false,
+                  "merchantFulfillable": false,
+                  "merchantReturnable": true,
+                  "merchantRefundable": false,
+                  "totalQuantity": 1,
+                  "currentTotalQuantity": 1,
+                  "totalReturnableQuantity": 1,
+                  "hasActiveOrderReturns": false,
+                  "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+                  "tags": [
+                    "#ON-5",
+                    "FAQ_REMAINING_20260628",
+                    "FAQ_REMAINING_UNPAID-NOFULFILL"
+                  ],
+                  "lineItems": {
+                    "nodes": [
+                      {
+                        "id": "[REDACTED_LONG_VALUE]",
+                        "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                        "quantity": 1,
+                        "currentQuantity": 1,
+                        "returnableQuantity": 1,
+                        "refundableQuantity": 1
+                      }
+                    ]
+                  },
+                  "inventoryOutboundOrders": {
+                    "nodes": [
+                      {
+                        "id": "[REDACTED_LONG_VALUE]",
+                        "externalID": "",
+                        "managementCode": "#IO-1037",
+                        "kind": "ORDER",
+                        "workingStatus": "COMPLETE",
+                        "totalQuantity": 1,
+                        "isInventoryAllocated": false,
+                        "isFulfillable": false,
+                        "inventoryAllocationStatus": "WAITING",
+                        "inventoryLocation": {
+                          "id": "[REDACTED_LONG_VALUE]",
+                          "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+                          "code": "TEST_E2E_20260622_WH_1905",
+                          "locationType": "WAREHOUSE"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "textSample": "{\"data\":{\"orderCreate\":{\"order\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"externalID\":\"[REDACTED_LONG_VALUE]\",\"source\":\"FAQ_REMAINING_UNPAID-NOFULFILL\",\"managementCode\":\"[REDACTED_LONG_VALUE]\",\"managementNumber\":\"5\",\"receiptNumber\":\"FAQ-RECEIPT-20260628140117\",\"inventoryBehavior\":\"BYPASS\",\"paymentStatus\":\"PAID\",\"fulfillmentStatus\":\"FULFILLED\",\"requiresFulfillment\":false,\"isFulfillmentInProgress\":false,\"merchantFulfillable\":false,\"merchantReturnable\":true,\"merchantRefundable\":false,\"totalQuantity\":1,\"currentTotalQuantity\":1,\"totalReturnableQuantity\":1,\"hasActiveOrderReturns\":false,\"email\":\"sq-faq-uniqlo-customer-20260628095318@example.invalid\",\"tags\":[\"#ON-5\",\"FAQ_REMAINING_20260628\",\"FAQ_REMAINING_UNPAID-NOFULFILL\"],\"lineItems\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"quantity\":1,\"currentQuantity\":1,\"returnableQuantity\":1,\"refundableQuantity\":1}]},\"inventoryOutboundOrders\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"externalID\":\"\",\"managementCode\":\"#IO-1037\",\"kind\":\"ORDER\",\"workingStatus\":\"COMPLETE\",\"totalQuantity\":1,\"isInventoryAllocated\":false,\"isFulfillable\":false,\"inventoryAllocationStatus\":\"WAITING\",\"inventoryLocation\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"name\":\"TEST_E2E_20260622_GU倉庫_ON_1905\",\"code\":\"TEST_E2E_20260622_WH_1905\",\"locationType\":\"WAREHOUSE\"}}]}}}}}"
+        }
+      }
+    ],
+    "managementCode": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+    "externalID": "FAQ_REMAINING_UNPAID_NOFULFILL_20260628140117"
+  },
+  "afterUnpaidNoFulfillment": {
+    "orderCounts": {
+      "WAITING": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 1
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":1}}"
+        },
+        "count": 1
+      },
+      "ON_HOLD": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "REQUESTED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "IN_PROGRESS": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "REJECTED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "COMPLETE": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 2
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":2}}"
+        },
+        "count": 2
+      },
+      "CANCELLED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "NON_TERMINAL": {
+        "statuses": [
+          "WAITING",
+          "ON_HOLD",
+          "REQUESTED",
+          "IN_PROGRESS",
+          "REJECTED"
+        ],
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 1
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":1}}"
+        },
+        "count": 1
+      }
+    }
+  },
+  "exchangeOrderCreate": {
+    "order": {
+      "id": "[REDACTED_LONG_VALUE]",
+      "externalID": "FAQ_REMAINING_EXCHANGE_20260628140117",
+      "source": "FAQ_REMAINING_EXCHANGE",
+      "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+      "managementNumber": "6",
+      "receiptNumber": "FAQ-RECEIPT-20260628140117",
+      "inventoryBehavior": "BYPASS",
+      "paymentStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "requiresFulfillment": false,
+      "isFulfillmentInProgress": false,
+      "merchantFulfillable": false,
+      "merchantReturnable": true,
+      "merchantRefundable": false,
+      "totalQuantity": 1,
+      "currentTotalQuantity": 1,
+      "totalReturnableQuantity": 1,
+      "hasActiveOrderReturns": false,
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "tags": [
+        "#ON-6",
+        "FAQ_REMAINING_20260628",
+        "FAQ_REMAINING_EXCHANGE"
+      ],
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+            "quantity": 1,
+            "currentQuantity": 1,
+            "returnableQuantity": 1,
+            "refundableQuantity": 1
+          }
+        ]
+      },
+      "inventoryOutboundOrders": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "externalID": "",
+            "managementCode": "#IO-1038",
+            "kind": "ORDER",
+            "workingStatus": "COMPLETE",
+            "totalQuantity": 1,
+            "isInventoryAllocated": false,
+            "isFulfillable": false,
+            "inventoryAllocationStatus": "WAITING",
+            "inventoryLocation": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "code": "TEST_E2E_20260622_WH_1905",
+              "locationType": "WAREHOUSE"
+            }
+          }
+        ]
+      }
+    },
+    "existing": false,
+    "attempts": [
+      {
+        "includeOutbound": false,
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCreate": {
+                "order": {
+                  "id": "[REDACTED_LONG_VALUE]",
+                  "externalID": "FAQ_REMAINING_EXCHANGE_20260628140117",
+                  "source": "FAQ_REMAINING_EXCHANGE",
+                  "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+                  "managementNumber": "6",
+                  "receiptNumber": "FAQ-RECEIPT-20260628140117",
+                  "inventoryBehavior": "BYPASS",
+                  "paymentStatus": "PAID",
+                  "fulfillmentStatus": "FULFILLED",
+                  "requiresFulfillment": false,
+                  "isFulfillmentInProgress": false,
+                  "merchantFulfillable": false,
+                  "merchantReturnable": true,
+                  "merchantRefundable": false,
+                  "totalQuantity": 1,
+                  "currentTotalQuantity": 1,
+                  "totalReturnableQuantity": 1,
+                  "hasActiveOrderReturns": false,
+                  "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+                  "tags": [
+                    "#ON-6",
+                    "FAQ_REMAINING_20260628",
+                    "FAQ_REMAINING_EXCHANGE"
+                  ],
+                  "lineItems": {
+                    "nodes": [
+                      {
+                        "id": "[REDACTED_LONG_VALUE]",
+                        "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                        "quantity": 1,
+                        "currentQuantity": 1,
+                        "returnableQuantity": 1,
+                        "refundableQuantity": 1
+                      }
+                    ]
+                  },
+                  "inventoryOutboundOrders": {
+                    "nodes": [
+                      {
+                        "id": "[REDACTED_LONG_VALUE]",
+                        "externalID": "",
+                        "managementCode": "#IO-1038",
+                        "kind": "ORDER",
+                        "workingStatus": "COMPLETE",
+                        "totalQuantity": 1,
+                        "isInventoryAllocated": false,
+                        "isFulfillable": false,
+                        "inventoryAllocationStatus": "WAITING",
+                        "inventoryLocation": {
+                          "id": "[REDACTED_LONG_VALUE]",
+                          "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+                          "code": "TEST_E2E_20260622_WH_1905",
+                          "locationType": "WAREHOUSE"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "textSample": "{\"data\":{\"orderCreate\":{\"order\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"externalID\":\"FAQ_REMAINING_EXCHANGE_20260628140117\",\"source\":\"FAQ_REMAINING_EXCHANGE\",\"managementCode\":\"FAQ-REMAINING-EXCHANGE-20260628140117\",\"managementNumber\":\"6\",\"receiptNumber\":\"FAQ-RECEIPT-20260628140117\",\"inventoryBehavior\":\"BYPASS\",\"paymentStatus\":\"PAID\",\"fulfillmentStatus\":\"FULFILLED\",\"requiresFulfillment\":false,\"isFulfillmentInProgress\":false,\"merchantFulfillable\":false,\"merchantReturnable\":true,\"merchantRefundable\":false,\"totalQuantity\":1,\"currentTotalQuantity\":1,\"totalReturnableQuantity\":1,\"hasActiveOrderReturns\":false,\"email\":\"sq-faq-uniqlo-customer-20260628095318@example.invalid\",\"tags\":[\"#ON-6\",\"FAQ_REMAINING_20260628\",\"FAQ_REMAINING_EXCHANGE\"],\"lineItems\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"quantity\":1,\"currentQuantity\":1,\"returnableQuantity\":1,\"refundableQuantity\":1}]},\"inventoryOutboundOrders\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"externalID\":\"\",\"managementCode\":\"#IO-1038\",\"kind\":\"ORDER\",\"workingStatus\":\"COMPLETE\",\"totalQuantity\":1,\"isInventoryAllocated\":false,\"isFulfillable\":false,\"inventoryAllocationStatus\":\"WAITING\",\"inventoryLocation\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"name\":\"TEST_E2E_20260622_GU倉庫_ON_1905\",\"code\":\"TEST_E2E_20260622_WH_1905\",\"locationType\":\"WAREHOUSE\"}}]}}}}}"
+        }
+      }
+    ],
+    "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+    "externalID": "FAQ_REMAINING_EXCHANGE_20260628140117"
+  },
+  "exchangeReturnCreate": {
+    "input": {
+      "orderID": "[REDACTED_LONG_VALUE]",
+      "exchangeInventoryLocationID": "[REDACTED_LONG_VALUE]",
+      "externalID": "FAQ_EXCHANGE_RETURN_20260628140117",
+      "received": false,
+      "orderReturnLineItems": [
+        {
+          "externalID": "FAQ-EXCHANGE-RETURN-LINE-20260628140117",
+          "orderLineItemID": "[REDACTED_LONG_VALUE]",
+          "quantity": 1,
+          "reason": "FAQ実機検証: 交換返品",
+          "exchangeLineItem": {
+            "productVariantID": "[REDACTED_LONG_VALUE]"
+          }
+        }
+      ]
+    },
+    "result": {
+      "status": 200,
+      "ok": true,
+      "json": {
+        "data": {
+          "orderReturnCreate": {
+            "orderReturn": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117-R1",
+              "externalID": "FAQ_EXCHANGE_RETURN_20260628140117",
+              "status": "WAITING",
+              "receivable": true,
+              "completable": false,
+              "cancellable": true,
+              "totalQuantity": 1,
+              "totalReceivedQuantity": 0,
+              "exchangeLineItemCount": 1,
+              "hasExchangeLineItems": true,
+              "exchangeLineItems": {
+                "nodes": [
+                  {
+                    "id": "[REDACTED_LONG_VALUE]",
+                    "quantity": 1,
+                    "productVariant": {
+                      "id": "[REDACTED_LONG_VALUE]",
+                      "title": "NAVY / M",
+                      "inventoryItem": {
+                        "sku": "TEST_E2E_20260622_GU_1905_NAVY_M"
+                      }
+                    }
+                  }
+                ]
+              },
+              "exchangeInventoryOutboundOrder": null,
+              "lineItems": {
+                "nodes": [
+                  {
+                    "id": "[REDACTED_LONG_VALUE]",
+                    "quantity": 1,
+                    "receivedQuantity": 0,
+                    "receivableQuantity": 1,
+                    "currentQuantity": 1,
+                    "orderLineItem": {
+                      "id": "[REDACTED_LONG_VALUE]",
+                      "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                      "returnableQuantity": 0,
+                      "refundableQuantity": 1,
+                      "currentQuantity": 1
+                    }
+                  }
+                ]
+              },
+              "order": {
+                "id": "[REDACTED_LONG_VALUE]",
+                "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+                "managementNumber": "6",
+                "paymentStatus": "PAID",
+                "fulfillmentStatus": "FULFILLED",
+                "totalReturnableQuantity": 0,
+                "hasActiveOrderReturns": true
+              }
+            }
+          }
+        }
+      },
+      "textSample": "{\"data\":{\"orderReturnCreate\":{\"orderReturn\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"managementCode\":\"[REDACTED_LONG_VALUE]\",\"externalID\":\"FAQ_EXCHANGE_RETURN_20260628140117\",\"status\":\"WAITING\",\"receivable\":true,\"completable\":false,\"cancellable\":true,\"totalQuantity\":1,\"totalReceivedQuantity\":0,\"exchangeLineItemCount\":1,\"hasExchangeLineItems\":true,\"exchangeLineItems\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"quantity\":1,\"productVariant\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"title\":\"NAVY / M\",\"inventoryItem\":{\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\"}}}]},\"exchangeInventoryOutboundOrder\":null,\"lineItems\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"quantity\":1,\"receivedQuantity\":0,\"receivableQuantity\":1,\"currentQuantity\":1,\"orderLineItem\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"returnableQuantity\":0,\"refundableQuantity\":1,\"currentQuantity\":1}}]},\"order\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"managementCode\":\"FAQ-REMAINING-EXCHANGE-20260628140117\",\"managementNumber\":\"6\",\"paymentStatus\":\"PAID\",\"fulfillmentStatus\":\"FULFILLED\",\"totalReturnableQuantity\":0,\"hasActiveOrderReturns\":true}}}}}"
+    },
+    "orderReturn": {
+      "id": "[REDACTED_LONG_VALUE]",
+      "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117-R1",
+      "externalID": "FAQ_EXCHANGE_RETURN_20260628140117",
+      "status": "WAITING",
+      "receivable": true,
+      "completable": false,
+      "cancellable": true,
+      "totalQuantity": 1,
+      "totalReceivedQuantity": 0,
+      "exchangeLineItemCount": 1,
+      "hasExchangeLineItems": true,
+      "exchangeLineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "quantity": 1,
+            "productVariant": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "title": "NAVY / M",
+              "inventoryItem": {
+                "sku": "TEST_E2E_20260622_GU_1905_NAVY_M"
+              }
+            }
+          }
+        ]
+      },
+      "exchangeInventoryOutboundOrder": null,
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "[REDACTED_LONG_VALUE]",
+            "quantity": 1,
+            "receivedQuantity": 0,
+            "receivableQuantity": 1,
+            "currentQuantity": 1,
+            "orderLineItem": {
+              "id": "[REDACTED_LONG_VALUE]",
+              "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+              "returnableQuantity": 0,
+              "refundableQuantity": 1,
+              "currentQuantity": 1
+            }
+          }
+        ]
+      },
+      "order": {
+        "id": "[REDACTED_LONG_VALUE]",
+        "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+        "managementNumber": "6",
+        "paymentStatus": "PAID",
+        "fulfillmentStatus": "FULFILLED",
+        "totalReturnableQuantity": 0,
+        "hasActiveOrderReturns": true
+      }
+    }
+  },
+  "exchangeReturnRefreshed": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "orderReturn": {
+          "id": "[REDACTED_LONG_VALUE]",
+          "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117-R1",
+          "externalID": "FAQ_EXCHANGE_RETURN_20260628140117",
+          "status": "WAITING",
+          "receivable": true,
+          "completable": false,
+          "cancellable": true,
+          "totalQuantity": 1,
+          "totalReceivedQuantity": 0,
+          "exchangeLineItemCount": 1,
+          "hasExchangeLineItems": true,
+          "exchangeLineItems": {
+            "nodes": [
+              {
+                "id": "[REDACTED_LONG_VALUE]",
+                "quantity": 1,
+                "productVariant": {
+                  "id": "[REDACTED_LONG_VALUE]",
+                  "title": "NAVY / M",
+                  "inventoryItem": {
+                    "sku": "TEST_E2E_20260622_GU_1905_NAVY_M"
+                  }
+                }
+              }
+            ]
+          },
+          "exchangeInventoryOutboundOrder": null,
+          "lineItems": {
+            "nodes": [
+              {
+                "id": "[REDACTED_LONG_VALUE]",
+                "quantity": 1,
+                "receivedQuantity": 0,
+                "receivableQuantity": 1,
+                "currentQuantity": 1,
+                "orderLineItem": {
+                  "id": "[REDACTED_LONG_VALUE]",
+                  "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                  "returnableQuantity": 0,
+                  "refundableQuantity": 1,
+                  "currentQuantity": 1
+                }
+              }
+            ]
+          },
+          "order": {
+            "id": "[REDACTED_LONG_VALUE]",
+            "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+            "managementNumber": "6",
+            "paymentStatus": "PAID",
+            "fulfillmentStatus": "FULFILLED",
+            "totalReturnableQuantity": 0,
+            "hasActiveOrderReturns": true
+          }
+        }
+      }
+    },
+    "textSample": "{\"data\":{\"orderReturn\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"managementCode\":\"[REDACTED_LONG_VALUE]\",\"externalID\":\"FAQ_EXCHANGE_RETURN_20260628140117\",\"status\":\"WAITING\",\"receivable\":true,\"completable\":false,\"cancellable\":true,\"totalQuantity\":1,\"totalReceivedQuantity\":0,\"exchangeLineItemCount\":1,\"hasExchangeLineItems\":true,\"exchangeLineItems\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"quantity\":1,\"productVariant\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"title\":\"NAVY / M\",\"inventoryItem\":{\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\"}}}]},\"exchangeInventoryOutboundOrder\":null,\"lineItems\":{\"nodes\":[{\"id\":\"[REDACTED_LONG_VALUE]\",\"quantity\":1,\"receivedQuantity\":0,\"receivableQuantity\":1,\"currentQuantity\":1,\"orderLineItem\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"returnableQuantity\":0,\"refundableQuantity\":1,\"currentQuantity\":1}}]},\"order\":{\"id\":\"[REDACTED_LONG_VALUE]\",\"managementCode\":\"FAQ-REMAINING-EXCHANGE-20260628140117\",\"managementNumber\":\"6\",\"paymentStatus\":\"PAID\",\"fulfillmentStatus\":\"FULFILLED\",\"totalReturnableQuantity\":0,\"hasActiveOrderReturns\":true}}}}"
+  },
+  "afterExchange": {
+    "orderCounts": {
+      "WAITING": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 1
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":1}}"
+        },
+        "count": 1
+      },
+      "ON_HOLD": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "REQUESTED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "IN_PROGRESS": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "REJECTED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "COMPLETE": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 3
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":3}}"
+        },
+        "count": 3
+      },
+      "CANCELLED": {
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 0
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":0}}"
+        },
+        "count": 0
+      },
+      "NON_TERMINAL": {
+        "statuses": [
+          "WAITING",
+          "ON_HOLD",
+          "REQUESTED",
+          "IN_PROGRESS",
+          "REJECTED"
+        ],
+        "result": {
+          "status": 200,
+          "ok": true,
+          "json": {
+            "data": {
+              "orderCount": 1
+            }
+          },
+          "textSample": "{\"data\":{\"orderCount\":1}}"
+        },
+        "count": 1
+      }
+    }
+  }
+}

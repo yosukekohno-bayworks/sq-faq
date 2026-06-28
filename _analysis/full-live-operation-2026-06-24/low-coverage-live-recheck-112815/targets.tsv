@@ -1,0 +1,17 @@
+01-home	https://www.sqstackstaging.com/admin
+02-users	https://www.sqstackstaging.com/admin/settings/users
+02-user-create-view-only	https://www.sqstackstaging.com/admin/settings/users/create
+02-permission-groups	https://www.sqstackstaging.com/admin/settings/permission_groups
+02-permission-group-create	https://www.sqstackstaging.com/admin/settings/permission_groups/create
+03-settings	https://www.sqstackstaging.com/admin/settings
+03-tenants	https://www.sqstackstaging.com/admin/settings/tenants
+03-notification-emails	https://www.sqstackstaging.com/admin/settings/organization_notification_emails
+03-notification-email-create	https://www.sqstackstaging.com/admin/settings/organization_notification_emails/create
+22-apps	https://www.sqstackstaging.com/admin/settings/apps
+22-app-create	https://www.sqstackstaging.com/admin/settings/apps/create
+23-sale-line-items	https://www.sqstackstaging.com/admin/sale_change_line_items
+23-sale-create-direct	https://www.sqstackstaging.com/admin/sale_change_line_items/create
+23-analytics	https://www.sqstackstaging.com/admin/analytics
+23-analytics-revenue	https://www.sqstackstaging.com/admin/analytics/revenue
+23-analytics-reports	https://www.sqstackstaging.com/admin/analytics/reports
+24-b2b	https://www.sqstackstaging.com/admin/b2b

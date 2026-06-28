@@ -1,0 +1,72 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+コンテンツにスキップ
+stack-ps-yosuke
+陽介 河野
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	ホーム
+	商品管理
+	在庫管理
+	注文管理
+	顧客管理
+	発注管理
+	販売設定
+	会計
+	分析
+	オペレーション
+	入荷管理
+	出荷管理
+	在庫依頼
+	未完了の在庫依頼 3件
+	CRM
+	ディスカウント
+	ポイント
+	会員ランク
+	販売チャネル
+	Shopify
+	OmnibusCore
+	スマレジ
+	リテールポータル
+	卸売
+	[95142]<a />
+		設定
+[MASKED_LONG_VALUE]。このページの準備が整いました
+[97164]<div />
+	[97137]<div />
+		[97136]<a />
+[MASKED_LONG_VALUE]
+[97307]<a />
+	ヘルプページ
+Admin API
+アクセストークン
+2026年06月24日 11:36に作成されました
+シークレット
+2026年06月24日 11:36に作成されました
+検証方法
+Playgroundのヘッダー設定で、アクセストークンを使用してリクエストを送信できます。
+Playgroundを開く
+リクエストログ
+このトークンを使用して行われたリクエストのログを閲覧することができます。
+リクエストログを見る
+Storefront API
+アクセストークンを発行することで、ストアフロントAPIにアクセスできるようになります。
+トークンを発行する
+Webhook
+イベントに関するJSON通知をURLに送信します
+Webhookを作成する
+[97486]<div role=dialog aria-label=:r40: />
+	Webhookを追加する
+	[97421]<button aria-label=閉じる pressed=false />
+	イベント
+	選択してください
+	[97450]<span />
+		[97448]<span />
+			[97447]<svg /> <!-- SVG content collapsed -->
+	エンドポイント
+	|SHADOW(open)|[97461]<input id=:r49: placeholder=https://stackservice.com/webhook autocomplete=off type=url required=true />
+	[97475]<button />
+		キャンセル
+	[97476]<button />
+		保存する
+[97489]<div />

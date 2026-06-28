@@ -1,0 +1,803 @@
+[
+  {
+    "step": "baseline_sku_incoming_before_new_po",
+    "url": "https://www.sqstackstaging.com/admin/inventory_items",
+    "detail": {
+      "incomingTotal": 0,
+      "matchCount": 18
+    },
+    "excerpt": "Application error: a client-side exception has occurred (see the browser console for more information)."
+  },
+  {
+    "step": "new_po_form_filled",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+    "detail": null,
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない発注伝票\n取り消す\n保存\n\n発注伝票を作成。このページの準備が整いました\n\n発注伝票を作成\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\nTEST_FAQ_Supplier\nテナント\n選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nユニクロ\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\t\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥100\n\n\t\n取り消す\n作成する"
+  },
+  {
+    "step": "new_po_created_draft",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/9b79a9be-c75e-5bcd-8830-1500f12f1d1e_InventoryPurchaseOrder",
+    "detail": {
+      "po_no": "#IP-1006",
+      "po_url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/9b79a9be-c75e-5bcd-8830-1500f12f1d1e_InventoryPurchaseOrder"
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1006。このページの準備が整いました\n\n#IP-1006\n注意\n下書き\nその他の操作\n発注する\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\nTEST_FAQ_Supplier\nテナント\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\t\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥100\n\n\t\n発注伝票を作成しました"
+  },
+  {
+    "step": "new_po_issue_dialog",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/9b79a9be-c75e-5bcd-8830-1500f12f1d1e_InventoryPurchaseOrder",
+    "detail": {
+      "po_no": "#IP-1006"
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1006。このページの準備が整いました\n\n#IP-1006\n注意\n下書き\nその他の操作\n発注する\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\nTEST_FAQ_Supplier\nテナント\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\t\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥100\n\n\t\n発注伝票を作成しました\n発注伝票の発注を行いますか？\n\n発注を行うと入荷指示が作成されます。発注後は伝票の編集ができません。\n\nキャンセル\n発注する"
+  },
+  {
+    "step": "new_po_after_issue_before_cancel",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/9b79a9be-c75e-5bcd-8830-1500f12f1d1e_InventoryPurchaseOrder",
+    "detail": {
+      "po_no": "#IP-1006"
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1006。このページの準備が整いました\n\n#IP-1006\n情報\n発注済み\nその他の操作\n取引先\n取引先\nテナント\n通貨\n発注済み商品\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥110\n\n詳細\n作成日時\n2026年06月24日 11:08\n発注者\n河野陽介\n発注日時\n2026年06月24日 11:08\n発注伝票を発注しました"
+  },
+  {
+    "step": "sku_incoming_after_issue_before_cancel_delay_0",
+    "url": "https://www.sqstackstaging.com/admin/inventory_items",
+    "detail": {
+      "po_no": "#IP-1006",
+      "incomingTotal": 0,
+      "matches": [
+        {
+          "location": {
+            "id": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+            "name": "ユニクロ物流倉庫",
+            "code": "W0001",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": -1,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": -1,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+            "name": "ユニクロ - 銀座店",
+            "code": "R0001",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 4,
+            "reserved": 2,
+            "committed": 0,
+            "onHand": 6,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+            "name": "TEST_FAQ_DEEP2_202606080343_ロケーション",
+            "code": "test_faq_deep2_202606080343_loc",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location",
+            "name": "ユニクロEC",
+            "code": "TESTEC01",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location",
+            "name": "GU 倉庫",
+            "code": "TFCLOC3698",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location",
+            "name": "GU 銀座店",
+            "code": "12456789098765",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "45ffa873-a7f2-5581-8117-5758f5a45c73_Location",
+            "name": "TEST_FLAGOFF_20260621",
+            "code": "FLAGOFF01",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location",
+            "name": "TEST_E2E_20260622_GU店舗_OFF_1740",
+            "code": "TEST_E2E_20260622_STORE_1740",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "78ae0d92-71dc-56e9-8fc5-a01216b37db1_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1740",
+            "code": "TEST_E2E_20260622_WH_1740",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "960d77a3-59f8-586e-9087-fd1ee6a719ee_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1755",
+            "code": "TEST_E2E_20260622_WH_1755",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "cbe47a67-ca31-507c-865d-6968d4e12187_Location",
+            "name": "TEST_E2E_20260622_GU店舗_OFF_1830",
+            "code": "TEST_E2E_20260622_STORE_1830",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "eca69a97-1e36-5dfa-8496-44e1c51fd96b_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1830",
+            "code": "TEST_E2E_20260622_WH_1830",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "6dd32852-58dd-5f7a-a496-ea0c8bc03623_Location",
+            "name": "TEST_E2E_20260622_GU店舗_OFF_1845",
+            "code": "TEST_E2E_20260622_STORE_1845",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "6241e39d-9ed7-5004-9b1d-d2d3f280fa68_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1845",
+            "code": "TEST_E2E_20260622_WH_1845",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "4f100847-e242-5aaf-b97a-eb47683a7c95_Location",
+            "name": "TEST_E2E_20260622_GU店舗_OFF_1905",
+            "code": "TEST_E2E_20260622_STORE_1905",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "d018dd79-47b6-5a93-a1bf-0e12cac23d3e_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+            "code": "TEST_E2E_20260622_WH_1905",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "295e5a69-c97b-53df-b947-1dc9f559d00d_Location",
+            "name": "TEST_FAQ_20260624_GU店舗_OFF_092214",
+            "code": "TEST_FAQ_20260624_STORE_092214",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "b111b7e0-f00b-5823-a41f-2d345f56badc_Location",
+            "name": "TEST_FAQ_20260624_GU倉庫_ON_092214",
+            "code": "TEST_FAQ_20260624_WH_092214",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        }
+      ]
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n在庫管理 : 。このページの準備が整いました\n\n在庫管理 :\nユニクロ物流倉庫\nインポート\nエクスポート\nすべて\nすべてのアイテムを選択する\n\t\n商品\n\t\n品番(SKU)\n\t\n\t\n販売可能\n\t\n引当済み\n\t\n取置中\n\t\n手持ち\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\nTEST_E2E_20260622 GU検証Tシャツ 1905\n\nNAVY / M\n\n\t\n\nTEST_E2E_20260622_GU_1905_NAVY_M\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\nTEST_E2E_20260622 GU検証Tシャツ 1845\n\nNAVY / M\n\n\t\n\nTEST_E2E_20260622_GU_1845_NAVY_M\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\nTEST_E2E_20260622 GU検証Tシャツ 1830\n\nNAVY / M\n\n\t\n\nTEST_E2E_20260622_GU_1830_NAVY_M\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\n半袖シャツ\n\nM / グレー\n\n\t\n\n21\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\n半袖シャツ\n\nS / グレー\n\n\t\n\n124\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\n\nバギーカーブジーンズ\n\nBLUE / 36\n\n\t\n\n487973-64-36\n\n\t\n\t\n\n97\n\n\t"
+  },
+  {
+    "step": "sku_incoming_after_issue_before_cancel_delay_10",
+    "url": "https://www.sqstackstaging.com/admin/inventory_items",
+    "detail": {
+      "po_no": "#IP-1006",
+      "incomingTotal": 0,
+      "matches": [
+        {
+          "location": {
+            "id": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+            "name": "ユニクロ物流倉庫",
+            "code": "W0001",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": -1,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": -1,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+            "name": "ユニクロ - 銀座店",
+            "code": "R0001",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 4,
+            "reserved": 2,
+            "committed": 0,
+            "onHand": 6,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+            "name": "TEST_FAQ_DEEP2_202606080343_ロケーション",
+            "code": "test_faq_deep2_202606080343_loc",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location",
+            "name": "ユニクロEC",
+            "code": "TESTEC01",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location",
+            "name": "GU 倉庫",
+            "code": "TFCLOC3698",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location",
+            "name": "GU 銀座店",
+            "code": "12456789098765",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "45ffa873-a7f2-5581-8117-5758f5a45c73_Location",
+            "name": "TEST_FLAGOFF_20260621",
+            "code": "FLAGOFF01",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location",
+            "name": "TEST_E2E_20260622_GU店舗_OFF_1740",
+            "code": "TEST_E2E_20260622_STORE_1740",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "78ae0d92-71dc-56e9-8fc5-a01216b37db1_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1740",
+            "code": "TEST_E2E_20260622_WH_1740",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "960d77a3-59f8-586e-9087-fd1ee6a719ee_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1755",
+            "code": "TEST_E2E_20260622_WH_1755",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "cbe47a67-ca31-507c-865d-6968d4e12187_Location",
+            "name": "TEST_E2E_20260622_GU店舗_OFF_1830",
+            "code": "TEST_E2E_20260622_STORE_1830",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "eca69a97-1e36-5dfa-8496-44e1c51fd96b_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1830",
+            "code": "TEST_E2E_20260622_WH_1830",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "6dd32852-58dd-5f7a-a496-ea0c8bc03623_Location",
+            "name": "TEST_E2E_20260622_GU店舗_OFF_1845",
+            "code": "TEST_E2E_20260622_STORE_1845",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "6241e39d-9ed7-5004-9b1d-d2d3f280fa68_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1845",
+            "code": "TEST_E2E_20260622_WH_1845",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "4f100847-e242-5aaf-b97a-eb47683a7c95_Location",
+            "name": "TEST_E2E_20260622_GU店舗_OFF_1905",
+            "code": "TEST_E2E_20260622_STORE_1905",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "d018dd79-47b6-5a93-a1bf-0e12cac23d3e_Location",
+            "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+            "code": "TEST_E2E_20260622_WH_1905",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "295e5a69-c97b-53df-b947-1dc9f559d00d_Location",
+            "name": "TEST_FAQ_20260624_GU店舗_OFF_092214",
+            "code": "TEST_FAQ_20260624_STORE_092214",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        },
+        {
+          "location": {
+            "id": "b111b7e0-f00b-5823-a41f-2d345f56badc_Location",
+            "name": "TEST_FAQ_20260624_GU倉庫_ON_092214",
+            "code": "TEST_FAQ_20260624_WH_092214",
+            "__typename": "Location"
+          },
+          "quantity": {
+            "available": 0,
+            "reserved": 0,
+            "committed": 0,
+            "onHand": 0,
+            "inTransit": 0,
+            "incoming": 0,
+            "__typename": "InventoryQuantity"
+          },
+          "sku": "486125-31-XL",
+          "product": "オーバーサイズスウェットシャツ",
+          "variant": "BEIGE / XL"
+        }
+      ]
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n移動伝票\n調整伝票\n取置伝票\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n在庫管理 : 。このページの準備が整いました\n\n在庫管理 :\nユニクロ物流倉庫\nインポート\nエクスポート\nすべて\nすべてのアイテムを選択する\n\t\n商品\n\t\n品番(SKU)\n\t\n\t\n販売可能\n\t\n引当済み\n\t\n取置中\n\t\n手持ち\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\nTEST_E2E_20260622 GU検証Tシャツ 1905\n\nNAVY / M\n\n\t\n\nTEST_E2E_20260622_GU_1905_NAVY_M\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\nTEST_E2E_20260622 GU検証Tシャツ 1845\n\nNAVY / M\n\n\t\n\nTEST_E2E_20260622_GU_1845_NAVY_M\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\nTEST_E2E_20260622 GU検証Tシャツ 1830\n\nNAVY / M\n\n\t\n\nTEST_E2E_20260622_GU_1830_NAVY_M\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\n半袖シャツ\n\nM / グレー\n\n\t\n\n21\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\nproduct variant thumbnail\n\n半袖シャツ\n\nS / グレー\n\n\t\n\n124\n\n\t\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\t\n\n0\n\n\n\nアイテムを選択する\n\t\n\nバギーカーブジーンズ\n\nBLUE / 36\n\n\t\n\n487973-64-36\n\n\t\n\t\n\n97\n\n\t"
+  },
+  {
+    "step": "inbound_list_after_issue_before_cancel",
+    "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+    "detail": {
+      "po_no": "#IP-1006",
+      "has_po": false,
+      "has_sku": false,
+      "items_not_found": true
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n入荷管理。このページの準備が整いました\n\n入荷管理\n入荷待ち\n0\n入荷依頼済み\n新規\n0\n入荷作業中\n新規\n0\n要対応\n新規\n0\n入荷完了\nキャンセル\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください"
+  },
+  {
+    "step": "new_po_after_cancel_cleanup",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/9b79a9be-c75e-5bcd-8830-1500f12f1d1e_InventoryPurchaseOrder",
+    "detail": {
+      "po_no": "#IP-1006"
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1006。このページの準備が整いました\n\n#IP-1006\nキャンセル済み\nその他の操作\n取引先\n取引先\nテナント\n通貨\n発注済み商品\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥110\n\n詳細\n作成日時\n2026年06月24日 11:08\n発注者\n河野陽介\n発注日時\n2026年06月24日 11:08\nキャンセル者\n河野陽介\nキャンセル日時\n2026年06月24日 11:09\n発注伝票をキャンセルしました"
+  }
+]

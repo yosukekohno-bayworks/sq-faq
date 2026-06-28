@@ -1,0 +1,78 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[62645]<a />
+	コンテンツにスキップ
+[62773]<div />
+[62648]<button data-state=closed expanded=false />
+[62649]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[62790]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[62653]<a />
+		ホーム
+	[62654]<a />
+		商品管理
+	[62655]<a />
+		在庫管理
+	[62656]<a />
+		注文管理
+		[62841]<div />
+	[62657]<a />
+		顧客管理
+	[62658]<a />
+		発注管理
+	[62659]<a />
+		販売設定
+	[62660]<a />
+		会計
+	[62661]<a />
+		分析
+	オペレーション
+	[62662]<a />
+		入荷管理
+		[62925]<div />
+	[62663]<a />
+		出荷管理
+		[62936]<div />
+	[62664]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[62665]<a />
+		ディスカウント
+	[62666]<a />
+		ポイント
+	[62667]<a />
+		会員ランク
+	販売チャネル
+	[62668]<a />
+		Shopify
+	[62669]<a />
+		OmnibusCore
+	[62670]<a />
+		スマレジ
+	[62671]<a />
+		リテールポータル
+	[62672]<a />
+		卸売
+	[62673]<a />
+		設定
+ヤマトB2クラウドの出荷実績をCSVでインポートする。このページの準備が整いました
+*[63496]<div />
+	*[63474]<div />
+		*[63473]<a />
+ヤマトB2クラウドの出荷実績をCSVでインポートする
+*[63558]<a />
+	テンプレート
+*[63492]<a />
+	新規インポート
+*[63534]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+*[63521]<button id=previousURL aria-label=前へ disabled=true />
+*[63526]<button id=nextURL aria-label=次へ disabled=true />
+[63081]<section aria-label=Notifications alt+T live=polite />
+[62675]<div id=PolarisPortalsContainer />
+[62677]<div id=clerk-components />

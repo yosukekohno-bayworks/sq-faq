@@ -1,0 +1,327 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - status:
+            - paragraph [ref=e227]: 発注管理。このページの準備が整いました
+          - generic [ref=e229]:
+            - heading "発注管理" [level=1] [ref=e232]
+            - link "発注伝票を作成する" [ref=e236] [cursor=pointer]:
+              - /url: /admin/inventory_purchase_orders/create
+              - img [ref=e239]
+              - generic [ref=e241]: 発注伝票を作成する
+        - generic [ref=e246]:
+          - tablist [ref=e259]:
+            - tab "すべて" [selected] [ref=e260] [cursor=pointer]:
+              - generic [ref=e262]: すべて
+          - generic [ref=e265]:
+            - table [ref=e267]:
+              - rowgroup [ref=e268]:
+                - row "管理番号 取引先 ステータス 合計金額 発注日 作成日" [ref=e269]:
+                  - columnheader "管理番号" [ref=e270]:
+                    - generic [ref=e271]: 管理番号
+                  - columnheader "取引先" [ref=e272]:
+                    - generic [ref=e273]: 取引先
+                  - columnheader "ステータス" [ref=e274]:
+                    - generic [ref=e275]: ステータス
+                  - columnheader "合計金額" [ref=e276]:
+                    - generic [ref=e277]: 合計金額
+                  - columnheader "発注日" [ref=e278]:
+                    - generic [ref=e279]: 発注日
+                  - columnheader "作成日" [ref=e280]:
+                    - generic [ref=e281]: 作成日
+              - rowgroup [ref=e282]:
+                - row "#IP-1008 TEST_E2E_20260622_取引先_1905 キャンセル済み ￥110 2026年06月27日 2026年06月27日" [ref=e283]:
+                  - cell "#IP-1008" [ref=e284]:
+                    - link "#IP-1008" [ref=e285] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/def46641-09ef-52a0-b635-1e43fbaf5804_InventoryPurchaseOrder
+                      - paragraph [ref=e286]: "#IP-1008"
+                  - cell "TEST_E2E_20260622_取引先_1905" [ref=e287]:
+                    - paragraph [ref=e288]: TEST_E2E_20260622_取引先_1905
+                  - cell "キャンセル済み" [ref=e289]:
+                    - generic [ref=e291]: キャンセル済み
+                  - cell "￥110" [ref=e292]:
+                    - paragraph [ref=e293]: ￥110
+                  - cell "2026年06月27日" [ref=e294]:
+                    - paragraph [ref=e295]: 2026年06月27日
+                  - cell "2026年06月27日" [ref=e296]:
+                    - paragraph [ref=e297]: 2026年06月27日
+                - row "#IP-1007 TEST_E2E_20260622_取引先_1905 情報 発注済み ￥110 2026年06月27日 2026年06月27日" [ref=e298]:
+                  - cell "#IP-1007" [ref=e299]:
+                    - link "#IP-1007" [ref=e300] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/536f9387-9a2b-59da-aab8-131ca9b82a3b_InventoryPurchaseOrder
+                      - paragraph [ref=e301]: "#IP-1007"
+                  - cell "TEST_E2E_20260622_取引先_1905" [ref=e302]:
+                    - paragraph [ref=e303]: TEST_E2E_20260622_取引先_1905
+                  - cell "情報 発注済み" [ref=e304]:
+                    - generic [ref=e305]:
+                      - generic [ref=e306]: 情報
+                      - generic [ref=e307]: 発注済み
+                  - cell "￥110" [ref=e308]:
+                    - paragraph [ref=e309]: ￥110
+                  - cell "2026年06月27日" [ref=e310]:
+                    - paragraph [ref=e311]: 2026年06月27日
+                  - cell "2026年06月27日" [ref=e312]:
+                    - paragraph [ref=e313]: 2026年06月27日
+                - row "#IP-1006 TEST_FAQ_Supplier キャンセル済み ￥110 2026年06月24日 2026年06月24日" [ref=e314]:
+                  - cell "#IP-1006" [ref=e315]:
+                    - link "#IP-1006" [ref=e316] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/9b79a9be-c75e-5bcd-8830-1500f12f1d1e_InventoryPurchaseOrder
+                      - paragraph [ref=e317]: "#IP-1006"
+                  - cell "TEST_FAQ_Supplier" [ref=e318]:
+                    - paragraph [ref=e319]: TEST_FAQ_Supplier
+                  - cell "キャンセル済み" [ref=e320]:
+                    - generic [ref=e322]: キャンセル済み
+                  - cell "￥110" [ref=e323]:
+                    - paragraph [ref=e324]: ￥110
+                  - cell "2026年06月24日" [ref=e325]:
+                    - paragraph [ref=e326]: 2026年06月24日
+                  - cell "2026年06月24日" [ref=e327]:
+                    - paragraph [ref=e328]: 2026年06月24日
+                - row "#IP-1005 TEST_FAQ_Supplier キャンセル済み ￥110 2026年06月24日 2026年06月24日" [ref=e329]:
+                  - cell "#IP-1005" [ref=e330]:
+                    - link "#IP-1005" [ref=e331] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/4595e603-f142-5345-9047-1ef968b0d047_InventoryPurchaseOrder
+                      - paragraph [ref=e332]: "#IP-1005"
+                  - cell "TEST_FAQ_Supplier" [ref=e333]:
+                    - paragraph [ref=e334]: TEST_FAQ_Supplier
+                  - cell "キャンセル済み" [ref=e335]:
+                    - generic [ref=e337]: キャンセル済み
+                  - cell "￥110" [ref=e338]:
+                    - paragraph [ref=e339]: ￥110
+                  - cell "2026年06月24日" [ref=e340]:
+                    - paragraph [ref=e341]: 2026年06月24日
+                  - cell "2026年06月24日" [ref=e342]:
+                    - paragraph [ref=e343]: 2026年06月24日
+                - row "#IP-1004 TEST_FAQ_Supplier 情報 発注済み ￥118,800 2026年06月21日 2026年06月21日" [ref=e344]:
+                  - cell "#IP-1004" [ref=e345]:
+                    - link "#IP-1004" [ref=e346] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/beec5511-d7f6-5918-a088-a5fcc7b0f44f_InventoryPurchaseOrder
+                      - paragraph [ref=e347]: "#IP-1004"
+                  - cell "TEST_FAQ_Supplier" [ref=e348]:
+                    - paragraph [ref=e349]: TEST_FAQ_Supplier
+                  - cell "情報 発注済み" [ref=e350]:
+                    - generic [ref=e351]:
+                      - generic [ref=e352]: 情報
+                      - generic [ref=e353]: 発注済み
+                  - cell "￥118,800" [ref=e354]:
+                    - paragraph [ref=e355]: ￥118,800
+                  - cell "2026年06月21日" [ref=e356]:
+                    - paragraph [ref=e357]: 2026年06月21日
+                  - cell "2026年06月21日" [ref=e358]:
+                    - paragraph [ref=e359]: 2026年06月21日
+                - row "#IP-1003 TEST_FAQ_Supplier キャンセル済み ￥110 2026年06月19日 2026年06月19日" [ref=e360]:
+                  - cell "#IP-1003" [ref=e361]:
+                    - link "#IP-1003" [ref=e362] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/ee8c9d3c-aa10-57e2-9d51-fbf0b7a06eba_InventoryPurchaseOrder
+                      - paragraph [ref=e363]: "#IP-1003"
+                  - cell "TEST_FAQ_Supplier" [ref=e364]:
+                    - paragraph [ref=e365]: TEST_FAQ_Supplier
+                  - cell "キャンセル済み" [ref=e366]:
+                    - generic [ref=e368]: キャンセル済み
+                  - cell "￥110" [ref=e369]:
+                    - paragraph [ref=e370]: ￥110
+                  - cell "2026年06月19日" [ref=e371]:
+                    - paragraph [ref=e372]: 2026年06月19日
+                  - cell "2026年06月19日" [ref=e373]:
+                    - paragraph [ref=e374]: 2026年06月19日
+                - row "#IP-1002 TEST_FAQ_Supplier 情報 発注済み ￥24,750 2026年06月19日 2026年06月19日" [ref=e375]:
+                  - cell "#IP-1002" [ref=e376]:
+                    - link "#IP-1002" [ref=e377] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/814d7bb8-60c3-511e-bc75-32338147ce95_InventoryPurchaseOrder
+                      - paragraph [ref=e378]: "#IP-1002"
+                  - cell "TEST_FAQ_Supplier" [ref=e379]:
+                    - paragraph [ref=e380]: TEST_FAQ_Supplier
+                  - cell "情報 発注済み" [ref=e381]:
+                    - generic [ref=e382]:
+                      - generic [ref=e383]: 情報
+                      - generic [ref=e384]: 発注済み
+                  - cell "￥24,750" [ref=e385]:
+                    - paragraph [ref=e386]: ￥24,750
+                  - cell "2026年06月19日" [ref=e387]:
+                    - paragraph [ref=e388]: 2026年06月19日
+                  - cell "2026年06月19日" [ref=e389]:
+                    - paragraph [ref=e390]: 2026年06月19日
+                - row "#IP-1001 TEST_FAQ_Supplier キャンセル済み ￥3,960 2026年06月18日 2026年06月18日" [ref=e391]:
+                  - cell "#IP-1001" [ref=e392]:
+                    - link "#IP-1001" [ref=e393] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/220048ce-d463-5ad0-be04-ff3d50eb7874_InventoryPurchaseOrder
+                      - paragraph [ref=e394]: "#IP-1001"
+                  - cell "TEST_FAQ_Supplier" [ref=e395]:
+                    - paragraph [ref=e396]: TEST_FAQ_Supplier
+                  - cell "キャンセル済み" [ref=e397]:
+                    - generic [ref=e399]: キャンセル済み
+                  - cell "￥3,960" [ref=e400]:
+                    - paragraph [ref=e401]: ￥3,960
+                  - cell "2026年06月18日" [ref=e402]:
+                    - paragraph [ref=e403]: 2026年06月18日
+                  - cell "2026年06月18日" [ref=e404]:
+                    - paragraph [ref=e405]: 2026年06月18日
+                - row "#IP-1000 TEST_FAQ_Supplier キャンセル済み ￥4,950 2026年06月16日 2026年06月16日" [ref=e406]:
+                  - cell "#IP-1000" [ref=e407]:
+                    - link "#IP-1000" [ref=e408] [cursor=pointer]:
+                      - /url: /admin/inventory_purchase_orders/0e6cfb87-35f6-5c36-ae1c-ff19fcf08fe3_InventoryPurchaseOrder
+                      - paragraph [ref=e409]: "#IP-1000"
+                  - cell "TEST_FAQ_Supplier" [ref=e410]:
+                    - paragraph [ref=e411]: TEST_FAQ_Supplier
+                  - cell "キャンセル済み" [ref=e412]:
+                    - generic [ref=e414]: キャンセル済み
+                  - cell "￥4,950" [ref=e415]:
+                    - paragraph [ref=e416]: ￥4,950
+                  - cell "2026年06月16日" [ref=e417]:
+                    - paragraph [ref=e418]: 2026年06月16日
+                  - cell "2026年06月16日" [ref=e419]:
+                    - paragraph [ref=e420]: 2026年06月16日
+            - navigation "ページネーション" [ref=e424]:
+              - generic [ref=e427]:
+                - generic [ref=e428]:
+                  - button "前へ" [disabled]:
+                    - generic:
+                      - generic:
+                        - img
+                - generic [ref=e429]:
+                  - button "次へ" [disabled]:
+                    - generic:
+                      - generic:
+                        - img
+  - region "Notifications alt+T"
+  - alert [ref=e10]

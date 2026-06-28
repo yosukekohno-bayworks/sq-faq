@@ -1,0 +1,309 @@
+# orderCreate スキーマ事前確認 2026-06-28
+
+- JSON証跡: `_analysis/complete-live-verification-2026-06-28/16-order-create-schema-preflight-20260628.json`
+- orderCreate: `None`
+
+## InventoryBehavior
+- enum: `BYPASS, DECREMENT`
+
+## CurrencyCode
+- enum: `USD, EUR, JPY, THB, SGD`
+
+## OrderTransactionKind
+- enum: `AUTHORIZATION, VOID, CAPTURE, SALE, REFUND`
+
+## PointApplicationType
+- enum: `DISCOUNT, PAYMENT`
+
+## OrderCreatePayload
+- fields:
+  - `order`: `Order!`
+  - `pubSubPublishObjects`: `[PubSubPublishObject!]!`
+
+## OrderCreateInput
+- inputFields:
+  - `externalID`: `String`
+  - `managementCode`: `String!`
+  - `receiptNumber`: `String`
+  - `source`: `String!`
+  - `tenantID`: `ID!`
+  - `currencyCode`: `CurrencyCode!`
+  - `purchasingCustomer`: `OrderCreatePurchasingCustomerInput`
+  - `purchasingCompany`: `OrderCreatePurchasingCompanyInput`
+  - `tags`: `[String!]`
+  - `purchasedAt`: `DateTime!`
+  - `cancelledAt`: `DateTime`
+  - `deliveryDate`: `DateTime`
+  - `isLocked`: `Boolean`
+  - `isEditable`: `Boolean!`
+  - `isDeletable`: `Boolean`
+  - `note`: `String`
+  - `billingAddress`: `OrderCreateBillingAddressInput`
+  - `shippingAddress`: `OrderCreateShippingAddressInput`
+  - `email`: `String`
+  - `attributes`: `[OrderCreateAttributeInput!]`
+  - `metafields`: `[MetafieldInput!]`
+  - `lineItems`: `[OrderCreateLineItemInput!]!`
+  - `shippingLines`: `[OrderCreateShippingLineInput!]`
+  - `taxesIncluded`: `Boolean!`
+  - `fulfillment`: `OrderCreateFulfillmentInput`
+  - `inventoryOutboundOrders`: `[OrderCreateInventoryOutboundOrderInput!]`
+  - `retail`: `OrderCreateRetailInput`
+  - `retailStaffMember`: `OrderCreateRetailStaffMemberInput`
+  - `transactions`: `[OrderCreateTransactionInput!]`
+  - `additionalFees`: `[OrderCreateAdditionalFeeInput!]`
+  - `discounts`: `[OrderCreateDiscountInput!]`
+  - `useDiscountAllocationInput`: `Boolean!`
+  - `pointApplication`: `OrderCreatePointApplicationInput`
+  - `priceAdjustmentUsages`: `OrderCreatePriceAdjustmentUsagesInput`
+
+## OrderCreateOptionInput
+- inputFields:
+  - `inventoryBehavior`: `InventoryBehavior!`
+  - `integrationsToSync`: `OrderCreateOptionIntegrationsToSyncInput`
+  - `bypassesPointCalculation`: `Boolean`
+  - `excludesFromCustomerRankCalculation`: `Boolean`
+  - `excludesFromSalesRecording`: `Boolean`
+  - `createInventoryOutboundOrderAsOnHold`: `Boolean`
+
+## Order
+- fields:
+  - `id`: `ID!`
+  - `externalID`: `String!`
+  - `source`: `String!`
+  - `sourceURL`: `URL`
+  - `isSource`: `Boolean!`
+  - `createdFromDraftOrder`: `Boolean!`
+  - `draftOrder`: `DraftOrder`
+  - `managementCode`: `String!`
+  - `receiptNumber`: `String!`
+  - `managementNumber`: `String!`
+  - `currencyCode`: `CurrencyCode!`
+  - `tenant`: `Tenant!`
+  - `isCancelled`: `Boolean!`
+  - `isDeleted`: `Boolean!`
+  - `isEditable`: `Boolean!`
+  - `isLocked`: `Boolean!`
+  - `inventoryBehavior`: `InventoryBehavior!`
+  - `bypassesPointCalculation`: `Boolean!`
+  - `excludesFromCustomerRankCalculation`: `Boolean!`
+  - `excludesFromSalesRecording`: `Boolean!`
+  - `merchantCancellable`: `Boolean!`
+  - `merchantRefundable`: `Boolean!`
+  - `merchantShippingRefundable`: `Boolean!`
+  - `merchantReturnable`: `Boolean!`
+  - `merchantFulfillable`: `Boolean!`
+  - `totalReturnableQuantity`: `Int!`
+  - `hasActiveOrderReturns`: `Boolean!`
+  - `purchasedAt`: `DateTime!`
+  - `fulfilledAt`: `DateTime`
+  - `cancelledAt`: `DateTime`
+  - `deletedAt`: `DateTime`
+  - `deliveryDate`: `DateTime`
+  - `note`: `String!`
+  - `tags`: `[String!]!`
+  - `externalTags`: `[String!]!`
+  - `internalTags`: `[String!]!`
+  - `hasAnyTags`: `Boolean!`
+  - `paymentStatus`: `OrderPaymentStatus!`
+  - `paymentGateways`: `[OrderPaymentGateway!]!`
+  - `paymentMethods`: `[PaymentMethod!]!`
+  - `hasAnyPaymentMethod`: `Boolean!`
+  - `transactions`: `OrderTransactionConnection!`
+  - `additionalFees`: `[OrderAdditionalFee!]!`
+  - `isFulfillmentInProgress`: `Boolean!`
+  - `fulfillmentStatus`: `OrderFulfillmentStatus!`
+  - `requiresFulfillment`: `Boolean!`
+  - `retailLocation`: `Location`
+  - `retailStaffMember`: `RetailStaffMember`
+  - `purchasingCustomer`: `PurchasingCustomer`
+  - `purchasingCompany`: `PurchasingCompany`
+  - `billingAddress`: `OrderBillingAddress`
+  - `shippingAddress`: `OrderShippingAddress`
+  - `isShippingAddressInternallyUpdated`: `Boolean!`
+  - `email`: `String!`
+  - `attributes`: `[OrderAttribute!]!`
+  - `shopifyIntegration`: `ShopifyIntegration`
+  - `shopifyIntegrations`: `[ShopifyIntegration!]!`
+  - `totalQuantity`: `Int!`
+  - `currentTotalQuantity`: `Int!`
+  - `lineItems`: `OrderLineItemConnection!`
+  - `shippingLines`: `OrderShippingLineConnection!`
+  - `taxLines`: `[TaxLine!]!`
+  - `currentTaxLines`: `[TaxLine!]!`
+  - `discounts`: `[OrderDiscount!]!`
+  - `hasOrderDiscounts`: `Boolean!`
+  - `priceAdjustmentUsages`: `OrderPriceAdjustmentUsageConnection!`
+  - `hasShippingDiscounts`: `Boolean!`
+  - `orderLevelDiscountCount`: `Int!`
+  - `orderLineItemLevelDiscountCount`: `Int!`
+  - `pointApplication`: `OrderPointApplication`
+  - `hasPointApplication`: `Boolean!`
+  - `taxesIncluded`: `Boolean!`
+  - `totalLineItemPrice`: `Money!`
+  - `currentTotalLineItemPrice`: `Money!`
+  - `subtotalPrice`: `Money!`
+  - `currentSubtotalPrice`: `Money!`
+  - `totalOrderDiscountPrice`: `Money!`
+  - `currentTotalOrderDiscountPrice`: `Money!`
+  - `totalOrderLevelDiscountPrice`: `Money!`
+  - `currentTotalOrderLevelDiscountPrice`: `Money!`
+
+## Location
+- fields:
+  - `id`: `ID!`
+  - `externalID`: `String!`
+  - `name`: `String!`
+  - `displayName`: `String!`
+  - `code`: `String!`
+  - `locationType`: `LocationType!`
+  - `isListedPublic`: `Boolean!`
+  - `isArchived`: `Boolean!`
+  - `tags`: `[String!]!`
+  - `phone`: `String!`
+  - `mapURL`: `URL`
+  - `email`: `String!`
+  - `address`: `LocationAddress`
+  - `isRetailLocation`: `Boolean!`
+  - `isLocalPickupEnabled`: `Boolean!`
+  - `isInventoryAllocationRequestEnabled`: `Boolean!`
+  - `isClosed`: `Boolean!`
+  - `closedAt`: `DateTime`
+  - `pointApplicationType`: `PointApplicationType!`
+  - `note`: `String!`
+  - `locationGroups`: `LocationGroupConnection!`
+  - `inLocationGroups`: `Boolean!`
+  - `locationGroupCount`: `Int!`
+  - `inventoryLevel`: `InventoryLevel!`
+  - `hasActiveInventory`: `Boolean!`
+  - `totalVariants`: `Int!`
+  - `retailStaffMemberByExternalID`: `RetailStaffMember`
+  - `retailStaffMemberByCode`: `RetailStaffMember`
+  - `retailStaffMembers`: `RetailStaffMemberConnection!`
+  - `units`: `LocationUnitConnection!`
+  - `orders`: `OrderConnection!`
+  - `draftOrders`: `DraftOrderConnection!`
+  - `metafield`: `Metafield`
+  - `metafieldDefinitions`: `MetafieldDefinitionConnection!`
+  - `shopifyID`: `ShopifyID`
+  - `createdAt`: `DateTime!`
+  - `updatedAt`: `DateTime!`
+
+## ProductVariant
+- fields:
+  - `id`: `ID!`
+  - `externalID`: `String!`
+  - `shopifyID`: `ShopifyID`
+  - `product`: `Product!`
+  - `title`: `String!`
+  - `price`: `Money!`
+  - `index`: `Int!`
+  - `inventoryPolicy`: `ProductVariantInventoryPolicy!`
+  - `barcode`: `String!`
+  - `jan`: `String!`
+  - `ean`: `String!`
+  - `upc`: `String!`
+  - `status`: `ProductVariantStatus!`
+  - `selectedOptions`: `[ProductVariantSelectedOption!]!`
+  - `catalogProductVariant`: `CatalogProductVariant`
+  - `catalogProductVariants`: `CatalogProductVariantConnection!`
+  - `inCatalogs`: `Boolean!`
+  - `inventoryItem`: `InventoryItem!`
+  - `locationAvailability`: `LocationAvailability!`
+  - `metafield`: `Metafield`
+  - `metafieldDefinitions`: `MetafieldDefinitionConnection!`
+  - `images`: `ImageConnection!`
+  - `featuredImage`: `Image`
+  - `imageCount`: `Int!`
+  - `isLocalPickupAvailable`: `Boolean!`
+  - `sellingPrice`: `ProductVariantSellingPrice!`
+
+## OrderLineItem
+- fields:
+  - `id`: `ID!`
+  - `externalID`: `String!`
+  - `source`: `OrderLineItemSource!`
+  - `index`: `Int!`
+  - `productTitle`: `String!`
+  - `productVariantTitle`: `String!`
+  - `sku`: `String!`
+  - `product`: `Product`
+  - `productVariant`: `ProductVariant`
+  - `replacedProductVariant`: `ProductVariant`
+  - `quantity`: `Int!`
+  - `currentQuantity`: `Int!`
+  - `nonFulfillableQuantity`: `Int!`
+  - `refundableQuantity`: `Int!`
+  - `unfulfilledRefundableQuantity`: `Int!`
+  - `returnableQuantity`: `Int!`
+  - `hasDiscounts`: `Boolean!`
+  - `productVariantPrice`: `Money!`
+  - `price`: `Money!`
+  - `priceAfterTaxes`: `Money!`
+  - `currentPrice`: `Money!`
+  - `currentPriceAfterTaxes`: `Money!`
+  - `unitPrice`: `Money!`
+  - `discountedUnitPrice`: `Money!`
+  - `totalDiscountPrice`: `Money!`
+  - `currentTotalDiscountPrice`: `Money!`
+  - `unitDiscountPrice`: `Money!`
+  - `currentDiscountAllocationPrice`: `Money!`
+  - `currentPointApplicationAllocationPrice`: `Money!`
+  - `hasPointApplicationAllocation`: `Boolean!`
+  - `totalTaxPrice`: `Money!`
+  - `currentTotalTaxPrice`: `Money!`
+  - `subtotalPrice`: `Money!`
+  - `currentSubtotalPrice`: `Money!`
+  - `subtotalPriceAfterAllOrderDiscounts`: `Money!`
+  - `currentSubtotalPriceAfterAllOrderDiscounts`: `Money!`
+  - `discountAllocations`: `[OrderDiscountAllocation!]!`
+  - `discounts`: `[OrderLineItemDiscount!]!`
+  - `pointApplicationAllocation`: `OrderPointApplicationAllocation`
+  - `taxLines`: `[TaxLine!]!`
+  - `attributes`: `[OrderLineItemAttribute!]!`
+  - `isSale`: `Boolean!`
+  - `isExchange`: `Boolean!`
+  - `isBackOrder`: `Boolean!`
+  - `exchangedFromOrderLineItem`: `OrderLineItem`
+  - `excludesFromPointCalculation`: `Boolean!`
+  - `metafield`: `Metafield`
+  - `updatedAt`: `DateTime!`
+  - `createdAt`: `DateTime!`
+
+## OrderReturn
+- fields:
+  - `id`: `ID!`
+  - `managementCode`: `String!`
+  - `externalID`: `String!`
+  - `order`: `Order!`
+  - `lineItems`: `OrderReturnLineItemConnection!`
+  - `exchangeLineItemCount`: `Int!`
+  - `hasExchangeLineItems`: `Boolean!`
+  - `exchangeLineItems`: `OrderExchangeLineItemConnection!`
+  - `receivable`: `Boolean!`
+  - `completable`: `Boolean!`
+  - `cancellable`: `Boolean!`
+  - `totalQuantity`: `Int!`
+  - `totalReceivedQuantity`: `Int!`
+  - `status`: `OrderReturnStatus!`
+  - `refunds`: `OrderRefundConnection!`
+  - `exchangeInventoryOutboundOrder`: `InventoryOutboundOrder`
+  - `tenant`: `Tenant`
+  - `createdAt`: `DateTime!`
+  - `cancelledAt`: `DateTime`
+  - `updatedAt`: `DateTime!`
+
+## OrderReturnLineItem
+- fields:
+  - `id`: `ID!`
+  - `externalID`: `String!`
+  - `productVariant`: `ProductVariant`
+  - `orderLineItem`: `OrderLineItem!`
+  - `reason`: `String`
+  - `quantity`: `Int!`
+  - `receivedQuantity`: `Int!`
+  - `removedQuantity`: `Int!`
+  - `receivableQuantity`: `Int!`
+  - `currentQuantity`: `Int!`
+  - `fullReceived`: `Boolean!`
+  - `tenant`: `Tenant`

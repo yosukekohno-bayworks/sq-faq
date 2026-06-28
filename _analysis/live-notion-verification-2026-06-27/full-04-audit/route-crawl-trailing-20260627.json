@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-06-27T14:48:20.832Z",
+  "count": 4,
+  "results": [
+    {
+      "route": "/admin/inventory_purchase_orders/",
+      "finalUrl": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "発注管理"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 発注管理。このページの準備が整いました 発注管理 発注伝票を作成する すべて 管理番号 取引先 ステータス 合計金額 発注日 作成日 #IP-1008 TEST_E2E_20260622_取引先_1905 キャンセル済み ￥110 2026年06月27日 2026年06月27日 #IP-1007 TEST_E2E_20260622_取引先_1905 情報 発注済み ￥110 2026年06月27日 2026年06月27日 #IP-1006 TEST_FAQ_Supplier キャンセル済み ￥110 2026年06月24日 2026年06月24日 #IP-1005 TEST_FAQ_Supplier キャンセル済み ￥110 2026年06月24日 2026年06月24日 #IP-1004 TEST_FAQ_Supplier 情報 発注済み ￥118,800 2026年06月21日 2026年06月21日 #IP-1003 TEST_FAQ_Supplier キャンセル済み ￥110 2026年06月19日 2026年06月19日 #IP-1002 TEST_FAQ_Supplier 情報 発注済み ￥24,750 2026年06月19日 2026年06月19日 #IP-1001 TEST_FAQ_Supplier キャンセル済み ￥3,960 2026年06月18日 2026年06月18日 #IP-1000 TEST_"
+    },
+    {
+      "route": "/admin/settings/metafield_definitions/",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/metafield_definitions",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "メタフィールド定義"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 メタフィールド定義。このページの準備が整いました メタフィールド定義 組織 ロケーション 会社 仕入れ先ベンダー 商品 バリエーション 顧客 注文 下書き注文 ディスカウント 在庫移動伝票 在庫調整伝票 在庫取置伝票 発注伝票 入荷指示 出荷指示 組織のメタフィールド定義 定義を追加する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "route": "/admin/settings/suppliers/",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/suppliers",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "取引先"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取引先。このページの準備が整いました 取引先 インポート 取引先を作成 すべて アーカイブ すべてのアイテムを選択する 名前 コード アイテムを選択する TEST_E2E_20260622_取引先_1905 TEST_E2E_20260622_SUP_1905 アイテムを選択する TEST_E2E_20260622_取引先_1845 TEST_E2E_20260622_SUP_1845 アイテムを選択する TEST_E2E_20260622_取引先_1830 TEST_E2E_20260622_SUP_1830 アイテムを選択する TEST_E2E_20260622_取引先_1755 TEST_E2E_20260622_SUP_1755 アイテムを選択する TEST_E2E_20260622_取引先_1740 TEST_E2E_20260622_SUP_1740 アイテムを選択する TEST_FAQ_DEEP_202606080340_取引先 0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier アイテムを選択する TEST_FAQ_Supplier2 4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier アイテムを選択する TEST_FAQ_Supplier e7233b1a-c53d-56e4-b8c6-b"
+    },
+    {
+      "route": "/admin/settings/translation/",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/translation",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "翻訳"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳。このページの準備が整いました 翻訳 選択してください ルールを管理する 未選択：翻訳ルールを選択するとリソースを選択できます 商品 商品"
+    }
+  ]
+}

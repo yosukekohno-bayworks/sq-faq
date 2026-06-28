@@ -1,0 +1,23 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/tenants/create",
+  "checkedAt": "2026-06-26T18:43:43.113Z",
+  "filledButtons": [
+    {
+      "text": "保存する",
+      "disabled": false,
+      "ariaDisabled": "false"
+    },
+    {
+      "text": "保存する",
+      "disabled": false,
+      "ariaDisabled": "false"
+    }
+  ],
+  "emptyButtons": [
+    {
+      "text": "保存する",
+      "disabled": false,
+      "ariaDisabled": "true"
+    }
+  ]
+}

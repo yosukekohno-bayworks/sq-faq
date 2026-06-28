@@ -1,0 +1,249 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+              - list [ref=e179]:
+                - listitem [ref=e180]:
+                  - link "キャンペーン" [ref=e183] [cursor=pointer]:
+                    - /url: /admin/point_campaign_order_rules
+                    - generic [ref=e184]: キャンペーン
+                - listitem [ref=e185]:
+                  - link "誕生日" [ref=e188] [cursor=pointer]:
+                    - /url: /admin/point_calculation_birthday_rules
+                    - generic [ref=e189]: 誕生日
+                - listitem [ref=e190]:
+                  - link "利用外商品" [ref=e193] [cursor=pointer]:
+                    - /url: /admin/point_application_excluded_products
+                    - generic [ref=e194]: 利用外商品
+                - listitem [ref=e195]:
+                  - link "失効通知" [ref=e198] [cursor=pointer]:
+                    - /url: /admin/point_expiration_notification_rule
+                    - generic [ref=e199]: 失効通知
+            - listitem [ref=e200]:
+              - link "会員ランク" [ref=e203] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e206]
+                - generic [ref=e209]: 会員ランク
+          - list [ref=e210]:
+            - listitem [ref=e211]:
+              - generic [ref=e212]: 販売チャネル
+            - listitem [ref=e213]:
+              - link "Shopify" [ref=e216] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e217]: Shopify
+            - listitem [ref=e218]:
+              - link "OmnibusCore" [ref=e221] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e222]: OmnibusCore
+            - listitem [ref=e223]:
+              - link "スマレジ" [ref=e226] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e227]: スマレジ
+            - listitem [ref=e228]:
+              - link "リテールポータル" [ref=e231] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e232]: リテールポータル
+            - listitem [ref=e233]:
+              - generic [ref=e234]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e235]:
+            - listitem [ref=e236]:
+              - link "設定" [ref=e239] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e242]
+                - generic [ref=e244]: 設定
+    - main [ref=e245]:
+      - generic [ref=e348]:
+        - generic [ref=e349]:
+          - status:
+            - paragraph [ref=e350]: ポイントキャンペーンを作成する。このページの準備が整いました
+          - generic [ref=e352]:
+            - link [ref=e355] [cursor=pointer]:
+              - /url: /admin/point_campaign_order_rules
+              - img [ref=e358]
+            - heading "ポイントキャンペーンを作成する" [level=1] [ref=e362]
+        - generic [ref=e364]:
+          - generic [ref=e366]:
+            - generic [ref=e369]:
+              - generic [ref=e371]:
+                - generic [ref=e374]: タイトル*
+                - textbox "タイトル*" [ref=e378]:
+                  - /placeholder: ポイントキャンペーン名
+              - group [ref=e379]:
+                - generic [ref=e380]:
+                  - generic [ref=e382]:
+                    - generic [ref=e385]: 開始日時*
+                    - textbox "開始日時*" [ref=e389]
+                  - generic [ref=e391]:
+                    - generic [ref=e394]: 終了日時*
+                    - textbox "終了日時*" [ref=e398]
+              - generic [ref=e400]:
+                - generic [ref=e403]: ポイントキャンペーン種別*
+                - generic [ref=e404]:
+                  - combobox "ポイントキャンペーン種別*" [ref=e405]:
+                    - option "選択してください" [disabled]
+                    - option "なし" [selected]
+                    - option "会員ランク"
+                    - option "購入金額"
+                    - option "商品"
+                  - generic [ref=e406]:
+                    - generic [ref=e407]: なし
+                    - img [ref=e410]
+              - generic [ref=e421]:
+                - generic [ref=e423]:
+                  - generic [ref=e426]: ポイント付与方法*
+                  - generic [ref=e427]:
+                    - combobox "ポイント付与方法*" [ref=e428]:
+                      - option "通常倍率に指定の倍率を加えた合計倍率でポイントを付与する" [selected]
+                      - option "通常付与ポイントに加えて指定のポイントを追加で付与する"
+                    - generic [ref=e429]:
+                      - generic [ref=e430]: 通常倍率に指定の倍率を加えた合計倍率でポイントを付与する
+                      - img [ref=e433]
+                - generic [ref=e439]:
+                  - generic [ref=e442]: ポイント*
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: 通常獲得ポイントに加えて
+                    - spinbutton "ポイント* 通常獲得ポイントに加えて 倍分のポイントを追加で付与する" [ref=e447]
+                    - generic [ref=e448]: 倍分のポイントを追加で付与する
+                  - paragraph [ref=e451]:
+                    - text: ポイントキャンペーン倍率は「通常ポイントに加えた合計倍率」として適用されます。
+                    - text: 例）ポイントキャンペーン倍率に「3」と入力すると、通常倍率が2倍の会員ランクなら、通常2倍 + ポイントキャンペーン3倍 = 合計5倍 となります。
+            - generic [ref=e454]:
+              - heading "注文ポイント付与ルール" [level=3] [ref=e455]
+              - paragraph [ref=e456]: ここで選択された注文ポイント付与ルールが適用される注文がこのポイントキャンペーンの対象となります。
+              - generic [ref=e457]:
+                - generic [ref=e460]: 対象の注文ポイント付与ルール*
+                - generic [ref=e461]:
+                  - combobox "対象の注文ポイント付与ルール*" [ref=e462]:
+                    - option "選択してください" [disabled] [selected]
+                    - option "TEST_FAQ_注文ポイント付与ルール"
+                  - generic [ref=e463]:
+                    - generic [ref=e464]: 選択してください
+                    - img [ref=e467]
+            - generic [ref=e472]:
+              - generic [ref=e474]:
+                - heading "適用条件" [level=3] [ref=e475]
+                - alert [ref=e476]:
+                  - generic [ref=e479]:
+                    - img [ref=e482]
+                    - generic [ref=e489]: ポイントキャンペーンは以下の条件に該当する注文にのみ適用されます。未入力の場合は適用されません。
+                - group "チャネル" [ref=e490]:
+                  - generic [ref=e491]: チャネル
+                  - list
+              - separator [ref=e492]
+              - generic [ref=e494]:
+                - generic [ref=e495]:
+                  - generic [ref=e498]: 対象店舗
+                  - generic [ref=e499]:
+                    - textbox "対象店舗" [ref=e502]:
+                      - /placeholder: 店舗を選択してください
+                    - button "選択" [ref=e504] [cursor=pointer]:
+                      - generic [ref=e505]: 選択
+                - list
+          - button "保存する" [ref=e418] [cursor=pointer]:
+            - generic [ref=e419]: 保存する
+  - region "Notifications alt+T"
+  - alert [ref=e10]

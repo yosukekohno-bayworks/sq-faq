@@ -1,0 +1,145 @@
+viewport: 1209x785
+page: 1209x1383
+scroll: (0, 0)
+[110557]<a />
+	コンテンツにスキップ
+[110717]<div />
+[110560]<button data-state=closed expanded=false />
+[110561]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[110734]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[110565]<a />
+		ホーム
+	[110566]<a />
+		商品管理
+	[110567]<a />
+		在庫管理
+	[110568]<a />
+		注文管理
+		[110785]<div />
+	[110569]<a />
+		顧客管理
+	[110570]<a />
+		発注管理
+	[110571]<a />
+		販売設定
+	[110572]<a />
+		会計
+	[110573]<a />
+		分析
+	オペレーション
+	[110574]<a />
+		入荷管理
+		[110869]<div />
+	[110575]<a />
+		出荷管理
+		[110880]<div />
+	[110576]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[110577]<a />
+		ディスカウント
+	[110578]<a />
+		ポイント
+	[110579]<a />
+		キャンペーン
+	[110580]<a />
+		誕生日
+	[110581]<a />
+		利用外商品
+	[110582]<a />
+		失効通知
+	[110528]<a />
+		会員ランク
+	販売チャネル
+	[110533]<a />
+		Shopify
+	[110537]<a />
+		OmnibusCore
+	[110583]<a />
+		スマレジ
+	[110584]<a />
+		リテールポータル
+	[110585]<a />
+		卸売
+	[110586]<a />
+		設定
+注文ポイント付与ルールを作成する。このページの準備が整いました
+[111015]<div />
+	[111016]<div />
+		[110588]<a />
+注文ポイント付与ルールを作成する
+基本設定
+[111036]<hr />
+タイトル
+|SHADOW(open)|[110544]<input id=:r1g: placeholder=タイトル autocomplete=off type=text required=true />
+購入金額
+|SHADOW(open)|*[110545]<input id=:r1i: placeholder=100 autocomplete=off type=number required=true valuemin=0 valuemax=0 compound_components=(name=Increment,role=button),(name=Decrement,role=button),(name=Value,role=textbox) />
+円ごとに
+ポイント
+|SHADOW(open)|*[110546]<input id=:r1j: placeholder=1 autocomplete=off type=number required=true valuemin=0 valuemax=0 compound_components=(name=Increment,role=button),(name=Decrement,role=button),(name=Value,role=textbox) />
+ポイント
+付与対象
+[111104]<hr />
+[111109]<span />
+	[110598]<span />
+	[111112]<svg /> <!-- SVG content collapsed -->
+[111114]<span />
+	[111115]<span />
+		ポイント利用分を含める
+有効にすると、注文でポイントを利用した金額分も付与対象に含めます。
+[111123]<span />
+	[110599]<span />
+	[111126]<svg /> <!-- SVG content collapsed -->
+[111128]<span />
+	[111129]<span />
+		セール価格の商品を除外する
+有効にすると、セール価格の商品には通常ポイント・キャンペーンポイントを付与しません。
+ポイントのライフサイクル
+[111141]<hr />
+付与までの日数（オンライン）
+|SHADOW(open)|*[110547]<input id=:r1m: autocomplete=off type=number required=true valuemin=0 valuemax=0 compound_components=(name=Increment,role=button),(name=Decrement,role=button),(name=Value,role=textbox) />
+[111154]<div id=:r1m:-Suffix />
+	[111155]<span />
+		日後
+オンライン注文の出荷完了から顧客へポイントを付与するまでの日数です。0日に設定した場合、発送が完了後に即時ポイントが付与されます。
+付与までの日数（店舗）
+|SHADOW(open)|*[110548]<input id=:r1n: autocomplete=off type=number required=true valuemin=0 valuemax=0 compound_components=(name=Increment,role=button),(name=Decrement,role=button),(name=Value,role=textbox) />
+[111179]<div id=:r1n:-Suffix />
+	[111180]<span />
+		日後
+店舗での決済完了から顧客へポイントを付与するまでの日数です。0日に設定した場合、即時ポイントが付与されます。
+利用可能になってから有効な日数
+|SHADOW(open)|*[110549]<input id=:r1o: placeholder=365 autocomplete=off type=number required=true valuemin=0 valuemax=0 compound_components=(name=Increment,role=button),(name=Decrement,role=button),(name=Value,role=textbox) />
+[111205]<div id=:r1o:-Suffix />
+	[111206]<span />
+		日間
+会員ランク算出ルール
+[111224]<hr />
+会員ランク算出ルール
+未設定
+[111244]<span />
+	[111245]<span />
+		[111246]<svg /> <!-- SVG content collapsed -->
+ポイントキャンペーン優先ルール
+[111256]<hr />
+キャンペーン適用優先度
+[111267]<span />
+	[111269]<span />
+[111272]<span />
+	[111273]<span />
+		開始日時が新しいキャンペーンを優先する
+[111278]<span />
+	[111280]<span />
+[111283]<span />
+	[111284]<span />
+		開始日時が古いキャンペーンを優先する
+注文に対して条件を満たすポイントキャンペーンが複数個ある場合に、どのキャンペーンを優先的に適用するかを設定します。
+[110543]<button />
+	保存する
+[111294]<section aria-label=Notifications alt+T live=polite />
+[110612]<div id=PolarisPortalsContainer />
+[110614]<div id=clerk-components />

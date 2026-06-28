@@ -1,0 +1,175 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/companies/create",
+  "title": "SQ - 管理画面",
+  "h1": [
+    "会社を作成する"
+  ],
+  "buttons": [
+    "stack-ps-yosuke\n\n陽介 河野",
+    "保存する"
+  ],
+  "links": [
+    "コンテンツにスキップ",
+    "ホーム",
+    "商品管理",
+    "在庫管理",
+    "注文管理",
+    "顧客管理",
+    "会社",
+    "発注管理",
+    "販売設定",
+    "会計",
+    "分析",
+    "入荷管理",
+    "出荷管理",
+    "在庫依頼\n未完了の在庫依頼 3件\n3",
+    "ディスカウント",
+    "ポイント",
+    "会員ランク",
+    "Shopify",
+    "OmnibusCore",
+    "スマレジ",
+    "リテールポータル",
+    "卸売",
+    "設定"
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": "検索",
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": "12345",
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "tel",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    }
+  ],
+  "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n会社を作成する。このページの準備が整いました\n\n会社を作成する\n会社名\nこれは請求書および配送ラベルに表示されます。\n会社ID\n会社を識別する外部IDがある場合に登録することができます。\n担当者\n\n担当者なし\n\nロケーション\n\nこの会社にロケーションを追加します。商品は登録されているロケーションに配送します。ロケーションは後からさらに追加することができます。\n\nロケーション名\nロケーションID\nロケーションを識別する外部IDがある場合に登録することができます。\nコード\n配送先住所\n国/地域\n国/地域\nフィンランド\nグレナダ\nアフガニスタン\nブーベ島\nリベリア\nモルディブ\nアンティグア・バーブーダ\nベリーズ\nニカラグア\nフィリピン\nオーランド諸島\nイラン\nキリバス\nスリランカ\nシント・マールテン\nザンビア\nチリ\nモンゴル\nシンガポール\nトリニダード・トバゴ\nスイス\nエチオピア\nバングラデシュ\nコンゴ民主共和国\nグリーンランド\nカーボベルデ\nノーフォーク島\nイスラエル\nパレスチナ\nスヴァールバル諸島およびヤンマイエン島\nボスニア・ヘルツェゴビナ\nバミューダ\nベラルーシ\nコートジボワール\nイギリス\nチュニジア\nウズベキスタン\nブルガリア\nクウェート\nミャンマー\nチェコ\nフォークランド諸島\nモルドバ\nペルー\n合衆国領有小離島\nジンバブエ\n香港\nモーリシャス\nスロベニア\nバヌアツ\nマヨット\nブルネイ\nブータン\nデンマーク\nサウスジョージア・サウスサンドウィッチ諸島\nハイチ\nリトアニア\n南スーダン\nスペイン\nジブラルタル\nガイアナ\nメキシコ\n中央アフリカ共和国\nヨルダン\nモナコ\nコンゴ共和国\nクック諸島\nグアドループ\nアイスランド\nモンテネグロ\nレユニオン\n台湾\nオーストリア\nブルキナファソ\nオランダ領カリブ\nキューバ\nハンガリー\nウォリス・フツナ\nガボン\nフランス領ポリネシア\nサウジアラビア\nエリトリア\n韓国\nモントセラト\nナウル\nジブチ\nナミビア\nドミニカ共和国\nハード島とマクドナルド諸島\nオランダ\nピトケアン諸島\nソマリア\n西サハラ\nイラク\nポーランド\nアンゴラ\nアイルランド\nカンボジア\nコモロ\nカザフスタン\nラオス\nバチカン市国\nケニア\n北マケドニア\nエルサルバドル\nトルクメニスタン\nバーレーン\n中国\nリビア\nパナマ\nタークス・カイコス諸島\nセネガル\nフランス領ギアナ\nモザンビーク\nオマーン\nタイ\nアセンション島\nキプロス\nマン島\nルーマニア\nホンジュラス\nセントクリストファー・ネイビス\nアメリカ合衆国\nカナダ\nエジプト\nキルギス\nニュージーランド\nパラグアイ\nアルゼンチン\nブラジル\nキュラソー\nトリスタン・ダ・クーニャ\nラトビア\nスロバキア\nウルグアイ\nバルバドス\nルクセンブルク\nマルティニーク\nギニア\nイギリス領インド洋地域\nマルタ\nブルンジ\nクリスマス島\nケイマン諸島\nベネズエラ\nコソボ\nアルバニア\nオランダ領アンティル\nインドネシア\nニジェール\nスリナム\nベトナム\nサモア\nガーンジー\nギリシャ\nパキスタン\nサンピエール・ミクロン\nジョージア\nポルトガル\nトンガ\nアゼルバイジャン\nトケラウ\nウガンダ\nアンギラ\nマリ\nパプアニューギニア\nチャド\nアルバ\nココス諸島\nクロアチア\nイタリア\nソロモン諸島\nセントビンセント・グレナディーン\nエストニア\nリヒテンシュタイン\n東ティモール\nコスタリカ\nガーナ\nモロッコ\nネパール\nサントメ・プリンシペ\nジャージー\nレバノン\nレソト\nマラウイ\nアラブ首長国連邦\nベナン\nインド\nセントルシア\nニューカレドニア\nカメルーン\nモーリタニア\nセーシェル\nシエラレオネ\nバハマ\nドイツ\nフェロー諸島\nスウェーデン\nシリア\nツバル\nコロンビア\nナイジェリア\nロシア\nその他の地域\n日本\nルワンダ\nガンビア\nグアテマラ\nスーダン\nタジキスタン\nベルギー\nボリビア\n北朝鮮\nオーストラリア\nマカオ\nマレーシア\nノルウェー\nニウエ\nイギリス領ヴァージン諸島\nアルメニア\nフィジー\nカタール\nセントヘレナ\nトーゴ\nトルコ\nタンザニア\nセルビア\nエスワティニ\nイエメン\nボツワナ\nギニアビサウ\n南アフリカ\nアンドラ\nドミニカ国\n赤道ギニア\nサン・マルタン\nマダガスカル\nフランス南方・南極地域\nサン・バルテルミー\nウクライナ\nエクアドル\nジャマイカ\nアルジェリア\nフランス\nサンマリノ\n国/地域\n性\n名\n会社\n郵便番号\n都道府県\n選択してください\n北海道\n青森県\n岩手県\n宮城県\n秋田県\n山形県\n福島県\n茨城県\n栃木県\n群馬県\n埼玉県\n千葉県\n東京都\n神奈川県\n新潟県\n富山県\n石川県\n福井県\n山梨県\n長野県\n岐阜県\n静岡県\n愛知県\n三重県\n滋賀県\n京都府\n大阪府\n兵庫県\n奈良県\n和歌山県\n鳥取県\n島根県\n岡山県\n広島県\n山口県\n徳島県\n香川県\n愛媛県\n高知県\n福岡県\n佐賀県\n長崎県\n熊本県\n大分県\n宮崎県\n鹿児島県\n沖縄県\n選択してください\n市区町村\n住所\n建物名、部屋番号など\n電話番号\n請求先住所\n配送先住所と同じ\n保存する",
+  "delete_text_present": false
+}

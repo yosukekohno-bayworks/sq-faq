@@ -1,0 +1,142 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products",
+  "h1": "商品をCSVでインポートする",
+  "buttons": [
+    {
+      "text": "コンテンツにスキップ",
+      "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products#AppFrameMain",
+      "disabled": false
+    },
+    {
+      "text": "stack-ps-yosuke 陽介 河野",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "text": "ホーム",
+      "href": "https://www.sqstackstaging.com/admin",
+      "disabled": false
+    },
+    {
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products",
+      "disabled": false
+    },
+    {
+      "text": "在庫管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "text": "注文管理",
+      "href": "https://www.sqstackstaging.com/admin/orders",
+      "disabled": false
+    },
+    {
+      "text": "顧客管理",
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "text": "発注管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "text": "販売設定",
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "text": "会計",
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "text": "分析",
+      "href": "https://www.sqstackstaging.com/admin/analytics",
+      "disabled": false
+    },
+    {
+      "text": "入荷管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "出荷管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "在庫依頼 未完了の在庫依頼 3件 3",
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "text": "ディスカウント",
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "会員ランク",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "Shopify",
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "text": "OmnibusCore",
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "text": "スマレジ",
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "text": "リテールポータル",
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "text": "卸売",
+      "href": "https://www.sqstackstaging.com/admin/b2b",
+      "disabled": false
+    },
+    {
+      "text": "設定",
+      "href": "https://www.sqstackstaging.com/admin/settings",
+      "disabled": false
+    },
+    {
+      "text": "テンプレート",
+      "href": "https://docs.google.com/spreadsheets/d/1b2lGs4s6MDIzqTumUDt6WEE42oMv6pJ1leEoMRY4Evk",
+      "disabled": false
+    },
+    {
+      "text": "新規インポート",
+      "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/create",
+      "disabled": false
+    },
+    {
+      "text": "2026年06月08日",
+      "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/43a9a5c7-2508-57e2-a635-f00e74e8f388_CSVImportOperationProduct",
+      "disabled": false
+    },
+    {
+      "text": "2026年05月20日",
+      "href": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_products/41177e6c-be8a-5066-8890-00db104c9a98_CSVImportOperationProduct",
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品をCSVでインポートする。このページの準備が整いました\n\n商品をCSVでインポートする\nテンプレート\n新規インポート\n作成日\n\t\n実行ステータス\n\n\n\n2026年06月08日\n\n\t\n\n成功 完了\n完了\n\n\n\n\n2026年05月20日\n\n\t\n\n成功 完了\n完了"
+}

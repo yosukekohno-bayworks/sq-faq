@@ -1,0 +1,78 @@
+[
+  {
+    "step": "corrected_fields",
+    "url": "https://www.sqstackstaging.com/admin/companies/create",
+    "detail": [
+      {
+        "n": 6,
+        "v": "テスト",
+        "ok": true
+      },
+      {
+        "n": 7,
+        "v": "太郎",
+        "ok": true
+      },
+      {
+        "n": 8,
+        "v": "TEST_FAQ_20260624_COMPANY_102911",
+        "ok": true
+      },
+      {
+        "n": 9,
+        "v": "100-0001",
+        "ok": true
+      },
+      {
+        "n": 10,
+        "v": "千代田区",
+        "ok": true
+      },
+      {
+        "n": 11,
+        "v": "千代田1-1",
+        "ok": true
+      },
+      {
+        "n": 12,
+        "v": "テストビル",
+        "ok": true
+      },
+      {
+        "n": 13,
+        "v": "0312345678",
+        "ok": true
+      }
+    ],
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない変更\n取り消す\n保存する\n\n会社を作成する。このページの準備が整いました\n\n会社を作成する\n会社名\nこれは請求書および配送ラベルに表示されます。\n会社ID\n会社を識別する外部IDがある場合に登録することができます。\n担当者\n\n担当者なし\n\nロケーション\n\nこの会社にロケーションを追加します。商品は登録されているロケーションに配送します。ロケーションは後からさらに追加することができます。\n\nロケーション名\nロケーションID\nロケーションを識別する外部IDがある場合に登録することができます。\nコード\n配送先住所\n国/地域\n国/地域\nセントヘレナ\nウルグアイ\nマヨット\n南アフリカ\nコンゴ共和国\nエリトリア\nジョージア\nグリーンランド\nイギリス領インド洋地域\nモーリタニア\nルワンダ\nブータン\nガイアナ\nオマーン\nトケラウ\nチリ\nドミニカ国\nグレナダ\nギニア\nハイチ\nエチオピア\nソロモン諸島\nスリランカ\nタジキスタン\nグアドループ\nケイマン諸島\nルクセンブルク\nタンザニア\nザンビア\nフランス\nモンテネグロ\nマカオ\nアラブ首長国連邦\nバルバドス\nウズベキスタン\nフェロー諸島\nジブラルタル\n香港\nリヒテンシュタイン\nマルティニーク\nノーフォーク島\nイエメン\nアルバニア\nヨルダン\nニジェール\nバチカン市国\nハード島とマクドナルド諸島\nレソト\n合衆国領有小離島\nスイス\nクック諸島\nキュラソー\nスペイン\nギニアビサウ\nマン島\nカザフスタン\nリトアニア\nサン・マルタン\nキプロス\nエストニア\nインド\nキルギス\nオーストラリア\nモントセラト\nシエラレオネ\nスリナム\nオランダ領カリブ\nカナダ\nコスタリカ\nガボン\nフランス南方・南極地域\n東ティモール\nクロアチア\nトーゴ\nエジプト\nセントルシア\nセーシェル\nシンガポール\nボリビア\nカーボベルデ\nドミニカ共和国\nニウエ\nトンガ\nニカラグア\nピトケアン諸島\nセルビア\nイギリス領ヴァージン諸島\nフランス領ギアナ\nイラク\nレバノン\nパキスタン\nシント・マールテン\nチュニジア\nイギリス\nアイスランド\nセネガル\n韓国\nベネズエラ\nサン・バルテルミー\nニューカレドニア\nノルウェー\nナウル\nボスニア・ヘルツェゴビナ\n西サハラ\nフィンランド\nガーナ\n北マケドニア\nモザンビーク\nネパール\nウクライナ\nアルバ\nバングラデシュ\n中央アフリカ共和国\nモンゴル\nロシア\nバーレーン\nクリスマス島\nデンマーク\nガンビア\nキリバス\nトルコ\nココス諸島\n北朝鮮\nコソボ\n中国\nイスラエル\nカタール\nオーストリア\nフィリピン\nリベリア\nルーマニア\nコモロ\nラオス\nモロッコ\nエルサルバドル\nシリア\nウォリス・フツナ\nモーリシャス\nレユニオン\nスロベニア\n南スーダン\nアルジェリア\nウガンダ\nセントビンセント・グレナディーン\nアセンション島\nホンジュラス\nマリ\nブルンジ\nマラウイ\nタークス・カイコス諸島\nタイ\nベルギー\nベラルーシ\nケニア\nベトナム\nバミューダ\nバハマ\nセントクリストファー・ネイビス\nベナン\nブルネイ\nドイツ\nトリニダード・トバゴ\nブルガリア\nパレスチナ\nアメリカ合衆国\nコンゴ民主共和国\nカメルーン\nジブチ\nイタリア\nフランス領ポリネシア\nブーベ島\nグアテマラ\nインドネシア\nモルドバ\nマレーシア\nパナマ\nパラグアイ\nバヌアツ\nアンギラ\nニュージーランド\nスーダン\nコートジボワール\nスロバキア\nジンバブエ\nブルキナファソ\nメキシコ\nエスワティニ\nオランダ領アンティル\nジャマイカ\nミャンマー\nサウジアラビア\nアゼルバイジャン\nアイルランド\nマダガスカル\nオーランド諸島\nブラジル\nラトビア\nサンピエール・ミクロン\nその他の地域\nアンゴラ\nチェコ\nギリシャ\nイラン\nサンマリノ\nチャド\nハンガリー\nカンボジア\nオランダ\nアンドラ\nエクアドル\nパプアニューギニア\nポルトガル\nトリスタン・ダ・クーニャ\nサモア\nアルゼンチン\nモナコ\nマルタ\nペルー\nサントメ・プリンシペ\nツバル\nキューバ\nリビア\nアルメニア\nコロンビア\nモルディブ\nアフガニスタン\nアンティグア・バーブーダ\nクウェート\nサウスジョージア・サウスサンドウィッチ諸島\nソマリア\n台湾\nボツワナ\nフィジー\nスヴァールバル諸島およびヤンマイエン島\nベリーズ\nフォークランド諸島\n赤道ギニア\n日本\nナミビア\nスウェーデン\nトルクメニスタン\nガーンジー\nジャージー\nナイジェリア\nポーランド\n日本\n性\n名\n会社\n郵便番号\n都道府県\n選択してください\n北海道\n青森県\n岩手県\n宮城県\n秋田県\n山形県\n福島県\n茨城県\n栃木県\n群馬県\n埼玉県\n千葉県\n東京都\n神奈川県\n新潟県\n富山県\n石川県\n福井県\n山梨県\n長野県\n岐阜県\n静岡県\n愛知県\n三重県\n滋賀県\n京都府\n大阪府\n兵庫県\n奈良県\n和歌山県\n鳥取県\n島根県\n岡山県\n広島県\n山口県\n徳島県\n香川県\n愛媛県\n高知県\n福岡県\n佐賀県\n長崎県\n熊本県\n大分県\n宮崎県\n鹿児島県\n沖縄県\n東京都\n市区町村\n住所\n建物名、部屋番号など\n電話番号\n請求先住所\n配送先住所と同じ\n保存する"
+  },
+  {
+    "step": "after_save",
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "detail": {
+      "responses": [
+        {
+          "status": 200,
+          "body": "{\"data\":{\"companyCreate\":{\"company\":{\"id\":\"16fb446c-e284-593e-a19e-7ec339e48a7a_Company\",\"name\":\"TEST_FAQ_20260624_COMPANY_102911\",\"__typename\":\"Company\"},\"__typename\":\"CompanyCreatePayload\"}}}",
+          "req": "{\"operationName\":\"CompanyCreate\",\"variables\":{\"input\":{\"name\":\"TEST_FAQ_20260624_COMPANY_102911\",\"externalID\":\"TEST_FAQ_COMP_102911\",\"companyLocation\":{\"name\":\"TEST_FAQ_20260624_COMPANY_LOC_102911\",\"externalID\":\"TEST_FAQ_COMP_102911_LOCID\",\"code\":\"TEST_FAQ_COMP_102911_LOC\",\"billingSameAsShipping\":true,\"shippingAddress\":{\"lastName\":\"テスト\",\"firstName\":\"太郎\",\"company\":\"TEST_FAQ_20260624_COMPANY_102911\",\"countryCode\":\"JP\",\"postalCode\":\"100-0001\",\"provinceCode\":\"JP-13\",\"city\":\"千代田区\",\"address1\":\"千代田1-1\",\"address2\":\"テストビル\",\"phone\":\"0312345678\"},\"billingAddress\":null}}},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"mutation CompanyCreate($input: CompanyCreateInput!) {\\n  companyCreate(input: $input) {\\n    company {\\n      id\\n      name\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}"
+        },
+        {
+          "status": 200,
+          "body": "{\"data\":{\"company\":{\"id\":\"16fb446c-e284-593e-a19e-7ec339e48a7a_Company\",\"name\":\"TEST_FAQ_20260624_COMPANY_102911\",\"externalID\":\"TEST_FAQ_COMP_102911\",\"note\":\"\",\"locations\":{\"nodes\":[{\"id\":\"176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation\",\"name\":\"TEST_FAQ_20260624_COMPANY_LOC_102911\",\"__typename\":\"CompanyLocation\"}],\"__typename\":\"CompanyLocationConnections\"},\"contacts\":{\"nodes\":[],\"__typename\":\"CompanyContactConnection\"},\"metafieldDefinitions\":{\"nodes\":[],\"__typename\":\"MetafieldDefinitionConnection\"},\"createdAt\":\"2026-06-24T01:31:21Z\",\"__typename\":\"Company\"}}}",
+          "req": "{\"operationName\":\"Company\",\"variables\":{\"companyID\":\"16fb446c-e284-593e-a19e-7ec339e48a7a_Company\"},\"extensions\":{\"clientLibrary\":{\"name\":\"@apollo/client\",\"version\":\"4.1.6\"}},\"query\":\"query Company($companyID: ID!) {\\n  company(id: $companyID) {\\n    id\\n    name\\n    externalID\\n    note\\n    locations(first: 250) {\\n      nodes {\\n        id\\n        name\\n        __typename\\n      }\\n      __typename\\n    }\\n    contacts(first: 250) {\\n      nodes {\\n        id\\n        firstName\\n        lastName\\n        email\\n        __typename\\n      }\\n      __typename\\n    }\\n    metafieldDefinitions(first: 250) {\\n      nodes {\\n        id\\n        name\\n        description\\n        readOnly\\n        namespace\\n        key\\n        valueType\\n        metafield(ownerObjectID: $companyID) {\\n          id\\n          value\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    createdAt\\n    __typename\\n  }\\n}\"}"
+        }
+      ]
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました\n\nTEST_FAQ_20260624_COMPANY_102911\n\n2026年06月24日から顧客\n\n直近の注文\n\nこの会社はまだ注文していません\n\nロケーション\nロケーションを追加\nロケーション\n\t\n売上\n\t\n注文\n\n\nTEST_FAQ_20260624_COMPANY_LOC_102911\n\t¥0\t0\n担当者\n担当者を追加\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nTEST_FAQ_20260624_COMPANY_102911\n会社ID\n\nTEST_FAQ_COMP_102911\n\nメモ\n\nこの会社にはメモがありません。\n\n会社を作成しました"
+  },
+  {
+    "step": "created_detail_cleanup_inspect",
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "detail": {
+      "menu_opened": false,
+      "has_delete": false,
+      "has_archive": false
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました\n\nTEST_FAQ_20260624_COMPANY_102911\n\n2026年06月24日から顧客\n\n直近の注文\n\nこの会社はまだ注文していません\n\nロケーション\nロケーションを追加\nロケーション\n\t\n売上\n\t\n注文\n\n\nTEST_FAQ_20260624_COMPANY_LOC_102911\n\t¥0\t0\n担当者\n担当者を追加\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nTEST_FAQ_20260624_COMPANY_102911\n会社ID\n\nTEST_FAQ_COMP_102911\n\nメモ\n\nこの会社にはメモがありません。"
+  }
+]

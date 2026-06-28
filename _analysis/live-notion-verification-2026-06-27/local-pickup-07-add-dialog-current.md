@@ -1,0 +1,3 @@
+- generic [ref=e572] [cursor=pointer] [box=360,935,192,40]:
+  - paragraph [ref=e573] [box=360,935,192,20]: オーバーサイズスウェットシャツ
+  - paragraph [ref=e574] [box=360,955,192,20]: NAVY / S

@@ -1,0 +1,1369 @@
+{
+  "generatedAt": "2026-06-28T01:12:23.514434+00:00",
+  "targetTypes": [
+    "InventoryBehavior",
+    "CurrencyCode",
+    "OrderTransactionKind",
+    "PointApplicationType",
+    "OrderCreatePayload",
+    "OrderCreateInput",
+    "OrderCreateOptionInput",
+    "Order",
+    "Location",
+    "ProductVariant",
+    "OrderLineItem",
+    "OrderReturn",
+    "OrderReturnLineItem"
+  ],
+  "types": {
+    "InventoryBehavior": {
+      "kind": "ENUM",
+      "name": "InventoryBehavior",
+      "fields": [],
+      "inputFields": [],
+      "enumValues": [
+        "BYPASS",
+        "DECREMENT"
+      ],
+      "possibleTypes": []
+    },
+    "CurrencyCode": {
+      "kind": "ENUM",
+      "name": "CurrencyCode",
+      "fields": [],
+      "inputFields": [],
+      "enumValues": [
+        "USD",
+        "EUR",
+        "JPY",
+        "THB",
+        "SGD"
+      ],
+      "possibleTypes": []
+    },
+    "OrderTransactionKind": {
+      "kind": "ENUM",
+      "name": "OrderTransactionKind",
+      "fields": [],
+      "inputFields": [],
+      "enumValues": [
+        "AUTHORIZATION",
+        "VOID",
+        "CAPTURE",
+        "SALE",
+        "REFUND"
+      ],
+      "possibleTypes": []
+    },
+    "PointApplicationType": {
+      "kind": "ENUM",
+      "name": "PointApplicationType",
+      "fields": [],
+      "inputFields": [],
+      "enumValues": [
+        "DISCOUNT",
+        "PAYMENT"
+      ],
+      "possibleTypes": []
+    },
+    "OrderCreatePayload": {
+      "kind": "OBJECT",
+      "name": "OrderCreatePayload",
+      "fields": [
+        {
+          "name": "order",
+          "type": "Order!"
+        },
+        {
+          "name": "pubSubPublishObjects",
+          "type": "[PubSubPublishObject!]!"
+        }
+      ],
+      "inputFields": [],
+      "enumValues": [],
+      "possibleTypes": []
+    },
+    "OrderCreateInput": {
+      "kind": "INPUT_OBJECT",
+      "name": "OrderCreateInput",
+      "fields": [],
+      "inputFields": [
+        {
+          "name": "externalID",
+          "type": "String"
+        },
+        {
+          "name": "managementCode",
+          "type": "String!"
+        },
+        {
+          "name": "receiptNumber",
+          "type": "String"
+        },
+        {
+          "name": "source",
+          "type": "String!"
+        },
+        {
+          "name": "tenantID",
+          "type": "ID!"
+        },
+        {
+          "name": "currencyCode",
+          "type": "CurrencyCode!"
+        },
+        {
+          "name": "purchasingCustomer",
+          "type": "OrderCreatePurchasingCustomerInput"
+        },
+        {
+          "name": "purchasingCompany",
+          "type": "OrderCreatePurchasingCompanyInput"
+        },
+        {
+          "name": "tags",
+          "type": "[String!]"
+        },
+        {
+          "name": "purchasedAt",
+          "type": "DateTime!"
+        },
+        {
+          "name": "cancelledAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "deliveryDate",
+          "type": "DateTime"
+        },
+        {
+          "name": "isLocked",
+          "type": "Boolean"
+        },
+        {
+          "name": "isEditable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isDeletable",
+          "type": "Boolean"
+        },
+        {
+          "name": "note",
+          "type": "String"
+        },
+        {
+          "name": "billingAddress",
+          "type": "OrderCreateBillingAddressInput"
+        },
+        {
+          "name": "shippingAddress",
+          "type": "OrderCreateShippingAddressInput"
+        },
+        {
+          "name": "email",
+          "type": "String"
+        },
+        {
+          "name": "attributes",
+          "type": "[OrderCreateAttributeInput!]"
+        },
+        {
+          "name": "metafields",
+          "type": "[MetafieldInput!]"
+        },
+        {
+          "name": "lineItems",
+          "type": "[OrderCreateLineItemInput!]!"
+        },
+        {
+          "name": "shippingLines",
+          "type": "[OrderCreateShippingLineInput!]"
+        },
+        {
+          "name": "taxesIncluded",
+          "type": "Boolean!"
+        },
+        {
+          "name": "fulfillment",
+          "type": "OrderCreateFulfillmentInput"
+        },
+        {
+          "name": "inventoryOutboundOrders",
+          "type": "[OrderCreateInventoryOutboundOrderInput!]"
+        },
+        {
+          "name": "retail",
+          "type": "OrderCreateRetailInput"
+        },
+        {
+          "name": "retailStaffMember",
+          "type": "OrderCreateRetailStaffMemberInput"
+        },
+        {
+          "name": "transactions",
+          "type": "[OrderCreateTransactionInput!]"
+        },
+        {
+          "name": "additionalFees",
+          "type": "[OrderCreateAdditionalFeeInput!]"
+        },
+        {
+          "name": "discounts",
+          "type": "[OrderCreateDiscountInput!]"
+        },
+        {
+          "name": "useDiscountAllocationInput",
+          "type": "Boolean!"
+        },
+        {
+          "name": "pointApplication",
+          "type": "OrderCreatePointApplicationInput"
+        },
+        {
+          "name": "priceAdjustmentUsages",
+          "type": "OrderCreatePriceAdjustmentUsagesInput"
+        }
+      ],
+      "enumValues": [],
+      "possibleTypes": []
+    },
+    "OrderCreateOptionInput": {
+      "kind": "INPUT_OBJECT",
+      "name": "OrderCreateOptionInput",
+      "fields": [],
+      "inputFields": [
+        {
+          "name": "inventoryBehavior",
+          "type": "InventoryBehavior!"
+        },
+        {
+          "name": "integrationsToSync",
+          "type": "OrderCreateOptionIntegrationsToSyncInput"
+        },
+        {
+          "name": "bypassesPointCalculation",
+          "type": "Boolean"
+        },
+        {
+          "name": "excludesFromCustomerRankCalculation",
+          "type": "Boolean"
+        },
+        {
+          "name": "excludesFromSalesRecording",
+          "type": "Boolean"
+        },
+        {
+          "name": "createInventoryOutboundOrderAsOnHold",
+          "type": "Boolean"
+        }
+      ],
+      "enumValues": [],
+      "possibleTypes": []
+    },
+    "Order": {
+      "kind": "OBJECT",
+      "name": "Order",
+      "fields": [
+        {
+          "name": "id",
+          "type": "ID!"
+        },
+        {
+          "name": "externalID",
+          "type": "String!"
+        },
+        {
+          "name": "source",
+          "type": "String!"
+        },
+        {
+          "name": "sourceURL",
+          "type": "URL"
+        },
+        {
+          "name": "isSource",
+          "type": "Boolean!"
+        },
+        {
+          "name": "createdFromDraftOrder",
+          "type": "Boolean!"
+        },
+        {
+          "name": "draftOrder",
+          "type": "DraftOrder"
+        },
+        {
+          "name": "managementCode",
+          "type": "String!"
+        },
+        {
+          "name": "receiptNumber",
+          "type": "String!"
+        },
+        {
+          "name": "managementNumber",
+          "type": "String!"
+        },
+        {
+          "name": "currencyCode",
+          "type": "CurrencyCode!"
+        },
+        {
+          "name": "tenant",
+          "type": "Tenant!"
+        },
+        {
+          "name": "isCancelled",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isDeleted",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isEditable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isLocked",
+          "type": "Boolean!"
+        },
+        {
+          "name": "inventoryBehavior",
+          "type": "InventoryBehavior!"
+        },
+        {
+          "name": "bypassesPointCalculation",
+          "type": "Boolean!"
+        },
+        {
+          "name": "excludesFromCustomerRankCalculation",
+          "type": "Boolean!"
+        },
+        {
+          "name": "excludesFromSalesRecording",
+          "type": "Boolean!"
+        },
+        {
+          "name": "merchantCancellable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "merchantRefundable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "merchantShippingRefundable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "merchantReturnable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "merchantFulfillable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "totalReturnableQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "hasActiveOrderReturns",
+          "type": "Boolean!"
+        },
+        {
+          "name": "purchasedAt",
+          "type": "DateTime!"
+        },
+        {
+          "name": "fulfilledAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "cancelledAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "deletedAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "deliveryDate",
+          "type": "DateTime"
+        },
+        {
+          "name": "note",
+          "type": "String!"
+        },
+        {
+          "name": "tags",
+          "type": "[String!]!"
+        },
+        {
+          "name": "externalTags",
+          "type": "[String!]!"
+        },
+        {
+          "name": "internalTags",
+          "type": "[String!]!"
+        },
+        {
+          "name": "hasAnyTags",
+          "type": "Boolean!"
+        },
+        {
+          "name": "paymentStatus",
+          "type": "OrderPaymentStatus!"
+        },
+        {
+          "name": "paymentGateways",
+          "type": "[OrderPaymentGateway!]!"
+        },
+        {
+          "name": "paymentMethods",
+          "type": "[PaymentMethod!]!"
+        },
+        {
+          "name": "hasAnyPaymentMethod",
+          "type": "Boolean!"
+        },
+        {
+          "name": "transactions",
+          "type": "OrderTransactionConnection!"
+        },
+        {
+          "name": "additionalFees",
+          "type": "[OrderAdditionalFee!]!"
+        },
+        {
+          "name": "isFulfillmentInProgress",
+          "type": "Boolean!"
+        },
+        {
+          "name": "fulfillmentStatus",
+          "type": "OrderFulfillmentStatus!"
+        },
+        {
+          "name": "requiresFulfillment",
+          "type": "Boolean!"
+        },
+        {
+          "name": "retailLocation",
+          "type": "Location"
+        },
+        {
+          "name": "retailStaffMember",
+          "type": "RetailStaffMember"
+        },
+        {
+          "name": "purchasingCustomer",
+          "type": "PurchasingCustomer"
+        },
+        {
+          "name": "purchasingCompany",
+          "type": "PurchasingCompany"
+        },
+        {
+          "name": "billingAddress",
+          "type": "OrderBillingAddress"
+        },
+        {
+          "name": "shippingAddress",
+          "type": "OrderShippingAddress"
+        },
+        {
+          "name": "isShippingAddressInternallyUpdated",
+          "type": "Boolean!"
+        },
+        {
+          "name": "email",
+          "type": "String!"
+        },
+        {
+          "name": "attributes",
+          "type": "[OrderAttribute!]!"
+        },
+        {
+          "name": "shopifyIntegration",
+          "type": "ShopifyIntegration"
+        },
+        {
+          "name": "shopifyIntegrations",
+          "type": "[ShopifyIntegration!]!"
+        },
+        {
+          "name": "totalQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "currentTotalQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "lineItems",
+          "type": "OrderLineItemConnection!"
+        },
+        {
+          "name": "shippingLines",
+          "type": "OrderShippingLineConnection!"
+        },
+        {
+          "name": "taxLines",
+          "type": "[TaxLine!]!"
+        },
+        {
+          "name": "currentTaxLines",
+          "type": "[TaxLine!]!"
+        },
+        {
+          "name": "discounts",
+          "type": "[OrderDiscount!]!"
+        },
+        {
+          "name": "hasOrderDiscounts",
+          "type": "Boolean!"
+        },
+        {
+          "name": "priceAdjustmentUsages",
+          "type": "OrderPriceAdjustmentUsageConnection!"
+        },
+        {
+          "name": "hasShippingDiscounts",
+          "type": "Boolean!"
+        },
+        {
+          "name": "orderLevelDiscountCount",
+          "type": "Int!"
+        },
+        {
+          "name": "orderLineItemLevelDiscountCount",
+          "type": "Int!"
+        },
+        {
+          "name": "pointApplication",
+          "type": "OrderPointApplication"
+        },
+        {
+          "name": "hasPointApplication",
+          "type": "Boolean!"
+        },
+        {
+          "name": "taxesIncluded",
+          "type": "Boolean!"
+        },
+        {
+          "name": "totalLineItemPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalLineItemPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "subtotalPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentSubtotalPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalOrderDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalOrderDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalOrderLevelDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalOrderLevelDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalOrderLineItemLevelDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalOrderLineItemLevelDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalShippingPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalShippingPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalShippingPriceAfterTaxes",
+          "type": "Money!"
+        },
+        {
+          "name": "totalShippingDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "pointApplicationPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentPointApplicationPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalAdditionalFeePrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalTaxPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalTaxPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalLineItemTaxPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentShippingTaxPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalOrderRefundPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalOrderRefundTaxPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalRefundPriceAfterTaxes",
+          "type": "Money!"
+        },
+        {
+          "name": "totalPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalPriceChanged",
+          "type": "Boolean!"
+        },
+        {
+          "name": "inventoryOutboundOrders",
+          "type": "InventoryOutboundOrderConnection!"
+        },
+        {
+          "name": "inventoryAllocationRequests",
+          "type": "InventoryAllocationRequestConnection!"
+        },
+        {
+          "name": "inventoryAllocationRequestCount",
+          "type": "Int!"
+        },
+        {
+          "name": "inventoryAdjustmentOrders",
+          "type": "InventoryAdjustmentOrderConnection!"
+        },
+        {
+          "name": "fulfillments",
+          "type": "FulfillmentConnection!"
+        },
+        {
+          "name": "returns",
+          "type": "OrderReturnConnection!"
+        },
+        {
+          "name": "orderReturnCount",
+          "type": "Int!"
+        },
+        {
+          "name": "refunds",
+          "type": "OrderRefundConnection!"
+        },
+        {
+          "name": "isLineItemChanged",
+          "type": "Boolean!"
+        },
+        {
+          "name": "earnedPoints",
+          "type": "Int!"
+        },
+        {
+          "name": "usedPoints",
+          "type": "Int!"
+        },
+        {
+          "name": "revokedPoints",
+          "type": "Int!"
+        },
+        {
+          "name": "restoredPoints",
+          "type": "Int!"
+        },
+        {
+          "name": "metafield",
+          "type": "Metafield"
+        },
+        {
+          "name": "metafieldDefinitions",
+          "type": "MetafieldDefinitionConnection!"
+        },
+        {
+          "name": "saleChangeActivities",
+          "type": "SaleChangeActivityConnection!"
+        },
+        {
+          "name": "updatedAt",
+          "type": "DateTime!"
+        },
+        {
+          "name": "createdAt",
+          "type": "DateTime!"
+        }
+      ],
+      "inputFields": [],
+      "enumValues": [],
+      "possibleTypes": []
+    },
+    "Location": {
+      "kind": "OBJECT",
+      "name": "Location",
+      "fields": [
+        {
+          "name": "id",
+          "type": "ID!"
+        },
+        {
+          "name": "externalID",
+          "type": "String!"
+        },
+        {
+          "name": "name",
+          "type": "String!"
+        },
+        {
+          "name": "displayName",
+          "type": "String!"
+        },
+        {
+          "name": "code",
+          "type": "String!"
+        },
+        {
+          "name": "locationType",
+          "type": "LocationType!"
+        },
+        {
+          "name": "isListedPublic",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isArchived",
+          "type": "Boolean!"
+        },
+        {
+          "name": "tags",
+          "type": "[String!]!"
+        },
+        {
+          "name": "phone",
+          "type": "String!"
+        },
+        {
+          "name": "mapURL",
+          "type": "URL"
+        },
+        {
+          "name": "email",
+          "type": "String!"
+        },
+        {
+          "name": "address",
+          "type": "LocationAddress"
+        },
+        {
+          "name": "isRetailLocation",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isLocalPickupEnabled",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isInventoryAllocationRequestEnabled",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isClosed",
+          "type": "Boolean!"
+        },
+        {
+          "name": "closedAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "pointApplicationType",
+          "type": "PointApplicationType!"
+        },
+        {
+          "name": "note",
+          "type": "String!"
+        },
+        {
+          "name": "locationGroups",
+          "type": "LocationGroupConnection!"
+        },
+        {
+          "name": "inLocationGroups",
+          "type": "Boolean!"
+        },
+        {
+          "name": "locationGroupCount",
+          "type": "Int!"
+        },
+        {
+          "name": "inventoryLevel",
+          "type": "InventoryLevel!"
+        },
+        {
+          "name": "hasActiveInventory",
+          "type": "Boolean!"
+        },
+        {
+          "name": "totalVariants",
+          "type": "Int!"
+        },
+        {
+          "name": "retailStaffMemberByExternalID",
+          "type": "RetailStaffMember"
+        },
+        {
+          "name": "retailStaffMemberByCode",
+          "type": "RetailStaffMember"
+        },
+        {
+          "name": "retailStaffMembers",
+          "type": "RetailStaffMemberConnection!"
+        },
+        {
+          "name": "units",
+          "type": "LocationUnitConnection!"
+        },
+        {
+          "name": "orders",
+          "type": "OrderConnection!"
+        },
+        {
+          "name": "draftOrders",
+          "type": "DraftOrderConnection!"
+        },
+        {
+          "name": "metafield",
+          "type": "Metafield"
+        },
+        {
+          "name": "metafieldDefinitions",
+          "type": "MetafieldDefinitionConnection!"
+        },
+        {
+          "name": "shopifyID",
+          "type": "ShopifyID"
+        },
+        {
+          "name": "createdAt",
+          "type": "DateTime!"
+        },
+        {
+          "name": "updatedAt",
+          "type": "DateTime!"
+        }
+      ],
+      "inputFields": [],
+      "enumValues": [],
+      "possibleTypes": []
+    },
+    "ProductVariant": {
+      "kind": "OBJECT",
+      "name": "ProductVariant",
+      "fields": [
+        {
+          "name": "id",
+          "type": "ID!"
+        },
+        {
+          "name": "externalID",
+          "type": "String!"
+        },
+        {
+          "name": "shopifyID",
+          "type": "ShopifyID"
+        },
+        {
+          "name": "product",
+          "type": "Product!"
+        },
+        {
+          "name": "title",
+          "type": "String!"
+        },
+        {
+          "name": "price",
+          "type": "Money!"
+        },
+        {
+          "name": "index",
+          "type": "Int!"
+        },
+        {
+          "name": "inventoryPolicy",
+          "type": "ProductVariantInventoryPolicy!"
+        },
+        {
+          "name": "barcode",
+          "type": "String!"
+        },
+        {
+          "name": "jan",
+          "type": "String!"
+        },
+        {
+          "name": "ean",
+          "type": "String!"
+        },
+        {
+          "name": "upc",
+          "type": "String!"
+        },
+        {
+          "name": "status",
+          "type": "ProductVariantStatus!"
+        },
+        {
+          "name": "selectedOptions",
+          "type": "[ProductVariantSelectedOption!]!"
+        },
+        {
+          "name": "catalogProductVariant",
+          "type": "CatalogProductVariant"
+        },
+        {
+          "name": "catalogProductVariants",
+          "type": "CatalogProductVariantConnection!"
+        },
+        {
+          "name": "inCatalogs",
+          "type": "Boolean!"
+        },
+        {
+          "name": "inventoryItem",
+          "type": "InventoryItem!"
+        },
+        {
+          "name": "locationAvailability",
+          "type": "LocationAvailability!"
+        },
+        {
+          "name": "metafield",
+          "type": "Metafield"
+        },
+        {
+          "name": "metafieldDefinitions",
+          "type": "MetafieldDefinitionConnection!"
+        },
+        {
+          "name": "images",
+          "type": "ImageConnection!"
+        },
+        {
+          "name": "featuredImage",
+          "type": "Image"
+        },
+        {
+          "name": "imageCount",
+          "type": "Int!"
+        },
+        {
+          "name": "isLocalPickupAvailable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "sellingPrice",
+          "type": "ProductVariantSellingPrice!"
+        }
+      ],
+      "inputFields": [],
+      "enumValues": [],
+      "possibleTypes": []
+    },
+    "OrderLineItem": {
+      "kind": "OBJECT",
+      "name": "OrderLineItem",
+      "fields": [
+        {
+          "name": "id",
+          "type": "ID!"
+        },
+        {
+          "name": "externalID",
+          "type": "String!"
+        },
+        {
+          "name": "source",
+          "type": "OrderLineItemSource!"
+        },
+        {
+          "name": "index",
+          "type": "Int!"
+        },
+        {
+          "name": "productTitle",
+          "type": "String!"
+        },
+        {
+          "name": "productVariantTitle",
+          "type": "String!"
+        },
+        {
+          "name": "sku",
+          "type": "String!"
+        },
+        {
+          "name": "product",
+          "type": "Product"
+        },
+        {
+          "name": "productVariant",
+          "type": "ProductVariant"
+        },
+        {
+          "name": "replacedProductVariant",
+          "type": "ProductVariant"
+        },
+        {
+          "name": "quantity",
+          "type": "Int!"
+        },
+        {
+          "name": "currentQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "nonFulfillableQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "refundableQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "unfulfilledRefundableQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "returnableQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "hasDiscounts",
+          "type": "Boolean!"
+        },
+        {
+          "name": "productVariantPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "price",
+          "type": "Money!"
+        },
+        {
+          "name": "priceAfterTaxes",
+          "type": "Money!"
+        },
+        {
+          "name": "currentPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentPriceAfterTaxes",
+          "type": "Money!"
+        },
+        {
+          "name": "unitPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "discountedUnitPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "totalDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "unitDiscountPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentDiscountAllocationPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentPointApplicationAllocationPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "hasPointApplicationAllocation",
+          "type": "Boolean!"
+        },
+        {
+          "name": "totalTaxPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentTotalTaxPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "subtotalPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "currentSubtotalPrice",
+          "type": "Money!"
+        },
+        {
+          "name": "subtotalPriceAfterAllOrderDiscounts",
+          "type": "Money!"
+        },
+        {
+          "name": "currentSubtotalPriceAfterAllOrderDiscounts",
+          "type": "Money!"
+        },
+        {
+          "name": "discountAllocations",
+          "type": "[OrderDiscountAllocation!]!"
+        },
+        {
+          "name": "discounts",
+          "type": "[OrderLineItemDiscount!]!"
+        },
+        {
+          "name": "pointApplicationAllocation",
+          "type": "OrderPointApplicationAllocation"
+        },
+        {
+          "name": "taxLines",
+          "type": "[TaxLine!]!"
+        },
+        {
+          "name": "attributes",
+          "type": "[OrderLineItemAttribute!]!"
+        },
+        {
+          "name": "isSale",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isExchange",
+          "type": "Boolean!"
+        },
+        {
+          "name": "isBackOrder",
+          "type": "Boolean!"
+        },
+        {
+          "name": "exchangedFromOrderLineItem",
+          "type": "OrderLineItem"
+        },
+        {
+          "name": "excludesFromPointCalculation",
+          "type": "Boolean!"
+        },
+        {
+          "name": "metafield",
+          "type": "Metafield"
+        },
+        {
+          "name": "updatedAt",
+          "type": "DateTime!"
+        },
+        {
+          "name": "createdAt",
+          "type": "DateTime!"
+        }
+      ],
+      "inputFields": [],
+      "enumValues": [],
+      "possibleTypes": []
+    },
+    "OrderReturn": {
+      "kind": "OBJECT",
+      "name": "OrderReturn",
+      "fields": [
+        {
+          "name": "id",
+          "type": "ID!"
+        },
+        {
+          "name": "managementCode",
+          "type": "String!"
+        },
+        {
+          "name": "externalID",
+          "type": "String!"
+        },
+        {
+          "name": "order",
+          "type": "Order!"
+        },
+        {
+          "name": "lineItems",
+          "type": "OrderReturnLineItemConnection!"
+        },
+        {
+          "name": "exchangeLineItemCount",
+          "type": "Int!"
+        },
+        {
+          "name": "hasExchangeLineItems",
+          "type": "Boolean!"
+        },
+        {
+          "name": "exchangeLineItems",
+          "type": "OrderExchangeLineItemConnection!"
+        },
+        {
+          "name": "receivable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "completable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "cancellable",
+          "type": "Boolean!"
+        },
+        {
+          "name": "totalQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "totalReceivedQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "status",
+          "type": "OrderReturnStatus!"
+        },
+        {
+          "name": "refunds",
+          "type": "OrderRefundConnection!"
+        },
+        {
+          "name": "exchangeInventoryOutboundOrder",
+          "type": "InventoryOutboundOrder"
+        },
+        {
+          "name": "tenant",
+          "type": "Tenant"
+        },
+        {
+          "name": "createdAt",
+          "type": "DateTime!"
+        },
+        {
+          "name": "cancelledAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "updatedAt",
+          "type": "DateTime!"
+        }
+      ],
+      "inputFields": [],
+      "enumValues": [],
+      "possibleTypes": []
+    },
+    "OrderReturnLineItem": {
+      "kind": "OBJECT",
+      "name": "OrderReturnLineItem",
+      "fields": [
+        {
+          "name": "id",
+          "type": "ID!"
+        },
+        {
+          "name": "externalID",
+          "type": "String!"
+        },
+        {
+          "name": "productVariant",
+          "type": "ProductVariant"
+        },
+        {
+          "name": "orderLineItem",
+          "type": "OrderLineItem!"
+        },
+        {
+          "name": "reason",
+          "type": "String"
+        },
+        {
+          "name": "quantity",
+          "type": "Int!"
+        },
+        {
+          "name": "receivedQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "removedQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "receivableQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "currentQuantity",
+          "type": "Int!"
+        },
+        {
+          "name": "fullReceived",
+          "type": "Boolean!"
+        },
+        {
+          "name": "tenant",
+          "type": "Tenant"
+        }
+      ],
+      "inputFields": [],
+      "enumValues": [],
+      "possibleTypes": []
+    }
+  },
+  "orderCreateMutation": null,
+  "errors": []
+}

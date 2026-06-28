@@ -1,0 +1,203 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e256] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e258]
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - generic [ref=e154]: CRM
+            - listitem [ref=e155]:
+              - link "ディスカウント" [ref=e158] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e161]
+                - generic [ref=e163]: ディスカウント
+            - listitem [ref=e164]:
+              - link "ポイント" [ref=e167] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e170]
+                - generic [ref=e172]: ポイント
+            - listitem [ref=e173]:
+              - link "会員ランク" [ref=e176] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e179]
+                - generic [ref=e182]: 会員ランク
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - generic [ref=e185]: 販売チャネル
+            - listitem [ref=e186]:
+              - link "Shopify" [ref=e189] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e190]: Shopify
+            - listitem [ref=e191]:
+              - link "OmnibusCore" [ref=e194] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e195]: OmnibusCore
+            - listitem [ref=e196]:
+              - link "スマレジ" [ref=e199] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e200]: スマレジ
+            - listitem [ref=e201]:
+              - link "リテールポータル" [ref=e204] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e205]: リテールポータル
+            - listitem [ref=e206]:
+              - generic [ref=e207]:
+                - generic
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "設定" [ref=e212] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e215]
+                - generic [ref=e217]: 設定
+    - main [ref=e221]:
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - status:
+            - paragraph [ref=e263]: 出荷管理。このページの準備が整いました
+          - generic [ref=e265]:
+            - heading "出荷管理" [level=1] [ref=e268]
+            - generic [ref=e272]:
+              - button "インポート" [ref=e275] [cursor=pointer]:
+                - img [ref=e278]
+                - generic [ref=e281]: インポート
+                - img [ref=e284]
+              - button "条件指定でエクスポート" [ref=e288] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e294]: 条件指定でエクスポート
+                - img [ref=e297]
+        - generic [ref=e303]:
+          - generic [ref=e309]:
+            - tablist [ref=e316]:
+              - tab "すべて" [selected] [ref=e317] [cursor=pointer]:
+                - generic [ref=e319]: すべて
+              - tab "保留中 新規 0" [ref=e320] [cursor=pointer]:
+                - generic [ref=e321]
+              - tab "出荷待ち 新規 0" [ref=e326] [cursor=pointer]:
+                - generic [ref=e327]
+              - tab "依頼済み 新規 0" [ref=e332] [cursor=pointer]:
+                - generic [ref=e333]
+              - tab "作業中 新規 0" [ref=e338] [cursor=pointer]:
+                - generic [ref=e339]
+              - tab "欠品・要対応 新規 0" [ref=e344] [cursor=pointer]:
+                - generic [ref=e345]
+              - tab "出荷完了" [ref=e350] [cursor=pointer]:
+                - generic [ref=e352]: 出荷完了
+            - button "検索と絞り込みの結果" [ref=e356] [cursor=pointer]:
+              - generic [ref=e358]:
+                - img [ref=e360]
+                - img [ref=e363]
+          - generic [ref=e368]:
+            - table [ref=e370]:
+              - rowgroup [ref=e371]:
+                - row "すべてのアイテムを選択する 管理番号 作業ステータス 引当ステータス 作成元 出荷場所 アイテム 出荷方法 決済種別 作成日時" [ref=e372]
+              - rowgroup [ref=e399]:
+                - 'row "アイテムを選択する #IO-1025 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月27日 01:01" [ref=e400] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1024 成功 完了 出荷完了 情報 未完了 引当待ち TEST_FAQ_20260624_GU倉庫_ON_092214 1個 配送 - 2026年06月24日 09:49" [ref=e439] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1023 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月22日 08:41" [ref=e478] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1022 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 3個 配送 - 2026年06月21日 14:03" [ref=e517] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1021 成功 完了 出荷完了 情報 未完了 引当待ち TEST_FAQ_DEEP2_202606080343_ロケーション 1個 配送 - 2026年06月21日 13:57" [ref=e556] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1020 成功 完了 出荷完了 成功 完了 引当済み ユニクロ - 銀座店 5個 配送 - 2026年06月21日 12:34" [ref=e595] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1019 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 15個 配送 - 2026年06月21日 12:10" [ref=e634] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1018 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月20日 03:37" [ref=e673] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1017 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:38" [ref=e712] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1016 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:27" [ref=e751] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1015 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月18日 22:25" [ref=e790] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1014 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月18日 22:21" [ref=e824] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1013 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:20" [ref=e858] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1012 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月18日 22:18" [ref=e897] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1011 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:15" [ref=e936] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1010 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:05" [ref=e975] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1009 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月16日 23:19" [ref=e1014] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1008 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月16日 23:05" [ref=e1053] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1007 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月16日 09:26" [ref=e1092] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1006 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月15日 18:11" [ref=e1126] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1005 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月14日 01:24" [ref=e1165] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1004 成功 完了 出荷完了 警告 未完了 在庫待ち ユニクロ物流倉庫 1個 配送 - 2026年06月12日 08:48" [ref=e1204] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1003 キャンセル済み 情報 未完了 引当待ち ユニクロ - 銀座店 0個 配送 - 2026年06月10日 09:32" [ref=e1243] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1002 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月09日 14:38" [ref=e1277] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1001 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月08日 10:57" [ref=e1316] [cursor=pointer]'
+                - 'row "アイテムを選択する #IO-1000 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月05日 20:20" [ref=e1355] [cursor=pointer]'
+            - navigation "ページネーション" [ref=e1397]:
+              - generic [ref=e1400]:
+                - generic [ref=e1401]
+                - generic [ref=e1402]
+  - region "Notifications alt+T"
+  - alert [ref=e10]

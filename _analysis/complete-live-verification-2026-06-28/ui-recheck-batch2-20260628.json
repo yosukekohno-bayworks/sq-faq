@@ -1,0 +1,3910 @@
+{
+  "generatedAt": "2026-06-27T20:58:37.967539+00:00",
+  "contactEmail": "sq-faq-company-contact-20260627205837@example.com",
+  "errors": [],
+  "productCreate": {
+    "url": "https://www.sqstackstaging.com/admin/products/create",
+    "h1": [
+      "商品を作成する"
+    ],
+    "h2": [
+      "メディア",
+      "バリエーション",
+      "検索エンジンリスティング",
+      "ステータス",
+      "商品分類",
+      "タグ"
+    ],
+    "labels": [
+      "商品コード",
+      "商品名",
+      "説明文",
+      "画像をアップロード",
+      "オプション名",
+      "種別",
+      "オプション値",
+      "コード",
+      "ページタイトル",
+      "メタディスクリプション",
+      "商品タイプ",
+      "製造元",
+      "ブランド"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "追加",
+      "削除",
+      "別のオプションを追加する",
+      "選択",
+      "保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "カタログ",
+        "href": "/admin/catalogs"
+      },
+      {
+        "text": "店舗受取",
+        "href": "/admin/local_pickup_product_variants"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/products"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "商品コード",
+        "placeholder": "7835152003XL180",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "商品名",
+        "placeholder": "半袖Tシャツ",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "説明文",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "label": "画像をアップロード",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "オプション名",
+        "placeholder": "サイズ",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "種別",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "選択してください",
+          "サイズ",
+          "カラー",
+          "その他"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "オプション値",
+        "placeholder": "S",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "コード",
+        "placeholder": "001",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "ページタイトル",
+        "placeholder": "半袖Tシャツ",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "メタディスクリプション",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "",
+        "placeholder": "",
+        "value": "DRAFT",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "下書き",
+          "公開",
+          "非公開"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "商品タイプ",
+        "placeholder": "Tシャツ",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "製造元",
+        "placeholder": "ユニクロ",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "ブランド",
+        "placeholder": "選択してください",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 商品を作成する。このページの準備が整いました 商品を作成する 商品コード 半角英数字（A〜Z、a〜z、0〜9）、ハイフン（-）、アンダースコア（_）のみご入力ください。 商品名 説明文 0/5000 メディア 画像をアップロード 追加 バリエーション オプション名 種別 選択してください サイズ カラー その他 選択してください オプション値 コード 削除 追加 別のオプションを追加する 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 下書き 公開 非公開 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する"
+  },
+  "productVariantCreate": {
+    "url": "https://www.sqstackstaging.com/admin/products/5407c6bf-092c-5c2f-96a6-fa37fcff594f_Product/variants/create",
+    "h1": [
+      "バリエーションを追加する"
+    ],
+    "h2": [
+      "オプション",
+      "メディア",
+      "価格設定",
+      "在庫",
+      "販売",
+      "配送"
+    ],
+    "labels": [
+      "カラー",
+      "サイズ",
+      "上代",
+      "SKU (最小管理単位)",
+      "メーカーSKU",
+      "在庫を追跡する",
+      "在庫切れの場合でも販売を続ける",
+      "バーコード",
+      "JAN",
+      "EAN",
+      "重量",
+      "単位",
+      "配送を必須にする",
+      "原産国コード",
+      "統計品目 (HS) コード"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "画像を選択する",
+      "作成する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "カタログ",
+        "href": "/admin/catalogs"
+      },
+      {
+        "text": "店舗受取",
+        "href": "/admin/local_pickup_product_variants"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/products"
+      },
+      {
+        "text": "UVカットペーパーブレイドハット",
+        "href": "/admin/products/5407c6bf-092c-5c2f-96a6-fa37fcff594f_Product"
+      },
+      {
+        "text": "",
+        "href": "/admin/products/5407c6bf-092c-5c2f-96a6-fa37fcff594f_Product"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "select",
+        "type": "",
+        "label": "カラー",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "選択してください",
+          "NATURAL",
+          "BEIGE"
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "サイズ",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "選択してください",
+          "ONE SIZE"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "number",
+        "label": "上代",
+        "placeholder": "10000",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "SKU (最小管理単位)",
+        "placeholder": "9999990000T001",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "メーカーSKU",
+        "placeholder": "9999990000T001",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "在庫を追跡する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "在庫切れの場合でも販売を続ける",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "バーコード",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "JAN",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "EAN",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "number",
+        "label": "重量",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "単位",
+        "placeholder": "",
+        "value": "KILOGRAMS",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "グラム",
+          "キログラム",
+          "オンス",
+          "ポンド"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "配送を必須にする",
+        "placeholder": "",
+        "value": "on",
+        "checked": true,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "原産国コード",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "選択してください",
+          "アルバ",
+          "アンティグア・バーブーダ",
+          "中国",
+          "レソト",
+          "マダガスカル",
+          "マカオ",
+          "モーリシャス",
+          "サンマリノ",
+          "バーレーン",
+          "カナダ",
+          "アルジェリア",
+          "イタリア",
+          "カザフスタン",
+          "ロシア",
+          "セントビンセント・グレナディーン",
+          "フランス領ギアナ",
+          "ナミビア",
+          "ニジェール",
+          "フランス領ポリネシア",
+          "アルメニア",
+          "中央アフリカ共和国",
+          "マン島",
+          "パナマ",
+          "エルサルバドル",
+          "ボツワナ",
+          "ベラルーシ",
+          "ドミニカ国",
+          "ドミニカ共和国",
+          "エストニア",
+          "イラン",
+          "オランダ",
+          "スウェーデン",
+          "オーランド諸島",
+          "イギリス領インド洋地域",
+          "日本",
+          "ペルー",
+          "ウガンダ",
+          "サウスジョージア・サウスサンドウィッチ諸島",
+          "セントルシア",
+          "ニカラグア",
+          "ノルウェー",
+          "合衆国領有小離島",
+          "バルバドス",
+          "キュラソー",
+          "フィジー",
+          "マルタ",
+          "ナイジェリア",
+          "スヴァールバル諸島およびヤンマイエン島",
+          "シエラレオネ",
+          "トリスタン・ダ・クーニャ",
+          "フェロー諸島",
+          "香港",
+          "クロアチア",
+          "モンテネグロ",
+          "イギリス",
+          "ニューカレドニア",
+          "南スーダン",
+          "ブルネイ",
+          "ブータン",
+          "デンマーク",
+          "エリトリア",
+          "マレーシア",
+          "バチカン市国",
+          "ブルンジ",
+          "ガンビア",
+          "モンゴル",
+          "セネガル",
+          "アメリカ合衆国",
+          "その他の地域",
+          "オーストラリア",
+          "ハード島とマクドナルド諸島",
+          "韓国",
+          "モロッコ",
+          "北マケドニア",
+          "タジキスタン",
+          "タンザニア",
+          "ベトナム",
+          "サン・バルテルミー",
+          "ココス諸島",
+          "スイス",
+          "クック諸島",
+          "コロンビア",
+          "ガーナ",
+          "カタール",
+          "ガボン",
+          "ラトビア",
+          "トルクメニスタン",
+          "イエメン",
+          "ベルギー",
+          "ギニアビサウ",
+          "アイルランド",
+          "キルギス",
+          "フィリピン",
+          "アフガニスタン",
+          "赤道ギニア",
+          "セーシェル",
+          "シリア",
+          "台湾",
+          "ベネズエラ",
+          "コソボ",
+          "アンゴラ",
+          "バングラデシュ",
+          "インドネシア",
+          "グリーンランド",
+          "バミューダ",
+          "イラク",
+          "アイスランド",
+          "トーゴ",
+          "チュニジア",
+          "スロベニア",
+          "ボスニア・ヘルツェゴビナ",
+          "ポルトガル",
+          "スリナム",
+          "モルドバ",
+          "スロバキア",
+          "ソマリア",
+          "アセンション島",
+          "アンドラ",
+          "ジブラルタル",
+          "ピトケアン諸島",
+          "チャド",
+          "バヌアツ",
+          "グアドループ",
+          "セントヘレナ",
+          "アンギラ",
+          "スペイン",
+          "エスワティニ",
+          "トリニダード・トバゴ",
+          "ベナン",
+          "ルクセンブルク",
+          "イギリス領ヴァージン諸島",
+          "南アフリカ",
+          "ブルガリア",
+          "イスラエル",
+          "マラウイ",
+          "タークス・カイコス諸島",
+          "クリスマス島",
+          "ガイアナ",
+          "ヨルダン",
+          "ポーランド",
+          "リベリア",
+          "オマーン",
+          "コンゴ共和国",
+          "西サハラ",
+          "エチオピア",
+          "コモロ",
+          "モルディブ",
+          "パレスチナ",
+          "ルーマニア",
+          "ジンバブエ",
+          "オランダ領アンティル",
+          "ウズベキスタン",
+          "ウォリス・フツナ",
+          "ブルキナファソ",
+          "ドイツ",
+          "マルティニーク",
+          "ナウル",
+          "スーダン",
+          "セントクリストファー・ネイビス",
+          "北朝鮮",
+          "東ティモール",
+          "ケイマン諸島",
+          "モーリタニア",
+          "ジブチ",
+          "アルバニア",
+          "コスタリカ",
+          "ハイチ",
+          "ブーベ島",
+          "チェコ",
+          "パプアニューギニア",
+          "タイ",
+          "トンガ",
+          "エクアドル",
+          "フランス南方・南極地域",
+          "マヨット",
+          "ボリビア",
+          "コートジボワール",
+          "キプロス",
+          "インド",
+          "ケニア",
+          "レバノン",
+          "サウジアラビア",
+          "ソロモン諸島",
+          "カメルーン",
+          "ギニア",
+          "キリバス",
+          "モザンビーク",
+          "シンガポール",
+          "ツバル",
+          "サモア",
+          "ブラジル",
+          "コンゴ民主共和国",
+          "パキスタン",
+          "トケラウ",
+          "アルゼンチン",
+          "オーストリア",
+          "アゼルバイジャン",
+          "ウルグアイ",
+          "バハマ",
+          "キューバ",
+          "クウェート",
+          "リビア",
+          "マリ",
+          "ルワンダ",
+          "フランス",
+          "リヒテンシュタイン",
+          "ウクライナ",
+          "オランダ領カリブ",
+          "ニウエ",
+          "サンピエール・ミクロン",
+          "ベリーズ",
+          "ジャマイカ",
+          "アラブ首長国連邦",
+          "チリ",
+          "グレナダ",
+          "ラオス",
+          "モナコ",
+          "モントセラト",
+          "メキシコ",
+          "シント・マールテン",
+          "ジョージア",
+          "ガーンジー",
+          "ギリシャ",
+          "ホンジュラス",
+          "ハンガリー",
+          "ジャージー",
+          "サン・マルタン",
+          "セルビア",
+          "サントメ・プリンシペ",
+          "カンボジア",
+          "パラグアイ",
+          "ネパール",
+          "カーボベルデ",
+          "エジプト",
+          "グアテマラ",
+          "リトアニア",
+          "ミャンマー",
+          "トルコ",
+          "ノーフォーク島",
+          "ザンビア",
+          "フォークランド諸島",
+          "スリランカ",
+          "ニュージーランド",
+          "フィンランド",
+          "レユニオン"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "統計品目 (HS) コード",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 。このページの準備が整いました UVカットペーパーブレイドハット バリエーションを追加する UVカットペーパーブレイドハット 2件のバリエーション NATURAL / ONE SIZE BEIGE / ONE SIZE オプション カラー 選択してください NATURAL BEIGE 選択してください サイズ 選択してください ONE SIZE 選択してください メディア 画像を選択する 価格設定 上代 円 在庫 SKU (最小管理単位) メーカーSKU 在庫を追跡する 在庫切れの場合でも販売を続ける 販売 バーコード JAN EAN 配送 重量 単位 グラム キログラム オンス ポンド キログラム 配送を必須にする 関税情報 原産国コード 選択してください アルバ アンティグア・バーブーダ 中国 レソト マダガスカル マカオ モーリシャス サンマリノ バーレーン カナダ アルジェリア イタリア カザフスタン ロシア セントビンセント・グレナディーン フランス領ギアナ ナミビア ニジェール フランス領ポリネシア アルメニア 中央アフリカ共和国 マン島 パナマ エルサルバドル ボツワナ ベラルーシ ドミニカ国 ドミニカ共和国 エストニア イラン オランダ スウェーデン オーランド諸島 イギリス領インド洋地域 日本 ペルー ウガンダ サウスジョージア・サウスサンドウィッチ諸島 セントルシア ニカラグア ノルウェー 合衆国領有小離島 バルバドス キュラソー フィジー マルタ ナイジェリア スヴァールバル諸島およびヤンマイエン島 シエラレオネ トリスタン・ダ・クーニャ フェロー諸島 香港 クロアチア モンテネグロ イギリス ニューカレドニア 南スーダン ブルネイ ブータン デンマーク エリトリア マレーシア バチカン市国 ブルンジ ガンビア モンゴル セネガル アメリカ合衆国 その他の地域 オーストラリア ハード島とマクドナルド諸島 韓国 モロッコ 北マケドニア タジキスタン タンザニア ベトナム サン・バルテルミー ココス諸島 スイス クック諸島 コロンビア ガーナ カタール ガボン ラトビア トルクメニスタン イエメン ベルギー ギニアビサウ アイルランド キルギス フィリピン アフガニスタン 赤道ギニア セーシェル シリア 台湾 ベネズエラ コソボ アンゴラ バングラデシュ インドネシア グリーンランド バミューダ イラク アイスランド トーゴ チュニジア スロベニア ボスニア・ヘルツェゴビナ ポルトガル スリナム モルドバ スロバキア ソマリア アセンション島 アンドラ ジブラルタル ピトケアン諸島 チャド バヌアツ グアドループ セントヘレナ アンギラ スペイン エスワティニ トリニダード・トバゴ ベナン ルクセンブルク イギリス領ヴァージン諸島 南アフリカ ブルガリア イスラエル マラウイ タークス・カイコス諸島 クリスマス島 ガイアナ ヨルダン ポーランド リベリア オマーン コンゴ共和国 西サハラ エチオピア コモロ モルディブ パレスチナ ルーマニア ジンバブエ オランダ領アンティル ウズベキスタン ウォリス・フツナ ブルキナファソ ドイツ マルティニーク ナウル スーダン セントクリストファー・ネイビス 北朝鮮 東ティモール ケイマン諸島 モーリタニア ジブチ アルバニア コスタリカ ハイチ ブーベ島 チェコ パプアニューギニア タイ トンガ エクアドル フランス南方・南極地域 マヨット ボリビア コートジボワール キプロス インド ケニア レバノン サウジアラビア ソロモン諸島 カメルーン ギニア キリバス モザンビーク シンガポール ツバル サモア ブラジル コンゴ民主共和国 パキスタン トケラウ アルゼンチン オーストリア アゼルバイジャン ウルグアイ バハマ キューバ クウェート リビア マリ ルワンダ フランス リヒテンシュタイン ウクライナ オランダ領カリブ ニウエ サンピエール・ミクロン ベリーズ ジャマイカ アラブ首長国連邦 チリ グレナダ ラオス モナコ モントセラト メキシコ シント・マールテン ジョージア ガーンジー ギリシャ ホンジュラス ハンガリー ジャージー サン・マルタン セルビア サントメ・プリンシペ カンボジア パラグアイ ネパール カーボベルデ エジプト グアテマラ リトアニア ミャンマー トルコ ノーフォーク島 ザンビア フォークランド諸島 スリランカ ニュージーランド フィンランド レユニオン 選択してください 統計品目 (HS) コード 作成する"
+  },
+  "variantCheckboxes": {
+    "trackInventory": {
+      "found": true,
+      "label": "在庫を追跡する",
+      "checked": false,
+      "disabled": false,
+      "value": "on"
+    },
+    "continueSelling": {
+      "found": true,
+      "label": "在庫切れの場合でも販売を続ける",
+      "checked": false,
+      "disabled": false,
+      "value": "on"
+    },
+    "requiresShipping": {
+      "found": true,
+      "label": "配送を必須にする",
+      "checked": true,
+      "disabled": false,
+      "value": "on"
+    }
+  },
+  "variantUnitSelect": {
+    "found": false,
+    "label": "SKU (最小管理単位)"
+  },
+  "translationTop": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation",
+    "h1": [
+      "翻訳"
+    ],
+    "h2": [
+      "未選択：翻訳ルールを選択するとリソースを選択できます",
+      "商品"
+    ],
+    "labels": [],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "選択してください",
+      "その他の操作"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "ルールを管理する",
+        "href": "/admin/settings/translation/translation_rules"
+      },
+      {
+        "text": "ルールを管理する",
+        "href": "/admin/settings/translation/translation_rules"
+      }
+    ],
+    "controls": [],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳。このページの準備が整いました 翻訳 選択してください ルールを管理する 未選択：翻訳ルールを選択するとリソースを選択できます 商品 商品"
+  },
+  "translationRulesList": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+    "h1": [
+      "翻訳ルール"
+    ],
+    "h2": [],
+    "labels": [
+      "すべてのアイテムを選択する",
+      "すべての3のアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "前へ",
+      "次へ"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/translation"
+      },
+      {
+        "text": "翻訳ルールを作成",
+        "href": "/admin/settings/translation/translation_rules/create"
+      },
+      {
+        "text": "Test_中国語",
+        "href": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_翻訳ルール_英語",
+        "href": "/admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_英語翻訳ルール",
+        "href": "/admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "すべてのアイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "すべての3のアイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "すべてのアイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "アイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "アイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "アイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルール。このページの準備が整いました 翻訳ルール 翻訳ルールを作成 すべてのアイテムを選択する 名前 言語 作成日時 アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33 アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41 アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+  },
+  "translationDetailHref": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule",
+  "translationRuleCreate": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/create",
+    "h1": [
+      "翻訳ルールを作成する"
+    ],
+    "h2": [
+      "各種設定"
+    ],
+    "labels": [
+      "名前",
+      "言語",
+      "翻訳データを自動で作成する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/translation/translation_rules"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "名前",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "言語",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "選択してください",
+          "日本語",
+          "英語",
+          "中国語（簡体字）",
+          "中国語（繁体字）",
+          "韓国語",
+          "スペイン語",
+          "フランス語",
+          "ドイツ語",
+          "ヒンディー語",
+          "タイ語"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "翻訳データを自動で作成する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルールを作成する。このページの準備が整いました 翻訳ルールを作成する 名前 言語 選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 選択してください 各種設定 翻訳データを自動で作成する 保存する"
+  },
+  "translationRuleDetail": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule",
+    "h1": [
+      "Test_中国語"
+    ],
+    "h2": [
+      "各種設定",
+      "商品",
+      "カスタマイズ項目を追加する",
+      "商品オプション",
+      "商品オプション値",
+      "メタフィールド"
+    ],
+    "labels": [
+      "名前",
+      "言語",
+      "翻訳データを自動で作成する",
+      "親プロンプト",
+      "カスタムプロンプト"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/translation/translation_rules"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "名前",
+        "placeholder": "",
+        "value": "Test_中国語",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "言語",
+        "placeholder": "",
+        "value": "ZH_CN",
+        "checked": null,
+        "disabled": true,
+        "readOnly": false,
+        "options": [
+          "日本語",
+          "英語",
+          "中国語（簡体字）",
+          "中国語（繁体字）",
+          "韓国語",
+          "スペイン語",
+          "フランス語",
+          "ドイツ語",
+          "ヒンディー語",
+          "タイ語"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "翻訳データを自動で作成する",
+        "placeholder": "",
+        "value": "on",
+        "checked": true,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "親プロンプト",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "カスタムプロンプト",
+        "placeholder": "例）商品の説明文の翻訳は150字以内にまとめてください",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "親プロンプト",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "カスタムプロンプト",
+        "placeholder": "例）商品オプションの翻訳は150字以内にまとめてください",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "親プロンプト",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "カスタムプロンプト",
+        "placeholder": "例）商品オプション値の翻訳は150字以内にまとめてください",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "親プロンプト",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "カスタムプロンプト",
+        "placeholder": "例）メタフィールドの翻訳は150字以内にまとめてください",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 Test_中国語。このページの準備が整いました Test_中国語 名前 言語 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 中国語（簡体字） 各種設定 翻訳データを自動で作成する 商品 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 商品オプション 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 商品オプション値 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト メタフィールド 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 保存する"
+  },
+  "measurementRulesList": {
+    "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules",
+    "h1": [
+      "採寸ルール"
+    ],
+    "h2": [],
+    "labels": [
+      "すべての5のアイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "前へ",
+      "次へ"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "採寸ルールを作成する",
+        "href": "/admin/settings/product_measurement_rules/create"
+      },
+      {
+        "text": "TEST_MEASURE_20260627_0439",
+        "href": "/admin/settings/product_measurement_rules/50bec65a-f55f-53c6-9a3e-b4496f09d1ba_ProductMeasurementRule"
+      },
+      {
+        "text": "TEST_FAQ_20260624_MEASURE_CRUD_093821",
+        "href": "/admin/settings/product_measurement_rules/c3cce272-31c9-50c6-9af2-95e7be3ec25a_ProductMeasurementRule"
+      },
+      {
+        "text": "TEST_FAQ_COVERAGE_20260615_159330_採寸",
+        "href": "/admin/settings/product_measurement_rules/c0b14297-a257-5868-a913-5b05b199f8f6_ProductMeasurementRule"
+      },
+      {
+        "text": "TEST_FAQ_DEEP_202606080340_採寸ルール",
+        "href": "/admin/settings/product_measurement_rules/f1988cf7-18f4-52cf-9463-6a4694268e7f_ProductMeasurementRule"
+      },
+      {
+        "text": "TEST_FAQ_採寸ルール_トップス",
+        "href": "/admin/settings/product_measurement_rules/aec6b152-ad7d-5976-9340-a298af70daf0_ProductMeasurementRule"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "すべての5のアイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": true,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 採寸ルール。このページの準備が整いました 採寸ルール 採寸ルールを作成する ルール名 単位 採寸項目 TEST_MEASURE_20260627_0439 センチメートル 肩幅 / 身幅 / 着丈 / 袖丈 / 裾幅 TEST_FAQ_20260624_MEASURE_CRUD_093821 センチメートル 肩幅 TEST_FAQ_COVERAGE_20260615_159330_採寸 センチメートル 肩幅 TEST_FAQ_DEEP_202606080340_採寸ルール センチメートル 肩幅 TEST_FAQ_採寸ルール_トップス センチメートル 肩幅"
+  },
+  "measurementDetailHref": "/admin/settings/product_measurement_rules/50bec65a-f55f-53c6-9a3e-b4496f09d1ba_ProductMeasurementRule",
+  "measurementRuleCreate": {
+    "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/create",
+    "h1": [
+      "採寸ルールを作成する"
+    ],
+    "h2": [
+      "基本設定",
+      "採寸項目"
+    ],
+    "labels": [
+      "ルール名",
+      "採寸単位",
+      "採寸項目1"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "採寸項目を追加",
+      "保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/product_measurement_rules"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "ルール名",
+        "placeholder": "トップス",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "採寸単位",
+        "placeholder": "",
+        "value": "NONE",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "なし",
+          "センチメートル"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "採寸項目1",
+        "placeholder": "肩幅",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": true,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 採寸ルールを作成する。このページの準備が整いました 採寸ルールを作成する 基本設定 ルール名 採寸単位 なし センチメートル なし 採寸項目 最大5件まで追加できます 採寸項目1 採寸項目を追加 保存する"
+  },
+  "measurementRuleDetail": {
+    "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/50bec65a-f55f-53c6-9a3e-b4496f09d1ba_ProductMeasurementRule",
+    "h1": [
+      "採寸ルール"
+    ],
+    "h2": [
+      "基本設定",
+      "採寸項目"
+    ],
+    "labels": [
+      "ルール名",
+      "採寸単位",
+      "採寸項目1",
+      "採寸項目2",
+      "採寸項目3",
+      "採寸項目4",
+      "採寸項目5"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/product_measurement_rules"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "ルール名",
+        "placeholder": "",
+        "value": "TEST_MEASURE_20260627_0439",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "採寸単位",
+        "placeholder": "",
+        "value": "センチメートル",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "採寸項目1",
+        "placeholder": "",
+        "value": "肩幅",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "採寸項目2",
+        "placeholder": "",
+        "value": "身幅",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "採寸項目3",
+        "placeholder": "",
+        "value": "着丈",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "採寸項目4",
+        "placeholder": "",
+        "value": "袖丈",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "採寸項目5",
+        "placeholder": "",
+        "value": "裾幅",
+        "checked": null,
+        "disabled": false,
+        "readOnly": true,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": true,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 採寸ルール。このページの準備が整いました 採寸ルール TEST_MEASURE_20260627_0439 基本設定 ルール名 採寸単位 採寸項目 採寸項目1 採寸項目2 採寸項目3 採寸項目4 採寸項目5"
+  },
+  "productDetailForMeasurementSearch": {
+    "url": "https://www.sqstackstaging.com/admin/products/5407c6bf-092c-5c2f-96a6-fa37fcff594f_Product",
+    "h1": [
+      "UVカットペーパーブレイドハット"
+    ],
+    "h2": [
+      "商品コード",
+      "メディア（3件）",
+      "バリエーション",
+      "検索エンジンリスティング",
+      "ステータス",
+      "商品分類",
+      "タグ"
+    ],
+    "labels": [
+      "商品名",
+      "説明文",
+      "画像をアップロード",
+      "すべてのアイテムを選択する",
+      "すべての2のアイテムを選択する",
+      "アイテムを選択する",
+      "ページタイトル",
+      "メタディスクリプション",
+      "商品タイプ",
+      "製造元",
+      "ブランド"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "その他の操作",
+      "追加",
+      "カラーを展開する",
+      "サイズを展開する",
+      "選択",
+      "保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "カタログ",
+        "href": "/admin/catalogs"
+      },
+      {
+        "text": "店舗受取",
+        "href": "/admin/local_pickup_product_variants"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/products"
+      },
+      {
+        "text": "バリエーションを追加する",
+        "href": "/admin/products/5407c6bf-092c-5c2f-96a6-fa37fcff594f_Product/variants/create"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "商品名",
+        "placeholder": "半袖Tシャツ",
+        "value": "UVカットペーパーブレイドハット",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "説明文",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "label": "画像をアップロード",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "すべてのアイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "すべての2のアイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "すべてのアイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "アイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "アイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "ページタイトル",
+        "placeholder": "半袖Tシャツ",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "text",
+        "label": "メタディスクリプション",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "",
+        "placeholder": "",
+        "value": "ACTIVE",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "公開中",
+          "下書き"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "商品タイプ",
+        "placeholder": "Tシャツ",
+        "value": "帽子・キャップ・ハット",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "製造元",
+        "placeholder": "ユニクロ",
+        "value": "UNIQLO",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "ブランド",
+        "placeholder": "選択してください",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 UVカットペーパーブレイドハット。このページの準備が整いました UVカットペーパーブレイドハット 成功 公開中 その他の操作 商品コード 482787 商品名 説明文 209/5000 メディア（3件） 画像をアップロード 追加 バリエーション バリエーションを追加する カラー NATURAL BEIGE サイズ ONE SIZE すべてのアイテムを選択する バリエーション 価格 アイテムを選択する NATURAL / ONE SIZE SKU: 482787-30-ONE ￥2,900 アイテムを選択する BEIGE / ONE SIZE SKU: 482787-32-ONE ￥2,900 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 公開中 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する"
+  },
+  "saleLimitCreateBeforeSave": {
+    "url": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create",
+    "h1": [
+      "販売上限ルールを作成する"
+    ],
+    "h2": [],
+    "labels": [
+      "販売上限ルール名"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "販売価格",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "予約販売",
+        "href": "/admin/inventory_back_order_rules"
+      },
+      {
+        "text": "販売上限",
+        "href": "/admin/inventory_sale_limit_rules"
+      },
+      {
+        "text": "販売閾値",
+        "href": "/admin/inventory_threshold_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/inventory_sale_limit_rules"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "販売上限ルール名",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売上限ルールを作成する。このページの準備が整いました 販売上限ルールを作成する 販売上限ルール名 チャネル 保存する"
+  },
+  "saleLimitCreateAfterEmptySave": {
+    "url": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules/create",
+    "h1": [
+      "販売上限ルールを作成する"
+    ],
+    "h2": [],
+    "labels": [
+      "販売上限ルール名"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "販売価格",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "予約販売",
+        "href": "/admin/inventory_back_order_rules"
+      },
+      {
+        "text": "販売上限",
+        "href": "/admin/inventory_sale_limit_rules"
+      },
+      {
+        "text": "販売閾値",
+        "href": "/admin/inventory_threshold_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/inventory_sale_limit_rules"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "販売上限ルール名",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売上限ルールを作成する。このページの準備が整いました 販売上限ルールを作成する 販売上限ルール名 販売上限ルール名を入力してください チャネル チャネルを選択してください 保存する"
+  },
+  "yamatoB2ExportForm": {
+    "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders/export/yamato_b2_cloud",
+    "h1": [
+      "条件指定でヤマトB2クラウドのCSVをエクスポートする"
+    ],
+    "h2": [
+      "エクスポート完了後、メールにて以下のダウンロードリンクをお知らせいたします"
+    ],
+    "labels": [
+      "開始日時",
+      "終了日時",
+      "配送先 (国)",
+      "決済方法",
+      "出荷作業ステータス",
+      "注文タグ（含む）",
+      "注文タグ（除外）",
+      "CSVの出力後に出荷指示のステータスを出荷作業中に変更する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "実行する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/inventory_outbound_orders"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "datetime-local",
+        "label": "開始日時",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "datetime-local",
+        "label": "終了日時",
+        "placeholder": "",
+        "value": "2026-06-28T05:59",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "配送先 (国)",
+        "placeholder": "日本",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "決済方法",
+        "placeholder": "",
+        "value": "ALL",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "すべての決済",
+          "代引きのみ",
+          "代引き以外の決済"
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "label": "出荷作業ステータス",
+        "placeholder": "",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": [
+          "選択してください",
+          "指定しない",
+          "出荷待ち",
+          "保留中",
+          "依頼済み",
+          "作業中",
+          "欠品・要対応",
+          "キャンセル済み",
+          "出荷完了"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "注文タグ（含む）",
+        "placeholder": "例: priority",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "注文タグ（除外）",
+        "placeholder": "例: test",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "CSVの出力後に出荷指示のステータスを出荷作業中に変更する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": true
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 条件指定でヤマトB2クラウドのCSVをエクスポートする。このページの準備が整いました 条件指定でヤマトB2クラウドのCSVをエクスポートする エクスポート完了後、メールにて以下のダウンロードリンクをお知らせいたします ヤマトB2クラウド取り込み用CSV 同梱する納品書PDF 開始日時 出荷指示の絞り込みを開始する日時を入力してください 終了日時 出荷指示の絞り込みを終了する日時を入力してください 配送先 (国) 決済方法 すべての決済 代引きのみ 代引き以外の決済 すべての決済 出荷作業ステータス 選択してください 指定しない 出荷待ち 保留中 依頼済み 作業中 欠品・要対応 キャンセル済み 出荷完了 選択してください 特定の出荷作業ステータスで絞り込みたい場合に選択してください 注文タグ（含む） 入力されたタグを含む出荷指示のみが対象になります 注文タグ（除外） 入力されたタグを含まない出荷指示のみが対象になります。 CSVの出力後に出荷指示のステータスを出荷作業中に変更する 実行する"
+  },
+  "yamatoB2Selects": {
+    "payment": {
+      "found": true,
+      "label": "決済方法",
+      "value": "ALL",
+      "disabled": false,
+      "options": [
+        "すべての決済",
+        "代引きのみ",
+        "代引き以外の決済"
+      ]
+    },
+    "status": {
+      "found": true,
+      "label": "出荷作業ステータス",
+      "value": "",
+      "disabled": false,
+      "options": [
+        "選択してください",
+        "指定しない",
+        "出荷待ち",
+        "保留中",
+        "依頼済み",
+        "作業中",
+        "欠品・要対応",
+        "キャンセル済み",
+        "出荷完了"
+      ]
+    }
+  },
+  "yamatoB2StatusCheckbox": {
+    "found": true,
+    "label": "CSVの出力後に出荷指示のステータスを出荷作業中に変更する",
+    "checked": false,
+    "disabled": false,
+    "value": "on"
+  },
+  "companyDetailBeforeContact": {
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "h1": [
+      "TEST_FAQ_20260624_COMPANY_102911"
+    ],
+    "h2": [
+      "直近の注文",
+      "ロケーション",
+      "担当者",
+      "TEST_FAQ_20260624_COMPANY_102911",
+      "メモ"
+    ],
+    "labels": [
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "担当者を追加"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "会社",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "ロケーションを追加",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/create"
+      },
+      {
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "アイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました TEST_FAQ_20260624_COMPANY_102911 2026年06月24日から顧客 直近の注文 この会社はまだ注文していません ロケーション ロケーションを追加 ロケーション 売上 注文 TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0 担当者 担当者を追加 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください TEST_FAQ_20260624_COMPANY_102911 会社ID TEST_FAQ_COMP_102911 メモ この会社にはメモがありません。"
+  },
+  "companyContactDialog": {
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "h1": [
+      "TEST_FAQ_20260624_COMPANY_102911"
+    ],
+    "h2": [
+      "直近の注文",
+      "ロケーション",
+      "担当者",
+      "TEST_FAQ_20260624_COMPANY_102911",
+      "メモ",
+      "担当者を作成する"
+    ],
+    "labels": [
+      "アイテムを選択する",
+      "姓",
+      "名",
+      "メールアドレス",
+      "電話番号"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "担当者を追加",
+      "閉じる",
+      "キャンセル",
+      "保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "会社",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "ロケーションを追加",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/create"
+      },
+      {
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "アイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "姓",
+        "placeholder": "山田",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "名",
+        "placeholder": "花子",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "label": "メールアドレス",
+        "placeholder": "you@company.com",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "label": "電話番号",
+        "placeholder": "09012345678",
+        "value": "",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました TEST_FAQ_20260624_COMPANY_102911 2026年06月24日から顧客 直近の注文 この会社はまだ注文していません ロケーション ロケーションを追加 ロケーション 売上 注文 TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0 担当者 担当者を追加 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください TEST_FAQ_20260624_COMPANY_102911 会社ID TEST_FAQ_COMP_102911 メモ この会社にはメモがありません。 担当者を作成する 姓 名 メールアドレス 発注の確認メールなどはこのメールアドレスに配信されます。 電話番号 キャンセル 保存する"
+  },
+  "companyDetailAfterContact": {
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "h1": [
+      "TEST_FAQ_20260624_COMPANY_102911"
+    ],
+    "h2": [
+      "直近の注文",
+      "ロケーション",
+      "担当者",
+      "TEST_FAQ_20260624_COMPANY_102911",
+      "メモ",
+      "担当者を作成する"
+    ],
+    "labels": [
+      "アイテムを選択する",
+      "姓",
+      "名",
+      "メールアドレス",
+      "電話番号"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "担当者を追加",
+      "Close toast",
+      "閉じる",
+      "キャンセル",
+      "読み込み中 保存する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "会社",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "ロケーションを追加",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/create"
+      },
+      {
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+      }
+    ],
+    "controls": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "label": "アイテムを選択する",
+        "placeholder": "",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "姓",
+        "placeholder": "山田",
+        "value": "FAQ",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "名",
+        "placeholder": "花子",
+        "value": "Contact205837",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "label": "メールアドレス",
+        "placeholder": "you@company.com",
+        "value": "sq-faq-company-contact-20260627205837@example.com",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "label": "電話番号",
+        "placeholder": "09012345678",
+        "value": "0312345678",
+        "checked": null,
+        "disabled": false,
+        "readOnly": false,
+        "options": []
+      }
+    ],
+    "bodyIncludes": {
+      "todo": false,
+      "unexpectedError": false,
+      "notFound": false,
+      "measurement": false,
+      "manualTranslationAction": false
+    },
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 担当者を作成しました 担当者を作成する 姓 名 メールアドレス 発注の確認メールなどはこのメールアドレスに配信されます。 電話番号 キャンセル 読み込み中 保存する"
+  },
+  "companyContactHref": null,
+  "facts": {
+    "trackInventoryCheckbox": {
+      "found": true,
+      "label": "在庫を追跡する",
+      "checked": false,
+      "disabled": false,
+      "value": "on"
+    },
+    "continueSellingCheckbox": {
+      "found": true,
+      "label": "在庫切れの場合でも販売を続ける",
+      "checked": false,
+      "disabled": false,
+      "value": "on"
+    },
+    "requiresShippingCheckbox": {
+      "found": true,
+      "label": "配送を必須にする",
+      "checked": true,
+      "disabled": false,
+      "value": "on"
+    },
+    "translationManualActionButtons": [],
+    "measurementDetailReadonlyControls": [
+      {
+        "label": "ルール名",
+        "readOnly": true,
+        "disabled": false
+      },
+      {
+        "label": "採寸単位",
+        "readOnly": true,
+        "disabled": false
+      },
+      {
+        "label": "採寸項目1",
+        "readOnly": true,
+        "disabled": false
+      },
+      {
+        "label": "採寸項目2",
+        "readOnly": true,
+        "disabled": false
+      },
+      {
+        "label": "採寸項目3",
+        "readOnly": true,
+        "disabled": false
+      },
+      {
+        "label": "採寸項目4",
+        "readOnly": true,
+        "disabled": false
+      },
+      {
+        "label": "採寸項目5",
+        "readOnly": true,
+        "disabled": false
+      }
+    ],
+    "productDetailHasMeasurementText": false,
+    "saleLimitEmptySaveErrors": {
+      "name": true,
+      "channel": true
+    },
+    "yamatoPaymentOptions": {
+      "found": true,
+      "label": "決済方法",
+      "value": "ALL",
+      "disabled": false,
+      "options": [
+        "すべての決済",
+        "代引きのみ",
+        "代引き以外の決済"
+      ]
+    },
+    "yamatoStatusOptions": {
+      "found": true,
+      "label": "出荷作業ステータス",
+      "value": "",
+      "disabled": false,
+      "options": [
+        "選択してください",
+        "指定しない",
+        "出荷待ち",
+        "保留中",
+        "依頼済み",
+        "作業中",
+        "欠品・要対応",
+        "キャンセル済み",
+        "出荷完了"
+      ]
+    },
+    "yamatoStatusCheckbox": {
+      "found": true,
+      "label": "CSVの出力後に出荷指示のステータスを出荷作業中に変更する",
+      "checked": false,
+      "disabled": false,
+      "value": "on"
+    },
+    "companyContactDetailOpened": false,
+    "companyContactDetailButtons": []
+  }
+}

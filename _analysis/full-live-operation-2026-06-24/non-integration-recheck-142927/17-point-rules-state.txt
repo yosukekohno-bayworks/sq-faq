@@ -1,0 +1,104 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[109909]<a />
+	コンテンツにスキップ
+[110053]<div />
+[109912]<button data-state=closed expanded=false />
+[109913]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[110070]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[109917]<a />
+		ホーム
+	[109918]<a />
+		商品管理
+	[109919]<a />
+		在庫管理
+	[109920]<a />
+		注文管理
+		[110121]<div />
+	[109921]<a />
+		顧客管理
+	[109922]<a />
+		発注管理
+	[109923]<a />
+		販売設定
+	[109924]<a />
+		会計
+	[109925]<a />
+		分析
+	オペレーション
+	[109926]<a />
+		入荷管理
+		[110205]<div />
+	[109927]<a />
+		出荷管理
+		[110216]<div />
+	[109928]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[109929]<a />
+		ディスカウント
+	[109930]<a />
+		ポイント
+	[109931]<a />
+		キャンペーン
+	[109932]<a />
+		誕生日
+	[109933]<a />
+		利用外商品
+	[109934]<a />
+		失効通知
+	[109888]<a />
+		会員ランク
+	販売チャネル
+	[109894]<a />
+		Shopify
+	[109898]<a />
+		OmnibusCore
+	[109935]<a />
+		スマレジ
+	[109936]<a />
+		リテールポータル
+	[109937]<a />
+		卸売
+	[109938]<a />
+		設定
+注文ポイント。このページの準備が整いました
+注文ポイント
+[109902]<a />
+	付与ルールを作成する
+[110435]<tr />
+	[110436]<th />
+		[110437]<div />
+			[110439]<span />
+				[109947]<span />
+				[110442]<svg /> <!-- SVG content collapsed -->
+			[110444]<span />
+				[110445]<span />
+					すべてのアイテムを選択する
+	[110449]<span />
+		ルール
+	利用テナント数
+[109948]<tr id=4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule />
+	[110456]<td />
+		[109949]<div />
+			[110458]<span />
+				[109951]<span />
+				[110461]<svg /> <!-- SVG content collapsed -->
+			[110463]<span />
+				[110464]<span />
+					アイテムを選択する
+	[110466]<td />
+		[110467]<p />
+			TEST_FAQ_注文ポイント付与ルール
+	[110469]<td />
+		[110470]<p />
+[109953]<button id=previousURL aria-label=前へ disabled=true />
+[109954]<button id=nextURL aria-label=次へ disabled=true />
+[110490]<section aria-label=Notifications alt+T live=polite />
+[109955]<div id=PolarisPortalsContainer />
+[109957]<div id=clerk-components />

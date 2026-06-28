@@ -1,0 +1,1 @@
+url: https://www.sqstackstaging.com/admin/omnibus_core_integrations

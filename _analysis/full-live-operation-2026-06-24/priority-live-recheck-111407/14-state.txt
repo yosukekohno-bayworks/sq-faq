@@ -1,0 +1,86 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[60986]<a />
+	コンテンツにスキップ
+[61109]<div />
+[60989]<button data-state=closed expanded=false />
+[60990]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[61126]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[60994]<a />
+		ホーム
+	[60995]<a />
+		商品管理
+	[60996]<a />
+		在庫管理
+	[60997]<a />
+		注文管理
+		[61177]<div />
+	[60998]<a />
+		顧客管理
+	[60999]<a />
+		発注管理
+	[61000]<a />
+		販売設定
+	[61001]<a />
+		会計
+	[61002]<a />
+		分析
+	オペレーション
+	[61003]<a />
+		入荷管理
+		[61261]<div />
+	[61004]<a />
+		出荷管理
+		[61272]<div />
+	[61005]<a />
+		在庫依頼
+		[61284]<div />
+	CRM
+	[61006]<a />
+		ディスカウント
+	[61007]<a />
+		ポイント
+	[60981]<a />
+		会員ランク
+	販売チャネル
+	[61008]<a />
+		Shopify
+	[61009]<a />
+		OmnibusCore
+	[61010]<a />
+		スマレジ
+	[61011]<a />
+		リテールポータル
+	[61012]<a />
+		卸売
+	[61013]<a />
+		設定
+PDFエクスポート。このページの準備が整いました
+[61385]<div />
+	[61386]<div />
+		[61015]<a />
+PDFエクスポート
+[61405]<span />
+	[61406]<svg /> <!-- SVG content collapsed -->
+出荷
+[61016]<div />
+	[61416]<div id=PackingSlip />
+		[61417]<div />
+			[61418]<div />
+				[61419]<div />
+					[61420]<div />
+						[61421]<div />
+							[61422]<div />
+								[61423]<h3 level=3 />
+									納品書
+								[61425]<p />
+									指定された出荷指示の納品書をエクスポートできます。
+							[61427]<span />
+								[61428]<svg /> <!-- SVG content collapsed -->
+[61430]<section aria-label=Notifications alt+T live=polite />
+[61018]<div id=PolarisPortalsContainer />
+[61020]<div id=clerk-components />

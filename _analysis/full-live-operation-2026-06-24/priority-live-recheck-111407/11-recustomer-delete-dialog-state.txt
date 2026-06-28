@@ -1,0 +1,56 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+コンテンツにスキップ
+stack-ps-yosuke
+陽介 河野
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	ホーム
+	商品管理
+	在庫管理
+	注文管理
+	顧客管理
+	発注管理
+	販売設定
+	会計
+	分析
+	オペレーション
+	入荷管理
+	出荷管理
+	在庫依頼
+	未完了の在庫依頼 3件
+	CRM
+	ディスカウント
+	ポイント
+	会員ランク
+	販売チャネル
+	Shopify
+	OmnibusCore
+	スマレジ
+	リテールポータル
+	卸売
+	[73443]<a />
+		設定
+Recustomer。このページの準備が整いました
+Recustomer
+アカウントを接続
+<svg /> <!-- SVG content collapsed -->
+アイテムの選択を解除する
+1を選択済み
+<svg /> <!-- SVG content collapsed -->
+すべてのアイテムを選択する
+ストアID
+接続日
+<svg /> <!-- SVG content collapsed -->
+アイテムを選択する
+TEST_FAQ_20260624_Recustomer_100908
+2026年06月24日 10:10
+*[74098]<div role=dialog aria-label=:r1g: />
+	アカウント接続を削除します
+	*[74080]<button aria-label=閉じる pressed=false />
+	選択されているアカウント接続を削除します。この処理は巻き戻すことができません。
+	*[74087]<button />
+		キャンセル
+	*[74088]<button />
+		削除する
+*[74101]<div />

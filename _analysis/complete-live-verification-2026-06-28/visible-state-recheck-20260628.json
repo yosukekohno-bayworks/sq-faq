@@ -1,0 +1,1778 @@
+{
+  "generatedAt": "2026-06-27T16:31:21.428561+00:00",
+  "count": 15,
+  "complete": true,
+  "results": [
+    {
+      "route": "/admin/analytics",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/analytics",
+      "finalUrl": "https://www.sqstackstaging.com/admin/analytics",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "分析"
+      ],
+      "h2": [],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "収益",
+          "href": "/admin/analytics/revenue"
+        },
+        {
+          "text": "レポート",
+          "href": "/admin/analytics/reports"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 収益 レポート オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 分析。このページの準備が整いました 分析 TODO",
+      "hasTodo": true,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/analytics/revenue",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/analytics/revenue",
+      "finalUrl": "https://www.sqstackstaging.com/admin/analytics/revenue",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "売上"
+      ],
+      "h2": [],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "収益",
+          "href": "/admin/analytics/revenue"
+        },
+        {
+          "text": "レポート",
+          "href": "/admin/analytics/reports"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 収益 レポート オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 売上。このページの準備が整いました 売上 TODO",
+      "hasTodo": true,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/analytics/reports",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/analytics/reports",
+      "finalUrl": "https://www.sqstackstaging.com/admin/analytics/reports",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "レポート"
+      ],
+      "h2": [],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "収益",
+          "href": "/admin/analytics/revenue"
+        },
+        {
+          "text": "レポート",
+          "href": "/admin/analytics/reports"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 収益 レポート オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 レポート。このページの準備が整いました レポート TODO",
+      "hasTodo": true,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/b2b",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/b2b",
+      "finalUrl": "https://www.sqstackstaging.com/admin/b2b",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "卸売"
+      ],
+      "h2": [],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 卸売。このページの準備が整いました 卸売 TODO",
+      "hasTodo": true,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/order_returns",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/order_returns",
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_returns",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "返品"
+      ],
+      "h2": [],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 返品。このページの準備が整いました 返品 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください",
+      "hasTodo": false,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": true
+    },
+    {
+      "route": "/admin/order_returns/create",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/order_returns/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/order_returns/create",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [],
+      "links": [
+        {
+          "text": "ホームに戻る",
+          "href": "/admin"
+        }
+      ],
+      "bodySample": "このページは存在しないようです ホームに戻る",
+      "hasTodo": false,
+      "hasNotFound": true,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/orders",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/orders",
+      "finalUrl": "https://www.sqstackstaging.com/admin/orders",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "注文管理"
+      ],
+      "h2": [],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "すべて",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        },
+        {
+          "text": "すべて",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": "false"
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください",
+      "hasTodo": false,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": true
+    },
+    {
+      "route": "/admin/orders/create",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/orders/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/orders/create",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [],
+      "h2": [
+        "予期せぬエラーが発生しました"
+      ],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "再実行",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました エラーが発生しました。しばらくしてから再度お試しください 再実行",
+      "hasTodo": false,
+      "hasNotFound": false,
+      "hasUnexpectedError": true,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/pdf_export",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/pdf_export",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "PDFエクスポート"
+      ],
+      "h2": [
+        "出荷"
+      ],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin/pdf_export/pdf_export_operation_packing_slips"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 PDFエクスポート。このページの準備が整いました PDFエクスポート 出荷 納品書 指定された出荷指示の納品書をエクスポートできます。",
+      "hasTodo": false,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "finalUrl": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [],
+      "links": [
+        {
+          "text": "ホームに戻る",
+          "href": "/admin"
+        }
+      ],
+      "bodySample": "このページは存在しないようです ホームに戻る",
+      "hasTodo": false,
+      "hasNotFound": true,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/settings/metafield_definitions",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/settings/metafield_definitions",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/metafield_definitions",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "メタフィールド定義"
+      ],
+      "h2": [
+        "組織のメタフィールド定義"
+      ],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "組織",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "ロケーション",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "会社",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "仕入れ先ベンダー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "商品",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "バリエーション",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "顧客",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "注文",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "下書き注文",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "ディスカウント",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "在庫移動伝票",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "在庫調整伝票",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "在庫取置伝票",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "発注伝票",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "入荷指示",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "出荷指示",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "定義を追加する",
+          "href": "/admin/settings/metafield_definitions/organization/create"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 メタフィールド定義。このページの準備が整いました メタフィールド定義 組織 ロケーション 会社 仕入れ先ベンダー 商品 バリエーション 顧客 注文 下書き注文 ディスカウント 在庫移動伝票 在庫調整伝票 在庫取置伝票 発注伝票 入荷指示 出荷指示 組織のメタフィールド定義 定義を追加する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください",
+      "hasTodo": false,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": true
+    },
+    {
+      "route": "/admin/settings/translation",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/settings/translation",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/translation",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "翻訳"
+      ],
+      "h2": [
+        "未選択：翻訳ルールを選択するとリソースを選択できます",
+        "商品"
+      ],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "選択してください",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他の操作",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "ルールを管理する",
+          "href": "/admin/settings/translation/translation_rules"
+        },
+        {
+          "text": "ルールを管理する",
+          "href": "/admin/settings/translation/translation_rules"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳。このページの準備が整いました 翻訳 選択してください ルールを管理する 未選択：翻訳ルールを選択するとリソースを選択できます 商品 商品",
+      "hasTodo": false,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/settings/translation/translation_rules",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "翻訳ルール"
+      ],
+      "h2": [],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation"
+        },
+        {
+          "text": "翻訳ルールを作成",
+          "href": "/admin/settings/translation/translation_rules/create"
+        },
+        {
+          "text": "Test_中国語",
+          "href": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule"
+        },
+        {
+          "text": "TEST_FAQ_翻訳ルール_英語",
+          "href": "/admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule"
+        },
+        {
+          "text": "TEST_FAQ_英語翻訳ルール",
+          "href": "/admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルール。このページの準備が整いました 翻訳ルール 翻訳ルールを作成 すべてのアイテムを選択する 名前 言語 作成日時 アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33 アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41 アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57",
+      "hasTodo": false,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api",
+      "requestedUrl": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api",
+      "finalUrl": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "リクエストログ"
+      ],
+      "h2": [],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App"
+        }
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 リクエストログ。このページの準備が整いました リクエストログ Admin API - TEST_FAQ_20260624_APP_113636 TODO",
+      "hasTodo": true,
+      "hasNotFound": false,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    },
+    {
+      "route": "/admin_api",
+      "requestedUrl": "https://www.sqstackstaging.com/admin_api",
+      "finalUrl": "https://www.sqstackstaging.com/admin_api",
+      "title": "SQ - 管理画面",
+      "error": null,
+      "h1": [
+        "このページは存在しないようです"
+      ],
+      "h2": [],
+      "buttons": [],
+      "links": [
+        {
+          "text": "ホームに戻る",
+          "href": "/admin"
+        }
+      ],
+      "bodySample": "このページは存在しないようです ホームに戻る",
+      "hasTodo": false,
+      "hasNotFound": true,
+      "hasUnexpectedError": false,
+      "hasNoItems": false
+    }
+  ],
+  "summary": {
+    "errors": 0,
+    "todo": [
+      "/admin/analytics",
+      "/admin/analytics/revenue",
+      "/admin/analytics/reports",
+      "/admin/b2b",
+      "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api"
+    ],
+    "notFound": [
+      "/admin/order_returns/create",
+      "/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "/admin_api"
+    ],
+    "unexpectedError": [
+      "/admin/orders/create"
+    ],
+    "noItems": [
+      "/admin/order_returns",
+      "/admin/orders",
+      "/admin/settings/metafield_definitions"
+    ]
+  }
+}

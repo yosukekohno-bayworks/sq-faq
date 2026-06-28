@@ -1,0 +1,73 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[116289]<a />
+	コンテンツにスキップ
+[116394]<div />
+[116292]<button data-state=closed expanded=false />
+[116293]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[116411]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[116297]<a />
+		ホーム
+	[116298]<a />
+		商品管理
+	[116299]<a />
+		在庫管理
+	[116300]<a />
+		注文管理
+		[116462]<div />
+	[116301]<a />
+		顧客管理
+	[116302]<a />
+		発注管理
+	[116303]<a />
+		販売設定
+	[116304]<a />
+		会計
+	[116305]<a />
+		分析
+	[116306]<a />
+		収益
+	[116307]<a />
+		レポート
+	オペレーション
+	[116239]<a />
+		入荷管理
+		[116555]<div />
+	[116244]<a />
+		出荷管理
+		[116563]<div />
+	[116249]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[116255]<a />
+		ディスカウント
+	[116260]<a />
+		ポイント
+	[116265]<a />
+		会員ランク
+	販売チャネル
+	[116271]<a />
+		Shopify
+	[116275]<a />
+		OmnibusCore
+	[116279]<a />
+		スマレジ
+	[116283]<a />
+		リテールポータル
+	[116308]<a />
+		卸売
+	[116309]<a />
+		設定
+売上。このページの準備が整いました
+[116661]<h1 level=1 />
+	[116662]<span />
+		売上
+TODO
+[116669]<section aria-label=Notifications alt+T live=polite />
+[116311]<div id=PolarisPortalsContainer />
+[116313]<div id=clerk-components />

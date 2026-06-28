@@ -1,0 +1,230 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/payment_methods/create",
+  "h1": [
+    "決済方法を作成する"
+  ],
+  "labels": [
+    "名前",
+    "コード",
+    "ゲートウェイ",
+    "支払い待ちでも注文を出荷する",
+    "代引き"
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "role": null,
+      "type": "text",
+      "text": "",
+      "placeholder": "クレジットカード",
+      "value": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "type": "text",
+      "text": "",
+      "placeholder": "credit_card",
+      "value": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "type": "text",
+      "text": "",
+      "placeholder": "shopify_payments",
+      "value": "",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "tag": "INPUT",
+      "role": "checkbox",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": null,
+      "value": "on",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "tag": "INPUT",
+      "role": "checkbox",
+      "type": "checkbox",
+      "text": "",
+      "placeholder": null,
+      "value": "on",
+      "checked": false,
+      "disabled": false
+    }
+  ],
+  "buttons": [
+    {
+      "text": "コンテンツにスキップ",
+      "role": null,
+      "href": "#AppFrameMain",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "role": null,
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "role": null,
+      "href": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "role": null,
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "ホーム",
+      "role": null,
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "商品管理",
+      "role": null,
+      "href": "/admin/products",
+      "disabled": false
+    },
+    {
+      "text": "在庫管理",
+      "role": null,
+      "href": "/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "text": "注文管理",
+      "role": null,
+      "href": "/admin/orders",
+      "disabled": false
+    },
+    {
+      "text": "顧客管理",
+      "role": null,
+      "href": "/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "text": "発注管理",
+      "role": null,
+      "href": "/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "text": "販売設定",
+      "role": null,
+      "href": "/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "text": "会計",
+      "role": null,
+      "href": "/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "text": "分析",
+      "role": null,
+      "href": "/admin/analytics",
+      "disabled": false
+    },
+    {
+      "text": "入荷管理",
+      "role": null,
+      "href": "/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "出荷管理",
+      "role": null,
+      "href": "/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "role": null,
+      "href": "/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "text": "ディスカウント",
+      "role": null,
+      "href": "/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "text": "ポイント",
+      "role": null,
+      "href": "/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "会員ランク",
+      "role": null,
+      "href": "/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "Shopify",
+      "role": null,
+      "href": "/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "text": "OmnibusCore",
+      "role": null,
+      "href": "/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "text": "スマレジ",
+      "role": null,
+      "href": "/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "text": "リテールポータル",
+      "role": null,
+      "href": "/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "text": "卸売",
+      "role": null,
+      "href": "/admin/b2b",
+      "disabled": false
+    },
+    {
+      "text": "設定",
+      "role": null,
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "role": null,
+      "href": "/admin/settings/payment_methods",
+      "disabled": false
+    },
+    {
+      "text": "保存する",
+      "role": null,
+      "href": null,
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n決済方法を作成する。このページの準備が整いました\n\n決済方法を作成する\n詳細\n名前\nコード\nゲートウェイ\n支払い待ちでも注文を出荷する\n代引き\n保存する"
+}

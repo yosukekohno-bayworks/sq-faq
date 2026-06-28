@@ -1,0 +1,301 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e467] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e469]:
+                  - generic [ref=e470]: 未完了の在庫依頼 3件
+                  - generic [ref=e471]: "3"
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - generic [ref=e154]: CRM
+            - listitem [ref=e155]:
+              - link "ディスカウント" [ref=e158] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e161]
+                - generic [ref=e163]: ディスカウント
+            - listitem [ref=e164]:
+              - link "ポイント" [ref=e167] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e170]
+                - generic [ref=e172]: ポイント
+            - listitem [ref=e173]:
+              - link "会員ランク" [ref=e176] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e179]
+                - generic [ref=e182]: 会員ランク
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - generic [ref=e185]: 販売チャネル
+            - listitem [ref=e186]:
+              - link "Shopify" [ref=e189] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e190]: Shopify
+            - listitem [ref=e191]:
+              - link "OmnibusCore" [ref=e194] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e195]: OmnibusCore
+            - listitem [ref=e196]:
+              - link "スマレジ" [ref=e199] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e200]: スマレジ
+            - listitem [ref=e201]:
+              - link "リテールポータル" [ref=e204] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e205]: リテールポータル
+            - listitem [ref=e206]:
+              - generic [ref=e207]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "設定" [ref=e212] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e215]
+                - generic [ref=e217]: 設定
+    - main [ref=e218]:
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - status:
+            - paragraph [ref=e223]: ロジザード連携を作成する。このページの準備が整いました
+          - generic [ref=e225]:
+            - link [ref=e228] [cursor=pointer]:
+              - /url: /admin/logizard_integrations
+              - img [ref=e231]
+            - heading "ロジザード連携を作成する" [level=1] [ref=e235]
+        - generic [ref=e237]:
+          - generic [ref=e239]:
+            - generic [ref=e244]:
+              - generic [ref=e247]: 設定名*
+              - textbox "設定名*" [invalid] [ref=e251]
+              - generic [ref=e473]:
+                - img [ref=e476]
+                - generic [ref=e480]: 設定名を入力してください
+            - generic [ref=e253]:
+              - heading "接続情報" [level=2] [ref=e255]
+              - separator [ref=e256]
+              - generic [ref=e258]:
+                - generic [ref=e260]:
+                  - generic [ref=e263]: グループ番号*
+                  - textbox "グループ番号*" [invalid] [ref=e267]:
+                    - /placeholder: "001"
+                  - generic [ref=e482]:
+                    - img [ref=e485]
+                    - generic [ref=e489]: グループ番号を3桁の数字で入力してください
+                  - generic [ref=e268]: ロジザードZEROのAPIエンドポイントURLに使用される3桁の番号。
+                - generic [ref=e270]:
+                  - generic [ref=e273]: 接続番号*
+                  - textbox "接続番号*" [invalid] [ref=e277]:
+                    - /placeholder: "001"
+                  - generic [ref=e491]:
+                    - img [ref=e494]
+                    - generic [ref=e498]: 接続番号を3桁の数字で入力してください
+                  - generic [ref=e278]: ロジザードZEROのAPIエンドポイントURLに使用される3桁の番号。
+                - generic [ref=e280] [cursor=pointer]:
+                  - generic [ref=e282]:
+                    - checkbox "Partner APIエンドポイントを使用する" [ref=e283]
+                    - generic
+                  - generic [ref=e285]: Partner APIエンドポイントを使用する
+            - generic [ref=e287]:
+              - heading "認証情報" [level=2] [ref=e289]
+              - separator [ref=e290]
+              - generic [ref=e292]:
+                - generic [ref=e294]:
+                  - generic [ref=e297]: オーナーID*
+                  - textbox "オーナーID*" [invalid] [ref=e301]
+                  - generic [ref=e500]:
+                    - img [ref=e503]
+                    - generic [ref=e507]: オーナーIDを入力してください
+                - generic [ref=e303]:
+                  - generic [ref=e306]: ユーザーID*
+                  - textbox "ユーザーID*" [invalid] [ref=e310]
+                  - generic [ref=e509]:
+                    - img [ref=e512]
+                    - generic [ref=e516]: ユーザーIDを入力してください
+                - generic [ref=e312]:
+                  - generic [ref=e315]: パスワード*
+                  - textbox "パスワード*" [invalid] [ref=e319]
+                  - generic [ref=e518]:
+                    - img [ref=e521]
+                    - generic [ref=e525]: パスワードを入力してください
+                - generic [ref=e321]:
+                  - generic [ref=e324]: アプリケーションキー*
+                  - textbox "アプリケーションキー*" [invalid] [ref=e328]
+                  - generic [ref=e527]:
+                    - img [ref=e530]
+                    - generic [ref=e534]: アプリケーションキーを入力してください
+                - generic [ref=e330]:
+                  - generic [ref=e331] [cursor=pointer]:
+                    - generic [ref=e333]
+                    - generic [ref=e336]: AuthKeyの発行をスキップする
+                  - generic [ref=e338]: すでにAuthKeyを発行済みの場合に有効にしてください。
+            - generic [ref=e340]:
+              - heading "入荷設定" [level=2] [ref=e342]
+              - separator [ref=e343]
+              - generic [ref=e345]:
+                - generic [ref=e347]:
+                  - generic [ref=e350]: 入荷予定登録ファイルID*
+                  - textbox "入荷予定登録ファイルID*" [invalid] [ref=e354]
+                  - generic [ref=e536]:
+                    - img [ref=e539]
+                    - generic [ref=e543]: 入荷予定登録ファイルIDを入力してください
+                  - generic [ref=e355]: ロジザードZEROの入荷予定登録APIに使用するファイルIDです。
+                - generic [ref=e357]:
+                  - generic [ref=e360]: 入荷予定登録パターンID*
+                  - textbox "入荷予定登録パターンID*" [invalid] [ref=e364]
+                  - generic [ref=e545]:
+                    - img [ref=e548]
+                    - generic [ref=e552]: 入荷予定登録パターンIDを入力してください
+                  - generic [ref=e365]: ロジザードZEROの入荷予定登録APIに使用するパターンIDです。
+            - generic [ref=e367]:
+              - heading "出荷設定" [level=2] [ref=e369]
+              - separator [ref=e370]
+              - generic [ref=e372]:
+                - generic [ref=e374]:
+                  - generic [ref=e377]: 出荷予定登録(通販)ファイルID*
+                  - textbox "出荷予定登録(通販)ファイルID*" [invalid] [ref=e381]
+                  - generic [ref=e554]:
+                    - img [ref=e557]
+                    - generic [ref=e561]: 出荷予定登録(通販)ファイルIDを入力してください
+                  - generic [ref=e382]: ロジザードZEROの出荷予定登録(通販)APIに使用するファイルIDです。
+                - generic [ref=e384]:
+                  - generic [ref=e387]: 出荷予定登録(通販)パターンID*
+                  - textbox "出荷予定登録(通販)パターンID*" [invalid] [ref=e391]
+                  - generic [ref=e563]:
+                    - img [ref=e566]
+                    - generic [ref=e570]: 出荷予定登録(通販)パターンIDを入力してください
+                  - generic [ref=e392]: ロジザードZEROの出荷予定登録(通販)APIに使用するパターンIDです。
+                - generic [ref=e394]:
+                  - generic [ref=e397]: 出荷予定登録(卸)ファイルID*
+                  - textbox "出荷予定登録(卸)ファイルID*" [invalid] [ref=e401]
+                  - generic [ref=e572]:
+                    - img [ref=e575]
+                    - generic [ref=e579]: 出荷予定登録(卸)ファイルIDを入力してください
+                  - generic [ref=e402]: ロジザードZEROの出荷予定登録(卸)APIに使用するファイルIDです。
+                - generic [ref=e404]:
+                  - generic [ref=e407]: 出荷予定登録(卸)パターンID*
+                  - textbox "出荷予定登録(卸)パターンID*" [invalid] [ref=e411]
+                  - generic [ref=e581]:
+                    - img [ref=e584]
+                    - generic [ref=e588]: 出荷予定登録(卸)パターンIDを入力してください
+                  - generic [ref=e412]: ロジザードZEROの出荷予定登録(卸)APIに使用するパターンIDです。
+            - generic [ref=e414]:
+              - heading "出荷箱明細実績エクスポート設定" [level=2] [ref=e416]
+              - separator [ref=e417]
+              - generic [ref=e419]:
+                - generic [ref=e421]:
+                  - generic [ref=e424]: 出荷箱明細実績エクスポートファイルID*
+                  - textbox "出荷箱明細実績エクスポートファイルID*" [invalid] [ref=e428]
+                  - generic [ref=e590]:
+                    - img [ref=e593]
+                    - generic [ref=e597]: 出荷箱明細実績エクスポートファイルIDを入力してください
+                  - generic [ref=e429]: ロジザードZEROの出荷箱明細実績データエクスポートAPIに使用するファイルIDです。
+                - generic [ref=e431]:
+                  - generic [ref=e434]: 出荷箱明細実績エクスポートパターンID*
+                  - textbox "出荷箱明細実績エクスポートパターンID*" [invalid] [ref=e438]
+                  - generic [ref=e599]:
+                    - img [ref=e602]
+                    - generic [ref=e606]: 出荷箱明細実績エクスポートパターンIDを入力してください
+                  - generic [ref=e439]: ロジザードZEROの出荷箱明細実績データエクスポートAPIに使用するパターンIDです。
+            - generic [ref=e441]:
+              - heading "商品マッピング設定" [level=2] [ref=e443]
+              - separator [ref=e444]
+              - generic [ref=e446]:
+                - generic [ref=e449]: 商品バリエーションを特定するキー*
+                - generic [ref=e450]:
+                  - combobox "商品バリエーションを特定するキー*" [ref=e451]:
+                    - option "SKUコード" [selected]
+                    - option "JANコード"
+                    - option "EANコード"
+                    - option "UPCコード"
+                  - generic [ref=e452]:
+                    - generic [ref=e453]: SKUコード
+                    - img [ref=e456]
+                - generic [ref=e460]: SQの商品バリエーションとロジザードZEROの商品バリエーションをマッピングする際にどのフィールドをキーにするかを指定します。
+          - button "保存する" [ref=e465] [cursor=pointer]:
+            - generic [ref=e466]: 保存する
+  - region "Notifications alt+T"
+  - alert [ref=e10]

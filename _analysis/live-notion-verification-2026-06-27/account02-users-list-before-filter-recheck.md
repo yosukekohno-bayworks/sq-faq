@@ -1,0 +1,91 @@
+- main [ref=e11]:
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - status:
+        - paragraph [ref=e16]: 管理メンバー。このページの準備が整いました
+      - generic [ref=e18]:
+        - link [ref=e21] [cursor=pointer]:
+          - /url: /admin/settings
+          - img [ref=e24]
+        - heading "管理メンバー" [level=1] [ref=e28]
+        - generic [ref=e29]:
+          - generic [ref=e32]:
+            - link "権限グループ一覧" [ref=e34] [cursor=pointer]:
+              - /url: /admin/settings/permission_groups
+              - generic [ref=e35]: 権限グループ一覧
+            - link "インポート" [ref=e37] [cursor=pointer]:
+              - /url: /admin/csv_import/csv_import_operation_users
+              - img [ref=e40]
+              - generic [ref=e43]: インポート
+          - link "追加する" [ref=e46] [cursor=pointer]:
+            - /url: /admin/settings/users/create
+            - generic [ref=e47]: 追加する
+    - generic [ref=e52]:
+      - generic [ref=e57]:
+        - generic [ref=e62]:
+          - generic [ref=e65]: キーワードで検索する
+          - generic [ref=e68]:
+            - img [ref=e72]
+            - textbox "キーワードで検索する" [active] [ref=e74]
+        - button "絞り込みを追加" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]: 絞り込みを追加
+          - img [ref=e83]
+      - generic [ref=e86]:
+        - table [ref=e88]:
+          - rowgroup [ref=e89]:
+            - row "名前 メールアドレス 権限グループ" [ref=e90]:
+              - columnheader "名前" [ref=e91]:
+                - generic [ref=e92]: 名前
+              - columnheader "メールアドレス" [ref=e93]:
+                - generic [ref=e94]: メールアドレス
+              - columnheader "権限グループ" [ref=e95]:
+                - generic [ref=e96]: 権限グループ
+          - rowgroup [ref=e97]:
+            - row "サポートアカウントStack erp.delivery.admin@stack.inc 特権管理者" [ref=e98]:
+              - cell "サポートアカウントStack" [ref=e99]:
+                - link "サポートアカウントStack" [ref=e100] [cursor=pointer]:
+                  - /url: /admin/settings/users/user_358DNqj6iJtcvMhxAwTLlCzyGWU
+              - cell "erp.delivery.admin@stack.inc" [ref=e102]:
+                - paragraph [ref=e103]: erp.delivery.admin@stack.inc
+              - cell "特権管理者" [ref=e104]:
+                - paragraph [ref=e105]: 特権管理者
+            - row "福田涼介 yz@stack.inc 特権管理者" [ref=e106]:
+              - cell "福田涼介" [ref=e107]:
+                - link "福田涼介" [ref=e108] [cursor=pointer]:
+                  - /url: /admin/settings/users/user_35E68KNK1pCOobD4ZwdoaHsnNo0
+              - cell "yz@stack.inc" [ref=e110]:
+                - paragraph [ref=e111]: yz@stack.inc
+              - cell "特権管理者" [ref=e112]:
+                - paragraph [ref=e113]: 特権管理者
+            - row "菅野将貴 sugano@stack.inc 特権管理者" [ref=e114]:
+              - cell "菅野将貴" [ref=e115]:
+                - link "菅野将貴" [ref=e116] [cursor=pointer]:
+                  - /url: /admin/settings/users/user_3CbpZwl1x5ohfuyFmuv1t8VQXyo
+              - cell "sugano@stack.inc" [ref=e118]:
+                - paragraph [ref=e119]: sugano@stack.inc
+              - cell "特権管理者" [ref=e120]:
+                - paragraph [ref=e121]: 特権管理者
+            - row "河野陽介 yosuke.kohno@bay-works.com 特権管理者" [ref=e122]:
+              - cell "河野陽介" [ref=e123]:
+                - link "河野陽介" [ref=e124] [cursor=pointer]:
+                  - /url: /admin/settings/users/user_3Dz5ZnyYjoaDwlnz2ffJE7NZTGb
+              - cell "yosuke.kohno@bay-works.com" [ref=e126]:
+                - paragraph [ref=e127]: yosuke.kohno@bay-works.com
+              - cell "特権管理者" [ref=e128]:
+                - paragraph [ref=e129]: 特権管理者
+            - row "権限テスト you.4235@gmail.com TEST_権限検証_20260620" [ref=e130]:
+              - cell "権限テスト" [ref=e131]:
+                - link "権限テスト" [ref=e132] [cursor=pointer]:
+                  - /url: /admin/settings/users/user_3FOeZAow9g1pTX8HYyjifwXk4re
+              - cell "you.4235@gmail.com" [ref=e134]:
+                - paragraph [ref=e135]: you.4235@gmail.com
+              - cell "TEST_権限検証_20260620" [ref=e136]:
+                - paragraph [ref=e137]: TEST_権限検証_20260620
+        - navigation "ページネーション" [ref=e141]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - button "前へ" [disabled]:
+                - generic
+            - generic [ref=e146]:
+              - button "次へ" [disabled]:
+                - generic

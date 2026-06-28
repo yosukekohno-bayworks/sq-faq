@@ -1,0 +1,269 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/create",
+  "h1": "リテールポータル",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": "メニューを切り替える",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "stack-ps-yosuke\n\n陽介 河野 / stack-ps-yosuke / 陽介 河野",
+      "aria": null,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "ホーム / ホーム / 商品管理",
+      "aria": "メニューを閉じる",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "店舗ロケーション",
+      "aria": null,
+      "text": "",
+      "placeholder": "選択してください",
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 5,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "選択",
+      "aria": null,
+      "text": "選択",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "在庫ロケーション",
+      "aria": null,
+      "text": "",
+      "placeholder": "選択してください",
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 7,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "選択",
+      "aria": null,
+      "text": "選択",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 8,
+      "tag": "SELECT",
+      "type": null,
+      "label": "テナント",
+      "aria": null,
+      "text": "選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nTEST_FAQ_20260624_TENANT_170037",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "ユニクロ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_COVERAGE_20260615_テナント_EDIT",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "テストテナント",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_TENANT_170037",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "tag": "SELECT",
+      "type": null,
+      "label": "カタログ",
+      "aria": null,
+      "text": "選択してください\nTEST_FAQ_カタログ001\nUNIQLO",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "TEST_FAQ_カタログ001",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "UNIQLO",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "tag": "SELECT",
+      "type": null,
+      "label": "販売閾値ルール",
+      "aria": null,
+      "text": "選択してください\nTEST_FAQ_販売閾値ルール\nTEST_FAQ_販売閾値ルール_遷移確認_20260607\nTEST_FAQ_DEEP_202606080340_販売閾値ルール\nTEST_FAQ_20260624_販売閾値_100908",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "TEST_FAQ_販売閾値ルール",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_販売閾値ルール_遷移確認_20260607",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_DEEP_202606080340_販売閾値ルール",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_販売閾値_100908",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "リテールポータルで販売員の選択を必須にする",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 12,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "配送先住所の編集を許可する",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 13,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "下書き注文の送料明細の編集を許可する",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 14,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "下書き注文の注文明細の価格の編集を許可する",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 15,
+      "tag": "INPUT",
+      "type": "checkbox",
+      "label": "下書き注文の完了を許可する",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "on"
+    },
+    {
+      "i": 16,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "保存する",
+      "aria": null,
+      "text": "保存する",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    }
+  ]
+}

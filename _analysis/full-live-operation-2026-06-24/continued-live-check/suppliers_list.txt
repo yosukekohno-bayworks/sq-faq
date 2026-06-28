@@ -1,0 +1,151 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+  "title": "SQ - 管理画面",
+  "h1": [
+    "取引先"
+  ],
+  "buttons": [
+    "stack-ps-yosuke\n\n陽介 河野",
+    "インポート",
+    "すべて",
+    "アーカイブ",
+    "その他のビュー"
+  ],
+  "links": [
+    "コンテンツにスキップ",
+    "ホーム",
+    "商品管理",
+    "在庫管理",
+    "注文管理",
+    "顧客管理",
+    "発注管理",
+    "販売設定",
+    "会計",
+    "分析",
+    "入荷管理",
+    "出荷管理",
+    "在庫依頼\n未完了の在庫依頼 3件\n3",
+    "ディスカウント",
+    "ポイント",
+    "会員ランク",
+    "Shopify",
+    "OmnibusCore",
+    "スマレジ",
+    "リテールポータル",
+    "卸売",
+    "設定",
+    "取引先を作成"
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    }
+  ],
+  "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n取引先。このページの準備が整いました\n\n取引先\nインポート\n取引先を作成\nすべて\nアーカイブ\nすべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_20260624_取引先_092214\n\n\t\n\nTEST_FAQ_20260624_SUP_092214\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1905\n\n\t\n\nTEST_E2E_20260622_SUP_1905\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1845\n\n\t\n\nTEST_E2E_20260622_SUP_1845\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1830\n\n\t\n\nTEST_E2E_20260622_SUP_1830\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1755\n\n\t\n\nTEST_E2E_20260622_SUP_1755\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1740\n\n\t\n\nTEST_E2E_20260622_SUP_1740\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP_202606080340_取引先\n\n\t\n\n0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_Supplier2\n\n\t\n\n4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_Supplier\n\n\t\n\ne7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier",
+  "delete_text_present": true
+}

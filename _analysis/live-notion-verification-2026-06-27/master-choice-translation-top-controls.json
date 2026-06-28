@@ -1,0 +1,62 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/translation",
+  "h1": "翻訳",
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n翻訳。このページの準備が整いました\n\n翻訳\n選択してください\nルールを管理する\n未選択：翻訳ルールを選択するとリソースを選択できます\n商品\n\n商品",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": "メニューを切り替える",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "stack-ps-yosuke\n\n陽介 河野 / stack-ps-yosuke / 陽介 河野 / 陽介 河野",
+      "aria": null,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "ホーム / ホーム / 商品管理 / 商品管理",
+      "aria": "メニューを閉じる",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 4,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "選択してください",
+      "aria": null,
+      "text": "選択してください",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 5,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": null,
+      "text": "その他の操作",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    }
+  ]
+}

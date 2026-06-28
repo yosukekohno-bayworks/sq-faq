@@ -1,0 +1,100 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/products/fd8966cc-6151-54c1-a169-5021a96c5676_Product/variants/create",
+  "fields": [
+    {
+      "id": ":r2i:",
+      "type": "SELECT",
+      "label": "",
+      "value": "M"
+    },
+    {
+      "id": ":r2k:",
+      "type": "number",
+      "label": "上代 / 円",
+      "value": "1000",
+      "checked": false
+    },
+    {
+      "id": ":r2m:",
+      "type": "text",
+      "label": "SKU (最小管理単位)",
+      "value": "TEST_NOTION_20260627_SKU_0447",
+      "checked": false
+    },
+    {
+      "id": ":r2n:",
+      "type": "text",
+      "label": "メーカーSKU",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r2o:",
+      "type": "checkbox",
+      "label": "",
+      "value": "on",
+      "checked": false
+    },
+    {
+      "id": ":r2p:",
+      "type": "checkbox",
+      "label": "",
+      "value": "on",
+      "checked": false
+    },
+    {
+      "id": ":r2q:",
+      "type": "text",
+      "label": "バーコード",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r2s:",
+      "type": "text",
+      "label": "JAN",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r2t:",
+      "type": "text",
+      "label": "EAN",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r2v:",
+      "type": "number",
+      "label": "重量",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r30:",
+      "type": "SELECT",
+      "label": "",
+      "value": "KILOGRAMS"
+    },
+    {
+      "id": ":r31:",
+      "type": "checkbox",
+      "label": "",
+      "value": "on",
+      "checked": true
+    },
+    {
+      "id": ":r32:",
+      "type": "SELECT",
+      "label": "",
+      "value": ""
+    },
+    {
+      "id": ":r33:",
+      "type": "text",
+      "label": "統計品目 (HS) コード",
+      "value": "",
+      "checked": false
+    }
+  ]
+}

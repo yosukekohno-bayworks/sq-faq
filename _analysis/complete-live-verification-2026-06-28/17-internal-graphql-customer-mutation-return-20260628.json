@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-06-28T00:39:40.188549+00:00",
+  "target": "purchasingCustomerCreate",
+  "returnType": "PurchasingCustomerCreatePayload",
+  "returnFields": [
+    {
+      "name": "purchasingCustomer",
+      "type": "PurchasingCustomer!",
+      "baseType": "PurchasingCustomer"
+    },
+    {
+      "name": "pubSubPublishObjects",
+      "type": "[PubSubPublishObject!]!",
+      "baseType": "PubSubPublishObject"
+    }
+  ],
+  "nestedTypes": {
+    "PurchasingCustomer": [
+      {
+        "name": "id",
+        "type": "ID!"
+      },
+      {
+        "name": "barcode",
+        "type": "String!"
+      },
+      {
+        "name": "firstName",
+        "type": "String!"
+      },
+      {
+        "name": "lastName",
+        "type": "String!"
+      },
+      {
+        "name": "fullName",
+        "type": "String!"
+      },
+      {
+        "name": "email",
+        "type": "String!"
+      },
+      {
+        "name": "phone",
+        "type": "String!"
+      },
+      {
+        "name": "note",
+        "type": "String!"
+      },
+      {
+        "name": "externalID",
+        "type": "String!"
+      },
+      {
+        "name": "source",
+        "type": "String!"
+      },
+      {
+        "name": "emailMarketingConsentState",
+        "type": "EmailMarketingConsentState!"
+      },
+      {
+        "name": "gender",
+        "type": "Gender!"
+      },
+      {
+        "name": "birthDate",
+        "type": "DateTime"
+      },
+      {
+        "name": "externalTags",
+        "type": "[String!]!"
+      },
+      {
+        "name": "internalTags",
+        "type": "[String!]!"
+      },
+      {
+        "name": "tags",
+        "type": "[String!]!"
+      },
+      {
+        "name": "hasAnyTags",
+        "type": "Boolean!"
+      },
+      {
+        "name": "tenant",
+        "type": "Tenant!"
+      },
+      {
+        "name": "orders",
+        "type": "OrderConnection!"
+      },
+      {
+        "name": "orderCount",
+        "type": "Int!"
+      },
+      {
+        "name": "orderFirst",
+        "type": "Order"
+      },
+      {
+        "name": "orderFirstPaid",
+        "type": "Order"
+      },
+      {
+        "name": "orderLast",
+        "type": "Order"
+      },
+      {
+        "name": "orderLastPaid",
+        "type": "Order"
+      },
+      {
+        "name": "metafield",
+        "type": "Metafield"
+      },
+      {
+        "name": "metafieldDefinitions",
+        "type": "MetafieldDefinitionConnection!"
+      },
+      {
+        "name": "orderPriceAdjustmentRules",
+        "type": "OrderPriceAdjustmentRuleConnection!"
+      },
+      {
+        "name": "orderPriceAdjustmentRuleCount",
+        "type": "Int!"
+      },
+      {
+        "name": "orderPriceAdjustmentRuleApplicable",
+        "type": "Boolean!"
+      },
+      {
+        "name": "orderRetailReturns",
+        "type": "OrderRetailReturnConnection!"
+      },
+      {
+        "name": "isPointCalculationDisabled",
+        "type": "Boolean!"
+      },
+      {
+        "name": "isBirthdayPointDisabled",
+        "type": "Boolean!"
+      },
+      {
+        "name": "pointsApproved",
+        "type": "Int!"
+      },
+      {
+        "name": "pointsApprovedByLabel",
+        "type": "Int!"
+      },
+      {
+        "name": "pointsExpiring",
+        "type": "Int!"
+      },
+      {
+        "name": "pointExpirations",
+        "type": "[PointExpiration!]!"
+      },
+      {
+        "name": "pointExpirationsByLabel",
+        "type": "[PointExpiration!]!"
+      },
+      {
+        "name": "pointsPending",
+        "type": "Int!"
+      },
+      {
+        "name": "pointChangeActivities",
+        "type": "PointChangeActivityConnection!"
+      },
+      {
+        "name": "estimatedOrderPoint",
+        "type": "EstimatedOrderPoint!"
+      },
+      {
+        "name": "miles",
+        "type": "Int!"
+      },
+      {
+        "name": "milesLifetime",
+        "type": "Int!"
+      },
+      {
+        "name": "mileChangeActivities",
+        "type": "MileChangeActivityConnection!"
+      },
+      {
+        "name": "shopifyMileOrders",
+        "type": "ShopifyMileOrderConnection!"
+      },
+      {
+        "name": "currentCustomerRank",
+        "type": "CustomerRank"
+      },
+      {
+        "name": "customerMinimumRank",
+        "type": "CustomerRankRule"
+      },
+      {
+        "name": "customerRankCalculationPurchasePriceChanges",
+        "type": "CustomerRankCalculationPurchasePriceChangeConnection!"
+      },
+      {
+        "name": "estimatedCustomerRank",
+        "type": "CustomerRank!"
+      },
+      {
+        "name": "shippingAddresses",
+        "type": "PurchasingCustomerShippingAddressConnection!"
+      },
+      {
+        "name": "sourceURL",
+        "type": "URL"
+      },
+      {
+        "name": "isMerged",
+        "type": "Boolean!"
+      },
+      {
+        "name": "mergedTo",
+        "type": "PurchasingCustomer"
+      },
+      {
+        "name": "mergedFrom",
+        "type": "[PurchasingCustomer!]!"
+      },
+      {
+        "name": "visitedRetailLocations",
+        "type": "LocationConnection!"
+      },
+      {
+        "name": "customerSharing",
+        "type": "CustomerSharing"
+      },
+      {
+        "name": "isDisabled",
+        "type": "Boolean!"
+      },
+      {
+        "name": "smsVerified",
+        "type": "Boolean!"
+      },
+      {
+        "name": "smsVerifiedPhone",
+        "type": "String!"
+      },
+      {
+        "name": "smsVerifiedAt",
+        "type": "DateTime"
+      },
+      {
+        "name": "createdAt",
+        "type": "DateTime!"
+      },
+      {
+        "name": "updatedAt",
+        "type": "DateTime!"
+      }
+    ],
+    "PubSubPublishObject": [
+      {
+        "name": "objectID",
+        "type": "ID!"
+      },
+      {
+        "name": "topic",
+        "type": "PubSubTopic!"
+      },
+      {
+        "name": "publishesAt",
+        "type": "DateTime!"
+      }
+    ]
+  },
+  "errors": []
+}

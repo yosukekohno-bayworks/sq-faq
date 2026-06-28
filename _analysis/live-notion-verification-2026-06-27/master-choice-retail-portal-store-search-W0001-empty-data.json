@@ -1,0 +1,57 @@
+{
+  "text": "ロケーションを選択する\n場所コードで検索する\nクリア\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\nキャンセル\n選択する",
+  "inputs": [
+    {
+      "idx": 0,
+      "placeholder": "場所コードで検索する",
+      "value": "W0001",
+      "aria": null,
+      "checked": false
+    }
+  ],
+  "buttons": [
+    {
+      "idx": 0,
+      "text": "",
+      "aria": "閉じる",
+      "disabled": false
+    },
+    {
+      "idx": 1,
+      "text": "クリア",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "idx": 2,
+      "text": "",
+      "aria": "検索結果を並べ替える",
+      "disabled": false
+    },
+    {
+      "idx": 3,
+      "text": "",
+      "aria": "前へ",
+      "disabled": false
+    },
+    {
+      "idx": 4,
+      "text": "",
+      "aria": "次へ",
+      "disabled": false
+    },
+    {
+      "idx": 5,
+      "text": "キャンセル",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "idx": 6,
+      "text": "選択する",
+      "aria": null,
+      "disabled": false
+    }
+  ],
+  "rows": []
+}

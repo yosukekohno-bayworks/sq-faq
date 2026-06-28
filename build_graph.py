@@ -187,7 +187,7 @@ EDGES = [
     ('order', 'screq', '在庫不足→在庫リクエスト', 'spine', False),
     ('screq', 'retail', '店舗へ通知', 'sync', False),
     ('screq', 'move', '取り寄せ→移動伝票', 'spine', False),
-    ('customer', 'draft', '作成可に(解放条件)', 'dep', False),
+    ('customer', 'draft', '顧客単独では解放されない', 'dep', True),
 ]
 
 

@@ -1,0 +1,114 @@
+[
+  {
+    "i": 0,
+    "text": "",
+    "aria": "メニューを切り替える",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"Polaris-TopBar__NavigationIcon\" aria-label=\"メニューを切り替える\"><div class=\"Polaris-TopBar__IconWrapper\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M3 4.75a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 0 1.5h-12.5a.75.75 0 0 1-.75-.75Z\"></path><path fill-rule=\"evenodd\" d=\"M3 10a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 0 1.5h-12.5a.75.75 0 0 1-.75-.75Z\"></path><path fill-rule=\"evenodd\""
+  },
+  {
+    "i": 1,
+    "text": "",
+    "aria": null,
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"Polaris-TopBar-Menu__Activator\" tabindex=\"0\" aria-controls=\":r2:\" aria-owns=\":r2:\" aria-expanded=\"false\" data-state=\"closed\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"m7.252 14.424-2.446-.281c-1.855-.213-2.38-2.659-.778-3.616l.065-.038a2.887 2.887 0 0 0 1.407-2.48v-.509a4.5 4.5 0 0 1 9 0v.51c0 1.016.535 1.958 1.408 2.479l.065.038c1.602.957 1.076 3.403-.778 3.616l-2.5"
+  },
+  {
+    "i": 2,
+    "text": "stack-ps-yosuke\n\n陽介 河野",
+    "aria": null,
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"Polaris-TopBar-Menu__Activator Polaris-TopBar-Menu__Activator--userMenu\" tabindex=\"0\" aria-controls=\":r3:\" aria-owns=\":r3:\" aria-expanded=\"false\" data-state=\"closed\"><span class=\"Polaris-TopBar-UserMenu__Details\"><p class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium Polaris-Text--block Polaris-Text--start Polaris-Text--truncate\">stack-ps-yosuke</p><span><p class=\"Polaris-Text--root Polaris-Text--bodyXs Polaris-Text--block Polaris-Text--start Polaris-"
+  },
+  {
+    "i": 3,
+    "text": "",
+    "aria": "メニューを閉じる",
+    "disabled": false,
+    "html": "<button type=\"button\" class=\"Polaris-Frame__NavigationDismiss\" aria-hidden=\"true\" aria-label=\"メニューを閉じる\" tabindex=\"-1\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M13.97 15.03a.75.75 0 1 0 1.06-1.06l-3.97-3.97 3.97-3.97a.75.75 0 0 0-1.06-1.06l-3.97 3.97-3.97-3.97a.75.75 0 0 0-1.06 1.06l3.97 3.97-3.97 3.97a.75.75 0 1 0 1.06 1.06l3.97-3.97 3.97 3.97Z\"></path></svg></span></button>"
+  },
+  {
+    "i": 4,
+    "text": "追加",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">追加</span></button>"
+  },
+  {
+    "i": 5,
+    "text": "削除",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--disabled Polaris-Button--toneCritical\" aria-disabled=\"true\" type=\"button\" tabindex=\"-1\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">削除</span></button>"
+  },
+  {
+    "i": 6,
+    "text": "追加",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">追加</span></button>"
+  },
+  {
+    "i": 7,
+    "text": "別のオプションを追加する",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantTertiary Polaris-Button--sizeLarge Polaris-Button--textAlignCenter Polaris-Button--iconWithText\" type=\"button\"><span class=\"Polaris-Button__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M6.25 10a.75.75 0 0 1 .75-.75h2.25v-2.25a.75.75 0 0 1 1.5 0v2.25h2.25a.75.75 0 0 1 0 1.5h-2.25v2.25a.75.75 0 0 1-1.5 0v-2.25h-2.25a.75.75 0 0 1-.75-.75"
+  },
+  {
+    "i": 8,
+    "text": "選択",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeLarge Polaris-Button--textAlignCenter\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium\">選択</span></button>"
+  },
+  {
+    "i": 9,
+    "text": "",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantTertiary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--iconOnly\" type=\"button\"><span class=\"Polaris-Button__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M6 10a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z\"></path><path d=\"M11.5 10a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z\"></path><path d=\"M17 10a1.5 1.5 0 1 1-3 0 1.5 1."
+  },
+  {
+    "i": 10,
+    "text": "保存する",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" aria-disabled=\"false\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">保存する</span></button>"
+  },
+  {
+    "i": 11,
+    "text": "",
+    "aria": "閉じる",
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantTertiary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter Polaris-Button--iconOnly\" aria-label=\"閉じる\" type=\"button\" aria-pressed=\"false\"><span class=\"Polaris-Button__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M13.97 15.03a.75.75 0 1 0 1.06-1.06l-3.97-3.97 3.97-3.97a.75.75 0 0 0-1.06-1.06l-3.97 3.97-3.97-3.97a.75.75 0 0 0-1."
+  },
+  {
+    "i": 12,
+    "text": "送信",
+    "aria": null,
+    "disabled": false,
+    "html": "<button type=\"submit\" aria-hidden=\"true\" tabindex=\"-1\">送信</button>"
+  },
+  {
+    "i": 13,
+    "text": "追加する",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeLarge Polaris-Button--textAlignCenter Polaris-Button--iconWithText\" type=\"button\"><span class=\"Polaris-Button__Icon\"><span class=\"Polaris-Icon\"><svg viewBox=\"0 0 20 20\" class=\"Polaris-Icon__Svg\" focusable=\"false\" aria-hidden=\"true\"><path d=\"M10.75 5.75c0-.414-.336-.75-.75-.75s-.75.336-.75.75v3.5h-3.5c-.414 0-.75.336-.75.75s.336.75.75.75h3.5v3.5c0 .414.336.75.75.75s.75-.336.75-.75v-3.5h3.5"
+  },
+  {
+    "i": 14,
+    "text": "キャンセル",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantSecondary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">キャンセル</span></button>"
+  },
+  {
+    "i": 15,
+    "text": "保存する",
+    "aria": null,
+    "disabled": false,
+    "html": "<button class=\"Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter\" aria-disabled=\"false\" type=\"button\"><span class=\"Polaris-Text--root Polaris-Text--bodySm Polaris-Text--medium\">保存する</span></button>"
+  }
+]

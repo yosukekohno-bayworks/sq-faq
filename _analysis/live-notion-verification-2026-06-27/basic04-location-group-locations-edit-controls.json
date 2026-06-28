@@ -1,0 +1,318 @@
+[
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "コンテンツにスキップ",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/settings/location_groups/2a478a97-ff26-5ca0-8a8a-17124887d090_LocationGroup/locations#AppFrameMain"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "メニューを切り替える",
+    "disabled": false,
+    "aria": "メニューを切り替える"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "",
+    "disabled": false,
+    "aria": null
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "stack-ps-yosuke\n\n陽介 河野",
+    "disabled": false,
+    "aria": null
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "ホーム",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "商品管理",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/products"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "在庫管理",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_items"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "注文管理",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/orders"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "顧客管理",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "発注管理",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "販売設定",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "会計",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "分析",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/analytics"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "入荷管理",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "出荷管理",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "在庫依頼\n未完了の在庫依頼 3件\n3",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "ディスカウント",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "ポイント",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "会員ランク",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "Shopify",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "OmnibusCore",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "スマレジ",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "リテールポータル",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "卸売",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/b2b"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "設定",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/settings"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "メニューを閉じる",
+    "disabled": false,
+    "aria": "メニューを閉じる"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "role": null,
+    "text": "",
+    "aria": null,
+    "href": "https://www.sqstackstaging.com/admin/settings/location_groups/2a478a97-ff26-5ca0-8a8a-17124887d090_LocationGroup"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "ロケーションを追加",
+    "disabled": false,
+    "aria": null
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "その他のビュー",
+    "disabled": false,
+    "aria": "その他のビュー"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "検索と絞り込みの結果",
+    "disabled": false,
+    "aria": "検索と絞り込みの結果"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "検索結果を並べ替える",
+    "disabled": false,
+    "aria": "検索結果を並べ替える"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "checkbox",
+    "text": "on",
+    "checked": false,
+    "disabled": false,
+    "aria": null
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "checkbox",
+    "text": "on",
+    "checked": false,
+    "disabled": false,
+    "aria": null
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "checkbox",
+    "text": "on",
+    "checked": false,
+    "disabled": false,
+    "aria": null
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "checkbox",
+    "text": "on",
+    "checked": false,
+    "disabled": true,
+    "aria": null
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "前へ",
+    "disabled": false,
+    "aria": "前へ"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "text": "次へ",
+    "disabled": false,
+    "aria": "次へ"
+  }
+]

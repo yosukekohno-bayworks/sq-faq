@@ -1,0 +1,95 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[121068]<a />
+	コンテンツにスキップ
+*[121200]<div />
+*[121071]<button data-state=closed expanded=false />
+*[121072]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	*[121217]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[121076]<a />
+		ホーム
+	[121077]<a />
+		商品管理
+	[121078]<a />
+		在庫管理
+	[121079]<a />
+		注文管理
+		[121268]<div />
+	[121080]<a />
+		顧客管理
+	[121081]<a />
+		発注管理
+	[121082]<a />
+		販売設定
+	[121083]<a />
+		会計
+	[121084]<a />
+		分析
+	オペレーション
+	[121085]<a />
+		入荷管理
+		[121352]<div />
+	[121086]<a />
+		出荷管理
+		[121363]<div />
+	[121087]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[121088]<a />
+		ディスカウント
+	[121089]<a />
+		ポイント
+	[121090]<a />
+		会員ランク
+	販売チャネル
+	[121091]<a />
+		Shopify
+	[121092]<a />
+		OmnibusCore
+	[121093]<a />
+		スマレジ
+	[121094]<a />
+		リテールポータル
+	[121095]<a />
+		卸売
+	[121096]<a />
+		設定
+ロケーショングループ。このページの準備が整いました
+*[122345]<div />
+	*[122339]<div />
+		*[122338]<a />
+ロケーショングループ
+TEST_FAQ_20260624_LG_171810
+グループ名
+|SHADOW(open)|*[122355]<input id=:r2f: placeholder=関東全店 autocomplete=off type=text value=TEST_FAQ_20260624_LG_171810 required=true />
+ロケーション
+含まれるロケーション
+*[122367]<a />
+	編集する
+*[122382]<hr />
+*[122378]<span />
+	*[122374]<span />
+	<svg /> <!-- SVG content collapsed -->
+このグループに新しいロケーションを自動的に含める
+デフォルトのロケーション
+*[122394]<span />
+	*[122392]<span />
+		*[122391]<svg /> <!-- SVG content collapsed -->
+*[122400]<button />
+*[122402]<a />
+	ユニクロ物流倉庫
+*[122409]<button disabled=true />
+	保存する
+[121537]<section aria-label=Notifications alt+T live=polite />
+	*[122280]<li level=1 />
+		*[122277]<button aria-label=Close toast />
+		*[122278]<div />
+			<svg /> <!-- SVG content collapsed -->
+		ロケーショングループを作成しました
+[121102]<div id=PolarisPortalsContainer />
+[121104]<div id=clerk-components />

@@ -1,0 +1,113 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[122456]<a />
+	コンテンツにスキップ
+[122598]<div />
+[122459]<button data-state=closed expanded=false />
+[122460]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[122615]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[122464]<a />
+		ホーム
+	[122465]<a />
+		商品管理
+	[122466]<a />
+		在庫管理
+	[122467]<a />
+		注文管理
+		[122666]<div />
+	[122468]<a />
+		顧客管理
+	[122469]<a />
+		発注管理
+	[122470]<a />
+		販売設定
+	[122471]<a />
+		会計
+	[122472]<a />
+		分析
+	オペレーション
+	[122473]<a />
+		入荷管理
+		[122750]<div />
+	[122474]<a />
+		出荷管理
+		[122761]<div />
+	[122475]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[122476]<a />
+		ディスカウント
+	[122477]<a />
+		ポイント
+	[122478]<a />
+		会員ランク
+	販売チャネル
+	[122479]<a />
+		Shopify
+	[122480]<a />
+		OmnibusCore
+	[122481]<a />
+		スマレジ
+	[122482]<a />
+		リテールポータル
+	[122483]<a />
+		卸売
+	[122484]<a />
+		設定
+ロケーショングループ。このページの準備が整いました
+[122879]<div />
+	[122880]<div />
+		[122486]<a />
+ロケーショングループ
+[122452]<a />
+	グループを作成
+[122489]<button id=1 role=tab selected=true />
+	すべて
+[122933]<hr />
+[122991]<tr />
+	グループ名
+	デフォルト
+	ロケーション
+[122495]<tr id=2a478a97-ff26-5ca0-8a8a-17124887d090_LocationGroup />
+	[123005]<td />
+		[123006]<p />
+			TEST_FAQ_20260624_LG_171810
+	[123008]<td />
+		[123009]<p />
+			ユニクロ物流倉庫
+	[123011]<td />
+		[123012]<p />
+			個のロケーション
+[122496]<tr id=7f798dc8-995b-5fd2-b936-8c911d78abdc_LocationGroup />
+	[123015]<td />
+		[123016]<p />
+			ユニクログループ
+	[123018]<td />
+		[123019]<p />
+			ユニクロ - 銀座店
+	[123021]<td />
+		[123022]<p />
+			個のロケーション
+[122497]<tr id=906401a3-571f-5547-886c-9219c812247f_LocationGroup />
+	[123025]<td />
+		[123026]<p />
+			GU グループ
+	[123028]<td />
+		[123029]<p />
+			GU 銀座店
+	[123031]<td />
+		[123032]<p />
+			個のロケーション
+[122499]<button id=previousURL aria-label=前へ disabled=true />
+[122500]<button id=nextURL aria-label=次へ disabled=true />
+[122453]<button />
+	ロケーショングループ
+についてもっと詳しくみる
+[123057]<section aria-label=Notifications alt+T live=polite />
+[122501]<div id=PolarisPortalsContainer />
+[122503]<div id=clerk-components />

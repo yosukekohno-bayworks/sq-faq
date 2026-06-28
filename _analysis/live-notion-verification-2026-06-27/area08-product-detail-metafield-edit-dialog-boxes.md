@@ -1,0 +1,17 @@
+- generic [ref=e1165] [box=410,449,620,202]:
+  - generic [ref=e1167] [box=426,465,588,20]:
+    - heading "TEST_META_SHORT_20260627" [level=2] [ref=e1169] [box=426,465,215,20]
+    - button "閉じる" [ref=e1170] [cursor=pointer] [box=990,461,28,28]:
+      - img [ref=e1173] [box=994,465,20,20]
+  - generic [ref=e1178] [box=426,518,588,56]:
+    - generic [ref=e1181] [box=426,518,195,20]: TEST_META_SHORT_20260627
+    - textbox "TEST_META_SHORT_20260627" [ref=e1185] [box=426,542,588,32]
+  - generic [ref=e1188] [box=426,607,588,28]:
+    - generic [ref=e1189] [box=426,607,72,28]:
+      - button "削除する" [disabled] [box=426,607,72,28]:
+        - generic [box=438,613,48,16]: 削除する
+    - generic [ref=e1190] [box=850,607,164,28]:
+      - button "キャンセル" [ref=e1191] [cursor=pointer] [box=850,607,84,28]:
+        - generic [ref=e1192] [box=862,613,60,16]: キャンセル
+      - button "保存する" [ref=e1193] [cursor=pointer] [box=942,607,72,28]:
+        - generic [ref=e1194] [box=954,613,48,16]: 保存する

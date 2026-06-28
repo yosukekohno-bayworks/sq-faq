@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e125]:
+              - generic [ref=e126]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e127]:
+            - listitem [ref=e128]:
+              - generic [ref=e129]: オペレーション
+            - listitem [ref=e130]:
+              - link "入荷管理" [ref=e133] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e136]
+                - generic [ref=e140]: 入荷管理
+            - listitem [ref=e141]:
+              - link "出荷管理" [ref=e144] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e147]
+                - generic [ref=e149]: 出荷管理
+            - listitem [ref=e150]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e153] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e156]
+                - generic [ref=e159]: 在庫依頼
+                - generic [ref=e161]:
+                  - generic [ref=e162]: 未完了の在庫依頼 3件
+                  - generic [ref=e163]: "3"
+          - list [ref=e164]:
+            - listitem [ref=e165]:
+              - generic [ref=e166]: CRM
+            - listitem [ref=e167]:
+              - link "ディスカウント" [ref=e170] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e173]
+                - generic [ref=e175]: ディスカウント
+            - listitem [ref=e176]:
+              - link "ポイント" [ref=e179] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e182]
+                - generic [ref=e184]: ポイント
+            - listitem [ref=e185]:
+              - link "会員ランク" [ref=e188] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e191]
+                - generic [ref=e194]: 会員ランク
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - generic [ref=e197]: 販売チャネル
+            - listitem [ref=e198]:
+              - link "Shopify" [ref=e201] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e202]: Shopify
+            - listitem [ref=e203]:
+              - link "OmnibusCore" [ref=e206] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e207]: OmnibusCore
+            - listitem [ref=e208]:
+              - link "スマレジ" [ref=e211] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e212]: スマレジ
+            - listitem [ref=e213]:
+              - link "リテールポータル" [ref=e216] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e217]: リテールポータル
+            - listitem [ref=e218]:
+              - generic [ref=e219]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "設定" [ref=e224] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e227]
+                - generic [ref=e229]: 設定
+    - main [ref=e230]:
+      - generic [ref=e409]:
+        - generic [ref=e410]:
+          - status:
+            - paragraph [ref=e411]: 売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました
+          - generic [ref=e413]:
+            - link [ref=e416] [cursor=pointer]:
+              - /url: /admin/csv_export/csv_export_operation_sale_changes
+              - img [ref=e419]
+            - heading "売上実績（注文軸）をCSVでエクスポートする" [level=1] [ref=e423]
+        - generic [ref=e425]:
+          - generic [ref=e429]:
+            - generic [ref=e431]:
+              - generic [ref=e434]: テナント*
+              - generic [ref=e435]:
+                - combobox "テナント*" [ref=e436]:
+                  - option "選択してください" [disabled] [selected]
+                  - option "ユニクロ"
+                  - option "TEST_FAQ_COVERAGE_20260615_テナント_EDIT"
+                  - option "テストテナント"
+                  - option "TEST_FAQ_20260624_TENANT_170037"
+                - generic [ref=e437]:
+                  - generic [ref=e438]: 選択してください
+                  - img [ref=e441]
+              - generic [ref=e445]: エクスポートするテナントを選択してください
+            - group [ref=e446]:
+              - generic [ref=e447]:
+                - generic [ref=e449]:
+                  - generic [ref=e452]: 開始日時*
+                  - textbox "開始日時*" [ref=e456]
+                  - generic [ref=e457]: 絞り込みを開始する日時を入力してください
+                - generic [ref=e459]:
+                  - generic [ref=e462]: 終了日時*
+                  - textbox "終了日時*" [ref=e466]
+                  - generic [ref=e467]: 絞り込みを終了する日時を入力してください
+          - button "エクスポートを開始する" [ref=e472] [cursor=pointer]:
+            - generic [ref=e473]: エクスポートを開始する
+  - region "Notifications alt+T"
+  - alert [ref=e10]

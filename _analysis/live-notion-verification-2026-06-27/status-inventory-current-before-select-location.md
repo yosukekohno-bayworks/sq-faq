@@ -1,0 +1,72 @@
+- generic [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]
+            - listitem [ref=e49]
+            - listitem [ref=e58]
+            - listitem [ref=e85]
+            - listitem [ref=e94]
+            - listitem [ref=e104]
+            - listitem [ref=e114]
+            - listitem [ref=e126]
+            - listitem [ref=e135]
+          - list [ref=e137]:
+            - listitem [ref=e138]
+            - listitem [ref=e140]
+            - listitem [ref=e151]
+            - listitem [ref=e160]
+          - list [ref=e174]:
+            - listitem [ref=e175]
+            - listitem [ref=e177]
+            - listitem [ref=e186]
+            - listitem [ref=e195]
+          - list [ref=e205]:
+            - listitem [ref=e206]
+            - listitem [ref=e208]
+            - listitem [ref=e213]
+            - listitem [ref=e218]
+            - listitem [ref=e223]
+            - listitem [ref=e228]
+          - list [ref=e230]:
+            - listitem [ref=e231]
+    - main [ref=e240]:
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - status:
+            - paragraph [ref=e245]: "在庫管理 : 。このページの準備が整いました"
+          - generic [ref=e247]:
+            - generic [ref=e249]
+            - generic [ref=e261]
+        - generic [ref=e282]:
+          - generic [ref=e288]:
+            - tablist [ref=e295]
+            - button "検索と絞り込みの結果" [ref=e302] [cursor=pointer]
+          - generic [ref=e314]:
+            - table [ref=e316]
+            - navigation "ページネーション" [ref=e1204]
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "ロケーションを選択する" [active]
+  - alert [ref=e10]

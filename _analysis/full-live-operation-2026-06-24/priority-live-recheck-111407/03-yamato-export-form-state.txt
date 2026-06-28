@@ -1,0 +1,114 @@
+viewport: 1209x785
+page: 1209x995
+scroll: (0, 0)
+[61475]<a />
+	コンテンツにスキップ
+[61638]<div />
+[61478]<button data-state=closed expanded=false />
+[61479]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[61655]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[61483]<a />
+		ホーム
+	[61484]<a />
+		商品管理
+	[61485]<a />
+		在庫管理
+	[61486]<a />
+		注文管理
+		[61706]<div />
+	[61487]<a />
+		顧客管理
+	[61488]<a />
+		発注管理
+	[61489]<a />
+		販売設定
+	[61490]<a />
+		会計
+	[61491]<a />
+		分析
+	オペレーション
+	[61492]<a />
+		入荷管理
+		[61790]<div />
+	[61493]<a />
+		出荷管理
+		[61801]<div />
+	[61494]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[61495]<a />
+		ディスカウント
+	[61496]<a />
+		ポイント
+	[61497]<a />
+		会員ランク
+	販売チャネル
+	[61498]<a />
+		Shopify
+	[61499]<a />
+		OmnibusCore
+	[61500]<a />
+		スマレジ
+	[61501]<a />
+		リテールポータル
+	[61502]<a />
+		卸売
+	[61503]<a />
+		設定
+条件指定でヤマトB2クラウドのCSVをエクスポートする。このページの準備が整いました
+*[62249]<div />
+	*[62245]<div />
+		*[62244]<a />
+条件指定でヤマトB2クラウドのCSVをエクスポートする
+*[62276]<div role=status live=polite />
+	*[62260]<span />
+		*[62259]<span />
+			*[62258]<svg /> <!-- SVG content collapsed -->
+	エクスポート完了後、メールにて以下のダウンロードリンクをお知らせいたします
+	ヤマトB2クラウド取り込み用CSV
+	同梱する納品書PDF
+開始日時
+|SHADOW(open)|*[62311]<input id=:r2e: autocomplete=off type=datetime-local format=YYYY-MM-DDTHH:MM placeholder=YYYY-MM-DDTHH:MM />
+出荷指示の絞り込みを開始する日時を入力してください
+終了日時
+|SHADOW(open)|*[62354]<input id=:r2f: autocomplete=off type=datetime-local value=2026-06-24T11:15 format=YYYY-MM-DDTHH:MM placeholder=YYYY-MM-DDTHH:MM />
+出荷指示の絞り込みを終了する日時を入力してください
+配送先 (国)
+*[62375]<div id=:r2h:-Prefix />
+	*[62372]<span />
+		*[62371]<span />
+			*[62370]<svg /> <!-- SVG content collapsed -->
+*[62376]<div id=:r2h:-VerticalContent />
+	|SHADOW(open)|*[62374]<input id=:r2h: role=combobox placeholder=日本 autocomplete=list aria-autocomplete=list type=text data-state=closed expanded=false />
+決済方法
+すべての決済
+*[62408]<span />
+	*[62406]<span />
+		*[62405]<svg /> <!-- SVG content collapsed -->
+出荷作業ステータス
+選択してください
+*[62456]<span />
+	*[62454]<span />
+		*[62453]<svg /> <!-- SVG content collapsed -->
+特定の出荷作業ステータスで絞り込みたい場合に選択してください
+注文タグ（含む）
+|SHADOW(open)|*[62467]<input id=:r2l: placeholder=例: priority autocomplete=off type=text />
+入力されたタグを含む出荷指示のみが対象になります
+注文タグ（除外）
+|SHADOW(open)|*[62479]<input id=:r2m: placeholder=例: test autocomplete=off type=text />
+入力されたタグを含まない出荷指示のみが対象になります。
+*[62495]<span />
+	*[62491]<span />
+	*[62489]<svg /> <!-- SVG content collapsed -->
+*[62496]<span />
+	*[62494]<span />
+		CSVの出力後に出荷指示のステータスを出荷作業中に変更する
+*[62509]<button />
+	実行する
+[62124]<section aria-label=Notifications alt+T live=polite />
+[61524]<div id=PolarisPortalsContainer />
+[61526]<div id=clerk-components />

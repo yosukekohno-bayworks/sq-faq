@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-06-27T19:44:26.190904+00:00",
+  "route": "/admin/local_pickup_product_variants",
+  "searchQuery": "TEST_E2E",
+  "errors": [],
+  "result": {
+    "beforeCount": 20,
+    "beforeSample": [
+      {
+        "index": 1,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / XL 486125 486125-09-XL",
+        "hasCheckbox": true,
+        "sku": "486125-09-XL"
+      },
+      {
+        "index": 2,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / L 486125 486125-09-L",
+        "hasCheckbox": true,
+        "sku": "486125-09-L"
+      },
+      {
+        "index": 3,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / L 486125 486125-03-L",
+        "hasCheckbox": true,
+        "sku": "486125-03-L"
+      },
+      {
+        "index": 4,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / L 486125 486125-69-L",
+        "hasCheckbox": true,
+        "sku": "486125-69-L"
+      },
+      {
+        "index": 5,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / XS 486125 486125-03-XS",
+        "hasCheckbox": true,
+        "sku": "486125-03-XS"
+      },
+      {
+        "index": 6,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XL 486125 486125-69-XL",
+        "hasCheckbox": true,
+        "sku": "486125-69-XL"
+      },
+      {
+        "index": 7,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XS 486125 486125-69-XS",
+        "hasCheckbox": true,
+        "sku": "486125-69-XS"
+      },
+      {
+        "index": 8,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / S 486125 486125-31-S",
+        "hasCheckbox": true,
+        "sku": "486125-31-S"
+      }
+    ],
+    "candidateRows": [
+      {
+        "index": 1,
+        "text": "アイテムを選択する productVariant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 NAVY / M TEST_E2E_20260622_GU_1830 TEST_E2E_20260622_GU_1830_NAVY_M",
+        "hasCheckbox": true,
+        "sku": "TEST_E2E_20260622_GU_1830_NAVY_M"
+      },
+      {
+        "index": 2,
+        "text": "アイテムを選択する productVariant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1845 NAVY / M TEST_E2E_20260622_GU_1845 TEST_E2E_20260622_GU_1845_NAVY_M",
+        "hasCheckbox": true,
+        "sku": "TEST_E2E_20260622_GU_1845_NAVY_M"
+      },
+      {
+        "index": 3,
+        "text": "アイテムを選択する productVariant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M",
+        "hasCheckbox": true,
+        "sku": "TEST_E2E_20260622_GU_1905_NAVY_M"
+      }
+    ],
+    "selectedSku": "TEST_E2E_20260622_GU_1830_NAVY_M",
+    "unselectedSku": "TEST_E2E_20260622_GU_1845_NAVY_M",
+    "selectClick": {
+      "clicked": true,
+      "rowText": "アイテムを選択する productVariant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 NAVY / M TEST_E2E_20260622_GU_1830 TEST_E2E_20260622_GU_1830_NAVY_M"
+    },
+    "selectButtonStateBeforeClick": {
+      "text": "選択する",
+      "disabled": false,
+      "ariaDisabled": "false"
+    },
+    "dialogHasCatalogMention": false,
+    "afterAddCount": 21,
+    "afterAddSample": [
+      {
+        "index": 1,
+        "text": "アイテムを選択する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 NAVY / M TEST_E2E_20260622_GU_1830 TEST_E2E_20260622_GU_1830_NAVY_M",
+        "hasCheckbox": true,
+        "sku": "TEST_E2E_20260622_GU_1830_NAVY_M"
+      },
+      {
+        "index": 2,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / XL 486125 486125-09-XL",
+        "hasCheckbox": true,
+        "sku": "486125-09-XL"
+      },
+      {
+        "index": 3,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / L 486125 486125-09-L",
+        "hasCheckbox": true,
+        "sku": "486125-09-L"
+      },
+      {
+        "index": 4,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / L 486125 486125-03-L",
+        "hasCheckbox": true,
+        "sku": "486125-03-L"
+      },
+      {
+        "index": 5,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / L 486125 486125-69-L",
+        "hasCheckbox": true,
+        "sku": "486125-69-L"
+      },
+      {
+        "index": 6,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / XS 486125 486125-03-XS",
+        "hasCheckbox": true,
+        "sku": "486125-03-XS"
+      },
+      {
+        "index": 7,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XL 486125 486125-69-XL",
+        "hasCheckbox": true,
+        "sku": "486125-69-XL"
+      },
+      {
+        "index": 8,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XS 486125 486125-69-XS",
+        "hasCheckbox": true,
+        "sku": "486125-69-XS"
+      }
+    ],
+    "selectedAdded": true,
+    "unselectedStayedAbsent": true,
+    "cleanupClick": {
+      "clicked": true,
+      "rowText": "アイテムを選択する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 NAVY / M TEST_E2E_20260622_GU_1830 TEST_E2E_20260622_GU_1830_NAVY_M"
+    },
+    "cleanupConfirmText": "商品バリエーションを削除しますか？ 選択している1件のバリエーションを削除します。この処理は巻き戻すことができません キャンセル 削除する",
+    "afterCleanupCount": 20,
+    "afterCleanupSample": [
+      {
+        "index": 1,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / XL 486125 486125-09-XL",
+        "hasCheckbox": true,
+        "sku": "486125-09-XL"
+      },
+      {
+        "index": 2,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ BLACK / L 486125 486125-09-L",
+        "hasCheckbox": true,
+        "sku": "486125-09-L"
+      },
+      {
+        "index": 3,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / L 486125 486125-03-L",
+        "hasCheckbox": true,
+        "sku": "486125-03-L"
+      },
+      {
+        "index": 4,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / L 486125 486125-69-L",
+        "hasCheckbox": true,
+        "sku": "486125-69-L"
+      },
+      {
+        "index": 5,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ GRAY / XS 486125 486125-03-XS",
+        "hasCheckbox": true,
+        "sku": "486125-03-XS"
+      },
+      {
+        "index": 6,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XL 486125 486125-69-XL",
+        "hasCheckbox": true,
+        "sku": "486125-69-XL"
+      },
+      {
+        "index": 7,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ NAVY / XS 486125 486125-69-XS",
+        "hasCheckbox": true,
+        "sku": "486125-69-XS"
+      },
+      {
+        "index": 8,
+        "text": "アイテムを選択する オーバーサイズスウェットシャツ BEIGE / S 486125 486125-31-S",
+        "hasCheckbox": true,
+        "sku": "486125-31-S"
+      }
+    ],
+    "cleanupRemovedSelected": true,
+    "unselectedStillAbsentAfterCleanup": true
+  }
+}

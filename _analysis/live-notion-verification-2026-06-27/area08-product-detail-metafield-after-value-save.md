@@ -1,0 +1,10 @@
+- generic [ref=e1077]:
+  - heading "メタフィールド" [level=2] [ref=e1079]
+  - generic [ref=e1081]:
+    - separator [ref=e1082]
+    - generic [ref=e1085]:
+      - generic [ref=e1086]:
+        - heading "TEST_META_SHORT_20260627" [level=3] [ref=e1088]
+        - paragraph [ref=e1197]: TEST_VALUE_20260627
+      - button [active] [ref=e1091] [cursor=pointer]:
+        - img [ref=e1094]

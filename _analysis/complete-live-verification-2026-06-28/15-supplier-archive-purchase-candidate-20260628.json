@@ -1,0 +1,144 @@
+{
+  "generatedAt": "2026-06-27T17:16:48.767247+00:00",
+  "name": "TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648",
+  "code": "TEST_SUP_ARCH_20260628_021648",
+  "steps": {
+    "created": {
+      "url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取引先。このページの準備が整いました 取引先 インポート 取引先を作成 すべて アーカイブ すべてのアイテムを選択する 名前 コード アイテムを選択する TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 TEST_SUP_ARCH_20260628_021648 アイテムを選択する TEST_E2E_20260622_取引先_1905 TEST_E2E_20260622_SUP_1905 アイテムを選択する TEST_E2E_20260622_取引先_1845 TEST_E2E_20260622_SUP_1845 アイテムを選択する TEST_E2E_20260622_取引先_1830 TEST_E2E_20260622_SUP_1830 アイテムを選択する TEST_E2E_20260622_取引先_1755 TEST_E2E_20260622_SUP_1755 アイテムを選択する TEST_E2E_20260622_取引先_1740 TEST_E2E_20260622_SUP_1740 アイテムを選択する TEST_FAQ_DEEP_202606080340_取引先 0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier アイテムを選択する TEST_FAQ_Supplier2 4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier アイテムを選択する TEST_FAQ_Supplier e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier 取引先を作成しました"
+    },
+    "purchaseOptionsBeforeArchive": {
+      "containsName": true,
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "text": "TEST_FAQ_Supplier",
+          "value": "e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_FAQ_Supplier2",
+          "value": "4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_FAQ_DEEP_202606080340_取引先",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1740",
+          "value": "ae8229c0-664d-55d3-804e-020fd75c17e0_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1755",
+          "value": "1ecc989d-241b-5166-8f47-cc41f3df42fb_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1830",
+          "value": "b518ae05-67c2-50a7-b071-4e058b98ab01_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1845",
+          "value": "02158a01-6af9-58ed-a137-7ddb0aa4aaf5_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1905",
+          "value": "42bb0e6a-5718-546a-8c3f-a185c116ba5f_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648",
+          "value": "62acd1f7-d25a-5b93-a4e8-fbfcb23b59ff_InventorySupplier",
+          "disabled": false
+        }
+      ],
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 発注伝票を作成。このページの準備が整いました 発注伝票を作成 取引先 取引先 選択してください TEST_FAQ_Supplier TEST_FAQ_Supplier2 TEST_FAQ_DEEP_202606080340_取引先 TEST_E2E_20260622_取引先_1740 TEST_E2E_20260622_取引先_1755 TEST_E2E_20260622_取引先_1830 TEST_E2E_20260622_取引先_1845 TEST_E2E_20260622_取引先_1905 TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 選択してください テナント 選択してください ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 選択してください 通貨 米ドル ユーロ 日本円 タイ バーツ シンガポール ドル 日本円 商品 商品を追加する 参照 取り消す 作成する"
+    },
+    "openedRowForArchive": "アイテムを選択する TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 TEST_SUP_ARCH_20260628_021648",
+    "detailBeforeArchive": {
+      "url": "https://www.sqstackstaging.com/admin/settings/suppliers/62acd1f7-d25a-5b93-a4e8-fbfcb23b59ff_InventorySupplier",
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648。このページの準備が整いました TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 その他の操作 仕入れ先ベンダー名 取引先コード 保存する"
+    },
+    "actionMenuBeforeArchive": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648。このページの準備が整いました TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 その他の操作 仕入れ先ベンダー名 取引先コード 保存する その他の操作 アーカイブ",
+    "afterArchive": {
+      "url": "https://www.sqstackstaging.com/admin/settings/suppliers/62acd1f7-d25a-5b93-a4e8-fbfcb23b59ff_InventorySupplier",
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648。このページの準備が整いました TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 その他の操作 仕入れ先ベンダー名 取引先コード 保存する"
+    },
+    "purchaseOptionsAfterArchive": {
+      "containsName": false,
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "text": "TEST_FAQ_Supplier",
+          "value": "e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_FAQ_Supplier2",
+          "value": "4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_FAQ_DEEP_202606080340_取引先",
+          "value": "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1740",
+          "value": "ae8229c0-664d-55d3-804e-020fd75c17e0_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1755",
+          "value": "1ecc989d-241b-5166-8f47-cc41f3df42fb_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1830",
+          "value": "b518ae05-67c2-50a7-b071-4e058b98ab01_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1845",
+          "value": "02158a01-6af9-58ed-a137-7ddb0aa4aaf5_InventorySupplier",
+          "disabled": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1905",
+          "value": "42bb0e6a-5718-546a-8c3f-a185c116ba5f_InventorySupplier",
+          "disabled": false
+        }
+      ],
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 発注伝票を作成。このページの準備が整いました 発注伝票を作成 取引先 取引先 選択してください TEST_FAQ_Supplier TEST_FAQ_Supplier2 TEST_FAQ_DEEP_202606080340_取引先 TEST_E2E_20260622_取引先_1740 TEST_E2E_20260622_取引先_1755 TEST_E2E_20260622_取引先_1830 TEST_E2E_20260622_取引先_1845 TEST_E2E_20260622_取引先_1905 選択してください テナント 選択してください ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 選択してください 通貨 米ドル ユーロ 日本円 タイ バーツ シンガポール ドル 日本円 商品 商品を追加する 参照 取り消す 作成する"
+    },
+    "selectedBeforeArchiveBulk": "アイテムを選択する TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 TEST_SUP_ARCH_20260628_021648",
+    "bulkActionsBeforeArchive": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取引先。このページの準備が整いました 取引先 インポート 取引先を作成 すべて アーカイブ すべての9のアイテムを選択する 1を選択済み アーカイブする すべてのアイテムを選択する 名前 コード アイテムを選択する TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 TEST_SUP_ARCH_20260628_021648 アイテムを選択する TEST_E2E_20260622_取引先_1905 TEST_E2E_20260622_SUP_1905 アイテムを選択する TEST_E2E_20260622_取引先_1845 TEST_E2E_20260622_SUP_1845 アイテムを選択する TEST_E2E_20260622_取引先_1830 TEST_E2E_20260622_SUP_1830 アイテムを選択する TEST_E2E_20260622_取引先_1755 TEST_E2E_20260622_SUP_1755 アイテムを選択する TEST_E2E_20260622_取引先_1740 TEST_E2E_20260622_SUP_1740 アイテムを選択する TEST_FAQ_DEEP_202606080340_取引先 0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier アイテムを選択する TEST_FAQ_Supplier2 4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier アイテムを選択する TEST_FAQ_Supplier e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier",
+    "archiveDialog": "取引先を削除しますか？ 選択されている1件の取引先を削除します。以下に当てはまる取引先は削除されません。 過去の仕入れで使用された取引先 キャンセル 削除する",
+    "selectedBeforeDeleteConfirm": "アイテムを選択する TEST_FAQ_ARCHIVE_SUPPLIER_20260628_021648 TEST_SUP_ARCH_20260628_021648",
+    "deleteArchiveDialog": "取引先を削除しますか？ 選択されている1件の取引先を削除します。以下に当てはまる取引先は削除されません。 過去の仕入れで使用された取引先 キャンセル 削除する",
+    "listAfterDeleteArchiveAction": {
+      "url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+      "containsName": false,
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取引先。このページの準備が整いました 取引先 インポート 取引先を作成 すべて アーカイブ すべてのアイテムを選択する 名前 コード アイテムを選択する TEST_E2E_20260622_取引先_1905 TEST_E2E_20260622_SUP_1905 アイテムを選択する TEST_E2E_20260622_取引先_1845 TEST_E2E_20260622_SUP_1845 アイテムを選択する TEST_E2E_20260622_取引先_1830 TEST_E2E_20260622_SUP_1830 アイテムを選択する TEST_E2E_20260622_取引先_1755 TEST_E2E_20260622_SUP_1755 アイテムを選択する TEST_E2E_20260622_取引先_1740 TEST_E2E_20260622_SUP_1740 アイテムを選択する TEST_FAQ_DEEP_202606080340_取引先 0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier アイテムを選択する TEST_FAQ_Supplier2 4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier アイテムを選択する TEST_FAQ_Supplier e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier"
+    },
+    "archiveTabAfterDeleteArchiveAction": {
+      "url": "https://www.sqstackstaging.com/admin/settings/suppliers?tab=1",
+      "containsName": false,
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 取引先。このページの準備が整いました 取引先 インポート 取引先を作成 すべて アーカイブ すべてのアイテムを選択する 名前 コード アイテムを選択する TEST_E2E_20260622_取引先_1905 TEST_E2E_20260622_SUP_1905 アイテムを選択する TEST_E2E_20260622_取引先_1845 TEST_E2E_20260622_SUP_1845 アイテムを選択する TEST_E2E_20260622_取引先_1830 TEST_E2E_20260622_SUP_1830 アイテムを選択する TEST_E2E_20260622_取引先_1755 TEST_E2E_20260622_SUP_1755 アイテムを選択する TEST_E2E_20260622_取引先_1740 TEST_E2E_20260622_SUP_1740 アイテムを選択する TEST_FAQ_DEEP_202606080340_取引先 0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier アイテムを選択する TEST_FAQ_Supplier2 4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier アイテムを選択する TEST_FAQ_Supplier e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier"
+    }
+  },
+  "errors": []
+}

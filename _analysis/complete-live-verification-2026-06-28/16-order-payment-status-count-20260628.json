@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-06-28T05:03:00.248840+00:00",
+  "countsBefore": {
+    "WAITING": 1,
+    "ON_HOLD": 0,
+    "REQUESTED": 0,
+    "IN_PROGRESS": 0,
+    "REJECTED": 0,
+    "COMPLETE": 3,
+    "CANCELLED": 0,
+    "NON_TERMINAL": 1
+  },
+  "countsAfter": {
+    "WAITING": 1,
+    "ON_HOLD": 0,
+    "REQUESTED": 0,
+    "IN_PROGRESS": 0,
+    "REJECTED": 0,
+    "COMPLETE": 4,
+    "CANCELLED": 0,
+    "NON_TERMINAL": 1
+  },
+  "create": {
+    "managementCode": "FAQ-REMAINING-AUTHONLY-20260628140300",
+    "inputSummary": {
+      "transactionKind": "AUTHORIZATION",
+      "requiresFulfillment": false,
+      "inventoryBehavior": "BYPASS"
+    },
+    "result": {
+      "status": 200,
+      "ok": true,
+      "json": {
+        "data": {
+          "orderCreate": {
+            "order": {
+              "id": "68dee76e-36de-5a27-a182-5505ed6dd576_Order",
+              "externalID": "FAQ_REMAINING_AUTHONLY_20260628140300",
+              "source": "FAQ_REMAINING_AUTHONLY",
+              "managementCode": "FAQ-REMAINING-AUTHONLY-20260628140300",
+              "managementNumber": "7",
+              "inventoryBehavior": "BYPASS",
+              "paymentStatus": "PAID",
+              "fulfillmentStatus": "FULFILLED",
+              "requiresFulfillment": false,
+              "merchantFulfillable": false,
+              "merchantReturnable": true,
+              "merchantRefundable": false,
+              "totalReturnableQuantity": 1,
+              "tags": [
+                "#ON-7",
+                "FAQ_REMAINING_20260628",
+                "FAQ_REMAINING_AUTHONLY"
+              ],
+              "inventoryOutboundOrders": {
+                "nodes": [
+                  {
+                    "id": "cc490d87-c8f8-585a-ad50-30334908a9e4_InventoryOutboundOrder",
+                    "managementCode": "#IO-1039",
+                    "kind": "ORDER",
+                    "workingStatus": "COMPLETE",
+                    "totalQuantity": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "textSample": "{\"data\":{\"orderCreate\":{\"order\":{\"id\":\"68dee76e-36de-5a27-a182-5505ed6dd576_Order\",\"externalID\":\"FAQ_REMAINING_AUTHONLY_20260628140300\",\"source\":\"FAQ_REMAINING_AUTHONLY\",\"managementCode\":\"FAQ-REMAINING-AUTHONLY-20260628140300\",\"managementNumber\":\"7\",\"inventoryBehavior\":\"BYPASS\",\"paymentStatus\":\"PAID\",\"fulfillmentStatus\":\"FULFILLED\",\"requiresFulfillment\":false,\"merchantFulfillable\":false,\"merchantReturnable\":true,\"merchantRefundable\":false,\"totalReturnableQuantity\":1,\"tags\":[\"#ON-7\",\"FAQ_REMAINING_20260628\",\"FAQ_REMAINING_AUTHONLY\"],\"inventoryOutboundOrders\":{\"nodes\":[{\"id\":\"cc490d87-c8f8-585a-ad50-30334908a9e4_InventoryOutboundOrder\",\"managementCode\":\"#IO-1039\",\"kind\":\"ORDER\",\"workingStatus\":\"COMPLETE\",\"totalQuantity\":1}]}}}}}"
+    },
+    "order": {
+      "id": "68dee76e-36de-5a27-a182-5505ed6dd576_Order",
+      "externalID": "FAQ_REMAINING_AUTHONLY_20260628140300",
+      "source": "FAQ_REMAINING_AUTHONLY",
+      "managementCode": "FAQ-REMAINING-AUTHONLY-20260628140300",
+      "managementNumber": "7",
+      "inventoryBehavior": "BYPASS",
+      "paymentStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "requiresFulfillment": false,
+      "merchantFulfillable": false,
+      "merchantReturnable": true,
+      "merchantRefundable": false,
+      "totalReturnableQuantity": 1,
+      "tags": [
+        "#ON-7",
+        "FAQ_REMAINING_20260628",
+        "FAQ_REMAINING_AUTHONLY"
+      ],
+      "inventoryOutboundOrders": {
+        "nodes": [
+          {
+            "id": "cc490d87-c8f8-585a-ad50-30334908a9e4_InventoryOutboundOrder",
+            "managementCode": "#IO-1039",
+            "kind": "ORDER",
+            "workingStatus": "COMPLETE",
+            "totalQuantity": 1
+          }
+        ]
+      }
+    }
+  },
+  "snapshots": [
+    {
+      "label": "orders-before",
+      "url": "https://www.sqstackstaging.com/admin/orders",
+      "h1": [
+        "注文管理"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ",
+        "アイテムを選択する FAQ-REMAINING-EXCHANGE-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_EXCHANGE 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み 情報 一部完了済み 返品処理中 #ON-6 FAQ_REMAINING_20260628 FAQ_REMAINING_EXCHANGE",
+        "アイテムを選択する FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_UNPAID-NOFULFILL 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-5 FAQ_REMAINING_20260628 FAQ_REMAINING_UNPAID-NOFULFILL",
+        "アイテムを選択する FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 検証顧客ユニクロ095318FAQ FAQ_REMAINING_DECREMENT 1個のアイテム ￥1,990 成功 完了 支払い済み 注意 未完了 未出荷 #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT",
+        "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+      ],
+      "nav": [
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理 未完了の注文 1件 1",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理 未完了の出荷指示 1件 1",
+        "在庫依頼 未完了の在庫依頼 3件 3",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-REMAINING-EXCHANGE-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_EXCHANGE 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み 情報 一部完了済み 返品処理中 #ON-6 FAQ_REMAINING_20260628 FAQ_REMAINING_EXCHANGE アイテムを選択する FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_UNPAID-NOFULFILL 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-5 FAQ_REMAINING_20260628 FAQ_REMAINING_UNPAID-NOFULFILL アイテムを選択する FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 検証顧客ユニクロ095318FAQ FAQ_REMAINING_DECREMENT 1個のアイテム ￥1,990 成功 完了 支払い済み 注意 未完了 未出荷 #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+    },
+    {
+      "label": "orders-after",
+      "url": "https://www.sqstackstaging.com/admin/orders",
+      "h1": [
+        "注文管理"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ",
+        "アイテムを選択する FAQ-REMAINING-AUTHONLY-20260628140300 2026年06月28日 14:03 検証顧客ユニクロ095318FAQ FAQ_REMAINING_AUTHONLY 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-7 FAQ_REMAINING_20260628 FAQ_REMAINING_AUTHONLY",
+        "アイテムを選択する FAQ-REMAINING-EXCHANGE-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_EXCHANGE 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み 情報 一部完了済み 返品処理中 #ON-6 FAQ_REMAINING_20260628 FAQ_REMAINING_EXCHANGE",
+        "アイテムを選択する FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_UNPAID-NOFULFILL 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-5 FAQ_REMAINING_20260628 FAQ_REMAINING_UNPAID-NOFULFILL",
+        "アイテムを選択する FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 検証顧客ユニクロ095318FAQ FAQ_REMAINING_DECREMENT 1個のアイテム ￥1,990 成功 完了 支払い済み 注意 未完了 未出荷 #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT",
+        "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+      ],
+      "nav": [
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理 未完了の注文 1件 1",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理 未完了の出荷指示 1件 1",
+        "在庫依頼 未完了の在庫依頼 3件 3",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-REMAINING-AUTHONLY-20260628140300 2026年06月28日 14:03 検証顧客ユニクロ095318FAQ FAQ_REMAINING_AUTHONLY 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-7 FAQ_REMAINING_20260628 FAQ_REMAINING_AUTHONLY アイテムを選択する FAQ-REMAINING-EXCHANGE-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_EXCHANGE 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み 情報 一部完了済み 返品処理中 #ON-6 FAQ_REMAINING_20260628 FAQ_REMAINING_EXCHANGE アイテムを選択する FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117 2026年06月28日 14:01 検証顧客ユニクロ095318FAQ FAQ_REMAINING_UNPAID-NOFULFILL 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-5 FAQ_REMAINING_20260628 FAQ_REMAINING_UNPAID-NOFULFILL アイテムを選択する FAQ-REMAINING-DECREMENT-20260628135953 2026年06月28日 14:00 検証顧客ユニクロ095318FAQ FAQ_REMAINING_DECREMENT 1個のアイテム ￥1,990 成功 完了 支払い済み 注意 未完了 未出荷 #ON-2 FAQ_REMAINING_20260628 FAQ_REMAINING_DECREMENT アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+    },
+    {
+      "label": "order-detail",
+      "url": "https://www.sqstackstaging.com/admin/orders/68dee76e-36de-5a27-a182-5505ed6dd576_Order",
+      "h1": [
+        "FAQ-REMAINING-AUTHONLY-20260628140300"
+      ],
+      "rows": [
+        "日付 ゲートウェイ ペイメントID タイプ ステータス 金額",
+        "2026年06月28日 14:03 FAQ_GATEWAY FAQ-PAY-FAQ_REMAINING_AUTHONLY_20260628140300 オーソリ 成功 ￥1,990"
+      ],
+      "nav": [
+        "ホーム",
+        "商品管理",
+        "在庫管理",
+        "注文管理 未完了の注文 1件 1",
+        "下書き",
+        "返品",
+        "顧客管理",
+        "発注管理",
+        "販売設定",
+        "会計",
+        "分析",
+        "入荷管理",
+        "出荷管理 未完了の出荷指示 1件 1",
+        "在庫依頼 未完了の在庫依頼 3件 3",
+        "ディスカウント",
+        "ポイント",
+        "会員ランク",
+        "Shopify",
+        "OmnibusCore",
+        "スマレジ",
+        "リテールポータル",
+        "卸売",
+        "設定"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 未完了の注文 1件 1 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 未完了の出荷指示 1件 1 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ-REMAINING-AUTHONLY-20260628140300。このページの準備が整いました FAQ-REMAINING-AUTHONLY-20260628140300 成功 完了 支払い済み 成功 完了 発送済み 2026年06月28日 14:03 にFAQ_REMAINING_AUTHONLY FAQ-REMAINING-AUTHONLY-20260628140300 から注文 返金 その他の操作 注文情報 返金履歴 出荷指示 在庫依頼 この注文による在庫変動は無視されます この注文によって発生する在庫減少はSQで管理されている在庫数には反映されません。 注文詳細 FAQ-REMAINING-AUTHONLY-20260628140300 2026年06月28日 14:03 ￥1,990 product thumbnail FAQ決済状態検証商品 新規 NAVY / M - TEST_E2E_20260622_GU_1905_NAVY_M 単価 ￥1,990 x 1 ￥1,990 支払い情報 成功 完了 支払い済み 支払い合計 ￥1,990 小計 1個のアイテム ￥1,990 送料 ￥0 税 ￥0 合計 ￥1,990 決済履歴 日付 ゲートウェイ ペイメントID タイプ ステータス 金額 2026年06月28日 14:03 FAQ_GATEWAY FAQ-PAY-FAQ_REMAINING_AUTHONLY_20260628140300 オーソリ 成功 ￥1,990 メモ FAQ残件実機検証: AUTHORIZATIONのみ 顧客情報 検証顧客ユニクロ095318FAQ 過去に5個の注文 連絡先情報 sq-faq-uniqlo-customer-20260628095318@example.invalid 配送先住所 配送先住所なし 請求先住所 請求先住所なし ポイント 付与対象に含む 成功 はい ポイント付与 0ポイント 会員ランク 算出対象に含む 成功 はい タグ #ON-7 FAQ_REMAINING_20260628 FAQ_REMAINING_AUTHONLY"
+    }
+  ],
+  "errors": []
+}

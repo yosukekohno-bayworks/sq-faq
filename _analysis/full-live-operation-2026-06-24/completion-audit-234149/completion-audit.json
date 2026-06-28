@@ -1,0 +1,4815 @@
+{
+  "counts": {
+    "scope_excluded_connection": 321,
+    "actionable_current_source": 238,
+    "destructive_or_external_output": 24,
+    "vendor_required": 30,
+    "data_unavailable": 48,
+    "not_implemented": 42,
+    "metadata_or_section": 84,
+    "user_ops_excluded": 11,
+    "template": 2
+  },
+  "items": [
+    {
+      "file": "00-getting-started/SQをはじめる-全機能ガイド.md",
+      "line": 180,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（開発元）— 破損・検品・予備の各区分への振替操作経路。管理画面上に操作画面が見当たらないため、WMS（ロジザードZERO）連携経由の可能性あり -->"
+    },
+    {
+      "file": "00-getting-started/SQをはじめる-全機能ガイド.md",
+      "line": 204,
+      "class": "scope_excluded_connection",
+      "text": "**複数のロケーションをまとめたグループ**です。Shopify連携の設定でロケーショングループを指定すると、仕様上はグループ内で「在庫依頼を受け付ける」が有効な店舗に在庫リクエストが送られる想定です。取り寄せ販売（EC注文起点）の運用では、論理ロケーションと対象店舗をひとつのグループにまとめてShopify連携に設定します。実接続での送付先絞り込みは未確認です。手動の在庫依頼作成では、このフラグがOFFのロケーションもリクエスト先に選択・保存できます（2026-06-21実機確認）。"
+    },
+    {
+      "file": "00-getting-started/SQをはじめる-全機能ガイド.md",
+      "line": 206,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（OmnibusCore連携が接続されている環境での在庫振り分けへの具体的な使われ方を確認する） -->"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 50,
+      "class": "scope_excluded_connection",
+      "text": "| 在庫依頼を受け付ける = OFF（初期値） | 手動作成画面ではリクエスト先として選択・保存可能（2026-06-21実機確認）。自動在庫リクエストの送付対象から外れるかは、EC/リテールポータル接続環境で要確認 |"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 52,
+      "class": "actionable_current_source",
+      "text": "| ポイント利用種別 = 値引き / 金種 | 店舗でのポイントの扱いを切り替える<!-- TODO: 要確認（値引きと金種の動作の違い） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 57,
+      "class": "scope_excluded_connection",
+      "text": "> ⚠️ **未検証**: 「倉庫に実在庫がないと、ここへの出荷指示が在庫リクエストに変換されて店舗取り寄せが動く」という挙動は、Shopify実接続での確認ができていません（推測）。取り寄せ販売フローの根幹なので、実接続後に検証予定です。<!-- TODO: 要確認（Shopify接続後の引当・在庫リクエスト変換の実動作） -->"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 69,
+      "class": "scope_excluded_connection",
+      "text": "| グループ内の「在庫依頼を受け付ける」ON店舗 | Shopify連携にこのグループを指定したときの自動在庫リクエスト送付先を制御する設定とされる。実接続での送付先絞り込みは要確認 |"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 102,
+      "class": "actionable_current_source",
+      "text": "| 支払い待ちでも注文を出荷する = ON | 入金確認前でも出荷処理を進められる<!-- TODO: 要確認（実動作） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 103,
+      "class": "actionable_current_source",
+      "text": "| 代引き = ON | 代金引換として扱われる（出荷管理「条件指定でエクスポート」の絞り込みに「代引きのみ / 代引き以外の決済」がある）<!-- TODO: 要確認（代引きチェックの実動作） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 152,
+      "class": "actionable_current_source",
+      "text": "| メールアドレス | SQからのお知らせ・アラートメールの届き先になる<!-- TODO: 要確認（通知種別との対応） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 160,
+      "class": "destructive_or_external_output",
+      "text": "| HTMLテンプレート | 出荷管理「条件指定でエクスポート（ヤマトB2クラウド）」で生成される**同梱納品書PDFのレイアウト**になる<!-- TODO: 要確認（反映の実機確認） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 193,
+      "class": "vendor_required",
+      "text": "| 採寸項目（最大5件）・単位（なし / センチメートル） | テンプレートとして保存される。**現在、商品に紐づける操作が管理画面に無い**<!-- TODO: 要確認（API経由の割り当て） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 233,
+      "class": "scope_excluded_connection",
+      "text": "> ⚠️ 各ルールの「上限到達時 / 閾値割れ時 / 在庫0時」の実際の挙動（売り止めが効くか等）は、チャネル未接続のため未検証です。詳細は事典②を参照。"
+    },
+    {
+      "file": "00-getting-started/データ事典①-設定で作るデータ.md",
+      "line": 295,
+      "class": "scope_excluded_connection",
+      "text": "> ⚠️ **未検証**: 在庫同期の「実際の反映タイミング・頻度・エラー時の動き」はスマレジ未接続のため確認できていません（設定項目とその方向の意味までは確認済み）。<!-- TODO: 要確認（スマレジ接続後の同期挙動） -->"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 73,
+      "class": "scope_excluded_connection",
+      "text": "- **未確認**: Shopify / OmnibusCore / リテールポータルなど外部チャネル連携時の在庫同期・販売可否・注文引当への影響は未確認。"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 201,
+      "class": "actionable_current_source",
+      "text": "| 一部受領済み | 一部の入荷実績が登録された状態<!-- TODO: 要確認（一覧タブへの表示条件） --> | 残りの入荷実績登録、または入荷指示の「完了に更新する」 | （移った分だけ手持ちが移動先へ） |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 202,
+      "class": "actionable_current_source",
+      "text": "| 受領済み | 入荷が完了した状態<!-- TODO: 要確認（一覧タブへの表示条件） --> | 出荷未完了なら出荷実績登録を待つ | 入荷済み分が移動先へ反映 |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 206,
+      "class": "actionable_current_source",
+      "text": "> **伝票自体にステータスを進めるボタンは無い**。出荷・入荷の実績登録に連動して自動で進む。入荷は出荷前でも登録でき、部分入荷・過入荷も保存できる。一覧タブの「一部受領済み / 受領済み」への正確な表示条件は未検証。"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 237,
+      "class": "scope_excluded_connection",
+      "text": "| 届く先 | 仕様上はロケーショングループ内で「**在庫依頼を受け付ける**」がONの店舗だけとされる。実接続での送付先絞り込みは要確認（手動作成画面ではOFF店舗もリクエスト先に選択・保存可能） |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 238,
+      "class": "scope_excluded_connection",
+      "text": "| 店舗側の操作 | リテールポータルで確認 → 在庫の確保登録 → 移動伝票の発行（ロケーションごとに分割）→ 店舗から倉庫へ出荷<!-- TODO: 要確認（ポータル側の画面ラベル原文） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 249,
+      "class": "scope_excluded_connection",
+      "text": "| 保留中 | 保留状態（OmnibusCore連携の初期ステータス設定でも入る）<!-- TODO: 要確認（遷移条件） --> | — | 無し |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 250,
+      "class": "actionable_current_source",
+      "text": "| 依頼済み / 作業中 / 欠品・要対応 | 作業の進行状態<!-- TODO: 要確認（各遷移条件） --> | 「条件指定でエクスポート」のチェックONで「出荷作業中」へ変えられる | 無し |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 254,
+      "class": "actionable_current_source",
+      "text": "> 「保留中 / 依頼済み / 作業中 / 欠品・要対応」の各意味と正確な遷移条件は未検証（タブ名・エクスポート絞り込み選択肢として存在は確認済み）。"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 261,
+      "class": "destructive_or_external_output",
+      "text": "| 条件指定でエクスポート（ヤマトB2クラウド） | 期間・決済方法・出荷作業ステータス・注文タグ（含む/除外）で絞り込み、ヤマトB2クラウド取り込み用CSVを出力する。2026-06-21のフォームには出力物として「ヤマトB2クラウド取り込み用CSV」「同梱する納品書PDF」と表示される。ただし実際のメール・ダウンロードリンク・PDF生成結果は未確認 |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 273,
+      "class": "actionable_current_source",
+      "text": "| 入荷依頼済み / 入荷作業中 / 要対応 | 作業の進行状態<!-- TODO: 要確認（各遷移条件） --> | — | 無し |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 277,
+      "class": "actionable_current_source",
+      "text": "> 出荷と入荷の登録順序は問われない（並行可）。部分入荷、過入荷も登録できる。予定数と実績数が一致しない場合は「完了に更新する」で入荷指示を完了できる。「入荷依頼済み / 入荷作業中 / 要対応」の正確な遷移条件は未検証。"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 308,
+      "class": "scope_excluded_connection",
+      "text": "> ⚠️ **共通の未検証事項**: 以下4ルールの「在庫0時に本当に注文を受け続けるか」「上限に達したら売り止まるか」「閾値を割ったら販売停止・通知が走るか」といった**到達時・適用時の実挙動は、チャネル未接続のため検証できていません**。設定フォームの項目と意味までは確認済みです。<!-- TODO: 要確認（チャネル接続後の各ルールの適用時挙動） -->"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 325,
+      "class": "scope_excluded_connection",
+      "text": "| ルールを OmnibusCore連携の「在庫予約ルール」に指定 | そのチャネルの在庫0時の注文受付に作用する想定（実際に在庫0で受注されるかは⚠️未検証） |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 363,
+      "class": "scope_excluded_connection",
+      "text": "| 下書き注文 | 「注文を作成する」ボタンに `href` がなく現在作成できない。直接 `/admin/draft_orders/create` にアクセスすると「予期せぬエラーが発生しました」になる。**会社や担当者を作っても有効化されない** — 解放には下記「購入顧客（purchasing_customers）」がチャネル経由で登録されている必要があると見られる（SQ内に購入顧客の手動作成入口は無い）<!-- TODO: 要確認（チャネル接続＋購入顧客生成での有効化の実証） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 374,
+      "class": "data_unavailable",
+      "text": "| 顧客詳細画面 | 注文履歴・ポイント残高・会員ランクなどが表示される想定<!-- TODO: 要確認（顧客データ0件のため詳細画面の構成は未確認） --> |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 484,
+      "class": "actionable_current_source",
+      "text": "> ⚠️ 検証ステータス・実行ステータスの全選択肢（成功以外の表記）は未検証。<!-- TODO: 要確認（ステータスの全選択肢） -->"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 501,
+      "class": "destructive_or_external_output",
+      "text": "| カテゴリ（在庫 / ロケーション / ディスカウント利用履歴 / 商品バリエーション / セール価格 / ヤマトB2クラウド / 売上実績（注文軸）/ 売上実績（明細軸）/ ポイント変動履歴） | カテゴリごとにロケーション・ロケーショングループ・テナント・期間などを指定する。非同期処理で実行され、対象カテゴリの一覧に実行履歴とダウンロードリンクが残る。メール通知の有無・文面は未確認 |"
+    },
+    {
+      "file": "00-getting-started/データ事典②-商品・在庫・運用のデータとステータス.md",
+      "line": 517,
+      "class": "not_implemented",
+      "text": "| 権限だけ存在する機能 | 「顧客マイル」「マイル商品」「お知らせ」は権限リソースのみで画面が無い（将来機能。マイルはポイントと別系統のCRM機能）。「分析（収益・レポート）」「卸売（/admin/b2b）」もメニューはあるがTODO表示で未実装 |"
+    },
+    {
+      "file": "00-getting-started/データの流れ-図解.md",
+      "line": 4,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "00-getting-started/データの流れ-図解.md",
+      "line": 103,
+      "class": "scope_excluded_connection",
+      "text": "> 注意: 各連携の**接続後の実際の同期挙動（方向・頻度・エラー時の動き）は未接続のため未確認**です。接続項目・設定UIは確認済みです。"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 5,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 102,
+      "class": "scope_excluded_connection",
+      "text": "| スマレジ（POSレジ） | 在庫を同期する（同期の方向は設定で選択）<!-- TODO: 要確認（スマレジ連携の実際の同期方向・頻度は接続後でないと確認できないため、ここでは仕様の説明にとどめます） --> |"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 285,
+      "class": "scope_excluded_connection",
+      "text": "> Shopify接続後の引当・在庫リクエスト変換の実際の挙動（チャネル接続後でないと確認できないため、ここでは仕様の説明にとどめます）。<!-- TODO: 要確認（Shopify接続後の引当・在庫リクエスト変換の実動作） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 347,
+      "class": "scope_excluded_connection",
+      "text": "> Shopify連携・スマレジ連携でのカタログ紐付け設定経路は、チャネル接続後でないと確認できないため、ここでは仕様の説明にとどめます。<!-- TODO: 要確認（Shopify連携・スマレジ連携でのカタログ紐付け設定経路） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 455,
+      "class": "scope_excluded_connection",
+      "text": "| 破損 / 検品 / 予備 | 管理画面上の振替操作は確認されていません<!-- TODO: 要確認（WMS連携経由での変動の可能性） --> | 同左 |"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 707,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（「一部受領済み」「受領済み」への正確なステータス遷移条件） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 796,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（出荷実績を誤登録した場合の修正手段。API経由の操作可否を開発元に確認） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 835,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（入荷実績を誤登録した場合の修正手段。API経由の操作可否を開発元に確認） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 862,
+      "class": "actionable_current_source",
+      "text": "| 出荷実績の登録 | 画面からの修正・削除は不可<!-- TODO: 要確認（修正手段） --> |"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 863,
+      "class": "actionable_current_source",
+      "text": "| 入荷実績の登録 | 画面からの修正・削除は不可<!-- TODO: 要確認（修正手段） --> |"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1075,
+      "class": "scope_excluded_connection",
+      "text": "| 在庫依頼フラグの設定 | 自動在庫リクエストの送付対象にしたい実店舗ロケーションの設定で「在庫依頼を受け付ける」をオンにする（実接続での送付先絞り込みは要確認） |"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1078,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（Shopify連携詳細内でのロケーショングループ設定のUIラベル・操作手順） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1090,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（ステップ4のリテールポータルの画面ラベル原文・確保操作のボタン名。実機環境の提供待ち） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1091,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（ステップ7の引き当て処理の実行タイミング・手動トリガーの有無） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1092,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（「出荷業務不可」と判定される条件：場所種別・在庫依頼フラグ・別フラグのどれで決まるか） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1184,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（終了日時を空欄にした場合の挙動） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1371,
+      "class": "data_unavailable",
+      "text": "<!-- TODO: 要確認（顧客データが入った状態での一覧テーブルの列構成） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1372,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（顧客詳細画面の構成。注文履歴・ポイント残高・会員ランク等の表示方法） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1438,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（担当者詳細画面の今後の機能追加） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1529,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（実注文への適用結果。チャネル未接続のため実際の注文への割引適用は未検証） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1643,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（チャネル選択肢はチャネル未接続のため空。チャネル連携後の選択肢は未確認） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1656,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（実注文へのポイント付与結果。チャネル未接続のため実際の付与動作は未検証） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1657,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（返品・キャンセル時のポイント挙動） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1732,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（実注文への会員ランク算出結果。チャネル未接続のため実際の顧客ランク反映は未検証） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1854,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「連携する」押下後のOAuth認証フロー・遷移先画面） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1855,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（接続後の同期挙動・方向・頻度・エラー時の動き） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1856,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（接続済み状態のダッシュボード・同期ログ・切断操作） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1922,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（接続後の同期挙動・方向・頻度・エラー時の動き） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 1923,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（接続済み状態の詳細・編集画面の構成） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2019,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（接続後の実際の同期挙動） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2020,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（アクセストークン「トークンを作成」ボタン押下後の動作） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2021,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（下書き注文の有効期限切れ時の挙動（自動キャンセル・在庫解放・通知の有無）） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2089,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（ユーザー追加後に付与されるリテールポータルへのアクセス権限の詳細） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2090,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（接続後の同期挙動） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2091,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（店舗受取の詳細機能・接続後の画面） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2125,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（ロジザードZERO接続済み環境での詳細設定・ロケーションのマッピング等） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2286,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（チャネル接続後、「注文を作成する」ボタンが有効化される条件と作成フォームの構成） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2314,
+      "class": "data_unavailable",
+      "text": "<!-- TODO: 要確認（返品の起票方法。注文詳細画面内からの操作が想定されるが、注文データがない環境では確認不可） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2315,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（Recustomer未接続時のSQ内返品フローの有無） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2327,
+      "class": "data_unavailable",
+      "text": "売上実績画面には「**売上実績を作成する**」リンクボタンが表示されますが、現在は `href` がなく、クリックしても遷移しません。`/admin/sale_change_line_items/create` に直接アクセスしても「このページは存在しないようです」画面になります。注文データがある環境でこのリンクが有効になるかどうかも未確認です。"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2329,
+      "class": "data_unavailable",
+      "text": "<!-- TODO: 要確認（注文データがある環境での売上実績の集計挙動とボタン状態） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2348,
+      "class": "data_unavailable",
+      "text": "<!-- TODO: 要確認（売上データ投入後の一覧テーブル列構成） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2628,
+      "class": "destructive_or_external_output",
+      "text": "そのため、FAQでは「PDFエクスポート画面から任意に納品書PDFを新規作成できる」とは案内しないでください。また、ヤマトB2クラウド条件指定エクスポートの実際のメールリンク・PDF実ファイルは未確認のため、「PDFが必ず生成される」とも断定しないでください。注文起点の出荷指示など、別条件で生成導線が出る可能性は追加確認が必要です。"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2660,
+      "class": "user_ops_excluded",
+      "text": "<!-- TODO: 要確認（「保存する」後に追加されたメンバーへ招待メールが送信されるか、送信される場合のメール内容・有効期限） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 2676,
+      "class": "user_ops_excluded",
+      "text": "<!-- TODO: 要確認（「ユーザーを組織から除外」後の確認ダイアログの有無・文言、および除外後にメンバーのログインがブロックされるか） -->"
+    },
+    {
+      "file": "00-getting-started/SQ完全ガイド.md",
+      "line": 3180,
+      "class": "not_implemented",
+      "text": "| 卸売 | メニューには表示されるが、現時点ではTODO表示で未実装 |"
+    },
+    {
+      "file": "00-getting-started/SQ実測学習ガイド.md",
+      "line": 5,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "00-getting-started/SQ実測学習ガイド.md",
+      "line": 198,
+      "class": "scope_excluded_connection",
+      "text": "## 13. 外部連携が必要で未検証の範囲"
+    },
+    {
+      "file": "00-getting-started/SQ実測学習ガイド.md",
+      "line": 200,
+      "class": "scope_excluded_connection",
+      "text": "次は「未確認」ではなく、「外部連携がないと実行できない」範囲です。FAQでは断定しないでください。"
+    },
+    {
+      "file": "00-getting-started/SQ実測学習ガイド.md",
+      "line": 202,
+      "class": "actionable_current_source",
+      "text": "| 領域 | 未検証理由 |"
+    },
+    {
+      "file": "00-getting-started/SQ学習・FAQ制作整理マップ.md",
+      "line": 41,
+      "class": "actionable_current_source",
+      "text": "| 7 | `_analysis/` の過去ログ | 当時の確認記録。古いUIや未確認メモを含むため、最新ログと突合して使う |"
+    },
+    {
+      "file": "00-getting-started/SQ学習・FAQ制作整理マップ.md",
+      "line": 81,
+      "class": "actionable_current_source",
+      "text": "- 未確認の内容は `<!-- TODO: 要確認 -->` を残し、FAQ本文で断定しない。"
+    },
+    {
+      "file": "01-by-feature/販売設定.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/販売設定.md",
+      "line": 18,
+      "class": "scope_excluded_connection",
+      "text": "> **在庫追跡OFFのSKU**: 2026-06-21の実機確認では、商品バリエーションの「在庫を追跡する」がOFFでも、販売価格（通常価格）のSKU選択に表示されフォームへ選択できました。予約販売・販売閾値でも候補表示までは確認済みです（保存は未実行）。外部チャネル連携時の実効差は未確認です。"
+    },
+    {
+      "file": "01-by-feature/販売設定.md",
+      "line": 100,
+      "class": "scope_excluded_connection",
+      "text": "- 各ルールを実際の商品・バリエーションに紐付けて適用する手順については、通常価格・セール価格の登録フォームで対象のSKUを選択することで紐付けます。<!-- TODO: 要確認（ルールを販売チャネルや注文に適用する全体フロー） -->"
+    },
+    {
+      "file": "01-by-feature/販売設定.md",
+      "line": 164,
+      "class": "scope_excluded_connection",
+      "text": "- ルールにSKUと上限数・集計開始日時を登録する想定。ただしチャネル未接続のstaging環境ではルール作成を完了できないため、詳細画面の登録フォームは未確認"
+    },
+    {
+      "file": "01-by-feature/販売設定.md",
+      "line": 262,
+      "class": "actionable_current_source",
+      "text": "- 閾値に達した場合の具体的な挙動（販売停止・通知など）はUI上に説明文がありません。<!-- TODO: 要確認（閾値割れ時の実挙動） -->"
+    },
+    {
+      "file": "01-by-feature/設定.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/設定.md",
+      "line": 335,
+      "class": "scope_excluded_connection",
+      "text": "- 採寸ルールを個別の商品に紐づける操作は、現在の管理画面UIからは行えません。<!-- TODO: 要確認（API経由または外部連携での割り当て方法） -->"
+    },
+    {
+      "file": "01-by-feature/設定.md",
+      "line": 437,
+      "class": "actionable_current_source",
+      "text": "- アプリのアクセストークンとシークレットは作成時に自動発行されます。再発行の操作については未確認です。<!-- TODO: 要確認（アクセストークン・シークレットの再発行操作） -->"
+    },
+    {
+      "file": "01-by-feature/設定.md",
+      "line": 438,
+      "class": "scope_excluded_connection",
+      "text": "- ロジザード連携の詳細設定（ロケーションのマッピング等）<!-- TODO: 要確認（ロジザードZERO接続済み環境での確認が必要） -->"
+    },
+    {
+      "file": "01-by-feature/注文管理.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/注文管理.md",
+      "line": 25,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（注文詳細画面の構成・ステータス遷移・出荷との連動。チャネル接続後に追補予定。上記の運用分担は開発元資料に基づく説明で、実機画面でのボタン構成は未確認） -->"
+    },
+    {
+      "file": "01-by-feature/注文管理.md",
+      "line": 72,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（注文データがある状態でのテーブル列構成。チャネル接続後に追補予定） -->"
+    },
+    {
+      "file": "01-by-feature/注文管理.md",
+      "line": 112,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（チャネル接続後、「注文を作成する」ボタンが有効化される条件と作成フォームの構成。Stack社への確認事項でもあります） -->"
+    },
+    {
+      "file": "01-by-feature/注文管理.md",
+      "line": 147,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（返品の起票方法。注文詳細画面内からの操作が想定されるが、注文データがない現環境では確認不可。チャネル接続後に追補予定） -->"
+    },
+    {
+      "file": "01-by-feature/注文管理.md",
+      "line": 148,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（Recustomer未接続時のSQ内返品フローの有無） -->"
+    },
+    {
+      "file": "01-by-feature/_TEMPLATE.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 要確認   # 確定 / 一部要確認 / 要確認"
+    },
+    {
+      "file": "01-by-feature/_TEMPLATE.md",
+      "line": 14,
+      "class": "template",
+      "text": "> 対象画面: [画面名 / URL]　|　最終確認: <!-- TODO: 日付 -->"
+    },
+    {
+      "file": "01-by-feature/カタログ.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/カタログ.md",
+      "line": 32,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（Shopify連携・スマレジ連携でのカタログ紐付け設定経路。OmnibusCoreのみ実機確認済み） -->"
+    },
+    {
+      "file": "01-by-feature/カタログ.md",
+      "line": 119,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（商品が登録されている状態でのSKU一覧の列構成。現在テスト環境は0件のため列ヘッダーが非表示） -->"
+    },
+    {
+      "file": "01-by-feature/CSVエクスポート・PDFエクスポート.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/CSVエクスポート・PDFエクスポート.md",
+      "line": 118,
+      "class": "destructive_or_external_output",
+      "text": "この一覧画面にはエクスポートボタンが存在しない。ヤマトB2クラウド向けのCSVは、出荷管理画面（/admin/inventory_outbound_orders）の「条件指定でエクスポート」→「ヤマトB2クラウド」から実行する。フォームには出力物として「ヤマトB2クラウド取り込み用CSV」と「同梱する納品書PDF」が表示される。実行後はメールでダウンロードリンクが通知される文言があるが、実際のメール受信・リンク内容・PDF生成結果は未確認。"
+    },
+    {
+      "file": "01-by-feature/OmnibusCore連携.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/OmnibusCore連携.md",
+      "line": 132,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（接続後の実際の同期挙動（方向・頻度・エラー時）は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "01-by-feature/OmnibusCore連携.md",
+      "line": 133,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（アクセストークン「トークンを作成」ボタン押下後の動作） -->"
+    },
+    {
+      "file": "01-by-feature/OmnibusCore連携.md",
+      "line": 134,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（下書き注文の有効期限切れ時の挙動（自動キャンセル・在庫解放・通知）） -->"
+    },
+    {
+      "file": "01-by-feature/OmnibusCore連携.md",
+      "line": 135,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（詳細・編集画面で「下書き注文の有効期限日数」を空欄で保存した場合のサーバー側バリデーション） -->"
+    },
+    {
+      "file": "01-by-feature/ディスカウント.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/ディスカウント.md",
+      "line": 166,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「連携する」ボタン押下後の挙動。Shopify接続済み環境での実行は未確認） -->"
+    },
+    {
+      "file": "01-by-feature/ディスカウント.md",
+      "line": 180,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（実注文への適用結果。現環境ではチャネル未接続のため実際の注文への割引適用は未検証） -->"
+    },
+    {
+      "file": "01-by-feature/ディスカウント.md",
+      "line": 181,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「連携する」ボタン押下後の挙動。Shopify接続済み環境での実行は未確認） -->"
+    },
+    {
+      "file": "01-by-feature/ポイント.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/ポイント.md",
+      "line": 218,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（チャネル選択肢は現環境でチャネル未接続のため空。チャネル連携後の選択肢は未確認） -->"
+    },
+    {
+      "file": "01-by-feature/ポイント.md",
+      "line": 219,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（実注文へのポイント付与結果。現環境ではチャネル未接続のため実際の付与動作は未検証） -->"
+    },
+    {
+      "file": "01-by-feature/ポイント.md",
+      "line": 220,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（返品・キャンセル時のポイント挙動） -->"
+    },
+    {
+      "file": "01-by-feature/会員ランク.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/会員ランク.md",
+      "line": 44,
+      "class": "not_implemented",
+      "text": "| 算出方法 | ランクを算出する基準 | — | ラジオボタン。選択肢: 「購入金額」/ 「獲得ポイント」。現在どちらも変更できない状態（購入金額固定） <!-- TODO: 要確認（「獲得ポイント」が将来的に使用可能になるかは未確認） --> |"
+    },
+    {
+      "file": "01-by-feature/会員ランク.md",
+      "line": 146,
+      "class": "actionable_current_source",
+      "text": "- ランク算出の詳細ページに表示される「算出タイミング: リアルタイムに算出」は作成・編集フォームに対応する設定項目がなく、システムの固定値と見られる <!-- TODO: 要確認 -->"
+    },
+    {
+      "file": "01-by-feature/会員ランク.md",
+      "line": 149,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（実注文への会員ランク算出結果。現環境ではチャネル未接続のため実際の顧客ランク反映は未検証） -->"
+    },
+    {
+      "file": "01-by-feature/スマレジ連携.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/スマレジ連携.md",
+      "line": 83,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（接続後の実際の同期挙動（方向・頻度・エラー時）は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "01-by-feature/スマレジ連携.md",
+      "line": 84,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（接続済み状態の詳細・編集画面の構成） -->"
+    },
+    {
+      "file": "01-by-feature/スマレジ連携.md",
+      "line": 85,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（スマレジ側のアプリインストール手順・導線） -->"
+    },
+    {
+      "file": "01-by-feature/発注管理.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/会社.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/会社.md",
+      "line": 173,
+      "class": "actionable_current_source",
+      "text": "担当者の行をクリックすると担当者詳細画面へ遷移します。現時点では担当者名・作成日時のみが表示されており、情報の編集や詳細確認はこの画面からはできません。<!-- TODO: 要確認（担当者詳細画面の今後の機能追加） -->"
+    },
+    {
+      "file": "01-by-feature/会社.md",
+      "line": 211,
+      "class": "not_implemented",
+      "text": "- 「卸売」（/admin/b2b）は会社とは別機能で、現時点では未実装（「TODO」表示のみ）です。"
+    },
+    {
+      "file": "01-by-feature/Shopify連携.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/Shopify連携.md",
+      "line": 86,
+      "class": "scope_excluded_connection",
+      "text": "- 「連携する」ボタン押下後にShopify側のOAuth認証フローが起動すると推測されますが、接続後の実際の遷移先・認証手順は未接続環境のため未確認です。"
+    },
+    {
+      "file": "01-by-feature/Shopify連携.md",
+      "line": 88,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「連携する」押下後のOAuth認証フロー・遷移先画面） -->"
+    },
+    {
+      "file": "01-by-feature/Shopify連携.md",
+      "line": 89,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（接続後の実際の同期挙動（方向・頻度・エラー時）は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "01-by-feature/Shopify連携.md",
+      "line": 90,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（接続済み状態のダッシュボード・同期ログ・切断操作画面） -->"
+    },
+    {
+      "file": "01-by-feature/在庫依頼.md",
+      "line": 159,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（終了ステータスの依頼を再開・再利用する方法があるかどうか） -->"
+    },
+    {
+      "file": "01-by-feature/在庫管理.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/在庫管理.md",
+      "line": 217,
+      "class": "scope_excluded_connection",
+      "text": "- **破損・検品・予備区分への振替経路**: 管理画面の「その他のアクション」には「在庫振替を行う」の1メニューのみで、破損・検品・予備専用の操作メニューはありません。調整伝票の「理由」選択肢（廃棄・見本・紛失・棚卸差異・その他）にもこれらの区分は存在しません。<!-- TODO: 要確認（WMS連携〈ロジザード等〉経由での設定なのか、開発元への確認が必要） -->"
+    },
+    {
+      "file": "01-by-feature/顧客管理.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/顧客管理.md",
+      "line": 66,
+      "class": "data_unavailable",
+      "text": "<!-- TODO: 要確認（顧客データが入った状態でのテーブル列構成） -->"
+    },
+    {
+      "file": "01-by-feature/顧客管理.md",
+      "line": 72,
+      "class": "scope_excluded_connection",
+      "text": "管理画面から顧客を直接作成するボタン・フォームはありません。顧客は販売チャネル（Shopify など）との連携を通じて自動的に登録される設計です。<!-- TODO: 要確認（チャネル連携後に実機確認） -->"
+    },
+    {
+      "file": "01-by-feature/顧客管理.md",
+      "line": 82,
+      "class": "data_unavailable",
+      "text": "<!-- TODO: 要確認（顧客データが存在する状態での詳細画面の構成。注文履歴・ポイント残高・会員ランク等） -->"
+    },
+    {
+      "file": "01-by-feature/リテールポータル連携.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/リテールポータル連携.md",
+      "line": 96,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（ユーザー追加後の表示と、追加されたユーザーが持つリテールポータルへのアクセス権限の詳細） -->"
+    },
+    {
+      "file": "01-by-feature/リテールポータル連携.md",
+      "line": 120,
+      "class": "actionable_current_source",
+      "text": "1. **在庫リクエストの確認・確保登録** — SQから店舗に通知された在庫リクエストを確認し、在庫の「確保」登録を行う <!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） — リクエスト一覧の画面名・確保ボタン名 -->"
+    },
+    {
+      "file": "01-by-feature/リテールポータル連携.md",
+      "line": 121,
+      "class": "actionable_current_source",
+      "text": "2. **移動伝票の一括作成** — 確保済みの在庫をまとめて移動伝票として発行する（ロケーションごとに分割生成される） <!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） — 一括作成ボタン名と操作経路 -->"
+    },
+    {
+      "file": "01-by-feature/リテールポータル連携.md",
+      "line": 122,
+      "class": "scope_excluded_connection",
+      "text": "3. **出荷登録** — 店舗から倉庫への出荷実績を登録する <!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） — リテールポータル上の出荷登録操作の画面名・ボタン名 -->"
+    },
+    {
+      "file": "01-by-feature/リテールポータル連携.md",
+      "line": 136,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（接続後の実際の同期挙動（方向・頻度・エラー時）は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "01-by-feature/リテールポータル連携.md",
+      "line": 137,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（店舗受取の詳細機能・接続後の画面） -->"
+    },
+    {
+      "file": "01-by-feature/リテールポータル連携.md",
+      "line": 138,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（ユーザー追加後の表示と、追加されたユーザーが持つリテールポータルへのアクセス権限の詳細） -->"
+    },
+    {
+      "file": "01-by-feature/出荷管理.md",
+      "line": 80,
+      "class": "destructive_or_external_output",
+      "text": "納品書PDFについては、PDFエクスポート画面・出荷完了済み出荷指示詳細のどちらにも任意新規生成導線を確認できませんでした。実際のメールリンク・PDFファイルは未確認のため、「PDFが必ず生成される」とは断定しないでください。"
+    },
+    {
+      "file": "01-by-feature/出荷管理.md",
+      "line": 106,
+      "class": "vendor_required",
+      "text": "- 出荷完了後は「出荷実績を登録する」ボタンが無効化され、画面からの再登録・編集・削除は行えません。<!-- TODO: 要確認（出荷実績の修正が必要な場合の対処方法。API経由の操作可否を開発元に確認） -->"
+    },
+    {
+      "file": "01-by-feature/商品管理.md",
+      "line": 205,
+      "class": "scope_excluded_connection",
+      "text": "> **在庫追跡OFFの扱い**: 管理画面内では、OFFでも移動伝票・調整伝票・取置伝票・在庫依頼・発注伝票・店舗受取・販売価格/予約販売/販売閾値の候補に表示されました。OFFは管理画面上の在庫表示・編集を止める設定ではありません。外部チャネル連携時の在庫同期・販売可否への影響は未確認です。"
+    },
+    {
+      "file": "01-by-feature/会計（売上実績）.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "01-by-feature/会計（売上実績）.md",
+      "line": 45,
+      "class": "data_unavailable",
+      "text": "| テーブル列の構成 | <!-- TODO: 要確認（売上データがある環境でのテーブル列構成が未確認） --> |"
+    },
+    {
+      "file": "01-by-feature/会計（売上実績）.md",
+      "line": 64,
+      "class": "data_unavailable",
+      "text": "- 売上実績が注文データから自動的に集計される仕組みかどうかは、現環境（売上データ0件）では確認できていません。<!-- TODO: 要確認（注文データがある環境での売上実績の集計挙動） -->"
+    },
+    {
+      "file": "01-by-feature/会計（売上実績）.md",
+      "line": 65,
+      "class": "data_unavailable",
+      "text": "- 「売上実績を作成する」リンクが注文データの有無によって有効になるかどうかは未確認です。<!-- TODO: 要確認（注文データがある環境でのボタン状態） -->"
+    },
+    {
+      "file": "01-by-feature/会計（売上実績）.md",
+      "line": 66,
+      "class": "data_unavailable",
+      "text": "- 一覧画面のテーブル列構成は、売上データが存在する状態での確認が必要です。<!-- TODO: 要確認（売上データ投入後に列構成を確認） -->"
+    },
+    {
+      "file": "01-by-feature/入荷管理.md",
+      "line": 80,
+      "class": "vendor_required",
+      "text": "- 入荷完了後は「入荷実績を登録する」ボタンが無効化され、画面からの再登録・編集・削除は行えません。<!-- TODO: 要確認（入荷実績の修正が必要な場合の対処方法。API経由の操作可否を開発元に確認） -->"
+    },
+    {
+      "file": "02-by-task/ポイントキャンペーンを設定する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/ポイントキャンペーンを設定する.md",
+      "line": 25,
+      "class": "scope_excluded_connection",
+      "text": "> **注意:** 実際の注文にキャンペーンが適用されるかどうかは、チャネルとの連携設定が必要です。現環境ではチャネル未接続のため、実注文への適用動作は未検証です。"
+    },
+    {
+      "file": "02-by-task/ポイントキャンペーンを設定する.md",
+      "line": 26,
+      "class": "scope_excluded_connection",
+      "text": "> <!-- TODO: 要確認（チャネル連携後の実注文へのポイントキャンペーン適用動作） -->"
+    },
+    {
+      "file": "02-by-task/ポイントキャンペーンを設定する.md",
+      "line": 171,
+      "class": "actionable_current_source",
+      "text": "> <!-- TODO: 要確認（キャンペーン対象商品のCSVフォーマット詳細） -->"
+    },
+    {
+      "file": "02-by-task/ポイントキャンペーンを設定する.md",
+      "line": 187,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（誕生日ポイント・利用外商品・失効通知の作成手順については、現時点で専用の作業別手順書が未作成） -->"
+    },
+    {
+      "file": "02-by-task/取置伝票を作成する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/ロジザード・Recustomerを接続する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/ロジザード・Recustomerを接続する.md",
+      "line": 29,
+      "class": "scope_excluded_connection",
+      "text": "> **注意**: フォーム入力・保存ボタンクリックまでが本手順の保証範囲です。保存後の接続確立・同期開始など実行後の挙動は、未接続環境のため未確認です。"
+    },
+    {
+      "file": "02-by-task/ロジザード・Recustomerを接続する.md",
+      "line": 31,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（各連携共通: 保存後の接続確立・同期開始の挙動は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "02-by-task/ロジザード・Recustomerを接続する.md",
+      "line": 61,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「保存する」押下後の接続確立・連携開始の挙動は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "02-by-task/ロジザード・Recustomerを接続する.md",
+      "line": 150,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「保存する」押下後の接続確立・在庫/入荷/出荷データの同期開始の挙動は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "02-by-task/ロジザード・Recustomerを接続する.md",
+      "line": 151,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（ロジザード接続済み状態の詳細・編集・解除操作画面は未確認） -->"
+    },
+    {
+      "file": "02-by-task/その他のマスタを登録する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/その他のマスタを登録する.md",
+      "line": 81,
+      "class": "scope_excluded_connection",
+      "text": "ロケーショングループとは、複数のロケーションをひとまとまりとして管理するグループです。Shopify連携の設定（在庫の引き当てロケーション指定）などで参照されます。取り寄せ販売（EC注文起点）では、仕様上はグループ内で「在庫依頼を受け付ける」が有効な店舗に在庫リクエストが送られる想定です。実接続での送付先絞り込みは未確認です。"
+    },
+    {
+      "file": "02-by-task/その他のマスタを登録する.md",
+      "line": 83,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（OmnibusCore連携が接続されている環境での在庫振り分けへの具体的な使われ方を確認する） -->"
+    },
+    {
+      "file": "02-by-task/その他のマスタを登録する.md",
+      "line": 189,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（保存したHTMLテンプレートが実際の納品書PDFに反映される挙動・実際のPDF出力との対応を実機で確認する） -->"
+    },
+    {
+      "file": "02-by-task/移動伝票を単体で作成する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/移動伝票を単体で作成する.md",
+      "line": 71,
+      "class": "actionable_current_source",
+      "text": "2026-06-18の実機確認では、出荷前に入荷実績を登録する、予定数より少なく入荷する、予定数より多く入荷する、在庫0の配送元から出荷する、というケースも管理画面で実行できました。ただし「一部受領済み」「受領済み」タブへの一覧上の表示条件は、現在対象データがなくdisabledだったため引き続き要確認です。<!-- TODO: 要確認（一部受領済み/受領済みタブの一覧表示条件） -->"
+    },
+    {
+      "file": "02-by-task/_TEMPLATE.md",
+      "line": 3,
+      "class": "template",
+      "text": "> 対象ユーザー: [誰向けか]　|　所要: [目安]　|　最終確認: <!-- TODO: 日付 -->"
+    },
+    {
+      "file": "02-by-task/カスタムデータを設定する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/カスタムデータを設定する.md",
+      "line": 35,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（各機能の操作に必要な具体的な権限スコープを確認する） -->"
+    },
+    {
+      "file": "02-by-task/会員ランク算出ルールを作成する.md",
+      "line": 23,
+      "class": "scope_excluded_connection",
+      "text": "> **注意:** 実際の顧客にランクが反映されるかどうかは、チャネルとの連携設定が必要です。現環境ではチャネル未接続のため、実際の顧客へのランク反映は未検証です。"
+    },
+    {
+      "file": "02-by-task/会員ランク算出ルールを作成する.md",
+      "line": 24,
+      "class": "scope_excluded_connection",
+      "text": "> <!-- TODO: 要確認（チャネル連携後の顧客へのランク反映動作） -->"
+    },
+    {
+      "file": "02-by-task/会員ランク算出ルールを作成する.md",
+      "line": 51,
+      "class": "not_implemented",
+      "text": "> <!-- TODO: 要確認（「獲得ポイント」ラジオが将来的に有効になるかは未確認） -->"
+    },
+    {
+      "file": "02-by-task/販売価格を設定する.md",
+      "line": 94,
+      "class": "actionable_current_source",
+      "text": "7. 「終了日時」欄にセール終了の日時を入力する（任意）。終了日時を空欄にした場合の動作は未確認です。<!-- TODO: 要確認（終了日時未設定時の挙動） -->"
+    },
+    {
+      "file": "02-by-task/販売価格を設定する.md",
+      "line": 100,
+      "class": "actionable_current_source",
+      "text": "2. 画面の指示に従ってCSVファイルをアップロードする。<!-- TODO: 要確認（CSVインポート画面の操作詳細） -->"
+    },
+    {
+      "file": "02-by-task/商品をCSVで一括登録する.md",
+      "line": 136,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（検証失敗詳細画面に表示される列構成：行番号・エラー理由等） -->"
+    },
+    {
+      "file": "02-by-task/売上実績をCSVエクスポートする.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/売上実績をCSVエクスポートする.md",
+      "line": 96,
+      "class": "destructive_or_external_output",
+      "text": "- メール通知の有無は未確認です。まずCSVエクスポート画面の「売上実績（注文軸）」一覧で実行履歴を確認してください。"
+    },
+    {
+      "file": "02-by-task/初期設定の手順.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/初期設定の手順.md",
+      "line": 168,
+      "class": "actionable_current_source",
+      "text": "- <!-- TODO: 要確認（値引き/金種の具体的な動作の違いを確認する） -->"
+    },
+    {
+      "file": "02-by-task/販売閾値を設定する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/販売閾値を設定する.md",
+      "line": 30,
+      "class": "actionable_current_source",
+      "text": "> <!-- TODO: 要確認（閾値割れ時の実挙動。販売停止か通知かは未確認） -->"
+    },
+    {
+      "file": "02-by-task/商品を編集する.md",
+      "line": 105,
+      "class": "scope_excluded_connection",
+      "text": "> `在庫を追跡する` はCSV項目 `is_tracked` に対応します。OFFは管理画面上の在庫表示・編集を止める設定ではありません。外部チャネル連携時の在庫同期・販売可否への影響は未確認です。"
+    },
+    {
+      "file": "02-by-task/会社（法人顧客）を登録する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/会社（法人顧客）を登録する.md",
+      "line": 25,
+      "class": "scope_excluded_connection",
+      "text": "> 個人顧客（/admin/purchasing_customers）は管理画面から直接作成できません。顧客は販売チャネル経由で自動登録される設計です。<!-- TODO: 要確認（チャネル連携後に実機確認） -->"
+    },
+    {
+      "file": "02-by-task/カタログを作成して商品を追加する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/カタログを作成して商品を追加する.md",
+      "line": 101,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（Shopify連携・スマレジ連携でのカタログ紐付け設定経路。各連携が未接続のため実機確認できていない。OmnibusCore同様に連携設定フォーム内の「カタログ」セレクトから設定できると推測されるが未確認） -->"
+    },
+    {
+      "file": "02-by-task/在庫を調整する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/在庫を調整する.md",
+      "line": 138,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（開発元）— 在庫振替後の在庫数変化（振替元ロケーションの「販売可能」が減り、振替先バリエーションのどの区分に加算されるか）の実証は保存操作を伴うため未実施。 -->"
+    },
+    {
+      "file": "02-by-task/商品を作成する.md",
+      "line": 155,
+      "class": "scope_excluded_connection",
+      "text": "> **補足**: `在庫を追跡する` はCSV項目 `is_tracked` に対応します。`在庫切れの場合でも販売を続ける`（CSV項目 `inventory_policy`）とは別設定です。外部チャネル連携時の在庫同期・販売可否への影響は未確認です。"
+    },
+    {
+      "file": "02-by-task/データをCSV・PDFでエクスポートする.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/データをCSV・PDFでエクスポートする.md",
+      "line": 216,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（注文起点の出荷指示で納品書PDF生成導線が出るか） -->"
+    },
+    {
+      "file": "02-by-task/データをCSV・PDFでエクスポートする.md",
+      "line": 238,
+      "class": "destructive_or_external_output",
+      "text": "- メール通知の有無は未確認です。まずCSVエクスポート画面の各カテゴリ一覧で実行履歴を確認してください。"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売の処理手順.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 確定     # 確定（実機確認済み）/ 一部要確認 / 要確認"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売の処理手順.md",
+      "line": 23,
+      "class": "actionable_current_source",
+      "text": "**このドキュメントが対象外とする操作（未対応・要確認）:**"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売の処理手順.md",
+      "line": 29,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（開発元）— 発注経由の入荷連携・予約販売との相殺処理の正確な手順 -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売の処理手順.md",
+      "line": 39,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（開発元）— 権限グループ別の画面差分（店舗スタッフ権限では一部画面が表示されないか） -->"
+    },
+    {
+      "file": "02-by-task/ヤマトB2クラウドで出荷業務を行う.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/ヤマトB2クラウドで出荷業務を行う.md",
+      "line": 74,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（「実行する」をクリックした後の画面上の表示変化・完了トーストの有無） -->"
+    },
+    {
+      "file": "02-by-task/ヤマトB2クラウドで出荷業務を行う.md",
+      "line": 86,
+      "class": "destructive_or_external_output",
+      "text": "> 納品書PDFについては、2026-06-21の実機確認でヤマトB2クラウド条件指定エクスポートフォームに「同梱する納品書PDF」と表示されることを確認しました。ただしPDFエクスポート画面には任意新規生成ボタンがなく、直接作成URLも存在しません。実際のメールリンク・PDFファイルは未確認のため、「PDFが必ず生成される」とは断定しないでください。"
+    },
+    {
+      "file": "02-by-task/ヤマトB2クラウドで出荷業務を行う.md",
+      "line": 94,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（ヤマトB2クラウド側の操作手順はSQ外のシステムのため記録なし） -->"
+    },
+    {
+      "file": "02-by-task/ヤマトB2クラウドで出荷業務を行う.md",
+      "line": 132,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（「保存する」をクリックした後の処理結果・成功時の表示・エラー時の表示。実行系操作のため実証未実施） -->"
+    },
+    {
+      "file": "02-by-task/ヤマトB2クラウドで出荷業務を行う.md",
+      "line": 143,
+      "class": "actionable_current_source",
+      "text": "- DHL のインポートフォームはCSVファイルのアップロードのみ（テンプレートリンクは2026-06-10時点で未確認）。"
+    },
+    {
+      "file": "02-by-task/ヤマトB2クラウドで出荷業務を行う.md",
+      "line": 145,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（DHL用CSVフォーマットの仕様。2026-06-10時点でテンプレートリンクの有無を未確認） -->"
+    },
+    {
+      "file": "02-by-task/注文ポイント付与ルールを作成する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/注文ポイント付与ルールを作成する.md",
+      "line": 25,
+      "class": "scope_excluded_connection",
+      "text": "> **注意:** 実際の注文にポイントが付与されるかどうかは、チャネルとの連携設定が必要です。現環境ではチャネル未接続のため、注文へのポイント付与動作は未検証です。"
+    },
+    {
+      "file": "02-by-task/注文ポイント付与ルールを作成する.md",
+      "line": 26,
+      "class": "scope_excluded_connection",
+      "text": "> <!-- TODO: 要確認（チャネル連携後の実注文へのポイント付与動作） -->"
+    },
+    {
+      "file": "02-by-task/販売上限を設定する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 67,
+      "class": "scope_excluded_connection",
+      "text": "仕様上は、グループ内で「在庫依頼を受け付ける」が有効な店舗に在庫リクエストが送られる想定です。実接続での送付先絞り込みは未確認です。"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 69,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（Shopify連携詳細内でのロケーショングループ設定画面のUIラベル・操作手順） -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 75,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（連携設定の具体的な操作手順。どの画面の何というボタンか。実機環境の提供待ち） -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 86,
+      "class": "scope_excluded_connection",
+      "text": "| 4 | 店舗スタッフ | リテールポータル <!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） --> | 在庫リクエストを確認し、在庫を「確保」登録する | 在庫リクエストが「確保済み」になる |"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 104,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） — 「引き当て待ち」「出荷待ち」の正確な画面上の表示文言 -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 113,
+      "class": "actionable_current_source",
+      "text": "2. <!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） --> 在庫リクエスト一覧を開く"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 114,
+      "class": "actionable_current_source",
+      "text": "3. 対象のリクエストを確認し、在庫の「確保」登録を行う <!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） — 確保操作のボタン名 -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 123,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） — 移動伝票一括作成の操作経路（リテールポータル上のボタン名か、SQ管理画面の「確保済み」一覧からの操作か） -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 148,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） — 「引き当て処理」の実行タイミング・手動トリガーの有無 -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 156,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（画面ラベル原文。実機環境の提供待ち） — 分割操作の具体的な手順とボタン名 -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 162,
+      "class": "actionable_current_source",
+      "text": "論理ロケーションへの出荷指示が在庫リクエストに変換される条件（「出荷業務が不可能」と判定される設定項目）については未確認です。"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 164,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（「出荷業務不可」が場所種別・在庫依頼フラグ・別フラグのどれで決まるかを確認する） -->"
+    },
+    {
+      "file": "02-by-task/取り寄せ販売（EC注文起点）の流れ.md",
+      "line": 170,
+      "class": "actionable_current_source",
+      "text": "事前設定（ロケーション作成・販売可能数設定・在庫依頼フラグ・ロケーショングループ設定）は実機で確認済みです。以下のTODO項目は実機環境が整い次第確認・更新します。"
+    },
+    {
+      "file": "02-by-task/予約販売を設定する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/予約販売を設定する.md",
+      "line": 28,
+      "class": "scope_excluded_connection",
+      "text": "> **注意:** 予約販売ルールを設定したときに実際に在庫0の商品が注文受付となるかどうかは、チャネル（販売チャネル連携）が未接続の環境では未検証です。設定後の販売挙動については実際のチャネル環境で確認してください。"
+    },
+    {
+      "file": "02-by-task/予約販売を設定する.md",
+      "line": 29,
+      "class": "scope_excluded_connection",
+      "text": "> <!-- TODO: 要確認（チャネル接続後の在庫0時の注文受付動作） -->"
+    },
+    {
+      "file": "02-by-task/管理メンバーを追加する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/管理メンバーを追加する.md",
+      "line": 47,
+      "class": "user_ops_excluded",
+      "text": "<!-- TODO: 要確認（「保存する」後に追加されたメンバーへ招待メールが送信されるか、また送信される場合のメール内容・有効期限を確認する） -->"
+    },
+    {
+      "file": "02-by-task/管理メンバーを追加する.md",
+      "line": 69,
+      "class": "user_ops_excluded",
+      "text": "<!-- TODO: 要確認（「ユーザーを組織から除外」後の確認ダイアログの有無・文言、および除外後にメンバーのログインがブロックされるかを確認する） -->"
+    },
+    {
+      "file": "02-by-task/ディスカウントを作成する.md",
+      "line": 25,
+      "class": "scope_excluded_connection",
+      "text": "> **注意:** 実際の注文にディスカウントが正しく適用されるかどうかは、チャネルとの連携設定が必要です。現環境ではチャネル未接続のため、注文への適用動作は未検証です。"
+    },
+    {
+      "file": "02-by-task/ディスカウントを作成する.md",
+      "line": 26,
+      "class": "scope_excluded_connection",
+      "text": "> <!-- TODO: 要確認（チャネル連携後の実注文への適用動作） -->"
+    },
+    {
+      "file": "02-by-task/ディスカウントを作成する.md",
+      "line": 135,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「連携する」ボタン押下後の挙動。Shopify接続済み環境での実行は未確認） -->"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 8,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 30,
+      "class": "scope_excluded_connection",
+      "text": "> **注意**: フォーム入力・送信ボタンクリックまでが本手順の保証範囲です。送信後のOAuth認証・同期開始など接続実行後の挙動は、未接続環境のため未確認です。"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 32,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（各チャネル共通: 接続実行後の挙動（OAuth・同期開始・接続完了後の画面）は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 103,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「連携する」押下後のOAuth認証フロー・遷移先画面は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 164,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「保存する」押下後の接続確立・同期開始の挙動は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 190,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（スマレジ側アプリインストールの具体的な手順・導線） -->"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 227,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「保存する」押下後の接続確立・同期開始の挙動は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 286,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（「保存する」押下後の接続確立・リテールポータルとの同期開始の挙動は未接続環境のため未確認） -->"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 302,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（ユーザー追加後の表示と、追加されたユーザーが持つリテールポータルへのアクセス権限の詳細） -->"
+    },
+    {
+      "file": "02-by-task/販売チャネルを接続する.md",
+      "line": 313,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（店舗受取ルールの詳細機能・接続後の画面は未確認） -->"
+    },
+    {
+      "file": "03-faq/注文と出荷のよくある質問.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "03-faq/注文と出荷のよくある質問.md",
+      "line": 25,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（チャネル接続後に注文が表示されない場合の追加確認ポイント。例: テナント設定・ロケーショングループの設定不備など） -->"
+    },
+    {
+      "file": "03-faq/注文と出荷のよくある質問.md",
+      "line": 51,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（出荷実績の誤登録に対する公式推奨の訂正手順。調整伝票による手持ち数の加算が対処策か確認が必要） -->"
+    },
+    {
+      "file": "03-faq/注文と出荷のよくある質問.md",
+      "line": 67,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（チャネル接続後に「注文を作成する」が有効化される条件と、作成フォームの構成） -->"
+    },
+    {
+      "file": "03-faq/外部連携のよくある質問.md",
+      "line": 6,
+      "class": "metadata_or_section",
+      "text": "status: 一部要確認"
+    },
+    {
+      "file": "03-faq/外部連携のよくある質問.md",
+      "line": 75,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（在庫同期の実際の動作タイミング・頻度。スマレジ未接続環境のため実動作は未確認） -->"
+    },
+    {
+      "file": "03-faq/外部連携のよくある質問.md",
+      "line": 127,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（実機での同期タイミング・頻度・手動トリガーの有無。上表は開発元資料（STACK-TIS-SEMINAR-NOTES-2026-06-12）に基づき、実機未検証） -->"
+    },
+    {
+      "file": "03-faq/CSVインポート・エクスポートのよくある質問.md",
+      "line": 78,
+      "class": "data_unavailable",
+      "text": "<!-- TODO: 要確認（バリデーションエラーがある行を含むCSVをインポートした場合の失敗行一覧の列構成。読み取り専用方針のためエラーデータ投入未実施） -->"
+    },
+    {
+      "file": "03-faq/設定と権限のよくある質問.md",
+      "line": 85,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（アーカイブ解除の操作方法と、アーカイブ後に既存の発注伝票への影響） -->"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 4,
+      "class": "metadata_or_section",
+      "text": "wbs_status: 連携待ち"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 23,
+      "class": "scope_excluded_connection",
+      "text": "- 「SQ側のフォーム入力まで」は実機確認済み、「送信後の接続確立・同期挙動」は連携前提で未確認であることを区別できる"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 54,
+      "class": "scope_excluded_connection",
+      "text": "- **テナント**: SQ上の事業の区画（ブランド・部門など）。チャネル連携・発注・ディスカウント・メンバーアクセス権をまとめる管理単位。各チャネル連携フォームではテナント選択が必須。テナント0件状態は直接未検証だが、選択肢が出ない場合は先にテナント作成を確認する。（詳細は03.組織・通知）"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 60,
+      "class": "scope_excluded_connection",
+      "text": "> **確認範囲の注記**: 本エリアの実機確認は、staging環境（`sqstackstaging.com`）で **未接続状態** で実施しています。各フォームの入力項目・バリデーションは確認済みですが、送信後のOAuth認証フローや実際の同期挙動（方向・頻度・エラー時の挙動）は未確認です。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 112,
+      "class": "actionable_current_source",
+      "text": "> **オプション項目の運用上の意味（実機未確認部分を含む）**"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 113,
+      "class": "scope_excluded_connection",
+      "text": "> - **会員証バーコードのフォーマット**: Shopify顧客をSQ会員として識別するためのバーコードの生成方式。「Shopify ID（数値部分）」はShopifyの顧客IDから、「JAN-13コード」はチェックデジット付き13桁コードから生成。POS・店頭のバーコード読み取り機器がどちらに対応するかを基準に選ぶ。※読み取り先・店頭照会での扱いは実機未確認。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 114,
+      "class": "scope_excluded_connection",
+      "text": "> - **商品価格は税込価格を連携する / 送料は税込として処理する**: それぞれON=税込価格をそのままShopifyへ送る、OFF=税抜価格を送る、と推定される（ラベル解釈）。商品価格と送料は別々に制御する。Shopify側の税設定と整合させないと二重課税・非課税漏れの恐れがある。※実際の税計算挙動は実機未確認。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 115,
+      "class": "scope_excluded_connection",
+      "text": "> - **0円の商品バリエーションを連携する**: 価格0円のバリエーションをShopifyへ送るか。通常OFF（未設定価格の誤連携を防ぐ）。見本品・予約品などで明示的に0円バリエーションを出したい場合のみON。※Shopify側の販売可否表示は実機未確認。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 163,
+      "class": "scope_excluded_connection",
+      "text": "> **在庫設定ルールの運用上の意味**: 「在庫予約ルール」「販売上限ルール」は、販売設定エリア（`/admin/inventory_back_order_rules`・`/admin/inventory_sale_limit_rules`）で作成したマスタを、OmnibusCore経由の注文に適用する設定。予約ルールは在庫0でも受注する「取り寄せ/予約販売」の可否と数量を、販売上限ルールは対象チャネルでの購入数上限を担う。未選択ならこれらのルールはOmnibusCore注文に適用されない。※チャネル適用時の実際の挙動は実機未確認。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 212,
+      "class": "scope_excluded_connection",
+      "text": "> **連携サイトダイアログの役割とロケーション系3項目（実機未確認部分を含む）**: 「連携サイト」はOmnibusCore側の販売サイトをSQに登録する単位。場所コードはOmnibusCore側サイトの一意識別子、連携サイト名は表示名。3つのロケーション系項目は参照するマスタが異なる——「ロケーション」は会社（Company）の配下ロケーション（CompanyLocation）を選択する項目で、在庫マスタのLocation（銀座店/物流倉庫）とは**別種マスタ**。「サイト倉庫ロケーション」はサイトごとに紐づける倉庫ロケーション（在庫マスタ Location を参照）。※在庫の引当元は別項目（ロケーショングループ）であり、本項目と混同しないこと。各項目が同期時の引当・出荷にどう反映されるかは実機未確認。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 225,
+      "class": "scope_excluded_connection",
+      "text": "> **実機と公式ガイドの差**: **SQアプリの連携UIは実機に存在し、フォーム入力が可能**（契約ID・プラン・在庫同期方向等）です。一方で公式ガイド（[docs.sqstack.com](https://docs.sqstack.com/docs/guide/app-integrations)）では「近日連携予定（Coming Soon）」扱いとなっています。本項は実機で確認できたフォームの事実を記載していますが、接続確立後の実際の同期挙動はstaging未接続のため未確認です。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 261,
+      "class": "actionable_current_source",
+      "text": "> **在庫同期の方向の運用上の意味（実機未確認）**: 3択はいずれも**単方向**で、双方向同期は選択できない。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 262,
+      "class": "scope_excluded_connection",
+      "text": "> - 「スマレジからSQへ」: 実店舗のPOS側の在庫数をSQへ反映する方向（※POS売上連動かどうかは実機未確認）。実店舗在庫をSQのマスタとする運用。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 263,
+      "class": "scope_excluded_connection",
+      "text": "> - 「SQからスマレジへ」: SQ側の在庫数をスマレジへ反映する方向（※起因イベントは実機未確認）。SQ側で在庫を一元管理する運用。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 266,
+      "class": "scope_excluded_connection",
+      "text": "> どれを選ぶかで「在庫の最終更新元」が決まるため、二重集計を避ける運用設計が必要。※接続後の実際の同期頻度・タイミングは未確認。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 297,
+      "class": "scope_excluded_connection",
+      "text": "7. （公式ガイド基準・実機未確認）ShopifyのOAuth認可画面へ遷移し、Shopifyストア上で「アプリをインストール（Install app）」を承認すると接続が完了する。承認後にSQ側の連携一覧画面へ戻る。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 298,
+      "class": "scope_excluded_connection",
+      "text": "> 実機では未接続環境のため、押下後の遷移先・認証手順・接続完了後の画面は未確認（確認状態表の未確認項目を参照）。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 309,
+      "class": "actionable_current_source",
+      "text": "8. （実機未確認）接続が確立すると詳細・編集画面（`/admin/omnibus_core_integrations/{id}`）へ遷移し、商品同期・在庫設定が有効になる。以降の同期開始タイミング・初回同期の挙動は未確認。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 323,
+      "class": "scope_excluded_connection",
+      "text": "> **前提**: スマレジ側でSQ連携アプリのインストールが必要です（フォーム上部バナー「スマレジ連携を利用するには、スマレジにアプリをインストールする必要があります。」）。一般的な導線として、スマレジ契約者向けのマーケットプレイス／管理画面からSQ連携アプリを追加する流れになりますが、**正確な手順・導線はスマレジ側ドキュメントを参照**してください（実機ではフォーム内に導線の記載なし・未確認）。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 331,
+      "class": "scope_excluded_connection",
+      "text": "7. （実機未確認）接続が確立すると詳細・編集画面へ遷移する。在庫同期の方向に従って同期が開始されるが、接続後の画面構成・同期開始タイミングは未確認。"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 354,
+      "class": "scope_excluded_connection",
+      "text": "| アクセストークン作成 | 詳細画面の「トークンを作成」ボタンで生成するが、**押下後の動作（トークン表示形式・再発行・失効手順）は未確認**。API連携に用いるトークンのため取り扱い注意 |"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 375,
+      "class": "scope_excluded_connection",
+      "text": "| Shopify「連携する」押下後のOAuth認証フロー | 未確認 | 未接続環境のため |"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 376,
+      "class": "scope_excluded_connection",
+      "text": "| Shopify接続後の同期挙動・接続済み画面 | 未確認 | 未接続環境のため |"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 381,
+      "class": "scope_excluded_connection",
+      "text": "| OmnibusCore接続後の同期挙動 | 未確認 | 未接続環境のため |"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 382,
+      "class": "scope_excluded_connection",
+      "text": "| OmnibusCore「トークンを作成」押下後の動作 | 未確認 | 未確認 |"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 385,
+      "class": "scope_excluded_connection",
+      "text": "| スマレジ側アプリインストールの具体的導線 | 未確認 | フォーム内に手順記載なし |"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 386,
+      "class": "scope_excluded_connection",
+      "text": "| スマレジ接続後の詳細・編集画面 | 未確認 | 未接続環境のため |"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 387,
+      "class": "scope_excluded_connection",
+      "text": "| スマレジ接続後の同期挙動 | 未確認 | 未接続環境のため |"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 391,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/19-標準販売チャネル連携.md",
+      "line": 393,
+      "class": "scope_excluded_connection",
+      "text": "WBS確認状態は「連携待ち」です。外部チャネルとの実際の接続が前提となる項目は未確認です。"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 32,
+      "class": "scope_excluded_connection",
+      "text": "> - Shopify・スマレジ・リテールポータル連携での実際の紐付け経路・商品同期挙動は **⚠️ 未確認**（連携未接続）。確定しているのはOmnibusCore連携の編集画面経路のみです。"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 83,
+      "class": "scope_excluded_connection",
+      "text": "| 名前 | カタログ名。チャネル連携の編集画面「商品同期設定 > カタログ」コンボボックスに表示される識別名になるため、チャネル別に分ける運用なら対象チャネルが分かる名前（例: 渋谷店・ネット専用）を付ける。同名カタログを複数作れるかは実機未確認 |"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 144,
+      "class": "actionable_current_source",
+      "text": "> **ルールを機能させる前提（要確認）**:"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 147,
+      "class": "actionable_current_source",
+      "text": "> - **値**: 1ルールにつき単一の完全一致文字列。条件を増やしたい場合はルールを別途追加する。ワイルドカード・部分一致は非対応（条件は「一致する」のみ）。複数ルール間の結合挙動・複数値/ワイルドカードの挙動は実機未確認。"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 155,
+      "class": "actionable_current_source",
+      "text": "> **⚠️ 未確認: ルール削除後の自動追加済み商品の扱い** — ルールを削除しても、既に自動追加された商品がカタログに残るか外れるかは実機未確認。商品を残したい場合は削除前に手動追加として残るか確認が必要。"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 173,
+      "class": "scope_excluded_connection",
+      "text": "| 外部ID | 任意 | **作成時のみ設定可。保存後の変更不可**。外部システム連携用の識別子。自社で外部システムとブランドをコードで突き合わせる場合のみ設定し、使わない場合は空欄でよい。保存後変更不可のため修正時は削除→再作成になる（連携先の具体名は実機未確認） |"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 241,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（外部連携でカタログを指定したとき、実際に商品同期が行われるか。チャネル未接続のため未確認） -->"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 259,
+      "class": "scope_excluded_connection",
+      "text": "| Shopify・スマレジ連携でのカタログ紐付け経路（実画面） | ⚠️ 未確認 | 連携未接続。「必須/選択可能」の事実は確定だが、連携編集画面の実際の経路は未確認 |"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 260,
+      "class": "scope_excluded_connection",
+      "text": "| カタログを指定した実際の商品同期 | ⚠️ 未確認 | チャネル未接続 |"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 261,
+      "class": "vendor_required",
+      "text": "| SKU一覧の列構成（データ有り） | ⚠️ 未確認 | テスト環境が0件のため列ヘッダーが非表示 |"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 265,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 267,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: Shopify連携・スマレジ連携でのカタログ紐付け設定経路（OmnibusCoreのみ実機確認済み）"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 268,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: カタログを指定した後に実際に商品がチャネルへ同期されるか（チャネル未接続のため未確認）"
+    },
+    {
+      "file": "04-notion/06-カタログ.md",
+      "line": 270,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認**: 自動追加ルールで追加された商品が、ルール削除後にカタログから外れるかどうか"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 71,
+      "class": "vendor_required",
+      "text": "> **スコープ挙動は実機未確認**: チェックを入れたリソースだけAPI経由で読み書き可能になることが想定されます（例: 「在庫:read」のみなら参照のみ）。API経由での実際の読み書き制御は検証できていません（本プロジェクトではAPI直接操作は確認対象外）。"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 83,
+      "class": "vendor_required",
+      "text": "| アクセストークン | Admin APIへの接続に使用するトークン（自動発行）。取得したトークンはGraphQLリクエストの認証ヘッダに設定して使う。**具体的なヘッダ形式・エンドポイントURLは実機未確認**のため、Playgroundで実際の渡し方を確認すること |"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 84,
+      "class": "vendor_required",
+      "text": "| シークレット | Webhookのリクエスト検証等に使用するシークレット（自動発行）。Webhook受信側で「リクエストが正しくSQから送られたこと」を検証するために使う。**具体的な署名アルゴリズム・ヘッダ名は実機未確認**のため、受信側を実装する前にSQサポート・公式ドキュメント（docs.sqstack.com）で確認すること |"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 90,
+      "class": "actionable_current_source",
+      "text": "「**Playgroundを開く**」ボタンから GraphQL Playground を開いてAdmin APIを試すことができます。アプリの権限で動く検証用画面です（**トークンの渡し方・Playground内の認証の扱いは実機未確認・確認中**）。APIを直接呼ぶ前の最初の動作確認手段として使います。"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 94,
+      "class": "actionable_current_source",
+      "text": "「**リクエストログを見る**」からこのアプリによるAPIリクエストの履歴を確認できます。このアプリがAPIへ投げたリクエストの成功・失敗・呼び出し内容を追跡でき、不具合・問い合わせ時の調査に使います。**表示される項目・保持期間は実機未確認**です。"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 112,
+      "class": "actionable_current_source",
+      "text": "> 以下は通知の一般的な意味（実機で実際の送信は未確認）。"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 117,
+      "class": "actionable_current_source",
+      "text": "> いずれも「発生するたびに都度通知する」想定です（実機未確認）。注文の作成は新規発生、更新は既存変更の想定（実機未確認）。在庫の更新が対象とする範囲（全ロケーションか特定か）も実機未確認です。"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 132,
+      "class": "vendor_required",
+      "text": "> **トークン取得後のリクエスト方法**: トークンを使った具体的な呼び出し方法（エンドポイントURL・認証ヘッダの形式・クエリ例）は実機未確認です。次の手順「Admin APIを Playground で試す」で GraphQL Playground 上で認証トークンの渡り方・クエリ例を確認してください。本ページでは管理画面の操作範囲を扱い、API直接呼び出しの実装詳細はPlayground実行検証後に補完します。"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 164,
+      "class": "actionable_current_source",
+      "text": "- アプリの **アクセストークンとシークレットは作成時に自動発行** されます。再発行の操作については実機未確認です。<!-- TODO: 要確認（アクセストークン・シークレットの再発行操作） -->"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 166,
+      "class": "actionable_current_source",
+      "text": "- Webhookのイベントは「注文の作成」「注文の更新」「在庫の更新」の3種のみ実機確認済みです。<!-- TODO: 要確認（その他イベントの有無） -->"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 167,
+      "class": "vendor_required",
+      "text": "- Webhookの送信時にシークレットを使ったリクエスト検証ができることが UI 上示唆されていますが、具体的な検証アルゴリズム・署名ヘッダ名は実機未確認です（候補としてHMAC-SHA256等の方式が想定されますが未確定）。**署名検証方式は現在確認中です。受信側サーバの実装に着手する前に、必ずSQサポートまたは公式ドキュメント（docs.sqstack.com）で最新の仕様をご確認ください。**<!-- TODO: 要確認（Webhook署名の検証方式・ヘッダ名・アルゴリズム） -->"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 185,
+      "class": "actionable_current_source",
+      "text": "| アクセストークン/シークレットの再発行 | 未確認 | 操作の有無を未確認 |"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 186,
+      "class": "actionable_current_source",
+      "text": "| アプリ削除/失効操作 | 未確認 | 詳細画面・一覧カードとも削除導線を確認できず（2026-06-24） |"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 187,
+      "class": "actionable_current_source",
+      "text": "| Webhookのその他イベント | 未確認 | 3種以外の有無を未確認 |"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 188,
+      "class": "vendor_required",
+      "text": "| Webhook署名の検証方式 | 未確認 | 具体的な検証アルゴリズムを未確認 |"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 189,
+      "class": "actionable_current_source",
+      "text": "| APIの実行結果・レスポンススキーマ | 未確認 | API直接操作は確認対象外 |"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 193,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 203,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] Playground で **認証トークンがどう渡されるか**（連携待ち: GraphQL Playground 上での実行検証）"
+    },
+    {
+      "file": "04-notion/22-API・Webhook・開発者連携.md",
+      "line": 204,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] GraphQL APIの **スキーマ・クエリ例**（連携待ち: API直接操作の検証が必要）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 36,
+      "class": "scope_excluded_connection",
+      "text": "> **根拠**: このエリアは `CUSTOMER-DOCS-FAQ-REVIEW-2026-06-16.md` のBacklog目視結果に基づきます。SQ実機（staging）上で直接確認できる機能は標準FAQを参照してください。顧客別の実際の連携挙動は**外部接続が必要なため未確認**です。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 74,
+      "class": "actionable_current_source",
+      "text": "> **除外タグの運用上の意味**（実機未確認・資料由来）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 77,
+      "class": "scope_excluded_connection",
+      "text": "> - 付与場所（ShopifyタグかSQメタフィールドか）、付与単位（顧客1件か一括か）、付与先（顧客か注文か）、解除条件はいずれも未確認です。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 84,
+      "class": "actionable_current_source",
+      "text": "> **在庫コードの運用上の意味**（実機未確認・資料由来）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 86,
+      "class": "scope_excluded_connection",
+      "text": "> - 連携先の外部システム（Logizard・店舗）と拠点を突き合わせるためのキーとして使われます。設定値と連携挙動は実機未確認です。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 90,
+      "class": "actionable_current_source",
+      "text": "> **顧客IDフォーマットの運用上の意味**（実機未確認・資料由来）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 92,
+      "class": "actionable_current_source",
+      "text": "> - CRM側で顧客を一意に特定するキーとして使われます。発行タイミングや連番の採番元は未確認です。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 95,
+      "class": "actionable_current_source",
+      "text": "> **`sq:account-disabled` の運用上の意味**（実機未確認・資料由来）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 98,
+      "class": "actionable_current_source",
+      "text": "> - 付与後の顧客状態（無効化されるか・ログイン不可になるか）は未確認です。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 104,
+      "class": "scope_excluded_connection",
+      "text": "> **注意**: 在庫コード・顧客IDフォーマット・タグはBacklog資料の目視結果です。SQ実機で該当コードの存在や連携挙動は**未確認**です。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 129,
+      "class": "actionable_current_source",
+      "text": "**MK システム関係図（テキスト）**（資料由来・実挙動未確認）:"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 155,
+      "class": "scope_excluded_connection",
+      "text": "| 顧客連携 | SQ Proxy Server → MK基幹CRM。毎日19:00。前日19:00:00〜当日18:59:59の作成/更新が対象 **（資料由来・実挙動未確認）** |"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 156,
+      "class": "scope_excluded_connection",
+      "text": "| 売上連携 | SQ Proxy Server → MK基幹SA。毎日19:00。出荷/返品完了が対象 **（資料由来・実挙動未確認）** |"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 157,
+      "class": "scope_excluded_connection",
+      "text": "| 倉庫在庫連携 | `77910/77901/77903` はWMS等から取り込み。安全在庫を差し引いた値がSQ/Shopify側の売れる数になる **（資料由来・差し引き挙動は実機未確認）** |"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 158,
+      "class": "scope_excluded_connection",
+      "text": "| 店舗在庫連携 | Full-price/outlet店舗は30分ごと。ゼロ在庫レコードが出ない問題に注意 **（資料由来・間隔・ゼロ在庫挙動は実機未確認）** |"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 159,
+      "class": "scope_excluded_connection",
+      "text": "| Logizard出荷依頼 | SQ → Logizard。約15分間隔の前提。追跡番号がないと出荷完了/Shopify通知が進まない **（資料由来・間隔は実機未確認）** |"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 161,
+      "class": "scope_excluded_connection",
+      "text": "> **連携バッチの運用上の意味**（実機未確認・資料由来）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 164,
+      "class": "actionable_current_source",
+      "text": "> - 各時刻（19:00等）のタイムゾーンはJST想定ですが未確認です。失敗時の自動再送有無も未確認です。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 177,
+      "class": "actionable_current_source",
+      "text": "**CHAMPION システム関係図（テキスト）**（資料由来・実挙動未確認）:"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 240,
+      "class": "actionable_current_source",
+      "text": "（資料由来・実機未確認。以下ステップ全体も推定を含みます）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 244,
+      "class": "actionable_current_source",
+      "text": "3. 引当元は **確保済み**（`/admin/inventory_allocation_request_confirmations`）に集約され、そこから **移動伝票**（Logizard EC倉庫 `77940` への集約移動と推定・実機未確認）を作成する。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 246,
+      "class": "actionable_current_source",
+      "text": "5. 実機での各画面遷移・バッチ間隔（約15分）は未確認。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 250,
+      "class": "actionable_current_source",
+      "text": "（資料由来・実機未確認。以下ステップ全体も推定を含みます）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 255,
+      "class": "actionable_current_source",
+      "text": "4. 終了・返金の実タイミングは資料由来で、実挙動は未確認。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 261,
+      "class": "scope_excluded_connection",
+      "text": "| 安全在庫はどこで効くか | 外部在庫取り込み時に差し引かれる。管理画面で直接入れた在庫には即時反映されない **（資料由来・実機未確認）** |"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 265,
+      "class": "actionable_current_source",
+      "text": "> **安全在庫の運用上の意味**（実機未確認・資料由来）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 267,
+      "class": "scope_excluded_connection",
+      "text": "> - SKU・ロケーション単位で外部側に保持されると推定され、SQ管理画面からは直接編集できないと推定されます。そのため管理画面で手入力した在庫には反映されないと考えられます。設定場所・デフォルト値は未確認です。"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 283,
+      "class": "scope_excluded_connection",
+      "text": "- **実機確認範囲の限界**: このエリアの顧客別運用（WMS/POS/基幹連携の実挙動）は、staging環境では確認できません。外部連携が必要なため、すべて「未確認」として扱います（`VERIFIED-FACTS-ONLY-2026-06-19.md` 参照）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 286,
+      "class": "scope_excluded_connection",
+      "text": "- **Backlog目視範囲**: MICHAEL KORSの2025-06-30〜2025-12-11ページはリンク集のみ確認。リンク先課題は未確認。2026-03-27の外部Notionは本文確認できていません"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 298,
+      "class": "scope_excluded_connection",
+      "text": "| 連携バッチ時間（MK CRM/SA 19:00 等） | ⚠️ 資料由来 | Backlog記載。実挙動は未確認 |"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 301,
+      "class": "scope_excluded_connection",
+      "text": "| 実連携挙動（WMS/POS/基幹） | ❌ 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 305,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 307,
+      "class": "scope_excluded_connection",
+      "text": "### 連携待ち（外部連携前提項目）"
+    },
+    {
+      "file": "04-notion/25-顧客別個別仕様・運用差分.md",
+      "line": 319,
+      "class": "metadata_or_section",
+      "text": "### TODO表示・未確認"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 4,
+      "class": "metadata_or_section",
+      "text": "wbs_status: 一部確認 連携待ち"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 10,
+      "class": "scope_excluded_connection",
+      "text": "> このページはWBS-25エリアの第15エリアです。注文を起点に、在庫・顧客・ポイント・売上の各行へどう連動するかを理解するのが目標です。注文データは販売チャネル（Shopify等）から流入する設計のため、チャネル未接続の現環境では注文詳細・ステータス遷移・返品・返金の実機確認ができていない項目が多くあります（「連携待ち」）。"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 20,
+      "class": "actionable_current_source",
+      "text": "- 注文起点で在庫（引当・手持ち）・顧客・ポイント・売上実績のどこへ連動するか、現時点で確定している範囲と未確認範囲を区別できる"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 46,
+      "class": "scope_excluded_connection",
+      "text": "> 注文データが0件のため、注文発生時に在庫・顧客・ポイント・売上のどこへ連動するかは**実機未確認**です。下表は設計上の想定であり、チャネル接続後に検証します。"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 59,
+      "class": "actionable_current_source",
+      "text": "> 上記は設計上の想定。各連動のタイミング・成否は未確認（詳細は00-getting-started/データの流れ-図解.md）。"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 63,
+      "class": "actionable_current_source",
+      "text": "| 在庫（販売可能/引当済み） | 受注時に販売可能が減り引当済みが増える（想定） | ❌ 未確認 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 64,
+      "class": "data_unavailable",
+      "text": "| 顧客管理 | 注文時に購入顧客データが生成・累積される（想定） | ❌ 未確認 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 65,
+      "class": "actionable_current_source",
+      "text": "| ポイント | 注文時にポイント付与、返品時に減算（想定） | ❌ 未確認 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 66,
+      "class": "actionable_current_source",
+      "text": "| 売上実績（会計） | 注文から売上実績が自動生成される（想定） | ❌ 未確認 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 67,
+      "class": "actionable_current_source",
+      "text": "| 出荷管理 | 受注が出荷指示として連動する（想定） | ❌ 未確認 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 93,
+      "class": "scope_excluded_connection",
+      "text": "> **タグは何に使うか** — 注文に付与されるラベルで、特定ラベルを一括抽出して出荷対象を絞る運用を想定します（例: ギフト注文・定期便等は想定例）。一覧の絞り込みだけでなく、出荷管理「条件指定でエクスポート（ヤマトB2クラウド）」の「注文タグ（含む / 除外）」条件にも連動します（根拠: データ事典②）。タグの付与元（チャネル側かSQ側か）・具体例は**実機未確認**です。"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 103,
+      "class": "scope_excluded_connection",
+      "text": "<!-- TODO: 要確認（注文データがある状態でのテーブル列構成・注文詳細画面の構成・ステータス遷移。チャネル接続後に追補予定） -->"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 111,
+      "class": "scope_excluded_connection",
+      "text": "| 注文を作成する | 下書き注文の作成フォームへ進むボタン | チャネル経由でなくSQ内で手動起票する注文（電話やFAX受注の取り込み等を想定）の入口。有効化されれば顧客・商品・金額を入力して注文を確定し、在庫引当や出荷指示の起点になる想定。現在 `href` がなくクリックしても遷移しない（既知の問題。後述・**実機未確認**・フォーム構成は接続後に確認） |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 146,
+      "class": "scope_excluded_connection",
+      "text": "| キャンセル | キャンセル扱いの返品で絞り込む | 受注後・出荷前に注文を取り消したケースを返品データとして絞る。出荷前の取消と出荷後の戻しを振り分け、残在庫の戻し有無を確認するときに使う（※キャンセル扱いの厳密な定義は**実機未確認**・チャネル接続後に確認） |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 147,
+      "class": "actionable_current_source",
+      "text": "| 交換出荷 | 交換出荷を伴う返品で絞り込む | 不良・間違いで返品され代替品を再出荷したケースを抽出する。公式ガイドでは交換機能の実装日が未定のため、現状は絞り込み項目のみ存在し実データは無い可能性が高い（※実データでの動作は**実機未確認**） |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 208,
+      "class": "actionable_current_source",
+      "text": "> **何に使うボタンか** — 項目表（上記「下書き」）に記載の想定のとおり、SQ内で手動起票する注文の入口です（実機未確認）。"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 210,
+      "class": "scope_excluded_connection",
+      "text": "下書き注文一覧の「注文を作成する」ボタンには `href` がなく、クリックしても遷移しません。`/admin/draft_orders/create` へ直接アクセスすると「予期せぬエラーが発生しました」画面になります。実機確認では、会社データ・担当者データが存在する状態でも有効化されませんでした。原因は未検証（開発元確認中）であり、販売チャネル接続で生成される購入顧客データ不足との推測もあれば、OmnibusCore・リテールポータル経由での流入・操作を前提とした設計である可能性もあり、現時点では確定していません。現環境（チャネル未接続）では確認できていません（実機確認済み・開発元確認事項）。"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 218,
+      "class": "scope_excluded_connection",
+      "text": "返品・キャンセル・返金は、**原則として注文の作成元（Shopify等のチャネル側管理画面）で操作し、その結果がSQへ反映される**設計です。外部ツールの設計によってはSQ側で操作する場合もあると公式ガイドに明記されています（出典: 公式 `/docs/guide/orders`）。ECモール経由の返品など一部ケースはSQ側で扱う可能性がありますが、注文データ0件のためSQでの実操作・反映経路は未確認です。"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 234,
+      "class": "scope_excluded_connection",
+      "text": "> **「未完了」の運用上の意味** — 出荷実績が未登録（出荷指示が残っている）の注文を指す想定です。バッジを見たら「まだ出荷していない注文がある」と確認の目安に使います。未完了の厳密な定義・決済状態の含否は**実機未確認**（注文データ0件のため。チャネル接続後に確認）。"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 258,
+      "class": "data_unavailable",
+      "text": "| 未完了バッジの表示仕様 | ✅ 仕様情報として確定 | リリースノート 2026-05-27。注文データがある状態での「未完了」の厳密な定義は未確認 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 259,
+      "class": "data_unavailable",
+      "text": "| 注文詳細画面の構成・ステータス遷移 | ❌ 未確認 | 注文データ0件のため |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 260,
+      "class": "data_unavailable",
+      "text": "| 注文からの在庫引当・手持ち変動 | ❌ 未確認 | 注文データ0件のため |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 261,
+      "class": "data_unavailable",
+      "text": "| 返品・キャンセル・返金の実操作 | ❌ 未確認 | 注文データ0件のため |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 262,
+      "class": "data_unavailable",
+      "text": "| 交換出荷のフロー | ❌ 未確認 | 注文データ0件のため |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 263,
+      "class": "data_unavailable",
+      "text": "| 注文時のポイント付与・返品時減算 | ❌ 未確認 | 注文/顧客/ポイント実績が必要 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 264,
+      "class": "data_unavailable",
+      "text": "| 注文から売上実績の自動生成 | ❌ 未確認 | 注文データ0件のため |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 265,
+      "class": "scope_excluded_connection",
+      "text": "| Shopify/スマレジ等の注文流入 | ❌ 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 266,
+      "class": "scope_excluded_connection",
+      "text": "| Recustomer等の返品連携 | ❌ 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 270,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 272,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — Shopify / スマレジ / OmnibusCore / リテールポータル 経由の注文流入（チャネル接続後に注文一覧への表示・注文詳細画面の構成を確認）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 273,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — 注文発生時の在庫連動（販売可能/引当済み/手持ちの推移タイミング）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 274,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — 注文時のポイント付与・返品時のポイント減算（注文ポイント付与ルールの実適用）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 275,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — 注文から売上実績（会計 `/admin/sale_change_line_items`）の自動生成有無"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 276,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — Recustomer 等の外部返品連携アプリ経由の返品フロー"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 277,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — 下書き「注文を作成する」ボタンの有効化条件（チャネル接続で生成される購入顧客データが必要か開発元確認中）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 278,
+      "class": "data_unavailable",
+      "text": "- [ ] **TODO表示** — 注文詳細画面のステータス遷移・キャンセル・返金の操作導線（注文データがないため未確認）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 279,
+      "class": "not_implemented",
+      "text": "- [ ] **TODO表示** — 交換出荷の実フロー（返品一覧の「交換出荷」絞り込み先でどのようなデータが表示されるか。※公式ガイドでは交換機能は実装日未定。実データでの動作は未確認）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 280,
+      "class": "data_unavailable",
+      "text": "- [ ] **要確認** — 注文管理一覧のテーブル列構成（注文データがある状態での列）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 281,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認** — 返品の起票方法（注文詳細画面内からの操作を想定しているが未確認）"
+    },
+    {
+      "file": "04-notion/15-注文・返品.md",
+      "line": 282,
+      "class": "vendor_required",
+      "text": "- [ ] **要確認** — 出荷実績誤登録時の公式推奨訂正手順（調整伝票による手持ち加算でよいか開発元確認）"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 10,
+      "class": "scope_excluded_connection",
+      "text": "> このページはWBS-25エリアの第18エリアです。店舗スタッフが使うリテールポータルと、管理画面側で行うその接続設定・店舗受取設定を分けて理解するのが目標です。リテールポータル自体は外部接続前提の機能で、接続後の実際の運用画面・同期挙動は未確認です。"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 32,
+      "class": "scope_excluded_connection",
+      "text": "`管理画面(連携作成・店舗受取設定) → リテールポータル(店舗スタッフ操作)` という流れで、まず管理画面で「何を許すか」を決め、その範囲内で店舗スタッフが現場を操作します。リテールポータル側の実際の画面は接続前提のため未確認です。"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 67,
+      "class": "actionable_current_source",
+      "text": "> ただし店舗スタッフが見る実際の画面・操作UI（ボタン名・画面名）は接続前提のため未確認です。管理画面側で設定できる項目のみ実機確認済みです。"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 97,
+      "class": "scope_excluded_connection",
+      "text": "| 販売閾値ルール | リテールポータル経由注文の販売可否判定に割り当てるルール（適用の実挙動は接続後未確認） | 任意 | コンボボックス（SQ内マスタから選択） |"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 98,
+      "class": "scope_excluded_connection",
+      "text": "| リテールポータルで販売員の選択を必須にする | 販売員マスタの販売員を使って監査記録を残す前提の設定（注文時の選択操作は接続前提のため未確認） | 任意 | チェックボックス（デフォルト: オフ） |"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 106,
+      "class": "scope_excluded_connection",
+      "text": "> **チェックボックス設定と店舗スタッフの操作の対応（未確認）**: 上記5つのチェックボックスは管理画面側で実機確認できています。オンにすると対応するリテールポータル側の操作（配送先編集・送料編集・価格編集・下書き注文完了・販売員選択）が有効になりますが、実際の画面名・ボタン名・操作フローは接続前提のため未確認です。設定の対応関係（送料編集↔送料明細の編集、価格編集↔明細価格の編集、完了↔下書き注文の完了、配送先編集↔配送先住所の編集、販売員必須↔注文時の販売員選択）は名前から推定される範囲であり、現場のUIラベルは接続後に要確認です。"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 195,
+      "class": "scope_excluded_connection",
+      "text": "- **接続後の同期挙動は未確認**: リテールポータルとの実際の同期（方向・頻度・エラー時の挙動）は未接続環境のため確認できていません。"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 209,
+      "class": "scope_excluded_connection",
+      "text": "| 接続後の実際の同期挙動 | 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 210,
+      "class": "scope_excluded_connection",
+      "text": "| 店舗スタッフ側（リテールポータル）の画面 | 未確認 | 別権限ユーザー/接続が必要 |"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 211,
+      "class": "user_ops_excluded",
+      "text": "| ユーザー追加後の権限詳細 | 未確認 | 追加後表示まで未確認 |"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 212,
+      "class": "scope_excluded_connection",
+      "text": "| 店舗受取の接続後の業務効果 | 未確認 | 実注文/チャネル側受取挙動は未接続 |"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 216,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 218,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: リテールポータル接続後の実際の同期方向・頻度・エラー時の挙動"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 219,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 店舗スタッフが操作するリテールポータル画面のUI（在庫リクエスト確認・確保、移動伝票作成、出荷登録の各ボタン名・画面名）"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 220,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 店舗受取を有効化した後の、チャネル側での注文/受取の実際の挙動"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 221,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: ユーザー追加後にそのユーザーが持つリテールポータルへのアクセス権限の詳細"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 222,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: リテールポータル経由注文のShopify等ECチャネルへの連携経路"
+    },
+    {
+      "file": "04-notion/18-店舗業務・リテールポータル.md",
+      "line": 223,
+      "class": "user_ops_excluded",
+      "text": "- [ ] **完成寄り**: ユーザー追加ダイアログの検索・選択の基本動作（ダイアログ表示までは確認済み、追加実行後の表示は未確認）"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 129,
+      "class": "destructive_or_external_output",
+      "text": "> 手順の詳細（テンプレート取得方法・必須列・実行後の結果）は **21. CSV・PDF・データ移行** を参照してください。なお商品CSVインポートの実行は未確認です（巻き戻し不可のため検証範囲外）。"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 221,
+      "class": "actionable_current_source",
+      "text": "| 在庫切れの場合でも販売を続ける | — | チェックボックス（作成フォーム初期値OFF）。**ON=在庫0でも受注を受け付ける**（実機未確認<!-- TODO: 要確認 -->: 予約販売ルール等の他機能との関係含め挙動は未確認） |"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 223,
+      "class": "scope_excluded_connection",
+      "text": "> **在庫追跡OFFの扱い**: `在庫を追跡する` はCSV項目 `is_tracked` に対応します。作成フォーム上の初期値はOFFです。2026-06-21/22の実機確認では、OFFでも販売可能数の直接編集、移動伝票・調整伝票・取置伝票・在庫依頼・発注伝票・店舗受取・販売価格/予約販売/販売閾値の候補表示は可能で、在庫依頼はOFF状態の新規GU SKUで保存まで確認しました。Shopify / OmnibusCore / リテールポータル等の外部チャネル連携で在庫同期・販売可否にどう効くかは未確認です。"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 239,
+      "class": "actionable_current_source",
+      "text": "| 配送を必須にする | — | チェックボックス（デフォルトON）。**ON=配送が必要な商品**として扱われる（出荷指示・ラベル生成との連動含め**実機未確認**<!-- TODO: 要確認 -->） |"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 345,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 347,
+      "class": "actionable_current_source",
+      "text": "完成寄りエリアのため残件は少なめですが、以下は未確認です。"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 349,
+      "class": "actionable_current_source",
+      "text": "- [ ] **既存商品への新規オプション軸追加**: 既存商品詳細では作成フォームの「別のオプションを追加する」ボタンが確認できず。カラー・サイズ以外の新しい軸を後から追加できるかは未確認"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 350,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **商品の外部チャネル連携時の挙動**: Shopify等へ商品が同期されるかはチャネル未接続のため未確認（連携が必要）"
+    },
+    {
+      "file": "04-notion/05-商品・SKU.md",
+      "line": 351,
+      "class": "destructive_or_external_output",
+      "text": "- [ ] **CSVインポート後の実データ反映**: 商品CSVインポートの実行までは未確認（実行は巻き戻し不可のため検証範囲外）"
+    },
+    {
+      "file": "04-notion/09b-採寸.md",
+      "line": 83,
+      "class": "scope_excluded_connection",
+      "text": "- **採寸ルールの商品紐づけはUI上で確認不可**: 採寸ルールは現時点でテンプレート定義のみ利用可能。商品への適用フロー（API経由・外部連携の可能性）は未確認です。"
+    },
+    {
+      "file": "04-notion/09b-採寸.md",
+      "line": 98,
+      "class": "actionable_current_source",
+      "text": "| 採寸ルール: 商品への紐づけ方法 | ⚠️ 未確認 | 管理画面UIからは紐づけ操作が見当たらない |"
+    },
+    {
+      "file": "04-notion/09b-採寸.md",
+      "line": 102,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/09b-採寸.md",
+      "line": 105,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] 採寸情報がストアフロント等へどう表示されるか（連携待ち）"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 4,
+      "class": "metadata_or_section",
+      "text": "wbs_status: 完成寄り 要確認"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 37,
+      "class": "scope_excluded_connection",
+      "text": "> **在庫追跡OFFのSKU**: 2026-06-21の実機確認では、商品バリエーションの「在庫を追跡する」がOFFでも、販売価格（通常価格）のSKU選択に表示されフォームへ選択できました。予約販売・販売閾値でも候補表示までは確認済みです（保存は未実行）。外部チャネル連携時の実効差は未確認です。"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 58,
+      "class": "scope_excluded_connection",
+      "text": "> ⚠️ 到達時・適用時の実挙動（在庫0で本当に受注されるか、上限/閾値に達したら売り止まるか等）はチャネル未接続のため未検証です（出典: データ事典Ⅱ「販売ルール」節）。"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 101,
+      "class": "scope_excluded_connection",
+      "text": "> **価格 vs 価格(税込)**: 価格(必須)=税抜、価格(税込)(任意)=税込の2本立て。連携先(Shopify/OmnibusCore)にどちらの価格が送られるか、税込を空欄にした場合の挙動は⚠️実機未確認です。"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 152,
+      "class": "scope_excluded_connection",
+      "text": "> **適用条件（⚠️未検証）**: このルール単体では効かず、OmnibusCore連携の「在庫予約ルール」欄でこのルールを選択すると効く想定です（ルール作成のみでは未適用）。ただし連携メカニズム・在庫0での実際の受注挙動とも、チャネル未接続のため未検証です（出典: データ事典Ⅱ 予約販売ルール、01-by-feature/OmnibusCore連携.md「在庫予約ルール」）。"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 198,
+      "class": "scope_excluded_connection",
+      "text": "| 閾値 * | SKUに設定する閾値の数値 | 必須 | 数値入力（spinbutton）。初期値「0」。= 在庫のしきい値。在庫がこの数値を下回るとリテールポータル連携の販売可否判断に使われる。0＝在庫が完全になくなるまで販売可の想定。閾値到達時の具体的挙動（販売停止・通知等）は⚠️未検証（出典: データ事典Ⅱ 販売閾値ルール、01-by-feature/リテールポータル連携.md） |"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 265,
+      "class": "scope_excluded_connection",
+      "text": "6. 続けて詳細画面でSKU別の「上限数・集計開始日時」を登録します（※チャネル接続済み環境での確認が必要。現環境では詳細画面以降は未検証です）。"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 267,
+      "class": "scope_excluded_connection",
+      "text": "> **前提**: 販売チャネル（Shopifyなど）の統合設定が完了している環境でのみチャネル選択肢が表示されます。未接続環境では「チャネルを選択してください」エラーになり作成できません。詳細画面以降のSKU別上限設定は未確認です（出典: データ事典Ⅱ 販売上限ルール「配下: SKU＋上限数＋集計開始日時」）。"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 276,
+      "class": "scope_excluded_connection",
+      "text": "- **販売上限はチャネル連携前提**: Shopifyなど販売チャネルの統合設定が完了していないとチャネル選択肢が表示されず、ルール作成を完了できません。現環境（チャネル未接続）では詳細画面以降のUIは未確認です。"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 280,
+      "class": "scope_excluded_connection",
+      "text": "- **閾値の目的はリテールポータル連携の販売可否判断**: 設定した閾値はリテールポータル連携で「在庫閾値による販売可否の判断」に使われます。到達時の具体的な挙動（売り止め・通知等）はUI上に説明文がなく、接続環境での未検証です（出典: データ事典Ⅱ 販売閾値ルール）。"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 295,
+      "class": "scope_excluded_connection",
+      "text": "| 販売上限のチャネル選択肢・詳細画面以降 | ⚠️ 連携待ち | チャネル接続済み環境での確認が必要 |"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 296,
+      "class": "scope_excluded_connection",
+      "text": "| 販売価格/予約販売/販売上限/販売閾値のチャネル適用 | ⚠️ 連携待ち | Shopify等のチャネル未接続のため未検証 |"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 297,
+      "class": "scope_excluded_connection",
+      "text": "| 予約販売設定後の在庫0時の注文受付挙動 | ⚠️ 連携待ち | チャネル接続環境での確認が必要 |"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 298,
+      "class": "actionable_current_source",
+      "text": "| 閾値に達した場合の実挙動（販売停止・通知など） | ⚠️ 未確認 | UI上に説明文なし |"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 302,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 304,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 販売上限ルールのチャネル選択肢、詳細画面のSKU別上限数・集計開始日時の登録フォーム（チャネル接続済み環境で確認）"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 305,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 販売価格・セール価格をShopify等に適用したときの実際の価格変更挙動"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 306,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 予約販売ルールを設定したとき、在庫0の商品がチャネル側で注文受付になるか"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 307,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 販売上限ルールがチャネル側で実際に販売数量を制限するか"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 308,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 販売閾値ルールがチャネル側で実際に販売可否に影響するか"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 309,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認**: 閾値に達した場合の具体的な挙動（販売停止・通知など）。UI上に説明文がない"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 310,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認**: セール価格の「終了日時」を空欄にした場合の動作"
+    },
+    {
+      "file": "04-notion/10-価格・販売制御.md",
+      "line": 311,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **要確認**: 各ルールを実際の販売チャネル・注文に適用する全体フロー"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 4,
+      "class": "metadata_or_section",
+      "text": "wbs_status: 連携待ち"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 10,
+      "class": "scope_excluded_connection",
+      "text": "> このページはWBS-25エリアの第20エリアです。出荷業務（ヤマトB2クラウド・DHL）、返品（Recustomer）、倉庫管理システム連携（ロジザードZERO）がSQのどこに紐づき、どのデータに戻るかを理解するのが目標です。これらの外部連携の多くは**接続前提の挙動**であり、staging環境では未接続のため「連携待ち」としています。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 31,
+      "class": "scope_excluded_connection",
+      "text": "このエリアは「外部連携」と「出荷業務」の2領域にまたがります。出荷実績のCSV連携（ヤマトB2クラウド・DHL）は実機で操作導線を確認済みですが、WMS・返品プラットフォームとの実際の同期は外部接続が必要なため未確認です。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 36,
+      "class": "scope_excluded_connection",
+      "text": "| ヤマトB2クラウド 連携 | `/admin/inventory_outbound_orders` 内「インポート」「条件指定でエクスポート」 | 出荷実績CSVの一括取込・取り込み用CSV生成 | ⚠️ 導線確認済み・実データ検証は連携待ち |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 37,
+      "class": "scope_excluded_connection",
+      "text": "| DHL 連携 | `/admin/inventory_outbound_orders` 内「インポート」 | DHL出荷実績CSVの一括取込 | ⚠️ 導線確認済み・実データ検証は連携待ち |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 38,
+      "class": "scope_excluded_connection",
+      "text": "| ロジザードZERO 連携 | `/admin/logizard_integrations` | WMS（倉庫管理）連携 ※一般知識・実機画面に役割表記なし | ❌ 連携待ち（接続前提） |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 39,
+      "class": "scope_excluded_connection",
+      "text": "| Recustomer 連携 | `/admin/recustomer_integrations` | 返品・交換プラットフォームとの接続設定 | ❌ 連携待ち（接続前提） |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 52,
+      "class": "scope_excluded_connection",
+      "text": "| ヤマトB2クラウド（出荷実績CSV取込） | 出荷指示のステータスを「出荷完了」、出荷実績（配送キャリア・追跡コード）を登録 | ⚠️ 導線確認済み・実取込は連携待ち |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 53,
+      "class": "scope_excluded_connection",
+      "text": "| DHL（出荷実績CSV取込） | 同上 | ⚠️ 導線確認済み・実取込は連携待ち |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 54,
+      "class": "scope_excluded_connection",
+      "text": "| ロジザードZERO | 移動伝票・出荷指示・入荷指示との同期（入荷予定登録・出荷予定登録・出荷箱明細実績エクスポート） | ❌ 未確認 |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 55,
+      "class": "scope_excluded_connection",
+      "text": "| Recustomer | 返品・交換に伴う在庫・注文ステータスの反映先 | ❌ 未確認（`/admin/order_returns` は存在しない画面） |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 59,
+      "class": "scope_excluded_connection",
+      "text": "> 返品機能については、2026-06-19時点で `/admin/order_returns/create` は「このページは存在しないようです」となり、SQ管理画面単独では返品登録の導線が確認できていません。Recustomer経由でのみ処理される可能性がありますが、本ページでは接続検証未済のため**返品発生時の実際の運用手順は未確認**（手順6は接続設定のみ）。接続環境での検証後に追記します。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 118,
+      "class": "actionable_current_source",
+      "text": "| 決済方法 | 任意 | すべての決済 / 代引きのみ / 代引き以外の決済。代引きは受領時に代金回収を行うためヤマトB2クラウド側で送り状の支払い情報等が異なり別扱いになるケースがある。代引きのみ／代引き以外でCSVを分けて出力したい場合に使用する。通常は「すべての決済」でよい（※代引き絞り込みの運用理由は実機未確認の推定） |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 124,
+      "class": "destructive_or_external_output",
+      "text": "「実行する」ボタンを押すと非同期処理が開始されます。画面上の出力結果は「ヤマトB2クラウド取り込み用CSV」と「同梱する納品書PDF」です。実際のメールリンク・PDF実ファイルは未確認です。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 139,
+      "class": "scope_excluded_connection",
+      "text": "> **運用上の意味**: 配送キャリア・追跡コードは出荷実績として記録され、注文の配送状況として参照される値です。空欄でも出荷完了自体は可能ですが、顧客への追跡案内やチャネル（Shopify等）への発送完了通知が不備になる場合があるため、送り状番号が分かる段階で入力することが望ましいです（※通知先での実際の連携動作は接続前提のため実機未確認）。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 162,
+      "class": "scope_excluded_connection",
+      "text": "> **各項目の値の取得方法**: グループ番号・接続番号・認証情報・ファイルID・パターンIDは、いずれもロジザードZERO管理画面で事前に確認・取得した値を入力します。各値の具体的な意味（APIエンドポイントの構成要素・認証の役割・取込定義との対応等）は実機未確認のため、接続環境での検証後に追記します。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 183,
+      "class": "actionable_current_source",
+      "text": "- **運用上の意味**: 接続すると返品・交換の発生がSQに通知され、在庫・注文ステータスに反映される想定。ただし反映先の具体的動作は接続環境での検証待ちであり、本ページでは接続設定までを案内する（実機未確認）。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 279,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（出荷実績の修正が必要な場合のAPI経由操作可否を開発元に確認） -->"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 289,
+      "class": "destructive_or_external_output",
+      "text": "### 納品書PDFの実ファイル生成は未確認"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 291,
+      "class": "destructive_or_external_output",
+      "text": "2026-06-21の実機確認では、ヤマトB2クラウド条件指定エクスポートフォームに「同梱する納品書PDF」と表示されます。一方、PDFエクスポート画面（`/admin/pdf_export`）および出荷完了済み出荷指示詳細のどちらにも、任意に納品書PDFを新規生成する導線は確認できませんでした。`/admin/pdf_export/pdf_export_operation_packing_slips/create` は「このページは存在しないようです」になります。実際のメールリンク・PDFファイルは未確認のため、「PDFが必ず生成される」とは断定しないでください。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 301,
+      "class": "scope_excluded_connection",
+      "text": "### 外部連携の実際の同期挙動は未確認"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 303,
+      "class": "scope_excluded_connection",
+      "text": "ロジザードZERO・Recustomerの連携設定画面・入力項目は確認できていますが、**接続後の実際の同期挙動（移動伝票・出荷指示・入荷指示・返品・在庫への反映）はstaging環境では未確認**です。本番環境で接続した上での検証が必要です。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 307,
+      "class": "scope_excluded_connection",
+      "text": "2026-06-19時点で `/admin/order_returns/create` は「このページは存在しないようです」となります。SQ管理画面単独での返品登録導線は確認できておらず、Recustomer等の外部連携経由でのみ処理される可能性がありますが未確認です。読者は「返品をどう処理するか」の回答を本ページから得られません（手順6は接続設定まで）。返品発生時の運用手順は接続検証後に追記します。"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 324,
+      "class": "scope_excluded_connection",
+      "text": "| ロジザードZERO 接続後の移動伝票・出荷・入荷同期 | ❌ 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 325,
+      "class": "scope_excluded_connection",
+      "text": "| Recustomer 接続後の返品・交換フロー | ❌ 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 326,
+      "class": "actionable_current_source",
+      "text": "| SQ単独での返品登録導線（`/admin/order_returns`） | ❌ 未確認 | 2026-06-19時点で存在しない画面 |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 327,
+      "class": "destructive_or_external_output",
+      "text": "| 納品書PDFの生成導線 | ⚠️ 一部確認 | ヤマトB2フォームに「同梱する納品書PDF」表示あり。PDFエクスポート単体の新規作成導線と実ファイルは未確認 |"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 331,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 333,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — ヤマトB2クラウド出荷実績CSVの実データインポート検証（フォーマット・列仕様は確認済み、取込後のステータス遷移・出荷実績反映の完全検証が未実施）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 334,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — DHL出荷実績CSVの実データインポート検証（導線は確認済み、フォーマット詳細・取込後の挙動の完全検証が未実施）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 335,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — ロジザードZERO接続後の同期挙動（移動伝票・出荷指示・入荷指示がWMS側とどう同期されるか、入荷予定登録・出荷予定登録・出荷箱明細実績エクスポートの実効果）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 336,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — Recustomer接続後の返品・交換フロー（返品登録がSQのどこに反映されるか、在庫・注文ステータスへの影響）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 337,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — Shopify等のチャネルからの注文流入に伴う出荷指示の自動生成（注文データ0件のため未確認）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 338,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — 納品書PDFの実ファイル生成確認（ヤマトB2フォームには「同梱する納品書PDF」表示あり。出荷完了済み出荷指示詳細・PDFエクスポート画面には任意新規生成導線なし）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 339,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **TODO表示** — SQ管理画面単独での返品登録導線（`/admin/order_returns/create` は存在しない画面。Recustomer経由のみか要確認）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 340,
+      "class": "vendor_required",
+      "text": "- [ ] **要確認** — 出荷実績の修正が必要な場合の対処方法（API経由操作可否を開発元に確認）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 341,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **要確認** — ロジザードZERO連携の詳細設定（ロケーションのマッピング等、接続済み環境での確認が必要）"
+    },
+    {
+      "file": "04-notion/20-物流・返品・外部アプリ連携.md",
+      "line": 342,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認** — DHL出荷実績CSVのフォーマット仕様（列数・必須列の詳細）"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 58,
+      "class": "scope_excluded_connection",
+      "text": "> - **スマレジ** は実機に連携メニュー・設定フォームが存在し入力可能です。接続後の実際の同期挙動はstaging未接続のため未確認です。なお公式ガイドでは「近日連携予定（Coming Soon）」扱いとなっており、実機の実装と公式の表現に差があります。"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 59,
+      "class": "scope_excluded_connection",
+      "text": "> - 接続済み環境での検証が必要です（詳細は [19. 標準販売チャネル連携](19-標準販売チャネル連携.md)・[20. 物流・返品・外部アプリ連携](20-物流・返品・外部アプリ連携.md) のTODO参照）。"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 98,
+      "class": "scope_excluded_connection",
+      "text": "> | 予備 | 一時的に確保等の予備枠（検品・破損に該当しない予備用）。手持ちに含まれる。**実機未確認**: SQ管理画面からこの区分へ在庫を移す専用メニュー・調整伝票の理由選択肢は見当たらず、WMS連携等で設定される可能性（要確認） |"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 106,
+      "class": "data_unavailable",
+      "text": "| **会計** | `/admin/sale_change_line_items` | 売上実績の確認・CSV出力（「売上実績を作成する」は現状クリック不可）。**実機未確認**: 売上実績の集計元・出力単位（注/SKU/日次等）・編集可否は未確認（売上データ0件のため） |"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 107,
+      "class": "not_implemented",
+      "text": "| **分析** | `/admin/analytics` | ※現在「収益」「レポート」はTODO表示（未実装） |"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 113,
+      "class": "actionable_current_source",
+      "text": "> - **販売閾値**: 在庫が何個を下回ると販売を止めるかのしきい値。SKU別またはデフォルト値で設定（閾値割れ時の詳細挙動は要確認）。"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 142,
+      "class": "not_implemented",
+      "text": "| **卸売** | `/admin/b2b` | ※現在TODO表示（未実装） |"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 221,
+      "class": "scope_excluded_connection",
+      "text": "| 連携で同期されるデータ | ⚠️ 未確認 | staging未接続。Shopify・リテールポータルは[公式ガイド](https://docs.sqstack.com/docs/guide/introduction)で確定、他は一般知識 |"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 225,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 227,
+      "class": "not_implemented",
+      "text": "- [ ] **分析・卸売**: 「分析」の収益・レポート、「卸売」はTODO表示（未実装）。実装されたら追補"
+    },
+    {
+      "file": "04-notion/01-SQ全体・共通導線.md",
+      "line": 229,
+      "class": "actionable_current_source",
+      "text": "- [ ] **PDFエクスポートの対象伝票**: 全伝票でPDFが出せるかは未確認（一部のみ実機確認）"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 224,
+      "class": "scope_excluded_connection",
+      "text": "- **破損・検品・予備の区分は調整伝票から直接指定できない**。これらの区分へ在庫を振り替える正規の手順は**実機未確認**（WMS連携・開発元確認が必要。01-by-feature/在庫管理.mdにTODO、データ事典②「直接振替UIは確認できない」）。破損在庫を減らしたい場合は、当面は「廃棄」等の既存理由で増減数を調整する運用になるが、区分の正確な移動可否は未検証。"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 246,
+      "class": "scope_excluded_connection",
+      "text": "| 移動伝票とWMS（ロジザード）等の外部連携 | 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 247,
+      "class": "scope_excluded_connection",
+      "text": "| 取置伝票の「取置中」在庫が実際の店舗受取でどう扱われるか | 未確認 | 実注文・チャネル接続が必要 |"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 249,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 251,
+      "class": "scope_excluded_connection",
+      "text": "WBS確認状態は「完成寄り」。ほぼ確定済みだが、以下は未確認または外部連携待ち。"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 253,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 移動伝票・出荷指示・入荷指示とWMS（ロジザードZERO）等の外部倉庫システムとの同期（双方向の反映）"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 254,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 取置伝票で確保した「取置中」在庫が、店舗受取・ECのチャネル側でどう扱われるか（販売可能から除外される等の実効果）"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 255,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 調整伝票実行後の在庫変動が、接続済みチャネル（Shopify等）の在庫数へ即時反映されるか"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 257,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認**: 移動伝票の部分入荷・過入荷を繰り返した場合の伝票完了判定の細かい挙動（`#IM-1012`/`#IM-1013` で基本挙動は確認済み、複数回繰り返しパターンは未検証）"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 258,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認**: 取置伝票の明細を大量累積させた場合の保存・実行パフォーマンス"
+    },
+    {
+      "file": "04-notion/12-在庫伝票.md",
+      "line": 259,
+      "class": "destructive_or_external_output",
+      "text": "- [ ] **要確認**: 本番環境（`sq.stackservice.com`）で同一挙動か（本エリアはstaging `sqstackstaging.com` のみ確認）"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 100,
+      "class": "user_ops_excluded",
+      "text": "> **ユーザーテナントの扱い（要確認）**: 画面上は、アクセスを許可するテナント（事業部）をチェックボックスで選択できます。ただし、チェックを外したユーザーで各画面がどう制御されるかは、別アカウントでのログイン確認が必要です。現時点では **画面構成は確定、実効果は未確認** として扱います（テナントの定義は03.組織・通知参照）。"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 135,
+      "class": "user_ops_excluded",
+      "text": "> **権限の効き方（要確認）**: 制限付き権限ユーザーと思われるスクリーンショットは存在しますが、正本ログでは「別権限ユーザーでのログイン確認」は残件です。したがって、以下は **検証候補** として扱い、FAQ本文では確定仕様として断定しません。"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 145,
+      "class": "actionable_current_source",
+      "text": "| 1 | お知らせ | `announcements` | お知らせ機能（※左メニュー未確認） |"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 164,
+      "class": "actionable_current_source",
+      "text": "| 20 | マイル商品 | `mile_items` | マイル交換商品（※左メニュー未確認） |"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 165,
+      "class": "scope_excluded_connection",
+      "text": "| 21 | ネクストエンジン連携 | `next_engine_integrations` | ネクストエンジン（ERP）連携（※左メニュー未確認・新発見） |"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 184,
+      "class": "actionable_current_source",
+      "text": "> **36・37の権限の運用上の意味（実機未確認・推定）**: `user_permissions:write` は権限グループ自体の作成・編集・削除を許可、`user_tenants:write` は他メンバーのテナント割当（アクセス範囲）の変更を許可する、いずれも強い管理権限です（実機では権限の存在のみ確認）。ON時の具体的挙動は未検証です。"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 211,
+      "class": "actionable_current_source",
+      "text": "3. 保存する（保存ボタンの正確なUIラベル・保存後の完了トーストは実機未確認。「適用されている権限一覧」アコーディオンで付与された権限の件数を確認できる）"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 221,
+      "class": "actionable_current_source",
+      "text": "> **未確認事項（運用時の注意）**: 除外実行時の確認ダイアログの有無・除外の取り消し可否・除外後に同じメールアドレスで再追加できるかは実機未確認です。運用時は事前にテスト環境等で挙動を確認してください。確定次第この手順を更新します。"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 223,
+      "class": "user_ops_excluded",
+      "text": "<!-- TODO: 要確認（組織から除外時の確認ダイアログの有無・除外後に同メールアドレスで再追加できるか） -->"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 270,
+      "class": "actionable_current_source",
+      "text": "| 組織からの除外時の確認ダイアログ・再追加可否 | ⚠️ 未確認 | TODO参照 |"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 271,
+      "class": "user_ops_excluded",
+      "text": "| 権限差分（別権限ユーザーでのログイン時の挙動） | ⚠️ 未確認 | 正本ログでは別権限ユーザーのログイン確認が残件。画面構成・権限リソース一覧のみ確定 |"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 275,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/02-アカウント・権限.md",
+      "line": 282,
+      "class": "actionable_current_source",
+      "text": "- [ ] **36・37の権限（user_permissions / user_tenants）のON時の具体挙動**: 権限の存在は実機確認済みだが、write権限ON時の実際の挙動は未検証"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 33,
+      "class": "destructive_or_external_output",
+      "text": "- PDFエクスポートは現在「納品書」の1カテゴリのみで、新規作成画面（`/create`）は実装されていません。ヤマトB2クラウド条件指定エクスポートフォームには「同梱する納品書PDF」と表示されますが、実ファイル生成は未確認です。"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 56,
+      "class": "actionable_current_source",
+      "text": "> - **テナント（事業部＝運用ルール分離単位。詳細は 03.組織・通知）**: CSVエクスポート等のフォームで選択する事業区分。テナント0件状態は直接未検証ですが、選択肢が出ない場合は先に「設定 > テナント」を確認してください。"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 207,
+      "class": "scope_excluded_connection",
+      "text": "- **顧客IDの種別の使い分け**: CSVの顧客ID列にSQ内部IDを書くなら「SQが発番」、Shopify等の外部IDを書くなら「外部システムが発番」を選びます。加算対象の顧客を正しく特定するための切替です（チャネル連携時は外部IDになることが多いです ※接続環境未確認）。"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 274,
+      "class": "destructive_or_external_output",
+      "text": "- ヤマトB2クラウド条件指定エクスポートフォームには「同梱する納品書PDF」と表示されます。ただし実際のメールリンク・PDF実ファイルは未確認です。出荷完了済みの出荷指示詳細画面でも納品書/PDF生成ボタンは確認できておらず、別条件で生成導線が出る可能性は追加確認が必要です。なお、納品書のテンプレートは設定画面（`/admin/settings/pdf_template_package_slip`）で管理されています。"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 355,
+      "class": "destructive_or_external_output",
+      "text": "| ヤマトB2条件指定フォームの納品書PDF表示 | 一部確認 | フォームに「同梱する納品書PDF」と表示。実ファイル生成は未確認 |"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 356,
+      "class": "scope_excluded_connection",
+      "text": "| 実注文/実顧客前提のCSV（ポイント・売上など）の実データ | 未確認 | 注文/顧客0件・チャネル未接続 |"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 358,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 363,
+      "class": "destructive_or_external_output",
+      "text": "- [x] CSVエクスポート「ヤマトB2クラウド」カテゴリ → `csv_export_operation_inventory_outbound_order_yamato_b2_clouds`（履歴確認専用）。実行は出荷管理画面（`/admin/inventory_outbound_orders`）の条件指定エクスポートから。フォーム上には「エクスポート完了後、メールにて以下のダウンロードリンクをお知らせいたします」と表示され、出力物として「ヤマトB2クラウド取り込み用CSV」「同梱する納品書PDF」が表示される。実際のメール受信・本文・リンク有効期限・PDF実ファイルは未確認"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 367,
+      "class": "scope_excluded_connection",
+      "text": "### 連携待ち（外部連携前提・チャネル未接続）"
+    },
+    {
+      "file": "04-notion/21-CSV・PDF・データ移行.md",
+      "line": 375,
+      "class": "metadata_or_section",
+      "text": "### TODO表示（未実装）"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 4,
+      "class": "metadata_or_section",
+      "text": "wbs_status: 一部確認 TODO表示"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 10,
+      "class": "not_implemented",
+      "text": "SQの「会計」と「分析」メニューを取り扱うエリアです。「売上実績」の確認・CSV出力は実装されていますが、「分析（収益・レポート）」は現在 TODO 表示で、機能の中身はまだ実装されていません。このエリアでは、**何が使えて何が未実装か**を整理して説明します。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 17,
+      "class": "actionable_current_source",
+      "text": "- 「分析」メニュー（収益・レポート）が TODO 表示であり、現時点で機能がないこと"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 25,
+      "class": "not_implemented",
+      "text": "| 分析 | 分析（トップ） | `/admin/analytics` | TODO 表示（未実装） |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 26,
+      "class": "not_implemented",
+      "text": "| 分析 > 収益 | 売上（h1） | `/admin/analytics/revenue` | TODO 表示（未実装） |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 27,
+      "class": "not_implemented",
+      "text": "| 分析 > レポート | レポート | `/admin/analytics/reports` | TODO 表示（未実装） |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 30,
+      "class": "actionable_current_source",
+      "text": "- 売上実績は一覧表示とCSVエクスポートができますが、本環境ではデータが0件のため、一覧テーブルの列構成・集計挙動の一部は未確認です。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 31,
+      "class": "actionable_current_source",
+      "text": "- 「分析」配下の3画面はいずれも本文が `TODO` で、機能操作は存在しません。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 46,
+      "class": "data_unavailable",
+      "text": "- 売上実績は 注文データ を集計元とする想定ですが、本環境は注文0件のため自動集計挙動は未確認です。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 49,
+      "class": "actionable_current_source",
+      "text": "> **両者の使い分け**: 注文軸は1注文1行で注文全体の売上を見る用途（店舗別・日次の売上集計向き）。明細軸はSKU単位で明細行ごとに出力するため、商品別売上や返品・値引きの明細まで把握したい場合に選びます（実機未確認・出力内容の差はデータ0件のため未検証）。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 67,
+      "class": "data_unavailable",
+      "text": "| テーブル列の構成 | 本環境は売上データ0件のため一覧テーブルの列構成は未確認。売上実績投入後の実機確認待ち（想定される列: 注文番号・売上日・金額・テナント等だが未検証） |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 73,
+      "class": "data_unavailable",
+      "text": "- このリンクは本来「売上実績の手動新規作成」を想定した導線ですが、現状は無効化されています。設計上は売上実績は注文から自動生成される経路のみが想定されます（自動生成挙動自体は注文データ0件のため未確認）。手動作成の経路は現在存在しません。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 74,
+      "class": "data_unavailable",
+      "text": "- 注文データがある環境で有効化されるかは未確認です。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 86,
+      "class": "data_unavailable",
+      "text": "- テナント（事業部）は必須の選択項目で、出力の絞り込み条件として機能すると推定されます。ただし本環境は売上データ0件のため、選択テナントで実際にどう絞り込まれるか・テナントをまたいだ一括出力が可能かは実機未確認です（テナントの定義は「03. 組織・通知」参照）。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 88,
+      "class": "data_unavailable",
+      "text": "- ※基準日時の種別（注文日/計上日/決済日のいずれか）、タイムゾーン、同日指定時の挙動は売上データ0件のため実機未確認です。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 89,
+      "class": "destructive_or_external_output",
+      "text": "- 「エクスポートを開始する」を押すと一覧へ戻り、直近行が「処理中」→再読み込み後に「成功 完了」となりダウンロードリンクが表示されます（2026-06-16実機確認）。非同期処理で裏で走るため同画面での待機は必須ではありません。設計上は完了時のメール通知（ダウンロードリンク送付）も想定されますが、通知文面・有無は未確認です。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 91,
+      "class": "actionable_current_source",
+      "text": "### 分析メニュー（3画面とも TODO 表示）"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 95,
+      "class": "actionable_current_source",
+      "text": "| 分析（トップ） | `/admin/analytics` | 分析 / 分析 | 本文 `TODO` |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 96,
+      "class": "actionable_current_source",
+      "text": "| 収益 | `/admin/analytics/revenue` | ナビ「収益」 / h1「売上」（不一致） | 本文 `TODO` |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 97,
+      "class": "actionable_current_source",
+      "text": "| レポート | `/admin/analytics/reports` | レポート / レポート | 本文 `TODO` |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 100,
+      "class": "actionable_current_source",
+      "text": "- 3画面とも本文が `TODO` で、操作や集計機能は存在しません。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 110,
+      "class": "actionable_current_source",
+      "text": "- 空状態の文言「絞り込みや検索ワードを変更してみてください」から、絞り込み・検索UIの存在が確認できますが、検索ボックスの位置・入力条件はデータあり環境での確認が必要です（<!-- TODO: 要確認 -->）。"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 132,
+      "class": "not_implemented",
+      "text": "| 未実装 | 「分析」メニューの「収益」（`/admin/analytics/revenue`）と「レポート」（`/admin/analytics/reports`）は本文が `TODO` で機能未実装 | 実機確認（LIVE-RECHECK B-2節） |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 134,
+      "class": "data_unavailable",
+      "text": "| 未確認 | 注文データ0件のため、売上実績が注文から自動集計されるかは未確認 | 注文データ0件の環境制約 |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 135,
+      "class": "data_unavailable",
+      "text": "| 未確認 | 「売上実績を作成する」リンクが注文データありの環境で有効化されるかは未確認 | 同上 |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 136,
+      "class": "data_unavailable",
+      "text": "| 未確認 | 売上データありの環境での一覧テーブル列構成は未確認 | 同上 |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 146,
+      "class": "actionable_current_source",
+      "text": "| 分析（トップ）が TODO 表示 | 確定 | `/admin/analytics` |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 147,
+      "class": "actionable_current_source",
+      "text": "| 収益画面が TODO 表示 | 確定 | `/admin/analytics/revenue`・ナビとh1の不一致も確認 |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 148,
+      "class": "actionable_current_source",
+      "text": "| レポート画面が TODO 表示 | 確定 | `/admin/analytics/reports` |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 149,
+      "class": "data_unavailable",
+      "text": "| 売上実績の自動集計挙動 | 未確認 | 注文データ0件のため |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 150,
+      "class": "data_unavailable",
+      "text": "| 売上データありの列構成 | 未確認 | 注文データ0件のため |"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 152,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 154,
+      "class": "metadata_or_section",
+      "text": "### TODO表示（未実装）"
+    },
+    {
+      "file": "04-notion/23-会計・売上実績・分析.md",
+      "line": 160,
+      "class": "metadata_or_section",
+      "text": "### 未確認（データ0件・連携待ち）"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 45,
+      "class": "scope_excluded_connection",
+      "text": "| 組織ID | SQの組織を一意に識別するシステム生成ID（形式例: `{uuid}_Organization`）。SQサポートへの問い合わせ時などに組織を特定する識別子として使う（根拠: データ事典①）。外部連携/API連携での利用は実機未確認 |"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 73,
+      "class": "scope_excluded_connection",
+      "text": "| テナントID | テナントの一意ID（システム生成・編集不可。「テナントIDをコピーする」ボタンあり）。サポート問い合わせ等でテナントを特定する際の識別子として使う（想定）。Admin API・外部連携での利用は実機未確認 |"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 89,
+      "class": "scope_excluded_connection",
+      "text": "> **紐づけの運用上の意味（実機未確認）**: 各ルールはテナント単位で適用される（想定）。未紐づけのままでは当該テナントでその機能（例: 誕生日ポイント付与）が動かない、作成済みのルールは複数テナントで使い回し可能、変更は以降の注文・算出から反映される、いずれもCRMルールの想定挙動で実機未確認（現環境はチャネル未接続・実注文未発生のため）。"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 105,
+      "class": "actionable_current_source",
+      "text": "| 名前\\* | 必須 | 通知先リストで誰のアドレスかを識別するための管理名。担当者名（例: 山田太郎／経理）を入れる運用を想定。送信メールの宛先表示名に使われるかは実機未確認 |"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 110,
+      "class": "data_unavailable",
+      "text": "- **送信タイミング（どの操作で通知が飛るか）**: 実機未確認。実注文・実在庫変動の発生が必要なため残件。想定される通知種別は注文発生・在庫変動アラート・ポイント失効予定等（根拠: データ事典①「SQからのお知らせ・アラートメールの届き先」、通知種別との対応は要確認TODO）。設定自体は完了しているため、運用開始後に実通知を受信して種別を確定させる必要がある。"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 178,
+      "class": "user_ops_excluded",
+      "text": "| ユーザーテナントによるアクセス制御の実効果 | ⚠️ 未確認 | 別権限ユーザーでのログイン確認が必要 |"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 184,
+      "class": "data_unavailable",
+      "text": "| 通知の送信タイミング・実効果 | ⚠️ 未確認 | 実注文・実通知の発生確認が必要 |"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 188,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/03-組織・通知.md",
+      "line": 196,
+      "class": "data_unavailable",
+      "text": "- [ ] **通知の送信タイミング**: どの操作で通知が飛ぶか（実注文・実在庫変動が必要なため未確認。作成フォーム・バリデーションは確定済み）"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 111,
+      "class": "data_unavailable",
+      "text": "| 引当済み | 注文に引き当て済みの在庫数（旧「確定済み」）。実注文データでの引当タイミングは未検証（TODO参照） | 含まれる |"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 114,
+      "class": "actionable_current_source",
+      "text": "| 検品 | 入荷時の検品などで一時的に入る区分（想定）。管理画面からは直接編集不可・増減経路は未確認 | 含まれる |"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 115,
+      "class": "actionable_current_source",
+      "text": "| 予備 | 用途は資料に明記なし（販売不可枠の内訳の一つと推定）。管理画面からは直接編集不可・増減経路は未確認 | 含まれる |"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 120,
+      "class": "scope_excluded_connection",
+      "text": "> **破損・検品・予備の扱い（2026-06-19実機確認）**: 管理画面の「その他のアクション」には「在庫振替を行う」の1メニューのみで、これら3区分に在庫を入れる専用の操作UIはありません。調整伝票の「理由」選択肢にも該当区分はありません。WMS（ロジザードZERO）連携経由で設定される可能性がありますが、現時点では未確認です（詳細は「注意点・制約」「TODO」を参照）。表の数字は読み取り専用とお考えください。"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 233,
+      "class": "data_unavailable",
+      "text": "| 引当済み | 注文の引き当て（タイミング未検証・実注文データ0件） | 出荷の進行（実機未確認） |"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 235,
+      "class": "scope_excluded_connection",
+      "text": "| 破損 / 検品 / 予備 | 2026-06-19の実機確認では、管理画面からは直接編集不可（WMS連携または開発元確認待ち）。増減経路は現在未確認 | 同左（編集不可） |"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 257,
+      "class": "scope_excluded_connection",
+      "text": "- **破損・検品・予備区分への振替経路が見当たらない**: 管理画面の「その他のアクション」には「在庫振替を行う」の1メニューのみで、破損・検品・予備専用の操作メニューはありません。調整伝票の「理由」選択肢（廃棄・見本・紛失・棚卸差異・その他）にもこれらの区分は存在しません。WMS（ロジザードZERO）連携経由の可能性があります <!-- TODO: 要確認（WMS連携〈ロジザード等〉経由での設定なのか、開発元への確認が必要） -->"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 279,
+      "class": "scope_excluded_connection",
+      "text": "| 破損・検品・予備区分への振替UI | 未確認 | 管理画面上に操作UIが見当たらない。WMS連携の可能性 |"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 280,
+      "class": "destructive_or_external_output",
+      "text": "| 本番環境での同一挙動 | 未確認 | staging環境のみ検証 |"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 281,
+      "class": "scope_excluded_connection",
+      "text": "| Shopify等チャネル連携時の在庫同期 | 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 285,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 287,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 破損・検品・予備区分への在庫振替経路（WMS・ロジザードZERO連携経由か、開発元確認が必要）"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 288,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: Shopify連携時の在庫同期（販売可能数がチャネルへ反映されるか）"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 289,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 本番環境での在庫区分・操作挙動がstagingと同じか"
+    },
+    {
+      "file": "04-notion/11-在庫状態・在庫数.md",
+      "line": 290,
+      "class": "data_unavailable",
+      "text": "- [ ] **要確認**: 注文の引当（引当済み区分の増加）がどのタイミングで発生するか（実注文データ0件のため未検証）"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 4,
+      "class": "metadata_or_section",
+      "text": "wbs_status: TODO表示"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 10,
+      "class": "actionable_current_source",
+      "text": "> このページはWBS-25エリアの第24エリアです。SQ管理画面には項目やメニューとして存在するものの、まだ機能が実装されていない（「TODO」表示の）画面をまとめています。画面があっても「仕様として断定できない」ことを理解するのが目標です。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 15,
+      "class": "not_implemented",
+      "text": "- 「分析」「収益」「レポート」「卸売」など、現在TODO表示の画面を把握できる"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 16,
+      "class": "not_implemented",
+      "text": "- 未実装画面にアクセスしたときの表示（「TODO」）を見て、仕様を断定しないことができる"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 24,
+      "class": "actionable_current_source",
+      "text": "SQ管理画面の一部メニューは、**項目や画面は存在するが中身が「TODO」表示**になっています。これは「今後実装予定の機能枠」であり、現時点では操作やデータ確認ができません。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 30,
+      "class": "actionable_current_source",
+      "text": "| 分析 | `/admin/analytics` | h1「分析」・本文TODO |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 31,
+      "class": "actionable_current_source",
+      "text": "| 収益 | `/admin/analytics/revenue` | ナビ名「収益」・h1「売上」・本文TODO |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 32,
+      "class": "actionable_current_source",
+      "text": "| レポート | `/admin/analytics/reports` | h1「レポート」・本文TODO |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 33,
+      "class": "actionable_current_source",
+      "text": "| 卸売 | `/admin/b2b` | h1「卸売」・本文TODO |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 35,
+      "class": "not_implemented",
+      "text": "> 「TODO」表示は、機能が未実装であることを示す画面上の文言です。実装完了後は集計画面・帳票画面等に差し替えられる想定ですが、現時点での詳細仕様は開発元のみ判明しており、本FAQでは断定しません。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 37,
+      "class": "not_implemented",
+      "text": "![分析機能のTODO表示](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/06-analytics.png)"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 39,
+      "class": "not_implemented",
+      "text": "![卸売機能のTODO表示](https://raw.githubusercontent.com/yosukekohno-bayworks/sq-faq/main/_analysis/screenshots/gap-channels-b2b-todo.png)"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 49,
+      "class": "actionable_current_source",
+      "text": "| 分析トップ | `/admin/analytics` | 分析 | 分析 | TODO |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 50,
+      "class": "actionable_current_source",
+      "text": "| 収益 | `/admin/analytics/revenue` | 売上 | 収益 | TODO |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 51,
+      "class": "actionable_current_source",
+      "text": "| レポート | `/admin/analytics/reports` | レポート | レポート | TODO |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 53,
+      "class": "not_implemented",
+      "text": "> 「収益」画面は左メニュー表記とh1見出しが異なります（メニュー:収益 / 見出し:売上）。将来的にどちらの名称で統一されるかは未確認です。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 55,
+      "class": "actionable_current_source",
+      "text": "> 各画面が「何を集計・出力するためのものか」は本文がTODOのため未確定です。現時点では推定のみ記載します:"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 57,
+      "class": "scope_excluded_connection",
+      "text": "> - **収益** — 売上の集計画面と推定されますが、集計粒度（期間別・チャネル別・店舗別など）は未確定。既存の「会計（売上実績）」（`/admin/sale_change_line_items`）との関係も要確認です。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 58,
+      "class": "actionable_current_source",
+      "text": "> - **レポート** — 帳票・レポート出力画面と推定されますが、対象（売上/在庫/発注等）と出力形式は未確定。既存のCSVエクスポート・PDFエクスポート機能との関係も要確認です。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 64,
+      "class": "actionable_current_source",
+      "text": "| 卸売 | `/admin/b2b` | 卸売 | TODO |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 66,
+      "class": "scope_excluded_connection",
+      "text": "> 卸売は **販売チャネルの1つ**（Shopify・OmnibusCore・スマレジ・リテールポータルと同じグループ）に属する、B2B向け販売経路の予定地です。「会社」（`/admin/purchasing_customers` 法人顧客マスタ）とは別機能で、現在はTODO表示のみ。（詳細は 16. 顧客・会社、19. 標準販売チャネル連携）"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 68,
+      "class": "scope_excluded_connection",
+      "text": "> 卸売機能そのものは、B2B向け販売チャネルとして想定されますが、現在はTODO表示のみで詳細は未確定です。法人顧客マスタ（会社）との連携有無も要確認です。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 74,
+      "class": "actionable_current_source",
+      "text": "TODO画面が左メニューのどこにあるかの目安です。実機のメニュー階層（2026-06-19確認）に基づきます。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 78,
+      "class": "actionable_current_source",
+      "text": "└ 収益          /admin/analytics/revenue   TODO"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 79,
+      "class": "actionable_current_source",
+      "text": "└ レポート      /admin/analytics/reports   TODO"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 82,
+      "class": "actionable_current_source",
+      "text": "└ 卸売          /admin/b2b                 TODO"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 85,
+      "class": "scope_excluded_connection",
+      "text": "> 「分析」はトップに `/admin/analytics`（TODO）を持ち、その配下に「収益」「レポート」がぶら下がります。「卸売」は販売チャネル配下に位置します。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 91,
+      "class": "not_implemented",
+      "text": "TODO画面（4つ）とは別に、**権限設定に名前はあるが管理画面に画面が無い** 機能群があります。これらも「将来機能」に該当しますが、メニューを開いて確認できる画面すらない点がTODO画面とは異なります。"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 110,
+      "class": "actionable_current_source",
+      "text": "2. h1「分析」と本文「TODO」が表示されることを確認する"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 111,
+      "class": "not_implemented",
+      "text": "3. 同様に「収益」「レポート」「卸売」もTODO表示であることを確認する"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 121,
+      "class": "not_implemented",
+      "text": "| 分析機能（収益・レポート）は未実装 | 「分析」メニュー配下の収益・レポートは現在「TODO」表示で機能が実装されていない | 実機確認済み（LIVE-RECHECK B-2節） |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 122,
+      "class": "not_implemented",
+      "text": "| 卸売機能は未実装 | 「卸売」（`/admin/b2b`）は現在「TODO」表示で機能が実装されていない | 実機確認済み（LIVE-RECHECK B-3節） |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 123,
+      "class": "not_implemented",
+      "text": "| TODO表示画面の仕様は断定しない | 本文がTODOのため、機能操作や出力形式・集計ロジック等は存在しない。将来仕様の推測はFAQに書かない | `VERIFIED-FACTS-ONLY-2026-06-19.md` 執筆ルール |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 131,
+      "class": "not_implemented",
+      "text": "| 「分析」画面がTODO表示 | ✅ 確定 | 2026-06-19実機再確認 |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 132,
+      "class": "not_implemented",
+      "text": "| 「収益」画面がTODO表示 | ✅ 確定 | 2026-06-19実機再確認 |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 133,
+      "class": "not_implemented",
+      "text": "| 「レポート」画面がTODO表示 | ✅ 確定 | 2026-06-19実機再確認 |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 134,
+      "class": "not_implemented",
+      "text": "| 「卸売」画面がTODO表示 | ✅ 確定 | 2026-06-19実機再確認 |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 135,
+      "class": "not_implemented",
+      "text": "| TODO表示画面の先の実機能 | ❌ 未確認（未実装） | 本文がTODOのため操作不存在 |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 136,
+      "class": "not_implemented",
+      "text": "| 将来仕様（集計ロジック・帳票形式等） | ❌ 未確認 | 開発元のみ判明 |"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 140,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 142,
+      "class": "metadata_or_section",
+      "text": "### TODO表示（未実装・連携待ち）"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 145,
+      "class": "actionable_current_source",
+      "text": "- [ ] 「収益」（`/admin/analytics/revenue`）の実機能（売上集計・グラフ等の想定だが未確認）"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 146,
+      "class": "actionable_current_source",
+      "text": "- [ ] 「レポート」（`/admin/analytics/reports`）の実機能（帳票出力等の想定だが未確認）"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 147,
+      "class": "actionable_current_source",
+      "text": "- [ ] 「卸売」（`/admin/b2b`）の実機能（B2B取引・卸売機能の想定だが未確認）"
+    },
+    {
+      "file": "04-notion/24-未実装・将来機能.md",
+      "line": 150,
+      "class": "metadata_or_section",
+      "text": "### 未確認（実装後検証必要）"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 10,
+      "class": "scope_excluded_connection",
+      "text": "> このページはWBS-25エリアの第13エリアです。在庫依頼（取り寄せ販売）を起点として、出荷管理・入荷管理で在庫を移動させる一連の流れを理解するのが目標です。一部の外部連携項目（Shopify・発注伝票経由の入荷連携など）は未確認です。"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 85,
+      "class": "scope_excluded_connection",
+      "text": "> **チャネル列の運用上の意味**: `web-admin` は実機で確認した依頼に付与されていたチャネル値です。これが手作業作成を示すか、他の発生経路で別チャネル値が付くかは実機未確認です。"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 177,
+      "class": "actionable_current_source",
+      "text": "> **運用上の意味**: 配送キャリア=配送業者名、追跡コード=荷物追跡番号。いずれも空欄で出荷完了できますが、事後の配送照会・顧客案内に使うため入力推奨です（一覧列への表示有無・CSV引き継ぎの有無は実機未確認）。"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 208,
+      "class": "actionable_current_source",
+      "text": "> - **決済方法**: 代引き発送だけを絞り込める（選択肢: すべての決済 / 代引きのみ / 代引き以外の決済）。代引き出荷の実際の取り扱い・集金業務は実機未確認です。"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 209,
+      "class": "actionable_current_source",
+      "text": "> - **注文タグ（含む／除外）**: 入力したタグ文字列を含む/含まない出荷指示で絞り込めます。`priority`/`test` はUI上のプレースホルダ例であり、各タグ値が何を意味するか（優先出荷・テスト等）は実機未確認です。"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 212,
+      "class": "destructive_or_external_output",
+      "text": "> **ステータス変更はチェックON時のみ**: このチェックボックスはデフォルトOFFです。OFFで実行すると対象出荷指示は「出荷待ち」のまま推移します（2026-06-15実機確認）。2026-06-21のフォームには出力物として「ヤマトB2クラウド取り込み用CSV」と「同梱する納品書PDF」が表示されますが、実際のメールリンク・PDF実ファイルは未確認です。"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 231,
+      "class": "scope_excluded_connection",
+      "text": "> **運用上の意味**: 種別は入荷指示の発生元を示します。本ページで扱うのは「移動」（移動伝票由来）のみ。発注伝票（仕入れ先への外部発注）由来など他の種別が存在する想定ですが、2026-06時点で発注経由の入荷連携は実機で確認できていないため、取り寄せ以外の入荷を種別で判別する運用は未確立です（発注伝票経由の入荷連携は未確認）。"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 305,
+      "class": "actionable_current_source",
+      "text": "> **どちらに遷移するか**: 詳細画面右上のリンク先（`/receive` または `/complete`）で自動的に決まります。実機では数量入力フォームへ遷移するパターンと一括受領・完了確認画面へ遷移するパターンの両方を確認していますが、どの条件でどちらになるかの分岐規則は未確認です。自身の画面の遷移先に合わせて手順5-6を読み替えてください。"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 346,
+      "class": "vendor_required",
+      "text": "<!-- TODO: 要確認（出荷/入荷実績の修正が必要な場合のAPI経由操作可否を開発元に確認） -->"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 407,
+      "class": "scope_excluded_connection",
+      "text": "| 発注伝票経由の入荷連携 | ❌ 未確認 | 2026-06-16/18/19/21の発注では入荷管理一覧への表示・入荷予定増加を確認できず |"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 408,
+      "class": "destructive_or_external_output",
+      "text": "| 納品書PDFの生成導線 | ❌ 未確認 | 2026-06-16時点で新規生成導線を確認できず |"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 412,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 414,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — ヤマトB2クラウド / DHL 出荷実績CSVの実データインポート検証（フォーマット・列仕様は確認済み、取込後のステータス遷移の完全検証が未実施）"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 415,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — 発注伝票（仕入れ先への外部発注）経由での入荷連携（`#IP-1000` `#IP-1001` `#IP-1003` `#IP-1004` で発注後の入荷管理一覧表示・入荷予定増加を確認できず。開発元確認事項）"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 416,
+      "class": "not_implemented",
+      "text": "- [ ] **TODO表示** — 納品書PDFの新規生成導線（出荷完了済み出荷指示詳細・PDFエクスポート画面のいずれにも導線を確認できず。ヤマトB2クラウドCSVと同時生成されるかも未確認）"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 417,
+      "class": "vendor_required",
+      "text": "- [ ] **要確認** — 出荷/入荷実績の修正が必要な場合の対処方法（API経由操作可否を開発元に確認）"
+    },
+    {
+      "file": "04-notion/13-入出荷・在庫依頼.md",
+      "line": 418,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認** — 終了ステータスの在庫依頼を再開・再利用する方法があるか"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 47,
+      "class": "actionable_current_source",
+      "text": "<!-- TODO: 要確認（追加したSKUを削除（解除）できるかは未確認。一覧に削除UIが確認できているか再確認が必要） -->"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 75,
+      "class": "scope_excluded_connection",
+      "text": "> **業務上の意味**: このボタンからSKUを登録すると、そのSKUが**店舗受取（BOPIS）の対象商品**として管理画面に登録されます（根拠: データ事典② L88-92）。受取成立には店舗側設定との組合せが必要です（→ 本ページ先頭の前提）。実際の注文時にお客様が受取指定できるかは連携環境での検証が必要で、本ページ単独では **未確認** です（→ 注意点・確認状態を参照）。"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 77,
+      "class": "actionable_current_source",
+      "text": "> ※ **一覧画面自体** のフィルタ・検索・ページネーションの有無は **実機未確認** です。スクショ `03-local-pickup-filter-dropdown.png` に映る検索窓「SKUコードで検索する」・「絞り込みを追加 +」・ページ送りは **「バリエーションを選択する」ダイアログ内** の機能であり、一覧本体の絞り込み機能ではありません。大量SKU時の一覧絞り込み方法は要検証です。"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 97,
+      "class": "actionable_current_source",
+      "text": "> **保存の確定タイミング**: 「選択する」を押すとチェック済みSKUが店舗受取対象として保存されます。反映タイミング（即時か承認/公開フローか）は **実機未確認** です（→ 確認状態表）。"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 99,
+      "class": "actionable_current_source",
+      "text": "> **候補の範囲**: ダイアログに全SKUが出るか、既に受取対象のSKUの扱いなど候補範囲の詳細は **実機未確認** です。確認できているのは検索窓でのSKUコード絞り込みまでです。"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 118,
+      "class": "actionable_current_source",
+      "text": "一覧画面の各行に削除/解除ボタン（行アクション）があるかは **実機未確認** です。確認時点（2026-06-19）の一覧では行アクションUIが観察できていません。"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 120,
+      "class": "actionable_current_source",
+      "text": "- 一覧上行単位の削除UIがない場合: 本エリアの画面経由では個別解除できず、CSV等の一括操作や別管理画面での解除経路を想定する必要があります（**経路は未確認**）"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 129,
+      "class": "actionable_current_source",
+      "text": "- 追加後に **即時反映か、承認/公開フローがあるかは実機未確認** です（保存操作を未実行）"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 130,
+      "class": "scope_excluded_connection",
+      "text": "- **業務上の最終効果は未確認**: 実際の注文時・チャネル側（Shopify等）ストアフロントで店舗受取がどう表示・選択されるかは、連携環境での検証が必要です。現時点で公式ドキュメント（docs.sqstack.com）にも店舗受取/BOPISの業務フロー記述は確認できていません"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 145,
+      "class": "actionable_current_source",
+      "text": "| 対象SKUの解除・削除手順 | 未確認 | 解除UIが確認できていない |"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 146,
+      "class": "actionable_current_source",
+      "text": "| 追加保存後の一覧反映タイミング | 未確認 | 保存操作を未実行 |"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 147,
+      "class": "actionable_current_source",
+      "text": "| フィルター・検索の有無 | 一部確定 | ダイアログ内の検索/絞り込み/ページ送りは確定。**一覧本体** の絞り込みは未確認 |"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 149,
+      "class": "scope_excluded_connection",
+      "text": "| チャネル連携時の販売側反映 | 未確認（連携待ち） | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 150,
+      "class": "scope_excluded_connection",
+      "text": "| 店舗受取の最終業務効果 | 未確認 | 注文・チャネル側挙動は未接続 |"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 154,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 156,
+      "class": "actionable_current_source",
+      "text": "このエリアはWBS確認状態「完成寄り」です。画面の存在・一覧構成・主要ボタンは確定していますが、操作の細部が未確認です。"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 162,
+      "class": "actionable_current_source",
+      "text": "- [ ] 一覧のフィルター・検索・ページネーションの有無と使い方（ダイアログ内は確定済み、**一覧本体** は未確認）"
+    },
+    {
+      "file": "04-notion/07-店舗受取商品.md",
+      "line": 163,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] チャネル連携（Shopify等）時の、販売側での店舗受取表示・受取指定挙動（連携待ち）"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 66,
+      "class": "actionable_current_source",
+      "text": "| オンライン注文 | オンラインストア経由の注文。画面説明上、ポイント付与の起点は**出荷完了**です（「オンライン注文のポイント有効までの日数」は出荷完了後の日数）。実付与は未確認です。 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 67,
+      "class": "actionable_current_source",
+      "text": "| 店舗注文 | 実店舗での注文。画面説明上、ポイント付与の起点は**決済完了**です（「店舗注文のポイント有効までの日数」は決済完了後の日数）。実付与は未確認です。 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 206,
+      "class": "actionable_current_source",
+      "text": "| オンライン注文のポイント有効までの日数 | 画面説明上、オンライン注文の出荷完了から付与されるまでの日数 | 必須 | 数値（日後）。0で即時付与と説明される。空欄保存で「値を入力してください」エラー。実付与は未確認 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 207,
+      "class": "actionable_current_source",
+      "text": "| 店舗注文のポイント有効までの日数 | 画面説明上、店舗での決済完了から付与されるまでの日数 | 必須 | 数値（日後）。0で即時付与と説明される。空欄保存で「値を入力してください」エラー。実付与は未確認 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 216,
+      "class": "scope_excluded_connection",
+      "text": "> **優先方式の選び方**: 複数のポイントキャンペーンが同じ注文に重なった時の適用ルールです。「新しい優先」は**最新施策を確実に効かせたい**場合（例: 新キャンペーン開始で直ちに切り替えたい時）、「古い優先」は**既存キャンペーンを保護したい**場合（例: 継続中の施策を上書きされたくない時）に選びます。なお、優先方式の具体的な適用挙動（優先1件のみ適用か、重複適用されるか等）は実機未確認・連携待ちです。"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 231,
+      "class": "actionable_current_source",
+      "text": "「会員ランク倍率」「商品倍率」タブには「追加する」ボタンがありますが、2026-06-19の実機確認では「追加する」を押してもフォーム遷移・モーダル表示は確認できませんでした。フォーム項目・保存後挙動は未確認です。"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 233,
+      "class": "actionable_current_source",
+      "text": "> **参考（未確定）**: 注文ポイント付与ルール詳細の「会員ランク倍率」は、会員ランクごとにポイント倍率を設定する機能と推定されます。同じくSQのポイントキャンペーン「会員ランク」種別の保存後設定では「会員ランク算出ルール／会員ランク／ポイント倍率」を、「商品」種別では「商品バリエーション（またはブランド）／ポイント倍率」を行として追加します（出典: 01-by-feature/ポイント.md）。注文ポイント付与ルール側でも同等の列構成（ランク／倍率、商品／倍率）になる可能性が高いですが、実機で画面遷移未確認のため項目名は参考値です。"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 257,
+      "class": "scope_excluded_connection",
+      "text": "> **チャネルの運用上の意味**: キャンペーンを適用する販売経路（チャネル）を限定指定します（例: オンラインストアのみ、実店舗のみ）。未指定のままだとキャンペーンが**適用されません**（理由は実機未確認）。本項目の選択肢はチャネル接続済み環境でなければ空になります（2026-06-19時点ではチャネル未接続のため選択肢が空・実機未確認）。"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 275,
+      "class": "data_unavailable",
+      "text": "> 画面説明上、ポイントキャンペーン倍率は「通常ポイントに加えた合計倍率」として適用されます。実注文での計算結果は未確認です。"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 347,
+      "class": "actionable_current_source",
+      "text": "> **持ち越しの運用上の意味**: 実機ヘルプ文では「顧客は自分の会員ランクを最大2年間維持することができます」と説明されています。「開始月」未選択では利用不可になる制約も実機確認済みです。一方、条件未達時の維持挙動（降格猶予として働くか）や、月初算出との併用挙動は**実機未確認/要確認**です（「1年間」＋「開始月」選択時のみ有効）。"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 455,
+      "class": "actionable_current_source",
+      "text": "- **オンライン・店舗のポイント遅延日数は必須**: 空欄保存で「値を入力してください」エラーになります。0は画面説明上「即時付与」です（実付与は未確認）"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 459,
+      "class": "scope_excluded_connection",
+      "text": "- **実注文・実ポイント・会員ランク反映は未検証**: 本ページに記載したのはあくまで**設定上の仕様**（設定値の意味・制約）です。実際の割引適用結果・ポイント付与・失効・返品時減算・会員ランク算出・持ち越しの実挙動は、チャネル接続＋実注文/実績がある環境で別途確認が必要です（現環境はチャネル未接続・注文0件・顧客0件のため未検証）。"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 473,
+      "class": "actionable_current_source",
+      "text": "| 会員ランク倍率・商品倍率の「追加する」押下後の挙動 | ⚠️ 未確認 | 押下してもフォーム遷移/モーダル非表示（2026-06-19） |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 479,
+      "class": "scope_excluded_connection",
+      "text": "| 実注文へのディスカウント適用結果 | ⚠️ 連携待ち | チャネル未接続・注文0件のため未検証 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 480,
+      "class": "scope_excluded_connection",
+      "text": "| 実注文へのポイント付与・失効・返品時減算 | ⚠️ 連携待ち | 注文/顧客/ポイント実績が必要 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 481,
+      "class": "scope_excluded_connection",
+      "text": "| 会員ランクの購入金額による算出反映 | ⚠️ 連携待ち | 顧客購入実績が必要 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 482,
+      "class": "scope_excluded_connection",
+      "text": "| ポイントキャンペーンのチャネル選択肢 | ⚠️ 連携待ち | チャネル未接続のため選択肢が空 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 483,
+      "class": "scope_excluded_connection",
+      "text": "| Shopify連携「連携する」ボタン押下後の挙動 | ⚠️ 連携待ち | Shopify接続済み環境での実行は未確認 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 484,
+      "class": "actionable_current_source",
+      "text": "| 既存TEST注文ポイントルールの詳細（クライアントエラー） | ⚠️ 要確認 | 直URLでApplication error発生 |"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 488,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 490,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: ポイントキャンペーンのチャネル選択肢（チャネル接続済み環境で確認）"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 491,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 実注文へのディスカウント割引適用結果（チャネル接続環境で確認）"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 492,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 実注文へのポイント付与・有効期限・失効通知の実挙動"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 493,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 返品・キャンセル時のポイント減算挙動"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 494,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: 会員ランクの購入金額による実際の算出・持ち越し・月初再計算"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 495,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: ポイントキャンペーン倍率の実注文への適用結果"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 496,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: Shopify連携「連携する」ボタン押下後の挙動（SQコネクターアプリ導入済み環境で確認）"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 497,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認**: 注文ポイント付与ルール詳細の「会員ランク倍率」「商品倍率」タブの「追加する」押下後のフォーム（2026-06-19実機ではモーダル非表示）"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 498,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認**: 既存TEST注文ポイントルール詳細で発生するクライアントエラー（Application error）の原因"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 499,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認**: 会員ランク詳細の「算出タイミング: リアルタイムに算出」に対応する設定項目の有無"
+    },
+    {
+      "file": "04-notion/17-CRM.md",
+      "line": 500,
+      "class": "not_implemented",
+      "text": "- [ ] **要確認**: 会員ランクの「獲得ポイント」算出方法が将来的に利用可能になるか"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 73,
+      "class": "actionable_current_source",
+      "text": "| キー * | 必須 | 最大50文字・最低4文字。項目を識別するID（例: `supplier_code`）。ネームスペース内で一意にし、`ネームスペース.キー` で全体で一意になる（<!-- TODO: 要確認（キーの使用可能文字種） -->） |"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 88,
+      "class": "actionable_current_source",
+      "text": "> **選び方**: 1定義につき対象オブジェクトは1つ選ぶ想定（複数オブジェクトを1定義で同時選択できるかは実機未確認 / <!-- TODO: 要確認 -->）。情報の単位（商品全体 / SKU別 / 受注後 / 発注前）で選ぶ。複数オブジェクトで同じ情報を使いたい場合は、オブジェクトごとに別々の定義が必要（<!-- TODO: 要確認（複数オブジェクトの同時選択可否） -->）。"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 107,
+      "class": "actionable_current_source",
+      "text": "> 保存後に型を変更できるかは実機未確認です（<!-- TODO: 要確認（型の変更可否） -->）。"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 151,
+      "class": "actionable_current_source",
+      "text": "> 根拠: SQ完全ガイド.md（フィールド右側の編集ボタン＝鉛筆アイコンで値を入力）。<!-- TODO: 要確認（値の保存ボタン名・保存後の表示形式は実機で要検証） -->"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 173,
+      "class": "scope_excluded_connection",
+      "text": "- **採寸ルールとの違い**: 同じカスタムデータグループに「採寸ルール」がありますが、採寸ルールは「商品ごとの採寸項目（肩幅・バストなど）と単位を定義する専用機能」であり、メタフィールドとは別物です。採寸ルール作成フォームの項目（ルール名・採寸単位・採寸項目1〜5）の詳細は **09. 翻訳** と **09b. 採寸** を参照。現在はルールの**作成のみ**可能で、作成したルールを個別商品に適用する導線は管理画面UI上では確認できていません（API経由・外部連携での割り当て方法は未確認 / <!-- TODO: 要確認 -->）。"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 175,
+      "class": "actionable_current_source",
+      "text": "- **定義の編集・削除**: 作成済みのメタフィールド定義は、一覧画面（`/admin/settings/metafield_definitions`）の該当定義を開いて編集・削除する導線が想定されます。<!-- TODO: 要確認（編集フォームの項目・削除時の値の扱い・削除可否は実機で未検証。誤った定義を直せるか読者が困るため、実機確認後に手順化予定） -->"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 191,
+      "class": "scope_excluded_connection",
+      "text": "| 連携先（Shopify等）でのメタフィールド扱い | 未確認 | 外部接続が必要 |"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 192,
+      "class": "actionable_current_source",
+      "text": "| 作成済み定義の編集・削除操作 | 未確認 | 実機で未検証 |"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 193,
+      "class": "actionable_current_source",
+      "text": "| メタフィールド値を各オブジェクトで入力・保存する操作 | 一部確認 | 商品詳細でセクション表示は確認、値の保存は未検証 |"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 197,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 199,
+      "class": "actionable_current_source",
+      "text": "WBS確認状態が「完成寄り」のため、残る未確認項目は以下のとおりです。"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 201,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: Shopify等のチャネル接続後に、メタフィールドが連携先でどう扱われるか（同期方向・型の対応）"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 202,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: メタフィールド値が連携時のマッピングで使われるか"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 203,
+      "class": "not_implemented",
+      "text": "- [ ] **TODO表示該当なし**: 本エリアにはTODO表示中の機能は見当たりません（採寸ルールの商品紐付け以外は実装済み）"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 204,
+      "class": "actionable_current_source",
+      "text": "- [ ] 作成済みメタフィールド定義の編集・削除操作（実機で未検証）"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 205,
+      "class": "actionable_current_source",
+      "text": "- [ ] 各オブジェクトでメタフィールド値を入力して保存する操作（商品詳細でセクション表示は確認済み、値の保存は未検証）"
+    },
+    {
+      "file": "04-notion/08-カスタムデータ.md",
+      "line": 206,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] 採寸ルールを個別商品に紐づける方法（現在の管理画面UIからは行えない。API経由か外部連携か要確認）"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 84,
+      "class": "actionable_current_source",
+      "text": "> **運用上の指針**（実機未確認を含む）: 名前は言語と用途を含めると一覧で判別しやすい（例: 「英語（標準）」「中国語簡体字（EC用）」）。同じ言語で複数ルールを作った場合の挙動（上書き・競合）は未確認です。2026-06-19実機では手動実行ボタンが確認できていないため、原則 **オンで運用を推奨** します（再実行方法は要確認）。"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 93,
+      "class": "vendor_required",
+      "text": "- **なぜ4つに分けるか**: データ種別ごとに翻訳の性質が異なるため。例えば商品名は短く魅力的に、商品オプション値の「S/M/L」は翻訳しない、メタフィールドは自由記述を自然な文に、のように **種別ごとに最適な指示を書くことで翻訳精度が変わる**。プロンプト設計指針は公式 docs にも記載なし（実機未確認）。"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 102,
+      "class": "actionable_current_source",
+      "text": "> **親プロンプト / カスタムプロンプトの運用上の意味**: **親プロンプト** はシステム既定の基本翻訳指示、**カスタムプロンプト** はこのルール固有の追加指示（例: 「ブランド名は英字そのまま」「カジュアルな口調で」）。**空欄なら既定のAI翻訳が適用される**。親プロンプトの編集可否・編集場所は実機未確認（要確認）。"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 135,
+      "class": "actionable_current_source",
+      "text": "- **翻訳の実行タイミング**: 自動生成オフ時に翻訳を再実行する方法（手動実行ボタン等）は未確認です。<!-- TODO: 要確認（手動実行の有無・実行結果） -->"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 136,
+      "class": "scope_excluded_connection",
+      "text": "- **翻訳出力・チャネル反映は連携環境での検証待ち** です（下記TODO参照）。"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 149,
+      "class": "scope_excluded_connection",
+      "text": "| 翻訳: 実際の翻訳出力・チャネル反映 | ⚠️ 未確認 | 連携環境での確認が必要 |"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 153,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 155,
+      "class": "actionable_current_source",
+      "text": "- [ ] **翻訳の実行結果**: AIプロンプト経由で翻訳データが実際にどう生成・反映されるか未確認"
+    },
+    {
+      "file": "04-notion/09-翻訳.md",
+      "line": 156,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **翻訳のチャネル反映**: 多言語データがShopify等のチャネルへ同期されるか未確認（連携待ち）"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 90,
+      "class": "scope_excluded_connection",
+      "text": "> **通貨に関する未確認事項**: 選んだ通貨が仕入計上の通貨になるか・為替換算の扱い・下書き状態での作成後の通貨変更可否は、いずれも実機未確認です（会計連携記述からの類推含む）。"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 97,
+      "class": "actionable_current_source",
+      "text": "| 単価（明細行） | — | 商品1点あたりの仕入価格（数値入力）。商品マスタの原価がこの単価の初期値として関係する可能性がある（データ事典②）。商品選択時にフォーム上で自動入力されるかは実機未確認。仕入先ごとに単価が異なる場合は都度上書きする運用になる |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 99,
+      "class": "actionable_current_source",
+      "text": "| 税率（明細行） | — | 消費税率（初期値: 10%）。軽減税率品目は8%、海外仕入れ等は0%に変更する運用。2026-06-24の `#IP-1005` では単価100円・数量1・税率10%で金額が￥110と表示され、少なくともこの条件では税率込みで計算されることを確認。税込表示への切替導線は実機未確認 |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 100,
+      "class": "actionable_current_source",
+      "text": "| 金額（明細行） | — | 単価 × 数量 の金額（読み取り専用。単価・数量の変更に連動して更新）。税抜/税込の扱いは要確認 |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 164,
+      "class": "actionable_current_source",
+      "text": "| 取引先コード | 任意 | 取引先の識別コード（テキスト入力、プレースホルダー: SUP-001）。発注伝票で取引先を特定する識別子として使われると想定される（検索方法含め実機未確認）。会計システムやEDIの仕入先コードと一致させておくと突き合わせに使える可能性がある（実機未確認）。空欄でも発注伝票の選択肢には取引先名で出るため必須ではない |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 178,
+      "class": "vendor_required",
+      "text": "> **取引先の削除・アーカイブ**: 一覧・詳細のいずれにも削除UIは確認できていません（実機未確認）。一覧には「アーカイブ」タブがありますが、アーカイブ操作の導線（詳細画面のボタン等）は確認できていません。アーカイブすると発注伝票作成フォームの「取引先」選択肢から外れると想定される（取引停止先などに使用・実機未確認・開発元要照会）。誤登録した場合は**取引先名・コードを正しい値に修正して運用**するか、開発元へ照会してください。"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 217,
+      "class": "scope_excluded_connection",
+      "text": "> **入荷連動は未確認**: 手順3を完了しても、2026-06-16 / 2026-06-18 / 2026-06-19 / 2026-06-21 / 2026-06-24 の実機確認では入荷管理一覧に発注起点の入荷指示は表示されず、SKU在庫詳細の「入荷予定」も増えませんでした。`#IP-1004` の詳細画面も発注済み商品と発注日時は表示されますが、入荷指示へのリンクは確認できませんでした。入荷連携が有効になる条件（外部システム連携・設定等）がある可能性があり、開発元確認事項です。"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 250,
+      "class": "scope_excluded_connection",
+      "text": "> **代替運用**: 発注は本来、仕入先への発注と同時に入荷予定（入荷指示）を立てて入荷管理に繋ぐ機能ですが、現時点の実機では入荷指示が生成されず、外部連携や設定が前提の可能性があります。入荷予定を確実に立てたい場合は入荷管理で入荷指示を手動作成する運用になります（手動作成導線は実機未確認・開発元要照会）。"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 259,
+      "class": "actionable_current_source",
+      "text": "| 入荷実績 | 入荷指示を完了すると実在庫が増える | ❌ 前段で未発生のため未検証 |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 271,
+      "class": "actionable_current_source",
+      "text": "### 金額欄の税抜/税込の扱い（要確認）"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 302,
+      "class": "actionable_current_source",
+      "text": "| **発注後の入荷指示生成** | ❌ 未確認 | `#IP-1000` `#IP-1001` `#IP-1003` `#IP-1004` `#IP-1005` `#IP-1006` で入荷管理一覧への反映を確認できず。入荷予定は `#IP-1000`〜`#IP-1004` で増加なし、`#IP-1006` では対象SKU `486125-31-XL` の全18ロケーション `incoming` 合計0を発注後・キャンセル前に確認 |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 303,
+      "class": "actionable_current_source",
+      "text": "| **発注後の入荷予定増加** | ❌ 未確認 | 同上。FAQでは断定禁止 |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 304,
+      "class": "actionable_current_source",
+      "text": "| 取引先レコードの削除 | ❌ 未確認 | 削除UIを確認できず |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 305,
+      "class": "scope_excluded_connection",
+      "text": "| 発注伝票の発注確認メール送信 | ❌ 未確認 | 連携前提のため未検証 |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 306,
+      "class": "actionable_current_source",
+      "text": "| 発注伝票のPDF出力 | ❌ 未確認 | 導線を確認できず |"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 310,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 312,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — 発注伝票（`#IP-1000` `#IP-1001` `#IP-1003` `#IP-1004` `#IP-1005` `#IP-1006`）発注後の入荷連携。ダイアログでは入荷指示生成を謳うが、入荷管理一覧への反映を実機確認できず。`#IP-1000`〜`#IP-1004` では入荷予定増加も確認できず、`#IP-1006` では対象SKU `486125-31-XL` の全18ロケーション `incoming` 合計0を発注後・キャンセル前に確認。開発元確認事項"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 313,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち** — 発注伝票の発注確認メール送信（取引先・メールテンプレート設定が前提のため未検証）"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 314,
+      "class": "not_implemented",
+      "text": "- [ ] **TODO表示** — 取引先一覧の「インポート」ボタン（クリック無反応・未実装を確認済み。実装されたら再検証）"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 315,
+      "class": "vendor_required",
+      "text": "- [ ] **要確認** — 取引先レコード自体の削除方法（一覧・詳細のいずれにも削除UIを確認できず。誤登録時の取扱いを開発元に確認）"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 316,
+      "class": "actionable_current_source",
+      "text": "- [ ] **要確認** — 発注伝票のPDF出力・印刷導線（導線を確認できず）"
+    },
+    {
+      "file": "04-notion/14-発注・仕入.md",
+      "line": 317,
+      "class": "vendor_required",
+      "text": "- [ ] **要確認** — 発注済み伝票を差し戻して再編集する方法があるか（編集不可を確認済み、再編集導線の有無は開発元確認）"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 70,
+      "class": "actionable_current_source",
+      "text": "| 店舗受け取りを有効にする | 任意 | デフォルト: オフ。このロケーションで店舗受取（BOPIS）を提供する場合にオンにする想定（実動作・選択肢への反映は要確認） |"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 71,
+      "class": "scope_excluded_connection",
+      "text": "| 在庫依頼を受け付ける | 任意 | デフォルト: オフ。公式/既存FAQでは取り寄せ販売のリクエスト先にするフラグとして説明されています。**2026-06-21実機確認**: 管理画面から手動で在庫依頼を作成する際の「リクエスト先ロケーション」選択肢は、このフラグでは絞り込まれず、`在庫依頼=無効` の `TEST_FLAGOFF_20260621` も候補に表示され、フォーム値として選択できました。さらに `486125-31-XL` / 希望数1 / 移動先 `ユニクロ - 銀座店` / リクエスト先 `TEST_FLAGOFF_20260621` で保存でき、在庫依頼が作成されました（作成後に検証用データはクローズ済み）。EC注文起点・リテールポータル連携時の自動送付先制御にこのフラグが使われるかは連携環境で要確認です |"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 72,
+      "class": "actionable_current_source",
+      "text": "| ポイント利用種別 * | 必須 | 店舗でのポイント利用の扱い。**値引き（デフォルト）/ 金種** の2種のみ（金種は実機で disabled・動作差は未確認） |"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 136,
+      "class": "actionable_current_source",
+      "text": "| 支払い待ちでも注文を出荷する | 任意 | チェックボックス（デフォルト: オフ）。ONで支払い待ちのまま出荷を進められる（後払い決済でオンにする想定・実動作は要確認） |"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 137,
+      "class": "actionable_current_source",
+      "text": "| 代引き | 任意 | 代金引換を示すフラグ（デフォルト: オフ）。ONで出荷管理のエクスポート時に代引き注文を絞り込み可（実動作は要確認） |"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 139,
+      "class": "scope_excluded_connection",
+      "text": "> **ゲートウェイ・会計連携**: 公式ガイドは「決済方法を登録すると会計監査時に決済種別データを会計システムへ送信する」旨のみ記載。ゲートウェイ欄が送信用の紐付けキーとして使われるかは公式に未記載（要確認）。対応ゲートウェイの公式一覧も未確認。"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 264,
+      "class": "vendor_required",
+      "text": "| 各マスタの推奨作成順序 | ⚠️ 整理 | 依存関係は確定だが、公式推奨順序の文書は未確認 |"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 268,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 270,
+      "class": "actionable_current_source",
+      "text": "- [ ] **ポイント利用種別「金種」の選択可否・動作差**: 実機では disabled で選択不可。金種が有効になる条件と、値引きとの動作差は未確認"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 271,
+      "class": "scope_excluded_connection",
+      "text": "- [ ] **連携待ち**: ロケーショングループがShopify/OmnibusCore連携時にどう使われるか（連携接続環境での確認が必要）"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 272,
+      "class": "vendor_required",
+      "text": "- [ ] **決済方法「ゲートウェイ」の有効値**: 自由入力の識別子（例: `shopify_payments`）。対応ゲートウェイの公式一覧は未確認"
+    },
+    {
+      "file": "04-notion/04-基本マスタ.md",
+      "line": 273,
+      "class": "actionable_current_source",
+      "text": "- [ ] **決済方法「支払い待ちでも注文を出荷する」「代引き」の実動作**: フォーム上の存在は確認済み。ON/OFF時の出荷前提・エクスポート連動の実挙動は未確認（要確認）"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 4,
+      "class": "metadata_or_section",
+      "text": "wbs_status: 一部確認 連携待ち"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 96,
+      "class": "actionable_current_source",
+      "text": "| テナント | テナント（事業部）で絞り込み。複数事業部を運用し、事業部単位でポイント付与や顧客分析を行う場合に、対象顧客を切り分けるために使います（※実データ0件のため実際の運用挙動は実機未確認） |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 106,
+      "class": "data_unavailable",
+      "text": "> 顧客データが入った状態でのテーブル列構成は未確認です。<!-- TODO: 要確認（顧客データ存在時の一覧テーブル列） -->"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 155,
+      "class": "scope_excluded_connection",
+      "text": "| 会社ID | 任意 | 外部システムとの突き合わせ用に任意で登録する識別子（連携先の具体例は実機未確認）。CSV連携等の照合で使われます（詳細は **21. CSV/PDF・データ移行**） |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 156,
+      "class": "actionable_current_source",
+      "text": "| 担当者 | 任意 | 会社の代表顧客（購入者）を1件紐付けられる検索欄。下記「担当者」セクション（発注確認メールの宛先）とは別物です。※紐付け後の振る舞い・購買活動の参照可否は実機未確認 |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 163,
+      "class": "scope_excluded_connection",
+      "text": "| ロケーションID | 任意 | 外部システムとの照合用の任意ID。発注伝票の表示名とは別の照合キーとして使われます（連携先での使われ先は実機未確認。詳細は **21. CSV/PDF・データ移行**） |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 164,
+      "class": "actionable_current_source",
+      "text": "| コード | 任意 | プレースホルダー: 12345。会社ロケーション（納品先）を独自のコード（例：拠点番号）で識別したい場合に入力します。※実運用での使われ先は実機未確認です |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 173,
+      "class": "vendor_required",
+      "text": "| 会社 | 任意 | 配送先の会社名・部署名用欄（例：支店名・部署名を届け先にしたい場合）。未入力時のフォールバック含め実際のラベル印字への反映は実機未確認です |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 225,
+      "class": "scope_excluded_connection",
+      "text": "| ロケーションID | 任意 | 「会社のロケーションを識別する外部IDがある場合に登録することができます。」外部システムとの照合キーとして使われます（連携先での使われ先は実機未確認） |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 226,
+      "class": "actionable_current_source",
+      "text": "| コード | 任意 | プレースホルダー: 12345（※会社作成フォームと同項目。使われ先は実機未確認） |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 366,
+      "class": "not_implemented",
+      "text": "| 「卸売」（`/admin/b2b`）は別機能で未実装 | 会社とは別機能。現在は「TODO」表示のみです |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 385,
+      "class": "data_unavailable",
+      "text": "| 顧客データ存在時の一覧テーブル列 | 未確認 | 顧客データ0件のため |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 386,
+      "class": "data_unavailable",
+      "text": "| 顧客詳細画面（注文履歴・ポイント残高・会員ランク） | 未確認 | 顧客データ0件のため |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 387,
+      "class": "scope_excluded_connection",
+      "text": "| チャネル経由の顧客自動登録 | 未確認（連携待ち） | Shopify等の接続が必要 |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 388,
+      "class": "data_unavailable",
+      "text": "| 会社の注文履歴・売上の実データ | 未確認 | 注文データ0件のため |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 389,
+      "class": "actionable_current_source",
+      "text": "| 会社作成フォーム「担当者」紐付け後の振る舞い | 未確認 | 実機記録・根拠なし |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 390,
+      "class": "scope_excluded_connection",
+      "text": "| 会社ID・ロケーションIDの連携先での使われ先 | 未確認 | 外部連携前提 |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 391,
+      "class": "actionable_current_source",
+      "text": "| 配送先住所「会社」欄のラベル印字反映 | 未確認 | 実データ前提 |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 392,
+      "class": "actionable_current_source",
+      "text": "| 会員証バーコードの実運用挙動 | 未確認 | 実データが必要 |"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 396,
+      "class": "metadata_or_section",
+      "text": "## TODO（未確認・一部確認）"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 398,
+      "class": "scope_excluded_connection",
+      "text": "WBS確認状態は「一部確認 連携待ち」です。以下はチャネル連携や実データ前提で要確認の項目です。"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 400,
+      "class": "scope_excluded_connection",
+      "text": "### 連携待ち（外部連携前提）"
+    },
+    {
+      "file": "04-notion/16-顧客・会社.md",
+      "line": 406,
+      "class": "metadata_or_section",
+      "text": "### TODO表示（未実装・未確認）"
+    },
+    {
+      "file": "_support/statuses.md",
+      "line": 19,
+      "class": "actionable_current_source",
+      "text": "| 発注管理 | ステータス | 下書き / 発注済み / キャンセル済み | 2026-06-16/2026-06-18/2026-06-19/2026-06-21/2026-06-24の実機確認では `#IP-1000` / `#IP-1001` / `#IP-1003` / `#IP-1004` / `#IP-1005` / `#IP-1006` で作成、発注、キャンセル範囲まで確認。発注後の入荷指示連動・入荷予定増加は未確認 |"
+    },
+    {
+      "file": "_support/screens.md",
+      "line": 26,
+      "class": "not_implemented",
+      "text": "| 分析 | 分析 | /admin/analytics | 分析トップ（未実装・TODO表示） | - |"
+    },
+    {
+      "file": "_support/screens.md",
+      "line": 27,
+      "class": "not_implemented",
+      "text": "| 分析 > 収益 | 売上 | /admin/analytics/revenue | 収益レポート（未実装・TODO表示）。ナビ名「収益」と画面h1「売上」は不一致 | - |"
+    },
+    {
+      "file": "_support/screens.md",
+      "line": 28,
+      "class": "not_implemented",
+      "text": "| 分析 > レポート | レポート | /admin/analytics/reports | レポート（未実装・TODO表示） | - |"
+    },
+    {
+      "file": "_support/screens.md",
+      "line": 52,
+      "class": "not_implemented",
+      "text": "| 卸売 | 卸売 | /admin/b2b | 卸売（B2B）機能（未実装・TODO表示） | - |"
+    },
+    {
+      "file": "_support/constraints.md",
+      "line": 37,
+      "class": "vendor_required",
+      "text": "| 要確認 | 発注済み後の入荷指示連動 | 発注伝票は作成・発注・キャンセル範囲まで確認済みです。ただし2026-06-16の `#IP-1000`、2026-06-18の `#IP-1001`、2026-06-19の `#IP-1003`、2026-06-21の `#IP-1004`、2026-06-24の `#IP-1005` では、発注後に入荷管理一覧への表示は確認できませんでした。`#IP-1000`〜`#IP-1004` ではSKUの入荷予定増加も確認できず、`#IP-1006` では対象SKU `486125-31-XL` の全18ロケーション `incoming` 合計0を発注後・キャンセル前に確認しました | 開発元確認事項（2026-06-24実機再確認） | 発注管理.md |"
+    },
+    {
+      "file": "_support/constraints.md",
+      "line": 45,
+      "class": "not_implemented",
+      "text": "| 未実装 | 分析機能（収益・レポート）はTODO表示 | 「分析」メニューの「収益」（/admin/analytics/revenue）および「レポート」（/admin/analytics/reports）は現在「TODO」表示で機能が実装されていません | 実機確認済み（LIVE-RECHECK B-2節） | - |"
+    },
+    {
+      "file": "_support/constraints.md",
+      "line": 46,
+      "class": "not_implemented",
+      "text": "| 未実装 | 卸売機能はTODO表示 | 「卸売」（/admin/b2b）は現在「TODO」表示で機能が実装されていません | 実機確認済み（LIVE-RECHECK B-3節） | - |"
+    },
+    {
+      "file": "_support/constraints.md",
+      "line": 51,
+      "class": "data_unavailable",
+      "text": "| 仕様（注意） | 会計画面「売上実績を作成する」リンクから遷移できない | 「売上実績を作成する」リンクボタンは `href` がなく、`/admin/sale_change_line_items/create` も404です。注文データがある環境で有効化されるかは未確認です | 実機確認済み（2026-06-15再確認） | 会計（売上実績）.md |"
+    },
+    {
+      "file": "_support/symptoms.md",
+      "line": 31,
+      "class": "data_unavailable",
+      "text": "| 会計（売上実績）が作成できない | 「売上実績を作成する」リンクボタンは `href` がなく、直接作成URLも404。注文データがある環境で有効化されるかは未確認 | 売上実績の手動作成は現時点では案内しない。出力が必要な場合はCSVエクスポート「売上実績（注文軸）」「売上実績（明細軸）」を案内する | 会計（売上実績）.md |"
+    }
+  ]
+}

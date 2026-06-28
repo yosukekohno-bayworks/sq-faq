@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-06-27T17:10:05.298222+00:00",
+  "rule": "TEST_FAQ_DEEP_202606080340_販売価格ルール",
+  "ruleUrl": "https://www.sqstackstaging.com/admin/product_price_rules/407b1402-6d11-5672-bc33-5de49d5ce9bc_ProductPriceRule",
+  "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+  "results": [
+    {
+      "kind": "regular",
+      "input": {
+        "price": 1234,
+        "priceTaxIncl": ""
+      },
+      "formBeforeSave": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 通常価格 インポートする 登録する SKUコードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください 通常価格を登録する 商品バリエーション 選択 価格 ￥ 価格(税込) ￥ キャンセル 保存する",
+      "selectedSkuRow": "アイテムを選択する productVariant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M",
+      "afterSaveUrl": "https://www.sqstackstaging.com/admin/product_price_rules/407b1402-6d11-5672-bc33-5de49d5ce9bc_ProductPriceRule/product_variant_regulars",
+      "afterSaveBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 通常価格 インポートする 登録する SKUコードで検索する バリエーション SKU 税抜価格 税込価格 product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M ￥1,234 ￥0 通常価格を保存しました",
+      "listBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 通常価格 インポートする 登録する SKUコードで検索する クリア バリエーション SKU 税抜価格 税込価格 product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M ￥1,234 ￥0",
+      "rows": [
+        {
+          "id": "9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant",
+          "text": "product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M ￥1,234 ￥0"
+        }
+      ],
+      "selectedRow": "product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M ￥1,234 ￥0",
+      "buttonsAfterSelect": [
+        "stack-ps-yosuke\n\n陽介 河野"
+      ],
+      "cleanup": {
+        "beforeActionBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定",
+        "confirmText": "通常価格を削除する この通常価格を削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+        "postActionBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 通常価格 インポートする 登録する SKUコードで検索する バリエーション SKU 税抜価格 税込価格 product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M ￥1,234 ￥0 通常価格を削除しました"
+      },
+      "afterCleanupListBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 通常価格 インポートする 登録する SKUコードで検索する クリア アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください",
+      "afterCleanupRows": []
+    },
+    {
+      "kind": "sale",
+      "input": {
+        "price": 876,
+        "priceTaxIncl": "",
+        "startDatetime": "2026-06-28T10:45",
+        "endDatetime": ""
+      },
+      "formBeforeSave": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 セール価格 インポートする 登録する SKUコードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください セール価格を登録する 商品バリエーション 選択 価格 ￥ 価格(税込) ￥ 開始日時 終了日時 キャンセル 保存する",
+      "selectedSkuRow": "アイテムを選択する productVariant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M",
+      "afterSaveUrl": "https://www.sqstackstaging.com/admin/product_price_rules/407b1402-6d11-5672-bc33-5de49d5ce9bc_ProductPriceRule/product_variant_sales",
+      "afterSaveBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 セール価格 インポートする 登録する SKUコードで検索する バリエーション SKU 税抜価格 税込価格 product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M - - セール価格を作成しました",
+      "listBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 セール価格 インポートする 登録する SKUコードで検索する クリア バリエーション SKU 税抜価格 税込価格 product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M - -",
+      "rows": [
+        {
+          "id": "9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant",
+          "text": "product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M - -"
+        }
+      ],
+      "selectedSkuRowForDetail": "product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M - -",
+      "detailBeforeCleanup": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_E2E_20260622 GU検証Tシャツ 1905。このページの準備が整いました TEST_E2E_20260622 GU検証Tシャツ 1905 TEST_FAQ_DEEP_202606080340_販売価格ルール / セール価格 セール価格を登録する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M / TEST_E2E_20260622_GU_1905_NAVY_M 現在のセール価格 未設定 すべてのアイテムを選択する 税抜価格 税込価格 開始日時 終了日時 作成日時 アイテムを選択する ￥876 - 2026年06月28日 10:45 - 2026年06月28日 02:10",
+      "selectedRow": "アイテムを選択する ￥876 - 2026年06月28日 10:45 - 2026年06月28日 02:10",
+      "buttonsAfterSelect": [
+        "stack-ps-yosuke\n\n陽介 河野",
+        "セール価格を登録する",
+        "無効化する"
+      ],
+      "cleanup": {
+        "beforeActionBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_E2E_20260622 GU検証Tシャツ 1905。このページの準備が整いました TEST_E2E_20260622 GU検証Tシャツ 1905 TEST_FAQ_DEEP_202606080340_販売価格ルール / セール価格 セール価格を登録する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M / TEST_E2E_20260622_GU_1905_NAVY_M 現在のセール価格 未設定 アイテムの選択を解除する 1を選択済み 無効化する すべてのアイテムを選択する 税抜価格 税込価格 開始日時 終了日時 作成日時 アイテムを選択する ￥876 - 2026年06月28日 10:45 - 2026年06月28日 02:10",
+        "confirmText": "セール価格を無効化する 選択された1件のセール価格を無効化します。この処理は巻き戻すことができません。 キャンセル 無効化する",
+        "postActionBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_E2E_20260622 GU検証Tシャツ 1905。このページの準備が整いました TEST_E2E_20260622 GU検証Tシャツ 1905 TEST_FAQ_DEEP_202606080340_販売価格ルール / セール価格 セール価格を登録する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M / TEST_E2E_20260622_GU_1905_NAVY_M 現在のセール価格 未設定 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください セール価格を無効化しました"
+      },
+      "afterCleanupListBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 販売価格 予約販売 販売上限 販売閾値 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 販売価格ルール。このページの準備が整いました 販売価格ルール 通貨: 日本円 TEST_FAQ_DEEP_202606080340_販売価格ルール ルールを編集する 通常価格 セール価格 セール価格 インポートする 登録する SKUコードで検索する クリア アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください",
+      "afterCleanupRows": []
+    }
+  ],
+  "errors": []
+}

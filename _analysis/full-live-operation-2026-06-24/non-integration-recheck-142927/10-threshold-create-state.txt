@@ -1,0 +1,88 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[105583]<a />
+	コンテンツにスキップ
+[105697]<div />
+[105586]<button data-state=closed expanded=false />
+[105587]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[105714]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[105591]<a />
+		ホーム
+	[105592]<a />
+		商品管理
+	[105593]<a />
+		在庫管理
+	[105594]<a />
+		注文管理
+		[105765]<div />
+	[105595]<a />
+		顧客管理
+	[105596]<a />
+		発注管理
+	[105597]<a />
+		販売設定
+	[105598]<a />
+		販売価格
+	[105599]<a />
+		予約販売
+	[105600]<a />
+		販売上限
+	[105601]<a />
+		販売閾値
+	[105525]<a />
+		会計
+	[105530]<a />
+		分析
+	オペレーション
+	[105538]<a />
+		入荷管理
+		[105862]<div />
+	[105543]<a />
+		出荷管理
+		[105870]<div />
+	[105548]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[105554]<a />
+		ディスカウント
+	[105559]<a />
+		ポイント
+	[105564]<a />
+		会員ランク
+	販売チャネル
+	[105570]<a />
+		Shopify
+	[105574]<a />
+		OmnibusCore
+	[105602]<a />
+		スマレジ
+	[105603]<a />
+		リテールポータル
+	[105604]<a />
+		卸売
+	[105605]<a />
+		設定
+販売閾値ルールを作成する。このページの準備が整いました
+[105969]<div />
+	[105970]<div />
+		[105607]<a />
+販売閾値ルールを作成する
+ルール名
+|SHADOW(open)|[105579]<input id=:r1d: autocomplete=off type=text required=true />
+[106002]<span />
+	[105609]<span />
+	[106005]<svg /> <!-- SVG content collapsed -->
+[106007]<span />
+	[106008]<span />
+		デフォルトの閾値を設定する
+この設定を有効にすることで、閾値ルールに含まれていないすべての商品バリエーションにデフォルト閾値を適用することができます。
+[105518]<button />
+	保存する
+[106020]<section aria-label=Notifications alt+T live=polite />
+[105610]<div id=PolarisPortalsContainer />
+[105612]<div id=clerk-components />

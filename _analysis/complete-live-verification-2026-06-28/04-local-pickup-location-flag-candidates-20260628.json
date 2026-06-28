@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-06-27T19:51:51.364929+00:00",
+  "errors": [],
+  "result": {
+    "locationDetails": [
+      {
+        "code": "FLAGOFF01",
+        "route": "/admin/settings/locations/45ffa873-a7f2-5581-8117-5758f5a45c73_Location",
+        "url": "https://www.sqstackstaging.com/admin/settings/locations/45ffa873-a7f2-5581-8117-5758f5a45c73_Location",
+        "h1": [
+          "ロケーション"
+        ],
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロケーション。このページの準備が整いました ロケーション TEST_FLAGOFF_20260621 基本情報 ロケーションID 45ffa873-a7f2-5581-8117-5758f5a45c73_Location 外部ID 未設定 名前 表示名 コード 場所種別 選択してください 倉庫 店舗 店舗 このロケーションを閉鎖する 閉鎖すると、店舗撤退や倉庫移動などで利用しなくなったロケーションとして扱われます。 所在地 未設定 連絡先 マップ 電話番号 メールアドレス 所属ロケーショングループ 0個のグループに属しています アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください ロケーションをアーカイブ アーカイブする 公開設定 公開設定 公開 非公開 公開 公開にすることでストアフロントからロケーション情報の参照が可能になります。 販売設定 店舗受取を有効にする 在庫依頼を受け付ける ポイント利用種別 選択してください 値引き 金種 値引き 備考欄 備考欄 0/5000 タグ タグは付与されていません 保存する",
+        "locationTypeVisible": true,
+        "localPickupEnabled": false,
+        "inventoryRequestEnabled": false
+      },
+      {
+        "code": "TEST_E2E_20260622_STORE_1740",
+        "route": "/admin/settings/locations/1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location",
+        "url": "https://www.sqstackstaging.com/admin/settings/locations/1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location",
+        "h1": [
+          "ロケーション"
+        ],
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロケーション。このページの準備が整いました ロケーション TEST_E2E_20260622_GU店舗_OFF_1740 基本情報 ロケーションID 1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location 外部ID 未設定 名前 表示名 コード 場所種別 選択してください 倉庫 店舗 店舗 このロケーションを閉鎖する 閉鎖すると、店舗撤退や倉庫移動などで利用しなくなったロケーションとして扱われます。 所在地 未設定 連絡先 マップ 電話番号 メールアドレス 所属ロケーショングループ 0個のグループに属しています アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください ロケーションをアーカイブ アーカイブする 公開設定 公開設定 公開 非公開 公開 公開にすることでストアフロントからロケーション情報の参照が可能になります。 販売設定 店舗受取を有効にする 在庫依頼を受け付ける ポイント利用種別 選択してください 値引き 金種 値引き 備考欄 備考欄 0/5000 タグ タグは付与されていません 保存する",
+        "locationTypeVisible": true,
+        "localPickupEnabled": true,
+        "inventoryRequestEnabled": false
+      }
+    ],
+    "dialogTextSample": "ロケーションを選択する 場所コードで検索する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください キャンセル 選択する",
+    "candidateSearches": [
+      {
+        "code": "FLAGOFF01",
+        "meaning": "店舗受取OFFの店舗ロケーション",
+        "rows": [
+          "アイテムを選択する TEST_FLAGOFF_20260621 FLAGOFF01"
+        ],
+        "rowCount": 1,
+        "found": true
+      },
+      {
+        "code": "TEST_E2E_20260622_STORE_1740",
+        "meaning": "店舗受取ONの店舗ロケーション",
+        "rows": [
+          "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1740 TEST_E2E_20260622_STORE_1740"
+        ],
+        "rowCount": 1,
+        "found": true
+      },
+      {
+        "code": "W0001",
+        "meaning": "倉庫ロケーション",
+        "rows": [],
+        "rowCount": 0,
+        "found": false
+      },
+      {
+        "code": "R0001",
+        "meaning": "店舗ロケーション",
+        "rows": [
+          "アイテムを選択する ユニクロ - 銀座店 R0001"
+        ],
+        "rowCount": 1,
+        "found": true
+      }
+    ],
+    "offStoreShown": true,
+    "onStoreShown": true,
+    "warehouseHidden": true
+  }
+}

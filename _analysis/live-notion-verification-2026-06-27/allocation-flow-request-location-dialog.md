@@ -1,0 +1,383 @@
+- generic [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+              - list [ref=e158]:
+                - listitem [ref=e159]:
+                  - link "確保済み" [ref=e162] [cursor=pointer]:
+                    - /url: /admin/inventory_allocation_request_confirmations
+                    - generic [ref=e163]: 確保済み
+          - list [ref=e164]:
+            - listitem [ref=e165]:
+              - generic [ref=e166]: CRM
+            - listitem [ref=e167]:
+              - link "ディスカウント" [ref=e170] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e173]
+                - generic [ref=e175]: ディスカウント
+            - listitem [ref=e176]:
+              - link "ポイント" [ref=e179] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e182]
+                - generic [ref=e184]: ポイント
+            - listitem [ref=e185]:
+              - link "会員ランク" [ref=e188] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e191]
+                - generic [ref=e194]: 会員ランク
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - generic [ref=e197]: 販売チャネル
+            - listitem [ref=e198]:
+              - link "Shopify" [ref=e201] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e202]: Shopify
+            - listitem [ref=e203]:
+              - link "OmnibusCore" [ref=e206] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e207]: OmnibusCore
+            - listitem [ref=e208]:
+              - link "スマレジ" [ref=e211] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e212]: スマレジ
+            - listitem [ref=e213]:
+              - link "リテールポータル" [ref=e216] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e217]: リテールポータル
+            - listitem [ref=e218]:
+              - generic [ref=e219]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "設定" [ref=e224] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e227]
+                - generic [ref=e229]: 設定
+    - generic [ref=e2361]:
+      - generic [ref=e2362]:
+        - img [ref=e2364]
+        - heading "保存されていない変更" [level=2] [ref=e2368]
+      - generic [ref=e2370]:
+        - button "取り消す" [ref=e2372] [cursor=pointer]:
+          - generic [ref=e2373]: 取り消す
+        - button "保存する" [ref=e2375] [cursor=pointer]:
+          - generic [ref=e2376]: 保存する
+    - main [ref=e230]:
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - status:
+            - paragraph [ref=e235]: 在庫依頼を作成する。このページの準備が整いました
+          - generic [ref=e237]:
+            - link [ref=e240] [cursor=pointer]:
+              - /url: /admin/inventory_allocation_requests
+              - img [ref=e243]
+            - heading "在庫依頼を作成する" [level=1] [ref=e247]
+        - generic [ref=e249]:
+          - generic [ref=e252]:
+            - heading "商品" [level=2] [ref=e254]
+            - separator [ref=e255]
+            - generic [ref=e2377]:
+              - paragraph [ref=e2378]: 商品バリエーション
+              - generic [ref=e2380]:
+                - generic [ref=e2381]:
+                  - generic [ref=e2383]:
+                    - generic [ref=e2384]: product thumbnail
+                    - img [ref=e2385]
+                  - generic [ref=e2388]:
+                    - paragraph [ref=e2389]: TEST_E2E_20260622 GU検証Tシャツ 1905
+                    - paragraph [ref=e2390]: "NAVY / M / SKU: TEST_E2E_20260622_GU_1905_NAVY_M"
+                - button "商品バリエーションを変更する" [ref=e2391] [cursor=pointer]:
+                  - img [ref=e2394]
+          - generic [ref=e270]:
+            - heading "リクエスト内容" [level=2] [ref=e272]
+            - separator [ref=e273]
+            - generic [ref=e276]:
+              - generic [ref=e278]:
+                - generic [ref=e281]: 希望数*
+                - spinbutton "希望数*" [ref=e285]: "0"
+              - generic [ref=e287]:
+                - generic [ref=e290]: 移動先ロケーション*
+                - generic [ref=e291]:
+                  - textbox "移動先ロケーション*" [ref=e294]:
+                    - /placeholder: 選択してください
+                    - text: TEST_E2E_20260622_GU店舗_OFF_1905
+                  - button "選択" [ref=e296] [cursor=pointer]:
+                    - generic [ref=e297]: 選択
+              - generic [ref=e299]:
+                - generic [ref=e302]: リクエスト先ロケーション
+                - generic [ref=e303]:
+                  - textbox "リクエスト先ロケーション" [ref=e306]:
+                    - /placeholder: 選択してください
+                  - button "選択" [ref=e308] [cursor=pointer]:
+                    - generic [ref=e309]: 選択
+          - button "保存する" [ref=e314] [cursor=pointer]:
+            - generic [ref=e315]: 保存する
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "ロケーションを選択する" [active]:
+              - generic [ref=e2722]:
+                - generic [ref=e2724]:
+                  - heading "ロケーションを選択する" [level=2] [ref=e2726]
+                  - button "閉じる" [ref=e2727] [cursor=pointer]:
+                    - img [ref=e2730]
+                - generic [ref=e2732]:
+                  - generic [ref=e2738]:
+                    - tablist [ref=e2745]:
+                      - tab "すべて" [selected] [ref=e2746] [cursor=pointer]:
+                        - generic [ref=e2748]: すべて
+                      - tab "店舗" [ref=e2749] [cursor=pointer]:
+                        - generic [ref=e2751]: 店舗
+                      - tab "倉庫" [ref=e2752] [cursor=pointer]:
+                        - generic [ref=e2754]: 倉庫
+                    - generic [ref=e2755]:
+                      - button "検索と絞り込みの結果" [ref=e2758] [cursor=pointer]:
+                        - generic [ref=e2760]:
+                          - img [ref=e2762]
+                          - img [ref=e2765]
+                      - button "検索結果を並べ替える" [ref=e2771] [cursor=pointer]:
+                        - img [ref=e2774]
+                  - generic [ref=e2778]:
+                    - table [ref=e2780]:
+                      - rowgroup [ref=e2781]:
+                        - row "すべてのアイテムを選択する 名前 場所コード" [ref=e2782]:
+                          - columnheader "すべてのアイテムを選択する" [ref=e2783]:
+                            - generic [ref=e2785] [cursor=pointer]
+                          - columnheader "名前" [ref=e2791]:
+                            - generic [ref=e2792]: 名前
+                          - columnheader "場所コード" [ref=e2793]:
+                            - generic [ref=e2794]: 場所コード
+                      - rowgroup [ref=e2795]:
+                        - row "アイテムを選択する ユニクロ物流倉庫 W0001" [ref=e2796] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2797]:
+                            - generic [ref=e2799]
+                          - cell "ユニクロ物流倉庫" [ref=e2805]:
+                            - paragraph [ref=e2806]: ユニクロ物流倉庫
+                          - cell "W0001" [ref=e2807]:
+                            - paragraph [ref=e2808]: W0001
+                        - row "アイテムを選択する ユニクロ - 銀座店 R0001" [ref=e2809] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2810]:
+                            - generic [ref=e2812]
+                          - cell "ユニクロ - 銀座店" [ref=e2818]:
+                            - paragraph [ref=e2819]: ユニクロ - 銀座店
+                          - cell "R0001" [ref=e2820]:
+                            - paragraph [ref=e2821]: R0001
+                        - row "アイテムを選択する TEST_FAQ_DEEP2_202606080343_ロケーション test_faq_deep2_202606080343_loc" [ref=e2822] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2823]:
+                            - generic [ref=e2825]
+                          - cell "TEST_FAQ_DEEP2_202606080343_ロケーション" [ref=e2831]:
+                            - paragraph [ref=e2832]: TEST_FAQ_DEEP2_202606080343_ロケーション
+                          - cell "test_faq_deep2_202606080343_loc" [ref=e2833]:
+                            - paragraph [ref=e2834]: test_faq_deep2_202606080343_loc
+                        - row "アイテムを選択する ユニクロEC TESTEC01" [ref=e2835] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2836]:
+                            - generic [ref=e2838]
+                          - cell "ユニクロEC" [ref=e2844]:
+                            - paragraph [ref=e2845]: ユニクロEC
+                          - cell "TESTEC01" [ref=e2846]:
+                            - paragraph [ref=e2847]: TESTEC01
+                        - row "アイテムを選択する GU 倉庫 TFCLOC3698" [ref=e2848] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2849]:
+                            - generic [ref=e2851]
+                          - cell "GU 倉庫" [ref=e2857]:
+                            - paragraph [ref=e2858]: GU 倉庫
+                          - cell "TFCLOC3698" [ref=e2859]:
+                            - paragraph [ref=e2860]: TFCLOC3698
+                        - row "アイテムを選択する GU 銀座店 12456789098765" [ref=e2861] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2862]:
+                            - generic [ref=e2864]
+                          - cell "GU 銀座店" [ref=e2870]:
+                            - paragraph [ref=e2871]: GU 銀座店
+                          - cell "12456789098765" [ref=e2872]:
+                            - paragraph [ref=e2873]: "12456789098765"
+                        - row "アイテムを選択する TEST_FLAGOFF_20260621 FLAGOFF01" [ref=e2874] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2875]:
+                            - generic [ref=e2877]
+                          - cell "TEST_FLAGOFF_20260621" [ref=e2883]:
+                            - paragraph [ref=e2884]: TEST_FLAGOFF_20260621
+                          - cell "FLAGOFF01" [ref=e2885]:
+                            - paragraph [ref=e2886]: FLAGOFF01
+                        - row "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1740 TEST_E2E_20260622_STORE_1740" [ref=e2887] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2888]:
+                            - generic [ref=e2890]
+                          - cell "TEST_E2E_20260622_GU店舗_OFF_1740" [ref=e2896]:
+                            - paragraph [ref=e2897]: TEST_E2E_20260622_GU店舗_OFF_1740
+                          - cell "TEST_E2E_20260622_STORE_1740" [ref=e2898]:
+                            - paragraph [ref=e2899]: TEST_E2E_20260622_STORE_1740
+                        - row "アイテムを選択する TEST_E2E_20260622_GU倉庫_ON_1740 TEST_E2E_20260622_WH_1740" [ref=e2900] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2901]:
+                            - generic [ref=e2903]
+                          - cell "TEST_E2E_20260622_GU倉庫_ON_1740" [ref=e2909]:
+                            - paragraph [ref=e2910]: TEST_E2E_20260622_GU倉庫_ON_1740
+                          - cell "TEST_E2E_20260622_WH_1740" [ref=e2911]:
+                            - paragraph [ref=e2912]: TEST_E2E_20260622_WH_1740
+                        - row "アイテムを選択する TEST_E2E_20260622_GU倉庫_ON_1755 TEST_E2E_20260622_WH_1755" [ref=e2913] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2914]:
+                            - generic [ref=e2916]
+                          - cell "TEST_E2E_20260622_GU倉庫_ON_1755" [ref=e2922]:
+                            - paragraph [ref=e2923]: TEST_E2E_20260622_GU倉庫_ON_1755
+                          - cell "TEST_E2E_20260622_WH_1755" [ref=e2924]:
+                            - paragraph [ref=e2925]: TEST_E2E_20260622_WH_1755
+                        - row "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1830 TEST_E2E_20260622_STORE_1830" [ref=e2926] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2927]:
+                            - generic [ref=e2929]
+                          - cell "TEST_E2E_20260622_GU店舗_OFF_1830" [ref=e2935]:
+                            - paragraph [ref=e2936]: TEST_E2E_20260622_GU店舗_OFF_1830
+                          - cell "TEST_E2E_20260622_STORE_1830" [ref=e2937]:
+                            - paragraph [ref=e2938]: TEST_E2E_20260622_STORE_1830
+                        - row "アイテムを選択する TEST_E2E_20260622_GU倉庫_ON_1830 TEST_E2E_20260622_WH_1830" [ref=e2939] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2940]:
+                            - generic [ref=e2942]
+                          - cell "TEST_E2E_20260622_GU倉庫_ON_1830" [ref=e2948]:
+                            - paragraph [ref=e2949]: TEST_E2E_20260622_GU倉庫_ON_1830
+                          - cell "TEST_E2E_20260622_WH_1830" [ref=e2950]:
+                            - paragraph [ref=e2951]: TEST_E2E_20260622_WH_1830
+                        - row "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1845 TEST_E2E_20260622_STORE_1845" [ref=e2952] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2953]:
+                            - generic [ref=e2955]
+                          - cell "TEST_E2E_20260622_GU店舗_OFF_1845" [ref=e2961]:
+                            - paragraph [ref=e2962]: TEST_E2E_20260622_GU店舗_OFF_1845
+                          - cell "TEST_E2E_20260622_STORE_1845" [ref=e2963]:
+                            - paragraph [ref=e2964]: TEST_E2E_20260622_STORE_1845
+                        - row "アイテムを選択する TEST_E2E_20260622_GU倉庫_ON_1845 TEST_E2E_20260622_WH_1845" [ref=e2965] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2966]:
+                            - generic [ref=e2968]
+                          - cell "TEST_E2E_20260622_GU倉庫_ON_1845" [ref=e2974]:
+                            - paragraph [ref=e2975]: TEST_E2E_20260622_GU倉庫_ON_1845
+                          - cell "TEST_E2E_20260622_WH_1845" [ref=e2976]:
+                            - paragraph [ref=e2977]: TEST_E2E_20260622_WH_1845
+                        - row "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1905 TEST_E2E_20260622_STORE_1905" [ref=e2978] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2979]:
+                            - generic [ref=e2981]
+                          - cell "TEST_E2E_20260622_GU店舗_OFF_1905" [ref=e2987]:
+                            - paragraph [ref=e2988]: TEST_E2E_20260622_GU店舗_OFF_1905
+                          - cell "TEST_E2E_20260622_STORE_1905" [ref=e2989]:
+                            - paragraph [ref=e2990]: TEST_E2E_20260622_STORE_1905
+                        - row "アイテムを選択する TEST_E2E_20260622_GU倉庫_ON_1905 TEST_E2E_20260622_WH_1905" [ref=e2991] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e2992]:
+                            - generic [ref=e2994]
+                          - cell "TEST_E2E_20260622_GU倉庫_ON_1905" [ref=e3000]:
+                            - paragraph [ref=e3001]: TEST_E2E_20260622_GU倉庫_ON_1905
+                          - cell "TEST_E2E_20260622_WH_1905" [ref=e3002]:
+                            - paragraph [ref=e3003]: TEST_E2E_20260622_WH_1905
+                        - row "アイテムを選択する TEST_FAQ_20260624_GU店舗_OFF_092214 TEST_FAQ_20260624_STORE_092214" [ref=e3004] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e3005]:
+                            - generic [ref=e3007]
+                          - cell "TEST_FAQ_20260624_GU店舗_OFF_092214" [ref=e3013]:
+                            - paragraph [ref=e3014]: TEST_FAQ_20260624_GU店舗_OFF_092214
+                          - cell "TEST_FAQ_20260624_STORE_092214" [ref=e3015]:
+                            - paragraph [ref=e3016]: TEST_FAQ_20260624_STORE_092214
+                        - row "アイテムを選択する TEST_FAQ_20260624_GU倉庫_ON_092214 TEST_FAQ_20260624_WH_092214" [ref=e3017] [cursor=pointer]:
+                          - cell "アイテムを選択する" [ref=e3018]:
+                            - generic [ref=e3020]
+                          - cell "TEST_FAQ_20260624_GU倉庫_ON_092214" [ref=e3026]:
+                            - paragraph [ref=e3027]: TEST_FAQ_20260624_GU倉庫_ON_092214
+                          - cell "TEST_FAQ_20260624_WH_092214" [ref=e3028]:
+                            - paragraph [ref=e3029]: TEST_FAQ_20260624_WH_092214
+                    - navigation "ページネーション" [ref=e3033]:
+                      - generic [ref=e3036]:
+                        - generic [ref=e3037]:
+                          - button "前へ" [disabled]:
+                            - generic
+                        - generic [ref=e3038]:
+                          - button "次へ" [disabled]:
+                            - generic
+                - generic [ref=e3042]:
+                  - button "キャンセル" [ref=e3043] [cursor=pointer]:
+                    - generic [ref=e3044]: キャンセル
+                  - button "選択する" [ref=e3045] [cursor=pointer]:
+                    - generic [ref=e3046]: 選択する
+  - alert [ref=e10]

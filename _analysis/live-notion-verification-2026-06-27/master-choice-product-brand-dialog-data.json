@@ -1,0 +1,141 @@
+{
+  "text": "ブランドを選択する\nすべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\t\n外部ID\n\n\nアイテムを選択する\n\t\n\nUNIQLO\n\n\t\n\nUNIQLO\n\n\t\n\n\n\nアイテムを選択する\n\t\n\nGU\n\n\t\n\nGU\n\n\t\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1740\n\n\t\n\nTEST_E2E_20260622_BR_1740\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1740\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1755\n\n\t\n\nTEST_E2E_20260622_BR_1755\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1755\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1830\n\n\t\n\nTEST_E2E_20260622_BR_1830\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1830\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1845\n\n\t\n\nTEST_E2E_20260622_BR_1845\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1845\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1905\n\n\t\n\nTEST_E2E_20260622_BR_1905\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1905\n\nキャンセル\n選択する",
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    },
+    {
+      "i": 9,
+      "tag": "INPUT",
+      "aria": null,
+      "placeholder": null,
+      "value": "on"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "閉じる",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": "前へ",
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "",
+      "aria": "次へ",
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "キャンセル",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "選択する",
+      "aria": null,
+      "disabled": false
+    }
+  ],
+  "rows": [
+    {
+      "i": 0,
+      "text": "すべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\t\n外部ID"
+    },
+    {
+      "i": 1,
+      "text": "アイテムを選択する\n\t\n\nUNIQLO\n\n\t\n\nUNIQLO"
+    },
+    {
+      "i": 2,
+      "text": "アイテムを選択する\n\t\n\nGU\n\n\t\n\nGU"
+    },
+    {
+      "i": 3,
+      "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1740\n\n\t\n\nTEST_E2E_20260622_BR_1740\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1740"
+    },
+    {
+      "i": 4,
+      "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1755\n\n\t\n\nTEST_E2E_20260622_BR_1755\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1755"
+    },
+    {
+      "i": 5,
+      "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1830\n\n\t\n\nTEST_E2E_20260622_BR_1830\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1830"
+    },
+    {
+      "i": 6,
+      "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1845\n\n\t\n\nTEST_E2E_20260622_BR_1845\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1845"
+    },
+    {
+      "i": 7,
+      "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1905\n\n\t\n\nTEST_E2E_20260622_BR_1905\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1905"
+    }
+  ]
+}

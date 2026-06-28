@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-06-28",
+  "url": "https://www.sqstackstaging.com/admin/inventory_allocation_request_confirmations",
+  "pageTitle": "確保済み",
+  "bodyContains": {
+    "絞り込み": false,
+    "ロケーション": false,
+    "キーワード": false,
+    "検索": false,
+    "移動元": true,
+    "移動先": true,
+    "フィルタ": false
+  },
+  "buttons": [
+    "stack-ps-yosuke 陽介 河野",
+    "移動伝票を作成する",
+    "すべて",
+    "その他のビュー",
+    "すべて",
+    "その他のビュー"
+  ],
+  "inputs": [
+    {
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "on",
+      "checked": false,
+      "disabled": false,
+      "aria": null
+    }
+  ],
+  "visibleRows": [
+    "商品 SKU 確保数 移動元 移動先 確保日時",
+    "UVカットペーパーブレイドハット 482787-30-ONE 1 ユニクロEC ユニクロEC 2026年06月21日 12:03"
+  ],
+  "screenshot": "14-allocation-confirmations-current-20260628.png",
+  "conclusion": "確保済み一覧にはキーワード検索、絞り込み追加、ロケーションフィルタが表示されない。列として移動元/移動先は表示されるが、2026-06-28時点のUIではロケーションで絞り込む手順は案内しない。"
+}

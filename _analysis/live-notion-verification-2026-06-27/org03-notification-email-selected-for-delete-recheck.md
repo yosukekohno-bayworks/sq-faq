@@ -1,0 +1,70 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]
+            - listitem [ref=e49]
+            - listitem [ref=e58]
+            - listitem [ref=e67]
+            - listitem [ref=e76]
+            - listitem [ref=e86]
+            - listitem [ref=e96]
+            - listitem [ref=e108]
+            - listitem [ref=e117]
+          - list [ref=e119]:
+            - listitem [ref=e120]
+            - listitem [ref=e122]
+            - listitem [ref=e133]
+            - listitem [ref=e142]
+          - list [ref=e156]:
+            - listitem [ref=e157]
+            - listitem [ref=e159]
+            - listitem [ref=e168]
+            - listitem [ref=e177]
+          - list [ref=e187]:
+            - listitem [ref=e188]
+            - listitem [ref=e190]
+            - listitem [ref=e195]
+            - listitem [ref=e200]
+            - listitem [ref=e205]
+            - listitem [ref=e210]
+          - list [ref=e212]:
+            - listitem [ref=e213]
+    - main [ref=e222]:
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - status:
+            - paragraph [ref=e291]: 通知用メールアドレス。このページの準備が整いました
+          - generic [ref=e293]:
+            - link [ref=e296] [cursor=pointer]:
+              - /url: /admin/settings
+            - heading "通知用メールアドレス" [level=1] [ref=e303]
+            - link "メールアドレスを追加" [ref=e307] [cursor=pointer]:
+              - /url: /admin/settings/organization_notification_emails/create
+        - generic [ref=e313]:
+          - tablist [ref=e318]:
+            - tab "すべて" [selected] [ref=e319] [cursor=pointer]
+          - separator [ref=e322]
+          - generic [ref=e324]:
+            - generic [ref=e389]
+            - table [ref=e326]
+            - navigation "ページネーション" [ref=e371]
+  - region "Notifications alt+T"
+  - alert [ref=e10]

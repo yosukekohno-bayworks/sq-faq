@@ -1,0 +1,203 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/products",
+  "checkedAt": "2026-06-26T18:49:38.540Z",
+  "tabs": [
+    "すべて",
+    "公開中",
+    "下書き",
+    "アーカイブ済み"
+  ],
+  "links": [
+    {
+      "text": "商品を作成する",
+      "href": "https://www.sqstackstaging.com/admin/products/create"
+    },
+    {
+      "text": "TEST_20260622_OPTION",
+      "href": "https://www.sqstackstaging.com/admin/products/8cbfb469-83b0-55b4-a2ed-5e77459662db_Product"
+    },
+    {
+      "text": "TEST_E2E_20260622 GU検証Tシャツ 1905",
+      "href": "https://www.sqstackstaging.com/admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product"
+    },
+    {
+      "text": "TEST_E2E_20260622 GU検証Tシャツ 1845",
+      "href": "https://www.sqstackstaging.com/admin/products/aeeaa447-e4cc-583b-bf68-e3b1604938e9_Product"
+    },
+    {
+      "text": "TEST_E2E_20260622 GU検証Tシャツ 1830",
+      "href": "https://www.sqstackstaging.com/admin/products/67459e19-b4ce-526a-9850-2e39f6381bbe_Product"
+    },
+    {
+      "text": "TEST_E2E_20260622 GU検証Tシャツ 1755",
+      "href": "https://www.sqstackstaging.com/admin/products/312e2c77-202d-5e15-9836-895bc7777c84_Product"
+    },
+    {
+      "text": "TEST_E2E_20260622 GU検証Tシャツ 1740",
+      "href": "https://www.sqstackstaging.com/admin/products/f1a4baea-49c6-5806-bff7-6d42c2ff5552_Product"
+    },
+    {
+      "text": "半袖シャツ",
+      "href": "https://www.sqstackstaging.com/admin/products/58e74a25-b86c-5bc3-bc1f-c232b2dbf51f_Product"
+    },
+    {
+      "text": "GU3",
+      "href": "https://www.sqstackstaging.com/admin/products/74ca841b-3d06-5cbc-9618-b4fc33d0379c_Product"
+    },
+    {
+      "text": "GU2",
+      "href": "https://www.sqstackstaging.com/admin/products/6213c45e-1a23-5b75-a1de-67ea972b6e30_Product"
+    },
+    {
+      "text": "GU1",
+      "href": "https://www.sqstackstaging.com/admin/products/71d6f704-3b83-5dbe-a68c-0d09f365bcf2_Product"
+    },
+    {
+      "text": "オーバーサイズスウェットシャツ",
+      "href": "https://www.sqstackstaging.com/admin/products/2c32fb97-1f83-5cae-b20c-3d83046800d0_Product"
+    },
+    {
+      "text": "ポケモン UT",
+      "href": "https://www.sqstackstaging.com/admin/products/129d6f9c-c8ea-559c-952b-8b3727a23206_Product"
+    },
+    {
+      "text": "エアリズムコットンクルーネックTシャツ",
+      "href": "https://www.sqstackstaging.com/admin/products/b51463a5-6d46-5c70-81d1-c8cd15758976_Product"
+    },
+    {
+      "text": "エアリズムコットンT",
+      "href": "https://www.sqstackstaging.com/admin/products/f4551421-df89-57b7-9e5b-e036941af999_Product"
+    },
+    {
+      "text": "UVカットペーパーブレイドハット",
+      "href": "https://www.sqstackstaging.com/admin/products/5407c6bf-092c-5c2f-96a6-fa37fcff594f_Product"
+    },
+    {
+      "text": "バギーカーブジーンズ",
+      "href": "https://www.sqstackstaging.com/admin/products/85649f94-007f-5bcf-b6c9-9676528376a4_Product"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "text": "インポート",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": "false"
+    },
+    {
+      "text": "すべて",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "text": "公開中",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "text": "下書き",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "text": "アーカイブ済み",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "text": "その他のビュー",
+      "disabled": false,
+      "ariaDisabled": "false"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": "true"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "ariaDisabled": "true"
+    }
+  ],
+  "rowTexts": [
+    {
+      "index": 0,
+      "text": "すべてのアイテムを選択する 商品 ステータス 商品コード 在庫 カタログ 商品タイプ 製造元"
+    },
+    {
+      "index": 1,
+      "text": "アイテムを選択する product thumbnail TEST_20260622_OPTION 情報 下書き TEST_20260622_OPTION 0個のバリエーション 0"
+    },
+    {
+      "index": 2,
+      "text": "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 アーカイブ済み TEST_E2E_20260622_GU_1905 1個のバリエーション 0 Tシャツ GU"
+    },
+    {
+      "index": 3,
+      "text": "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1845 アーカイブ済み TEST_E2E_20260622_GU_1845 1個のバリエーション 0 Tシャツ GU"
+    },
+    {
+      "index": 4,
+      "text": "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 アーカイブ済み TEST_E2E_20260622_GU_1830 1個のバリエーション 0 Tシャツ GU"
+    },
+    {
+      "index": 5,
+      "text": "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1755 アーカイブ済み TEST_E2E_20260622_GU_1755 0個のバリエーション 0 Tシャツ GU"
+    },
+    {
+      "index": 6,
+      "text": "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1740 アーカイブ済み TEST_E2E_20260622_GU_1740 0個のバリエーション 0 Tシャツ GU"
+    },
+    {
+      "index": 7,
+      "text": "アイテムを選択する product thumbnail 半袖シャツ 成功 公開中 8128502395 2個のバリエーション 0 GU"
+    },
+    {
+      "index": 8,
+      "text": "アイテムを選択する product thumbnail GU3 成功 公開中 TEST_FAQ_CSV_RECHECK_20260608_01 0個のバリエーション 0 GU"
+    },
+    {
+      "index": 9,
+      "text": "アイテムを選択する product thumbnail GU2 成功 公開中 test_faq_deep2_202606080343_product 0個のバリエーション 0 検証 GU"
+    },
+    {
+      "index": 10,
+      "text": "アイテムを選択する product thumbnail GU1 成功 公開中 TEST-FAQ-HIDDEN-001 0個のバリエーション 0 GU"
+    },
+    {
+      "index": 11,
+      "text": "アイテムを選択する オーバーサイズスウェットシャツ 成功 公開中 486125 20個のバリエーション 1 スウェット UNIQLO : C"
+    },
+    {
+      "index": 12,
+      "text": "アイテムを選択する ポケモン UT 成功 公開中 483674 7個のバリエーション 1 Tシャツ UNIQLO : UT"
+    },
+    {
+      "index": 13,
+      "text": "アイテムを選択する エアリズムコットンクルーネックTシャツ 成功 公開中 486102 25個のバリエーション 1 Tシャツ UNIQLO"
+    },
+    {
+      "index": 14,
+      "text": "アイテムを選択する エアリズムコットンT 成功 公開中 483457 25個のバリエーション 1 Tシャツ UNIQLO"
+    },
+    {
+      "index": 15,
+      "text": "アイテムを選択する UVカットペーパーブレイドハット 成功 公開中 482787 2個のバリエーション 1 帽子・キャップ・ハット UNIQLO"
+    },
+    {
+      "index": 16,
+      "text": "アイテムを選択する バギーカーブジーンズ 成功 公開中 487973 13個のバリエーション 1 ジーンズ UNIQLO"
+    }
+  ],
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\nカタログ\n店舗受取\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品管理。このページの準備が整いました\n\n商品管理\nインポート\n商品を作成する\nすべて\n公開中\n下書き\nアーカイブ済み\nすべてのアイテムを選択する\n\t\n商品\n\t\nステータス\n\t\n商品コード\n\t\n在庫\n\t\nカタログ\n\t\n商品タイプ\n\t\n製造元\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nTEST_20260622_OPTION\n\t\n情報\n下書き\n\t\n\nTEST_20260622_OPTION\n\n\t\n\n0個のバリエーション\n\n\t\n\n0\n\n\t\n\n\t\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nTEST_E2E_20260622 GU検証Tシャツ 1905\n\t\nアーカイブ済み\n\t\n\nTEST_E2E_20260622_GU_1905\n\n\t\n\n1個のバリエーション\n\n\t\n\n0\n\n\t\n\nTシャツ\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nTEST_E2E_20260622 GU検証Tシャツ 1845\n\t\nアーカイブ済み\n\t\n\nTEST_E2E_20260622_GU_1845\n\n\t\n\n1個のバリエーション\n\n\t\n\n0\n\n\t\n\nTシャツ\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nTEST_E2E_20260622 GU検証Tシャツ 1830\n\t\nアーカイブ済み\n\t\n\nTEST_E2E_20260622_GU_1830\n\n\t\n\n1個のバリエーション\n\n\t\n\n0\n\n\t\n\nTシャツ\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nTEST_E2E_20260622 GU検証Tシャツ 1755\n\t\nアーカイブ済み\n\t\n\nTEST_E2E_20260622_GU_1755\n\n\t\n\n0個のバリエーション\n\n\t\n\n0\n\n\t\n\nTシャツ\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nTEST_E2E_20260622 GU検証Tシャツ 1740\n\t\nアーカイブ済み\n\t\n\nTEST_E2E_20260622_GU_1740\n\n\t\n\n0個のバリエーション\n\n\t\n\n0\n\n\t\n\nTシャツ\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\n半袖シャツ\n\t\n成功\n公開中\n\t\n\n8128502395\n\n\t\n\n2個のバリエーション\n\n\t\n\n0\n\n\t\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nGU3\n\t\n成功\n公開中\n\t\n\nTEST_FAQ_CSV_RECHECK_20260608_01\n\n\t\n\n0個のバリエーション\n\n\t\n\n0\n\n\t\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nGU2\n\t\n成功\n公開中\n\t\n\ntest_faq_deep2_202606080343_product\n\n\t\n\n0個のバリエーション\n\n\t\n\n0\n\n\t\n\n検証\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nproduct thumbnail\nGU1\n\t\n成功\n公開中\n\t\n\nTEST-FAQ-HIDDEN-001\n\n\t\n\n0個のバリエーション\n\n\t\n\n0\n\n\t\n\n\t\n\nGU\n\n\n\nアイテムを選択する\n\t\nオーバーサイズスウェットシャツ\n\t\n成功\n公開中\n\t\n\n486125\n\n\t\n\n20個のバリエーション\n\n\t\n\n1\n\n\t\n\nスウェット\n\n\t\n\nUNIQLO : C\n\n\n\nアイテムを選択する\n\t\nポケモン UT\n\t\n成功\n公開中\n\t\n\n483674\n\n\t\n\n7個のバリエーション\n\n\t\n\n1\n\n\t\n\nTシャツ\n\n\t\n\nUNIQLO : UT\n\n\n\nアイテムを選択する\n\t\nエアリズムコットンクルーネックTシャツ\n\t\n成功\n公開中\n\t\n\n486102\n\n\t\n\n25個のバリエーション\n\n\t\n\n1\n\n\t\n\nTシャツ\n\n\t\n\nUNIQLO\n\n\n\nアイテムを選択する\n\t\nエアリズムコットンT\n\t\n成功\n公開中\n\t\n\n483457\n\n\t\n\n25個のバリエーション\n\n\t\n\n1\n\n\t\n\nTシャツ\n\n\t\n\nUNIQLO\n\n\n\nアイテムを選択する\n\t\nUVカットペーパーブレイドハット\n\t\n成功\n公開中\n\t\n\n482787\n\n\t\n\n2個のバリエーション\n\n\t\n\n1\n\n\t\n\n帽子・キャップ・ハット\n\n\t\n\nUNIQLO\n\n\n\nアイテムを選択する\n\t\nバギーカーブジーンズ\n\t\n成功\n公開中\n\t\n\n487973\n\n\t\n\n13個のバリエーション\n\n\t\n\n1\n\n\t\n\nジーンズ\n\n\t\n\nUNIQLO"
+}

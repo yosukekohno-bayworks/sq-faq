@@ -1,0 +1,74 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[65288]<a />
+	コンテンツにスキップ
+[65412]<div />
+[65291]<button data-state=closed expanded=false />
+[65292]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[65429]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[65296]<a />
+		ホーム
+	[65297]<a />
+		商品管理
+	[65298]<a />
+		在庫管理
+	[65299]<a />
+		注文管理
+		[65480]<div />
+	[65300]<a />
+		顧客管理
+	[65301]<a />
+		発注管理
+	[65302]<a />
+		販売設定
+	[65303]<a />
+		会計
+	[65304]<a />
+		分析
+	オペレーション
+	[65305]<a />
+		入荷管理
+		[65564]<div />
+	[65306]<a />
+		出荷管理
+		[65575]<div />
+	[65307]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[65308]<a />
+		ディスカウント
+	[65309]<a />
+		ポイント
+	[65310]<a />
+		会員ランク
+	販売チャネル
+	[65311]<a />
+		Shopify
+	[65312]<a />
+		OmnibusCore
+	[65313]<a />
+		スマレジ
+	[65314]<a />
+		リテールポータル
+	[65282]<a />
+		卸売
+	[65315]<a />
+		設定
+納品書をPDFでエクスポートする。このページの準備が整いました
+[65693]<div />
+	[65694]<div />
+		[65317]<a />
+納品書をPDFでエクスポートする
+[65721]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+[65318]<button id=previousURL aria-label=前へ disabled=true />
+[65319]<button id=nextURL aria-label=次へ disabled=true />
+[65746]<section aria-label=Notifications alt+T live=polite />
+[65320]<div id=PolarisPortalsContainer />
+[65322]<div id=clerk-components />

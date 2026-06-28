@@ -1,0 +1,35 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/organization_notification_emails/create",
+  "checkedAt": "2026-06-26T18:43:57.555Z",
+  "hasNameError": true,
+  "hasEmailError": true,
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n通知用メールアドレス。このページの準備が整いました\n\n通知用メールアドレス\n名前\n名前を入力してください\nメールアドレス\nメールアドレスを入力してください\n通知を受け取るメールアドレスを入力してください。メールアドレスは重複して登録できません。\n保存する",
+  "buttons": [
+    {
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "text": "保存する",
+      "disabled": false,
+      "ariaDisabled": "false"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": null,
+      "disabled": false
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "value": "",
+      "placeholder": "you@company.com",
+      "disabled": false
+    }
+  ]
+}

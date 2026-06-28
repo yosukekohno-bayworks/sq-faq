@@ -1,0 +1,77 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[68229]<a />
+	コンテンツにスキップ
+[68359]<div />
+[68232]<button data-state=closed expanded=false />
+[68233]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[68376]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[68237]<a />
+		ホーム
+	[68238]<a />
+		商品管理
+	[68239]<a />
+		在庫管理
+	[68240]<a />
+		注文管理
+		[68427]<div />
+	[68241]<a />
+		顧客管理
+	[68242]<a />
+		発注管理
+	[68243]<a />
+		販売設定
+	[68244]<a />
+		会計
+	[68245]<a />
+		分析
+	オペレーション
+	[68217]<a />
+		入荷管理
+		[68511]<div />
+	[68246]<a />
+		出荷管理
+		[68522]<div />
+	[68247]<a />
+		在庫依頼
+		[68534]<div />
+	CRM
+	[68248]<a />
+		ディスカウント
+	[68249]<a />
+		ポイント
+	[68250]<a />
+		会員ランク
+	販売チャネル
+	[68251]<a />
+		Shopify
+	[68252]<a />
+		OmnibusCore
+	[68253]<a />
+		スマレジ
+	[68254]<a />
+		リテールポータル
+	[68255]<a />
+		店舗受取
+	[68220]<a />
+		卸売
+	[68256]<a />
+		設定
+店舗受取を作成する。このページの準備が整いました
+[68639]<div />
+	[68640]<div />
+		[68258]<a />
+店舗受取を作成する
+ロケーション
+|SHADOW(open)|[68225]<input id=:r1a: placeholder=選択してください autocomplete=off type=text required=true />
+[68260]<button />
+	選択
+[68215]<button />
+	保存する
+[68678]<section aria-label=Notifications alt+T live=polite />
+[68261]<div id=PolarisPortalsContainer />
+[68263]<div id=clerk-components />

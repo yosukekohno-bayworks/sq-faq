@@ -1,0 +1,411 @@
+{
+  "generatedAt": "2026-06-27T23:25:08.990556+00:00",
+  "productCode": "TEST_FAQ_CATCSV_20260628_082508",
+  "productTitle": "TEST_FAQ_CATCSV_20260628_082508_商品",
+  "catalogTitle": "TEST_FAQ_CATCSV_20260628_082508_カタログ",
+  "steps": [
+    {
+      "step": "connected-cdp",
+      "url": "about:blank",
+      "importantLines": [],
+      "bodySample": ""
+    },
+    {
+      "step": "product-created",
+      "url": "https://www.sqstackstaging.com/admin/products/8f534fe4-6243-5fb7-b49d-cf5556610317_Product",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "TEST_FAQ_CATCSV_20260628_082508_商品。このページの準備が整いました",
+        "TEST_FAQ_CATCSV_20260628_082508_商品",
+        "商品コード",
+        "TEST_FAQ_CATCSV_20260628_082508",
+        "商品名",
+        "商品分類",
+        "商品タイプ",
+        "商品を作成しました"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_CATCSV_20260628_082508_商品。このページの準備が整いました TEST_FAQ_CATCSV_20260628_082508_商品 情報 下書き その他の操作 商品コード TEST_FAQ_CATCSV_20260628_082508 商品名 説明文 0/5000 メディア（0件） 画像をアップロード バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を作成しました"
+    },
+    {
+      "step": "catalog-created",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/6f694266-98e8-5ad1-8ad2-633dcd780670_Catalog",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ",
+        "インポート",
+        "商品",
+        "商品を追加する",
+        "商品コードで検索する",
+        "商品を作成しました"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました TEST_FAQ_CATCSV_20260628_082508_カタログ 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください 商品を作成しました"
+    },
+    {
+      "step": "add-form-filled",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/create",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "カタログ商品をCSVでインポートする。このページの準備が整いました",
+        "カタログ商品をCSVでインポートする",
+        "カタログ",
+        "カタログを選択してください",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 カタログ商品をCSVでインポートする。このページの準備が整いました カタログ商品をCSVでインポートする カタログ カタログを選択してください TEST_FAQ_カタログ001 UNIQLO TEST_FAQ_CATCSV_20260628_082508_カタログ TEST_FAQ_CATCSV_20260628_082508_カタログ 06-catalog-csv-import-add-20260628_082508.csv 保存する"
+    },
+    {
+      "step": "add-after-submit",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/create",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "カタログ商品をCSVでインポートする。このページの準備が整いました",
+        "カタログ商品をCSVでインポートする",
+        "カタログ",
+        "カタログを選択してください",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 カタログ商品をCSVでインポートする。このページの準備が整いました カタログ商品をCSVでインポートする カタログ カタログを選択してください TEST_FAQ_カタログ001 UNIQLO TEST_FAQ_CATCSV_20260628_082508_カタログ TEST_FAQ_CATCSV_20260628_082508_カタログ 06-catalog-csv-import-add-20260628_082508.csv 読み込み中 保存する"
+    },
+    {
+      "step": "add-detail-after-validation",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/3ef4eed8-c5da-5002-8f7a-d5f1984cdc92_CSVImportOperationCatalogProduct",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1件の商品",
+        "検証失敗",
+        "0件の商品"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 未実行 検証成功 1件の商品 検証失敗 0件の商品"
+    },
+    {
+      "step": "resume-connected-cdp",
+      "url": "about:blank",
+      "importantLines": [],
+      "bodySample": ""
+    },
+    {
+      "step": "add-resume-detail-before-execution",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/3ef4eed8-c5da-5002-8f7a-d5f1984cdc92_CSVImportOperationCatalogProduct",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1件の商品",
+        "検証失敗",
+        "0件の商品"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 未実行 検証成功 1件の商品 検証失敗 0件の商品"
+    },
+    {
+      "step": "add-resume-execute-dialog",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/3ef4eed8-c5da-5002-8f7a-d5f1984cdc92_CSVImportOperationCatalogProduct",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1件の商品",
+        "検証失敗",
+        "0件の商品",
+        "カタログに商品を一括登録するCSVの取り込み処理を実行しますか？",
+        "1件のカタログ商品を登録します。この操作は巻き戻すことができません。"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 未実行 検証成功 1件の商品 検証失敗 0件の商品 カタログに商品を一括登録するCSVの取り込み処理を実行しますか？ 1件のカタログ商品を登録します。この操作は巻き戻すことができません。 キャンセル 実行する"
+    },
+    {
+      "step": "add-resume-detail-after-execution",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/3ef4eed8-c5da-5002-8f7a-d5f1984cdc92_CSVImportOperationCatalogProduct",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "検証成功",
+        "1件の商品",
+        "検証失敗",
+        "0件の商品"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 成功 完了 完了 検証成功 1件の商品 検証失敗 0件の商品"
+    },
+    {
+      "step": "catalog-after-add",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/6f694266-98e8-5ad1-8ad2-633dcd780670_Catalog",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ",
+        "インポート",
+        "商品",
+        "商品を追加する",
+        "商品コードで検索する",
+        "商品コード",
+        "TEST_FAQ_CATCSV_20260628_082508_商品",
+        "TEST_FAQ_CATCSV_20260628_082508"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました TEST_FAQ_CATCSV_20260628_082508_カタログ 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する すべてのアイテムを選択する 商品 商品コード アイテムを選択する product thumbnail TEST_FAQ_CATCSV_20260628_082508_商品 TEST_FAQ_CATCSV_20260628_082508"
+    },
+    {
+      "step": "delete-form-filled",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/create",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "カタログ商品をCSVでインポートする。このページの準備が整いました",
+        "カタログ商品をCSVでインポートする",
+        "カタログ",
+        "カタログを選択してください",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 カタログ商品をCSVでインポートする。このページの準備が整いました カタログ商品をCSVでインポートする カタログ カタログを選択してください TEST_FAQ_カタログ001 UNIQLO TEST_FAQ_CATCSV_20260628_082508_カタログ TEST_FAQ_CATCSV_20260628_082508_カタログ 06-catalog-csv-import-delete-20260628_082508.csv 保存する"
+    },
+    {
+      "step": "delete-after-submit",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/create",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "カタログ商品をCSVでインポートする。このページの準備が整いました",
+        "カタログ商品をCSVでインポートする",
+        "カタログ",
+        "カタログを選択してください",
+        "TEST_FAQ_カタログ001",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 カタログ商品をCSVでインポートする。このページの準備が整いました カタログ商品をCSVでインポートする カタログ カタログを選択してください TEST_FAQ_カタログ001 UNIQLO TEST_FAQ_CATCSV_20260628_082508_カタログ TEST_FAQ_CATCSV_20260628_082508_カタログ 06-catalog-csv-import-delete-20260628_082508.csv 読み込み中 保存する"
+    },
+    {
+      "step": "delete-detail-after-validation",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/823cab58-77e6-5fff-a9ef-a681d782fb46_CSVImportOperationCatalogProduct",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1件の商品",
+        "検証失敗",
+        "0件の商品"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 未実行 検証成功 1件の商品 検証失敗 0件の商品"
+    },
+    {
+      "step": "delete-execute-dialog",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/823cab58-77e6-5fff-a9ef-a681d782fb46_CSVImportOperationCatalogProduct",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "未実行",
+        "検証成功",
+        "1件の商品",
+        "検証失敗",
+        "0件の商品",
+        "カタログに商品を一括登録するCSVの取り込み処理を実行しますか？",
+        "1件のカタログ商品を登録します。この操作は巻き戻すことができません。"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 未実行 検証成功 1件の商品 検証失敗 0件の商品 カタログに商品を一括登録するCSVの取り込み処理を実行しますか？ 1件のカタログ商品を登録します。この操作は巻き戻すことができません。 キャンセル 実行する"
+    },
+    {
+      "step": "delete-detail-after-execution",
+      "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/823cab58-77e6-5fff-a9ef-a681d782fb46_CSVImportOperationCatalogProduct",
+      "importantLines": [
+        "商品管理",
+        "未完了の在庫依頼 3件",
+        "CSVインポート操作の詳細。このページの準備が整いました",
+        "CSVインポート操作の詳細",
+        "実行する",
+        "検証ステータス",
+        "成功 完了",
+        "完了",
+        "実行ステータス",
+        "検証成功",
+        "1件の商品",
+        "検証失敗",
+        "0件の商品"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 成功 完了 完了 検証成功 1件の商品 検証失敗 0件の商品"
+    },
+    {
+      "step": "catalog-after-delete-import",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/6f694266-98e8-5ad1-8ad2-633dcd780670_Catalog",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ",
+        "インポート",
+        "商品",
+        "商品を追加する",
+        "商品コードで検索する"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました TEST_FAQ_CATCSV_20260628_082508_カタログ 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "step": "product-delete-dialog",
+      "url": "https://www.sqstackstaging.com/admin/products/8f534fe4-6243-5fb7-b49d-cf5556610317_Product",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "TEST_FAQ_CATCSV_20260628_082508_商品。このページの準備が整いました",
+        "TEST_FAQ_CATCSV_20260628_082508_商品",
+        "商品コード",
+        "TEST_FAQ_CATCSV_20260628_082508",
+        "商品名",
+        "商品分類",
+        "商品タイプ",
+        "商品を削除しますか？",
+        "この商品を削除しますか？",
+        "この処理は巻き戻すことができません。",
+        "削除する"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_CATCSV_20260628_082508_商品。このページの準備が整いました TEST_FAQ_CATCSV_20260628_082508_商品 情報 下書き その他の操作 商品コード TEST_FAQ_CATCSV_20260628_082508 商品名 説明文 0/5000 メディア（0件） 画像をアップロード 追加 バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を削除しますか？ この商品を削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する"
+    },
+    {
+      "step": "product-after-delete",
+      "url": "https://www.sqstackstaging.com/admin/products/8f534fe4-6243-5fb7-b49d-cf5556610317_Product",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "該当するProductが見つかりませんでした。",
+        "再実行"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました 該当するProductが見つかりませんでした。 再実行"
+    },
+    {
+      "step": "resume-connected-cdp",
+      "url": "about:blank",
+      "importantLines": [],
+      "bodySample": ""
+    },
+    {
+      "step": "catalog-after-delete-import",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/6f694266-98e8-5ad1-8ad2-633dcd780670_Catalog",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ",
+        "インポート",
+        "商品",
+        "商品を追加する",
+        "商品コードで検索する"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました TEST_FAQ_CATCSV_20260628_082508_カタログ 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    {
+      "step": "catalog-delete-dialog",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/6f694266-98e8-5ad1-8ad2-633dcd780670_Catalog",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました",
+        "TEST_FAQ_CATCSV_20260628_082508_カタログ",
+        "インポート",
+        "商品",
+        "商品を追加する",
+        "商品コードで検索する",
+        "カタログを削除する",
+        "カタログを削除します。この処理は巻き戻すことができません。",
+        "削除する"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_CATCSV_20260628_082508_カタログ。このページの準備が整いました TEST_FAQ_CATCSV_20260628_082508_カタログ 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください カタログを削除する カタログを削除します。この処理は巻き戻すことができません。 キャンセル 削除する"
+    },
+    {
+      "step": "catalog-after-delete",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/6f694266-98e8-5ad1-8ad2-633dcd780670_Catalog",
+      "importantLines": [
+        "商品管理",
+        "カタログ",
+        "未完了の在庫依頼 3件",
+        "該当するCatalogが見つかりませんでした。",
+        "再実行"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました 該当するCatalogが見つかりませんでした。 再実行"
+    }
+  ],
+  "cleanup": {
+    "productDeleted": true,
+    "catalogDeleted": true
+  },
+  "complete": true,
+  "error": null,
+  "productUrl": "https://www.sqstackstaging.com/admin/products/8f534fe4-6243-5fb7-b49d-cf5556610317_Product",
+  "catalogUrl": "https://www.sqstackstaging.com/admin/catalogs/6f694266-98e8-5ad1-8ad2-633dcd780670_Catalog",
+  "add": {
+    "command": "NEW",
+    "csv": "_analysis/complete-live-verification-2026-06-28/06-catalog-csv-import-add-20260628_082508.csv",
+    "validationSuccess": true,
+    "executionSuccess": true,
+    "detailUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/3ef4eed8-c5da-5002-8f7a-d5f1984cdc92_CSVImportOperationCatalogProduct",
+    "dialogText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 未実行 検証成功 1件の商品 検証失敗 0件の商品 カタログに商品を一括登録するCSVの取り込み処理を実行しますか？ 1件のカタログ商品を登録します。この操作は巻き戻すことができません。 キャンセル 実行する"
+  },
+  "delete": {
+    "command": "DELETE",
+    "csv": "_analysis/complete-live-verification-2026-06-28/06-catalog-csv-import-delete-20260628_082508.csv",
+    "validationSuccess": true,
+    "executionSuccess": true,
+    "detailUrl": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_catalog_products/823cab58-77e6-5fff-a9ef-a681d782fb46_CSVImportOperationCatalogProduct",
+    "dialogText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 CSVインポート操作の詳細。このページの準備が整いました CSVインポート操作の詳細 実行する 作成日 2026年06月28日 検証ステータス 成功 完了 完了 実行ステータス 未実行 検証成功 1件の商品 検証失敗 0件の商品 カタログに商品を一括登録するCSVの取り込み処理を実行しますか？ 1件のカタログ商品を登録します。この操作は巻き戻すことができません。 キャンセル 実行する"
+  },
+  "catalogContainsAfterAdd": true,
+  "catalogRemovedAfterDelete": true
+}

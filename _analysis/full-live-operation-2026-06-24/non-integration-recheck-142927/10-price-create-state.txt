@@ -1,0 +1,89 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[102598]<a />
+	コンテンツにスキップ
+[102715]<div />
+[102601]<button data-state=closed expanded=false />
+[102602]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[102732]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[102606]<a />
+		ホーム
+	[102607]<a />
+		商品管理
+	[102608]<a />
+		在庫管理
+	[102609]<a />
+		注文管理
+		[102783]<div />
+	[102610]<a />
+		顧客管理
+	[102611]<a />
+		発注管理
+	[102612]<a />
+		販売設定
+	[102613]<a />
+		販売価格
+	[102614]<a />
+		予約販売
+	[102615]<a />
+		販売上限
+	[102616]<a />
+		販売閾値
+	[102540]<a />
+		会計
+	[102545]<a />
+		分析
+	オペレーション
+	[102553]<a />
+		入荷管理
+		[102880]<div />
+	[102558]<a />
+		出荷管理
+		[102888]<div />
+	[102563]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[102569]<a />
+		ディスカウント
+	[102574]<a />
+		ポイント
+	[102579]<a />
+		会員ランク
+	販売チャネル
+	[102585]<a />
+		Shopify
+	[102589]<a />
+		OmnibusCore
+	[102617]<a />
+		スマレジ
+	[102618]<a />
+		リテールポータル
+	[102619]<a />
+		卸売
+	[102620]<a />
+		設定
+販売価格ルールを作成する。このページの準備が整いました
+[102988]<div />
+	[102989]<div />
+		[102622]<a />
+販売価格ルールを作成する
+基本設定
+ルール名
+|SHADOW(open)|[102594]<input id=:r1g: placeholder=年末セール価格 autocomplete=off type=text required=true />
+[103025]<div />
+	[103028]<span />
+		通貨
+日本円
+[103046]<span />
+	[103047]<span />
+		[103048]<svg /> <!-- SVG content collapsed -->
+[102593]<button />
+	保存する
+[103058]<section aria-label=Notifications alt+T live=polite />
+[102624]<div id=PolarisPortalsContainer />
+[102626]<div id=clerk-components />

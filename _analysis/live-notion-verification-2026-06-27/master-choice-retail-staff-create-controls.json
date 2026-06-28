@@ -1,0 +1,114 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/retail_staff_members/create",
+  "h1": "販売員を作成する",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": "メニューを切り替える",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "stack-ps-yosuke\n\n陽介 河野 / stack-ps-yosuke / 陽介 河野",
+      "aria": null,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "ホーム / ホーム / 商品管理",
+      "aria": "メニューを閉じる",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "姓",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "名",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "コード",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "ロケーション",
+      "aria": null,
+      "text": "",
+      "placeholder": "選択してください",
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 8,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "検索する",
+      "aria": null,
+      "text": "検索する",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 9,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "保存する",
+      "aria": null,
+      "text": "保存する",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    }
+  ]
+}

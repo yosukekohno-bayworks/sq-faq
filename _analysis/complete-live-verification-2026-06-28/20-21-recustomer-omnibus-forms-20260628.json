@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-06-28",
+  "recustomer": {
+    "listUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations",
+    "listH1": "Recustomer",
+    "listAction": "アカウントを接続",
+    "listState": "アイテムが見つかりませんでした",
+    "createUrl": "https://www.sqstackstaging.com/admin/recustomer_integrations/create",
+    "createH1": "アカウントを接続する",
+    "createFields": ["ストアID", "シークレット"],
+    "saveButton": "保存する",
+    "screenshots": [
+      "20-21-admin-recustomer_integrations-20260628.png",
+      "20-21-admin-recustomer_integrations-create-20260628.png"
+    ],
+    "conclusion": "管理画面UIで確認できるのはRecustomerのアカウント接続フォームまで。返品・交換の実フローやSQ側の反映先は接続環境での確認が必要。"
+  },
+  "omnibusCore": {
+    "listUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+    "listH1": "OmnibusCore",
+    "listColumns": ["メーカーコード", "テナント", "カタログ", "ロケーショングループ", "連携日時"],
+    "createUrl": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+    "createH1": "OmnibusCore連携を作成する",
+    "sections": ["商品同期設定", "在庫設定", "注文設定"],
+    "fields": [
+      "テナント",
+      "メーカーコード",
+      "カタログ",
+      "カラーオプション名",
+      "サイズオプション名",
+      "ロケーショングループ",
+      "在庫予約ルール",
+      "販売上限ルール",
+      "下書き注文の有効期限日数"
+    ],
+    "screenshots": [
+      "20-21-admin-omnibus_core_integrations-20260628.png",
+      "20-21-admin-omnibus_core_integrations-create-20260628.png"
+    ],
+    "conclusion": "OmnibusCoreは実機フォーム上で商品同期設定・在庫設定・注文設定を確認できる。接続後の同期挙動や下書き注文期限切れ時の処理は未確認。"
+  }
+}

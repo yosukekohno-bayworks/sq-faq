@@ -1,0 +1,232 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+                - generic [ref=e134]:
+                  - generic [ref=e135]: 未完了の入荷指示 1件
+                  - generic [ref=e136]: "1"
+            - listitem [ref=e137]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e140] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e143]
+                - generic [ref=e145]: 出荷管理
+                - generic [ref=e147]:
+                  - generic [ref=e148]: 未完了の出荷指示 1件
+                  - generic [ref=e149]: "1"
+            - listitem [ref=e150]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e153] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e156]
+                - generic [ref=e159]: 在庫依頼
+                - generic [ref=e161]:
+                  - generic [ref=e162]: 未完了の在庫依頼 3件
+                  - generic [ref=e163]: "3"
+          - list [ref=e164]:
+            - listitem [ref=e165]:
+              - generic [ref=e166]: CRM
+            - listitem [ref=e167]:
+              - link "ディスカウント" [ref=e170] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e173]
+                - generic [ref=e175]: ディスカウント
+            - listitem [ref=e176]:
+              - link "ポイント" [ref=e179] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e182]
+                - generic [ref=e184]: ポイント
+            - listitem [ref=e185]:
+              - link "会員ランク" [ref=e188] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e191]
+                - generic [ref=e194]: 会員ランク
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - generic [ref=e197]: 販売チャネル
+            - listitem [ref=e198]:
+              - link "Shopify" [ref=e201] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e202]: Shopify
+            - listitem [ref=e203]:
+              - link "OmnibusCore" [ref=e206] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e207]: OmnibusCore
+            - listitem [ref=e208]:
+              - link "スマレジ" [ref=e211] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e212]: スマレジ
+            - listitem [ref=e213]:
+              - link "リテールポータル" [ref=e216] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e217]: リテールポータル
+            - listitem [ref=e218]:
+              - generic [ref=e219]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "設定" [ref=e224] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e227]
+                - generic [ref=e229]: 設定
+    - main [ref=e230]:
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - status:
+            - paragraph [ref=e235]: "#IO-1025。このページの準備が整いました"
+          - generic [ref=e237]:
+            - link [ref=e240] [cursor=pointer]:
+              - /url: /admin/inventory_outbound_orders
+              - img [ref=e243]
+            - generic [ref=e246]:
+              - heading "#IO-1025" [level=1] [ref=e247]
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: 成功 完了
+                    - img [ref=e402]
+                  - generic [ref=e256]: 出荷完了
+                - generic [ref=e257]:
+                  - generic [ref=e259]:
+                    - generic [ref=e260]: 情報 未完了
+                    - img [ref=e261]
+                  - generic [ref=e263]: 引当待ち
+            - generic [ref=e266]:
+              - button "出荷実績を登録する" [disabled]:
+                - generic: 出荷実績を登録する
+        - generic [ref=e270]:
+          - generic [ref=e272]:
+            - generic [ref=e276]:
+              - generic [ref=e277]:
+                - generic [ref=e280]: ロケーション
+                - textbox "ロケーション" [ref=e284]: TEST_E2E_20260622_GU倉庫_ON_1905
+              - generic [ref=e285]:
+                - generic [ref=e288]: 配送方法
+                - textbox "配送方法" [ref=e292]: 配送
+            - generic [ref=e295]:
+              - heading "出荷明細" [level=2] [ref=e297]
+              - generic [ref=e298]:
+                - separator [ref=e299]
+                - table [ref=e303]:
+                  - rowgroup [ref=e304]:
+                    - row "商品 SKU 出荷予定 出荷済み" [ref=e305]:
+                      - columnheader "商品" [ref=e306]:
+                        - generic [ref=e307]: 商品
+                      - columnheader "SKU" [ref=e308]:
+                        - generic [ref=e309]: SKU
+                      - columnheader "出荷予定" [ref=e310]:
+                        - generic [ref=e311]: 出荷予定
+                      - columnheader "出荷済み" [ref=e312]:
+                        - generic [ref=e313]: 出荷済み
+                  - rowgroup [ref=e314]:
+                    - row "product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M 1 1" [ref=e404] [cursor=pointer]:
+                      - cell "product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M" [ref=e316]:
+                        - generic [ref=e317]
+                      - cell "TEST_E2E_20260622_GU_1905_NAVY_M" [ref=e329]:
+                        - paragraph [ref=e330]: TEST_E2E_20260622_GU_1905_NAVY_M
+                      - cell "1" [ref=e331]:
+                        - paragraph [ref=e332]: "1"
+                      - cell "1" [ref=e405]:
+                        - paragraph [ref=e334]: "1"
+            - generic [ref=e407]:
+              - heading "出荷履歴" [level=2] [ref=e409]
+              - generic [ref=e410]:
+                - separator [ref=e411]
+                - generic [ref=e413]:
+                  - paragraph [ref=e415]: 2026年06月27日 01:03
+                  - button "出荷実績の明細を展開する" [ref=e416] [cursor=pointer]:
+                    - img [ref=e419]
+          - generic [ref=e339]:
+            - generic [ref=e342]:
+              - heading "詳細" [level=2] [ref=e343]
+              - generic [ref=e344]:
+                - generic [ref=e345]:
+                  - paragraph [ref=e346]: 配送希望日
+                  - paragraph [ref=e347]: "-"
+                - generic [ref=e348]:
+                  - paragraph [ref=e349]: 作成日時
+                  - paragraph [ref=e350]: 2026年06月27日 01:01
+            - generic [ref=e353]:
+              - heading "出荷先ロケーション" [level=2] [ref=e354]
+              - paragraph [ref=e355]: TEST_E2E_20260622_GU店舗_OFF_1905
+            - generic [ref=e358]:
+              - heading "作成元" [level=2] [ref=e359]
+              - link "#IM-1025" [ref=e360] [cursor=pointer]:
+                - /url: /admin/inventory_movement_orders/d7573bf2-aba0-574f-ac27-774061ea17d9_InventoryMovementOrder
+  - region "Notifications alt+T"
+  - alert [ref=e10]

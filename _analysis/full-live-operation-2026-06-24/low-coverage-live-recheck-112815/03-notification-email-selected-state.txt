@@ -1,0 +1,128 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[94289]<a />
+	コンテンツにスキップ
+[94440]<div />
+[94292]<button data-state=closed expanded=false />
+[94293]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[94457]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[94297]<a />
+		ホーム
+	[94298]<a />
+		商品管理
+	[94299]<a />
+		在庫管理
+	[94300]<a />
+		注文管理
+		[94508]<div />
+	[94301]<a />
+		顧客管理
+	[94302]<a />
+		発注管理
+	[94303]<a />
+		販売設定
+	[94304]<a />
+		会計
+	[94305]<a />
+		分析
+	オペレーション
+	[94306]<a />
+		入荷管理
+		[94592]<div />
+	[94307]<a />
+		出荷管理
+		[94603]<div />
+	[94308]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[94309]<a />
+		ディスカウント
+	[94310]<a />
+		ポイント
+	[94311]<a />
+		会員ランク
+	販売チャネル
+	[94312]<a />
+		Shopify
+	[94313]<a />
+		OmnibusCore
+	[94314]<a />
+		スマレジ
+	[94315]<a />
+		リテールポータル
+	[94316]<a />
+		卸売
+	[94317]<a />
+		設定
+通知用メールアドレス。このページの準備が整いました
+[94721]<div />
+	[94722]<div />
+		[94319]<a />
+通知用メールアドレス
+[94286]<a />
+	メールアドレスを追加
+[94322]<button id=1 role=tab selected=true />
+	すべて
+[94771]<hr />
+*[94326]<div />
+	*[94821]<div />
+		*[94823]<span />
+			*[94328]<span />
+			*[94825]<span />
+				*[94964]<span />
+					*[94941]<svg /> <!-- SVG content collapsed -->
+		*[94828]<span />
+			*[94829]<span />
+				すべての2のアイテムを選択する
+	*[94831]<span />
+		*[94832]<span />
+			1を選択済み
+*[94955]<button />
+	削除する
+[94836]<tr />
+	[94837]<th />
+		<svg /> <!-- SVG content collapsed -->
+		すべてのアイテムを選択する
+	名前
+	メールアドレス
+[94332]<tr id=d2291d98-ed8f-5bcb-b72c-0003665a6323_OrganizationNotificationEmail />
+	[94857]<td />
+		[94333]<div />
+			[94859]<span />
+				[94335]<span />
+				[94862]<svg /> <!-- SVG content collapsed -->
+			[94864]<span />
+				[94865]<span />
+					アイテムを選択する
+	[94867]<td />
+		[94868]<p />
+			test
+	[94870]<td />
+		[94871]<p />
+			you.4235@gmail.com
+[94336]<tr id=ae976ba2-6c53-5a86-a98b-9c42e2de2ade_OrganizationNotificationEmail />
+	[94873]<td />
+		[94337]<div />
+			[94875]<span />
+				[94339]<span />
+				*[94877]<span />
+					[94878]<svg /> <!-- SVG content collapsed -->
+			[94880]<span />
+				[94881]<span />
+					アイテムを選択する
+	[94883]<td />
+		[94884]<p />
+			test+faq-113425@example.comTEST_FAQ_20260624_NOTIFY_113425
+	[94886]<td />
+		[94887]<p />
+			test+faq-113425@example.com
+[94341]<button id=previousURL aria-label=前へ disabled=true />
+[94342]<button id=nextURL aria-label=次へ disabled=true />
+[94906]<section aria-label=Notifications alt+T live=polite />
+[94343]<div id=PolarisPortalsContainer />
+[94345]<div id=clerk-components />

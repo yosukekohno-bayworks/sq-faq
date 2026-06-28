@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]
+    - main [ref=e222]:
+      - generic [ref=e225]
+  - region "Notifications alt+T"
+  - alert [ref=e10]

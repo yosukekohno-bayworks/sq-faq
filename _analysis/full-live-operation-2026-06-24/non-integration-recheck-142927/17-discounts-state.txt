@@ -1,0 +1,146 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[108192]<a />
+	コンテンツにスキップ
+[108361]<div />
+[108195]<button data-state=closed expanded=false />
+[108196]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[108378]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[108200]<a />
+		ホーム
+	[108201]<a />
+		商品管理
+	[108202]<a />
+		在庫管理
+	[108203]<a />
+		注文管理
+		[108429]<div />
+	[108204]<a />
+		顧客管理
+	[108205]<a />
+		発注管理
+	[108206]<a />
+		販売設定
+	[108207]<a />
+		会計
+	[108208]<a />
+		分析
+	オペレーション
+	[108209]<a />
+		入荷管理
+		[108513]<div />
+	[108210]<a />
+		出荷管理
+		[108524]<div />
+	[108211]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[108212]<a />
+		ディスカウント
+	[108213]<a />
+		ポイント
+	[108214]<a />
+		会員ランク
+	販売チャネル
+	[108215]<a />
+		Shopify
+	[108216]<a />
+		OmnibusCore
+	[108217]<a />
+		スマレジ
+	[108218]<a />
+		リテールポータル
+	[108219]<a />
+		卸売
+	[108220]<a />
+		設定
+ディスカウント。このページの準備が整いました
+ディスカウント
+[108188]<a />
+	ディスカウントを作成する
+[108227]<button id=0 role=tab selected=true />
+	すべて
+[108703]<li role=presentation />
+	[108228]<button id=1 role=tab selected=false />
+		有効
+[108229]<button id=2 role=tab selected=false />
+	スケジュール済み
+[108230]<button id=3 role=tab selected=false />
+	期限切れ
+[108723]<div />
+	[108232]<button aria-label=検索と絞り込みの結果 />
+|scroll element|<div /> (horizontal 0%)
+	[108822]<tr />
+		[108823]<th />
+			[108824]<div />
+				[108826]<span />
+					[108240]<span />
+					[108829]<svg /> <!-- SVG content collapsed -->
+				[108831]<span />
+					[108832]<span />
+						すべてのアイテムを選択する
+		[108836]<span />
+			タイトル
+		クーポンコード
+		ステータス
+		[108848]<span />
+			有効期間
+	[108241]<tr id=2c0e23bd-77df-5440-a291-2c8dfd057f45_OrderPriceAdjustmentRule />
+		[108867]<td />
+			[108242]<div />
+				[108869]<span />
+					[108244]<span />
+					[108872]<svg /> <!-- SVG content collapsed -->
+				[108874]<span />
+					[108875]<span />
+						アイテムを選択する
+		[108877]<td />
+			[108245]<a />
+				TEST_FAQ_DEEP3_202606080345_ディスカウント
+		[108880]<td />
+			[108881]<p />
+				TEST-FAQ-DEEP3-202606080345-DISC
+		[108883]<td />
+			[108884]<span />
+				[108885]<span />
+					成功
+				[108887]<span />
+					有効
+		[108889]<td />
+			[108890]<p />
+				2026年06月08日 00:00 - 2026年12月31日 23:59
+	[108246]<tr id=faeead35-d8aa-50c0-8d40-3bee576ac50a_OrderPriceAdjustmentRule />
+		[108907]<td />
+			[108247]<div />
+				[108909]<span />
+					[108249]<span />
+					[108912]<svg /> <!-- SVG content collapsed -->
+				[108914]<span />
+					[108915]<span />
+						アイテムを選択する
+		[108917]<td />
+			[108250]<a />
+				TEST_FAQ_ディスカウント_対象商品テスト
+		[108920]<td />
+			[108921]<p />
+				TEST-FAQ-001
+		[108923]<td />
+			[108924]<span />
+				[108925]<span />
+					成功
+				[108927]<span />
+					有効
+		[108929]<td />
+			[108930]<p />
+				2026年01月01日 00:00 - 2026年12月31日 23:59
+|scroll element[108251]<div /> (horizontal 0%)
+[108252]<button id=previousURL aria-label=前へ disabled=true />
+[108253]<button id=nextURL aria-label=次へ disabled=true />
+[108964]<section aria-label=Notifications alt+T live=polite />
+[108254]<div id=PolarisPortalsContainer />
+[108256]<div id=clerk-components />

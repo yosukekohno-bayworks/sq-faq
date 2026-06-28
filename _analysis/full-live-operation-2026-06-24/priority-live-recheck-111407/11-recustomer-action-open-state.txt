@@ -1,0 +1,108 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[73415]<a />
+	コンテンツにスキップ
+[73550]<div />
+[73418]<button data-state=closed expanded=false />
+[73419]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[73567]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[73423]<a />
+		ホーム
+	[73424]<a />
+		商品管理
+	[73425]<a />
+		在庫管理
+	[73426]<a />
+		注文管理
+		[73618]<div />
+	[73427]<a />
+		顧客管理
+	[73428]<a />
+		発注管理
+	[73429]<a />
+		販売設定
+	[73430]<a />
+		会計
+	[73431]<a />
+		分析
+	オペレーション
+	[73432]<a />
+		入荷管理
+		[73702]<div />
+	[73433]<a />
+		出荷管理
+		[73713]<div />
+	[73434]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[73435]<a />
+		ディスカウント
+	[73436]<a />
+		ポイント
+	[73437]<a />
+		会員ランク
+	販売チャネル
+	[73438]<a />
+		Shopify
+	[73439]<a />
+		OmnibusCore
+	[73440]<a />
+		スマレジ
+	[73441]<a />
+		リテールポータル
+	[73442]<a />
+		卸売
+	[73443]<a />
+		設定
+Recustomer。このページの準備が整いました
+Recustomer
+[73412]<a />
+	アカウントを接続
+[73447]<div />
+	[73896]<div />
+		[73898]<span />
+			[73449]<span />
+			[73900]<span />
+				[73901]<svg /> <!-- SVG content collapsed -->
+		[73903]<span />
+			[73904]<span />
+				アイテムの選択を解除する
+	[73906]<span />
+		[73907]<span />
+			1を選択済み
+[73999]<button aria-label=アクション data-state=open expanded=true />
+[73911]<tr />
+	[73912]<th />
+		<svg /> <!-- SVG content collapsed -->
+		すべてのアイテムを選択する
+	ストアID
+	接続日
+[73453]<tr id=6f04820c-718b-5d91-b118-8841f00882b1_RecustomerIntegration />
+	[73932]<td />
+		[73454]<div />
+			[73934]<span />
+				[73456]<span />
+				[73936]<span />
+					[73937]<svg /> <!-- SVG content collapsed -->
+			[73939]<span />
+				[73940]<span />
+					アイテムを選択する
+	[73942]<td />
+		[73943]<p />
+			TEST_FAQ_20260624_Recustomer_100908
+	[73945]<td />
+		[73946]<p />
+			2026年06月24日 10:10
+[73950]<section aria-label=Notifications alt+T live=polite />
+[73458]<div id=PolarisPortalsContainer />
+	*[74032]<div id=:r1j: />
+		*[74029]<div />
+			*[74025]<button />
+				接続を削除する
+	*[74035]<div />
+[73460]<div id=clerk-components />

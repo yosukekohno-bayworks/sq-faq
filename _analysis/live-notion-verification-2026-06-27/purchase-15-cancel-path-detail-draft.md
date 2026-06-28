@@ -1,0 +1,248 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e2573]:
+        - generic [ref=e2574]:
+          - status:
+            - paragraph [ref=e2575]: "#IP-1008。このページの準備が整いました"
+          - generic [ref=e2577]:
+            - link [ref=e2580] [cursor=pointer]:
+              - /url: /admin/inventory_purchase_orders
+              - img [ref=e2583]
+            - generic [ref=e2586]:
+              - heading "#IP-1008" [level=1] [ref=e2587]
+              - generic [ref=e2589]:
+                - generic [ref=e2590]: 注意
+                - generic [ref=e2591]: 下書き
+            - generic [ref=e2592]:
+              - button "その他の操作" [ref=e2598] [cursor=pointer]:
+                - generic [ref=e2599]: その他の操作
+                - img [ref=e2602]
+              - button "発注する" [ref=e2606] [cursor=pointer]:
+                - generic [ref=e2607]: 発注する
+        - generic [ref=e2611]:
+          - generic [ref=e2614]:
+            - generic [ref=e2616]:
+              - heading "取引先" [level=2] [ref=e2617]
+              - generic [ref=e2618]:
+                - generic [ref=e2621]: 取引先
+                - generic [ref=e2622]:
+                  - combobox "取引先" [ref=e2623]:
+                    - option "選択してください" [disabled]
+                    - option "TEST_FAQ_Supplier"
+                    - option "TEST_FAQ_Supplier2"
+                    - option "TEST_FAQ_DEEP_202606080340_取引先"
+                    - option "TEST_E2E_20260622_取引先_1740"
+                    - option "TEST_E2E_20260622_取引先_1755"
+                    - option "TEST_E2E_20260622_取引先_1830"
+                    - option "TEST_E2E_20260622_取引先_1845"
+                    - option "TEST_E2E_20260622_取引先_1905" [selected]
+                  - generic [ref=e2624]:
+                    - generic [ref=e2625]: TEST_E2E_20260622_取引先_1905
+                    - img [ref=e2628]
+            - separator [ref=e2632]
+            - generic [ref=e2634]:
+              - generic [ref=e2635]:
+                - generic [ref=e2638]: テナント
+                - textbox "テナント" [ref=e2642]: ユニクロ
+              - generic [ref=e2643]:
+                - generic [ref=e2646]: 通貨
+                - generic [ref=e2647]:
+                  - combobox "通貨" [ref=e2648]:
+                    - option "米ドル"
+                    - option "ユーロ"
+                    - option "日本円" [selected]
+                    - option "タイ バーツ"
+                    - option "シンガポール ドル"
+                  - generic [ref=e2649]:
+                    - generic [ref=e2650]: 日本円
+                    - img [ref=e2653]
+          - generic [ref=e2659]:
+            - generic [ref=e2661]:
+              - heading "商品" [level=2] [ref=e2662]
+              - generic [ref=e2663]:
+                - generic [ref=e2666]: 商品を追加する
+                - generic [ref=e2667]:
+                  - textbox "商品を追加する" [ref=e2670]:
+                    - /placeholder: 商品を検索する
+                  - button "参照" [ref=e2672] [cursor=pointer]:
+                    - generic [ref=e2673]: 参照
+            - generic [ref=e2674]:
+              - separator [ref=e2675]
+              - table [ref=e2679]:
+                - rowgroup [ref=e2680]:
+                  - row "SKU 単価 数量 税率 金額" [ref=e2681]:
+                    - columnheader "SKU" [ref=e2682]:
+                      - generic [ref=e2683]: SKU
+                    - columnheader "単価" [ref=e2684]:
+                      - generic [ref=e2685]: 単価
+                    - columnheader "数量" [ref=e2686]:
+                      - generic [ref=e2687]: 数量
+                    - columnheader "税率" [ref=e2688]:
+                      - generic [ref=e2689]: 税率
+                    - columnheader "金額" [ref=e2690]:
+                      - generic [ref=e2691]: 金額
+                    - columnheader [ref=e2692]
+                - rowgroup [ref=e2693]:
+                  - row "product thumbnail TEST_E2E_20260622_GU_1905_NAVY_M 単価 ￥ 数量 1 税率 % ￥100" [ref=e2694]:
+                    - cell "product thumbnail TEST_E2E_20260622_GU_1905_NAVY_M" [ref=e2695]:
+                      - generic [ref=e2696]:
+                        - generic [ref=e2698]
+                        - paragraph [ref=e2703]: TEST_E2E_20260622_GU_1905_NAVY_M
+                    - cell "単価 ￥" [ref=e2704]:
+                      - generic [ref=e2706]:
+                        - generic [ref=e2709]: 単価
+                        - generic [ref=e2712]
+                    - cell "数量 1" [ref=e2715]:
+                      - generic [ref=e2717]:
+                        - generic [ref=e2720]: 数量
+                        - spinbutton "数量" [ref=e2724]: "1"
+                    - cell "税率 %" [ref=e2725]:
+                      - generic [ref=e2727]:
+                        - generic [ref=e2730]: 税率
+                        - generic [ref=e2733]
+                    - cell "￥100" [ref=e2736]:
+                      - paragraph [ref=e2737]: ￥100
+                    - cell [ref=e2738]:
+                      - button [ref=e2740] [cursor=pointer]:
+                        - img [ref=e2743]
+  - region "Notifications alt+T"
+  - alert [ref=e10]

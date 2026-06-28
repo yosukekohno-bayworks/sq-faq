@@ -1,0 +1,137 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[104905]<a />
+	コンテンツにスキップ
+[105044]<div />
+[104908]<button data-state=closed expanded=false />
+[104909]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[105061]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[104913]<a />
+		ホーム
+	[104914]<a />
+		商品管理
+	[104915]<a />
+		在庫管理
+	[104916]<a />
+		注文管理
+		[105112]<div />
+	[104917]<a />
+		顧客管理
+	[104918]<a />
+		発注管理
+	[104919]<a />
+		販売設定
+	[104920]<a />
+		販売価格
+	[104921]<a />
+		予約販売
+	[104922]<a />
+		販売上限
+	[104923]<a />
+		販売閾値
+	[104849]<a />
+		会計
+	[104854]<a />
+		分析
+	オペレーション
+	[104862]<a />
+		入荷管理
+		[105209]<div />
+	[104867]<a />
+		出荷管理
+		[105217]<div />
+	[104872]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[104878]<a />
+		ディスカウント
+	[104883]<a />
+		ポイント
+	[104888]<a />
+		会員ランク
+	販売チャネル
+	[104894]<a />
+		Shopify
+	[104898]<a />
+		OmnibusCore
+	[104924]<a />
+		スマレジ
+	[104925]<a />
+		リテールポータル
+	[104926]<a />
+		卸売
+	[104927]<a />
+		設定
+販売閾値。このページの準備が整いました
+販売閾値
+[104902]<a />
+	販売閾値ルールを作成する
+[105397]<tr />
+	[105398]<th />
+		[105399]<div />
+			[105401]<span />
+				[104936]<span />
+				[105404]<svg /> <!-- SVG content collapsed -->
+			[105406]<span />
+				[105407]<span />
+					すべてのアイテムを選択する
+	[105411]<span />
+		名前
+[104937]<tr id=16ce8d99-4b21-5e5d-96d9-f28b549e15b3_InventoryThresholdRule />
+	[105414]<td />
+		[104938]<div />
+			[105416]<span />
+				[104940]<span />
+				[105419]<svg /> <!-- SVG content collapsed -->
+			[105421]<span />
+				[105422]<span />
+					アイテムを選択する
+	[105424]<td />
+		[105425]<p />
+			TEST_FAQ_20260624_販売閾値_100908
+[104941]<tr id=706c3da3-623c-5456-839f-57c14cbb6b8d_InventoryThresholdRule />
+	[105427]<td />
+		[104942]<div />
+			[105429]<span />
+				[104944]<span />
+				[105432]<svg /> <!-- SVG content collapsed -->
+			[105434]<span />
+				[105435]<span />
+					アイテムを選択する
+	[105437]<td />
+		[105438]<p />
+			TEST_FAQ_DEEP_202606080340_販売閾値ルール
+[104945]<tr id=340afb6c-e184-5a32-8da0-5ea0a4c81ad5_InventoryThresholdRule />
+	[105440]<td />
+		[104946]<div />
+			[105442]<span />
+				[104948]<span />
+				[105445]<svg /> <!-- SVG content collapsed -->
+			[105447]<span />
+				[105448]<span />
+					アイテムを選択する
+	[105450]<td />
+		[105451]<p />
+			TEST_FAQ_販売閾値ルール_遷移確認_20260607
+[104949]<tr id=6f3b3f77-bc76-5026-aeb0-ad88f7e9efdc_InventoryThresholdRule />
+	[105453]<td />
+		[104950]<div />
+			[105455]<span />
+				[104952]<span />
+				[105458]<svg /> <!-- SVG content collapsed -->
+			[105460]<span />
+				[105461]<span />
+					アイテムを選択する
+	[105463]<td />
+		[105464]<p />
+			TEST_FAQ_販売閾値ルール
+[104954]<button id=previousURL aria-label=前へ disabled=true />
+[104955]<button id=nextURL aria-label=次へ disabled=true />
+[105483]<section aria-label=Notifications alt+T live=polite />
+[104956]<div id=PolarisPortalsContainer />
+[104958]<div id=clerk-components />

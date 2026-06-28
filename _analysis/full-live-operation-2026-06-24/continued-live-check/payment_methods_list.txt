@@ -1,0 +1,140 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/payment_methods",
+  "title": "SQ - 管理画面",
+  "h1": [
+    "決済方法"
+  ],
+  "buttons": [
+    "stack-ps-yosuke\n\n陽介 河野",
+    "すべて",
+    "その他のビュー"
+  ],
+  "links": [
+    "コンテンツにスキップ",
+    "ホーム",
+    "商品管理",
+    "在庫管理",
+    "注文管理",
+    "顧客管理",
+    "発注管理",
+    "販売設定",
+    "会計",
+    "分析",
+    "入荷管理",
+    "出荷管理",
+    "在庫依頼\n未完了の在庫依頼 3件\n3",
+    "ディスカウント",
+    "ポイント",
+    "会員ランク",
+    "Shopify",
+    "OmnibusCore",
+    "スマレジ",
+    "リテールポータル",
+    "卸売",
+    "設定",
+    "決済方法を作成"
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": "checkbox",
+      "value": "on"
+    }
+  ],
+  "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n決済方法。このページの準備が整いました\n\n決済方法\n決済方法を作成\nすべて\nすべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\t\nゲートウェイ\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_決済\n\n\t\n\ntest_faq_payment\n\n\t\ntest_gateway\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP_202606080340_決済\n\n\t\n\ntest_faq_deep_202606080340_payment\n\n\t\ntest_faq_deep_202606080340_gateway\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1740\n\n\t\n\nTEST_E2E_20260622_PAY_1740\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1755\n\n\t\n\nTEST_E2E_20260622_PAY_1755\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1830\n\n\t\n\nTEST_E2E_20260622_PAY_1830\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1845\n\n\t\n\nTEST_E2E_20260622_PAY_1845\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1905\n\n\t\n\nTEST_E2E_20260622_PAY_1905\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_20260624_決済_092214\n\n\t\n\nTEST_FAQ_20260624_PAY_092214\n\n\t\nmanual_test",
+  "delete_text_present": false
+}

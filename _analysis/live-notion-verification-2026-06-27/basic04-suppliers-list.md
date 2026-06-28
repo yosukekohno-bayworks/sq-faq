@@ -1,0 +1,242 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - status:
+            - paragraph [ref=e227]: 取引先。このページの準備が整いました
+          - generic [ref=e229]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: /admin/settings
+              - img [ref=e235]
+            - heading "取引先" [level=1] [ref=e239]
+            - generic [ref=e240]:
+              - button "インポート" [ref=e245] [cursor=pointer]:
+                - img [ref=e248]
+                - generic [ref=e251]: インポート
+              - link "取引先を作成" [ref=e254] [cursor=pointer]:
+                - /url: /admin/settings/suppliers/create
+                - img [ref=e257]
+                - generic [ref=e259]: 取引先を作成
+        - generic [ref=e264]:
+          - generic [ref=e270]:
+            - tablist [ref=e277]:
+              - tab "すべて" [selected] [ref=e278] [cursor=pointer]:
+                - generic [ref=e280]: すべて
+              - tab "アーカイブ" [ref=e281] [cursor=pointer]:
+                - generic [ref=e283]: アーカイブ
+            - button "検索と絞り込みの結果" [ref=e287] [cursor=pointer]:
+              - img [ref=e291]
+          - generic [ref=e296]:
+            - table [ref=e298]:
+              - rowgroup [ref=e299]:
+                - row "すべてのアイテムを選択する 名前 コード" [ref=e300]:
+                  - columnheader "すべてのアイテムを選択する" [ref=e301]:
+                    - generic [ref=e303] [cursor=pointer]
+                  - columnheader "名前" [ref=e309]:
+                    - generic [ref=e310]: 名前
+                  - columnheader "コード" [ref=e311]:
+                    - generic [ref=e312]: コード
+              - rowgroup [ref=e313]:
+                - row "アイテムを選択する TEST_E2E_20260622_取引先_1905 TEST_E2E_20260622_SUP_1905" [ref=e314] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e315]:
+                    - generic [ref=e317]
+                  - cell "TEST_E2E_20260622_取引先_1905" [ref=e323]:
+                    - paragraph [ref=e324]: TEST_E2E_20260622_取引先_1905
+                  - cell "TEST_E2E_20260622_SUP_1905" [ref=e325]:
+                    - paragraph [ref=e326]: TEST_E2E_20260622_SUP_1905
+                - row "アイテムを選択する TEST_E2E_20260622_取引先_1845 TEST_E2E_20260622_SUP_1845" [ref=e327] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e328]:
+                    - generic [ref=e330]
+                  - cell "TEST_E2E_20260622_取引先_1845" [ref=e336]:
+                    - paragraph [ref=e337]: TEST_E2E_20260622_取引先_1845
+                  - cell "TEST_E2E_20260622_SUP_1845" [ref=e338]:
+                    - paragraph [ref=e339]: TEST_E2E_20260622_SUP_1845
+                - row "アイテムを選択する TEST_E2E_20260622_取引先_1830 TEST_E2E_20260622_SUP_1830" [ref=e340] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e341]:
+                    - generic [ref=e343]
+                  - cell "TEST_E2E_20260622_取引先_1830" [ref=e349]:
+                    - paragraph [ref=e350]: TEST_E2E_20260622_取引先_1830
+                  - cell "TEST_E2E_20260622_SUP_1830" [ref=e351]:
+                    - paragraph [ref=e352]: TEST_E2E_20260622_SUP_1830
+                - row "アイテムを選択する TEST_E2E_20260622_取引先_1755 TEST_E2E_20260622_SUP_1755" [ref=e353] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e354]:
+                    - generic [ref=e356]
+                  - cell "TEST_E2E_20260622_取引先_1755" [ref=e362]:
+                    - paragraph [ref=e363]: TEST_E2E_20260622_取引先_1755
+                  - cell "TEST_E2E_20260622_SUP_1755" [ref=e364]:
+                    - paragraph [ref=e365]: TEST_E2E_20260622_SUP_1755
+                - row "アイテムを選択する TEST_E2E_20260622_取引先_1740 TEST_E2E_20260622_SUP_1740" [ref=e366] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e367]:
+                    - generic [ref=e369]
+                  - cell "TEST_E2E_20260622_取引先_1740" [ref=e375]:
+                    - paragraph [ref=e376]: TEST_E2E_20260622_取引先_1740
+                  - cell "TEST_E2E_20260622_SUP_1740" [ref=e377]:
+                    - paragraph [ref=e378]: TEST_E2E_20260622_SUP_1740
+                - row "アイテムを選択する TEST_FAQ_DEEP_202606080340_取引先 0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier" [ref=e379] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e380]:
+                    - generic [ref=e382]
+                  - cell "TEST_FAQ_DEEP_202606080340_取引先" [ref=e388]:
+                    - paragraph [ref=e389]: TEST_FAQ_DEEP_202606080340_取引先
+                  - cell "0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier" [ref=e390]:
+                    - paragraph [ref=e391]: 0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier
+                - row "アイテムを選択する TEST_FAQ_Supplier2 4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier" [ref=e392] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e393]:
+                    - generic [ref=e395]
+                  - cell "TEST_FAQ_Supplier2" [ref=e401]:
+                    - paragraph [ref=e402]: TEST_FAQ_Supplier2
+                  - cell "4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier" [ref=e403]:
+                    - paragraph [ref=e404]: 4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier
+                - row "アイテムを選択する TEST_FAQ_Supplier e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier" [ref=e405] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e406]:
+                    - generic [ref=e408]
+                  - cell "TEST_FAQ_Supplier" [ref=e414]:
+                    - paragraph [ref=e415]: TEST_FAQ_Supplier
+                  - cell "e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier" [ref=e416]:
+                    - paragraph [ref=e417]: e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier
+            - navigation "ページネーション" [ref=e421]:
+              - generic [ref=e424]:
+                - generic [ref=e425]:
+                  - button "前へ" [disabled]:
+                    - generic
+                - generic [ref=e426]:
+                  - button "次へ" [disabled]:
+                    - generic
+  - region "Notifications alt+T"
+  - alert [ref=e10]

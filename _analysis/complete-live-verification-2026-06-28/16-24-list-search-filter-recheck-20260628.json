@@ -1,0 +1,926 @@
+{
+  "generatedAt": "2026-06-28T01:39:52.485746+00:00",
+  "routes": {
+    "orders": {
+      "route": "/admin/orders",
+      "openSearch": {
+        "clicked": [
+          "検索と絞り込みの結果"
+        ],
+        "pressedF": true
+      },
+      "before": {
+        "label": "before-open-search",
+        "url": "https://www.sqstackstaging.com/admin/orders",
+        "h1": [
+          "注文管理"
+        ],
+        "headers": [
+          "すべてのアイテムを選択する",
+          "注文",
+          "制限",
+          "注文日時",
+          "顧客",
+          "チャネル",
+          "店舗",
+          "アイテム",
+          "合計",
+          "決済状況",
+          "出荷状況",
+          "返品状況",
+          "タグ"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ",
+          "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+        ],
+        "buttons": [
+          {
+            "text": "メニューを切り替える",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "メニューを閉じる",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "すべて",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "ariaLabel": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": "false"
+          },
+          {
+            "text": "すべて",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "ariaLabel": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": "false"
+          },
+          {
+            "text": "検索と絞り込みの結果",
+            "ariaLabel": "検索と絞り込みの結果",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "前へ",
+            "ariaLabel": "前へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "次へ",
+            "ariaLabel": "次へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          }
+        ],
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          }
+        ],
+        "hasSearchResultButton": false,
+        "hasAddFilter": false,
+        "hasSaveView": false,
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+      },
+      "after": {
+        "label": "after-open-search",
+        "url": "https://www.sqstackstaging.com/admin/orders",
+        "h1": [
+          "注文管理"
+        ],
+        "headers": [
+          "すべてのアイテムを選択する",
+          "注文",
+          "制限",
+          "注文日時",
+          "顧客",
+          "チャネル",
+          "店舗",
+          "アイテム",
+          "合計",
+          "決済状況",
+          "出荷状況",
+          "返品状況",
+          "タグ"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ",
+          "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+        ],
+        "buttons": [
+          {
+            "text": "メニューを切り替える",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "メニューを閉じる",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "クリア",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "キャンセル",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "名前を付けて保存",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "絞り込みを追加",
+            "ariaLabel": "絞り込みを追加",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "前へ",
+            "ariaLabel": "前へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "次へ",
+            "ariaLabel": "次へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          }
+        ],
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "text",
+            "label": "注文番号で検索する",
+            "placeholder": "注文番号で検索する",
+            "value": "F",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          }
+        ],
+        "hasSearchResultButton": false,
+        "hasAddFilter": true,
+        "hasSaveView": true,
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 注文番号で検索する クリア キャンセル 名前を付けて保存 絞り込みを追加 すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+      },
+      "filterMenu": {
+        "label": "after-click-add-filter",
+        "url": "https://www.sqstackstaging.com/admin/orders",
+        "h1": [
+          "注文管理"
+        ],
+        "headers": [
+          "すべてのアイテムを選択する",
+          "注文",
+          "制限",
+          "注文日時",
+          "顧客",
+          "チャネル",
+          "店舗",
+          "アイテム",
+          "合計",
+          "決済状況",
+          "出荷状況",
+          "返品状況",
+          "タグ"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ",
+          "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+        ],
+        "buttons": [
+          {
+            "text": "メニューを切り替える",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "メニューを閉じる",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "クリア",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "キャンセル",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "名前を付けて保存",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "絞り込みを追加",
+            "ariaLabel": "絞り込みを追加",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "前へ",
+            "ariaLabel": "前へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "次へ",
+            "ariaLabel": "次へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "テナント",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "タグ付けされている",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "タグ付けされていません",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "チャネル",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "text",
+            "label": "注文番号で検索する",
+            "placeholder": "注文番号で検索する",
+            "value": "F",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          }
+        ],
+        "hasSearchResultButton": false,
+        "hasAddFilter": true,
+        "hasSaveView": true,
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 注文番号で検索する キャンセル 名前を付けて保存 絞り込みを追加 すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS テナント タグ付けされている タグ付けされていません チャネル"
+      }
+    },
+    "orderReturns": {
+      "route": "/admin/order_returns",
+      "openSearch": {
+        "clicked": [
+          "検索と絞り込みの結果"
+        ],
+        "pressedF": true
+      },
+      "before": {
+        "label": "before-open-search",
+        "url": "https://www.sqstackstaging.com/admin/order_returns",
+        "h1": [
+          "返品"
+        ],
+        "headers": [
+          "すべてのアイテムを選択する",
+          "返品",
+          "返品状況",
+          "交換出荷状況",
+          "作成日時"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時",
+          "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13"
+        ],
+        "buttons": [
+          {
+            "text": "メニューを切り替える",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "メニューを閉じる",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "ariaLabel": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": "false"
+          },
+          {
+            "text": "検索と絞り込みの結果",
+            "ariaLabel": "検索と絞り込みの結果",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "前へ",
+            "ariaLabel": "前へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "次へ",
+            "ariaLabel": "次へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          }
+        ],
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          }
+        ],
+        "hasSearchResultButton": false,
+        "hasAddFilter": false,
+        "hasSaveView": false,
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 返品。このページの準備が整いました 返品 すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時 アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13"
+      },
+      "after": {
+        "label": "after-open-search",
+        "url": "https://www.sqstackstaging.com/admin/order_returns",
+        "h1": [
+          "返品"
+        ],
+        "headers": [
+          "すべてのアイテムを選択する",
+          "返品",
+          "返品状況",
+          "交換出荷状況",
+          "作成日時"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時",
+          "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13"
+        ],
+        "buttons": [
+          {
+            "text": "メニューを切り替える",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "メニューを閉じる",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "絞り込みを追加",
+            "ariaLabel": "絞り込みを追加",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "キャンセル",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "前へ",
+            "ariaLabel": "前へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "次へ",
+            "ariaLabel": "次へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          }
+        ],
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          }
+        ],
+        "hasSearchResultButton": false,
+        "hasAddFilter": true,
+        "hasSaveView": false,
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 返品。このページの準備が整いました 返品 絞り込みを追加 キャンセル すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時 アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13"
+      },
+      "filterMenu": {
+        "label": "after-click-add-filter",
+        "url": "https://www.sqstackstaging.com/admin/order_returns",
+        "h1": [
+          "返品"
+        ],
+        "headers": [
+          "すべてのアイテムを選択する",
+          "返品",
+          "返品状況",
+          "交換出荷状況",
+          "作成日時"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時",
+          "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13"
+        ],
+        "buttons": [
+          {
+            "text": "メニューを切り替える",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "メニューを閉じる",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "絞り込みを追加",
+            "ariaLabel": "絞り込みを追加",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "キャンセル",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "前へ",
+            "ariaLabel": "前へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "次へ",
+            "ariaLabel": "次へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "キャンセル",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "交換出荷",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべてのアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          },
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "アイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          }
+        ],
+        "hasSearchResultButton": false,
+        "hasAddFilter": true,
+        "hasSaveView": false,
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 返品。このページの準備が整いました 返品 絞り込みを追加 キャンセル すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時 アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13 キャンセル 交換出荷"
+      }
+    },
+    "saleChangeLineItems": {
+      "route": "/admin/sale_change_line_items",
+      "openSearch": {
+        "clicked": [],
+        "pressedF": true
+      },
+      "before": {
+        "label": "before-open-search",
+        "url": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+        "h1": [
+          "売上実績"
+        ],
+        "headers": [
+          "計上日",
+          "テナント",
+          "作成元",
+          "店舗",
+          "商品コード",
+          "SKU",
+          "数量",
+          "売上",
+          "税金",
+          "作成日時"
+        ],
+        "rows": [
+          "計上日 テナント 作成元 店舗 商品コード SKU 数量 売上 税金 作成日時",
+          "2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M -1 -￥1,990 ￥0 2026年06月28日 10:19",
+          "2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M 1 ￥1,990 ￥0 2026年06月28日 10:11"
+        ],
+        "buttons": [
+          {
+            "text": "メニューを切り替える",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "メニューを閉じる",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "エクスポート",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他の操作",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "エクスポート",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "前へ",
+            "ariaLabel": "前へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "次へ",
+            "ariaLabel": "次へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          }
+        ],
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべての2のアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          }
+        ],
+        "hasSearchResultButton": false,
+        "hasAddFilter": false,
+        "hasSaveView": false,
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 売上実績 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 売上実績。このページの準備が整いました 売上実績 エクスポート 売上実績を作成する 計上日 テナント 作成元 店舗 商品コード SKU 数量 売上 税金 作成日時 2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M -1 -￥1,990 ￥0 2026年06月28日 10:19 2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M 1 ￥1,990 ￥0 2026年06月28日 10:11"
+      },
+      "after": {
+        "label": "after-open-search",
+        "url": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+        "h1": [
+          "売上実績"
+        ],
+        "headers": [
+          "計上日",
+          "テナント",
+          "作成元",
+          "店舗",
+          "商品コード",
+          "SKU",
+          "数量",
+          "売上",
+          "税金",
+          "作成日時"
+        ],
+        "rows": [
+          "計上日 テナント 作成元 店舗 商品コード SKU 数量 売上 税金 作成日時",
+          "2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M -1 -￥1,990 ￥0 2026年06月28日 10:19",
+          "2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M 1 ￥1,990 ￥0 2026年06月28日 10:11"
+        ],
+        "buttons": [
+          {
+            "text": "メニューを切り替える",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "メニューを閉じる",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "エクスポート",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他の操作",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "エクスポート",
+            "ariaLabel": "",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "前へ",
+            "ariaLabel": "前へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          },
+          {
+            "text": "次へ",
+            "ariaLabel": "次へ",
+            "disabled": false,
+            "ariaDisabled": "true"
+          }
+        ],
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "checkbox",
+            "label": "すべての2のアイテムを選択する",
+            "placeholder": "",
+            "value": "on",
+            "options": []
+          }
+        ],
+        "hasSearchResultButton": false,
+        "hasAddFilter": false,
+        "hasSaveView": false,
+        "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 売上実績 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 売上実績。このページの準備が整いました 売上実績 エクスポート 売上実績を作成する 計上日 テナント 作成元 店舗 商品コード SKU 数量 売上 税金 作成日時 2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M -1 -￥1,990 ￥0 2026年06月28日 10:19 2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M 1 ￥1,990 ￥0 2026年06月28日 10:11"
+      },
+      "filterMenu": null
+    }
+  },
+  "errors": []
+}

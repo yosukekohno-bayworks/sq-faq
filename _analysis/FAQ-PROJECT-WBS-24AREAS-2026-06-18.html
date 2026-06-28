@@ -1,0 +1,1365 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SQ FAQ制作プロジェクト 標準24分類WBS 7月末初回納品版 2026-06-18</title>
+  <style>
+    :root {
+      --bg: #f6f7f8;
+      --surface: #ffffff;
+      --surface-2: #eef3f1;
+      --ink: #17211f;
+      --muted: #65736f;
+      --line: #d8e0dd;
+      --teal: #0f766e;
+      --blue: #2563eb;
+      --green: #2f7d32;
+      --amber: #9a5a00;
+      --red: #b42318;
+      --purple: #6d28d9;
+      --gray: #53615d;
+      --shadow: 0 1px 2px rgba(23, 33, 31, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "YuGothic", "Noto Sans JP", "Segoe UI", sans-serif;
+      font-feature-settings: "palt";
+      line-height: 1.75;
+      color: var(--ink);
+      background: var(--bg);
+    }
+
+    body {
+      margin: 0;
+      text-size-adjust: 100%;
+      overflow-wrap: anywhere;
+    }
+
+    a {
+      color: var(--teal);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .wrap {
+      width: min(1220px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 40px 0 28px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--teal);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 1120px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 1040px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .meta {
+      padding: 14px 16px;
+      background: var(--surface-2);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .meta b {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(8px);
+    }
+
+    .nav-row {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+
+    .nav-row a {
+      flex: 0 0 auto;
+      padding: 7px 11px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: var(--surface);
+      text-decoration: none;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    main {
+      padding: 28px 0 56px;
+    }
+
+    section {
+      margin: 28px 0;
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      scroll-margin-top: 68px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
+      line-height: 1.45;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 24px 0 10px;
+      font-size: 18px;
+      line-height: 1.55;
+      letter-spacing: 0;
+    }
+
+    p { margin: 0 0 12px; }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 16px 0 4px;
+    }
+
+    .summary-grid > div,
+    .note,
+    .phase-card {
+      padding: 15px 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+    }
+
+    .summary-grid strong,
+    .phase-card strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .note {
+      border-left: 4px solid var(--teal);
+      margin-top: 14px;
+    }
+
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      margin: 14px 0 6px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 980px;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      padding: 10px 12px;
+      vertical-align: top;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+    }
+
+    th {
+      background: var(--surface-2);
+      color: #25322e;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.6;
+      white-space: nowrap;
+      border: 1px solid currentColor;
+    }
+
+    .b-done { color: var(--green); background: #eff8ef; }
+    .b-partial { color: var(--amber); background: #fff7e8; }
+    .b-link { color: var(--blue); background: #eff5ff; }
+    .b-todo { color: var(--red); background: #fff1f0; }
+    .b-doc { color: var(--purple); background: #f6f0ff; }
+    .b-check { color: var(--gray); background: #f3f5f4; }
+
+    .phase-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .gantt-wrap {
+      width: 100%;
+      overflow-x: auto;
+      margin: 14px 0 18px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+    }
+
+    .gantt {
+      min-width: 1120px;
+      display: grid;
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    .gantt-row {
+      display: grid;
+      grid-template-columns: 240px minmax(820px, 1fr);
+      gap: 10px;
+      align-items: center;
+    }
+
+    .gantt-label {
+      min-height: 32px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
+    }
+
+    .gantt-label.child {
+      padding-left: 18px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .gantt-scale,
+    .gantt-track {
+      display: grid;
+      grid-template-columns: repeat(9, minmax(88px, 1fr));
+      gap: 4px;
+    }
+
+    .gantt-scale div {
+      padding: 5px 6px;
+      border-radius: 6px;
+      background: var(--surface-2);
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .gantt-track {
+      min-height: 32px;
+      align-items: center;
+      background:
+        repeating-linear-gradient(
+          to right,
+          transparent 0,
+          transparent calc(11.111% - 1px),
+          rgba(216, 224, 221, 0.9) calc(11.111% - 1px),
+          rgba(216, 224, 221, 0.9) 11.111%
+        );
+      border-radius: 6px;
+    }
+
+    .gantt-bar {
+      min-height: 26px;
+      display: flex;
+      align-items: center;
+      padding: 4px 9px;
+      border-radius: 7px;
+      color: #fff;
+      font-weight: 700;
+      line-height: 1.35;
+      white-space: nowrap;
+      box-shadow: var(--shadow);
+    }
+
+    .gantt-bar.child {
+      min-height: 22px;
+      font-size: 12px;
+      opacity: 0.92;
+    }
+
+    .phase-1 { background: var(--teal); }
+    .phase-2 { background: var(--blue); }
+    .phase-3 { background: var(--purple); }
+    .phase-4 { background: var(--green); }
+
+    .week {
+      border-left: 4px solid var(--teal);
+    }
+
+    .week h3 {
+      margin-top: 0;
+    }
+
+    ul,
+    ol {
+      margin: 8px 0 0;
+      padding-left: 1.2em;
+    }
+
+    li { margin: 3px 0; }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .source-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    code {
+      padding: 1px 4px;
+      border-radius: 4px;
+      background: #edf1f0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.95em;
+    }
+
+    @media (max-width: 860px) {
+      .meta-grid,
+      .summary-grid,
+      .phase-grid,
+      .gantt-row,
+      .source-list {
+        grid-template-columns: 1fr;
+      }
+
+      section { padding: 18px; }
+      table { min-width: 880px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <p class="eyebrow">SQ FAQ PROJECT WBS / JULY-END DELIVERY / 2026-06-18</p>
+      <h1>SQ FAQ制作プロジェクト 標準24分類WBSと7月末初回納品計画</h1>
+      <p class="lead">
+        Stack社から依頼されたSQ FAQ制作に向けて、SQの標準機能・データ構造・実装状態を7月末初回納品として整理し、毎週の定例に提出できる成果物へ落とすためのWBS。
+        7月末は「理解2週間 + ナレッジ構成/導線設計2週間 + 下書き構築2週間」として、採寸を10番に含めた標準24分類のNotion下書き、コア記事初稿までを含める。
+        「画面がある」と「機能が完成している」を分けて扱う。
+      </p>
+      <div class="meta-grid">
+        <div class="meta"><b>対象期間</b>2026-06-18〜2026-07-31（8月以降はバックログ）</div>
+        <div class="meta"><b>提出先</b>Stack社 定例レビュー</div>
+        <div class="meta"><b>分類数</b>標準24分類（採寸は10番、会計・売上実績・分析は24番）</div>
+        <div class="meta"><b>確認姿勢</b>最新実機ログ / 連携待ち / TODO / 資料由来を明記</div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrap nav-row">
+      <a href="#principles">基本方針</a>
+      <a href="#status">実装状態</a>
+      <a href="#latest-check">最新補正</a>
+      <a href="#phase-gantt">Phaseガント</a>
+      <a href="#areas">分類体系</a>
+      <a href="#order">整理順</a>
+      <a href="#wbs">7月末WBS</a>
+      <a href="#weekly">毎週提出物</a>
+      <a href="#follow">確認手順</a>
+      <a href="#definition">完了条件</a>
+      <a href="#sources">根拠</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section id="principles">
+      <h2>基本方針</h2>
+      <div class="summary-grid">
+        <div>
+          <strong>1. FAQ量産より先に製品理解</strong>
+          操作手順だけでなく、どのデータを先に作るか、どの業務で使うか、何に影響するかをFAQ設計前に整理する。
+        </div>
+        <div>
+          <strong>2. 標準分類はSQ標準機能だけに絞る</strong>
+          1〜24をSQ標準機能/標準画面の理解として扱う。未実装/TODO画面や顧客別運用差分は標準分類WBSに入れず、該当分類の残課題または別資料で管理する。
+        </div>
+        <div>
+          <strong>3. 実装状態を見える化する</strong>
+          stagingには途中実装やTODO画面があるため、記事化の前に「完成寄り」「一部確認」「連携待ち」「TODO表示」を付ける。
+        </div>
+      </div>
+      <div class="note">
+        このWBSは、Stack社へ週次提出する制作計画と確認論点の管理表である。各週で「調査する」「実機で確かめる」「定例で確認する」「成果物へ落とす」を繰り返す。
+        根拠は最新の実機操作ログと旧検証ログ照合結果を優先し、初期偵察メモは補助資料として扱う。
+      </div>
+    </section>
+
+    <section id="status">
+      <h2>実装状態の表記</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>表記</th>
+              <th>意味</th>
+              <th>FAQでの扱い</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>画面があり、一覧・作成・編集・削除・状態確認の多くを実機で確認対象にできる。</td>
+              <td>標準機能として記事化する。ただし実データ依存の操作は注記する。</td>
+            </tr>
+            <tr>
+              <td><span class="badge b-partial">一部確認</span></td>
+              <td>画面やボタンはあるが、実データ不足・状態不足・一部操作不可で最後まで確認できない。</td>
+              <td>記事化するが「確認済み範囲」と「未確認範囲」を本文に分ける。</td>
+            </tr>
+            <tr>
+              <td><span class="badge b-link">連携待ち</span></td>
+              <td>SQ側の設定画面はあるが、Shopify/WMS/POS/Recustomer等の外部接続が必要。</td>
+              <td>SQ側で設定できることまで書き、外部側の挙動は連携環境待ちにする。</td>
+            </tr>
+            <tr>
+              <td><span class="badge b-todo">TODO表示</span></td>
+              <td>メニューやページはあるが、画面内がTODOで機能として未実装に近い。</td>
+              <td>通常FAQには入れない。準備中/対象外として管理する。</td>
+            </tr>
+            <tr>
+              <td><span class="badge b-doc">資料由来</span></td>
+              <td>実機の標準メニューではなく、顧客別資料・Backlog・議事録から必要になる整理項目。</td>
+              <td>標準FAQとは分け、顧客別運用差分・個別連携資料として扱う。</td>
+            </tr>
+            <tr>
+              <td><span class="badge b-check">要確認</span></td>
+              <td>画面表示、仕様、データ反映、用語の意味に矛盾や不明点がある。</td>
+              <td>定例で確認し、確定するまで断定表現を避ける。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="latest-check">
+      <h2>最新検証後の補正点</h2>
+      <p class="small">2026-06-18夜〜2026-06-19の照合結果をWBSに反映するための注意点。FAQ本文ではここを断定/注記の基準にする。</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>対象</th>
+              <th>現在の扱い</th>
+              <th>WBS/FAQでの注意</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>権限グループ / アプリ権限</td>
+              <td>現行UIは38リソース × 閲覧/編集 = 76権限。旧記録の35リソース/70権限は古い。</td>
+              <td>権限の記事・データ事典では76権限を正にする。</td>
+            </tr>
+            <tr>
+              <td>基本マスタ</td>
+              <td>2026-06-27にロケーション作成、アーカイブ、解除、再アーカイブ、ロケーショングループ/取引先/ブランド/決済方法/販売員の作成必須エラーを実機確認済み。</td>
+              <td>ロケーションはアーカイブ後も一覧「すべて」に残り、公開=非公開、アーカイブ=アーカイブ済みになる。解除後も公開は非公開のまま。店舗受取ルール、ロケーショングループ、販売員の候補にはアーカイブ済みロケーションが出る画面がある。2026-06-28に、店舗受取ルール候補は場所種別=店舗で絞られ、店舗受取ON/OFFでは絞り込まれないこと、ポイント利用種別 `金種` を選択して保存でき詳細にも残ることを確認済み。`金種` の実注文/ポイント利用時の動作差はデータ待ち。</td>
+            </tr>
+            <tr>
+              <td>発注・仕入</td>
+              <td>発注伝票の作成、発注、キャンセル、発注済み後の入荷指示作成、入荷完了、在庫反映まで実行済み。2026-06-27に #IP-1007 から #II-1026 を作成し、#IP-1008 をキャンセル済みにした。2026-06-28に #IP-1009 から #II-1027 を作成後、入荷完了前の発注キャンセルも確認した。#IP-1010 で下書き通貨を USD から EUR へ変更保存でき、金額表示が $100.00 から €100.00 に変わること、#IP-1013 で発注済み後は通貨select/保存ボタンがないこと、#IP-1013/#IP-1007 の詳細・その他操作・直接 /update / /edit に再編集/差し戻し導線がないこと、使用済み取引先は削除されずすべて/アーカイブ両タブと発注フォーム候補に残ることも確認済み。</td>
+              <td>発注だけでは入荷指示・入荷予定は増えない。発注済み後の「入荷指示を作成する」から入荷先ロケーションを指定して作成する。入荷完了前なら発注伝票をキャンセルでき、紐づく入荷指示は入荷キャンセルになる。入荷完了後は発注伝票キャンセルがdisabled。発注済み伝票を下書きへ差し戻して再編集する導線は現行管理画面では確認できない。</td>
+            </tr>
+            <tr>
+              <td>販売閾値</td>
+              <td>SKU別閾値削除は実行可能。削除確定直後の画面には行が残るが、詳細を再読み込みすると行は消える。</td>
+              <td>削除後はリロードして反映確認する、と注記する。</td>
+            </tr>
+            <tr>
+              <td>外部チャネル注文の在庫引当・出荷指示、外部チャネル返品、実ポイント反映</td>
+              <td>内部GraphQL検証注文で顧客・返品・売上実績反映、DECREMENT注文で在庫引当/出荷指示生成、交換返品完了後の交換出荷生成、売上実績CSV実ファイルは確認済み。外部チャネル連携/ポイント実績が必要な範囲は残る。</td>
+              <td>画面項目や内部GraphQLで確認済みの反映は説明してよいが、外部チャネル/Recustomer/実ポイントの反映は未検証として分ける。</td>
+            </tr>
+            <tr>
+              <td>初期偵察メモ</td>
+              <td><code>00-admin-sitemap.md</code> は初期偵察。最新正本ではない。</td>
+              <td><code>CODEX-OPS...</code> と <code>CODEX-LEGACY...</code> を優先する。</td>
+            </tr>
+            <tr>
+              <td>Notion/FAQ突合</td>
+              <td>分類ページに概念説明があっても、FAQ・作業別記事にだけある直接URLや作成フォームURLが抜ける場合がある。</td>
+              <td>W5/W6でFAQ/タスク/_supportと04-notionをURL単位で突合し、SQ標準機能に関する抜けはNotion下書きへ戻す。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="areas">
+      <h2>分類体系の確定版</h2>
+      <p class="small">1〜24はSQ標準機能/標準画面の理解分類として扱う。採寸は10番、会計・売上実績・分析は24番に置く。未実装/TODO画面や顧客別運用差分は標準分類WBSに入れず、該当分類の残課題または別資料で管理する。</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>分類</th>
+              <th>主な対象</th>
+              <th>状態</th>
+              <th>学習ゴール</th>
+              <th>FAQでの扱い</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>SQ全体・共通導線</td>
+              <td>ホーム、左メニュー、検索、一覧、詳細、作成、CSV/PDF入口</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>SQが何を管理するシステムか、どの業務領域を持つか説明できる。</td>
+              <td>はじめに、全体マップ、新任運用担当者向け導入に入れる。</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>アカウント・権限</td>
+              <td>管理メンバー、権限グループ、ユーザー権限</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>38リソース/76権限で、誰が何を操作できるか説明できる。</td>
+              <td>設定FAQ、初期設定、トラブルシュートに入れる。旧35/70権限の記録は使わない。2026-06-28に管理メンバーは権限グループ未設定でも保存可、未設定時は適用権限0件、組織除外は確認ダイアログ後に一覧から消え、同メール再追加可まで確認済み。</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>組織・通知</td>
+              <td>テナント、通知用メールアドレス、組織ID</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>事業部/ブランド/運用単位と通知先の関係を説明できる。</td>
+              <td>セットアップガイド、設定データ事典に入れる。2026-06-28に、組織IDは読み取り専用input表示＋コピー後クリップボード反映、テナントIDは詳細画面に表示されるが編集欄/コピー導線なしまで確認済み。</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>基本マスタ</td>
+              <td>ロケーション、ロケーショングループ、ブランド、取引先、決済方法、販売員</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>他画面の選択肢になる基礎データをどの順で作るか説明できる。</td>
+              <td>初期設定、データ依存関係、用語FAQの中心にする。2026-06-27に、ロケーションのアーカイブ/解除/再アーカイブ後の一覧・詳細・候補表示、ロケーショングループ作成時ロケーション必須、取引先コード必須、販売員ロケーション必須、ブランド一覧にアーカイブタブなし、決済方法必須エラーまで実機確認済み。2026-06-28に、ロケーション場所種別が `倉庫` / `店舗` の2種のみ（内部値 `WAREHOUSE` / `RETAIL`）、ポイント利用種別 `金種` の保存・詳細反映、決済方法のゲートウェイ自由入力保存、チェックボックスON保存、編集画面にゲートウェイ欄なしも確認済み。</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>商品・SKU</td>
+              <td>商品、商品コード、商品タイプ、製造元、バリエーション、SKU</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>商品とSKUの違い、在庫や価格がSKU単位になる理由を説明できる。</td>
+              <td>商品管理、CSV登録、カタログ、在庫の前提として扱う。2026-06-27に、非公開作成→アーカイブ済み、解除→下書き、再アーカイブ→アーカイブ済み、SKU作成後の一覧「0個→1個のバリエーション」、削除後の商品/バリエーションURLエラーまで実機確認済み。2026-06-28に、既存商品詳細では既存オプション軸の値追加のみ表示され、新規軸追加導線がないこと、製造元がカタログ自動追加ルールの判定に使われることを確認済み。バリエーション作成フォームでは `在庫を追跡する` と `在庫切れの場合でも販売を続ける` は初期OFF、`配送を必須にする` は初期ON。外部注文/出荷での実効は注文・チャネル接続待ち。</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>カタログ</td>
+              <td>カタログ、カタログ商品、自動追加条件、各設定で参照する商品集合</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>カタログは出品範囲そのものではなく、商品を束ねる汎用グループであることを説明できる。</td>
+              <td>販売チャネル、リテールポータル、外部在庫同期など、カタログを参照する設定側と関連付ける。商品管理 > 店舗受取の追加ダイアログにはカタログ選択項目がなく、商品側の受取対象はSKU直接指定。2026-06-28に、現行SKUタブの列は `商品` / `品番(SKU)` の2列で、旧SKU一覧URLは対象カタログで存在しないこと、同名カタログを作成できること、カタログ詳細から削除できること、自動追加ルールが新規一致商品に効くこと、ルール作成前からある一致商品は即時一括遡及されず、商品詳細で保存し直すと追加されること、ルール削除後も追加済み商品が残ること、同一項目/異種項目の複数ルールはOR条件として動くこと、前方一致だけでは追加されないこと、カンマ区切りと `*` は文字列扱いであることを確認済み。カタログ商品CSVは `product_code,command` 形式で `NEW` 追加・`DELETE` 削除を実行でき、どちらも成功完了、検証用商品・カタログ削除済み。</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>店舗受取商品</td>
+              <td>商品管理側の店舗受取対象SKU</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>どの商品/SKUを店舗受取対象にするか、追加・重複防止・解除まで説明できる。</td>
+              <td>店舗受取は商品軸と店舗軸に分けて説明する。2026-06-27に商品側では `TEST_E2E_20260622_GU_1905_NAVY_M` の追加20→21件、重複追加なし、削除21→20件、削除後の再候補表示を実機確認済み。2026-06-28に、チェックしたSKUだけ追加され未チェックSKUは追加されないこと、追加ダイアログ内にカタログ選択項目がないことも確認済み。</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>カスタムデータ</td>
+              <td>メタフィールド定義、対象オブジェクト、namespace/key、型</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>標準項目にない追加情報をどこに持たせるか説明できる。</td>
+              <td>設定FAQ、Shopify/API連携、CSV運用の前提として入れる。2026-06-28に、対象オブジェクトはURL/タブ単位で分かれフォーム内に複数同時選択UIがないこと、DOM上は minlength=4 でも `abc.def` の3文字識別子で保存できること、作成済み定義の編集導線がないことを実機確認済み。</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>翻訳</td>
+              <td>翻訳、翻訳ルール、翻訳データ、AIプロンプト</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>商品系データを多言語化するルールと翻訳データの管理を説明できる。</td>
+              <td>商品データ拡張、表示情報の管理として扱う。採寸は10で別管理する。2026-06-28に、翻訳ルール詳細の親プロンプトtextareaはreadonly、カスタムプロンプトは編集可能、翻訳トップ・ルール一覧・作成フォーム・詳細画面の確認範囲に手動実行/再実行/翻訳/生成ボタンがないことを再確認済み。同一言語（英語）の翻訳ルールは複数作成可能で、自動生成チェックはON/OFFどちらも保存後詳細で保持されることも確認済み。実際の翻訳生成タイミング・反映結果・同一言語ルール間の優先順位は、生成済みデータまたは連携環境が必要な残課題。</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>採寸</td>
+              <td>採寸ルール、採寸単位、商品採寸項目</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>アパレル特有のサイズ情報テンプレートをどこで管理するか説明できる。</td>
+              <td>翻訳とは別画面・別データの標準分類として扱う。2026-06-28に、採寸ルール詳細の `ルール名` / `採寸単位` / `採寸項目1〜5` がreadonlyであること、商品詳細2件（`486125` / `482787`）側に採寸・測定・measurement系の入力/選択項目がなく、採寸ルール紐づけUIがないことを再確認済み。</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>価格・販売制御</td>
+              <td>販売価格、予約販売、販売上限、販売閾値</td>
+              <td><span class="badge b-done">完成寄り</span> <span class="badge b-check">要確認</span></td>
+              <td>価格と販売可能数量をどう制御するか説明できる。チャネル適用時の実挙動は分けて扱う。</td>
+              <td>販売設定、在庫不足対策、予約販売FAQに入れる。2026-06-27に販売価格ルール作成→通常価格一覧遷移、通常価格登録、通常価格削除後のリロード反映、販売価格ルール本体削除を実機確認済み。2026-06-28に、販売閾値ルール作成、SKU別閾値3の保存、SKU別閾値削除後のリロード反映、ルール本体削除まで再確認。閾値割れ時の販売停止・通知などの実効はUI説明なしで接続環境待ち。販売上限作成フォームは販売上限ルール名のみ入力欄がありチャネル候補なし、空保存で `販売上限ルール名を入力してください` / `チャネルを選択してください` が出ることを再確認。通常価格は税込空欄で保存でき一覧では税込価格が `￥0` 表示、セール価格は税込/終了日時空欄で保存可能、詳細ではどちらも `-` 表示、後片付けは削除ではなく無効化で巻き戻し不可、無効化後は一覧から消えることを確認済み。</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>在庫状態・在庫数</td>
+              <td>販売可能、引当済み、取置中、手持ち、ロケーション別在庫</td>
+              <td><span class="badge b-done">完成寄り</span> <span class="badge b-partial">一部確認</span></td>
+              <td>在庫区分の意味と、調整/取置の実行前後でどの数値が変わるか説明できる。</td>
+              <td>在庫FAQの最重要項目として扱う。2026-06-27実機で、調整伝票 #IA-1013 は販売可能/手持ちが +2、取置伝票 #IR-1009 は保存時に販売可能 -1・取置中 +1、処理済み時に販売可能 +1・取置中 -1 を確認済み。さらに #IM-1025 で在庫依頼→移動→出荷→入荷を通し、移動元は作成時に販売可能9→8・取置中0→1、出荷時に取置中1→0・手持ち9→8、移動先は入荷完了時に販売可能1→2・手持ち1→2を確認済み。2026-06-28に、破損・検品・予備は表示列として存在するが管理画面UIから直接振り替える導線なしを確認済み。</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>在庫伝票</td>
+              <td>移動伝票、調整伝票、取置伝票</td>
+              <td><span class="badge b-done">完成寄り</span> <span class="badge b-partial">一部確認</span></td>
+              <td>在庫を変えるための伝票と、作成後のステータス表示・操作ボタン・一覧表示・在庫反映の違いを説明できる。</td>
+              <td>在庫操作、取り寄せ販売、在庫事故防止の中心にする。2026-06-27実機で、調整理由は `廃棄` / `紛失` / `在庫差異` / `その他` の4択で、理由未選択でも保存/実行可能。調整伝票は未実施から実施済み、取置伝票は未処理から処理済みへの遷移と在庫反映を確認済み。移動伝票 #IM-1025 は未完了/出荷待ちから、#IO-1025 出荷完了・#II-1025 入荷完了を経て、親伝票も成功 完了/入荷完了になることを確認済み。2026-06-28に、調整伝票から破損・検品・予備は直接指定できないことを再確認済み。#IM-1027/#II-1029 では予定2に対して入荷1→入荷2を複数回登録し、累計3の過入荷にできるが、自動完了せず「完了に更新する」→「完了にする」で親伝票まで成功 完了/入荷完了になることを確認済み。取置伝票 #IR-1011 では作成フォーム12明細・数量入力12件を保存し、処理済み化まで完了。詳細の商品明細テーブルは複数伝票で同じ34行が表示されたため、伝票固有明細として案内しない。</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>入出荷・在庫依頼</td>
+              <td>入荷管理、出荷管理、在庫依頼、確保済み</td>
+              <td><span class="badge b-partial">一部確認</span></td>
+              <td>移動起点の入荷/出荷実績、部分入荷、過入荷、出荷前入荷を説明できる。</td>
+              <td>業務フロー図、作業別手順、ステータスFAQに入れる。部分引当の確保済み一覧挙動・出荷指示引当待ち・リクエスト先実質必須は2026-06-20実機確定済み。2026-06-27 #IM-1025 で、確保済み一覧からの一括移動伝票作成、対象行消滅、在庫依頼詳細への移動伝票リンク追加、#IO-1025/#II-1025 の完了タブ移動まで確認済み。2026-06-28再確認では確保済み一覧にキーワード検索・絞り込み追加・ロケーションフィルタは表示されないため、対象外行がある状態で一括作成を実行しない案内に修正済み。完了後は #IM-1025 の「キャンセル」がdisabled、#IO-1025 の出荷実績登録は aria-disabled、#II-1025 の一括受領/入荷実績登録は href なし disabled リンクで再実行不可。2026-06-28 #IM-1026/#IO-1026/#II-1028 では、配送キャリア・追跡コードを入力して出荷完了できるが、完了後の出荷詳細・すべて一覧・出荷完了一覧には入力値が表示されないこと、#II-1028 は /complete が空状態で完了せず /receive で受領数1を登録すると親移動伝票が成功 完了/入荷完了になることまで確認済み。#IM-1027/#IO-1027/#II-1029 では、同一入荷指示への複数回登録と累計過入荷、自動完了せず手動完了が必要なことまで確認済み。2026-06-28再巡回では在庫依頼一覧 `/admin/inventory_allocation_requests` が `該当するProductVariantが見つかりませんでした。` でエラー表示になるため、作成フォーム・確保済み一覧と分けて扱う。確認待ち在庫依頼をクローズした終了後は引当ボタンなし、クローズdisabled、再開/再利用導線なしまで確認済み。</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>発注・仕入</td>
+              <td>発注管理、発注伝票、取引先、入荷指示</td>
+              <td><span class="badge b-partial">一部確認</span> <span class="badge b-check">要確認</span></td>
+              <td>下書き、発注済み、キャンセル済み、発注起点入荷指示の入荷待ち→入荷完了、在庫反映を説明できる。</td>
+              <td>在庫補充、発注管理、取引先設定に入れる。2026-06-27 #IP-1007/#II-1026 で、発注だけでは入荷予定が増えず、入荷指示作成で入荷予定+1、受領で販売可能/手持ち+1を確認。#IP-1008 は入荷指示未作成ならキャンセル可能。2026-06-28に、#IP-1009/#II-1027 で入荷指示作成後・入荷完了前の発注キャンセルが可能で、入荷指示が `入荷キャンセル` になること、取引先詳細は名前/コードのみで所在地・連絡先項目なし、取引先インポート無反応、未使用取引先の行選択後 `アーカイブする` → `取引先を削除しますか？` → `削除する` で一覧/アーカイブタブ/発注フォーム候補から消えること、使用済み取引先は削除されずすべて/アーカイブ両タブと発注フォーム候補に残ること（#IP-1013）、発注伝票の商品追加後の単価1990/数量0/税率10初期値、下書き通貨の USD→EUR 変更保存、発注済み後は通貨select/保存ボタンなし、発注済み未入荷/入荷完了済みの詳細・その他操作・直接 /update / /edit に再編集/差し戻し導線なし、発注伝票詳細にPDF/印刷導線なしを確認済み。</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>注文・返品</td>
+              <td>注文管理、下書き、返品、キャンセル、返金、出荷登録</td>
+              <td><span class="badge b-partial">一部確認</span> <span class="badge b-link">連携待ち</span></td>
+              <td>注文起点で在庫・顧客・ポイント・売上に何が起きるか説明できる。</td>
+              <td>外部チャネル流入前提と、内部GraphQL検証で確認できた範囲を分けて扱う。2026-06-28再確認で、注文/返品の空状態、下書きの「注文を作成する」はhrefなし・`Polaris-Button--disabled`、注文/下書き作成直URLエラー、返品作成直URLなしを確認済み。追加で内部GraphQL検証注文により、注文一覧のデータあり列、注文詳細、BYPASS注文では在庫変動が無視される表示、DECREMENT注文では在庫引当と `ORDER` 出荷指示生成、顧客詳細の直近注文/購買サマリー反映、返品の `返送待ち` → `返品受取済み` → `返品処理済み`、交換返品完了後の `ORDER_EXCHANGE` 出荷指示生成、返品単体URLなし、売上実績の正負明細、売上実績CSV実ファイルまで確認済み。実ポイント付与、外部チャネル/Recustomer経由の反映は連携待ち。</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>顧客・会社</td>
+              <td>顧客管理、会社、会社担当者、住所、会員証、メタフィールド</td>
+              <td><span class="badge b-partial">一部確認</span> <span class="badge b-link">連携待ち</span></td>
+              <td>購入顧客と会社担当者の違い、顧客がチャネル由来であることを説明できる。</td>
+              <td>顧客FAQ、B2B/会社管理、CRMの前提にする。2026-06-28に内部GraphQLで検証用購入顧客を作成し、顧客一覧列（顧客名/テナント/ステータス/メール購読）と顧客詳細の基本構成（注文、ポイント、マイル、ディスカウント、メタフィールド、顧客情報）を確認済み。検証注文後は直近注文、初回/最終購入日、初回/最終購入場所も反映確認済み。チャネル由来の自動登録、実ポイント/会員ランク反映は連携待ち。会社作成保存後は詳細へ遷移し会社IDが表示される。会社一覧のインポートは2026-06-28再確認でも無反応のため、会社CSV手順には含めない。会社本体・会社ロケーションの削除UIは、一覧行選択後/会社詳細/会社ロケーション詳細のいずれでも確認できない。会社担当者は詳細ダイアログから作成でき、テーブルに名前/メールアドレスで表示されるが詳細リンクはない。行選択後に `担当者を削除` が表示され、確認ダイアログから削除できることを確認済み。</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>CRM</td>
+              <td>ディスカウント、注文ポイント、キャンペーン、誕生日、利用外商品、失効通知、会員ランク</td>
+              <td><span class="badge b-done">完成寄り</span> <span class="badge b-partial">一部確認</span></td>
+              <td>値引き、ポイント、ランクのルール設定と優先関係を説明できる。</td>
+              <td>2026-06-27に主要導線を再確認。注文ポイントの現行ラベル、会員ランク倍率URL、商品倍率/顧客/店舗/商品追加ダイアログを反映済み。2026-06-28に会員ランク倍率 `Bronze` / `2倍` の保存・一覧反映・削除、商品倍率0倍の保存・一覧反映・削除、利用外商品の追加・一覧反映・削除、会員ランク算出タイミング `リアルタイムに算出` は詳細固定表示で編集フォームに対応入力欄がないことを確認済み。ディスカウント対象顧客は同一テナントの検証用購入顧客でメール検索・追加・一覧表示・削除まで確認済みで、テナント不一致では候補0件。会員ランク算出ルール詳細には本体編集/削除ボタンがなく、可視リンクにも本体更新URL `/update` はない。詳細の `編集` はランク段階用リンクのみで、直接 `/update` URLは表示可能。商品倍率0倍は付与側、利用外商品は利用側の別設定として更新済み。注文適用、実ポイント付与、会員ランク反映、各倍率の実注文計算は実データ待ちとして注記する。</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>店舗業務・リテールポータル</td>
+              <td>リテールポータル、販売チャネル側の店舗受取、店舗スタッフ利用</td>
+              <td><span class="badge b-partial">一部確認</span></td>
+              <td>店舗スタッフが見る範囲と、管理画面側の設定を分けて説明できる。</td>
+              <td>店舗受取、取り寄せ、店舗運用FAQに入れる。2026-06-28に、既存リテールポータル連携詳細の状態表示、追加済みユーザー一覧、ユーザー追加ダイアログのメールアドレス検索、追加確定後の一覧反映、行選択後のユーザー削除確認ダイアログ、削除確定後の一覧消滅まで確認済み。実際のリテールポータルログイン可否・権限範囲は未確認。</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>標準販売チャネル連携</td>
+              <td>Shopify、OmnibusCore、スマレジ</td>
+              <td><span class="badge b-link">連携待ち</span></td>
+              <td>SQ側で設定することと、外部側の接続が必要なことを分けられる。</td>
+              <td>連携FAQでは「SQ側確認済み」「外部接続待ち」を明記する。2026-06-28にShopify未接続コピーと作成フォーム主要ラベル、OmnibusCore一覧列、作成フォーム（商品同期設定・在庫設定・注文設定）、接続済み詳細の3タブ、連携サイト追加ダイアログ、通知メール追加ダイアログ、アクセストークン作成ボタン表示を再確認済み。OmnibusCoreは追加で、下書き注文期限日数の空保存バリデーション、アクセストークン生成時のマスク表示・作成日時・削除確認・未設定復帰、通知メールの重複登録不可（2行目は増えずGraphQL errorsに汎用エラー）まで確認済み。スマレジは作成フォームのアプリインストールバナー、フォーム内に外部インストール手順リンクがないこと、接続済み詳細の基本設定・店舗設定・商品管理・顧客管理の導線を確認済み。スマレジ外部アクセストークンは `トークンを作成` 押下後も作成日時・削除ボタンが出ず未設定のまま（画面エラー/GraphQL errorsなし）。実ボタン `解除する` では確認ダイアログ `連携を解除する` が開くことを安全確認済み（確定未実行）。同期挙動、スマレジ外部アクセストークンの生成成功条件、連携解除確定後の挙動は連携/データ待ち。</td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>物流・返品・外部アプリ連携</td>
+              <td>ロジザード、Recustomer、ヤマトB2、DHL</td>
+              <td><span class="badge b-link">連携待ち</span></td>
+              <td>出荷実績、返品、WMS連携がSQのどこに戻るか説明できる。</td>
+              <td>標準連携として確認できる範囲と、外部接続待ちを切り分ける。2026-06-27再確認で、出荷管理は「すべて」+6ステータスタブ、キャンセル済みは「すべて」タブに表示、ヤマトB2/DHLの出荷実績CSV取込フォームは空保存でファイル未選択エラー、ロジザード/Recustomerの接続フォームは空保存エラーまで確認済み。2026-06-28再確認で、Recustomer一覧見出し・アカウント接続フォーム（ストアID/シークレット）・空保存エラー、ヤマトB2条件指定エクスポートの決済方法3択とステータス変更チェック初期OFF、ステータス変更ON実行でも移動伝票由来・配送希望日なしの `#IO-1029` は出荷待ちのままだったこと、ヤマトB2出荷実績CSVは `#IO-1032` の検証用CSV保存後にCSVインポート詳細が作成されたが再確認時も `実行ステータス 未実行`、`検証成功 0件`、`検証失敗 0件` で実行/出荷完了遷移は未確認であること、配送キャリア・追跡コードは手動出荷実績登録時に入力できるが完了後の出荷詳細・一覧には表示されないこと、返品一覧の空状態とデータあり列、返品作成直URLなし、返品単体URLなし、注文詳細内での受領/完了、DHL出荷実績CSVのテンプレート/列説明はUIに表示されない、PDFエクスポート一覧に納品書カテゴリはありカテゴリページは空状態、納品書作成直URLは存在しない画面、出荷/入荷を含む各伝票詳細にPDF/印刷導線なし、ヤマトB2 CSVエクスポート履歴画面は空状態でダウンロードリンクなしであることを確認済み。外部接続後同期・メールリンク/PDF実ファイル確認は連携待ち。</td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td>CSV/PDF・データ移行</td>
+              <td>CSVインポート、CSVエクスポート、PDFエクスポート、履歴</td>
+              <td><span class="badge b-done">完成寄り</span> <span class="badge b-partial">一部確認</span></td>
+              <td>一括登録/更新/出力の対象と、失敗時の確認方法を説明できる。</td>
+              <td>事故リスクが高いので、作業別手順と制約FAQを厚くする。2026-06-27再確認で、CSVインポートは9グループ・22カテゴリ、原価は商品グループ、実行完了後の「実行する」はdisabledで残ることを確認。2026-06-28再確認で、商品CSVは検証用商品1件の登録・詳細反映・削除まで確認済み。カタログ商品CSVは `product_code,command` 形式で `NEW` 追加・`DELETE` 削除を実行でき、検証成功は `1件の商品`、実行ステータスは成功完了。ヤマトB2出荷実績CSVは `#IO-1032` の検証用CSV保存後にCSVインポート詳細が作成されたが、再確認時も `実行ステータス 未実行`、`検証成功 0件`、`検証失敗 0件` で実行/出荷完了遷移は未確認。商品バリエーション作成フォーム上の `inventory_policy` / `is_tracked` 相当のチェックはどちらも初期OFF。ヤマトB2条件指定エクスポートは決済方法3択・ステータス変更チェック初期OFFを確認し、ON実行でも移動伝票由来・配送希望日なしの `#IO-1029` は出荷待ちのままだった。ヤマトB2 CSVエクスポート履歴画面は空状態でダウンロードリンクなし。PDFエクスポート画面は納品書カテゴリを表示し、カテゴリページは空状態、任意新規生成ボタンは表示されず、直接作成URLも存在しない。移動/調整/取置/出荷/入荷/発注の各詳細にもPDF/印刷/納品書生成ボタンはない扱いにする。</td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>API/Webhook・開発者連携</td>
+              <td>設定 > アプリ、Admin API、Storefront API、Webhook、リクエストログ</td>
+              <td><span class="badge b-done">完成寄り</span></td>
+              <td>管理画面操作ではなく外部システムがSQを触る入口を説明できる。</td>
+              <td>開発者向け補足、外部連携FAQに限定して扱う。2026-06-28再確認でも `/admin/settings/apps/{id}/admin_api` のリクエストログは本文TODO、直URL `/admin_api` は存在しない画面。Webhookのイベント選択肢は管理画面UI上「注文の作成」「注文の更新」「在庫の更新」の3種のみ。Webhookは実作成後にイベント名・エンドポイント・形式JSONが表示されるが、作成後画面でWebhook単位の編集/削除/停止導線と送信成功/失敗ステータスは確認できない。既存テストアプリの詳細画面・一覧カードの可視操作にも、アプリ削除、トークン失効、アクセストークン/シークレット再発行の導線はない。`Playgroundを開く` はstaging詳細からでも本番ドメイン `https://sq.stackservice.com/api/admin/v1/playground` を開き、URLクエリにトークン/アプリIDらしき値は付かない。Storefrontトークン発行は秘密値を増やすため未実行。</td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>会計・売上実績・分析</td>
+              <td>売上実績、CSV売上出力、分析、収益、レポート</td>
+              <td><span class="badge b-partial">一部確認</span> <span class="badge b-todo">TODO表示</span></td>
+              <td>売上実績は存在し、分析系はTODO表示またはデータ依存であることを説明できる。</td>
+              <td>売上実績は記事化、分析/収益/レポートのTODO表示はこの分類内で現行UIとして明記する。2026-06-28再確認でも、分析トップはh1「分析」、収益はh1「売上」、レポートはh1「レポート」で、3画面とも本文TODO。売上実績作成直URLは存在しない画面、CSV注文軸/明細軸の空保存エラーはテナント/開始日時/終了日時の3項目。内部GraphQL検証注文では注文作成で正の売上明細、返品完了で負の売上明細が作成されることを確認済み。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="order">
+      <h2>この順番で整理する理由</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>順番</th>
+              <th>対象分類</th>
+              <th>理由</th>
+              <th>整理できること</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>1〜4: 共通、権限、組織、基本マスタ</td>
+              <td>他の画面の選択肢になる土台。ここを理解しないと、商品・在庫・連携の設定理由が分からない。</td>
+              <td>テナント、ロケーション、ブランド、取引先、権限が何のために必要か説明できる。ロケーションはアーカイブ後に「すべて」へ残ること、解除後も公開は非公開のままなこと、候補に残る画面があることも説明できる。</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>5〜11: 商品、カタログ、店舗受取、カスタムデータ、翻訳、採寸、価格</td>
+              <td>EC/店舗で売る対象を作る層。商品がないと在庫・注文・CRMは成立しない。</td>
+              <td>商品、SKU、カタログ、メタフィールド、翻訳、採寸、販売価格の関係を説明できる。</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>12〜15: 在庫、伝票、入出荷、発注</td>
+              <td>SQの複雑さの中心。取り寄せ販売やWMS連携はこの層の理解が前提になる。</td>
+              <td>販売可能/引当済み/取置中/手持ち、移動/調整/取置/入出荷の違いを説明できる。</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>16〜19: 注文、顧客、CRM、店舗業務</td>
+              <td>在庫と販売の結果が注文・顧客・ポイント・ランクに反映される。業務質問が多い領域。</td>
+              <td>注文から返品、ポイント、会員ランク、店舗受取までの影響範囲を説明できる。</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>20〜23: 標準販売チャネル連携、物流/外部アプリ連携、CSV/PDF、API/Webhook</td>
+              <td>標準機能と外部接続待ちの境界。ここを混ぜるとFAQが誤解を生む。</td>
+              <td>SQ側でできること、外部接続が必要なこと、CSV/APIで補うことを分けられる。</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>24: 会計/売上実績/分析</td>
+              <td>売上実績として記事化できる範囲と、分析系TODO表示を同じ分類内で分ける。</td>
+              <td>書いてよい標準FAQと、準備中/残課題として扱う内容を判断できる。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="phase-gantt">
+      <h2>7月末初回納品ガントチャート案</h2>
+      <p class="small">画像のようなガントツールへ入れる場合は、W1/W2で理解と設定順序・影響範囲を整理し、W3/W4でナレッジ構成・導線設計、W5/W6で下書き構築を進める。W7/W8は削除ではなく、8月以降の通常バックログに回す。</p>
+
+      <div class="gantt-wrap">
+        <div class="gantt">
+          <div class="gantt-row">
+            <div class="gantt-label">期間</div>
+            <div class="gantt-scale">
+              <div>6/18〜6/21</div>
+              <div>6/22〜6/26</div>
+              <div>6/29〜7/3</div>
+              <div>7/6〜7/10</div>
+              <div>7/13〜7/17</div>
+              <div>7/20〜7/24</div>
+              <div>7/27〜7/31</div>
+              <div>8/3〜8/7</div>
+              <div>8/10〜8/14</div>
+            </div>
+          </div>
+
+          <div class="gantt-row">
+            <div class="gantt-label">W0: 立ち上げ</div>
+            <div class="gantt-track"><div class="gantt-bar phase-1" style="grid-column: 1 / 2;">分類/確認ルール</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label">Phase1: 製品理解・既存情報整理</div>
+            <div class="gantt-track"><div class="gantt-bar phase-1" style="grid-column: 2 / 4;">基礎データ・業務フロー・影響範囲</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label child">基礎データ理解</div>
+            <div class="gantt-track"><div class="gantt-bar child phase-1" style="grid-column: 2 / 3;">1〜11</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label child">業務フロー理解</div>
+            <div class="gantt-track"><div class="gantt-bar child phase-1" style="grid-column: 3 / 4;">12〜24</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label">Phase2: ナレッジ構成・導線設計</div>
+            <div class="gantt-track"><div class="gantt-bar phase-2" style="grid-column: 4 / 6;">ページ構成・導線・テンプレート</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label child">構成設計</div>
+            <div class="gantt-track"><div class="gantt-bar child phase-2" style="grid-column: 4 / 5;">読者/導線</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label child">設計具体化</div>
+            <div class="gantt-track"><div class="gantt-bar child phase-2" style="grid-column: 5 / 6;">テンプレート/優先度</div></div>
+          </div>
+
+          <div class="gantt-row">
+            <div class="gantt-label">Phase3: 下書き構築</div>
+            <div class="gantt-track"><div class="gantt-bar phase-3" style="grid-column: 6 / 8;">Notion下書き・コア初稿</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label child">下書き構築1</div>
+            <div class="gantt-track"><div class="gantt-bar child phase-3" style="grid-column: 6 / 7;">コア初稿</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label child">下書き構築2</div>
+            <div class="gantt-track"><div class="gantt-bar child phase-3" style="grid-column: 7 / 8;">納品整理</div></div>
+          </div>
+
+          <div class="gantt-row">
+            <div class="gantt-label">8月以降バックログ</div>
+            <div class="gantt-track"><div class="gantt-bar phase-4" style="grid-column: 8 / 10;">記事量産・公開準備</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label child">記事作成通常版</div>
+            <div class="gantt-track"><div class="gantt-bar child phase-4" style="grid-column: 8 / 9;">機能別/作業別</div></div>
+          </div>
+          <div class="gantt-row">
+            <div class="gantt-label child">公開準備</div>
+            <div class="gantt-track"><div class="gantt-bar child phase-4" style="grid-column: 9 / 10;">FAQ/公開準備</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>親</th>
+              <th>子タスク</th>
+              <th>開始</th>
+              <th>終了</th>
+              <th>状態</th>
+              <th>提出物</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>W0: 立ち上げ</td>
+              <td>WBS整理</td>
+              <td>2026-06-18</td>
+              <td>2026-06-21</td>
+              <td>進行中</td>
+              <td>標準24分類WBS、実装状態一覧、確認ルール・根拠優先順位</td>
+            </tr>
+            <tr>
+              <td>Phase1: 製品理解・既存情報整理</td>
+              <td>基礎データ理解・設定順序整理</td>
+              <td>2026-06-22</td>
+              <td>2026-06-26</td>
+              <td>未着手</td>
+              <td>基礎データ辞書、商品/カタログ/ブランド比較表、初期設定順序案、基本マスタ影響範囲メモ。2026-06-27実機反映: ロケーションアーカイブ状態遷移、基本マスタ必須項目、候補表示の残り方、ポイント利用種別「値引き/金種」の選択肢。</td>
+            </tr>
+            <tr>
+              <td>Phase1: 製品理解・既存情報整理</td>
+              <td>業務フロー理解・在庫/連携影響整理</td>
+              <td>2026-06-29</td>
+              <td>2026-07-03</td>
+              <td>未着手</td>
+              <td>業務フロー図、在庫ステータス表、設定順序・影響範囲表、未確認・連携待ち一覧</td>
+            </tr>
+            <tr>
+              <td>Phase2: ナレッジ構成・導線設計</td>
+              <td>ナレッジ構成設計1</td>
+              <td>2026-07-06</td>
+              <td>2026-07-10</td>
+              <td>未着手</td>
+              <td>読者別/目的別/業務フロー別導線案、ページ構成案、標準分類→記事群マッピング</td>
+            </tr>
+            <tr>
+              <td>Phase2: ナレッジ構成・導線設計</td>
+              <td>ナレッジ構成設計2</td>
+              <td>2026-07-13</td>
+              <td>2026-07-17</td>
+              <td>未着手</td>
+              <td>記事テンプレート、優先記事リスト、FAQ/トラブルシューティング分類、レビュー論点</td>
+            </tr>
+            <tr>
+              <td>Phase3: 下書き構築</td>
+              <td>Notion下書き構築1</td>
+              <td>2026-07-20</td>
+              <td>2026-07-24</td>
+              <td>未着手</td>
+              <td>コア記事初稿、標準分類Notion下書き修正、未確認注記ルール</td>
+            </tr>
+            <tr>
+              <td>Phase3: 下書き構築</td>
+              <td>初回納品整理</td>
+              <td>2026-07-27</td>
+              <td>2026-07-31</td>
+              <td>未着手</td>
+              <td>標準24分類Notion下書き、FAQ導線、コア記事初稿、未確認/連携待ちリスト、8月以降バックログ</td>
+            </tr>
+            <tr>
+              <td>8月以降バックログ</td>
+              <td>機能別/作業別記事作成</td>
+              <td>2026-08-03</td>
+              <td>2026-08-07</td>
+              <td>未着手</td>
+              <td>機能別記事初稿、作業別記事初稿、用語統一表</td>
+            </tr>
+            <tr>
+              <td>8月以降バックログ</td>
+              <td>FAQ/症状別/公開準備</td>
+              <td>2026-08-10</td>
+              <td>2026-08-14</td>
+              <td>未着手</td>
+              <td>公開候補版、サポート資料、残課題リスト、次月バックログ</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="wbs">
+      <h2>7月末初回納品WBS</h2>
+      <p class="small">7月末までに製品理解、既存情報整理、ナレッジ構成・導線設計、標準24分類Notion下書き、コア記事初稿までを作る。設定順序・影響範囲の整理はW1/W2の理解フェーズに含め、7月から導線設計へ入る。</p>
+
+      <div class="phase-grid">
+        <div class="phase-card week">
+          <h3>W0: 6/18〜6/21 立ち上げ・分類確定</h3>
+          <strong>目的</strong>
+          <p>採寸を10番に含めた標準24分類、実装状態、週次提出物、確認ルールを確定する。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>標準24分類を「実機画面」「CSV/API」「連携待ち」「TODO」に分ける。</li>
+            <li>実装途中のものをFAQ本文に混ぜないルールを決める。</li>
+            <li>毎週の定例で提出する成果物の型を決める。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>標準24分類WBS、実装状態一覧、確認ルール・根拠優先順位。</p>
+        </div>
+
+        <div class="phase-card week">
+          <h3>W1: 6/22〜6/26 理解1 基礎データ・設定順序</h3>
+          <strong>対象分類</strong>
+          <p>1〜11: 共通、権限、組織、基本マスタ、商品、カタログ、店舗受取商品、メタフィールド、翻訳、採寸、価格/販売制御。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>設定配下のマスタが、どの画面の選択肢になるかを整理する。</li>
+            <li>商品、SKU、商品タイプ、製造元、ブランド、カタログの違いを説明できる状態にする。</li>
+            <li>メタフィールド、採寸、翻訳を「商品データを拡張する仕組み」として整理する。</li>
+            <li>基本マスタ、商品、カタログ、価格、店舗受取の前後関係を、初期設定順序としてまとめる。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>基礎データ辞書、商品/カタログ/ブランド比較表、初期設定順序案、基本マスタ影響範囲メモ。</p>
+        </div>
+
+        <div class="phase-card week">
+          <h3>W2: 6/29〜7/3 理解2 業務フロー・影響範囲</h3>
+          <strong>対象分類</strong>
+          <p>12〜24: 在庫、伝票、入出荷、発注、注文、顧客、CRM、店舗業務、連携、CSV/PDF、API、会計/売上実績/分析。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>在庫区分と在庫が動く操作を整理する。</li>
+            <li>取り寄せ販売の流れを、在庫依頼から入荷/出荷まで追う。</li>
+            <li>出荷前入荷、部分入荷、過入荷、在庫0からの移動など、実機で確認した例外挙動を分けて整理する。</li>
+            <li>注文、返品、CRM、売上実績のうち、検証注文で確認済みの範囲と外部チャネル/ポイント実績待ちの範囲を切り分ける。</li>
+            <li>連携画面はSQ側設定と外部連携待ちを分ける。</li>
+            <li>在庫、注文、CRM、連携、CSVがどのデータに影響するかを、FAQ化に必要な粒度でまとめる。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>業務フロー図、在庫ステータス表、設定順序・影響範囲表、未確認・連携待ち一覧。</p>
+        </div>
+
+        <div class="phase-card week">
+          <h3>W3: 7/6〜7/10 ナレッジ構成設計1</h3>
+          <strong>目的</strong>
+          <p>7月からナレッジ構成・導線設計に入り、誰がどこから読むかを先に決める。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>FAQ利用者を「新任運用担当者」「運営者」「管理者」「店舗スタッフ」「CS/サポート」に分ける。</li>
+            <li>利用者別、目的別、業務フロー別の入口を設計する。</li>
+            <li>標準分類を、通読用、機能別、作業別、FAQ、トラブルシューティングに割り当てる。</li>
+            <li>W1/W2で整理した設定順序・影響範囲を、セットアップ導線と業務導線へ反映する。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>読者別/目的別/業務フロー別導線案、ページ構成案、標準分類→記事群マッピング。</p>
+        </div>
+
+        <div class="phase-card week">
+          <h3>W4: 7/13〜7/17 ナレッジ構成設計2</h3>
+          <strong>目的</strong>
+          <p>記事テンプレート、優先順位、FAQ/トラブルシューティングの分類を定例で議論できる状態にする。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>記事テンプレートに、目的、前提、手順、注意点、確認状態、関連リンクを入れる。</li>
+            <li>FAQ、機能説明、作業別手順、トラブルシューティングの使い分けを決める。</li>
+            <li>標準機能、未実装/TODO、連携待ちを本文/注記/対象外に切り分ける。</li>
+            <li>7月末までに下書き化する優先記事と、8月以降に回す記事を分ける。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>記事テンプレート、優先記事リスト、FAQ/トラブルシューティング分類、レビュー論点。</p>
+        </div>
+
+        <div class="phase-card week">
+          <h3>W5: 7/20〜7/24 Notion下書き構築1</h3>
+          <strong>目的</strong>
+          <p>決めた構成とテンプレートに沿って、コア記事と標準24分類Notion下書きを整える。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>はじめに、完全ガイド、セットアップガイド、データ事典の初稿を整える。</li>
+            <li>標準24分類Notion下書きを、W4の記事テンプレートに合わせて修正する。</li>
+            <li>FAQ/作業別記事/_supportにしかないSQ標準機能の情報を、04-notionへ戻す。特に直接URL、作成フォームURL、エラー/制約の索引だけに残った項目を確認する。</li>
+            <li>実機確認済み、未確認、外部連携待ち、実データ待ちの注記を統一する。</li>
+            <li>記事間のリンク候補と関連ページを入れる。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>コア記事初稿、標準分類Notion下書き修正、FAQ/Notion差分取り込みリスト、未確認注記ルール。</p>
+        </div>
+
+        <div class="phase-card week">
+          <h3>W6: 7/27〜7/31 初回納品整理</h3>
+          <strong>目的</strong>
+          <p>7月末納品として、標準24分類Notion下書き、FAQ導線、コア記事初稿、残課題を提出できる状態にする。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>情報設計の指摘を反映し、公開向け/社内向け/顧客別を分ける。</li>
+            <li>標準24分類Notion下書きに、目的、対象画面、関連データ、主要操作、確認状態、関連ページをそろえる。</li>
+            <li>FAQ/タスク/_supportに存在するSQ標準機能の画面URLが、04-notionの該当分類に存在することを確認する。</li>
+            <li>コア記事初稿とFAQ導線に、W1/W2の設定順序・影響範囲を反映する。</li>
+            <li>実機確認済みの範囲だけを本文化し、未確認や連携待ちは注記または残課題として明示する。</li>
+            <li>8月以降に公開品質へ上げる記事、追加検証、運用ルールをバックログ化する。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>標準24分類Notion下書き、FAQ導線、コア記事初稿、FAQ/Notion差分取り込み結果、未確認/連携待ちリスト、8月以降バックログ。</p>
+        </div>
+
+        <div class="phase-card week">
+          <h3>W7: 8/3〜8/7 8月以降バックログ 記事作成1</h3>
+          <strong>目的</strong>
+          <p>機能を探す人、作業をしたい人の両方が使える記事群を作る。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>商品、在庫、注文、顧客、CRM、連携、CSVの機能別記事を整える。</li>
+            <li>商品作成、価格設定、在庫調整、取り寄せ、CSV登録など作業別記事を整える。</li>
+            <li>事故リスクの高い操作に注意点を入れる。</li>
+            <li>画面名、用語、ステータス表現を統一する。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>機能別記事初稿、作業別記事初稿、用語統一表。</p>
+        </div>
+
+        <div class="phase-card week">
+          <h3>W8: 8/10〜8/14 8月以降バックログ 公開準備</h3>
+          <strong>目的</strong>
+          <p>FAQとして出せる品質に整え、次フェーズの未確認を残す。</p>
+          <strong>作業</strong>
+          <ul>
+            <li>よくある質問、症状別、エラー別、制約一覧を整える。</li>
+            <li>Notion等への投入を想定して、見出し、リンク、画像、表を整える。</li>
+            <li>標準FAQに入れない対象外項目を残課題リストへ分ける。</li>
+            <li>次に実機/外部連携で確認すべきバックログを作る。</li>
+          </ul>
+          <strong>提出物</strong>
+          <p>公開候補版、サポート資料、残課題リスト、次月バックログ。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="weekly">
+      <h2>毎週の定例に出すもの</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>週</th>
+              <th>提出物</th>
+              <th>定例で確認すること</th>
+              <th>判断したいこと</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>W0</td>
+              <td>標準24分類WBS、実装状態一覧、確認ルール・根拠優先順位</td>
+              <td>分類が細かすぎないか、抜けがないか</td>
+              <td>この分類で7月末初回納品まで進めてよいか</td>
+            </tr>
+            <tr>
+              <td>W1</td>
+              <td>基礎データ辞書、商品/カタログ/ブランド比較表、初期設定順序案、基本マスタ影響範囲メモ。ロケーションアーカイブ状態遷移、基本マスタ必須項目、候補表示の残り方、ポイント利用種別「値引き/金種」は2026-06-27実機確認済み。</td>
+              <td>用語の理解がStack側認識と合っているか</td>
+              <td>標準FAQで説明する用語と設定順序を確定する</td>
+            </tr>
+            <tr>
+              <td>W2</td>
+              <td>業務フロー図、在庫ステータス表、設定順序・影響範囲表、未確認・連携待ち一覧</td>
+              <td>実機で見た流れと現場運用が合っているか</td>
+              <td>FAQ化できる標準業務フローと影響範囲を確定する</td>
+            </tr>
+            <tr>
+              <td>W3</td>
+              <td>読者別/目的別/業務フロー別導線案、ページ構成案、標準分類→記事群マッピング</td>
+              <td>7月から導線設計に入れるだけの理解がそろっているか</td>
+              <td>FAQ全体の入口とページ構成を決める</td>
+            </tr>
+            <tr>
+              <td>W4</td>
+              <td>記事テンプレート、優先記事リスト、FAQ/トラブルシューティング分類、レビュー論点</td>
+              <td>記事テンプレートと分類がStack社レビューに出せる粒度か</td>
+              <td>7月末までに下書き化する対象を決める</td>
+            </tr>
+            <tr>
+              <td>W5</td>
+              <td>コア記事初稿、標準分類Notion下書き修正、未確認注記ルール</td>
+              <td>テンプレートに沿って下書きが作られているか</td>
+              <td>初回納品前に不足している分類を洗い出す</td>
+            </tr>
+            <tr>
+              <td>W6</td>
+              <td>標準24分類Notion下書き、FAQ導線、コア記事初稿、未確認/連携待ちリスト、8月以降バックログ</td>
+              <td>標準分類下書きとFAQ導線がNotion投入前の整理データとして成立しているか</td>
+              <td>7月末初回納品として提出できる状態か判断する</td>
+            </tr>
+            <tr>
+              <td>W7</td>
+              <td>機能別記事、作業別記事、用語統一表</td>
+              <td>実務者が読んで迷わないか</td>
+              <td>8月以降に公開品質へ上げる記事を決める</td>
+            </tr>
+            <tr>
+              <td>W8</td>
+              <td>公開候補版、残課題、次月バックログ</td>
+              <td>公開してよい表現か、未確認が明示されているか</td>
+              <td>公開範囲と運用ルールを決める</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="follow">
+      <h2>制作担当者の確認手順</h2>
+      <p>各週で、以下の4ステップを繰り返す。目的は「資料を読む」ことではなく、Stack社レビューに出せる根拠付き成果物にすること。</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>ステップ</th>
+              <th>制作担当者がやること</th>
+              <th>レビュー/補助で確認すること</th>
+              <th>レビュー確認</th>
+              <th>到達基準</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1. 事前インプット</td>
+              <td>その週の対象分類を読み、分からない用語をメモする。</td>
+              <td>読む順番、用語の意味、見るべき実機画面を短く整理する。</td>
+              <td>5〜10問の確認質問を出す。</td>
+              <td>用語の意味を丸暗記ではなく、業務上の必要性で説明できる。</td>
+            </tr>
+            <tr>
+              <td>2. 実機確認</td>
+              <td>対象画面を開き、一覧、作成、編集、詳細、削除、CSV、ステータスを確認する。</td>
+              <td>どのボタンを見るか、押してよい/押さない方がよい操作、記録すべき挙動を案内する。</td>
+              <td>「このボタンを押すと何が変わるか」を説明してもらう。</td>
+              <td>画面の項目名だけでなく、データがどこへ影響するか言える。</td>
+            </tr>
+            <tr>
+              <td>3. レビュー前説明</td>
+              <td>整理した内容を、FAQ利用者に説明する前提で3〜5分で話す。</td>
+              <td>誤解、言い過ぎ、標準/個別の混同、未実装の断定を指摘する。</td>
+              <td>「つまり何のための機能か」を1文で言ってもらう。</td>
+              <td>顧客が迷うポイントを先回りして説明できる。</td>
+            </tr>
+            <tr>
+              <td>4. 成果物化</td>
+              <td>理解した内容を、表、図、FAQ候補、注意点に落とす。</td>
+              <td>記事に入れる/入れない、注記すべき未確認、定例で聞く質問へ分解する。</td>
+              <td>成果物を見て、根拠が実機か資料か言える。</td>
+              <td>Stack側レビューに出しても、事実と推測が分かれている。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>週別の確認内容</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>週</th>
+              <th>確認/補助の中身</th>
+              <th>レビュー確認の問い</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>W1</td>
+              <td>設定マスタ、商品、カタログ、ブランド、メタフィールドを一つずつ言葉に分解する。似た概念は比較表で整理する。</td>
+              <td>ブランドとカタログは何が違うか。ロケーションとロケーショングループは何が違うか。</td>
+            </tr>
+            <tr>
+              <td>W2</td>
+              <td>在庫と業務フローを、実機画面を見ながら順番に追う。伝票と作業画面を分けて説明する。</td>
+              <td>移動伝票と入荷/出荷管理は何が違うか。取置中在庫はいつ増減するか。</td>
+            </tr>
+            <tr>
+              <td>W3</td>
+              <td>W1/W2で整理した理解をもとに、読者別・目的別・業務フロー別の入口を設計する。</td>
+              <td>新任運用担当者、管理者、店舗スタッフ、CSはそれぞれどこから読むべきか。</td>
+            </tr>
+            <tr>
+              <td>W4</td>
+              <td>記事テンプレート、FAQ分類、トラブルシューティング分類、優先記事リストをレビューできる形にする。</td>
+              <td>どの記事を7月末までに下書き化し、どの記事を8月以降に回すべきか。</td>
+            </tr>
+            <tr>
+              <td>W5</td>
+              <td>決めたテンプレートに沿って、コア記事初稿、標準分類Notion下書きを整える。</td>
+              <td>記事の目的、前提、確認状態、関連ページがそろっているか。</td>
+            </tr>
+            <tr>
+              <td>W6</td>
+              <td>標準24分類Notion下書き、FAQ導線、コア記事初稿、未確認/連携待ちリスト、8月以降バックログをそろえる。</td>
+              <td>7月末初回納品として、下書き・導線・根拠・未確認注記がそろっているか。</td>
+            </tr>
+            <tr>
+              <td>W7</td>
+              <td>8月以降バックログとして、機能別/作業別の記事を読み合わせ、操作手順と使いどころの不足を補う。</td>
+              <td>公開品質へ上げる優先記事はどれか。</td>
+            </tr>
+            <tr>
+              <td>W8</td>
+              <td>8月以降バックログとして、公開前チェック、リンク/画像/表記、運用ルールを整える。</td>
+              <td>顧客に公開してよい情報か。社内向けに残す情報はどれか。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="definition">
+      <h2>完了条件</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>フェーズ</th>
+              <th>完了条件</th>
+              <th>未完了扱いにするもの</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>理解・整理2週間</td>
+              <td>標準24分類の目的、対象画面、実装状態、設定順序、影響範囲を説明できる。</td>
+              <td>「画面があるから完成」と断定している分類や、先に必要な設定が曖昧な分類が残っている。</td>
+            </tr>
+            <tr>
+              <td>ナレッジ構成・導線設計2週間</td>
+              <td>FAQ利用者別の入口、ページ構成、記事分類、記事テンプレート、優先順位が定例で議論できる。</td>
+              <td>機能名の羅列で、顧客が何から読むべきか分からない。</td>
+            </tr>
+            <tr>
+              <td>下書き構築2週間</td>
+              <td>標準24分類Notion下書き、FAQ導線、コア記事初稿、未確認/連携待ちリスト、8月以降バックログがそろっている。</td>
+              <td>手順はあるが、使いどころ、前提、影響、失敗時の確認先、未確認注記がない。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="sources">
+      <h2>確認根拠</h2>
+      <div class="source-list">
+        <div class="note">
+          <strong>実機確認</strong>
+          <p><code>faq/_analysis/VERIFIED-FACTS-ONLY-2026-06-19.md</code> を最優先。FAQで断定してよい実機確認済み事象だけをここに集約する。詳細ログは <code>CODEX-OPS-PLAYWRIGHT-VERIFICATION-2026-06-18.md</code> と <code>LIVE-VERIFICATION-2026-06-19.md</code> を参照。</p>
+        </div>
+        <div class="note">
+          <strong>旧検証ログ照合</strong>
+          <p><code>faq/_analysis/CODEX-LEGACY-RECONCILIATION-2026-06-18.md</code> を参照。古い検証ログとの差分、38リソース/76権限、販売閾値削除のリロード後反映を確認。発注後の入荷指示は2026-06-27に手動作成導線として再確認済み。</p>
+        </div>
+        <div class="note">
+          <strong>キックオフ議事録</strong>
+          <p><code>faq/_analysis/KICKOFF-MEETING-2026-06-12.md</code> を参照。FAQ作成より製品理解を優先する方針。</p>
+        </div>
+        <div class="note">
+          <strong>管理画面サイトマップ</strong>
+          <p><code>faq/_analysis/00-admin-sitemap.md</code> を参照。ただし初期偵察メモのため、最新正本ではなく補助資料として扱う。</p>
+        </div>
+        <div class="note">
+          <strong>既存調査資料</strong>
+          <p><code>faq/_analysis/FEATURE-SWEEP-2026-06-12.md</code>、<code>faq/_support/screens.md</code>、<code>faq/_support/statuses.md</code> を参照。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

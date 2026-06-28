@@ -1,0 +1,284 @@
+{
+  "generatedAt": "2026-06-27T21:25:08.271696+00:00",
+  "errors": [],
+  "settings": {
+    "url": "https://www.sqstackstaging.com/admin/settings",
+    "h1": [
+      "設定"
+    ],
+    "h2": [
+      "組織ID",
+      "データ管理",
+      "テンプレート",
+      "通知",
+      "外部連携",
+      "カスタムデータ"
+    ],
+    "labels": [],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる"
+    ],
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "",
+        "placeholder": "",
+        "value": "a8225dc5..._Organization",
+        "disabled": false,
+        "readOnly": true,
+        "label": "",
+        "options": []
+      }
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 設定。このページの準備が整いました 設定 組織ID データ管理 管理メンバー 管理画面にアクセス可能なメンバーを管理することができます テナント 事業部を表すテナントデータを管理することができます。 ロケーション 在庫を管理するロケーションを管理することができます。 ロケーショングループ ロケーションをグループ化して管理することができます。 ブランド ブランド情報を管理することができます 取引先 在庫を仕入れる取引先の業者を管理することができます。 決済方法 顧客が注文時に利用する決済方法を管理することができます 販売員 販売員情報を管理することができます テンプレート 納品書 納品書テンプレートを管理することができます 通知 通知用メールアドレス お知らせやアラートなどのメールを受け取るためのアドレスを管理することができます。 外部連携 アプリ APIを利用するためのアプリを管理することができます ロジザード ロジザードZEROとの連携設定を管理することができます Recustomer Recustomerとの連携を管理することができます カスタムデータ 翻訳 翻訳を管理することができます メタフィールド定義 オブジェクトのカスタムフィールドを管理することができます 採寸ルール 商品ごとの採寸ルールを管理することができます"
+  },
+  "orgCopyProbe": {
+    "found": true,
+    "buttonIndex": 4,
+    "buttonText": "",
+    "inputValue": "a8225dc5..._Organization",
+    "clipboard": "a8225dc5..._Organization",
+    "clipboardReadError": "",
+    "osClipboard": "a8225dc5..._Organization",
+    "clipboardMatchesOrgId": true
+  },
+  "tenantList": {
+    "url": "https://www.sqstackstaging.com/admin/settings/tenants",
+    "h1": [
+      "テナント"
+    ],
+    "h2": [],
+    "labels": [
+      "すべての4のアイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "前へ",
+      "次へ"
+    ],
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "",
+        "placeholder": "",
+        "value": "on",
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      }
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 テナント。このページの準備が整いました テナント テナントを作成 名前 TEST_FAQ_20260624_TENANT_170037 テストテナント TEST_FAQ_COVERAGE_20260615_テナント_EDIT ユニクロ"
+  },
+  "tenantNavigation": {
+    "clickedRowText": "TEST_FAQ_20260624_TENANT_170037"
+  },
+  "tenantDetail": {
+    "url": "https://www.sqstackstaging.com/admin/settings/tenants/f6262fd1-2406-5716-9cb5-cad1137b403c_Tenant",
+    "h1": [
+      "TEST_FAQ_20260624_TENANT_170037"
+    ],
+    "h2": [
+      "基本情報",
+      "CRM"
+    ],
+    "labels": [
+      "テナント名",
+      "注文IDプレフィックス",
+      "ポイントルール",
+      "ランクルール",
+      "誕生日ポイント付与ルール",
+      "失効予定通知ルール"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "テナントIDをコピーする",
+      "保存する"
+    ],
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "",
+        "placeholder": "NIKE Japan",
+        "value": "TEST_FAQ_20260624_TENANT_170037",
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "",
+        "placeholder": "#",
+        "value": "#",
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "",
+        "placeholder": "",
+        "value": "",
+        "disabled": false,
+        "readOnly": false,
+        "label": "ポイントルールを選択してください TEST_FAQ_注文ポイント付与ルール ポイントルールを選択してください",
+        "options": [
+          {
+            "value": "",
+            "text": "ポイントルールを選択してください",
+            "disabled": true
+          },
+          {
+            "value": "4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule",
+            "text": "TEST_FAQ_注文ポイント付与ルール",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "",
+        "placeholder": "",
+        "value": "",
+        "disabled": false,
+        "readOnly": false,
+        "label": "ランクルールを選択してください TEST_FAQ_会員ランク算出ルール TEST_FAQ_RANK_20260615081841 TEST_FAQ_20260624_会員ランク_100908 ランクルールを選択してください",
+        "options": [
+          {
+            "value": "",
+            "text": "ランクルールを選択してください",
+            "disabled": true
+          },
+          {
+            "value": "37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule",
+            "text": "TEST_FAQ_会員ランク算出ルール",
+            "disabled": false
+          },
+          {
+            "value": "62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule",
+            "text": "TEST_FAQ_RANK_20260615081841",
+            "disabled": false
+          },
+          {
+            "value": "ffb092b2-4e78-5b4f-bd7c-9662cea64564_CustomerRankCalculationRule",
+            "text": "TEST_FAQ_20260624_会員ランク_100908",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "",
+        "placeholder": "",
+        "value": "",
+        "disabled": false,
+        "readOnly": false,
+        "label": "誕生日ポイント付与ルールを選択してください TEST_FAQ_DEEP2_202606080343_誕生日ポイント TEST_FAQ_20260624_誕生日ポイント_100908 誕生日ポイント付与ルールを選択してください",
+        "options": [
+          {
+            "value": "",
+            "text": "誕生日ポイント付与ルールを選択してください",
+            "disabled": true
+          },
+          {
+            "value": "18e1062c-ca03-5b08-bc7e-42100beffa7b_PointCalculationBirthdayRule",
+            "text": "TEST_FAQ_DEEP2_202606080343_誕生日ポイント",
+            "disabled": false
+          },
+          {
+            "value": "da162c01-a8a2-50bd-979c-1ce4959bc1ae_PointCalculationBirthdayRule",
+            "text": "TEST_FAQ_20260624_誕生日ポイント_100908",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "",
+        "placeholder": "",
+        "value": "",
+        "disabled": false,
+        "readOnly": false,
+        "label": "失効予定通知ルールを選択してください TEST_FAQ_DEEP2_202606080343_失効通知 TEST_FAQ_20260624_ポイント失効通知_100908 失効予定通知ルールを選択してください",
+        "options": [
+          {
+            "value": "",
+            "text": "失効予定通知ルールを選択してください",
+            "disabled": true
+          },
+          {
+            "value": "bf23aef8-fd45-552f-a205-eeccd9db3210_PointExpirationNotificationRule",
+            "text": "TEST_FAQ_DEEP2_202606080343_失効通知",
+            "disabled": false
+          },
+          {
+            "value": "e418b83c-4b65-5627-9a82-7a22a6a1d2af_PointExpirationNotificationRule",
+            "text": "TEST_FAQ_20260624_ポイント失効通知_100908",
+            "disabled": false
+          }
+        ]
+      }
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_TENANT_170037。このページの準備が整いました TEST_FAQ_20260624_TENANT_170037 基本情報 テナントID f6262fd1..._Tenant テナント名 注文IDプレフィックス 注文を識別するために、注文ページやお客様ページに表示されます。 CRM ポイントルール ポイントルールを選択してください TEST_FAQ_注文ポイント付与ルール ポイントルールを選択してください ランクルール ランクルールを選択してください TEST_FAQ_会員ランク算出ルール TEST_FAQ_RANK_20260615081841 TEST_FAQ_20260624_会員ランク_100908 ランクルールを選択してください 誕生日ポイント付与ルール 誕生日ポイント付与ルールを選択してください TEST_FAQ_DEEP2_202606080343_誕生日ポイント TEST_FAQ_20260624_誕生日ポイント_100908 誕生日ポイント付与ルールを選択してください 失効予定通知ルール 失効予定通知ルールを選択してください TEST_FAQ_DEEP2_202606080343_失効通知 TEST_FAQ_20260624_ポイント失効通知_100908 失効予定通知ルールを選択してください 保存する"
+  },
+  "tenantCopyProbe": {
+    "found": false,
+    "reason": "input ending _Tenant not found",
+    "clipboard": "",
+    "osClipboard": "",
+    "inputValue": "",
+    "clipboardMatchesTenantId": false
+  },
+  "facts": {
+    "orgIdVisible": true,
+    "orgIdsMasked": [
+      "a8225dc5..._Organization"
+    ],
+    "orgCopy": {
+      "buttonFound": true,
+      "clipboardReadable": true,
+      "clipboardMatchesOrgId": true,
+      "maskedClipboard": "a8225dc5..._Organization",
+      "maskedOsClipboard": "a8225dc5..._Organization"
+    },
+    "tenantListVisible": true,
+    "tenantIdVisible": true,
+    "tenantIdsMasked": [
+      "f6262fd1..._Tenant"
+    ],
+    "tenantDetailLabels": [
+      "テナント名",
+      "注文IDプレフィックス",
+      "ポイントルール",
+      "ランクルール",
+      "誕生日ポイント付与ルール",
+      "失効予定通知ルール"
+    ],
+    "tenantIdControlState": "テナントID用の編集input/selectは検出されず、表示テキストとして確認",
+    "tenantCopy": {
+      "buttonFound": false,
+      "clipboardReadable": true,
+      "clipboardMatchesTenantId": false,
+      "maskedClipboard": "",
+      "maskedOsClipboard": ""
+    },
+    "clipboardRestored": true,
+    "errors": []
+  }
+}

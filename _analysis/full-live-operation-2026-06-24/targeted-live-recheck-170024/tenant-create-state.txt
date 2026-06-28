@@ -1,0 +1,74 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[117612]<a />
+	コンテンツにスキップ
+[117714]<div />
+[117615]<button data-state=closed expanded=false />
+[117616]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[117731]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[117620]<a />
+		ホーム
+	[117621]<a />
+		商品管理
+	[117622]<a />
+		在庫管理
+	[117623]<a />
+		注文管理
+		[117782]<div />
+	[117624]<a />
+		顧客管理
+	[117625]<a />
+		発注管理
+	[117626]<a />
+		販売設定
+	[117627]<a />
+		会計
+	[117628]<a />
+		分析
+	オペレーション
+	[117629]<a />
+		入荷管理
+		[117866]<div />
+	[117630]<a />
+		出荷管理
+		[117877]<div />
+	[117631]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[117632]<a />
+		ディスカウント
+	[117633]<a />
+		ポイント
+	[117634]<a />
+		会員ランク
+	販売チャネル
+	[117635]<a />
+		Shopify
+	[117636]<a />
+		OmnibusCore
+	[117637]<a />
+		スマレジ
+	[117638]<a />
+		リテールポータル
+	[117639]<a />
+		卸売
+	[117640]<a />
+		設定
+テナントを作成。このページの準備が整いました
+[117995]<div />
+	[117996]<div />
+		[117642]<a />
+テナントを作成
+テナント名
+|SHADOW(open)|[117608]<input id=:r19: placeholder=ブランド autocomplete=off type=text required=true />
+テナント名は様々なデータの紐付けに使われます。ブランド名など事業部を表現するわかりやすい名前を設定してください。
+[117644]<button disabled=true />
+	保存する
+[118033]<section aria-label=Notifications alt+T live=polite />
+[117645]<div id=PolarisPortalsContainer />
+[117647]<div id=clerk-components />

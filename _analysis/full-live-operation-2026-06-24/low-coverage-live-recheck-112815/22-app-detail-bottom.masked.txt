@@ -1,0 +1,100 @@
+viewport: 1209x784
+page: 1209x920
+scroll: (0, 135)
+[95114]<a />
+	コンテンツにスキップ
+[95317]<div />
+[95117]<button data-state=closed expanded=false />
+[95118]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[95334]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[95122]<a />
+		ホーム
+	[95123]<a />
+		商品管理
+	[95124]<a />
+		在庫管理
+	[95125]<a />
+		注文管理
+		[95385]<div />
+	[95126]<a />
+		顧客管理
+	[95127]<a />
+		発注管理
+	[95128]<a />
+		販売設定
+	[95129]<a />
+		会計
+	[95130]<a />
+		分析
+	オペレーション
+	[95131]<a />
+		入荷管理
+		[95469]<div />
+	[95132]<a />
+		出荷管理
+		[95480]<div />
+	[95133]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[95134]<a />
+		ディスカウント
+	[95135]<a />
+		ポイント
+	[95136]<a />
+		会員ランク
+	販売チャネル
+	[95137]<a />
+		Shopify
+	[95138]<a />
+		OmnibusCore
+	[95139]<a />
+		スマレジ
+	[95140]<a />
+		リテールポータル
+	[95141]<a />
+		卸売
+	[95142]<a />
+		設定
+[MASKED_LONG_VALUE]。このページの準備が整いました
+[97164]<div />
+	[97137]<div />
+		[97136]<a />
+[MASKED_LONG_VALUE]
+[97307]<a />
+	ヘルプページ
+Admin API
+アクセストークン
+|SHADOW(open)|[97174]<input id=:r3s: autocomplete=off type=text value=[MASKED_LONG_VALUE]= />
+[97183]<div />
+	[97181]<button />
+2026年06月24日 11:36に作成されました
+シークレット
+|SHADOW(open)|[97192]<input id=:r3t: autocomplete=off type=text value=[MASKED_LONG_VALUE]= />
+[97201]<div />
+	[97199]<button />
+2026年06月24日 11:36に作成されました
+[97225]<hr />
+検証方法
+Playgroundのヘッダー設定で、アクセストークンを使用してリクエストを送信できます。
+[97213]<a />
+	Playgroundを開く
+[97227]<hr />
+リクエストログ
+このトークンを使用して行われたリクエストのログを閲覧することができます。
+[97220]<a />
+	リクエストログを見る
+Storefront API
+アクセストークンを発行することで、ストアフロントAPIにアクセスできるようになります。
+[97233]<button />
+	トークンを発行する
+Webhook
+イベントに関するJSON通知をURLに送信します
+[97245]<button />
+	Webhookを作成する
+[96855]<section aria-label=Notifications alt+T live=polite />
+[95222]<div id=PolarisPortalsContainer />
+[95224]<div id=clerk-components />

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/locations/create",
+  "title": "SQ - 管理画面",
+  "h1": [
+    "ロケーションを作成"
+  ],
+  "selects": [
+    {
+      "label": "場所種別",
+      "name": null,
+      "value": "WAREHOUSE",
+      "disabled": false,
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "disabled": true,
+          "selected": false
+        },
+        {
+          "text": "倉庫",
+          "value": "WAREHOUSE",
+          "disabled": false,
+          "selected": true
+        },
+        {
+          "text": "店舗",
+          "value": "RETAIL",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "label": "ポイント利用種別",
+      "name": null,
+      "value": "DISCOUNT",
+      "disabled": false,
+      "options": [
+        {
+          "text": "選択してください",
+          "value": "",
+          "disabled": true,
+          "selected": false
+        },
+        {
+          "text": "値引き",
+          "value": "DISCOUNT",
+          "disabled": false,
+          "selected": true
+        },
+        {
+          "text": "金種",
+          "value": "PAYMENT",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

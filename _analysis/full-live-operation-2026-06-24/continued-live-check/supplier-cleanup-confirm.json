@@ -1,0 +1,19 @@
+{
+  "before_url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+  "dialog_present": true,
+  "target_present_before": true,
+  "after_url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+  "target_present_after": false,
+  "notifications": [
+    "取引先",
+    "取引先を作成",
+    "アーカイブ",
+    "TEST_E2E_20260622_取引先_1905",
+    "TEST_E2E_20260622_取引先_1845",
+    "TEST_E2E_20260622_取引先_1830",
+    "TEST_E2E_20260622_取引先_1755",
+    "TEST_E2E_20260622_取引先_1740",
+    "TEST_FAQ_DEEP_202606080340_取引先",
+    "取引先を削除しました"
+  ]
+}

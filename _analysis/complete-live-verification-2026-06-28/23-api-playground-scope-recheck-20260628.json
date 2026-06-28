@@ -1,0 +1,319 @@
+{
+  "generatedAt": "2026-06-27T23:49:00.857421+00:00",
+  "appName": "TEST_FAQ_20260624_APP_113636",
+  "appRoute": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+  "result": {
+    "playgroundLinkFound": true,
+    "playgroundHref": "https://sq.stackservice.com/api/admin/v1/playground",
+    "playgroundPageOpened": true,
+    "hrefIsProductionDomain": true,
+    "noCredentialLikeQuery": true
+  },
+  "appDetail": {
+    "url": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "TEST_FAQ_20260624_APP_113636"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App#AppFrameMain",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "",
+        "href": "https://www.sqstackstaging.com/admin",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "ホーム",
+        "href": "https://www.sqstackstaging.com/admin",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "商品管理",
+        "href": "https://www.sqstackstaging.com/admin/products",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "在庫管理",
+        "href": "https://www.sqstackstaging.com/admin/inventory_items",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "注文管理",
+        "href": "https://www.sqstackstaging.com/admin/orders",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "顧客管理",
+        "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "発注管理",
+        "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "販売設定",
+        "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "会計",
+        "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "分析",
+        "href": "https://www.sqstackstaging.com/admin/analytics",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "入荷管理",
+        "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "出荷管理",
+        "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "ディスカウント",
+        "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "ポイント",
+        "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "会員ランク",
+        "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "Shopify",
+        "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "スマレジ",
+        "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "リテールポータル",
+        "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "卸売",
+        "href": "https://www.sqstackstaging.com/admin/b2b",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "設定",
+        "href": "https://www.sqstackstaging.com/admin/settings",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "",
+        "href": "https://www.sqstackstaging.com/admin/settings/apps",
+        "target": null,
+        "rel": null
+      },
+      {
+        "text": "ヘルプページ",
+        "href": "https://docs.sqstack.com/docs/api",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "text": "Playgroundを開く",
+        "href": "https://sq.stackservice.com/api/admin/v1/playground",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "text": "リクエストログを見る",
+        "href": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api",
+        "target": null,
+        "rel": null
+      }
+    ],
+    "buttons": [
+      {
+        "text": "stack-ps-yosuke 陽介 河野",
+        "ariaLabel": null
+      },
+      {
+        "text": "トークンを発行する",
+        "ariaLabel": null
+      },
+      {
+        "text": "Webhookを作成する",
+        "ariaLabel": null
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "text",
+        "placeholder": null,
+        "ariaLabel": null,
+        "valueLength": "44"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "placeholder": null,
+        "ariaLabel": null,
+        "valueLength": "44"
+      }
+    ],
+    "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_APP_113636。このページの準備が整いました TEST_FAQ_20260624_APP_113636 ヘルプページ Admin API アクセストークン 2026年06月24日 11:36に作成されました シークレット 2026年06月24日 11:36に作成されました 検証方法 Playgroundのヘッダー設定で、アクセストークンを使用してリクエストを送信できます。 Playgroundを開く リクエストログ このトークンを使用して行われたリクエストのログを閲覧することができます。 リクエストログを見る Storefront API アクセストークンを発行することで、ストアフロントAPIにアクセスできるようになります。 トークンを発行する Webhook イベントに関するJSON通知をURLに送信します 注文の作成 https://sq-faq-webhook.invalid/20260627173343・JSON Webhookを作成する",
+    "localStorageKeys": [
+      "__clerk_environment"
+    ],
+    "sessionStorageKeys": []
+  },
+  "playground": {
+    "url": "https://sq.stackservice.com/api/admin/v1/playground",
+    "title": "GraphQL Playground",
+    "h1": [],
+    "links": [
+      {
+        "text": "GraphiQL",
+        "href": "https://github.com/graphql/graphiql",
+        "target": "_blank",
+        "rel": "noreferrer"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "icon",
+        "ariaLabel": "Show Documentation Explorer"
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Show History"
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Re-fetch GraphQL schema"
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Open short keys dialog"
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Open settings dialog"
+      },
+      {
+        "text": "<untitled>",
+        "ariaLabel": null
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "New tab"
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Execute query (Ctrl-Enter)"
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Prettify query (Shift-Ctrl-P)"
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Merge fragments into query (Shift-Ctrl-M)"
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Copy query (Shift-Ctrl-C)"
+      },
+      {
+        "text": "Variables",
+        "ariaLabel": null
+      },
+      {
+        "text": "Headers",
+        "ariaLabel": null
+      },
+      {
+        "text": "icon",
+        "ariaLabel": "Hide editor tools"
+      }
+    ],
+    "inputs": [
+      {
+        "tag": "textarea",
+        "type": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "valueLength": "0"
+      },
+      {
+        "tag": "textarea",
+        "type": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "valueLength": "0"
+      },
+      {
+        "tag": "textarea",
+        "type": null,
+        "placeholder": null,
+        "ariaLabel": null,
+        "valueLength": "0"
+      }
+    ],
+    "bodySample": "<untitled> GraphiQL 1 # Welcome to GraphiQL 2 # 3 # GraphiQL is an in-browser tool for writing, validating, and 4 # testing GraphQL queries. 5 # 6 # Type queries into this side of the screen, and you will see intelligent 7 # typeaheads aware of the current GraphQL type schema and live syntax and 8 # validation errors highlighted within the text. 9 # 10 # GraphQL queries typically start with a \"{\" character. Lines that start 11 # with a # are ignored. 12 # 13 # An example GraphQL query might look like: 14 # 15 # { 16 # field(arg: \"value\") { 17 # subField 18 # } 19 # } 20 # 21 # Keyboard shortcuts: 22 # 23 # Prettify query: Shift-Ctrl-P (or press the prettify button) 24 # 25 # Merge fragments: Shift-Ctrl-M (or press the merge button) 26 # 27 # Run Query: Ctrl-Enter (or press the play button) 28 # 29 # Auto Complete: Ctrl-Space (or just start typing) 30 # Variables Headers 1 { 2 \"Debug-Error-Report\": \"false\", 3 \"X-SQ-ADMIN-API-TOKEN\": \"\", 4 \"X-SQ-CLIENT\": \"Admin\" 5 } { \"errors\": [ { \"message\": \"App Admin Authorization Header : token not found, level = Error, code = UNKNOWN\", \"extensions\": { \"code\": \"UNKNOWN\", \"severity\": 500 } } ], \"data\": null }",
+    "localStorageKeys": [
+      "graphiql:tabState",
+      "graphiql:query",
+      "graphiql:shouldPersistHeaders"
+    ],
+    "sessionStorageKeys": []
+  }
+}

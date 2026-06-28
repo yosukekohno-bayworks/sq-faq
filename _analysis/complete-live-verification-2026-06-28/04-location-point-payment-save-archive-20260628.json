@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-06-27T21:16:56.736906+00:00",
+  "errors": [],
+  "testData": {
+    "name": "TEST_FAQ_POINT_PAYMENT_20260628061656",
+    "code": "PTPAY28061656"
+  },
+  "createInitial": {
+    "url": "https://www.sqstackstaging.com/admin/settings/locations/create",
+    "h1": [
+      "ロケーションを作成"
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロケーションを作成。このページの準備が整いました ロケーションを作成 基本情報 名前 このロケーションに短い名前を付けて、簡単に識別できるようにします。注文や商品などのエリアでこの名前が表示されます。 表示名 コード 場所種別 選択してください 倉庫 店舗 倉庫 所在地・連絡先 ロケーションの住所を登録する マップ 電話番号 メールアドレス 販売設定 店舗受け取りを有効にする 在庫依頼を受け付ける ポイント利用種別 選択してください 値引き 金種 値引き 保存する",
+    "selects": [
+      {
+        "label": "選択してください 倉庫 店舗 倉庫",
+        "value": "WAREHOUSE",
+        "selectedText": "倉庫",
+        "options": [
+          {
+            "value": "",
+            "text": "選択してください",
+            "disabled": true
+          },
+          {
+            "value": "WAREHOUSE",
+            "text": "倉庫",
+            "disabled": false
+          },
+          {
+            "value": "RETAIL",
+            "text": "店舗",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "label": "選択してください 値引き 金種 値引き",
+        "value": "DISCOUNT",
+        "selectedText": "値引き",
+        "options": [
+          {
+            "value": "",
+            "text": "選択してください",
+            "disabled": true
+          },
+          {
+            "value": "DISCOUNT",
+            "text": "値引き",
+            "disabled": false
+          },
+          {
+            "value": "PAYMENT",
+            "text": "金種",
+            "disabled": false
+          }
+        ]
+      }
+    ]
+  },
+  "createBeforeSave": {
+    "url": "https://www.sqstackstaging.com/admin/settings/locations/create",
+    "h1": [
+      "ロケーションを作成"
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 保存されていないロケーション 取り消す 保存する ロケーションを作成。このページの準備が整いました ロケーションを作成 基本情報 名前 このロケーションに短い名前を付けて、簡単に識別できるようにします。注文や商品などのエリアでこの名前が表示されます。 表示名 コード 場所種別 選択してください 倉庫 店舗 店舗 所在地・連絡先 ロケーションの住所を登録する マップ 電話番号 メールアドレス 販売設定 店舗受け取りを有効にする 在庫依頼を受け付ける ポイント利用種別 選択してください 値引き 金種 金種 保存する",
+    "selects": [
+      {
+        "label": "選択してください 倉庫 店舗 店舗",
+        "value": "RETAIL",
+        "selectedText": "店舗",
+        "options": [
+          {
+            "value": "",
+            "text": "選択してください",
+            "disabled": true
+          },
+          {
+            "value": "WAREHOUSE",
+            "text": "倉庫",
+            "disabled": false
+          },
+          {
+            "value": "RETAIL",
+            "text": "店舗",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "label": "選択してください 値引き 金種 金種",
+        "value": "PAYMENT",
+        "selectedText": "金種",
+        "options": [
+          {
+            "value": "",
+            "text": "選択してください",
+            "disabled": true
+          },
+          {
+            "value": "DISCOUNT",
+            "text": "値引き",
+            "disabled": false
+          },
+          {
+            "value": "PAYMENT",
+            "text": "金種",
+            "disabled": false
+          }
+        ]
+      }
+    ]
+  },
+  "afterSave": {
+    "url": "https://www.sqstackstaging.com/admin/settings/locations/36fbaaf7-6edd-50bd-bae9-d7daf5da7ac7_Location",
+    "h1": [
+      "ロケーション"
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロケーション。このページの準備が整いました ロケーション TEST_FAQ_POINT_PAYMENT_20260628061656 基本情報 ロケーションID 36fbaaf7-6edd-50bd-bae9-d7daf5da7ac7_Location 外部ID 未設定 名前 表示名 コード 場所種別 選択してください 倉庫 店舗 店舗 このロケーションを閉鎖する 閉鎖すると、店舗撤退や倉庫移動などで利用しなくなったロケーションとして扱われます。 所在地 未設定 連絡先 マップ 電話番号 メールアドレス 所属ロケーショングループ 0個のグループに属しています アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください ロケーションをアーカイブ アーカイブする 公開設定 公開設定 公開 非公開 公開 公開にすることでストアフロントからロケーション情報の参照が可能になります。 販売設定 店舗受取を有効にする 在庫依頼を受け付ける ポイント利用種別 選択してください 値引き 金種 金種 備考欄 備考欄 0/5000 タグ タグは付与されていません 保存する ロケーションを作成しました",
+    "selects": [
+      {
+        "label": "選択してください 倉庫 店舗 店舗",
+        "value": "RETAIL",
+        "selectedText": "店舗",
+        "options": [
+          {
+            "value": "",
+            "text": "選択してください",
+            "disabled": true
+          },
+          {
+            "value": "WAREHOUSE",
+            "text": "倉庫",
+            "disabled": false
+          },
+          {
+            "value": "RETAIL",
+            "text": "店舗",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "label": "公開 非公開 公開",
+        "value": "PUBLIC",
+        "selectedText": "公開",
+        "options": [
+          {
+            "value": "PUBLIC",
+            "text": "公開",
+            "disabled": false
+          },
+          {
+            "value": "PRIVATE",
+            "text": "非公開",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "label": "選択してください 値引き 金種 金種",
+        "value": "PAYMENT",
+        "selectedText": "金種",
+        "options": [
+          {
+            "value": "",
+            "text": "選択してください",
+            "disabled": true
+          },
+          {
+            "value": "DISCOUNT",
+            "text": "値引き",
+            "disabled": false
+          },
+          {
+            "value": "PAYMENT",
+            "text": "金種",
+            "disabled": false
+          }
+        ]
+      }
+    ]
+  },
+  "archiveButtonFound": true,
+  "archiveDialog": "ロケーションをアーカイブしますか？ ロケーションはいつでもアーカイブを解除することができます。アーカイブされたロケーションは管理画面やストアフロントからも非表示となります。 キャンセル アーカイブする",
+  "afterArchive": {
+    "url": "https://www.sqstackstaging.com/admin/settings/locations/36fbaaf7-6edd-50bd-bae9-d7daf5da7ac7_Location",
+    "h1": [
+      "ロケーション"
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ロケーション。このページの準備が整いました ロケーション TEST_FAQ_POINT_PAYMENT_20260628061656 このロケーションはアーカイブされています。 アーカイブされたロケーションは管理画面やストアフロントからも非表示となります。 アーカイブを解除する 基本情報 ロケーションID 36fbaaf7-6edd-50bd-bae9-d7daf5da7ac7_Location 外部ID 未設定 名前 表示名 コード 場所種別 選択してください 倉庫 店舗 店舗 このロケーションを閉鎖する 閉鎖すると、店舗撤退や倉庫移動などで利用しなくなったロケーションとして扱われます。 所在地 未設定 連絡先 マップ 電話番号 メールアドレス 所属ロケーショングループ 0個のグループに属しています アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください 公開設定 公開設定 公開 非公開 非公開 公開にすることでストアフロントからロケーション情報の参照が可能になります。 販売設定 店舗受取を有効にする 在庫依頼を受け付ける ポイント利用種別 選択してください 値引き 金種 金種 備考欄 備考欄 0/5000 タグ タグは付与されていません 保存する",
+    "selects": [
+      {
+        "label": "選択してください 倉庫 店舗 店舗",
+        "value": "RETAIL",
+        "selectedText": "店舗",
+        "options": [
+          {
+            "value": "",
+            "text": "選択してください",
+            "disabled": true
+          },
+          {
+            "value": "WAREHOUSE",
+            "text": "倉庫",
+            "disabled": false
+          },
+          {
+            "value": "RETAIL",
+            "text": "店舗",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "label": "公開 非公開 非公開",
+        "value": "PRIVATE",
+        "selectedText": "非公開",
+        "options": [
+          {
+            "value": "PUBLIC",
+            "text": "公開",
+            "disabled": false
+          },
+          {
+            "value": "PRIVATE",
+            "text": "非公開",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "label": "選択してください 値引き 金種 金種",
+        "value": "PAYMENT",
+        "selectedText": "金種",
+        "options": [
+          {
+            "value": "",
+            "text": "選択してください",
+            "disabled": true
+          },
+          {
+            "value": "DISCOUNT",
+            "text": "値引き",
+            "disabled": false
+          },
+          {
+            "value": "PAYMENT",
+            "text": "金種",
+            "disabled": false
+          }
+        ]
+      }
+    ]
+  },
+  "facts": {
+    "name": "TEST_FAQ_POINT_PAYMENT_20260628061656",
+    "code": "PTPAY28061656",
+    "createdUrl": "https://www.sqstackstaging.com/admin/settings/locations/36fbaaf7-6edd-50bd-bae9-d7daf5da7ac7_Location",
+    "paymentVisibleAfterSave": true,
+    "pointUsageSelectedAfterSave": "金種",
+    "archiveClicked": true,
+    "archivedVisible": true,
+    "errors": []
+  }
+}

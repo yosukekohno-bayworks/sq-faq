@@ -1,0 +1,101 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[63651]<a />
+	コンテンツにスキップ
+[63784]<div />
+[63654]<button data-state=closed expanded=false />
+[63655]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[63801]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[63659]<a />
+		ホーム
+	[63660]<a />
+		商品管理
+	[63661]<a />
+		在庫管理
+	[63662]<a />
+		注文管理
+		[63852]<div />
+	[63663]<a />
+		顧客管理
+	[63664]<a />
+		発注管理
+	[63665]<a />
+		販売設定
+	[63666]<a />
+		会計
+	[63667]<a />
+		分析
+	オペレーション
+	[63668]<a />
+		入荷管理
+		[63936]<div />
+	[63669]<a />
+		出荷管理
+		[63947]<div />
+	[63670]<a />
+		在庫依頼
+		[63959]<div />
+	CRM
+	[63671]<a />
+		ディスカウント
+	[63672]<a />
+		ポイント
+	[63673]<a />
+		会員ランク
+	販売チャネル
+	[63674]<a />
+		Shopify
+	[63675]<a />
+		OmnibusCore
+	[63676]<a />
+		スマレジ
+	[63677]<a />
+		リテールポータル
+	[63678]<a />
+		卸売
+	[63679]<a />
+		設定
+商品をCSVでインポートする。このページの準備が整いました
+[64060]<div />
+	[64061]<div />
+		[63681]<a />
+商品をCSVでインポートする
+[64091]<a />
+	テンプレート
+[63648]<a />
+	新規インポート
+[64158]<tr />
+	[64161]<span />
+		作成日
+	実行ステータス
+[64168]<tr id=43a9a5c7-2508-57e2-a635-f00e74e8f388_CSVImportOperationProduct />
+	[64169]<td />
+		[63686]<a />
+			2026年06月08日
+	[64172]<td />
+		[64175]<span />
+			[64176]<span />
+				成功 完了
+				<svg /> <!-- SVG content collapsed -->
+		[64181]<span />
+			完了
+[64183]<tr id=41177e6c-be8a-5066-8890-00db104c9a98_CSVImportOperationProduct />
+	[64184]<td />
+		[63687]<a />
+			2026年05月20日
+	[64187]<td />
+		[64190]<span />
+			[64191]<span />
+				成功 完了
+				<svg /> <!-- SVG content collapsed -->
+		[64196]<span />
+			完了
+[63689]<button id=previousURL aria-label=前へ disabled=true />
+[63690]<button id=nextURL aria-label=次へ disabled=true />
+[64215]<section aria-label=Notifications alt+T live=polite />
+[63691]<div id=PolarisPortalsContainer />
+[63693]<div id=clerk-components />

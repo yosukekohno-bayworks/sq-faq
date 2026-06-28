@@ -1,0 +1,271 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - status:
+            - paragraph [ref=e227]: ブランド。このページの準備が整いました
+          - generic [ref=e229]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: /admin/settings
+              - img [ref=e235]
+            - heading "ブランド" [level=1] [ref=e239]
+            - link "追加する" [ref=e243] [cursor=pointer]:
+              - /url: /admin/settings/brands/create
+              - generic [ref=e244]: 追加する
+        - generic [ref=e251]:
+          - table [ref=e253]:
+            - rowgroup [ref=e254]:
+              - row "すべてのアイテムを選択する 名前 コード 外部ID 更新日時" [ref=e255]:
+                - columnheader "すべてのアイテムを選択する" [ref=e256]:
+                  - generic [ref=e258] [cursor=pointer]:
+                    - generic [ref=e260]
+                    - generic [ref=e263]: すべてのアイテムを選択する
+                - columnheader "名前" [ref=e264]:
+                  - generic [ref=e265]: 名前
+                - columnheader "コード" [ref=e266]:
+                  - generic [ref=e267]: コード
+                - columnheader "外部ID" [ref=e268]:
+                  - generic [ref=e269]: 外部ID
+                - columnheader "更新日時" [ref=e270]:
+                  - generic [ref=e271]: 更新日時
+            - rowgroup [ref=e272]:
+              - row "アイテムを選択する UNIQLO UNIQLO 2026年06月21日" [ref=e273] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e274]:
+                  - generic [ref=e276]:
+                    - generic [ref=e278]
+                    - generic [ref=e281]: アイテムを選択する
+                - cell "UNIQLO" [ref=e282]:
+                  - paragraph [ref=e283]: UNIQLO
+                - cell "UNIQLO" [ref=e284]:
+                  - paragraph [ref=e285]: UNIQLO
+                - cell [ref=e286]:
+                  - paragraph
+                - cell "2026年06月21日" [ref=e287]:
+                  - paragraph [ref=e288]: 2026年06月21日
+              - row "アイテムを選択する GU GU 2026年06月21日" [ref=e289] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e290]:
+                  - generic [ref=e292]:
+                    - generic [ref=e294]
+                    - generic [ref=e297]: アイテムを選択する
+                - cell "GU" [ref=e298]:
+                  - paragraph [ref=e299]: GU
+                - cell "GU" [ref=e300]:
+                  - paragraph [ref=e301]: GU
+                - cell [ref=e302]:
+                  - paragraph
+                - cell "2026年06月21日" [ref=e303]:
+                  - paragraph [ref=e304]: 2026年06月21日
+              - row "アイテムを選択する TEST_E2E_20260622_ブランド_1740 TEST_E2E_20260622_BR_1740 TEST_E2E_20260622_BR_EXT_1740 2026年06月22日" [ref=e305] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e306]:
+                  - generic [ref=e308]:
+                    - generic [ref=e310]
+                    - generic [ref=e313]: アイテムを選択する
+                - cell "TEST_E2E_20260622_ブランド_1740" [ref=e314]:
+                  - paragraph [ref=e315]: TEST_E2E_20260622_ブランド_1740
+                - cell "TEST_E2E_20260622_BR_1740" [ref=e316]:
+                  - paragraph [ref=e317]: TEST_E2E_20260622_BR_1740
+                - cell "TEST_E2E_20260622_BR_EXT_1740" [ref=e318]:
+                  - paragraph [ref=e319]: TEST_E2E_20260622_BR_EXT_1740
+                - cell "2026年06月22日" [ref=e320]:
+                  - paragraph [ref=e321]: 2026年06月22日
+              - row "アイテムを選択する TEST_E2E_20260622_ブランド_1755 TEST_E2E_20260622_BR_1755 TEST_E2E_20260622_BR_EXT_1755 2026年06月22日" [ref=e322] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e323]:
+                  - generic [ref=e325]:
+                    - generic [ref=e327]
+                    - generic [ref=e330]: アイテムを選択する
+                - cell "TEST_E2E_20260622_ブランド_1755" [ref=e331]:
+                  - paragraph [ref=e332]: TEST_E2E_20260622_ブランド_1755
+                - cell "TEST_E2E_20260622_BR_1755" [ref=e333]:
+                  - paragraph [ref=e334]: TEST_E2E_20260622_BR_1755
+                - cell "TEST_E2E_20260622_BR_EXT_1755" [ref=e335]:
+                  - paragraph [ref=e336]: TEST_E2E_20260622_BR_EXT_1755
+                - cell "2026年06月22日" [ref=e337]:
+                  - paragraph [ref=e338]: 2026年06月22日
+              - row "アイテムを選択する TEST_E2E_20260622_ブランド_1830 TEST_E2E_20260622_BR_1830 TEST_E2E_20260622_BR_EXT_1830 2026年06月22日" [ref=e339] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e340]:
+                  - generic [ref=e342]:
+                    - generic [ref=e344]
+                    - generic [ref=e347]: アイテムを選択する
+                - cell "TEST_E2E_20260622_ブランド_1830" [ref=e348]:
+                  - paragraph [ref=e349]: TEST_E2E_20260622_ブランド_1830
+                - cell "TEST_E2E_20260622_BR_1830" [ref=e350]:
+                  - paragraph [ref=e351]: TEST_E2E_20260622_BR_1830
+                - cell "TEST_E2E_20260622_BR_EXT_1830" [ref=e352]:
+                  - paragraph [ref=e353]: TEST_E2E_20260622_BR_EXT_1830
+                - cell "2026年06月22日" [ref=e354]:
+                  - paragraph [ref=e355]: 2026年06月22日
+              - row "アイテムを選択する TEST_E2E_20260622_ブランド_1845 TEST_E2E_20260622_BR_1845 TEST_E2E_20260622_BR_EXT_1845 2026年06月22日" [ref=e356] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e357]:
+                  - generic [ref=e359]:
+                    - generic [ref=e361]
+                    - generic [ref=e364]: アイテムを選択する
+                - cell "TEST_E2E_20260622_ブランド_1845" [ref=e365]:
+                  - paragraph [ref=e366]: TEST_E2E_20260622_ブランド_1845
+                - cell "TEST_E2E_20260622_BR_1845" [ref=e367]:
+                  - paragraph [ref=e368]: TEST_E2E_20260622_BR_1845
+                - cell "TEST_E2E_20260622_BR_EXT_1845" [ref=e369]:
+                  - paragraph [ref=e370]: TEST_E2E_20260622_BR_EXT_1845
+                - cell "2026年06月22日" [ref=e371]:
+                  - paragraph [ref=e372]: 2026年06月22日
+              - row "アイテムを選択する TEST_E2E_20260622_ブランド_1905 TEST_E2E_20260622_BR_1905 TEST_E2E_20260622_BR_EXT_1905 2026年06月22日" [ref=e373] [cursor=pointer]:
+                - cell "アイテムを選択する" [ref=e374]:
+                  - generic [ref=e376]:
+                    - generic [ref=e378]
+                    - generic [ref=e381]: アイテムを選択する
+                - cell "TEST_E2E_20260622_ブランド_1905" [ref=e382]:
+                  - paragraph [ref=e383]: TEST_E2E_20260622_ブランド_1905
+                - cell "TEST_E2E_20260622_BR_1905" [ref=e384]:
+                  - paragraph [ref=e385]: TEST_E2E_20260622_BR_1905
+                - cell "TEST_E2E_20260622_BR_EXT_1905" [ref=e386]:
+                  - paragraph [ref=e387]: TEST_E2E_20260622_BR_EXT_1905
+                - cell "2026年06月22日" [ref=e388]:
+                  - paragraph [ref=e389]: 2026年06月22日
+          - navigation "ページネーション" [ref=e393]:
+            - generic [ref=e396]:
+              - generic [ref=e397]:
+                - button "前へ" [disabled]:
+                  - generic:
+                    - generic
+              - generic [ref=e398]:
+                - button "次へ" [disabled]:
+                  - generic:
+                    - generic
+  - region "Notifications alt+T"
+  - alert [ref=e10]

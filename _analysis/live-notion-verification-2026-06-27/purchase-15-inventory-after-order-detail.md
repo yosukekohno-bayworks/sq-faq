@@ -1,0 +1,630 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+              - list [ref=e69]:
+                - listitem [ref=e70]:
+                  - link "移動伝票" [ref=e73] [cursor=pointer]:
+                    - /url: /admin/inventory_movement_orders
+                    - generic [ref=e74]: 移動伝票
+                - listitem [ref=e75]:
+                  - link "調整伝票" [ref=e78] [cursor=pointer]:
+                    - /url: /admin/inventory_adjustment_orders
+                    - generic [ref=e79]: 調整伝票
+                - listitem [ref=e80]:
+                  - link "取置伝票" [ref=e83] [cursor=pointer]:
+                    - /url: /admin/inventory_reservation_orders
+                    - generic [ref=e84]: 取置伝票
+            - listitem [ref=e85]:
+              - link "注文管理" [ref=e88] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e91]
+                - generic [ref=e93]: 注文管理
+            - listitem [ref=e94]:
+              - link "顧客管理" [ref=e97] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100]
+                - generic [ref=e103]: 顧客管理
+            - listitem [ref=e104]:
+              - link "発注管理" [ref=e107] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110]
+                - generic [ref=e113]: 発注管理
+            - listitem [ref=e114]:
+              - link "販売設定" [ref=e117] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120]
+                - generic [ref=e125]: 販売設定
+            - listitem [ref=e126]:
+              - link "会計" [ref=e129] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132]
+                - generic [ref=e134]: 会計
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e139]: オペレーション
+            - listitem [ref=e140]:
+              - link "入荷管理" [ref=e143] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146]
+                - generic [ref=e150]: 入荷管理
+            - listitem [ref=e151]:
+              - link "出荷管理" [ref=e154] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e157]
+                - generic [ref=e159]: 出荷管理
+            - listitem [ref=e160]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e163] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e166]
+                - generic [ref=e169]: 在庫依頼
+                - generic [ref=e171]:
+                  - generic [ref=e172]: 未完了の在庫依頼 3件
+                  - generic [ref=e173]: "3"
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: CRM
+            - listitem [ref=e177]:
+              - link "ディスカウント" [ref=e180] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e183]
+                - generic [ref=e185]: ディスカウント
+            - listitem [ref=e186]:
+              - link "ポイント" [ref=e189] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e192]
+                - generic [ref=e194]: ポイント
+            - listitem [ref=e195]:
+              - link "会員ランク" [ref=e198] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e201]
+                - generic [ref=e204]: 会員ランク
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - generic [ref=e207]: 販売チャネル
+            - listitem [ref=e208]:
+              - link "Shopify" [ref=e211] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e212]: Shopify
+            - listitem [ref=e213]:
+              - link "OmnibusCore" [ref=e216] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e217]: OmnibusCore
+            - listitem [ref=e218]:
+              - link "スマレジ" [ref=e221] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e222]: スマレジ
+            - listitem [ref=e223]:
+              - link "リテールポータル" [ref=e226] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e227]: リテールポータル
+            - listitem [ref=e228]:
+              - generic [ref=e229]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e230]:
+            - listitem [ref=e231]:
+              - link "設定" [ref=e234] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e237]
+                - generic [ref=e239]: 設定
+    - main [ref=e240]:
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - status:
+            - paragraph [ref=e245]: TEST_E2E_20260622 GU検証Tシャツ 1905 / NAVY / M。このページの準備が整いました
+          - generic [ref=e247]:
+            - link [ref=e250] [cursor=pointer]:
+              - /url: /admin/inventory_items
+              - img [ref=e253]
+            - heading "TEST_E2E_20260622 GU検証Tシャツ 1905 / NAVY / M" [level=1] [ref=e257]
+            - generic [ref=e261]:
+              - link "調整履歴" [ref=e263] [cursor=pointer]:
+                - /url: /admin/inventory_items/137c461d-51a3-545e-8c58-2402bae9fef7_InventoryItem/history
+                - generic [ref=e264]: 調整履歴
+              - link "商品管理" [ref=e266] [cursor=pointer]:
+                - /url: /admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product
+                - generic [ref=e267]: 商品管理
+              - button "その他のアクション" [ref=e270] [cursor=pointer]:
+                - generic [ref=e271]: その他のアクション
+                - img [ref=e274]
+        - generic [ref=e279]:
+          - generic [ref=e283]:
+            - generic [ref=e285]:
+              - generic [ref=e286]: product variant thumbnail
+              - img [ref=e287]
+            - generic [ref=e290]:
+              - paragraph [ref=e291]: NAVY / M
+              - paragraph [ref=e292]: "SKU: TEST_E2E_20260622_GU_1905_NAVY_M"
+          - generic [ref=e296]:
+            - heading "選択中のロケーション：" [level=2] [ref=e297]
+            - button "選択してください" [ref=e298] [cursor=pointer]:
+              - generic [ref=e299]: 選択してください
+              - img [ref=e302]
+          - generic [ref=e305]:
+            - generic [ref=e311]:
+              - tablist [ref=e318]:
+                - tab "すべて" [selected] [ref=e319] [cursor=pointer]:
+                  - generic [ref=e321]: すべて
+                - tab "店舗" [ref=e322] [cursor=pointer]:
+                  - generic [ref=e324]: 店舗
+                - tab "倉庫" [ref=e325] [cursor=pointer]:
+                  - generic [ref=e327]: 倉庫
+              - button "検索と絞り込みの結果" [ref=e331] [cursor=pointer]:
+                - img [ref=e335]
+            - generic [ref=e338]:
+              - table [ref=e340]:
+                - rowgroup [ref=e341]:
+                  - row "ロケーション 販売可能 引当済み 取置中 破損 検品 予備 手持ち 積送中 入荷予定" [ref=e342]:
+                    - columnheader "ロケーション" [ref=e343]:
+                      - generic [ref=e344]: ロケーション
+                    - columnheader "販売可能" [ref=e345]:
+                      - generic [ref=e348]: 販売可能
+                    - columnheader "引当済み" [ref=e349]:
+                      - generic [ref=e352]: 引当済み
+                    - columnheader "取置中" [ref=e353]:
+                      - generic [ref=e356]: 取置中
+                    - columnheader "破損" [ref=e357]:
+                      - generic [ref=e360]: 破損
+                    - columnheader "検品" [ref=e361]:
+                      - generic [ref=e364]: 検品
+                    - columnheader "予備" [ref=e365]:
+                      - generic [ref=e368]: 予備
+                    - columnheader "手持ち" [ref=e369]:
+                      - generic [ref=e372]: 手持ち
+                    - columnheader "積送中" [ref=e373]:
+                      - generic [ref=e376]: 積送中
+                    - columnheader "入荷予定" [ref=e377]:
+                      - generic [ref=e380]: 入荷予定
+                - rowgroup [ref=e381]:
+                  - row "GU 倉庫 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e382]:
+                    - cell "GU 倉庫" [ref=e383]
+                    - cell "0 販売可能数を編集" [ref=e384]:
+                      - generic [ref=e385]:
+                        - paragraph [ref=e386]: "0"
+                        - button "販売可能数を編集" [ref=e387] [cursor=pointer]
+                    - cell "0" [ref=e392]:
+                      - paragraph [ref=e393]: "0"
+                    - cell "0" [ref=e394]:
+                      - paragraph [ref=e395]: "0"
+                    - cell "0" [ref=e396]:
+                      - paragraph [ref=e397]: "0"
+                    - cell "0" [ref=e398]:
+                      - paragraph [ref=e399]: "0"
+                    - cell "0" [ref=e400]:
+                      - paragraph [ref=e401]: "0"
+                    - cell "0" [ref=e402]:
+                      - paragraph [ref=e403]: "0"
+                    - cell "0" [ref=e404]:
+                      - paragraph [ref=e406]: "0"
+                    - cell "0" [ref=e407]:
+                      - paragraph [ref=e408]: "0"
+                  - row "GU 銀座店 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e409]:
+                    - cell "GU 銀座店" [ref=e410]
+                    - cell "0 販売可能数を編集" [ref=e411]:
+                      - generic [ref=e412]:
+                        - paragraph [ref=e413]: "0"
+                        - button "販売可能数を編集" [ref=e414] [cursor=pointer]
+                    - cell "0" [ref=e419]:
+                      - paragraph [ref=e420]: "0"
+                    - cell "0" [ref=e421]:
+                      - paragraph [ref=e422]: "0"
+                    - cell "0" [ref=e423]:
+                      - paragraph [ref=e424]: "0"
+                    - cell "0" [ref=e425]:
+                      - paragraph [ref=e426]: "0"
+                    - cell "0" [ref=e427]:
+                      - paragraph [ref=e428]: "0"
+                    - cell "0" [ref=e429]:
+                      - paragraph [ref=e430]: "0"
+                    - cell "0" [ref=e431]:
+                      - paragraph [ref=e433]: "0"
+                    - cell "0" [ref=e434]:
+                      - paragraph [ref=e435]: "0"
+                  - row "TEST_E2E_20260622_GU倉庫_ON_1740 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e436]:
+                    - cell "TEST_E2E_20260622_GU倉庫_ON_1740" [ref=e437]
+                    - cell "0 販売可能数を編集" [ref=e438]:
+                      - generic [ref=e439]:
+                        - paragraph [ref=e440]: "0"
+                        - button "販売可能数を編集" [ref=e441] [cursor=pointer]
+                    - cell "0" [ref=e446]:
+                      - paragraph [ref=e447]: "0"
+                    - cell "0" [ref=e448]:
+                      - paragraph [ref=e449]: "0"
+                    - cell "0" [ref=e450]:
+                      - paragraph [ref=e451]: "0"
+                    - cell "0" [ref=e452]:
+                      - paragraph [ref=e453]: "0"
+                    - cell "0" [ref=e454]:
+                      - paragraph [ref=e455]: "0"
+                    - cell "0" [ref=e456]:
+                      - paragraph [ref=e457]: "0"
+                    - cell "0" [ref=e458]:
+                      - paragraph [ref=e460]: "0"
+                    - cell "0" [ref=e461]:
+                      - paragraph [ref=e462]: "0"
+                  - row "TEST_E2E_20260622_GU倉庫_ON_1755 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e463]:
+                    - cell "TEST_E2E_20260622_GU倉庫_ON_1755" [ref=e464]
+                    - cell "0 販売可能数を編集" [ref=e465]:
+                      - generic [ref=e466]:
+                        - paragraph [ref=e467]: "0"
+                        - button "販売可能数を編集" [ref=e468] [cursor=pointer]
+                    - cell "0" [ref=e473]:
+                      - paragraph [ref=e474]: "0"
+                    - cell "0" [ref=e475]:
+                      - paragraph [ref=e476]: "0"
+                    - cell "0" [ref=e477]:
+                      - paragraph [ref=e478]: "0"
+                    - cell "0" [ref=e479]:
+                      - paragraph [ref=e480]: "0"
+                    - cell "0" [ref=e481]:
+                      - paragraph [ref=e482]: "0"
+                    - cell "0" [ref=e483]:
+                      - paragraph [ref=e484]: "0"
+                    - cell "0" [ref=e485]:
+                      - paragraph [ref=e487]: "0"
+                    - cell "0" [ref=e488]:
+                      - paragraph [ref=e489]: "0"
+                  - row "TEST_E2E_20260622_GU倉庫_ON_1830 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e490]:
+                    - cell "TEST_E2E_20260622_GU倉庫_ON_1830" [ref=e491]
+                    - cell "0 販売可能数を編集" [ref=e492]:
+                      - generic [ref=e493]:
+                        - paragraph [ref=e494]: "0"
+                        - button "販売可能数を編集" [ref=e495] [cursor=pointer]
+                    - cell "0" [ref=e500]:
+                      - paragraph [ref=e501]: "0"
+                    - cell "0" [ref=e502]:
+                      - paragraph [ref=e503]: "0"
+                    - cell "0" [ref=e504]:
+                      - paragraph [ref=e505]: "0"
+                    - cell "0" [ref=e506]:
+                      - paragraph [ref=e507]: "0"
+                    - cell "0" [ref=e508]:
+                      - paragraph [ref=e509]: "0"
+                    - cell "0" [ref=e510]:
+                      - paragraph [ref=e511]: "0"
+                    - cell "0" [ref=e512]:
+                      - paragraph [ref=e514]: "0"
+                    - cell "0" [ref=e515]:
+                      - paragraph [ref=e516]: "0"
+                  - row "TEST_E2E_20260622_GU倉庫_ON_1845 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e517]:
+                    - cell "TEST_E2E_20260622_GU倉庫_ON_1845" [ref=e518]
+                    - cell "0 販売可能数を編集" [ref=e519]:
+                      - generic [ref=e520]:
+                        - paragraph [ref=e521]: "0"
+                        - button "販売可能数を編集" [ref=e522] [cursor=pointer]
+                    - cell "0" [ref=e527]:
+                      - paragraph [ref=e528]: "0"
+                    - cell "0" [ref=e529]:
+                      - paragraph [ref=e530]: "0"
+                    - cell "0" [ref=e531]:
+                      - paragraph [ref=e532]: "0"
+                    - cell "0" [ref=e533]:
+                      - paragraph [ref=e534]: "0"
+                    - cell "0" [ref=e535]:
+                      - paragraph [ref=e536]: "0"
+                    - cell "0" [ref=e537]:
+                      - paragraph [ref=e538]: "0"
+                    - cell "0" [ref=e539]:
+                      - paragraph [ref=e541]: "0"
+                    - cell "0" [ref=e542]:
+                      - paragraph [ref=e543]: "0"
+                  - row "TEST_E2E_20260622_GU倉庫_ON_1905 8 販売可能数を編集 0 0 0 0 0 8 0 0" [ref=e544]:
+                    - cell "TEST_E2E_20260622_GU倉庫_ON_1905" [ref=e545]
+                    - cell "8 販売可能数を編集" [ref=e546]:
+                      - generic [ref=e547]:
+                        - paragraph [ref=e548]: "8"
+                        - button "販売可能数を編集" [ref=e549] [cursor=pointer]
+                    - cell "0" [ref=e554]:
+                      - paragraph [ref=e555]: "0"
+                    - cell "0" [ref=e556]:
+                      - paragraph [ref=e557]: "0"
+                    - cell "0" [ref=e558]:
+                      - paragraph [ref=e559]: "0"
+                    - cell "0" [ref=e560]:
+                      - paragraph [ref=e561]: "0"
+                    - cell "0" [ref=e562]:
+                      - paragraph [ref=e563]: "0"
+                    - cell "8" [ref=e564]:
+                      - paragraph [ref=e565]: "8"
+                    - cell "0" [ref=e566]:
+                      - paragraph [ref=e568]: "0"
+                    - cell "0" [ref=e569]:
+                      - paragraph [ref=e570]: "0"
+                  - row "TEST_E2E_20260622_GU店舗_OFF_1740 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e571]:
+                    - cell "TEST_E2E_20260622_GU店舗_OFF_1740" [ref=e572]
+                    - cell "0 販売可能数を編集" [ref=e573]:
+                      - generic [ref=e574]:
+                        - paragraph [ref=e575]: "0"
+                        - button "販売可能数を編集" [ref=e576] [cursor=pointer]
+                    - cell "0" [ref=e581]:
+                      - paragraph [ref=e582]: "0"
+                    - cell "0" [ref=e583]:
+                      - paragraph [ref=e584]: "0"
+                    - cell "0" [ref=e585]:
+                      - paragraph [ref=e586]: "0"
+                    - cell "0" [ref=e587]:
+                      - paragraph [ref=e588]: "0"
+                    - cell "0" [ref=e589]:
+                      - paragraph [ref=e590]: "0"
+                    - cell "0" [ref=e591]:
+                      - paragraph [ref=e592]: "0"
+                    - cell "0" [ref=e593]:
+                      - paragraph [ref=e595]: "0"
+                    - cell "0" [ref=e596]:
+                      - paragraph [ref=e597]: "0"
+                  - row "TEST_E2E_20260622_GU店舗_OFF_1830 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e598]:
+                    - cell "TEST_E2E_20260622_GU店舗_OFF_1830" [ref=e599]
+                    - cell "0 販売可能数を編集" [ref=e600]:
+                      - generic [ref=e601]:
+                        - paragraph [ref=e602]: "0"
+                        - button "販売可能数を編集" [ref=e603] [cursor=pointer]
+                    - cell "0" [ref=e608]:
+                      - paragraph [ref=e609]: "0"
+                    - cell "0" [ref=e610]:
+                      - paragraph [ref=e611]: "0"
+                    - cell "0" [ref=e612]:
+                      - paragraph [ref=e613]: "0"
+                    - cell "0" [ref=e614]:
+                      - paragraph [ref=e615]: "0"
+                    - cell "0" [ref=e616]:
+                      - paragraph [ref=e617]: "0"
+                    - cell "0" [ref=e618]:
+                      - paragraph [ref=e619]: "0"
+                    - cell "0" [ref=e620]:
+                      - paragraph [ref=e622]: "0"
+                    - cell "0" [ref=e623]:
+                      - paragraph [ref=e624]: "0"
+                  - row "TEST_E2E_20260622_GU店舗_OFF_1845 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e625]:
+                    - cell "TEST_E2E_20260622_GU店舗_OFF_1845" [ref=e626]
+                    - cell "0 販売可能数を編集" [ref=e627]:
+                      - generic [ref=e628]:
+                        - paragraph [ref=e629]: "0"
+                        - button "販売可能数を編集" [ref=e630] [cursor=pointer]
+                    - cell "0" [ref=e635]:
+                      - paragraph [ref=e636]: "0"
+                    - cell "0" [ref=e637]:
+                      - paragraph [ref=e638]: "0"
+                    - cell "0" [ref=e639]:
+                      - paragraph [ref=e640]: "0"
+                    - cell "0" [ref=e641]:
+                      - paragraph [ref=e642]: "0"
+                    - cell "0" [ref=e643]:
+                      - paragraph [ref=e644]: "0"
+                    - cell "0" [ref=e645]:
+                      - paragraph [ref=e646]: "0"
+                    - cell "0" [ref=e647]:
+                      - paragraph [ref=e649]: "0"
+                    - cell "0" [ref=e650]:
+                      - paragraph [ref=e651]: "0"
+                  - row "TEST_E2E_20260622_GU店舗_OFF_1905 2 販売可能数を編集 0 0 0 0 0 2 0 0" [ref=e652]:
+                    - cell "TEST_E2E_20260622_GU店舗_OFF_1905" [ref=e653]
+                    - cell "2 販売可能数を編集" [ref=e654]:
+                      - generic [ref=e655]:
+                        - paragraph [ref=e656]: "2"
+                        - button "販売可能数を編集" [ref=e657] [cursor=pointer]
+                    - cell "0" [ref=e662]:
+                      - paragraph [ref=e663]: "0"
+                    - cell "0" [ref=e664]:
+                      - paragraph [ref=e665]: "0"
+                    - cell "0" [ref=e666]:
+                      - paragraph [ref=e667]: "0"
+                    - cell "0" [ref=e668]:
+                      - paragraph [ref=e669]: "0"
+                    - cell "0" [ref=e670]:
+                      - paragraph [ref=e671]: "0"
+                    - cell "2" [ref=e672]:
+                      - paragraph [ref=e673]: "2"
+                    - cell "0" [ref=e674]:
+                      - paragraph [ref=e676]: "0"
+                    - cell "0" [ref=e677]:
+                      - paragraph [ref=e678]: "0"
+                  - row "TEST_FAQ_20260624_GU倉庫_ON_092214 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e679]:
+                    - cell "TEST_FAQ_20260624_GU倉庫_ON_092214" [ref=e680]
+                    - cell "0 販売可能数を編集" [ref=e681]:
+                      - generic [ref=e682]:
+                        - paragraph [ref=e683]: "0"
+                        - button "販売可能数を編集" [ref=e684] [cursor=pointer]
+                    - cell "0" [ref=e689]:
+                      - paragraph [ref=e690]: "0"
+                    - cell "0" [ref=e691]:
+                      - paragraph [ref=e692]: "0"
+                    - cell "0" [ref=e693]:
+                      - paragraph [ref=e694]: "0"
+                    - cell "0" [ref=e695]:
+                      - paragraph [ref=e696]: "0"
+                    - cell "0" [ref=e697]:
+                      - paragraph [ref=e698]: "0"
+                    - cell "0" [ref=e699]:
+                      - paragraph [ref=e700]: "0"
+                    - cell "0" [ref=e701]:
+                      - paragraph [ref=e703]: "0"
+                    - cell "0" [ref=e704]:
+                      - paragraph [ref=e705]: "0"
+                  - row "TEST_FAQ_20260624_GU店舗_OFF_092214 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e706]:
+                    - cell "TEST_FAQ_20260624_GU店舗_OFF_092214" [ref=e707]
+                    - cell "0 販売可能数を編集" [ref=e708]:
+                      - generic [ref=e709]:
+                        - paragraph [ref=e710]: "0"
+                        - button "販売可能数を編集" [ref=e711] [cursor=pointer]
+                    - cell "0" [ref=e716]:
+                      - paragraph [ref=e717]: "0"
+                    - cell "0" [ref=e718]:
+                      - paragraph [ref=e719]: "0"
+                    - cell "0" [ref=e720]:
+                      - paragraph [ref=e721]: "0"
+                    - cell "0" [ref=e722]:
+                      - paragraph [ref=e723]: "0"
+                    - cell "0" [ref=e724]:
+                      - paragraph [ref=e725]: "0"
+                    - cell "0" [ref=e726]:
+                      - paragraph [ref=e727]: "0"
+                    - cell "0" [ref=e728]:
+                      - paragraph [ref=e730]: "0"
+                    - cell "0" [ref=e731]:
+                      - paragraph [ref=e732]: "0"
+                  - row "TEST_FAQ_DEEP2_202606080343_ロケーション 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e733]:
+                    - cell "TEST_FAQ_DEEP2_202606080343_ロケーション" [ref=e734]
+                    - cell "0 販売可能数を編集" [ref=e735]:
+                      - generic [ref=e736]:
+                        - paragraph [ref=e737]: "0"
+                        - button "販売可能数を編集" [ref=e738] [cursor=pointer]
+                    - cell "0" [ref=e743]:
+                      - paragraph [ref=e744]: "0"
+                    - cell "0" [ref=e745]:
+                      - paragraph [ref=e746]: "0"
+                    - cell "0" [ref=e747]:
+                      - paragraph [ref=e748]: "0"
+                    - cell "0" [ref=e749]:
+                      - paragraph [ref=e750]: "0"
+                    - cell "0" [ref=e751]:
+                      - paragraph [ref=e752]: "0"
+                    - cell "0" [ref=e753]:
+                      - paragraph [ref=e754]: "0"
+                    - cell "0" [ref=e755]:
+                      - paragraph [ref=e757]: "0"
+                    - cell "0" [ref=e758]:
+                      - paragraph [ref=e759]: "0"
+                  - row "TEST_FLAGOFF_20260621 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e760]:
+                    - cell "TEST_FLAGOFF_20260621" [ref=e761]
+                    - cell "0 販売可能数を編集" [ref=e762]:
+                      - generic [ref=e763]:
+                        - paragraph [ref=e764]: "0"
+                        - button "販売可能数を編集" [ref=e765] [cursor=pointer]
+                    - cell "0" [ref=e770]:
+                      - paragraph [ref=e771]: "0"
+                    - cell "0" [ref=e772]:
+                      - paragraph [ref=e773]: "0"
+                    - cell "0" [ref=e774]:
+                      - paragraph [ref=e775]: "0"
+                    - cell "0" [ref=e776]:
+                      - paragraph [ref=e777]: "0"
+                    - cell "0" [ref=e778]:
+                      - paragraph [ref=e779]: "0"
+                    - cell "0" [ref=e780]:
+                      - paragraph [ref=e781]: "0"
+                    - cell "0" [ref=e782]:
+                      - paragraph [ref=e784]: "0"
+                    - cell "0" [ref=e785]:
+                      - paragraph [ref=e786]: "0"
+                  - row "ユニクロ - 銀座店 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e787]:
+                    - cell "ユニクロ - 銀座店" [ref=e788]
+                    - cell "0 販売可能数を編集" [ref=e789]:
+                      - generic [ref=e790]:
+                        - paragraph [ref=e791]: "0"
+                        - button "販売可能数を編集" [ref=e792] [cursor=pointer]
+                    - cell "0" [ref=e797]:
+                      - paragraph [ref=e798]: "0"
+                    - cell "0" [ref=e799]:
+                      - paragraph [ref=e800]: "0"
+                    - cell "0" [ref=e801]:
+                      - paragraph [ref=e802]: "0"
+                    - cell "0" [ref=e803]:
+                      - paragraph [ref=e804]: "0"
+                    - cell "0" [ref=e805]:
+                      - paragraph [ref=e806]: "0"
+                    - cell "0" [ref=e807]:
+                      - paragraph [ref=e808]: "0"
+                    - cell "0" [ref=e809]:
+                      - paragraph [ref=e811]: "0"
+                    - cell "0" [ref=e812]:
+                      - paragraph [ref=e813]: "0"
+                  - row "ユニクロEC 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e814]:
+                    - cell "ユニクロEC" [ref=e815]
+                    - cell "0 販売可能数を編集" [ref=e816]:
+                      - generic [ref=e817]:
+                        - paragraph [ref=e818]: "0"
+                        - button "販売可能数を編集" [ref=e819] [cursor=pointer]
+                    - cell "0" [ref=e824]:
+                      - paragraph [ref=e825]: "0"
+                    - cell "0" [ref=e826]:
+                      - paragraph [ref=e827]: "0"
+                    - cell "0" [ref=e828]:
+                      - paragraph [ref=e829]: "0"
+                    - cell "0" [ref=e830]:
+                      - paragraph [ref=e831]: "0"
+                    - cell "0" [ref=e832]:
+                      - paragraph [ref=e833]: "0"
+                    - cell "0" [ref=e834]:
+                      - paragraph [ref=e835]: "0"
+                    - cell "0" [ref=e836]:
+                      - paragraph [ref=e838]: "0"
+                    - cell "0" [ref=e839]:
+                      - paragraph [ref=e840]: "0"
+                  - row "ユニクロ物流倉庫 0 販売可能数を編集 0 0 0 0 0 0 0 0" [ref=e841]:
+                    - cell "ユニクロ物流倉庫" [ref=e842]
+                    - cell "0 販売可能数を編集" [ref=e843]:
+                      - generic [ref=e844]:
+                        - paragraph [ref=e845]: "0"
+                        - button "販売可能数を編集" [ref=e846] [cursor=pointer]
+                    - cell "0" [ref=e851]:
+                      - paragraph [ref=e852]: "0"
+                    - cell "0" [ref=e853]:
+                      - paragraph [ref=e854]: "0"
+                    - cell "0" [ref=e855]:
+                      - paragraph [ref=e856]: "0"
+                    - cell "0" [ref=e857]:
+                      - paragraph [ref=e858]: "0"
+                    - cell "0" [ref=e859]:
+                      - paragraph [ref=e860]: "0"
+                    - cell "0" [ref=e861]:
+                      - paragraph [ref=e862]: "0"
+                    - cell "0" [ref=e863]:
+                      - paragraph [ref=e865]: "0"
+                    - cell "0" [ref=e866]:
+                      - paragraph [ref=e867]: "0"
+              - navigation "ページネーション" [ref=e871]:
+                - generic [ref=e874]:
+                  - generic [ref=e875]:
+                    - button "前へ" [disabled]:
+                      - generic:
+                        - generic
+                  - generic [ref=e876]:
+                    - button "次へ" [disabled]:
+                      - generic:
+                        - generic
+  - region "Notifications alt+T"
+  - alert [ref=e10]

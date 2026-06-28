@@ -1,0 +1,886 @@
+{
+  "generatedAt": "2026-06-27T21:00:27.510774+00:00",
+  "companyRoute": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+  "email": "sq-faq-company-contact-20260627205837@example.com",
+  "errors": [],
+  "beforeDelete": {
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "h1": [
+      "TEST_FAQ_20260624_COMPANY_102911"
+    ],
+    "labels": [
+      "アイテムを選択する",
+      "すべてのアイテムを選択する",
+      "アイテムを選択する",
+      "すべてのアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "担当者を追加"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "会社",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "ロケーションを追加",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/create"
+      },
+      {
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+      }
+    ],
+    "rows": [
+      {
+        "id": "",
+        "text": "ロケーション 売上 注文",
+        "links": [],
+        "inputs": []
+      },
+      {
+        "id": "176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation",
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0",
+        "links": [
+          {
+            "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+            "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+          }
+        ],
+        "inputs": []
+      },
+      {
+        "id": "",
+        "text": "すべてのアイテムを選択する 名前 メールアドレス",
+        "links": [],
+        "inputs": [
+          {
+            "type": "checkbox",
+            "checked": false,
+            "value": "on"
+          }
+        ]
+      },
+      {
+        "id": "3b4be330-4112-5a61-809e-42f5eeb77c76_CompanyContact",
+        "text": "アイテムを選択する FAQContact205837 sq-faq-company-contact-20260627205837@example.com",
+        "links": [],
+        "inputs": [
+          {
+            "type": "checkbox",
+            "checked": false,
+            "value": "on"
+          }
+        ]
+      }
+    ],
+    "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました TEST_FAQ_20260624_COMPANY_102911 2026年06月24日から顧客 直近の注文 この会社はまだ注文していません ロケーション ロケーションを追加 ロケーション 売上 注文 TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0 担当者 担当者を追加 すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する FAQContact205837 sq-faq-company-contact-20260627205837@example.com TEST_FAQ_20260624_COMPANY_102911 会社ID TEST_FAQ_COMP_102911 メモ この会社にはメモがありません。"
+  },
+  "rowCountBeforeDelete": 1,
+  "afterSelect": {
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "h1": [
+      "TEST_FAQ_20260624_COMPANY_102911"
+    ],
+    "labels": [
+      "アイテムを選択する",
+      "すべてのアイテムを選択する",
+      "アイテムの選択を解除する",
+      "すべてのアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "担当者を追加",
+      "担当者を削除",
+      "その他の操作",
+      "担当者を削除"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "会社",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "ロケーションを追加",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/create"
+      },
+      {
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+      }
+    ],
+    "rows": [
+      {
+        "id": "",
+        "text": "ロケーション 売上 注文",
+        "links": [],
+        "inputs": []
+      },
+      {
+        "id": "176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation",
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0",
+        "links": [
+          {
+            "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+            "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+          }
+        ],
+        "inputs": []
+      },
+      {
+        "id": "",
+        "text": "すべてのアイテムを選択する 名前 メールアドレス",
+        "links": [],
+        "inputs": [
+          {
+            "type": "checkbox",
+            "checked": true,
+            "value": "on"
+          }
+        ]
+      },
+      {
+        "id": "3b4be330-4112-5a61-809e-42f5eeb77c76_CompanyContact",
+        "text": "アイテムを選択する FAQContact205837 sq-faq-company-contact-20260627205837@example.com",
+        "links": [],
+        "inputs": [
+          {
+            "type": "checkbox",
+            "checked": true,
+            "value": "on"
+          }
+        ]
+      }
+    ],
+    "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました TEST_FAQ_20260624_COMPANY_102911 2026年06月24日から顧客 直近の注文 この会社はまだ注文していません ロケーション ロケーションを追加 ロケーション 売上 注文 TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0 担当者 担当者を追加 アイテムの選択を解除する 1を選択済み 担当者を削除 すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する FAQContact205837 sq-faq-company-contact-20260627205837@example.com TEST_FAQ_20260624_COMPANY_102911 会社ID TEST_FAQ_COMP_102911 メモ この会社にはメモがありません。"
+  },
+  "deleteDialog": {
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "h1": [
+      "TEST_FAQ_20260624_COMPANY_102911"
+    ],
+    "labels": [
+      "アイテムを選択する",
+      "すべてのアイテムを選択する",
+      "アイテムの選択を解除する",
+      "すべてのアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "担当者を追加",
+      "担当者を削除",
+      "その他の操作",
+      "担当者を削除",
+      "閉じる",
+      "キャンセル",
+      "削除する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "会社",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "ロケーションを追加",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/create"
+      },
+      {
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+      }
+    ],
+    "rows": [
+      {
+        "id": "",
+        "text": "ロケーション 売上 注文",
+        "links": [],
+        "inputs": []
+      },
+      {
+        "id": "176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation",
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0",
+        "links": [
+          {
+            "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+            "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+          }
+        ],
+        "inputs": []
+      },
+      {
+        "id": "",
+        "text": "すべてのアイテムを選択する 名前 メールアドレス",
+        "links": [],
+        "inputs": [
+          {
+            "type": "checkbox",
+            "checked": true,
+            "value": "on"
+          }
+        ]
+      },
+      {
+        "id": "3b4be330-4112-5a61-809e-42f5eeb77c76_CompanyContact",
+        "text": "アイテムを選択する FAQContact205837 sq-faq-company-contact-20260627205837@example.com",
+        "links": [],
+        "inputs": [
+          {
+            "type": "checkbox",
+            "checked": true,
+            "value": "on"
+          }
+        ]
+      }
+    ],
+    "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました TEST_FAQ_20260624_COMPANY_102911 2026年06月24日から顧客 直近の注文 この会社はまだ注文していません ロケーション ロケーションを追加 ロケーション 売上 注文 TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0 担当者 担当者を追加 アイテムの選択を解除する 1を選択済み 担当者を削除 すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する FAQContact205837 sq-faq-company-contact-20260627205837@example.com TEST_FAQ_20260624_COMPANY_102911 会社ID TEST_FAQ_COMP_102911 メモ この会社にはメモがありません。 担当者を削除する 選択されている1件の担当者を削除しますか？この処理は巻き戻すことができません キャンセル 削除する"
+  },
+  "afterDeleteAction": {
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "h1": [
+      "TEST_FAQ_20260624_COMPANY_102911"
+    ],
+    "labels": [
+      "アイテムを選択する",
+      "すべてのアイテムを選択する",
+      "アイテムの選択を解除する",
+      "すべてのアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "担当者を追加",
+      "担当者を削除",
+      "その他の操作",
+      "担当者を削除",
+      "閉じる",
+      "キャンセル",
+      "読み込み中 削除する"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "会社",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "ロケーションを追加",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/create"
+      },
+      {
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+      }
+    ],
+    "rows": [
+      {
+        "id": "",
+        "text": "ロケーション 売上 注文",
+        "links": [],
+        "inputs": []
+      },
+      {
+        "id": "176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation",
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0",
+        "links": [
+          {
+            "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+            "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+          }
+        ],
+        "inputs": []
+      },
+      {
+        "id": "",
+        "text": "すべてのアイテムを選択する 名前 メールアドレス",
+        "links": [],
+        "inputs": [
+          {
+            "type": "checkbox",
+            "checked": true,
+            "value": "on"
+          }
+        ]
+      },
+      {
+        "id": "3b4be330-4112-5a61-809e-42f5eeb77c76_CompanyContact",
+        "text": "アイテムを選択する FAQContact205837 sq-faq-company-contact-20260627205837@example.com",
+        "links": [],
+        "inputs": [
+          {
+            "type": "checkbox",
+            "checked": true,
+            "value": "on"
+          }
+        ]
+      }
+    ],
+    "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました TEST_FAQ_20260624_COMPANY_102911 2026年06月24日から顧客 直近の注文 この会社はまだ注文していません ロケーション ロケーションを追加 ロケーション 売上 注文 TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0 担当者 担当者を追加 アイテムの選択を解除する 1を選択済み 担当者を削除 すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する FAQContact205837 sq-faq-company-contact-20260627205837@example.com TEST_FAQ_20260624_COMPANY_102911 会社ID TEST_FAQ_COMP_102911 メモ この会社にはメモがありません。 担当者を削除する 選択されている1件の担当者を削除しますか？この処理は巻き戻すことができません キャンセル 読み込み中 削除する"
+  },
+  "afterReload": {
+    "url": "https://www.sqstackstaging.com/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company",
+    "h1": [
+      "TEST_FAQ_20260624_COMPANY_102911"
+    ],
+    "labels": [
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "担当者を追加"
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "会社",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/companies"
+      },
+      {
+        "text": "ロケーションを追加",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/create"
+      },
+      {
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+        "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+      }
+    ],
+    "rows": [
+      {
+        "id": "",
+        "text": "ロケーション 売上 注文",
+        "links": [],
+        "inputs": []
+      },
+      {
+        "id": "176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation",
+        "text": "TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0",
+        "links": [
+          {
+            "text": "TEST_FAQ_20260624_COMPANY_LOC_102911",
+            "href": "/admin/companies/16fb446c-e284-593e-a19e-7ec339e48a7a_Company/locations/176ee231-d367-5840-8b53-9d65f9d68cec_CompanyLocation"
+          }
+        ],
+        "inputs": []
+      }
+    ],
+    "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_COMPANY_102911。このページの準備が整いました TEST_FAQ_20260624_COMPANY_102911 2026年06月24日から顧客 直近の注文 この会社はまだ注文していません ロケーション ロケーションを追加 ロケーション 売上 注文 TEST_FAQ_20260624_COMPANY_LOC_102911 ¥0 0 担当者 担当者を追加 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください TEST_FAQ_20260624_COMPANY_102911 会社ID TEST_FAQ_COMP_102911 メモ この会社にはメモがありません。"
+  },
+  "facts": {
+    "rowExistedBeforeDelete": true,
+    "rowHadDetailLink": false,
+    "selectShowsDelete": true,
+    "deleteDialogTitle": true,
+    "deleteRemovedRowAfterReload": true
+  }
+}

@@ -1,0 +1,2545 @@
+{
+  "04-notion/01-SQ全体・共通導線.md": [
+    {
+      "line": 26,
+      "url": "/admin",
+      "text": "管理画面の入口URLは `/admin` です。FAQ/作業別記事では、末尾スラッシュ付きの `/admin/` も同じ管理画面トップとして扱います。"
+    },
+    {
+      "line": 26,
+      "url": "/admin/",
+      "text": "管理画面の入口URLは `/admin` です。FAQ/作業別記事では、末尾スラッシュ付きの `/admin/` も同じ管理画面トップとして扱います。"
+    },
+    {
+      "line": 49,
+      "url": "/admin/shopify_integrations",
+      "text": "| **Shopify** | 「Shopify」 | `/admin/shopify_integrations` | EC連携：商品/ロケーション/在庫/顧客/ポイント/会員ランク同期【**公式ガイド**】。実機の空状態説明は「商品や注文データの連携を行います」 | ⚠️ 未接続 |"
+    },
+    {
+      "line": 50,
+      "url": "/admin/smaregi_integrations",
+      "text": "| **スマレジ** | 「スマレジ連携」 | `/admin/smaregi_integrations` | 実機フォームに商品(カタログ)・在庫(同期方向)・注文(在庫変動)の項目あり。「POS」は**一般知識**【実機フォーム＋一般知識】 | ⚠️ 未接続（公式ガイドは近日連携予定） |"
+    },
+    {
+      "line": 51,
+      "url": "/admin/logizard_integrations",
+      "text": "| **ロジザードZERO** | 「ロジザード連携」（※作成フォームは「ロジザードZERO」） | `/admin/logizard_integrations` | 実機画面に役割表記なし。「WMS/倉庫管理」は**一般知識** | ⚠️ 未接続（公式ガイドに記載なし） |"
+    },
+    {
+      "line": 52,
+      "url": "/admin/recustomer_integrations",
+      "text": "| **Recustomer** | 「Recustomer」 | `/admin/recustomer_integrations` | 実機画面に役割表記なし。「返品管理」は**一般知識** | ⚠️ 未接続 |"
+    },
+    {
+      "line": 53,
+      "url": "/admin/omnibus_core_integrations",
+      "text": "| **OmnibusCore** | 「OmnibusCore」 | `/admin/omnibus_core_integrations` | 実機画面に役割表記なし。「最低価格表示」は**一般知識** | ⚠️ 未接続 |"
+    },
+    {
+      "line": 54,
+      "url": "/admin/retail_portal_integrations",
+      "text": "| **リテールポータル** | 「リテールポータル」 | `/admin/retail_portal_integrations` | 店舗スタッフ向け。客注注文/他店在庫確認/注文メモ【**公式ガイド**】 | ⚠️ 未接続 |"
+    },
+    {
+      "line": 87,
+      "url": "/admin",
+      "text": "| **ホーム** | `/admin` | ダッシュボード。各機能への導線 |"
+    },
+    {
+      "line": 88,
+      "url": "/admin/products",
+      "text": "| **商品管理** | `/admin/products` | 商品・SKU・バリエーション・価格の登録・編集。カタログ・店舗受取の設定 |"
+    },
+    {
+      "line": 89,
+      "url": "/admin/inventory_items",
+      "text": "| **在庫管理** | `/admin/inventory_items` | 在庫数の確認（9区分）、移動伝票・調整伝票・取置伝票の作成 |"
+    },
+    {
+      "line": 104,
+      "url": "/admin/orders",
+      "text": "| **注文管理** | `/admin/orders` | 注文の確認・出荷登録（※チャネル接続後に注文が流入） |"
+    },
+    {
+      "line": 105,
+      "url": "/admin/purchasing_customers",
+      "text": "| **顧客管理** | `/admin/purchasing_customers` | 購入顧客・会社の確認（※チャネル由来、手動作成不可） |"
+    },
+    {
+      "line": 106,
+      "url": "/admin/inventory_purchase_orders",
+      "text": "| **発注管理** | `/admin/inventory_purchase_orders` | 発注伝票の作成・発注・キャンセル。発注だけでは入荷予定は増えず、発注済み後の「入荷指示を作成する」で入荷先を指定すると入荷管理へ反映される |"
+    },
+    {
+      "line": 107,
+      "url": "/admin/product_price_rules",
+      "text": "| **販売設定** | `/admin/product_price_rules` | 販売に関する4つのルールを束ねるメニュー：販売価格（SKU別価格）／予約販売／販売上限／販売閾値（各ルールの意味は下記注記） |"
+    },
+    {
+      "line": 108,
+      "url": "/admin/sale_change_line_items",
+      "text": "| **会計** | `/admin/sale_change_line_items` | 売上実績の確認・CSV出力（「売上実績を作成する」は現状クリック不可）。**実機未確認**: 売上実績の集計元・出力単位（注/SKU/日次等）・編集可否は未確認（売上データ0件のため） |"
+    },
+    {
+      "line": 109,
+      "url": "/admin/analytics",
+      "text": "| **分析** | `/admin/analytics` | ※現在「収益」「レポート」はTODO表示（未実装） |"
+    },
+    {
+      "line": 121,
+      "url": "/admin/inventory_inbound_orders",
+      "text": "| **入荷管理** | `/admin/inventory_inbound_orders` | 入荷指示の確認・入荷実績の登録（移動伝票・発注由来） |"
+    },
+    {
+      "line": 122,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "| **出荷管理** | `/admin/inventory_outbound_orders` | 出荷指示の確認・出荷実績の登録・ヤマトB2/DHL CSV出力 |"
+    },
+    {
+      "line": 123,
+      "url": "/admin/inventory_allocation_requests",
+      "text": "| **在庫依頼** | `/admin/inventory_allocation_requests` | 取り寄せ販売の起点。在庫確保の依頼・引当・移動伝票作成 |"
+    },
+    {
+      "line": 124,
+      "url": "/admin/inventory_allocation_request_confirmations",
+      "text": "| └ **確保済み** | `/admin/inventory_allocation_request_confirmations` | 在庫依頼の引当済み一覧。ここから移動伝票を一括作成 |"
+    },
+    {
+      "line": 132,
+      "url": "/admin/order_price_adjustment_rules",
+      "text": "| **ディスカウント** | `/admin/order_price_adjustment_rules` | 割引クーポン・対象顧客・対象店舗・対象商品の設定 |"
+    },
+    {
+      "line": 133,
+      "url": "/admin/point_calculation_rules",
+      "text": "| **ポイント** | `/admin/point_calculation_rules` | 注文ポイント付与ルール（基本設定・会員ランク倍率・商品倍率） |"
+    },
+    {
+      "line": 134,
+      "url": "/admin/customer_rank_calculation_rules",
+      "text": "| **会員ランク** | `/admin/customer_rank_calculation_rules` | 会員ランク算出ルール（購入金額ベース、Bronze/Silver/Gold等） |"
+    },
+    {
+      "line": 140,
+      "url": "/admin/shopify_integrations",
+      "text": "| **Shopify** | `/admin/shopify_integrations` | Shopifyストアとの連携設定（※SQコネクターアプリ前提） |"
+    },
+    {
+      "line": 141,
+      "url": "/admin/omnibus_core_integrations",
+      "text": "| **OmnibusCore** | `/admin/omnibus_core_integrations` | 最低価格表示（景品表示法対応）の連携 |"
+    },
+    {
+      "line": 142,
+      "url": "/admin/smaregi_integrations",
+      "text": "| **スマレジ** | `/admin/smaregi_integrations` | スマレジPOSとの連携設定 |"
+    },
+    {
+      "line": 143,
+      "url": "/admin/retail_portal_integrations",
+      "text": "| **リテールポータル** | `/admin/retail_portal_integrations` | 店舗スタッフ向けポータルの連携 |"
+    },
+    {
+      "line": 144,
+      "url": "/admin/b2b",
+      "text": "| **卸売** | `/admin/b2b` | ※現在TODO表示（未実装） |"
+    },
+    {
+      "line": 150,
+      "url": "/admin/settings",
+      "text": "| **設定** | `/admin/settings` | ロケーション・権限グループ・ブランド・取引先・決済方法・翻訳・採寸・メタフィールド・API/アプリ 等、全マスタ・システム設定 |"
+    }
+  ],
+  "04-notion/02-アカウント・権限.md": [
+    {
+      "line": 43,
+      "url": "/admin/settings/users",
+      "text": "| 管理メンバー | `/admin/settings/users` | 管理画面にアクセスできるメンバーの追加・編集・除外 |"
+    },
+    {
+      "line": 44,
+      "url": "/admin/settings/permission_groups",
+      "text": "| 権限グループ | `/admin/settings/permission_groups` | メンバーに割り当てる権限のひな形（76権限のON/OFF） |"
+    },
+    {
+      "line": 62,
+      "url": "/admin/settings/users",
+      "text": "### 管理メンバー一覧（/admin/settings/users）"
+    },
+    {
+      "line": 70,
+      "url": "/admin/settings/users/create",
+      "text": "| 追加する | メンバー追加フォーム（`/admin/settings/users/create`）へ遷移 |"
+    },
+    {
+      "line": 71,
+      "url": "/admin/settings/permission_groups",
+      "text": "| 権限グループ一覧 | 権限グループ管理画面（`/admin/settings/permission_groups`）へ遷移 |"
+    },
+    {
+      "line": 72,
+      "url": "/admin/csv_import/csv_import_operation_users",
+      "text": "| インポート | 管理ユーザーCSVインポート（`/admin/csv_import/csv_import_operation_users`）へ遷移 |"
+    },
+    {
+      "line": 80,
+      "url": "/admin/settings/users/create",
+      "text": "### メンバー追加フォーム（/admin/settings/users/create）"
+    },
+    {
+      "line": 99,
+      "url": "/admin/settings/users/{id}",
+      "text": "URLは `/admin/settings/users/{id}` です。管理メンバー一覧から対象行をクリックするか、メンバー追加後の遷移で開きます。"
+    },
+    {
+      "line": 113,
+      "url": "/admin/settings/permission_groups",
+      "text": "### 権限グループ一覧（/admin/settings/permission_groups）"
+    },
+    {
+      "line": 126,
+      "url": "/admin/settings/permission_groups/create",
+      "text": "### 権限グループ作成フォーム（/admin/settings/permission_groups/create）"
+    },
+    {
+      "line": 137,
+      "url": "/admin/settings/permission_groups/{id}",
+      "text": "空保存時は `権限グループ名を入力してください` と `権限を選択してください` が表示されます。グループ名と最低1権限を入れて作成すると、作成後は権限グループ詳細（`/admin/settings/permission_groups/{id}`）へ遷移し、一覧に戻ると新しい行が追加されています。"
+    },
+    {
+      "line": 211,
+      "url": "/admin/settings/users",
+      "text": "1. 左メニュー「設定」>「管理メンバー」（`/admin/settings/users`）を開く"
+    },
+    {
+      "line": 239,
+      "url": "/admin/settings/permission_groups/create",
+      "text": "2. 「**作成する**」ボタンをクリックし、作成フォーム（`/admin/settings/permission_groups/create`）を開く"
+    },
+    {
+      "line": 264,
+      "url": "/admin/settings/users",
+      "text": "| 正しいURL | 管理メンバーの正しいURLは `/admin/settings/users`。`/admin/settings/staffs` `/admin/settings/members` `/admin/settings/organization_users` は404 | 実機確認済み（2026-06-27） |"
+    },
+    {
+      "line": 264,
+      "url": "/admin/settings/staffs",
+      "text": "| 正しいURL | 管理メンバーの正しいURLは `/admin/settings/users`。`/admin/settings/staffs` `/admin/settings/members` `/admin/settings/organization_users` は404 | 実機確認済み（2026-06-27） |"
+    },
+    {
+      "line": 264,
+      "url": "/admin/settings/members",
+      "text": "| 正しいURL | 管理メンバーの正しいURLは `/admin/settings/users`。`/admin/settings/staffs` `/admin/settings/members` `/admin/settings/organization_users` は404 | 実機確認済み（2026-06-27） |"
+    },
+    {
+      "line": 264,
+      "url": "/admin/settings/organization_users",
+      "text": "| 正しいURL | 管理メンバーの正しいURLは `/admin/settings/users`。`/admin/settings/staffs` `/admin/settings/members` `/admin/settings/organization_users` は404 | 実機確認済み（2026-06-27） |"
+    },
+    {
+      "line": 276,
+      "url": "/admin/csv_import/csv_import_operation_users",
+      "text": "| 管理メンバーCSVインポート導線 | ✅ 確定 | `/admin/csv_import/csv_import_operation_users` と新規フォームの空保存エラー `ファイルを選択してください` を確認 |"
+    }
+  ],
+  "04-notion/03-組織・通知.md": [
+    {
+      "line": 25,
+      "url": "/admin/settings",
+      "text": "このエリアが対象とする3つの設定は、いずれも **設定（`/admin/settings`）** 配下にあります。"
+    },
+    {
+      "line": 29,
+      "url": "/admin/settings/tenants",
+      "text": "| テナント | `/admin/settings/tenants` | 事業部を表すデータを管理する |"
+    },
+    {
+      "line": 30,
+      "url": "/admin/settings/organization_notification_emails",
+      "text": "| 通知用メールアドレス | `/admin/settings/organization_notification_emails` | お知らせやアラートなどのメールを受け取るアドレスを管理する |"
+    },
+    {
+      "line": 31,
+      "url": "/admin/settings",
+      "text": "| 組織ID | 設定トップページ（`/admin/settings`） | SQの組織を一意に識別するシステム生成ID（形式例: `{uuid}_Organization`）。ユーザー作成・変更不可。用途の詳細は下表参照 |"
+    },
+    {
+      "line": 33,
+      "url": "/admin/settings/brands",
+      "text": "> **テナントとブランドの違い**: テナントは運用ルールを分ける管理単位です。商品マスタにある「ブランド（`/admin/settings/brands`）」は商品に紐づける別データで、テナントとは異なります。"
+    },
+    {
+      "line": 41,
+      "url": "/admin/settings",
+      "text": "設定トップページ（`/admin/settings`）には「組織ID」セクションがあります。"
+    },
+    {
+      "line": 50,
+      "url": "/admin/settings/tenants",
+      "text": "### テナント（/admin/settings/tenants）"
+    },
+    {
+      "line": 56,
+      "url": "/admin/settings/tenants/create",
+      "text": "#### テナント作成フォーム（/admin/settings/tenants/create）"
+    },
+    {
+      "line": 66,
+      "url": "/admin/settings/tenants/{id}",
+      "text": "#### テナント詳細画面（/admin/settings/tenants/{id}）"
+    },
+    {
+      "line": 95,
+      "url": "/admin/settings/organization_notification_emails",
+      "text": "### 通知用メールアドレス（/admin/settings/organization_notification_emails）"
+    },
+    {
+      "line": 99,
+      "url": "/admin/settings/organization_notification_emails/create",
+      "text": "一覧画面右上の **「メールアドレスを追加」** 導線（`/admin/settings/organization_notification_emails/create`）から、通知を受け取るアドレスを追加します。"
+    },
+    {
+      "line": 101,
+      "url": "/admin/settings/organization_notification_emails/create",
+      "text": "#### 通知用メールアドレス作成フォーム（/admin/settings/organization_notification_emails/create）"
+    },
+    {
+      "line": 120,
+      "url": "/admin/settings",
+      "text": "1. 左メニューの **設定** を開く（`/admin/settings`）"
+    },
+    {
+      "line": 127,
+      "url": "/admin/settings",
+      "text": "1. 左メニューの **設定** を開く（`/admin/settings`）"
+    },
+    {
+      "line": 128,
+      "url": "/admin/settings/tenants",
+      "text": "2. 設定トップページから **テナント**（`/admin/settings/tenants`）または **通知用メールアドレス**（`/admin/settings/organization_notification_emails`）を選ぶ"
+    },
+    {
+      "line": 128,
+      "url": "/admin/settings/organization_notification_emails",
+      "text": "2. 設定トップページから **テナント**（`/admin/settings/tenants`）または **通知用メールアドレス**（`/admin/settings/organization_notification_emails`）を選ぶ"
+    },
+    {
+      "line": 133,
+      "url": "/admin/settings/tenants",
+      "text": "1. **設定 ＞ テナント**（`/admin/settings/tenants`）を開く"
+    },
+    {
+      "line": 134,
+      "url": "/admin/settings/tenants/create",
+      "text": "2. 一覧から **「テナントを作成」**（`/admin/settings/tenants/create`）を開く"
+    },
+    {
+      "line": 140,
+      "url": "/admin/settings/tenants/{id}",
+      "text": "1. **設定 ＞ テナント** から対象テナントの詳細画面（`/admin/settings/tenants/{id}`）を開く"
+    },
+    {
+      "line": 146,
+      "url": "/admin/settings/organization_notification_emails",
+      "text": "1. **設定 ＞ 通知用メールアドレス**（`/admin/settings/organization_notification_emails`）を開く"
+    },
+    {
+      "line": 147,
+      "url": "/admin/settings/organization_notification_emails/create",
+      "text": "2. **「メールアドレスを追加」**（`/admin/settings/organization_notification_emails/create`）を開く"
+    },
+    {
+      "line": 166,
+      "url": "/admin/settings/tenants",
+      "text": "- **テナントと商品ブランドは別物**: テナント（`/admin/settings/tenants`）と商品ブランド（`/admin/settings/brands`）は別データです。混同しないでください。"
+    },
+    {
+      "line": 166,
+      "url": "/admin/settings/brands",
+      "text": "- **テナントと商品ブランドは別物**: テナント（`/admin/settings/tenants`）と商品ブランド（`/admin/settings/brands`）は別データです。混同しないでください。"
+    },
+    {
+      "line": 175,
+      "url": "/admin/settings",
+      "text": "| 設定トップページに「組織ID」セクションがある | ✅ 確定 | 実機確認済み（`/admin/settings`） |"
+    },
+    {
+      "line": 177,
+      "url": "/admin/settings/tenants",
+      "text": "| テナント画面の存在・説明文 | ✅ 確定 | 実機確認済み（`/admin/settings/tenants`） |"
+    },
+    {
+      "line": 178,
+      "url": "/admin/settings/organization_notification_emails",
+      "text": "| 通知用メールアドレス画面の存在・説明文 | ✅ 確定 | 実機確認済み（`/admin/settings/organization_notification_emails`） |"
+    }
+  ],
+  "04-notion/04-基本マスタ.md": [
+    {
+      "line": 23,
+      "url": "/admin/settings",
+      "text": "基本マスタは **設定（`/admin/settings`）** 配下に集約されています。商品・在庫・注文・発注などの業務データは、これらのマスタを前提に成り立つため、運用開始前に先に作成します。"
+    },
+    {
+      "line": 29,
+      "url": "/admin/settings/locations",
+      "text": "| ロケーション | `/admin/settings/locations` | 在庫を管理するロケーションを管理することができます。 |"
+    },
+    {
+      "line": 30,
+      "url": "/admin/settings/location_groups",
+      "text": "| ロケーショングループ | `/admin/settings/location_groups` | ロケーションをグループ化して管理することができます。 |"
+    },
+    {
+      "line": 31,
+      "url": "/admin/settings/brands",
+      "text": "| ブランド | `/admin/settings/brands` | ブランド情報を管理することができます |"
+    },
+    {
+      "line": 32,
+      "url": "/admin/settings/suppliers",
+      "text": "| 取引先 | `/admin/settings/suppliers` | 在庫を仕入れる取引先の業者を管理することができます。 |"
+    },
+    {
+      "line": 33,
+      "url": "/admin/settings/payment_methods",
+      "text": "| 決済方法 | `/admin/settings/payment_methods` | 顧客が注文時に利用する決済方法を管理することができます |"
+    },
+    {
+      "line": 34,
+      "url": "/admin/settings/retail_staff_members",
+      "text": "| 販売員 | `/admin/settings/retail_staff_members` | 販売員情報を管理することができます |"
+    },
+    {
+      "line": 42,
+      "url": "/admin/settings/locations",
+      "text": "### ロケーション（`/admin/settings/locations`）"
+    },
+    {
+      "line": 93,
+      "url": "/admin/settings/location_groups",
+      "text": "### ロケーショングループ（`/admin/settings/location_groups`）"
+    },
+    {
+      "line": 107,
+      "url": "/admin/settings/brands",
+      "text": "### ブランド（`/admin/settings/brands`）"
+    },
+    {
+      "line": 119,
+      "url": "/admin/settings/suppliers",
+      "text": "### 取引先（`/admin/settings/suppliers`）"
+    },
+    {
+      "line": 130,
+      "url": "/admin/settings/payment_methods",
+      "text": "### 決済方法（`/admin/settings/payment_methods`）"
+    },
+    {
+      "line": 146,
+      "url": "/admin/settings/retail_staff_members",
+      "text": "### 販売員（`/admin/settings/retail_staff_members`）"
+    },
+    {
+      "line": 191,
+      "url": "/admin/settings/locations",
+      "text": "2. 「ロケーション」をクリックし、一覧画面（`/admin/settings/locations`）へ遷移する。"
+    },
+    {
+      "line": 265,
+      "url": "/admin/settings/locations/create",
+      "text": "| ロケーション作成 | `/admin/settings/locations/create` | ロケーション一覧から開く作成フォーム |"
+    },
+    {
+      "line": 266,
+      "url": "/admin/settings/payment_methods/create",
+      "text": "| 決済方法作成 | `/admin/settings/payment_methods/create` | 決済方法一覧から開く作成フォーム |"
+    },
+    {
+      "line": 267,
+      "url": "/admin/settings/retail_staff_members/create",
+      "text": "| 販売員作成 | `/admin/settings/retail_staff_members/create` | 販売員一覧から開く作成フォーム |"
+    }
+  ],
+  "04-notion/05-商品・SKU.md": [
+    {
+      "line": 29,
+      "url": "/admin/products",
+      "text": "| 商品一覧 | `/admin/products` | 商品の一覧・検索・タブ切替・作成入口 |"
+    },
+    {
+      "line": 30,
+      "url": "/admin/products/create",
+      "text": "| 商品作成フォーム | `/admin/products/create` | 商品の基本情報・オプション軸・ステータスを登録 |"
+    },
+    {
+      "line": 31,
+      "url": "/admin/products/{id}",
+      "text": "| 商品詳細・編集 | `/admin/products/{id}` | 商品の編集・ステータス切替・アーカイブ・削除 |"
+    },
+    {
+      "line": 32,
+      "url": "/admin/products/{id}/variants/create",
+      "text": "| バリエーション作成 | `/admin/products/{id}/variants/create` | 各バリエーションの価格・SKU・在庫・配送を登録 |"
+    },
+    {
+      "line": 33,
+      "url": "/admin/products/{id}/variants/{variant_id}",
+      "text": "| バリエーション編集 | `/admin/products/{id}/variants/{variant_id}` | バリエーション単位の編集 |"
+    },
+    {
+      "line": 35,
+      "url": "/admin/products/{id}/edit",
+      "text": "> 商品一覧は左メニューの「商品管理」から開けます。商品には `/admin/products/{id}/edit` という直下の編集ルートは存在せず、編集は詳細画面（`/admin/products/{id}`）で行います。"
+    },
+    {
+      "line": 35,
+      "url": "/admin/products/{id}",
+      "text": "> 商品一覧は左メニューの「商品管理」から開けます。商品には `/admin/products/{id}/edit` という直下の編集ルートは存在せず、編集は詳細画面（`/admin/products/{id}`）で行います。"
+    },
+    {
+      "line": 78,
+      "url": "/admin/products",
+      "text": "### 商品一覧（/admin/products）"
+    },
+    {
+      "line": 131,
+      "url": "/admin/products/create",
+      "text": "### 商品作成フォーム（/admin/products/create）"
+    },
+    {
+      "line": 188,
+      "url": "/admin/settings/brands",
+      "text": "ブランドは事前に「設定 > ブランド」（`/admin/settings/brands`）でマスター登録が必要です。"
+    },
+    {
+      "line": 200,
+      "url": "/admin/products/{id}/variants/create",
+      "text": "### バリエーション作成フォーム（/admin/products/{id}/variants/create）"
+    },
+    {
+      "line": 254,
+      "url": "/admin/products/{id}/variants/{variant_id}",
+      "text": "### バリエーション編集画面（/admin/products/{id}/variants/{variant_id}）"
+    },
+    {
+      "line": 265,
+      "url": "/admin/products/{id}/variants/{variant_id}",
+      "text": "2026-06-27の実機確認では、バリエーション作成後に `/admin/products/{id}/variants/{variant_id}` へ遷移し、上部に「在庫管理」リンク、左ペインに「1件のバリエーション」、右ペインに「原価」セクションとUPC欄、下部に「更新する」ボタンが表示されました。"
+    },
+    {
+      "line": 332,
+      "url": "/admin/products/{id}/edit",
+      "text": "| 商品の直下に `/edit` ルートは存在しない | `/admin/products/{id}/edit` は「このページは存在しないようです」。編集は詳細画面で行う |"
+    },
+    {
+      "line": 351,
+      "url": "/admin/products/create",
+      "text": "| 商品作成フォームの全項目 | ✅ 確定 | 実機確認済み（`/admin/products/create`） |"
+    }
+  ],
+  "04-notion/06-カタログ.md": [
+    {
+      "line": 25,
+      "url": "/admin/catalogs/create",
+      "text": "カタログは **商品を束ねる汎用的な商品グループ** です。実機の作成フォーム（`/admin/catalogs/create`）で入力するのはタイトルのみで、カタログ単体に出品範囲・同期範囲・店舗受取可否・在庫出力条件を設定する項目はありません。"
+    },
+    {
+      "line": 27,
+      "url": "/admin/omnibus_core_integrations/create",
+      "text": "カタログを「何に使うか」は、**カタログを参照する別の設定画面**で決まります。例えばOmnibusCore連携なら `/admin/omnibus_core_integrations/create` の **「商品同期設定 > カタログ」** で、スマレジ連携なら `/admin/smaregi_integrations/create` の **「商品連携設定 > カタログ」** で当カタログを選択します。Shopify / OmnibusCore / スマレジ / リテールポータル側での対象商品指定は [20. 標準販売チャネル連携](20-標準販売チャネル連携.md) と [19. 店舗"
+    },
+    {
+      "line": 27,
+      "url": "/admin/smaregi_integrations/create",
+      "text": "カタログを「何に使うか」は、**カタログを参照する別の設定画面**で決まります。例えばOmnibusCore連携なら `/admin/omnibus_core_integrations/create` の **「商品同期設定 > カタログ」** で、スマレジ連携なら `/admin/smaregi_integrations/create` の **「商品連携設定 > カタログ」** で当カタログを選択します。Shopify / OmnibusCore / スマレジ / リテールポータル側での対象商品指定は [20. 標準販売チャネル連携](20-標準販売チャネル連携.md) と [19. 店舗"
+    },
+    {
+      "line": 30,
+      "url": "/admin/shopify_integrations/create",
+      "text": "> - **Shopify連携**: `/admin/shopify_integrations/create` で `カタログ*` が必須。"
+    },
+    {
+      "line": 31,
+      "url": "/admin/omnibus_core_integrations/create",
+      "text": "> - **OmnibusCore連携**: `/admin/omnibus_core_integrations/create` の `商品同期設定 > カタログ` で選択可能。"
+    },
+    {
+      "line": 32,
+      "url": "/admin/smaregi_integrations/create",
+      "text": "> - **スマレジ連携**: `/admin/smaregi_integrations/create` の `商品連携設定 > カタログ` で選択可能。同じフォームに `在庫設定 > 在庫同期の方向` があり、`SQからスマレジへ在庫を同期する` を選べる。"
+    },
+    {
+      "line": 33,
+      "url": "/admin/retail_portal_integrations/create",
+      "text": "> - **リテールポータル連携**: `/admin/retail_portal_integrations/create` で `カタログ*` が必須。"
+    },
+    {
+      "line": 39,
+      "url": "/admin/products",
+      "text": "商品マスタ(/admin/products)"
+    },
+    {
+      "line": 42,
+      "url": "/admin/catalogs",
+      "text": "カタログ(/admin/catalogs)          ← 「どの商品を束ねるか」"
+    },
+    {
+      "line": 63,
+      "url": "/admin/csv_export/csv_export_operation_inventory_logical_quantities/create",
+      "text": "> **CSV在庫エクスポートとの違い**: CSVエクスポートの「在庫」カテゴリ（`/admin/csv_export/csv_export_operation_inventory_logical_quantities/create`）はロケーション指定のみで、カタログ指定はありません。打ち合わせで出た「外部に在庫数を出力する対象商品一覧」は、CSV出力ではなく外部連携の在庫同期設定として扱うのが実機上は自然です。"
+    },
+    {
+      "line": 70,
+      "url": "/admin/catalogs",
+      "text": "| 登録場所 | `/admin/catalogs` | `/admin/settings/brands` |"
+    },
+    {
+      "line": 70,
+      "url": "/admin/settings/brands",
+      "text": "| 登録場所 | `/admin/catalogs` | `/admin/settings/brands` |"
+    },
+    {
+      "line": 74,
+      "url": "/admin/settings/brands",
+      "text": "> **注意**: 商品マスタの「ブランド」（`/admin/settings/brands`）と、設定の「事業部（テナント＝運用ルール分離単位。詳細は03.組織・通知）」で扱われるブランド概念は別データです。本エリアでは商品マスタ側のブランドを扱います。"
+    },
+    {
+      "line": 80,
+      "url": "/admin/catalogs",
+      "text": "| カタログ一覧 | `/admin/catalogs` | カタログの一覧・作成入口 |"
+    },
+    {
+      "line": 81,
+      "url": "/admin/catalogs/{id}",
+      "text": "| カタログ詳細 | `/admin/catalogs/{id}` | 商品一覧・各種操作の起点 |"
+    },
+    {
+      "line": 82,
+      "url": "/admin/catalogs/{id}/create",
+      "text": "| 商品追加 | `/admin/catalogs/{id}/create` | 手動で商品をカタログに追加 |"
+    },
+    {
+      "line": 83,
+      "url": "/admin/catalogs/{id}/automatic_add_rules",
+      "text": "| 自動追加ルール | `/admin/catalogs/{id}/automatic_add_rules` | 分類条件ルールの設定 |"
+    },
+    {
+      "line": 84,
+      "url": "/admin/catalogs/{id}/catalog_product_variants",
+      "text": "| SKU一覧 | `/admin/catalogs/{id}/catalog_product_variants` | カタログ内SKU一覧 |"
+    },
+    {
+      "line": 85,
+      "url": "/admin/csv_import/csv_import_operation_catalog_products",
+      "text": "| CSVインポート | `/admin/csv_import/csv_import_operation_catalog_products` | CSVで商品を一括追加 |"
+    },
+    {
+      "line": 86,
+      "url": "/admin/settings/brands",
+      "text": "| ブランド | `/admin/settings/brands` | ブランドマスタ管理 |"
+    },
+    {
+      "line": 92,
+      "url": "/admin/catalogs",
+      "text": "### カタログ一覧（/admin/catalogs）"
+    },
+    {
+      "line": 104,
+      "url": "/admin/catalogs/{id}",
+      "text": "### カタログ詳細画面（/admin/catalogs/{id}）"
+    },
+    {
+      "line": 130,
+      "url": "/admin/catalogs/{id}/create",
+      "text": "### 商品追加画面（/admin/catalogs/{id}/create）"
+    },
+    {
+      "line": 143,
+      "url": "/admin/catalogs/{id}/automatic_add_rules",
+      "text": "### 自動追加ルール（/admin/catalogs/{id}/automatic_add_rules）"
+    },
+    {
+      "line": 163,
+      "url": "/admin/settings/brands",
+      "text": "> - **製造元** = 商品マスタ（商品管理 > 商品）で入力する自由テキスト項目。ルールは**完全一致判定**で、大文字小文字・スペース違いも別物扱い。ブランドコードとは別（製造元は商品につける自由テキスト、ブランドコードはブランドマスタ`/admin/settings/brands`のコード）。"
+    },
+    {
+      "line": 181,
+      "url": "/admin/settings/brands/create",
+      "text": "### ブランド作成フォーム（/admin/settings/brands/create）"
+    },
+    {
+      "line": 197,
+      "url": "/admin/catalogs",
+      "text": "1. 左メニューから **カタログ**（`/admin/catalogs`）を開く"
+    },
+    {
+      "line": 230,
+      "url": "/admin/csv_import/csv_import_operation_catalog_products",
+      "text": "2. インポート画面（`/admin/csv_import/csv_import_operation_catalog_products`）で **カタログ** を選択する"
+    },
+    {
+      "line": 270,
+      "url": "/admin/shopify_integrations/create",
+      "text": "| Shopify連携でのカタログ指定 | ✅ 確定 | 2026-06-27実機確認。`/admin/shopify_integrations/create` に `カタログ*` 必須項目を確認 |"
+    },
+    {
+      "line": 271,
+      "url": "/admin/omnibus_core_integrations/create",
+      "text": "| OmnibusCore連携でのカタログ指定 | ✅ 確定 | 2026-06-27実機確認。`/admin/omnibus_core_integrations/create` > 商品同期設定 > カタログを確認 |"
+    },
+    {
+      "line": 272,
+      "url": "/admin/smaregi_integrations/create",
+      "text": "| スマレジ連携でのカタログ指定と在庫同期方向 | ✅ 確定 | 2026-06-27実機確認。`/admin/smaregi_integrations/create` > 商品連携設定 > カタログ、在庫設定 > 在庫同期の方向を確認 |"
+    },
+    {
+      "line": 273,
+      "url": "/admin/retail_portal_integrations/create",
+      "text": "| リテールポータル連携でのカタログ指定 | ✅ 確定 | 2026-06-27実機確認。`/admin/retail_portal_integrations/create` に `カタログ*` 必須項目を確認 |"
+    },
+    {
+      "line": 283,
+      "url": "/admin/catalogs/{id}/catalog_product_variants",
+      "text": "- [ ] **一部確認**: 商品が登録されている状態でのSKU一覧（`/admin/catalogs/{id}/catalog_product_variants`）の列構成（テスト環境0件のため列ヘッダーが非表示）"
+    }
+  ],
+  "04-notion/07-店舗受取商品.md": [
+    {
+      "line": 18,
+      "url": "/admin/local_pickup_product_variants",
+      "text": "> | 対象バリエーション | **商品管理 > 店舗受取（本ページ `/admin/local_pickup_product_variants`）** | 「どのSKUを受取対象にするか」を指定 |"
+    },
+    {
+      "line": 19,
+      "url": "/admin/local_pickup_retail_location_rules",
+      "text": "> | 受取店舗 | リテールポータル > 店舗受取（`/admin/local_pickup_retail_location_rules`） | 「どの店舗で受け取れるか」をロケーション単位で登録 |"
+    },
+    {
+      "line": 40,
+      "url": "/admin/local_pickup_product_variants",
+      "text": "| 管理画面URL | `/admin/local_pickup_product_variants` |"
+    },
+    {
+      "line": 46,
+      "url": "/admin/local_pickup_product_variants",
+      "text": "> **2026-06-27 実機再確認**: `/admin/local_pickup_product_variants` は h1「店舗受取」・副題「店舗受取可能バリエーション一覧」を表示し、`バリエーションを追加する` ボタンとSKU一覧を確認できました。ボタン押下で「バリエーションを選択する」ダイアログが開きます。直接 `/admin/local_pickup_product_variants/create` にアクセスすると404（「このページは存在しないようです」）になるため、追加は一覧画面上のダイアログから行います。行チェック後は一覧右上に `削除する` が表示され、店舗受取対象"
+    },
+    {
+      "line": 46,
+      "url": "/admin/local_pickup_product_variants/create",
+      "text": "> **2026-06-27 実機再確認**: `/admin/local_pickup_product_variants` は h1「店舗受取」・副題「店舗受取可能バリエーション一覧」を表示し、`バリエーションを追加する` ボタンとSKU一覧を確認できました。ボタン押下で「バリエーションを選択する」ダイアログが開きます。直接 `/admin/local_pickup_product_variants/create` にアクセスすると404（「このページは存在しないようです」）になるため、追加は一覧画面上のダイアログから行います。行チェック後は一覧右上に `削除する` が表示され、店舗受取対象"
+    },
+    {
+      "line": 55,
+      "url": "/admin/local_pickup_product_variants",
+      "text": "### 店舗受取可能バリエーション一覧（/admin/local_pickup_product_variants）"
+    },
+    {
+      "line": 112,
+      "url": "/admin/local_pickup_product_variants",
+      "text": "1. 左メニューの「商品管理」を開き、サブメニューの「店舗受取」を選択する（`/admin/local_pickup_product_variants` に遷移）"
+    },
+    {
+      "line": 118,
+      "url": "/admin/local_pickup_product_variants/create",
+      "text": "> 直接 `/admin/local_pickup_product_variants/create` にアクセスすると404（「このページは存在しないようです」）になります。追加は一覧画面のボタンから開くダイアログで行います。"
+    },
+    {
+      "line": 136,
+      "url": "/admin/local_pickup_retail_location_rules",
+      "text": "- **2つの設定が揃って初めて動く**: 商品側（本ページ）の対象SKU指定＋リテールポータル側（`/admin/local_pickup_retail_location_rules`）の受取店舗登録。片方だけでは店舗受取は成立しません"
+    },
+    {
+      "line": 149,
+      "url": "/admin/local_pickup_product_variants",
+      "text": "| 画面URL（/admin/local_pickup_product_variants） | 確定 | 2026-06-27実機確認 |"
+    },
+    {
+      "line": 155,
+      "url": "/admin/local_pickup_product_variants/create",
+      "text": "| 直接作成URL（/admin/local_pickup_product_variants/create） | 確定 | 2026-06-27確認。404で「このページは存在しないようです」 |"
+    },
+    {
+      "line": 182,
+      "url": "/admin/local_pickup_retail_location_rules",
+      "text": "- [x] 受取可能店舗（ロケーション）との紐付け設定があるか（商品側と店舗側の両面設定の要否） → **確定**: リテールポータル > 店舗受取（`/admin/local_pickup_retail_location_rules`）で対設定が必要"
+    }
+  ],
+  "04-notion/08-カスタムデータ.md": [
+    {
+      "line": 39,
+      "url": "/admin/settings/metafield_definitions",
+      "text": "- 定義一覧画面（`/admin/settings/metafield_definitions`）では、各定義が **「定義名 / ネームスペース.キー」の2行** で表示される（根拠: SQ完全ガイド.md）"
+    },
+    {
+      "line": 47,
+      "url": "/admin/settings/metafield_definitions",
+      "text": "| メタフィールド定義 一覧 | `/admin/settings/metafield_definitions` | 定義の一覧表示・管理 |"
+    },
+    {
+      "line": 48,
+      "url": "/admin/settings/metafield_definitions/",
+      "text": "| メタフィールド定義 作成 | `/admin/settings/metafield_definitions/<対象オブジェクト>/create`（例: `/admin/settings/metafield_definitions/organization/create`） | 新しい定義の作成。作成URLは対象オブジェクト別に分岐する。`/admin/settings/metafield_definitions/create`（オブジェクト指定なし）は存在しない（実機で「このページは存在しないようです」。2026-06-24確認） |"
+    },
+    {
+      "line": 48,
+      "url": "/admin/settings/metafield_definitions/organization/create",
+      "text": "| メタフィールド定義 作成 | `/admin/settings/metafield_definitions/<対象オブジェクト>/create`（例: `/admin/settings/metafield_definitions/organization/create`） | 新しい定義の作成。作成URLは対象オブジェクト別に分岐する。`/admin/settings/metafield_definitions/create`（オブジェクト指定なし）は存在しない（実機で「このページは存在しないようです」。2026-06-24確認） |"
+    },
+    {
+      "line": 48,
+      "url": "/admin/settings/metafield_definitions/create",
+      "text": "| メタフィールド定義 作成 | `/admin/settings/metafield_definitions/<対象オブジェクト>/create`（例: `/admin/settings/metafield_definitions/organization/create`） | 新しい定義の作成。作成URLは対象オブジェクト別に分岐する。`/admin/settings/metafield_definitions/create`（オブジェクト指定なし）は存在しない（実機で「このページは存在しないようです」。2026-06-24確認） |"
+    },
+    {
+      "line": 50,
+      "url": "/admin/settings",
+      "text": "> 設定画面（`/admin/settings`）の「カスタムデータグループ」配下に位置づけられています。同グループには「翻訳」「採寸ルール」もありますが、本エリアではメタフィールド定義を主に扱います。"
+    },
+    {
+      "line": 66,
+      "url": "/admin/settings/metafield_definitions/",
+      "text": "フォームのパス: `/admin/settings/metafield_definitions/<対象オブジェクト>/create`（例: 組織は `/admin/settings/metafield_definitions/organization/create`。実機確認 2026-06-24。見出しは「組織メタフィールドの定義を追加する」）。オブジェクト指定なしの `/admin/settings/metafield_definitions/create` は存在しない（「このページは存在しないようです」）。"
+    },
+    {
+      "line": 66,
+      "url": "/admin/settings/metafield_definitions/organization/create",
+      "text": "フォームのパス: `/admin/settings/metafield_definitions/<対象オブジェクト>/create`（例: 組織は `/admin/settings/metafield_definitions/organization/create`。実機確認 2026-06-24。見出しは「組織メタフィールドの定義を追加する」）。オブジェクト指定なしの `/admin/settings/metafield_definitions/create` は存在しない（「このページは存在しないようです」）。"
+    },
+    {
+      "line": 66,
+      "url": "/admin/settings/metafield_definitions/create",
+      "text": "フォームのパス: `/admin/settings/metafield_definitions/<対象オブジェクト>/create`（例: 組織は `/admin/settings/metafield_definitions/organization/create`。実機確認 2026-06-24。見出しは「組織メタフィールドの定義を追加する」）。オブジェクト指定なしの `/admin/settings/metafield_definitions/create` は存在しない（「このページは存在しないようです」）。"
+    },
+    {
+      "line": 125,
+      "url": "/admin/settings",
+      "text": "1. 左メニューの「設定」を開き `/admin/settings` へ遷移する"
+    },
+    {
+      "line": 126,
+      "url": "/admin/settings/metafield_definitions",
+      "text": "2. 「カスタムデータグループ」の **メタフィールド定義**（`/admin/settings/metafield_definitions`）を開く"
+    },
+    {
+      "line": 127,
+      "url": "/admin/settings/metafield_definitions/organization/create",
+      "text": "3. 一覧画面で対象オブジェクト（組織・ロケーション・会社・仕入れ先ベンダー・商品・バリエーション・顧客・注文・下書き注文・ディスカウント・在庫移動伝票・在庫調整伝票・在庫取置伝票・発注伝票・入荷指示・出荷指示）を選び、**定義を追加する** ボタンから対象オブジェクト別の作成フォーム（例: `/admin/settings/metafield_definitions/organization/create`）へ遷移する"
+    },
+    {
+      "line": 187,
+      "url": "/admin/settings/metafield_definitions",
+      "text": "| メタフィールド定義 一覧の表示 | 確定 | `/admin/settings/metafield_definitions` |"
+    },
+    {
+      "line": 188,
+      "url": "/admin/settings/metafield_definitions/organization/create",
+      "text": "| メタフィールド定義 作成フォームの表示 | 確定 | 対象オブジェクト別URL（例: `/admin/settings/metafield_definitions/organization/create`）。`/admin/settings/metafield_definitions/create` は存在しない（実機確認 2026-06-24） |"
+    },
+    {
+      "line": 188,
+      "url": "/admin/settings/metafield_definitions/create",
+      "text": "| メタフィールド定義 作成フォームの表示 | 確定 | 対象オブジェクト別URL（例: `/admin/settings/metafield_definitions/organization/create`）。`/admin/settings/metafield_definitions/create` は存在しない（実機確認 2026-06-24） |"
+    }
+  ],
+  "04-notion/09-翻訳.md": [
+    {
+      "line": 26,
+      "url": "/admin/settings/translation",
+      "text": "| 翻訳 | `/admin/settings/translation` | 翻訳ルールを選び、対象リソース（商品など）の翻訳状態を確認する |"
+    },
+    {
+      "line": 27,
+      "url": "/admin/settings/translation/translation_rules",
+      "text": "| 翻訳ルール | `/admin/settings/translation/translation_rules` | 翻訳先言語・自動生成設定・AIプロンプトを管理する |"
+    },
+    {
+      "line": 29,
+      "url": "/admin/settings",
+      "text": "設定トップページ（`/admin/settings`）の「カスタムデータグループ」から遷移します。"
+    },
+    {
+      "line": 67,
+      "url": "/admin/settings/translation",
+      "text": "### 翻訳（/admin/settings/translation）"
+    },
+    {
+      "line": 71,
+      "url": "/admin/settings/translation",
+      "text": "翻訳トップ（`/admin/settings/translation`）には翻訳ルールの選択ボタンと `ルールを管理する` が表示されます。未選択時は `未選択：翻訳ルールを選択するとリソースを選択できます` と表示され、商品リソースを開けません。既存ルールを選ぶと商品リソースの詳細リンクが有効になり、`/admin/settings/translation/<翻訳ルールID>/products` へ進めます。"
+    },
+    {
+      "line": 71,
+      "url": "/admin/settings/translation/",
+      "text": "翻訳トップ（`/admin/settings/translation`）には翻訳ルールの選択ボタンと `ルールを管理する` が表示されます。未選択時は `未選択：翻訳ルールを選択するとリソースを選択できます` と表示され、商品リソースを開けません。既存ルールを選ぶと商品リソースの詳細リンクが有効になり、`/admin/settings/translation/<翻訳ルールID>/products` へ進めます。"
+    },
+    {
+      "line": 73,
+      "url": "/admin/settings/translation/",
+      "text": "商品リソース一覧では `商品コードで検索する` と商品一覧が表示され、商品行を開くと `/admin/settings/translation/<翻訳ルールID>/products/<商品ID>` に遷移します。商品翻訳詳細は、商品・商品オプションごとに `原文` と対象言語列を並べて確認する画面です。2026-06-27実機ではこの商品翻訳詳細画面に保存ボタンや直接編集ボタンは確認できませんでした。"
+    },
+    {
+      "line": 79,
+      "url": "/admin/settings/translation/translation_rules/create",
+      "text": "#### 翻訳ルール作成フォーム（/admin/settings/translation/translation_rules/create）"
+    },
+    {
+      "line": 119,
+      "url": "/admin/settings",
+      "text": "1. 左メニュー **設定** を開き `/admin/settings` へ遷移する"
+    },
+    {
+      "line": 120,
+      "url": "/admin/settings/translation",
+      "text": "2. 「カスタムデータグループ」の **翻訳** を選び `/admin/settings/translation` へ遷移する"
+    },
+    {
+      "line": 121,
+      "url": "/admin/settings/translation/translation_rules/create",
+      "text": "3. **翻訳ルールを作成する** ボタンから作成フォーム（`/admin/settings/translation/translation_rules/create`）へ遷移する"
+    },
+    {
+      "line": 131,
+      "url": "/admin/settings/translation/translation_rules",
+      "text": "1. 翻訳ルール一覧（`/admin/settings/translation/translation_rules`）を開く"
+    },
+    {
+      "line": 163,
+      "url": "/admin/settings/translation",
+      "text": "| 翻訳: サブページの存在・URL | ✅ 確定 | 実機確認済み（`/admin/settings/translation`） |"
+    }
+  ],
+  "04-notion/10-採寸.md": [
+    {
+      "line": 22,
+      "url": "/admin/settings",
+      "text": "採寸ルールは、衣料品など商品ごとの採寸項目（肩幅・バストなど）と単位を定義するルールです。設定トップページ（`/admin/settings`）の「カスタムデータグループ」から **採寸ルール** を開きます。"
+    },
+    {
+      "line": 26,
+      "url": "/admin/settings/product_measurement_rules",
+      "text": "| 採寸ルール | `/admin/settings/product_measurement_rules` | 商品ごとの採寸項目と単位を定義するルールを管理する |"
+    },
+    {
+      "line": 27,
+      "url": "/admin/settings/product_measurement_rules/create",
+      "text": "| 採寸ルール作成 | `/admin/settings/product_measurement_rules/create` | ルール名・採寸単位・採寸項目を登録する |"
+    },
+    {
+      "line": 29,
+      "url": "/admin/settings/translation",
+      "text": "翻訳ルール（`/admin/settings/translation`）とは同じ「カスタムデータグループ」配下にありますが、目的も入力項目も異なります。翻訳は多言語データ/AIプロンプトの管理、採寸はサイズ表のテンプレート管理です。"
+    },
+    {
+      "line": 33,
+      "url": "/admin/settings/product_measurement_rules/create",
+      "text": "### 採寸ルール作成フォーム（/admin/settings/product_measurement_rules/create）"
+    },
+    {
+      "line": 53,
+      "url": "/admin/settings/product_measurement_rules",
+      "text": "作成後は詳細URLへ遷移し、一覧（`/admin/settings/product_measurement_rules`）には以下の列で表示されます。"
+    },
+    {
+      "line": 71,
+      "url": "/admin/settings",
+      "text": "1. 左メニュー **設定** を開き `/admin/settings` へ遷移する"
+    },
+    {
+      "line": 72,
+      "url": "/admin/settings/product_measurement_rules",
+      "text": "2. 「カスタムデータグループ」の **採寸ルール** を選び `/admin/settings/product_measurement_rules` へ遷移する"
+    },
+    {
+      "line": 73,
+      "url": "/admin/settings/product_measurement_rules/create",
+      "text": "3. **採寸ルールを作成する** ボタンから作成フォーム（`/admin/settings/product_measurement_rules/create`）へ遷移する"
+    },
+    {
+      "line": 95,
+      "url": "/admin/settings/product_measurement_rules",
+      "text": "| 採寸ルール: サブページの存在・URL | ✅ 確定 | 実機確認済み（`/admin/settings/product_measurement_rules`） |"
+    }
+  ],
+  "04-notion/11-価格・販売制御.md": [
+    {
+      "line": 30,
+      "url": "/admin/product_price_rules",
+      "text": "| 販売価格 | `/admin/product_price_rules` | SKUごとに通常価格・セール価格を登録する |"
+    },
+    {
+      "line": 31,
+      "url": "/admin/inventory_back_order_rules",
+      "text": "| 予約販売 | `/admin/inventory_back_order_rules` | 在庫が0でも注文を受け付ける（バックオーダー） |"
+    },
+    {
+      "line": 32,
+      "url": "/admin/inventory_sale_limit_rules",
+      "text": "| 販売上限 | `/admin/inventory_sale_limit_rules` | 販売チャネルごとに販売数量の上限を設ける |"
+    },
+    {
+      "line": 33,
+      "url": "/admin/inventory_threshold_rules",
+      "text": "| 販売閾値 | `/admin/inventory_threshold_rules` | SKUごとに在庫の販売閾値（しきいち）を設定する |"
+    },
+    {
+      "line": 66,
+      "url": "/admin/product_price_rules/create",
+      "text": "> URL: `/admin/product_price_rules/create`"
+    },
+    {
+      "line": 77,
+      "url": "/admin/product_price_rules/[id]/product_variant_regulars",
+      "text": "> URL: `/admin/product_price_rules/[id]/product_variant_regulars`"
+    },
+    {
+      "line": 87,
+      "url": "/admin/csv_import/csv_import_operation_product_price_rule_regular_prices",
+      "text": "| インポートする | 通常価格タブにも表示され、`/admin/csv_import/csv_import_operation_product_price_rule_regular_prices` へ遷移する |"
+    },
+    {
+      "line": 92,
+      "url": "/admin/product_price_rules/[id]/product_variant_regulars",
+      "text": "> URL: `/admin/product_price_rules/[id]/product_variant_regulars`（一覧）→ `登録する` モーダル"
+    },
+    {
+      "line": 108,
+      "url": "/admin/product_price_rules/[id]/product_variant_sales",
+      "text": "> URL: `/admin/product_price_rules/[id]/product_variant_sales`（一覧）→ 作成フォーム"
+    },
+    {
+      "line": 120,
+      "url": "/admin/csv_import/csv_import_operation_product_price_rule_sale_prices",
+      "text": "> 通常価格との違いは「開始日時（必須）」「終了日時（任意）」の期間設定フィールドがある点です。セール価格はCSVインポート（`/admin/csv_import/csv_import_operation_product_price_rule_sale_prices`）で一括登録もできます。"
+    },
+    {
+      "line": 124,
+      "url": "/admin/inventory_back_order_rules/create",
+      "text": "> URL: `/admin/inventory_back_order_rules/create`（ページタイトル: 「予約販売のルールを作成する」）"
+    },
+    {
+      "line": 134,
+      "url": "/admin/inventory_back_order_rules/[id]",
+      "text": "> URL: `/admin/inventory_back_order_rules/[id]`"
+    },
+    {
+      "line": 146,
+      "url": "/admin/inventory_back_order_rules/[id]/create",
+      "text": "> URL: `/admin/inventory_back_order_rules/[id]/create`（ページタイトル: 「バリエーションを追加する」）"
+    },
+    {
+      "line": 159,
+      "url": "/admin/inventory_sale_limit_rules/create",
+      "text": "> URL: `/admin/inventory_sale_limit_rules/create`（ページタイトル: 「販売上限ルールを作成する」）"
+    },
+    {
+      "line": 170,
+      "url": "/admin/inventory_threshold_rules/create",
+      "text": "> URL: `/admin/inventory_threshold_rules/create`（ページタイトル: 「販売閾値ルールを作成する」）"
+    },
+    {
+      "line": 184,
+      "url": "/admin/inventory_threshold_rules/[id]",
+      "text": "> URL: `/admin/inventory_threshold_rules/[id]`"
+    },
+    {
+      "line": 196,
+      "url": "/admin/inventory_threshold_rules/[id]/create",
+      "text": "> URL: `/admin/inventory_threshold_rules/[id]/create`"
+    },
+    {
+      "line": 205,
+      "url": "/admin/inventory_threshold_rules/[id]/automatic_add_rules",
+      "text": "> URL: `/admin/inventory_threshold_rules/[id]/automatic_add_rules`（一覧）→ 作成フォーム（H1: 「自動追加ルールを追加する」）"
+    },
+    {
+      "line": 246,
+      "url": "/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants",
+      "text": "> CSVで一括追加する場合は、詳細画面の「インポート」ボタンから（`/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants`）。"
+    }
+  ],
+  "04-notion/12-在庫状態・在庫数.md": [
+    {
+      "line": 29,
+      "url": "/admin/inventory_items",
+      "text": "| 画面URL（一覧） | `/admin/inventory_items` |"
+    },
+    {
+      "line": 30,
+      "url": "/admin/inventory_items/[id]",
+      "text": "| 画面URL（SKU詳細） | `/admin/inventory_items/[id]` |"
+    },
+    {
+      "line": 31,
+      "url": "/admin/inventory_items/[id]/history",
+      "text": "| 画面URL（調整履歴） | `/admin/inventory_items/[id]/history` |"
+    },
+    {
+      "line": 48,
+      "url": "/admin/inventory_items",
+      "text": "### 在庫管理 一覧画面（/admin/inventory_items）"
+    },
+    {
+      "line": 84,
+      "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+      "text": "| インポート | `/admin/csv_import/csv_import_operation_inventory_logical_available_quantities` |"
+    },
+    {
+      "line": 85,
+      "url": "/admin/csv_export/csv_export_operation_inventory_logical_quantities",
+      "text": "| エクスポート | `/admin/csv_export/csv_export_operation_inventory_logical_quantities` |"
+    },
+    {
+      "line": 89,
+      "url": "/admin/inventory_items/[id]",
+      "text": "### 在庫詳細画面（/admin/inventory_items/[id]）"
+    },
+    {
+      "line": 97,
+      "url": "/admin/inventory_items/[id]/history",
+      "text": "| 調整履歴 | 変更履歴ページ（`/admin/inventory_items/[id]/history`）へ遷移する |"
+    },
+    {
+      "line": 155,
+      "url": "/admin/inventory_items/[id]/history",
+      "text": "### 調整履歴画面（/admin/inventory_items/[id]/history）"
+    },
+    {
+      "line": 177,
+      "url": "/admin/inventory_items",
+      "text": "1. 在庫管理一覧（`/admin/inventory_items`）を開く"
+    },
+    {
+      "line": 187,
+      "url": "/admin/inventory_items/[id]",
+      "text": "2. 在庫詳細画面（`/admin/inventory_items/[id]`）へ遷移する"
+    },
+    {
+      "line": 203,
+      "url": "/admin/inventory_items/[id]/history",
+      "text": "2. 調整履歴画面（`/admin/inventory_items/[id]/history`）へ遷移する"
+    },
+    {
+      "line": 275,
+      "url": "/admin/inventory_adjustment_orders",
+      "text": "- **鉛筆編集は調整伝票を作らない**: 販売可能数の直接編集は調整履歴に残りますが、調整伝票（`/admin/inventory_adjustment_orders`）には新しい伝票が作成されません。別経路の在庫変更です。"
+    }
+  ],
+  "04-notion/13-在庫伝票.md": [
+    {
+      "line": 33,
+      "url": "/admin/inventory_movement_orders",
+      "text": "| 移動伝票 | `/admin/inventory_movement_orders` | ロケーション間（物流倉庫→店舗など）の在庫移動を管理する | 作成時に移動元の販売可能→取置中、移動先に入荷予定。出荷・入荷実績で手持ち/販売可能が最終反映される |"
+    },
+    {
+      "line": 34,
+      "url": "/admin/inventory_adjustment_orders",
+      "text": "| 調整伝票 | `/admin/inventory_adjustment_orders` | 在庫差異・廃棄・紛失などによる在庫の手動増減を記録する | 「実行」ボタン押下時に在庫へ即時反映（不可逆） |"
+    },
+    {
+      "line": 35,
+      "url": "/admin/inventory_reservation_orders",
+      "text": "| 取置伝票 | `/admin/inventory_reservation_orders` | 店舗取置など特定用途のために在庫を確保する | **作成・保存時点**で在庫が「取置中」に移動する |"
+    },
+    {
+      "line": 45,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "| 現場作業画面 | 出荷管理 `/admin/inventory_outbound_orders` / 入荷管理 `/admin/inventory_inbound_orders` | 作業指示に対し「実績登録」を行い、在庫を実際に動かす |"
+    },
+    {
+      "line": 45,
+      "url": "/admin/inventory_inbound_orders",
+      "text": "| 現場作業画面 | 出荷管理 `/admin/inventory_outbound_orders` / 入荷管理 `/admin/inventory_inbound_orders` | 作業指示に対し「実績登録」を行い、在庫を実際に動かす |"
+    },
+    {
+      "line": 70,
+      "url": "/admin/inventory_movement_orders",
+      "text": "**一覧タブ**（`/admin/inventory_movement_orders`）"
+    },
+    {
+      "line": 80,
+      "url": "/admin/inventory_movement_orders/create",
+      "text": "**作成フォーム**（`/admin/inventory_movement_orders/create`）"
+    },
+    {
+      "line": 96,
+      "url": "/admin/inventory_adjustment_orders",
+      "text": "**一覧タブ**（`/admin/inventory_adjustment_orders`）"
+    },
+    {
+      "line": 107,
+      "url": "/admin/inventory_adjustment_orders/{id}",
+      "text": "**詳細画面**: `/admin/inventory_adjustment_orders/{id}`"
+    },
+    {
+      "line": 110,
+      "url": "/admin/inventory_adjustment_orders/create",
+      "text": "**作成フォーム**（`/admin/inventory_adjustment_orders/create`）"
+    },
+    {
+      "line": 129,
+      "url": "/admin/inventory_reservation_orders",
+      "text": "**一覧タブ**（`/admin/inventory_reservation_orders`）"
+    },
+    {
+      "line": 139,
+      "url": "/admin/inventory_reservation_orders/create",
+      "text": "**作成フォーム**（`/admin/inventory_reservation_orders/create`）"
+    },
+    {
+      "line": 157,
+      "url": "/admin/inventory_movement_orders",
+      "text": "1. `/admin/inventory_movement_orders` を開き、「移動伝票を作成する」を押す"
+    },
+    {
+      "line": 162,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "6. 出荷管理 `/admin/inventory_outbound_orders` で該当の出荷指示を開き、「出荷実績を登録する」を実行する（移動元の取置中と手持ちが減る）"
+    },
+    {
+      "line": 163,
+      "url": "/admin/inventory_inbound_orders",
+      "text": "7. 入荷管理 `/admin/inventory_inbound_orders` で該当の入荷指示を開き、「入荷実績を登録する」を実行する（移動先の販売可能・手持ちが増える）"
+    },
+    {
+      "line": 174,
+      "url": "/admin/inventory_adjustment_orders",
+      "text": "1. `/admin/inventory_adjustment_orders` を開き、「調整伝票を作成する」を押す"
+    },
+    {
+      "line": 201,
+      "url": "/admin/inventory_reservation_orders",
+      "text": "1. `/admin/inventory_reservation_orders` を開き、「取置伝票を作成する」を押す"
+    },
+    {
+      "line": 282,
+      "url": "/admin/inventory_adjustment_orders/",
+      "text": "| 調整伝票一覧 | `/admin/inventory_adjustment_orders/` | `/admin/inventory_adjustment_orders` と同じ一覧画面。FAQ側では末尾スラッシュ付きURLも参照する |"
+    },
+    {
+      "line": 282,
+      "url": "/admin/inventory_adjustment_orders",
+      "text": "| 調整伝票一覧 | `/admin/inventory_adjustment_orders/` | `/admin/inventory_adjustment_orders` と同じ一覧画面。FAQ側では末尾スラッシュ付きURLも参照する |"
+    }
+  ],
+  "04-notion/14-入出荷・在庫依頼.md": [
+    {
+      "line": 35,
+      "url": "/admin/inventory_allocation_requests",
+      "text": "| 在庫依頼 | `/admin/inventory_allocation_requests` | 取り寄せの起点。他ロケーションの在庫を確保（引当）する |"
+    },
+    {
+      "line": 36,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "| 出荷管理 | `/admin/inventory_outbound_orders` | 移動元ロケーションからの出荷実績を登録する |"
+    },
+    {
+      "line": 37,
+      "url": "/admin/inventory_inbound_orders",
+      "text": "| 入荷管理 | `/admin/inventory_inbound_orders` | 移動先ロケーションへの入荷実績を登録する |"
+    },
+    {
+      "line": 79,
+      "url": "/admin/inventory_allocation_requests",
+      "text": "### 在庫依頼一覧（`/admin/inventory_allocation_requests`）"
+    },
+    {
+      "line": 103,
+      "url": "/admin/inventory_allocation_request_confirmations",
+      "text": "### サブメニュー「確保済み」（`/admin/inventory_allocation_request_confirmations`）"
+    },
+    {
+      "line": 120,
+      "url": "/admin/inventory_allocation_requests/create",
+      "text": "### 在庫依頼作成フォーム（`/admin/inventory_allocation_requests/create`）"
+    },
+    {
+      "line": 169,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "### 出荷管理一覧（`/admin/inventory_outbound_orders`）"
+    },
+    {
+      "line": 232,
+      "url": "/admin/inventory_inbound_orders",
+      "text": "### 入荷管理一覧（`/admin/inventory_inbound_orders`）"
+    }
+  ],
+  "04-notion/15-発注・仕入.md": [
+    {
+      "line": 28,
+      "url": "/admin/inventory_purchase_orders",
+      "text": "| 発注管理 | `/admin/inventory_purchase_orders` | 取引先への発注伝票の一覧表示・作成 |"
+    },
+    {
+      "line": 29,
+      "url": "/admin/inventory_purchase_orders/create",
+      "text": "| 発注伝票 作成 | `/admin/inventory_purchase_orders/create` | 取引先・テナント・通貨・商品を指定して発注伝票を下書き保存 |"
+    },
+    {
+      "line": 30,
+      "url": "/admin/inventory_purchase_orders/",
+      "text": "| 発注起点の入荷指示作成 | `/admin/inventory_purchase_orders/<id>/create_inventory_inbound_order` | 発注済み伝票から入荷先ロケーションを指定し、入荷指示を作成 |"
+    },
+    {
+      "line": 31,
+      "url": "/admin/settings/suppliers",
+      "text": "| 取引先マスタ | `/admin/settings/suppliers` | 発注伝票の「取引先」に表示される仕入先の一覧・登録 |"
+    },
+    {
+      "line": 57,
+      "url": "/admin/inventory_purchase_orders",
+      "text": "### 発注管理 一覧（`/admin/inventory_purchase_orders`）"
+    },
+    {
+      "line": 84,
+      "url": "/admin/inventory_purchase_orders/create",
+      "text": "### 発注伝票 作成フォーム（`/admin/inventory_purchase_orders/create`）"
+    },
+    {
+      "line": 148,
+      "url": "/admin/settings/suppliers",
+      "text": "### 取引先マスタ（設定 > 取引先 / `/admin/settings/suppliers`）"
+    },
+    {
+      "line": 150,
+      "url": "/admin/companies",
+      "text": "> **取引先は仕入先用マスタ**です。発注伝票の「取引先」にここで登録した仕入先が選択肢として出ます。顧客（法人・個人）は別画面の「会社」（`/admin/companies`）で管理する別マスタなので混同しないでください。"
+    },
+    {
+      "line": 165,
+      "url": "/admin/settings/suppliers/create",
+      "text": "#### 取引先 作成フォーム（`/admin/settings/suppliers/create`）"
+    },
+    {
+      "line": 182,
+      "url": "/admin/settings/suppliers/",
+      "text": "#### 取引先 詳細（`/admin/settings/suppliers/<id>`）"
+    },
+    {
+      "line": 194,
+      "url": "/admin/settings/suppliers",
+      "text": "1. 左メニューの「設定」を開き、「取引先」をクリックする。取引先一覧（`/admin/settings/suppliers`）が開く。"
+    },
+    {
+      "line": 203,
+      "url": "/admin/inventory_purchase_orders",
+      "text": "1. 左メニューの「発注管理」をクリックし、一覧画面（`/admin/inventory_purchase_orders`）を開く。"
+    },
+    {
+      "line": 324,
+      "url": "/admin/settings/suppliers",
+      "text": "取引先一覧（`/admin/settings/suppliers`）右上の「インポート」ボタンをクリックしても画面遷移・ダイアログが表示されません。取引先の登録は1件ずつ手動で行ってください（実機確認済み）。"
+    },
+    {
+      "line": 336,
+      "url": "/admin/inventory_suppliers",
+      "text": "| 旧/誤URL | `/admin/inventory_suppliers` | 現行UIでは存在しないページ。2026-06-27再確認でも `このページは存在しないようです` になる。取引先マスタの正しいURLは `/admin/settings/suppliers` |"
+    },
+    {
+      "line": 336,
+      "url": "/admin/settings/suppliers",
+      "text": "| 旧/誤URL | `/admin/inventory_suppliers` | 現行UIでは存在しないページ。2026-06-27再確認でも `このページは存在しないようです` になる。取引先マスタの正しいURLは `/admin/settings/suppliers` |"
+    },
+    {
+      "line": 348,
+      "url": "/admin/settings/suppliers",
+      "text": "| 取引先マスタの登録・編集 | ✅ 確定 | `/admin/settings/suppliers` で確認 |"
+    }
+  ],
+  "04-notion/16-注文・返品.md": [
+    {
+      "line": 34,
+      "url": "/admin/orders",
+      "text": "| 注文管理 | `/admin/orders` | チャネルから流入した注文の一覧表示・絞り込み・検索 |"
+    },
+    {
+      "line": 35,
+      "url": "/admin/draft_orders",
+      "text": "| 下書き | `/admin/draft_orders` | 管理画面から手動起票する注文（ドラフト）の管理 |"
+    },
+    {
+      "line": 36,
+      "url": "/admin/order_returns",
+      "text": "| 返品 | `/admin/order_returns` | 返品処理の一覧確認・絞り込み |"
+    },
+    {
+      "line": 73,
+      "url": "/admin/orders",
+      "text": "### 注文管理 一覧（`/admin/orders`）"
+    },
+    {
+      "line": 105,
+      "url": "/admin/draft_orders",
+      "text": "### 下書き（`/admin/draft_orders`）"
+    },
+    {
+      "line": 131,
+      "url": "/admin/order_returns",
+      "text": "### 返品（`/admin/order_returns`）"
+    },
+    {
+      "line": 166,
+      "url": "/admin/orders",
+      "text": "1. サイドバーの「注文管理」を開き、`/admin/orders` に遷移する"
+    },
+    {
+      "line": 176,
+      "url": "/admin/draft_orders",
+      "text": "1. サイドバーの「注文管理」>「下書き」を開き、`/admin/draft_orders` に遷移する"
+    },
+    {
+      "line": 178,
+      "url": "/admin/draft_orders/create",
+      "text": "3. 直接 `/admin/draft_orders/create` にアクセスする → **「予期せぬエラーが発生しました」画面になる**"
+    },
+    {
+      "line": 184,
+      "url": "/admin/order_returns",
+      "text": "1. サイドバーの「注文管理」>「返品」を開き、`/admin/order_returns` に遷移する"
+    },
+    {
+      "line": 188,
+      "url": "/admin/order_returns/create",
+      "text": "> 返品の新規起票ボタンはありません。`/admin/order_returns/create` に直接アクセスすると「このページは存在しないようです」（404）になります。"
+    },
+    {
+      "line": 215,
+      "url": "/admin/orders/create",
+      "text": "注文は販売チャネル（Shopify等）から自動的に流入する設計です。チャネル未接続の現環境では注文データが存在せず、注文詳細画面・ステータス遷移・出荷との連動は確認できていません。`/admin/orders/create` に直接アクセスすると「予期せぬエラーが発生しました」画面になります。注文管理一覧からの手動作成入口も確認できていません（実機確認済み）。"
+    },
+    {
+      "line": 221,
+      "url": "/admin/draft_orders/create",
+      "text": "下書き注文一覧の「注文を作成する」ボタンには `href` がなく、クリックしても遷移しません。`/admin/draft_orders/create` へ直接アクセスすると「予期せぬエラーが発生しました」画面になります。実機確認では、会社データ・担当者データが存在する状態でも有効化されませんでした。原因は未検証（開発元確認中）であり、販売チャネル接続で生成される購入顧客データ不足との推測もあれば、OmnibusCore・リテールポータル経由での流入・操作を前提とした設計である可能性もあり、現時点では確定していません。現環境（チャネル未接続）では確認できていません（実機確認済み・開発元確認事項"
+    },
+    {
+      "line": 225,
+      "url": "/admin/order_returns/create",
+      "text": "返品は注文管理一覧・返品一覧画面のいずれからも新規起票できません（作成ボタンが存在しない）。`/admin/order_returns/create` に直接アクセスすると「このページは存在しないようです」（404）になります。返品フローは注文詳細画面内からの操作が想定されますが、注文データがない現環境では確認不可です（実機確認済み）。"
+    },
+    {
+      "line": 266,
+      "url": "/admin/draft_orders/create",
+      "text": "| `/admin/draft_orders/create` がエラー画面 | ✅ 確定 | 2026-06-27 実機再確認 |"
+    },
+    {
+      "line": 267,
+      "url": "/admin/order_returns/create",
+      "text": "| `/admin/order_returns/create` が404 | ✅ 確定 | 2026-06-27 実機再確認 |"
+    },
+    {
+      "line": 268,
+      "url": "/admin/orders/create",
+      "text": "| `/admin/orders/create` がエラー画面 | ✅ 確定 | 2026-06-27 実機再確認 |"
+    },
+    {
+      "line": 286,
+      "url": "/admin/sale_change_line_items",
+      "text": "- [ ] **連携待ち** — 注文から売上実績（会計 `/admin/sale_change_line_items`）の自動生成有無"
+    }
+  ],
+  "04-notion/17-顧客・会社.md": [
+    {
+      "line": 30,
+      "url": "/admin/purchasing_customers",
+      "text": "| 顧客管理 | `/admin/purchasing_customers` | 購入顧客の一覧表示・メールアドレス検索・絞り込み・ポイント一括付与（CSV） |"
+    },
+    {
+      "line": 31,
+      "url": "/admin/companies",
+      "text": "| 会社 | `/admin/companies` | 法人顧客（会社）の新規作成・一覧管理・会社ごとのロケーション・担当者管理 |"
+    },
+    {
+      "line": 32,
+      "url": "/admin/companies/create",
+      "text": "| 会社作成 | `/admin/companies/create` | 会社本体の基本情報（会社名・会社ID・コード）を登録。ロケーション/住所/担当者は会社詳細から別途追加 |"
+    },
+    {
+      "line": 33,
+      "url": "/admin/companies/{id}",
+      "text": "| 会社詳細 | `/admin/companies/{id}` | 会社名・メモ編集、ロケーション一覧、担当者一覧、注文履歴の確認 |"
+    },
+    {
+      "line": 34,
+      "url": "/admin/companies/{id}/locations/create",
+      "text": "| ロケーション追加 | `/admin/companies/{id}/locations/create` | 会社に複数の納品先（ロケーション）を追加 |"
+    },
+    {
+      "line": 35,
+      "url": "/admin/companies/{id}/locations/{location_id}",
+      "text": "| ロケーション詳細 | `/admin/companies/{id}/locations/{location_id}` | ロケーション名・コード・住所・メモの編集、注文履歴の確認 |"
+    },
+    {
+      "line": 47,
+      "url": "/admin/purchasing_customers",
+      "text": "> 会社詳細で担当者を作成しても、顧客管理（`/admin/purchasing_customers`）の顧客一覧には表示されません。両者は別のエンティティです。"
+    },
+    {
+      "line": 69,
+      "url": "/admin/purchasing_customers",
+      "text": "### 顧客管理 一覧（`/admin/purchasing_customers`）"
+    },
+    {
+      "line": 84,
+      "url": "/admin/csv_import/csv_import_operation_point_pluses",
+      "text": "| ポイント一括付与 | リンク（インポート内） | `/admin/csv_import/csv_import_operation_point_pluses`（ポイント一括付与CSV）へ遷移 |"
+    },
+    {
+      "line": 110,
+      "url": "/admin/companies",
+      "text": "### 会社 一覧（`/admin/companies`）"
+    },
+    {
+      "line": 136,
+      "url": "/admin/companies/create",
+      "text": "| 会社を作成する | リンクボタン | `/admin/companies/create` へ遷移 |"
+    },
+    {
+      "line": 143,
+      "url": "/admin/companies/create",
+      "text": "### 会社作成フォーム（`/admin/companies/create`）"
+    },
+    {
+      "line": 148,
+      "url": "/admin/companies/create",
+      "text": "2026-06-27の実機再確認では、`/admin/companies/create` は**会社本体だけを作成するフォーム**です。ロケーション、配送先住所、請求先住所、担当者の入力欄は表示されません。会社ロケーションと担当者は、会社詳細画面から追加します。"
+    },
+    {
+      "line": 162,
+      "url": "/admin/companies/{id}",
+      "text": "### 会社詳細画面（`/admin/companies/{id}`）"
+    },
+    {
+      "line": 189,
+      "url": "/admin/companies/{id}/locations/create",
+      "text": "### ロケーション追加（`/admin/companies/{id}/locations/create`）"
+    },
+    {
+      "line": 222,
+      "url": "/admin/companies/{id}/locations/{location_id}",
+      "text": "### ロケーション詳細画面（`/admin/companies/{id}/locations/{location_id}`)"
+    },
+    {
+      "line": 262,
+      "url": "/admin/companies/{id}/contacts/create",
+      "text": "空保存時は「姓を入力してください」「名を入力してください」「メールアドレスを入力してください」が表示されます。直接 `/admin/companies/{id}/contacts/create` にアクセスすると「予期せぬエラーが発生しました」画面になるため、担当者追加は会社詳細のダイアログ経由で行います。"
+    },
+    {
+      "line": 274,
+      "url": "/admin/companies",
+      "text": "1. 左メニューから「会社」（`/admin/companies`）を開く"
+    },
+    {
+      "line": 275,
+      "url": "/admin/companies/create",
+      "text": "2. 右上の「会社を作成する」ボタンを押す（`/admin/companies/create` へ遷移）"
+    },
+    {
+      "line": 282,
+      "url": "/admin/companies",
+      "text": "1. 会社一覧（`/admin/companies`）で対象の会社行をクリックし、会社詳細を開く"
+    },
+    {
+      "line": 283,
+      "url": "/admin/companies/{id}/locations/create",
+      "text": "2. 「ロケーション」セクションの「ロケーションを追加」ボタンを押す（`/admin/companies/{id}/locations/create` へ遷移）"
+    },
+    {
+      "line": 290,
+      "url": "/admin/companies/{id}",
+      "text": "1. 会社詳細（`/admin/companies/{id}`）を開く"
+    },
+    {
+      "line": 297,
+      "url": "/admin/companies/{id}",
+      "text": "1. 会社詳細（`/admin/companies/{id}`）を開く"
+    },
+    {
+      "line": 303,
+      "url": "/admin/purchasing_customers",
+      "text": "1. 左メニューから「顧客管理」（`/admin/purchasing_customers`）を開く"
+    },
+    {
+      "line": 310,
+      "url": "/admin/purchasing_customers",
+      "text": "1. 顧客管理（`/admin/purchasing_customers`）を開く"
+    },
+    {
+      "line": 312,
+      "url": "/admin/csv_import/csv_import_operation_point_pluses",
+      "text": "3. 「ポイント一括付与」を押す（`/admin/csv_import/csv_import_operation_point_pluses` へ遷移）"
+    },
+    {
+      "line": 324,
+      "url": "/admin/companies/{id}",
+      "text": "1. 会社詳細（`/admin/companies/{id}`）の「担当者」セクションで対象の行を選択する"
+    },
+    {
+      "line": 337,
+      "url": "/admin/purchasing_customers/create",
+      "text": "| 顧客データは手動新規作成不可 | 顧客管理に新規作成ボタンは存在しません。顧客データは販売チャネル（Shopifyなど）経由で自動登録される設計です（※連携後の実機確認は未完了。公式docsにも同期の詳細は記載なし）。`/admin/purchasing_customers/create` に直接アクセスすると「予期せぬエラーが発生しました」となります |"
+    },
+    {
+      "line": 339,
+      "url": "/admin/csv_export",
+      "text": "| 顧客のCSVエクスポートは別画面 | CSVエクスポート専用画面（`/admin/csv_export`）から行います |"
+    },
+    {
+      "line": 346,
+      "url": "/admin/companies/create",
+      "text": "| 会社作成フォームは会社本体のみ | 2026-06-27時点の `/admin/companies/create` は会社名・会社ID・コードのみ。ロケーション/住所/担当者は会社詳細から追加します |"
+    },
+    {
+      "line": 358,
+      "url": "/admin/b2b",
+      "text": "| 「卸売」（`/admin/b2b`）は別機能で未実装 | 会社とは別機能。現在は「TODO」表示のみです |"
+    },
+    {
+      "line": 369,
+      "url": "/admin/purchasing_customers/create",
+      "text": "| 顧客管理 手動作成不可 | 確定 | 2026-06-27 `/admin/purchasing_customers/create` で予期せぬエラー確認 |"
+    }
+  ],
+  "04-notion/18-CRM.md": [
+    {
+      "line": 33,
+      "url": "/admin/order_price_adjustment_rules",
+      "text": "| ディスカウント | `/admin/order_price_adjustment_rules` | クーポンコード入力で注文を割引く |"
+    },
+    {
+      "line": 34,
+      "url": "/admin/point_calculation_rules",
+      "text": "| 注文ポイント | `/admin/point_calculation_rules` | 購入金額に応じてポイントを付与する |"
+    },
+    {
+      "line": 35,
+      "url": "/admin/customer_rank_calculation_rules",
+      "text": "| 会員ランク | `/admin/customer_rank_calculation_rules` | 顧客の購入実績から会員ランクを算出する |"
+    },
+    {
+      "line": 41,
+      "url": "/admin/point_campaign_order_rules",
+      "text": "| キャンペーン | `/admin/point_campaign_order_rules` | ポイントを増倍・追加付与するキャンペーン |"
+    },
+    {
+      "line": 42,
+      "url": "/admin/point_calculation_birthday_rules",
+      "text": "| 誕生日 | `/admin/point_calculation_birthday_rules` | 誕生日に付与するポイントルール |"
+    },
+    {
+      "line": 43,
+      "url": "/admin/point_application_excluded_products",
+      "text": "| 利用外商品 | `/admin/point_application_excluded_products` | ポイント利用の対象外にする商品 |"
+    },
+    {
+      "line": 44,
+      "url": "/admin/point_expiration_notification_rule",
+      "text": "| 失効通知 | `/admin/point_expiration_notification_rule` | 失効前に通知するルール |"
+    },
+    {
+      "line": 79,
+      "url": "/admin/order_price_adjustment_rules",
+      "text": "> URL: `/admin/order_price_adjustment_rules`"
+    },
+    {
+      "line": 107,
+      "url": "/admin/order_price_adjustment_rules/create",
+      "text": "> URL: `/admin/order_price_adjustment_rules/create`"
+    },
+    {
+      "line": 158,
+      "url": "/admin/order_price_adjustment_rules/{id}",
+      "text": "> URL: `/admin/order_price_adjustment_rules/{id}`"
+    },
+    {
+      "line": 166,
+      "url": "/admin/order_price_adjustment_rules/{id}",
+      "text": "| 基本情報 | `/admin/order_price_adjustment_rules/{id}` | 設定内容の表示・編集 |"
+    },
+    {
+      "line": 167,
+      "url": "/admin/order_price_adjustment_rules/{id}/usages",
+      "text": "| 利用履歴 | `/admin/order_price_adjustment_rules/{id}/usages` | 利用された注文の履歴。「CSVエクスポート」リンクあり |"
+    },
+    {
+      "line": 168,
+      "url": "/admin/order_price_adjustment_rules/{id}/customers",
+      "text": "| 顧客管理 | `/admin/order_price_adjustment_rules/{id}/customers` | 対象顧客の追加・管理 |"
+    },
+    {
+      "line": 169,
+      "url": "/admin/order_price_adjustment_rules/{id}/locations",
+      "text": "| 店舗管理 | `/admin/order_price_adjustment_rules/{id}/locations` | 対象店舗の追加・管理 |"
+    },
+    {
+      "line": 170,
+      "url": "/admin/order_price_adjustment_rules/{id}/product_variants",
+      "text": "| 商品管理 | `/admin/order_price_adjustment_rules/{id}/product_variants` | 対象商品バリエーションの追加・管理 |"
+    },
+    {
+      "line": 188,
+      "url": "/admin/point_calculation_rules",
+      "text": "> URL: `/admin/point_calculation_rules`"
+    },
+    {
+      "line": 197,
+      "url": "/admin/point_calculation_rules/create",
+      "text": "> URL: `/admin/point_calculation_rules/create`"
+    },
+    {
+      "line": 251,
+      "url": "/admin/point_calculation_rules/{id}/rank_multipliers",
+      "text": "| 会員ランク倍率 | `/admin/point_calculation_rules/{id}/rank_multipliers` | `会員ランク*`, `倍率*`。注意文: `既に設定されている会員ランクは選択できません` |"
+    },
+    {
+      "line": 252,
+      "url": "/admin/point_calculation_rules/{id}/point_multiplier_products",
+      "text": "| 商品倍率 | `/admin/point_calculation_rules/{id}/point_multiplier_products` | `商品`（`選択`ボタン付き）, `倍率*` |"
+    },
+    {
+      "line": 262,
+      "url": "/admin/point_campaign_order_rules",
+      "text": "> URL: `/admin/point_campaign_order_rules`"
+    },
+    {
+      "line": 303,
+      "url": "/admin/point_calculation_birthday_rules",
+      "text": "> URL: `/admin/point_calculation_birthday_rules`"
+    },
+    {
+      "line": 316,
+      "url": "/admin/point_application_excluded_products",
+      "text": "> URL: `/admin/point_application_excluded_products`"
+    },
+    {
+      "line": 322,
+      "url": "/admin/point_expiration_notification_rule",
+      "text": "> URL: `/admin/point_expiration_notification_rule`"
+    },
+    {
+      "line": 335,
+      "url": "/admin/customer_rank_calculation_rules",
+      "text": "> URL: `/admin/customer_rank_calculation_rules`"
+    },
+    {
+      "line": 342,
+      "url": "/admin/customer_rank_calculation_rules/create",
+      "text": "> URL: `/admin/customer_rank_calculation_rules/create`"
+    },
+    {
+      "line": 374,
+      "url": "/admin/customer_rank_calculation_rules/{id}",
+      "text": "> URL: `/admin/customer_rank_calculation_rules/{id}`"
+    },
+    {
+      "line": 399,
+      "url": "/admin/customer_rank_calculation_rules/{id}/exclude_products",
+      "text": "詳細ページ内のリンクから除外商品の管理ページ（`/admin/customer_rank_calculation_rules/{id}/exclude_products`）へ遷移できます。"
+    },
+    {
+      "line": 403,
+      "url": "/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create",
+      "text": "> URL: `/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create`"
+    },
+    {
+      "line": 428,
+      "url": "/admin/point_calculation_rules/{id}/rank_multipliers",
+      "text": "| 注文ポイント付与ルール: 会員ランク倍率 | `/admin/point_calculation_rules/{id}/rank_multipliers` | 会員ランク別のポイント倍率を管理するタブ |"
+    },
+    {
+      "line": 429,
+      "url": "/admin/point_calculation_rules/{id}/point_multiplier_products",
+      "text": "| 注文ポイント付与ルール: 商品倍率 | `/admin/point_calculation_rules/{id}/point_multiplier_products` | 商品別のポイント倍率を管理するタブ |"
+    },
+    {
+      "line": 430,
+      "url": "/admin/point_campaign_order_rules/{id}/customer_ranks",
+      "text": "| ポイントキャンペーン: 会員ランク | `/admin/point_campaign_order_rules/{id}/customer_ranks` | キャンペーン対象の会員ランクを管理するタブ |"
+    },
+    {
+      "line": 431,
+      "url": "/admin/point_campaign_order_rules/{id}/product_variants",
+      "text": "| ポイントキャンペーン: 商品 | `/admin/point_campaign_order_rules/{id}/product_variants` | キャンペーン対象の商品バリエーションを管理するタブ |"
+    },
+    {
+      "line": 432,
+      "url": "/admin/point_campaign_order_rules/{id}/purchase_prices",
+      "text": "| ポイントキャンペーン: 購入金額 | `/admin/point_campaign_order_rules/{id}/purchase_prices` | 購入金額条件を管理するタブ |"
+    },
+    {
+      "line": 433,
+      "url": "/admin/point_calculation_birthday_rules/{id}/customer_ranks",
+      "text": "| 誕生日ポイント: 会員ランク | `/admin/point_calculation_birthday_rules/{id}/customer_ranks` | 誕生日ポイントの会員ランク条件を管理するタブ |"
+    },
+    {
+      "line": 441,
+      "url": "/admin/order_price_adjustment_rules",
+      "text": "1. `/admin/order_price_adjustment_rules` を開き、「ディスカウントを作成する」をクリックする"
+    },
+    {
+      "line": 452,
+      "url": "/admin/point_calculation_rules",
+      "text": "1. `/admin/point_calculation_rules` を開き、「付与ルールを作成する」をクリックする"
+    },
+    {
+      "line": 462,
+      "url": "/admin/point_campaign_order_rules",
+      "text": "1. `/admin/point_campaign_order_rules` を開き、キャンペーン作成フォームへ遷移する"
+    },
+    {
+      "line": 472,
+      "url": "/admin/customer_rank_calculation_rules",
+      "text": "1. `/admin/customer_rank_calculation_rules` を開き、「会員ランク算出ルールを作成する」をクリックする"
+    }
+  ],
+  "04-notion/19-店舗業務・リテールポータル.md": [
+    {
+      "line": 36,
+      "url": "/admin/retail_portal_integrations",
+      "text": "| リテールポータル連携 | `/admin/retail_portal_integrations` | 店舗スタッフが使うリテールポータルをSQと接続する（1件=1店舗ロケーション単位） |"
+    },
+    {
+      "line": 37,
+      "url": "/admin/local_pickup_retail_location_rules",
+      "text": "| 店舗受取 | `/admin/local_pickup_retail_location_rules` | リテールポータル配下のサブメニュー。店舗受取可能なロケーションを設定する |"
+    },
+    {
+      "line": 55,
+      "url": "/admin/local_pickup_product_variants",
+      "text": "| 店舗受取対象SKU | 商品管理 > 店舗受取（`/admin/local_pickup_product_variants`） | `バリエーションを追加する` からSKU単位で受取対象を指定する |"
+    },
+    {
+      "line": 56,
+      "url": "/admin/local_pickup_retail_location_rules",
+      "text": "| 受取店舗ルール | リテールポータル > 店舗受取（`/admin/local_pickup_retail_location_rules`） | どの店舗ロケーションで受け取れるかを登録する |"
+    },
+    {
+      "line": 96,
+      "url": "/admin/retail_portal_integrations",
+      "text": "### リテールポータル連携 一覧（`/admin/retail_portal_integrations`）"
+    },
+    {
+      "line": 100,
+      "url": "/admin/retail_portal_integrations/create",
+      "text": "### リテールポータル連携 作成フォーム（`/admin/retail_portal_integrations/create`）"
+    },
+    {
+      "line": 165,
+      "url": "/admin/local_pickup_retail_location_rules",
+      "text": "### 店舗受取 一覧（`/admin/local_pickup_retail_location_rules`）"
+    },
+    {
+      "line": 169,
+      "url": "/admin/local_pickup_retail_location_rules/create",
+      "text": "### 店舗受取 作成フォーム（`/admin/local_pickup_retail_location_rules/create`）"
+    },
+    {
+      "line": 183,
+      "url": "/admin/retail_portal_integrations",
+      "text": "1. 管理画面で `/admin/retail_portal_integrations` を開く"
+    },
+    {
+      "line": 184,
+      "url": "/admin/retail_portal_integrations/create",
+      "text": "2. 「追加する」ボタンをクリックし、作成フォーム（`/admin/retail_portal_integrations/create`）に進む"
+    },
+    {
+      "line": 197,
+      "url": "/admin/local_pickup_retail_location_rules",
+      "text": "3. 管理画面で `/admin/local_pickup_retail_location_rules` を開く。"
+    },
+    {
+      "line": 198,
+      "url": "/admin/local_pickup_retail_location_rules/create",
+      "text": "4. 「追加する」ボタンをクリックし、作成フォーム（`/admin/local_pickup_retail_location_rules/create`）に進む。"
+    },
+    {
+      "line": 204,
+      "url": "/admin/local_pickup_product_variants",
+      "text": "1. 管理画面で `/admin/local_pickup_product_variants` を開く。"
+    }
+  ],
+  "04-notion/20-標準販売チャネル連携.md": [
+    {
+      "line": 46,
+      "url": "/admin/shopify_integrations",
+      "text": "| Shopify | `/admin/shopify_integrations` | 商品・注文の連携、在庫引当、販売価格設定 |"
+    },
+    {
+      "line": 47,
+      "url": "/admin/omnibus_core_integrations",
+      "text": "| OmnibusCore | `/admin/omnibus_core_integrations` | 商品同期、在庫設定、下書き注文連携 |"
+    },
+    {
+      "line": 48,
+      "url": "/admin/smaregi_integrations",
+      "text": "| スマレジ | `/admin/smaregi_integrations` | 実機見出し「スマレジ連携」。フォームに商品(カタログ)/在庫(同期方向)/注文(在庫変動)の項目あり。「POS」は一般知識 **※公式ガイドは近日連携予定扱い。連携UIは実機に存在** |"
+    },
+    {
+      "line": 67,
+      "url": "/admin/catalogs/create",
+      "text": "カタログ作成画面（`/admin/catalogs/create`）で設定できるのはタイトルのみです。出品範囲・同期範囲はカタログ単体ではなく、各販売チャネル連携側のフォームでカタログを選択することで決まります。"
+    },
+    {
+      "line": 71,
+      "url": "/admin/catalogs",
+      "text": "| カタログ | `/admin/catalogs` | 商品を束ねる入れ物を作る |"
+    },
+    {
+      "line": 94,
+      "url": "/admin/shopify_integrations",
+      "text": "> URL: `/admin/shopify_integrations`"
+    },
+    {
+      "line": 104,
+      "url": "/admin/shopify_integrations/create",
+      "text": "> URL: `/admin/shopify_integrations/create`"
+    },
+    {
+      "line": 148,
+      "url": "/admin/omnibus_core_integrations/create",
+      "text": "> URL: `/admin/omnibus_core_integrations/create`"
+    },
+    {
+      "line": 175,
+      "url": "/admin/inventory_back_order_rules",
+      "text": "> **在庫設定ルールの運用上の意味**: 「在庫予約ルール」「販売上限ルール」は、販売設定エリア（`/admin/inventory_back_order_rules`・`/admin/inventory_sale_limit_rules`）で作成したマスタを、OmnibusCore経由の注文に適用する設定。予約ルールは在庫0でも受注する「取り寄せ/予約販売」の可否と数量を、販売上限ルールは対象チャネルでの購入数上限を担う。未選択ならこれらのルールはOmnibusCore注文に適用されない。※チャネル適用時の実際の挙動は実機未確認。"
+    },
+    {
+      "line": 175,
+      "url": "/admin/inventory_sale_limit_rules",
+      "text": "> **在庫設定ルールの運用上の意味**: 「在庫予約ルール」「販売上限ルール」は、販売設定エリア（`/admin/inventory_back_order_rules`・`/admin/inventory_sale_limit_rules`）で作成したマスタを、OmnibusCore経由の注文に適用する設定。予約ルールは在庫0でも受注する「取り寄せ/予約販売」の可否と数量を、販売上限ルールは対象チャネルでの購入数上限を担う。未選択ならこれらのルールはOmnibusCore注文に適用されない。※チャネル適用時の実際の挙動は実機未確認。"
+    },
+    {
+      "line": 195,
+      "url": "/admin/omnibus_core_integrations/{id}",
+      "text": "> URL: `/admin/omnibus_core_integrations/{id}`"
+    },
+    {
+      "line": 241,
+      "url": "/admin/smaregi_integrations/create",
+      "text": "> URL: `/admin/smaregi_integrations/create`"
+    },
+    {
+      "line": 304,
+      "url": "/admin/shopify_integrations",
+      "text": "1. 左メニューの「Shopify」をクリックし、`/admin/shopify_integrations` を開く。"
+    },
+    {
+      "line": 305,
+      "url": "/admin/shopify_integrations/create",
+      "text": "2. 「ストアを接続する」ボタン（またはリンク）をクリックする。「ストアを連携する」フォーム（`/admin/shopify_integrations/create`）が開く。"
+    },
+    {
+      "line": 315,
+      "url": "/admin/omnibus_core_integrations",
+      "text": "1. 左メニューの「OmnibusCore」をクリックし、`/admin/omnibus_core_integrations` を開く。"
+    },
+    {
+      "line": 316,
+      "url": "/admin/omnibus_core_integrations/create",
+      "text": "2. 「追加する」ボタンをクリックする。「OmnibusCore連携を作成する」フォーム（`/admin/omnibus_core_integrations/create`）が開く。"
+    },
+    {
+      "line": 322,
+      "url": "/admin/omnibus_core_integrations/{id}",
+      "text": "8. （実機未確認）接続が確立すると詳細・編集画面（`/admin/omnibus_core_integrations/{id}`）へ遷移し、商品同期・在庫設定が有効になる。以降の同期開始タイミング・初回同期の挙動は未確認。"
+    },
+    {
+      "line": 326,
+      "url": "/admin/omnibus_core_integrations/{id}",
+      "text": "接続が完了すると詳細・編集画面（`/admin/omnibus_core_integrations/{id}`）で追加設定ができます。"
+    },
+    {
+      "line": 338,
+      "url": "/admin/smaregi_integrations",
+      "text": "1. 左メニューの「スマレジ」をクリックし、`/admin/smaregi_integrations` を開く。"
+    },
+    {
+      "line": 339,
+      "url": "/admin/smaregi_integrations/create",
+      "text": "2. 「追加する」ボタンをクリックする。「スマレジ連携を作成する」フォーム（`/admin/smaregi_integrations/create`）が開く。"
+    }
+  ],
+  "04-notion/21-物流・返品・外部アプリ連携.md": [
+    {
+      "line": 37,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "| 出荷管理 | `/admin/inventory_outbound_orders` | 出荷指示の一覧・出荷実績登録（手動／CSV連携） | ✅ 画面確認済み |"
+    },
+    {
+      "line": 38,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "| ヤマトB2クラウド 連携 | `/admin/inventory_outbound_orders` 内「インポート」「条件指定でエクスポート」 | 出荷実績CSVの一括取込・取り込み用CSV生成 | ⚠️ 導線確認済み・実データ検証は連携待ち |"
+    },
+    {
+      "line": 39,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "| DHL 連携 | `/admin/inventory_outbound_orders` 内「インポート」 | DHL出荷実績CSVの一括取込 | ⚠️ 導線確認済み・実データ検証は連携待ち |"
+    },
+    {
+      "line": 40,
+      "url": "/admin/logizard_integrations",
+      "text": "| ロジザードZERO 連携 | `/admin/logizard_integrations` | WMS（倉庫管理）連携 ※一般知識・実機画面に役割表記なし | ❌ 連携待ち（接続前提） |"
+    },
+    {
+      "line": 41,
+      "url": "/admin/recustomer_integrations",
+      "text": "| Recustomer 連携 | `/admin/recustomer_integrations` | 返品・交換プラットフォームとの接続設定 | ❌ 連携待ち（接続前提） |"
+    },
+    {
+      "line": 57,
+      "url": "/admin/order_returns",
+      "text": "| Recustomer | 返品・交換に伴う在庫・注文ステータスの反映先 | ❌ 未確認（返品一覧 `/admin/order_returns` は存在。新規作成直URL `/admin/order_returns/create` は404） |"
+    },
+    {
+      "line": 57,
+      "url": "/admin/order_returns/create",
+      "text": "| Recustomer | 返品・交換に伴う在庫・注文ステータスの反映先 | ❌ 未確認（返品一覧 `/admin/order_returns` は存在。新規作成直URL `/admin/order_returns/create` は404） |"
+    },
+    {
+      "line": 61,
+      "url": "/admin/order_returns",
+      "text": "> 返品機能については、2026-06-27時点で `/admin/order_returns` の一覧画面は存在し、空一覧・検索絞り込みが表示されます。一方、`/admin/order_returns/create` は「このページは存在しないようです」となり、SQ管理画面単独で返品を新規登録する導線は確認できていません。Recustomer経由でのみ処理される可能性がありますが、本ページでは接続検証未済のため**返品発生時の実際の運用手順は未確認**（手順6は接続設定のみ）。接続環境での検証後に追記します。"
+    },
+    {
+      "line": 61,
+      "url": "/admin/order_returns/create",
+      "text": "> 返品機能については、2026-06-27時点で `/admin/order_returns` の一覧画面は存在し、空一覧・検索絞り込みが表示されます。一方、`/admin/order_returns/create` は「このページは存在しないようです」となり、SQ管理画面単独で返品を新規登録する導線は確認できていません。Recustomer経由でのみ処理される可能性がありますが、本ページでは接続検証未済のため**返品発生時の実際の運用手順は未確認**（手順6は接続設定のみ）。接続環境での検証後に追記します。"
+    },
+    {
+      "line": 67,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "### 出荷管理（`/admin/inventory_outbound_orders`）"
+    },
+    {
+      "line": 145,
+      "url": "/admin/logizard_integrations",
+      "text": "### ロジザードZERO連携（`/admin/logizard_integrations`）"
+    },
+    {
+      "line": 151,
+      "url": "/admin/logizard_integrations/create",
+      "text": "#### ロジザード連携作成フォーム（`/admin/logizard_integrations/create`）"
+    },
+    {
+      "line": 172,
+      "url": "/admin/recustomer_integrations",
+      "text": "### Recustomer連携（`/admin/recustomer_integrations`）"
+    },
+    {
+      "line": 176,
+      "url": "/admin/recustomer_integrations/create",
+      "text": "#### Recustomer接続フォーム（`/admin/recustomer_integrations/create`）"
+    },
+    {
+      "line": 188,
+      "url": "/admin/recustomer_integrations",
+      "text": "- **接続済みデータの削除（2026-06-24実機確認）**: Recustomer連携一覧（`/admin/recustomer_integrations`）で登録済み行のチェックボックスを選択すると、上部に `アクション` メニューが表示される。`接続を削除する` を選ぶと確認ダイアログ `アカウント接続を削除します` が開き、`削除する` で削除できる。確認文言は「選択されているアカウント接続を削除します。この処理は巻き戻すことができません。」。テスト接続 `TEST_FAQ_20260624_Recustomer_100908` はこの手順で削除済み。"
+    },
+    {
+      "line": 196,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "1. 左サイドバー「出荷管理」（`/admin/inventory_outbound_orders`）を開く"
+    },
+    {
+      "line": 238,
+      "url": "/admin/settings",
+      "text": "1. 左サイドバー「設定」（`/admin/settings`）を開く"
+    },
+    {
+      "line": 239,
+      "url": "/admin/logizard_integrations",
+      "text": "2. 外部連携グループの「ロジザード」（`/admin/logizard_integrations`）をクリックする"
+    },
+    {
+      "line": 240,
+      "url": "/admin/logizard_integrations/create",
+      "text": "3. 「作成する」から作成フォーム（`/admin/logizard_integrations/create`）へ遷移する"
+    },
+    {
+      "line": 255,
+      "url": "/admin/settings",
+      "text": "1. 左サイドバー「設定」（`/admin/settings`）を開く"
+    },
+    {
+      "line": 256,
+      "url": "/admin/recustomer_integrations",
+      "text": "2. 外部連携グループの「Recustomer」（`/admin/recustomer_integrations`）をクリックする"
+    },
+    {
+      "line": 257,
+      "url": "/admin/recustomer_integrations/create",
+      "text": "3. 「アカウントを接続」リンクから接続フォーム（`/admin/recustomer_integrations/create`）へ遷移する"
+    },
+    {
+      "line": 281,
+      "url": "/admin/inventory_adjustment_orders",
+      "text": "- **調整伝票の導線**: 在庫管理 > 調整伝票（`/admin/inventory_adjustment_orders`）→「作成する」で、ロケーション・商品（増減数）を指定して在庫を増減させる。理由は `廃棄 / 紛失 / 在庫差異 / その他` の4択で選択推奨だが、2026-06-27の実機では未選択表示でも保存・実行できた。詳細は 01-by-feature/調整伝票.md 参照。"
+    },
+    {
+      "line": 295,
+      "url": "/admin/pdf_export",
+      "text": "2026-06-21の実機確認では、ヤマトB2クラウド条件指定エクスポートフォームに「同梱する納品書PDF」と表示されます。一方、PDFエクスポート画面（`/admin/pdf_export`）および出荷完了済み出荷指示詳細のどちらにも、任意に納品書PDFを新規生成する導線は確認できませんでした。`/admin/pdf_export/pdf_export_operation_packing_slips/create` は「このページは存在しないようです」になります。実際のメールリンク・PDFファイルは未確認のため、「PDFが必ず生成される」とは断定しないでください。"
+    },
+    {
+      "line": 295,
+      "url": "/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "text": "2026-06-21の実機確認では、ヤマトB2クラウド条件指定エクスポートフォームに「同梱する納品書PDF」と表示されます。一方、PDFエクスポート画面（`/admin/pdf_export`）および出荷完了済み出荷指示詳細のどちらにも、任意に納品書PDFを新規生成する導線は確認できませんでした。`/admin/pdf_export/pdf_export_operation_packing_slips/create` は「このページは存在しないようです」になります。実際のメールリンク・PDFファイルは未確認のため、「PDFが必ず生成される」とは断定しないでください。"
+    },
+    {
+      "line": 311,
+      "url": "/admin/order_returns",
+      "text": "2026-06-27時点で `/admin/order_returns` の返品一覧は表示できますが、`/admin/order_returns/create` は「このページは存在しないようです」となります。SQ管理画面単独での返品登録導線は確認できておらず、Recustomer等の外部連携経由でのみ処理される可能性がありますが未確認です。読者は「返品をどう処理するか」の回答を本ページから得られません（手順6は接続設定まで）。返品発生時の運用手順は接続検証後に追記します。"
+    },
+    {
+      "line": 311,
+      "url": "/admin/order_returns/create",
+      "text": "2026-06-27時点で `/admin/order_returns` の返品一覧は表示できますが、`/admin/order_returns/create` は「このページは存在しないようです」となります。SQ管理画面単独での返品登録導線は確認できておらず、Recustomer等の外部連携経由でのみ処理される可能性がありますが未確認です。読者は「返品をどう処理するか」の回答を本ページから得られません（手順6は接続設定まで）。返品発生時の運用手順は接続検証後に追記します。"
+    },
+    {
+      "line": 330,
+      "url": "/admin/order_returns",
+      "text": "| 返品一覧（`/admin/order_returns`） | ✅ 確定 | 2026-06-27再確認。空一覧・検索絞り込みを表示 |"
+    },
+    {
+      "line": 331,
+      "url": "/admin/order_returns/create",
+      "text": "| SQ単独での返品新規作成導線（`/admin/order_returns/create`） | ❌ 未確認 | 2026-06-27再確認で404 |"
+    },
+    {
+      "line": 344,
+      "url": "/admin/order_returns",
+      "text": "- [ ] **TODO表示** — SQ管理画面単独での返品新規作成導線（`/admin/order_returns` の一覧は存在。`/admin/order_returns/create` は存在しない画面。Recustomer経由のみか要確認）"
+    },
+    {
+      "line": 344,
+      "url": "/admin/order_returns/create",
+      "text": "- [ ] **TODO表示** — SQ管理画面単独での返品新規作成導線（`/admin/order_returns` の一覧は存在。`/admin/order_returns/create` は存在しない画面。Recustomer経由のみか要確認）"
+    }
+  ],
+  "04-notion/22-CSV・PDF・データ移行.md": [
+    {
+      "line": 25,
+      "url": "/admin/csv_import",
+      "text": "| CSVインポート | `/admin/csv_import` | CSVでデータを一括登録・更新（9グループ・22カテゴリ） | 実装済み |"
+    },
+    {
+      "line": 26,
+      "url": "/admin/csv_export",
+      "text": "| CSVエクスポート | `/admin/csv_export` | データをCSVで出力（5グループ・9カテゴリ） | 実装済み |"
+    },
+    {
+      "line": 27,
+      "url": "/admin/pdf_export",
+      "text": "| PDFエクスポート | `/admin/pdf_export` | 出荷指示の納品書PDFカテゴリを表示 | トップ画面のみ実装、新規作成画面は未実装。ヤマトB2条件指定エクスポートには「同梱する納品書PDF」表示あり |"
+    },
+    {
+      "line": 29,
+      "url": "/admin",
+      "text": "- 3メニューともサイドナビの専用エントリから開きます。ホーム（`/admin`）のクイックリンクからも遷移可能です（`CSVでデータをインポートする` / `CSVでデータをエクスポートする` / `PDFでデータをエクスポートする`）。"
+    },
+    {
+      "line": 65,
+      "url": "/admin/csv_import",
+      "text": "### CSVインポート `/admin/csv_import`"
+    },
+    {
+      "line": 142,
+      "url": "/admin/csv_import/csv_import_operation_products",
+      "text": "| 商品インポート | `/admin/csv_import/csv_import_operation_products` | `/admin/csv_import/csv_import_operation_products/create` |"
+    },
+    {
+      "line": 142,
+      "url": "/admin/csv_import/csv_import_operation_products/create",
+      "text": "| 商品インポート | `/admin/csv_import/csv_import_operation_products` | `/admin/csv_import/csv_import_operation_products/create` |"
+    },
+    {
+      "line": 143,
+      "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities",
+      "text": "| 販売可能在庫インポート | `/admin/csv_import/csv_import_operation_inventory_logical_available_quantities` | `/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create` |"
+    },
+    {
+      "line": 143,
+      "url": "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create",
+      "text": "| 販売可能在庫インポート | `/admin/csv_import/csv_import_operation_inventory_logical_available_quantities` | `/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create` |"
+    },
+    {
+      "line": 144,
+      "url": "/admin/csv_import/csv_import_operation_fulfillment_by_dhls",
+      "text": "| DHL出荷実績インポート | `/admin/csv_import/csv_import_operation_fulfillment_by_dhls` | 「新規インポート」から作成フォームへ遷移 |"
+    },
+    {
+      "line": 145,
+      "url": "/admin/csv_import/csv_import_operation_point_minuses",
+      "text": "| ポイント一括減算 | `/admin/csv_import/csv_import_operation_point_minuses` | 「新規インポート」から作成フォームへ遷移 |"
+    },
+    {
+      "line": 146,
+      "url": "/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants",
+      "text": "| ポイントキャンペーン対象商品 | `/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants` | 「新規インポート」から作成フォームへ遷移 |"
+    },
+    {
+      "line": 156,
+      "url": "/admin/products",
+      "text": "商品一覧（`/admin/products`）右上の「インポート」メニューから開ける5項目は、CSVインポートトップの「商品」グループと完全には一致しません。"
+    },
+    {
+      "line": 160,
+      "url": "/admin/csv_import/csv_import_operation_products",
+      "text": "| 商品 | `/admin/csv_import/csv_import_operation_products` | `command`, `product_code`, `title`, `product_status`, `option1_name` |"
+    },
+    {
+      "line": 161,
+      "url": "/admin/csv_import/csv_import_operation_product_images",
+      "text": "| 商品画像 | `/admin/csv_import/csv_import_operation_product_images` | `product_code`, `image_url` |"
+    },
+    {
+      "line": 162,
+      "url": "/admin/csv_import/csv_import_operation_product_variants",
+      "text": "| 商品バリエーション | `/admin/csv_import/csv_import_operation_product_variants` | `command`, `sku`, `product_code`, `option1_value`, `price`, `price_currency_code` |"
+    },
+    {
+      "line": 163,
+      "url": "/admin/csv_import/csv_import_operation_product_metafields",
+      "text": "| 商品メタフィールド | `/admin/csv_import/csv_import_operation_product_metafields` | `product_code`, `namespace`, `key`, `value_type`, `value` |"
+    },
+    {
+      "line": 164,
+      "url": "/admin/csv_import/csv_import_operation_product_variant_metafields",
+      "text": "| 商品バリエーションメタフィールド | `/admin/csv_import/csv_import_operation_product_variant_metafields` | `sku`, `namespace`, `key`, `value_type`, `value` |"
+    },
+    {
+      "line": 229,
+      "url": "/admin/csv_import/csv_import_operation_inventory_movement_orders",
+      "text": "| 一覧 | `/admin/csv_import/csv_import_operation_inventory_movement_orders` | 在庫移動伝票をCSVで一括取り込む |"
+    },
+    {
+      "line": 230,
+      "url": "/admin/csv_import/csv_import_operation_inventory_movement_orders/create",
+      "text": "| 新規インポート | `/admin/csv_import/csv_import_operation_inventory_movement_orders/create` | 在庫移動をCSVで一括取り込む |"
+    },
+    {
+      "line": 250,
+      "url": "/admin/csv_export",
+      "text": "### CSVエクスポート `/admin/csv_export`"
+    },
+    {
+      "line": 254,
+      "url": "/admin/csv_export/csv_export_operation_inventory_logical_quantities/create",
+      "text": "> **外部在庫同期との切り分け**: Stack社MTGで出た「外部に在庫数を出力したい時の対象商品一覧を作るためのカタログ」は、本ページのCSVエクスポートではなく、スマレジなど外部連携側の在庫同期設定として扱います。2026-06-25実機確認では、在庫CSVエクスポート作成フォーム（`/admin/csv_export/csv_export_operation_inventory_logical_quantities/create`）にある条件は `ロケーション` のみで、カタログ選択はありません。"
+    },
+    {
+      "line": 258,
+      "url": "/admin/csv_export/csv_export_operation_inventory_logical_quantities",
+      "text": "| マスターデータ | 在庫 | `/admin/csv_export/csv_export_operation_inventory_logical_quantities` | ロケーション選択 + `エクスポートを開始する` |"
+    },
+    {
+      "line": 259,
+      "url": "/admin/csv_export/csv_export_operation_product_variants",
+      "text": "| マスターデータ | 商品バリエーション | `/admin/csv_export/csv_export_operation_product_variants` | `商品情報を含める` チェック + `エクスポートを開始する` |"
+    },
+    {
+      "line": 260,
+      "url": "/admin/csv_export/csv_export_operation_location_by_location_group",
+      "text": "| マスターデータ | ロケーション | `/admin/csv_export/csv_export_operation_location_by_location_group` | ロケーショングループ選択 + `エクスポートを開始する` |"
+    },
+    {
+      "line": 261,
+      "url": "/admin/csv_export/csv_export_operation_order_price_adjustment_usages",
+      "text": "| マスターデータ | ディスカウントの利用履歴 | `/admin/csv_export/csv_export_operation_order_price_adjustment_usages` | ディスカウント選択 + `エクスポートを開始する` |"
+    },
+    {
+      "line": 262,
+      "url": "/admin/csv_export/csv_export_operation_product_price_rule_sale_prices",
+      "text": "| 価格 | セール価格 | `/admin/csv_export/csv_export_operation_product_price_rule_sale_prices` | 販売価格ルール選択（必須） + `エクスポートを開始する` |"
+    },
+    {
+      "line": 263,
+      "url": "/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds",
+      "text": "| 出荷 | ヤマトB2クラウド | `/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds` | 当画面は**実行履歴確認専用**（エクスポートボタンなし）。出荷管理画面（`/admin/inventory_outbound_orders`）の条件指定エクスポートから実行する。フォームには出力物として「ヤマトB2クラウド取り込み用CSV」「同梱する納品書PDF」が表示され、完了後にメールでダウンロードリンクが通知される文言がある |"
+    },
+    {
+      "line": 263,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "| 出荷 | ヤマトB2クラウド | `/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds` | 当画面は**実行履歴確認専用**（エクスポートボタンなし）。出荷管理画面（`/admin/inventory_outbound_orders`）の条件指定エクスポートから実行する。フォームには出力物として「ヤマトB2クラウド取り込み用CSV」「同梱する納品書PDF」が表示され、完了後にメールでダウンロードリンクが通知される文言がある |"
+    },
+    {
+      "line": 264,
+      "url": "/admin/csv_export/csv_export_operation_sale_changes",
+      "text": "| 実績 | 売上実績（注文軸） | `/admin/csv_export/csv_export_operation_sale_changes` | テナント（必須） / 開始日時（必須） / 終了日時（必須） / `エクスポートを開始する` |"
+    },
+    {
+      "line": 265,
+      "url": "/admin/csv_export/csv_export_operation_sale_change_line_items",
+      "text": "| 実績 | 売上実績（明細軸） | `/admin/csv_export/csv_export_operation_sale_change_line_items` | テナント（必須） / 開始日時（必須） / 終了日時（必須） / `エクスポートを開始する` |"
+    },
+    {
+      "line": 266,
+      "url": "/admin/csv_export/csv_export_operation_point_changes",
+      "text": "| ポイント | ポイント変動履歴 | `/admin/csv_export/csv_export_operation_point_changes` | テナント（必須） / 開始日時（必須） / 終了日時（必須） / `エクスポートを開始する` |"
+    },
+    {
+      "line": 268,
+      "url": "/admin/csv_export/csv_export_operation_sale_changes/create",
+      "text": "> 売上実績（注文軸）の実行フォームを直接開くURLは `/admin/csv_export/csv_export_operation_sale_changes/create` です。売上実績一覧（`/admin/sale_change_line_items`）の `エクスポート > 注文軸` からも同じカテゴリに遷移します。"
+    },
+    {
+      "line": 268,
+      "url": "/admin/sale_change_line_items",
+      "text": "> 売上実績（注文軸）の実行フォームを直接開くURLは `/admin/csv_export/csv_export_operation_sale_changes/create` です。売上実績一覧（`/admin/sale_change_line_items`）の `エクスポート > 注文軸` からも同じカテゴリに遷移します。"
+    },
+    {
+      "line": 270,
+      "url": "/admin/inventory_outbound_orders/export/yamato_b2_cloud",
+      "text": "> ヤマトB2クラウドの条件指定エクスポートはCSVエクスポート履歴画面ではなく、出荷管理画面起点です。直接URLは `/admin/inventory_outbound_orders/export/yamato_b2_cloud` です。"
+    },
+    {
+      "line": 284,
+      "url": "/admin/pdf_export",
+      "text": "### PDFエクスポート `/admin/pdf_export`"
+    },
+    {
+      "line": 293,
+      "url": "/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "text": "| 新規作成画面 `/create` | `/admin/pdf_export/pdf_export_operation_packing_slips/create` は存在しないページ（h1「このページは存在しないようです」） |"
+    },
+    {
+      "line": 296,
+      "url": "/admin/settings/pdf_template_package_slip",
+      "text": "- ヤマトB2クラウド条件指定エクスポートフォームには「同梱する納品書PDF」と表示されます。ただし実際のメールリンク・PDF実ファイルは未確認です。出荷完了済みの出荷指示詳細画面でも納品書/PDF生成ボタンは確認できておらず、別条件で生成導線が出る可能性は追加確認が必要です。なお、納品書のテンプレートは設定画面（`/admin/settings/pdf_template_package_slip`）で管理されています。"
+    },
+    {
+      "line": 302,
+      "url": "/admin/csv_import",
+      "text": "1. サイドナビの「CSVインポート」を開く（`/admin/csv_import`）。"
+    },
+    {
+      "line": 335,
+      "url": "/admin/csv_export",
+      "text": "1. サイドナビの「CSVエクスポート」を開く（`/admin/csv_export`）。"
+    },
+    {
+      "line": 350,
+      "url": "/admin/pdf_export/pdf_export_operation_packing_slips/create",
+      "text": "| 未実装 | PDFエクスポートの新規作成画面（`/admin/pdf_export/pdf_export_operation_packing_slips/create`）は存在しないページ。PDFエクスポート画面単体からの任意PDF出力操作は実装されていない | 実機確認（2026-06-21） |"
+    },
+    {
+      "line": 377,
+      "url": "/admin/pdf_export",
+      "text": "| PDFエクスポート トップ画面の表示 | 確定 | `/admin/pdf_export`・h1・出荷>納品書行 |"
+    },
+    {
+      "line": 387,
+      "url": "/admin/inventory_outbound_orders",
+      "text": "- [x] CSVエクスポート「ヤマトB2クラウド」カテゴリ → `csv_export_operation_inventory_outbound_order_yamato_b2_clouds`（履歴確認専用）。実行は出荷管理画面（`/admin/inventory_outbound_orders`）の条件指定エクスポートから。フォーム上には「エクスポート完了後、メールにて以下のダウンロードリンクをお知らせいたします」と表示され、出力物として「ヤマトB2クラウド取り込み用CSV」「同梱する納品書PDF」が表示される。実際のメール受信・本文・リンク有効期限・PDF実ファイルは未確認"
+    }
+  ],
+  "04-notion/23-API・Webhook・開発者連携.md": [
+    {
+      "line": 41,
+      "url": "/admin/settings/apps",
+      "text": "| アプリ 一覧 | `/admin/settings/apps` | APIアクセスを管理するアプリの一覧表示・管理 |"
+    },
+    {
+      "line": 42,
+      "url": "/admin/settings/apps/create",
+      "text": "| アプリ 作成 | `/admin/settings/apps/create` | 新しいアプリ（APIキー群）の作成 |"
+    },
+    {
+      "line": 43,
+      "url": "/admin/settings/apps/{id}",
+      "text": "| アプリ 詳細 | `/admin/settings/apps/{id}` | アクセストークン・Webhook・リクエストログ等の確認・設定 |"
+    },
+    {
+      "line": 44,
+      "url": "/admin/settings/apps/{id}/admin_api",
+      "text": "| リクエストログ | `/admin/settings/apps/{id}/admin_api` | 対象アプリのAdmin APIリクエストログ表示 |"
+    },
+    {
+      "line": 46,
+      "url": "/admin/settings",
+      "text": "> 設定画面（`/admin/settings`）の「外部連携グループ」配下に「アプリ」があります。画面の説明文（UIの原文）は「APIアクセスを管理する / アプリを作成して、SQのアドミンAPIにアクセスしましょう。」です。"
+    },
+    {
+      "line": 64,
+      "url": "/admin/settings/apps/create",
+      "text": "フォームのパス: `/admin/settings/apps/create`"
+    },
+    {
+      "line": 96,
+      "url": "/admin/settings/apps/{id}/admin_api",
+      "text": "「**リクエストログを見る**」から `/admin/settings/apps/{id}/admin_api` へ遷移できます。2026-06-27再確認では、画面タイトルは「リクエストログ」、補足は `Admin API - TEST_FAQ_20260624_APP_113636`、本文は `TODO` 表示でした。ログ行・ステータス・保持期間・詳細項目はこの画面からは確認できていません。"
+    },
+    {
+      "line": 129,
+      "url": "/admin/settings/apps",
+      "text": "1. 管理画面で `/admin/settings/apps` を開く（設定 > 外部連携グループ > アプリ）"
+    },
+    {
+      "line": 130,
+      "url": "/admin/settings/apps/create",
+      "text": "2. 「**アプリを作成**」リンクをクリックし、作成フォーム（`/admin/settings/apps/create`）を開く"
+    },
+    {
+      "line": 187,
+      "url": "/admin/settings/apps",
+      "text": "| アプリ一覧画面（`/admin/settings/apps`） | 確定 | UIラベル・説明文・配置を確認 |"
+    },
+    {
+      "line": 192,
+      "url": "/admin/settings/apps/{id}/admin_api",
+      "text": "| リクエストログを見る | 一部確認 | `/admin/settings/apps/{id}/admin_api` へ遷移。2026-06-27時点の本文は `TODO`。直URL `/admin_api` は存在しない |"
+    },
+    {
+      "line": 192,
+      "url": "/admin_api",
+      "text": "| リクエストログを見る | 一部確認 | `/admin/settings/apps/{id}/admin_api` へ遷移。2026-06-27時点の本文は `TODO`。直URL `/admin_api` は存在しない |"
+    }
+  ],
+  "04-notion/24-会計・売上実績・分析.md": [
+    {
+      "line": 24,
+      "url": "/admin/sale_change_line_items",
+      "text": "| 会計 > 売上実績 | 売上実績 | `/admin/sale_change_line_items` | 実装済み（一覧・CSVエクスポート） |"
+    },
+    {
+      "line": 25,
+      "url": "/admin/analytics",
+      "text": "| 分析 | 分析（トップ） | `/admin/analytics` | TODO 表示（未実装） |"
+    },
+    {
+      "line": 26,
+      "url": "/admin/analytics/revenue",
+      "text": "| 分析 > 収益 | 売上（h1） | `/admin/analytics/revenue` | TODO 表示（未実装） |"
+    },
+    {
+      "line": 27,
+      "url": "/admin/analytics/reports",
+      "text": "| 分析 > レポート | レポート | `/admin/analytics/reports` | TODO 表示（未実装） |"
+    },
+    {
+      "line": 37,
+      "url": "/admin/sale_change_line_items",
+      "text": "(/admin/sale_change_line_items)         ├─ 出力実行画面(/create)"
+    },
+    {
+      "line": 53,
+      "url": "/admin/sale_change_line_items",
+      "text": "### 会計 > 売上実績（`/admin/sale_change_line_items`）"
+    },
+    {
+      "line": 72,
+      "url": "/admin/sale_change_line_items/create",
+      "text": "- 直接 `/admin/sale_change_line_items/create` にアクセスすると「このページは存在しないようです」になります。"
+    },
+    {
+      "line": 76,
+      "url": "/admin/csv_export",
+      "text": "### CSVエクスポート画面（`/admin/csv_export`）の「実績」グループ"
+    },
+    {
+      "line": 80,
+      "url": "/admin/csv_export/csv_export_operation_sale_changes",
+      "text": "| 売上実績（注文軸） | `/admin/csv_export/csv_export_operation_sale_changes` | 注文単位の売上実績を出力 |"
+    },
+    {
+      "line": 81,
+      "url": "/admin/csv_export/csv_export_operation_sale_change_line_items",
+      "text": "| 売上実績（明細軸） | `/admin/csv_export/csv_export_operation_sale_change_line_items` | 明細単位の売上実績を出力 |"
+    },
+    {
+      "line": 96,
+      "url": "/admin/analytics",
+      "text": "| 分析（トップ） | `/admin/analytics` | 分析 / 分析 | 本文 `TODO` |"
+    },
+    {
+      "line": 97,
+      "url": "/admin/analytics/revenue",
+      "text": "| 収益 | `/admin/analytics/revenue` | ナビ「収益」 / h1「売上」（不一致） | 本文 `TODO` |"
+    },
+    {
+      "line": 98,
+      "url": "/admin/analytics/reports",
+      "text": "| レポート | `/admin/analytics/reports` | レポート / レポート | 本文 `TODO` |"
+    },
+    {
+      "line": 108,
+      "url": "/admin/sale_change_line_items",
+      "text": "2. サブメニューの「売上実績」を選択する（`/admin/sale_change_line_items` に遷移）。"
+    },
+    {
+      "line": 115,
+      "url": "/admin/sale_change_line_items",
+      "text": "1. 「会計 > 売上実績」（`/admin/sale_change_line_items`）を開く。"
+    },
+    {
+      "line": 118,
+      "url": "/admin/csv_export/csv_export_operation_sale_changes",
+      "text": "- 注文軸: `/admin/csv_export/csv_export_operation_sale_changes`（注文全体の売上を見る・店舗別/日次集計向き）"
+    },
+    {
+      "line": 119,
+      "url": "/admin/csv_export/csv_export_operation_sale_change_line_items",
+      "text": "- 明細軸: `/admin/csv_export/csv_export_operation_sale_change_line_items`（SKU別・返品/値引きの明細まで見る向き）"
+    },
+    {
+      "line": 132,
+      "url": "/admin/sale_change_line_items/create",
+      "text": "| 仕様（注意） | 「売上実績を作成する」表示はリンクではなく、`/admin/sale_change_line_items/create` に直接アクセスしても「このページは存在しないようです」になる | 実機確認（2026-06-27） |"
+    },
+    {
+      "line": 133,
+      "url": "/admin/analytics",
+      "text": "| 未実装 | 「分析」トップ（`/admin/analytics`）、「収益」（`/admin/analytics/revenue`）、「レポート」（`/admin/analytics/reports`）はいずれも本文が `TODO` で機能未実装 | 実機確認（2026-06-27） |"
+    },
+    {
+      "line": 133,
+      "url": "/admin/analytics/revenue",
+      "text": "| 未実装 | 「分析」トップ（`/admin/analytics`）、「収益」（`/admin/analytics/revenue`）、「レポート」（`/admin/analytics/reports`）はいずれも本文が `TODO` で機能未実装 | 実機確認（2026-06-27） |"
+    },
+    {
+      "line": 133,
+      "url": "/admin/analytics/reports",
+      "text": "| 未実装 | 「分析」トップ（`/admin/analytics`）、「収益」（`/admin/analytics/revenue`）、「レポート」（`/admin/analytics/reports`）はいずれも本文が `TODO` で機能未実装 | 実機確認（2026-06-27） |"
+    },
+    {
+      "line": 143,
+      "url": "/admin/sale_change_line_items",
+      "text": "| 売上実績 一覧画面の表示 | 確定 | `/admin/sale_change_line_items`・空状態の文言 |"
+    },
+    {
+      "line": 147,
+      "url": "/admin/analytics",
+      "text": "| 分析（トップ）が TODO 表示 | 確定 | `/admin/analytics` |"
+    },
+    {
+      "line": 148,
+      "url": "/admin/analytics/revenue",
+      "text": "| 収益画面が TODO 表示 | 確定 | `/admin/analytics/revenue`・ナビとh1の不一致も確認 |"
+    },
+    {
+      "line": 149,
+      "url": "/admin/analytics/reports",
+      "text": "| レポート画面が TODO 表示 | 確定 | `/admin/analytics/reports` |"
+    },
+    {
+      "line": 157,
+      "url": "/admin/analytics",
+      "text": "- [ ] 「分析」トップ（`/admin/analytics`）の実機能"
+    },
+    {
+      "line": 158,
+      "url": "/admin/analytics/revenue",
+      "text": "- [ ] 「収益」（`/admin/analytics/revenue`）の実機能（売上集計・グラフ等）"
+    },
+    {
+      "line": 159,
+      "url": "/admin/analytics/reports",
+      "text": "- [ ] 「レポート」（`/admin/analytics/reports`）の実機能"
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "generatedAt": "2026-06-28T00:41:26.390057+00:00",
+  "testCustomer": {
+    "externalID": "FAQ_E2E_CUSTOMER_20260628094055",
+    "email": "sq-faq-customer-20260628094055@example.invalid",
+    "tenantID": "f6262fd1-2406-5716-9cb5-cad1137b403c_Tenant",
+    "tag": "FAQ_E2E_20260628"
+  },
+  "steps": [
+    {
+      "label": "before-create-list",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "h1": [
+        "顧客管理"
+      ],
+      "h2": [],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 顧客管理。このページの準備が整いました 顧客管理 インポート すべて すべてのアイテムを選択する 顧客名 テナント ステータス メール購読 アイテムを選択する 検証顧客094055FAQ TEST_FAQ_20260624_TENANT_170037 成功 アクティブ 未登録",
+      "tableHeaders": [
+        "すべてのアイテムを選択する",
+        "顧客名",
+        "テナント",
+        "ステータス",
+        "メール購読"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 顧客名 テナント ステータス メール購読",
+        "アイテムを選択する 検証顧客094055FAQ TEST_FAQ_20260624_TENANT_170037 成功 アクティブ 未登録"
+      ],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "インポート",
+        "すべて",
+        "その他のビュー"
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": null,
+          "value": "on",
+          "disabled": false,
+          "ariaLabel": null
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": null,
+          "value": "on",
+          "disabled": false,
+          "ariaLabel": null
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": null,
+          "value": "on",
+          "disabled": false,
+          "ariaLabel": null
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": null,
+          "value": "on",
+          "disabled": false,
+          "ariaLabel": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "会社",
+          "href": "/admin/companies"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "検証顧客094055FAQ",
+          "href": "/admin/purchasing_customers/83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer"
+        }
+      ]
+    },
+    {
+      "label": "after-create-list",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "h1": [
+        "顧客管理"
+      ],
+      "h2": [],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 顧客管理。このページの準備が整いました 顧客管理 インポート すべて すべてのアイテムを選択する 顧客名 テナント ステータス メール購読 アイテムを選択する 検証顧客094055FAQ TEST_FAQ_20260624_TENANT_170037 成功 アクティブ 未登録",
+      "tableHeaders": [
+        "すべてのアイテムを選択する",
+        "顧客名",
+        "テナント",
+        "ステータス",
+        "メール購読"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 顧客名 テナント ステータス メール購読",
+        "アイテムを選択する 検証顧客094055FAQ TEST_FAQ_20260624_TENANT_170037 成功 アクティブ 未登録"
+      ],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "インポート",
+        "すべて",
+        "その他のビュー"
+      ],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": null,
+          "value": "on",
+          "disabled": false,
+          "ariaLabel": null
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": null,
+          "value": "on",
+          "disabled": false,
+          "ariaLabel": null
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": null,
+          "value": "on",
+          "disabled": false,
+          "ariaLabel": null
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": null,
+          "value": "on",
+          "disabled": false,
+          "ariaLabel": null
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "会社",
+          "href": "/admin/companies"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "検証顧客094055FAQ",
+          "href": "/admin/purchasing_customers/83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer"
+        }
+      ]
+    },
+    {
+      "label": "customer-detail-direct",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers/83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer",
+      "h1": [
+        "検証顧客094055FAQ"
+      ],
+      "h2": [
+        "直近の注文",
+        "ポイント",
+        "マイル",
+        "ディスカウント",
+        "メタフィールド",
+        "会員番号",
+        "顧客情報",
+        "メールアドレス",
+        "電話番号",
+        "SMS認証",
+        "外部ID",
+        "作成日時",
+        "更新日時",
+        "購買サマリー",
+        "初回購入日",
+        "初回購入場所(店舗コード)",
+        "最終購入日",
+        "最終購入場所(店舗コード)",
+        "メモ",
+        "タグ"
+      ],
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 検証顧客094055FAQ。このページの準備が整いました 検証顧客094055FAQ すべての注文を表示 その他の操作 直近の注文 このお客様はまだ注文していません ポイント 保有ポイント 0 ポイント 付与予定 0 ポイント ポイントを加算 ポイントを減算 ポイント履歴はありません すべての履歴を表示 マイル 保有マイル 0 マイル 累計獲得 0 マイル マイルを加算 マイルを減算 マイル履歴はありません すべての履歴を表示 ディスカウント ディスカウントはありません すべてのディスカウントを表示 メタフィールド 性別 未設定 会員番号 FAQBAR0628094055 顧客情報 氏名 検証顧客094055FAQ メールアドレス sq-faq-customer-20260628094055@example.invalid 電話番号 0000000000 SMS認証 未完了 未認証 外部ID FAQ_E2E_CUSTOMER_20260628094055 作成日時 2026年06月28日 09:41 更新日時 2026年06月28日 09:41 購買サマリー 初回購入日 - 初回購入場所(店舗コード) - 最終購入日 - 最終購入場所(店舗コード) - メモ この顧客にはメモがありません。 タグ FAQ_E2E_20260628",
+      "tableHeaders": [],
+      "rows": [],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "その他の操作",
+        "ポイントを加算",
+        "ポイントを減算",
+        "マイルを加算",
+        "マイルを減算",
+        "sq-faq-customer-20260628094055@example.invalid"
+      ],
+      "inputs": [],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "会社",
+          "href": "/admin/companies"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "すべての履歴を表示",
+          "href": "/admin/purchasing_customers/83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer/point_change_activities"
+        },
+        {
+          "text": "すべての履歴を表示",
+          "href": "/admin/purchasing_customers/83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer/miles_change_activities"
+        },
+        {
+          "text": "すべてのディスカウントを表示",
+          "href": "/admin/purchasing_customers/83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer/order_price_adjustment_rules"
+        }
+      ]
+    }
+  ],
+  "facts": {
+    "customerID": "83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer",
+    "customerEmail": "sq-faq-customer-20260628094055@example.invalid",
+    "customerFullName": "検証顧客094055FAQ",
+    "createdByInternalGraphql": true,
+    "listShowsCustomerEmail": false,
+    "listShowsCustomerName": true,
+    "searchPanelOpened": false,
+    "detailUrl": "/admin/purchasing_customers/83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer",
+    "detailShowsEmail": true,
+    "detailShowsPointLabels": true,
+    "detailShowsOrderLabels": true,
+    "detailShowsRankLabels": true
+  },
+  "errors": [],
+  "existingLookup": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "purchasingCustomerByExternalID": {
+          "id": "83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer",
+          "externalID": "FAQ_E2E_CUSTOMER_20260628094055",
+          "firstName": "FAQ",
+          "lastName": "検証顧客094055",
+          "fullName": "検証顧客094055FAQ",
+          "email": "sq-faq-customer-20260628094055@example.invalid",
+          "phone": "0000000000",
+          "barcode": "FAQBAR0628094055",
+          "tags": [
+            "FAQ_E2E_20260628"
+          ],
+          "orderCount": 0,
+          "pointsApproved": 0,
+          "pointsPending": 0,
+          "tenant": {
+            "id": "f6262fd1-2406-5716-9cb5-cad1137b403c_Tenant",
+            "name": "TEST_FAQ_20260624_TENANT_170037"
+          }
+        }
+      }
+    },
+    "textSample": "{\"data\":{\"purchasingCustomerByExternalID\":{\"id\":\"83e62e4e-2e9c-57bd-bee1-db9b794d8e88_PurchasingCustomer\",\"externalID\":\"FAQ_E2E_CUSTOMER_20260628094055\",\"firstName\":\"FAQ\",\"lastName\":\"検証顧客094055\",\"fullName\":\"検証顧客094055FAQ\",\"email\":\"sq-faq-customer-20260628094055@example.invalid\",\"phone\":\"0000000000\",\"barcode\":\"FAQBAR0628094055\",\"tags\":[\"FAQ_E2E_20260628\"],\"orderCount\":0,\"pointsApproved\":0,\"pointsPending\":0,\"tenant\":{\"id\":\"f6262fd1-2406-5716-9cb5-cad1137b403c_Tenant\",\"name\":\"TEST_FAQ_20260624_TENANT_170037\"}}}}"
+  },
+  "createResult": {
+    "skipped": true,
+    "reason": "existing purchasing customer found by externalID"
+  }
+}

@@ -1,0 +1,712 @@
+- generic [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+              - list [ref=e69]:
+                - listitem [ref=e70]:
+                  - link "移動伝票" [ref=e73] [cursor=pointer]:
+                    - /url: /admin/inventory_movement_orders
+                    - generic [ref=e74]: 移動伝票
+                - listitem [ref=e75]:
+                  - link "調整伝票" [ref=e78] [cursor=pointer]:
+                    - /url: /admin/inventory_adjustment_orders
+                    - generic [ref=e79]: 調整伝票
+                - listitem [ref=e80]:
+                  - link "取置伝票" [ref=e83] [cursor=pointer]:
+                    - /url: /admin/inventory_reservation_orders
+                    - generic [ref=e84]: 取置伝票
+            - listitem [ref=e85]:
+              - link "注文管理" [ref=e88] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e91]
+                - generic [ref=e93]: 注文管理
+            - listitem [ref=e94]:
+              - link "顧客管理" [ref=e97] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100]
+                - generic [ref=e103]: 顧客管理
+            - listitem [ref=e104]:
+              - link "発注管理" [ref=e107] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110]
+                - generic [ref=e113]: 発注管理
+            - listitem [ref=e114]:
+              - link "販売設定" [ref=e117] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120]
+                - generic [ref=e125]: 販売設定
+            - listitem [ref=e126]:
+              - link "会計" [ref=e129] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132]
+                - generic [ref=e134]: 会計
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e139]: オペレーション
+            - listitem [ref=e140]:
+              - link "入荷管理" [ref=e143] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146]
+                - generic [ref=e150]: 入荷管理
+            - listitem [ref=e151]:
+              - link "出荷管理" [ref=e154] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e157]
+                - generic [ref=e159]: 出荷管理
+            - listitem [ref=e160]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e163] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e166]
+                - generic [ref=e169]: 在庫依頼
+                - generic [ref=e171]:
+                  - generic [ref=e172]: 未完了の在庫依頼 3件
+                  - generic [ref=e173]: "3"
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: CRM
+            - listitem [ref=e177]:
+              - link "ディスカウント" [ref=e180] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e183]
+                - generic [ref=e185]: ディスカウント
+            - listitem [ref=e186]:
+              - link "ポイント" [ref=e189] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e192]
+                - generic [ref=e194]: ポイント
+            - listitem [ref=e195]:
+              - link "会員ランク" [ref=e198] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e201]
+                - generic [ref=e204]: 会員ランク
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - generic [ref=e207]: 販売チャネル
+            - listitem [ref=e208]:
+              - link "Shopify" [ref=e211] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e212]: Shopify
+            - listitem [ref=e213]:
+              - link "OmnibusCore" [ref=e216] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e217]: OmnibusCore
+            - listitem [ref=e218]:
+              - link "スマレジ" [ref=e221] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e222]: スマレジ
+            - listitem [ref=e223]:
+              - link "リテールポータル" [ref=e226] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e227]: リテールポータル
+            - listitem [ref=e228]:
+              - generic [ref=e229]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e230]:
+            - listitem [ref=e231]:
+              - link "設定" [ref=e234] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e237]
+                - generic [ref=e239]: 設定
+    - main [ref=e240]:
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - status:
+            - paragraph [ref=e245]: "在庫管理 : 。このページの準備が整いました"
+          - generic [ref=e247]:
+            - generic [ref=e249]:
+              - heading "在庫管理 :" [level=1] [ref=e250]
+              - button "ユニクロ物流倉庫" [ref=e252] [cursor=pointer]:
+                - generic [ref=e253]: ユニクロ物流倉庫
+                - img [ref=e256]
+            - generic [ref=e261]:
+              - link "インポート" [ref=e263] [cursor=pointer]:
+                - /url: /admin/csv_import/csv_import_operation_inventory_logical_available_quantities
+                - img [ref=e266]
+                - generic [ref=e269]: インポート
+              - link "エクスポート" [ref=e271] [cursor=pointer]:
+                - /url: /admin/csv_export/csv_export_operation_inventory_logical_quantities
+                - img [ref=e274]
+                - generic [ref=e277]: エクスポート
+        - generic [ref=e282]:
+          - generic [ref=e288]:
+            - tablist [ref=e295]:
+              - tab "すべて" [selected] [ref=e296] [cursor=pointer]:
+                - generic [ref=e298]: すべて
+            - button "検索と絞り込みの結果" [ref=e302] [cursor=pointer]:
+              - generic [ref=e304]:
+                - img [ref=e306]
+                - img [ref=e309]
+          - generic [ref=e314]:
+            - table [ref=e316]:
+              - rowgroup [ref=e317]:
+                - row "すべてのアイテムを選択する 商品 品番(SKU) 販売可能 引当済み 取置中 手持ち" [ref=e318]:
+                  - columnheader "すべてのアイテムを選択する" [ref=e319]:
+                    - generic [ref=e321] [cursor=pointer]
+                  - columnheader "商品" [ref=e327]:
+                    - generic [ref=e328]: 商品
+                  - columnheader "品番(SKU)" [ref=e329]:
+                    - generic [ref=e330]: 品番(SKU)
+                  - columnheader [ref=e331]
+                  - columnheader "販売可能" [ref=e332]:
+                    - generic [ref=e333]: 販売可能
+                  - columnheader "引当済み" [ref=e334]:
+                    - generic [ref=e335]: 引当済み
+                  - columnheader "取置中" [ref=e336]:
+                    - generic [ref=e337]: 取置中
+                  - columnheader "手持ち" [ref=e338]:
+                    - generic [ref=e339]: 手持ち
+              - rowgroup [ref=e340]:
+                - row "アイテムを選択する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M 0 0 0 0" [ref=e341] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e342]:
+                    - generic [ref=e344]
+                  - cell "product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M" [ref=e350]:
+                    - generic [ref=e351]
+                  - cell "TEST_E2E_20260622_GU_1905_NAVY_M" [ref=e362]:
+                    - paragraph [ref=e363]: TEST_E2E_20260622_GU_1905_NAVY_M
+                  - cell [ref=e364]
+                  - cell "0" [ref=e365]:
+                    - paragraph [ref=e366]: "0"
+                  - cell "0" [ref=e367]:
+                    - paragraph [ref=e368]: "0"
+                  - cell "0" [ref=e369]:
+                    - paragraph [ref=e370]: "0"
+                  - cell "0" [ref=e371]:
+                    - paragraph [ref=e372]: "0"
+                - row "アイテムを選択する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1845 NAVY / M TEST_E2E_20260622_GU_1845_NAVY_M 0 0 0 0" [ref=e373] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e374]:
+                    - generic [ref=e376]
+                  - cell "product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1845 NAVY / M" [ref=e382]:
+                    - generic [ref=e383]
+                  - cell "TEST_E2E_20260622_GU_1845_NAVY_M" [ref=e394]:
+                    - paragraph [ref=e395]: TEST_E2E_20260622_GU_1845_NAVY_M
+                  - cell [ref=e396]
+                  - cell "0" [ref=e397]:
+                    - paragraph [ref=e398]: "0"
+                  - cell "0" [ref=e399]:
+                    - paragraph [ref=e400]: "0"
+                  - cell "0" [ref=e401]:
+                    - paragraph [ref=e402]: "0"
+                  - cell "0" [ref=e403]:
+                    - paragraph [ref=e404]: "0"
+                - row "アイテムを選択する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 NAVY / M TEST_E2E_20260622_GU_1830_NAVY_M 0 0 0 0" [ref=e405] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e406]:
+                    - generic [ref=e408]
+                  - cell "product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 NAVY / M" [ref=e414]:
+                    - generic [ref=e415]
+                  - cell "TEST_E2E_20260622_GU_1830_NAVY_M" [ref=e426]:
+                    - paragraph [ref=e427]: TEST_E2E_20260622_GU_1830_NAVY_M
+                  - cell [ref=e428]
+                  - cell "0" [ref=e429]:
+                    - paragraph [ref=e430]: "0"
+                  - cell "0" [ref=e431]:
+                    - paragraph [ref=e432]: "0"
+                  - cell "0" [ref=e433]:
+                    - paragraph [ref=e434]: "0"
+                  - cell "0" [ref=e435]:
+                    - paragraph [ref=e436]: "0"
+                - row "アイテムを選択する product variant thumbnail 半袖シャツ M / グレー 21 0 0 0 0" [ref=e437] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e438]:
+                    - generic [ref=e440]
+                  - cell "product variant thumbnail 半袖シャツ M / グレー" [ref=e446]:
+                    - generic [ref=e447]
+                  - cell "21" [ref=e458]:
+                    - paragraph [ref=e459]: "21"
+                  - cell [ref=e460]
+                  - cell "0" [ref=e461]:
+                    - paragraph [ref=e462]: "0"
+                  - cell "0" [ref=e463]:
+                    - paragraph [ref=e464]: "0"
+                  - cell "0" [ref=e465]:
+                    - paragraph [ref=e466]: "0"
+                  - cell "0" [ref=e467]:
+                    - paragraph [ref=e468]: "0"
+                - row "アイテムを選択する product variant thumbnail 半袖シャツ S / グレー 124 0 0 0 0" [ref=e469] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e470]:
+                    - generic [ref=e472]
+                  - cell "product variant thumbnail 半袖シャツ S / グレー" [ref=e478]:
+                    - generic [ref=e479]
+                  - cell "124" [ref=e490]:
+                    - paragraph [ref=e491]: "124"
+                  - cell [ref=e492]
+                  - cell "0" [ref=e493]:
+                    - paragraph [ref=e494]: "0"
+                  - cell "0" [ref=e495]:
+                    - paragraph [ref=e496]: "0"
+                  - cell "0" [ref=e497]:
+                    - paragraph [ref=e498]: "0"
+                  - cell "0" [ref=e499]:
+                    - paragraph [ref=e500]: "0"
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ BLUE / 36 487973-64-36 97 0 0 97" [ref=e501] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e502]:
+                    - generic [ref=e504]
+                  - cell "product thumbnail バギーカーブジーンズ BLUE / 36" [ref=e510]:
+                    - generic [ref=e511]
+                  - cell "487973-64-36" [ref=e518]:
+                    - paragraph [ref=e519]: 487973-64-36
+                  - cell [ref=e520]
+                  - cell "97" [ref=e521]:
+                    - paragraph [ref=e522]: "97"
+                  - cell "0" [ref=e523]:
+                    - paragraph [ref=e524]: "0"
+                  - cell "0" [ref=e525]:
+                    - paragraph [ref=e526]: "0"
+                  - cell "97" [ref=e527]:
+                    - paragraph [ref=e528]: "97"
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ GREEN / XL 486102-52-XL 0 0 0 0" [ref=e529] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e530]:
+                    - generic [ref=e532]
+                  - cell "product thumbnail エアリズムコットンクルーネックTシャツ GREEN / XL" [ref=e538]:
+                    - generic [ref=e539]
+                  - cell "486102-52-XL" [ref=e546]:
+                    - paragraph [ref=e547]: 486102-52-XL
+                  - cell [ref=e548]
+                  - cell "0" [ref=e549]:
+                    - paragraph [ref=e550]: "0"
+                  - cell "0" [ref=e551]:
+                    - paragraph [ref=e552]: "0"
+                  - cell "0" [ref=e553]:
+                    - paragraph [ref=e554]: "0"
+                  - cell "0" [ref=e555]:
+                    - paragraph [ref=e556]: "0"
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ BLACK / XL 486125-09-XL 6 0 0 6" [ref=e557] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e558]:
+                    - generic [ref=e560]
+                  - cell "product thumbnail オーバーサイズスウェットシャツ BLACK / XL" [ref=e566]:
+                    - generic [ref=e567]
+                  - cell "486125-09-XL" [ref=e574]:
+                    - paragraph [ref=e575]: 486125-09-XL
+                  - cell [ref=e576]
+                  - cell "6" [ref=e577]:
+                    - paragraph [ref=e578]: "6"
+                  - cell "0" [ref=e579]:
+                    - paragraph [ref=e580]: "0"
+                  - cell "0" [ref=e581]:
+                    - paragraph [ref=e582]: "0"
+                  - cell "6" [ref=e583]:
+                    - paragraph [ref=e584]: "6"
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ WHITE / L 486102-00-L 0 0 0 0" [ref=e585] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e586]:
+                    - generic [ref=e588]
+                  - cell "product thumbnail エアリズムコットンクルーネックTシャツ WHITE / L" [ref=e594]:
+                    - generic [ref=e595]
+                  - cell "486102-00-L" [ref=e602]:
+                    - paragraph [ref=e603]: 486102-00-L
+                  - cell [ref=e604]
+                  - cell "0" [ref=e605]:
+                    - paragraph [ref=e606]: "0"
+                  - cell "0" [ref=e607]:
+                    - paragraph [ref=e608]: "0"
+                  - cell "0" [ref=e609]:
+                    - paragraph [ref=e610]: "0"
+                  - cell "0" [ref=e611]:
+                    - paragraph [ref=e612]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンT LIGHT GRAY / L 483457-02-L 0 0 0 0" [ref=e613] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e614]:
+                    - generic [ref=e616]
+                  - cell "product thumbnail エアリズムコットンT LIGHT GRAY / L" [ref=e622]:
+                    - generic [ref=e623]
+                  - cell "483457-02-L" [ref=e630]:
+                    - paragraph [ref=e631]: 483457-02-L
+                  - cell [ref=e632]
+                  - cell "0" [ref=e633]:
+                    - paragraph [ref=e634]: "0"
+                  - cell "0" [ref=e635]:
+                    - paragraph [ref=e636]: "0"
+                  - cell "0" [ref=e637]:
+                    - paragraph [ref=e638]: "0"
+                  - cell "0" [ref=e639]:
+                    - paragraph [ref=e640]: "0"
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ BLACK / L 486125-09-L 0 0 0 0" [ref=e641] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e642]:
+                    - generic [ref=e644]
+                  - cell "product thumbnail オーバーサイズスウェットシャツ BLACK / L" [ref=e650]:
+                    - generic [ref=e651]
+                  - cell "486125-09-L" [ref=e658]:
+                    - paragraph [ref=e659]: 486125-09-L
+                  - cell [ref=e660]
+                  - cell "0" [ref=e661]:
+                    - paragraph [ref=e662]: "0"
+                  - cell "0" [ref=e663]:
+                    - paragraph [ref=e664]: "0"
+                  - cell "0" [ref=e665]:
+                    - paragraph [ref=e666]: "0"
+                  - cell "0" [ref=e667]:
+                    - paragraph [ref=e668]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンT WHITE / S 483457-00-S 0 0 0 0" [ref=e669] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e670]:
+                    - generic [ref=e672]
+                  - cell "product thumbnail エアリズムコットンT WHITE / S" [ref=e678]:
+                    - generic [ref=e679]
+                  - cell "483457-00-S" [ref=e686]:
+                    - paragraph [ref=e687]: 483457-00-S
+                  - cell [ref=e688]
+                  - cell "0" [ref=e689]:
+                    - paragraph [ref=e690]: "0"
+                  - cell "0" [ref=e691]:
+                    - paragraph [ref=e692]: "0"
+                  - cell "0" [ref=e693]:
+                    - paragraph [ref=e694]: "0"
+                  - cell "0" [ref=e695]:
+                    - paragraph [ref=e696]: "0"
+                - row "アイテムを選択する product thumbnail ポケモン UT RED / 100(3-4歳) 483674-15-100 0 0 0 0" [ref=e697] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e698]:
+                    - generic [ref=e700]
+                  - cell "product thumbnail ポケモン UT RED / 100(3-4歳)" [ref=e706]:
+                    - generic [ref=e707]
+                  - cell "483674-15-100" [ref=e714]:
+                    - paragraph [ref=e715]: 483674-15-100
+                  - cell [ref=e716]
+                  - cell "0" [ref=e717]:
+                    - paragraph [ref=e718]: "0"
+                  - cell "0" [ref=e719]:
+                    - paragraph [ref=e720]: "0"
+                  - cell "0" [ref=e721]:
+                    - paragraph [ref=e722]: "0"
+                  - cell "0" [ref=e723]:
+                    - paragraph [ref=e724]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンT WHITE / XL 483457-00-XL 0 0 0 0" [ref=e725] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e726]:
+                    - generic [ref=e728]
+                  - cell "product thumbnail エアリズムコットンT WHITE / XL" [ref=e734]:
+                    - generic [ref=e735]
+                  - cell "483457-00-XL" [ref=e742]:
+                    - paragraph [ref=e743]: 483457-00-XL
+                  - cell [ref=e744]
+                  - cell "0" [ref=e745]:
+                    - paragraph [ref=e746]: "0"
+                  - cell "0" [ref=e747]:
+                    - paragraph [ref=e748]: "0"
+                  - cell "0" [ref=e749]:
+                    - paragraph [ref=e750]: "0"
+                  - cell "0" [ref=e751]:
+                    - paragraph [ref=e752]: "0"
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ GRAY / L 486125-03-L 0 0 0 0" [ref=e753] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e754]:
+                    - generic [ref=e756]
+                  - cell "product thumbnail オーバーサイズスウェットシャツ GRAY / L" [ref=e762]:
+                    - generic [ref=e763]
+                  - cell "486125-03-L" [ref=e770]:
+                    - paragraph [ref=e771]: 486125-03-L
+                  - cell [ref=e772]
+                  - cell "0" [ref=e773]:
+                    - paragraph [ref=e774]: "0"
+                  - cell "0" [ref=e775]:
+                    - paragraph [ref=e776]: "0"
+                  - cell "0" [ref=e777]:
+                    - paragraph [ref=e778]: "0"
+                  - cell "0" [ref=e779]:
+                    - paragraph [ref=e780]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ GREEN / XS 486102-52-XS 0 0 0 0" [ref=e781] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e782]:
+                    - generic [ref=e784]
+                  - cell "product thumbnail エアリズムコットンクルーネックTシャツ GREEN / XS" [ref=e790]:
+                    - generic [ref=e791]
+                  - cell "486102-52-XS" [ref=e798]:
+                    - paragraph [ref=e799]: 486102-52-XS
+                  - cell [ref=e800]
+                  - cell "0" [ref=e801]:
+                    - paragraph [ref=e802]: "0"
+                  - cell "0" [ref=e803]:
+                    - paragraph [ref=e804]: "0"
+                  - cell "0" [ref=e805]:
+                    - paragraph [ref=e806]: "0"
+                  - cell "0" [ref=e807]:
+                    - paragraph [ref=e808]: "0"
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ NAVY / L 486125-69-L 0 0 0 0" [ref=e809] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e810]:
+                    - generic [ref=e812]
+                  - cell "product thumbnail オーバーサイズスウェットシャツ NAVY / L" [ref=e818]:
+                    - generic [ref=e819]
+                  - cell "486125-69-L" [ref=e826]:
+                    - paragraph [ref=e827]: 486125-69-L
+                  - cell [ref=e828]
+                  - cell "0" [ref=e829]:
+                    - paragraph [ref=e830]: "0"
+                  - cell "0" [ref=e831]:
+                    - paragraph [ref=e832]: "0"
+                  - cell "0" [ref=e833]:
+                    - paragraph [ref=e834]: "0"
+                  - cell "0" [ref=e835]:
+                    - paragraph [ref=e836]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンT BLACK / S 483457-09-S 0 0 0 0" [ref=e837] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e838]:
+                    - generic [ref=e840]
+                  - cell "product thumbnail エアリズムコットンT BLACK / S" [ref=e846]:
+                    - generic [ref=e847]
+                  - cell "483457-09-S" [ref=e854]:
+                    - paragraph [ref=e855]: 483457-09-S
+                  - cell [ref=e856]
+                  - cell "0" [ref=e857]:
+                    - paragraph [ref=e858]: "0"
+                  - cell "0" [ref=e859]:
+                    - paragraph [ref=e860]: "0"
+                  - cell "0" [ref=e861]:
+                    - paragraph [ref=e862]: "0"
+                  - cell "0" [ref=e863]:
+                    - paragraph [ref=e864]: "0"
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ BLUE / 28 487973-64-28 0 0 0 0" [ref=e865] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e866]:
+                    - generic [ref=e868]
+                  - cell "product thumbnail バギーカーブジーンズ BLUE / 28" [ref=e874]:
+                    - generic [ref=e875]
+                  - cell "487973-64-28" [ref=e882]:
+                    - paragraph [ref=e883]: 487973-64-28
+                  - cell [ref=e884]
+                  - cell "0" [ref=e885]:
+                    - paragraph [ref=e886]: "0"
+                  - cell "0" [ref=e887]:
+                    - paragraph [ref=e888]: "0"
+                  - cell "0" [ref=e889]:
+                    - paragraph [ref=e890]: "0"
+                  - cell "0" [ref=e891]:
+                    - paragraph [ref=e892]: "0"
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ GRAY / XS 486125-03-XS 0 0 0 0" [ref=e893] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e894]:
+                    - generic [ref=e896]
+                  - cell "product thumbnail オーバーサイズスウェットシャツ GRAY / XS" [ref=e902]:
+                    - generic [ref=e903]
+                  - cell "486125-03-XS" [ref=e910]:
+                    - paragraph [ref=e911]: 486125-03-XS
+                  - cell [ref=e912]
+                  - cell "0" [ref=e913]:
+                    - paragraph [ref=e914]: "0"
+                  - cell "0" [ref=e915]:
+                    - paragraph [ref=e916]: "0"
+                  - cell "0" [ref=e917]:
+                    - paragraph [ref=e918]: "0"
+                  - cell "0" [ref=e919]:
+                    - paragraph [ref=e920]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / L 486102-08-L 0 0 0 0" [ref=e921] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e922]:
+                    - generic [ref=e924]
+                  - cell "product thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / L" [ref=e930]:
+                    - generic [ref=e931]
+                  - cell "486102-08-L" [ref=e938]:
+                    - paragraph [ref=e939]: 486102-08-L
+                  - cell [ref=e940]
+                  - cell "0" [ref=e941]:
+                    - paragraph [ref=e942]: "0"
+                  - cell "0" [ref=e943]:
+                    - paragraph [ref=e944]: "0"
+                  - cell "0" [ref=e945]:
+                    - paragraph [ref=e946]: "0"
+                  - cell "0" [ref=e947]:
+                    - paragraph [ref=e948]: "0"
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ NAVY / XL 486125-69-XL 0 0 0 0" [ref=e949] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e950]:
+                    - generic [ref=e952]
+                  - cell "product thumbnail オーバーサイズスウェットシャツ NAVY / XL" [ref=e958]:
+                    - generic [ref=e959]
+                  - cell "486125-69-XL" [ref=e966]:
+                    - paragraph [ref=e967]: 486125-69-XL
+                  - cell [ref=e968]
+                  - cell "0" [ref=e969]:
+                    - paragraph [ref=e970]: "0"
+                  - cell "0" [ref=e971]:
+                    - paragraph [ref=e972]: "0"
+                  - cell "0" [ref=e973]:
+                    - paragraph [ref=e974]: "0"
+                  - cell "0" [ref=e975]:
+                    - paragraph [ref=e976]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ BLACK / L 486102-09-L 0 0 0 0" [ref=e977] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e978]:
+                    - generic [ref=e980]
+                  - cell "product thumbnail エアリズムコットンクルーネックTシャツ BLACK / L" [ref=e986]:
+                    - generic [ref=e987]
+                  - cell "486102-09-L" [ref=e994]:
+                    - paragraph [ref=e995]: 486102-09-L
+                  - cell [ref=e996]
+                  - cell "0" [ref=e997]:
+                    - paragraph [ref=e998]: "0"
+                  - cell "0" [ref=e999]:
+                    - paragraph [ref=e1000]: "0"
+                  - cell "0" [ref=e1001]:
+                    - paragraph [ref=e1002]: "0"
+                  - cell "0" [ref=e1003]:
+                    - paragraph [ref=e1004]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / L 486102-70-L 0 0 0 0" [ref=e1005] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e1006]:
+                    - generic [ref=e1008]
+                  - cell "product thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / L" [ref=e1014]:
+                    - generic [ref=e1015]
+                  - cell "486102-70-L" [ref=e1022]:
+                    - paragraph [ref=e1023]: 486102-70-L
+                  - cell [ref=e1024]
+                  - cell "0" [ref=e1025]:
+                    - paragraph [ref=e1026]: "0"
+                  - cell "0" [ref=e1027]:
+                    - paragraph [ref=e1028]: "0"
+                  - cell "0" [ref=e1029]:
+                    - paragraph [ref=e1030]: "0"
+                  - cell "0" [ref=e1031]:
+                    - paragraph [ref=e1032]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンT PINK / L 483457-10-L 85 0 0 85" [ref=e1033] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e1034]:
+                    - generic [ref=e1036]
+                  - cell "product thumbnail エアリズムコットンT PINK / L" [ref=e1042]:
+                    - generic [ref=e1043]
+                  - cell "483457-10-L" [ref=e1050]:
+                    - paragraph [ref=e1051]: 483457-10-L
+                  - cell [ref=e1052]
+                  - cell "85" [ref=e1053]:
+                    - paragraph [ref=e1054]: "85"
+                  - cell "0" [ref=e1055]:
+                    - paragraph [ref=e1056]: "0"
+                  - cell "0" [ref=e1057]:
+                    - paragraph [ref=e1058]: "0"
+                  - cell "85" [ref=e1059]:
+                    - paragraph [ref=e1060]: "85"
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ BLUE / 24 487973-64-24 0 0 0 0" [ref=e1061] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e1062]:
+                    - generic [ref=e1064]
+                  - cell "product thumbnail バギーカーブジーンズ BLUE / 24" [ref=e1070]:
+                    - generic [ref=e1071]
+                  - cell "487973-64-24" [ref=e1078]:
+                    - paragraph [ref=e1079]: 487973-64-24
+                  - cell [ref=e1080]
+                  - cell "0" [ref=e1081]:
+                    - paragraph [ref=e1082]: "0"
+                  - cell "0" [ref=e1083]:
+                    - paragraph [ref=e1084]: "0"
+                  - cell "0" [ref=e1085]:
+                    - paragraph [ref=e1086]: "0"
+                  - cell "0" [ref=e1087]:
+                    - paragraph [ref=e1088]: "0"
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ NAVY / XS 486125-69-XS 0 0 0 0" [ref=e1089] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e1090]:
+                    - generic [ref=e1092]
+                  - cell "product thumbnail オーバーサイズスウェットシャツ NAVY / XS" [ref=e1098]:
+                    - generic [ref=e1099]
+                  - cell "486125-69-XS" [ref=e1106]:
+                    - paragraph [ref=e1107]: 486125-69-XS
+                  - cell [ref=e1108]
+                  - cell "0" [ref=e1109]:
+                    - paragraph [ref=e1110]: "0"
+                  - cell "0" [ref=e1111]:
+                    - paragraph [ref=e1112]: "0"
+                  - cell "0" [ref=e1113]:
+                    - paragraph [ref=e1114]: "0"
+                  - cell "0" [ref=e1115]:
+                    - paragraph [ref=e1116]: "0"
+                - row "アイテムを選択する product thumbnail ポケモン UT RED / 110(4-5歳) 483674-15-110 0 0 0 0" [ref=e1117] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e1118]:
+                    - generic [ref=e1120]
+                  - cell "product thumbnail ポケモン UT RED / 110(4-5歳)" [ref=e1126]:
+                    - generic [ref=e1127]
+                  - cell "483674-15-110" [ref=e1134]:
+                    - paragraph [ref=e1135]: 483674-15-110
+                  - cell [ref=e1136]
+                  - cell "0" [ref=e1137]:
+                    - paragraph [ref=e1138]: "0"
+                  - cell "0" [ref=e1139]:
+                    - paragraph [ref=e1140]: "0"
+                  - cell "0" [ref=e1141]:
+                    - paragraph [ref=e1142]: "0"
+                  - cell "0" [ref=e1143]:
+                    - paragraph [ref=e1144]: "0"
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / XS 486102-08-XS 0 0 0 0" [ref=e1145] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e1146]:
+                    - generic [ref=e1148]
+                  - cell "product thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / XS" [ref=e1154]:
+                    - generic [ref=e1155]
+                  - cell "486102-08-XS" [ref=e1162]:
+                    - paragraph [ref=e1163]: 486102-08-XS
+                  - cell [ref=e1164]
+                  - cell "0" [ref=e1165]:
+                    - paragraph [ref=e1166]: "0"
+                  - cell "0" [ref=e1167]:
+                    - paragraph [ref=e1168]: "0"
+                  - cell "0" [ref=e1169]:
+                    - paragraph [ref=e1170]: "0"
+                  - cell "0" [ref=e1171]:
+                    - paragraph [ref=e1172]: "0"
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ BLUE / 25 487973-64-25 0 0 0 0" [ref=e1173] [cursor=pointer]:
+                  - cell "アイテムを選択する" [ref=e1174]:
+                    - generic [ref=e1176]
+                  - cell "product thumbnail バギーカーブジーンズ BLUE / 25" [ref=e1182]:
+                    - generic [ref=e1183]
+                  - cell "487973-64-25" [ref=e1190]:
+                    - paragraph [ref=e1191]: 487973-64-25
+                  - cell [ref=e1192]
+                  - cell "0" [ref=e1193]:
+                    - paragraph [ref=e1194]: "0"
+                  - cell "0" [ref=e1195]:
+                    - paragraph [ref=e1196]: "0"
+                  - cell "0" [ref=e1197]:
+                    - paragraph [ref=e1198]: "0"
+                  - cell "0" [ref=e1199]:
+                    - paragraph [ref=e1200]: "0"
+            - navigation "ページネーション" [ref=e1204]:
+              - generic [ref=e1207]:
+                - generic [ref=e1208]:
+                  - button "前へ" [disabled]:
+                    - generic
+                - button "次へ" [ref=e1210] [cursor=pointer]:
+                  - img [ref=e1213]
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "ロケーションを選択する" [active]:
+              - generic [ref=e1215]:
+                - generic [ref=e1217]:
+                  - heading "ロケーションを選択する" [level=2] [ref=e1219]
+                  - button "閉じる" [ref=e1220] [cursor=pointer]:
+                    - img [ref=e1223]
+                - generic [ref=e1225]:
+                  - generic [ref=e1231]:
+                    - tablist [ref=e1238]
+                    - generic [ref=e1248]
+                  - generic [ref=e1271]:
+                    - table [ref=e1273]
+                    - navigation "ページネーション" [ref=e1526]
+                - generic [ref=e1535]:
+                  - button "キャンセル" [ref=e1536] [cursor=pointer]:
+                    - generic [ref=e1537]: キャンセル
+                  - button "選択する" [ref=e1538] [cursor=pointer]:
+                    - generic [ref=e1539]: 選択する
+  - alert [ref=e10]

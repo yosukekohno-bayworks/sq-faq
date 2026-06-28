@@ -1,0 +1,126 @@
+viewport: 1209x785
+page: 1209x835
+scroll: (0, 0)
+[67497]<a />
+	コンテンツにスキップ
+[67637]<div />
+[67500]<button data-state=closed expanded=false />
+[67501]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[67654]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[67505]<a />
+		ホーム
+	[67506]<a />
+		商品管理
+	[67507]<a />
+		在庫管理
+	[67508]<a />
+		注文管理
+		[67705]<div />
+	[67509]<a />
+		顧客管理
+	[67510]<a />
+		発注管理
+	[67511]<a />
+		販売設定
+	[67512]<a />
+		会計
+	[67513]<a />
+		分析
+	オペレーション
+	[67514]<a />
+		入荷管理
+		[67789]<div />
+	[67515]<a />
+		出荷管理
+		[67800]<div />
+	[67516]<a />
+		在庫依頼
+		[67812]<div />
+	CRM
+	[67517]<a />
+		ディスカウント
+	[67518]<a />
+		ポイント
+	[67519]<a />
+		会員ランク
+	販売チャネル
+	[67520]<a />
+		Shopify
+	[67521]<a />
+		OmnibusCore
+	[67522]<a />
+		スマレジ
+	[67523]<a />
+		リテールポータル
+	[67524]<a />
+		店舗受取
+	[67477]<a />
+		卸売
+	[67525]<a />
+		設定
+リテールポータル。このページの準備が整いました
+[67917]<div />
+	[67918]<div />
+		[67527]<a />
+リテールポータル
+店舗ロケーション
+|SHADOW(open)|[67484]<input id=:r1d: placeholder=選択してください autocomplete=off type=text required=true />
+[67529]<button />
+	選択
+在庫ロケーション
+|SHADOW(open)|[67485]<input id=:r1e: placeholder=選択してください autocomplete=off type=text required=true />
+[67531]<button />
+	選択
+テナント
+選択してください
+[67985]<span />
+	[67986]<span />
+		[67987]<svg /> <!-- SVG content collapsed -->
+カタログ
+選択してください
+[68009]<span />
+	[68010]<span />
+		[68011]<svg /> <!-- SVG content collapsed -->
+販売閾値ルール
+選択してください
+[68036]<span />
+	[68037]<span />
+		[68038]<svg /> <!-- SVG content collapsed -->
+[68044]<span />
+	[67532]<span />
+	[68047]<svg /> <!-- SVG content collapsed -->
+[68049]<span />
+	[68050]<span />
+		リテールポータルで販売員の選択を必須にする
+[68054]<span />
+	[67533]<span />
+	[68057]<svg /> <!-- SVG content collapsed -->
+[68059]<span />
+	[68060]<span />
+		配送先住所の編集を許可する
+[68064]<span />
+	[67534]<span />
+	[68067]<svg /> <!-- SVG content collapsed -->
+[68069]<span />
+	[68070]<span />
+		下書き注文の送料明細の編集を許可する
+[68074]<span />
+	[67535]<span />
+	[68077]<svg /> <!-- SVG content collapsed -->
+[68079]<span />
+	[68080]<span />
+		下書き注文の注文明細の価格の編集を許可する
+[68084]<span />
+	[67536]<span />
+	[68087]<svg /> <!-- SVG content collapsed -->
+[68089]<span />
+	[68090]<span />
+		下書き注文の完了を許可する
+[67483]<button />
+	保存する
+[68098]<section aria-label=Notifications alt+T live=polite />
+[67537]<div id=PolarisPortalsContainer />
+[67539]<div id=clerk-components />

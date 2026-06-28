@@ -1,0 +1,137 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[103186]<a />
+	コンテンツにスキップ
+[103327]<div />
+[103189]<button data-state=closed expanded=false />
+[103190]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[103344]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[103194]<a />
+		ホーム
+	[103195]<a />
+		商品管理
+	[103196]<a />
+		在庫管理
+	[103197]<a />
+		注文管理
+		[103395]<div />
+	[103198]<a />
+		顧客管理
+	[103199]<a />
+		発注管理
+	[103200]<a />
+		販売設定
+	[103201]<a />
+		販売価格
+	[103202]<a />
+		予約販売
+	[103203]<a />
+		販売上限
+	[103204]<a />
+		販売閾値
+	[103130]<a />
+		会計
+	[103135]<a />
+		分析
+	オペレーション
+	[103143]<a />
+		入荷管理
+		[103492]<div />
+	[103148]<a />
+		出荷管理
+		[103500]<div />
+	[103153]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[103159]<a />
+		ディスカウント
+	[103164]<a />
+		ポイント
+	[103169]<a />
+		会員ランク
+	販売チャネル
+	[103175]<a />
+		Shopify
+	[103179]<a />
+		OmnibusCore
+	[103205]<a />
+		スマレジ
+	[103206]<a />
+		リテールポータル
+	[103207]<a />
+		卸売
+	[103208]<a />
+		設定
+予約販売。このページの準備が整いました
+予約販売
+[103183]<a />
+	予約販売ルールを作成する
+[103680]<tr />
+	[103681]<th />
+		[103682]<div />
+			[103684]<span />
+				[103217]<span />
+				[103687]<svg /> <!-- SVG content collapsed -->
+			[103689]<span />
+				[103690]<span />
+					すべてのアイテムを選択する
+	[103694]<span />
+		名前
+[103218]<tr id=50c63370-5a46-57fb-b475-dd8a581258ea_InventoryBackOrderRule />
+	[103697]<td />
+		[103219]<div />
+			[103699]<span />
+				[103221]<span />
+				[103702]<svg /> <!-- SVG content collapsed -->
+			[103704]<span />
+				[103705]<span />
+					アイテムを選択する
+	[103707]<td />
+		[103708]<p />
+			TEST_FAQ_予約販売ルール
+[103222]<tr id=fa753a7c-a0bf-5f89-a650-75b79e3224c1_InventoryBackOrderRule />
+	[103710]<td />
+		[103223]<div />
+			[103712]<span />
+				[103225]<span />
+				[103715]<svg /> <!-- SVG content collapsed -->
+			[103717]<span />
+				[103718]<span />
+					アイテムを選択する
+	[103720]<td />
+		[103721]<p />
+			TEST_FAQ_予約販売ルール_遷移確認_20260607
+[103226]<tr id=c885e9d7-ecb2-514e-a1ec-aadb6d57a5cb_InventoryBackOrderRule />
+	[103723]<td />
+		[103227]<div />
+			[103725]<span />
+				[103229]<span />
+				[103728]<svg /> <!-- SVG content collapsed -->
+			[103730]<span />
+				[103731]<span />
+					アイテムを選択する
+	[103733]<td />
+		[103734]<p />
+			TEST_FAQ_DEEP_202606080340_予約販売ルール
+[103230]<tr id=06712f89-dc3f-5c05-8eba-be8025942358_InventoryBackOrderRule />
+	[103736]<td />
+		[103231]<div />
+			[103738]<span />
+				[103233]<span />
+				[103741]<svg /> <!-- SVG content collapsed -->
+			[103743]<span />
+				[103744]<span />
+					アイテムを選択する
+	[103746]<td />
+		[103747]<p />
+			TEST_FAQ_20260624_予約販売_100908
+[103235]<button id=previousURL aria-label=前へ disabled=true />
+[103236]<button id=nextURL aria-label=次へ disabled=true />
+[103766]<section aria-label=Notifications alt+T live=polite />
+[103237]<div id=PolarisPortalsContainer />
+[103239]<div id=clerk-components />

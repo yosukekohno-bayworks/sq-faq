@@ -1,0 +1,246 @@
+- generic [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e436] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e438]:
+                  - generic [ref=e439]: 未完了の在庫依頼 3件
+                  - generic [ref=e440]: "3"
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - generic [ref=e154]: CRM
+            - listitem [ref=e155]:
+              - link "ディスカウント" [ref=e158] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e161]
+                - generic [ref=e163]: ディスカウント
+            - listitem [ref=e164]:
+              - link "ポイント" [ref=e167] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e170]
+                - generic [ref=e172]: ポイント
+            - listitem [ref=e173]:
+              - link "会員ランク" [ref=e176] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e179]
+                - generic [ref=e182]: 会員ランク
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - generic [ref=e185]: 販売チャネル
+            - listitem [ref=e186]:
+              - link "Shopify" [ref=e189] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e190]: Shopify
+            - listitem [ref=e191]:
+              - link "OmnibusCore" [ref=e194] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e195]: OmnibusCore
+            - listitem [ref=e196]:
+              - link "スマレジ" [ref=e199] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e200]: スマレジ
+            - listitem [ref=e201]:
+              - link "リテールポータル" [ref=e204] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e205]: リテールポータル
+            - listitem [ref=e206]:
+              - generic [ref=e207]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "設定" [ref=e212] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e215]
+                - generic [ref=e217]: 設定
+    - main [ref=e218]:
+      - generic [ref=e591]:
+        - generic [ref=e592]:
+          - status:
+            - paragraph [ref=e593]: メタフィールド定義。このページの準備が整いました
+          - generic [ref=e595]:
+            - link [ref=e598] [cursor=pointer]:
+              - /url: /admin/settings
+              - img [ref=e601]
+            - heading "メタフィールド定義" [level=1] [ref=e605]
+        - generic [ref=e609]:
+          - menu [ref=e615]:
+            - menuitem "組織" [ref=e617] [cursor=pointer]:
+              - generic [ref=e619]:
+                - img [ref=e622]
+                - generic [ref=e625]: 組織
+            - menuitem "ロケーション" [ref=e627] [cursor=pointer]:
+              - generic [ref=e629]:
+                - img [ref=e632]
+                - generic [ref=e635]: ロケーション
+            - menuitem "会社" [ref=e637] [cursor=pointer]:
+              - generic [ref=e639]:
+                - img [ref=e642]
+                - generic [ref=e645]: 会社
+            - menuitem "仕入れ先ベンダー" [ref=e647] [cursor=pointer]:
+              - generic [ref=e649]:
+                - img [ref=e652]
+                - generic [ref=e656]: 仕入れ先ベンダー
+            - menuitem "商品" [ref=e658] [cursor=pointer]:
+              - generic [ref=e660]:
+                - img [ref=e663]
+                - generic [ref=e666]: 商品
+            - menuitem "バリエーション" [ref=e668] [cursor=pointer]:
+              - generic [ref=e670]:
+                - img [ref=e673]
+                - generic [ref=e676]: バリエーション
+            - menuitem "顧客" [ref=e678] [cursor=pointer]:
+              - generic [ref=e680]:
+                - img [ref=e683]
+                - generic [ref=e687]: 顧客
+            - menuitem "注文" [ref=e689] [cursor=pointer]:
+              - generic [ref=e691]:
+                - img [ref=e694]
+                - generic [ref=e697]: 注文
+            - menuitem "下書き注文" [ref=e699] [cursor=pointer]:
+              - generic [ref=e701]:
+                - img [ref=e704]
+                - generic [ref=e709]: 下書き注文
+            - menuitem "ディスカウント" [ref=e711] [cursor=pointer]:
+              - generic [ref=e713]:
+                - img [ref=e716]
+                - generic [ref=e719]: ディスカウント
+            - menuitem "在庫移動伝票" [ref=e721] [cursor=pointer]:
+              - generic [ref=e723]:
+                - img [ref=e726]
+                - generic [ref=e729]: 在庫移動伝票
+            - menuitem "在庫調整伝票" [ref=e731] [cursor=pointer]:
+              - generic [ref=e733]:
+                - img [ref=e736]
+                - generic [ref=e740]: 在庫調整伝票
+            - menuitem "在庫取置伝票" [ref=e742] [cursor=pointer]:
+              - generic [ref=e744]:
+                - img [ref=e747]
+                - generic [ref=e753]: 在庫取置伝票
+            - menuitem "発注伝票" [ref=e755] [cursor=pointer]:
+              - generic [ref=e757]:
+                - img [ref=e760]
+                - generic [ref=e764]: 発注伝票
+            - menuitem "入荷指示" [ref=e766] [cursor=pointer]:
+              - generic [ref=e768]:
+                - img [ref=e771]
+                - generic [ref=e776]: 入荷指示
+            - menuitem "出荷指示" [ref=e778] [cursor=pointer]:
+              - generic [ref=e780]:
+                - img [ref=e783]
+                - generic [ref=e786]: 出荷指示
+          - generic [ref=e788]:
+            - generic [ref=e790]:
+              - heading "商品のメタフィールド定義" [level=2] [ref=e791]
+              - link "定義を追加する" [ref=e792] [cursor=pointer]:
+                - /url: /admin/settings/metafield_definitions/product/create
+                - generic [ref=e793]: 定義を追加する
+            - separator [ref=e794]
+            - generic [ref=e796]:
+              - generic [ref=e860]:
+                - generic [ref=e862] [cursor=pointer]:
+                  - generic:
+                    - generic
+                  - generic [ref=e864]: 1を選択済み
+                - button "定義を削除" [ref=e877] [cursor=pointer]:
+                  - generic [ref=e878]: 定義を削除
+              - table [ref=e817]:
+                - rowgroup [ref=e818]:
+                  - row "すべてのアイテムを選択する 定義名 コンテンツタイプ 権限 使用箇所" [ref=e819]:
+                    - columnheader "すべてのアイテムを選択する" [ref=e820]
+                    - columnheader "定義名" [ref=e828]
+                    - columnheader "コンテンツタイプ" [ref=e830]
+                    - columnheader "権限" [ref=e832]
+                    - columnheader "使用箇所" [ref=e834]
+                - rowgroup [ref=e836]:
+                  - row "アイテムを選択する TEST_META_SHORT_20260627 abc.def 単一行のテキスト 編集可 0個の商品" [ref=e837] [cursor=pointer]:
+                    - cell "アイテムを選択する" [ref=e838]
+                    - cell "TEST_META_SHORT_20260627 abc.def" [ref=e846]
+                    - cell "単一行のテキスト" [ref=e850]
+                    - cell "編集可" [ref=e852]
+                    - cell "0個の商品" [ref=e854]
+  - region "Notifications alt+T"
+  - alert [ref=e10]

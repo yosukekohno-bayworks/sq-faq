@@ -1,0 +1,66 @@
+[
+  {
+    "text": "コンテンツにスキップ",
+    "href": "https://www.sqstackstaging.com/admin/settings#AppFrameMain"
+  },
+  {
+    "text": "設定",
+    "href": "https://www.sqstackstaging.com/admin/settings"
+  },
+  {
+    "text": "管理メンバー\n管理画面にアクセス可能なメンバーを管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/users"
+  },
+  {
+    "text": "テナント\n事業部を表すテナントデータを管理することができます。",
+    "href": "https://www.sqstackstaging.com/admin/settings/tenants"
+  },
+  {
+    "text": "ロケーション\n在庫を管理するロケーションを管理することができます。",
+    "href": "https://www.sqstackstaging.com/admin/settings/locations"
+  },
+  {
+    "text": "ロケーショングループ\nロケーションをグループ化して管理することができます。",
+    "href": "https://www.sqstackstaging.com/admin/settings/location_groups"
+  },
+  {
+    "text": "ブランド\nブランド情報を管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/brands"
+  },
+  {
+    "text": "取引先\n在庫を仕入れる取引先の業者を管理することができます。",
+    "href": "https://www.sqstackstaging.com/admin/settings/suppliers"
+  },
+  {
+    "text": "決済方法\n顧客が注文時に利用する決済方法を管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/payment_methods"
+  },
+  {
+    "text": "販売員\n販売員情報を管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/retail_staff_members"
+  },
+  {
+    "text": "納品書\n納品書テンプレートを管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/pdf_template_package_slip"
+  },
+  {
+    "text": "通知用メールアドレス\nお知らせやアラートなどのメールを受け取るためのアドレスを管理することができます。",
+    "href": "https://www.sqstackstaging.com/admin/settings/organization_notification_emails"
+  },
+  {
+    "text": "アプリ\nAPIを利用するためのアプリを管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/apps"
+  },
+  {
+    "text": "翻訳\n翻訳を管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/translation"
+  },
+  {
+    "text": "メタフィールド定義\nオブジェクトのカスタムフィールドを管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/metafield_definitions"
+  },
+  {
+    "text": "採寸ルール\n商品ごとの採寸ルールを管理することができます",
+    "href": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules"
+  }
+]

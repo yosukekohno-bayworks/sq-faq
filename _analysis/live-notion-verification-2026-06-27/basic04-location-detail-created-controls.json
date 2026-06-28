@@ -1,0 +1,231 @@
+[
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "stack-ps-yosuke\n\n陽介 河野",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": null,
+    "id": ":r1v:",
+    "label": "名前",
+    "text": "TEST_NOTION_20260627_店舗_041001",
+    "checked": false,
+    "disabled": false,
+    "value": "TEST_NOTION_20260627_店舗_041001"
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": null,
+    "id": ":r20:",
+    "label": "表示名",
+    "text": "TEST_NOTION_20260627_店舗_041001",
+    "checked": false,
+    "disabled": false,
+    "value": "TEST_NOTION_20260627_店舗_041001"
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": null,
+    "id": ":r21:",
+    "label": "コード",
+    "text": "TEST_NOTION_STORE_041001",
+    "checked": false,
+    "disabled": false,
+    "value": "TEST_NOTION_STORE_041001"
+  },
+  {
+    "tag": "select",
+    "type": null,
+    "role": null,
+    "id": ":r22:",
+    "label": "場所種別",
+    "text": "選択してください\n倉庫\n店舗",
+    "disabled": false,
+    "value": "RETAIL"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "checkbox",
+    "id": ":r23:",
+    "label": "このロケーションを閉鎖する",
+    "text": "on",
+    "checked": false,
+    "disabled": false,
+    "value": "on"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": null,
+    "id": ":r25:",
+    "label": "マップ",
+    "text": "https://www.google.com/maps",
+    "checked": false,
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": null,
+    "id": ":r26:",
+    "label": "電話番号",
+    "text": "03-1234-5678",
+    "checked": false,
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": null,
+    "id": ":r27:",
+    "label": "メールアドレス",
+    "text": "example@example.com",
+    "checked": false,
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "アーカイブする",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "select",
+    "type": null,
+    "role": null,
+    "id": ":r29:",
+    "label": "公開設定",
+    "text": "公開\n非公開",
+    "disabled": false,
+    "value": "PUBLIC"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "checkbox",
+    "id": ":r2a:",
+    "label": "店舗受取を有効にする",
+    "text": "on",
+    "checked": true,
+    "disabled": false,
+    "value": "on"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "checkbox",
+    "id": ":r2b:",
+    "label": "在庫依頼を受け付ける",
+    "text": "on",
+    "checked": true,
+    "disabled": false,
+    "value": "on"
+  },
+  {
+    "tag": "select",
+    "type": null,
+    "role": null,
+    "id": ":r2c:",
+    "label": "ポイント利用種別",
+    "text": "選択してください\n値引き\n金種",
+    "disabled": false,
+    "value": "DISCOUNT"
+  },
+  {
+    "tag": "textarea",
+    "type": "text",
+    "role": null,
+    "id": ":r2d:",
+    "label": "備考欄",
+    "text": "このロケーションの備考を追加する",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": null,
+    "id": "",
+    "label": "",
+    "text": "保存する",
+    "disabled": false,
+    "value": ""
+  }
+]

@@ -1,0 +1,75 @@
+- generic [active] [ref=e1] [box=0,0,1492,841]:
+  - generic [ref=e11] [box=0,0,1492,841]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e14] [box=0,0,1492,56]:
+      - link [ref=e17] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e19] [box=986,0,506,56]:
+        - button [ref=e23] [cursor=pointer] [box=1296,12,32,32]:
+          - img [ref=e25] [box=1302,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer] [box=1336,12,148,32]:
+          - generic [ref=e30] [box=1338,14,116,28]:
+            - paragraph [ref=e31] [box=1348,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e33] [box=1348,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35] [box=1454,14,28,28]
+    - generic "メニュー" [ref=e36] [box=0,56,240,785]:
+      - navigation [ref=e37] [box=0,56,240,785]:
+        - generic [ref=e38] [box=0,56,240,785]:
+          - list [ref=e39] [box=0,72,240,268]:
+            - listitem [ref=e40] [box=0,72,240,28]
+            - listitem [ref=e49] [box=0,100,240,28]
+            - listitem [ref=e58] [box=0,128,240,28]
+            - listitem [ref=e67] [box=0,156,240,28]
+            - listitem [ref=e76] [box=0,184,240,28]
+            - listitem [ref=e86] [box=0,212,240,28]
+            - listitem [ref=e96] [box=0,240,240,28]
+            - listitem [ref=e108] [box=0,268,240,28]
+            - listitem [ref=e117] [box=0,296,240,28]
+          - list [ref=e119] [box=0,340,240,132]:
+            - listitem [ref=e120] [box=0,348,240,24]
+            - listitem [ref=e122] [box=0,372,240,28]
+            - listitem [ref=e133] [box=0,400,240,28]
+            - listitem [ref=e142] [box=0,428,240,28]
+          - list [ref=e156] [box=0,472,240,132]:
+            - listitem [ref=e157] [box=0,480,240,24]
+            - listitem [ref=e159] [box=0,504,240,28]
+            - listitem [ref=e168] [box=0,532,240,28]
+            - listitem [ref=e177] [box=0,560,240,28]
+          - list [ref=e187] [box=0,604,240,188]:
+            - listitem [ref=e188] [box=0,612,240,24]
+            - listitem [ref=e190] [box=0,636,240,28]
+            - listitem [ref=e195] [box=0,664,240,28]
+            - listitem [ref=e200] [box=0,692,240,28]
+            - listitem [ref=e205] [box=0,720,240,28]
+            - listitem [ref=e210] [box=0,748,240,28]
+          - list [ref=e212] [box=0,792,240,52]:
+            - listitem [ref=e213] [box=0,800,240,28]
+    - main [ref=e222] [box=0,0,1492,841]:
+      - generic [ref=e289] [box=367,56,998,231]:
+        - generic [ref=e290] [box=391,56,950,76]:
+          - status [box=391,80,950,0]:
+            - paragraph [ref=e291] [box=391,56,1,1]: 通知用メールアドレス。このページの準備が整いました
+          - generic [ref=e293] [box=391,80,950,28]:
+            - link [ref=e296] [cursor=pointer] [box=391,80,28,28]:
+              - /url: /admin/settings
+            - heading "通知用メールアドレス" [level=1] [ref=e303] [box=423,82,195,24]
+            - link "メールアドレスを追加" [ref=e307] [cursor=pointer] [box=1198,80,142,28]:
+              - /url: /admin/settings/organization_notification_emails/create
+        - generic [ref=e313] [box=391,132,950,155]:
+          - tablist [ref=e318] [box=399,140,934,28]:
+            - tab "すべて" [selected] [ref=e319] [cursor=pointer] [box=403,141,59,28]
+          - separator [ref=e322] [box=391,176,950,1]
+          - generic [ref=e324] [box=391,177,950,110]:
+            - table [ref=e326] [box=391,177,950,69]
+            - navigation "ページネーション" [ref=e371] [box=391,246,950,41]
+  - region "Notifications alt+T" [box=0,841,1492,0]:
+    - list [box=568,817,356,0]:
+      - listitem [ref=e423] [box=568,795,356,54]:
+        - button "Close toast" [ref=e424] [cursor=pointer] [box=562,789,20,20]:
+          - img [ref=e425] [box=566,793,12,12]
+        - img [ref=e429] [box=581,812,20,20]
+        - generic [ref=e432] [box=608,812,219,20]: 通知用メールアドレスを削除しました
+  - alert [ref=e10] [box=-1,840,1,1]

@@ -1,0 +1,156 @@
+[
+  {
+    "i": 0,
+    "aria": null,
+    "checked": false,
+    "disabled": false,
+    "text": ""
+  },
+  {
+    "i": 1,
+    "aria": null,
+    "checked": false,
+    "disabled": false,
+    "text": ""
+  },
+  {
+    "i": 2,
+    "aria": null,
+    "checked": false,
+    "disabled": false,
+    "text": "すべてのアイテムを選択する\n\t\n名前\n\t\n場所コード"
+  },
+  {
+    "i": 3,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nユニクロ物流倉庫\n\n\t\n\nW0001"
+  },
+  {
+    "i": 4,
+    "aria": null,
+    "checked": true,
+    "disabled": false,
+    "text": "アイテムを選択する\n\t\n\nユニクロ - 銀座店\n\n\t\n\nR0001"
+  },
+  {
+    "i": 5,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_FAQ_DEEP2_202606080343_ロケーション\n\n\t\n\ntest_faq_deep2_202606080343_loc"
+  },
+  {
+    "i": 6,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nユニクロEC\n\n\t\n\nTESTEC01"
+  },
+  {
+    "i": 7,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nGU 倉庫\n\n\t\n\nTFCLOC3698"
+  },
+  {
+    "i": 8,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nGU 銀座店\n\n\t\n\n12456789098765"
+  },
+  {
+    "i": 9,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_FLAGOFF_20260621\n\n\t\n\nFLAGOFF01"
+  },
+  {
+    "i": 10,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU店舗_OFF_1740\n\n\t\n\nTEST_E2E_20260622_STORE_1740"
+  },
+  {
+    "i": 11,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU倉庫_ON_1740\n\n\t\n\nTEST_E2E_20260622_WH_1740"
+  },
+  {
+    "i": 12,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU倉庫_ON_1755\n\n\t\n\nTEST_E2E_20260622_WH_1755"
+  },
+  {
+    "i": 13,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU店舗_OFF_1830\n\n\t\n\nTEST_E2E_20260622_STORE_1830"
+  },
+  {
+    "i": 14,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU倉庫_ON_1830\n\n\t\n\nTEST_E2E_20260622_WH_1830"
+  },
+  {
+    "i": 15,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU店舗_OFF_1845\n\n\t\n\nTEST_E2E_20260622_STORE_1845"
+  },
+  {
+    "i": 16,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU倉庫_ON_1845\n\n\t\n\nTEST_E2E_20260622_WH_1845"
+  },
+  {
+    "i": 17,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU店舗_OFF_1905\n\n\t\n\nTEST_E2E_20260622_STORE_1905"
+  },
+  {
+    "i": 18,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_E2E_20260622_GU倉庫_ON_1905\n\n\t\n\nTEST_E2E_20260622_WH_1905"
+  },
+  {
+    "i": 19,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_FAQ_20260624_GU店舗_OFF_092214\n\n\t\n\nTEST_FAQ_20260624_STORE_092214"
+  },
+  {
+    "i": 20,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_FAQ_20260624_GU倉庫_ON_092214\n\n\t\n\nTEST_FAQ_20260624_WH_092214"
+  },
+  {
+    "i": 21,
+    "aria": null,
+    "checked": false,
+    "disabled": true,
+    "text": "アイテムを選択する\n\t\n\nTEST_NOTION_20260627_店舗_041001\n\n\t\n\nTEST_NOTION_STORE_041001"
+  }
+]

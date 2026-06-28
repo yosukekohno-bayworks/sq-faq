@@ -1,0 +1,78 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[79947]<a />
+	コンテンツにスキップ
+[80075]<div />
+[79950]<button data-state=closed expanded=false />
+[79951]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[80092]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[79955]<a />
+		ホーム
+	[79956]<a />
+		商品管理
+	[79957]<a />
+		在庫管理
+	[79958]<a />
+		注文管理
+		[80143]<div />
+	[79959]<a />
+		顧客管理
+	[79960]<a />
+		発注管理
+	[79961]<a />
+		販売設定
+	[79962]<a />
+		会計
+	[79963]<a />
+		分析
+	オペレーション
+	[79964]<a />
+		入荷管理
+		[80227]<div />
+	[79965]<a />
+		出荷管理
+		[80238]<div />
+	[79966]<a />
+		在庫依頼
+		[80250]<div />
+	CRM
+	[79967]<a />
+		ディスカウント
+	[79968]<a />
+		ポイント
+	[79969]<a />
+		会員ランク
+	販売チャネル
+	[79970]<a />
+		Shopify
+	[79971]<a />
+		OmnibusCore
+	[79972]<a />
+		スマレジ
+	[79973]<a />
+		リテールポータル
+	[79974]<a />
+		卸売
+	[79975]<a />
+		設定
+通知用メールアドレス。このページの準備が整いました
+[80350]<div />
+	[80351]<div />
+		[79977]<a />
+通知用メールアドレス
+[80371]<div />
+	[80374]<span />
+		名前
+|SHADOW(open)|[79943]<input id=:r19: autocomplete=off type=text required=true />
+メールアドレス
+|SHADOW(open)|[79944]<input id=:r1a: placeholder=you@company.com autocomplete=off type=email required=true />
+通知を受け取るメールアドレスを入力してください。メールアドレスは重複して登録できません。
+[79940]<button />
+	保存する
+[80401]<section aria-label=Notifications alt+T live=polite />
+[79980]<div id=PolarisPortalsContainer />
+[79982]<div id=clerk-components />

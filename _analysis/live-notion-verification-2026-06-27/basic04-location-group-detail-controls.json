@@ -1,0 +1,257 @@
+[
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/settings/location_groups/2a478a97-ff26-5ca0-8a8a-17124887d090_LocationGroup#AppFrameMain",
+    "label": "",
+    "text": "コンテンツにスキップ"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin",
+    "label": "",
+    "text": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "label": "",
+    "text": "stack-ps-yosuke\n\n陽介 河野",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin",
+    "label": "",
+    "text": ""
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin",
+    "label": "",
+    "text": "ホーム"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/products",
+    "label": "",
+    "text": "商品管理"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_items",
+    "label": "",
+    "text": "在庫管理"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/orders",
+    "label": "",
+    "text": "注文管理"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/purchasing_customers",
+    "label": "",
+    "text": "顧客管理"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+    "label": "",
+    "text": "発注管理"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/product_price_rules",
+    "label": "",
+    "text": "販売設定"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+    "label": "",
+    "text": "会計"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/analytics",
+    "label": "",
+    "text": "分析"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+    "label": "",
+    "text": "入荷管理"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+    "label": "",
+    "text": "出荷管理"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+    "label": "",
+    "text": "在庫依頼\n未完了の在庫依頼 3件\n3"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+    "label": "",
+    "text": "ディスカウント"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+    "label": "",
+    "text": "ポイント"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+    "label": "",
+    "text": "会員ランク"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/shopify_integrations",
+    "label": "",
+    "text": "Shopify"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+    "label": "",
+    "text": "OmnibusCore"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+    "label": "",
+    "text": "スマレジ"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+    "label": "",
+    "text": "リテールポータル"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/b2b",
+    "label": "",
+    "text": "卸売"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/settings",
+    "label": "",
+    "text": "設定"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/settings/location_groups",
+    "label": "",
+    "text": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "label": "グループ名",
+    "text": "TEST_FAQ_20260624_LG_171810",
+    "checked": false,
+    "disabled": false,
+    "value": "TEST_FAQ_20260624_LG_171810"
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/settings/location_groups/2a478a97-ff26-5ca0-8a8a-17124887d090_LocationGroup/locations",
+    "label": "",
+    "text": "編集する"
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "label": "このグループに新しいロケーションを自動的に含める",
+    "text": "on",
+    "checked": false,
+    "disabled": true,
+    "value": "on"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "label": "",
+    "text": "",
+    "disabled": false,
+    "value": ""
+  },
+  {
+    "tag": "a",
+    "type": null,
+    "href": "https://www.sqstackstaging.com/admin/settings/locations/8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "label": "",
+    "text": "ユニクロ物流倉庫"
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "label": "",
+    "text": "保存する",
+    "disabled": false,
+    "value": ""
+  }
+]

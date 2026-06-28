@@ -1,0 +1,210 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - status:
+            - paragraph [ref=e227]: 権限グループ。このページの準備が整いました
+          - generic [ref=e229]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: /admin/settings/users
+              - img [ref=e235]
+            - heading "権限グループ" [level=1] [ref=e239]
+            - link "作成する" [ref=e243] [cursor=pointer]:
+              - /url: /admin/settings/permission_groups/create
+              - img [ref=e246]
+              - generic [ref=e248]: 作成する
+        - generic [ref=e255]:
+          - table [ref=e257]:
+            - rowgroup [ref=e258]:
+              - row "すべてのアイテムを選択する 名前 権限数" [ref=e259]:
+                - columnheader "すべてのアイテムを選択する" [ref=e260]:
+                  - generic [ref=e262] [cursor=pointer]:
+                    - generic [ref=e264]:
+                      - checkbox "すべてのアイテムを選択する" [ref=e265]
+                      - generic:
+                        - img
+                    - generic [ref=e267]: すべてのアイテムを選択する
+                - columnheader "名前" [ref=e268]:
+                  - generic [ref=e269]: 名前
+                - columnheader "権限数" [ref=e270]:
+                  - generic [ref=e271]: 権限数
+            - rowgroup [ref=e272]:
+              - row "アイテムを選択する TEST_権限検証_20260620 1" [ref=e273]:
+                - cell "アイテムを選択する" [ref=e274]:
+                  - generic [ref=e276]:
+                    - generic [ref=e278]:
+                      - checkbox "アイテムを選択する" [disabled] [ref=e279]
+                      - generic:
+                        - img
+                    - generic [ref=e281]: アイテムを選択する
+                - cell "TEST_権限検証_20260620" [ref=e282]:
+                  - link "TEST_権限検証_20260620" [ref=e283] [cursor=pointer]:
+                    - /url: /admin/settings/permission_groups/ced25bd4-f743-5b58-a17a-0dad097bd704_PermissionGroup
+                - cell "1" [ref=e284]:
+                  - paragraph [ref=e285]: "1"
+              - row "アイテムを選択する 特権管理者 76" [ref=e286]:
+                - cell "アイテムを選択する" [ref=e287]:
+                  - generic [ref=e289]:
+                    - generic [ref=e291]:
+                      - checkbox "アイテムを選択する" [disabled] [ref=e292]
+                      - generic:
+                        - img
+                    - generic [ref=e294]: アイテムを選択する
+                - cell "特権管理者" [ref=e295]:
+                  - link "特権管理者" [ref=e296] [cursor=pointer]:
+                    - /url: /admin/settings/permission_groups/434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup
+                - cell "76" [ref=e297]:
+                  - paragraph [ref=e298]: "76"
+          - navigation "ページネーション" [ref=e302]:
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - button "前へ" [disabled]:
+                  - generic:
+                    - generic:
+                      - img
+              - generic [ref=e307]:
+                - button "次へ" [disabled]:
+                  - generic:
+                    - generic:
+                      - img
+  - region "Notifications alt+T"
+  - alert [ref=e10]

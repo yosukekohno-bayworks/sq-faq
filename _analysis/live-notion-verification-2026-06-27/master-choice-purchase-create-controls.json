@@ -1,0 +1,227 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+  "h1": "発注伝票を作成",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": "メニューを切り替える",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "stack-ps-yosuke\n\n陽介 河野 / stack-ps-yosuke / 陽介 河野",
+      "aria": null,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "ホーム / ホーム / 商品管理",
+      "aria": "メニューを閉じる",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 4,
+      "tag": "SELECT",
+      "type": null,
+      "label": "取引先",
+      "aria": null,
+      "text": "選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "TEST_FAQ_Supplier",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_Supplier2",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_DEEP_202606080340_取引先",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1740",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1755",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1830",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1845",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_E2E_20260622_取引先_1905",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "tag": "SELECT",
+      "type": null,
+      "label": "テナント",
+      "aria": null,
+      "text": "選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nTEST_FAQ_20260624_TENANT_170037",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "ユニクロ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_COVERAGE_20260615_テナント_EDIT",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "テストテナント",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_TENANT_170037",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "tag": "SELECT",
+      "type": null,
+      "label": "通貨",
+      "aria": null,
+      "text": "米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "JPY",
+      "options": [
+        {
+          "text": "米ドル",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "ユーロ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "日本円",
+          "disabled": false,
+          "selected": true
+        },
+        {
+          "text": "タイ バーツ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "シンガポール ドル",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "商品を追加する",
+      "aria": null,
+      "text": "",
+      "placeholder": "商品を検索する",
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 8,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "参照",
+      "aria": null,
+      "text": "参照",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 9,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "取り消す",
+      "aria": null,
+      "text": "取り消す",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 10,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "作成する",
+      "aria": null,
+      "text": "作成する",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    }
+  ]
+}

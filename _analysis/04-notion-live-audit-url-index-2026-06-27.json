@@ -1,0 +1,1441 @@
+{
+  "/admin": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:26",
+      "04-notion/01-SQ全体・共通導線.md:87",
+      "04-notion/22-CSV・PDF・データ移行.md:29"
+    ]
+  },
+  "/admin/": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:26"
+    ]
+  },
+  "/admin/analytics": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:109",
+      "04-notion/24-会計・売上実績・分析.md:25",
+      "04-notion/24-会計・売上実績・分析.md:96",
+      "04-notion/24-会計・売上実績・分析.md:133",
+      "04-notion/24-会計・売上実績・分析.md:147",
+      "04-notion/24-会計・売上実績・分析.md:157"
+    ]
+  },
+  "/admin/analytics/reports": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/24-会計・売上実績・分析.md:27",
+      "04-notion/24-会計・売上実績・分析.md:98",
+      "04-notion/24-会計・売上実績・分析.md:133",
+      "04-notion/24-会計・売上実績・分析.md:149",
+      "04-notion/24-会計・売上実績・分析.md:159"
+    ]
+  },
+  "/admin/analytics/revenue": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/24-会計・売上実績・分析.md:26",
+      "04-notion/24-会計・売上実績・分析.md:97",
+      "04-notion/24-会計・売上実績・分析.md:133",
+      "04-notion/24-会計・売上実績・分析.md:148",
+      "04-notion/24-会計・売上実績・分析.md:158"
+    ]
+  },
+  "/admin/b2b": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:144",
+      "04-notion/17-顧客・会社.md:358"
+    ]
+  },
+  "/admin/catalogs": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:42",
+      "04-notion/06-カタログ.md:70",
+      "04-notion/06-カタログ.md:80",
+      "04-notion/06-カタログ.md:92",
+      "04-notion/06-カタログ.md:197",
+      "04-notion/20-標準販売チャネル連携.md:71"
+    ]
+  },
+  "/admin/catalogs/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:25",
+      "04-notion/20-標準販売チャネル連携.md:67"
+    ]
+  },
+  "/admin/catalogs/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/06-カタログ.md:81",
+      "04-notion/06-カタログ.md:104"
+    ]
+  },
+  "/admin/catalogs/{id}/automatic_add_rules": {
+    "kind": "template",
+    "refs": [
+      "04-notion/06-カタログ.md:83",
+      "04-notion/06-カタログ.md:143"
+    ]
+  },
+  "/admin/catalogs/{id}/catalog_product_variants": {
+    "kind": "template",
+    "refs": [
+      "04-notion/06-カタログ.md:84",
+      "04-notion/06-カタログ.md:283"
+    ]
+  },
+  "/admin/catalogs/{id}/create": {
+    "kind": "template",
+    "refs": [
+      "04-notion/06-カタログ.md:82",
+      "04-notion/06-カタログ.md:130"
+    ]
+  },
+  "/admin/companies": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/15-発注・仕入.md:150",
+      "04-notion/17-顧客・会社.md:31",
+      "04-notion/17-顧客・会社.md:110",
+      "04-notion/17-顧客・会社.md:274",
+      "04-notion/17-顧客・会社.md:282"
+    ]
+  },
+  "/admin/companies/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/17-顧客・会社.md:32",
+      "04-notion/17-顧客・会社.md:136",
+      "04-notion/17-顧客・会社.md:143",
+      "04-notion/17-顧客・会社.md:148",
+      "04-notion/17-顧客・会社.md:275",
+      "04-notion/17-顧客・会社.md:346"
+    ]
+  },
+  "/admin/companies/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/17-顧客・会社.md:33",
+      "04-notion/17-顧客・会社.md:162",
+      "04-notion/17-顧客・会社.md:290",
+      "04-notion/17-顧客・会社.md:297",
+      "04-notion/17-顧客・会社.md:324"
+    ]
+  },
+  "/admin/companies/{id}/contacts/create": {
+    "kind": "template",
+    "refs": [
+      "04-notion/17-顧客・会社.md:262"
+    ]
+  },
+  "/admin/companies/{id}/locations/create": {
+    "kind": "template",
+    "refs": [
+      "04-notion/17-顧客・会社.md:34",
+      "04-notion/17-顧客・会社.md:189",
+      "04-notion/17-顧客・会社.md:283"
+    ]
+  },
+  "/admin/companies/{id}/locations/{location_id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/17-顧客・会社.md:35",
+      "04-notion/17-顧客・会社.md:222"
+    ]
+  },
+  "/admin/csv_export": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/17-顧客・会社.md:339",
+      "04-notion/22-CSV・PDF・データ移行.md:26",
+      "04-notion/22-CSV・PDF・データ移行.md:250",
+      "04-notion/22-CSV・PDF・データ移行.md:335",
+      "04-notion/24-会計・売上実績・分析.md:76"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_inventory_logical_quantities": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/12-在庫状態・在庫数.md:85",
+      "04-notion/22-CSV・PDF・データ移行.md:258"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_inventory_logical_quantities/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:63",
+      "04-notion/22-CSV・PDF・データ移行.md:254"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:263"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_location_by_location_group": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:260"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_order_price_adjustment_usages": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:261"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_point_changes": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:266"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_product_price_rule_sale_prices": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:262"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_product_variants": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:259"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_sale_change_line_items": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:265",
+      "04-notion/24-会計・売上実績・分析.md:81",
+      "04-notion/24-会計・売上実績・分析.md:119"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_sale_changes": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:264",
+      "04-notion/24-会計・売上実績・分析.md:80",
+      "04-notion/24-会計・売上実績・分析.md:118"
+    ]
+  },
+  "/admin/csv_export/csv_export_operation_sale_changes/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:268"
+    ]
+  },
+  "/admin/csv_import": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:25",
+      "04-notion/22-CSV・PDF・データ移行.md:65",
+      "04-notion/22-CSV・PDF・データ移行.md:302"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_catalog_products": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:85",
+      "04-notion/06-カタログ.md:230"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_fulfillment_by_dhls": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:144"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_inventory_back_order_rule_product_variants": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:246"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/12-在庫状態・在庫数.md:84",
+      "04-notion/22-CSV・PDF・データ移行.md:143"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_inventory_logical_available_quantities/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:143"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_inventory_movement_orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:229"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_inventory_movement_orders/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:230"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_point_campaign_order_rule_point_value_product_variants": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:146"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_point_minuses": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:145"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_point_pluses": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/17-顧客・会社.md:84",
+      "04-notion/17-顧客・会社.md:312"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_product_images": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:161"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_product_metafields": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:163"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_product_price_rule_regular_prices": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:87"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_product_price_rule_sale_prices": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:120"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_product_variant_metafields": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:164"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_product_variants": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:162"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_products": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:142",
+      "04-notion/22-CSV・PDF・データ移行.md:160"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_products/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:142"
+    ]
+  },
+  "/admin/csv_import/csv_import_operation_users": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:72",
+      "04-notion/02-アカウント・権限.md:276"
+    ]
+  },
+  "/admin/customer_rank_calculation_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:134",
+      "04-notion/18-CRM.md:35",
+      "04-notion/18-CRM.md:335",
+      "04-notion/18-CRM.md:472"
+    ]
+  },
+  "/admin/customer_rank_calculation_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/18-CRM.md:342"
+    ]
+  },
+  "/admin/customer_rank_calculation_rules/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:374"
+    ]
+  },
+  "/admin/customer_rank_calculation_rules/{id}/customer_rank_rules/create": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:403"
+    ]
+  },
+  "/admin/customer_rank_calculation_rules/{id}/exclude_products": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:399"
+    ]
+  },
+  "/admin/draft_orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/16-注文・返品.md:35",
+      "04-notion/16-注文・返品.md:105",
+      "04-notion/16-注文・返品.md:176"
+    ]
+  },
+  "/admin/draft_orders/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/16-注文・返品.md:178",
+      "04-notion/16-注文・返品.md:221",
+      "04-notion/16-注文・返品.md:266"
+    ]
+  },
+  "/admin/inventory_adjustment_orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/12-在庫状態・在庫数.md:275",
+      "04-notion/13-在庫伝票.md:34",
+      "04-notion/13-在庫伝票.md:96",
+      "04-notion/13-在庫伝票.md:174",
+      "04-notion/13-在庫伝票.md:282",
+      "04-notion/21-物流・返品・外部アプリ連携.md:281"
+    ]
+  },
+  "/admin/inventory_adjustment_orders/": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/13-在庫伝票.md:282"
+    ]
+  },
+  "/admin/inventory_adjustment_orders/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/13-在庫伝票.md:110"
+    ]
+  },
+  "/admin/inventory_adjustment_orders/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/13-在庫伝票.md:107"
+    ]
+  },
+  "/admin/inventory_allocation_request_confirmations": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:124",
+      "04-notion/14-入出荷・在庫依頼.md:103"
+    ]
+  },
+  "/admin/inventory_allocation_requests": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:123",
+      "04-notion/14-入出荷・在庫依頼.md:35",
+      "04-notion/14-入出荷・在庫依頼.md:79"
+    ]
+  },
+  "/admin/inventory_allocation_requests/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/14-入出荷・在庫依頼.md:120"
+    ]
+  },
+  "/admin/inventory_back_order_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:31",
+      "04-notion/20-標準販売チャネル連携.md:175"
+    ]
+  },
+  "/admin/inventory_back_order_rules/[id]": {
+    "kind": "template",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:134"
+    ]
+  },
+  "/admin/inventory_back_order_rules/[id]/create": {
+    "kind": "template",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:146"
+    ]
+  },
+  "/admin/inventory_back_order_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:124"
+    ]
+  },
+  "/admin/inventory_inbound_orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:121",
+      "04-notion/13-在庫伝票.md:45",
+      "04-notion/13-在庫伝票.md:163",
+      "04-notion/14-入出荷・在庫依頼.md:37",
+      "04-notion/14-入出荷・在庫依頼.md:232"
+    ]
+  },
+  "/admin/inventory_items": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:89",
+      "04-notion/12-在庫状態・在庫数.md:29",
+      "04-notion/12-在庫状態・在庫数.md:48",
+      "04-notion/12-在庫状態・在庫数.md:177"
+    ]
+  },
+  "/admin/inventory_items/[id]": {
+    "kind": "template",
+    "refs": [
+      "04-notion/12-在庫状態・在庫数.md:30",
+      "04-notion/12-在庫状態・在庫数.md:89",
+      "04-notion/12-在庫状態・在庫数.md:187"
+    ]
+  },
+  "/admin/inventory_items/[id]/history": {
+    "kind": "template",
+    "refs": [
+      "04-notion/12-在庫状態・在庫数.md:31",
+      "04-notion/12-在庫状態・在庫数.md:97",
+      "04-notion/12-在庫状態・在庫数.md:155",
+      "04-notion/12-在庫状態・在庫数.md:203"
+    ]
+  },
+  "/admin/inventory_movement_orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/13-在庫伝票.md:33",
+      "04-notion/13-在庫伝票.md:70",
+      "04-notion/13-在庫伝票.md:157"
+    ]
+  },
+  "/admin/inventory_movement_orders/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/13-在庫伝票.md:80"
+    ]
+  },
+  "/admin/inventory_outbound_orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:122",
+      "04-notion/13-在庫伝票.md:45",
+      "04-notion/13-在庫伝票.md:162",
+      "04-notion/14-入出荷・在庫依頼.md:36",
+      "04-notion/14-入出荷・在庫依頼.md:169",
+      "04-notion/21-物流・返品・外部アプリ連携.md:37",
+      "04-notion/21-物流・返品・外部アプリ連携.md:38",
+      "04-notion/21-物流・返品・外部アプリ連携.md:39",
+      "04-notion/21-物流・返品・外部アプリ連携.md:67",
+      "04-notion/21-物流・返品・外部アプリ連携.md:196",
+      "04-notion/22-CSV・PDF・データ移行.md:263",
+      "04-notion/22-CSV・PDF・データ移行.md:387"
+    ]
+  },
+  "/admin/inventory_outbound_orders/export/yamato_b2_cloud": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:270"
+    ]
+  },
+  "/admin/inventory_purchase_orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:106",
+      "04-notion/15-発注・仕入.md:28",
+      "04-notion/15-発注・仕入.md:57",
+      "04-notion/15-発注・仕入.md:203"
+    ]
+  },
+  "/admin/inventory_purchase_orders/": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/15-発注・仕入.md:30"
+    ]
+  },
+  "/admin/inventory_purchase_orders/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/15-発注・仕入.md:29",
+      "04-notion/15-発注・仕入.md:84"
+    ]
+  },
+  "/admin/inventory_reservation_orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/13-在庫伝票.md:35",
+      "04-notion/13-在庫伝票.md:129",
+      "04-notion/13-在庫伝票.md:201"
+    ]
+  },
+  "/admin/inventory_reservation_orders/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/13-在庫伝票.md:139"
+    ]
+  },
+  "/admin/inventory_sale_limit_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:32",
+      "04-notion/20-標準販売チャネル連携.md:175"
+    ]
+  },
+  "/admin/inventory_sale_limit_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:159"
+    ]
+  },
+  "/admin/inventory_suppliers": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/15-発注・仕入.md:336"
+    ]
+  },
+  "/admin/inventory_threshold_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:33"
+    ]
+  },
+  "/admin/inventory_threshold_rules/[id]": {
+    "kind": "template",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:184"
+    ]
+  },
+  "/admin/inventory_threshold_rules/[id]/automatic_add_rules": {
+    "kind": "template",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:205"
+    ]
+  },
+  "/admin/inventory_threshold_rules/[id]/create": {
+    "kind": "template",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:196"
+    ]
+  },
+  "/admin/inventory_threshold_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:170"
+    ]
+  },
+  "/admin/local_pickup_product_variants": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/07-店舗受取商品.md:18",
+      "04-notion/07-店舗受取商品.md:40",
+      "04-notion/07-店舗受取商品.md:46",
+      "04-notion/07-店舗受取商品.md:55",
+      "04-notion/07-店舗受取商品.md:112",
+      "04-notion/07-店舗受取商品.md:149",
+      "04-notion/19-店舗業務・リテールポータル.md:55",
+      "04-notion/19-店舗業務・リテールポータル.md:204"
+    ]
+  },
+  "/admin/local_pickup_product_variants/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/07-店舗受取商品.md:46",
+      "04-notion/07-店舗受取商品.md:118",
+      "04-notion/07-店舗受取商品.md:155"
+    ]
+  },
+  "/admin/local_pickup_retail_location_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/07-店舗受取商品.md:19",
+      "04-notion/07-店舗受取商品.md:136",
+      "04-notion/07-店舗受取商品.md:182",
+      "04-notion/19-店舗業務・リテールポータル.md:37",
+      "04-notion/19-店舗業務・リテールポータル.md:56",
+      "04-notion/19-店舗業務・リテールポータル.md:165",
+      "04-notion/19-店舗業務・リテールポータル.md:197"
+    ]
+  },
+  "/admin/local_pickup_retail_location_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/19-店舗業務・リテールポータル.md:169",
+      "04-notion/19-店舗業務・リテールポータル.md:198"
+    ]
+  },
+  "/admin/logizard_integrations": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:51",
+      "04-notion/21-物流・返品・外部アプリ連携.md:40",
+      "04-notion/21-物流・返品・外部アプリ連携.md:145",
+      "04-notion/21-物流・返品・外部アプリ連携.md:239"
+    ]
+  },
+  "/admin/logizard_integrations/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/21-物流・返品・外部アプリ連携.md:151",
+      "04-notion/21-物流・返品・外部アプリ連携.md:240"
+    ]
+  },
+  "/admin/omnibus_core_integrations": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:53",
+      "04-notion/01-SQ全体・共通導線.md:141",
+      "04-notion/20-標準販売チャネル連携.md:47",
+      "04-notion/20-標準販売チャネル連携.md:315"
+    ]
+  },
+  "/admin/omnibus_core_integrations/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:27",
+      "04-notion/06-カタログ.md:31",
+      "04-notion/06-カタログ.md:271",
+      "04-notion/20-標準販売チャネル連携.md:148",
+      "04-notion/20-標準販売チャネル連携.md:316"
+    ]
+  },
+  "/admin/omnibus_core_integrations/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/20-標準販売チャネル連携.md:195",
+      "04-notion/20-標準販売チャネル連携.md:322",
+      "04-notion/20-標準販売チャネル連携.md:326"
+    ]
+  },
+  "/admin/order_price_adjustment_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:132",
+      "04-notion/18-CRM.md:33",
+      "04-notion/18-CRM.md:79",
+      "04-notion/18-CRM.md:441"
+    ]
+  },
+  "/admin/order_price_adjustment_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/18-CRM.md:107"
+    ]
+  },
+  "/admin/order_price_adjustment_rules/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:158",
+      "04-notion/18-CRM.md:166"
+    ]
+  },
+  "/admin/order_price_adjustment_rules/{id}/customers": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:168"
+    ]
+  },
+  "/admin/order_price_adjustment_rules/{id}/locations": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:169"
+    ]
+  },
+  "/admin/order_price_adjustment_rules/{id}/product_variants": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:170"
+    ]
+  },
+  "/admin/order_price_adjustment_rules/{id}/usages": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:167"
+    ]
+  },
+  "/admin/order_returns": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/16-注文・返品.md:36",
+      "04-notion/16-注文・返品.md:131",
+      "04-notion/16-注文・返品.md:184",
+      "04-notion/21-物流・返品・外部アプリ連携.md:57",
+      "04-notion/21-物流・返品・外部アプリ連携.md:61",
+      "04-notion/21-物流・返品・外部アプリ連携.md:311",
+      "04-notion/21-物流・返品・外部アプリ連携.md:330",
+      "04-notion/21-物流・返品・外部アプリ連携.md:344"
+    ]
+  },
+  "/admin/order_returns/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/16-注文・返品.md:188",
+      "04-notion/16-注文・返品.md:225",
+      "04-notion/16-注文・返品.md:267",
+      "04-notion/21-物流・返品・外部アプリ連携.md:57",
+      "04-notion/21-物流・返品・外部アプリ連携.md:61",
+      "04-notion/21-物流・返品・外部アプリ連携.md:311",
+      "04-notion/21-物流・返品・外部アプリ連携.md:331",
+      "04-notion/21-物流・返品・外部アプリ連携.md:344"
+    ]
+  },
+  "/admin/orders": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:104",
+      "04-notion/16-注文・返品.md:34",
+      "04-notion/16-注文・返品.md:73",
+      "04-notion/16-注文・返品.md:166"
+    ]
+  },
+  "/admin/orders/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/16-注文・返品.md:215",
+      "04-notion/16-注文・返品.md:268"
+    ]
+  },
+  "/admin/pdf_export": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/21-物流・返品・外部アプリ連携.md:295",
+      "04-notion/22-CSV・PDF・データ移行.md:27",
+      "04-notion/22-CSV・PDF・データ移行.md:284",
+      "04-notion/22-CSV・PDF・データ移行.md:377"
+    ]
+  },
+  "/admin/pdf_export/pdf_export_operation_packing_slips/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/21-物流・返品・外部アプリ連携.md:295",
+      "04-notion/22-CSV・PDF・データ移行.md:293",
+      "04-notion/22-CSV・PDF・データ移行.md:350"
+    ]
+  },
+  "/admin/point_application_excluded_products": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/18-CRM.md:43",
+      "04-notion/18-CRM.md:316"
+    ]
+  },
+  "/admin/point_calculation_birthday_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/18-CRM.md:42",
+      "04-notion/18-CRM.md:303"
+    ]
+  },
+  "/admin/point_calculation_birthday_rules/{id}/customer_ranks": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:433"
+    ]
+  },
+  "/admin/point_calculation_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:133",
+      "04-notion/18-CRM.md:34",
+      "04-notion/18-CRM.md:188",
+      "04-notion/18-CRM.md:452"
+    ]
+  },
+  "/admin/point_calculation_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/18-CRM.md:197"
+    ]
+  },
+  "/admin/point_calculation_rules/{id}/point_multiplier_products": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:252",
+      "04-notion/18-CRM.md:429"
+    ]
+  },
+  "/admin/point_calculation_rules/{id}/rank_multipliers": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:251",
+      "04-notion/18-CRM.md:428"
+    ]
+  },
+  "/admin/point_campaign_order_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/18-CRM.md:41",
+      "04-notion/18-CRM.md:262",
+      "04-notion/18-CRM.md:462"
+    ]
+  },
+  "/admin/point_campaign_order_rules/{id}/customer_ranks": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:430"
+    ]
+  },
+  "/admin/point_campaign_order_rules/{id}/product_variants": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:431"
+    ]
+  },
+  "/admin/point_campaign_order_rules/{id}/purchase_prices": {
+    "kind": "template",
+    "refs": [
+      "04-notion/18-CRM.md:432"
+    ]
+  },
+  "/admin/point_expiration_notification_rule": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/18-CRM.md:44",
+      "04-notion/18-CRM.md:322"
+    ]
+  },
+  "/admin/product_price_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:107",
+      "04-notion/11-価格・販売制御.md:30"
+    ]
+  },
+  "/admin/product_price_rules/[id]/product_variant_regulars": {
+    "kind": "template",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:77",
+      "04-notion/11-価格・販売制御.md:92"
+    ]
+  },
+  "/admin/product_price_rules/[id]/product_variant_sales": {
+    "kind": "template",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:108"
+    ]
+  },
+  "/admin/product_price_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/11-価格・販売制御.md:66"
+    ]
+  },
+  "/admin/products": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:88",
+      "04-notion/05-商品・SKU.md:29",
+      "04-notion/05-商品・SKU.md:78",
+      "04-notion/06-カタログ.md:39",
+      "04-notion/22-CSV・PDF・データ移行.md:156"
+    ]
+  },
+  "/admin/products/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/05-商品・SKU.md:30",
+      "04-notion/05-商品・SKU.md:131",
+      "04-notion/05-商品・SKU.md:351"
+    ]
+  },
+  "/admin/products/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/05-商品・SKU.md:31",
+      "04-notion/05-商品・SKU.md:35"
+    ]
+  },
+  "/admin/products/{id}/edit": {
+    "kind": "template",
+    "refs": [
+      "04-notion/05-商品・SKU.md:35",
+      "04-notion/05-商品・SKU.md:332"
+    ]
+  },
+  "/admin/products/{id}/variants/create": {
+    "kind": "template",
+    "refs": [
+      "04-notion/05-商品・SKU.md:32",
+      "04-notion/05-商品・SKU.md:200"
+    ]
+  },
+  "/admin/products/{id}/variants/{variant_id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/05-商品・SKU.md:33",
+      "04-notion/05-商品・SKU.md:254",
+      "04-notion/05-商品・SKU.md:265"
+    ]
+  },
+  "/admin/purchasing_customers": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:105",
+      "04-notion/17-顧客・会社.md:30",
+      "04-notion/17-顧客・会社.md:47",
+      "04-notion/17-顧客・会社.md:69",
+      "04-notion/17-顧客・会社.md:303",
+      "04-notion/17-顧客・会社.md:310"
+    ]
+  },
+  "/admin/purchasing_customers/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/17-顧客・会社.md:337",
+      "04-notion/17-顧客・会社.md:369"
+    ]
+  },
+  "/admin/recustomer_integrations": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:52",
+      "04-notion/21-物流・返品・外部アプリ連携.md:41",
+      "04-notion/21-物流・返品・外部アプリ連携.md:172",
+      "04-notion/21-物流・返品・外部アプリ連携.md:188",
+      "04-notion/21-物流・返品・外部アプリ連携.md:256"
+    ]
+  },
+  "/admin/recustomer_integrations/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/21-物流・返品・外部アプリ連携.md:176",
+      "04-notion/21-物流・返品・外部アプリ連携.md:257"
+    ]
+  },
+  "/admin/retail_portal_integrations": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:54",
+      "04-notion/01-SQ全体・共通導線.md:143",
+      "04-notion/19-店舗業務・リテールポータル.md:36",
+      "04-notion/19-店舗業務・リテールポータル.md:96",
+      "04-notion/19-店舗業務・リテールポータル.md:183"
+    ]
+  },
+  "/admin/retail_portal_integrations/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:33",
+      "04-notion/06-カタログ.md:273",
+      "04-notion/19-店舗業務・リテールポータル.md:100",
+      "04-notion/19-店舗業務・リテールポータル.md:184"
+    ]
+  },
+  "/admin/sale_change_line_items": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:108",
+      "04-notion/16-注文・返品.md:286",
+      "04-notion/22-CSV・PDF・データ移行.md:268",
+      "04-notion/24-会計・売上実績・分析.md:24",
+      "04-notion/24-会計・売上実績・分析.md:37",
+      "04-notion/24-会計・売上実績・分析.md:53",
+      "04-notion/24-会計・売上実績・分析.md:108",
+      "04-notion/24-会計・売上実績・分析.md:115",
+      "04-notion/24-会計・売上実績・分析.md:143"
+    ]
+  },
+  "/admin/sale_change_line_items/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/24-会計・売上実績・分析.md:72",
+      "04-notion/24-会計・売上実績・分析.md:132"
+    ]
+  },
+  "/admin/settings": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:150",
+      "04-notion/03-組織・通知.md:25",
+      "04-notion/03-組織・通知.md:31",
+      "04-notion/03-組織・通知.md:41",
+      "04-notion/03-組織・通知.md:120",
+      "04-notion/03-組織・通知.md:127",
+      "04-notion/03-組織・通知.md:175",
+      "04-notion/04-基本マスタ.md:23",
+      "04-notion/08-カスタムデータ.md:50",
+      "04-notion/08-カスタムデータ.md:125",
+      "04-notion/09-翻訳.md:29",
+      "04-notion/09-翻訳.md:119",
+      "04-notion/10-採寸.md:22",
+      "04-notion/10-採寸.md:71",
+      "04-notion/21-物流・返品・外部アプリ連携.md:238",
+      "04-notion/21-物流・返品・外部アプリ連携.md:255",
+      "04-notion/23-API・Webhook・開発者連携.md:46"
+    ]
+  },
+  "/admin/settings/apps": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/23-API・Webhook・開発者連携.md:41",
+      "04-notion/23-API・Webhook・開発者連携.md:129",
+      "04-notion/23-API・Webhook・開発者連携.md:187"
+    ]
+  },
+  "/admin/settings/apps/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/23-API・Webhook・開発者連携.md:42",
+      "04-notion/23-API・Webhook・開発者連携.md:64",
+      "04-notion/23-API・Webhook・開発者連携.md:130"
+    ]
+  },
+  "/admin/settings/apps/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/23-API・Webhook・開発者連携.md:43"
+    ]
+  },
+  "/admin/settings/apps/{id}/admin_api": {
+    "kind": "template",
+    "refs": [
+      "04-notion/23-API・Webhook・開発者連携.md:44",
+      "04-notion/23-API・Webhook・開発者連携.md:96",
+      "04-notion/23-API・Webhook・開発者連携.md:192"
+    ]
+  },
+  "/admin/settings/brands": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/03-組織・通知.md:33",
+      "04-notion/03-組織・通知.md:166",
+      "04-notion/04-基本マスタ.md:31",
+      "04-notion/04-基本マスタ.md:107",
+      "04-notion/05-商品・SKU.md:188",
+      "04-notion/06-カタログ.md:70",
+      "04-notion/06-カタログ.md:74",
+      "04-notion/06-カタログ.md:86",
+      "04-notion/06-カタログ.md:163"
+    ]
+  },
+  "/admin/settings/brands/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:181"
+    ]
+  },
+  "/admin/settings/location_groups": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/04-基本マスタ.md:30",
+      "04-notion/04-基本マスタ.md:93"
+    ]
+  },
+  "/admin/settings/locations": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/04-基本マスタ.md:29",
+      "04-notion/04-基本マスタ.md:42",
+      "04-notion/04-基本マスタ.md:191"
+    ]
+  },
+  "/admin/settings/locations/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/04-基本マスタ.md:265"
+    ]
+  },
+  "/admin/settings/members": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:264"
+    ]
+  },
+  "/admin/settings/metafield_definitions": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/08-カスタムデータ.md:39",
+      "04-notion/08-カスタムデータ.md:47",
+      "04-notion/08-カスタムデータ.md:126",
+      "04-notion/08-カスタムデータ.md:187"
+    ]
+  },
+  "/admin/settings/metafield_definitions/": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/08-カスタムデータ.md:48",
+      "04-notion/08-カスタムデータ.md:66"
+    ]
+  },
+  "/admin/settings/metafield_definitions/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/08-カスタムデータ.md:48",
+      "04-notion/08-カスタムデータ.md:66",
+      "04-notion/08-カスタムデータ.md:188"
+    ]
+  },
+  "/admin/settings/metafield_definitions/organization/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/08-カスタムデータ.md:48",
+      "04-notion/08-カスタムデータ.md:66",
+      "04-notion/08-カスタムデータ.md:127",
+      "04-notion/08-カスタムデータ.md:188"
+    ]
+  },
+  "/admin/settings/organization_notification_emails": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/03-組織・通知.md:30",
+      "04-notion/03-組織・通知.md:95",
+      "04-notion/03-組織・通知.md:128",
+      "04-notion/03-組織・通知.md:146",
+      "04-notion/03-組織・通知.md:178"
+    ]
+  },
+  "/admin/settings/organization_notification_emails/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/03-組織・通知.md:99",
+      "04-notion/03-組織・通知.md:101",
+      "04-notion/03-組織・通知.md:147"
+    ]
+  },
+  "/admin/settings/organization_users": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:264"
+    ]
+  },
+  "/admin/settings/payment_methods": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/04-基本マスタ.md:33",
+      "04-notion/04-基本マスタ.md:130"
+    ]
+  },
+  "/admin/settings/payment_methods/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/04-基本マスタ.md:266"
+    ]
+  },
+  "/admin/settings/pdf_template_package_slip": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/22-CSV・PDF・データ移行.md:296"
+    ]
+  },
+  "/admin/settings/permission_groups": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:44",
+      "04-notion/02-アカウント・権限.md:71",
+      "04-notion/02-アカウント・権限.md:113"
+    ]
+  },
+  "/admin/settings/permission_groups/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:126",
+      "04-notion/02-アカウント・権限.md:239"
+    ]
+  },
+  "/admin/settings/permission_groups/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:137"
+    ]
+  },
+  "/admin/settings/product_measurement_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/10-採寸.md:26",
+      "04-notion/10-採寸.md:53",
+      "04-notion/10-採寸.md:72",
+      "04-notion/10-採寸.md:95"
+    ]
+  },
+  "/admin/settings/product_measurement_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/10-採寸.md:27",
+      "04-notion/10-採寸.md:33",
+      "04-notion/10-採寸.md:73"
+    ]
+  },
+  "/admin/settings/retail_staff_members": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/04-基本マスタ.md:34",
+      "04-notion/04-基本マスタ.md:146"
+    ]
+  },
+  "/admin/settings/retail_staff_members/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/04-基本マスタ.md:267"
+    ]
+  },
+  "/admin/settings/staffs": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:264"
+    ]
+  },
+  "/admin/settings/suppliers": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/04-基本マスタ.md:32",
+      "04-notion/04-基本マスタ.md:119",
+      "04-notion/15-発注・仕入.md:31",
+      "04-notion/15-発注・仕入.md:148",
+      "04-notion/15-発注・仕入.md:194",
+      "04-notion/15-発注・仕入.md:324",
+      "04-notion/15-発注・仕入.md:336",
+      "04-notion/15-発注・仕入.md:348"
+    ]
+  },
+  "/admin/settings/suppliers/": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/15-発注・仕入.md:182"
+    ]
+  },
+  "/admin/settings/suppliers/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/15-発注・仕入.md:165"
+    ]
+  },
+  "/admin/settings/tenants": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/03-組織・通知.md:29",
+      "04-notion/03-組織・通知.md:50",
+      "04-notion/03-組織・通知.md:128",
+      "04-notion/03-組織・通知.md:133",
+      "04-notion/03-組織・通知.md:166",
+      "04-notion/03-組織・通知.md:177"
+    ]
+  },
+  "/admin/settings/tenants/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/03-組織・通知.md:56",
+      "04-notion/03-組織・通知.md:134"
+    ]
+  },
+  "/admin/settings/tenants/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/03-組織・通知.md:66",
+      "04-notion/03-組織・通知.md:140"
+    ]
+  },
+  "/admin/settings/translation": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/09-翻訳.md:26",
+      "04-notion/09-翻訳.md:67",
+      "04-notion/09-翻訳.md:71",
+      "04-notion/09-翻訳.md:120",
+      "04-notion/09-翻訳.md:163",
+      "04-notion/10-採寸.md:29"
+    ]
+  },
+  "/admin/settings/translation/": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/09-翻訳.md:71",
+      "04-notion/09-翻訳.md:73"
+    ]
+  },
+  "/admin/settings/translation/translation_rules": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/09-翻訳.md:27",
+      "04-notion/09-翻訳.md:131"
+    ]
+  },
+  "/admin/settings/translation/translation_rules/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/09-翻訳.md:79",
+      "04-notion/09-翻訳.md:121"
+    ]
+  },
+  "/admin/settings/users": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:43",
+      "04-notion/02-アカウント・権限.md:62",
+      "04-notion/02-アカウント・権限.md:211",
+      "04-notion/02-アカウント・権限.md:264"
+    ]
+  },
+  "/admin/settings/users/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:70",
+      "04-notion/02-アカウント・権限.md:80"
+    ]
+  },
+  "/admin/settings/users/{id}": {
+    "kind": "template",
+    "refs": [
+      "04-notion/02-アカウント・権限.md:99"
+    ]
+  },
+  "/admin/shopify_integrations": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:49",
+      "04-notion/01-SQ全体・共通導線.md:140",
+      "04-notion/20-標準販売チャネル連携.md:46",
+      "04-notion/20-標準販売チャネル連携.md:94",
+      "04-notion/20-標準販売チャネル連携.md:304"
+    ]
+  },
+  "/admin/shopify_integrations/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:30",
+      "04-notion/06-カタログ.md:270",
+      "04-notion/20-標準販売チャネル連携.md:104",
+      "04-notion/20-標準販売チャネル連携.md:305"
+    ]
+  },
+  "/admin/smaregi_integrations": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/01-SQ全体・共通導線.md:50",
+      "04-notion/01-SQ全体・共通導線.md:142",
+      "04-notion/20-標準販売チャネル連携.md:48",
+      "04-notion/20-標準販売チャネル連携.md:338"
+    ]
+  },
+  "/admin/smaregi_integrations/create": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/06-カタログ.md:27",
+      "04-notion/06-カタログ.md:32",
+      "04-notion/06-カタログ.md:272",
+      "04-notion/20-標準販売チャネル連携.md:241",
+      "04-notion/20-標準販売チャネル連携.md:339"
+    ]
+  },
+  "/admin_api": {
+    "kind": "concrete",
+    "refs": [
+      "04-notion/23-API・Webhook・開発者連携.md:192"
+    ]
+  }
+}

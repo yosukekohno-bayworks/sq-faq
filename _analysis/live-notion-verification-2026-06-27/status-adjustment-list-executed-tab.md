@@ -1,0 +1,403 @@
+- generic [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+              - list [ref=e69]:
+                - listitem [ref=e70]:
+                  - link "移動伝票" [ref=e73] [cursor=pointer]:
+                    - /url: /admin/inventory_movement_orders
+                    - generic [ref=e74]: 移動伝票
+                - listitem [ref=e75]:
+                  - link "調整伝票" [ref=e78] [cursor=pointer]:
+                    - /url: /admin/inventory_adjustment_orders
+                    - generic [ref=e79]: 調整伝票
+                - listitem [ref=e80]:
+                  - link "取置伝票" [ref=e83] [cursor=pointer]:
+                    - /url: /admin/inventory_reservation_orders
+                    - generic [ref=e84]: 取置伝票
+            - listitem [ref=e85]:
+              - link "注文管理" [ref=e88] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e91]
+                - generic [ref=e93]: 注文管理
+            - listitem [ref=e94]:
+              - link "顧客管理" [ref=e97] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100]
+                - generic [ref=e103]: 顧客管理
+            - listitem [ref=e104]:
+              - link "発注管理" [ref=e107] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110]
+                - generic [ref=e113]: 発注管理
+            - listitem [ref=e114]:
+              - link "販売設定" [ref=e117] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120]
+                - generic [ref=e125]: 販売設定
+            - listitem [ref=e126]:
+              - link "会計" [ref=e129] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132]
+                - generic [ref=e134]: 会計
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e139]: オペレーション
+            - listitem [ref=e140]:
+              - link "入荷管理" [ref=e143] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146]
+                - generic [ref=e150]: 入荷管理
+            - listitem [ref=e151]:
+              - link "出荷管理" [ref=e154] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e157]
+                - generic [ref=e159]: 出荷管理
+            - listitem [ref=e160]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e163] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e166]
+                - generic [ref=e169]: 在庫依頼
+                - generic [ref=e171]:
+                  - generic [ref=e172]: 未完了の在庫依頼 3件
+                  - generic [ref=e173]: "3"
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: CRM
+            - listitem [ref=e177]:
+              - link "ディスカウント" [ref=e180] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e183]
+                - generic [ref=e185]: ディスカウント
+            - listitem [ref=e186]:
+              - link "ポイント" [ref=e189] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e192]
+                - generic [ref=e194]: ポイント
+            - listitem [ref=e195]:
+              - link "会員ランク" [ref=e198] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e201]
+                - generic [ref=e204]: 会員ランク
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - generic [ref=e207]: 販売チャネル
+            - listitem [ref=e208]:
+              - link "Shopify" [ref=e211] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e212]: Shopify
+            - listitem [ref=e213]:
+              - link "OmnibusCore" [ref=e216] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e217]: OmnibusCore
+            - listitem [ref=e218]:
+              - link "スマレジ" [ref=e221] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e222]: スマレジ
+            - listitem [ref=e223]:
+              - link "リテールポータル" [ref=e226] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e227]: リテールポータル
+            - listitem [ref=e228]:
+              - generic [ref=e229]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e230]:
+            - listitem [ref=e231]:
+              - link "設定" [ref=e234] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e237]
+                - generic [ref=e239]: 設定
+    - main [ref=e240]:
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - status:
+            - paragraph [ref=e245]: 調整伝票。このページの準備が整いました
+          - generic [ref=e247]:
+            - heading "調整伝票" [level=1] [ref=e250]
+            - link "調整伝票を作成する" [ref=e254] [cursor=pointer]:
+              - /url: /admin/inventory_adjustment_orders/create
+              - img [ref=e257]
+              - generic [ref=e259]: 調整伝票を作成する
+        - generic [ref=e264]:
+          - generic [ref=e270]:
+            - tablist [ref=e277]:
+              - tab "すべて" [ref=e278] [cursor=pointer]:
+                - generic [ref=e280]: すべて
+              - tab "未実施" [ref=e281] [cursor=pointer]:
+                - generic [ref=e283]: 未実施
+              - tab "実施済み" [active] [selected] [ref=e284] [cursor=pointer]:
+                - generic [ref=e286]: 実施済み
+              - tab "キャンセル" [ref=e287] [cursor=pointer]:
+                - generic [ref=e289]: キャンセル
+            - generic [ref=e290]:
+              - button "検索と絞り込みの結果" [ref=e293] [cursor=pointer]:
+                - generic [ref=e295]:
+                  - img [ref=e297]
+                  - img [ref=e300]
+              - button "検索結果を並べ替える" [ref=e306] [cursor=pointer]:
+                - img [ref=e309]
+          - generic [ref=e313]:
+            - table [ref=e315]:
+              - rowgroup [ref=e316]:
+                - row "すべてのアイテムを選択する 管理番号 ロケーション ステータス 作成日 実施日" [ref=e317]:
+                  - columnheader "すべてのアイテムを選択する" [ref=e318]:
+                    - generic [ref=e320] [cursor=pointer]
+                  - columnheader "管理番号" [ref=e326]:
+                    - generic [ref=e327]: 管理番号
+                  - columnheader "ロケーション" [ref=e328]:
+                    - generic [ref=e329]: ロケーション
+                  - columnheader "ステータス" [ref=e330]:
+                    - generic [ref=e331]: ステータス
+                  - columnheader "作成日" [ref=e332]:
+                    - generic [ref=e333]: 作成日
+                  - columnheader "実施日" [ref=e334]:
+                    - generic [ref=e335]: 実施日
+              - rowgroup [ref=e336]:
+                - 'row "アイテムを選択する #IA-1013 TEST_E2E_20260622_GU倉庫_ON_1905 完了 実施済み 2026年06月27日 00:36 2026年06月27日 00:39" [ref=e337] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e338]:
+                    - generic [ref=e340]
+                  - cell "#IA-1013" [ref=e346]:
+                    - link "#IA-1013" [ref=e347]:
+                      - /url: /admin/inventory_adjustment_orders/656af2b4-e907-52d7-a665-6a7dcef5b31a_InventoryAdjustmentOrder
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1905" [ref=e349]:
+                    - paragraph [ref=e350]: TEST_E2E_20260622_GU倉庫_ON_1905
+                  - cell "完了 実施済み" [ref=e351]:
+                    - generic [ref=e352]
+                  - cell "2026年06月27日 00:36" [ref=e359]:
+                    - paragraph [ref=e360]: 2026年06月27日 00:36
+                  - cell "2026年06月27日 00:39" [ref=e361]:
+                    - paragraph [ref=e362]: 2026年06月27日 00:39
+                - 'row "アイテムを選択する #IA-1012 TEST_FAQ_20260624_GU倉庫_ON_092214 完了 実施済み 2026年06月24日 09:46 2026年06月24日 09:47" [ref=e363] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e364]:
+                    - generic [ref=e366]
+                  - cell "#IA-1012" [ref=e372]:
+                    - link "#IA-1012" [ref=e373]:
+                      - /url: /admin/inventory_adjustment_orders/6d2b8c88-f479-55be-9d96-a3c60eea5e29_InventoryAdjustmentOrder
+                  - cell "TEST_FAQ_20260624_GU倉庫_ON_092214" [ref=e375]:
+                    - paragraph [ref=e376]: TEST_FAQ_20260624_GU倉庫_ON_092214
+                  - cell "完了 実施済み" [ref=e377]:
+                    - generic [ref=e378]
+                  - cell "2026年06月24日 09:46" [ref=e385]:
+                    - paragraph [ref=e386]: 2026年06月24日 09:46
+                  - cell "2026年06月24日 09:47" [ref=e387]:
+                    - paragraph [ref=e388]: 2026年06月24日 09:47
+                - 'row "アイテムを選択する #IA-1011 TEST_E2E_20260622_GU倉庫_ON_1905 完了 実施済み 2026年06月22日 09:14 2026年06月22日 09:15" [ref=e389] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e390]:
+                    - generic [ref=e392]
+                  - cell "#IA-1011" [ref=e398]:
+                    - link "#IA-1011" [ref=e399]:
+                      - /url: /admin/inventory_adjustment_orders/088f7196-6115-5469-b0d6-3e77f5714a26_InventoryAdjustmentOrder
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1905" [ref=e401]:
+                    - paragraph [ref=e402]: TEST_E2E_20260622_GU倉庫_ON_1905
+                  - cell "完了 実施済み" [ref=e403]:
+                    - generic [ref=e404]
+                  - cell "2026年06月22日 09:14" [ref=e411]:
+                    - paragraph [ref=e412]: 2026年06月22日 09:14
+                  - cell "2026年06月22日 09:15" [ref=e413]:
+                    - paragraph [ref=e414]: 2026年06月22日 09:15
+                - 'row "アイテムを選択する #IA-1010 TEST_E2E_20260622_GU倉庫_ON_1905 完了 実施済み 2026年06月22日 08:37 2026年06月22日 08:37" [ref=e415] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e416]:
+                    - generic [ref=e418]
+                  - cell "#IA-1010" [ref=e424]:
+                    - link "#IA-1010" [ref=e425]:
+                      - /url: /admin/inventory_adjustment_orders/9142e284-c8f7-5830-9ed9-42cf140d9075_InventoryAdjustmentOrder
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1905" [ref=e427]:
+                    - paragraph [ref=e428]: TEST_E2E_20260622_GU倉庫_ON_1905
+                  - cell "完了 実施済み" [ref=e429]:
+                    - generic [ref=e430]
+                  - cell "2026年06月22日 08:37" [ref=e437]:
+                    - paragraph [ref=e438]: 2026年06月22日 08:37
+                  - cell "2026年06月22日 08:37" [ref=e439]:
+                    - paragraph [ref=e440]: 2026年06月22日 08:37
+                - 'row "アイテムを選択する #IA-1009 ユニクロ物流倉庫 完了 実施済み 2026年06月18日 22:33 2026年06月18日 22:33" [ref=e441] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e442]:
+                    - generic [ref=e444]
+                  - cell "#IA-1009" [ref=e450]:
+                    - link "#IA-1009" [ref=e451]:
+                      - /url: /admin/inventory_adjustment_orders/4dffea8e-dea2-5327-8844-90862115e523_InventoryAdjustmentOrder
+                  - cell "ユニクロ物流倉庫" [ref=e453]:
+                    - paragraph [ref=e454]: ユニクロ物流倉庫
+                  - cell "完了 実施済み" [ref=e455]:
+                    - generic [ref=e456]
+                  - cell "2026年06月18日 22:33" [ref=e463]:
+                    - paragraph [ref=e464]: 2026年06月18日 22:33
+                  - cell "2026年06月18日 22:33" [ref=e465]:
+                    - paragraph [ref=e466]: 2026年06月18日 22:33
+                - 'row "アイテムを選択する #IA-1008 ユニクロ物流倉庫 完了 実施済み 2026年06月18日 22:32 2026年06月18日 22:32" [ref=e467] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e468]:
+                    - generic [ref=e470]
+                  - cell "#IA-1008" [ref=e476]:
+                    - link "#IA-1008" [ref=e477]:
+                      - /url: /admin/inventory_adjustment_orders/89bae4ef-92f0-5244-b1b4-810adccf1172_InventoryAdjustmentOrder
+                  - cell "ユニクロ物流倉庫" [ref=e479]:
+                    - paragraph [ref=e480]: ユニクロ物流倉庫
+                  - cell "完了 実施済み" [ref=e481]:
+                    - generic [ref=e482]
+                  - cell "2026年06月18日 22:32" [ref=e489]:
+                    - paragraph [ref=e490]: 2026年06月18日 22:32
+                  - cell "2026年06月18日 22:32" [ref=e491]:
+                    - paragraph [ref=e492]: 2026年06月18日 22:32
+                - 'row "アイテムを選択する #IA-1007 ユニクロ物流倉庫 警告 キャンセル 2026年06月18日 22:30" [ref=e493] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e494]:
+                    - generic [ref=e496]
+                  - cell "#IA-1007" [ref=e502]:
+                    - link "#IA-1007" [ref=e503]:
+                      - /url: /admin/inventory_adjustment_orders/13cf5661-75fd-56e3-900c-6c99c6239086_InventoryAdjustmentOrder
+                  - cell "ユニクロ物流倉庫" [ref=e505]:
+                    - paragraph [ref=e506]: ユニクロ物流倉庫
+                  - cell "警告 キャンセル" [ref=e507]:
+                    - generic [ref=e508]
+                  - cell "2026年06月18日 22:30" [ref=e511]:
+                    - paragraph [ref=e512]: 2026年06月18日 22:30
+                  - cell [ref=e513]:
+                    - paragraph
+                - 'row "アイテムを選択する #IA-1006 ユニクロ物流倉庫 完了 実施済み 2026年06月16日 23:12 2026年06月16日 23:13" [ref=e514] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e515]:
+                    - generic [ref=e517]
+                  - cell "#IA-1006" [ref=e523]:
+                    - link "#IA-1006" [ref=e524]:
+                      - /url: /admin/inventory_adjustment_orders/05fdc442-65d4-568d-bcf1-529931b0eab7_InventoryAdjustmentOrder
+                  - cell "ユニクロ物流倉庫" [ref=e526]:
+                    - paragraph [ref=e527]: ユニクロ物流倉庫
+                  - cell "完了 実施済み" [ref=e528]:
+                    - generic [ref=e529]
+                  - cell "2026年06月16日 23:12" [ref=e536]:
+                    - paragraph [ref=e537]: 2026年06月16日 23:12
+                  - cell "2026年06月16日 23:13" [ref=e538]:
+                    - paragraph [ref=e539]: 2026年06月16日 23:13
+                - 'row "アイテムを選択する #IA-1005 ユニクロ物流倉庫 完了 実施済み 2026年06月16日 23:10 2026年06月16日 23:11" [ref=e540] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e541]:
+                    - generic [ref=e543]
+                  - cell "#IA-1005" [ref=e549]:
+                    - link "#IA-1005" [ref=e550]:
+                      - /url: /admin/inventory_adjustment_orders/b614e67a-7ed8-5304-840c-3bd22040caa8_InventoryAdjustmentOrder
+                  - cell "ユニクロ物流倉庫" [ref=e552]:
+                    - paragraph [ref=e553]: ユニクロ物流倉庫
+                  - cell "完了 実施済み" [ref=e554]:
+                    - generic [ref=e555]
+                  - cell "2026年06月16日 23:10" [ref=e562]:
+                    - paragraph [ref=e563]: 2026年06月16日 23:10
+                  - cell "2026年06月16日 23:11" [ref=e564]:
+                    - paragraph [ref=e565]: 2026年06月16日 23:11
+                - 'row "アイテムを選択する #IA-1004 ユニクロ物流倉庫 完了 実施済み 2026年06月16日 17:44 2026年06月16日 17:45" [ref=e566] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e567]:
+                    - generic [ref=e569]
+                  - cell "#IA-1004" [ref=e575]:
+                    - link "#IA-1004" [ref=e576]:
+                      - /url: /admin/inventory_adjustment_orders/0885409d-abd6-5391-80e4-68841a09f0e5_InventoryAdjustmentOrder
+                  - cell "ユニクロ物流倉庫" [ref=e578]:
+                    - paragraph [ref=e579]: ユニクロ物流倉庫
+                  - cell "完了 実施済み" [ref=e580]:
+                    - generic [ref=e581]
+                  - cell "2026年06月16日 17:44" [ref=e588]:
+                    - paragraph [ref=e589]: 2026年06月16日 17:44
+                  - cell "2026年06月16日 17:45" [ref=e590]:
+                    - paragraph [ref=e591]: 2026年06月16日 17:45
+                - 'row "アイテムを選択する #IA-1003 ユニクロEC 完了 実施済み 2026年06月15日 18:16 2026年06月15日 18:16" [ref=e592] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e593]:
+                    - generic [ref=e595]
+                  - cell "#IA-1003" [ref=e601]:
+                    - link "#IA-1003" [ref=e602]:
+                      - /url: /admin/inventory_adjustment_orders/e9801933-cc2a-569b-aaa0-d9db7412f47b_InventoryAdjustmentOrder
+                  - cell "ユニクロEC" [ref=e604]:
+                    - paragraph [ref=e605]: ユニクロEC
+                  - cell "完了 実施済み" [ref=e606]:
+                    - generic [ref=e607]
+                  - cell "2026年06月15日 18:16" [ref=e614]:
+                    - paragraph [ref=e615]: 2026年06月15日 18:16
+                  - cell "2026年06月15日 18:16" [ref=e616]:
+                    - paragraph [ref=e617]: 2026年06月15日 18:16
+                - 'row "アイテムを選択する #IA-1002 ユニクロEC 完了 実施済み 2026年06月15日 18:14 2026年06月15日 18:15" [ref=e618] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e619]:
+                    - generic [ref=e621]
+                  - cell "#IA-1002" [ref=e627]:
+                    - link "#IA-1002" [ref=e628]:
+                      - /url: /admin/inventory_adjustment_orders/7e6b7a13-b921-51fe-b5dc-36b910b64124_InventoryAdjustmentOrder
+                  - cell "ユニクロEC" [ref=e630]:
+                    - paragraph [ref=e631]: ユニクロEC
+                  - cell "完了 実施済み" [ref=e632]:
+                    - generic [ref=e633]
+                  - cell "2026年06月15日 18:14" [ref=e640]:
+                    - paragraph [ref=e641]: 2026年06月15日 18:14
+                  - cell "2026年06月15日 18:15" [ref=e642]:
+                    - paragraph [ref=e643]: 2026年06月15日 18:15
+                - 'row "アイテムを選択する #IA-1001 ユニクロ物流倉庫 警告 キャンセル 2026年06月05日 19:08" [ref=e644] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e645]:
+                    - generic [ref=e647]
+                  - cell "#IA-1001" [ref=e653]:
+                    - link "#IA-1001" [ref=e654]:
+                      - /url: /admin/inventory_adjustment_orders/db20a1cd-bb19-59ea-9561-bfb17b539434_InventoryAdjustmentOrder
+                  - cell "ユニクロ物流倉庫" [ref=e656]:
+                    - paragraph [ref=e657]: ユニクロ物流倉庫
+                  - cell "警告 キャンセル" [ref=e658]:
+                    - generic [ref=e659]
+                  - cell "2026年06月05日 19:08" [ref=e662]:
+                    - paragraph [ref=e663]: 2026年06月05日 19:08
+                  - cell [ref=e664]:
+                    - paragraph
+                - 'row "アイテムを選択する #IA-1000 ユニクロ物流倉庫 完了 実施済み 2026年06月05日 18:44 2026年06月05日 18:47" [ref=e665] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e666]:
+                    - generic [ref=e668]
+                  - cell "#IA-1000" [ref=e674]:
+                    - link "#IA-1000" [ref=e675]:
+                      - /url: /admin/inventory_adjustment_orders/a2ee3134-fbb1-52f8-9f1b-9bd89412dd88_InventoryAdjustmentOrder
+                  - cell "ユニクロ物流倉庫" [ref=e677]:
+                    - paragraph [ref=e678]: ユニクロ物流倉庫
+                  - cell "完了 実施済み" [ref=e679]:
+                    - generic [ref=e680]
+                  - cell "2026年06月05日 18:44" [ref=e687]:
+                    - paragraph [ref=e688]: 2026年06月05日 18:44
+                  - cell "2026年06月05日 18:47" [ref=e689]:
+                    - paragraph [ref=e690]: 2026年06月05日 18:47
+            - navigation "ページネーション" [ref=e694]:
+              - generic [ref=e697]:
+                - generic [ref=e698]:
+                  - button "前へ" [disabled]:
+                    - generic
+                - generic [ref=e699]:
+                  - button "次へ" [disabled]:
+                    - generic
+  - region "Notifications alt+T"
+  - alert [ref=e10]

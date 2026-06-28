@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-06-27T16:40:07.649126+00:00",
+  "stamp": "20260628_013725",
+  "catalogs": [
+    {
+      "title": "TEST_FAQ_RULE_MIX_20260628_013725",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/2f4edd32-7e00-5bb8-b96d-a4f538b3bb6b_Catalog"
+    },
+    {
+      "title": "TEST_FAQ_RULE_MULTI_20260628_013725",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/7ca072e9-45b4-5450-a016-db32cf0c7119_Catalog"
+    },
+    {
+      "title": "TEST_FAQ_RULE_WILDCARD_20260628_013725",
+      "url": "https://www.sqstackstaging.com/admin/catalogs/1aa9c2c7-53c4-5e3c-b567-1314faeeff1c_Catalog"
+    }
+  ],
+  "rules": {
+    "mix": [
+      {
+        "field": "VENDOR",
+        "condition": "EQUALS",
+        "value": "TEST_VENDOR_MIX_20260628_013725"
+      },
+      {
+        "field": "BRAND",
+        "condition": "EQUALS",
+        "value": "GU"
+      }
+    ],
+    "multi": [
+      {
+        "field": "VENDOR",
+        "condition": "EQUALS",
+        "value": "TEST_MULTI_A_20260628_013725,TEST_MULTI_B_20260628_013725"
+      }
+    ],
+    "wildcard": [
+      {
+        "field": "VENDOR",
+        "condition": "EQUALS",
+        "value": "*"
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725",
+      "code": "TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725",
+      "vendor": "TEST_VENDOR_MIX_20260628_013725",
+      "brand_code": null,
+      "url": "https://www.sqstackstaging.com/admin/products/68a4350c-b119-58f5-ab2c-71a1ecf0b6d8_Product"
+    },
+    {
+      "name": "TEST_FAQ_MIX_BRAND_ONLY_20260628_013725",
+      "code": "TEST_FAQ_MIX_BRAND_ONLY_20260628_013725",
+      "vendor": "TEST_VENDOR_OTHER_20260628_013725",
+      "brand_code": "GU",
+      "url": "https://www.sqstackstaging.com/admin/products/3c0ef8f0-c343-59a6-8875-c7176afcdd6c_Product"
+    },
+    {
+      "name": "TEST_FAQ_MIX_BOTH_20260628_013725",
+      "code": "TEST_FAQ_MIX_BOTH_20260628_013725",
+      "vendor": "TEST_VENDOR_MIX_20260628_013725",
+      "brand_code": "GU",
+      "url": "https://www.sqstackstaging.com/admin/products/0554529e-be14-57e5-985b-b8f835330e13_Product"
+    },
+    {
+      "name": "TEST_FAQ_MULTI_A_ONLY_20260628_013725",
+      "code": "TEST_FAQ_MULTI_A_ONLY_20260628_013725",
+      "vendor": "TEST_MULTI_A_20260628_013725",
+      "brand_code": null,
+      "url": "https://www.sqstackstaging.com/admin/products/1193e161-2d03-57dd-b6a3-32e700641581_Product"
+    },
+    {
+      "name": "TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725",
+      "code": "TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725",
+      "vendor": "TEST_MULTI_A_20260628_013725,TEST_MULTI_B_20260628_013725",
+      "brand_code": null,
+      "url": "https://www.sqstackstaging.com/admin/products/f85a33c3-b04d-506b-b7b7-6960fc034fb1_Product"
+    },
+    {
+      "name": "TEST_FAQ_WILDCARD_ANY_20260628_013725",
+      "code": "TEST_FAQ_WILDCARD_ANY_20260628_013725",
+      "vendor": "TEST_ANY_20260628_013725",
+      "brand_code": null,
+      "url": "https://www.sqstackstaging.com/admin/products/3c9f5635-83ea-5650-a20a-dbc4d416031a_Product"
+    },
+    {
+      "name": "TEST_FAQ_WILDCARD_LITERAL_20260628_013725",
+      "code": "TEST_FAQ_WILDCARD_LITERAL_20260628_013725",
+      "vendor": "*",
+      "brand_code": null,
+      "url": "https://www.sqstackstaging.com/admin/products/e69a9adf-3c61-5715-8bea-7061d2bc565d_Product"
+    }
+  ],
+  "checks": {
+    "mix": {
+      "presence": {
+        "TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725": true,
+        "TEST_FAQ_MIX_BRAND_ONLY_20260628_013725": true,
+        "TEST_FAQ_MIX_BOTH_20260628_013725": true
+      },
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_RULE_MIX_20260628_013725。このページの準備が整いました TEST_FAQ_RULE_MIX_20260628_013725 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する すべてのアイテムを選択する 商品 商品コード アイテムを選択する product thumbnail TEST_FAQ_MIX_BOTH_20260628_013725 TEST_FAQ_MIX_BOTH_20260628_013725 アイテムを選択する product thumbnail TEST_FAQ_MIX_BRAND_ONLY_20260628_013725 TEST_FAQ_MIX_BRAND_ONLY_20260628_013725 アイテムを選択する product thumbnail TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725 TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725"
+    },
+    "multi": {
+      "presence": {
+        "TEST_FAQ_MULTI_A_ONLY_20260628_013725": false,
+        "TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725": true
+      },
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_RULE_MULTI_20260628_013725。このページの準備が整いました TEST_FAQ_RULE_MULTI_20260628_013725 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する すべてのアイテムを選択する 商品 商品コード アイテムを選択する product thumbnail TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725 TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725"
+    },
+    "wildcard": {
+      "presence": {
+        "TEST_FAQ_WILDCARD_ANY_20260628_013725": false,
+        "TEST_FAQ_WILDCARD_LITERAL_20260628_013725": true
+      },
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_RULE_WILDCARD_20260628_013725。このページの準備が整いました TEST_FAQ_RULE_WILDCARD_20260628_013725 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する すべてのアイテムを選択する 商品 商品コード アイテムを選択する product thumbnail TEST_FAQ_WILDCARD_LITERAL_20260628_013725 TEST_FAQ_WILDCARD_LITERAL_20260628_013725"
+    }
+  },
+  "cleanup": {
+    "products": [
+      {
+        "url": "https://www.sqstackstaging.com/admin/products/e69a9adf-3c61-5715-8bea-7061d2bc565d_Product",
+        "name": "TEST_FAQ_WILDCARD_LITERAL_20260628_013725",
+        "deleted": true,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_WILDCARD_LITERAL_20260628_013725。このページの準備が整いました TEST_FAQ_WILDCARD_LITERAL_20260628_013725 情報 下書き その他の操作 商品コード TEST_FAQ_WILDCARD_LITERAL_20260628_013725 商品名 説明文 0/5000 メディア（0件） 画像をアップロード 追加 バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を削除しますか？ この商品を削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました 該当するProductが見つかりませんでした。 再実行"
+      },
+      {
+        "url": "https://www.sqstackstaging.com/admin/products/3c9f5635-83ea-5650-a20a-dbc4d416031a_Product",
+        "name": "TEST_FAQ_WILDCARD_ANY_20260628_013725",
+        "deleted": false,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_WILDCARD_ANY_20260628_013725。このページの準備が整いました TEST_FAQ_WILDCARD_ANY_20260628_013725 情報 下書き その他の操作 商品コード TEST_FAQ_WILDCARD_ANY_20260628_013725 商品名 説明文 0/5000 メディア（0件） 画像をアップロード 追加 バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を削除しますか？ この商品を削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 保存する"
+      },
+      {
+        "url": "https://www.sqstackstaging.com/admin/products/f85a33c3-b04d-506b-b7b7-6960fc034fb1_Product",
+        "name": "TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725",
+        "deleted": false,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725。このページの準備が整いました TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725 情報 下書き その他の操作 商品コード TEST_FAQ_MULTI_COMMA_EXACT_20260628_013725 商品名 説明文 0/5000 メディア（0件） 画像をアップロード 追加 バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を削除しますか？ この商品を削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 保存する"
+      },
+      {
+        "url": "https://www.sqstackstaging.com/admin/products/1193e161-2d03-57dd-b6a3-32e700641581_Product",
+        "name": "TEST_FAQ_MULTI_A_ONLY_20260628_013725",
+        "deleted": false,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_MULTI_A_ONLY_20260628_013725。このページの準備が整いました TEST_FAQ_MULTI_A_ONLY_20260628_013725 情報 下書き その他の操作 商品コード TEST_FAQ_MULTI_A_ONLY_20260628_013725 商品名 説明文 0/5000 メディア（0件） 画像をアップロード 追加 バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を削除しますか？ この商品を削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 保存する"
+      },
+      {
+        "url": "https://www.sqstackstaging.com/admin/products/0554529e-be14-57e5-985b-b8f835330e13_Product",
+        "name": "TEST_FAQ_MIX_BOTH_20260628_013725",
+        "deleted": true,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_MIX_BOTH_20260628_013725。このページの準備が整いました TEST_FAQ_MIX_BOTH_20260628_013725 情報 下書き その他の操作 商品コード TEST_FAQ_MIX_BOTH_20260628_013725 商品名 説明文 0/5000 メディア（0件） 画像をアップロード 追加 バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を削除しますか？ この商品を削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました 該当するProductが見つかりませんでした。 再実行"
+      },
+      {
+        "url": "https://www.sqstackstaging.com/admin/products/3c0ef8f0-c343-59a6-8875-c7176afcdd6c_Product",
+        "name": "TEST_FAQ_MIX_BRAND_ONLY_20260628_013725",
+        "deleted": true,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_MIX_BRAND_ONLY_20260628_013725。このページの準備が整いました TEST_FAQ_MIX_BRAND_ONLY_20260628_013725 情報 下書き その他の操作 商品コード TEST_FAQ_MIX_BRAND_ONLY_20260628_013725 商品名 説明文 0/5000 メディア（0件） 画像をアップロード 追加 バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を削除しますか？ この商品を削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました 該当するProductが見つかりませんでした。 再実行"
+      },
+      {
+        "url": "https://www.sqstackstaging.com/admin/products/68a4350c-b119-58f5-ab2c-71a1ecf0b6d8_Product",
+        "name": "TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725",
+        "deleted": false,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725。このページの準備が整いました TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725 情報 下書き その他の操作 商品コード TEST_FAQ_MIX_VENDOR_ONLY_20260628_013725 商品名 説明文 0/5000 メディア（0件） 画像をアップロード 追加 バリエーション バリエーションを追加する サイズ 情報 サイズ ONE バリエーションがありません 検索エンジンリスティング ページタイトル メタディスクリプション 0/5000 ステータス 公開中 下書き 下書き 商品分類 商品タイプ 製造元 ブランド 選択 タグ タグは付与されていません 保存する 商品を削除しますか？ この商品を削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 保存する"
+      }
+    ],
+    "catalogs": [
+      {
+        "url": "https://www.sqstackstaging.com/admin/catalogs/1aa9c2c7-53c4-5e3c-b567-1314faeeff1c_Catalog",
+        "title": "TEST_FAQ_RULE_WILDCARD_20260628_013725",
+        "deleted": true,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_RULE_WILDCARD_20260628_013725。このページの準備が整いました TEST_FAQ_RULE_WILDCARD_20260628_013725 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください カタログを削除する カタログを削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました 該当するCatalogが見つかりませんでした。 再実行"
+      },
+      {
+        "url": "https://www.sqstackstaging.com/admin/catalogs/7ca072e9-45b4-5450-a016-db32cf0c7119_Catalog",
+        "title": "TEST_FAQ_RULE_MULTI_20260628_013725",
+        "deleted": true,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_RULE_MULTI_20260628_013725。このページの準備が整いました TEST_FAQ_RULE_MULTI_20260628_013725 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください カタログを削除する カタログを削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました 該当するCatalogが見つかりませんでした。 再実行"
+      },
+      {
+        "url": "https://www.sqstackstaging.com/admin/catalogs/2f4edd32-7e00-5bb8-b96d-a4f538b3bb6b_Catalog",
+        "title": "TEST_FAQ_RULE_MIX_20260628_013725",
+        "deleted": true,
+        "confirmText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_RULE_MIX_20260628_013725。このページの準備が整いました TEST_FAQ_RULE_MIX_20260628_013725 自動追加ルール インポート その他の操作 タイトル 商品 SKU 商品を追加する 商品コードで検索する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください カタログを削除する カタログを削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+        "error": null,
+        "postDeleteBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 カタログ 店舗受取 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 予期せぬエラーが発生しました 該当するCatalogが見つかりませんでした。 再実行"
+      }
+    ]
+  },
+  "errors": [],
+  "complete": true
+}

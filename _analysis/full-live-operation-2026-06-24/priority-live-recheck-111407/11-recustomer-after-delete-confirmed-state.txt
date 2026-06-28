@@ -1,0 +1,76 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+*[73415]<a />
+	コンテンツにスキップ
+*[73550]<div />
+*[73418]<button data-state=closed expanded=false />
+*[73419]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	*[73567]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	*[73423]<a />
+		ホーム
+	*[73424]<a />
+		商品管理
+	*[73425]<a />
+		在庫管理
+	*[73426]<a />
+		注文管理
+		*[73618]<div />
+	*[73427]<a />
+		顧客管理
+	*[73428]<a />
+		発注管理
+	*[73429]<a />
+		販売設定
+	*[73430]<a />
+		会計
+	*[73431]<a />
+		分析
+	オペレーション
+	*[73432]<a />
+		入荷管理
+		*[73702]<div />
+	*[73433]<a />
+		出荷管理
+		*[73713]<div />
+	*[73434]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	*[73435]<a />
+		ディスカウント
+	*[73436]<a />
+		ポイント
+	*[73437]<a />
+		会員ランク
+	販売チャネル
+	*[73438]<a />
+		Shopify
+	*[73439]<a />
+		OmnibusCore
+	*[73440]<a />
+		スマレジ
+	*[73441]<a />
+		リテールポータル
+	*[73442]<a />
+		卸売
+	[73443]<a />
+		設定
+Recustomer。このページの準備が整いました
+Recustomer
+*[73412]<a />
+	アカウントを接続
+*[74218]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+*[73950]<section aria-label=Notifications alt+T live=polite />
+	*[74230]<li level=1 />
+		*[74227]<button aria-label=Close toast />
+		*[74228]<div />
+			<svg /> <!-- SVG content collapsed -->
+		接続を削除しました
+*[73458]<div id=PolarisPortalsContainer />
+*[73460]<div id=clerk-components />

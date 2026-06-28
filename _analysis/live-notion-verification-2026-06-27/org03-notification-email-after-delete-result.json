@@ -1,0 +1,18 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/organization_notification_emails",
+  "checkedAt": "2026-06-26T18:42:18.565Z",
+  "hasTestName": false,
+  "hasTestEmail": false,
+  "toastDeleted": false,
+  "rowTexts": [
+    {
+      "index": 0,
+      "text": "すべてのアイテムを選択する 名前 メールアドレス"
+    },
+    {
+      "index": 1,
+      "text": "アイテムを選択する test you.4235@gmail.com"
+    }
+  ],
+  "visibleText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n通知用メールアドレス。このページの準備が整いました\n\n通知用メールアドレス\nメールアドレスを追加\nすべて\nすべてのアイテムを選択する\n\t\n名前\n\t\nメールアドレス\n\n\nアイテムを選択する\n\t\n\ntest\n\n\t\n\nyou.4235@gmail.com"
+}

@@ -1,0 +1,54 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/inventory_back_order_rules/06712f89-dc3f-5c05-8eba-be8025942358_InventoryBackOrderRule",
+  "title": "SQ - 管理画面",
+  "h1": [
+    "TEST_FAQ_20260624_予約販売_100908"
+  ],
+  "buttons": [
+    "stack-ps-yosuke\n\n陽介 河野",
+    "ルールを編集する",
+    "バリエーションを追加する"
+  ],
+  "links": [
+    "コンテンツにスキップ",
+    "ホーム",
+    "商品管理",
+    "在庫管理",
+    "注文管理",
+    "顧客管理",
+    "発注管理",
+    "販売設定",
+    "販売価格",
+    "予約販売",
+    "販売上限",
+    "販売閾値",
+    "会計",
+    "分析",
+    "入荷管理",
+    "出荷管理",
+    "在庫依頼\n未完了の在庫依頼 3件\n3",
+    "ディスカウント",
+    "ポイント",
+    "会員ランク",
+    "Shopify",
+    "OmnibusCore",
+    "スマレジ",
+    "リテールポータル",
+    "卸売",
+    "設定",
+    "インポート"
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": "SKUコードで検索する",
+      "aria": null,
+      "role": null,
+      "value": ""
+    }
+  ],
+  "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_20260624_予約販売_100908。このページの準備が整いました\n\nTEST_FAQ_20260624_予約販売_100908\nルールを編集する\nインポート\nバリエーションを追加する\nSKUコードで検索する\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください",
+  "delete_text_present": false
+}

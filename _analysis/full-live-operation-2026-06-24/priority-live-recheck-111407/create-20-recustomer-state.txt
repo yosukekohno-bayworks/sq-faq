@@ -1,0 +1,75 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[72047]<a />
+	コンテンツにスキップ
+[72172]<div />
+[72050]<button data-state=closed expanded=false />
+[72051]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[72189]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[72055]<a />
+		ホーム
+	[72056]<a />
+		商品管理
+	[72057]<a />
+		在庫管理
+	[72058]<a />
+		注文管理
+		[72240]<div />
+	[72059]<a />
+		顧客管理
+	[72060]<a />
+		発注管理
+	[72061]<a />
+		販売設定
+	[72062]<a />
+		会計
+	[72063]<a />
+		分析
+	オペレーション
+	[72064]<a />
+		入荷管理
+		[72324]<div />
+	[72065]<a />
+		出荷管理
+		[72335]<div />
+	[72066]<a />
+		在庫依頼
+		[72347]<div />
+	CRM
+	[72067]<a />
+		ディスカウント
+	[72068]<a />
+		ポイント
+	[72069]<a />
+		会員ランク
+	販売チャネル
+	[72070]<a />
+		Shopify
+	[72071]<a />
+		OmnibusCore
+	[72072]<a />
+		スマレジ
+	[72073]<a />
+		リテールポータル
+	[72074]<a />
+		卸売
+	[72075]<a />
+		設定
+アカウントを接続する。このページの準備が整いました
+[72447]<div />
+	[72448]<div />
+		[72077]<a />
+アカウントを接続する
+ストアID
+|SHADOW(open)|[72043]<input id=:r19: autocomplete=off type=text required=true />
+シークレット
+|SHADOW(open)|[72044]<input id=:r1a: autocomplete=off type=text required=true />
+[72038]<button />
+	保存する
+[72495]<section aria-label=Notifications alt+T live=polite />
+[72080]<div id=PolarisPortalsContainer />
+[72082]<div id=clerk-components />

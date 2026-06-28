@@ -1,0 +1,631 @@
+- generic [ref=e1] [box=0,0,1440,1100]:
+  - generic [ref=e11] [box=0,0,1440,1100]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e14] [box=0,0,1440,56]:
+      - link [ref=e17] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e19] [box=960,0,480,56]:
+        - button [ref=e23] [cursor=pointer] [box=1244,12,32,32]:
+          - img [ref=e25] [box=1250,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer] [box=1284,12,148,32]:
+          - generic [ref=e30] [box=1286,14,116,28]:
+            - paragraph [ref=e31] [box=1296,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e33] [box=1296,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35] [box=1402,14,28,28]
+    - generic "メニュー" [ref=e36] [box=0,56,240,1044]:
+      - navigation [ref=e37] [box=0,56,240,1044]:
+        - generic [ref=e38] [box=0,56,240,1044]:
+          - list [ref=e39] [box=0,72,240,332]:
+            - listitem [ref=e40] [box=0,72,240,28]:
+              - link "ホーム" [ref=e43] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e46] [box=20,76,20,20]
+                - generic [ref=e48] [box=48,76,176,20]: ホーム
+            - listitem [ref=e49] [box=0,100,240,92]:
+              - link "商品管理" [ref=e52] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e55] [box=20,104,20,20]
+                - generic [ref=e57] [box=48,104,176,20]: 商品管理
+              - list [ref=e60] [box=0,128,240,56]:
+                - listitem [ref=e61] [box=0,128,240,28]:
+                  - link "カタログ" [ref=e64] [cursor=pointer] [box=12,128,216,28]:
+                    - /url: /admin/catalogs
+                    - generic [ref=e65] [box=48,132,176,20]: カタログ
+                - listitem [ref=e66] [box=0,156,240,28]:
+                  - link "店舗受取" [ref=e69] [cursor=pointer] [box=12,156,216,28]:
+                    - /url: /admin/local_pickup_product_variants
+                    - generic [ref=e70] [box=48,160,176,20]: 店舗受取
+            - listitem [ref=e71] [box=0,192,240,28]:
+              - link "在庫管理" [ref=e74] [cursor=pointer] [box=12,192,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e77] [box=20,196,20,20]
+                - generic [ref=e79] [box=48,196,176,20]: 在庫管理
+            - listitem [ref=e80] [box=0,220,240,28]:
+              - link "注文管理" [ref=e83] [cursor=pointer] [box=12,220,216,28]:
+                - /url: /admin/orders
+                - img [ref=e86] [box=20,224,20,20]
+                - generic [ref=e88] [box=48,224,172,20]: 注文管理
+            - listitem [ref=e89] [box=0,248,240,28]:
+              - link "顧客管理" [ref=e92] [cursor=pointer] [box=12,248,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e95] [box=20,252,20,20]
+                - generic [ref=e98] [box=48,252,176,20]: 顧客管理
+            - listitem [ref=e99] [box=0,276,240,28]:
+              - link "発注管理" [ref=e102] [cursor=pointer] [box=12,276,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e105] [box=20,280,20,20]
+                - generic [ref=e108] [box=48,280,176,20]: 発注管理
+            - listitem [ref=e109] [box=0,304,240,28]:
+              - link "販売設定" [ref=e112] [cursor=pointer] [box=12,304,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e115] [box=20,308,20,20]
+                - generic [ref=e120] [box=48,308,176,20]: 販売設定
+            - listitem [ref=e121] [box=0,332,240,28]:
+              - link "会計" [ref=e124] [cursor=pointer] [box=12,332,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e127] [box=20,336,20,20]
+                - generic [ref=e129] [box=48,336,176,20]: 会計
+            - listitem [ref=e130] [box=0,360,240,28]:
+              - generic [ref=e131] [box=0,360,240,28]:
+                - generic [box=12,360,216,28]:
+                  - link "分析" [box=12,360,216,28]:
+                    - /url: /admin/analytics
+                    - generic [box=20,364,20,20]:
+                      - generic [box=20,364,20,20]:
+                        - img [box=20,364,20,20]
+                    - generic [box=48,364,176,20]: 分析
+          - list [ref=e132] [box=0,404,240,132]:
+            - listitem [ref=e133] [box=0,412,240,24]:
+              - generic [ref=e134] [box=20,416,216,16]: オペレーション
+            - listitem [ref=e135] [box=0,436,240,28]:
+              - link "入荷管理" [ref=e138] [cursor=pointer] [box=12,436,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e141] [box=20,440,20,20]
+                - generic [ref=e145] [box=48,440,172,20]: 入荷管理
+            - listitem [ref=e146] [box=0,464,240,28]:
+              - link "出荷管理" [ref=e149] [cursor=pointer] [box=12,464,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e152] [box=20,468,20,20]
+                - generic [ref=e154] [box=48,468,172,20]: 出荷管理
+            - listitem [ref=e155] [box=0,492,240,28]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e158] [cursor=pointer] [box=12,492,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e161] [box=20,496,20,20]
+                - generic [ref=e164] [box=48,496,149,20]: 在庫依頼
+                - generic [ref=e166] [box=201,496,23,20]:
+                  - generic [ref=e167] [box=209,492,1,1]: 未完了の在庫依頼 3件
+                  - generic [ref=e168] [box=209,498,7,16]: "3"
+          - list [ref=e169] [box=0,536,240,132]:
+            - listitem [ref=e170] [box=0,544,240,24]:
+              - generic [ref=e171] [box=20,548,216,16]: CRM
+            - listitem [ref=e172] [box=0,568,240,28]:
+              - link "ディスカウント" [ref=e175] [cursor=pointer] [box=12,568,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e178] [box=20,572,20,20]
+                - generic [ref=e180] [box=48,572,176,20]: ディスカウント
+            - listitem [ref=e181] [box=0,596,240,28]:
+              - link "ポイント" [ref=e184] [cursor=pointer] [box=12,596,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e187] [box=20,600,20,20]
+                - generic [ref=e189] [box=48,600,176,20]: ポイント
+            - listitem [ref=e190] [box=0,624,240,28]:
+              - link "会員ランク" [ref=e193] [cursor=pointer] [box=12,624,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e196] [box=20,628,20,20]
+                - generic [ref=e199] [box=48,628,176,20]: 会員ランク
+          - list [ref=e200] [box=0,668,240,380]:
+            - listitem [ref=e201] [box=0,676,240,24]:
+              - generic [ref=e202] [box=20,680,216,16]: 販売チャネル
+            - listitem [ref=e203] [box=0,700,240,28]:
+              - link "Shopify" [ref=e206] [cursor=pointer] [box=12,700,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e207] [box=20,704,204,20]: Shopify
+            - listitem [ref=e208] [box=0,728,240,28]:
+              - link "OmnibusCore" [ref=e211] [cursor=pointer] [box=12,728,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e212] [box=20,732,204,20]: OmnibusCore
+            - listitem [ref=e213] [box=0,756,240,28]:
+              - link "スマレジ" [ref=e216] [cursor=pointer] [box=12,756,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e217] [box=20,760,204,20]: スマレジ
+            - listitem [ref=e218] [box=0,784,240,28]:
+              - link "リテールポータル" [ref=e221] [cursor=pointer] [box=12,784,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e222] [box=20,788,204,20]: リテールポータル
+            - listitem [ref=e223] [box=0,812,240,28]:
+              - generic [ref=e224] [box=0,812,240,28]:
+                - generic [box=12,812,216,28]:
+                  - link "卸売" [box=12,812,216,28]:
+                    - /url: /admin/b2b
+                    - generic [box=20,816,204,20]: 卸売
+          - list [ref=e225] [box=0,1048,240,52]:
+            - listitem [ref=e226] [box=0,1056,240,28]:
+              - link "設定" [ref=e229] [cursor=pointer] [box=12,1056,216,28]:
+                - /url: /admin/settings
+                - img [ref=e232] [box=20,1060,20,20]
+                - generic [ref=e234] [box=48,1060,176,20]: 設定
+    - main [ref=e235] [box=0,0,1440,1100]:
+      - generic [ref=e238] [box=240,56,1199,1231]:
+        - generic [ref=e239] [box=264,56,1151,94]:
+          - status [box=264,80,1151,0]:
+            - paragraph [ref=e240] [box=264,56,1,1]: 店舗受取。このページの準備が整いました
+          - generic [ref=e242] [box=264,80,1151,46]:
+            - generic [ref=e243] [box=264,80,569,46]:
+              - heading "店舗受取" [level=1] [ref=e245] [box=264,82,79,24]
+              - paragraph [ref=e247] [box=264,110,569,16]: 店舗受取可能バリエーション一覧
+            - button "バリエーションを追加する" [ref=e251] [cursor=pointer] [box=1247,80,168,28]:
+              - generic [ref=e252] [box=1259,86,144,16]: バリエーションを追加する
+        - generic [ref=e259] [box=264,150,1151,1137]:
+          - table [ref=e261] [box=264,150,1151,1096]:
+            - rowgroup [ref=e262] [box=264,150,1151,37]:
+              - row "すべてのアイテムを選択する バリエーション 商品コード SKU" [ref=e263] [box=264,150,1151,37]:
+                - columnheader "すべてのアイテムを選択する" [ref=e264] [box=264,150,38,37]:
+                  - generic [ref=e266] [cursor=pointer] [box=276,159,18,18]:
+                    - generic [ref=e268] [box=277,160,16,16]:
+                      - checkbox "すべてのアイテムを選択する" [ref=e269] [box=277,160,16,16]
+                      - generic [box=279,162,12,12]:
+                        - img [box=279,162,12,12]
+                    - generic [ref=e271] [box=276,150,1,1]: すべてのアイテムを選択する
+                - columnheader "バリエーション" [ref=e272] [box=302,150,652,37]:
+                  - generic [ref=e273] [box=308,158,640,20]: バリエーション
+                - columnheader "商品コード" [ref=e274] [box=954,150,183,37]:
+                  - generic [ref=e275] [box=960,158,171,20]: 商品コード
+                - columnheader "SKU" [ref=e276] [box=1138,150,277,37]:
+                  - generic [ref=e277] [box=1144,158,259,20]: SKU
+            - rowgroup [ref=e278] [box=264,187,1151,1060]:
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BLACK / XL 486125 486125-09-XL" [ref=e2808] [cursor=pointer] [box=264,187,1151,53]:
+                - cell "アイテムを選択する" [ref=e2809] [box=264,187,38,53]:
+                  - generic [ref=e282] [box=276,204,18,18]:
+                    - generic [ref=e284] [box=277,205,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2810] [box=277,205,16,16]
+                      - generic [box=279,207,12,12]:
+                        - img [box=279,207,12,12]
+                    - generic [ref=e287] [box=276,187,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BLACK / XL" [ref=e288] [box=302,187,652,53]:
+                  - generic [ref=e289] [box=308,193,640,40]:
+                    - img "product variant thumbnail" [ref=e291] [box=313,193,30,40]
+                    - generic [ref=e292] [box=360,193,192,40]:
+                      - paragraph [ref=e293] [box=360,193,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e294] [box=360,213,192,20]: BLACK / XL
+                - cell "486125" [ref=e295] [box=954,187,183,53]:
+                  - paragraph [ref=e296] [box=960,203,171,20]: "486125"
+                - cell "486125-09-XL" [ref=e297] [box=1138,187,277,53]:
+                  - paragraph [ref=e298] [box=1144,203,259,20]: 486125-09-XL
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BLACK / L 486125 486125-09-L" [ref=e2811] [cursor=pointer] [box=264,240,1151,53]:
+                - cell "アイテムを選択する" [ref=e2812] [box=264,240,38,53]:
+                  - generic [ref=e302] [box=276,257,18,18]:
+                    - generic [ref=e304] [box=277,258,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2813] [box=277,258,16,16]
+                      - generic [box=279,260,12,12]:
+                        - img [box=279,260,12,12]
+                    - generic [ref=e307] [box=276,240,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BLACK / L" [ref=e308] [box=302,240,652,53]:
+                  - generic [ref=e309] [box=308,246,640,40]:
+                    - img "product variant thumbnail" [ref=e311] [box=313,246,30,40]
+                    - generic [ref=e312] [box=360,246,192,40]:
+                      - paragraph [ref=e313] [box=360,246,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e314] [box=360,266,192,20]: BLACK / L
+                - cell "486125" [ref=e315] [box=954,240,183,53]:
+                  - paragraph [ref=e316] [box=960,256,171,20]: "486125"
+                - cell "486125-09-L" [ref=e317] [box=1138,240,277,53]:
+                  - paragraph [ref=e318] [box=1144,256,259,20]: 486125-09-L
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ GRAY / L 486125 486125-03-L" [ref=e2814] [cursor=pointer] [box=264,293,1151,53]:
+                - cell "アイテムを選択する" [ref=e2815] [box=264,293,38,53]:
+                  - generic [ref=e322] [box=276,310,18,18]:
+                    - generic [ref=e324] [box=277,311,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2816] [box=277,311,16,16]
+                      - generic [box=279,313,12,12]:
+                        - img [box=279,313,12,12]
+                    - generic [ref=e327] [box=276,293,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ GRAY / L" [ref=e328] [box=302,293,652,53]:
+                  - generic [ref=e329] [box=308,299,640,40]:
+                    - img "product variant thumbnail" [ref=e331] [box=313,299,30,40]
+                    - generic [ref=e332] [box=360,299,192,40]:
+                      - paragraph [ref=e333] [box=360,299,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e334] [box=360,319,192,20]: GRAY / L
+                - cell "486125" [ref=e335] [box=954,293,183,53]:
+                  - paragraph [ref=e336] [box=960,309,171,20]: "486125"
+                - cell "486125-03-L" [ref=e337] [box=1138,293,277,53]:
+                  - paragraph [ref=e338] [box=1144,309,259,20]: 486125-03-L
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ NAVY / L 486125 486125-69-L" [ref=e2817] [cursor=pointer] [box=264,346,1151,53]:
+                - cell "アイテムを選択する" [ref=e2818] [box=264,346,38,53]:
+                  - generic [ref=e342] [box=276,363,18,18]:
+                    - generic [ref=e344] [box=277,364,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2819] [box=277,364,16,16]
+                      - generic [box=279,366,12,12]:
+                        - img [box=279,366,12,12]
+                    - generic [ref=e347] [box=276,346,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ NAVY / L" [ref=e348] [box=302,346,652,53]:
+                  - generic [ref=e349] [box=308,352,640,40]:
+                    - img "product variant thumbnail" [ref=e351] [box=313,352,30,40]
+                    - generic [ref=e352] [box=360,352,192,40]:
+                      - paragraph [ref=e353] [box=360,352,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e354] [box=360,372,192,20]: NAVY / L
+                - cell "486125" [ref=e355] [box=954,346,183,53]:
+                  - paragraph [ref=e356] [box=960,362,171,20]: "486125"
+                - cell "486125-69-L" [ref=e357] [box=1138,346,277,53]:
+                  - paragraph [ref=e358] [box=1144,362,259,20]: 486125-69-L
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ GRAY / XS 486125 486125-03-XS" [ref=e2820] [cursor=pointer] [box=264,399,1151,53]:
+                - cell "アイテムを選択する" [ref=e2821] [box=264,399,38,53]:
+                  - generic [ref=e362] [box=276,416,18,18]:
+                    - generic [ref=e364] [box=277,417,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2822] [box=277,417,16,16]
+                      - generic [box=279,419,12,12]:
+                        - img [box=279,419,12,12]
+                    - generic [ref=e367] [box=276,399,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ GRAY / XS" [ref=e368] [box=302,399,652,53]:
+                  - generic [ref=e369] [box=308,405,640,40]:
+                    - img "product variant thumbnail" [ref=e371] [box=313,405,30,40]
+                    - generic [ref=e372] [box=360,405,192,40]:
+                      - paragraph [ref=e373] [box=360,405,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e374] [box=360,425,192,20]: GRAY / XS
+                - cell "486125" [ref=e375] [box=954,399,183,53]:
+                  - paragraph [ref=e376] [box=960,415,171,20]: "486125"
+                - cell "486125-03-XS" [ref=e377] [box=1138,399,277,53]:
+                  - paragraph [ref=e378] [box=1144,415,259,20]: 486125-03-XS
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ NAVY / XL 486125 486125-69-XL" [ref=e2823] [cursor=pointer] [box=264,452,1151,53]:
+                - cell "アイテムを選択する" [ref=e2824] [box=264,452,38,53]:
+                  - generic [ref=e382] [box=276,469,18,18]:
+                    - generic [ref=e384] [box=277,470,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2825] [box=277,470,16,16]
+                      - generic [box=279,472,12,12]:
+                        - img [box=279,472,12,12]
+                    - generic [ref=e387] [box=276,452,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ NAVY / XL" [ref=e388] [box=302,452,652,53]:
+                  - generic [ref=e389] [box=308,458,640,40]:
+                    - img "product variant thumbnail" [ref=e391] [box=313,458,30,40]
+                    - generic [ref=e392] [box=360,458,192,40]:
+                      - paragraph [ref=e393] [box=360,458,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e394] [box=360,478,192,20]: NAVY / XL
+                - cell "486125" [ref=e395] [box=954,452,183,53]:
+                  - paragraph [ref=e396] [box=960,468,171,20]: "486125"
+                - cell "486125-69-XL" [ref=e397] [box=1138,452,277,53]:
+                  - paragraph [ref=e398] [box=1144,468,259,20]: 486125-69-XL
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ NAVY / XS 486125 486125-69-XS" [ref=e2826] [cursor=pointer] [box=264,505,1151,53]:
+                - cell "アイテムを選択する" [ref=e2827] [box=264,505,38,53]:
+                  - generic [ref=e402] [box=276,522,18,18]:
+                    - generic [ref=e404] [box=277,523,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2828] [box=277,523,16,16]
+                      - generic [box=279,525,12,12]:
+                        - img [box=279,525,12,12]
+                    - generic [ref=e407] [box=276,505,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ NAVY / XS" [ref=e408] [box=302,505,652,53]:
+                  - generic [ref=e409] [box=308,511,640,40]:
+                    - img "product variant thumbnail" [ref=e411] [box=313,511,30,40]
+                    - generic [ref=e412] [box=360,511,192,40]:
+                      - paragraph [ref=e413] [box=360,511,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e414] [box=360,531,192,20]: NAVY / XS
+                - cell "486125" [ref=e415] [box=954,505,183,53]:
+                  - paragraph [ref=e416] [box=960,521,171,20]: "486125"
+                - cell "486125-69-XS" [ref=e417] [box=1138,505,277,53]:
+                  - paragraph [ref=e418] [box=1144,521,259,20]: 486125-69-XS
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BEIGE / S 486125 486125-31-S" [ref=e2829] [cursor=pointer] [box=264,558,1151,53]:
+                - cell "アイテムを選択する" [ref=e2830] [box=264,558,38,53]:
+                  - generic [ref=e422] [box=276,575,18,18]:
+                    - generic [ref=e424] [box=277,576,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2831] [box=277,576,16,16]
+                      - generic [box=279,578,12,12]:
+                        - img [box=279,578,12,12]
+                    - generic [ref=e427] [box=276,558,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BEIGE / S" [ref=e428] [box=302,558,652,53]:
+                  - generic [ref=e429] [box=308,564,640,40]:
+                    - img "product variant thumbnail" [ref=e431] [box=313,564,30,40]
+                    - generic [ref=e432] [box=360,564,192,40]:
+                      - paragraph [ref=e433] [box=360,564,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e434] [box=360,584,192,20]: BEIGE / S
+                - cell "486125" [ref=e435] [box=954,558,183,53]:
+                  - paragraph [ref=e436] [box=960,574,171,20]: "486125"
+                - cell "486125-31-S" [ref=e437] [box=1138,558,277,53]:
+                  - paragraph [ref=e438] [box=1144,574,259,20]: 486125-31-S
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BEIGE / L 486125 486125-31-L" [ref=e2832] [cursor=pointer] [box=264,611,1151,53]:
+                - cell "アイテムを選択する" [ref=e2833] [box=264,611,38,53]:
+                  - generic [ref=e442] [box=276,628,18,18]:
+                    - generic [ref=e444] [box=277,629,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2834] [box=277,629,16,16]
+                      - generic [box=279,631,12,12]:
+                        - img [box=279,631,12,12]
+                    - generic [ref=e447] [box=276,611,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BEIGE / L" [ref=e448] [box=302,611,652,53]:
+                  - generic [ref=e449] [box=308,617,640,40]:
+                    - img "product variant thumbnail" [ref=e451] [box=313,617,30,40]
+                    - generic [ref=e452] [box=360,617,192,40]:
+                      - paragraph [ref=e453] [box=360,617,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e454] [box=360,637,192,20]: BEIGE / L
+                - cell "486125" [ref=e455] [box=954,611,183,53]:
+                  - paragraph [ref=e456] [box=960,627,171,20]: "486125"
+                - cell "486125-31-L" [ref=e457] [box=1138,611,277,53]:
+                  - paragraph [ref=e458] [box=1144,627,259,20]: 486125-31-L
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ GRAY / S 486125 486125-03-S" [ref=e2835] [cursor=pointer] [box=264,664,1151,53]:
+                - cell "アイテムを選択する" [ref=e2836] [box=264,664,38,53]:
+                  - generic [ref=e462] [box=276,681,18,18]:
+                    - generic [ref=e464] [box=277,682,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2837] [box=277,682,16,16]
+                      - generic [box=279,684,12,12]:
+                        - img [box=279,684,12,12]
+                    - generic [ref=e467] [box=276,664,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ GRAY / S" [ref=e468] [box=302,664,652,53]:
+                  - generic [ref=e469] [box=308,670,640,40]:
+                    - img "product variant thumbnail" [ref=e471] [box=313,670,30,40]
+                    - generic [ref=e472] [box=360,670,192,40]:
+                      - paragraph [ref=e473] [box=360,670,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e474] [box=360,690,192,20]: GRAY / S
+                - cell "486125" [ref=e475] [box=954,664,183,53]:
+                  - paragraph [ref=e476] [box=960,680,171,20]: "486125"
+                - cell "486125-03-S" [ref=e477] [box=1138,664,277,53]:
+                  - paragraph [ref=e478] [box=1144,680,259,20]: 486125-03-S
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BLACK / S 486125 486125-09-S" [ref=e2838] [cursor=pointer] [box=264,717,1151,53]:
+                - cell "アイテムを選択する" [ref=e2839] [box=264,717,38,53]:
+                  - generic [ref=e482] [box=276,734,18,18]:
+                    - generic [ref=e484] [box=277,735,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2840] [box=277,735,16,16]
+                      - generic [box=279,737,12,12]:
+                        - img [box=279,737,12,12]
+                    - generic [ref=e487] [box=276,717,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BLACK / S" [ref=e488] [box=302,717,652,53]:
+                  - generic [ref=e489] [box=308,723,640,40]:
+                    - img "product variant thumbnail" [ref=e491] [box=313,723,30,40]
+                    - generic [ref=e492] [box=360,723,192,40]:
+                      - paragraph [ref=e493] [box=360,723,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e494] [box=360,743,192,20]: BLACK / S
+                - cell "486125" [ref=e495] [box=954,717,183,53]:
+                  - paragraph [ref=e496] [box=960,733,171,20]: "486125"
+                - cell "486125-09-S" [ref=e497] [box=1138,717,277,53]:
+                  - paragraph [ref=e498] [box=1144,733,259,20]: 486125-09-S
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BLACK / XS 486125 486125-09-XS" [ref=e2841] [cursor=pointer] [box=264,770,1151,53]:
+                - cell "アイテムを選択する" [ref=e2842] [box=264,770,38,53]:
+                  - generic [ref=e502] [box=276,787,18,18]:
+                    - generic [ref=e504] [box=277,788,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2843] [box=277,788,16,16]
+                      - generic [box=279,790,12,12]:
+                        - img [box=279,790,12,12]
+                    - generic [ref=e507] [box=276,770,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BLACK / XS" [ref=e508] [box=302,770,652,53]:
+                  - generic [ref=e509] [box=308,776,640,40]:
+                    - img "product variant thumbnail" [ref=e511] [box=313,776,30,40]
+                    - generic [ref=e512] [box=360,776,192,40]:
+                      - paragraph [ref=e513] [box=360,776,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e514] [box=360,796,192,20]: BLACK / XS
+                - cell "486125" [ref=e515] [box=954,770,183,53]:
+                  - paragraph [ref=e516] [box=960,786,171,20]: "486125"
+                - cell "486125-09-XS" [ref=e517] [box=1138,770,277,53]:
+                  - paragraph [ref=e518] [box=1144,786,259,20]: 486125-09-XS
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BEIGE / M 486125 486125-31-M" [ref=e2844] [cursor=pointer] [box=264,823,1151,53]:
+                - cell "アイテムを選択する" [ref=e2845] [box=264,823,38,53]:
+                  - generic [ref=e522] [box=276,840,18,18]:
+                    - generic [ref=e524] [box=277,841,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2846] [box=277,841,16,16]
+                      - generic [box=279,843,12,12]:
+                        - img [box=279,843,12,12]
+                    - generic [ref=e527] [box=276,823,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BEIGE / M" [ref=e528] [box=302,823,652,53]:
+                  - generic [ref=e529] [box=308,829,640,40]:
+                    - img "product variant thumbnail" [ref=e531] [box=313,829,30,40]
+                    - generic [ref=e532] [box=360,829,192,40]:
+                      - paragraph [ref=e533] [box=360,829,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e534] [box=360,849,192,20]: BEIGE / M
+                - cell "486125" [ref=e535] [box=954,823,183,53]:
+                  - paragraph [ref=e536] [box=960,839,171,20]: "486125"
+                - cell "486125-31-M" [ref=e537] [box=1138,823,277,53]:
+                  - paragraph [ref=e538] [box=1144,839,259,20]: 486125-31-M
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BLACK / M 486125 486125-09-M" [ref=e2847] [cursor=pointer] [box=264,876,1151,53]:
+                - cell "アイテムを選択する" [ref=e2848] [box=264,876,38,53]:
+                  - generic [ref=e542] [box=276,893,18,18]:
+                    - generic [ref=e544] [box=277,894,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2849] [box=277,894,16,16]
+                      - generic [box=279,896,12,12]:
+                        - img [box=279,896,12,12]
+                    - generic [ref=e547] [box=276,876,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BLACK / M" [ref=e548] [box=302,876,652,53]:
+                  - generic [ref=e549] [box=308,882,640,40]:
+                    - img "product variant thumbnail" [ref=e551] [box=313,882,30,40]
+                    - generic [ref=e552] [box=360,882,192,40]:
+                      - paragraph [ref=e553] [box=360,882,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e554] [box=360,902,192,20]: BLACK / M
+                - cell "486125" [ref=e555] [box=954,876,183,53]:
+                  - paragraph [ref=e556] [box=960,892,171,20]: "486125"
+                - cell "486125-09-M" [ref=e557] [box=1138,876,277,53]:
+                  - paragraph [ref=e558] [box=1144,892,259,20]: 486125-09-M
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ NAVY / S 486125 486125-69-S" [ref=e2850] [cursor=pointer] [box=264,929,1151,53]:
+                - cell "アイテムを選択する" [ref=e2851] [box=264,929,38,53]:
+                  - generic [ref=e562] [box=276,946,18,18]:
+                    - generic [ref=e564] [box=277,947,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2852] [box=277,947,16,16]
+                      - generic [box=279,949,12,12]:
+                        - img [box=279,949,12,12]
+                    - generic [ref=e567] [box=276,929,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ NAVY / S" [ref=e568] [box=302,929,652,53]:
+                  - generic [ref=e569] [box=308,935,640,40]:
+                    - img "product variant thumbnail" [ref=e571] [box=313,935,30,40]
+                    - generic [ref=e572] [box=360,935,192,40]:
+                      - paragraph [ref=e573] [box=360,935,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e574] [box=360,955,192,20]: NAVY / S
+                - cell "486125" [ref=e575] [box=954,929,183,53]:
+                  - paragraph [ref=e576] [box=960,945,171,20]: "486125"
+                - cell "486125-69-S" [ref=e577] [box=1138,929,277,53]:
+                  - paragraph [ref=e578] [box=1144,945,259,20]: 486125-69-S
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BEIGE / XS 486125 486125-31-XS" [ref=e2853] [cursor=pointer] [box=264,982,1151,53]:
+                - cell "アイテムを選択する" [ref=e2854] [box=264,982,38,53]:
+                  - generic [ref=e582] [box=276,999,18,18]:
+                    - generic [ref=e584] [box=277,1000,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2855] [box=277,1000,16,16]
+                      - generic [box=279,1002,12,12]:
+                        - img [box=279,1002,12,12]
+                    - generic [ref=e587] [box=276,982,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BEIGE / XS" [ref=e588] [box=302,982,652,53]:
+                  - generic [ref=e589] [box=308,988,640,40]:
+                    - img "product variant thumbnail" [ref=e591] [box=313,988,30,40]
+                    - generic [ref=e592] [box=360,988,192,40]:
+                      - paragraph [ref=e593] [box=360,988,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e594] [box=360,1008,192,20]: BEIGE / XS
+                - cell "486125" [ref=e595] [box=954,982,183,53]:
+                  - paragraph [ref=e596] [box=960,998,171,20]: "486125"
+                - cell "486125-31-XS" [ref=e597] [box=1138,982,277,53]:
+                  - paragraph [ref=e598] [box=1144,998,259,20]: 486125-31-XS
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ NAVY / M 486125 486125-69-M" [ref=e2856] [cursor=pointer] [box=264,1035,1151,53]:
+                - cell "アイテムを選択する" [ref=e2857] [box=264,1035,38,53]:
+                  - generic [ref=e602] [box=276,1052,18,18]:
+                    - generic [ref=e604] [box=277,1053,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2858] [box=277,1053,16,16]
+                      - generic [box=279,1055,12,12]:
+                        - img [box=279,1055,12,12]
+                    - generic [ref=e607] [box=276,1035,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ NAVY / M" [ref=e608] [box=302,1035,652,53]:
+                  - generic [ref=e609] [box=308,1041,640,40]:
+                    - img "product variant thumbnail" [ref=e611] [box=313,1041,30,40]
+                    - generic [ref=e612] [box=360,1041,192,40]:
+                      - paragraph [ref=e613] [box=360,1041,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e614] [box=360,1061,192,20]: NAVY / M
+                - cell "486125" [ref=e615] [box=954,1035,183,53]:
+                  - paragraph [ref=e616] [box=960,1051,171,20]: "486125"
+                - cell "486125-69-M" [ref=e617] [box=1138,1035,277,53]:
+                  - paragraph [ref=e618] [box=1144,1051,259,20]: 486125-69-M
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ GRAY / XL 486125 486125-03-XL" [ref=e2859] [cursor=pointer] [box=264,1088,1151,53]:
+                - cell "アイテムを選択する" [ref=e2860] [box=264,1088,38,53]:
+                  - generic [ref=e622] [box=276,1105,18,18]:
+                    - generic [ref=e624] [box=277,1106,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2861] [box=277,1106,16,16]
+                      - generic [box=279,1108,12,12]:
+                        - img [box=279,1108,12,12]
+                    - generic [ref=e627] [box=276,1088,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ GRAY / XL" [ref=e628] [box=302,1088,652,53]:
+                  - generic [ref=e629] [box=308,1094,640,40]:
+                    - img "product variant thumbnail" [ref=e631] [box=313,1094,30,40]
+                    - generic [ref=e632] [box=360,1094,192,40]:
+                      - paragraph [ref=e633] [box=360,1094,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e634] [box=360,1114,192,20]: GRAY / XL
+                - cell "486125" [ref=e635] [box=954,1088,183,53]:
+                  - paragraph [ref=e636] [box=960,1104,171,20]: "486125"
+                - cell "486125-03-XL" [ref=e637] [box=1138,1088,277,53]:
+                  - paragraph [ref=e638] [box=1144,1104,259,20]: 486125-03-XL
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ GRAY / M 486125 486125-03-M" [ref=e2862] [cursor=pointer] [box=264,1141,1151,53]:
+                - cell "アイテムを選択する" [ref=e2863] [box=264,1141,38,53]:
+                  - generic [ref=e642] [box=276,1158,18,18]:
+                    - generic [ref=e644] [box=277,1159,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2864] [box=277,1159,16,16]
+                      - generic [box=279,1161,12,12]:
+                        - img [box=279,1161,12,12]
+                    - generic [ref=e647] [box=276,1141,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ GRAY / M" [ref=e648] [box=302,1141,652,53]:
+                  - generic [ref=e649] [box=308,1147,640,40]:
+                    - img "product variant thumbnail" [ref=e651] [box=313,1147,30,40]
+                    - generic [ref=e652] [box=360,1147,192,40]:
+                      - paragraph [ref=e653] [box=360,1147,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e654] [box=360,1167,192,20]: GRAY / M
+                - cell "486125" [ref=e655] [box=954,1141,183,53]:
+                  - paragraph [ref=e656] [box=960,1157,171,20]: "486125"
+                - cell "486125-03-M" [ref=e657] [box=1138,1141,277,53]:
+                  - paragraph [ref=e658] [box=1144,1157,259,20]: 486125-03-M
+              - row "アイテムを選択する product variant thumbnail オーバーサイズスウェットシャツ BEIGE / XL 486125 486125-31-XL" [ref=e2865] [cursor=pointer] [box=264,1194,1151,53]:
+                - cell "アイテムを選択する" [ref=e2866] [box=264,1194,38,53]:
+                  - generic [ref=e662] [box=276,1211,18,18]:
+                    - generic [ref=e664] [box=277,1212,16,16]:
+                      - checkbox "アイテムを選択する" [ref=e2867] [box=277,1212,16,16]
+                      - generic [box=279,1214,12,12]:
+                        - img [box=279,1214,12,12]
+                    - generic [ref=e667] [box=276,1194,1,1]: アイテムを選択する
+                - cell "product variant thumbnail オーバーサイズスウェットシャツ BEIGE / XL" [ref=e668] [box=302,1194,652,53]:
+                  - generic [ref=e669] [box=308,1200,640,40]:
+                    - img "product variant thumbnail" [ref=e671] [box=313,1200,30,40]
+                    - generic [ref=e672] [box=360,1200,192,40]:
+                      - paragraph [ref=e673] [box=360,1200,192,20]: オーバーサイズスウェットシャツ
+                      - paragraph [ref=e674] [box=360,1220,192,20]: BEIGE / XL
+                - cell "486125" [ref=e675] [box=954,1194,183,53]:
+                  - paragraph [ref=e676] [box=960,1210,171,20]: "486125"
+                - cell "486125-31-XL" [ref=e677] [box=1138,1194,277,53]:
+                  - paragraph [ref=e678] [box=1144,1210,259,20]: 486125-31-XL
+          - navigation "ページネーション" [ref=e682] [box=264,1059,1151,41]:
+            - generic [ref=e685] [box=813,1066,57,28]:
+              - generic [ref=e686] [box=813,1066,28,28]:
+                - button "前へ" [disabled] [box=813,1066,28,28]:
+                  - generic [box=817,1070,20,20]:
+                    - generic [box=817,1070,20,20]:
+                      - img [box=817,1070,20,20]
+              - generic [ref=e687] [box=842,1066,28,28]:
+                - button "次へ" [disabled] [box=842,1066,28,28]:
+                  - generic [box=846,1070,20,20]:
+                    - generic [box=846,1070,20,20]:
+                      - img [box=846,1070,20,20]
+  - region "Notifications alt+T" [box=0,1100,1440,0]
+  - generic [box=0,1100,1440,0]:
+    - generic [box=0,1100,1440,0]:
+      - generic [box=0,1100,1440,0]:
+        - generic [box=0,0,1440,1100]:
+          - generic [box=0,385,1440,330]:
+            - dialog "バリエーションを選択する" [box=0,385,1440,330]:
+              - generic [ref=e3112] [box=230,385,980,330]:
+                - generic [ref=e3114] [box=246,401,948,20]:
+                  - heading "バリエーションを選択する" [level=2] [ref=e3116] [box=246,401,168,20]
+                  - button "閉じる" [ref=e3117] [cursor=pointer] [box=1170,397,28,28]:
+                    - img [ref=e3120] [box=1174,401,20,20]
+                - generic [ref=e3122] [box=230,438,980,216]:
+                  - generic [ref=e3127] [box=230,438,980,82]:
+                    - generic [ref=e3132] [box=238,446,952,28]:
+                      - generic [ref=e3135] [box=238,438,131,20]: SKUコードで検索する
+                      - generic [ref=e3138] [box=238,446,952,28]:
+                        - img [ref=e3142] [box=246,450,20,20]
+                        - textbox "SKUコードで検索する" [active] [ref=e3144] [box=270,446,884,28]: TEST_E2E_20260622_GU_1905_NAVY_M
+                        - button "クリア" [ref=e3145] [cursor=pointer] [box=1158,450,20,20]:
+                          - generic [ref=e3146] [box=1168,450,1,1]: クリア
+                          - img [ref=e3148] [box=1158,450,20,20]
+                    - button "絞り込みを追加" [ref=e3157] [cursor=pointer] [box=238,489,117,24]:
+                      - generic [ref=e3158] [box=247,493,84,16]: 絞り込みを追加
+                      - img [ref=e3159] [box=332,493,16,16]
+                  - generic [ref=e3162] [box=230,520,980,134]:
+                    - table [ref=e3164] [box=230,520,980,93]:
+                      - rowgroup [ref=e3165] [box=230,520,980,37]:
+                        - row "すべてのアイテムを選択する バリエーション 商品コード SKU" [ref=e3166] [box=230,520,980,37]:
+                          - columnheader "すべてのアイテムを選択する" [ref=e3167] [box=230,520,38,37]:
+                            - generic [ref=e3169] [cursor=pointer] [box=242,529,18,18]:
+                              - generic [ref=e3171] [box=243,530,16,16]:
+                                - checkbox "すべてのアイテムを選択する" [ref=e3172] [box=243,530,16,16]
+                                - generic [box=245,532,12,12]:
+                                  - img [box=245,532,12,12]
+                              - generic [ref=e3174] [box=242,520,1,1]: すべてのアイテムを選択する
+                          - columnheader "バリエーション" [ref=e3175] [box=268,520,385,37]:
+                            - generic [ref=e3176] [box=274,528,373,20]: バリエーション
+                          - columnheader "商品コード" [ref=e3177] [box=653,520,239,37]:
+                            - generic [ref=e3178] [box=659,528,227,20]: 商品コード
+                          - columnheader "SKU" [ref=e3179] [box=892,520,318,37]:
+                            - generic [ref=e3180] [box=898,528,300,20]: SKU
+                      - rowgroup [ref=e3181] [box=230,557,980,57]:
+                        - row "アイテムを選択する productVariant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M" [ref=e3182] [cursor=pointer] [box=230,557,980,57]:
+                          - cell "アイテムを選択する" [ref=e3183] [box=230,557,38,57]:
+                            - generic [ref=e3185] [box=242,576,18,18]:
+                              - generic [ref=e3187] [box=243,577,16,16]:
+                                - checkbox "アイテムを選択する" [ref=e3188] [box=243,577,16,16]
+                                - generic [box=245,579,12,12]:
+                                  - img [box=245,579,12,12]
+                              - generic [ref=e3190] [box=242,557,1,1]: アイテムを選択する
+                          - cell "productVariant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M" [ref=e3191] [box=268,557,385,57]:
+                            - generic [ref=e3192] [box=274,563,373,44]:
+                              - generic [ref=e3194] [box=284,575,20,20]:
+                                - generic [ref=e3195] [box=284,575,1,1]: productVariant thumbnail
+                                - img [ref=e3196] [box=284,575,20,20]
+                              - generic [ref=e3199] [box=326,563,262,44]:
+                                - paragraph [ref=e3200] [box=326,563,262,20]: TEST_E2E_20260622 GU検証Tシャツ 1905
+                                - paragraph [ref=e3201] [box=326,587,262,20]: NAVY / M
+                          - cell "TEST_E2E_20260622_GU_1905" [ref=e3202] [box=653,557,239,57]:
+                            - paragraph [ref=e3203] [box=659,575,227,20]: TEST_E2E_20260622_GU_1905
+                          - cell "TEST_E2E_20260622_GU_1905_NAVY_M" [ref=e3204] [box=892,557,318,57]:
+                            - paragraph [ref=e3205] [box=898,575,300,20]: TEST_E2E_20260622_GU_1905_NAVY_M
+                    - navigation "ページネーション" [ref=e3209] [box=230,613,980,41]:
+                      - generic [ref=e3212] [box=694,620,57,28]:
+                        - generic [ref=e3213] [box=694,620,28,28]:
+                          - button "前へ" [disabled] [box=694,620,28,28]:
+                            - generic [box=698,624,20,20]:
+                              - generic [box=698,624,20,20]:
+                                - img [box=698,624,20,20]
+                        - generic [ref=e3214] [box=723,620,28,28]:
+                          - button "次へ" [disabled] [box=723,620,28,28]:
+                            - generic [box=727,624,20,20]:
+                              - generic [box=727,624,20,20]:
+                                - img [box=727,624,20,20]
+                - generic [ref=e3218] [box=1030,671,164,28]:
+                  - button "キャンセル" [ref=e3219] [cursor=pointer] [box=1030,671,84,28]:
+                    - generic [ref=e3220] [box=1042,677,60,16]: キャンセル
+                  - button "選択する" [disabled] [box=1122,671,72,28]:
+                    - generic [box=1134,677,48,16]: 選択する
+  - alert [ref=e10] [box=-1,1099,1,1]

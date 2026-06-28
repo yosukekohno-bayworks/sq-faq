@@ -1,0 +1,123 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes",
+  "h1": "売上実績（注文軸）をCSVでエクスポートする",
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました\n\n売上実績（注文軸）をCSVでエクスポートする\nエクスポート\n作成日\n\t\nテナント\n\t\n対象期間\n\t\nステータス\n\t\nダウンロード\n\n\n\n2026年06月16日 23:41\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月16日 00:00 〜 2026年06月16日 23:59\n\n\t\n成功\n完了\n\t\n\nダウンロード\n\n\n\n\n2026年06月15日 18:43\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月15日 00:00 〜 2026年06月15日 23:59\n\n\t\n成功\n完了\n\t\n\nダウンロード\n\n\n\n\n2026年06月08日 12:49\n\n\t\n\nユニクロ\n\n\t\n\n2026年06月01日 00:00 〜 2026年06月08日 23:59\n\n\t\n成功\n完了\n\t\n\nダウンロード",
+  "links": [
+    {
+      "text": "コンテンツにスキップ",
+      "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes#AppFrameMain"
+    },
+    {
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "text": "ホーム",
+      "href": "https://www.sqstackstaging.com/admin"
+    },
+    {
+      "text": "商品管理",
+      "href": "https://www.sqstackstaging.com/admin/products"
+    },
+    {
+      "text": "在庫管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_items"
+    },
+    {
+      "text": "注文管理",
+      "href": "https://www.sqstackstaging.com/admin/orders"
+    },
+    {
+      "text": "顧客管理",
+      "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+    },
+    {
+      "text": "発注管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+    },
+    {
+      "text": "販売設定",
+      "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+    },
+    {
+      "text": "会計",
+      "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+    },
+    {
+      "text": "分析",
+      "href": "https://www.sqstackstaging.com/admin/analytics"
+    },
+    {
+      "text": "入荷管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+    },
+    {
+      "text": "出荷管理",
+      "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+    },
+    {
+      "text": "在庫依頼 未完了の在庫依頼 3件 3",
+      "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+    },
+    {
+      "text": "ディスカウント",
+      "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+    },
+    {
+      "text": "ポイント",
+      "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+    },
+    {
+      "text": "会員ランク",
+      "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+    },
+    {
+      "text": "Shopify",
+      "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+    },
+    {
+      "text": "OmnibusCore",
+      "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+    },
+    {
+      "text": "スマレジ",
+      "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+    },
+    {
+      "text": "リテールポータル",
+      "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+    },
+    {
+      "text": "卸売",
+      "href": "https://www.sqstackstaging.com/admin/b2b"
+    },
+    {
+      "text": "設定",
+      "href": "https://www.sqstackstaging.com/admin/settings"
+    },
+    {
+      "text": "",
+      "href": "https://www.sqstackstaging.com/admin/csv_export"
+    },
+    {
+      "text": "エクスポート",
+      "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes/create"
+    },
+    {
+      "text": "ダウンロード",
+      "href": "https://storage.googleapis.com/erp-server-staging-file-storage/a8225dc5-ac86-5658-96ed-ef51cd1bae3e_Organization/csv/sale-change/20260616_2341.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=cloud-run%40erp-server-staging.iam.gserviceaccount.com%2F20260626%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260626T171928Z&X-Goog-Expires=107999&X-Goog-Signature=5560a971ebaccec9d2269dcb2c833e6c2b8581afda8b8e3065b78a27cafef265f09a3ca2be02a194e8a5176417ecf916f7941df4896e018cb72831abee9f1d30f048cd536b13b4dd17b974ec7bd35cd988372d3679a14abeb38f7ae7b99a39d8281cfd9a9fcc2ad11edb6700c314a7c0237a1331c597b8130f2f9dad5628682f2403c77ab95f1632586e0101e2927cc0bf9dfd9a628b558ef8bf37404eb291bacb54c41481e3798bdc52de5f3d163c96af1565b1e96c96f0f1e68a9c478c0dcad9fc40d84b928839d1091c5d63d3efb963d7da7510bf5eb6fe3ddbcc8f77d4347172280717a1b5487e855ba7b8171bc43ddd67386411c8e2b5861b1234559a5b&X-Goog-SignedHeaders=host"
+    },
+    {
+      "text": "ダウンロード",
+      "href": "https://storage.googleapis.com/erp-server-staging-file-storage/a8225dc5-ac86-5658-96ed-ef51cd1bae3e_Organization/csv/sale-change/20260615_1843.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=cloud-run%40erp-server-staging.iam.gserviceaccount.com%2F20260626%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260626T171928Z&X-Goog-Expires=107999&X-Goog-Signature=1b56ad9f136f180ea7411dd87fe526ab910e2876c8162c5e5d2321fbd15d81cec76cc46339d46cb667655fb6ac3b35154f0720571d570ce45b89a1bf890310a6fb89ad77a8c07c9dba3cec48bfb6b6265e953950997c80fa80e604f44b87c71e4c83aa63a5d070129e143b5c4ced781b0f9b525d20582c4d87d4610c80f6eb4a382536538f0e0736a97b108ad90e59f863be0b07e290c8c62cd93ccf1d12636473cc0d5760e02d90ebcf17ddb7408eb46d4fef6f141797f7be60c26997c5dc4cf39e2106d62f3871313ed7b83343bd643df70fe7333cb0d9b760c6a755bef5f7cb1e05dba500a7deea7265e2bb6617f39ee5a6c2bcdc1fa71140c2668bb2489f&X-Goog-SignedHeaders=host"
+    },
+    {
+      "text": "ダウンロード",
+      "href": "https://storage.googleapis.com/erp-server-staging-file-storage/a8225dc5-ac86-5658-96ed-ef51cd1bae3e_Organization/csv/sale-change/20260608_1249.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=cloud-run%40erp-server-staging.iam.gserviceaccount.com%2F20260626%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260626T171928Z&X-Goog-Expires=107999&X-Goog-Signature=e23e1a9dc640ffead5d67476711b84c56372c8b8e0473bf9283a0a8047602ffd2ee857b545793fe450d7096fef2d38cc499b0ec28df0f6a754f823bf484a793e0127a72745bd8c2deeef8b81b533834a3cfcd492d329a268e17c264dfe73574cef2547def3f7fe74c1c8e43f5a8ef7820cefc4838a3d4cafe576a12d3315c44854b3726bad77455eb0447dc6ef824a99821ce1346f7e65d7af5227fc4aad2534fba2a460587e704693808912ebdc7ef49b43c86cce06efa37db78ff2d1f9d79390dd9156a2ec5fc1bc5036f606e7fbf192916005cd93d8ef83b8600c15fc8f55db0e477e3a1fba3c20ce72cdb6de124ca27c2213c9ed9f08cfd23a94ed0e7a05&X-Goog-SignedHeaders=host"
+    }
+  ]
+}

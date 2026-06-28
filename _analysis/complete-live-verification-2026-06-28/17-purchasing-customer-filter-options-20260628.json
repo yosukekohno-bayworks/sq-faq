@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-06-28T00:42:55.975232+00:00",
+  "steps": [
+    {
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 顧客管理。このページの準備が整いました 顧客管理 インポート メールアドレスで検索する 絞り込みを追加 すべてのアイテムを選択する 顧客名 テナント ステータス メール購読 アイテムを選択する 検証顧客094055FAQ TEST_FAQ_20260624_TENANT_170037 成功 アクティブ 未登録 テナント メタフィールド 会員証バーコード",
+      "controls": [
+        {
+          "tag": "button",
+          "role": null,
+          "text": "",
+          "ariaLabel": "メニューを切り替える",
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": "false",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": "false",
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "",
+          "ariaLabel": "メニューを閉じる",
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "インポート",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "その他の操作",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "インポート",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": "false",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "role": null,
+          "text": "",
+          "ariaLabel": null,
+          "placeholder": "メールアドレスで検索する",
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "絞り込みを追加",
+          "ariaLabel": "絞り込みを追加",
+          "placeholder": null,
+          "ariaExpanded": "true",
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "role": "checkbox",
+          "text": "",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "role": "checkbox",
+          "text": "",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "role": "checkbox",
+          "text": "",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "input",
+          "role": "checkbox",
+          "text": "",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "",
+          "ariaLabel": "前へ",
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "text": "",
+          "ariaLabel": "次へ",
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": "menuitem",
+          "text": "テナント",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": "menuitem",
+          "text": "メタフィールド",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        },
+        {
+          "tag": "button",
+          "role": "menuitem",
+          "text": "会員証バーコード",
+          "ariaLabel": null,
+          "placeholder": null,
+          "ariaExpanded": null,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "facts": {
+    "filterMenuOpened": true,
+    "options": [
+      "テナント",
+      "メタフィールド",
+      "会員証バーコード"
+    ],
+    "hasTenant": true,
+    "hasMetafield": true,
+    "hasBarcode": true
+  },
+  "errors": []
+}

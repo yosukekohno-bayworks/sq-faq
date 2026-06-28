@@ -1,0 +1,298 @@
+[
+  {
+    "step": "open_create",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+    "detail": null,
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n発注伝票を作成。このページの準備が整いました\n\n発注伝票を作成\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\n選択してください\nテナント\n選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\n選択してください\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\n取り消す\n作成する"
+  },
+  {
+    "step": "selected_supplier_tenant",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+    "detail": null,
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない発注伝票\n取り消す\n保存\n\n発注伝票を作成。このページの準備が整いました\n\n発注伝票を作成\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\nTEST_FAQ_Supplier\nテナント\n選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nユニクロ\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\n取り消す\n作成する"
+  },
+  {
+    "step": "selected_variant",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+    "detail": {
+      "sku": "486125-31-XL"
+    },
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない発注伝票\n取り消す\n保存\n\n発注伝票を作成。このページの準備が整いました\n\n発注伝票を作成\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\nTEST_FAQ_Supplier\nテナント\n選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nユニクロ\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\t\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥0\n\n\t\n取り消す\n作成する"
+  },
+  {
+    "step": "inputs_after_variant",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+    "detail": [
+      {
+        "i": 1,
+        "tag": "BUTTON",
+        "type": "button",
+        "text": "",
+        "value": "",
+        "placeholder": null,
+        "x": 1013.3250122070312,
+        "y": 12,
+        "w": 32,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 2,
+        "tag": "BUTTON",
+        "type": "button",
+        "text": "stack-ps-yosuke\n\n陽介 河野",
+        "value": "",
+        "placeholder": null,
+        "x": 1053.3250732421875,
+        "y": 12,
+        "w": 148.27500915527344,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 4,
+        "tag": "BUTTON",
+        "type": "button",
+        "text": "取り消す",
+        "value": "",
+        "placeholder": null,
+        "x": 1043.5999755859375,
+        "y": 12,
+        "w": 76,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 5,
+        "tag": "BUTTON",
+        "type": "button",
+        "text": "保存",
+        "value": "",
+        "placeholder": null,
+        "x": 1127.5999755859375,
+        "y": 12,
+        "w": 50,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 6,
+        "tag": "SELECT",
+        "type": null,
+        "text": "選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905",
+        "value": "e7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier",
+        "placeholder": null,
+        "x": 280,
+        "y": 180,
+        "w": 888.7999877929688,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 7,
+        "tag": "SELECT",
+        "type": null,
+        "text": "選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント",
+        "value": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+        "placeholder": null,
+        "x": 280,
+        "y": 268.8000183105469,
+        "w": 436.3999938964844,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 8,
+        "tag": "SELECT",
+        "type": null,
+        "text": "米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル",
+        "value": "JPY",
+        "placeholder": null,
+        "x": 732.4000244140625,
+        "y": 268.8000183105469,
+        "w": 436.3999938964844,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 9,
+        "tag": "INPUT",
+        "type": "text",
+        "text": "",
+        "value": "",
+        "placeholder": "商品を検索する",
+        "x": 280,
+        "y": 380.8000183105469,
+        "w": 834.7999877929688,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 10,
+        "tag": "BUTTON",
+        "type": "button",
+        "text": "参照",
+        "value": "",
+        "placeholder": null,
+        "x": 1118.800048828125,
+        "y": 380.8000183105469,
+        "w": 50,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 11,
+        "tag": "INPUT",
+        "type": "checkbox",
+        "text": "",
+        "value": "on",
+        "placeholder": null,
+        "x": 277,
+        "y": 439.6000061035156,
+        "w": 16,
+        "h": 16,
+        "visible": true
+      },
+      {
+        "i": 12,
+        "tag": "INPUT",
+        "type": "number",
+        "text": "",
+        "value": "3600",
+        "placeholder": null,
+        "x": 483.6625061035156,
+        "y": 476.3999938964844,
+        "w": 200.0124969482422,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 13,
+        "tag": "INPUT",
+        "type": "number",
+        "text": "",
+        "value": "0",
+        "placeholder": null,
+        "x": 725.6749877929688,
+        "y": 476.3999938964844,
+        "w": 208.90000915527344,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 14,
+        "tag": "INPUT",
+        "type": "number",
+        "text": "",
+        "value": "10",
+        "placeholder": null,
+        "x": 976.5750122070312,
+        "y": 476.3999938964844,
+        "w": 57.212501525878906,
+        "h": 32,
+        "visible": true
+      },
+      {
+        "i": 15,
+        "tag": "BUTTON",
+        "type": "button",
+        "text": "",
+        "value": "",
+        "placeholder": null,
+        "x": 1142.5250244140625,
+        "y": 478.3999938964844,
+        "w": 28,
+        "h": 28,
+        "visible": true
+      },
+      {
+        "i": 16,
+        "tag": "BUTTON",
+        "type": "button",
+        "text": "取り消す",
+        "value": "",
+        "placeholder": null,
+        "x": 1032.800048828125,
+        "y": 550.4000244140625,
+        "w": 72,
+        "h": 28,
+        "visible": true
+      },
+      {
+        "i": 17,
+        "tag": "BUTTON",
+        "type": "button",
+        "text": "作成する",
+        "value": "",
+        "placeholder": null,
+        "x": 1112.800048828125,
+        "y": 550.4000244140625,
+        "w": 72,
+        "h": 28,
+        "visible": true
+      }
+    ],
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない発注伝票\n取り消す\n保存\n\n発注伝票を作成。このページの準備が整いました\n\n発注伝票を作成\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\nTEST_FAQ_Supplier\nテナント\n選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nユニクロ\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\t\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥0\n\n\t\n取り消す\n作成する"
+  },
+  {
+    "step": "filled_line_values",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/create",
+    "detail": [
+      {
+        "idx": 2,
+        "set": "100",
+        "before": {
+          "idx": 2,
+          "type": "number",
+          "placeholder": "",
+          "value_before": "3600",
+          "box": {
+            "x": 483.6625061035156,
+            "y": 476.3999938964844,
+            "width": 200.01248168945312,
+            "height": 32
+          }
+        }
+      },
+      {
+        "idx": 3,
+        "set": "1",
+        "before": {
+          "idx": 3,
+          "type": "number",
+          "placeholder": "",
+          "value_before": "0",
+          "box": {
+            "x": 725.6749877929688,
+            "y": 476.3999938964844,
+            "width": 208.9000244140625,
+            "height": 32
+          }
+        }
+      },
+      {
+        "idx": 4,
+        "set": "10",
+        "before": {
+          "idx": 4,
+          "type": "number",
+          "placeholder": "",
+          "value_before": "10",
+          "box": {
+            "x": 976.5750122070312,
+            "y": 476.3999938964844,
+            "width": 57.21246337890625,
+            "height": 32
+          }
+        }
+      }
+    ],
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n保存されていない発注伝票\n取り消す\n保存\n\n発注伝票を作成。このページの準備が整いました\n\n発注伝票を作成\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\nTEST_FAQ_Supplier\nテナント\n選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nユニクロ\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\t\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥100\n\n\t\n取り消す\n作成する"
+  },
+  {
+    "step": "after_create_click",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/4595e603-f142-5345-9047-1ef968b0d047_InventoryPurchaseOrder",
+    "detail": null,
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1005。このページの準備が整いました\n\n#IP-1005\n注意\n下書き\nその他の操作\n発注する\n取引先\n取引先\n選択してください\nTEST_FAQ_Supplier\nTEST_FAQ_Supplier2\nTEST_FAQ_DEEP_202606080340_取引先\nTEST_E2E_20260622_取引先_1740\nTEST_E2E_20260622_取引先_1755\nTEST_E2E_20260622_取引先_1830\nTEST_E2E_20260622_取引先_1845\nTEST_E2E_20260622_取引先_1905\nTEST_FAQ_Supplier\nテナント\n通貨\n米ドル\nユーロ\n日本円\nタイ バーツ\nシンガポール ドル\n日本円\n商品\n商品を追加する\n参照\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\t\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥100\n\n\t\n発注伝票を作成しました"
+  }
+]

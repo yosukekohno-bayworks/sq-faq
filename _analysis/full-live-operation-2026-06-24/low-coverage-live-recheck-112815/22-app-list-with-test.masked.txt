@@ -1,0 +1,110 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[97543]<a />
+	コンテンツにスキップ
+[97672]<div />
+[97546]<button data-state=closed expanded=false />
+[97547]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[97689]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[97551]<a />
+		ホーム
+	[97552]<a />
+		商品管理
+	[97553]<a />
+		在庫管理
+	[97554]<a />
+		注文管理
+		[97740]<div />
+	[97555]<a />
+		顧客管理
+	[97556]<a />
+		発注管理
+	[97557]<a />
+		販売設定
+	[97558]<a />
+		会計
+	[97559]<a />
+		分析
+	オペレーション
+	[97560]<a />
+		入荷管理
+		[97824]<div />
+	[97561]<a />
+		出荷管理
+		[97835]<div />
+	[97562]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[97563]<a />
+		ディスカウント
+	[97564]<a />
+		ポイント
+	[97565]<a />
+		会員ランク
+	販売チャネル
+	[97566]<a />
+		Shopify
+	[97567]<a />
+		OmnibusCore
+	[97568]<a />
+		スマレジ
+	[97569]<a />
+		リテールポータル
+	[97570]<a />
+		卸売
+	[97571]<a />
+		設定
+アプリ。このページの準備が整いました
+[97953]<div />
+	[97954]<div />
+		[97573]<a />
+アプリ
+[97540]<a />
+	アプリを作成
+[97574]<div />
+	[97980]<div id=[MASKED_LONG_VALUE] />
+		[97981]<div />
+			[97982]<div />
+				[97984]<span />
+					[97987]<span />
+						[97988]<span />
+							[MASKED_LONG_VALUE]
+						[97990]<svg /> <!-- SVG content collapsed -->
+				[97995]<div />
+					[97996]<div />
+						[97997]<p />
+							[MASKED_LONG_VALUE]
+[97576]<div />
+	[98002]<div id=[MASKED_LONG_VALUE] />
+		[98003]<div />
+			[98004]<div />
+				[98006]<span />
+					[98009]<span />
+						[98010]<span />
+							TEST_FAQ_アプリ
+						[98012]<svg /> <!-- SVG content collapsed -->
+				[98017]<div />
+					[98018]<div />
+						[98019]<p />
+							TEST_FAQ_アプリ
+[97578]<div />
+	[98024]<div id=[MASKED_LONG_VALUE] />
+		[98025]<div />
+			[98026]<div />
+				[98028]<span />
+					[98031]<span />
+						[98032]<span />
+							TEST_FAQ_アプリ
+						[98034]<svg /> <!-- SVG content collapsed -->
+				[98039]<div />
+					[98040]<div />
+						[98041]<p />
+							TEST_FAQ_アプリ
+[98043]<section aria-label=Notifications alt+T live=polite />
+[97580]<div id=PolarisPortalsContainer />
+[97582]<div id=clerk-components />

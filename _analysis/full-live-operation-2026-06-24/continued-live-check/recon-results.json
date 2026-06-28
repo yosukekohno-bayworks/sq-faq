@@ -1,0 +1,1138 @@
+[
+  {
+    "name": "company_create",
+    "path": "/admin/companies/create",
+    "url": "https://www.sqstackstaging.com/admin/companies/create",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "会社を作成する"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "保存する"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "会社",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "検索",
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "12345",
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n会社\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n会社を作成する。このページの準備が整いました\n\n会社を作成する\n会社名\nこれは請求書および配送ラベルに表示されます。\n会社ID\n会社を識別する外部IDがある場合に登録することができます。\n担当者\n\n担当者なし\n\nロケーション\n\nこの会社にロケーションを追加します。商品は登録されているロケーションに配送します。ロケーションは後からさらに追加することができます。\n\nロケーション名\nロケーションID\nロケーションを識別する外部IDがある場合に登録することができます。\nコード\n配送先住所\n国/地域\n国/地域\nフィンランド\nグレナダ\nアフガニスタン\nブーベ島\nリベリア\nモルディブ\nアンティグア・バーブーダ\nベリーズ\nニカラグア\nフィリピン\nオーランド諸島\nイラン\nキリバス\nスリランカ\nシント・マールテン\nザンビア\nチリ\nモンゴル\nシンガポール\nトリニダード・トバゴ\nスイス\nエチオピア\nバングラデシュ\nコンゴ民主共和国\nグリーンランド\nカーボベルデ\nノーフォーク島\nイスラエル\nパレスチナ\nスヴァールバル諸島およびヤンマイエン島\nボスニア・ヘルツェゴビナ\nバミューダ\nベラルーシ\nコートジボワール\nイギリス\nチュニジア\nウズベキスタン\nブルガリア\nクウェート\nミャンマー\nチェコ\nフォークランド諸島\nモルドバ\nペルー\n合衆国領有小離島\nジンバブエ\n香港\nモーリシャス\nスロベニア\nバヌアツ\nマヨット\nブルネイ\nブータン\nデンマーク\nサウスジョージア・サウスサンドウィッチ諸島\nハイチ\nリトアニア\n南スーダン\nスペイン\nジブラルタル\nガイアナ\nメキシコ\n中央アフリカ共和国\nヨルダン\nモナコ\nコンゴ共和国\nクック諸島\nグアドループ\nアイスランド\nモンテネグロ\nレユニオン\n台湾\nオーストリア\nブルキナファソ\nオランダ領カリブ\nキューバ\nハンガリー\nウォリス・フツナ\nガボン\nフランス領ポリネシア\nサウジアラビア\nエリトリア\n韓国\nモントセラト\nナウル\nジブチ\nナミビア\nドミニカ共和国\nハード島とマクドナルド諸島\nオランダ\nピトケアン諸島\nソマリア\n西サハラ\nイラク\nポーランド\nアンゴラ\nアイルランド\nカンボジア\nコモロ\nカザフスタン\nラオス\nバチカン市国\nケニア\n北マケドニア\nエルサルバドル\nトルクメニスタン\nバーレーン\n中国\nリビア\nパナマ\nタークス・カイコス諸島\nセネガル\nフランス領ギアナ\nモザンビーク\nオマーン\nタイ\nアセンション島\nキプロス\nマン島\nルーマニア\nホンジュラス\nセントクリストファー・ネイビス\nアメリカ合衆国\nカナダ\nエジプト\nキルギス\nニュージーランド\nパラグアイ\nアルゼンチン\nブラジル\nキュラソー\nトリスタン・ダ・クーニャ\nラトビア\nスロバキア\nウルグアイ\nバルバドス\nルクセンブルク\nマルティニーク\nギニア\nイギリス領インド洋地域\nマルタ\nブルンジ\nクリスマス島\nケイマン諸島\nベネズエラ\nコソボ\nアルバニア\nオランダ領アンティル\nインドネシア\nニジェール\nスリナム\nベトナム\nサモア\nガーンジー\nギリシャ\nパキスタン\nサンピエール・ミクロン\nジョージア\nポルトガル\nトンガ\nアゼルバイジャン\nトケラウ\nウガンダ\nアンギラ\nマリ\nパプアニューギニア\nチャド\nアルバ\nココス諸島\nクロアチア\nイタリア\nソロモン諸島\nセントビンセント・グレナディーン\nエストニア\nリヒテンシュタイン\n東ティモール\nコスタリカ\nガーナ\nモロッコ\nネパール\nサントメ・プリンシペ\nジャージー\nレバノン\nレソト\nマラウイ\nアラブ首長国連邦\nベナン\nインド\nセントルシア\nニューカレドニア\nカメルーン\nモーリタニア\nセーシェル\nシエラレオネ\nバハマ\nドイツ\nフェロー諸島\nスウェーデン\nシリア\nツバル\nコロンビア\nナイジェリア\nロシア\nその他の地域\n日本\nルワンダ\nガンビア\nグアテマラ\nスーダン\nタジキスタン\nベルギー\nボリビア\n北朝鮮\nオーストラリア\nマカオ\nマレーシア\nノルウェー\nニウエ\nイギリス領ヴァージン諸島\nアルメニア\nフィジー\nカタール\nセントヘレナ\nトーゴ\nトルコ\nタンザニア\nセルビア\nエスワティニ\nイエメン\nボツワナ\nギニアビサウ\n南アフリカ\nアンドラ\nドミニカ国\n赤道ギニア\nサン・マルタン\nマダガスカル\nフランス南方・南極地域\nサン・バルテルミー\nウクライナ\nエクアドル\nジャマイカ\nアルジェリア\nフランス\nサンマリノ\n国/地域\n性\n名\n会社\n郵便番号\n都道府県\n選択してください\n北海道\n青森県\n岩手県\n宮城県\n秋田県\n山形県\n福島県\n茨城県\n栃木県\n群馬県\n埼玉県\n千葉県\n東京都\n神奈川県\n新潟県\n富山県\n石川県\n福井県\n山梨県\n長野県\n岐阜県\n静岡県\n愛知県\n三重県\n滋賀県\n京都府\n大阪府\n兵庫県\n奈良県\n和歌山県\n鳥取県\n島根県\n岡山県\n広島県\n山口県\n徳島県\n香川県\n愛媛県\n高知県\n福岡県\n佐賀県\n長崎県\n熊本県\n大分県\n宮崎県\n鹿児島県\n沖縄県\n選択してください\n市区町村\n住所\n建物名、部屋番号など\n電話番号\n請求先住所\n配送先住所と同じ\n保存する",
+    "delete_text_present": false
+  },
+  {
+    "name": "csv_product_variants_list",
+    "path": "/admin/csv_export/csv_export_operation_product_variants",
+    "url": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_product_variants",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "商品バリエーションをCSVでエクスポートする"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定",
+      "エクスポート",
+      "ダウンロード"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n商品バリエーションをCSVでエクスポートする。このページの準備が整いました\n\n商品バリエーションをCSVでエクスポートする\nエクスポート\n作成日\n\t\nステータス\n\t\n商品情報\n\t\nダウンロード\n\n\n\n2026年06月24日 10:19\n\n\t\n成功\n完了\n\t\n含めない\n\t\n\nダウンロード",
+    "delete_text_present": false
+  },
+  {
+    "name": "translation_detail",
+    "path": "/admin/settings/translation/translation_rules/b98afc2f-97b7-5964-aeaf-a330c9f38a27_TranslationRule",
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/b98afc2f-97b7-5964-aeaf-a330c9f38a27_TranslationRule",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "TEST_FAQ_20260624_TRANSLATION_CRUD_093701"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "保存する"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": "TEST_FAQ_20260624_TRANSLATION_CRUD_093701"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": "\n# OBJECTIVE:\n商品情報を高品質に翻訳する。\n\n# PERSONA:\nあなたは、グローバルなEコマース市場におけるマーケティングとコピーライティングに精通した翻訳のスペシャリストです。\nあらゆる言語をネイティブレベルで使いこなし、単に言語を置き換えるだけでなく、商品の魅力を最大限に引き出し、顧客の購買意欲を高める「トランスクリエーション」を得意としています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供された商品情報を翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  まず、提供された原文の商品情報を注意深く読み、商品の主要な特徴、素材、利点、用途を完全に理解します。\n2.  次に、その商品がどのようなキーワードで検索するかを推測し、最も重要と思われるキーワードをいくつか特定します。\n3.  特定したキーワードを効果的に使用し、商品情報を翻訳します。翻訳先の言語圏の顧客にとって魅力的な文章を作成してください。原文の意図を汲み取りつつ、ただの直訳ではなく、商品のストーリーや価値が伝わるような、説得力のある文章を作成します。箇条書きや段落などの構造は維持してください。\n4.  翻訳された商品情報が、Eコマースの商品ページとして自然で魅力的かを確認し、必要であれば調整します。\n5.  最後に、翻訳結果全体を見直し、誤字脱字がないかを確認します。\n\n**翻訳ルール:**\n- **SEOの意識:** 翻訳後の商品情報には、顧客が検索しそうな一般的なキーワード（例：素材、用途、スタイルなど）を自然に含めてください。\n- **魅力的な表現:** 専門用語は避け、顧客の感情やライフスタイルに訴えかけるような言葉を選んでください。\n- **固有名詞の扱い:** 固有名詞や造語と思われる部分は、文脈から判断し、最も適切と思われる一般的な表現に置き換えるか、意味が通じるように表記してください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"title\": \"長袖裾フリルカットソー\",\n    \"description\": \"トレンドのレイヤードスタイルが楽しめるインナー。全てオフホワイトカラーをベースにして、裾はギャザーフリルの無地、レース、シボ感のある布帛のバルーンデザインの3展開です。生地に合わせて裾のギャザーと分量、切り替え位置を変えています。身頃と袖は無地のシアーカットソーを使用。ニットやスウェットとレイヤードして裾からフリルを出すと、スタイリングのアクセントになります。お持ちのトップスと合わせるだけで、今季らしいレイヤードスタイルが楽しめます。<br>※モデルの着用画像の場合、光の当たり具合により、実際の色味と異なって見えることがございます。色味は、商品単体の画像をご参照ください。\"\n  }\n}\n\n**出力例:**\n{\n  \"title\": \"Sheer Long-Sleeve Frill Hem Layering Top\",\n  \"description\": \"Elevate your layered looks with this versatile inner top. Available in three distinct off-white designs, each featuring a unique frilled hem: a classic plain gathered ruffle, delicate lace, and a stylish textured fabric balloon design. The gathering, volume, and seam placement are meticulously adjusted to complement each fabric's unique drape and texture. The body and sleeves are crafted from a soft, plain sheer cut-and-sew material, perfect for peeking out from under sweaters, knitwear, or sweatshirts. The delicate frill adds a touch of playful elegance and instantly updates your look. Effortlessly achieve this season's most coveted layered style by simply pairing it with your existing wardrobe.<br>Please note: Due to lighting conditions, the color of the product in model images may appear slightly different from the actual item. For the most accurate color representation, please refer to the product-only images.\"\n}\n\n# TASK:\n提供された商品情報を、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "text",
+        "name": null,
+        "placeholder": "例）商品の説明文の翻訳は150字以内にまとめてください",
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "text",
+        "name": null,
+        "placeholder": "例）商品オプションの翻訳は150字以内にまとめてください",
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "text",
+        "name": null,
+        "placeholder": "例）商品オプション値の翻訳は150字以内にまとめてください",
+        "aria": null,
+        "role": null,
+        "value": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "text",
+        "name": null,
+        "placeholder": "例）メタフィールドの翻訳は150字以内にまとめてください",
+        "aria": null,
+        "role": null,
+        "value": ""
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_20260624_TRANSLATION_CRUD_093701。このページの準備が整いました\n\nTEST_FAQ_20260624_TRANSLATION_CRUD_093701\n名前\n言語\n日本語\n英語\n中国語（簡体字）\n中国語（繁体字）\n韓国語\nスペイン語\nフランス語\nドイツ語\nヒンディー語\nタイ語\n英語\n各種設定\n翻訳データを自動で作成する\n商品\n親プロンプト\nカスタマイズ項目を追加する\n\n親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。\n\nカスタムプロンプト\n商品オプション\n親プロンプト\nカスタマイズ項目を追加する\n\n親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。\n\nカスタムプロンプト\n商品オプション値\n親プロンプト\nカスタマイズ項目を追加する\n\n親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。\n\nカスタムプロンプト\nメタフィールド\n親プロンプト\nカスタマイズ項目を追加する\n\n親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。\n\nカスタムプロンプト\n保存する",
+    "delete_text_present": false
+  },
+  {
+    "name": "measurement_detail",
+    "path": "/admin/settings/product_measurement_rules/c3cce272-31c9-50c6-9af2-95e7be3ec25a_ProductMeasurementRule",
+    "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/c3cce272-31c9-50c6-9af2-95e7be3ec25a_ProductMeasurementRule",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "採寸ルール"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": "TEST_FAQ_20260624_MEASURE_CRUD_093821"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": "センチメートル"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": null,
+        "value": "肩幅"
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n採寸ルール。このページの準備が整いました\n\n採寸ルール\n\nTEST_FAQ_20260624_MEASURE_CRUD_093821\n\n基本設定\nルール名\n採寸単位\n採寸項目\n採寸項目1",
+    "delete_text_present": false
+  },
+  {
+    "name": "price_rule_detail",
+    "path": "/admin/product_price_rules/17b071f4-a6ef-5e31-a8bc-5c77099b24ef_ProductPriceRule",
+    "url": "https://www.sqstackstaging.com/admin/product_price_rules/17b071f4-a6ef-5e31-a8bc-5c77099b24ef_ProductPriceRule",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "販売価格ルール"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "ルールを編集"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "販売価格",
+      "予約販売",
+      "販売上限",
+      "販売閾値",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定"
+    ],
+    "inputs": [],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n販売価格ルール。このページの準備が整いました\n\n販売価格ルール\n通貨: 米ドル\n\nTEST_FAQ_20260624_販売価格_100908\n\nルールを編集\n通常価格\n\n通常価格を設定することができます。\n\nセール価格\n\nセール価格を設定することができます。",
+    "delete_text_present": false
+  },
+  {
+    "name": "backorder_rule_detail",
+    "path": "/admin/inventory_back_order_rules/06712f89-dc3f-5c05-8eba-be8025942358_InventoryBackOrderRule",
+    "url": "https://www.sqstackstaging.com/admin/inventory_back_order_rules/06712f89-dc3f-5c05-8eba-be8025942358_InventoryBackOrderRule",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "TEST_FAQ_20260624_予約販売_100908"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "ルールを編集する",
+      "バリエーションを追加する"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "販売価格",
+      "予約販売",
+      "販売上限",
+      "販売閾値",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定",
+      "インポート"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "SKUコードで検索する",
+        "aria": null,
+        "role": null,
+        "value": ""
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n販売価格\n予約販売\n販売上限\n販売閾値\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_20260624_予約販売_100908。このページの準備が整いました\n\nTEST_FAQ_20260624_予約販売_100908\nルールを編集する\nインポート\nバリエーションを追加する\nSKUコードで検索する\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください",
+    "delete_text_present": false
+  },
+  {
+    "name": "birthday_point_detail",
+    "path": "/admin/point_calculation_birthday_rules/da162c01-a8a2-50bd-979c-1ce4959bc1ae_PointCalculationBirthdayRule",
+    "url": "https://www.sqstackstaging.com/admin/point_calculation_birthday_rules/da162c01-a8a2-50bd-979c-1ce4959bc1ae_PointCalculationBirthdayRule",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "TEST_FAQ_20260624_誕生日ポイント_100908"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "キャンペーン",
+      "誕生日",
+      "利用外商品",
+      "失効通知",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定",
+      "会員ランクごとに誕生日ポイントを設定する"
+    ],
+    "inputs": [],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\nキャンペーン\n誕生日\n利用外商品\n失効通知\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nTEST_FAQ_20260624_誕生日ポイント_100908。このページの準備が整いました\n\nTEST_FAQ_20260624_誕生日ポイント_100908\n会員ランク\n\nアイテムが見つかりませんでした\n\n絞り込みや検索ワードを変更してみてください\n\n会員ランクごとに誕生日ポイントを設定する\n詳細\n利用テナント数\n0\nタイトル\nTEST_FAQ_20260624_誕生日ポイント_100908\n表示タイトル\nTEST_FAQ_20260624_誕生日ポイント_100908_1\nポイント\n1ポイント\n有効期間\n1日",
+    "delete_text_present": false
+  },
+  {
+    "name": "recustomer_list",
+    "path": "/admin/recustomer_integrations",
+    "url": "https://www.sqstackstaging.com/admin/recustomer_integrations",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "Recustomer"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定",
+      "アカウントを接続"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nRecustomer。このページの準備が整いました\n\nRecustomer\nアカウントを接続\nすべてのアイテムを選択する\n\t\nストアID\n\t\n接続日\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_20260624_Recustomer_100908\n\n\t\n\n2026年06月24日 10:10",
+    "delete_text_present": false
+  },
+  {
+    "name": "suppliers_list",
+    "path": "/admin/settings/suppliers",
+    "url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "取引先"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "インポート",
+      "すべて",
+      "アーカイブ",
+      "その他のビュー"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定",
+      "取引先を作成"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n取引先。このページの準備が整いました\n\n取引先\nインポート\n取引先を作成\nすべて\nアーカイブ\nすべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_20260624_取引先_092214\n\n\t\n\nTEST_FAQ_20260624_SUP_092214\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1905\n\n\t\n\nTEST_E2E_20260622_SUP_1905\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1845\n\n\t\n\nTEST_E2E_20260622_SUP_1845\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1830\n\n\t\n\nTEST_E2E_20260622_SUP_1830\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1755\n\n\t\n\nTEST_E2E_20260622_SUP_1755\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_取引先_1740\n\n\t\n\nTEST_E2E_20260622_SUP_1740\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP_202606080340_取引先\n\n\t\n\n0dabc6a0-93aa-5f3e-8044-7c4daa44d9f4_InventorySupplier\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_Supplier2\n\n\t\n\n4fc9262b-9c99-5d50-a4dd-613cc724e014_InventorySupplier\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_Supplier\n\n\t\n\ne7233b1a-c53d-56e4-b8c6-b1c7a32b8f15_InventorySupplier",
+    "delete_text_present": true
+  },
+  {
+    "name": "brands_list",
+    "path": "/admin/settings/brands",
+    "url": "https://www.sqstackstaging.com/admin/settings/brands",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "ブランド"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定",
+      "追加する"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nブランド。このページの準備が整いました\n\nブランド\n追加する\nすべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\t\n外部ID\n\t\n更新日時\n\n\nアイテムを選択する\n\t\n\nUNIQLO\n\n\t\n\nUNIQLO\n\n\t\n\n\t\n\n2026年06月21日\n\n\n\nアイテムを選択する\n\t\n\nGU\n\n\t\n\nGU\n\n\t\n\n\t\n\n2026年06月21日\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1740\n\n\t\n\nTEST_E2E_20260622_BR_1740\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1740\n\n\t\n\n2026年06月22日\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1755\n\n\t\n\nTEST_E2E_20260622_BR_1755\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1755\n\n\t\n\n2026年06月22日\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1830\n\n\t\n\nTEST_E2E_20260622_BR_1830\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1830\n\n\t\n\n2026年06月22日\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1845\n\n\t\n\nTEST_E2E_20260622_BR_1845\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1845\n\n\t\n\n2026年06月22日\n\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_ブランド_1905\n\n\t\n\nTEST_E2E_20260622_BR_1905\n\n\t\n\nTEST_E2E_20260622_BR_EXT_1905\n\n\t\n\n2026年06月22日\n\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_20260624_ブランド_092214\n\n\t\n\nTEST_FAQ_20260624_BR_092214\n\n\t\n\nTEST_FAQ_20260624_BR_EXT_092214\n\n\t\n\n2026年06月24日",
+    "delete_text_present": false
+  },
+  {
+    "name": "payment_methods_list",
+    "path": "/admin/settings/payment_methods",
+    "url": "https://www.sqstackstaging.com/admin/settings/payment_methods",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "決済方法"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "すべて",
+      "その他のビュー"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定",
+      "決済方法を作成"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n決済方法。このページの準備が整いました\n\n決済方法\n決済方法を作成\nすべて\nすべてのアイテムを選択する\n\t\n名前\n\t\nコード\n\t\nゲートウェイ\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_決済\n\n\t\n\ntest_faq_payment\n\n\t\ntest_gateway\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_DEEP_202606080340_決済\n\n\t\n\ntest_faq_deep_202606080340_payment\n\n\t\ntest_faq_deep_202606080340_gateway\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1740\n\n\t\n\nTEST_E2E_20260622_PAY_1740\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1755\n\n\t\n\nTEST_E2E_20260622_PAY_1755\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1830\n\n\t\n\nTEST_E2E_20260622_PAY_1830\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1845\n\n\t\n\nTEST_E2E_20260622_PAY_1845\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_E2E_20260622_決済_1905\n\n\t\n\nTEST_E2E_20260622_PAY_1905\n\n\t\nmanual_test\n\n\nアイテムを選択する\n\t\n\nTEST_FAQ_20260624_決済_092214\n\n\t\n\nTEST_FAQ_20260624_PAY_092214\n\n\t\nmanual_test",
+    "delete_text_present": false
+  },
+  {
+    "name": "locations_list",
+    "path": "/admin/settings/locations",
+    "url": "https://www.sqstackstaging.com/admin/settings/locations",
+    "title": "SQ - 管理画面",
+    "h1": [
+      "ロケーション"
+    ],
+    "buttons": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "すべて",
+      "その他のビュー"
+    ],
+    "links": [
+      "コンテンツにスキップ",
+      "ホーム",
+      "商品管理",
+      "在庫管理",
+      "注文管理",
+      "顧客管理",
+      "発注管理",
+      "販売設定",
+      "会計",
+      "分析",
+      "入荷管理",
+      "出荷管理",
+      "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "ディスカウント",
+      "ポイント",
+      "会員ランク",
+      "Shopify",
+      "OmnibusCore",
+      "スマレジ",
+      "リテールポータル",
+      "卸売",
+      "設定",
+      "インポート",
+      "エクスポート",
+      "ロケーションを作成"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": null,
+        "placeholder": null,
+        "aria": null,
+        "role": "checkbox",
+        "value": "on"
+      }
+    ],
+    "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nロケーション。このページの準備が整いました\n\nロケーション\nインポート\nエクスポート\nロケーションを作成\nすべて\n名前\n\t\nコード\n\t\n場所種別\n\t\n公開\n\t\nアーカイブ\n\t\nロケーショングループ\n\t\nタグ\n\n\n\nGU 倉庫\n\n\t\n\nTFCLOC3698\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n1個のグループ\n\n\t\n\n\n\nGU 銀座店\n\n\t\n\n12456789098765\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n1個のグループ\n\n\t\n店舗\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1740\n\n\t\n\nTEST_E2E_20260622_WH_1740\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1755\n\n\t\n\nTEST_E2E_20260622_WH_1755\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1830\n\n\t\n\nTEST_E2E_20260622_WH_1830\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1845\n\n\t\n\nTEST_E2E_20260622_WH_1845\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1905\n\n\t\n\nTEST_E2E_20260622_WH_1905\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU店舗_OFF_1740\n\n\t\n\nTEST_E2E_20260622_STORE_1740\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU店舗_OFF_1830\n\n\t\n\nTEST_E2E_20260622_STORE_1830\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU店舗_OFF_1845\n\n\t\n\nTEST_E2E_20260622_STORE_1845\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU店舗_OFF_1905\n\n\t\n\nTEST_E2E_20260622_STORE_1905\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_FAQ_20260624_GU倉庫_ON_092214\n\n\t\n\nTEST_FAQ_20260624_WH_092214\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_FAQ_20260624_GU店舗_OFF_092214\n\n\t\n\nTEST_FAQ_20260624_STORE_092214\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_FAQ_DEEP2_202606080343_ロケーション\n\n\t\n\ntest_faq_deep2_202606080343_loc\n\n\t\n情報\n店舗\n\t\n情報\n非公開\n\t\nアーカイブ済み\n\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_FLAGOFF_20260621\n\n\t\n\nFLAGOFF01\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nユニクロ - 銀座店\n\n\t\n\nR0001\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n1個のグループ\n\n\t\n\n\n\nユニクロEC\n\n\t\n\nTESTEC01\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n1個のグループ\n\n\t\n\n\n\nユニクロ物流倉庫\n\n\t\n\nW0001\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n1個のグループ\n\n\t",
+    "delete_text_present": true
+  }
+]

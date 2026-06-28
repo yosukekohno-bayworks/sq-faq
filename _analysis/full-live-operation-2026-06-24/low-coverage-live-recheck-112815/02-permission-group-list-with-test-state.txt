@@ -1,0 +1,123 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[92700]<a />
+	コンテンツにスキップ
+[92848]<div />
+[92703]<button data-state=closed expanded=false />
+[92704]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[92865]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[92708]<a />
+		ホーム
+	[92709]<a />
+		商品管理
+	[92710]<a />
+		在庫管理
+	[92711]<a />
+		注文管理
+		[92916]<div />
+	[92712]<a />
+		顧客管理
+	[92713]<a />
+		発注管理
+	[92714]<a />
+		販売設定
+	[92715]<a />
+		会計
+	[92716]<a />
+		分析
+	オペレーション
+	[92717]<a />
+		入荷管理
+		[93000]<div />
+	[92718]<a />
+		出荷管理
+		[93011]<div />
+	[92719]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[92720]<a />
+		ディスカウント
+	[92721]<a />
+		ポイント
+	[92722]<a />
+		会員ランク
+	販売チャネル
+	[92723]<a />
+		Shopify
+	[92724]<a />
+		OmnibusCore
+	[92725]<a />
+		スマレジ
+	[92726]<a />
+		リテールポータル
+	[92727]<a />
+		卸売
+	[92728]<a />
+		設定
+権限グループ。このページの準備が整いました
+[93129]<div />
+	[93130]<div />
+		[92730]<a />
+権限グループ
+[92697]<a />
+	作成する
+[93215]<tr />
+	[93216]<th />
+		[93217]<div />
+			[93219]<span />
+				[92738]<span />
+				[93222]<svg /> <!-- SVG content collapsed -->
+			[93224]<span />
+				[93225]<span />
+					すべてのアイテムを選択する
+	[93229]<span />
+		名前
+	[93233]<span />
+		権限数
+[92739]<tr id=4e5ce913-f3fb-5bc0-84d2-901ff34df2bd_PermissionGroup />
+	[93236]<td />
+		[92740]<div />
+			[93238]<span />
+				[92742]<span />
+				[93241]<svg /> <!-- SVG content collapsed -->
+			[93243]<span />
+				[93244]<span />
+					アイテムを選択する
+	[93246]<td />
+		[92743]<a />
+			TEST_FAQ_20260624_PERMISSION_112959
+	[93249]<td />
+		[93250]<p />
+[93252]<tr id=ced25bd4-f743-5b58-a17a-0dad097bd704_PermissionGroup />
+	[93253]<td />
+		[92744]<div />
+			[93255]<span />
+				[92746]<span />
+				<svg /> <!-- SVG content collapsed -->
+			アイテムを選択する
+	[93263]<td />
+		[92747]<a />
+			TEST_権限検証_20260620
+	[93266]<td />
+[93269]<tr id=434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup />
+	[93270]<td />
+		[92748]<div />
+			[93272]<span />
+				[92750]<span />
+				<svg /> <!-- SVG content collapsed -->
+			アイテムを選択する
+	[93280]<td />
+		[92751]<a />
+			特権管理者
+	[93283]<td />
+		76
+[92753]<button id=previousURL aria-label=前へ disabled=true />
+[92754]<button id=nextURL aria-label=次へ disabled=true />
+[93303]<section aria-label=Notifications alt+T live=polite />
+[92755]<div id=PolarisPortalsContainer />
+[92757]<div id=clerk-components />

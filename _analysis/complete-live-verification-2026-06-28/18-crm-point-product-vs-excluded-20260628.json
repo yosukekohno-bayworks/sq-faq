@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-06-28",
+  "rule": {
+    "name": "TEST_FAQ_注文ポイント付与ルール",
+    "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule"
+  },
+  "productMultiplier": {
+    "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/point_multiplier_products",
+    "targetProductCode": "TEST_20260622_OPTION",
+    "selectorColumns": ["商品", "商品コード"],
+    "addDialogFields": ["商品", "倍率"],
+    "savedValue": "0倍",
+    "saveToast": "商品倍率を保存しました",
+    "deleteDialogTitle": "商品倍率を削除しますか？",
+    "cleanupToast": "商品倍率を削除しました",
+    "cleanupSucceeded": true
+  },
+  "pointApplicationExcludedProduct": {
+    "url": "https://www.sqstackstaging.com/admin/point_application_excluded_products",
+    "createUrl": "https://www.sqstackstaging.com/admin/point_application_excluded_products/create",
+    "targetProductCode": "TEST_20260622_OPTION",
+    "selectorColumns": ["商品", "商品コード"],
+    "createFields": ["商品を選択する"],
+    "listColumnsAfterSave": ["商品", "作成日時"],
+    "saveToast": "利用外商品を追加しました",
+    "deleteDialogTitle": "利用対象外商品を削除しますか？",
+    "cleanupToast": "利用対象外商品を削除しました",
+    "cleanupSucceeded": true
+  },
+  "conclusion": "注文ポイント付与ルールの商品倍率では、商品単位で倍率0倍を保存できる。利用外商品は別画面で商品単位に登録し、一覧・削除導線も別。どちらも今回追加した検証データは削除済み。"
+}

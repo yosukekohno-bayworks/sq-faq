@@ -1,0 +1,708 @@
+{
+  "sku": "486125-31-XL",
+  "locationCount": 18,
+  "matches": [
+    {
+      "location": {
+        "id": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+        "name": "ユニクロ物流倉庫",
+        "code": "W0001",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "09c5d2e4-42eb-5ecf-9b99-2ac894e59738_InventoryLevel",
+            "quantity": {
+              "available": -1,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": -1,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+        "name": "ユニクロ - 銀座店",
+        "code": "R0001",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "23fccb3d-7877-5299-8099-2c3ec7390b90_InventoryLevel",
+            "quantity": {
+              "available": 4,
+              "reserved": 2,
+              "committed": 0,
+              "onHand": 6,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+        "name": "TEST_FAQ_DEEP2_202606080343_ロケーション",
+        "code": "test_faq_deep2_202606080343_loc",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "062c86e4-45ee-589d-a506-f9ecb9b4616b_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location",
+        "name": "ユニクロEC",
+        "code": "TESTEC01",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "0dad9534-26eb-5961-9452-f9dd574576b1_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location",
+        "name": "GU 倉庫",
+        "code": "TFCLOC3698",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "4f9129c1-fdd8-573c-ba5e-d2729603481a_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location",
+        "name": "GU 銀座店",
+        "code": "12456789098765",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "c6686414-604a-5608-b16c-f2e203ee2409_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "45ffa873-a7f2-5581-8117-5758f5a45c73_Location",
+        "name": "TEST_FLAGOFF_20260621",
+        "code": "FLAGOFF01",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "a1e5b5a9-509f-5815-a777-abe988834dae_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location",
+        "name": "TEST_E2E_20260622_GU店舗_OFF_1740",
+        "code": "TEST_E2E_20260622_STORE_1740",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "2f3f5111-72ed-519b-ba8d-b812ad718bb3_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "78ae0d92-71dc-56e9-8fc5-a01216b37db1_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1740",
+        "code": "TEST_E2E_20260622_WH_1740",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "0a8e63af-d9aa-5a69-b385-377dce4b6866_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "960d77a3-59f8-586e-9087-fd1ee6a719ee_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1755",
+        "code": "TEST_E2E_20260622_WH_1755",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "891fd4a1-13d1-5f3d-8815-91b18c03d3e9_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "cbe47a67-ca31-507c-865d-6968d4e12187_Location",
+        "name": "TEST_E2E_20260622_GU店舗_OFF_1830",
+        "code": "TEST_E2E_20260622_STORE_1830",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "68540a13-3082-5a3a-bf2d-ce73263c4074_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "eca69a97-1e36-5dfa-8496-44e1c51fd96b_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1830",
+        "code": "TEST_E2E_20260622_WH_1830",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "fbb81622-b261-5694-9fed-932d67c569dc_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "6dd32852-58dd-5f7a-a496-ea0c8bc03623_Location",
+        "name": "TEST_E2E_20260622_GU店舗_OFF_1845",
+        "code": "TEST_E2E_20260622_STORE_1845",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "a28f1800-7ad2-566c-8e56-72d76d5f6ef8_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "6241e39d-9ed7-5004-9b1d-d2d3f280fa68_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1845",
+        "code": "TEST_E2E_20260622_WH_1845",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "24e72ef8-1968-5a53-a037-72a84dbd3ff4_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "4f100847-e242-5aaf-b97a-eb47683a7c95_Location",
+        "name": "TEST_E2E_20260622_GU店舗_OFF_1905",
+        "code": "TEST_E2E_20260622_STORE_1905",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "6de824bf-7fa5-5830-9f30-d5514b4817eb_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "d018dd79-47b6-5a93-a1bf-0e12cac23d3e_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+        "code": "TEST_E2E_20260622_WH_1905",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "63b2b986-eabc-5171-bb57-1c2dc3ddb962_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "295e5a69-c97b-53df-b947-1dc9f559d00d_Location",
+        "name": "TEST_FAQ_20260624_GU店舗_OFF_092214",
+        "code": "TEST_FAQ_20260624_STORE_092214",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "5d109709-8eaa-5e51-a673-3c05c979a291_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    },
+    {
+      "location": {
+        "id": "b111b7e0-f00b-5823-a41f-2d345f56badc_Location",
+        "name": "TEST_FAQ_20260624_GU倉庫_ON_092214",
+        "code": "TEST_FAQ_20260624_WH_092214",
+        "__typename": "Location"
+      },
+      "errors": null,
+      "nodes": [
+        {
+          "id": "30c999b0-145d-5304-b522-c4e3cda1abd5_InventoryItem",
+          "sku": "486125-31-XL",
+          "productVariant": {
+            "id": "21d354c4-8757-54c6-ae20-3cc20db613dd_ProductVariant",
+            "title": "BEIGE / XL",
+            "product": {
+              "id": "2c32fb97-1f83-5cae-b20c-3d83046800d0_Product",
+              "title": "オーバーサイズスウェットシャツ",
+              "__typename": "Product"
+            },
+            "__typename": "ProductVariant"
+          },
+          "inventoryLevel": {
+            "id": "abf0665c-6f60-5ef7-831c-05264fdb4c01_InventoryLevel",
+            "quantity": {
+              "available": 0,
+              "reserved": 0,
+              "committed": 0,
+              "onHand": 0,
+              "inTransit": 0,
+              "incoming": 0,
+              "__typename": "InventoryQuantity"
+            },
+            "__typename": "InventoryLevel"
+          },
+          "__typename": "InventoryItem"
+        }
+      ]
+    }
+  ]
+}

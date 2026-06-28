@@ -1,0 +1,8 @@
+- generic [active] [ref=e1] [box=0,0,1492,841]:
+  - generic [ref=e17] [box=439,68,614,88]:
+    - heading "このページは存在しないようです" [level=1] [ref=e18] [box=598,68,296,24]
+    - link "ホームに戻る" [ref=e19] [cursor=pointer] [box=695,124,101,32]:
+      - /url: /admin
+      - generic [ref=e20] [box=707,130,77,20]: ホームに戻る
+  - region "Notifications alt+T" [box=0,164,1492,0]
+  - alert [ref=e11] [box=-1,163,1,1]

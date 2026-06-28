@@ -1,0 +1,83 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[98658]<a />
+	コンテンツにスキップ
+[98787]<div />
+[98661]<button data-state=closed expanded=false />
+[98662]<button data-state=closed expanded=false />
+	情報取得中...
+	[98800]<span />
+		[98801]<p />
+	[98803]<span aria-label=情報取得中... role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[98666]<a />
+		ホーム
+	[98667]<a />
+		商品管理
+	[98668]<a />
+		在庫管理
+	[98669]<a />
+		注文管理
+		[98858]<div />
+	[98670]<a />
+		顧客管理
+	[98671]<a />
+		発注管理
+	[98672]<a />
+		販売設定
+	[98673]<a />
+		会計
+	[98674]<a />
+		分析
+	オペレーション
+	[98675]<a />
+		入荷管理
+		[98942]<div />
+	[98676]<a />
+		出荷管理
+		[98953]<div />
+	[98677]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[98678]<a />
+		ディスカウント
+	[98679]<a />
+		ポイント
+	[98680]<a />
+		会員ランク
+	販売チャネル
+	[98681]<a />
+		Shopify
+	[98682]<a />
+		OmnibusCore
+	[98683]<a />
+		スマレジ
+	[98684]<a />
+		リテールポータル
+	[98685]<a />
+		卸売
+	[98686]<a />
+		設定
+売上実績（注文軸）をCSVでエクスポートする。このページの準備が整いました
+*[99336]<div />
+	*[99332]<div />
+		*[99331]<a />
+売上実績（注文軸）をCSVでエクスポートする
+テナント
+選択してください
+*[99369]<span />
+	*[99367]<span />
+		*[99366]<svg /> <!-- SVG content collapsed -->
+エクスポートするテナントを選択してください
+開始日時
+|SHADOW(open)|*[99411]<input id=:r1f: autocomplete=off type=datetime-local format=YYYY-MM-DDTHH:MM placeholder=YYYY-MM-DDTHH:MM />
+絞り込みを開始する日時を入力してください
+終了日時
+|SHADOW(open)|*[99454]<input id=:r1g: autocomplete=off type=datetime-local format=YYYY-MM-DDTHH:MM placeholder=YYYY-MM-DDTHH:MM />
+絞り込みを終了する日時を入力してください
+*[99472]<button />
+	エクスポートを開始する
+[99269]<section aria-label=Notifications alt+T live=polite />
+[98696]<div id=PolarisPortalsContainer />

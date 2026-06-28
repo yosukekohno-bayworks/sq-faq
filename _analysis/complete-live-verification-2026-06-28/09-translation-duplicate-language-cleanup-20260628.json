@@ -1,0 +1,3680 @@
+{
+  "generatedAt": "2026-06-27T21:38:21.355880+00:00",
+  "ruleA": "TEST_FAQ_TRANSLATION_DUP_A_20260628063821",
+  "ruleB": "TEST_FAQ_TRANSLATION_DUP_B_20260628063821",
+  "errors": [],
+  "preCleanup": [],
+  "listBefore": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+    "h1": [
+      "翻訳ルール"
+    ],
+    "labels": [
+      "すべてのアイテムを選択する",
+      "すべての3のアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      {
+        "index": 0,
+        "text": "",
+        "aria": "メニューを切り替える",
+        "disabled": false
+      },
+      {
+        "index": 1,
+        "text": "",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 2,
+        "text": "stack-ps-yosuke 陽介 河野",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 3,
+        "text": "",
+        "aria": "メニューを閉じる",
+        "disabled": false
+      },
+      {
+        "index": 4,
+        "text": "",
+        "aria": "前へ",
+        "disabled": false
+      },
+      {
+        "index": 5,
+        "text": "",
+        "aria": "次へ",
+        "disabled": false
+      }
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/translation"
+      },
+      {
+        "text": "翻訳ルールを作成",
+        "href": "/admin/settings/translation/translation_rules/create"
+      },
+      {
+        "text": "Test_中国語",
+        "href": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_翻訳ルール_英語",
+        "href": "/admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_英語翻訳ルール",
+        "href": "/admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule"
+      }
+    ],
+    "inputs": [
+      {
+        "index": 0,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "index": 1,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "index": 2,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "すべてのアイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 3,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 4,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 5,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "id": "",
+        "text": "すべてのアイテムを選択する 名前 言語 作成日時"
+      },
+      {
+        "index": 1,
+        "id": "19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule",
+        "text": "アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33"
+      },
+      {
+        "index": 2,
+        "id": "a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41"
+      },
+      {
+        "index": 3,
+        "id": "776ea270-1e30-5949-b99d-b9521862120b_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+      }
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルール。このページの準備が整いました 翻訳ルール 翻訳ルールを作成 すべてのアイテムを選択する 名前 言語 作成日時 アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33 アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41 アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+  },
+  "englishRowsBefore": [
+    {
+      "id": "a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule",
+      "text": "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41"
+    },
+    {
+      "id": "776ea270-1e30-5949-b99d-b9521862120b_TranslationRule",
+      "text": "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+    }
+  ],
+  "createA": {
+    "initial": {
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/create",
+      "h1": [
+        "翻訳ルールを作成する"
+      ],
+      "labels": [
+        "名前",
+        "言語",
+        "翻訳データを自動で作成する"
+      ],
+      "buttons": [
+        {
+          "index": 0,
+          "text": "",
+          "aria": "メニューを切り替える",
+          "disabled": false
+        },
+        {
+          "index": 1,
+          "text": "",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 2,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 3,
+          "text": "",
+          "aria": "メニューを閉じる",
+          "disabled": false
+        },
+        {
+          "index": 4,
+          "text": "保存する",
+          "aria": "",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation/translation_rules"
+        }
+      ],
+      "inputs": [
+        {
+          "index": 0,
+          "tag": "input",
+          "type": "text",
+          "placeholder": "",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 1,
+          "tag": "select",
+          "type": "",
+          "placeholder": "",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 選択してください",
+          "options": [
+            {
+              "value": "",
+              "text": "選択してください",
+              "disabled": true
+            },
+            {
+              "value": "JA",
+              "text": "日本語",
+              "disabled": false
+            },
+            {
+              "value": "EN",
+              "text": "英語",
+              "disabled": false
+            },
+            {
+              "value": "ZH_CN",
+              "text": "中国語（簡体字）",
+              "disabled": false
+            },
+            {
+              "value": "ZH_TW",
+              "text": "中国語（繁体字）",
+              "disabled": false
+            },
+            {
+              "value": "KO",
+              "text": "韓国語",
+              "disabled": false
+            },
+            {
+              "value": "ES",
+              "text": "スペイン語",
+              "disabled": false
+            },
+            {
+              "value": "FR",
+              "text": "フランス語",
+              "disabled": false
+            },
+            {
+              "value": "DE",
+              "text": "ドイツ語",
+              "disabled": false
+            },
+            {
+              "value": "HI",
+              "text": "ヒンディー語",
+              "disabled": false
+            },
+            {
+              "value": "TH",
+              "text": "タイ語",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "翻訳データを自動で作成する",
+          "options": []
+        }
+      ],
+      "rows": [],
+      "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルールを作成する。このページの準備が整いました 翻訳ルールを作成する 名前 言語 選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 選択してください 各種設定 翻訳データを自動で作成する 保存する"
+    },
+    "beforeSave": {
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/create",
+      "h1": [
+        "翻訳ルールを作成する"
+      ],
+      "labels": [
+        "名前",
+        "言語",
+        "翻訳データを自動で作成する"
+      ],
+      "buttons": [
+        {
+          "index": 0,
+          "text": "",
+          "aria": "メニューを切り替える",
+          "disabled": false
+        },
+        {
+          "index": 1,
+          "text": "",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 2,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 3,
+          "text": "",
+          "aria": "メニューを閉じる",
+          "disabled": false
+        },
+        {
+          "index": 4,
+          "text": "保存する",
+          "aria": "",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation/translation_rules"
+        }
+      ],
+      "inputs": [
+        {
+          "index": 0,
+          "tag": "input",
+          "type": "text",
+          "placeholder": "",
+          "value": "TEST_FAQ_TRANSLATION_DUP_A_20260628063821",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 1,
+          "tag": "select",
+          "type": "",
+          "placeholder": "",
+          "value": "EN",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 英語",
+          "options": [
+            {
+              "value": "",
+              "text": "選択してください",
+              "disabled": true
+            },
+            {
+              "value": "JA",
+              "text": "日本語",
+              "disabled": false
+            },
+            {
+              "value": "EN",
+              "text": "英語",
+              "disabled": false
+            },
+            {
+              "value": "ZH_CN",
+              "text": "中国語（簡体字）",
+              "disabled": false
+            },
+            {
+              "value": "ZH_TW",
+              "text": "中国語（繁体字）",
+              "disabled": false
+            },
+            {
+              "value": "KO",
+              "text": "韓国語",
+              "disabled": false
+            },
+            {
+              "value": "ES",
+              "text": "スペイン語",
+              "disabled": false
+            },
+            {
+              "value": "FR",
+              "text": "フランス語",
+              "disabled": false
+            },
+            {
+              "value": "DE",
+              "text": "ドイツ語",
+              "disabled": false
+            },
+            {
+              "value": "HI",
+              "text": "ヒンディー語",
+              "disabled": false
+            },
+            {
+              "value": "TH",
+              "text": "タイ語",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "true",
+          "checked": true,
+          "disabled": false,
+          "readOnly": false,
+          "label": "翻訳データを自動で作成する",
+          "options": []
+        }
+      ],
+      "rows": [],
+      "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルールを作成する。このページの準備が整いました 翻訳ルールを作成する 名前 言語 選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 英語 各種設定 翻訳データを自動で作成する 保存する"
+    },
+    "detail": {
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule",
+      "h1": [
+        "TEST_FAQ_TRANSLATION_DUP_A_20260628063821"
+      ],
+      "labels": [
+        "名前",
+        "言語",
+        "翻訳データを自動で作成する",
+        "親プロンプト",
+        "カスタムプロンプト"
+      ],
+      "buttons": [
+        {
+          "index": 0,
+          "text": "",
+          "aria": "メニューを切り替える",
+          "disabled": false
+        },
+        {
+          "index": 1,
+          "text": "",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 2,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 3,
+          "text": "",
+          "aria": "メニューを閉じる",
+          "disabled": false
+        },
+        {
+          "index": 4,
+          "text": "保存する",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 5,
+          "text": "",
+          "aria": "Close toast",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation/translation_rules"
+        }
+      ],
+      "inputs": [
+        {
+          "index": 0,
+          "tag": "input",
+          "type": "text",
+          "placeholder": "",
+          "value": "TEST_FAQ_TRANSLATION_DUP_A_20260628063821",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 1,
+          "tag": "select",
+          "type": "",
+          "placeholder": "",
+          "value": "EN",
+          "checked": null,
+          "disabled": true,
+          "readOnly": false,
+          "label": "日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 英語",
+          "options": [
+            {
+              "value": "JA",
+              "text": "日本語",
+              "disabled": false
+            },
+            {
+              "value": "EN",
+              "text": "英語",
+              "disabled": false
+            },
+            {
+              "value": "ZH_CN",
+              "text": "中国語（簡体字）",
+              "disabled": false
+            },
+            {
+              "value": "ZH_TW",
+              "text": "中国語（繁体字）",
+              "disabled": false
+            },
+            {
+              "value": "KO",
+              "text": "韓国語",
+              "disabled": false
+            },
+            {
+              "value": "ES",
+              "text": "スペイン語",
+              "disabled": false
+            },
+            {
+              "value": "FR",
+              "text": "フランス語",
+              "disabled": false
+            },
+            {
+              "value": "DE",
+              "text": "ドイツ語",
+              "disabled": false
+            },
+            {
+              "value": "HI",
+              "text": "ヒンディー語",
+              "disabled": false
+            },
+            {
+              "value": "TH",
+              "text": "タイ語",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "true",
+          "checked": true,
+          "disabled": false,
+          "readOnly": false,
+          "label": "翻訳データを自動で作成する",
+          "options": []
+        },
+        {
+          "index": 3,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "",
+          "value": "\n# OBJECTIVE:\n商品情報を高品質に翻訳する。\n\n# PERSONA:\nあなたは、グローバルなEコマース市場におけるマーケティングとコピーライティングに精通した翻訳のスペシャリストです。\nあらゆる言語をネイティブレベルで使いこなし、単に言語を置き換えるだけでなく、商品の魅力を最大限に引き出し、顧客の購買意欲を高める「トランスクリエーション」を得意としています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供された商品情報を翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  まず、提供された原文の商品情報を注意深く読み、商品の主要な特徴、素材、利点、用途を完全に理解します。\n2.  次に、その商品がどのようなキーワードで検索するかを推測し、最も重要と思われるキーワードをいくつか特定します。\n3.  特定したキーワードを効果的に使用し、商品情報を翻訳します。翻訳先の言語圏の顧客にとって魅力的な文章を作成してください。原文の意図を汲み取りつつ、ただの直訳ではなく、商品のストーリーや価値が伝わるような、説得力のある文章を作成します。箇条書きや段落などの構造は維持してください。\n4.  翻訳された商品情報が、Eコマースの商品ページとして自然で魅力的かを確認し、必要であれば調整します。\n5.  最後に、翻訳結果全体を見直し、誤字脱字がないかを確認します。\n\n**翻訳ルール:**\n- **SEOの意識:** 翻訳後の商品情報には、顧客が検索しそうな一般的なキーワード（例：素材、用途、スタイルなど）を自然に含めてください。\n- **魅力的な表現:** 専門用語は避け、顧客の感情やライフスタイルに訴えかけるような言葉を選んでください。\n- **固有名詞の扱い:** 固有名詞や造語と思われる部分は、文脈から判断し、最も適切と思われる一般的な表現に置き換えるか、意味が通じるように表記してください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"title\": \"長袖裾フリルカットソー\",\n    \"description\": \"トレンドのレイヤードスタイルが楽しめるインナー。全てオフホワイトカラーをベースにして、裾はギャザーフリルの無地、レース、シボ感のある布帛のバルーンデザインの3展開です。生地に合わせて裾のギャザーと分量、切り替え位置を変えています。身頃と袖は無地のシアーカットソーを使用。ニットやスウェットとレイヤードして裾からフリルを出すと、スタイリングのアクセントになります。お持ちのトップスと合わせるだけで、今季らしいレイヤードスタイルが楽しめます。<br>※モデルの着用画像の場合、光の当たり具合により、実際の色味と異なって見えることがございます。色味は、商品単体の画像をご参照ください。\"\n  }\n}\n\n**出力例:**\n{\n  \"title\": \"Sheer Long-Sleeve Frill Hem Layering Top\",\n  \"description\": \"Elevate your layered looks with this versatile inner top. Available in three distinct off-white designs, each featuring a unique frilled hem: a classic plain gathered ruffle, delicate lace, and a stylish textured fabric balloon design. The gathering, volume, and seam placement are meticulously adjusted to complement each fabric's unique drape and texture. The body and sleeves are crafted from a soft, plain sheer cut-and-sew material, perfect for peeking out from under sweaters, knitwear, or sweatshirts. The delicate frill adds a touch of playful elegance and instantly updates your look. Effortlessly achieve this season's most coveted layered style by simply pairing it with your existing wardrobe.<br>Please note: Due to lighting conditions, the color of the product in model images may appear slightly different from the actual item. For the most accurate color representation, please refer to the product-only images.\"\n}\n\n# TASK:\n提供された商品情報を、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n",
+          "checked": null,
+          "disabled": false,
+          "readOnly": true,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 4,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "例）商品の説明文の翻訳は150字以内にまとめてください",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 5,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "",
+          "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n",
+          "checked": null,
+          "disabled": false,
+          "readOnly": true,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 6,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "例）商品オプションの翻訳は150字以内にまとめてください",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 7,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "",
+          "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n",
+          "checked": null,
+          "disabled": false,
+          "readOnly": true,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 8,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "例）商品オプション値の翻訳は150字以内にまとめてください",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 9,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "",
+          "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n",
+          "checked": null,
+          "disabled": false,
+          "readOnly": true,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 10,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "例）メタフィールドの翻訳は150字以内にまとめてください",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        }
+      ],
+      "rows": [],
+      "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_TRANSLATION_DUP_A_20260628063821。このページの準備が整いました TEST_FAQ_TRANSLATION_DUP_A_20260628063821 名前 言語 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 英語 各種設定 翻訳データを自動で作成する 商品 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 商品オプション 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 商品オプション値 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト メタフィールド 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 保存する 翻訳ルールを作成しました"
+    }
+  },
+  "createB": {
+    "initial": {
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/create",
+      "h1": [
+        "翻訳ルールを作成する"
+      ],
+      "labels": [
+        "名前",
+        "言語",
+        "翻訳データを自動で作成する"
+      ],
+      "buttons": [
+        {
+          "index": 0,
+          "text": "",
+          "aria": "メニューを切り替える",
+          "disabled": false
+        },
+        {
+          "index": 1,
+          "text": "",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 2,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 3,
+          "text": "",
+          "aria": "メニューを閉じる",
+          "disabled": false
+        },
+        {
+          "index": 4,
+          "text": "保存する",
+          "aria": "",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation/translation_rules"
+        }
+      ],
+      "inputs": [
+        {
+          "index": 0,
+          "tag": "input",
+          "type": "text",
+          "placeholder": "",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 1,
+          "tag": "select",
+          "type": "",
+          "placeholder": "",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 選択してください",
+          "options": [
+            {
+              "value": "",
+              "text": "選択してください",
+              "disabled": true
+            },
+            {
+              "value": "JA",
+              "text": "日本語",
+              "disabled": false
+            },
+            {
+              "value": "EN",
+              "text": "英語",
+              "disabled": false
+            },
+            {
+              "value": "ZH_CN",
+              "text": "中国語（簡体字）",
+              "disabled": false
+            },
+            {
+              "value": "ZH_TW",
+              "text": "中国語（繁体字）",
+              "disabled": false
+            },
+            {
+              "value": "KO",
+              "text": "韓国語",
+              "disabled": false
+            },
+            {
+              "value": "ES",
+              "text": "スペイン語",
+              "disabled": false
+            },
+            {
+              "value": "FR",
+              "text": "フランス語",
+              "disabled": false
+            },
+            {
+              "value": "DE",
+              "text": "ドイツ語",
+              "disabled": false
+            },
+            {
+              "value": "HI",
+              "text": "ヒンディー語",
+              "disabled": false
+            },
+            {
+              "value": "TH",
+              "text": "タイ語",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "翻訳データを自動で作成する",
+          "options": []
+        }
+      ],
+      "rows": [],
+      "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルールを作成する。このページの準備が整いました 翻訳ルールを作成する 名前 言語 選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 選択してください 各種設定 翻訳データを自動で作成する 保存する"
+    },
+    "beforeSave": {
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/create",
+      "h1": [
+        "翻訳ルールを作成する"
+      ],
+      "labels": [
+        "名前",
+        "言語",
+        "翻訳データを自動で作成する"
+      ],
+      "buttons": [
+        {
+          "index": 0,
+          "text": "",
+          "aria": "メニューを切り替える",
+          "disabled": false
+        },
+        {
+          "index": 1,
+          "text": "",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 2,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 3,
+          "text": "",
+          "aria": "メニューを閉じる",
+          "disabled": false
+        },
+        {
+          "index": 4,
+          "text": "保存する",
+          "aria": "",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation/translation_rules"
+        }
+      ],
+      "inputs": [
+        {
+          "index": 0,
+          "tag": "input",
+          "type": "text",
+          "placeholder": "",
+          "value": "TEST_FAQ_TRANSLATION_DUP_B_20260628063821",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 1,
+          "tag": "select",
+          "type": "",
+          "placeholder": "",
+          "value": "EN",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 英語",
+          "options": [
+            {
+              "value": "",
+              "text": "選択してください",
+              "disabled": true
+            },
+            {
+              "value": "JA",
+              "text": "日本語",
+              "disabled": false
+            },
+            {
+              "value": "EN",
+              "text": "英語",
+              "disabled": false
+            },
+            {
+              "value": "ZH_CN",
+              "text": "中国語（簡体字）",
+              "disabled": false
+            },
+            {
+              "value": "ZH_TW",
+              "text": "中国語（繁体字）",
+              "disabled": false
+            },
+            {
+              "value": "KO",
+              "text": "韓国語",
+              "disabled": false
+            },
+            {
+              "value": "ES",
+              "text": "スペイン語",
+              "disabled": false
+            },
+            {
+              "value": "FR",
+              "text": "フランス語",
+              "disabled": false
+            },
+            {
+              "value": "DE",
+              "text": "ドイツ語",
+              "disabled": false
+            },
+            {
+              "value": "HI",
+              "text": "ヒンディー語",
+              "disabled": false
+            },
+            {
+              "value": "TH",
+              "text": "タイ語",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "翻訳データを自動で作成する",
+          "options": []
+        }
+      ],
+      "rows": [],
+      "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルールを作成する。このページの準備が整いました 翻訳ルールを作成する 名前 言語 選択してください 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 英語 各種設定 翻訳データを自動で作成する 保存する"
+    },
+    "detail": {
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules/bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule",
+      "h1": [
+        "TEST_FAQ_TRANSLATION_DUP_B_20260628063821"
+      ],
+      "labels": [
+        "名前",
+        "言語",
+        "翻訳データを自動で作成する",
+        "親プロンプト",
+        "カスタムプロンプト"
+      ],
+      "buttons": [
+        {
+          "index": 0,
+          "text": "",
+          "aria": "メニューを切り替える",
+          "disabled": false
+        },
+        {
+          "index": 1,
+          "text": "",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 2,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 3,
+          "text": "",
+          "aria": "メニューを閉じる",
+          "disabled": false
+        },
+        {
+          "index": 4,
+          "text": "保存する",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 5,
+          "text": "",
+          "aria": "Close toast",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation/translation_rules"
+        }
+      ],
+      "inputs": [
+        {
+          "index": 0,
+          "tag": "input",
+          "type": "text",
+          "placeholder": "",
+          "value": "TEST_FAQ_TRANSLATION_DUP_B_20260628063821",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 1,
+          "tag": "select",
+          "type": "",
+          "placeholder": "",
+          "value": "EN",
+          "checked": null,
+          "disabled": true,
+          "readOnly": false,
+          "label": "日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 英語",
+          "options": [
+            {
+              "value": "JA",
+              "text": "日本語",
+              "disabled": false
+            },
+            {
+              "value": "EN",
+              "text": "英語",
+              "disabled": false
+            },
+            {
+              "value": "ZH_CN",
+              "text": "中国語（簡体字）",
+              "disabled": false
+            },
+            {
+              "value": "ZH_TW",
+              "text": "中国語（繁体字）",
+              "disabled": false
+            },
+            {
+              "value": "KO",
+              "text": "韓国語",
+              "disabled": false
+            },
+            {
+              "value": "ES",
+              "text": "スペイン語",
+              "disabled": false
+            },
+            {
+              "value": "FR",
+              "text": "フランス語",
+              "disabled": false
+            },
+            {
+              "value": "DE",
+              "text": "ドイツ語",
+              "disabled": false
+            },
+            {
+              "value": "HI",
+              "text": "ヒンディー語",
+              "disabled": false
+            },
+            {
+              "value": "TH",
+              "text": "タイ語",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "翻訳データを自動で作成する",
+          "options": []
+        },
+        {
+          "index": 3,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "",
+          "value": "\n# OBJECTIVE:\n商品情報を高品質に翻訳する。\n\n# PERSONA:\nあなたは、グローバルなEコマース市場におけるマーケティングとコピーライティングに精通した翻訳のスペシャリストです。\nあらゆる言語をネイティブレベルで使いこなし、単に言語を置き換えるだけでなく、商品の魅力を最大限に引き出し、顧客の購買意欲を高める「トランスクリエーション」を得意としています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供された商品情報を翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  まず、提供された原文の商品情報を注意深く読み、商品の主要な特徴、素材、利点、用途を完全に理解します。\n2.  次に、その商品がどのようなキーワードで検索するかを推測し、最も重要と思われるキーワードをいくつか特定します。\n3.  特定したキーワードを効果的に使用し、商品情報を翻訳します。翻訳先の言語圏の顧客にとって魅力的な文章を作成してください。原文の意図を汲み取りつつ、ただの直訳ではなく、商品のストーリーや価値が伝わるような、説得力のある文章を作成します。箇条書きや段落などの構造は維持してください。\n4.  翻訳された商品情報が、Eコマースの商品ページとして自然で魅力的かを確認し、必要であれば調整します。\n5.  最後に、翻訳結果全体を見直し、誤字脱字がないかを確認します。\n\n**翻訳ルール:**\n- **SEOの意識:** 翻訳後の商品情報には、顧客が検索しそうな一般的なキーワード（例：素材、用途、スタイルなど）を自然に含めてください。\n- **魅力的な表現:** 専門用語は避け、顧客の感情やライフスタイルに訴えかけるような言葉を選んでください。\n- **固有名詞の扱い:** 固有名詞や造語と思われる部分は、文脈から判断し、最も適切と思われる一般的な表現に置き換えるか、意味が通じるように表記してください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"title\": \"長袖裾フリルカットソー\",\n    \"description\": \"トレンドのレイヤードスタイルが楽しめるインナー。全てオフホワイトカラーをベースにして、裾はギャザーフリルの無地、レース、シボ感のある布帛のバルーンデザインの3展開です。生地に合わせて裾のギャザーと分量、切り替え位置を変えています。身頃と袖は無地のシアーカットソーを使用。ニットやスウェットとレイヤードして裾からフリルを出すと、スタイリングのアクセントになります。お持ちのトップスと合わせるだけで、今季らしいレイヤードスタイルが楽しめます。<br>※モデルの着用画像の場合、光の当たり具合により、実際の色味と異なって見えることがございます。色味は、商品単体の画像をご参照ください。\"\n  }\n}\n\n**出力例:**\n{\n  \"title\": \"Sheer Long-Sleeve Frill Hem Layering Top\",\n  \"description\": \"Elevate your layered looks with this versatile inner top. Available in three distinct off-white designs, each featuring a unique frilled hem: a classic plain gathered ruffle, delicate lace, and a stylish textured fabric balloon design. The gathering, volume, and seam placement are meticulously adjusted to complement each fabric's unique drape and texture. The body and sleeves are crafted from a soft, plain sheer cut-and-sew material, perfect for peeking out from under sweaters, knitwear, or sweatshirts. The delicate frill adds a touch of playful elegance and instantly updates your look. Effortlessly achieve this season's most coveted layered style by simply pairing it with your existing wardrobe.<br>Please note: Due to lighting conditions, the color of the product in model images may appear slightly different from the actual item. For the most accurate color representation, please refer to the product-only images.\"\n}\n\n# TASK:\n提供された商品情報を、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n",
+          "checked": null,
+          "disabled": false,
+          "readOnly": true,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 4,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "例）商品の説明文の翻訳は150字以内にまとめてください",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 5,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "",
+          "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n",
+          "checked": null,
+          "disabled": false,
+          "readOnly": true,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 6,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "例）商品オプションの翻訳は150字以内にまとめてください",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 7,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "",
+          "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n",
+          "checked": null,
+          "disabled": false,
+          "readOnly": true,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 8,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "例）商品オプション値の翻訳は150字以内にまとめてください",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 9,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "",
+          "value": "\n# OBJECTIVE:\n提供されたテキストを、文脈を忠実に保ちながら、高品質かつ自然な文章に翻訳する。\n\n# PERSONA:\nあなたは、あらゆる言語に精通したプロフェッショナルな翻訳家です。\n単なる直訳ではなく、ターゲット言語の自然な表現と文法規則を完全に遵守し、原文の持つ意味、ニュアンス、トーンを正確に再現することに特化しています。\n\n# INSTRUCTIONS:\n以下の思考プロセスとルールに従って、提供されたテキストを翻訳してください。\n\n**思考プロセス (Chain of Thought):**\n1.  提供された原文を注意深く読み、全体の意味、構造、および意図を完全に把握します。\n2.  原文の論理的な流れと構造（段落分け、箇条書きなど）を維持することを最優先します。\n3.  原文のニュアンスやトーン（例：フォーマル、インフォーマル、技術的など）を分析し、翻訳後の言語で適切に再現します。\n4.  直訳を基本としつつ、ターゲット言語として不自然な箇所があれば、意味を変えない範囲で最も自然な表現に微調整します。\n5.  翻訳結果全体を見直し、誤字脱字や文法的な誤りがないか、また原文の意味が正確に伝わるかを確認します。\n\n**翻訳ルール:**\n- **正確性と一貫性:** 意味の変更、省略、追加は厳禁です。\n- **プレーンな表現:** マーケティング的な表現や感情に訴える言葉は使用せず、事実のみを伝えます。\n- **忠実性:** 原文の意味と構造（箇条書き、段落など）を厳密に維持してください。意訳や過度な意訳は避けてください。\n- **自然な表現:** ターゲット言語として文法的に正しく、自然に読める文章としてください。\n- **専門用語の扱い:** 専門用語や固有名詞は、文脈上置き換えが不必要な限り、そのまま、または最も適切な訳語を適用してください。\n- **JSON値の扱い:** 翻訳対象の値がJSON形式の場合、JSON構造やフィールド名を変更せず、値の内容のみを翻訳してください。JSONの構造やフィールドは崩さないでください。\n\n# EXAMPLE:\n以下は、このタスクの優れた実行例です。\n\n**入力例:**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"capacity\": \"500ml\",\n    \"material\": \"本体: SUS304 / パッキン: シリコーン\",\n    \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n    \"weight\": \"320g\",\n    \"care_instructions\": \"手洗い推奨\"\n  }\n}\n\n**出力例:**\n{\n  \"capacity\": \"500ml\",\n  \"material\": \"Body: SUS304 / Gasket: Silicone\",\n  \"dimensions\": \"7.5cm x 7.5cm x 22.0cm\",\n  \"weight\": \"320g\",\n  \"care_instructions\": \"Hand wash recommended\"\n}\n\n**入力例 (JSON値を含む場合):**\n{\n  \"translate_from\": \"日本語\",\n  \"translate_to\": \"英語\",\n  \"values\": {\n    \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"牛革\\\"}]}]}\"\n  }\n}\n\n**出力例 (JSON値を含む場合):**\n{\n  \"value\": \"{\\\"type\\\":\\\"root\\\",\\\"children\\\":[{\\\"type\\\":\\\"paragraph\\\",\\\"children\\\":[{\\\"type\\\":\\\"text\\\",\\\"value\\\":\\\"cowhide\\\"}]}]}\"\n}\n\n# TASK:\n提供された翻訳対象テキストを、上記指示に従って翻訳し、出力フォーマットに沿ったJSON形式で出力してください。\n\n# ADDITIONAL RULES:\n以下に追加ルールが記載されている場合は、上記のルールより優先して適用してください。\n\n{{ここにカスタムプロンプトが挿入されます}}\n",
+          "checked": null,
+          "disabled": false,
+          "readOnly": true,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 10,
+          "tag": "textarea",
+          "type": "text",
+          "placeholder": "例）メタフィールドの翻訳は150字以内にまとめてください",
+          "value": "",
+          "checked": null,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        }
+      ],
+      "rows": [],
+      "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_TRANSLATION_DUP_B_20260628063821。このページの準備が整いました TEST_FAQ_TRANSLATION_DUP_B_20260628063821 名前 言語 日本語 英語 中国語（簡体字） 中国語（繁体字） 韓国語 スペイン語 フランス語 ドイツ語 ヒンディー語 タイ語 英語 各種設定 翻訳データを自動で作成する 商品 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 商品オプション 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 商品オプション値 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト メタフィールド 親プロンプト カスタマイズ項目を追加する 親プロンプト内の「{{ここにカスタムプロンプトが挿入されます}}」セクションにこの翻訳ルール独自の指示を差し込むことができます。 カスタムプロンプト 保存する 翻訳ルールを作成しました"
+    }
+  },
+  "listAfterCreate": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+    "h1": [
+      "翻訳ルール"
+    ],
+    "labels": [
+      "すべてのアイテムを選択する",
+      "すべての5のアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      {
+        "index": 0,
+        "text": "",
+        "aria": "メニューを切り替える",
+        "disabled": false
+      },
+      {
+        "index": 1,
+        "text": "",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 2,
+        "text": "stack-ps-yosuke 陽介 河野",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 3,
+        "text": "",
+        "aria": "メニューを閉じる",
+        "disabled": false
+      },
+      {
+        "index": 4,
+        "text": "",
+        "aria": "前へ",
+        "disabled": false
+      },
+      {
+        "index": 5,
+        "text": "",
+        "aria": "次へ",
+        "disabled": false
+      }
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/translation"
+      },
+      {
+        "text": "翻訳ルールを作成",
+        "href": "/admin/settings/translation/translation_rules/create"
+      },
+      {
+        "text": "TEST_FAQ_TRANSLATION_DUP_B_20260628063821",
+        "href": "/admin/settings/translation/translation_rules/bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_TRANSLATION_DUP_A_20260628063821",
+        "href": "/admin/settings/translation/translation_rules/14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule"
+      },
+      {
+        "text": "Test_中国語",
+        "href": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_翻訳ルール_英語",
+        "href": "/admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_英語翻訳ルール",
+        "href": "/admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule"
+      }
+    ],
+    "inputs": [
+      {
+        "index": 0,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "index": 1,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "index": 2,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "すべてのアイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 3,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 4,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 5,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 6,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 7,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "id": "",
+        "text": "すべてのアイテムを選択する 名前 言語 作成日時"
+      },
+      {
+        "index": 1,
+        "id": "bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38"
+      },
+      {
+        "index": 2,
+        "id": "14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38"
+      },
+      {
+        "index": 3,
+        "id": "19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule",
+        "text": "アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33"
+      },
+      {
+        "index": 4,
+        "id": "a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41"
+      },
+      {
+        "index": 5,
+        "id": "776ea270-1e30-5949-b99d-b9521862120b_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+      }
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルール。このページの準備が整いました 翻訳ルール 翻訳ルールを作成 すべてのアイテムを選択する 名前 言語 作成日時 アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38 アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38 アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33 アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41 アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+  },
+  "createdRowsAfterCreate": [
+    {
+      "id": "bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule",
+      "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38"
+    },
+    {
+      "id": "14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule",
+      "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38"
+    }
+  ],
+  "englishRowsAfterCreate": [
+    {
+      "id": "bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule",
+      "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38"
+    },
+    {
+      "id": "14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule",
+      "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38"
+    },
+    {
+      "id": "a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule",
+      "text": "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41"
+    },
+    {
+      "id": "776ea270-1e30-5949-b99d-b9521862120b_TranslationRule",
+      "text": "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+    }
+  ],
+  "translationTop": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation",
+    "h1": [
+      "翻訳"
+    ],
+    "labels": [],
+    "buttons": [
+      {
+        "index": 0,
+        "text": "",
+        "aria": "メニューを切り替える",
+        "disabled": false
+      },
+      {
+        "index": 1,
+        "text": "",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 2,
+        "text": "stack-ps-yosuke 陽介 河野",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 3,
+        "text": "",
+        "aria": "メニューを閉じる",
+        "disabled": false
+      },
+      {
+        "index": 4,
+        "text": "選択してください",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 5,
+        "text": "その他の操作",
+        "aria": "",
+        "disabled": false
+      }
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "ルールを管理する",
+        "href": "/admin/settings/translation/translation_rules"
+      },
+      {
+        "text": "ルールを管理する",
+        "href": "/admin/settings/translation/translation_rules"
+      }
+    ],
+    "inputs": [],
+    "rows": [],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳。このページの準備が整いました 翻訳 選択してください ルールを管理する 未選択：翻訳ルールを選択するとリソースを選択できます 商品 商品"
+  },
+  "translationRulesList": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+    "h1": [
+      "翻訳ルール"
+    ],
+    "labels": [
+      "すべてのアイテムを選択する",
+      "すべての5のアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      {
+        "index": 0,
+        "text": "",
+        "aria": "メニューを切り替える",
+        "disabled": false
+      },
+      {
+        "index": 1,
+        "text": "",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 2,
+        "text": "stack-ps-yosuke 陽介 河野",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 3,
+        "text": "",
+        "aria": "メニューを閉じる",
+        "disabled": false
+      },
+      {
+        "index": 4,
+        "text": "",
+        "aria": "前へ",
+        "disabled": false
+      },
+      {
+        "index": 5,
+        "text": "",
+        "aria": "次へ",
+        "disabled": false
+      }
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/translation"
+      },
+      {
+        "text": "翻訳ルールを作成",
+        "href": "/admin/settings/translation/translation_rules/create"
+      },
+      {
+        "text": "TEST_FAQ_TRANSLATION_DUP_B_20260628063821",
+        "href": "/admin/settings/translation/translation_rules/bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_TRANSLATION_DUP_A_20260628063821",
+        "href": "/admin/settings/translation/translation_rules/14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule"
+      },
+      {
+        "text": "Test_中国語",
+        "href": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_翻訳ルール_英語",
+        "href": "/admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_英語翻訳ルール",
+        "href": "/admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule"
+      }
+    ],
+    "inputs": [
+      {
+        "index": 0,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "index": 1,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "index": 2,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "すべてのアイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 3,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 4,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 5,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 6,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 7,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "id": "",
+        "text": "すべてのアイテムを選択する 名前 言語 作成日時"
+      },
+      {
+        "index": 1,
+        "id": "bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38"
+      },
+      {
+        "index": 2,
+        "id": "14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38"
+      },
+      {
+        "index": 3,
+        "id": "19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule",
+        "text": "アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33"
+      },
+      {
+        "index": 4,
+        "id": "a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41"
+      },
+      {
+        "index": 5,
+        "id": "776ea270-1e30-5949-b99d-b9521862120b_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+      }
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルール。このページの準備が整いました 翻訳ルール 翻訳ルールを作成 すべてのアイテムを選択する 名前 言語 作成日時 アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38 アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38 アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33 アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41 アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+  },
+  "cleanupA": {
+    "found": true,
+    "selected": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38",
+    "afterSelect": {
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+      "h1": [
+        "翻訳ルール"
+      ],
+      "labels": [
+        "すべてのアイテムを選択する",
+        "すべての5のアイテムを選択する",
+        "アイテムを選択する"
+      ],
+      "buttons": [
+        {
+          "index": 0,
+          "text": "",
+          "aria": "メニューを切り替える",
+          "disabled": false
+        },
+        {
+          "index": 1,
+          "text": "",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 2,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 3,
+          "text": "",
+          "aria": "メニューを閉じる",
+          "disabled": false
+        },
+        {
+          "index": 4,
+          "text": "削除する",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 5,
+          "text": "",
+          "aria": "その他の操作",
+          "disabled": false
+        },
+        {
+          "index": 6,
+          "text": "削除する",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 7,
+          "text": "",
+          "aria": "前へ",
+          "disabled": false
+        },
+        {
+          "index": 8,
+          "text": "",
+          "aria": "次へ",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation"
+        },
+        {
+          "text": "翻訳ルールを作成",
+          "href": "/admin/settings/translation/translation_rules/create"
+        },
+        {
+          "text": "TEST_FAQ_TRANSLATION_DUP_B_20260628063821",
+          "href": "/admin/settings/translation/translation_rules/bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule"
+        },
+        {
+          "text": "TEST_FAQ_TRANSLATION_DUP_A_20260628063821",
+          "href": "/admin/settings/translation/translation_rules/14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule"
+        },
+        {
+          "text": "Test_中国語",
+          "href": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule"
+        },
+        {
+          "text": "TEST_FAQ_翻訳ルール_英語",
+          "href": "/admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule"
+        },
+        {
+          "text": "TEST_FAQ_英語翻訳ルール",
+          "href": "/admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule"
+        }
+      ],
+      "inputs": [
+        {
+          "index": 0,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 1,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "すべての5のアイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 2,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "すべてのアイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 3,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 4,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "true",
+          "checked": true,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 5,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 6,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 7,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        }
+      ],
+      "rows": [
+        {
+          "index": 0,
+          "id": "",
+          "text": "すべてのアイテムを選択する 名前 言語 作成日時"
+        },
+        {
+          "index": 1,
+          "id": "bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule",
+          "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38"
+        },
+        {
+          "index": 2,
+          "id": "14418387-a31d-5d91-bd0c-45fc1a0e6c86_TranslationRule",
+          "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38"
+        },
+        {
+          "index": 3,
+          "id": "19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule",
+          "text": "アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33"
+        },
+        {
+          "index": 4,
+          "id": "a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule",
+          "text": "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41"
+        },
+        {
+          "index": 5,
+          "id": "776ea270-1e30-5949-b99d-b9521862120b_TranslationRule",
+          "text": "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+        }
+      ],
+      "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルール。このページの準備が整いました 翻訳ルール 翻訳ルールを作成 すべての5のアイテムを選択する 1を選択済み 削除する すべてのアイテムを選択する 名前 言語 作成日時 アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38 アイテムを選択する TEST_FAQ_TRANSLATION_DUP_A_20260628063821 英語 2026年06月28日 06:38 アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33 アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41 アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+    },
+    "dialogText": "翻訳ルールを削除しますか？ 選択されている1件の翻訳ルールを削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+    "remainingRows": [],
+    "deleted": true
+  },
+  "cleanupB": {
+    "found": true,
+    "selected": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38",
+    "afterSelect": {
+      "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+      "h1": [
+        "翻訳ルール"
+      ],
+      "labels": [
+        "すべてのアイテムを選択する",
+        "すべての4のアイテムを選択する",
+        "アイテムを選択する"
+      ],
+      "buttons": [
+        {
+          "index": 0,
+          "text": "",
+          "aria": "メニューを切り替える",
+          "disabled": false
+        },
+        {
+          "index": 1,
+          "text": "",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 2,
+          "text": "stack-ps-yosuke 陽介 河野",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 3,
+          "text": "",
+          "aria": "メニューを閉じる",
+          "disabled": false
+        },
+        {
+          "index": 4,
+          "text": "削除する",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 5,
+          "text": "",
+          "aria": "その他の操作",
+          "disabled": false
+        },
+        {
+          "index": 6,
+          "text": "削除する",
+          "aria": "",
+          "disabled": false
+        },
+        {
+          "index": 7,
+          "text": "",
+          "aria": "前へ",
+          "disabled": false
+        },
+        {
+          "index": 8,
+          "text": "",
+          "aria": "次へ",
+          "disabled": false
+        }
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/settings/translation"
+        },
+        {
+          "text": "翻訳ルールを作成",
+          "href": "/admin/settings/translation/translation_rules/create"
+        },
+        {
+          "text": "TEST_FAQ_TRANSLATION_DUP_B_20260628063821",
+          "href": "/admin/settings/translation/translation_rules/bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule"
+        },
+        {
+          "text": "Test_中国語",
+          "href": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule"
+        },
+        {
+          "text": "TEST_FAQ_翻訳ルール_英語",
+          "href": "/admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule"
+        },
+        {
+          "text": "TEST_FAQ_英語翻訳ルール",
+          "href": "/admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule"
+        }
+      ],
+      "inputs": [
+        {
+          "index": 0,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "",
+          "options": []
+        },
+        {
+          "index": 1,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "すべての4のアイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 2,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "すべてのアイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 3,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "true",
+          "checked": true,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 4,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 5,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        },
+        {
+          "index": 6,
+          "tag": "input",
+          "type": "checkbox",
+          "placeholder": "",
+          "value": "false",
+          "checked": false,
+          "disabled": false,
+          "readOnly": false,
+          "label": "アイテムを選択する",
+          "options": []
+        }
+      ],
+      "rows": [
+        {
+          "index": 0,
+          "id": "",
+          "text": "すべてのアイテムを選択する 名前 言語 作成日時"
+        },
+        {
+          "index": 1,
+          "id": "bcd64339-08a8-5c44-8d8b-a28b6204e9d2_TranslationRule",
+          "text": "アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38"
+        },
+        {
+          "index": 2,
+          "id": "19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule",
+          "text": "アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33"
+        },
+        {
+          "index": 3,
+          "id": "a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule",
+          "text": "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41"
+        },
+        {
+          "index": 4,
+          "id": "776ea270-1e30-5949-b99d-b9521862120b_TranslationRule",
+          "text": "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+        }
+      ],
+      "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルール。このページの準備が整いました 翻訳ルール 翻訳ルールを作成 すべての4のアイテムを選択する 1を選択済み 削除する すべてのアイテムを選択する 名前 言語 作成日時 アイテムを選択する TEST_FAQ_TRANSLATION_DUP_B_20260628063821 英語 2026年06月28日 06:38 アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33 アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41 アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+    },
+    "dialogText": "翻訳ルールを削除しますか？ 選択されている1件の翻訳ルールを削除しますか？ この処理は巻き戻すことができません。 キャンセル 削除する",
+    "remainingRows": [],
+    "deleted": true
+  },
+  "listAfterCleanup": {
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+    "h1": [
+      "翻訳ルール"
+    ],
+    "labels": [
+      "すべてのアイテムを選択する",
+      "すべての3のアイテムを選択する",
+      "アイテムを選択する"
+    ],
+    "buttons": [
+      {
+        "index": 0,
+        "text": "",
+        "aria": "メニューを切り替える",
+        "disabled": false
+      },
+      {
+        "index": 1,
+        "text": "",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 2,
+        "text": "stack-ps-yosuke 陽介 河野",
+        "aria": "",
+        "disabled": false
+      },
+      {
+        "index": 3,
+        "text": "",
+        "aria": "メニューを閉じる",
+        "disabled": false
+      },
+      {
+        "index": 4,
+        "text": "",
+        "aria": "前へ",
+        "disabled": false
+      },
+      {
+        "index": 5,
+        "text": "",
+        "aria": "次へ",
+        "disabled": false
+      }
+    ],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "",
+        "href": "/admin"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/settings/translation"
+      },
+      {
+        "text": "翻訳ルールを作成",
+        "href": "/admin/settings/translation/translation_rules/create"
+      },
+      {
+        "text": "Test_中国語",
+        "href": "/admin/settings/translation/translation_rules/19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_翻訳ルール_英語",
+        "href": "/admin/settings/translation/translation_rules/a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule"
+      },
+      {
+        "text": "TEST_FAQ_英語翻訳ルール",
+        "href": "/admin/settings/translation/translation_rules/776ea270-1e30-5949-b99d-b9521862120b_TranslationRule"
+      }
+    ],
+    "inputs": [
+      {
+        "index": 0,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "index": 1,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "",
+        "options": []
+      },
+      {
+        "index": 2,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "すべてのアイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 3,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 4,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      },
+      {
+        "index": 5,
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "value": "false",
+        "checked": false,
+        "disabled": false,
+        "readOnly": false,
+        "label": "アイテムを選択する",
+        "options": []
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "id": "",
+        "text": "すべてのアイテムを選択する 名前 言語 作成日時"
+      },
+      {
+        "index": 1,
+        "id": "19b42234-5a07-55fa-812f-4e483d8f2a99_TranslationRule",
+        "text": "アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33"
+      },
+      {
+        "index": 2,
+        "id": "a2598ab4-5847-5562-9bfb-1494e5198c1b_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41"
+      },
+      {
+        "index": 3,
+        "id": "776ea270-1e30-5949-b99d-b9521862120b_TranslationRule",
+        "text": "アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+      }
+    ],
+    "bodyText": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 翻訳ルール。このページの準備が整いました 翻訳ルール 翻訳ルールを作成 すべてのアイテムを選択する 名前 言語 作成日時 アイテムを選択する Test_中国語 中国語（簡体字） 2026年06月16日 17:33 アイテムを選択する TEST_FAQ_翻訳ルール_英語 英語 2026年06月07日 08:41 アイテムを選択する TEST_FAQ_英語翻訳ルール 英語 2026年06月06日 18:57"
+  },
+  "createdRowsAfterCleanup": [],
+  "facts": {
+    "languageOptions": [
+      "選択してください",
+      "日本語",
+      "英語",
+      "中国語（簡体字）",
+      "中国語（繁体字）",
+      "韓国語",
+      "スペイン語",
+      "フランス語",
+      "ドイツ語",
+      "ヒンディー語",
+      "タイ語"
+    ],
+    "englishRowsBeforeCount": 2,
+    "duplicateEnglishCreateSucceeded": true,
+    "autoOnDetailState": {
+      "index": 2,
+      "tag": "input",
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "true",
+      "checked": true,
+      "disabled": false,
+      "readOnly": false,
+      "label": "翻訳データを自動で作成する",
+      "options": []
+    },
+    "autoOffDetailState": {
+      "index": 2,
+      "tag": "input",
+      "type": "checkbox",
+      "placeholder": "",
+      "value": "false",
+      "checked": false,
+      "disabled": false,
+      "readOnly": false,
+      "label": "翻訳データを自動で作成する",
+      "options": []
+    },
+    "manualExecuteButtons": {
+      "noneFound": true,
+      "hits": []
+    },
+    "cleanupDeleted": true,
+    "errors": []
+  }
+}

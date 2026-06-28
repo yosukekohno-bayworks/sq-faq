@@ -1,0 +1,63 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+コンテンツにスキップ
+stack-ps-yosuke
+陽介 河野
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	ホーム
+	商品管理
+	在庫管理
+	注文管理
+	顧客管理
+	発注管理
+	販売設定
+	会計
+	分析
+	オペレーション
+	入荷管理
+	出荷管理
+	在庫依頼
+	未完了の在庫依頼 3件
+	CRM
+	ディスカウント
+	ポイント
+	会員ランク
+	販売チャネル
+	Shopify
+	OmnibusCore
+	スマレジ
+	リテールポータル
+	卸売
+	[94317]<a />
+		設定
+通知用メールアドレス。このページの準備が整いました
+通知用メールアドレス
+メールアドレスを追加
+すべて
+<svg /> <!-- SVG content collapsed -->
+すべての2のアイテムを選択する
+1を選択済み
+削除する
+<svg /> <!-- SVG content collapsed -->
+すべてのアイテムを選択する
+名前
+メールアドレス
+<svg /> <!-- SVG content collapsed -->
+アイテムを選択する
+test
+you.4235@gmail.com
+<svg /> <!-- SVG content collapsed -->
+アイテムを選択する
+test+faq-113425@example.comTEST_FAQ_20260624_NOTIFY_113425
+test+faq-113425@example.com
+*[94994]<div role=dialog aria-label=:r1j: />
+	通知用メールアドレスを削除しますか？
+	*[94977]<button aria-label=閉じる pressed=false />
+	選択された
+	件の通知用メールアドレスを削除します。この処理は巻き戻すことができません。
+	*[94983]<button />
+		キャンセル
+	*[94984]<button />
+		削除する
+*[94997]<div />

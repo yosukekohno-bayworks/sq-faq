@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+              - list [ref=e69]:
+                - listitem [ref=e70]:
+                  - link "移動伝票" [ref=e73] [cursor=pointer]:
+                    - /url: /admin/inventory_movement_orders
+                    - generic [ref=e74]: 移動伝票
+                - listitem [ref=e75]:
+                  - link "調整伝票" [ref=e78] [cursor=pointer]:
+                    - /url: /admin/inventory_adjustment_orders
+                    - generic [ref=e79]: 調整伝票
+                - listitem [ref=e80]:
+                  - link "取置伝票" [ref=e83] [cursor=pointer]:
+                    - /url: /admin/inventory_reservation_orders
+                    - generic [ref=e84]: 取置伝票
+            - listitem [ref=e85]:
+              - link "注文管理" [ref=e88] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e91]
+                - generic [ref=e93]: 注文管理
+            - listitem [ref=e94]:
+              - link "顧客管理" [ref=e97] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100]
+                - generic [ref=e103]: 顧客管理
+            - listitem [ref=e104]:
+              - link "発注管理" [ref=e107] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110]
+                - generic [ref=e113]: 発注管理
+            - listitem [ref=e114]:
+              - link "販売設定" [ref=e117] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120]
+                - generic [ref=e125]: 販売設定
+            - listitem [ref=e126]:
+              - link "会計" [ref=e129] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132]
+                - generic [ref=e134]: 会計
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e139]: オペレーション
+            - listitem [ref=e140]:
+              - link "入荷管理" [ref=e143] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146]
+                - generic [ref=e150]: 入荷管理
+            - listitem [ref=e151]:
+              - link "出荷管理" [ref=e154] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e157]
+                - generic [ref=e159]: 出荷管理
+            - listitem [ref=e160]:
+              - link "在庫依頼" [ref=e163] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e166]
+                - generic [ref=e169]: 在庫依頼
+          - list [ref=e170]:
+            - listitem [ref=e171]:
+              - generic [ref=e172]: CRM
+            - listitem [ref=e173]:
+              - link "ディスカウント" [ref=e176] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e179]
+                - generic [ref=e181]: ディスカウント
+            - listitem [ref=e182]:
+              - link "ポイント" [ref=e185] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e188]
+                - generic [ref=e190]: ポイント
+            - listitem [ref=e191]:
+              - link "会員ランク" [ref=e194] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e197]
+                - generic [ref=e200]: 会員ランク
+          - list [ref=e201]:
+            - listitem [ref=e202]:
+              - generic [ref=e203]: 販売チャネル
+            - listitem [ref=e204]:
+              - link "Shopify" [ref=e207] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e208]: Shopify
+            - listitem [ref=e209]:
+              - link "OmnibusCore" [ref=e212] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e213]: OmnibusCore
+            - listitem [ref=e214]:
+              - link "スマレジ" [ref=e217] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e218]: スマレジ
+            - listitem [ref=e219]:
+              - link "リテールポータル" [ref=e222] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e223]: リテールポータル
+            - listitem [ref=e224]:
+              - generic [ref=e225]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - link "設定" [ref=e230] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e233]
+                - generic [ref=e235]: 設定
+    - progressbar "ページの読み込み表示バー" [ref=e237]
+    - main [ref=e239]:
+      - status "ページを読み込み中" [ref=e243]:
+        - generic [ref=e253]:
+          - img [ref=e255]
+          - status
+  - region "Notifications alt+T"
+  - alert [ref=e10]

@@ -1,0 +1,696 @@
+{
+  "generatedAt": "2026-06-27T17:33:43.074154+00:00",
+  "appRoute": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+  "appName": "TEST_FAQ_20260624_APP_113636",
+  "endpoint": "https://sq-faq-webhook.invalid/20260627173343",
+  "errors": [],
+  "steps": {
+    "create": {
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_APP_113636。このページの準備が整いました TEST_FAQ_20260624_APP_113636 ヘルプページ Admin API アクセストークン 2026年06月24日 11:36に作成されました シークレット 2026年06月24日 11:36に作成されました 検証方法 Playgroundのヘッダー設定で、アクセストークンを使用してリクエストを送信できます。 Playgroundを開く リクエストログ このトークンを使用して行われたリクエストのログを閲覧することができます。 リクエストログを見る Storefront API アクセストークンを発行することで、ストアフロントAPIにアクセスできるようになります。 トークンを発行する Webhook イベントに関するJSON通知をURLに送信します Webhookを作成する",
+        "buttons": [
+          {
+            "text": "",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他の操作",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "トークンを発行する",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "Webhookを作成する",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "links": [
+          {
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain"
+          },
+          {
+            "text": "",
+            "href": "/admin"
+          },
+          {
+            "text": "",
+            "href": "/admin"
+          },
+          {
+            "text": "ホーム",
+            "href": "/admin"
+          },
+          {
+            "text": "商品管理",
+            "href": "/admin/products"
+          },
+          {
+            "text": "在庫管理",
+            "href": "/admin/inventory_items"
+          },
+          {
+            "text": "注文管理",
+            "href": "/admin/orders"
+          },
+          {
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers"
+          },
+          {
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders"
+          },
+          {
+            "text": "販売設定",
+            "href": "/admin/product_price_rules"
+          },
+          {
+            "text": "会計",
+            "href": "/admin/sale_change_line_items"
+          },
+          {
+            "text": "分析",
+            "href": "/admin/analytics"
+          },
+          {
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders"
+          },
+          {
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders"
+          },
+          {
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests"
+          },
+          {
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules"
+          },
+          {
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules"
+          },
+          {
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules"
+          },
+          {
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations"
+          },
+          {
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations"
+          },
+          {
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations"
+          },
+          {
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations"
+          },
+          {
+            "text": "卸売",
+            "href": "/admin/b2b"
+          },
+          {
+            "text": "設定",
+            "href": "/admin/settings"
+          },
+          {
+            "text": "",
+            "href": "/admin/settings/apps"
+          },
+          {
+            "text": "ヘルプページ",
+            "href": "https://docs.sqstack.com/docs/api"
+          },
+          {
+            "text": "ヘルプページ",
+            "href": "https://docs.sqstack.com/docs/api"
+          },
+          {
+            "text": "Playgroundを開く",
+            "href": "https://sq.stackservice.com/api/admin/v1/playground"
+          },
+          {
+            "text": "リクエストログを見る",
+            "href": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api"
+          }
+        ]
+      },
+      "beforeSave": {
+        "dialogText": "Webhookを追加する イベント 選択してください 注文の作成 注文の更新 在庫の更新 選択してください エンドポイント キャンセル 保存する",
+        "selectOptions": [
+          {
+            "value": "",
+            "text": "選択してください"
+          },
+          {
+            "value": "ORDER_CREATE",
+            "text": "注文の作成"
+          },
+          {
+            "value": "ORDER_UPDATE",
+            "text": "注文の更新"
+          },
+          {
+            "value": "INVENTORY_LOGICAL_CHANGE_CREATE",
+            "text": "在庫の更新"
+          }
+        ]
+      },
+      "afterSave": {
+        "url": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_APP_113636。このページの準備が整いました TEST_FAQ_20260624_APP_113636 ヘルプページ Admin API アクセストークン 2026年06月24日 11:36に作成されました シークレット 2026年06月24日 11:36に作成されました 検証方法 Playgroundのヘッダー設定で、アクセストークンを使用してリクエストを送信できます。 Playgroundを開く リクエストログ このトークンを使用して行われたリクエストのログを閲覧することができます。 リクエストログを見る Storefront API アクセストークンを発行することで、ストアフロントAPIにアクセスできるようになります。 トークンを発行する Webhook イベントに関するJSON通知をURLに送信します 注文の作成 https://sq-faq-webhook.invalid/20260627173343・JSON Webhookを作成する Webhookを追加しました",
+        "buttons": [
+          {
+            "text": "",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他の操作",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "トークンを発行する",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "Webhookを作成する",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "",
+            "ariaLabel": "Close toast",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "links": [
+          {
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain"
+          },
+          {
+            "text": "",
+            "href": "/admin"
+          },
+          {
+            "text": "",
+            "href": "/admin"
+          },
+          {
+            "text": "ホーム",
+            "href": "/admin"
+          },
+          {
+            "text": "商品管理",
+            "href": "/admin/products"
+          },
+          {
+            "text": "在庫管理",
+            "href": "/admin/inventory_items"
+          },
+          {
+            "text": "注文管理",
+            "href": "/admin/orders"
+          },
+          {
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers"
+          },
+          {
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders"
+          },
+          {
+            "text": "販売設定",
+            "href": "/admin/product_price_rules"
+          },
+          {
+            "text": "会計",
+            "href": "/admin/sale_change_line_items"
+          },
+          {
+            "text": "分析",
+            "href": "/admin/analytics"
+          },
+          {
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders"
+          },
+          {
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders"
+          },
+          {
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests"
+          },
+          {
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules"
+          },
+          {
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules"
+          },
+          {
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules"
+          },
+          {
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations"
+          },
+          {
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations"
+          },
+          {
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations"
+          },
+          {
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations"
+          },
+          {
+            "text": "卸売",
+            "href": "/admin/b2b"
+          },
+          {
+            "text": "設定",
+            "href": "/admin/settings"
+          },
+          {
+            "text": "",
+            "href": "/admin/settings/apps"
+          },
+          {
+            "text": "ヘルプページ",
+            "href": "https://docs.sqstack.com/docs/api"
+          },
+          {
+            "text": "ヘルプページ",
+            "href": "https://docs.sqstack.com/docs/api"
+          },
+          {
+            "text": "Playgroundを開く",
+            "href": "https://sq.stackservice.com/api/admin/v1/playground"
+          },
+          {
+            "text": "リクエストログを見る",
+            "href": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api"
+          }
+        ]
+      }
+    },
+    "cleanup": {
+      "attempted": false,
+      "method": null,
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_APP_113636。このページの準備が整いました TEST_FAQ_20260624_APP_113636 ヘルプページ Admin API アクセストークン 2026年06月24日 11:36に作成されました シークレット 2026年06月24日 11:36に作成されました 検証方法 Playgroundのヘッダー設定で、アクセストークンを使用してリクエストを送信できます。 Playgroundを開く リクエストログ このトークンを使用して行われたリクエストのログを閲覧することができます。 リクエストログを見る Storefront API アクセストークンを発行することで、ストアフロントAPIにアクセスできるようになります。 トークンを発行する Webhook イベントに関するJSON通知をURLに送信します 注文の作成 https://sq-faq-webhook.invalid/20260627173343・JSON Webhookを作成する Webhookを追加しました",
+        "buttons": [
+          {
+            "text": "",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他の操作",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "トークンを発行する",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "Webhookを作成する",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "",
+            "ariaLabel": "Close toast",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "links": [
+          {
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain"
+          },
+          {
+            "text": "",
+            "href": "/admin"
+          },
+          {
+            "text": "",
+            "href": "/admin"
+          },
+          {
+            "text": "ホーム",
+            "href": "/admin"
+          },
+          {
+            "text": "商品管理",
+            "href": "/admin/products"
+          },
+          {
+            "text": "在庫管理",
+            "href": "/admin/inventory_items"
+          },
+          {
+            "text": "注文管理",
+            "href": "/admin/orders"
+          },
+          {
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers"
+          },
+          {
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders"
+          },
+          {
+            "text": "販売設定",
+            "href": "/admin/product_price_rules"
+          },
+          {
+            "text": "会計",
+            "href": "/admin/sale_change_line_items"
+          },
+          {
+            "text": "分析",
+            "href": "/admin/analytics"
+          },
+          {
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders"
+          },
+          {
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders"
+          },
+          {
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests"
+          },
+          {
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules"
+          },
+          {
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules"
+          },
+          {
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules"
+          },
+          {
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations"
+          },
+          {
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations"
+          },
+          {
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations"
+          },
+          {
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations"
+          },
+          {
+            "text": "卸売",
+            "href": "/admin/b2b"
+          },
+          {
+            "text": "設定",
+            "href": "/admin/settings"
+          },
+          {
+            "text": "",
+            "href": "/admin/settings/apps"
+          },
+          {
+            "text": "ヘルプページ",
+            "href": "https://docs.sqstack.com/docs/api"
+          },
+          {
+            "text": "ヘルプページ",
+            "href": "https://docs.sqstack.com/docs/api"
+          },
+          {
+            "text": "Playgroundを開く",
+            "href": "https://sq.stackservice.com/api/admin/v1/playground"
+          },
+          {
+            "text": "リクエストログを見る",
+            "href": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api"
+          }
+        ]
+      },
+      "reason": "no explicit row checkbox + delete button found",
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_20260624_APP_113636。このページの準備が整いました TEST_FAQ_20260624_APP_113636 ヘルプページ Admin API アクセストークン 2026年06月24日 11:36に作成されました シークレット 2026年06月24日 11:36に作成されました 検証方法 Playgroundのヘッダー設定で、アクセストークンを使用してリクエストを送信できます。 Playgroundを開く リクエストログ このトークンを使用して行われたリクエストのログを閲覧することができます。 リクエストログを見る Storefront API アクセストークンを発行することで、ストアフロントAPIにアクセスできるようになります。 トークンを発行する Webhook イベントに関するJSON通知をURLに送信します 注文の作成 https://sq-faq-webhook.invalid/20260627173343・JSON Webhookを作成する Webhookを追加しました",
+        "buttons": [
+          {
+            "text": "",
+            "ariaLabel": "メニューを切り替える",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "",
+            "ariaLabel": "メニューを閉じる",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他の操作",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "トークンを発行する",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "Webhookを作成する",
+            "ariaLabel": null,
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "",
+            "ariaLabel": "Close toast",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "links": [
+          {
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain"
+          },
+          {
+            "text": "",
+            "href": "/admin"
+          },
+          {
+            "text": "",
+            "href": "/admin"
+          },
+          {
+            "text": "ホーム",
+            "href": "/admin"
+          },
+          {
+            "text": "商品管理",
+            "href": "/admin/products"
+          },
+          {
+            "text": "在庫管理",
+            "href": "/admin/inventory_items"
+          },
+          {
+            "text": "注文管理",
+            "href": "/admin/orders"
+          },
+          {
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers"
+          },
+          {
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders"
+          },
+          {
+            "text": "販売設定",
+            "href": "/admin/product_price_rules"
+          },
+          {
+            "text": "会計",
+            "href": "/admin/sale_change_line_items"
+          },
+          {
+            "text": "分析",
+            "href": "/admin/analytics"
+          },
+          {
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders"
+          },
+          {
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders"
+          },
+          {
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests"
+          },
+          {
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules"
+          },
+          {
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules"
+          },
+          {
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules"
+          },
+          {
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations"
+          },
+          {
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations"
+          },
+          {
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations"
+          },
+          {
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations"
+          },
+          {
+            "text": "卸売",
+            "href": "/admin/b2b"
+          },
+          {
+            "text": "設定",
+            "href": "/admin/settings"
+          },
+          {
+            "text": "",
+            "href": "/admin/settings/apps"
+          },
+          {
+            "text": "ヘルプページ",
+            "href": "https://docs.sqstack.com/docs/api"
+          },
+          {
+            "text": "ヘルプページ",
+            "href": "https://docs.sqstack.com/docs/api"
+          },
+          {
+            "text": "Playgroundを開く",
+            "href": "https://sq.stackservice.com/api/admin/v1/playground"
+          },
+          {
+            "text": "リクエストログを見る",
+            "href": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api"
+          }
+        ]
+      },
+      "endpointStillVisible": true
+    }
+  }
+}

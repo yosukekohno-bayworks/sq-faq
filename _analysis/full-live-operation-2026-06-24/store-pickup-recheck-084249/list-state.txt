@@ -1,0 +1,75 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[123188]<a />
+	コンテンツにスキップ
+[123272]<div />
+[123191]<button data-state=closed expanded=false />
+[123192]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[123289]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.2 pages below)
+	[123196]<a />
+		ホーム
+	[123197]<a />
+		商品管理
+	[123198]<a />
+		カタログ
+	[123199]<a />
+		店舗受取
+	[123098]<a />
+		在庫管理
+	[123103]<a />
+		注文管理
+		[123347]<div />
+	[123108]<a />
+		顧客管理
+	[123113]<a />
+		発注管理
+	[123118]<a />
+		販売設定
+	[123123]<a />
+		会計
+	[123128]<a />
+		分析
+	オペレーション
+	[123136]<a />
+		入荷管理
+		[123410]<div />
+	[123141]<a />
+		出荷管理
+		[123418]<div />
+	[123146]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[123152]<a />
+		ディスカウント
+	[123157]<a />
+		ポイント
+	[123162]<a />
+		会員ランク
+	販売チャネル
+	[123168]<a />
+		Shopify
+	[123172]<a />
+		OmnibusCore
+	[123176]<a />
+		スマレジ
+	[123180]<a />
+		リテールポータル
+	[123200]<a />
+		卸売
+	[123201]<a />
+		設定
+店舗受取
+[123529]<span />
+	<svg /> <!-- SVG content collapsed -->
+アイテムを読み込んでいます...
+[123536]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+[123546]<section aria-label=Notifications alt+T live=polite />
+[123203]<div id=PolarisPortalsContainer />
+[123205]<div id=clerk-components />

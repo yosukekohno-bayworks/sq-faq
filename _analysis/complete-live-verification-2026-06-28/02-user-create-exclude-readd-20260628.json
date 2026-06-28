@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-06-27T17:27:57.336105+00:00",
+  "email": "sq-faq-member-20260627172757@example.com",
+  "familyName": "FAQ検証",
+  "givenName": "Member172757",
+  "permissionGroupUsedForFallback": "TEST_権限検証_20260620",
+  "steps": {
+    "createWithoutPermissionGroup": {
+      "selectGroup": false,
+      "beforeSaveBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ユーザーを追加する。このページの準備が整いました ユーザーを追加する 基本情報 姓 名 メールアドレス 権限 権限グループ 特権管理者 TEST_権限検証_20260620 保存する",
+      "afterSave": {
+        "url": "https://www.sqstackstaging.com/admin/settings/users/user_3FjGtnSrMrU2t0gy745kVIUH5CD",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ検証Member172757。このページの準備が整いました FAQ検証Member172757 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 未設定 保存する 適用されている権限一覧: 0件 ユーザーを組織から除外 組織から除外する ユーザーを追加しました"
+      },
+      "created": true
+    },
+    "createdUserDetail": {
+      "url": "https://www.sqstackstaging.com/admin/settings/users/user_3FjGtnSrMrU2t0gy745kVIUH5CD",
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ検証Member172757。このページの準備が整いました FAQ検証Member172757 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 未設定 保存する 適用されている権限一覧: 0件 ユーザーを組織から除外 組織から除外する ユーザーを追加しました"
+    },
+    "listAfterCreate": {
+      "url": "https://www.sqstackstaging.com/admin/settings/users?query=sq-faq-member-20260627172757@example.com",
+      "containsEmail": true,
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する クリア 絞り込みを追加 名前 メールアドレス 権限グループ FAQ検証Member172757 sq-faq-member-20260627172757@example.com 未設定"
+    },
+    "openedDetailFromList": {
+      "rowText": "FAQ検証Member172757 sq-faq-member-20260627172757@example.com 未設定",
+      "url": "https://www.sqstackstaging.com/admin/settings/users/user_3FjGtnSrMrU2t0gy745kVIUH5CD",
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ検証Member172757。このページの準備が整いました FAQ検証Member172757 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 未設定 保存する 適用されている権限一覧: 0件 ユーザーを組織から除外 組織から除外する"
+    },
+    "excludeFirstUser": {
+      "startUrl": "https://www.sqstackstaging.com/admin/settings/users/user_3FjGtnSrMrU2t0gy745kVIUH5CD",
+      "startBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ検証Member172757。このページの準備が整いました FAQ検証Member172757 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 未設定 保存する 適用されている権限一覧: 0件 ユーザーを組織から除外 組織から除外する",
+      "dialogText": "ユーザーを組織から除外しますか？ ユーザーを組織から除外します。この処理は巻き戻すことができません。 キャンセル 除外する",
+      "afterUrl": "https://www.sqstackstaging.com/admin/settings/users",
+      "afterBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する 絞り込みを追加 名前 メールアドレス 権限グループ サポートアカウントStack erp.delivery.admin@stack.inc 特権管理者 福田涼介 yz@stack.inc 特権管理者 菅野将貴 sugano@stack.inc 特権管理者 河野陽介 yosuke.kohno@bay-works.com 特権管理者 権限テスト you.4235@gmail.com TEST_権限検証_20260620 ユーザーを組織から除外しました"
+    },
+    "listAfterFirstExclude": {
+      "url": "https://www.sqstackstaging.com/admin/settings/users?query=sq-faq-member-20260627172757@example.com",
+      "containsEmail": false,
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する クリア 絞り込みを追加 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    },
+    "readdSameEmail": {
+      "selectGroup": true,
+      "beforeSaveBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ユーザーを追加する。このページの準備が整いました ユーザーを追加する 基本情報 姓 名 メールアドレス 権限 権限グループ 特権管理者 TEST_権限検証_20260620 保存する",
+      "afterSave": {
+        "url": "https://www.sqstackstaging.com/admin/settings/users/user_3FjGtnSrMrU2t0gy745kVIUH5CD",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ検証Member172757。このページの準備が整いました FAQ検証Member172757 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 TEST_権限検証_20260620 保存する 適用されている権限一覧: 1件 ユーザーを組織から除外 組織から除外する ユーザーを追加しました"
+      },
+      "created": true
+    },
+    "listAfterReadd": {
+      "url": "https://www.sqstackstaging.com/admin/settings/users?query=sq-faq-member-20260627172757@example.com",
+      "containsEmail": true,
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する クリア 絞り込みを追加 名前 メールアドレス 権限グループ FAQ検証Member172757 sq-faq-member-20260627172757@example.com TEST_権限検証_20260620"
+    },
+    "openedReaddedDetailFromList": {
+      "rowText": "FAQ検証Member172757 sq-faq-member-20260627172757@example.com TEST_権限検証_20260620",
+      "url": "https://www.sqstackstaging.com/admin/settings/users/user_3FjGtnSrMrU2t0gy745kVIUH5CD",
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ検証Member172757。このページの準備が整いました FAQ検証Member172757 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 TEST_権限検証_20260620 保存する 適用されている権限一覧: 1件 ユーザーを組織から除外 組織から除外する"
+    },
+    "excludeReaddedUser": {
+      "startUrl": "https://www.sqstackstaging.com/admin/settings/users/user_3FjGtnSrMrU2t0gy745kVIUH5CD",
+      "startBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ検証Member172757。このページの準備が整いました FAQ検証Member172757 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 TEST_権限検証_20260620 保存する 適用されている権限一覧: 1件 ユーザーを組織から除外 組織から除外する",
+      "dialogText": "ユーザーを組織から除外しますか？ ユーザーを組織から除外します。この処理は巻き戻すことができません。 キャンセル 除外する",
+      "afterUrl": "https://www.sqstackstaging.com/admin/settings/users",
+      "afterBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する 絞り込みを追加 名前 メールアドレス 権限グループ サポートアカウントStack erp.delivery.admin@stack.inc 特権管理者 福田涼介 yz@stack.inc 特権管理者 菅野将貴 sugano@stack.inc 特権管理者 河野陽介 yosuke.kohno@bay-works.com 特権管理者 権限テスト you.4235@gmail.com TEST_権限検証_20260620 ユーザーを組織から除外しました"
+    },
+    "listAfterCleanup": {
+      "url": "https://www.sqstackstaging.com/admin/settings/users?query=sq-faq-member-20260627172757@example.com",
+      "containsEmail": false,
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する クリア 絞り込みを追加 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+    }
+  },
+  "errors": [],
+  "finalUrl": "https://www.sqstackstaging.com/admin/settings/users?query=sq-faq-member-20260627172757@example.com",
+  "finalBody": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する クリア 絞り込みを追加 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+}

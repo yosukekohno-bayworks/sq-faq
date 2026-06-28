@@ -1,0 +1,2736 @@
+{
+  "generatedAt": "2026-06-28T00:37:47.747109+00:00",
+  "purpose": "管理画面セッションの内部GraphQLで、注文/返品/売上/顧客系データ作成の余地を読み取り専用で確認する",
+  "queries": [
+    {
+      "name": "introspection_operation_names",
+      "status": 200,
+      "ok": true,
+      "errors": null
+    }
+  ],
+  "facts": {
+    "introspectionHttpOk": true,
+    "queryFieldCount": 316,
+    "mutationFieldCount": 548,
+    "interestingQueries": [
+      {
+        "name": "csvExportOperationInventoryOutboundOrderYamatoB2Cloud",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvExportOperationInventoryOutboundOrderYamatoB2Clouds",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvExportOperationOrderPriceAdjustmentUsage",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvExportOperationOrderPriceAdjustmentUsages",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvExportOperationPointChange",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvExportOperationPointChanges",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvExportOperationProductPriceRuleSalePrice",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvExportOperationProductPriceRuleSalePrices",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvExportOperationSaleChange",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvExportOperationSaleChanges",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvExportOperationSaleChangeLineItem",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvExportOperationSaleChangeLineItems",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationCustomerRankBaseline",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationCustomerRankBaselines",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationFulfillmentByDHL",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationFulfillmentByDHLs",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationFulfillmentByYamatoB2Cloud",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationFulfillmentByYamatoB2Clouds",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryBackOrderRuleProductVariant",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryBackOrderRuleProductVariants",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryMovementOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryMovementOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointCampaignOrderRulePointValueProductVariant",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointCampaignOrderRulePointValueProductVariants",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointMinus",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointMinuses",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointPlus",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointPluses",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationProductPriceRuleSalePrice",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationProductPriceRuleSalePrices",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "csvImportOperationPurchasingCustomerTag",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "csvImportOperationPurchasingCustomerTags",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "customerRankCalculationRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "customerRankCalculationRules",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "customerRankRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "deletedOrderByOrderID",
+        "args": [
+          "orderID"
+        ]
+      },
+      {
+        "name": "draftOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "draftOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "filter",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "fulfillment",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "fulfillments",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "fulfillmentLineItem",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryAdjustmentOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryAdjustmentOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRules",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRuleProductVariant",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "filter",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrderCount",
+        "args": [
+          "filter"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrderLineItem",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "filter",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrderLineItem",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "filter",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrderCount",
+        "args": [
+          "filter"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrdersByIDs",
+        "args": [
+          "inventoryOutboundOrderIDs"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrderByManagementCode",
+        "args": [
+          "managementCode"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrderShippingCountries",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrdersByDateRangeUpdatedAt",
+        "args": [
+          "dateRange",
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderLineItem",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderLineItems",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderReturn",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderReturns",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventoryReservationOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventoryReservationOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRules",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRuleProductVariant",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRuleProductVariants",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "order",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "ordersByIDs",
+        "args": [
+          "ids"
+        ]
+      },
+      {
+        "name": "orderByExternalID",
+        "args": [
+          "externalID"
+        ]
+      },
+      {
+        "name": "orderByManagementCode",
+        "args": [
+          "managementCode"
+        ]
+      },
+      {
+        "name": "orderByManagementNumber",
+        "args": [
+          "managementNumber"
+        ]
+      },
+      {
+        "name": "ordersByManagementNumbers",
+        "args": [
+          "managementNumbers"
+        ]
+      },
+      {
+        "name": "orderByShopifyID",
+        "args": [
+          "orderShopifyID"
+        ]
+      },
+      {
+        "name": "orders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse",
+          "filter"
+        ]
+      },
+      {
+        "name": "ordersByDateRangeCreatedAt",
+        "args": [
+          "dateRange",
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "orderSources",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "orderDeleted",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "orderLineItem",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "orderCount",
+        "args": [
+          "filter"
+        ]
+      },
+      {
+        "name": "orderFilterSavedTab",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "orderFilterSavedTabs",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRules",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "filter",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRulesByIDs",
+        "args": [
+          "ids"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRulesByManagementCodes",
+        "args": [
+          "managementCodes"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentUsage",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentUsages",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentUsagesByIDs",
+        "args": [
+          "ids"
+        ]
+      },
+      {
+        "name": "orderRefund",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "orderRefundByExternalID",
+        "args": [
+          "externalID"
+        ]
+      },
+      {
+        "name": "orderRetailReturn",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "orderRetailReturnByExternalID",
+        "args": [
+          "externalID"
+        ]
+      },
+      {
+        "name": "orderReturn",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "orderReturnByExternalID",
+        "args": [
+          "externalID"
+        ]
+      },
+      {
+        "name": "orderReturns",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse",
+          "filter"
+        ]
+      },
+      {
+        "name": "pointApplicationExcludedProduct",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointApplicationExcludedProducts",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRules",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRuleCustomerRank",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointCalculationByCart",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationByOrderReturn",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationByProductVariants",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointCalculationRules",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRules",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "filter",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueCustomerRank",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueCustomerRanks",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueProductVariant",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueProductVariants",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValuePurchasePrice",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValuePurchasePrices",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "pointChangeActivity",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointChangeActivitiesByIDs",
+        "args": [
+          "ids"
+        ]
+      },
+      {
+        "name": "pointExpirationNotificationRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointExpirationNotificationRules",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "pointMultiplierCustomerRankRule",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "pointMultiplierProduct",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "productPriceRuleProductVariantSale",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "purchasingCustomers",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "filter",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "purchasingCustomersByIDs",
+        "args": [
+          "ids"
+        ]
+      },
+      {
+        "name": "purchasingCustomer",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "purchasingCustomerByExternalID",
+        "args": [
+          "externalID"
+        ]
+      },
+      {
+        "name": "purchasingCustomerByBarcode",
+        "args": [
+          "tenantID",
+          "barcode"
+        ]
+      },
+      {
+        "name": "purchasingCustomersByDateRangeCreatedAt",
+        "args": [
+          "dateRange",
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "purchasingCustomersByDateRangeUpdatedAt",
+        "args": [
+          "dateRange",
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "recustomerIntegration",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "recustomerIntegrations",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "saleChange",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "saleChanges",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "saleChangeLineItems",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "filter",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "saleChangeActivity",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "saleChangeActivitiesByIDs",
+        "args": [
+          "ids"
+        ]
+      },
+      {
+        "name": "saleChangeActivities",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "saleChangeActivitiesByDateRangeCreatedAt",
+        "args": [
+          "dateRange",
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "shopifyBulkOperationOrderPriceAdjustmentRuleAddPurchasingCustomersJob",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "shopifyBulkOperationOrderPriceAdjustmentRuleAddPurchasingCustomersJobs",
+        "args": [
+          "first",
+          "after",
+          "last",
+          "before",
+          "orderBy",
+          "isReverse"
+        ]
+      },
+      {
+        "name": "shopifyMileOrder",
+        "args": [
+          "id"
+        ]
+      },
+      {
+        "name": "shopifyMileOrders",
+        "args": [
+          "first",
+          "last",
+          "before",
+          "after",
+          "sortKeys",
+          "isReverse"
+        ]
+      }
+    ],
+    "interestingMutations": [
+      {
+        "name": "csvExportOperationInventoryOutboundOrderYamatoB2CloudExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvExportOperationOrderPriceAdjustmentUsageExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvExportOperationPointChangeExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvExportOperationProductPriceRuleSalePriceExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvExportOperationSaleChangeExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvExportOperationSaleChangeLineItemExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationCustomerRankBaselineCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationCustomerRankBaselinesCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationCustomerRankBaselineExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationFulfillmentByDHLCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationFulfillmentByDHLExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationFulfillmentByYamatoB2CloudCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationFulfillmentByYamatoB2CloudExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryBackOrderRuleProductVariantCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryBackOrderRuleProductVariantExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryMovementOrderCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryMovementOrdersCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationInventoryMovementOrderExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointCampaignOrderRulePointValueProductVariantCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointCampaignOrderRulePointValueProductVariantExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointMinusCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointMinusesCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointMinusExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointPlusCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointPlusesCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPointPlusExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationProductPriceRuleSalePriceCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationProductPriceRuleSalePricesCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationProductPriceRuleSalePriceExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPurchasingCustomerTagCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPurchasingCustomerTagExecute",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "csvImportOperationPurchasingCustomerTagValidate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankCalculationPurchasePricePlusCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankCalculationPurchasePriceMinusCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankCalculationRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankCalculationRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankCalculationRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankCalculationRuleAddPurchasePriceExcludedProducts",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankCalculationRuleRemovePurchasePriceExcludedProducts",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "customerRankRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderComplete",
+        "args": [
+          "input",
+          "option"
+        ]
+      },
+      {
+        "name": "draftOrderUpdateShippingAddress",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderAddLineItems",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderRemoveLineItems",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderLineItemUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderUpdateLineItems",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderAddShippingLines",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderRemoveShippingLines",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderShippingLineUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderAddDiscounts",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderAddLineItemDiscounts",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderUpdateNote",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderAddTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderRemoveTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "draftOrderPurchasingCompanyUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "fulfillmentUpdateTrackingCodes",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryAdjustmentOrderCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryAdjustmentOrderUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryAdjustmentOrdersCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryAdjustmentOrderComplete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryAdjustmentOrderLineItemsCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryAdjustmentOrderLineItemsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRuleDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRuleProductVariantCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRuleProductVariantUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryBackOrderRuleProductVariantsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrderReceive",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrderComplete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrdersMarkAsRequested",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrdersMarkAsUnderInvestigation",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryInboundOrdersMarkAsComplete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrderCreate",
+        "args": [
+          "input",
+          "option"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrdersCreateByInventoryAllocationRequestConfirmations",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrderUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrderCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrderLineItemsCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryMovementOrderLineItemsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrdersMarkAsOnHold",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrdersMarkAsWaiting",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrdersMarkAsRequested",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrdersMarkAsInProgress",
+        "args": [
+          "input",
+          "option"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrderComplete",
+        "args": [
+          "input",
+          "option"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrdersReject",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrdersRetry",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryOutboundOrderExportYamatoB2Cloud",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderMarkAsOrdered",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderCreateInventoryInboundOrder",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderLineItemsCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderLineItemsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderReturnCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderReturnUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryPurchaseOrderReturnCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryReservationOrderCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryReservationOrdersComplete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryReservationOrderLineItemsCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventoryReservationOrderLineItemsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRuleProductVariantsCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRuleProductVariantUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "inventorySaleLimitRuleProductVariantsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "logizardIntegrationInventoryOutboundOrdersCompleteByMailOrderShipSlips",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "logizardIntegrationMailOrderShipsCreateByLocation",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "logizardIntegrationWholesaleShipsCreateByLocation",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderCreate",
+        "args": [
+          "input",
+          "option"
+        ]
+      },
+      {
+        "name": "orderCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderUpdateNote",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderUpdateShippingAddress",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderUpdateBillingAddress",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "ordersLock",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "ordersUnlock",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "ordersArchive",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "ordersUpsertMetafield",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderAddTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderRemoveTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderUpdateTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderBulkAddTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderBulkRemoveTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderLineItemReplaceProductVariant",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderLineItemRestoreProductVariant",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderFilterSavedTabCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderFilterSavedTabsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleAddRetailLocations",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleAddRetailLocationsByLocationGroup",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleRemoveLocations",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleUpdateLocation",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentApplicationLocationsUpdateApplicationType",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleAddPurchasingCustomers",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleRemovePurchasingCustomers",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentUsageCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentUsagesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentUsageCreateByManagementCode",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleAddProductVariants",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleRemoveProductVariants",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleAddShopifyIntegration",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleRemoveShopifyIntegration",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleCreateShopifyDiscountCode",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderPriceAdjustmentRuleArchive",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderRefundCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderShippingRefundCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderRetailReturnCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderRetailReturnsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderReturnCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderReturnAddLineItems",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderReturnRemoveLineItems",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderReturnLineItemsRemovedQuantityUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderReturnProcess",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderReturnCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderReturnReceive",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "orderReturnCreateExchangeInventoryOutboundOrder",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointApplicationExcludedProductsCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointApplicationExcludedProductsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRuleCustomerRankCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRuleCustomerRankUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationBirthdayRuleCustomerRanksDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleAddRetailLocationExclusions",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleRemoveRetailLocationExclusions",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleCustomerRankMultiplierCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleCustomerRankMultiplierUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleCustomerRankMultipliersDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleCustomerRankRetailLocationMultiplierCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleCustomerRankRetailLocationMultiplierUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCalculationRuleCustomerRankRetailLocationMultipliersDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRuleAddRetailLocations",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRuleAddRetailLocationsByLocationGroup",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRuleRemoveRetailLocations",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueCustomerRankCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueCustomerRankUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueCustomerRanksDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueProductVariantsCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueProductVariantUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueProductVariantsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValueProductVariantsCreateByBrandCode",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValuePurchasePriceCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValuePurchasePriceUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointCampaignOrderRulePointValuePurchasePricesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointPlusCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointMinusCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointExpirationNotificationRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointExpirationNotificationRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointExpirationNotificationRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointMultiplierCustomerRankRuleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointMultiplierCustomerRankRuleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointMultiplierCustomerRankRulesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointMultiplierProductUpsertByProducts",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "pointMultiplierProductsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "productReorderImages",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "productOptionsReorder",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "productOptionValuesReorder",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "productPriceRuleProductVariantSaleCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "productPriceRuleProductVariantSaleUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "productPriceRuleProductVariantSaleSet",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "productPriceRuleProductVariantSalesSet",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "productPriceRuleProductVariantSalesDisable",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerUpdateNote",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerAddTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerRemoveTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerUpdateTags",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerAddCustomerMinimumRankRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerRemoveCustomerMinimumRankRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerSendSMSVerificationCode",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerVerifySMS",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerUpdateSMSVerificationStatus",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerMerge",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerShippingAddressCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerShippingAddressUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "purchasingCustomerShippingAddressesDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "recustomerIntegrationCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "recustomerIntegrationUpdate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "recustomerIntegrationsDelete",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "saleChangeCreate",
+        "args": [
+          "input",
+          "option"
+        ]
+      },
+      {
+        "name": "shopifyBulkOperationOrderPriceAdjustmentRuleAddPurchasingCustomersJobCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "shopifyIntegrationShopifyClientCredentialOrderCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "shopifyIntegrationShopifyClientCredentialInventoryOutboundOrderCreate",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "shopifyIntegrationCreateOrderCredential",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "shopifyIntegrationDeleteOrderCredential",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "shopifyIntegrationCreateInventoryOutboundOrderCredential",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "shopifyIntegrationDeleteInventoryOutboundOrderCredential",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "shopifyMileOrdersCancel",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "tenantAddPointCalculationRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "tenantRemovePointCalculationRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "tenantAddPointCalculationBirthdayRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "tenantRemovePointCalculationBirthdayRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "tenantAddPointExpirationNotificationRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "tenantRemovePointExpirationNotificationRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "tenantAddCustomerRankCalculationRule",
+        "args": [
+          "input"
+        ]
+      },
+      {
+        "name": "tenantRemoveCustomerRankCalculationRule",
+        "args": [
+          "input"
+        ]
+      }
+    ],
+    "hasOrderCreateLikeMutation": true,
+    "hasDraftOrderCreateLikeMutation": true,
+    "hasReturnCreateLikeMutation": true
+  },
+  "errors": [],
+  "ordersPage": {
+    "url": "https://www.sqstackstaging.com/admin/orders",
+    "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+  }
+}

@@ -1,0 +1,123 @@
+viewport: 1209x785
+page: 1209x1257
+scroll: (0, 0)
+[69541]<a />
+	コンテンツにスキップ
+[69676]<div />
+[69544]<button data-state=closed expanded=false />
+[69545]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[69693]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[69549]<a />
+		ホーム
+	[69550]<a />
+		商品管理
+	[69551]<a />
+		在庫管理
+	[69552]<a />
+		注文管理
+		[69744]<div />
+	[69524]<a />
+		顧客管理
+	[69553]<a />
+		発注管理
+	[69554]<a />
+		販売設定
+	[69555]<a />
+		会計
+	[69556]<a />
+		分析
+	オペレーション
+	[69557]<a />
+		入荷管理
+		[69828]<div />
+	[69558]<a />
+		出荷管理
+		[69839]<div />
+	[69559]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[69560]<a />
+		ディスカウント
+	[69561]<a />
+		ポイント
+	[69562]<a />
+		会員ランク
+	販売チャネル
+	[69563]<a />
+		Shopify
+	[69564]<a />
+		OmnibusCore
+	[69565]<a />
+		スマレジ
+	[69566]<a />
+		リテールポータル
+	[69567]<a />
+		卸売
+	[69568]<a />
+		設定
+OmnibusCore連携を作成する。このページの準備が整いました
+[69957]<div />
+	[69958]<div />
+		[69570]<a />
+OmnibusCore連携を作成する
+テナント
+選択してください
+[69996]<span />
+	[69997]<span />
+		[69998]<svg /> <!-- SVG content collapsed -->
+メーカーコード
+|SHADOW(open)|[69531]<input id=:r1d: placeholder=メーカーコードを入力してください autocomplete=off type=text required=true />
+商品同期設定
+[70020]<hr />
+カタログ
+選択してください
+[70040]<span />
+	[70041]<span />
+		[70042]<svg /> <!-- SVG content collapsed -->
+カラーオプション名
+[70051]<span />
+	[70053]<span />
+		[70054]<svg /> <!-- SVG content collapsed -->
+カラーオプション名
+|SHADOW(open)|[69533]<input id=:r1g: autocomplete=off type=text />
+[69573]<button />
+	オプションを追加
+サイズオプション名
+[70083]<span />
+	[70085]<span />
+		[70086]<svg /> <!-- SVG content collapsed -->
+サイズオプション名
+|SHADOW(open)|[69534]<input id=:r1i: autocomplete=off type=text />
+[69575]<button />
+	オプションを追加
+在庫設定
+[70116]<hr />
+ロケーショングループ
+選択してください
+[70136]<span />
+	[70137]<span />
+		[70138]<svg /> <!-- SVG content collapsed -->
+在庫予約ルール
+選択してください
+[70163]<span />
+	[70164]<span />
+		[70165]<svg /> <!-- SVG content collapsed -->
+販売上限ルール
+選択してください
+[70182]<span />
+	[70183]<span />
+		[70184]<svg /> <!-- SVG content collapsed -->
+注文設定
+[70194]<hr />
+下書き注文の有効期限日数
+|SHADOW(open)|*[69538]<input id=:r1m: placeholder=30 autocomplete=off type=number value=30 required=true valuemin=0 valuemax=0 valuetext=30 compound_components=(name=Increment,role=button),(name=Decrement,role=button),(name=Value,role=textbox) />
+OmnibusCoreから連携する下書き注文が何日で期限切れになるかを示す日数（1-365日）
+[69529]<button />
+	保存する
+[70226]<section aria-label=Notifications alt+T live=polite />
+[69580]<div id=PolarisPortalsContainer />
+[69582]<div id=clerk-components />

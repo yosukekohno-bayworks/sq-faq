@@ -1,0 +1,85 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+*[121068]<a />
+	コンテンツにスキップ
+stack-ps-yosuke
+陽介 河野
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	*[121076]<a />
+		ホーム
+	*[121077]<a />
+		商品管理
+	*[121078]<a />
+		在庫管理
+	*[121079]<a />
+		注文管理
+		*[121268]<div />
+	*[121080]<a />
+		顧客管理
+	*[121081]<a />
+		発注管理
+	*[121082]<a />
+		販売設定
+	*[121083]<a />
+		会計
+	*[121084]<a />
+		分析
+	オペレーション
+	*[121085]<a />
+		入荷管理
+		*[121352]<div />
+	*[121086]<a />
+		出荷管理
+		*[121363]<div />
+	*[121087]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	*[121088]<a />
+		ディスカウント
+	*[121089]<a />
+		ポイント
+	*[121090]<a />
+		会員ランク
+	販売チャネル
+	*[121091]<a />
+		Shopify
+	*[121092]<a />
+		OmnibusCore
+	*[121093]<a />
+		スマレジ
+	*[121094]<a />
+		リテールポータル
+	*[121095]<a />
+		卸売
+	[121096]<a />
+		設定
+*[121581]<span />
+	*[121580]<svg /> <!-- SVG content collapsed -->
+保存されていないグループ
+*[121584]<button aria-label=取り消す />
+	取り消す
+*[121586]<button aria-label=保存する />
+	保存する
+グループを作成。このページの準備が整いました
+*[121481]<div />
+	*[121482]<div />
+		*[121098]<a />
+グループを作成
+*[121501]<div />
+	*[121504]<span />
+		名前
+|SHADOW(open)|*[121063]<input id=:r19: placeholder=関東圏・全店舗 autocomplete=off type=text value=TEST_FAQ_20260624_LG_171810 required=true />
+ロケーション
+|SHADOW(open)|*[121064]<input id=:r1a: placeholder=ロケーションを選択してください autocomplete=off type=text />
+*[121101]<button />
+	選択
+このグループに属するロケーションを選択してください
+*[122250]<hr />
+ユニクロ物流倉庫
+*[121058]<button />
+	保存する
+*[121537]<section aria-label=Notifications alt+T live=polite />
+*[121102]<div id=PolarisPortalsContainer />
+*[121104]<div id=clerk-components />

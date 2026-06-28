@@ -1,0 +1,10 @@
+- generic [ref=e1077] [box=365,1370,623,129]:
+  - heading "メタフィールド" [level=2] [ref=e1079] [box=381,1386,591,20]
+  - generic [ref=e1081] [box=365,1422,623,77]:
+    - separator [ref=e1082] [box=365,1422,623,1]
+    - generic [ref=e1085] [box=381,1439,591,44]:
+      - generic [ref=e1086] [box=381,1439,199,44]:
+        - heading "TEST_META_SHORT_20260627" [level=3] [ref=e1088] [box=381,1439,199,20]
+        - paragraph [ref=e1089] [box=381,1463,199,20]: 未設定
+      - button [ref=e1091] [cursor=pointer] [box=947,1435,28,28]:
+        - img [ref=e1094] [box=951,1439,20,20]

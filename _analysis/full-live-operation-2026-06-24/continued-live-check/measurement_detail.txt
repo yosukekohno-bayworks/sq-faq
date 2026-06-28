@@ -1,0 +1,65 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules/c3cce272-31c9-50c6-9af2-95e7be3ec25a_ProductMeasurementRule",
+  "title": "SQ - 管理画面",
+  "h1": [
+    "採寸ルール"
+  ],
+  "buttons": [
+    "stack-ps-yosuke\n\n陽介 河野"
+  ],
+  "links": [
+    "コンテンツにスキップ",
+    "ホーム",
+    "商品管理",
+    "在庫管理",
+    "注文管理",
+    "顧客管理",
+    "発注管理",
+    "販売設定",
+    "会計",
+    "分析",
+    "入荷管理",
+    "出荷管理",
+    "在庫依頼\n未完了の在庫依頼 3件\n3",
+    "ディスカウント",
+    "ポイント",
+    "会員ランク",
+    "Shopify",
+    "OmnibusCore",
+    "スマレジ",
+    "リテールポータル",
+    "卸売",
+    "設定"
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": "TEST_FAQ_20260624_MEASURE_CRUD_093821"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": "センチメートル"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": null,
+      "placeholder": null,
+      "aria": null,
+      "role": null,
+      "value": "肩幅"
+    }
+  ],
+  "text_excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n採寸ルール。このページの準備が整いました\n\n採寸ルール\n\nTEST_FAQ_20260624_MEASURE_CRUD_093821\n\n基本設定\nルール名\n採寸単位\n採寸項目\n採寸項目1",
+  "delete_text_present": false
+}

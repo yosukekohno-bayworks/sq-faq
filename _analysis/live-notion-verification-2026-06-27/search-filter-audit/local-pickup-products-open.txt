@@ -1,0 +1,1 @@
+url: https://www.sqstackstaging.com/admin/local_pickup_product_variants

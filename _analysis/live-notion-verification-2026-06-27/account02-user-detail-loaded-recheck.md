@@ -1,0 +1,226 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e225]:
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - status:
+            - paragraph [ref=e255]: 河野陽介。このページの準備が整いました
+          - generic [ref=e257]:
+            - link [ref=e260] [cursor=pointer]:
+              - /url: /admin/settings/users
+              - img [ref=e263]
+            - heading "河野陽介" [level=1] [ref=e267]
+        - generic [ref=e271]:
+          - generic [ref=e273]:
+            - heading "基本情報" [level=2] [ref=e275]
+            - separator [ref=e276]
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - group [ref=e280]:
+                  - generic [ref=e281]:
+                    - generic [ref=e283]:
+                      - generic [ref=e286]: 姓
+                      - textbox "姓" [ref=e290]:
+                        - /placeholder: 山田
+                    - generic [ref=e292]:
+                      - generic [ref=e295]: 名
+                      - textbox "名" [ref=e299]:
+                        - /placeholder: 花子
+                - generic [ref=e301]:
+                  - generic [ref=e304]: メールアドレス
+                  - textbox "メールアドレス" [ref=e308]:
+                    - /placeholder: you@company.com
+                    - text: yosuke.kohno@bay-works.com
+              - button "保存する" [ref=e310] [cursor=pointer]:
+                - generic [ref=e311]: 保存する
+          - generic [ref=e313]:
+            - heading "ユーザーテナント" [level=2] [ref=e315]
+            - separator [ref=e316]
+            - generic [ref=e318]:
+              - group "ユーザーテナント" [ref=e319]:
+                - generic [ref=e320]: ユーザーテナント
+                - list [ref=e321]:
+                  - listitem [ref=e322]:
+                    - generic [ref=e324] [cursor=pointer]:
+                      - generic [ref=e326]
+                      - generic [ref=e329]: ユニクロ
+                  - listitem [ref=e330]:
+                    - generic [ref=e332] [cursor=pointer]:
+                      - generic [ref=e334]
+                      - generic [ref=e337]: TEST_FAQ_COVERAGE_20260615_テナント_EDIT
+                  - listitem [ref=e338]:
+                    - generic [ref=e340] [cursor=pointer]:
+                      - generic [ref=e342]
+                      - generic [ref=e345]: テストテナント
+                  - listitem [ref=e346]:
+                    - generic [ref=e348] [cursor=pointer]:
+                      - generic [ref=e350]
+                      - generic [ref=e353]: TEST_FAQ_20260624_TENANT_170037
+              - button "保存する" [ref=e355] [cursor=pointer]:
+                - generic [ref=e356]: 保存する
+          - generic [ref=e358]:
+            - heading "権限" [level=2] [ref=e360]
+            - separator [ref=e361]
+            - generic [ref=e363]:
+              - generic [ref=e364]:
+                - generic [ref=e367]: 権限グループ
+                - generic [ref=e368]:
+                  - combobox "権限グループ" [ref=e369]:
+                    - option "未設定" [disabled]
+                    - option "特権管理者" [selected]
+                    - option "TEST_権限検証_20260620"
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: 特権管理者
+                    - img [ref=e374]
+              - button "保存する" [ref=e379] [cursor=pointer]:
+                - generic [ref=e380]: 保存する
+            - separator [ref=e381]
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - img [ref=e387]
+                - generic [ref=e389]: "適用されている権限一覧: 76件"
+              - button [ref=e390] [cursor=pointer]:
+                - img [ref=e393]
+          - generic [ref=e397]:
+            - heading "ユーザーを組織から除外" [level=2] [ref=e398]
+            - button "組織から除外する" [ref=e399] [cursor=pointer]:
+              - generic [ref=e400]: 組織から除外する
+  - region "Notifications alt+T"
+  - alert [ref=e10]

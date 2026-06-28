@@ -580,6 +580,7 @@ window.addEventListener('mermaid-ready', () => {{
 }});
 </script>
 </body></html>'''
+    page = '\n'.join(line.rstrip() for line in page.splitlines()) + '\n'
     out = os.path.join(BASE, 'SQ-FAQ.html')
     open(out, 'w', encoding='utf-8').write(page)
     print(f'OK: {out} articles={len(arts)} bytes={len(page.encode())}')

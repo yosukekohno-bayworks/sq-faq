@@ -1,0 +1,125 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[111388]<a />
+	コンテンツにスキップ
+[111539]<div />
+[111391]<button data-state=closed expanded=false />
+[111392]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[111556]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[111396]<a />
+		ホーム
+	[111397]<a />
+		商品管理
+	[111398]<a />
+		在庫管理
+	[111399]<a />
+		注文管理
+		[111607]<div />
+	[111400]<a />
+		顧客管理
+	[111401]<a />
+		発注管理
+	[111402]<a />
+		販売設定
+	[111403]<a />
+		会計
+	[111404]<a />
+		分析
+	オペレーション
+	[111405]<a />
+		入荷管理
+		[111691]<div />
+	[111406]<a />
+		出荷管理
+		[111702]<div />
+	[111407]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[111408]<a />
+		ディスカウント
+	[111409]<a />
+		ポイント
+	[111410]<a />
+		会員ランク
+	販売チャネル
+	[111411]<a />
+		Shopify
+	[111412]<a />
+		OmnibusCore
+	[111413]<a />
+		スマレジ
+	[111414]<a />
+		リテールポータル
+	[111415]<a />
+		卸売
+	[111416]<a />
+		設定
+会員ランク。このページの準備が整いました
+会員ランク
+[111385]<a />
+	会員ランク算出ルールを作成する
+[111420]<button id=1 role=tab selected=true />
+	すべて
+[111868]<hr />
+[111933]<tr />
+	[111934]<th />
+		[111935]<div />
+			[111937]<span />
+				[111429]<span />
+				[111940]<svg /> <!-- SVG content collapsed -->
+			[111942]<span />
+				[111943]<span />
+					すべてのアイテムを選択する
+	[111947]<span />
+		ルール
+	利用テナント数
+[111430]<tr id=37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule />
+	[111954]<td />
+		[111431]<div />
+			[111956]<span />
+				[111433]<span />
+				[111959]<svg /> <!-- SVG content collapsed -->
+			[111961]<span />
+				[111962]<span />
+					アイテムを選択する
+	[111964]<td />
+		[111965]<p />
+			TEST_FAQ_会員ランク算出ルール
+	[111967]<td />
+		[111968]<p />
+[111434]<tr id=62d269c6-23e1-51a8-a5de-33949d301e18_CustomerRankCalculationRule />
+	[111971]<td />
+		[111435]<div />
+			[111973]<span />
+				[111437]<span />
+				[111976]<svg /> <!-- SVG content collapsed -->
+			[111978]<span />
+				[111979]<span />
+					アイテムを選択する
+	[111981]<td />
+		[111982]<p />
+			TEST_FAQ_RANK_20260615081841
+	[111984]<td />
+		[111985]<p />
+[111438]<tr id=ffb092b2-4e78-5b4f-bd7c-9662cea64564_CustomerRankCalculationRule />
+	[111988]<td />
+		[111439]<div />
+			[111990]<span />
+				[111441]<span />
+				[111993]<svg /> <!-- SVG content collapsed -->
+			[111995]<span />
+				[111996]<span />
+					アイテムを選択する
+	[111998]<td />
+		[111999]<p />
+			TEST_FAQ_20260624_会員ランク_100908
+	[112001]<td />
+		[112002]<p />
+[112007]<section aria-label=Notifications alt+T live=polite />
+[111443]<div id=PolarisPortalsContainer />
+[111445]<div id=clerk-components />

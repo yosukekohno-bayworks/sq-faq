@@ -1,0 +1,24 @@
+[
+  {
+    "target": "TEST_FAQ_20260624_GU倉庫_ON_092214",
+    "detail_url": "https://www.sqstackstaging.com/admin/settings/locations/b111b7e0-f00b-5823-a41f-2d345f56badc_Location",
+    "confirmed": true,
+    "notif": [
+      "このロケーションはアーカイブされています。",
+      "アーカイブされたロケーションは管理画面やストアフロントからも非表示となります。",
+      "アーカイブを解除する",
+      "ロケーションをアーカイブしました"
+    ]
+  },
+  {
+    "target": "TEST_FAQ_20260624_GU店舗_OFF_092214",
+    "detail_url": "https://www.sqstackstaging.com/admin/settings/locations/295e5a69-c97b-53df-b947-1dc9f559d00d_Location",
+    "confirmed": true,
+    "notif": [
+      "このロケーションはアーカイブされています。",
+      "アーカイブされたロケーションは管理画面やストアフロントからも非表示となります。",
+      "アーカイブを解除する",
+      "ロケーションをアーカイブしました"
+    ]
+  }
+]

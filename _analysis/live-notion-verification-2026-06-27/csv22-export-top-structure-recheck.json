@@ -1,0 +1,75 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_export",
+  "savedAt": "2026-06-26T17:15:44.770Z",
+  "groupCount": 5,
+  "categoryCount": 9,
+  "sections": [
+    {
+      "group": "マスターデータ",
+      "itemCount": 4,
+      "items": [
+        {
+          "text": "在庫 指定されたロケーションの在庫数をエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_inventory_logical_quantities"
+        },
+        {
+          "text": "商品バリエーション 商品バリエーション一覧をエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_product_variants"
+        },
+        {
+          "text": "ロケーション 指定されたロケーショングループに含まれているすべてのロケーションをエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_location_by_location_group"
+        },
+        {
+          "text": "ディスカウントの利用履歴 指定されたディスカウントの利用履歴をエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_order_price_adjustment_usages"
+        }
+      ]
+    },
+    {
+      "group": "価格",
+      "itemCount": 1,
+      "items": [
+        {
+          "text": "セール価格 指定された販売価格ルールのセール価格をエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_product_price_rule_sale_prices"
+        }
+      ]
+    },
+    {
+      "group": "出荷",
+      "itemCount": 1,
+      "items": [
+        {
+          "text": "ヤマトB2クラウド ヤマトB2クラウドに取り込む出荷指示をエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_inventory_outbound_order_yamato_b2_clouds"
+        }
+      ]
+    },
+    {
+      "group": "実績",
+      "itemCount": 2,
+      "items": [
+        {
+          "text": "売上実績（注文軸） 指定された期間の注文軸の売上実績をエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_changes"
+        },
+        {
+          "text": "売上実績（明細軸） 指定された期間の明細軸の売上実績をエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_sale_change_line_items"
+        }
+      ]
+    },
+    {
+      "group": "ポイント",
+      "itemCount": 1,
+      "items": [
+        {
+          "text": "ポイント変動履歴 指定された期間のポイント変動履歴をエクスポートできます。",
+          "href": "https://www.sqstackstaging.com/admin/csv_export/csv_export_operation_point_changes"
+        }
+      ]
+    }
+  ],
+  "hasExportTextButton": false
+}

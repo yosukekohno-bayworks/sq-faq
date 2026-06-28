@@ -1,0 +1,452 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - status:
+            - paragraph [ref=e227]: ロケーション。このページの準備が整いました
+          - generic [ref=e229]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: /admin/settings
+              - img [ref=e235]
+            - heading "ロケーション" [level=1] [ref=e239]
+            - generic [ref=e240]:
+              - generic [ref=e243]:
+                - link "インポート" [ref=e245] [cursor=pointer]:
+                  - /url: /admin/csv_import/csv_import_operation_locations
+                  - img [ref=e248]
+                  - generic [ref=e251]: インポート
+                - link "エクスポート" [ref=e253] [cursor=pointer]:
+                  - /url: /admin/csv_export/csv_export_operation_location_by_location_group
+                  - img [ref=e256]
+                  - generic [ref=e259]: エクスポート
+              - link "ロケーションを作成" [ref=e262] [cursor=pointer]:
+                - /url: /admin/settings/locations/create
+                - img [ref=e265]
+                - generic [ref=e267]: ロケーションを作成
+        - generic [ref=e272]:
+          - generic [ref=e278]:
+            - tablist [ref=e285]:
+              - tab "すべて" [selected] [ref=e286] [cursor=pointer]:
+                - generic [ref=e288]: すべて
+            - button "検索と絞り込みの結果" [ref=e292] [cursor=pointer]:
+              - generic [ref=e294]:
+                - img [ref=e296]
+                - img [ref=e299]
+          - generic [ref=e304]:
+            - table [ref=e306]:
+              - rowgroup [ref=e307]:
+                - row "名前 コード 場所種別 公開 アーカイブ ロケーショングループ タグ" [ref=e308]:
+                  - columnheader "名前" [ref=e309]:
+                    - generic [ref=e310]: 名前
+                  - columnheader "コード" [ref=e311]:
+                    - generic [ref=e312]: コード
+                  - columnheader "場所種別" [ref=e313]:
+                    - generic [ref=e314]: 場所種別
+                  - columnheader "公開" [ref=e315]:
+                    - generic [ref=e316]: 公開
+                  - columnheader "アーカイブ" [ref=e317]:
+                    - generic [ref=e318]: アーカイブ
+                  - columnheader "ロケーショングループ" [ref=e319]:
+                    - generic [ref=e320]: ロケーショングループ
+                  - columnheader "タグ" [ref=e321]:
+                    - generic [ref=e322]: タグ
+              - rowgroup [ref=e323]:
+                - row "GU 倉庫 TFCLOC3698 倉庫 成功 公開中 1個のグループ" [ref=e324] [cursor=pointer]:
+                  - cell "GU 倉庫" [ref=e325]:
+                    - paragraph [ref=e326]: GU 倉庫
+                  - cell "TFCLOC3698" [ref=e327]:
+                    - paragraph [ref=e328]: TFCLOC3698
+                  - cell "倉庫" [ref=e329]:
+                    - generic [ref=e331]: 倉庫
+                  - cell "成功 公開中" [ref=e332]:
+                    - generic [ref=e333]
+                  - cell [ref=e336]
+                  - cell "1個のグループ" [ref=e337]:
+                    - paragraph [ref=e338]: 1個のグループ
+                  - cell [ref=e339]
+                - row "GU 銀座店 12456789098765 情報 店舗 成功 公開中 1個のグループ 店舗" [ref=e340] [cursor=pointer]:
+                  - cell "GU 銀座店" [ref=e341]:
+                    - paragraph [ref=e342]: GU 銀座店
+                  - cell "12456789098765" [ref=e343]:
+                    - paragraph [ref=e344]: "12456789098765"
+                  - cell "情報 店舗" [ref=e345]:
+                    - generic [ref=e346]
+                  - cell "成功 公開中" [ref=e349]:
+                    - generic [ref=e350]
+                  - cell [ref=e353]
+                  - cell "1個のグループ" [ref=e354]:
+                    - paragraph [ref=e355]: 1個のグループ
+                  - cell "店舗" [ref=e356]:
+                    - generic [ref=e359]: 店舗
+                - row "TEST_E2E_20260622_GU倉庫_ON_1740 TEST_E2E_20260622_WH_1740 倉庫 成功 公開中 0個のグループ" [ref=e360] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1740" [ref=e361]:
+                    - paragraph [ref=e362]: TEST_E2E_20260622_GU倉庫_ON_1740
+                  - cell "TEST_E2E_20260622_WH_1740" [ref=e363]:
+                    - paragraph [ref=e364]: TEST_E2E_20260622_WH_1740
+                  - cell "倉庫" [ref=e365]:
+                    - generic [ref=e367]: 倉庫
+                  - cell "成功 公開中" [ref=e368]:
+                    - generic [ref=e369]
+                  - cell [ref=e372]
+                  - cell "0個のグループ" [ref=e373]:
+                    - paragraph [ref=e374]: 0個のグループ
+                  - cell [ref=e375]
+                - row "TEST_E2E_20260622_GU倉庫_ON_1755 TEST_E2E_20260622_WH_1755 倉庫 成功 公開中 0個のグループ" [ref=e376] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1755" [ref=e377]:
+                    - paragraph [ref=e378]: TEST_E2E_20260622_GU倉庫_ON_1755
+                  - cell "TEST_E2E_20260622_WH_1755" [ref=e379]:
+                    - paragraph [ref=e380]: TEST_E2E_20260622_WH_1755
+                  - cell "倉庫" [ref=e381]:
+                    - generic [ref=e383]: 倉庫
+                  - cell "成功 公開中" [ref=e384]:
+                    - generic [ref=e385]
+                  - cell [ref=e388]
+                  - cell "0個のグループ" [ref=e389]:
+                    - paragraph [ref=e390]: 0個のグループ
+                  - cell [ref=e391]
+                - row "TEST_E2E_20260622_GU倉庫_ON_1830 TEST_E2E_20260622_WH_1830 倉庫 成功 公開中 0個のグループ" [ref=e392] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1830" [ref=e393]:
+                    - paragraph [ref=e394]: TEST_E2E_20260622_GU倉庫_ON_1830
+                  - cell "TEST_E2E_20260622_WH_1830" [ref=e395]:
+                    - paragraph [ref=e396]: TEST_E2E_20260622_WH_1830
+                  - cell "倉庫" [ref=e397]:
+                    - generic [ref=e399]: 倉庫
+                  - cell "成功 公開中" [ref=e400]:
+                    - generic [ref=e401]
+                  - cell [ref=e404]
+                  - cell "0個のグループ" [ref=e405]:
+                    - paragraph [ref=e406]: 0個のグループ
+                  - cell [ref=e407]
+                - row "TEST_E2E_20260622_GU倉庫_ON_1845 TEST_E2E_20260622_WH_1845 倉庫 成功 公開中 0個のグループ" [ref=e408] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1845" [ref=e409]:
+                    - paragraph [ref=e410]: TEST_E2E_20260622_GU倉庫_ON_1845
+                  - cell "TEST_E2E_20260622_WH_1845" [ref=e411]:
+                    - paragraph [ref=e412]: TEST_E2E_20260622_WH_1845
+                  - cell "倉庫" [ref=e413]:
+                    - generic [ref=e415]: 倉庫
+                  - cell "成功 公開中" [ref=e416]:
+                    - generic [ref=e417]
+                  - cell [ref=e420]
+                  - cell "0個のグループ" [ref=e421]:
+                    - paragraph [ref=e422]: 0個のグループ
+                  - cell [ref=e423]
+                - row "TEST_E2E_20260622_GU倉庫_ON_1905 TEST_E2E_20260622_WH_1905 倉庫 成功 公開中 0個のグループ" [ref=e424] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1905" [ref=e425]:
+                    - paragraph [ref=e426]: TEST_E2E_20260622_GU倉庫_ON_1905
+                  - cell "TEST_E2E_20260622_WH_1905" [ref=e427]:
+                    - paragraph [ref=e428]: TEST_E2E_20260622_WH_1905
+                  - cell "倉庫" [ref=e429]:
+                    - generic [ref=e431]: 倉庫
+                  - cell "成功 公開中" [ref=e432]:
+                    - generic [ref=e433]
+                  - cell [ref=e436]
+                  - cell "0個のグループ" [ref=e437]:
+                    - paragraph [ref=e438]: 0個のグループ
+                  - cell [ref=e439]
+                - row "TEST_E2E_20260622_GU店舗_OFF_1740 TEST_E2E_20260622_STORE_1740 情報 店舗 成功 公開中 0個のグループ" [ref=e440] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU店舗_OFF_1740" [ref=e441]:
+                    - paragraph [ref=e442]: TEST_E2E_20260622_GU店舗_OFF_1740
+                  - cell "TEST_E2E_20260622_STORE_1740" [ref=e443]:
+                    - paragraph [ref=e444]: TEST_E2E_20260622_STORE_1740
+                  - cell "情報 店舗" [ref=e445]:
+                    - generic [ref=e446]
+                  - cell "成功 公開中" [ref=e449]:
+                    - generic [ref=e450]
+                  - cell [ref=e453]
+                  - cell "0個のグループ" [ref=e454]:
+                    - paragraph [ref=e455]: 0個のグループ
+                  - cell [ref=e456]
+                - row "TEST_E2E_20260622_GU店舗_OFF_1830 TEST_E2E_20260622_STORE_1830 情報 店舗 成功 公開中 0個のグループ" [ref=e457] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU店舗_OFF_1830" [ref=e458]:
+                    - paragraph [ref=e459]: TEST_E2E_20260622_GU店舗_OFF_1830
+                  - cell "TEST_E2E_20260622_STORE_1830" [ref=e460]:
+                    - paragraph [ref=e461]: TEST_E2E_20260622_STORE_1830
+                  - cell "情報 店舗" [ref=e462]:
+                    - generic [ref=e463]
+                  - cell "成功 公開中" [ref=e466]:
+                    - generic [ref=e467]
+                  - cell [ref=e470]
+                  - cell "0個のグループ" [ref=e471]:
+                    - paragraph [ref=e472]: 0個のグループ
+                  - cell [ref=e473]
+                - row "TEST_E2E_20260622_GU店舗_OFF_1845 TEST_E2E_20260622_STORE_1845 情報 店舗 成功 公開中 0個のグループ" [ref=e474] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU店舗_OFF_1845" [ref=e475]:
+                    - paragraph [ref=e476]: TEST_E2E_20260622_GU店舗_OFF_1845
+                  - cell "TEST_E2E_20260622_STORE_1845" [ref=e477]:
+                    - paragraph [ref=e478]: TEST_E2E_20260622_STORE_1845
+                  - cell "情報 店舗" [ref=e479]:
+                    - generic [ref=e480]
+                  - cell "成功 公開中" [ref=e483]:
+                    - generic [ref=e484]
+                  - cell [ref=e487]
+                  - cell "0個のグループ" [ref=e488]:
+                    - paragraph [ref=e489]: 0個のグループ
+                  - cell [ref=e490]
+                - row "TEST_E2E_20260622_GU店舗_OFF_1905 TEST_E2E_20260622_STORE_1905 情報 店舗 成功 公開中 0個のグループ" [ref=e491] [cursor=pointer]:
+                  - cell "TEST_E2E_20260622_GU店舗_OFF_1905" [ref=e492]:
+                    - paragraph [ref=e493]: TEST_E2E_20260622_GU店舗_OFF_1905
+                  - cell "TEST_E2E_20260622_STORE_1905" [ref=e494]:
+                    - paragraph [ref=e495]: TEST_E2E_20260622_STORE_1905
+                  - cell "情報 店舗" [ref=e496]:
+                    - generic [ref=e497]
+                  - cell "成功 公開中" [ref=e500]:
+                    - generic [ref=e501]
+                  - cell [ref=e504]
+                  - cell "0個のグループ" [ref=e505]:
+                    - paragraph [ref=e506]: 0個のグループ
+                  - cell [ref=e507]
+                - row "TEST_FAQ_20260624_GU倉庫_ON_092214 TEST_FAQ_20260624_WH_092214 倉庫 情報 非公開 アーカイブ済み 0個のグループ" [ref=e508] [cursor=pointer]:
+                  - cell "TEST_FAQ_20260624_GU倉庫_ON_092214" [ref=e509]:
+                    - paragraph [ref=e510]: TEST_FAQ_20260624_GU倉庫_ON_092214
+                  - cell "TEST_FAQ_20260624_WH_092214" [ref=e511]:
+                    - paragraph [ref=e512]: TEST_FAQ_20260624_WH_092214
+                  - cell "倉庫" [ref=e513]:
+                    - generic [ref=e515]: 倉庫
+                  - cell "情報 非公開" [ref=e516]:
+                    - generic [ref=e517]
+                  - cell "アーカイブ済み" [ref=e520]:
+                    - generic [ref=e522]: アーカイブ済み
+                  - cell "0個のグループ" [ref=e523]:
+                    - paragraph [ref=e524]: 0個のグループ
+                  - cell [ref=e525]
+                - row "TEST_FAQ_20260624_GU店舗_OFF_092214 TEST_FAQ_20260624_STORE_092214 情報 店舗 情報 非公開 アーカイブ済み 0個のグループ" [ref=e526] [cursor=pointer]:
+                  - cell "TEST_FAQ_20260624_GU店舗_OFF_092214" [ref=e527]:
+                    - paragraph [ref=e528]: TEST_FAQ_20260624_GU店舗_OFF_092214
+                  - cell "TEST_FAQ_20260624_STORE_092214" [ref=e529]:
+                    - paragraph [ref=e530]: TEST_FAQ_20260624_STORE_092214
+                  - cell "情報 店舗" [ref=e531]:
+                    - generic [ref=e532]
+                  - cell "情報 非公開" [ref=e535]:
+                    - generic [ref=e536]
+                  - cell "アーカイブ済み" [ref=e539]:
+                    - generic [ref=e541]: アーカイブ済み
+                  - cell "0個のグループ" [ref=e542]:
+                    - paragraph [ref=e543]: 0個のグループ
+                  - cell [ref=e544]
+                - row "TEST_FAQ_DEEP2_202606080343_ロケーション test_faq_deep2_202606080343_loc 情報 店舗 情報 非公開 アーカイブ済み 0個のグループ" [ref=e545] [cursor=pointer]:
+                  - cell "TEST_FAQ_DEEP2_202606080343_ロケーション" [ref=e546]:
+                    - paragraph [ref=e547]: TEST_FAQ_DEEP2_202606080343_ロケーション
+                  - cell "test_faq_deep2_202606080343_loc" [ref=e548]:
+                    - paragraph [ref=e549]: test_faq_deep2_202606080343_loc
+                  - cell "情報 店舗" [ref=e550]:
+                    - generic [ref=e551]
+                  - cell "情報 非公開" [ref=e554]:
+                    - generic [ref=e555]
+                  - cell "アーカイブ済み" [ref=e558]:
+                    - generic [ref=e560]: アーカイブ済み
+                  - cell "0個のグループ" [ref=e561]:
+                    - paragraph [ref=e562]: 0個のグループ
+                  - cell [ref=e563]
+                - row "TEST_FLAGOFF_20260621 FLAGOFF01 情報 店舗 成功 公開中 0個のグループ" [ref=e564] [cursor=pointer]:
+                  - cell "TEST_FLAGOFF_20260621" [ref=e565]:
+                    - paragraph [ref=e566]: TEST_FLAGOFF_20260621
+                  - cell "FLAGOFF01" [ref=e567]:
+                    - paragraph [ref=e568]: FLAGOFF01
+                  - cell "情報 店舗" [ref=e569]:
+                    - generic [ref=e570]
+                  - cell "成功 公開中" [ref=e573]:
+                    - generic [ref=e574]
+                  - cell [ref=e577]
+                  - cell "0個のグループ" [ref=e578]:
+                    - paragraph [ref=e579]: 0個のグループ
+                  - cell [ref=e580]
+                - row "TEST_NOTION_20260627_店舗_041001 TEST_NOTION_STORE_041001 情報 店舗 情報 非公開 アーカイブ済み 0個のグループ" [ref=e581] [cursor=pointer]:
+                  - cell "TEST_NOTION_20260627_店舗_041001" [ref=e582]:
+                    - paragraph [ref=e583]: TEST_NOTION_20260627_店舗_041001
+                  - cell "TEST_NOTION_STORE_041001" [ref=e584]:
+                    - paragraph [ref=e585]: TEST_NOTION_STORE_041001
+                  - cell "情報 店舗" [ref=e586]:
+                    - generic [ref=e587]
+                  - cell "情報 非公開" [ref=e590]:
+                    - generic [ref=e591]
+                  - cell "アーカイブ済み" [ref=e594]:
+                    - generic [ref=e596]: アーカイブ済み
+                  - cell "0個のグループ" [ref=e597]:
+                    - paragraph [ref=e598]: 0個のグループ
+                  - cell [ref=e599]
+                - row "ユニクロ - 銀座店 R0001 情報 店舗 成功 公開中 1個のグループ" [ref=e600] [cursor=pointer]:
+                  - cell "ユニクロ - 銀座店" [ref=e601]:
+                    - paragraph [ref=e602]: ユニクロ - 銀座店
+                  - cell "R0001" [ref=e603]:
+                    - paragraph [ref=e604]: R0001
+                  - cell "情報 店舗" [ref=e605]:
+                    - generic [ref=e606]
+                  - cell "成功 公開中" [ref=e609]:
+                    - generic [ref=e610]
+                  - cell [ref=e613]
+                  - cell "1個のグループ" [ref=e614]:
+                    - paragraph [ref=e615]: 1個のグループ
+                  - cell [ref=e616]
+                - row "ユニクロEC TESTEC01 情報 店舗 成功 公開中 1個のグループ" [ref=e617] [cursor=pointer]:
+                  - cell "ユニクロEC" [ref=e618]:
+                    - paragraph [ref=e619]: ユニクロEC
+                  - cell "TESTEC01" [ref=e620]:
+                    - paragraph [ref=e621]: TESTEC01
+                  - cell "情報 店舗" [ref=e622]:
+                    - generic [ref=e623]
+                  - cell "成功 公開中" [ref=e626]:
+                    - generic [ref=e627]
+                  - cell [ref=e630]
+                  - cell "1個のグループ" [ref=e631]:
+                    - paragraph [ref=e632]: 1個のグループ
+                  - cell [ref=e633]
+                - row "ユニクロ物流倉庫 W0001 倉庫 成功 公開中 2個のグループ" [ref=e634] [cursor=pointer]:
+                  - cell "ユニクロ物流倉庫" [ref=e635]:
+                    - paragraph [ref=e636]: ユニクロ物流倉庫
+                  - cell "W0001" [ref=e637]:
+                    - paragraph [ref=e638]: W0001
+                  - cell "倉庫" [ref=e639]:
+                    - generic [ref=e641]: 倉庫
+                  - cell "成功 公開中" [ref=e642]:
+                    - generic [ref=e643]
+                  - cell [ref=e646]
+                  - cell "2個のグループ" [ref=e647]:
+                    - paragraph [ref=e648]: 2個のグループ
+                  - cell [ref=e649]
+            - navigation "ページネーション" [ref=e653]:
+              - generic [ref=e656]:
+                - generic [ref=e657]:
+                  - button "前へ" [disabled]:
+                    - generic
+                - generic [ref=e658]:
+                  - button "次へ" [disabled]:
+                    - generic
+  - region "Notifications alt+T"
+  - alert [ref=e10]

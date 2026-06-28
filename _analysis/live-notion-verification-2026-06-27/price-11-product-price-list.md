@@ -1,0 +1,33 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]
+          - list [ref=e142]
+          - list [ref=e175]
+          - list [ref=e206]
+          - list [ref=e231]
+    - main [ref=e241]:
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - status
+          - generic [ref=e248]
+        - generic [ref=e267]:
+          - table [ref=e269]
+          - navigation "ページネーション" [ref=e354]
+  - region "Notifications alt+T"
+  - alert [ref=e10]

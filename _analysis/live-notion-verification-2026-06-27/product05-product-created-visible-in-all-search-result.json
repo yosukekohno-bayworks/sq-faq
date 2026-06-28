@@ -1,0 +1,18 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/products?query=TEST_NOTION_20260627_PRODUCT_0447",
+  "hasProduct": true,
+  "statusMentions": {
+    "archived": true,
+    "draft": true,
+    "public": true
+  },
+  "matchingRows": [
+    "アイテムを選択する product thumbnail TEST_NOTION_20260627 商品 0447 アーカイブ済み TEST_NOTION_20260627_PRODUCT_0447 0個のバリエーション 0"
+  ],
+  "tabButtons": [
+    "すべて",
+    "公開中",
+    "下書き",
+    "アーカイブ済み"
+  ]
+}

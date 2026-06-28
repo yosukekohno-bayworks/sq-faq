@@ -1,0 +1,85 @@
+{
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n翻訳。このページの準備が整いました\n\n翻訳\n選択してください\nルールを管理する\n未選択：翻訳ルールを選択するとリソースを選択できます\n商品\n\n商品\n\nTEST_FAQ_英語翻訳ルール\nTEST_FAQ_翻訳ルール_英語\nTest_中国語",
+  "menus": [
+    {
+      "i": 0,
+      "text": ""
+    },
+    {
+      "i": 1,
+      "text": ""
+    },
+    {
+      "i": 2,
+      "text": ""
+    },
+    {
+      "i": 3,
+      "text": "TEST_FAQ_英語翻訳ルール\nTEST_FAQ_翻訳ルール_英語\nTest_中国語"
+    },
+    {
+      "i": 4,
+      "text": "TEST_FAQ_英語翻訳ルール\nTEST_FAQ_翻訳ルール_英語\nTest_中国語"
+    },
+    {
+      "i": 5,
+      "text": "TEST_FAQ_英語翻訳ルール\nTEST_FAQ_翻訳ルール_英語\nTest_中国語"
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "aria": "メニューを切り替える",
+      "disabled": false
+    },
+    {
+      "i": 1,
+      "text": "",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 2,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 3,
+      "text": "",
+      "aria": "メニューを閉じる",
+      "disabled": false
+    },
+    {
+      "i": 4,
+      "text": "選択してください",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 5,
+      "text": "その他の操作",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 6,
+      "text": "TEST_FAQ_英語翻訳ルール",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 7,
+      "text": "TEST_FAQ_翻訳ルール_英語",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "i": 8,
+      "text": "Test_中国語",
+      "aria": null,
+      "disabled": false
+    }
+  ]
+}

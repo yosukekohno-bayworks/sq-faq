@@ -1,0 +1,91 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[118478]<a />
+	コンテンツにスキップ
+[118613]<div />
+[118481]<button data-state=closed expanded=false />
+[118482]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[118630]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[118486]<a />
+		ホーム
+	[118487]<a />
+		商品管理
+	[118488]<a />
+		在庫管理
+	[118489]<a />
+		注文管理
+		[118681]<div />
+	[118490]<a />
+		顧客管理
+	[118491]<a />
+		発注管理
+	[118492]<a />
+		販売設定
+	[118493]<a />
+		会計
+	[118494]<a />
+		分析
+	オペレーション
+	[118495]<a />
+		入荷管理
+		[118765]<div />
+	[118496]<a />
+		出荷管理
+		[118776]<div />
+	[118497]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[118498]<a />
+		ディスカウント
+	[118499]<a />
+		ポイント
+	[118500]<a />
+		会員ランク
+	販売チャネル
+	[118501]<a />
+		Shopify
+	[118502]<a />
+		OmnibusCore
+	[118503]<a />
+		スマレジ
+	[118504]<a />
+		リテールポータル
+	[118505]<a />
+		卸売
+	[118506]<a />
+		設定
+テナント。このページの準備が整いました
+[118894]<div />
+	[118895]<div />
+		[118508]<a />
+テナント
+[118475]<a />
+	テナントを作成
+[118972]<span />
+	名前
+[118975]<tr id=f6262fd1-2406-5716-9cb5-cad1137b403c_Tenant />
+	[118976]<td />
+		[118513]<a />
+			TEST_FAQ_20260624_TENANT_170037
+[118978]<tr id=cee012a1-a15a-5ec5-871f-5e41a330617f_Tenant />
+	[118979]<td />
+		[118514]<a />
+			テストテナント
+[118981]<tr id=702f62d5-0ae6-55ec-a5ff-f8462435b8a6_Tenant />
+	[118982]<td />
+		[118515]<a />
+			TEST_FAQ_COVERAGE_20260615_テナント_EDIT
+[118984]<tr id=da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant />
+	[118985]<td />
+		[118516]<a />
+			ユニクロ
+[118518]<button id=previousURL aria-label=前へ disabled=true />
+[118519]<button id=nextURL aria-label=次へ disabled=true />
+[119004]<section aria-label=Notifications alt+T live=polite />
+[118520]<div id=PolarisPortalsContainer />
+[118522]<div id=clerk-components />

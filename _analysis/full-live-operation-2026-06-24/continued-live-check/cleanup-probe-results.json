@@ -1,0 +1,135 @@
+[
+  {
+    "path": "/admin/settings/suppliers",
+    "target": "TEST_FAQ_20260624_取引先_092214",
+    "url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+    "present": true,
+    "app_error": false,
+    "buttons_before": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "インポート",
+      "すべて",
+      "アーカイブ",
+      "その他のビュー"
+    ],
+    "selected_or_clicked": true,
+    "has_delete_after": false,
+    "has_archive_after": true,
+    "buttons_after": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "インポート",
+      "すべて",
+      "アーカイブ",
+      "その他のビュー",
+      "アーカイブする"
+    ]
+  },
+  {
+    "path": "/admin/settings/brands",
+    "target": "TEST_FAQ_20260624_ブランド_092214",
+    "url": "https://www.sqstackstaging.com/admin/settings/brands",
+    "present": true,
+    "app_error": false,
+    "buttons_before": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "selected_or_clicked": true,
+    "has_delete_after": true,
+    "has_archive_after": false,
+    "buttons_after": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "削除する"
+    ]
+  },
+  {
+    "path": "/admin/settings/payment_methods",
+    "target": "TEST_FAQ_20260624_決済_092214",
+    "url": "https://www.sqstackstaging.com/admin/settings/payment_methods",
+    "present": true,
+    "app_error": false,
+    "buttons_before": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "すべて",
+      "その他のビュー"
+    ],
+    "selected_or_clicked": true,
+    "has_delete_after": true,
+    "has_archive_after": false,
+    "buttons_after": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "すべて",
+      "その他のビュー",
+      "削除する"
+    ]
+  },
+  {
+    "path": "/admin/settings/locations",
+    "target": "TEST_FAQ_20260624_GU倉庫_ON_092214",
+    "url": "https://www.sqstackstaging.com/admin/settings/locations",
+    "present": true,
+    "app_error": false,
+    "buttons_before": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "すべて",
+      "その他のビュー"
+    ],
+    "select_error": "Locator.check: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"tr\").filter(has_text=\"TEST_FAQ_20260624_GU倉庫_ON_092214\").first.locator(\"input[type=checkbox]\").first\n"
+  },
+  {
+    "path": "/admin/settings/locations",
+    "target": "TEST_FAQ_20260624_GU店舗_OFF_092214",
+    "url": "https://www.sqstackstaging.com/admin/settings/locations",
+    "present": true,
+    "app_error": false,
+    "buttons_before": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "すべて",
+      "その他のビュー"
+    ],
+    "select_error": "Locator.check: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"tr\").filter(has_text=\"TEST_FAQ_20260624_GU店舗_OFF_092214\").first.locator(\"input[type=checkbox]\").first\n"
+  },
+  {
+    "path": "/admin/recustomer_integrations",
+    "target": "TEST_FAQ_20260624_Recustomer_100908",
+    "url": "https://www.sqstackstaging.com/admin/recustomer_integrations",
+    "present": true,
+    "app_error": false,
+    "buttons_before": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "selected_or_clicked": true,
+    "has_delete_after": false,
+    "has_archive_after": false,
+    "buttons_after": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ]
+  },
+  {
+    "path": "/admin/settings/product_measurement_rules",
+    "target": "TEST_FAQ_20260624_MEASURE_CRUD_093821",
+    "url": "https://www.sqstackstaging.com/admin/settings/product_measurement_rules",
+    "present": true,
+    "app_error": false,
+    "buttons_before": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "select_error": "Locator.check: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"tr\").filter(has_text=\"TEST_FAQ_20260624_MEASURE_CRUD_093821\").first.locator(\"input[type=checkbox]\").first\n"
+  },
+  {
+    "path": "/admin/settings/translation/translation_rules",
+    "target": "TEST_FAQ_20260624_TRANSLATION_CRUD_093701",
+    "url": "https://www.sqstackstaging.com/admin/settings/translation/translation_rules",
+    "present": true,
+    "app_error": false,
+    "buttons_before": [
+      "stack-ps-yosuke\n\n陽介 河野"
+    ],
+    "selected_or_clicked": true,
+    "has_delete_after": true,
+    "has_archive_after": false,
+    "buttons_after": [
+      "stack-ps-yosuke\n\n陽介 河野",
+      "削除する"
+    ]
+  }
+]

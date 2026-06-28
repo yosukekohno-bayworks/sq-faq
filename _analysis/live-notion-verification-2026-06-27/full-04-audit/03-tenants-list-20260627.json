@@ -1,0 +1,184 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/tenants",
+  "h1": [
+    "テナント"
+  ],
+  "headers": [
+    "名前"
+  ],
+  "rows": [
+    [
+      "名前"
+    ],
+    [
+      "TEST_FAQ_20260624_TENANT_170037"
+    ],
+    [
+      "テストテナント"
+    ],
+    [
+      "TEST_FAQ_COVERAGE_20260615_テナント_EDIT"
+    ],
+    [
+      "ユニクロ"
+    ]
+  ],
+  "buttons": [
+    {
+      "text": "コンテンツにスキップ",
+      "href": "#AppFrameMain",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "ホーム",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "商品管理",
+      "href": "/admin/products",
+      "disabled": false
+    },
+    {
+      "text": "在庫管理",
+      "href": "/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "text": "注文管理",
+      "href": "/admin/orders",
+      "disabled": false
+    },
+    {
+      "text": "顧客管理",
+      "href": "/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "text": "発注管理",
+      "href": "/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "text": "販売設定",
+      "href": "/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "text": "会計",
+      "href": "/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "text": "分析",
+      "href": "/admin/analytics",
+      "disabled": false
+    },
+    {
+      "text": "入荷管理",
+      "href": "/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "出荷管理",
+      "href": "/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "href": "/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "text": "ディスカウント",
+      "href": "/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "text": "ポイント",
+      "href": "/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "会員ランク",
+      "href": "/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "Shopify",
+      "href": "/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "text": "OmnibusCore",
+      "href": "/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "text": "スマレジ",
+      "href": "/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "text": "リテールポータル",
+      "href": "/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "text": "卸売",
+      "href": "/admin/b2b",
+      "disabled": false
+    },
+    {
+      "text": "設定",
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "text": "テナントを作成",
+      "href": "/admin/settings/tenants/create",
+      "disabled": false
+    },
+    {
+      "text": "TEST_FAQ_20260624_TENANT_170037",
+      "href": "/admin/settings/tenants/f6262fd1-2406-5716-9cb5-cad1137b403c_Tenant",
+      "disabled": false
+    },
+    {
+      "text": "テストテナント",
+      "href": "/admin/settings/tenants/cee012a1-a15a-5ec5-871f-5e41a330617f_Tenant",
+      "disabled": false
+    },
+    {
+      "text": "TEST_FAQ_COVERAGE_20260615_テナント_EDIT",
+      "href": "/admin/settings/tenants/702f62d5-0ae6-55ec-a5ff-f8462435b8a6_Tenant",
+      "disabled": false
+    },
+    {
+      "text": "ユニクロ",
+      "href": "/admin/settings/tenants/da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nテナント。このページの準備が整いました\n\nテナント\nテナントを作成\n名前\n\nTEST_FAQ_20260624_TENANT_170037\nテストテナント\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nユニクロ"
+}

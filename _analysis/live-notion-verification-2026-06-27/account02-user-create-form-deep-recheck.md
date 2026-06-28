@@ -1,0 +1,36 @@
+- generic [ref=e270]:
+  - generic [ref=e272]:
+    - generic [ref=e274]:
+      - heading "基本情報" [level=2] [ref=e276]
+      - separator [ref=e277]
+      - generic [ref=e279]:
+        - group [ref=e280]:
+          - generic [ref=e281]:
+            - generic [ref=e283]:
+              - generic [ref=e286]: 姓*
+              - textbox "姓*" [ref=e290]:
+                - /placeholder: 山田
+            - generic [ref=e292]:
+              - generic [ref=e295]: 名*
+              - textbox "名*" [ref=e299]:
+                - /placeholder: 花子
+        - generic [ref=e301]:
+          - generic [ref=e304]: メールアドレス*
+          - textbox "メールアドレス*" [ref=e308]:
+            - /placeholder: you@company.com
+    - generic [ref=e310]:
+      - heading "権限" [level=2] [ref=e312]
+      - separator [ref=e313]
+      - group "権限グループ" [ref=e316]:
+        - generic [ref=e317]: 権限グループ
+        - list [ref=e318]:
+          - listitem [ref=e319]:
+            - generic [ref=e321] [cursor=pointer]:
+              - radio "特権管理者" [ref=e324]
+              - generic [ref=e326]: 特権管理者
+          - listitem [ref=e327]:
+            - generic [ref=e329] [cursor=pointer]:
+              - radio "TEST_権限検証_20260620" [ref=e332]
+              - generic [ref=e334]: TEST_権限検証_20260620
+  - button "保存する" [ref=e339] [cursor=pointer]:
+    - generic [ref=e340]: 保存する

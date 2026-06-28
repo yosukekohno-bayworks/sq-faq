@@ -1,0 +1,144 @@
+viewport: 1209x785
+page: 1209x1421
+scroll: (0, 0)
+[109023]<a />
+	コンテンツにスキップ
+[109169]<div />
+[109026]<button data-state=closed expanded=false />
+[109027]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[109186]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[109031]<a />
+		ホーム
+	[109032]<a />
+		商品管理
+	[109033]<a />
+		在庫管理
+	[109034]<a />
+		注文管理
+		[109237]<div />
+	[109035]<a />
+		顧客管理
+	[109036]<a />
+		発注管理
+	[109037]<a />
+		販売設定
+	[109038]<a />
+		会計
+	[109039]<a />
+		分析
+	オペレーション
+	[109040]<a />
+		入荷管理
+		[109321]<div />
+	[109041]<a />
+		出荷管理
+		[109332]<div />
+	[109042]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[109043]<a />
+		ディスカウント
+	[109044]<a />
+		ポイント
+	[109045]<a />
+		会員ランク
+	販売チャネル
+	[109046]<a />
+		Shopify
+	[109047]<a />
+		OmnibusCore
+	[109048]<a />
+		スマレジ
+	[109049]<a />
+		リテールポータル
+	[109050]<a />
+		卸売
+	[109051]<a />
+		設定
+ディスカウントを作成する。このページの準備が整いました
+[109450]<div />
+	[109451]<div />
+		[109053]<a />
+ディスカウントを作成する
+基本情報
+[109471]<hr />
+タイトル
+|SHADOW(open)|[109007]<input id=:r1c: placeholder=年末セール autocomplete=off type=text required=true />
+[109489]<div />
+	[109491]<span />
+		説明文
+|SHADOW(open)|[109008]<textarea id=:r1d: autocomplete=off type=text />
+クーポンコード
+|SHADOW(open)|[109009]<input id=:r1e: placeholder=SEHD-DEKH autocomplete=off type=text required=true />
+テナント
+テナントを選択してください
+[109536]<span />
+	[109537]<span />
+		[109538]<svg /> <!-- SVG content collapsed -->
+選択されたテナントでディスカウントが利用できます
+割引設定
+[109551]<hr />
+割引方法
+割引率
+[109574]<span />
+	[109575]<span />
+		[109576]<svg /> <!-- SVG content collapsed -->
+[109583]<div />
+	[109586]<span />
+		割引率
+|SHADOW(open)|*[109012]<input id=:r1i: placeholder=10 autocomplete=off type=number required=true valuemin=0 valuemax=0 compound_components=(name=Increment,role=button),(name=Decrement,role=button),(name=Value,role=textbox) />
+[109590]<div id=:r1i:-Suffix />
+	[109591]<span />
+[109607]<span />
+	[109061]<span />
+	[109610]<svg /> <!-- SVG content collapsed -->
+[109612]<span />
+	[109613]<span />
+		割引が適用可能な最高購入額を設定する
+設定した購入額を超える注文には適用不可になります
+適用条件
+[109625]<hr />
+割引要件
+[109636]<span />
+	[109638]<span />
+[109641]<span />
+	[109642]<span />
+		最低購入額
+|SHADOW(open)|*[109013]<input id=:r1m: placeholder=1000 autocomplete=off type=number valuemin=0 valuemax=0 compound_components=(name=Increment,role=button),(name=Decrement,role=button),(name=Value,role=textbox) />
+[109649]<div id=:r1m:-Suffix />
+	[109650]<span />
+[109665]<span />
+	[109667]<span />
+[109670]<span />
+	[109671]<span />
+		最低購入数量
+対象商品
+[109678]<span />
+	[109066]<span />
+	[109681]<svg /> <!-- SVG content collapsed -->
+[109683]<span />
+	[109684]<span />
+		すべての商品を割引対象に設定する
+この設定を有効にしない場合は、割引の作成後に対象の商品を設定することができます
+利用制限
+[109694]<span />
+	[109067]<span />
+	[109697]<svg /> <!-- SVG content collapsed -->
+[109699]<span />
+	[109700]<span />
+		お客様1人につき1回のみの使用とする
+有効期間
+[109708]<hr />
+開始日時
+|SHADOW(open)|[109019]<input id=:r1r: autocomplete=off type=datetime-local format=YYYY-MM-DDTHH:MM placeholder=YYYY-MM-DDTHH:MM />
+終了日時
+|SHADOW(open)|[109020]<input id=:r1s: autocomplete=off type=datetime-local format=YYYY-MM-DDTHH:MM placeholder=YYYY-MM-DDTHH:MM />
+[109006]<button />
+	保存する
+[109743]<section aria-label=Notifications alt+T live=polite />
+[109070]<div id=PolarisPortalsContainer />
+[109072]<div id=clerk-components />

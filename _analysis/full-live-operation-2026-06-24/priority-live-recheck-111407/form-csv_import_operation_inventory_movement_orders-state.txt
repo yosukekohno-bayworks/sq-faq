@@ -1,0 +1,78 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[64259]<a />
+	コンテンツにスキップ
+[64384]<div />
+[64262]<button data-state=closed expanded=false />
+[64263]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[64401]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[64267]<a />
+		ホーム
+	[64268]<a />
+		商品管理
+	[64269]<a />
+		在庫管理
+	[64270]<a />
+		注文管理
+		[64452]<div />
+	[64271]<a />
+		顧客管理
+	[64272]<a />
+		発注管理
+	[64273]<a />
+		販売設定
+	[64274]<a />
+		会計
+	[64275]<a />
+		分析
+	オペレーション
+	[64276]<a />
+		入荷管理
+		[64536]<div />
+	[64277]<a />
+		出荷管理
+		[64547]<div />
+	[64278]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[64279]<a />
+		ディスカウント
+	[64280]<a />
+		ポイント
+	[64281]<a />
+		会員ランク
+	販売チャネル
+	[64282]<a />
+		Shopify
+	[64283]<a />
+		OmnibusCore
+	[64284]<a />
+		スマレジ
+	[64285]<a />
+		リテールポータル
+	[64286]<a />
+		卸売
+	[64287]<a />
+		設定
+在庫移動伝票をCSVで一括取り込む。このページの準備が整いました
+[64665]<div />
+	[64666]<div />
+		[64289]<a />
+在庫移動伝票をCSVで一括取り込む
+[64696]<a />
+	テンプレート
+[64255]<a />
+	新規インポート
+[64721]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+[64290]<button id=previousURL aria-label=前へ disabled=true />
+[64291]<button id=nextURL aria-label=次へ disabled=true />
+[64746]<section aria-label=Notifications alt+T live=polite />
+[64292]<div id=PolarisPortalsContainer />
+[64294]<div id=clerk-components />

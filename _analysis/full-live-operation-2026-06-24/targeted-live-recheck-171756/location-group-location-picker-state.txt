@@ -1,0 +1,342 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+コンテンツにスキップ
+stack-ps-yosuke
+陽介 河野
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	ホーム
+	商品管理
+	在庫管理
+	注文管理
+	顧客管理
+	発注管理
+	販売設定
+	会計
+	分析
+	オペレーション
+	入荷管理
+	出荷管理
+	在庫依頼
+	未完了の在庫依頼 3件
+	CRM
+	ディスカウント
+	ポイント
+	会員ランク
+	販売チャネル
+	Shopify
+	OmnibusCore
+	スマレジ
+	リテールポータル
+	卸売
+	[121096]<a />
+		設定
+<svg /> <!-- SVG content collapsed -->
+保存されていないグループ
+取り消す
+保存する
+グループを作成。このページの準備が整いました
+グループを作成
+名前
+ロケーション
+選択
+<svg /> <!-- SVG content collapsed -->
+ロケーションを選択してください
+このグループに属するロケーションを選択してください
+保存する
+*[121723]<div role=dialog aria-label=:r1e: />
+	ロケーションを選択する
+	*[121616]<button aria-label=閉じる pressed=false />
+	|scroll element|<div /> (0.0 pages above, 0.5 pages below)
+		*[121749]<button id=all role=tab selected=true />
+			すべて
+		*[121764]<li role=presentation />
+			*[121752]<button id=retail role=tab selected=false />
+				店舗
+		*[121765]<li role=presentation />
+			*[121755]<button id=warehouse role=tab selected=false />
+				倉庫
+		*[121653]<button aria-label=検索と絞り込みの結果 />
+		*[121660]<button aria-label=検索結果を並べ替える data-state=closed expanded=false />
+		*[121842]<th />
+			*[121837]<div />
+				*[121834]<span />
+					*[121830]<span />
+					*[121828]<svg /> <!-- SVG content collapsed -->
+				*[121835]<span />
+					*[121833]<span />
+						すべてのアイテムを選択する
+		*[121838]<span />
+			名前
+		場所コード
+		*[122134]<tr id=8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location />
+			*[121859]<td />
+				*[121856]<div />
+					*[121853]<span />
+						*[121849]<span />
+						*[121847]<svg /> <!-- SVG content collapsed -->
+					*[121854]<span />
+						*[121852]<span />
+							アイテムを選択する
+			*[121860]<td />
+				*[121857]<p />
+					ユニクロ物流倉庫
+			*[121861]<td />
+				*[121858]<p />
+					W0001
+		*[122135]<tr id=b12adcce-247e-5b58-b65a-4d7397be8f79_Location />
+			*[121875]<td />
+				*[121872]<div />
+					*[121869]<span />
+						*[121865]<span />
+						*[121863]<svg /> <!-- SVG content collapsed -->
+					*[121870]<span />
+						*[121868]<span />
+							アイテムを選択する
+			*[121876]<td />
+				*[121873]<p />
+					ユニクロ - 銀座店
+			*[121877]<td />
+				*[121874]<p />
+					R0001
+		*[122136]<tr id=b9f67abc-3da0-5165-953b-ea304a92460b_Location />
+			*[121891]<td />
+				*[121888]<div />
+					*[121885]<span />
+						*[121881]<span />
+						*[121879]<svg /> <!-- SVG content collapsed -->
+					*[121886]<span />
+						*[121884]<span />
+							アイテムを選択する
+			*[121892]<td />
+				*[121889]<p />
+					TEST_FAQ_DEEP2_202606080343_ロケーション
+			*[121893]<td />
+				*[121890]<p />
+					test_faq_deep2_202606080343_loc
+		*[122137]<tr id=8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location />
+			*[121907]<td />
+				*[121904]<div />
+					*[121901]<span />
+						*[121897]<span />
+						*[121895]<svg /> <!-- SVG content collapsed -->
+					*[121902]<span />
+						*[121900]<span />
+							アイテムを選択する
+			*[121908]<td />
+				*[121905]<p />
+					ユニクロEC
+			*[121909]<td />
+				*[121906]<p />
+					TESTEC01
+		*[122138]<tr id=8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location />
+			*[121923]<td />
+				*[121920]<div />
+					*[121917]<span />
+						*[121913]<span />
+						*[121911]<svg /> <!-- SVG content collapsed -->
+					*[121918]<span />
+						*[121916]<span />
+							アイテムを選択する
+			*[121924]<td />
+				*[121921]<p />
+					GU 倉庫
+			*[121925]<td />
+				*[121922]<p />
+					TFCLOC3698
+		*[122139]<tr id=0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location />
+			*[121939]<td />
+				*[121936]<div />
+					*[121933]<span />
+						*[121929]<span />
+						*[121927]<svg /> <!-- SVG content collapsed -->
+					*[121934]<span />
+						*[121932]<span />
+							アイテムを選択する
+			*[121940]<td />
+				*[121937]<p />
+					GU 銀座店
+			*[121941]<td />
+				*[121938]<p />
+					12456789098765
+		*[122140]<tr id=45ffa873-a7f2-5581-8117-5758f5a45c73_Location />
+			*[121955]<td />
+				*[121952]<div />
+					*[121949]<span />
+						*[121945]<span />
+						*[121943]<svg /> <!-- SVG content collapsed -->
+					*[121950]<span />
+						*[121948]<span />
+							アイテムを選択する
+			*[121956]<td />
+				*[121953]<p />
+					TEST_FLAGOFF_20260621
+			*[121957]<td />
+				*[121954]<p />
+					FLAGOFF01
+		*[122141]<tr id=1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location />
+			*[121971]<td />
+				*[121968]<div />
+					*[121965]<span />
+						*[121961]<span />
+						*[121959]<svg /> <!-- SVG content collapsed -->
+					*[121966]<span />
+						*[121964]<span />
+							アイテムを選択する
+			*[121972]<td />
+				*[121969]<p />
+					TEST_E2E_20260622_GU店舗_OFF_1740
+			*[121973]<td />
+				*[121970]<p />
+					TEST_E2E_20260622_STORE_1740
+		*[122142]<tr id=78ae0d92-71dc-56e9-8fc5-a01216b37db1_Location />
+			*[121987]<td />
+				*[121984]<div />
+					*[121981]<span />
+						*[121977]<span />
+						*[121975]<svg /> <!-- SVG content collapsed -->
+					*[121982]<span />
+						*[121980]<span />
+							アイテムを選択する
+			*[121988]<td />
+				*[121985]<p />
+					TEST_E2E_20260622_GU倉庫_ON_1740
+			*[121989]<td />
+				*[121986]<p />
+					TEST_E2E_20260622_WH_1740
+		*[122143]<tr id=960d77a3-59f8-586e-9087-fd1ee6a719ee_Location />
+			*[122003]<td />
+				*[122000]<div />
+					*[121997]<span />
+						*[121993]<span />
+						*[121991]<svg /> <!-- SVG content collapsed -->
+					*[121998]<span />
+						*[121996]<span />
+							アイテムを選択する
+			*[122004]<td />
+				*[122001]<p />
+					TEST_E2E_20260622_GU倉庫_ON_1755
+			*[122005]<td />
+				*[122002]<p />
+					TEST_E2E_20260622_WH_1755
+		*[122144]<tr id=cbe47a67-ca31-507c-865d-6968d4e12187_Location />
+			*[122019]<td />
+				*[122016]<div />
+					*[122013]<span />
+						*[122009]<span />
+						*[122007]<svg /> <!-- SVG content collapsed -->
+					*[122014]<span />
+						*[122012]<span />
+							アイテムを選択する
+			*[122020]<td />
+				*[122017]<p />
+					TEST_E2E_20260622_GU店舗_OFF_1830
+			*[122021]<td />
+				*[122018]<p />
+					TEST_E2E_20260622_STORE_1830
+		*[122145]<tr id=eca69a97-1e36-5dfa-8496-44e1c51fd96b_Location />
+			*[122035]<td />
+				<svg /> <!-- SVG content collapsed -->
+				*[122030]<span />
+					*[122028]<span />
+						アイテムを選択する
+			*[122036]<td />
+				TEST_E2E_20260622_GU倉庫_ON_1830
+			*[122037]<td />
+				TEST_E2E_20260622_WH_1830
+		*[122146]<tr id=6dd32852-58dd-5f7a-a496-ea0c8bc03623_Location />
+			*[122051]<td />
+				*[122048]<div />
+					*[122045]<span />
+						*[122041]<span />
+						*[122039]<svg /> <!-- SVG content collapsed -->
+					*[122044]<span />
+						アイテムを選択する
+			*[122052]<td />
+				*[122049]<p />
+					TEST_E2E_20260622_GU店舗_OFF_1845
+			*[122053]<td />
+				*[122050]<p />
+					TEST_E2E_20260622_STORE_1845
+		*[122147]<tr id=6241e39d-9ed7-5004-9b1d-d2d3f280fa68_Location />
+			*[122067]<td />
+				*[122064]<div />
+					*[122061]<span />
+						*[122057]<span />
+						*[122055]<svg /> <!-- SVG content collapsed -->
+					*[122062]<span />
+						*[122060]<span />
+							アイテムを選択する
+			*[122068]<td />
+				*[122065]<p />
+					TEST_E2E_20260622_GU倉庫_ON_1845
+			*[122069]<td />
+				*[122066]<p />
+					TEST_E2E_20260622_WH_1845
+		*[122148]<tr id=4f100847-e242-5aaf-b97a-eb47683a7c95_Location />
+			*[122083]<td />
+				*[122080]<div />
+					*[122077]<span />
+						*[122073]<span />
+						*[122071]<svg /> <!-- SVG content collapsed -->
+					*[122078]<span />
+						*[122076]<span />
+							アイテムを選択する
+			*[122084]<td />
+				*[122081]<p />
+					TEST_E2E_20260622_GU店舗_OFF_1905
+			*[122085]<td />
+				*[122082]<p />
+					TEST_E2E_20260622_STORE_1905
+		*[122149]<tr id=d018dd79-47b6-5a93-a1bf-0e12cac23d3e_Location />
+			*[122099]<td />
+				*[122096]<div />
+					*[122093]<span />
+						*[122089]<span />
+						*[122087]<svg /> <!-- SVG content collapsed -->
+					*[122094]<span />
+						*[122092]<span />
+							アイテムを選択する
+			*[122100]<td />
+				*[122097]<p />
+					TEST_E2E_20260622_GU倉庫_ON_1905
+			*[122101]<td />
+				*[122098]<p />
+					TEST_E2E_20260622_WH_1905
+		*[122150]<tr id=295e5a69-c97b-53df-b947-1dc9f559d00d_Location />
+			*[122115]<td />
+				*[122112]<div />
+					*[122109]<span />
+						*[122105]<span />
+						*[122103]<svg /> <!-- SVG content collapsed -->
+					*[122110]<span />
+						*[122108]<span />
+							アイテムを選択する
+			*[122116]<td />
+				*[122113]<p />
+					TEST_FAQ_20260624_GU店舗_OFF_092214
+			*[122117]<td />
+				*[122114]<p />
+					TEST_FAQ_20260624_STORE_092214
+		*[122151]<tr id=b111b7e0-f00b-5823-a41f-2d345f56badc_Location />
+			*[122131]<td />
+				*[122128]<div />
+					*[122125]<span />
+						*[122121]<span />
+						*[122119]<svg /> <!-- SVG content collapsed -->
+					*[122126]<span />
+						*[122124]<span />
+							アイテムを選択する
+			*[122132]<td />
+				*[122129]<p />
+					TEST_FAQ_20260624_GU倉庫_ON_092214
+			*[122133]<td />
+				*[122130]<p />
+					TEST_FAQ_20260624_WH_092214
+		*[121692]<button id=previousURL aria-label=前へ disabled=true />
+		*[121697]<button id=nextURL aria-label=次へ disabled=true />
+	*[121712]<button />
+		キャンセル
+	*[121713]<button />
+		選択する
+*[121727]<div />

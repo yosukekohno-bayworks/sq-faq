@@ -1,14 +1,17 @@
-# 誃査記録（一次素材）
+# 調査記録（一次素材）
 
 SQアプリの調査一次記録置き場。FAQ執筆では、最新の実機確認ログと正本資料を優先する。
 
 ## 正本（優先順位順）
-1. `VERIFIED-FACTS-ONLY-2026-06-19.md` — FAQで断定してよい実機確定事実の台帳
-2. `CODEX-OPS-PLAYWRIGHT-VERIFICATION-2026-06-18.md` — 2026-06-18の実機操作ログ
-3. `CODEX-LEGACY-RECONCILIATION-2026-06-18.md` — 旧検証ログとの照合結果
-4. `LIVE-VERIFICATION-2026-06-19.md` — 実機検証ログ（ground truth）
-5. `FAQ-AUDIT-REPORT-2026-06-19.md` / `FAQ-AUDIT-FINDINGS-2026-06-19.json` — 監査レポート・生findings
-6. `REMAINING-CONFIRMATION-EXCEPTIONS-2026-06-19.md` — 残存未確認の例外台帳
+1. `live-option-impact-audit-2026-06-21/SUMMARY.md` / `scan-results.md` / `scan-results.json` — 2026-06-21の全ページ項目・選択肢スキャンと重点差分
+2. `INVENTORY-TRACKING-FLAG-2026-06-21.md` — 在庫追跡OFFの実効範囲
+3. `NOTION-WBS-AUDIT-2026-06-21.md` — Notion/WBS系資料の再監査
+4. `VERIFIED-FACTS-ONLY-2026-06-19.md` — FAQで断定してよい実機確定事実の台帳（2026-06-21監査で上書きされた項目あり）
+5. `CODEX-OPS-PLAYWRIGHT-VERIFICATION-2026-06-18.md` — 2026-06-18の実機操作ログ
+6. `CODEX-LEGACY-RECONCILIATION-2026-06-18.md` — 旧検証ログとの照合結果
+7. `LIVE-VERIFICATION-2026-06-19.md` — 実機検証ログ（ground truth）
+8. `FAQ-AUDIT-REPORT-2026-06-19.md` / `FAQ-AUDIT-FINDINGS-2026-06-19.json` — 監査レポート・生findings
+9. `REMAINING-CONFIRMATION-EXCEPTIONS-2026-06-19.md` — 残存未確認の例外台帳
 
 ## 計画・進行管理
 `KICKOFF-MEETING-2026-06-12.md` / `FAQ-PROJECT-2MONTH-GUIDELINE-2026-06-16.md` / `FAQ-PROJECT-DETAILED-WBS-2026-06-16.html` / `FAQ-PROJECT-WBS-25AREAS-2026-06-18.html` / `SQ-LEARNING-ROADMAP-AND-CUSTOMER-DIFF-2026-06-16.html`

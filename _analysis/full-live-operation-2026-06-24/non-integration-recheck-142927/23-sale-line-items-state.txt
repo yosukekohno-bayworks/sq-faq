@@ -1,0 +1,77 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[115285]<a />
+	コンテンツにスキップ
+[115392]<div />
+[115288]<button data-state=closed expanded=false />
+[115289]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[115409]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[115293]<a />
+		ホーム
+	[115294]<a />
+		商品管理
+	[115295]<a />
+		在庫管理
+	[115296]<a />
+		注文管理
+		[115460]<div />
+	[115297]<a />
+		顧客管理
+	[115298]<a />
+		発注管理
+	[115299]<a />
+		販売設定
+	[115300]<a />
+		会計
+	[115301]<a />
+		売上実績
+	[115222]<a />
+		分析
+	オペレーション
+	[115230]<a />
+		入荷管理
+		[115542]<div />
+	[115235]<a />
+		出荷管理
+		[115550]<div />
+	[115240]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[115246]<a />
+		ディスカウント
+	[115251]<a />
+		ポイント
+	[115256]<a />
+		会員ランク
+	販売チャネル
+	[115262]<a />
+		Shopify
+	[115266]<a />
+		OmnibusCore
+	[115270]<a />
+		スマレジ
+	[115274]<a />
+		リテールポータル
+	[115278]<a />
+		卸売
+	[115302]<a />
+		設定
+売上実績。このページの準備が整いました
+売上実績
+[115304]<button data-state=closed expanded=false />
+	エクスポート
+[115691]<a />
+	売上実績を作成する
+[115715]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+[115305]<button id=previousURL aria-label=前へ disabled=true />
+[115306]<button id=nextURL aria-label=次へ disabled=true />
+[115740]<section aria-label=Notifications alt+T live=polite />
+[115307]<div id=PolarisPortalsContainer />
+[115309]<div id=clerk-components />

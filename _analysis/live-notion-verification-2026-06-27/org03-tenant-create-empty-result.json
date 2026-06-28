@@ -1,0 +1,27 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/tenants/create",
+  "checkedAt": "2026-06-26T18:43:28.944Z",
+  "hasTenantNameError": false,
+  "bodyText": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nテナントを作成。このページの準備が整いました\n\nテナントを作成\nテナント名\nテナント名は様々なデータの紐付けに使われます。ブランド名など事業部を表現するわかりやすい名前を設定してください。\n保存する",
+  "buttons": [
+    {
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "ariaDisabled": null
+    },
+    {
+      "text": "保存する",
+      "disabled": false,
+      "ariaDisabled": "true"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "value": "",
+      "placeholder": "ブランド",
+      "disabled": false
+    }
+  ]
+}

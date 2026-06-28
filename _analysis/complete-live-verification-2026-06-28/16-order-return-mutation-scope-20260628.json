@@ -1,0 +1,374 @@
+{
+  "generatedAt": "2026-06-28T01:17:41.181389+00:00",
+  "mutations": [
+    {
+      "name": "orderRefundCreate",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderRefundCreateInput!",
+          "baseType": "OrderRefundCreateInput"
+        }
+      ]
+    },
+    {
+      "name": "orderReturnCreate",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderReturnCreateInput!",
+          "baseType": "OrderReturnCreateInput"
+        }
+      ]
+    },
+    {
+      "name": "orderReturnAddLineItems",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderReturnAddLineItemsInput!",
+          "baseType": "OrderReturnAddLineItemsInput"
+        }
+      ]
+    },
+    {
+      "name": "orderReturnRemoveLineItems",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderReturnRemoveLineItemsInput!",
+          "baseType": "OrderReturnRemoveLineItemsInput"
+        }
+      ]
+    },
+    {
+      "name": "orderReturnLineItemsRemovedQuantityUpdate",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderReturnLineItemsRemovedQuantityUpdateInput!",
+          "baseType": "OrderReturnLineItemsRemovedQuantityUpdateInput"
+        }
+      ]
+    },
+    {
+      "name": "orderReturnProcess",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderReturnProcessInput!",
+          "baseType": "OrderReturnProcessInput"
+        }
+      ]
+    },
+    {
+      "name": "orderReturnCancel",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderReturnCancelInput!",
+          "baseType": "OrderReturnCancelInput"
+        }
+      ]
+    },
+    {
+      "name": "orderReturnReceive",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderReturnReceiveInput!",
+          "baseType": "OrderReturnReceiveInput"
+        }
+      ]
+    },
+    {
+      "name": "orderReturnCreateExchangeInventoryOutboundOrder",
+      "args": [
+        {
+          "name": "input",
+          "type": "OrderReturnCreateExchangeInventoryOutboundOrderInput!",
+          "baseType": "OrderReturnCreateExchangeInventoryOutboundOrderInput"
+        }
+      ]
+    }
+  ],
+  "inputTypes": {
+    "OrderRefundCreateInput": [
+      {
+        "name": "orderID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "externalID",
+        "type": "String",
+        "baseType": "String"
+      },
+      {
+        "name": "orderRefundLineItems",
+        "type": "[OrderRefundLineItemInput!]!",
+        "baseType": "OrderRefundLineItemInput"
+      },
+      {
+        "name": "notifyCustomer",
+        "type": "Boolean!",
+        "baseType": "Boolean"
+      }
+    ],
+    "OrderReturnCreateInput": [
+      {
+        "name": "orderID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "orderReturnLineItems",
+        "type": "[OrderReturnLineItemCreateInput!]",
+        "baseType": "OrderReturnLineItemCreateInput"
+      },
+      {
+        "name": "exchangeInventoryLocationID",
+        "type": "ID",
+        "baseType": "ID"
+      },
+      {
+        "name": "externalID",
+        "type": "String",
+        "baseType": "String"
+      },
+      {
+        "name": "received",
+        "type": "Boolean!",
+        "baseType": "Boolean"
+      }
+    ],
+    "OrderReturnAddLineItemsInput": [
+      {
+        "name": "orderReturnID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "orderReturnLineItems",
+        "type": "[OrderReturnAddLineItemInput!]!",
+        "baseType": "OrderReturnAddLineItemInput"
+      }
+    ],
+    "OrderReturnRemoveLineItemsInput": [
+      {
+        "name": "orderReturnID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "orderReturnLineItemIDs",
+        "type": "[ID!]!",
+        "baseType": "ID"
+      }
+    ],
+    "OrderReturnLineItemsRemovedQuantityUpdateInput": [
+      {
+        "name": "orderReturnID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "orderReturnLineItems",
+        "type": "[OrderReturnLineItemRemovedQuantityUpdateInput!]",
+        "baseType": "OrderReturnLineItemRemovedQuantityUpdateInput"
+      }
+    ],
+    "OrderReturnProcessInput": [
+      {
+        "name": "orderReturnID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "refundLineItems",
+        "type": "[OrderReturnProcessRefundLineItemInput!]",
+        "baseType": "OrderReturnProcessRefundLineItemInput"
+      },
+      {
+        "name": "notifyCustomer",
+        "type": "Boolean!",
+        "baseType": "Boolean"
+      },
+      {
+        "name": "refundsShipping",
+        "type": "Boolean!",
+        "baseType": "Boolean"
+      },
+      {
+        "name": "restockInventoryLocationID",
+        "type": "ID",
+        "baseType": "ID"
+      }
+    ],
+    "OrderReturnCancelInput": [
+      {
+        "name": "orderReturnID",
+        "type": "ID!",
+        "baseType": "ID"
+      }
+    ],
+    "OrderReturnReceiveInput": [
+      {
+        "name": "orderReturnID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "orderReturnLineItems",
+        "type": "[OrderReturnLineItemReceiveInput!]",
+        "baseType": "OrderReturnLineItemReceiveInput"
+      }
+    ],
+    "OrderReturnCreateExchangeInventoryOutboundOrderInput": [
+      {
+        "name": "orderReturnID",
+        "type": "ID!",
+        "baseType": "ID"
+      }
+    ],
+    "OrderRefundLineItemInput": [
+      {
+        "name": "orderLineItemID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "quantity",
+        "type": "Int!",
+        "baseType": "Int"
+      },
+      {
+        "name": "price",
+        "type": "OrderRefundLineItemPriceInput",
+        "baseType": "OrderRefundLineItemPriceInput"
+      },
+      {
+        "name": "restock",
+        "type": "Boolean!",
+        "baseType": "Boolean"
+      }
+    ],
+    "OrderReturnLineItemCreateInput": [
+      {
+        "name": "externalID",
+        "type": "String",
+        "baseType": "String"
+      },
+      {
+        "name": "orderLineItemID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "quantity",
+        "type": "Int!",
+        "baseType": "Int"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "baseType": "String"
+      },
+      {
+        "name": "exchangeLineItem",
+        "type": "OrderReturnLineItemCreateExchangeLineItemInput",
+        "baseType": "OrderReturnLineItemCreateExchangeLineItemInput"
+      }
+    ],
+    "OrderReturnAddLineItemInput": [
+      {
+        "name": "orderLineItemID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "quantity",
+        "type": "Int!",
+        "baseType": "Int"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "baseType": "String"
+      }
+    ],
+    "OrderReturnLineItemRemovedQuantityUpdateInput": [
+      {
+        "name": "orderReturnLineItemID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "removedQuantity",
+        "type": "Int!",
+        "baseType": "Int"
+      }
+    ],
+    "OrderReturnProcessRefundLineItemInput": [
+      {
+        "name": "orderLineItemID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "refundedPrice",
+        "type": "MoneyInput!",
+        "baseType": "MoneyInput"
+      },
+      {
+        "name": "refundedTaxPrice",
+        "type": "MoneyInput!",
+        "baseType": "MoneyInput"
+      }
+    ],
+    "OrderReturnLineItemReceiveInput": [
+      {
+        "name": "orderReturnLineItemID",
+        "type": "ID!",
+        "baseType": "ID"
+      },
+      {
+        "name": "receivedQuantity",
+        "type": "Int!",
+        "baseType": "Int"
+      }
+    ],
+    "OrderRefundLineItemPriceInput": [
+      {
+        "name": "price",
+        "type": "MoneyInput!",
+        "baseType": "MoneyInput"
+      },
+      {
+        "name": "taxPrice",
+        "type": "MoneyInput!",
+        "baseType": "MoneyInput"
+      }
+    ],
+    "OrderReturnLineItemCreateExchangeLineItemInput": [
+      {
+        "name": "productVariantID",
+        "type": "ID!",
+        "baseType": "ID"
+      }
+    ],
+    "MoneyInput": [
+      {
+        "name": "amount",
+        "type": "Decimal!",
+        "baseType": "Decimal"
+      },
+      {
+        "name": "currencyCode",
+        "type": "CurrencyCode!",
+        "baseType": "CurrencyCode"
+      }
+    ]
+  },
+  "errors": []
+}

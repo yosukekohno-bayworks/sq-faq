@@ -1,0 +1,667 @@
+{
+  "generatedAt": "2026-06-27T22:21:28.291199+00:00",
+  "route": "/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+  "email": "sq-faq-omni-dupe-20260628072128@example.com",
+  "name": "FAQ Omnibus Dup 20260628072128",
+  "graphqlErrors": [
+    "エラーが発生しました。しばらくしてから再度お試しください"
+  ],
+  "nonGetResponses": [
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "initial": {
+    "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+    "h1": [
+      "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+    ],
+    "h2": [
+      "通知メール"
+    ],
+    "labels": [],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "通知メール",
+      "その他のビュー",
+      "追加する",
+      "前へ",
+      "次へ"
+    ],
+    "rows": [],
+    "targetEmailRowCount": 0,
+    "bodyIncludes": {
+      "empty": true,
+      "duplicateHint": false,
+      "duplicateLikelyError": false,
+      "targetEmail": false
+    },
+    "dialog": null,
+    "notifications": [
+      "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+    ]
+  },
+  "firstAdd": {
+    "beforeSubmit": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "h2": [
+        "通知メール",
+        "通知メールを追加する"
+      ],
+      "labels": [
+        "名前",
+        "メールアドレス"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "通知メール",
+        "その他のビュー",
+        "追加する",
+        "前へ",
+        "次へ",
+        "閉じる",
+        "キャンセル"
+      ],
+      "rows": [],
+      "targetEmailRowCount": 0,
+      "bodyIncludes": {
+        "empty": true,
+        "duplicateHint": true,
+        "duplicateLikelyError": true,
+        "targetEmail": false
+      },
+      "dialog": {
+        "title": [
+          "通知メールを追加する"
+        ],
+        "labels": [
+          "名前",
+          "メールアドレス"
+        ],
+        "buttons": [
+          "閉じる",
+          "キャンセル",
+          "追加する"
+        ],
+        "text": "通知メールを追加する 名前 メールアドレス 通知を受け取るメールアドレスを入力してください。メールアドレスは重複して登録できません。 キャンセル 追加する"
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ]
+    },
+    "afterFill": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "h2": [
+        "通知メール",
+        "通知メールを追加する"
+      ],
+      "labels": [
+        "名前",
+        "メールアドレス"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "通知メール",
+        "その他のビュー",
+        "追加する",
+        "前へ",
+        "次へ",
+        "閉じる",
+        "キャンセル"
+      ],
+      "rows": [],
+      "targetEmailRowCount": 0,
+      "bodyIncludes": {
+        "empty": true,
+        "duplicateHint": true,
+        "duplicateLikelyError": true,
+        "targetEmail": false
+      },
+      "dialog": {
+        "title": [
+          "通知メールを追加する"
+        ],
+        "labels": [
+          "名前",
+          "メールアドレス"
+        ],
+        "buttons": [
+          "閉じる",
+          "キャンセル",
+          "追加する"
+        ],
+        "text": "通知メールを追加する 名前 メールアドレス 通知を受け取るメールアドレスを入力してください。メールアドレスは重複して登録できません。 キャンセル 追加する"
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ]
+    },
+    "afterSubmit": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "h2": [
+        "通知メール"
+      ],
+      "labels": [
+        "すべてのアイテムを選択する",
+        "アイテムを選択する"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "通知メール",
+        "その他のビュー",
+        "追加する",
+        "前へ",
+        "次へ",
+        "Close toast"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 名前 メールアドレス 作成日時",
+        "アイテムを選択する FAQ Omnibus Dup 20260628072128 sq-faq-omni-dupe-20260628072128@example.com 2026年06月28日 07:21"
+      ],
+      "targetEmailRowCount": 1,
+      "bodyIncludes": {
+        "empty": false,
+        "duplicateHint": false,
+        "duplicateLikelyError": false,
+        "targetEmail": true
+      },
+      "dialog": null,
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ]
+    }
+  },
+  "secondAdd": {
+    "beforeSubmit": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "h2": [
+        "通知メール",
+        "通知メールを追加する"
+      ],
+      "labels": [
+        "すべてのアイテムを選択する",
+        "アイテムを選択する",
+        "名前",
+        "メールアドレス"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "通知メール",
+        "その他のビュー",
+        "追加する",
+        "前へ",
+        "次へ",
+        "Close toast",
+        "閉じる",
+        "キャンセル"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 名前 メールアドレス 作成日時",
+        "アイテムを選択する FAQ Omnibus Dup 20260628072128 sq-faq-omni-dupe-20260628072128@example.com 2026年06月28日 07:21"
+      ],
+      "targetEmailRowCount": 1,
+      "bodyIncludes": {
+        "empty": false,
+        "duplicateHint": true,
+        "duplicateLikelyError": true,
+        "targetEmail": true
+      },
+      "dialog": {
+        "title": [
+          "通知メールを追加する"
+        ],
+        "labels": [
+          "名前",
+          "メールアドレス"
+        ],
+        "buttons": [
+          "閉じる",
+          "キャンセル",
+          "追加する"
+        ],
+        "text": "通知メールを追加する 名前 メールアドレス 通知を受け取るメールアドレスを入力してください。メールアドレスは重複して登録できません。 キャンセル 追加する"
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ]
+    },
+    "afterFill": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "h2": [
+        "通知メール",
+        "通知メールを追加する"
+      ],
+      "labels": [
+        "すべてのアイテムを選択する",
+        "アイテムを選択する",
+        "名前",
+        "メールアドレス"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "通知メール",
+        "その他のビュー",
+        "追加する",
+        "前へ",
+        "次へ",
+        "Close toast",
+        "閉じる",
+        "キャンセル"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 名前 メールアドレス 作成日時",
+        "アイテムを選択する FAQ Omnibus Dup 20260628072128 sq-faq-omni-dupe-20260628072128@example.com 2026年06月28日 07:21"
+      ],
+      "targetEmailRowCount": 1,
+      "bodyIncludes": {
+        "empty": false,
+        "duplicateHint": true,
+        "duplicateLikelyError": true,
+        "targetEmail": true
+      },
+      "dialog": {
+        "title": [
+          "通知メールを追加する"
+        ],
+        "labels": [
+          "名前",
+          "メールアドレス"
+        ],
+        "buttons": [
+          "閉じる",
+          "キャンセル",
+          "追加する"
+        ],
+        "text": "通知メールを追加する 名前 メールアドレス 通知を受け取るメールアドレスを入力してください。メールアドレスは重複して登録できません。 キャンセル 追加する"
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ]
+    },
+    "afterSubmit": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "h2": [
+        "通知メール",
+        "通知メールを追加する"
+      ],
+      "labels": [
+        "すべてのアイテムを選択する",
+        "アイテムを選択する",
+        "名前",
+        "メールアドレス"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "通知メール",
+        "その他のビュー",
+        "追加する",
+        "前へ",
+        "次へ",
+        "閉じる",
+        "キャンセル"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 名前 メールアドレス 作成日時",
+        "アイテムを選択する FAQ Omnibus Dup 20260628072128 sq-faq-omni-dupe-20260628072128@example.com 2026年06月28日 07:21"
+      ],
+      "targetEmailRowCount": 1,
+      "bodyIncludes": {
+        "empty": false,
+        "duplicateHint": true,
+        "duplicateLikelyError": true,
+        "targetEmail": true
+      },
+      "dialog": {
+        "title": [
+          "通知メールを追加する"
+        ],
+        "labels": [
+          "名前",
+          "メールアドレス"
+        ],
+        "buttons": [
+          "閉じる",
+          "キャンセル",
+          "追加する"
+        ],
+        "text": "通知メールを追加する 名前 メールアドレス 通知を受け取るメールアドレスを入力してください。メールアドレスは重複して登録できません。 キャンセル 追加する"
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ]
+    }
+  },
+  "cleanup": [
+    {
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+        "h1": [
+          "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+        ],
+        "h2": [
+          "通知メール"
+        ],
+        "labels": [
+          "すべてのアイテムを選択する",
+          "アイテムを選択する"
+        ],
+        "buttons": [
+          "メニューを切り替える",
+          "stack-ps-yosuke 陽介 河野",
+          "メニューを閉じる",
+          "通知メール",
+          "その他のビュー",
+          "追加する",
+          "前へ",
+          "次へ"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス 作成日時",
+          "アイテムを選択する FAQ Omnibus Dup 20260628072128 sq-faq-omni-dupe-20260628072128@example.com 2026年06月28日 07:21"
+        ],
+        "targetEmailRowCount": 1,
+        "bodyIncludes": {
+          "empty": false,
+          "duplicateHint": false,
+          "duplicateLikelyError": false,
+          "targetEmail": true
+        },
+        "dialog": null,
+        "notifications": [
+          "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+        ]
+      },
+      "rowCheckboxClicked": true,
+      "selected": {
+        "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+        "h1": [
+          "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+        ],
+        "h2": [
+          "通知メール"
+        ],
+        "labels": [
+          "すべてのアイテムを選択する",
+          "アイテムの選択を解除する",
+          "アイテムを選択する"
+        ],
+        "buttons": [
+          "メニューを切り替える",
+          "stack-ps-yosuke 陽介 河野",
+          "メニューを閉じる",
+          "通知メール",
+          "その他のビュー",
+          "追加する",
+          "削除する",
+          "その他の操作",
+          "前へ",
+          "次へ"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス 作成日時",
+          "アイテムを選択する FAQ Omnibus Dup 20260628072128 sq-faq-omni-dupe-20260628072128@example.com 2026年06月28日 07:21"
+        ],
+        "targetEmailRowCount": 1,
+        "bodyIncludes": {
+          "empty": false,
+          "duplicateHint": false,
+          "duplicateLikelyError": false,
+          "targetEmail": true
+        },
+        "dialog": null,
+        "notifications": [
+          "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+        ]
+      },
+      "deleteActionClicked": true,
+      "afterDeleteClick": {
+        "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+        "h1": [
+          "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+        ],
+        "h2": [
+          "通知メール",
+          "通知メールを削除する"
+        ],
+        "labels": [
+          "すべてのアイテムを選択する",
+          "アイテムの選択を解除する",
+          "アイテムを選択する"
+        ],
+        "buttons": [
+          "メニューを切り替える",
+          "stack-ps-yosuke 陽介 河野",
+          "メニューを閉じる",
+          "通知メール",
+          "その他のビュー",
+          "追加する",
+          "削除する",
+          "その他の操作",
+          "前へ",
+          "次へ",
+          "閉じる",
+          "キャンセル"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス 作成日時",
+          "アイテムを選択する FAQ Omnibus Dup 20260628072128 sq-faq-omni-dupe-20260628072128@example.com 2026年06月28日 07:21"
+        ],
+        "targetEmailRowCount": 1,
+        "bodyIncludes": {
+          "empty": false,
+          "duplicateHint": false,
+          "duplicateLikelyError": false,
+          "targetEmail": true
+        },
+        "dialog": {
+          "title": [
+            "通知メールを削除する"
+          ],
+          "labels": [],
+          "buttons": [
+            "閉じる",
+            "キャンセル",
+            "削除する"
+          ],
+          "text": "通知メールを削除する 選択された1件の通知メールを削除します。この処理は巻き戻すことができません。 キャンセル 削除する"
+        },
+        "notifications": [
+          "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+        ]
+      },
+      "confirmed": true,
+      "afterConfirm": {
+        "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+        "h1": [
+          "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+        ],
+        "h2": [
+          "通知メール"
+        ],
+        "labels": [
+          "すべてのアイテムを選択する",
+          "アイテムを選択する"
+        ],
+        "buttons": [
+          "メニューを切り替える",
+          "stack-ps-yosuke 陽介 河野",
+          "メニューを閉じる",
+          "通知メール",
+          "その他のビュー",
+          "追加する",
+          "前へ",
+          "次へ",
+          "Close toast"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス 作成日時",
+          "アイテムを選択する FAQ Omnibus Dup 20260628072128 sq-faq-omni-dupe-20260628072128@example.com 2026年06月28日 07:21"
+        ],
+        "targetEmailRowCount": 1,
+        "bodyIncludes": {
+          "empty": false,
+          "duplicateHint": false,
+          "duplicateLikelyError": false,
+          "targetEmail": true
+        },
+        "dialog": null,
+        "notifications": [
+          "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+        ]
+      }
+    }
+  ],
+  "final": {
+    "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration/notification_emails",
+    "h1": [
+      "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+    ],
+    "h2": [
+      "通知メール"
+    ],
+    "labels": [],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "通知メール",
+      "その他のビュー",
+      "追加する",
+      "前へ",
+      "次へ"
+    ],
+    "rows": [],
+    "targetEmailRowCount": 0,
+    "bodyIncludes": {
+      "empty": true,
+      "duplicateHint": false,
+      "duplicateLikelyError": false,
+      "targetEmail": false
+    },
+    "dialog": null,
+    "notifications": [
+      "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+    ]
+  },
+  "facts": {
+    "initialEmpty": true,
+    "firstAddListed": true,
+    "duplicateRowCountAfterSecondAdd": 1,
+    "duplicateHintVisibleAfterSecondAdd": true,
+    "graphqlErrors": [
+      "エラーが発生しました。しばらくしてから再度お試しください"
+    ],
+    "cleanupComplete": true,
+    "errors": []
+  }
+}

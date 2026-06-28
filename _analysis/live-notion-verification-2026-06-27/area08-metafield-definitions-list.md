@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]
+            - listitem [ref=e49]
+            - listitem [ref=e58]
+            - listitem [ref=e67]
+            - listitem [ref=e76]
+            - listitem [ref=e86]
+            - listitem [ref=e96]
+            - listitem [ref=e108]
+            - listitem [ref=e117]
+          - list [ref=e119]:
+            - listitem [ref=e120]
+            - listitem [ref=e122]
+            - listitem [ref=e133]
+            - listitem [ref=e142]
+          - list [ref=e152]:
+            - listitem [ref=e153]
+            - listitem [ref=e155]
+            - listitem [ref=e164]
+            - listitem [ref=e173]
+          - list [ref=e183]:
+            - listitem [ref=e184]
+            - listitem [ref=e186]
+            - listitem [ref=e191]
+            - listitem [ref=e196]
+            - listitem [ref=e201]
+            - listitem [ref=e206]
+          - list [ref=e208]:
+            - listitem [ref=e209]
+    - main [ref=e218]:
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - status:
+            - paragraph [ref=e223]: メタフィールド定義。このページの準備が整いました
+          - generic [ref=e225]:
+            - link [ref=e228] [cursor=pointer]:
+              - /url: /admin/settings
+            - heading "メタフィールド定義" [level=1] [ref=e235]
+        - generic [ref=e239]:
+          - menu [ref=e245]:
+            - menuitem "組織" [ref=e247] [cursor=pointer]
+            - menuitem "ロケーション" [ref=e257] [cursor=pointer]
+            - menuitem "会社" [ref=e267] [cursor=pointer]
+            - menuitem "仕入れ先ベンダー" [ref=e277] [cursor=pointer]
+            - menuitem "商品" [ref=e288] [cursor=pointer]
+            - menuitem "バリエーション" [ref=e298] [cursor=pointer]
+            - menuitem "顧客" [ref=e308] [cursor=pointer]
+            - menuitem "注文" [ref=e319] [cursor=pointer]
+            - menuitem "下書き注文" [ref=e329] [cursor=pointer]
+            - menuitem "ディスカウント" [ref=e341] [cursor=pointer]
+            - menuitem "在庫移動伝票" [ref=e351] [cursor=pointer]
+            - menuitem "在庫調整伝票" [ref=e361] [cursor=pointer]
+            - menuitem "在庫取置伝票" [ref=e372] [cursor=pointer]
+            - menuitem "発注伝票" [ref=e385] [cursor=pointer]
+            - menuitem "入荷指示" [ref=e396] [cursor=pointer]
+            - menuitem "出荷指示" [ref=e408] [cursor=pointer]
+          - generic [ref=e418]:
+            - generic [ref=e420]
+            - separator [ref=e424]
+            - generic [ref=e428]
+  - region "Notifications alt+T"
+  - alert [ref=e10]

@@ -1,0 +1,468 @@
+{
+  "generatedAt": "2026-06-27T22:07:10.314523+00:00",
+  "detailRoute": "/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+  "errors": [],
+  "expiryValidation": {
+    "before": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "トークンを作成",
+        "削除する",
+        "保存する"
+      ],
+      "tokenArea": {
+        "missingTextVisible": true,
+        "createButtonVisible": true,
+        "longSecretLikeTextPresent": false
+      },
+      "expiry": {
+        "value": "1",
+        "errorTextVisible": false
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ],
+      "dialog": null
+    },
+    "originalValue": "1",
+    "afterBlank": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "取り消す",
+        "保存",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "トークンを作成",
+        "削除する",
+        "保存する"
+      ],
+      "tokenArea": {
+        "missingTextVisible": true,
+        "createButtonVisible": true,
+        "longSecretLikeTextPresent": false
+      },
+      "expiry": {
+        "value": "",
+        "errorTextVisible": false
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ],
+      "dialog": null
+    },
+    "saveEnabledAfterBlank": true,
+    "afterBlankSave": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "取り消す",
+        "保存",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "トークンを作成",
+        "削除する",
+        "保存する"
+      ],
+      "tokenArea": {
+        "missingTextVisible": true,
+        "createButtonVisible": true,
+        "longSecretLikeTextPresent": false
+      },
+      "expiry": {
+        "value": "",
+        "errorTextVisible": true
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ],
+      "dialog": null
+    },
+    "saveEnabledAfterRestore": false,
+    "afterRestoreReload": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "トークンを作成",
+        "削除する",
+        "保存する"
+      ],
+      "tokenArea": {
+        "missingTextVisible": true,
+        "createButtonVisible": true,
+        "longSecretLikeTextPresent": false
+      },
+      "expiry": {
+        "value": "",
+        "errorTextVisible": false
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ],
+      "dialog": null
+    }
+  },
+  "tokenCreation": {
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/api/graphql"
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql"
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql"
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql"
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql"
+      }
+    ],
+    "responses": [
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      }
+    ],
+    "before": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "トークンを作成",
+        "削除する",
+        "保存する"
+      ],
+      "tokenArea": {
+        "missingTextVisible": true,
+        "createButtonVisible": true,
+        "longSecretLikeTextPresent": false
+      },
+      "expiry": {
+        "value": "",
+        "errorTextVisible": false
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ],
+      "dialog": null
+    },
+    "afterFirstClick": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "トークンを作成",
+        "削除する",
+        "保存する",
+        "閉じる",
+        "キャンセル",
+        "作成する"
+      ],
+      "tokenArea": {
+        "missingTextVisible": true,
+        "createButtonVisible": true,
+        "longSecretLikeTextPresent": false
+      },
+      "expiry": {
+        "value": "",
+        "errorTextVisible": false
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ],
+      "dialog": {
+        "title": [
+          "アクセストークンを作成する"
+        ],
+        "buttons": [
+          "閉じる",
+          "キャンセル",
+          "作成する"
+        ],
+        "hasBody": true
+      }
+    },
+    "dialogBeforeConfirm": {
+      "title": [
+        "アクセストークンを作成する"
+      ],
+      "buttons": [
+        "閉じる",
+        "キャンセル",
+        "作成する"
+      ],
+      "hasBody": true
+    },
+    "afterDialogConfirm": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中",
+        "アクセストークン"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "削除",
+        "トークンを作成",
+        "削除する",
+        "保存する",
+        "Close toast",
+        "閉じる"
+      ],
+      "tokenArea": {
+        "missingTextVisible": false,
+        "createButtonVisible": true,
+        "longSecretLikeTextPresent": false
+      },
+      "expiry": {
+        "value": "",
+        "errorTextVisible": false
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ],
+      "dialog": {
+        "title": [
+          "アクセストークンを作成する"
+        ],
+        "buttons": [
+          "閉じる"
+        ],
+        "hasBody": true
+      }
+    },
+    "after": {
+      "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+      "h1": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)"
+      ],
+      "labels": [
+        "カタログ",
+        "カラーオプション名",
+        "サイズオプション名",
+        "ロケーショングループ",
+        "在庫予約ルール",
+        "販売上限ルール",
+        "下書き注文の有効期限日数",
+        "出荷待ち",
+        "保留中",
+        "アクセストークン"
+      ],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "基本設定",
+        "その他のビュー",
+        "オプションを追加",
+        "削除",
+        "トークンを作成",
+        "削除する",
+        "保存する",
+        "Close toast",
+        "閉じる"
+      ],
+      "tokenArea": {
+        "missingTextVisible": false,
+        "createButtonVisible": true,
+        "longSecretLikeTextPresent": false
+      },
+      "expiry": {
+        "value": "",
+        "errorTextVisible": false
+      },
+      "notifications": [
+        "OmnibusCore連携 (TEST_FAQ_20260624_OmnibusCore_100908)。このページの準備が整いました"
+      ],
+      "dialog": {
+        "title": [
+          "アクセストークンを作成する"
+        ],
+        "buttons": [
+          "閉じる"
+        ],
+        "hasBody": true
+      }
+    }
+  },
+  "facts": {
+    "expirySaveEnabledAfterBlank": true,
+    "expiryErrorVisibleAfterBlankSave": true,
+    "expiryValueAfterRestoreReload": "1",
+    "tokenMissingBefore": true,
+    "tokenMissingAfter": false,
+    "tokenCreateButtonAfter": true,
+    "longSecretLikeTextPresentAfter": false,
+    "tokenNonGetResponses": [
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      }
+    ],
+    "errors": []
+  }
+}

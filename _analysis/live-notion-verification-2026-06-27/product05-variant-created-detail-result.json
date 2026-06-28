@@ -1,0 +1,90 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/products/fd8966cc-6151-54c1-a169-5021a96c5676_Product/variants/dc1266c3-2301-543f-a91e-0af566bc2cd2_ProductVariant",
+  "h1": null,
+  "hasInventoryLink": true,
+  "inventoryLink": {
+    "text": "在庫管理",
+    "href": "https://www.sqstackstaging.com/admin/inventory_items"
+  },
+  "variantCountText": "1件のバリエーション",
+  "hasCostSection": true,
+  "hasUPC": true,
+  "hasUpdateButton": true,
+  "inputs": [
+    {
+      "id": ":r36:",
+      "type": "SELECT",
+      "label": "",
+      "value": "M"
+    },
+    {
+      "id": ":r37:",
+      "type": "number",
+      "label": "上代 / ￥",
+      "value": "1000",
+      "checked": false
+    },
+    {
+      "id": ":r39:",
+      "type": "text",
+      "label": "SKU (最小管理単位)",
+      "value": "TEST_NOTION_20260627_SKU_0447",
+      "checked": false
+    },
+    {
+      "id": ":r3a:",
+      "type": "text",
+      "label": "メーカーSKU",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r3b:",
+      "type": "checkbox",
+      "label": "",
+      "value": "on",
+      "checked": false
+    },
+    {
+      "id": ":r3c:",
+      "type": "checkbox",
+      "label": "",
+      "value": "on",
+      "checked": false
+    },
+    {
+      "id": ":r3e:",
+      "type": "text",
+      "label": "JAN",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r3f:",
+      "type": "text",
+      "label": "EAN",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r3g:",
+      "type": "text",
+      "label": "UPC",
+      "value": "",
+      "checked": false
+    },
+    {
+      "id": ":r3j:",
+      "type": "SELECT",
+      "label": "",
+      "value": "KILOGRAMS"
+    },
+    {
+      "id": ":r3k:",
+      "type": "checkbox",
+      "label": "",
+      "value": "on",
+      "checked": true
+    }
+  ]
+}

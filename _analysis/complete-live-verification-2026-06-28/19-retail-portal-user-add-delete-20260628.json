@@ -1,0 +1,3201 @@
+{
+  "generatedAt": "2026-06-27T20:27:41.620387+00:00",
+  "detailRoute": "/admin/retail_portal_integrations/65104d5a-e12a-5c06-9716-48bf6cf4a67d_RetailPortalIntegration",
+  "email": "sq-faq-retail-20260627202741@example.com",
+  "steps": {
+    "createUser": {
+      "email": "sq-faq-retail-20260627202741@example.com",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/users/create",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ユーザーを追加する。このページの準備が整いました ユーザーを追加する 基本情報 姓 名 メールアドレス 権限 権限グループ 特権管理者 TEST_権限検証_20260620 保存する",
+        "rows": [],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/settings/users",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "保存する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "false",
+            "ariaLabel": null
+          }
+        ]
+      },
+      "beforeSave": {
+        "url": "https://www.sqstackstaging.com/admin/settings/users/create",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 ユーザーを追加する。このページの準備が整いました ユーザーを追加する 基本情報 姓 名 メールアドレス 権限 権限グループ 特権管理者 TEST_権限検証_20260620 保存する",
+        "rows": [],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/settings/users",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "保存する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "false",
+            "ariaLabel": null
+          }
+        ]
+      },
+      "afterSave": {
+        "url": "https://www.sqstackstaging.com/admin/settings/users/user_3Fjcl6iwMT9T09zvBZnqBGZ0O0B",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQリテールUser202741。このページの準備が整いました FAQリテールUser202741 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 未設定 保存する 適用されている権限一覧: 0件 ユーザーを組織から除外 組織から除外する",
+        "rows": [],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/settings/users",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "保存する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "false",
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "保存する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "false",
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "保存する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "false",
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "組織から除外する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          }
+        ]
+      },
+      "created": true,
+      "userRoute": "/admin/settings/users/user_3Fjcl6iwMT9T09zvBZnqBGZ0O0B"
+    },
+    "addToRetailPortal": {
+      "email": "sq-faq-retail-20260627202741@example.com",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/65104d5a-e12a-5c06-9716-48bf6cf4a67d_RetailPortalIntegration",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定 ユニクロ - 銀座店。このページの準備が整いました ユニクロ - 銀座店 成功 有効 編集する ユーザーを追加する すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com",
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス",
+          "アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com"
+        ],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "店舗受取",
+            "href": "/admin/local_pickup_retail_location_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "その他の操作",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "ユーザーを追加する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "前へ"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "次へ"
+          }
+        ]
+      },
+      "dialogInitial": "ユーザーを選択する メールアドレスで検索する アイテムを読み込んでいます... アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください キャンセル 選択する",
+      "dialogAfterSearch": "ユーザーを選択する メールアドレスで検索する クリア すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com キャンセル 選択する",
+      "selected": {
+        "found": true,
+        "row": "アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com",
+        "checkbox": true
+      },
+      "selectButton": "選択する",
+      "afterAdd": {
+        "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/65104d5a-e12a-5c06-9716-48bf6cf4a67d_RetailPortalIntegration",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定 ユニクロ - 銀座店。このページの準備が整いました ユニクロ - 銀座店 成功 有効 編集する ユーザーを追加する すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com",
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス",
+          "アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com",
+          "アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com"
+        ],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "店舗受取",
+            "href": "/admin/local_pickup_retail_location_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "その他の操作",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "ユーザーを追加する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "前へ"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "次へ"
+          }
+        ]
+      },
+      "screenshot": "_analysis/complete-live-verification-2026-06-28/19-retail-portal-user-after-add-20260628.png"
+    },
+    "deleteFromRetailPortal": {
+      "email": "sq-faq-retail-20260627202741@example.com",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/65104d5a-e12a-5c06-9716-48bf6cf4a67d_RetailPortalIntegration",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定 ユニクロ - 銀座店。このページの準備が整いました ユニクロ - 銀座店 成功 有効 編集する ユーザーを追加する すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com",
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス",
+          "アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com",
+          "アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com"
+        ],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "店舗受取",
+            "href": "/admin/local_pickup_retail_location_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "その他の操作",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "ユーザーを追加する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "前へ"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "次へ"
+          }
+        ]
+      },
+      "selected": {
+        "found": true,
+        "row": "アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com",
+        "checkbox": true
+      },
+      "afterSelect": {
+        "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/65104d5a-e12a-5c06-9716-48bf6cf4a67d_RetailPortalIntegration",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定 ユニクロ - 銀座店。このページの準備が整いました ユニクロ - 銀座店 成功 有効 編集する ユーザーを追加する すべての2のアイテムを選択する 1を選択済み 削除する すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com",
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス",
+          "アイテムを選択する FAQリテールUser202741 sq-faq-retail-20260627202741@example.com",
+          "アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com"
+        ],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "店舗受取",
+            "href": "/admin/local_pickup_retail_location_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "その他の操作",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "ユーザーを追加する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "削除する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "その他の操作"
+          },
+          {
+            "tag": "button",
+            "text": "削除する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "前へ"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "次へ"
+          }
+        ]
+      },
+      "dialog": "リテールポータルからユーザーを削除しますか？ 選択している1件のユーザーを削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+      "confirmButton": "削除する",
+      "afterDelete": {
+        "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations/65104d5a-e12a-5c06-9716-48bf6cf4a67d_RetailPortalIntegration",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 店舗受取 卸売 設定 ユニクロ - 銀座店。このページの準備が整いました ユニクロ - 銀座店 成功 有効 編集する ユーザーを追加する すべてのアイテムを選択する 名前 メールアドレス アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com",
+        "rows": [
+          "すべてのアイテムを選択する 名前 メールアドレス",
+          "アイテムを選択する 河野陽介 yosuke.kohno@bay-works.com"
+        ],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "店舗受取",
+            "href": "/admin/local_pickup_retail_location_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "その他の操作",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "編集する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "ユーザーを追加する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "前へ"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "次へ"
+          }
+        ]
+      },
+      "screenshot": "_analysis/complete-live-verification-2026-06-28/19-retail-portal-user-after-delete-20260628.png"
+    },
+    "excludeUser": {
+      "userRoute": "/admin/settings/users/user_3Fjcl6iwMT9T09zvBZnqBGZ0O0B",
+      "before": {
+        "url": "https://www.sqstackstaging.com/admin/settings/users/user_3Fjcl6iwMT9T09zvBZnqBGZ0O0B",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQリテールUser202741。このページの準備が整いました FAQリテールUser202741 基本情報 姓 名 メールアドレス 保存する ユーザーテナント ユーザーテナント ユニクロ TEST_FAQ_COVERAGE_20260615_テナント_EDIT テストテナント TEST_FAQ_20260624_TENANT_170037 保存する 権限 権限グループ 未設定 特権管理者 TEST_権限検証_20260620 未設定 保存する 適用されている権限一覧: 0件 ユーザーを組織から除外 組織から除外する",
+        "rows": [],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/settings/users",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "保存する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "false",
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "保存する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "false",
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "保存する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "false",
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "組織から除外する",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          }
+        ]
+      },
+      "dialog": "ユーザーを組織から除外しますか？ ユーザーを組織から除外します。この処理は巻き戻すことができません。 キャンセル 除外する",
+      "confirmButton": "除外する",
+      "after": {
+        "url": "https://www.sqstackstaging.com/admin/settings/users",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する 絞り込みを追加 名前 メールアドレス 権限グループ サポートアカウントStack erp.delivery.admin@stack.inc 特権管理者 福田涼介 yz@stack.inc 特権管理者 菅野将貴 sugano@stack.inc 特権管理者 河野陽介 yosuke.kohno@bay-works.com 特権管理者 権限テスト you.4235@gmail.com TEST_権限検証_20260620 ユーザーを組織から除外しました",
+        "rows": [
+          "名前 メールアドレス 権限グループ",
+          "サポートアカウントStack erp.delivery.admin@stack.inc 特権管理者",
+          "福田涼介 yz@stack.inc 特権管理者",
+          "菅野将貴 sugano@stack.inc 特権管理者",
+          "河野陽介 yosuke.kohno@bay-works.com 特権管理者",
+          "権限テスト you.4235@gmail.com TEST_権限検証_20260620"
+        ],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "権限グループ一覧",
+            "href": "/admin/settings/permission_groups",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "インポート",
+            "href": "/admin/csv_import/csv_import_operation_users",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "その他の操作",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "権限グループ一覧",
+            "href": "/admin/settings/permission_groups",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "インポート",
+            "href": "/admin/csv_import/csv_import_operation_users",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "追加する",
+            "href": "/admin/settings/users/create",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "絞り込みを追加",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "絞り込みを追加"
+          },
+          {
+            "tag": "a",
+            "text": "サポートアカウントStack",
+            "href": "/admin/settings/users/user_358DNqj6iJtcvMhxAwTLlCzyGWU",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "福田涼介",
+            "href": "/admin/settings/users/user_35E68KNK1pCOobD4ZwdoaHsnNo0",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "菅野将貴",
+            "href": "/admin/settings/users/user_3CbpZwl1x5ohfuyFmuv1t8VQXyo",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "河野陽介",
+            "href": "/admin/settings/users/user_3Dz5ZnyYjoaDwlnz2ffJE7NZTGb",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "権限テスト",
+            "href": "/admin/settings/users/user_3FOeZAow9g1pTX8HYyjifwXk4re",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "前へ"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "次へ"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "Close toast"
+          }
+        ]
+      },
+      "listAfterExclude": {
+        "url": "https://www.sqstackstaging.com/admin/settings/users?query=sq-faq-retail-20260627202741@example.com",
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 管理メンバー。このページの準備が整いました 管理メンバー 権限グループ一覧 インポート 追加する キーワードで検索する クリア 絞り込みを追加 アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください",
+        "rows": [],
+        "buttons": [
+          {
+            "tag": "a",
+            "text": "コンテンツにスキップ",
+            "href": "#AppFrameMain",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを切り替える"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "stack-ps-yosuke 陽介 河野",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ホーム",
+            "href": "/admin",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "商品管理",
+            "href": "/admin/products",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫管理",
+            "href": "/admin/inventory_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "注文管理",
+            "href": "/admin/orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "顧客管理",
+            "href": "/admin/purchasing_customers",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "発注管理",
+            "href": "/admin/inventory_purchase_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "販売設定",
+            "href": "/admin/product_price_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会計",
+            "href": "/admin/sale_change_line_items",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "分析",
+            "href": "/admin/analytics",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "入荷管理",
+            "href": "/admin/inventory_inbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "出荷管理",
+            "href": "/admin/inventory_outbound_orders",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "在庫依頼 未完了の在庫依頼 3件 3",
+            "href": "/admin/inventory_allocation_requests",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ディスカウント",
+            "href": "/admin/order_price_adjustment_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "ポイント",
+            "href": "/admin/point_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "会員ランク",
+            "href": "/admin/customer_rank_calculation_rules",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "Shopify",
+            "href": "/admin/shopify_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "OmnibusCore",
+            "href": "/admin/omnibus_core_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "スマレジ",
+            "href": "/admin/smaregi_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "リテールポータル",
+            "href": "/admin/retail_portal_integrations",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "卸売",
+            "href": "/admin/b2b",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "設定",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "メニューを閉じる"
+          },
+          {
+            "tag": "a",
+            "text": "",
+            "href": "/admin/settings",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "権限グループ一覧",
+            "href": "/admin/settings/permission_groups",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "インポート",
+            "href": "/admin/csv_import/csv_import_operation_users",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "その他の操作",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "権限グループ一覧",
+            "href": "/admin/settings/permission_groups",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "インポート",
+            "href": "/admin/csv_import/csv_import_operation_users",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "a",
+            "text": "追加する",
+            "href": "/admin/settings/users/create",
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "クリア",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": null
+          },
+          {
+            "tag": "button",
+            "text": "絞り込みを追加",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": null,
+            "ariaLabel": "絞り込みを追加"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "前へ"
+          },
+          {
+            "tag": "button",
+            "text": "",
+            "href": null,
+            "disabled": false,
+            "ariaDisabled": "true",
+            "ariaLabel": "次へ"
+          }
+        ]
+      }
+    }
+  },
+  "errors": [],
+  "facts": {
+    "email": "sq-faq-retail-20260627202741@example.com",
+    "userCreated": true,
+    "addDialogFoundUser": true,
+    "addedListContainsEmail": true,
+    "deleteDialog": "リテールポータルからユーザーを削除しますか？ 選択している1件のユーザーを削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+    "deletedListContainsEmail": false,
+    "userExcluded": true,
+    "errors": []
+  }
+}

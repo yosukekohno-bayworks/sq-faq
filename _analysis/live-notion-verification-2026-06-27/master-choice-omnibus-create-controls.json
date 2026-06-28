@@ -1,0 +1,286 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/create",
+  "h1": "OmnibusCore連携を作成する",
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": "メニューを切り替える",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "stack-ps-yosuke\n\n陽介 河野 / stack-ps-yosuke / 陽介 河野",
+      "aria": null,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "ホーム / ホーム / 商品管理",
+      "aria": "メニューを閉じる",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 4,
+      "tag": "SELECT",
+      "type": null,
+      "label": "テナント",
+      "aria": null,
+      "text": "選択してください\nユニクロ\nTEST_FAQ_COVERAGE_20260615_テナント_EDIT\nテストテナント\nTEST_FAQ_20260624_TENANT_170037",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "ユニクロ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_COVERAGE_20260615_テナント_EDIT",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "テストテナント",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_TENANT_170037",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "メーカーコード",
+      "aria": null,
+      "text": "",
+      "placeholder": "メーカーコードを入力してください",
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 6,
+      "tag": "SELECT",
+      "type": null,
+      "label": "カタログ",
+      "aria": null,
+      "text": "選択してください\nTEST_FAQ_カタログ001\nUNIQLO",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "TEST_FAQ_カタログ001",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "UNIQLO",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "カラーオプション名",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 8,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "オプションを追加",
+      "aria": null,
+      "text": "オプションを追加",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 9,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "サイズオプション名",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 10,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "オプションを追加",
+      "aria": null,
+      "text": "オプションを追加",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    },
+    {
+      "i": 11,
+      "tag": "SELECT",
+      "type": null,
+      "label": "ロケーショングループ",
+      "aria": null,
+      "text": "選択してください\nGU グループ\nユニクログループ\nTEST_FAQ_20260624_LG_171810",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "GU グループ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "ユニクログループ",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_LG_171810",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "tag": "SELECT",
+      "type": null,
+      "label": "在庫予約ルール",
+      "aria": null,
+      "text": "選択してください\nTEST_FAQ_予約販売ルール\nTEST_FAQ_予約販売ルール_遷移確認_20260607\nTEST_FAQ_DEEP_202606080340_予約販売ルール\nTEST_FAQ_20260624_予約販売_100908",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        },
+        {
+          "text": "TEST_FAQ_予約販売ルール",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_予約販売ルール_遷移確認_20260607",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_DEEP_202606080340_予約販売ルール",
+          "disabled": false,
+          "selected": false
+        },
+        {
+          "text": "TEST_FAQ_20260624_予約販売_100908",
+          "disabled": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "tag": "SELECT",
+      "type": null,
+      "label": "販売上限ルール",
+      "aria": null,
+      "text": "選択してください",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": "",
+      "options": [
+        {
+          "text": "選択してください",
+          "disabled": true,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "tag": "INPUT",
+      "type": "number",
+      "label": "下書き注文の有効期限日数",
+      "aria": null,
+      "text": "",
+      "placeholder": "30",
+      "disabled": false,
+      "required": false,
+      "value": "30"
+    },
+    {
+      "i": 15,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "保存する",
+      "aria": null,
+      "text": "保存する",
+      "placeholder": null,
+      "disabled": false,
+      "required": false,
+      "value": ""
+    }
+  ]
+}

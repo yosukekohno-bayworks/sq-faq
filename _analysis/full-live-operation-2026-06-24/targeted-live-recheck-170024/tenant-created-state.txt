@@ -1,0 +1,108 @@
+viewport: 1209x785
+page: 1209x905
+scroll: (0, 0)
+[117612]<a />
+	コンテンツにスキップ
+[117714]<div />
+[117615]<button data-state=closed expanded=false />
+[117616]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[117731]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[117620]<a />
+		ホーム
+	[117621]<a />
+		商品管理
+	[117622]<a />
+		在庫管理
+	[117623]<a />
+		注文管理
+		[117782]<div />
+	[117624]<a />
+		顧客管理
+	[117625]<a />
+		発注管理
+	[117626]<a />
+		販売設定
+	[117627]<a />
+		会計
+	[117628]<a />
+		分析
+	オペレーション
+	[117629]<a />
+		入荷管理
+		[117866]<div />
+	[117630]<a />
+		出荷管理
+		[117877]<div />
+	[117631]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[117632]<a />
+		ディスカウント
+	[117633]<a />
+		ポイント
+	[117634]<a />
+		会員ランク
+	販売チャネル
+	[117635]<a />
+		Shopify
+	[117636]<a />
+		OmnibusCore
+	[117637]<a />
+		スマレジ
+	[117638]<a />
+		リテールポータル
+	[117639]<a />
+		卸売
+	[117640]<a />
+		設定
+TEST_FAQ_20260624_TENANT_170037。このページの準備が整いました
+*[118192]<div />
+	*[118188]<div />
+		*[118187]<a />
+TEST_FAQ_20260624_TENANT_170037
+基本情報
+*[118239]<hr />
+テナントID
+f6262fd1-2406-5716-9cb5-cad1137b403c_Tenant
+*[118204]<button aria-label=テナントIDをコピーする />
+テナント名
+|SHADOW(open)|*[118212]<input id=:r1d: placeholder=NIKE Japan autocomplete=off type=text value=TEST_FAQ_20260624_TENANT_170037 required=true />
+注文IDプレフィックス
+|SHADOW(open)|*[118224]<input id=:r1e: placeholder=# autocomplete=off type=text value=# required=true />
+注文を識別するために、注文ページやお客様ページに表示されます。
+CRM
+*[118373]<hr />
+ポイントルール
+ポイントルールを選択してください
+*[118264]<span />
+	*[118262]<span />
+		*[118261]<svg /> <!-- SVG content collapsed -->
+ランクルール
+ランクルールを選択してください
+*[118298]<span />
+	*[118296]<span />
+		*[118295]<svg /> <!-- SVG content collapsed -->
+誕生日ポイント付与ルール
+誕生日ポイント付与ルールを選択してください
+*[118329]<span />
+	*[118327]<span />
+		*[118326]<svg /> <!-- SVG content collapsed -->
+失効予定通知ルール
+失効予定通知ルールを選択してください
+*[118360]<span />
+	*[118358]<span />
+		*[118357]<svg /> <!-- SVG content collapsed -->
+*[118380]<button disabled=true />
+	保存する
+[118033]<section aria-label=Notifications alt+T live=polite />
+	*[118120]<li level=1 />
+		*[118117]<button aria-label=Close toast />
+		*[118118]<div />
+			<svg /> <!-- SVG content collapsed -->
+		テナントを作成しました
+[117645]<div id=PolarisPortalsContainer />
+[117647]<div id=clerk-components />

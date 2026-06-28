@@ -1,0 +1,652 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - status:
+            - paragraph [ref=e227]: 入荷管理。このページの準備が整いました
+          - heading "入荷管理" [level=1] [ref=e232]
+        - generic [ref=e237]:
+          - generic [ref=e243]:
+            - tablist [ref=e250]:
+              - tab "すべて" [selected] [ref=e251] [cursor=pointer]:
+                - generic [ref=e253]: すべて
+              - tab "入荷保留 新規 0" [ref=e254] [cursor=pointer]:
+                - generic [ref=e255]:
+                  - generic [ref=e256]: 入荷保留
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: 新規
+                    - generic [ref=e259]: "0"
+              - tab "入荷待ち 新規 0" [ref=e260] [cursor=pointer]:
+                - generic [ref=e261]:
+                  - generic [ref=e262]: 入荷待ち
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: 新規
+                    - generic [ref=e265]: "0"
+              - tab "入荷依頼済み 新規 0" [ref=e266] [cursor=pointer]:
+                - generic [ref=e267]:
+                  - generic [ref=e268]: 入荷依頼済み
+                  - generic [ref=e269]:
+                    - generic [ref=e270]: 新規
+                    - generic [ref=e271]: "0"
+              - tab "入荷作業中 新規 0" [ref=e272] [cursor=pointer]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: 入荷作業中
+                  - generic [ref=e275]:
+                    - generic [ref=e276]: 新規
+                    - generic [ref=e277]: "0"
+              - tab "要対応 新規 0" [ref=e278] [cursor=pointer]:
+                - generic [ref=e279]:
+                  - generic [ref=e280]: 要対応
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: 新規
+                    - generic [ref=e283]: "0"
+              - tab "入荷完了" [ref=e284] [cursor=pointer]:
+                - generic [ref=e286]: 入荷完了
+              - tab "キャンセル" [ref=e287] [cursor=pointer]:
+                - generic [ref=e289]: キャンセル
+            - button "検索と絞り込みの結果" [ref=e293] [cursor=pointer]:
+              - generic [ref=e295]:
+                - img [ref=e297]
+                - img [ref=e300]
+          - generic [ref=e305]:
+            - table [ref=e307]:
+              - rowgroup [ref=e308]:
+                - row "管理番号 到着ロケーション 種別 作業ステータス 作成日時" [ref=e309]:
+                  - columnheader "管理番号" [ref=e310]:
+                    - generic [ref=e311]: 管理番号
+                  - columnheader "到着ロケーション" [ref=e312]:
+                    - generic [ref=e313]: 到着ロケーション
+                  - columnheader "種別" [ref=e314]:
+                    - generic [ref=e315]: 種別
+                  - columnheader "作業ステータス" [ref=e316]:
+                    - generic [ref=e317]: 作業ステータス
+                  - columnheader "作成日時" [ref=e318]:
+                    - generic [ref=e319]: 作成日時
+              - rowgroup [ref=e320]:
+                - row "#II-1025 TEST_E2E_20260622_GU店舗_OFF_1905 移動 成功 完了 入荷完了 2026年06月27日 01:01" [ref=e321]:
+                  - cell "#II-1025" [ref=e322]:
+                    - link "#II-1025" [ref=e323] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/7595ea02-d7d1-5727-b959-d85b95d6a5a1_InventoryInboundOrder
+                      - paragraph [ref=e324]: "#II-1025"
+                  - cell "TEST_E2E_20260622_GU店舗_OFF_1905" [ref=e325]:
+                    - paragraph [ref=e326]: TEST_E2E_20260622_GU店舗_OFF_1905
+                  - cell "移動" [ref=e327]:
+                    - paragraph [ref=e328]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e329]:
+                    - generic [ref=e330]:
+                      - generic [ref=e332]:
+                        - generic [ref=e333]: 成功 完了
+                        - img [ref=e334]
+                      - generic [ref=e336]: 入荷完了
+                  - cell "2026年06月27日 01:01" [ref=e337]:
+                    - paragraph [ref=e338]: 2026年06月27日 01:01
+                - row "#II-1024 TEST_FAQ_20260624_GU店舗_OFF_092214 移動 成功 完了 入荷完了 2026年06月24日 09:49" [ref=e339]:
+                  - cell "#II-1024" [ref=e340]:
+                    - link "#II-1024" [ref=e341] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/02acb020-1de9-50f6-b342-d539b2998d1b_InventoryInboundOrder
+                      - paragraph [ref=e342]: "#II-1024"
+                  - cell "TEST_FAQ_20260624_GU店舗_OFF_092214" [ref=e343]:
+                    - paragraph [ref=e344]: TEST_FAQ_20260624_GU店舗_OFF_092214
+                  - cell "移動" [ref=e345]:
+                    - paragraph [ref=e346]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e347]:
+                    - generic [ref=e348]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: 成功 完了
+                        - img [ref=e352]
+                      - generic [ref=e354]: 入荷完了
+                  - cell "2026年06月24日 09:49" [ref=e355]:
+                    - paragraph [ref=e356]: 2026年06月24日 09:49
+                - row "#II-1023 TEST_E2E_20260622_GU店舗_OFF_1905 移動 成功 完了 入荷完了 2026年06月22日 08:41" [ref=e357]:
+                  - cell "#II-1023" [ref=e358]:
+                    - link "#II-1023" [ref=e359] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/00bbd845-6e18-5b03-ab96-72831cd20855_InventoryInboundOrder
+                      - paragraph [ref=e360]: "#II-1023"
+                  - cell "TEST_E2E_20260622_GU店舗_OFF_1905" [ref=e361]:
+                    - paragraph [ref=e362]: TEST_E2E_20260622_GU店舗_OFF_1905
+                  - cell "移動" [ref=e363]:
+                    - paragraph [ref=e364]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e365]:
+                    - generic [ref=e366]:
+                      - generic [ref=e368]:
+                        - generic [ref=e369]: 成功 完了
+                        - img [ref=e370]
+                      - generic [ref=e372]: 入荷完了
+                  - cell "2026年06月22日 08:41" [ref=e373]:
+                    - paragraph [ref=e374]: 2026年06月22日 08:41
+                - row "#II-1022 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月21日 14:03" [ref=e375]:
+                  - cell "#II-1022" [ref=e376]:
+                    - link "#II-1022" [ref=e377] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/fb950bd4-5de7-52f3-b282-21191ea08996_InventoryInboundOrder
+                      - paragraph [ref=e378]: "#II-1022"
+                  - cell "ユニクロ - 銀座店" [ref=e379]:
+                    - paragraph [ref=e380]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e381]:
+                    - paragraph [ref=e382]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e383]:
+                    - generic [ref=e384]:
+                      - generic [ref=e386]:
+                        - generic [ref=e387]: 成功 完了
+                        - img [ref=e388]
+                      - generic [ref=e390]: 入荷完了
+                  - cell "2026年06月21日 14:03" [ref=e391]:
+                    - paragraph [ref=e392]: 2026年06月21日 14:03
+                - row "#II-1021 GU 銀座店 移動 成功 完了 入荷完了 2026年06月21日 13:57" [ref=e393]:
+                  - cell "#II-1021" [ref=e394]:
+                    - link "#II-1021" [ref=e395] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/b41293c5-d331-50ba-beaf-3c3df66bcaa9_InventoryInboundOrder
+                      - paragraph [ref=e396]: "#II-1021"
+                  - cell "GU 銀座店" [ref=e397]:
+                    - paragraph [ref=e398]: GU 銀座店
+                  - cell "移動" [ref=e399]:
+                    - paragraph [ref=e400]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e401]:
+                    - generic [ref=e402]:
+                      - generic [ref=e404]:
+                        - generic [ref=e405]: 成功 完了
+                        - img [ref=e406]
+                      - generic [ref=e408]: 入荷完了
+                  - cell "2026年06月21日 13:57" [ref=e409]:
+                    - paragraph [ref=e410]: 2026年06月21日 13:57
+                - row "#II-1020 ユニクロ物流倉庫 移動 成功 完了 入荷完了 2026年06月21日 12:34" [ref=e411]:
+                  - cell "#II-1020" [ref=e412]:
+                    - link "#II-1020" [ref=e413] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/5eafca70-733e-56ee-acd4-3a436c170bf1_InventoryInboundOrder
+                      - paragraph [ref=e414]: "#II-1020"
+                  - cell "ユニクロ物流倉庫" [ref=e415]:
+                    - paragraph [ref=e416]: ユニクロ物流倉庫
+                  - cell "移動" [ref=e417]:
+                    - paragraph [ref=e418]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e419]:
+                    - generic [ref=e420]:
+                      - generic [ref=e422]:
+                        - generic [ref=e423]: 成功 完了
+                        - img [ref=e424]
+                      - generic [ref=e426]: 入荷完了
+                  - cell "2026年06月21日 12:34" [ref=e427]:
+                    - paragraph [ref=e428]: 2026年06月21日 12:34
+                - row "#II-1019 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月21日 12:10" [ref=e429]:
+                  - cell "#II-1019" [ref=e430]:
+                    - link "#II-1019" [ref=e431] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/6b4348b0-a3ad-5f01-8d3e-2b05e3ee4e05_InventoryInboundOrder
+                      - paragraph [ref=e432]: "#II-1019"
+                  - cell "ユニクロ - 銀座店" [ref=e433]:
+                    - paragraph [ref=e434]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e435]:
+                    - paragraph [ref=e436]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e437]:
+                    - generic [ref=e438]:
+                      - generic [ref=e440]:
+                        - generic [ref=e441]: 成功 完了
+                        - img [ref=e442]
+                      - generic [ref=e444]: 入荷完了
+                  - cell "2026年06月21日 12:10" [ref=e445]:
+                    - paragraph [ref=e446]: 2026年06月21日 12:10
+                - row "#II-1018 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月20日 03:37" [ref=e447]:
+                  - cell "#II-1018" [ref=e448]:
+                    - link "#II-1018" [ref=e449] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/f8eff1b1-ed08-5a00-9289-d8efa309004b_InventoryInboundOrder
+                      - paragraph [ref=e450]: "#II-1018"
+                  - cell "ユニクロ - 銀座店" [ref=e451]:
+                    - paragraph [ref=e452]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e453]:
+                    - paragraph [ref=e454]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e455]:
+                    - generic [ref=e456]:
+                      - generic [ref=e458]:
+                        - generic [ref=e459]: 成功 完了
+                        - img [ref=e460]
+                      - generic [ref=e462]: 入荷完了
+                  - cell "2026年06月20日 03:37" [ref=e463]:
+                    - paragraph [ref=e464]: 2026年06月20日 03:37
+                - row "#II-1017 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月18日 22:38" [ref=e465]:
+                  - cell "#II-1017" [ref=e466]:
+                    - link "#II-1017" [ref=e467] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/b9d1f37a-c2d8-5ec5-8848-0eaa4946cb99_InventoryInboundOrder
+                      - paragraph [ref=e468]: "#II-1017"
+                  - cell "ユニクロ - 銀座店" [ref=e469]:
+                    - paragraph [ref=e470]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e471]:
+                    - paragraph [ref=e472]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e473]:
+                    - generic [ref=e474]:
+                      - generic [ref=e476]:
+                        - generic [ref=e477]: 成功 完了
+                        - img [ref=e478]
+                      - generic [ref=e480]: 入荷完了
+                  - cell "2026年06月18日 22:38" [ref=e481]:
+                    - paragraph [ref=e482]: 2026年06月18日 22:38
+                - row "#II-1016 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月18日 22:27" [ref=e483]:
+                  - cell "#II-1016" [ref=e484]:
+                    - link "#II-1016" [ref=e485] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/9ebd34a7-8a19-5bb4-a445-3a54ec4aa837_InventoryInboundOrder
+                      - paragraph [ref=e486]: "#II-1016"
+                  - cell "ユニクロ - 銀座店" [ref=e487]:
+                    - paragraph [ref=e488]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e489]:
+                    - paragraph [ref=e490]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e491]:
+                    - generic [ref=e492]:
+                      - generic [ref=e494]:
+                        - generic [ref=e495]: 成功 完了
+                        - img [ref=e496]
+                      - generic [ref=e498]: 入荷完了
+                  - cell "2026年06月18日 22:27" [ref=e499]:
+                    - paragraph [ref=e500]: 2026年06月18日 22:27
+                - row "#II-1015 ユニクロ物流倉庫 移動 警告 入荷キャンセル 2026年06月18日 22:25" [ref=e501]:
+                  - cell "#II-1015" [ref=e502]:
+                    - link "#II-1015" [ref=e503] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/1670664f-eb0c-588d-98d7-de40422411f3_InventoryInboundOrder
+                      - paragraph [ref=e504]: "#II-1015"
+                  - cell "ユニクロ物流倉庫" [ref=e505]:
+                    - paragraph [ref=e506]: ユニクロ物流倉庫
+                  - cell "移動" [ref=e507]:
+                    - paragraph [ref=e508]: 移動
+                  - cell "警告 入荷キャンセル" [ref=e509]:
+                    - generic [ref=e510]:
+                      - generic [ref=e511]: 警告
+                      - generic [ref=e512]: 入荷キャンセル
+                  - cell "2026年06月18日 22:25" [ref=e513]:
+                    - paragraph [ref=e514]: 2026年06月18日 22:25
+                - row "#II-1014 ユニクロ - 銀座店 移動 警告 入荷キャンセル 2026年06月18日 22:21" [ref=e515]:
+                  - cell "#II-1014" [ref=e516]:
+                    - link "#II-1014" [ref=e517] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/86cdc208-f840-5ceb-be34-e7075a979071_InventoryInboundOrder
+                      - paragraph [ref=e518]: "#II-1014"
+                  - cell "ユニクロ - 銀座店" [ref=e519]:
+                    - paragraph [ref=e520]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e521]:
+                    - paragraph [ref=e522]: 移動
+                  - cell "警告 入荷キャンセル" [ref=e523]:
+                    - generic [ref=e524]:
+                      - generic [ref=e525]: 警告
+                      - generic [ref=e526]: 入荷キャンセル
+                  - cell "2026年06月18日 22:21" [ref=e527]:
+                    - paragraph [ref=e528]: 2026年06月18日 22:21
+                - row "#II-1013 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月18日 22:20" [ref=e529]:
+                  - cell "#II-1013" [ref=e530]:
+                    - link "#II-1013" [ref=e531] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/cc73701d-c805-5cc7-baf7-74ad3c4447cb_InventoryInboundOrder
+                      - paragraph [ref=e532]: "#II-1013"
+                  - cell "ユニクロ - 銀座店" [ref=e533]:
+                    - paragraph [ref=e534]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e535]:
+                    - paragraph [ref=e536]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e537]:
+                    - generic [ref=e538]:
+                      - generic [ref=e540]:
+                        - generic [ref=e541]: 成功 完了
+                        - img [ref=e542]
+                      - generic [ref=e544]: 入荷完了
+                  - cell "2026年06月18日 22:20" [ref=e545]:
+                    - paragraph [ref=e546]: 2026年06月18日 22:20
+                - row "#II-1012 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月18日 22:18" [ref=e547]:
+                  - cell "#II-1012" [ref=e548]:
+                    - link "#II-1012" [ref=e549] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/ad6d3363-5529-5492-bd9e-b38e26175791_InventoryInboundOrder
+                      - paragraph [ref=e550]: "#II-1012"
+                  - cell "ユニクロ - 銀座店" [ref=e551]:
+                    - paragraph [ref=e552]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e553]:
+                    - paragraph [ref=e554]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e555]:
+                    - generic [ref=e556]:
+                      - generic [ref=e558]:
+                        - generic [ref=e559]: 成功 完了
+                        - img [ref=e560]
+                      - generic [ref=e562]: 入荷完了
+                  - cell "2026年06月18日 22:18" [ref=e563]:
+                    - paragraph [ref=e564]: 2026年06月18日 22:18
+                - row "#II-1011 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月18日 22:15" [ref=e565]:
+                  - cell "#II-1011" [ref=e566]:
+                    - link "#II-1011" [ref=e567] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/07d144c2-3c10-5703-bae0-5171ba622425_InventoryInboundOrder
+                      - paragraph [ref=e568]: "#II-1011"
+                  - cell "ユニクロ - 銀座店" [ref=e569]:
+                    - paragraph [ref=e570]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e571]:
+                    - paragraph [ref=e572]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e573]:
+                    - generic [ref=e574]:
+                      - generic [ref=e576]:
+                        - generic [ref=e577]: 成功 完了
+                        - img [ref=e578]
+                      - generic [ref=e580]: 入荷完了
+                  - cell "2026年06月18日 22:15" [ref=e581]:
+                    - paragraph [ref=e582]: 2026年06月18日 22:15
+                - row "#II-1010 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月18日 22:05" [ref=e583]:
+                  - cell "#II-1010" [ref=e584]:
+                    - link "#II-1010" [ref=e585] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/d68a7a83-a82f-5b38-a738-1f7f2878c459_InventoryInboundOrder
+                      - paragraph [ref=e586]: "#II-1010"
+                  - cell "ユニクロ - 銀座店" [ref=e587]:
+                    - paragraph [ref=e588]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e589]:
+                    - paragraph [ref=e590]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e591]:
+                    - generic [ref=e592]:
+                      - generic [ref=e594]:
+                        - generic [ref=e595]: 成功 完了
+                        - img [ref=e596]
+                      - generic [ref=e598]: 入荷完了
+                  - cell "2026年06月18日 22:05" [ref=e599]:
+                    - paragraph [ref=e600]: 2026年06月18日 22:05
+                - row "#II-1009 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月16日 23:19" [ref=e601] [cursor=pointer]:
+                  - cell "#II-1009" [ref=e602]:
+                    - link "#II-1009" [ref=e603]:
+                      - /url: /admin/inventory_inbound_orders/0e87e7bc-b926-5627-873b-474df2d37360_InventoryInboundOrder
+                      - paragraph [ref=e604]: "#II-1009"
+                  - cell "ユニクロ - 銀座店" [ref=e605]:
+                    - paragraph [ref=e606]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e607]:
+                    - paragraph [ref=e608]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e609]:
+                    - generic [ref=e610]:
+                      - generic [ref=e612]:
+                        - generic [ref=e613]: 成功 完了
+                        - img [ref=e614]
+                      - generic [ref=e616]: 入荷完了
+                  - cell "2026年06月16日 23:19" [ref=e617]:
+                    - paragraph [ref=e618]: 2026年06月16日 23:19
+                - row "#II-1008 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月16日 23:05" [ref=e619]:
+                  - cell "#II-1008" [ref=e620]:
+                    - link "#II-1008" [ref=e621] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/3f512b4c-0ecf-526e-8c87-4458f22e9432_InventoryInboundOrder
+                      - paragraph [ref=e622]: "#II-1008"
+                  - cell "ユニクロ - 銀座店" [ref=e623]:
+                    - paragraph [ref=e624]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e625]:
+                    - paragraph [ref=e626]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e627]:
+                    - generic [ref=e628]:
+                      - generic [ref=e630]:
+                        - generic [ref=e631]: 成功 完了
+                        - img [ref=e632]
+                      - generic [ref=e634]: 入荷完了
+                  - cell "2026年06月16日 23:05" [ref=e635]:
+                    - paragraph [ref=e636]: 2026年06月16日 23:05
+                - row "#II-1007 ユニクロ物流倉庫 移動 警告 入荷キャンセル 2026年06月16日 09:26" [ref=e637]:
+                  - cell "#II-1007" [ref=e638]:
+                    - link "#II-1007" [ref=e639] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/c741d13a-4614-59ac-8b84-991f347a2b92_InventoryInboundOrder
+                      - paragraph [ref=e640]: "#II-1007"
+                  - cell "ユニクロ物流倉庫" [ref=e641]:
+                    - paragraph [ref=e642]: ユニクロ物流倉庫
+                  - cell "移動" [ref=e643]:
+                    - paragraph [ref=e644]: 移動
+                  - cell "警告 入荷キャンセル" [ref=e645]:
+                    - generic [ref=e646]:
+                      - generic [ref=e647]: 警告
+                      - generic [ref=e648]: 入荷キャンセル
+                  - cell "2026年06月16日 09:26" [ref=e649]:
+                    - paragraph [ref=e650]: 2026年06月16日 09:26
+                - row "#II-1006 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月15日 18:11" [ref=e651]:
+                  - cell "#II-1006" [ref=e652]:
+                    - link "#II-1006" [ref=e653] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/dd42171f-e98c-5254-b236-9fc6f4357f2a_InventoryInboundOrder
+                      - paragraph [ref=e654]: "#II-1006"
+                  - cell "ユニクロ - 銀座店" [ref=e655]:
+                    - paragraph [ref=e656]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e657]:
+                    - paragraph [ref=e658]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e659]:
+                    - generic [ref=e660]:
+                      - generic [ref=e662]:
+                        - generic [ref=e663]: 成功 完了
+                        - img [ref=e664]
+                      - generic [ref=e666]: 入荷完了
+                  - cell "2026年06月15日 18:11" [ref=e667]:
+                    - paragraph [ref=e668]: 2026年06月15日 18:11
+                - row "#II-1005 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月14日 01:24" [ref=e669]:
+                  - cell "#II-1005" [ref=e670]:
+                    - link "#II-1005" [ref=e671] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/85a9edec-aacd-5bb8-9db0-549fbe1e5f29_InventoryInboundOrder
+                      - paragraph [ref=e672]: "#II-1005"
+                  - cell "ユニクロ - 銀座店" [ref=e673]:
+                    - paragraph [ref=e674]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e675]:
+                    - paragraph [ref=e676]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e677]:
+                    - generic [ref=e678]:
+                      - generic [ref=e680]:
+                        - generic [ref=e681]: 成功 完了
+                        - img [ref=e682]
+                      - generic [ref=e684]: 入荷完了
+                  - cell "2026年06月14日 01:24" [ref=e685]:
+                    - paragraph [ref=e686]: 2026年06月14日 01:24
+                - row "#II-1004 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月12日 08:48" [ref=e687]:
+                  - cell "#II-1004" [ref=e688]:
+                    - link "#II-1004" [ref=e689] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/53f85599-c286-5bbd-ae48-e490387f2ac1_InventoryInboundOrder
+                      - paragraph [ref=e690]: "#II-1004"
+                  - cell "ユニクロ - 銀座店" [ref=e691]:
+                    - paragraph [ref=e692]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e693]:
+                    - paragraph [ref=e694]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e695]:
+                    - generic [ref=e696]:
+                      - generic [ref=e698]:
+                        - generic [ref=e699]: 成功 完了
+                        - img [ref=e700]
+                      - generic [ref=e702]: 入荷完了
+                  - cell "2026年06月12日 08:48" [ref=e703]:
+                    - paragraph [ref=e704]: 2026年06月12日 08:48
+                - row "#II-1003 ユニクロ物流倉庫 移動 警告 入荷キャンセル 2026年06月10日 09:32" [ref=e705]:
+                  - cell "#II-1003" [ref=e706]:
+                    - link "#II-1003" [ref=e707] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/104ebdee-3676-5de8-bfe6-6a0a39eb4541_InventoryInboundOrder
+                      - paragraph [ref=e708]: "#II-1003"
+                  - cell "ユニクロ物流倉庫" [ref=e709]:
+                    - paragraph [ref=e710]: ユニクロ物流倉庫
+                  - cell "移動" [ref=e711]:
+                    - paragraph [ref=e712]: 移動
+                  - cell "警告 入荷キャンセル" [ref=e713]:
+                    - generic [ref=e714]:
+                      - generic [ref=e715]: 警告
+                      - generic [ref=e716]: 入荷キャンセル
+                  - cell "2026年06月10日 09:32" [ref=e717]:
+                    - paragraph [ref=e718]: 2026年06月10日 09:32
+                - row "#II-1002 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月09日 14:38" [ref=e719]:
+                  - cell "#II-1002" [ref=e720]:
+                    - link "#II-1002" [ref=e721] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/1387f25c-8478-5d3b-8e1e-48951e4c429e_InventoryInboundOrder
+                      - paragraph [ref=e722]: "#II-1002"
+                  - cell "ユニクロ - 銀座店" [ref=e723]:
+                    - paragraph [ref=e724]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e725]:
+                    - paragraph [ref=e726]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e727]:
+                    - generic [ref=e728]:
+                      - generic [ref=e730]:
+                        - generic [ref=e731]: 成功 完了
+                        - img [ref=e732]
+                      - generic [ref=e734]: 入荷完了
+                  - cell "2026年06月09日 14:38" [ref=e735]:
+                    - paragraph [ref=e736]: 2026年06月09日 14:38
+                - row "#II-1001 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月08日 10:57" [ref=e737]:
+                  - cell "#II-1001" [ref=e738]:
+                    - link "#II-1001" [ref=e739] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/6e9b70ed-dde6-53a1-a46b-cbd45cfafafa_InventoryInboundOrder
+                      - paragraph [ref=e740]: "#II-1001"
+                  - cell "ユニクロ - 銀座店" [ref=e741]:
+                    - paragraph [ref=e742]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e743]:
+                    - paragraph [ref=e744]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e745]:
+                    - generic [ref=e746]:
+                      - generic [ref=e748]:
+                        - generic [ref=e749]: 成功 完了
+                        - img [ref=e750]
+                      - generic [ref=e752]: 入荷完了
+                  - cell "2026年06月08日 10:57" [ref=e753]:
+                    - paragraph [ref=e754]: 2026年06月08日 10:57
+                - row "#II-1000 ユニクロ - 銀座店 移動 成功 完了 入荷完了 2026年06月05日 20:20" [ref=e755]:
+                  - cell "#II-1000" [ref=e756]:
+                    - link "#II-1000" [ref=e757] [cursor=pointer]:
+                      - /url: /admin/inventory_inbound_orders/1207928b-70f6-5195-84ef-e888d26db5ab_InventoryInboundOrder
+                      - paragraph [ref=e758]: "#II-1000"
+                  - cell "ユニクロ - 銀座店" [ref=e759]:
+                    - paragraph [ref=e760]: ユニクロ - 銀座店
+                  - cell "移動" [ref=e761]:
+                    - paragraph [ref=e762]: 移動
+                  - cell "成功 完了 入荷完了" [ref=e763]:
+                    - generic [ref=e764]:
+                      - generic [ref=e766]:
+                        - generic [ref=e767]: 成功 完了
+                        - img [ref=e768]
+                      - generic [ref=e770]: 入荷完了
+                  - cell "2026年06月05日 20:20" [ref=e771]:
+                    - paragraph [ref=e772]: 2026年06月05日 20:20
+            - navigation "ページネーション" [ref=e776]:
+              - generic [ref=e779]:
+                - generic [ref=e780]:
+                  - button "前へ" [disabled]:
+                    - generic:
+                      - generic:
+                        - img
+                - generic [ref=e781]:
+                  - button "次へ" [disabled]:
+                    - generic:
+                      - generic:
+                        - img
+  - region "Notifications alt+T"
+  - alert [ref=e10]

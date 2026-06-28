@@ -1,0 +1,76 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[64785]<a />
+	コンテンツにスキップ
+[64910]<div />
+[64788]<button data-state=closed expanded=false />
+[64789]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[64927]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[64793]<a />
+		ホーム
+	[64794]<a />
+		商品管理
+	[64795]<a />
+		在庫管理
+	[64796]<a />
+		注文管理
+		[64978]<div />
+	[64797]<a />
+		顧客管理
+	[64798]<a />
+		発注管理
+	[64799]<a />
+		販売設定
+	[64800]<a />
+		会計
+	[64801]<a />
+		分析
+	オペレーション
+	[64802]<a />
+		入荷管理
+		[65062]<div />
+	[64803]<a />
+		出荷管理
+		[65073]<div />
+	[64804]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[64805]<a />
+		ディスカウント
+	[64806]<a />
+		ポイント
+	[64807]<a />
+		会員ランク
+	販売チャネル
+	[64808]<a />
+		Shopify
+	[64809]<a />
+		OmnibusCore
+	[64810]<a />
+		スマレジ
+	[64811]<a />
+		リテールポータル
+	[64812]<a />
+		卸売
+	[64813]<a />
+		設定
+在庫をCSVでエクスポートする。このページの準備が整いました
+[65191]<div />
+	[65192]<div />
+		[64815]<a />
+在庫をCSVでエクスポートする
+[64781]<a />
+	エクスポート
+[65224]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+[64816]<button id=previousURL aria-label=前へ disabled=true />
+[64817]<button id=nextURL aria-label=次へ disabled=true />
+[65249]<section aria-label=Notifications alt+T live=polite />
+[64818]<div id=PolarisPortalsContainer />
+[64820]<div id=clerk-components />

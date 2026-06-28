@@ -1,0 +1,191 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/location_groups",
+  "h1": [
+    "ロケーショングループ"
+  ],
+  "headers": [
+    "グループ名",
+    "デフォルト",
+    "ロケーション"
+  ],
+  "rows": [
+    [
+      "グループ名",
+      "デフォルト",
+      "ロケーション"
+    ],
+    [
+      "テスト",
+      "ユニクロ物流倉庫",
+      "3個のロケーション"
+    ],
+    [
+      "TEST_FAQ_20260624_LG_171810",
+      "ユニクロ物流倉庫",
+      "1個のロケーション"
+    ],
+    [
+      "ユニクログループ",
+      "ユニクロ - 銀座店",
+      "3個のロケーション"
+    ],
+    [
+      "GU グループ",
+      "GU 銀座店",
+      "2個のロケーション"
+    ]
+  ],
+  "buttons": [
+    {
+      "text": "コンテンツにスキップ",
+      "href": "#AppFrameMain",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "ホーム",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "商品管理",
+      "href": "/admin/products",
+      "disabled": false
+    },
+    {
+      "text": "在庫管理",
+      "href": "/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "text": "注文管理",
+      "href": "/admin/orders",
+      "disabled": false
+    },
+    {
+      "text": "顧客管理",
+      "href": "/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "text": "発注管理",
+      "href": "/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "text": "販売設定",
+      "href": "/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "text": "会計",
+      "href": "/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "text": "分析",
+      "href": "/admin/analytics",
+      "disabled": false
+    },
+    {
+      "text": "入荷管理",
+      "href": "/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "出荷管理",
+      "href": "/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "href": "/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "text": "ディスカウント",
+      "href": "/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "text": "ポイント",
+      "href": "/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "会員ランク",
+      "href": "/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "Shopify",
+      "href": "/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "text": "OmnibusCore",
+      "href": "/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "text": "スマレジ",
+      "href": "/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "text": "リテールポータル",
+      "href": "/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "text": "卸売",
+      "href": "/admin/b2b",
+      "disabled": false
+    },
+    {
+      "text": "設定",
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "text": "グループを作成",
+      "href": "/admin/settings/location_groups/create",
+      "disabled": false
+    },
+    {
+      "text": "すべて",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "text": "その他のビュー",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "text": "ロケーショングループ",
+      "href": null,
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nロケーショングループ。このページの準備が整いました\n\nロケーショングループ\nグループを作成\nすべて\nグループ名\n\t\nデフォルト\n\t\nロケーション\n\n\n\nテスト\n\n\t\n\nユニクロ物流倉庫\n\n\t\n\n3個のロケーション\n\n\n\n\nTEST_FAQ_20260624_LG_171810\n\n\t\n\nユニクロ物流倉庫\n\n\t\n\n1個のロケーション\n\n\n\n\nユニクログループ\n\n\t\n\nユニクロ - 銀座店\n\n\t\n\n3個のロケーション\n\n\n\n\nGU グループ\n\n\t\n\nGU 銀座店\n\n\t\n\n2個のロケーション\n\nロケーショングループ\nについてもっと詳しくみる"
+}

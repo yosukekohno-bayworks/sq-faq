@@ -1,0 +1,191 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e10]:
+        - button [ref=e14] [cursor=pointer]:
+          - img [ref=e16]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: stack-ps-yosuke
+            - paragraph [ref=e24]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e26]
+    - generic "メニュー" [ref=e27]:
+      - navigation [ref=e28]:
+        - generic [ref=e29]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "ホーム" [ref=e34] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e37]
+                - generic [ref=e39]: ホーム
+            - listitem [ref=e40]:
+              - link "商品管理" [ref=e43] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e46]
+                - generic [ref=e48]: 商品管理
+              - list [ref=e51]:
+                - listitem [ref=e52]
+                - listitem [ref=e57]
+            - listitem [ref=e62]:
+              - link "在庫管理" [ref=e65] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e68]
+                - generic [ref=e70]: 在庫管理
+            - listitem [ref=e71]:
+              - link "注文管理" [ref=e74] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e77]
+                - generic [ref=e79]: 注文管理
+            - listitem [ref=e80]:
+              - link "顧客管理" [ref=e83] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e86]
+                - generic [ref=e89]: 顧客管理
+            - listitem [ref=e90]:
+              - link "発注管理" [ref=e93] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e96]
+                - generic [ref=e99]: 発注管理
+            - listitem [ref=e100]:
+              - link "販売設定" [ref=e103] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e106]
+                - generic [ref=e111]: 販売設定
+            - listitem [ref=e112]:
+              - link "会計" [ref=e115] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e118]
+                - generic [ref=e120]: 会計
+            - listitem [ref=e121]:
+              - generic [ref=e122]:
+                - generic
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - generic [ref=e125]: オペレーション
+            - listitem [ref=e126]:
+              - link "入荷管理" [ref=e129] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e132]
+                - generic [ref=e136]: 入荷管理
+            - listitem [ref=e137]:
+              - link "出荷管理" [ref=e140] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e143]
+                - generic [ref=e145]: 出荷管理
+            - listitem [ref=e146]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e149] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e152]
+                - generic [ref=e155]: 在庫依頼
+                - generic [ref=e157]
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - generic [ref=e162]: CRM
+            - listitem [ref=e163]:
+              - link "ディスカウント" [ref=e166] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e169]
+                - generic [ref=e171]: ディスカウント
+            - listitem [ref=e172]:
+              - link "ポイント" [ref=e175] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e178]
+                - generic [ref=e180]: ポイント
+            - listitem [ref=e181]:
+              - link "会員ランク" [ref=e184] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e187]
+                - generic [ref=e190]: 会員ランク
+          - list [ref=e191]:
+            - listitem [ref=e192]:
+              - generic [ref=e193]: 販売チャネル
+            - listitem [ref=e194]:
+              - link "Shopify" [ref=e197] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e198]: Shopify
+            - listitem [ref=e199]:
+              - link "OmnibusCore" [ref=e202] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e203]: OmnibusCore
+            - listitem [ref=e204]:
+              - link "スマレジ" [ref=e207] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e208]: スマレジ
+            - listitem [ref=e209]:
+              - link "リテールポータル" [ref=e212] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e213]: リテールポータル
+            - listitem [ref=e214]:
+              - generic [ref=e215]:
+                - generic
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - link "設定" [ref=e220] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e223]
+                - generic [ref=e225]: 設定
+    - main [ref=e226]:
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - status:
+            - paragraph [ref=e231]: 商品管理。このページの準備が整いました
+          - generic [ref=e233]:
+            - heading "商品管理" [level=1] [ref=e236]
+            - generic [ref=e237]:
+              - button "インポート" [ref=e243] [cursor=pointer]:
+                - img [ref=e246]
+                - generic [ref=e249]: インポート
+                - img [ref=e252]
+              - link "商品を作成する" [ref=e256] [cursor=pointer]:
+                - /url: /admin/products/create
+                - img [ref=e259]
+                - generic [ref=e261]: 商品を作成する
+        - generic [ref=e266]:
+          - generic [ref=e272]:
+            - tablist [ref=e279]:
+              - tab "すべて" [selected] [ref=e280] [cursor=pointer]:
+                - generic [ref=e282]: すべて
+              - tab "公開中" [ref=e283] [cursor=pointer]:
+                - generic [ref=e285]: 公開中
+              - tab "下書き" [ref=e286] [cursor=pointer]:
+                - generic [ref=e288]: 下書き
+              - tab "アーカイブ済み" [ref=e289] [cursor=pointer]:
+                - generic [ref=e291]: アーカイブ済み
+            - button "検索と絞り込みの結果" [ref=e295] [cursor=pointer]:
+              - generic [ref=e297]:
+                - img [ref=e299]
+                - img [ref=e302]
+          - generic [ref=e307]:
+            - table [ref=e309]:
+              - rowgroup [ref=e310]:
+                - row "すべてのアイテムを選択する 商品 ステータス 商品コード 在庫 カタログ 商品タイプ 製造元" [ref=e311]
+              - rowgroup [ref=e334]:
+                - row "アイテムを選択する product thumbnail TEST_NOTION_20260627 商品 0447 アーカイブ済み TEST_NOTION_20260627_PRODUCT_0447 0個のバリエーション 0" [ref=e335] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail TEST_20260622_OPTION 情報 下書き TEST_20260622_OPTION 0個のバリエーション 0" [ref=e364] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 アーカイブ済み TEST_E2E_20260622_GU_1905 1個のバリエーション 0 Tシャツ GU" [ref=e394] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1845 アーカイブ済み TEST_E2E_20260622_GU_1845 1個のバリエーション 0 Tシャツ GU" [ref=e425] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 アーカイブ済み TEST_E2E_20260622_GU_1830 1個のバリエーション 0 Tシャツ GU" [ref=e456] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1755 アーカイブ済み TEST_E2E_20260622_GU_1755 0個のバリエーション 0 Tシャツ GU" [ref=e487] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1740 アーカイブ済み TEST_E2E_20260622_GU_1740 0個のバリエーション 0 Tシャツ GU" [ref=e518] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail 半袖シャツ 成功 公開中 8128502395 2個のバリエーション 0 GU" [ref=e549] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail GU3 成功 公開中 TEST_FAQ_CSV_RECHECK_20260608_01 0個のバリエーション 0 GU" [ref=e580] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail GU2 成功 公開中 test_faq_deep2_202606080343_product 0個のバリエーション 0 検証 GU" [ref=e611] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail GU1 成功 公開中 TEST-FAQ-HIDDEN-001 0個のバリエーション 0 GU" [ref=e643] [cursor=pointer]
+                - 'row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ 成功 公開中 486125 20個のバリエーション 1 スウェット UNIQLO : C" [ref=e674] [cursor=pointer]'
+                - 'row "アイテムを選択する product thumbnail ポケモン UT 成功 公開中 483674 7個のバリエーション 1 Tシャツ UNIQLO : UT" [ref=e702] [cursor=pointer]'
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ 成功 公開中 486102 25個のバリエーション 1 Tシャツ UNIQLO" [ref=e730] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンT 成功 公開中 483457 25個のバリエーション 1 Tシャツ UNIQLO" [ref=e758] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail UVカットペーパーブレイドハット 成功 公開中 482787 2個のバリエーション 1 帽子・キャップ・ハット UNIQLO" [ref=e786] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ 成功 公開中 487973 13個のバリエーション 1 ジーンズ UNIQLO" [ref=e814] [cursor=pointer]
+            - navigation "ページネーション" [ref=e846]:
+              - generic [ref=e849]:
+                - generic [ref=e850]
+                - generic [ref=e851]
+  - region "Notifications alt+T"
+  - alert [ref=e852]

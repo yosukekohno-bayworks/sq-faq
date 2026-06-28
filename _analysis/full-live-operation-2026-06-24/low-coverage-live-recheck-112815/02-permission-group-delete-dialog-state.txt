@@ -1,0 +1,64 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+コンテンツにスキップ
+stack-ps-yosuke
+陽介 河野
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	ホーム
+	商品管理
+	在庫管理
+	注文管理
+	顧客管理
+	発注管理
+	販売設定
+	会計
+	分析
+	オペレーション
+	入荷管理
+	出荷管理
+	在庫依頼
+	未完了の在庫依頼 3件
+	CRM
+	ディスカウント
+	ポイント
+	会員ランク
+	販売チャネル
+	Shopify
+	OmnibusCore
+	スマレジ
+	リテールポータル
+	卸売
+	[92728]<a />
+		設定
+権限グループ。このページの準備が整いました
+権限グループ
+作成する
+<svg /> <!-- SVG content collapsed -->
+すべての3のアイテムを選択する
+1を選択済み
+権限グループを削除
+<svg /> <!-- SVG content collapsed -->
+すべてのアイテムを選択する
+名前
+権限数
+<svg /> <!-- SVG content collapsed -->
+アイテムを選択する
+TEST_FAQ_20260624_PERMISSION_112959
+<svg /> <!-- SVG content collapsed -->
+アイテムを選択する
+TEST_権限検証_20260620
+<svg /> <!-- SVG content collapsed -->
+アイテムを選択する
+特権管理者
+76
+*[93392]<div role=dialog aria-label=:r1k: />
+	権限グループを削除しますか？
+	*[93374]<button aria-label=閉じる pressed=false />
+	選択された
+	件の権限グループを削除します。この処理は巻き戻すことができません。
+	*[93381]<button />
+		キャンセル
+	*[93382]<button />
+		削除する
+*[93395]<div />

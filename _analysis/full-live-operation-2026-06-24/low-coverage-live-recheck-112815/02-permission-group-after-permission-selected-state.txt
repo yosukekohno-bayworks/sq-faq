@@ -1,0 +1,541 @@
+viewport: 1209x785
+page: 1209x2527
+scroll: (0, 1742)
+[89349]<a />
+	コンテンツにスキップ
+[89552]<div />
+[89352]<button data-state=closed expanded=false />
+[89353]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[89569]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[89357]<a />
+		ホーム
+	[89358]<a />
+		商品管理
+	[89359]<a />
+		在庫管理
+	[89360]<a />
+		注文管理
+		[89620]<div />
+	[89361]<a />
+		顧客管理
+	[89362]<a />
+		発注管理
+	[89363]<a />
+		販売設定
+	[89364]<a />
+		会計
+	[89365]<a />
+		分析
+	オペレーション
+	[89366]<a />
+		入荷管理
+		[89704]<div />
+	[89367]<a />
+		出荷管理
+		[89715]<div />
+	[89368]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[89369]<a />
+		ディスカウント
+	[89370]<a />
+		ポイント
+	[89371]<a />
+		会員ランク
+	販売チャネル
+	[89372]<a />
+		Shopify
+	[89373]<a />
+		OmnibusCore
+	[89374]<a />
+		スマレジ
+	[89375]<a />
+		リテールポータル
+	[89376]<a />
+		卸売
+	[89377]<a />
+		設定
+[90095]<span />
+	[89397]<span />
+	[90098]<svg /> <!-- SVG content collapsed -->
+[90100]<span />
+	[90101]<span />
+		[90102]<span />
+			[90104]<span />
+				顧客会員ランクの閲覧権限（customer_ranks:read）
+[90109]<span />
+	[89398]<span />
+	[90112]<svg /> <!-- SVG content collapsed -->
+[90114]<span />
+	[90115]<span />
+		[90116]<span />
+			[90118]<span />
+				顧客会員ランクの編集権限（customer_ranks:write）
+[90123]<span />
+	[89399]<span />
+	[90126]<svg /> <!-- SVG content collapsed -->
+[90128]<span />
+	[90129]<span />
+		[90130]<span />
+			[90132]<span />
+				顧客の閲覧権限（customers:read）
+[90137]<span />
+	[89400]<span />
+	[90140]<svg /> <!-- SVG content collapsed -->
+[90142]<span />
+	[90143]<span />
+		[90144]<span />
+			[90146]<span />
+				顧客の編集権限（customers:write）
+[90151]<span />
+	[89401]<span />
+	[90154]<svg /> <!-- SVG content collapsed -->
+[90156]<span />
+	[90157]<span />
+		[90158]<span />
+			[90160]<span />
+				ディスカウントの閲覧権限（discounts:read）
+[90165]<span />
+	[89402]<span />
+	[90168]<svg /> <!-- SVG content collapsed -->
+[90170]<span />
+	[90171]<span />
+		[90172]<span />
+			[90174]<span />
+				ディスカウントの編集権限（discounts:write）
+[90179]<span />
+	[89403]<span />
+	[90182]<svg /> <!-- SVG content collapsed -->
+[90184]<span />
+	[90185]<span />
+		[90186]<span />
+			[90188]<span />
+				下書き注文の閲覧権限（draft_orders:read）
+[90193]<span />
+	[89404]<span />
+	[90196]<svg /> <!-- SVG content collapsed -->
+[90198]<span />
+	[90199]<span />
+		[90200]<span />
+			[90202]<span />
+				下書き注文の編集権限（draft_orders:write）
+[90207]<span />
+	[89405]<span />
+	[90210]<svg /> <!-- SVG content collapsed -->
+[90212]<span />
+	[90213]<span />
+		[90214]<span />
+			[90216]<span />
+				在庫の閲覧権限（inventory:read）
+[90221]<span />
+	[89406]<span />
+	[90224]<svg /> <!-- SVG content collapsed -->
+[90226]<span />
+	[90227]<span />
+		[90228]<span />
+			[90230]<span />
+				在庫の編集権限（inventory:write）
+[90235]<span />
+	[89407]<span />
+	[90238]<svg /> <!-- SVG content collapsed -->
+[90240]<span />
+	[90241]<span />
+		[90242]<span />
+			[90244]<span />
+				在庫リクエストの閲覧権限（inventory_allocation_requests:read）
+[90249]<span />
+	[89408]<span />
+	[90252]<svg /> <!-- SVG content collapsed -->
+[90254]<span />
+	[90255]<span />
+		[90256]<span />
+			[90258]<span />
+				在庫リクエストの編集権限（inventory_allocation_requests:write）
+[90263]<span />
+	[89409]<span />
+	[90266]<svg /> <!-- SVG content collapsed -->
+[90268]<span />
+	[90269]<span />
+		[90270]<span />
+			[90272]<span />
+				発注返品伝票の閲覧権限（inventory_purchase_order_returns:read）
+[90277]<span />
+	[89410]<span />
+	[90280]<svg /> <!-- SVG content collapsed -->
+[90282]<span />
+	[90283]<span />
+		[90284]<span />
+			[90286]<span />
+				発注返品伝票の編集権限（inventory_purchase_order_returns:write）
+[90291]<span />
+	[89411]<span />
+	[90294]<svg /> <!-- SVG content collapsed -->
+[90296]<span />
+	[90297]<span />
+		[90298]<span />
+			[90300]<span />
+				発注伝票の閲覧権限（inventory_purchase_orders:read）
+[90305]<span />
+	[89412]<span />
+	[90308]<svg /> <!-- SVG content collapsed -->
+[90310]<span />
+	[90311]<span />
+		[90312]<span />
+			[90314]<span />
+				発注伝票の編集権限（inventory_purchase_orders:write）
+[90319]<span />
+	[89413]<span />
+	[90322]<svg /> <!-- SVG content collapsed -->
+[90324]<span />
+	[90325]<span />
+		[90326]<span />
+			[90328]<span />
+				店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）
+[90333]<span />
+	[89414]<span />
+	[90336]<svg /> <!-- SVG content collapsed -->
+[90338]<span />
+	[90339]<span />
+		[90340]<span />
+			[90342]<span />
+				店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）
+[90347]<span />
+	[89415]<span />
+	[90350]<svg /> <!-- SVG content collapsed -->
+[90352]<span />
+	[90353]<span />
+		[90354]<span />
+			[90356]<span />
+				ロケーショングループの閲覧権限（location_groups:read）
+[90361]<span />
+	[89416]<span />
+	[90364]<svg /> <!-- SVG content collapsed -->
+[90366]<span />
+	[90367]<span />
+		[90368]<span />
+			[90370]<span />
+				ロケーショングループの編集権限（location_groups:write）
+[90375]<span />
+	[89417]<span />
+	[90378]<svg /> <!-- SVG content collapsed -->
+[90380]<span />
+	[90381]<span />
+		[90382]<span />
+			[90384]<span />
+				ロケーションの閲覧権限（locations:read）
+[90389]<span />
+	[89418]<span />
+	[90392]<svg /> <!-- SVG content collapsed -->
+[90394]<span />
+	[90395]<span />
+		[90396]<span />
+			[90398]<span />
+				ロケーションの編集権限（locations:write）
+[90403]<span />
+	[89419]<span />
+	[90406]<svg /> <!-- SVG content collapsed -->
+[90408]<span />
+	[90409]<span />
+		[90410]<span />
+			[90412]<span />
+				マイル商品の閲覧権限（mile_items:read）
+[90417]<span />
+	[89420]<span />
+	[90420]<svg /> <!-- SVG content collapsed -->
+[90422]<span />
+	[90423]<span />
+		[90424]<span />
+			[90426]<span />
+				マイル商品の編集権限（mile_items:write）
+[90431]<span />
+	[89421]<span />
+	[90434]<svg /> <!-- SVG content collapsed -->
+[90436]<span />
+	[90437]<span />
+		[90438]<span />
+			[90440]<span />
+				ネクストエンジン連携の閲覧権限（next_engine_integrations:read）
+[90445]<span />
+	[89422]<span />
+	[90448]<svg /> <!-- SVG content collapsed -->
+[90450]<span />
+	[90451]<span />
+		[90452]<span />
+			[90454]<span />
+				ネクストエンジン連携の編集権限（next_engine_integrations:write）
+[90459]<span />
+	[89423]<span />
+	[90462]<svg /> <!-- SVG content collapsed -->
+[90464]<span />
+	[90465]<span />
+		[90466]<span />
+			[90468]<span />
+				OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）
+[90473]<span />
+	[89424]<span />
+	[90476]<svg /> <!-- SVG content collapsed -->
+[90478]<span />
+	[90479]<span />
+		[90480]<span />
+			[90482]<span />
+				OmnibusCore連携の編集権限（omnibus_core_integrations:write）
+[90487]<span />
+	[89425]<span />
+	[90490]<svg /> <!-- SVG content collapsed -->
+[90492]<span />
+	[90493]<span />
+		[90494]<span />
+			[90496]<span />
+				注文の閲覧権限（orders:read）
+[90501]<span />
+	[89426]<span />
+	[90504]<svg /> <!-- SVG content collapsed -->
+[90506]<span />
+	[90507]<span />
+		[90508]<span />
+			[90510]<span />
+				注文の編集権限（orders:write）
+[90515]<span />
+	[89427]<span />
+	[90518]<svg /> <!-- SVG content collapsed -->
+[90520]<span />
+	[90521]<span />
+		[90522]<span />
+			[90524]<span />
+				ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）
+[90529]<span />
+	[89428]<span />
+	[90532]<svg /> <!-- SVG content collapsed -->
+[90534]<span />
+	[90535]<span />
+		[90536]<span />
+			[90538]<span />
+				ポイントキャンペーンの編集権限（point_campaign_order_rules:write）
+[90543]<span />
+	[89429]<span />
+	[90546]<svg /> <!-- SVG content collapsed -->
+[90548]<span />
+	[90549]<span />
+		[90550]<span />
+			[90552]<span />
+				ポイントルールの閲覧権限（point_rules:read）
+[90557]<span />
+	[89430]<span />
+	[90560]<svg /> <!-- SVG content collapsed -->
+[90562]<span />
+	[90563]<span />
+		[90564]<span />
+			[90566]<span />
+				ポイントルールの編集権限（point_rules:write）
+[90571]<span />
+	[89431]<span />
+	[90574]<svg /> <!-- SVG content collapsed -->
+[90576]<span />
+	[90577]<span />
+		[90578]<span />
+			[90580]<span />
+				販売価格ルールの閲覧権限（product_price_rules:read）
+[90585]<span />
+	[89432]<span />
+	[90588]<svg /> <!-- SVG content collapsed -->
+[90590]<span />
+	[90591]<span />
+		[90592]<span />
+			[90594]<span />
+				販売価格ルールの編集権限（product_price_rules:write）
+[90599]<span />
+	[89433]<span />
+	[90602]<svg /> <!-- SVG content collapsed -->
+[90604]<span />
+	[90605]<span />
+		[90606]<span />
+			[90608]<span />
+				商品の閲覧権限（products:read）
+<svg /> <!-- SVG content collapsed -->
+商品の編集権限（products:write）
+[90627]<span />
+	[89435]<span />
+	[90630]<svg /> <!-- SVG content collapsed -->
+[90632]<span />
+	[90633]<span />
+		[90634]<span />
+			[90636]<span />
+				店舗ポータル連携の閲覧権限（retail_portal_integrations:read）
+[90641]<span />
+	[89436]<span />
+	[90644]<svg /> <!-- SVG content collapsed -->
+[90646]<span />
+	[90647]<span />
+		[90648]<span />
+			[90650]<span />
+				店舗ポータル連携の編集権限（retail_portal_integrations:write）
+[90655]<span />
+	[89437]<span />
+	[90658]<svg /> <!-- SVG content collapsed -->
+[90660]<span />
+	[90661]<span />
+		[90662]<span />
+			[90664]<span />
+				店舗スタッフの閲覧権限（retail_staff_members:read）
+[90669]<span />
+	[89438]<span />
+	[90672]<svg /> <!-- SVG content collapsed -->
+[90674]<span />
+	[90675]<span />
+		[90676]<span />
+			[90678]<span />
+				店舗スタッフの編集権限（retail_staff_members:write）
+[90683]<span />
+	[89439]<span />
+	[90686]<svg /> <!-- SVG content collapsed -->
+[90688]<span />
+	[90689]<span />
+		[90690]<span />
+			[90692]<span />
+				売上データの閲覧権限（sales:read）
+[90697]<span />
+	[89440]<span />
+	[90700]<svg /> <!-- SVG content collapsed -->
+[90702]<span />
+	[90703]<span />
+		[90704]<span />
+			[90706]<span />
+				売上データの編集権限（sales:write）
+[90711]<span />
+	[89441]<span />
+	[90714]<svg /> <!-- SVG content collapsed -->
+[90716]<span />
+	[90717]<span />
+		[90718]<span />
+			[90720]<span />
+				Shopify連携の閲覧権限（shopify_integrations:read）
+[90725]<span />
+	[89442]<span />
+	[90728]<svg /> <!-- SVG content collapsed -->
+[90730]<span />
+	[90731]<span />
+		[90732]<span />
+			[90734]<span />
+				Shopify連携の編集権限（shopify_integrations:write）
+[90739]<span />
+	[89443]<span />
+	[90742]<svg /> <!-- SVG content collapsed -->
+[90744]<span />
+	[90745]<span />
+		[90746]<span />
+			[90748]<span />
+				スマレジ連携の閲覧権限（smaregi_integrations:read）
+[90753]<span />
+	[89444]<span />
+	[90756]<svg /> <!-- SVG content collapsed -->
+[90758]<span />
+	[90759]<span />
+		[90760]<span />
+			[90762]<span />
+				スマレジ連携の編集権限（smaregi_integrations:write）
+[90767]<span />
+	[89445]<span />
+	[90770]<svg /> <!-- SVG content collapsed -->
+[90772]<span />
+	[90773]<span />
+		[90774]<span />
+			[90776]<span />
+				テナントの閲覧権限（tenants:read）
+[90781]<span />
+	[89446]<span />
+	[90784]<svg /> <!-- SVG content collapsed -->
+[90786]<span />
+	[90787]<span />
+		[90788]<span />
+			[90790]<span />
+				テナントの編集権限（tenants:write）
+[90795]<span />
+	[89447]<span />
+	[90798]<svg /> <!-- SVG content collapsed -->
+[90800]<span />
+	[90801]<span />
+		[90802]<span />
+			[90804]<span />
+				翻訳ルールの閲覧権限（translation_rules:read）
+[90809]<span />
+	[89448]<span />
+	[90812]<svg /> <!-- SVG content collapsed -->
+[90814]<span />
+	[90815]<span />
+		[90816]<span />
+			[90818]<span />
+				翻訳ルールの編集権限（translation_rules:write）
+[90823]<span />
+	[89449]<span />
+	[90826]<svg /> <!-- SVG content collapsed -->
+[90828]<span />
+	[90829]<span />
+		[90830]<span />
+			[90832]<span />
+				翻訳の閲覧権限（translations:read）
+[90837]<span />
+	[89450]<span />
+	[90840]<svg /> <!-- SVG content collapsed -->
+[90842]<span />
+	[90843]<span />
+		[90844]<span />
+			[90846]<span />
+				翻訳の編集権限（translations:write）
+[90851]<span />
+	[89451]<span />
+	[90854]<svg /> <!-- SVG content collapsed -->
+[90856]<span />
+	[90857]<span />
+		[90858]<span />
+			[90860]<span />
+				ユーザー権限の閲覧権限（user_permissions:read）
+[90865]<span />
+	[89452]<span />
+	[90868]<svg /> <!-- SVG content collapsed -->
+[90870]<span />
+	[90871]<span />
+		[90872]<span />
+			[90874]<span />
+				ユーザー権限の編集権限（user_permissions:write）
+[90879]<span />
+	[89453]<span />
+	[90882]<svg /> <!-- SVG content collapsed -->
+[90884]<span />
+	[90885]<span />
+		[90886]<span />
+			[90888]<span />
+				ユーザーテナントの閲覧権限（user_tenants:read）
+[90893]<span />
+	[89454]<span />
+	[90896]<svg /> <!-- SVG content collapsed -->
+[90898]<span />
+	[90899]<span />
+		[90900]<span />
+			[90902]<span />
+				ユーザーテナントの編集権限（user_tenants:write）
+[90907]<span />
+	[89455]<span />
+	*[90909]<span />
+		[90910]<svg /> <!-- SVG content collapsed -->
+[90912]<span />
+	[90913]<span />
+		[90914]<span />
+			[90916]<span />
+				ユーザーの閲覧権限（users:read）
+[90921]<span />
+	[89456]<span />
+	[90924]<svg /> <!-- SVG content collapsed -->
+[90926]<span />
+	[90927]<span />
+		[90928]<span />
+			[90930]<span />
+				ユーザーの編集権限（users:write）
+[89269]<button />
+	作成する
+[90938]<section aria-label=Notifications alt+T live=polite />
+[89457]<div id=PolarisPortalsContainer />
+[89459]<div id=clerk-components />

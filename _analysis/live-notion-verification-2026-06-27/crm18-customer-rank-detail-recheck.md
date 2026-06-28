@@ -1,0 +1,207 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e316]:
+        - generic [ref=e317]:
+          - status:
+            - paragraph [ref=e318]: TEST_FAQ_会員ランク算出ルール。このページの準備が整いました
+          - generic [ref=e320]:
+            - link [ref=e323] [cursor=pointer]:
+              - /url: /admin/customer_rank_calculation_rules
+              - img [ref=e326]
+            - heading "TEST_FAQ_会員ランク算出ルール" [level=1] [ref=e330]
+            - link "除外商品を管理する" [ref=e334] [cursor=pointer]:
+              - /url: /admin/customer_rank_calculation_rules/37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule/exclude_products
+              - generic [ref=e335]: 除外商品を管理する
+        - generic [ref=e337]:
+          - generic [ref=e342]:
+            - heading "会員ランク" [level=2] [ref=e344]
+            - separator [ref=e345]
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - generic [ref=e350]:
+                  - generic [ref=e351]: ランク
+                  - img [ref=e352]
+                - generic [ref=e354]:
+                  - heading "Bronze" [level=3] [ref=e355]
+                  - paragraph [ref=e356]: 0円の獲得で達成
+              - link "編集" [ref=e357] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules/37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule/customer_rank_rules/ef3cca3d-4622-546b-91ec-a88aa0cf8518_CustomerRankRule
+            - separator [ref=e358]
+            - generic [ref=e360]:
+              - generic [ref=e361]:
+                - generic [ref=e363]:
+                  - generic [ref=e364]: ランク
+                  - img [ref=e365]
+                - generic [ref=e367]:
+                  - heading "シルバー" [level=3] [ref=e368]
+                  - paragraph [ref=e369]: 10000円の獲得で達成
+              - link "編集" [ref=e370] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules/37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule/customer_rank_rules/0c59c407-2bc0-54c5-942e-65be60fa8658_CustomerRankRule
+            - separator [ref=e371]
+            - link "会員ランクを追加する" [ref=e374] [cursor=pointer]:
+              - /url: /admin/customer_rank_calculation_rules/37f5da19-1289-5ff2-99ac-1b39ed8dfeaa_CustomerRankCalculationRule/customer_rank_rules/create
+              - generic [ref=e375]: 会員ランクを追加する
+          - generic [ref=e380]:
+            - generic [ref=e381]:
+              - heading "詳細" [level=2] [ref=e382]
+              - button [ref=e384] [cursor=pointer]:
+                - img [ref=e387]
+            - generic [ref=e391]:
+              - heading "テナント数" [level=3] [ref=e392]
+              - generic [ref=e393]: 0件
+            - generic [ref=e394]:
+              - heading "算出方法" [level=3] [ref=e395]
+              - paragraph [ref=e396]: 購入金額
+            - generic [ref=e397]:
+              - heading "算出期間" [level=3] [ref=e398]
+              - paragraph [ref=e399]: 直近365日間
+            - generic [ref=e400]:
+              - heading "算出タイミング" [level=3] [ref=e401]
+              - paragraph [ref=e402]: リアルタイムに算出
+            - generic [ref=e403]:
+              - heading "税金処理" [level=3] [ref=e404]
+              - paragraph [ref=e405]: 消費税を含む
+            - generic [ref=e406]:
+              - heading "会員ランクの持ち越し" [level=3] [ref=e407]
+              - paragraph [ref=e408]: 無効
+  - region "Notifications alt+T"
+  - alert [ref=e10]

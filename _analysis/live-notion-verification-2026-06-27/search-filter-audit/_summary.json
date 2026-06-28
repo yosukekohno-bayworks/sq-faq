@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "products",
+    "url": "https://www.sqstackstaging.com/admin/products",
+    "ok": true
+  },
+  {
+    "slug": "inventory-items",
+    "url": "https://www.sqstackstaging.com/admin/inventory_items",
+    "ok": true
+  },
+  {
+    "slug": "orders",
+    "url": "https://www.sqstackstaging.com/admin/orders",
+    "ok": true
+  },
+  {
+    "slug": "draft-orders",
+    "url": "https://www.sqstackstaging.com/admin/draft_orders",
+    "ok": true
+  },
+  {
+    "slug": "order-returns",
+    "url": "https://www.sqstackstaging.com/admin/order_returns",
+    "ok": true
+  },
+  {
+    "slug": "purchasing-customers",
+    "url": "https://www.sqstackstaging.com/admin/purchasing_customers",
+    "ok": true
+  },
+  {
+    "slug": "companies",
+    "url": "https://www.sqstackstaging.com/admin/companies",
+    "ok": true
+  },
+  {
+    "slug": "purchase-orders",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders",
+    "ok": true
+  },
+  {
+    "slug": "inbound-orders",
+    "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders",
+    "ok": true
+  },
+  {
+    "slug": "outbound-orders",
+    "url": "https://www.sqstackstaging.com/admin/inventory_outbound_orders",
+    "ok": true
+  },
+  {
+    "slug": "allocation-requests",
+    "url": "https://www.sqstackstaging.com/admin/inventory_allocation_requests",
+    "ok": true
+  },
+  {
+    "slug": "allocation-confirmations",
+    "url": "https://www.sqstackstaging.com/admin/inventory_allocation_request_confirmations",
+    "ok": true
+  },
+  {
+    "slug": "discounts",
+    "url": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules",
+    "ok": true
+  },
+  {
+    "slug": "point-rules",
+    "url": "https://www.sqstackstaging.com/admin/point_calculation_rules",
+    "ok": true
+  },
+  {
+    "slug": "rank-rules",
+    "url": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules",
+    "ok": true
+  },
+  {
+    "slug": "price-rules",
+    "url": "https://www.sqstackstaging.com/admin/product_price_rules",
+    "ok": true
+  },
+  {
+    "slug": "back-order-rules",
+    "url": "https://www.sqstackstaging.com/admin/inventory_back_order_rules",
+    "ok": true
+  },
+  {
+    "slug": "sale-limit-rules",
+    "url": "https://www.sqstackstaging.com/admin/inventory_sale_limit_rules",
+    "ok": true
+  },
+  {
+    "slug": "selling-thresholds",
+    "url": "https://www.sqstackstaging.com/admin/inventory_selling_thresholds",
+    "ok": true
+  },
+  {
+    "slug": "local-pickup-products",
+    "url": "https://www.sqstackstaging.com/admin/local_pickup_product_variants",
+    "ok": true
+  },
+  {
+    "slug": "catalogs",
+    "url": "https://www.sqstackstaging.com/admin/catalogs",
+    "ok": true
+  },
+  {
+    "slug": "shopify",
+    "url": "https://www.sqstackstaging.com/admin/shopify_integrations",
+    "ok": true
+  },
+  {
+    "slug": "omnibus-core",
+    "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations",
+    "ok": true
+  },
+  {
+    "slug": "smaregi",
+    "url": "https://www.sqstackstaging.com/admin/smaregi_integrations",
+    "ok": true
+  },
+  {
+    "slug": "retail-portal",
+    "url": "https://www.sqstackstaging.com/admin/retail_portal_integrations",
+    "ok": true
+  },
+  {
+    "slug": "settings-users",
+    "url": "https://www.sqstackstaging.com/admin/settings/users",
+    "ok": true
+  },
+  {
+    "slug": "permission-groups",
+    "url": "https://www.sqstackstaging.com/admin/settings/permission_groups",
+    "ok": true
+  },
+  {
+    "slug": "settings-locations",
+    "url": "https://www.sqstackstaging.com/admin/settings/locations",
+    "ok": true
+  },
+  {
+    "slug": "location-groups",
+    "url": "https://www.sqstackstaging.com/admin/settings/location_groups",
+    "ok": true
+  },
+  {
+    "slug": "brands",
+    "url": "https://www.sqstackstaging.com/admin/settings/brands",
+    "ok": true
+  },
+  {
+    "slug": "suppliers",
+    "url": "https://www.sqstackstaging.com/admin/settings/suppliers",
+    "ok": true
+  },
+  {
+    "slug": "payment-methods",
+    "url": "https://www.sqstackstaging.com/admin/settings/payment_methods",
+    "ok": true
+  },
+  {
+    "slug": "retail-staff",
+    "url": "https://www.sqstackstaging.com/admin/settings/retail_staff_members",
+    "ok": true
+  },
+  {
+    "slug": "notification-emails",
+    "url": "https://www.sqstackstaging.com/admin/settings/organization_notification_emails",
+    "ok": true
+  },
+  {
+    "slug": "apps",
+    "url": "https://www.sqstackstaging.com/admin/settings/apps",
+    "ok": true
+  },
+  {
+    "slug": "translation",
+    "url": "https://www.sqstackstaging.com/admin/settings/translation",
+    "ok": true
+  },
+  {
+    "slug": "metafields",
+    "url": "https://www.sqstackstaging.com/admin/settings/metafield_definitions",
+    "ok": true
+  },
+  {
+    "slug": "measurement-rules",
+    "url": "https://www.sqstackstaging.com/admin/settings/measurement_rules",
+    "ok": true
+  },
+  {
+    "slug": "csv-export",
+    "url": "https://www.sqstackstaging.com/admin/csv_export",
+    "ok": true
+  },
+  {
+    "slug": "csv-import",
+    "url": "https://www.sqstackstaging.com/admin/csv_import",
+    "ok": true
+  },
+  {
+    "slug": "sales",
+    "url": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+    "ok": true
+  },
+  {
+    "slug": "b2b",
+    "url": "https://www.sqstackstaging.com/admin/b2b",
+    "ok": true
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-06-28T00:53:18.423401+00:00",
+  "testCustomer": {
+    "externalID": "FAQ_E2E_UNIQLO_CUSTOMER_20260628095318",
+    "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+    "tenantID": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+    "tenantName": "ユニクロ",
+    "tag": "FAQ_E2E_20260628"
+  },
+  "steps": [
+    {
+      "label": "before-create-list",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 顧客管理。このページの準備が整いました 顧客管理 インポート すべて すべてのアイテムを選択する 顧客名 テナント ステータス メール購読 アイテムを選択する 検証顧客094055FAQ TEST_FAQ_20260624_TENANT_170037 成功 アクティブ 未登録",
+      "rows": [
+        "すべてのアイテムを選択する 顧客名 テナント ステータス メール購読",
+        "アイテムを選択する 検証顧客094055FAQ TEST_FAQ_20260624_TENANT_170037 成功 アクティブ 未登録"
+      ],
+      "headers": [
+        "顧客管理",
+        "すべてのアイテムを選択する",
+        "顧客名",
+        "テナント",
+        "ステータス",
+        "メール購読"
+      ]
+    },
+    {
+      "label": "customer-detail-direct",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 検証顧客ユニクロ095318FAQ。このページの準備が整いました 検証顧客ユニクロ095318FAQ すべての注文を表示 その他の操作 直近の注文 このお客様はまだ注文していません ポイント 保有ポイント 0 ポイント 付与予定 0 ポイント ポイントを加算 ポイントを減算 ポイント履歴はありません すべての履歴を表示 マイル 保有マイル 0 マイル 累計獲得 0 マイル マイルを加算 マイルを減算 マイル履歴はありません すべての履歴を表示 ディスカウント ディスカウントはありません すべてのディスカウントを表示 メタフィールド 性別 未設定 会員番号 FAQUNI0628095318 顧客情報 氏名 検証顧客ユニクロ095318FAQ メールアドレス sq-faq-uniqlo-customer-20260628095318@example.invalid 電話番号 0000000000 SMS認証 未完了 未認証 外部ID FAQ_E2E_UNIQLO_CUSTOMER_20260628095318 作成日時 2026年06月28日 09:53 更新日時 2026年06月28日 09:53 購買サマリー 初回購入日 - 初回購入場所(店舗コード) - 最終購入日 - 最終購入場所(店舗コード) - メモ この顧客にはメモがありません。 タグ FAQ_E2E_20260628",
+      "rows": [],
+      "headers": [
+        "検証顧客ユニクロ095318FAQ",
+        "直近の注文",
+        "ポイント",
+        "保有ポイント",
+        "付与予定",
+        "マイル",
+        "保有マイル",
+        "累計獲得",
+        "ディスカウント",
+        "メタフィールド",
+        "性別",
+        "会員番号",
+        "顧客情報",
+        "氏名",
+        "メールアドレス",
+        "電話番号",
+        "SMS認証",
+        "外部ID",
+        "作成日時",
+        "更新日時",
+        "購買サマリー",
+        "初回購入日",
+        "初回購入場所(店舗コード)",
+        "最終購入日",
+        "最終購入場所(店舗コード)",
+        "メモ",
+        "タグ"
+      ]
+    }
+  ],
+  "facts": {
+    "customerID": "e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer",
+    "customerEmail": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+    "customerFullName": "検証顧客ユニクロ095318FAQ",
+    "customerTenantID": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+    "customerTenantName": "ユニクロ",
+    "customerOrderCount": 0,
+    "createdByInternalGraphql": true,
+    "detailShowsCustomer": true
+  },
+  "errors": [],
+  "existingLookup": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "purchasingCustomerByExternalID": null
+      }
+    },
+    "textSample": "{\"data\":{\"purchasingCustomerByExternalID\":null}}"
+  },
+  "createResult": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "purchasingCustomerCreate": {
+          "purchasingCustomer": {
+            "id": "e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer",
+            "externalID": "FAQ_E2E_UNIQLO_CUSTOMER_20260628095318",
+            "firstName": "FAQ",
+            "lastName": "検証顧客ユニクロ095318",
+            "fullName": "検証顧客ユニクロ095318FAQ",
+            "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+            "phone": "0000000000",
+            "barcode": "FAQUNI0628095318",
+            "tags": [
+              "FAQ_E2E_20260628"
+            ],
+            "orderCount": 0,
+            "tenant": {
+              "id": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+              "name": "ユニクロ"
+            }
+          }
+        }
+      }
+    },
+    "textSample": "{\"data\":{\"purchasingCustomerCreate\":{\"purchasingCustomer\":{\"id\":\"e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer\",\"externalID\":\"FAQ_E2E_UNIQLO_CUSTOMER_20260628095318\",\"firstName\":\"FAQ\",\"lastName\":\"検証顧客ユニクロ095318\",\"fullName\":\"検証顧客ユニクロ095318FAQ\",\"email\":\"sq-faq-uniqlo-customer-20260628095318@example.invalid\",\"phone\":\"0000000000\",\"barcode\":\"FAQUNI0628095318\",\"tags\":[\"FAQ_E2E_20260628\"],\"orderCount\":0,\"tenant\":{\"id\":\"da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant\",\"name\":\"ユニクロ\"}}}}}"
+  }
+}

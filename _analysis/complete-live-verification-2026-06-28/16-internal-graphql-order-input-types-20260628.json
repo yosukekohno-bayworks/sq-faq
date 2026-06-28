@@ -1,0 +1,1544 @@
+{
+  "generatedAt": "2026-06-28T00:38:35.399660+00:00",
+  "targetMutations": [
+    "orderCreate",
+    "orderReturnCreate",
+    "orderRefundCreate",
+    "saleChangeCreate",
+    "purchasingCustomerCreate",
+    "inventoryOutboundOrderComplete"
+  ],
+  "mutationArgs": {
+    "inventoryOutboundOrderComplete": [
+      {
+        "name": "input",
+        "type": "InventoryOutboundOrderCompleteInput!",
+        "baseType": "InventoryOutboundOrderCompleteInput"
+      },
+      {
+        "name": "option",
+        "type": "InventoryOutboundOrderCompleteOptionInput",
+        "baseType": "InventoryOutboundOrderCompleteOptionInput"
+      }
+    ],
+    "orderCreate": [
+      {
+        "name": "input",
+        "type": "OrderCreateInput!",
+        "baseType": "OrderCreateInput"
+      },
+      {
+        "name": "option",
+        "type": "OrderCreateOptionInput!",
+        "baseType": "OrderCreateOptionInput"
+      }
+    ],
+    "orderRefundCreate": [
+      {
+        "name": "input",
+        "type": "OrderRefundCreateInput!",
+        "baseType": "OrderRefundCreateInput"
+      }
+    ],
+    "orderReturnCreate": [
+      {
+        "name": "input",
+        "type": "OrderReturnCreateInput!",
+        "baseType": "OrderReturnCreateInput"
+      }
+    ],
+    "purchasingCustomerCreate": [
+      {
+        "name": "input",
+        "type": "PurchasingCustomerCreateInput!",
+        "baseType": "PurchasingCustomerCreateInput"
+      }
+    ],
+    "saleChangeCreate": [
+      {
+        "name": "input",
+        "type": "SaleChangeCreateInput!",
+        "baseType": "SaleChangeCreateInput"
+      },
+      {
+        "name": "option",
+        "type": "SaleChangeCreateOptionInput",
+        "baseType": "SaleChangeCreateOptionInput"
+      }
+    ]
+  },
+  "inputTypes": {
+    "InventoryOutboundOrderCompleteInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "inventoryOutboundOrderID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "fulfilledAt",
+          "type": "DateTime",
+          "baseType": "DateTime",
+          "defaultValue": null
+        },
+        {
+          "name": "shippingCarrier",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "trackingCodes",
+          "type": "[String!]",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "packages",
+          "type": "[InventoryOutboundOrderCompleteShippingPackageInput!]",
+          "baseType": "InventoryOutboundOrderCompleteShippingPackageInput",
+          "defaultValue": null
+        },
+        {
+          "name": "lineItems",
+          "type": "[InventoryOutboundOrderCompleteLineItemInput!]",
+          "baseType": "InventoryOutboundOrderCompleteLineItemInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "InventoryOutboundOrderCompleteOptionInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "skipsToSyncIntegration",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "managementCode",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "receiptNumber",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "source",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": "\"API\""
+        },
+        {
+          "name": "tenantID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "currencyCode",
+          "type": "CurrencyCode!",
+          "baseType": "CurrencyCode",
+          "defaultValue": null
+        },
+        {
+          "name": "purchasingCustomer",
+          "type": "OrderCreatePurchasingCustomerInput",
+          "baseType": "OrderCreatePurchasingCustomerInput",
+          "defaultValue": null
+        },
+        {
+          "name": "purchasingCompany",
+          "type": "OrderCreatePurchasingCompanyInput",
+          "baseType": "OrderCreatePurchasingCompanyInput",
+          "defaultValue": null
+        },
+        {
+          "name": "tags",
+          "type": "[String!]",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "purchasedAt",
+          "type": "DateTime!",
+          "baseType": "DateTime",
+          "defaultValue": null
+        },
+        {
+          "name": "cancelledAt",
+          "type": "DateTime",
+          "baseType": "DateTime",
+          "defaultValue": null
+        },
+        {
+          "name": "deliveryDate",
+          "type": "DateTime",
+          "baseType": "DateTime",
+          "defaultValue": null
+        },
+        {
+          "name": "isLocked",
+          "type": "Boolean",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "isEditable",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": "false"
+        },
+        {
+          "name": "isDeletable",
+          "type": "Boolean",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "note",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "billingAddress",
+          "type": "OrderCreateBillingAddressInput",
+          "baseType": "OrderCreateBillingAddressInput",
+          "defaultValue": null
+        },
+        {
+          "name": "shippingAddress",
+          "type": "OrderCreateShippingAddressInput",
+          "baseType": "OrderCreateShippingAddressInput",
+          "defaultValue": null
+        },
+        {
+          "name": "email",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "attributes",
+          "type": "[OrderCreateAttributeInput!]",
+          "baseType": "OrderCreateAttributeInput",
+          "defaultValue": null
+        },
+        {
+          "name": "metafields",
+          "type": "[MetafieldInput!]",
+          "baseType": "MetafieldInput",
+          "defaultValue": null
+        },
+        {
+          "name": "lineItems",
+          "type": "[OrderCreateLineItemInput!]!",
+          "baseType": "OrderCreateLineItemInput",
+          "defaultValue": null
+        },
+        {
+          "name": "shippingLines",
+          "type": "[OrderCreateShippingLineInput!]",
+          "baseType": "OrderCreateShippingLineInput",
+          "defaultValue": null
+        },
+        {
+          "name": "taxesIncluded",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "fulfillment",
+          "type": "OrderCreateFulfillmentInput",
+          "baseType": "OrderCreateFulfillmentInput",
+          "defaultValue": null
+        },
+        {
+          "name": "inventoryOutboundOrders",
+          "type": "[OrderCreateInventoryOutboundOrderInput!]",
+          "baseType": "OrderCreateInventoryOutboundOrderInput",
+          "defaultValue": null
+        },
+        {
+          "name": "retail",
+          "type": "OrderCreateRetailInput",
+          "baseType": "OrderCreateRetailInput",
+          "defaultValue": null
+        },
+        {
+          "name": "retailStaffMember",
+          "type": "OrderCreateRetailStaffMemberInput",
+          "baseType": "OrderCreateRetailStaffMemberInput",
+          "defaultValue": null
+        },
+        {
+          "name": "transactions",
+          "type": "[OrderCreateTransactionInput!]",
+          "baseType": "OrderCreateTransactionInput",
+          "defaultValue": null
+        },
+        {
+          "name": "additionalFees",
+          "type": "[OrderCreateAdditionalFeeInput!]",
+          "baseType": "OrderCreateAdditionalFeeInput",
+          "defaultValue": null
+        },
+        {
+          "name": "discounts",
+          "type": "[OrderCreateDiscountInput!]",
+          "baseType": "OrderCreateDiscountInput",
+          "defaultValue": null
+        },
+        {
+          "name": "useDiscountAllocationInput",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "pointApplication",
+          "type": "OrderCreatePointApplicationInput",
+          "baseType": "OrderCreatePointApplicationInput",
+          "defaultValue": null
+        },
+        {
+          "name": "priceAdjustmentUsages",
+          "type": "OrderCreatePriceAdjustmentUsagesInput",
+          "baseType": "OrderCreatePriceAdjustmentUsagesInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateOptionInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "inventoryBehavior",
+          "type": "InventoryBehavior!",
+          "baseType": "InventoryBehavior",
+          "defaultValue": null
+        },
+        {
+          "name": "integrationsToSync",
+          "type": "OrderCreateOptionIntegrationsToSyncInput",
+          "baseType": "OrderCreateOptionIntegrationsToSyncInput",
+          "defaultValue": null
+        },
+        {
+          "name": "bypassesPointCalculation",
+          "type": "Boolean",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "excludesFromCustomerRankCalculation",
+          "type": "Boolean",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "excludesFromSalesRecording",
+          "type": "Boolean",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "createInventoryOutboundOrderAsOnHold",
+          "type": "Boolean",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderRefundCreateInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "orderID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "orderRefundLineItems",
+          "type": "[OrderRefundLineItemInput!]!",
+          "baseType": "OrderRefundLineItemInput",
+          "defaultValue": null
+        },
+        {
+          "name": "notifyCustomer",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderReturnCreateInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "orderID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "orderReturnLineItems",
+          "type": "[OrderReturnLineItemCreateInput!]",
+          "baseType": "OrderReturnLineItemCreateInput",
+          "defaultValue": null
+        },
+        {
+          "name": "exchangeInventoryLocationID",
+          "type": "ID",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "received",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "PurchasingCustomerCreateInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "tenantID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "externalID",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "source",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": "\"API\""
+        },
+        {
+          "name": "barcode",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "firstName",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "lastName",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "email",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "phone",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "gender",
+          "type": "Gender",
+          "baseType": "Gender",
+          "defaultValue": null
+        },
+        {
+          "name": "tags",
+          "type": "[String!]",
+          "baseType": "String",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "SaleChangeCreateInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "sourceResourceID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "tenantID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "processedAt",
+          "type": "DateTime",
+          "baseType": "DateTime",
+          "defaultValue": null
+        },
+        {
+          "name": "currencyCode",
+          "type": "CurrencyCode!",
+          "baseType": "CurrencyCode",
+          "defaultValue": null
+        },
+        {
+          "name": "taxesIncluded",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "lineItems",
+          "type": "[SaleChangeCreateLineItemInput!]!",
+          "baseType": "SaleChangeCreateLineItemInput",
+          "defaultValue": null
+        },
+        {
+          "name": "orderLevelDiscountPrice",
+          "type": "Decimal",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "shippingPrice",
+          "type": "Decimal",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "shippingTaxPrice",
+          "type": "Decimal",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "shippingDiscountPrice",
+          "type": "Decimal",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "pointApplicationPrice",
+          "type": "Decimal",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "metafields",
+          "type": "[MetafieldInput!]",
+          "baseType": "MetafieldInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "SaleChangeCreateOptionInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "orderID",
+          "type": "ID",
+          "baseType": "ID",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "InventoryOutboundOrderCompleteShippingPackageInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "managementCode",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "lineItems",
+          "type": "[InventoryOutboundOrderCompleteShippingPackageLineItemInput!]!",
+          "baseType": "InventoryOutboundOrderCompleteShippingPackageLineItemInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "InventoryOutboundOrderCompleteLineItemInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "inventoryOutboundOrderLineItemID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "quantity",
+          "type": "Int!",
+          "baseType": "Int",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreatePurchasingCustomerInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "customerID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreatePurchasingCompanyInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "companyID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "companyLocationID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "companyContactID",
+          "type": "ID",
+          "baseType": "ID",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateBillingAddressInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "firstName",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "lastName",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "company",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "address1",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "address2",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "city",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "postalCode",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "provinceCode",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "countryCode",
+          "type": "CountryCode!",
+          "baseType": "CountryCode",
+          "defaultValue": null
+        },
+        {
+          "name": "phone",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateShippingAddressInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "firstName",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "lastName",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "company",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "address1",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "address2",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "city",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "postalCode",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "provinceCode",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "countryCode",
+          "type": "CountryCode!",
+          "baseType": "CountryCode",
+          "defaultValue": null
+        },
+        {
+          "name": "phone",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateAttributeInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "name",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "value",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "MetafieldInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "namespace",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "key",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "valueType",
+          "type": "MetafieldValueType!",
+          "baseType": "MetafieldValueType",
+          "defaultValue": null
+        },
+        {
+          "name": "value",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateLineItemInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "productTitle",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "variantTitle",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "sku",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "quantity",
+          "type": "Int!",
+          "baseType": "Int",
+          "defaultValue": null
+        },
+        {
+          "name": "unitPrice",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        },
+        {
+          "name": "isBackOrder",
+          "type": "Boolean",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "taxLines",
+          "type": "[OrderCreateLineItemTaxLineInput!]",
+          "baseType": "OrderCreateLineItemTaxLineInput",
+          "defaultValue": null
+        },
+        {
+          "name": "discounts",
+          "type": "[OrderCreateLineItemDiscountInput!]",
+          "baseType": "OrderCreateLineItemDiscountInput",
+          "defaultValue": null
+        },
+        {
+          "name": "discountAllocations",
+          "type": "[OrderCreateLineItemDiscountAllocationInput!]",
+          "baseType": "OrderCreateLineItemDiscountAllocationInput",
+          "defaultValue": null
+        },
+        {
+          "name": "pointApplicationAllocation",
+          "type": "OrderCreateLineItemPointAllocationInput",
+          "baseType": "OrderCreateLineItemPointAllocationInput",
+          "defaultValue": null
+        },
+        {
+          "name": "excludesFromPointCalculation",
+          "type": "Boolean",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateShippingLineInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "title",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        },
+        {
+          "name": "taxLines",
+          "type": "[OrderCreateShippingLineTaxLineInput!]",
+          "baseType": "OrderCreateShippingLineTaxLineInput",
+          "defaultValue": null
+        },
+        {
+          "name": "discounts",
+          "type": "[OrderCreateShippingLineDiscountInput!]",
+          "baseType": "OrderCreateShippingLineDiscountInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateFulfillmentInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "locationID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "requiresFulfillment",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateInventoryOutboundOrderInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "locationID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "isFulfilled",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "lineItems",
+          "type": "[OrderCreateInventoryOutboundOrderLineItemInput!]!",
+          "baseType": "OrderCreateInventoryOutboundOrderLineItemInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateRetailInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "locationID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateRetailStaffMemberInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "code",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateTransactionInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "paymentID",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "kind",
+          "type": "OrderTransactionKind!",
+          "baseType": "OrderTransactionKind",
+          "defaultValue": null
+        },
+        {
+          "name": "gateway",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        },
+        {
+          "name": "orderTransactionCreatedAt",
+          "type": "DateTime!",
+          "baseType": "DateTime",
+          "defaultValue": null
+        },
+        {
+          "name": "authorizationExpiresAt",
+          "type": "DateTime",
+          "baseType": "DateTime",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateAdditionalFeeInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "name",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        },
+        {
+          "name": "taxPrice",
+          "type": "MoneyInput",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateDiscountInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "allocationKey",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "title",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "code",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreatePointApplicationInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "point",
+          "type": "Decimal!",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "pointApplicationType",
+          "type": "PointApplicationType!",
+          "baseType": "PointApplicationType",
+          "defaultValue": null
+        },
+        {
+          "name": "usePointAllocationInput",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreatePriceAdjustmentUsagesInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "codes",
+          "type": "[String!]!",
+          "baseType": "String",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateOptionIntegrationsToSyncInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "shopifyIntegrationIDs",
+          "type": "[ID!]",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "sendReceipt",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        },
+        {
+          "name": "sendFulfillmentReceipt",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderRefundLineItemInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "orderLineItemID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "quantity",
+          "type": "Int!",
+          "baseType": "Int",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "OrderRefundLineItemPriceInput",
+          "baseType": "OrderRefundLineItemPriceInput",
+          "defaultValue": null
+        },
+        {
+          "name": "restock",
+          "type": "Boolean!",
+          "baseType": "Boolean",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderReturnLineItemCreateInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "orderLineItemID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "quantity",
+          "type": "Int!",
+          "baseType": "Int",
+          "defaultValue": null
+        },
+        {
+          "name": "reason",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "exchangeLineItem",
+          "type": "OrderReturnLineItemCreateExchangeLineItemInput",
+          "baseType": "OrderReturnLineItemCreateExchangeLineItemInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "SaleChangeCreateLineItemInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "externalID",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "sku",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "quantity",
+          "type": "Int!",
+          "baseType": "Int",
+          "defaultValue": null
+        },
+        {
+          "name": "salePrice",
+          "type": "Decimal!",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "taxPrice",
+          "type": "Decimal",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "discountPrice",
+          "type": "Decimal",
+          "baseType": "Decimal",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "InventoryOutboundOrderCompleteShippingPackageLineItemInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "productVariantID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        },
+        {
+          "name": "quantity",
+          "type": "Int!",
+          "baseType": "Int",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "MoneyInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "amount",
+          "type": "Decimal!",
+          "baseType": "Decimal",
+          "defaultValue": null
+        },
+        {
+          "name": "currencyCode",
+          "type": "CurrencyCode!",
+          "baseType": "CurrencyCode",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateLineItemTaxLineInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "title",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        },
+        {
+          "name": "rate",
+          "type": "Decimal!",
+          "baseType": "Decimal",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateLineItemDiscountInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "title",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "code",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateLineItemDiscountAllocationInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "key",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateLineItemPointAllocationInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "point",
+          "type": "Decimal!",
+          "baseType": "Decimal",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateShippingLineTaxLineInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "title",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        },
+        {
+          "name": "rate",
+          "type": "Decimal!",
+          "baseType": "Decimal",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateShippingLineDiscountInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "title",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "code",
+          "type": "String",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderCreateInventoryOutboundOrderLineItemInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "sku",
+          "type": "String!",
+          "baseType": "String",
+          "defaultValue": null
+        },
+        {
+          "name": "quantity",
+          "type": "Int!",
+          "baseType": "Int",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderRefundLineItemPriceInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "price",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        },
+        {
+          "name": "taxPrice",
+          "type": "MoneyInput!",
+          "baseType": "MoneyInput",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    },
+    "OrderReturnLineItemCreateExchangeLineItemInput": {
+      "kind": "INPUT_OBJECT",
+      "fields": [
+        {
+          "name": "productVariantID",
+          "type": "ID!",
+          "baseType": "ID",
+          "defaultValue": null
+        }
+      ],
+      "enumValues": []
+    }
+  },
+  "facts": {
+    "targetMutationCount": 6,
+    "inputTypeCount": 43,
+    "hasOrderCreateInput": true,
+    "hasPurchasingCustomerCreateInput": true,
+    "orderCreateArgs": [
+      {
+        "name": "input",
+        "type": "OrderCreateInput!",
+        "baseType": "OrderCreateInput"
+      },
+      {
+        "name": "option",
+        "type": "OrderCreateOptionInput!",
+        "baseType": "OrderCreateOptionInput"
+      }
+    ],
+    "purchasingCustomerCreateArgs": [
+      {
+        "name": "input",
+        "type": "PurchasingCustomerCreateInput!",
+        "baseType": "PurchasingCustomerCreateInput"
+      }
+    ]
+  },
+  "errors": []
+}

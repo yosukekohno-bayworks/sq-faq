@@ -1,0 +1,221 @@
+viewport: 1209x785
+page: 1209x1135
+scroll: (0, 0)
+[60200]<a />
+	コンテンツにスキップ
+[60347]<div />
+[60203]<button data-state=closed expanded=false />
+[60204]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[60364]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[60208]<a />
+		ホーム
+	[60209]<a />
+		商品管理
+	[60210]<a />
+		在庫管理
+	[60211]<a />
+		注文管理
+		[60415]<div />
+	[60212]<a />
+		顧客管理
+	[60213]<a />
+		発注管理
+	[60214]<a />
+		販売設定
+	[60215]<a />
+		会計
+	[60216]<a />
+		分析
+	オペレーション
+	[60217]<a />
+		入荷管理
+		[60499]<div />
+	[60218]<a />
+		出荷管理
+		[60510]<div />
+	[60219]<a />
+		在庫依頼
+		[60522]<div />
+	CRM
+	[60220]<a />
+		ディスカウント
+	[60221]<a />
+		ポイント
+	[60222]<a />
+		会員ランク
+	販売チャネル
+	[60194]<a />
+		Shopify
+	[60223]<a />
+		OmnibusCore
+	[60224]<a />
+		スマレジ
+	[60225]<a />
+		リテールポータル
+	[60226]<a />
+		卸売
+	[60227]<a />
+		設定
+CSVエクスポート。このページの準備が整いました
+[60624]<div />
+	[60625]<div />
+		[60229]<a />
+CSVエクスポート
+[60644]<div />
+	[60230]<button role=menuitem />
+		マスターデータ
+	[60231]<button role=menuitem />
+		価格
+	[60232]<button role=menuitem />
+		出荷
+	[60233]<button role=menuitem />
+		実績
+	[60234]<button role=menuitem />
+		ポイント
+[60715]<span />
+	[60716]<svg /> <!-- SVG content collapsed -->
+マスターデータ
+[60235]<div />
+	[60726]<div id=InventoryLogicalQuantity />
+		[60727]<div />
+			[60728]<div />
+				[60729]<div />
+					[60730]<div />
+						[60731]<div />
+							[60732]<div />
+								[60733]<h3 level=3 />
+									在庫
+								[60735]<p />
+									指定されたロケーションの在庫数をエクスポートできます。
+							[60737]<span />
+								[60738]<svg /> <!-- SVG content collapsed -->
+[60237]<div />
+	[60743]<div id=ProductVariant />
+		[60744]<div />
+			[60745]<div />
+				[60746]<div />
+					[60747]<div />
+						[60748]<div />
+							[60749]<div />
+								[60750]<h3 level=3 />
+									商品バリエーション
+								[60752]<p />
+									商品バリエーション一覧をエクスポートできます。
+							[60754]<span />
+								[60755]<svg /> <!-- SVG content collapsed -->
+[60239]<div />
+	[60760]<div id=LocationByLocationGroup />
+		[60761]<div />
+			[60762]<div />
+				[60763]<div />
+					[60764]<div />
+						[60765]<div />
+							[60766]<div />
+								[60767]<h3 level=3 />
+									ロケーション
+								[60769]<p />
+									指定されたロケーショングループに含まれているすべてのロケーションをエクスポートできます。
+							[60771]<span />
+								[60772]<svg /> <!-- SVG content collapsed -->
+[60241]<div />
+	[60777]<div id=OrderPriceAdjustmentUsage />
+		[60778]<div />
+			[60779]<div />
+				[60780]<div />
+					[60781]<div />
+						[60782]<div />
+							[60783]<div />
+								[60196]<h3 level=3 />
+									ディスカウントの利用履歴
+								[60785]<p />
+									指定されたディスカウントの利用履歴をエクスポートできます。
+							[60787]<span />
+								[60788]<svg /> <!-- SVG content collapsed -->
+[60796]<span />
+	[60797]<svg /> <!-- SVG content collapsed -->
+価格
+[60243]<div />
+	[60808]<div id=ProductPriceRuleSalePrice />
+		[60809]<div />
+			[60810]<div />
+				[60811]<div />
+					[60812]<div />
+						[60813]<div />
+							[60814]<div />
+								[60815]<h3 level=3 />
+									セール価格
+								[60817]<p />
+									指定された販売価格ルールのセール価格をエクスポートできます。
+							[60819]<span />
+								[60820]<svg /> <!-- SVG content collapsed -->
+[60828]<span />
+	[60829]<svg /> <!-- SVG content collapsed -->
+出荷
+[60245]<div />
+	[60839]<div id=InventoryOutboundOrderYamatoB2Cloud />
+		[60840]<div />
+			[60841]<div />
+				[60842]<div />
+					[60843]<div />
+						[60844]<div />
+							[60845]<div />
+								[60846]<h3 level=3 />
+									ヤマトB2クラウド
+								[60197]<p />
+									ヤマトB2クラウドに取り込む出荷指示をエクスポートできます。
+							[60849]<span />
+								[60850]<svg /> <!-- SVG content collapsed -->
+[60858]<span />
+	[60859]<svg /> <!-- SVG content collapsed -->
+実績
+[60247]<div />
+	[60869]<div id=SaleChange />
+		[60870]<div />
+			[60871]<div />
+				[60872]<div />
+					[60873]<div />
+						[60874]<div />
+							[60875]<div />
+								[60876]<h3 level=3 />
+									売上実績（注文軸）
+								[60878]<p />
+									指定された期間の注文軸の売上実績をエクスポートできます。
+							[60880]<span />
+								[60881]<svg /> <!-- SVG content collapsed -->
+[60249]<div />
+	[60886]<div id=SaleChangeLineItem />
+		[60887]<div />
+			[60888]<div />
+				[60889]<div />
+					[60890]<div />
+						[60891]<div />
+							[60892]<div />
+								[60893]<h3 level=3 />
+									売上実績（明細軸）
+								[60895]<p />
+									指定された期間の明細軸の売上実績をエクスポートできます。
+							[60897]<span />
+								[60898]<svg /> <!-- SVG content collapsed -->
+[60906]<span />
+	[60907]<svg /> <!-- SVG content collapsed -->
+ポイント
+[60251]<div />
+	[60918]<div id=PointChange />
+		[60919]<div />
+			[60920]<div />
+				[60921]<div />
+					[60922]<div />
+						[60923]<div />
+							[60924]<div />
+								[60925]<h3 level=3 />
+									ポイント変動履歴
+								[60927]<p />
+									指定された期間のポイント変動履歴をエクスポートできます。
+							[60929]<span />
+								[60930]<svg /> <!-- SVG content collapsed -->
+[60932]<section aria-label=Notifications alt+T live=polite />
+[60252]<div id=PolarisPortalsContainer />
+[60254]<div id=clerk-components />

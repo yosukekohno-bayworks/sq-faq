@@ -1,0 +1,110 @@
+result: [
+  {
+    "i": 81,
+    "tag": "SPAN",
+    "type": "",
+    "text": "編集する",
+    "ariaDisabled": null,
+    "name": null,
+    "id": "",
+    "bbox": [
+      791,
+      322,
+      48,
+      16
+    ]
+  },
+  {
+    "i": 82,
+    "tag": "LABEL",
+    "type": "",
+    "text": "このグループに新しいロケーションを自動的に含める",
+    "ariaDisabled": null,
+    "name": null,
+    "id": "",
+    "bbox": [
+      280,
+      387,
+      336,
+      28
+    ]
+  },
+  {
+    "i": 85,
+    "tag": "INPUT",
+    "type": "checkbox",
+    "text": "",
+    "checked": false,
+    "disabled": true,
+    "ariaDisabled": null,
+    "name": null,
+    "id": ":r2g:",
+    "bbox": [
+      281,
+      393,
+      16,
+      16
+    ]
+  },
+  {
+    "i": 88,
+    "tag": "SPAN",
+    "type": "",
+    "text": "このグループに新しいロケーションを自動的に含める",
+    "ariaDisabled": null,
+    "name": null,
+    "id": "",
+    "bbox": [
+      306,
+      391,
+      310,
+      20
+    ]
+  },
+  {
+    "i": 89,
+    "tag": "SPAN",
+    "type": "",
+    "text": "このグループに新しいロケーションを自動的に含める",
+    "ariaDisabled": null,
+    "name": null,
+    "id": "",
+    "bbox": [
+      306,
+      392,
+      310,
+      16
+    ]
+  },
+  {
+    "i": 96,
+    "tag": "BUTTON",
+    "type": "button",
+    "text": "保存する",
+    "disabled": false,
+    "ariaDisabled": "true",
+    "name": null,
+    "id": "",
+    "bbox": [
+      1113,
+      463,
+      72,
+      28
+    ]
+  },
+  {
+    "i": 97,
+    "tag": "SPAN",
+    "type": "",
+    "text": "保存する",
+    "ariaDisabled": null,
+    "name": null,
+    "id": "",
+    "bbox": [
+      1125,
+      469,
+      48,
+      16
+    ]
+  }
+]

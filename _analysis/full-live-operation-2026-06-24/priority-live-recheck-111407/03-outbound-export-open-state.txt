@@ -1,0 +1,98 @@
+viewport: 1209x785
+page: 1209x785
+scroll: (0, 0)
+[61475]<a />
+	コンテンツにスキップ
+[61638]<div />
+[61478]<button data-state=closed expanded=false />
+[61479]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[61655]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[61483]<a />
+		ホーム
+	[61484]<a />
+		商品管理
+	[61485]<a />
+		在庫管理
+	[61486]<a />
+		注文管理
+		[61706]<div />
+	[61487]<a />
+		顧客管理
+	[61488]<a />
+		発注管理
+	[61489]<a />
+		販売設定
+	[61490]<a />
+		会計
+	[61491]<a />
+		分析
+	オペレーション
+	[61492]<a />
+		入荷管理
+		[61790]<div />
+	[61493]<a />
+		出荷管理
+		[61801]<div />
+	[61494]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[61495]<a />
+		ディスカウント
+	[61496]<a />
+		ポイント
+	[61497]<a />
+		会員ランク
+	販売チャネル
+	[61498]<a />
+		Shopify
+	[61499]<a />
+		OmnibusCore
+	[61500]<a />
+		スマレジ
+	[61501]<a />
+		リテールポータル
+	[61502]<a />
+		卸売
+	[61503]<a />
+		設定
+出荷管理。このページの準備が整いました
+出荷管理
+[61505]<button data-state=closed expanded=false />
+	インポート
+[61506]<button data-state=open expanded=true />
+	条件指定でエクスポート
+[61514]<button id=0 role=tab selected=false />
+	保留中
+	新規
+[61515]<button id=1 role=tab selected=true />
+	出荷待ち
+[61516]<button id=2 role=tab selected=false />
+	依頼済み
+	新規
+[61517]<button id=3 role=tab selected=false />
+	作業中
+	新規
+[61518]<button id=4 role=tab selected=false />
+	欠品・要対応
+	新規
+[61519]<button id=5 role=tab selected=false />
+	出荷完了
+[62077]<div />
+	[61521]<button aria-label=検索と絞り込みの結果 />
+[62099]<div />
+	アイテムが見つかりませんでした
+	絞り込みや検索ワードを変更してみてください
+[61522]<button id=previousURL aria-label=前へ disabled=true />
+[61523]<button id=nextURL aria-label=次へ disabled=true />
+[62124]<section aria-label=Notifications alt+T live=polite />
+[61524]<div id=PolarisPortalsContainer />
+	*[62224]<div id=:r28: />
+		*[62221]<div />
+			*[62217]<a />
+				ヤマトB2クラウド
+	*[62227]<div />
+[61526]<div id=clerk-components />

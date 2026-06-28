@@ -1,0 +1,129 @@
+viewport: 1209x785
+page: 1209x1079
+scroll: (0, 0)
+[68737]<a />
+	コンテンツにスキップ
+[68869]<div />
+[68740]<button data-state=closed expanded=false />
+[68741]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[68886]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[68745]<a />
+		ホーム
+	[68746]<a />
+		商品管理
+	[68747]<a />
+		在庫管理
+	[68748]<a />
+		注文管理
+		[68937]<div />
+	[68749]<a />
+		顧客管理
+	[68750]<a />
+		発注管理
+	[68751]<a />
+		販売設定
+	[68752]<a />
+		会計
+	[68753]<a />
+		分析
+	オペレーション
+	[68754]<a />
+		入荷管理
+		[69021]<div />
+	[68755]<a />
+		出荷管理
+		[69032]<div />
+	[68756]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[68719]<a />
+		ディスカウント
+	[68757]<a />
+		ポイント
+	[68758]<a />
+		会員ランク
+	販売チャネル
+	[68759]<a />
+		Shopify
+	[68760]<a />
+		OmnibusCore
+	[68761]<a />
+		スマレジ
+	[68762]<a />
+		リテールポータル
+	[68763]<a />
+		卸売
+	[68764]<a />
+		設定
+ストアを連携する。このページの準備が整いました
+[69150]<div />
+	[69151]<div />
+		[68766]<a />
+ストアを連携する
+ストア名
+|SHADOW(open)|[68724]<input id=:r1c: placeholder=オンラインストア autocomplete=off type=text required=true />
+ショップドメイン
+|SHADOW(open)|[68725]<input id=:r1d: placeholder=stack.myshopify.com autocomplete=off type=text required=true />
+shop.myshopify.com の形式で入力してください
+テナント
+選択してください
+[69216]<span />
+	[69217]<span />
+		[69218]<svg /> <!-- SVG content collapsed -->
+このストアから作成された注文は、選択されたテナントに紐付けられます。
+カタログ
+選択してください
+[69242]<span />
+	[69243]<span />
+		[69244]<svg /> <!-- SVG content collapsed -->
+ロケーショングループ
+選択してください
+[69266]<span />
+	[69267]<span />
+		[69268]<svg /> <!-- SVG content collapsed -->
+Shopifyから連携される注文の在庫は、ロケーションの指定がない限り設定されたロケーショングループのデフォルトのロケーションから引き当てられます
+販売価格ルール
+選択してください
+[69296]<span />
+	[69297]<span />
+		[69298]<svg /> <!-- SVG content collapsed -->
+選択した販売価格ルールに基づいて、Shopifyの販売価格を設定します
+会員番号の生成方法
+Shopify ID（数値部分）
+[69319]<span />
+	[69320]<span />
+		[69321]<svg /> <!-- SVG content collapsed -->
+Shopifyから連携される顧客の会員番号の生成方法を指定します。会員証バーコードにもこの番号が使用されます
+[69333]<span />
+	[68769]<span />
+	[69336]<svg /> <!-- SVG content collapsed -->
+[69338]<span />
+	[69339]<span />
+		商品価格は税込価格を連携する
+[69342]<span />
+	[68770]<span />
+	[69345]<svg /> <!-- SVG content collapsed -->
+[69347]<span />
+	[69348]<span />
+		0円の商品バリエーションを連携する
+[69351]<span />
+	[68771]<span />
+	[69354]<svg /> <!-- SVG content collapsed -->
+[69356]<span />
+	[69357]<span />
+		送料は税込として処理する
+[69360]<span />
+	[68772]<span />
+	[69363]<svg /> <!-- SVG content collapsed -->
+[69365]<span />
+	[69366]<span />
+		注文による在庫変動を起こさない
+[68723]<button />
+	連携する
+[69374]<section aria-label=Notifications alt+T live=polite />
+[68773]<div id=PolarisPortalsContainer />
+[68775]<div id=clerk-components />

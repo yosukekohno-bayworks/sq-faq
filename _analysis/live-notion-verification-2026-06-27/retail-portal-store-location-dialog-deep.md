@@ -1,0 +1,377 @@
+- generic [ref=e1] [box=0,0,1492,841]:
+  - generic [ref=e11] [box=0,0,1492,841]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e14] [box=0,0,1492,56]:
+      - link [ref=e17] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e19] [box=986,0,506,56]:
+        - button [ref=e23] [cursor=pointer] [box=1296,12,32,32]:
+          - img [ref=e25] [box=1302,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer] [box=1336,12,148,32]:
+          - generic [ref=e30] [box=1338,14,116,28]:
+            - paragraph [ref=e31] [box=1348,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e33] [box=1348,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35] [box=1454,14,28,28]
+    - generic "メニュー" [ref=e36] [box=0,56,240,785]:
+      - navigation [ref=e37] [box=0,56,240,785]:
+        - generic [ref=e38] [box=0,56,240,785]:
+          - list [ref=e39] [box=0,72,240,268]:
+            - listitem [ref=e40] [box=0,72,240,28]:
+              - link "ホーム" [ref=e43] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e46] [box=20,76,20,20]
+                - generic [ref=e48] [box=48,76,176,20]: ホーム
+            - listitem [ref=e49] [box=0,100,240,28]:
+              - link "商品管理" [ref=e52] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e55] [box=20,104,20,20]
+                - generic [ref=e57] [box=48,104,176,20]: 商品管理
+            - listitem [ref=e58] [box=0,128,240,28]:
+              - link "在庫管理" [ref=e61] [cursor=pointer] [box=12,128,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e64] [box=20,132,20,20]
+                - generic [ref=e66] [box=48,132,176,20]: 在庫管理
+            - listitem [ref=e67] [box=0,156,240,28]:
+              - link "注文管理" [ref=e70] [cursor=pointer] [box=12,156,216,28]:
+                - /url: /admin/orders
+                - img [ref=e73] [box=20,160,20,20]
+                - generic [ref=e75] [box=48,160,172,20]: 注文管理
+            - listitem [ref=e76] [box=0,184,240,28]:
+              - link "顧客管理" [ref=e79] [cursor=pointer] [box=12,184,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82] [box=20,188,20,20]
+                - generic [ref=e85] [box=48,188,176,20]: 顧客管理
+            - listitem [ref=e86] [box=0,212,240,28]:
+              - link "発注管理" [ref=e89] [cursor=pointer] [box=12,212,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92] [box=20,216,20,20]
+                - generic [ref=e95] [box=48,216,176,20]: 発注管理
+            - listitem [ref=e96] [box=0,240,240,28]:
+              - link "販売設定" [ref=e99] [cursor=pointer] [box=12,240,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102] [box=20,244,20,20]
+                - generic [ref=e107] [box=48,244,176,20]: 販売設定
+            - listitem [ref=e108] [box=0,268,240,28]:
+              - link "会計" [ref=e111] [cursor=pointer] [box=12,268,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114] [box=20,272,20,20]
+                - generic [ref=e116] [box=48,272,176,20]: 会計
+            - listitem [ref=e117] [box=0,296,240,28]:
+              - generic [ref=e118] [box=0,296,240,28]:
+                - generic [box=12,296,216,28]:
+                  - link "分析" [box=12,296,216,28]:
+                    - /url: /admin/analytics
+                    - generic [box=20,300,20,20]:
+                      - generic [box=20,300,20,20]:
+                        - img [box=20,300,20,20]
+                    - generic [box=48,300,176,20]: 分析
+          - list [ref=e119] [box=0,340,240,132]:
+            - listitem [ref=e120] [box=0,348,240,24]:
+              - generic [ref=e121] [box=20,352,216,16]: オペレーション
+            - listitem [ref=e122] [box=0,372,240,28]:
+              - link "入荷管理" [ref=e125] [cursor=pointer] [box=12,372,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128] [box=20,376,20,20]
+                - generic [ref=e132] [box=48,376,172,20]: 入荷管理
+            - listitem [ref=e133] [box=0,400,240,28]:
+              - link "出荷管理" [ref=e136] [cursor=pointer] [box=12,400,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139] [box=20,404,20,20]
+                - generic [ref=e141] [box=48,404,172,20]: 出荷管理
+            - listitem [ref=e142] [box=0,428,240,28]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer] [box=12,428,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148] [box=20,432,20,20]
+                - generic [ref=e151] [box=48,432,149,20]: 在庫依頼
+                - generic [ref=e153] [box=201,432,23,20]:
+                  - generic [ref=e154] [box=209,428,1,1]: 未完了の在庫依頼 3件
+                  - generic [ref=e155] [box=209,434,7,16]: "3"
+          - list [ref=e156] [box=0,472,240,132]:
+            - listitem [ref=e157] [box=0,480,240,24]:
+              - generic [ref=e158] [box=20,484,216,16]: CRM
+            - listitem [ref=e159] [box=0,504,240,28]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer] [box=12,504,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165] [box=20,508,20,20]
+                - generic [ref=e167] [box=48,508,176,20]: ディスカウント
+            - listitem [ref=e168] [box=0,532,240,28]:
+              - link "ポイント" [ref=e171] [cursor=pointer] [box=12,532,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174] [box=20,536,20,20]
+                - generic [ref=e176] [box=48,536,176,20]: ポイント
+            - listitem [ref=e177] [box=0,560,240,28]:
+              - link "会員ランク" [ref=e180] [cursor=pointer] [box=12,560,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183] [box=20,564,20,20]
+                - generic [ref=e186] [box=48,564,176,20]: 会員ランク
+          - list [ref=e187] [box=0,604,240,224]:
+            - listitem [ref=e188] [box=0,612,240,24]:
+              - generic [ref=e189] [box=20,616,216,16]: 販売チャネル
+            - listitem [ref=e190] [box=0,636,240,28]:
+              - link "Shopify" [ref=e193] [cursor=pointer] [box=12,636,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194] [box=20,640,204,20]: Shopify
+            - listitem [ref=e195] [box=0,664,240,28]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer] [box=12,664,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199] [box=20,668,204,20]: OmnibusCore
+            - listitem [ref=e200] [box=0,692,240,28]:
+              - link "スマレジ" [ref=e203] [cursor=pointer] [box=12,692,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204] [box=20,696,204,20]: スマレジ
+            - listitem [ref=e205] [box=0,720,240,64]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer] [box=12,720,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209] [box=20,724,204,20]: リテールポータル
+              - list [ref=e212] [box=0,748,240,28]:
+                - listitem [ref=e213] [box=0,748,240,28]:
+                  - link "店舗受取" [ref=e216] [cursor=pointer] [box=12,748,216,28]:
+                    - /url: /admin/local_pickup_retail_location_rules
+                    - generic [ref=e217] [box=36,752,188,20]: 店舗受取
+            - listitem [ref=e218] [box=0,784,240,28]:
+              - generic [ref=e219] [box=0,784,240,28]:
+                - generic [box=12,784,216,28]:
+                  - link "卸売" [box=12,784,216,28]:
+                    - /url: /admin/b2b
+                    - generic [box=20,788,204,20]: 卸売
+          - list [ref=e220] [box=0,828,240,52]:
+            - listitem [ref=e221] [box=0,836,240,28]:
+              - link "設定" [ref=e224] [cursor=pointer] [box=12,836,216,28]:
+                - /url: /admin/settings
+                - img [ref=e227] [box=20,840,20,20]
+                - generic [ref=e229] [box=48,840,176,20]: 設定
+    - main [ref=e230] [box=0,0,1492,841]:
+      - generic [ref=e233] [box=535,56,662,748]:
+        - generic [ref=e234] [box=559,56,614,76]:
+          - status [box=559,80,614,0]:
+            - paragraph [ref=e235] [box=559,56,1,1]: リテールポータル。このページの準備が整いました
+          - generic [ref=e237] [box=559,80,614,28]:
+            - link [ref=e240] [cursor=pointer] [box=559,80,28,28]:
+              - /url: /admin/retail_portal_integrations
+              - img [ref=e243] [box=563,84,20,20]
+            - heading "リテールポータル" [level=1] [ref=e247] [box=591,82,157,24]
+        - generic [ref=e249] [box=543,116,630,688]:
+          - generic [ref=e253] [box=575,148,582,564]:
+            - generic [ref=e255] [box=575,148,582,56]:
+              - generic [ref=e258] [box=575,148,115,20]: 店舗ロケーション*
+              - generic [ref=e259] [box=575,172,582,32]:
+                - textbox "店舗ロケーション*" [ref=e262] [box=575,172,528,32]:
+                  - /placeholder: 選択してください
+                - button "選択" [ref=e264] [cursor=pointer] [box=1107,172,50,32]:
+                  - generic [ref=e265] [box=1119,178,26,20]: 選択
+            - generic [ref=e267] [box=575,220,582,56]:
+              - generic [ref=e270] [box=575,220,115,20]: 在庫ロケーション*
+              - generic [ref=e271] [box=575,244,582,32]:
+                - textbox "在庫ロケーション*" [ref=e274] [box=575,244,528,32]:
+                  - /placeholder: 選択してください
+                - button "選択" [ref=e276] [cursor=pointer] [box=1107,244,50,32]:
+                  - generic [ref=e277] [box=1119,250,26,20]: 選択
+            - generic [ref=e279] [box=575,292,582,56]:
+              - generic [ref=e282] [box=575,292,63,20]: テナント*
+              - generic [ref=e283] [box=575,316,582,32]:
+                - combobox "テナント*" [ref=e284] [box=575,316,582,32]:
+                  - option "選択してください" [disabled] [selected] [box=0,0,0,0]
+                  - option "ユニクロ" [box=0,0,0,0]
+                  - option "TEST_FAQ_COVERAGE_20260615_テナント_EDIT" [box=0,0,0,0]
+                  - option "テストテナント" [box=0,0,0,0]
+                  - option "TEST_FAQ_20260624_TENANT_170037" [box=0,0,0,0]
+                - generic [ref=e285] [box=575,316,582,32]:
+                  - generic [ref=e286] [box=587,322,542,20]: 選択してください
+                  - img [ref=e289] [box=1129,322,20,20]
+            - generic [ref=e294] [box=575,364,582,56]:
+              - generic [ref=e297] [box=575,364,63,20]: カタログ*
+              - generic [ref=e298] [box=575,388,582,32]:
+                - combobox "カタログ*" [ref=e299] [box=575,388,582,32]:
+                  - option "選択してください" [disabled] [selected] [box=0,0,0,0]
+                  - option "TEST_FAQ_カタログ001" [box=0,0,0,0]
+                  - option "UNIQLO" [box=0,0,0,0]
+                - generic [ref=e300] [box=575,388,582,32]:
+                  - generic [ref=e301] [box=587,394,542,20]: 選択してください
+                  - img [ref=e304] [box=1129,394,20,20]
+            - generic [ref=e309] [box=575,436,582,56]:
+              - generic [ref=e312] [box=575,436,90,20]: 販売閾値ルール
+              - generic [ref=e313] [box=575,460,582,32]:
+                - combobox "販売閾値ルール" [ref=e314] [box=575,460,582,32]:
+                  - option "選択してください" [disabled] [selected] [box=0,0,0,0]
+                  - option "TEST_FAQ_販売閾値ルール" [box=0,0,0,0]
+                  - option "TEST_FAQ_販売閾値ルール_遷移確認_20260607" [box=0,0,0,0]
+                  - option "TEST_FAQ_DEEP_202606080340_販売閾値ルール" [box=0,0,0,0]
+                  - option "TEST_FAQ_20260624_販売閾値_100908" [box=0,0,0,0]
+                - generic [ref=e315] [box=575,460,582,32]:
+                  - generic [ref=e316] [box=587,466,542,20]: 選択してください
+                  - img [ref=e319] [box=1129,466,20,20]
+            - generic [ref=e324] [cursor=pointer] [box=575,508,297,28]:
+              - generic [ref=e326] [box=576,514,16,16]:
+                - checkbox "リテールポータルで販売員の選択を必須にする" [ref=e327] [box=576,514,16,16]
+                - generic [box=578,516,12,12]:
+                  - img [box=578,516,12,12]
+              - generic [ref=e329] [box=601,512,271,20]: リテールポータルで販売員の選択を必須にする
+            - generic [ref=e331] [cursor=pointer] [box=575,552,195,28]:
+              - generic [ref=e333] [box=576,558,16,16]:
+                - checkbox "配送先住所の編集を許可する" [ref=e334] [box=576,558,16,16]
+                - generic [box=578,560,12,12]:
+                  - img [box=578,560,12,12]
+              - generic [ref=e336] [box=601,556,169,20]: 配送先住所の編集を許可する
+            - generic [ref=e338] [cursor=pointer] [box=575,596,260,28]:
+              - generic [ref=e340] [box=576,602,16,16]:
+                - checkbox "下書き注文の送料明細の編集を許可する" [ref=e341] [box=576,602,16,16]
+                - generic [box=578,604,12,12]:
+                  - img [box=578,604,12,12]
+              - generic [ref=e343] [box=601,600,234,20]: 下書き注文の送料明細の編集を許可する
+            - generic [ref=e345] [cursor=pointer] [box=575,640,299,28]:
+              - generic [ref=e347] [box=576,646,16,16]:
+                - checkbox "下書き注文の注文明細の価格の編集を許可する" [ref=e348] [box=576,646,16,16]
+                - generic [box=578,648,12,12]:
+                  - img [box=578,648,12,12]
+              - generic [ref=e350] [box=601,644,273,20]: 下書き注文の注文明細の価格の編集を許可する
+            - generic [ref=e352] [cursor=pointer] [box=575,684,195,28]:
+              - generic [ref=e354] [box=576,690,16,16]:
+                - checkbox "下書き注文の完了を許可する" [ref=e355] [box=576,690,16,16]
+                - generic [box=578,692,12,12]:
+                  - img [box=578,692,12,12]
+              - generic [ref=e357] [box=601,688,169,20]: 下書き注文の完了を許可する
+          - button "保存する" [ref=e362] [cursor=pointer] [box=1101,760,72,28]:
+            - generic [ref=e363] [box=1113,766,48,16]: 保存する
+  - region "Notifications alt+T" [box=0,841,1492,0]
+  - generic [box=0,841,1492,0]:
+    - generic [box=0,841,1492,0]:
+      - generic [box=0,841,1492,0]:
+        - generic [box=0,0,1492,841]:
+          - generic [box=0,138,1492,566]:
+            - dialog "ロケーションを選択する" [box=0,138,1492,566]:
+              - generic [ref=e364] [box=256,138,980,566]:
+                - generic [ref=e366] [box=272,154,948,20]:
+                  - heading "ロケーションを選択する" [level=2] [ref=e368] [box=272,154,154,20]
+                  - button "閉じる" [ref=e369] [cursor=pointer] [box=1196,150,28,28]:
+                    - img [ref=e372] [box=1200,154,20,20]
+                - generic [ref=e374] [box=256,191,980,452]:
+                  - generic [ref=e382] [box=264,199,964,28]:
+                    - generic [ref=e384] [box=264,199,916,28]:
+                      - generic [ref=e387] [box=264,191,130,20]: 場所コードで検索する
+                      - generic [ref=e390] [box=264,199,916,28]:
+                        - img [ref=e394] [box=272,203,20,20]
+                        - textbox "場所コードで検索する" [active] [ref=e396] [box=296,199,884,28]
+                    - button "検索結果を並べ替える" [ref=e401] [cursor=pointer] [box=1200,199,28,28]:
+                      - img [ref=e404] [box=1204,203,20,20]
+                  - generic [ref=e408] [box=256,236,980,407]:
+                    - table [ref=e410] [box=256,236,980,366]:
+                      - rowgroup [ref=e411] [box=256,236,980,37]:
+                        - row "すべてのアイテムを選択する 名前 場所コード" [ref=e412] [box=256,236,980,37]:
+                          - columnheader "すべてのアイテムを選択する" [ref=e413] [box=256,236,38,37]:
+                            - generic [ref=e415] [cursor=pointer] [box=268,245,18,18]:
+                              - generic [ref=e417] [box=269,246,16,16]
+                              - generic [ref=e420] [box=268,236,1,1]: すべてのアイテムを選択する
+                          - columnheader "名前" [ref=e421] [box=294,236,520,37]:
+                            - generic [ref=e422] [box=300,244,508,20]: 名前
+                          - columnheader "場所コード" [ref=e423] [box=814,236,422,37]:
+                            - generic [ref=e424] [box=820,244,404,20]: 場所コード
+                      - rowgroup [ref=e425] [box=256,272,980,330]:
+                        - row "アイテムを選択する ユニクロ - 銀座店 R0001" [ref=e426] [cursor=pointer] [box=256,272,980,33]:
+                          - cell "アイテムを選択する" [ref=e427] [box=256,272,38,33]:
+                            - generic [ref=e429] [box=268,280,18,18]:
+                              - generic [ref=e431] [box=269,281,16,16]
+                              - generic [ref=e434] [box=268,273,1,1]: アイテムを選択する
+                          - cell "ユニクロ - 銀座店" [ref=e435] [box=294,272,520,33]:
+                            - paragraph [ref=e436] [box=300,279,508,20]: ユニクロ - 銀座店
+                          - cell "R0001" [ref=e437] [box=814,272,422,33]:
+                            - paragraph [ref=e438] [box=820,279,404,20]: R0001
+                        - row "アイテムを選択する TEST_FAQ_DEEP2_202606080343_ロケーション test_faq_deep2_202606080343_loc" [ref=e439] [cursor=pointer] [box=256,305,980,33]:
+                          - cell "アイテムを選択する" [ref=e440] [box=256,305,38,33]:
+                            - generic [ref=e442] [box=268,313,18,18]:
+                              - generic [ref=e444] [box=269,314,16,16]
+                              - generic [ref=e447] [box=268,306,1,1]: アイテムを選択する
+                          - cell "TEST_FAQ_DEEP2_202606080343_ロケーション" [ref=e448] [box=294,305,520,33]:
+                            - paragraph [ref=e449] [box=300,312,508,20]: TEST_FAQ_DEEP2_202606080343_ロケーション
+                          - cell "test_faq_deep2_202606080343_loc" [ref=e450] [box=814,305,422,33]:
+                            - paragraph [ref=e451] [box=820,312,404,20]: test_faq_deep2_202606080343_loc
+                        - row "アイテムを選択する ユニクロEC TESTEC01" [ref=e452] [cursor=pointer] [box=256,338,980,33]:
+                          - cell "アイテムを選択する" [ref=e453] [box=256,338,38,33]:
+                            - generic [ref=e455] [box=268,346,18,18]:
+                              - generic [ref=e457] [box=269,347,16,16]
+                              - generic [ref=e460] [box=268,339,1,1]: アイテムを選択する
+                          - cell "ユニクロEC" [ref=e461] [box=294,338,520,33]:
+                            - paragraph [ref=e462] [box=300,345,508,20]: ユニクロEC
+                          - cell "TESTEC01" [ref=e463] [box=814,338,422,33]:
+                            - paragraph [ref=e464] [box=820,345,404,20]: TESTEC01
+                        - row "アイテムを選択する GU 銀座店 12456789098765" [ref=e465] [cursor=pointer] [box=256,371,980,33]:
+                          - cell "アイテムを選択する" [ref=e466] [box=256,371,38,33]:
+                            - generic [ref=e468] [box=268,379,18,18]:
+                              - generic [ref=e470] [box=269,380,16,16]
+                              - generic [ref=e473] [box=268,372,1,1]: アイテムを選択する
+                          - cell "GU 銀座店" [ref=e474] [box=294,371,520,33]:
+                            - paragraph [ref=e475] [box=300,378,508,20]: GU 銀座店
+                          - cell "12456789098765" [ref=e476] [box=814,371,422,33]:
+                            - paragraph [ref=e477] [box=820,378,404,20]: "12456789098765"
+                        - row "アイテムを選択する TEST_FLAGOFF_20260621 FLAGOFF01" [ref=e478] [cursor=pointer] [box=256,404,980,33]:
+                          - cell "アイテムを選択する" [ref=e479] [box=256,404,38,33]:
+                            - generic [ref=e481] [box=268,412,18,18]:
+                              - generic [ref=e483] [box=269,413,16,16]
+                              - generic [ref=e486] [box=268,405,1,1]: アイテムを選択する
+                          - cell "TEST_FLAGOFF_20260621" [ref=e487] [box=294,404,520,33]:
+                            - paragraph [ref=e488] [box=300,411,508,20]: TEST_FLAGOFF_20260621
+                          - cell "FLAGOFF01" [ref=e489] [box=814,404,422,33]:
+                            - paragraph [ref=e490] [box=820,411,404,20]: FLAGOFF01
+                        - row "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1740 TEST_E2E_20260622_STORE_1740" [ref=e491] [cursor=pointer] [box=256,437,980,33]:
+                          - cell "アイテムを選択する" [ref=e492] [box=256,437,38,33]:
+                            - generic [ref=e494] [box=268,445,18,18]:
+                              - generic [ref=e496] [box=269,446,16,16]
+                              - generic [ref=e499] [box=268,438,1,1]: アイテムを選択する
+                          - cell "TEST_E2E_20260622_GU店舗_OFF_1740" [ref=e500] [box=294,437,520,33]:
+                            - paragraph [ref=e501] [box=300,444,508,20]: TEST_E2E_20260622_GU店舗_OFF_1740
+                          - cell "TEST_E2E_20260622_STORE_1740" [ref=e502] [box=814,437,422,33]:
+                            - paragraph [ref=e503] [box=820,444,404,20]: TEST_E2E_20260622_STORE_1740
+                        - row "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1830 TEST_E2E_20260622_STORE_1830" [ref=e504] [cursor=pointer] [box=256,470,980,33]:
+                          - cell "アイテムを選択する" [ref=e505] [box=256,470,38,33]:
+                            - generic [ref=e507] [box=268,478,18,18]:
+                              - generic [ref=e509] [box=269,479,16,16]
+                              - generic [ref=e512] [box=268,471,1,1]: アイテムを選択する
+                          - cell "TEST_E2E_20260622_GU店舗_OFF_1830" [ref=e513] [box=294,470,520,33]:
+                            - paragraph [ref=e514] [box=300,477,508,20]: TEST_E2E_20260622_GU店舗_OFF_1830
+                          - cell "TEST_E2E_20260622_STORE_1830" [ref=e515] [box=814,470,422,33]:
+                            - paragraph [ref=e516] [box=820,477,404,20]: TEST_E2E_20260622_STORE_1830
+                        - row "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1845 TEST_E2E_20260622_STORE_1845" [ref=e517] [cursor=pointer] [box=256,503,980,33]:
+                          - cell "アイテムを選択する" [ref=e518] [box=256,503,38,33]:
+                            - generic [ref=e520] [box=268,511,18,18]:
+                              - generic [ref=e522] [box=269,512,16,16]
+                              - generic [ref=e525] [box=268,504,1,1]: アイテムを選択する
+                          - cell "TEST_E2E_20260622_GU店舗_OFF_1845" [ref=e526] [box=294,503,520,33]:
+                            - paragraph [ref=e527] [box=300,510,508,20]: TEST_E2E_20260622_GU店舗_OFF_1845
+                          - cell "TEST_E2E_20260622_STORE_1845" [ref=e528] [box=814,503,422,33]:
+                            - paragraph [ref=e529] [box=820,510,404,20]: TEST_E2E_20260622_STORE_1845
+                        - row "アイテムを選択する TEST_E2E_20260622_GU店舗_OFF_1905 TEST_E2E_20260622_STORE_1905" [ref=e530] [cursor=pointer] [box=256,536,980,33]:
+                          - cell "アイテムを選択する" [ref=e531] [box=256,536,38,33]:
+                            - generic [ref=e533] [box=268,544,18,18]:
+                              - generic [ref=e535] [box=269,545,16,16]
+                              - generic [ref=e538] [box=268,537,1,1]: アイテムを選択する
+                          - cell "TEST_E2E_20260622_GU店舗_OFF_1905" [ref=e539] [box=294,536,520,33]:
+                            - paragraph [ref=e540] [box=300,543,508,20]: TEST_E2E_20260622_GU店舗_OFF_1905
+                          - cell "TEST_E2E_20260622_STORE_1905" [ref=e541] [box=814,536,422,33]:
+                            - paragraph [ref=e542] [box=820,543,404,20]: TEST_E2E_20260622_STORE_1905
+                        - row "アイテムを選択する TEST_FAQ_20260624_GU店舗_OFF_092214 TEST_FAQ_20260624_STORE_092214" [ref=e543] [cursor=pointer] [box=256,569,980,33]:
+                          - cell "アイテムを選択する" [ref=e544] [box=256,569,38,33]:
+                            - generic [ref=e546] [box=268,577,18,18]:
+                              - generic [ref=e548] [box=269,578,16,16]
+                              - generic [ref=e551] [box=268,570,1,1]: アイテムを選択する
+                          - cell "TEST_FAQ_20260624_GU店舗_OFF_092214" [ref=e552] [box=294,569,520,33]:
+                            - paragraph [ref=e553] [box=300,576,508,20]: TEST_FAQ_20260624_GU店舗_OFF_092214
+                          - cell "TEST_FAQ_20260624_STORE_092214" [ref=e554] [box=814,569,422,33]:
+                            - paragraph [ref=e555] [box=820,576,404,20]: TEST_FAQ_20260624_STORE_092214
+                    - navigation "ページネーション" [ref=e559] [box=256,602,980,41]:
+                      - generic [ref=e562] [box=720,609,57,28]:
+                        - generic [ref=e563] [box=720,609,28,28]:
+                          - button "前へ" [disabled] [box=720,609,28,28]:
+                            - generic [box=724,613,20,20]:
+                              - generic [box=724,613,20,20]
+                        - generic [ref=e564] [box=749,609,28,28]:
+                          - button "次へ" [disabled] [box=749,609,28,28]:
+                            - generic [box=753,613,20,20]:
+                              - generic [box=753,613,20,20]
+                - generic [ref=e568] [box=1056,660,164,28]:
+                  - button "キャンセル" [ref=e569] [cursor=pointer] [box=1056,660,84,28]:
+                    - generic [ref=e570] [box=1068,666,60,16]: キャンセル
+                  - button "選択する" [ref=e571] [cursor=pointer] [box=1148,660,72,28]:
+                    - generic [ref=e572] [box=1160,666,48,16]: 選択する
+  - alert [ref=e10] [box=-1,840,1,1]

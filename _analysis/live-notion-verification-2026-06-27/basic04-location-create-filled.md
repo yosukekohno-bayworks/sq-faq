@@ -1,0 +1,235 @@
+- generic [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e256] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e258]:
+                  - generic [ref=e259]: 未完了の在庫依頼 3件
+                  - generic [ref=e260]: "3"
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - generic [ref=e154]: CRM
+            - listitem [ref=e155]:
+              - link "ディスカウント" [ref=e158] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e161]
+                - generic [ref=e163]: ディスカウント
+            - listitem [ref=e164]:
+              - link "ポイント" [ref=e167] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e170]
+                - generic [ref=e172]: ポイント
+            - listitem [ref=e173]:
+              - link "会員ランク" [ref=e176] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e179]
+                - generic [ref=e182]: 会員ランク
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - generic [ref=e185]: 販売チャネル
+            - listitem [ref=e186]:
+              - link "Shopify" [ref=e189] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e190]: Shopify
+            - listitem [ref=e191]:
+              - link "OmnibusCore" [ref=e194] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e195]: OmnibusCore
+            - listitem [ref=e196]:
+              - link "スマレジ" [ref=e199] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e200]: スマレジ
+            - listitem [ref=e201]:
+              - link "リテールポータル" [ref=e204] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e205]: リテールポータル
+            - listitem [ref=e206]:
+              - generic [ref=e207]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "設定" [ref=e212] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e215]
+                - generic [ref=e217]: 設定
+    - generic [ref=e845]:
+      - generic [ref=e846]:
+        - img [ref=e848]
+        - heading "保存されていないロケーション" [level=2] [ref=e852]
+      - generic [ref=e854]:
+        - button "取り消す" [ref=e856] [cursor=pointer]:
+          - generic [ref=e857]: 取り消す
+        - button "保存する" [ref=e859] [cursor=pointer]:
+          - generic [ref=e860]: 保存する
+    - main [ref=e221]:
+      - generic [ref=e676]:
+        - generic [ref=e677]:
+          - status:
+            - paragraph [ref=e678]: ロケーションを作成。このページの準備が整いました
+          - generic [ref=e680]:
+            - link [ref=e683] [cursor=pointer]:
+              - /url: /admin/settings/locations
+              - img [ref=e686]
+            - heading "ロケーションを作成" [level=1] [ref=e690]
+        - generic [ref=e692]:
+          - generic [ref=e694]:
+            - generic [ref=e697]:
+              - heading "基本情報" [level=2] [ref=e698]
+              - generic [ref=e699]:
+                - generic [ref=e701]:
+                  - generic [ref=e704]: 名前*
+                  - textbox "名前*" [ref=e708]:
+                    - /placeholder: 東京の倉庫
+                    - text: TEST_NOTION_20260627_店舗_041001
+                  - generic [ref=e709]: このロケーションに短い名前を付けて、簡単に識別できるようにします。注文や商品などのエリアでこの名前が表示されます。
+                - generic [ref=e711]:
+                  - generic [ref=e714]: 表示名
+                  - textbox "表示名" [ref=e718]:
+                    - /placeholder: 東京の倉庫
+                    - text: TEST_NOTION_20260627_店舗_041001
+                - generic [ref=e720]:
+                  - generic [ref=e723]: コード*
+                  - textbox "コード*" [ref=e727]:
+                    - /placeholder: "12345"
+                    - text: TEST_NOTION_STORE_041001
+                - generic [ref=e729]:
+                  - generic [ref=e732]: 場所種別*
+                  - generic [ref=e733]:
+                    - combobox "場所種別*" [ref=e734]
+                    - generic [ref=e735]
+            - generic [ref=e744]:
+              - heading "所在地・連絡先" [level=2] [ref=e746]
+              - separator [ref=e747]
+              - generic [ref=e749] [cursor=pointer]:
+                - generic [ref=e751]:
+                  - checkbox "ロケーションの住所を登録する" [ref=e752]
+                  - generic:
+                    - img
+                - generic [ref=e754]: ロケーションの住所を登録する
+              - separator [ref=e755]
+              - generic [ref=e757]:
+                - generic [ref=e759]:
+                  - generic [ref=e762]: マップ
+                  - textbox "マップ" [ref=e766]:
+                    - /placeholder: https://www.google.com/maps
+                - generic [ref=e768]:
+                  - generic [ref=e771]: 電話番号
+                  - textbox "電話番号" [ref=e775]:
+                    - /placeholder: 03-1234-5678
+                - generic [ref=e777]:
+                  - generic [ref=e780]: メールアドレス
+                  - textbox "メールアドレス" [ref=e784]:
+                    - /placeholder: example@example.com
+          - generic [ref=e789]:
+            - heading "販売設定" [level=2] [ref=e790]
+            - generic [ref=e791]:
+              - generic [ref=e792] [cursor=pointer]:
+                - generic [ref=e794]:
+                  - checkbox "店舗受け取りを有効にする" [checked] [ref=e795]
+                  - generic:
+                    - img
+                - generic [ref=e797]: 店舗受け取りを有効にする
+              - generic [ref=e798] [cursor=pointer]:
+                - generic [ref=e800]:
+                  - checkbox "在庫依頼を受け付ける" [checked] [active] [ref=e801]
+                  - generic:
+                    - img
+                - generic [ref=e803]: 在庫依頼を受け付ける
+              - generic [ref=e804]:
+                - generic [ref=e807]: ポイント利用種別*
+                - generic [ref=e808]:
+                  - combobox "ポイント利用種別*" [ref=e809]:
+                    - option "選択してください" [disabled]
+                    - option "値引き" [selected]
+                    - option "金種"
+                  - generic [ref=e810]:
+                    - generic [ref=e811]: 値引き
+                    - img [ref=e814]
+          - button "保存する" [ref=e822] [cursor=pointer]:
+            - generic [ref=e823]: 保存する
+  - region "Notifications alt+T"
+  - alert [ref=e10]

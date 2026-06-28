@@ -1,0 +1,1 @@
+result: {'url': 'https://www.sqstackstaging.com/admin/settings/users?query=kohno', 'input': [{'placeholder': 'キーワードで検索する', 'value': 'kohno'}, {'placeholder': None, 'value': 'on'}], 'rows': [['名前', 'メールアドレス', '権限グループ'], ['河野陽介', 'yosuke.kohno@bay-works.com', '特権管理者']]}

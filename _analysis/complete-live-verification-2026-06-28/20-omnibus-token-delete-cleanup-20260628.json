@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-06-27T22:09:38.497746+00:00",
+  "detailRoute": "/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql"
+    }
+  ],
+  "responses": [
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/graphql",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "before": {
+    "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+    "tokenArea": {
+      "missingTextVisible": false,
+      "createButtonVisible": true,
+      "createdAtVisible": true,
+      "deleteButtonVisible": true
+    },
+    "expiryValue": "1",
+    "buttons": [
+      "削除",
+      "トークンを作成",
+      "削除する",
+      "保存する"
+    ],
+    "dialog": null
+  },
+  "afterDeleteClick": {
+    "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+    "tokenArea": {
+      "missingTextVisible": false,
+      "createButtonVisible": true,
+      "createdAtVisible": true,
+      "deleteButtonVisible": true
+    },
+    "expiryValue": "1",
+    "buttons": [
+      "削除",
+      "トークンを作成",
+      "削除する",
+      "保存する"
+    ],
+    "dialog": {
+      "title": [
+        "アクセストークンを削除する"
+      ],
+      "buttons": [
+        "閉じる",
+        "キャンセル",
+        "削除する"
+      ],
+      "textIncludesTokenDelete": true
+    }
+  },
+  "afterConfirm": {
+    "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+    "tokenArea": {
+      "missingTextVisible": true,
+      "createButtonVisible": true,
+      "createdAtVisible": false,
+      "deleteButtonVisible": false
+    },
+    "expiryValue": "1",
+    "buttons": [
+      "トークンを作成",
+      "削除する",
+      "保存する"
+    ],
+    "dialog": null
+  },
+  "afterReload": {
+    "url": "https://www.sqstackstaging.com/admin/omnibus_core_integrations/c1a74b89-2c67-5167-ba46-952c7539a7a5_OmnibusCoreIntegration",
+    "tokenArea": {
+      "missingTextVisible": true,
+      "createButtonVisible": true,
+      "createdAtVisible": false,
+      "deleteButtonVisible": false
+    },
+    "expiryValue": "1",
+    "buttons": [
+      "トークンを作成",
+      "削除する",
+      "保存する"
+    ],
+    "dialog": null
+  },
+  "facts": {
+    "tokenExistedBeforeCleanup": true,
+    "tokenDeleteButtonVisibleBefore": true,
+    "dialogOpened": true,
+    "tokenMissingAfterReload": true,
+    "tokenCreatedAtAfterReload": false,
+    "expiryValueAfterReload": "1",
+    "nonGetResponses": [
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "path": "/api/graphql",
+        "status": 200
+      }
+    ],
+    "errors": []
+  }
+}

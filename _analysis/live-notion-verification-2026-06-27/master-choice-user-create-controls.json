@@ -1,0 +1,131 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/users/create",
+  "h1": "ユーザーを追加する",
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nユーザーを追加する。このページの準備が整いました\n\nユーザーを追加する\n基本情報\n姓\n名\nメールアドレス\n権限\n権限グループ\n特権管理者\nTEST_権限検証_20260620\n保存する",
+  "radios": [
+    {
+      "i": 0,
+      "checked": false,
+      "disabled": false,
+      "label": "特権管理者"
+    },
+    {
+      "i": 1,
+      "checked": false,
+      "disabled": false,
+      "label": "TEST_権限検証_20260620"
+    }
+  ],
+  "controls": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": "メニューを切り替える",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 1,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 2,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": null,
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 3,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": "メニューを閉じる",
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "姓",
+      "aria": null,
+      "text": "",
+      "placeholder": "山田",
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 5,
+      "tag": "INPUT",
+      "type": "text",
+      "label": "名",
+      "aria": null,
+      "text": "",
+      "placeholder": "花子",
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 6,
+      "tag": "INPUT",
+      "type": "email",
+      "label": "メールアドレス",
+      "aria": null,
+      "text": "",
+      "placeholder": "you@company.com",
+      "disabled": false,
+      "value": ""
+    },
+    {
+      "i": 7,
+      "tag": "INPUT",
+      "type": "radio",
+      "label": "特権管理者",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "value": "434b6285-7690-535c-9adb-9899e62b9c01_PermissionGroup"
+    },
+    {
+      "i": 8,
+      "tag": "INPUT",
+      "type": "radio",
+      "label": "TEST_権限検証_20260620",
+      "aria": null,
+      "text": "",
+      "placeholder": null,
+      "disabled": false,
+      "value": "ced25bd4-f743-5b58-a17a-0dad097bd704_PermissionGroup"
+    },
+    {
+      "i": 9,
+      "tag": "BUTTON",
+      "type": "button",
+      "label": "",
+      "aria": null,
+      "text": "保存する",
+      "placeholder": null,
+      "disabled": false,
+      "value": ""
+    }
+  ]
+}

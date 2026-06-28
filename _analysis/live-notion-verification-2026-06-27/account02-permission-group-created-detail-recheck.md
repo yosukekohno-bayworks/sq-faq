@@ -1,0 +1,472 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e1053]:
+        - generic [ref=e1054]:
+          - status:
+            - paragraph [ref=e1055]: TEST_NOTION_20260627_PERMISSION_0326。このページの準備が整いました
+          - generic [ref=e1057]:
+            - link [ref=e1060] [cursor=pointer]:
+              - /url: /admin/settings/permission_groups
+              - img [ref=e1063]
+            - heading "TEST_NOTION_20260627_PERMISSION_0326" [level=1] [ref=e1067]
+        - generic [ref=e1069]:
+          - generic [ref=e1071]:
+            - generic [ref=e1074]:
+              - generic [ref=e1077]: グループ名*
+              - textbox "グループ名*" [ref=e1081]:
+                - /placeholder: リテールポータル管理者
+                - text: TEST_NOTION_20260627_PERMISSION_0326
+            - group "権限" [ref=e1084]:
+              - generic [ref=e1085]: 権限
+              - list [ref=e1086]:
+                - listitem [ref=e1087]:
+                  - generic [ref=e1089] [cursor=pointer]:
+                    - generic [ref=e1091]
+                    - generic [ref=e1096]: お知らせの閲覧権限（announcements:read）
+                - listitem [ref=e1097]:
+                  - generic [ref=e1099] [cursor=pointer]:
+                    - generic [ref=e1101]
+                    - generic [ref=e1106]: お知らせの編集権限（announcements:write）
+                - listitem [ref=e1107]:
+                  - generic [ref=e1109] [cursor=pointer]:
+                    - generic [ref=e1111]
+                    - generic [ref=e1116]: アプリの閲覧権限（apps:read）
+                - listitem [ref=e1117]:
+                  - generic [ref=e1119] [cursor=pointer]:
+                    - generic [ref=e1121]
+                    - generic [ref=e1126]: アプリの編集権限（apps:write）
+                - listitem [ref=e1127]:
+                  - generic [ref=e1129] [cursor=pointer]:
+                    - generic [ref=e1131]
+                    - generic [ref=e1136]: ブランドの閲覧権限（brands:read）
+                - listitem [ref=e1137]:
+                  - generic [ref=e1139] [cursor=pointer]:
+                    - generic [ref=e1141]
+                    - generic [ref=e1146]: ブランドの編集権限（brands:write）
+                - listitem [ref=e1147]:
+                  - generic [ref=e1149] [cursor=pointer]:
+                    - generic [ref=e1151]
+                    - generic [ref=e1156]: カタログの閲覧権限（catalogs:read）
+                - listitem [ref=e1157]:
+                  - generic [ref=e1159] [cursor=pointer]:
+                    - generic [ref=e1161]
+                    - generic [ref=e1166]: カタログの編集権限（catalogs:write）
+                - listitem [ref=e1167]:
+                  - generic [ref=e1169] [cursor=pointer]:
+                    - generic [ref=e1171]
+                    - generic [ref=e1176]: 取引先企業の閲覧権限（companies:read）
+                - listitem [ref=e1177]:
+                  - generic [ref=e1179] [cursor=pointer]:
+                    - generic [ref=e1181]
+                    - generic [ref=e1186]: 取引先企業の編集権限（companies:write）
+                - listitem [ref=e1187]:
+                  - generic [ref=e1189] [cursor=pointer]:
+                    - generic [ref=e1191]
+                    - generic [ref=e1196]: 顧客マイルの閲覧権限（customer_miles:read）
+                - listitem [ref=e1197]:
+                  - generic [ref=e1199] [cursor=pointer]:
+                    - generic [ref=e1201]
+                    - generic [ref=e1206]: 顧客マイルの編集権限（customer_miles:write）
+                - listitem [ref=e1207]:
+                  - generic [ref=e1209] [cursor=pointer]:
+                    - generic [ref=e1211]
+                    - generic [ref=e1216]: 顧客ポイントの閲覧権限（customer_points:read）
+                - listitem [ref=e1217]:
+                  - generic [ref=e1219] [cursor=pointer]:
+                    - generic [ref=e1221]
+                    - generic [ref=e1226]: 顧客ポイントの編集権限（customer_points:write）
+                - listitem [ref=e1227]:
+                  - generic [ref=e1229] [cursor=pointer]:
+                    - generic [ref=e1231]
+                    - generic [ref=e1236]: 顧客会員ランクルールの閲覧権限（customer_rank_rules:read）
+                - listitem [ref=e1237]:
+                  - generic [ref=e1239] [cursor=pointer]:
+                    - generic [ref=e1241]
+                    - generic [ref=e1246]: 顧客会員ランクルールの編集権限（customer_rank_rules:write）
+                - listitem [ref=e1247]:
+                  - generic [ref=e1249] [cursor=pointer]:
+                    - generic [ref=e1251]
+                    - generic [ref=e1256]: 顧客会員ランクの閲覧権限（customer_ranks:read）
+                - listitem [ref=e1257]:
+                  - generic [ref=e1259] [cursor=pointer]:
+                    - generic [ref=e1261]
+                    - generic [ref=e1266]: 顧客会員ランクの編集権限（customer_ranks:write）
+                - listitem [ref=e1267]:
+                  - generic [ref=e1269] [cursor=pointer]:
+                    - generic [ref=e1271]
+                    - generic [ref=e1276]: 顧客の閲覧権限（customers:read）
+                - listitem [ref=e1277]:
+                  - generic [ref=e1279] [cursor=pointer]:
+                    - generic [ref=e1281]
+                    - generic [ref=e1286]: 顧客の編集権限（customers:write）
+                - listitem [ref=e1287]:
+                  - generic [ref=e1289] [cursor=pointer]:
+                    - generic [ref=e1291]
+                    - generic [ref=e1296]: ディスカウントの閲覧権限（discounts:read）
+                - listitem [ref=e1297]:
+                  - generic [ref=e1299] [cursor=pointer]:
+                    - generic [ref=e1301]
+                    - generic [ref=e1306]: ディスカウントの編集権限（discounts:write）
+                - listitem [ref=e1307]:
+                  - generic [ref=e1309] [cursor=pointer]:
+                    - generic [ref=e1311]
+                    - generic [ref=e1316]: 下書き注文の閲覧権限（draft_orders:read）
+                - listitem [ref=e1317]:
+                  - generic [ref=e1319] [cursor=pointer]:
+                    - generic [ref=e1321]
+                    - generic [ref=e1326]: 下書き注文の編集権限（draft_orders:write）
+                - listitem [ref=e1327]:
+                  - generic [ref=e1329] [cursor=pointer]:
+                    - generic [ref=e1331]
+                    - generic [ref=e1336]: 在庫の閲覧権限（inventory:read）
+                - listitem [ref=e1337]:
+                  - generic [ref=e1339] [cursor=pointer]:
+                    - generic [ref=e1341]
+                    - generic [ref=e1346]: 在庫の編集権限（inventory:write）
+                - listitem [ref=e1347]:
+                  - generic [ref=e1349] [cursor=pointer]:
+                    - generic [ref=e1351]
+                    - generic [ref=e1356]: 在庫リクエストの閲覧権限（inventory_allocation_requests:read）
+                - listitem [ref=e1357]:
+                  - generic [ref=e1359] [cursor=pointer]:
+                    - generic [ref=e1361]
+                    - generic [ref=e1366]: 在庫リクエストの編集権限（inventory_allocation_requests:write）
+                - listitem [ref=e1367]:
+                  - generic [ref=e1369] [cursor=pointer]:
+                    - generic [ref=e1371]
+                    - generic [ref=e1376]: 発注返品伝票の閲覧権限（inventory_purchase_order_returns:read）
+                - listitem [ref=e1377]:
+                  - generic [ref=e1379] [cursor=pointer]:
+                    - generic [ref=e1381]
+                    - generic [ref=e1386]: 発注返品伝票の編集権限（inventory_purchase_order_returns:write）
+                - listitem [ref=e1387]:
+                  - generic [ref=e1389] [cursor=pointer]:
+                    - generic [ref=e1391]
+                    - generic [ref=e1396]: 発注伝票の閲覧権限（inventory_purchase_orders:read）
+                - listitem [ref=e1397]:
+                  - generic [ref=e1399] [cursor=pointer]:
+                    - generic [ref=e1401]
+                    - generic [ref=e1406]: 発注伝票の編集権限（inventory_purchase_orders:write）
+                - listitem [ref=e1407]:
+                  - generic [ref=e1409] [cursor=pointer]:
+                    - generic [ref=e1411]
+                    - generic [ref=e1416]: 店舗受取ロケーションルールの閲覧権限（local_pickup_location_rules:read）
+                - listitem [ref=e1417]:
+                  - generic [ref=e1419] [cursor=pointer]:
+                    - generic [ref=e1421]
+                    - generic [ref=e1426]: 店舗受取ロケーションルールの編集権限（local_pickup_location_rules:write）
+                - listitem [ref=e1427]:
+                  - generic [ref=e1429] [cursor=pointer]:
+                    - generic [ref=e1431]
+                    - generic [ref=e1436]: ロケーショングループの閲覧権限（location_groups:read）
+                - listitem [ref=e1437]:
+                  - generic [ref=e1439] [cursor=pointer]:
+                    - generic [ref=e1441]
+                    - generic [ref=e1446]: ロケーショングループの編集権限（location_groups:write）
+                - listitem [ref=e1447]:
+                  - generic [ref=e1449] [cursor=pointer]:
+                    - generic [ref=e1451]
+                    - generic [ref=e1456]: ロケーションの閲覧権限（locations:read）
+                - listitem [ref=e1457]:
+                  - generic [ref=e1459] [cursor=pointer]:
+                    - generic [ref=e1461]
+                    - generic [ref=e1466]: ロケーションの編集権限（locations:write）
+                - listitem [ref=e1467]:
+                  - generic [ref=e1469] [cursor=pointer]:
+                    - generic [ref=e1471]
+                    - generic [ref=e1476]: マイル商品の閲覧権限（mile_items:read）
+                - listitem [ref=e1477]:
+                  - generic [ref=e1479] [cursor=pointer]:
+                    - generic [ref=e1481]
+                    - generic [ref=e1486]: マイル商品の編集権限（mile_items:write）
+                - listitem [ref=e1487]:
+                  - generic [ref=e1489] [cursor=pointer]:
+                    - generic [ref=e1491]
+                    - generic [ref=e1496]: ネクストエンジン連携の閲覧権限（next_engine_integrations:read）
+                - listitem [ref=e1497]:
+                  - generic [ref=e1499] [cursor=pointer]:
+                    - generic [ref=e1501]
+                    - generic [ref=e1506]: ネクストエンジン連携の編集権限（next_engine_integrations:write）
+                - listitem [ref=e1507]:
+                  - generic [ref=e1509] [cursor=pointer]:
+                    - generic [ref=e1511]
+                    - generic [ref=e1516]: OmnibusCore連携の閲覧権限（omnibus_core_integrations:read）
+                - listitem [ref=e1517]:
+                  - generic [ref=e1519] [cursor=pointer]:
+                    - generic [ref=e1521]
+                    - generic [ref=e1526]: OmnibusCore連携の編集権限（omnibus_core_integrations:write）
+                - listitem [ref=e1527]:
+                  - generic [ref=e1529] [cursor=pointer]:
+                    - generic [ref=e1531]
+                    - generic [ref=e1536]: 注文の閲覧権限（orders:read）
+                - listitem [ref=e1537]:
+                  - generic [ref=e1539] [cursor=pointer]:
+                    - generic [ref=e1541]
+                    - generic [ref=e1546]: 注文の編集権限（orders:write）
+                - listitem [ref=e1547]:
+                  - generic [ref=e1549] [cursor=pointer]:
+                    - generic [ref=e1551]
+                    - generic [ref=e1556]: ポイントキャンペーンの閲覧権限（point_campaign_order_rules:read）
+                - listitem [ref=e1557]:
+                  - generic [ref=e1559] [cursor=pointer]:
+                    - generic [ref=e1561]
+                    - generic [ref=e1566]: ポイントキャンペーンの編集権限（point_campaign_order_rules:write）
+                - listitem [ref=e1567]:
+                  - generic [ref=e1569] [cursor=pointer]:
+                    - generic [ref=e1571]
+                    - generic [ref=e1576]: ポイントルールの閲覧権限（point_rules:read）
+                - listitem [ref=e1577]:
+                  - generic [ref=e1579] [cursor=pointer]:
+                    - generic [ref=e1581]
+                    - generic [ref=e1586]: ポイントルールの編集権限（point_rules:write）
+                - listitem [ref=e1587]:
+                  - generic [ref=e1589] [cursor=pointer]:
+                    - generic [ref=e1591]
+                    - generic [ref=e1596]: 販売価格ルールの閲覧権限（product_price_rules:read）
+                - listitem [ref=e1597]:
+                  - generic [ref=e1599] [cursor=pointer]:
+                    - generic [ref=e1601]
+                    - generic [ref=e1606]: 販売価格ルールの編集権限（product_price_rules:write）
+                - listitem [ref=e1607]:
+                  - generic [ref=e1609] [cursor=pointer]:
+                    - generic [ref=e1611]
+                    - generic [ref=e1616]: 商品の閲覧権限（products:read）
+                - listitem [ref=e1617]:
+                  - generic [ref=e1619] [cursor=pointer]:
+                    - generic [ref=e1621]
+                    - generic [ref=e1626]: 商品の編集権限（products:write）
+                - listitem [ref=e1627]:
+                  - generic [ref=e1629] [cursor=pointer]:
+                    - generic [ref=e1631]
+                    - generic [ref=e1636]: 店舗ポータル連携の閲覧権限（retail_portal_integrations:read）
+                - listitem [ref=e1637]:
+                  - generic [ref=e1639] [cursor=pointer]:
+                    - generic [ref=e1641]
+                    - generic [ref=e1646]: 店舗ポータル連携の編集権限（retail_portal_integrations:write）
+                - listitem [ref=e1647]:
+                  - generic [ref=e1649] [cursor=pointer]:
+                    - generic [ref=e1651]
+                    - generic [ref=e1656]: 店舗スタッフの閲覧権限（retail_staff_members:read）
+                - listitem [ref=e1657]:
+                  - generic [ref=e1659] [cursor=pointer]:
+                    - generic [ref=e1661]
+                    - generic [ref=e1666]: 店舗スタッフの編集権限（retail_staff_members:write）
+                - listitem [ref=e1667]:
+                  - generic [ref=e1669] [cursor=pointer]:
+                    - generic [ref=e1671]
+                    - generic [ref=e1676]: 売上データの閲覧権限（sales:read）
+                - listitem [ref=e1677]:
+                  - generic [ref=e1679] [cursor=pointer]:
+                    - generic [ref=e1681]
+                    - generic [ref=e1686]: 売上データの編集権限（sales:write）
+                - listitem [ref=e1687]:
+                  - generic [ref=e1689] [cursor=pointer]:
+                    - generic [ref=e1691]
+                    - generic [ref=e1696]: Shopify連携の閲覧権限（shopify_integrations:read）
+                - listitem [ref=e1697]:
+                  - generic [ref=e1699] [cursor=pointer]:
+                    - generic [ref=e1701]
+                    - generic [ref=e1706]: Shopify連携の編集権限（shopify_integrations:write）
+                - listitem [ref=e1707]:
+                  - generic [ref=e1709] [cursor=pointer]:
+                    - generic [ref=e1711]
+                    - generic [ref=e1716]: スマレジ連携の閲覧権限（smaregi_integrations:read）
+                - listitem [ref=e1717]:
+                  - generic [ref=e1719] [cursor=pointer]:
+                    - generic [ref=e1721]
+                    - generic [ref=e1726]: スマレジ連携の編集権限（smaregi_integrations:write）
+                - listitem [ref=e1727]:
+                  - generic [ref=e1729] [cursor=pointer]:
+                    - generic [ref=e1731]
+                    - generic [ref=e1736]: テナントの閲覧権限（tenants:read）
+                - listitem [ref=e1737]:
+                  - generic [ref=e1739] [cursor=pointer]:
+                    - generic [ref=e1741]
+                    - generic [ref=e1746]: テナントの編集権限（tenants:write）
+                - listitem [ref=e1747]:
+                  - generic [ref=e1749] [cursor=pointer]:
+                    - generic [ref=e1751]
+                    - generic [ref=e1756]: 翻訳ルールの閲覧権限（translation_rules:read）
+                - listitem [ref=e1757]:
+                  - generic [ref=e1759] [cursor=pointer]:
+                    - generic [ref=e1761]
+                    - generic [ref=e1766]: 翻訳ルールの編集権限（translation_rules:write）
+                - listitem [ref=e1767]:
+                  - generic [ref=e1769] [cursor=pointer]:
+                    - generic [ref=e1771]
+                    - generic [ref=e1776]: 翻訳の閲覧権限（translations:read）
+                - listitem [ref=e1777]:
+                  - generic [ref=e1779] [cursor=pointer]:
+                    - generic [ref=e1781]
+                    - generic [ref=e1786]: 翻訳の編集権限（translations:write）
+                - listitem [ref=e1787]:
+                  - generic [ref=e1789] [cursor=pointer]:
+                    - generic [ref=e1791]
+                    - generic [ref=e1796]: ユーザー権限の閲覧権限（user_permissions:read）
+                - listitem [ref=e1797]:
+                  - generic [ref=e1799] [cursor=pointer]:
+                    - generic [ref=e1801]
+                    - generic [ref=e1806]: ユーザー権限の編集権限（user_permissions:write）
+                - listitem [ref=e1807]:
+                  - generic [ref=e1809] [cursor=pointer]:
+                    - generic [ref=e1811]
+                    - generic [ref=e1816]: ユーザーテナントの閲覧権限（user_tenants:read）
+                - listitem [ref=e1817]:
+                  - generic [ref=e1819] [cursor=pointer]:
+                    - generic [ref=e1821]
+                    - generic [ref=e1826]: ユーザーテナントの編集権限（user_tenants:write）
+                - listitem [ref=e1827]:
+                  - generic [ref=e1829] [cursor=pointer]:
+                    - generic [ref=e1831]
+                    - generic [ref=e1836]: ユーザーの閲覧権限（users:read）
+                - listitem [ref=e1837]:
+                  - generic [ref=e1839] [cursor=pointer]:
+                    - generic [ref=e1841]
+                    - generic [ref=e1846]: ユーザーの編集権限（users:write）
+          - button "保存する" [ref=e1851] [cursor=pointer]:
+            - generic [ref=e1852]: 保存する
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e1043]:
+        - button "Close toast" [ref=e1044] [cursor=pointer]:
+          - img [ref=e1045]
+        - img [ref=e1049]
+        - generic [ref=e1052]: 権限グループを作成しました
+  - alert [ref=e10]

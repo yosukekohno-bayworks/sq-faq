@@ -1,0 +1,421 @@
+{
+  "generatedAt": "2026-06-27T20:32:02.748487+00:00",
+  "base": "https://www.sqstackstaging.com",
+  "rule": {
+    "name": "TEST_FAQ_注文ポイント付与ルール",
+    "route": "/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule",
+    "rankMultipliersRoute": "/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/rank_multipliers"
+  },
+  "target": {
+    "rank": "Bronze",
+    "multiplier": "2"
+  },
+  "errors": [],
+  "result": {
+    "initial": {
+      "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/rank_multipliers",
+      "h1": [
+        "TEST_FAQ_注文ポイント付与ルール"
+      ],
+      "h2": [
+        "会員ランク倍率"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 会員ランク 倍率",
+        "アイテムを選択する Bronze 2倍"
+      ],
+      "buttons": [
+        {
+          "text": "stack-ps-yosuke 陽介 河野",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "会員ランク倍率",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "会員ランク倍率",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "その他のビュー",
+          "disabled": false,
+          "ariaDisabled": null
+        },
+        {
+          "text": "追加する",
+          "disabled": false,
+          "ariaDisabled": null
+        }
+      ],
+      "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_注文ポイント付与ルール。このページの準備が整いました TEST_FAQ_注文ポイント付与ルール 0件のテナントで利用 基本設定 会員ランク倍率 商品倍率 会員ランク倍率 追加する すべてのアイテムを選択する 会員ランク 倍率 アイテムを選択する Bronze 2倍"
+    },
+    "cleanupBeforeTest": {
+      "afterSelect": {
+        "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/rank_multipliers",
+        "h1": [
+          "TEST_FAQ_注文ポイント付与ルール"
+        ],
+        "h2": [
+          "会員ランク倍率"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 会員ランク 倍率",
+          "アイテムを選択する Bronze 2倍"
+        ],
+        "buttons": [
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "追加する",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "削除する",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "削除する",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_注文ポイント付与ルール。このページの準備が整いました TEST_FAQ_注文ポイント付与ルール 0件のテナントで利用 基本設定 会員ランク倍率 商品倍率 会員ランク倍率 追加する アイテムの選択を解除する 1を選択済み 削除する すべてのアイテムを選択する 会員ランク 倍率 アイテムを選択する Bronze 2倍"
+      },
+      "deleteDialog": "会員ランク倍率を削除しますか？ 選択された1件の会員ランク倍率を削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+      "afterDelete": {
+        "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/rank_multipliers",
+        "h1": [
+          "TEST_FAQ_注文ポイント付与ルール"
+        ],
+        "h2": [
+          "会員ランク倍率"
+        ],
+        "rows": [],
+        "buttons": [
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "追加する",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_注文ポイント付与ルール。このページの準備が整いました TEST_FAQ_注文ポイント付与ルール 0件のテナントで利用 基本設定 会員ランク倍率 商品倍率 会員ランク倍率 追加する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+      },
+      "rowAfterDelete": null
+    },
+    "add": {
+      "dialogBefore": {
+        "text": "会員ランク倍率を追加する 会員ランク 選択してください Bronze シルバー 選択してください 既に設定されている会員ランクは選択できません 倍率 倍 キャンセル 追加する",
+        "selects": [
+          {
+            "index": 0,
+            "value": "",
+            "options": [
+              {
+                "value": "",
+                "text": "選択してください",
+                "disabled": true
+              },
+              {
+                "value": "ef3cca3d-4622-546b-91ec-a88aa0cf8518_CustomerRankRule",
+                "text": "Bronze",
+                "disabled": false
+              },
+              {
+                "value": "0c59c407-2bc0-54c5-942e-65be60fa8658_CustomerRankRule",
+                "text": "シルバー",
+                "disabled": false
+              }
+            ]
+          }
+        ],
+        "inputs": [
+          {
+            "index": 0,
+            "type": "number",
+            "placeholder": "3",
+            "value": ""
+          }
+        ],
+        "buttons": [
+          {
+            "text": "",
+            "disabled": false
+          },
+          {
+            "text": "キャンセル",
+            "disabled": false
+          },
+          {
+            "text": "追加する",
+            "disabled": false
+          }
+        ]
+      },
+      "dialogFilled": {
+        "text": "会員ランク倍率を追加する 会員ランク 選択してください Bronze シルバー Bronze 既に設定されている会員ランクは選択できません 倍率 倍 キャンセル 追加する",
+        "selects": [
+          {
+            "index": 0,
+            "value": "ef3cca3d-4622-546b-91ec-a88aa0cf8518_CustomerRankRule",
+            "options": [
+              {
+                "value": "",
+                "text": "選択してください",
+                "disabled": true
+              },
+              {
+                "value": "ef3cca3d-4622-546b-91ec-a88aa0cf8518_CustomerRankRule",
+                "text": "Bronze",
+                "disabled": false
+              },
+              {
+                "value": "0c59c407-2bc0-54c5-942e-65be60fa8658_CustomerRankRule",
+                "text": "シルバー",
+                "disabled": false
+              }
+            ]
+          }
+        ],
+        "inputs": [
+          {
+            "index": 0,
+            "type": "number",
+            "placeholder": "3",
+            "value": "2"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "",
+            "disabled": false
+          },
+          {
+            "text": "キャンセル",
+            "disabled": false
+          },
+          {
+            "text": "追加する",
+            "disabled": false
+          }
+        ]
+      },
+      "afterAdd": {
+        "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/rank_multipliers",
+        "h1": [
+          "TEST_FAQ_注文ポイント付与ルール"
+        ],
+        "h2": [
+          "会員ランク倍率"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 会員ランク 倍率",
+          "アイテムを選択する Bronze 2倍"
+        ],
+        "buttons": [
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "追加する",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_注文ポイント付与ルール。このページの準備が整いました TEST_FAQ_注文ポイント付与ルール 0件のテナントで利用 基本設定 会員ランク倍率 商品倍率 会員ランク倍率 追加する すべてのアイテムを選択する 会員ランク 倍率 アイテムを選択する Bronze 2倍"
+      },
+      "rowAfterAdd": "アイテムを選択する Bronze 2倍"
+    },
+    "delete": {
+      "afterSelect": {
+        "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/rank_multipliers",
+        "h1": [
+          "TEST_FAQ_注文ポイント付与ルール"
+        ],
+        "h2": [
+          "会員ランク倍率"
+        ],
+        "rows": [
+          "すべてのアイテムを選択する 会員ランク 倍率",
+          "アイテムを選択する Bronze 2倍"
+        ],
+        "buttons": [
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "追加する",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "削除する",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "削除する",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_注文ポイント付与ルール。このページの準備が整いました TEST_FAQ_注文ポイント付与ルール 0件のテナントで利用 基本設定 会員ランク倍率 商品倍率 会員ランク倍率 追加する アイテムの選択を解除する 1を選択済み 削除する すべてのアイテムを選択する 会員ランク 倍率 アイテムを選択する Bronze 2倍"
+      },
+      "deleteDialog": "会員ランク倍率を削除しますか？ 選択された1件の会員ランク倍率を削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+      "afterDelete": {
+        "url": "https://www.sqstackstaging.com/admin/point_calculation_rules/4d73fe29-07c9-5370-80a2-61c3ad3aadfa_PointCalculationRule/rank_multipliers",
+        "h1": [
+          "TEST_FAQ_注文ポイント付与ルール"
+        ],
+        "h2": [
+          "会員ランク倍率"
+        ],
+        "rows": [],
+        "buttons": [
+          {
+            "text": "stack-ps-yosuke 陽介 河野",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "会員ランク倍率",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "その他のビュー",
+            "disabled": false,
+            "ariaDisabled": null
+          },
+          {
+            "text": "追加する",
+            "disabled": false,
+            "ariaDisabled": null
+          }
+        ],
+        "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント キャンペーン 誕生日 利用外商品 失効通知 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 TEST_FAQ_注文ポイント付与ルール。このページの準備が整いました TEST_FAQ_注文ポイント付与ルール 0件のテナントで利用 基本設定 会員ランク倍率 商品倍率 会員ランク倍率 追加する アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください"
+      },
+      "rowAfterDelete": null
+    }
+  },
+  "facts": {
+    "rankSelectable": true,
+    "addedListContainsRank": true,
+    "addedListContainsMultiplier": true,
+    "deleteDialog": "会員ランク倍率を削除しますか？ 選択された1件の会員ランク倍率を削除します。この処理は巻き戻すことができません。 キャンセル 削除する",
+    "deletedListOmitsRank": true,
+    "errors": []
+  }
+}

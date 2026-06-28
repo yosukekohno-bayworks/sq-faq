@@ -1,0 +1,270 @@
+{
+  "generatedAt": "2026-06-27T18:04:34.285762+00:00",
+  "route": "/admin/inventory_inbound_orders/3506bdef-629c-5ebd-98fd-ca256a1959c5_InventoryInboundOrder",
+  "snapshot": {
+    "url": "https://www.sqstackstaging.com/admin/inventory_inbound_orders/3506bdef-629c-5ebd-98fd-ca256a1959c5_InventoryInboundOrder",
+    "h1": [
+      "#II-1027"
+    ],
+    "h2": [
+      "入荷明細",
+      "詳細"
+    ],
+    "controls": [
+      {
+        "tag": "a",
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": "メニューを切り替える"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/admin",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "button",
+        "text": "stack-ps-yosuke 陽介 河野",
+        "href": null,
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/admin",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "ホーム",
+        "href": "/admin",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "商品管理",
+        "href": "/admin/products",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "在庫管理",
+        "href": "/admin/inventory_items",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "注文管理",
+        "href": "/admin/orders",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "販売設定",
+        "href": "/admin/product_price_rules",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "会計",
+        "href": "/admin/sale_change_line_items",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "分析",
+        "href": "/admin/analytics",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "卸売",
+        "href": "/admin/b2b",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "設定",
+        "href": "/admin/settings",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": "メニューを閉じる"
+      },
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/admin/inventory_inbound_orders",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "入荷指示を一括受領で完了する",
+        "href": null,
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "入荷実績を登録する",
+        "href": null,
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      },
+      {
+        "tag": "a",
+        "text": "TEST_E2E_20260622 GU検証Tシャツ 1905",
+        "href": "/admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product/variants/9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant",
+        "disabled": false,
+        "ariaDisabled": null,
+        "ariaLabel": null
+      }
+    ],
+    "rows": [
+      "商品 SKU 入荷予定 入荷済み",
+      "product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M 0 0"
+    ],
+    "body": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 #II-1027。このページの準備が整いました #II-1027 警告 入荷キャンセル 入荷指示を一括受領で完了する ロケーション 種別 入荷明細 入荷実績を登録する 商品 SKU 入荷予定 入荷済み product thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M 0 0 詳細 作成日時 2026年06月28日 03:03"
+  },
+  "errors": []
+}

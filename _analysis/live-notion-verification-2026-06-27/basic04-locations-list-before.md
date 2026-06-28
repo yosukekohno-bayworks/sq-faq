@@ -1,0 +1,63 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]
+            - listitem [ref=e49]
+            - listitem [ref=e58]
+            - listitem [ref=e67]
+            - listitem [ref=e76]
+            - listitem [ref=e86]
+            - listitem [ref=e96]
+            - listitem [ref=e108]
+            - listitem [ref=e117]
+          - list [ref=e119]:
+            - listitem [ref=e120]
+            - listitem [ref=e122]
+            - listitem [ref=e133]
+            - listitem [ref=e142]
+          - list [ref=e152]:
+            - listitem [ref=e153]
+            - listitem [ref=e155]
+            - listitem [ref=e164]
+            - listitem [ref=e173]
+          - list [ref=e183]:
+            - listitem [ref=e184]
+            - listitem [ref=e186]
+            - listitem [ref=e191]
+            - listitem [ref=e196]
+            - listitem [ref=e201]
+            - listitem [ref=e206]
+          - list [ref=e208]:
+            - listitem [ref=e209]
+    - progressbar "ページの読み込み表示バー" [ref=e219]
+    - main [ref=e221]:
+      - status "ページを読み込み中" [ref=e225]:
+        - generic [ref=e239]:
+          - generic [ref=e241]:
+            - img [ref=e243]
+            - status
+            - generic [ref=e246]: アイテムを読み込んでいます...
+          - generic [ref=e248]:
+            - img "空の検索結果" [ref=e250]
+            - paragraph [ref=e252]: アイテムが見つかりませんでした
+            - paragraph [ref=e255]: 絞り込みや検索ワードを変更してみてください
+  - region "Notifications alt+T"
+  - alert [ref=e10]

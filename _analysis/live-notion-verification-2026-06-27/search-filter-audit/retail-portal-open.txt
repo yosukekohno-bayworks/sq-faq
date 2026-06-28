@@ -1,0 +1,1 @@
+url: https://www.sqstackstaging.com/admin/retail_portal_integrations

@@ -1,0 +1,272 @@
+viewport: 1209x785
+page: 1209x4359
+scroll: (0, 0)
+[87413]<a />
+	コンテンツにスキップ
+[87616]<div />
+[87416]<button data-state=closed expanded=false />
+[87417]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[87633]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[87421]<a />
+		ホーム
+	[87422]<a />
+		商品管理
+	[87423]<a />
+		在庫管理
+	[87424]<a />
+		注文管理
+		[87684]<div />
+	[87425]<a />
+		顧客管理
+	[87426]<a />
+		発注管理
+	[87427]<a />
+		販売設定
+	[87428]<a />
+		会計
+	[87429]<a />
+		分析
+	オペレーション
+	[87430]<a />
+		入荷管理
+		[87768]<div />
+	[87431]<a />
+		出荷管理
+		[87779]<div />
+	[87432]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[87433]<a />
+		ディスカウント
+	[87434]<a />
+		ポイント
+	[87435]<a />
+		会員ランク
+	販売チャネル
+	[87436]<a />
+		Shopify
+	[87437]<a />
+		OmnibusCore
+	[87438]<a />
+		スマレジ
+	[87439]<a />
+		リテールポータル
+	[87440]<a />
+		卸売
+	[87441]<a />
+		設定
+新しいアプリ。このページの準備が整いました
+[87897]<div />
+	[87898]<div />
+		[87443]<a />
+新しいアプリ
+アプリ名
+|SHADOW(open)|[87334]<input id=:r1c: placeholder=モバイルアプリ autocomplete=off type=text required=true />
+権限
+[87938]<span />
+	[87445]<span />
+	[87941]<svg /> <!-- SVG content collapsed -->
+[87943]<span />
+	[87944]<span />
+		お知らせの閲覧権限 (announcements:read)
+サービス内で配信されるお知らせを閲覧することができます。
+[87954]<span />
+	[87446]<span />
+	[87957]<svg /> <!-- SVG content collapsed -->
+[87959]<span />
+	[87960]<span />
+		お知らせの編集権限 (announcements:write)
+サービス内でお知らせの配信および編集を行うことができます。
+[87970]<span />
+	[87447]<span />
+	[87973]<svg /> <!-- SVG content collapsed -->
+[87550]<span />
+	[87975]<span />
+		アプリの閲覧権限 (apps:read)
+アプリ情報を閲覧することができます。
+[87985]<span />
+	[87448]<span />
+	[87988]<svg /> <!-- SVG content collapsed -->
+[87990]<span />
+	[87991]<span />
+		アプリの編集権限 (apps:write)
+アプリの作成および編集を行うことができます。
+[88001]<span />
+	[87449]<span />
+	[88004]<svg /> <!-- SVG content collapsed -->
+[88006]<span />
+	[88007]<span />
+		ブランドの閲覧権限 (brands:read)
+ブランド情報を閲覧することができます。
+[88017]<span />
+	[87450]<span />
+	[88020]<svg /> <!-- SVG content collapsed -->
+[88022]<span />
+	[88023]<span />
+		ブランドの編集権限 (brands:write)
+ブランドの作成および編集を行うことができます。
+[88033]<span />
+	[87451]<span />
+	[88036]<svg /> <!-- SVG content collapsed -->
+[88038]<span />
+	[88039]<span />
+		カタログの閲覧権限 (catalogs:read)
+カタログ情報を閲覧することができます。
+[88049]<span />
+	[87452]<span />
+	[88052]<svg /> <!-- SVG content collapsed -->
+[88054]<span />
+	[88055]<span />
+		カタログの編集権限 (catalogs:write)
+カタログの作成および編集を行うことができます。
+[88065]<span />
+	[87453]<span />
+	[88068]<svg /> <!-- SVG content collapsed -->
+[88070]<span />
+	[87551]<span />
+		取引先企業の閲覧権限 (companies:read)
+取引先企業情報を閲覧することができます。
+[88080]<span />
+	[87454]<span />
+	[88083]<svg /> <!-- SVG content collapsed -->
+[88085]<span />
+	[88086]<span />
+		取引先企業の編集権限 (companies:write)
+取引先企業の作成および編集を行うことができます。
+[88096]<span />
+	[87455]<span />
+	[88099]<svg /> <!-- SVG content collapsed -->
+[88101]<span />
+	[88102]<span />
+		顧客マイルの閲覧権限 (customer_miles:read)
+顧客のマイルを閲覧することができます。
+[88112]<span />
+	[87456]<span />
+	[88115]<svg /> <!-- SVG content collapsed -->
+[88117]<span />
+	[88118]<span />
+		顧客マイルの編集権限 (customer_miles:write)
+顧客のマイルを編集することができます。
+[88128]<span />
+	[87457]<span />
+	[88131]<svg /> <!-- SVG content collapsed -->
+[88133]<span />
+	[88134]<span />
+		顧客ポイントの閲覧権限 (customer_points:read)
+顧客のポイントを閲覧することができます。
+[88144]<span />
+	[87458]<span />
+	[88147]<svg /> <!-- SVG content collapsed -->
+[88149]<span />
+	[88150]<span />
+		顧客ポイントの編集権限 (customer_points:write)
+顧客のポイントを編集することができます。
+[88160]<span />
+	[87459]<span />
+	[88163]<svg /> <!-- SVG content collapsed -->
+[88165]<span />
+	[88166]<span />
+		顧客会員ランクルールの閲覧権限 (customer_rank_rules:read)
+顧客の会員ランクルールを閲覧することができます。
+[88176]<span />
+	[87460]<span />
+	[88179]<svg /> <!-- SVG content collapsed -->
+[88181]<span />
+	[88182]<span />
+		顧客会員ランクルールの編集権限 (customer_rank_rules:write)
+顧客の会員ランクルールを編集することができます。
+[88192]<span />
+	[87461]<span />
+	[88195]<svg /> <!-- SVG content collapsed -->
+[88197]<span />
+	[88198]<span />
+		顧客会員ランクの閲覧権限 (customer_ranks:read)
+顧客の会員ランクを閲覧することができます。
+[88208]<span />
+	[87462]<span />
+	[88211]<svg /> <!-- SVG content collapsed -->
+[88213]<span />
+	[88214]<span />
+		顧客会員ランクの編集権限 (customer_ranks:write)
+顧客の会員ランクを編集することができます。
+[88224]<span />
+	[87463]<span />
+	[88227]<svg /> <!-- SVG content collapsed -->
+[88229]<span />
+	[88230]<span />
+		顧客の閲覧権限 (customers:read)
+顧客とその関連情報を閲覧することができます。
+[88240]<span />
+	[87464]<span />
+	[88243]<svg /> <!-- SVG content collapsed -->
+[88245]<span />
+	[88246]<span />
+		顧客の編集権限 (customers:write)
+顧客の作成および編集を行うことができます。
+[88256]<span />
+	[87465]<span />
+	[88259]<svg /> <!-- SVG content collapsed -->
+[88261]<span />
+	[88262]<span />
+		ディスカウントの閲覧権限 (discounts:read)
+ディスカウント情報を閲覧することができます。
+[88272]<span />
+	[87466]<span />
+	[88275]<svg /> <!-- SVG content collapsed -->
+[88277]<span />
+	[88278]<span />
+		ディスカウントの編集権限 (discounts:write)
+ディスカウントの作成および編集を行うことができます。
+[88288]<span />
+	[87467]<span />
+	[88291]<svg /> <!-- SVG content collapsed -->
+[88293]<span />
+	[88294]<span />
+		下書き注文の閲覧権限 (draft_orders:read)
+下書き注文とその関連情報の閲覧することができます。
+[88304]<span />
+	[87468]<span />
+	[88307]<svg /> <!-- SVG content collapsed -->
+[88309]<span />
+	[88310]<span />
+		下書き注文の編集権限 (draft_orders:write)
+下書き注文の作成および編集を行うことができます。
+[88320]<span />
+	[87469]<span />
+	[88323]<svg /> <!-- SVG content collapsed -->
+[88325]<span />
+	[88326]<span />
+		在庫の閲覧権限 (inventory:read)
+在庫を閲覧することができます。
+[88336]<span />
+	[87470]<span />
+	[88339]<svg /> <!-- SVG content collapsed -->
+[88341]<span />
+	[88342]<span />
+		在庫の編集権限 (inventory:write)
+在庫を編集することができます。
+[88352]<span />
+	[87471]<span />
+	[88355]<svg /> <!-- SVG content collapsed -->
+[88357]<span />
+	[88358]<span />
+		在庫リクエストの閲覧権限 (inventory_allocation_requests:read)
+在庫リクエストとその関連情報を閲覧することができます。
+[88368]<span />
+	[87472]<span />
+	[88371]<svg /> <!-- SVG content collapsed -->
+[88373]<span />
+	[88374]<span />
+		在庫リクエストの編集権限 (inventory_allocation_requests:write)
+在庫リクエストの作成および編集を行うことができます。
+[88384]<span />
+	[87473]<span />
+	[88387]<svg /> <!-- SVG content collapsed -->
+[88389]<span />
+	[88390]<span />
+		発注返品伝票の閲覧権限 (inventory_purchase_order_returns:read)
+発注返品伝票とその関連情報を閲覧することができます。

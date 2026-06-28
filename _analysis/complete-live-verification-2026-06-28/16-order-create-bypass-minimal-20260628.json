@@ -1,0 +1,954 @@
+{
+  "generatedAt": "2026-06-28T01:11:27.017907+00:00",
+  "testOrder": {
+    "externalID": "FAQ_ORDER_BYPASS_20260628100919",
+    "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+    "tenantID": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+    "tenantName": "ユニクロ",
+    "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+    "inventoryBehavior": "BYPASS",
+    "fulfillmentLocationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+    "fulfillmentLocationName": "ユニクロ物流倉庫",
+    "customer": {
+      "id": "e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer",
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "fullName": "検証顧客ユニクロ095318FAQ",
+      "tenantID": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+      "tenantName": "ユニクロ"
+    }
+  },
+  "steps": [
+    {
+      "label": "orders-before-create",
+      "url": "https://www.sqstackstaging.com/admin/orders",
+      "title": "SQ - 管理画面",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて アイテムが見つかりませんでした 絞り込みや検索ワードを変更してみてください",
+      "headers": [
+        "注文管理"
+      ],
+      "rows": [],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ]
+    },
+    {
+      "label": "orders-after-create",
+      "url": "https://www.sqstackstaging.com/admin/orders",
+      "title": "SQ - 管理画面",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS",
+      "headers": [
+        "注文管理",
+        "すべてのアイテムを選択する",
+        "注文",
+        "制限",
+        "注文日時",
+        "顧客",
+        "チャネル",
+        "店舗",
+        "アイテム",
+        "合計",
+        "決済状況",
+        "出荷状況",
+        "返品状況",
+        "タグ"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ",
+        "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 1個のアイテム ￥1,990 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+      ],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "すべて",
+        "その他のビュー"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "FAQ-ORDER-BYPASS-20260628100919",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order"
+        }
+      ]
+    },
+    {
+      "label": "order-detail",
+      "url": "https://www.sqstackstaging.com/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+      "title": "SQ - 管理画面",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ-ORDER-BYPASS-20260628100919。このページの準備が整いました FAQ-ORDER-BYPASS-20260628100919 成功 完了 支払い済み 成功 完了 発送済み 2026年06月28日 10:11 にFAQ_INTERNAL_GRAPHQL FAQ-ORDER-BYPASS-20260628100919 から注文 返金 返品・交換を作成 その他の操作 注文情報 返金履歴 出荷指示 在庫依頼 この注文による在庫変動は無視されます この注文によって発生する在庫減少はSQで管理されている在庫数には反映されません。 注文詳細 FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 ￥1,990 product thumbnail FAQ検証商品 新規 NAVY / M - TEST_E2E_20260622_GU_1905_NAVY_M 単価 ￥1,990 x 1 ￥1,990 支払い情報 成功 完了 支払い済み 支払い合計 ￥1,990 小計 1個のアイテム ￥1,990 送料 ￥0 税 ￥0 合計 ￥1,990 決済履歴 決済履歴がありません。ポイント利用などで注文の合計が0円の場合はトランザクションは発生しません。 メモ FAQ実機検証: orderCreate inventoryBehavior=BYPASS 顧客情報 検証顧客ユニクロ095318FAQ 過去に1個の注文 連絡先情報 sq-faq-uniqlo-customer-20260628095318@example.invalid 配送先住所 配送先住所なし 請求先住所 請求先住所なし ポイント 付与対象に含む 成功 はい ポイント付与 0ポイント 会員ランク 算出対象に含む 成功 はい タグ #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS",
+      "headers": [
+        "FAQ-ORDER-BYPASS-20260628100919",
+        "この注文による在庫変動は無視されます",
+        "注文詳細",
+        "FAQ-ORDER-BYPASS-20260628100919",
+        "￥1,990",
+        "支払い情報",
+        "支払い合計",
+        "決済履歴",
+        "メモ",
+        "顧客情報",
+        "連絡先情報",
+        "配送先住所",
+        "請求先住所",
+        "ポイント",
+        "付与対象に含む",
+        "ポイント付与",
+        "会員ランク",
+        "算出対象に含む",
+        "タグ"
+      ],
+      "rows": [],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "その他の操作",
+        "注文情報",
+        "その他のビュー",
+        "sq-faq-uniqlo-customer-20260628095318@example.invalid"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "下書き",
+          "href": "/admin/draft_orders"
+        },
+        {
+          "text": "返品",
+          "href": "/admin/order_returns"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "返品・交換を作成",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order/return"
+        },
+        {
+          "text": "返品・交換を作成",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order/return"
+        },
+        {
+          "text": "返金履歴",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order/refunds"
+        },
+        {
+          "text": "出荷指示",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order/inventory-outbound-orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order/inventory-allocation-requests"
+        },
+        {
+          "text": "返金履歴",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order/refunds"
+        },
+        {
+          "text": "出荷指示",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order/inventory-outbound-orders"
+        },
+        {
+          "text": "在庫依頼",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order/inventory-allocation-requests"
+        },
+        {
+          "text": "FAQ検証商品",
+          "href": "/admin/products/91f45bd1-03b7-5aad-a888-42530a13011d_Product/variants/9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant"
+        },
+        {
+          "text": "検証顧客ユニクロ095318FAQ",
+          "href": "/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer"
+        },
+        {
+          "text": "過去に1個の注文",
+          "href": "/admin/orders?purchasingCustomerID=e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer"
+        }
+      ]
+    },
+    {
+      "label": "customer-detail-after-order",
+      "url": "https://www.sqstackstaging.com/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer",
+      "title": "SQ - 管理画面",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 会社 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 検証顧客ユニクロ095318FAQ。このページの準備が整いました 検証顧客ユニクロ095318FAQ 初回購入日: 2026年06月28日 10:11 すべての注文を表示 その他の操作 直近の注文 order source FAQ-ORDER-BYPASS-20260628100919 成功 完了 支払い済み 成功 完了 発送済み 2026年06月28日 10:11 に FAQ_INTERNAL_GRAPHQL FAQ-ORDER-BYPASS-20260628100919 から作成 ￥1,990 ポイント 保有ポイント 0 ポイント 付与予定 0 ポイント ポイントを加算 ポイントを減算 ポイント履歴はありません すべての履歴を表示 マイル 保有マイル 0 マイル 累計獲得 0 マイル マイルを加算 マイルを減算 マイル履歴はありません すべての履歴を表示 ディスカウント ディスカウントはありません すべてのディスカウントを表示 メタフィールド 性別 未設定 会員番号 FAQUNI0628095318 顧客情報 氏名 検証顧客ユニクロ095318FAQ メールアドレス sq-faq-uniqlo-customer-20260628095318@example.invalid 電話番号 0000000000 SMS認証 未完了 未認証 外部ID FAQ_E2E_UNIQLO_CUSTOMER_20260628095318 作成日時 2026年06月28日 09:53 更新日時 2026年06月28日 09:53 購買サマリー 初回購入日 2026年06月28日 10:11 初回購入場所(店舗コード) FAQ_INTERNAL_GRAPHQL 最終購入日 2026年06月28日 10:11 最終購入場所(店舗コード) FAQ_INTERNAL_GRAPHQL メモ この顧客にはメモがありません。 タグ FAQ_E2E_20260628",
+      "headers": [
+        "検証顧客ユニクロ095318FAQ",
+        "直近の注文",
+        "￥1,990",
+        "ポイント",
+        "保有ポイント",
+        "付与予定",
+        "マイル",
+        "保有マイル",
+        "累計獲得",
+        "ディスカウント",
+        "メタフィールド",
+        "性別",
+        "会員番号",
+        "顧客情報",
+        "氏名",
+        "メールアドレス",
+        "電話番号",
+        "SMS認証",
+        "外部ID",
+        "作成日時",
+        "更新日時",
+        "購買サマリー",
+        "初回購入日",
+        "初回購入場所(店舗コード)",
+        "最終購入日",
+        "最終購入場所(店舗コード)",
+        "メモ",
+        "タグ"
+      ],
+      "rows": [],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "その他の操作",
+        "ポイントを加算",
+        "ポイントを減算",
+        "マイルを加算",
+        "マイルを減算",
+        "sq-faq-uniqlo-customer-20260628095318@example.invalid"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "会社",
+          "href": "/admin/companies"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "すべての注文を表示",
+          "href": "/admin/orders?purchasing_customer_id=e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer"
+        },
+        {
+          "text": "すべての注文を表示",
+          "href": "/admin/orders?purchasing_customer_id=e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer"
+        },
+        {
+          "text": "FAQ-ORDER-BYPASS-20260628100919",
+          "href": "/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order"
+        },
+        {
+          "text": "すべての履歴を表示",
+          "href": "/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer/point_change_activities"
+        },
+        {
+          "text": "すべての履歴を表示",
+          "href": "/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer/miles_change_activities"
+        },
+        {
+          "text": "すべてのディスカウントを表示",
+          "href": "/admin/purchasing_customers/e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer/order_price_adjustment_rules"
+        }
+      ]
+    },
+    {
+      "label": "sale-change-line-items-after-order",
+      "url": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "title": "SQ - 管理画面",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 売上実績 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 売上実績。このページの準備が整いました 売上実績 エクスポート 売上実績を作成する 計上日 テナント 作成元 店舗 商品コード SKU 数量 売上 税金 作成日時 2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M 1 ￥1,990 ￥0 2026年06月28日 10:11",
+      "headers": [
+        "売上実績",
+        "計上日",
+        "テナント",
+        "作成元",
+        "店舗",
+        "商品コード",
+        "SKU",
+        "数量",
+        "売上",
+        "税金",
+        "作成日時"
+      ],
+      "rows": [
+        "計上日 テナント 作成元 店舗 商品コード SKU 数量 売上 税金 作成日時",
+        "2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M 1 ￥1,990 ￥0 2026年06月28日 10:11"
+      ],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "エクスポート"
+      ],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "",
+          "href": "/admin"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "売上実績",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        }
+      ]
+    }
+  ],
+  "facts": {
+    "order": {
+      "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+      "externalID": "FAQ_ORDER_BYPASS_20260628100919",
+      "source": "FAQ_INTERNAL_GRAPHQL",
+      "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+      "managementNumber": "1",
+      "receiptNumber": "FAQ-RECEIPT-20260628101127",
+      "currencyCode": "JPY",
+      "inventoryBehavior": "BYPASS",
+      "bypassesPointCalculation": false,
+      "excludesFromCustomerRankCalculation": false,
+      "excludesFromSalesRecording": false,
+      "isCancelled": false,
+      "isDeleted": false,
+      "isEditable": true,
+      "isLocked": false,
+      "merchantCancellable": false,
+      "merchantRefundable": false,
+      "merchantReturnable": true,
+      "merchantFulfillable": false,
+      "paymentStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "requiresFulfillment": false,
+      "totalQuantity": 1,
+      "currentTotalQuantity": 1,
+      "purchasedAt": "2026-06-28T01:11:32Z",
+      "fulfilledAt": "2026-06-28T01:11:33Z",
+      "cancelledAt": null,
+      "tags": [
+        "#ON-1",
+        "FAQ_E2E_20260628",
+        "FAQ_ORDER_BYPASS"
+      ],
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "purchasingCustomer": {
+        "id": "e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer",
+        "fullName": "検証顧客ユニクロ095318FAQ",
+        "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+        "orderCount": 1,
+        "pointsApproved": 0,
+        "pointsPending": 0
+      }
+    },
+    "createdOrFoundOrderID": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+    "managementNumber": "1",
+    "inventoryBehavior": "BYPASS",
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "FULFILLED",
+    "merchantCancellable": false,
+    "merchantRefundable": false,
+    "merchantReturnable": true,
+    "ordersListShowsManagementCode": true,
+    "ordersListShowsManagementNumber": true,
+    "orderDetailURL": "https://www.sqstackstaging.com/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+    "orderDetailShowsOrder": true,
+    "customerDetailShowsOrderManagementCode": true,
+    "customerDetailShowsOrderManagementNumber": true,
+    "saleChangeLineItemsShowsOrder": true
+  },
+  "errors": [],
+  "existingLookup": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "orderByExternalID": null
+      }
+    },
+    "textSample": "{\"data\":{\"orderByExternalID\":null}}"
+  },
+  "createInputSummary": {
+    "input": {
+      "externalID": "FAQ_ORDER_BYPASS_20260628100919",
+      "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+      "receiptNumber": "FAQ-RECEIPT-20260628101127",
+      "source": "FAQ_INTERNAL_GRAPHQL",
+      "tenantID": "da86c1b7-191a-51c2-80e9-f9c3a2a09d9f_Tenant",
+      "currencyCode": "JPY",
+      "purchasingCustomer": {
+        "customerID": "e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer"
+      },
+      "tags": [
+        "FAQ_E2E_20260628",
+        "FAQ_ORDER_BYPASS"
+      ],
+      "purchasedAt": "2026-06-28T01:11:32.546306+00:00",
+      "isLocked": false,
+      "isEditable": true,
+      "isDeletable": true,
+      "note": "FAQ実機検証: orderCreate inventoryBehavior=BYPASS",
+      "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+      "lineItems": [
+        {
+          "productTitle": "FAQ検証商品",
+          "variantTitle": "NAVY / M",
+          "externalID": "FAQ-LINE-20260628101127",
+          "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+          "quantity": 1,
+          "unitPrice": {
+            "amount": "1990",
+            "currencyCode": "JPY"
+          },
+          "isBackOrder": false,
+          "excludesFromPointCalculation": false
+        }
+      ],
+      "fulfillment": {
+        "locationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+        "requiresFulfillment": false
+      },
+      "taxesIncluded": true,
+      "useDiscountAllocationInput": false
+    },
+    "option": {
+      "inventoryBehavior": "BYPASS",
+      "bypassesPointCalculation": false,
+      "excludesFromCustomerRankCalculation": false,
+      "excludesFromSalesRecording": false,
+      "createInventoryOutboundOrderAsOnHold": false
+    }
+  },
+  "createResult": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "orderCreate": {
+          "order": {
+            "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+            "externalID": "FAQ_ORDER_BYPASS_20260628100919",
+            "source": "FAQ_INTERNAL_GRAPHQL",
+            "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+            "managementNumber": "1",
+            "receiptNumber": "FAQ-RECEIPT-20260628101127",
+            "currencyCode": "JPY",
+            "inventoryBehavior": "BYPASS",
+            "bypassesPointCalculation": false,
+            "excludesFromCustomerRankCalculation": false,
+            "excludesFromSalesRecording": false,
+            "isCancelled": false,
+            "isDeleted": false,
+            "isEditable": true,
+            "isLocked": false,
+            "merchantCancellable": false,
+            "merchantRefundable": false,
+            "merchantReturnable": true,
+            "merchantFulfillable": false,
+            "paymentStatus": "PAID",
+            "fulfillmentStatus": "FULFILLED",
+            "requiresFulfillment": false,
+            "totalQuantity": 1,
+            "currentTotalQuantity": 1,
+            "purchasedAt": "2026-06-28T01:11:32Z",
+            "fulfilledAt": "2026-06-28T01:11:33Z",
+            "cancelledAt": null,
+            "tags": [
+              "#ON-1",
+              "FAQ_E2E_20260628",
+              "FAQ_ORDER_BYPASS"
+            ],
+            "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+            "purchasingCustomer": {
+              "id": "e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer",
+              "fullName": "検証顧客ユニクロ095318FAQ",
+              "email": "sq-faq-uniqlo-customer-20260628095318@example.invalid",
+              "orderCount": 1,
+              "pointsApproved": 0,
+              "pointsPending": 0
+            }
+          }
+        }
+      }
+    },
+    "textSample": "{\"data\":{\"orderCreate\":{\"order\":{\"id\":\"4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order\",\"externalID\":\"FAQ_ORDER_BYPASS_20260628100919\",\"source\":\"FAQ_INTERNAL_GRAPHQL\",\"managementCode\":\"FAQ-ORDER-BYPASS-20260628100919\",\"managementNumber\":\"1\",\"receiptNumber\":\"FAQ-RECEIPT-20260628101127\",\"currencyCode\":\"JPY\",\"inventoryBehavior\":\"BYPASS\",\"bypassesPointCalculation\":false,\"excludesFromCustomerRankCalculation\":false,\"excludesFromSalesRecording\":false,\"isCancelled\":false,\"isDeleted\":false,\"isEditable\":true,\"isLocked\":false,\"merchantCancellable\":false,\"merchantRefundable\":false,\"merchantReturnable\":true,\"merchantFulfillable\":false,\"paymentStatus\":\"PAID\",\"fulfillmentStatus\":\"FULFILLED\",\"requiresFulfillment\":false,\"totalQuantity\":1,\"currentTotalQuantity\":1,\"purchasedAt\":\"2026-06-28T01:11:32Z\",\"fulfilledAt\":\"2026-06-28T01:11:33Z\",\"cancelledAt\":null,\"tags\":[\"#ON-1\",\"FAQ_E2E_20260628\",\"FAQ_ORDER_BYPASS\"],\"email\":\"sq-faq-uniqlo-customer-20260628095318@example.invalid\",\"purchasingCustomer\":{\"id\":\"e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer\",\"fullName\":\"検証顧客ユニクロ095318FAQ\",\"email\":\"sq-faq-uniqlo-customer-20260628095318@example.invalid\",\"orderCount\":1,\"pointsApproved\":0,\"pointsPending\":0}}}}}"
+  }
+}

@@ -1,0 +1,354 @@
+viewport: 1209x785
+page: 1209x2300
+scroll: (0, 0)
+[59022]<a />
+	コンテンツにスキップ
+[59207]<div />
+[59025]<button data-state=closed expanded=false />
+[59026]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[59224]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[59030]<a />
+		ホーム
+	[59031]<a />
+		商品管理
+	[59032]<a />
+		在庫管理
+	[59033]<a />
+		注文管理
+		[59275]<div />
+	[59034]<a />
+		顧客管理
+	[59035]<a />
+		発注管理
+	[59036]<a />
+		販売設定
+	[59037]<a />
+		会計
+	[59038]<a />
+		分析
+	オペレーション
+	[59039]<a />
+		入荷管理
+		[59359]<div />
+	[59040]<a />
+		出荷管理
+		[59370]<div />
+	[59041]<a />
+		在庫依頼
+		[59382]<div />
+	CRM
+	[59042]<a />
+		ディスカウント
+	[59043]<a />
+		ポイント
+	[59044]<a />
+		会員ランク
+	販売チャネル
+	[59045]<a />
+		Shopify
+	[59046]<a />
+		OmnibusCore
+	[59047]<a />
+		スマレジ
+	[59048]<a />
+		リテールポータル
+	[59049]<a />
+		卸売
+	[59050]<a />
+		設定
+CSVインポート。このページの準備が整いました
+[59484]<div />
+	[59485]<div />
+		[59052]<a />
+CSVインポート
+[59504]<div />
+	[59053]<button role=menuitem />
+		商品
+	[59054]<button role=menuitem />
+		価格
+	[59055]<button role=menuitem />
+		販売
+	[59056]<button role=menuitem />
+		在庫
+	[59057]<button role=menuitem />
+		メタフィールド
+	[59058]<button role=menuitem />
+		出荷
+	[59059]<button role=menuitem />
+		ポイント
+	[59060]<button role=menuitem />
+		会員ランク
+	[59061]<button role=menuitem />
+		各種マスター
+[59623]<span />
+	[59624]<svg /> <!-- SVG content collapsed -->
+商品
+[59062]<div />
+	[59634]<div id=Product />
+		[59635]<div />
+			[59636]<div />
+				[59637]<div />
+					[59638]<div />
+						[59639]<div />
+							[59640]<div />
+								[59641]<h3 level=3 />
+									商品
+								[59643]<p />
+									商品を一括で登録・更新できます。
+							[59645]<span />
+								[59646]<svg /> <!-- SVG content collapsed -->
+[59064]<div />
+	[59651]<div id=ProductImage />
+		[59652]<div />
+			[59653]<div />
+				[59654]<div />
+					[59655]<div />
+						[59656]<div />
+							[59657]<div />
+								[59658]<h3 level=3 />
+									商品画像
+								[59660]<p />
+									商品画像を一括で追加できます。
+							[59662]<span />
+								[59663]<svg /> <!-- SVG content collapsed -->
+[59066]<div />
+	[59668]<div id=ProductVariant />
+		[59669]<div />
+			[59670]<div />
+				[59671]<div />
+					[59672]<div />
+						[59673]<div />
+							[59674]<div />
+								[59675]<h3 level=3 />
+									商品バリエーション
+								[59677]<p />
+									商品バリエーションを一括で登録・更新できます。
+							[59679]<span />
+								[59680]<svg /> <!-- SVG content collapsed -->
+[59068]<div />
+	[59685]<div id=ProductVariantImage />
+		[59686]<div />
+			[59687]<div />
+				[59688]<div />
+					[59689]<div />
+						[59690]<div />
+							[59691]<div />
+								[59142]<h3 level=3 />
+									商品バリエーション画像
+								[59693]<p />
+									商品バリエーション画像を一括で追加できます。
+							[59695]<span />
+								[59696]<svg /> <!-- SVG content collapsed -->
+[59070]<div />
+	[59701]<div id=CatalogProduct />
+		[59702]<div />
+			[59703]<div />
+				[59704]<div />
+					[59705]<div />
+						[59706]<div />
+							[59707]<div />
+								[59708]<h3 level=3 />
+									カタログ
+								[59710]<p />
+									カタログに商品を一括で追加・削除できます。
+							[59712]<span />
+								[59713]<svg /> <!-- SVG content collapsed -->
+[59072]<div />
+	[59718]<div id=InventoryUnitCost />
+		[59719]<div />
+			[59720]<div />
+				[59721]<div />
+					[59722]<div />
+						[59723]<div />
+							[59724]<div />
+								[59725]<h3 level=3 />
+									原価
+								[59727]<p />
+									SKUごとに原価を一括で設定できます。
+							[59729]<span />
+								[59730]<svg /> <!-- SVG content collapsed -->
+[59738]<span />
+	[59739]<svg /> <!-- SVG content collapsed -->
+価格
+[59074]<div />
+	[59143]<div id=ProductPriceRuleRegularPrice />
+		[59750]<div />
+			[59751]<div />
+				[59752]<div />
+					[59753]<div />
+						[59754]<div />
+							[59755]<div />
+								[59756]<h3 level=3 />
+									販売価格 (通常)
+								[59758]<p />
+									通常区分の販売価格を一括で設定できます。
+							[59760]<span />
+								[59761]<svg /> <!-- SVG content collapsed -->
+[59076]<div />
+	[59766]<div id=ProductPriceRuleSalePrice />
+		[59767]<div />
+			[59768]<div />
+				[59769]<div />
+					[59770]<div />
+						[59771]<div />
+							[59772]<div />
+								[59773]<h3 level=3 />
+									販売価格 (セール)
+								[59775]<p />
+									セール区分の販売価格を一括で設定できます。
+							[59777]<span />
+								[59778]<svg /> <!-- SVG content collapsed -->
+[59786]<span />
+	[59787]<svg /> <!-- SVG content collapsed -->
+販売
+[59078]<div />
+	[59797]<div id=InventoryThresholdRuleProductVariant />
+		[59798]<div />
+			[59799]<div />
+				[59800]<div />
+					[59801]<div />
+						[59802]<div />
+							[59803]<div />
+								[59804]<h3 level=3 />
+									販売閾値
+								[59806]<p />
+									販売閾値ルールごとにSKUと閾値を一括で設定できます。
+							[59808]<span />
+								[59809]<svg /> <!-- SVG content collapsed -->
+[59817]<span />
+	[59818]<svg /> <!-- SVG content collapsed -->
+在庫
+[59080]<div />
+	[59828]<div id=InventoryLogicalAvailableQuantity />
+		[59829]<div />
+			[59830]<div />
+				[59831]<div />
+					[59832]<div />
+						[59833]<div />
+							[59834]<div />
+								[59835]<h3 level=3 />
+									販売可能在庫
+								[59837]<p />
+									SKUとロケーションを指定して在庫数を一括で設定できます。
+							[59839]<span />
+								[59840]<svg /> <!-- SVG content collapsed -->
+[59082]<div />
+	[59845]<div id=InventoryBackOrderRuleProductVariant />
+		[59846]<div />
+			[59847]<div />
+				[59848]<div />
+					[59849]<div />
+						[59850]<div />
+							[59851]<div />
+								[59852]<h3 level=3 />
+									予約販売
+								[59854]<p />
+									SKUごとに予約販売の数量を一括で設定できます。
+							[59856]<span />
+								[59857]<svg /> <!-- SVG content collapsed -->
+[59084]<div />
+	[59862]<div id=InventoryMovementOrder />
+		[59863]<div />
+			[59864]<div />
+				[59865]<div />
+					[59866]<div />
+						[59867]<div />
+							[59868]<div />
+								[59869]<h3 level=3 />
+									在庫移動伝票
+								[59871]<p />
+									在庫移動伝票を一括で作成できます。
+							[59873]<span />
+								[59874]<svg /> <!-- SVG content collapsed -->
+[59882]<span />
+	[59883]<svg /> <!-- SVG content collapsed -->
+メタフィールド
+[59086]<div />
+	[59893]<div id=ProductMetafield />
+		[59894]<div />
+			[59895]<div />
+				[59896]<div />
+					[59897]<div />
+						[59898]<div />
+							[59899]<div />
+								[59900]<h3 level=3 />
+									商品
+								[59902]<p />
+									商品メタフィールドを一括で追加できます。
+							[59904]<span />
+								[59905]<svg /> <!-- SVG content collapsed -->
+[59088]<div />
+	[59910]<div id=ProductVariantMetafield />
+		[59911]<div />
+			[59912]<div />
+				[59913]<div />
+					[59914]<div />
+						[59915]<div />
+							[59916]<div />
+								[59917]<h3 level=3 />
+									商品バリエーション
+								[59919]<p />
+									商品バリエーションメタフィールドを一括で登録・更新できます。
+							[59921]<span />
+								[59922]<svg /> <!-- SVG content collapsed -->
+[59930]<span />
+	[59931]<svg /> <!-- SVG content collapsed -->
+出荷
+[59090]<div />
+	[59941]<div id=FulfillmentByYamatoB2Cloud />
+		[59942]<div />
+			[59943]<div />
+				[59944]<div />
+					[59945]<div />
+						[59946]<div />
+							[59947]<div />
+								[59948]<h3 level=3 />
+									ヤマトB2クラウド
+								[59950]<p />
+									ヤマトB2クラウドのCSVで出荷実績を一括で登録できます。
+							[59952]<span />
+								[59953]<svg /> <!-- SVG content collapsed -->
+[59092]<div />
+	[59958]<div id=FulfillmentByDHL />
+		[59959]<div />
+			[59960]<div />
+				[59961]<div />
+					[59962]<div />
+						[59963]<div />
+							[59964]<div />
+								[59965]<h3 level=3 />
+									DHL
+								[59967]<p />
+									DHLのCSVで出荷実績を一括で登録できます。
+							[59969]<span />
+								[59970]<svg /> <!-- SVG content collapsed -->
+[59978]<span />
+	[59979]<svg /> <!-- SVG content collapsed -->
+ポイント
+[59094]<div />
+	[59989]<div id=PointPlus />
+		[59990]<div />
+			[59991]<div />
+				[59992]<div />
+					[59993]<div />
+						[59994]<div />
+							[59995]<div />
+								[59996]<h3 level=3 />
+									一括加算
+								[59998]<p />
+									顧客にポイントを一括で加算できます。
+							[60000]<span />
+								[60001]<svg /> <!-- SVG content collapsed -->
+[59096]<div />
+	[60006]<div id=PointMinus />
+		[60007]<div />
+			[60008]<div />
+				[60009]<div />
+					[60010]<div />
+						[60011]<div />
+							[60012]<div />
+								[60013]<h3 level=3 />
+									一括減算

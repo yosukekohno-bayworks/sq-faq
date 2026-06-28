@@ -1,0 +1,696 @@
+{
+  "generatedAt": "2026-06-27T20:47:13.335928+00:00",
+  "detailRoute": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration",
+  "errors": [],
+  "tabs": {
+    "店舗設定": {
+      "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/location_links",
+      "h1": [
+        "TEST_FAQ_20260624_スマレジ_100908"
+      ],
+      "h2": [
+        "店舗設定"
+      ],
+      "labels": [],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "店舗設定",
+        "その他のビュー",
+        "追加する",
+        "前へ",
+        "次へ"
+      ],
+      "tableHeaders": [],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "基本設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/products"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/customers"
+        },
+        {
+          "text": "基本設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/products"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/customers"
+        }
+      ],
+      "fields": [],
+      "includes": {
+        "productSetting": false,
+        "inventorySetting": false,
+        "transactionSetting": false,
+        "externalAccessToken": false,
+        "unlink": false,
+        "tokenCreateButton": false,
+        "locationLinks": true,
+        "products": true,
+        "customers": true,
+        "stockDirection": false
+      }
+    },
+    "商品管理": {
+      "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/products",
+      "h1": [
+        "TEST_FAQ_20260624_スマレジ_100908"
+      ],
+      "h2": [
+        "商品管理"
+      ],
+      "labels": [],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "商品管理",
+        "その他のビュー",
+        "連携済み",
+        "未連携",
+        "検索と絞り込みの結果",
+        "前へ",
+        "次へ"
+      ],
+      "tableHeaders": [],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "基本設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "店舗設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/location_links"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/customers"
+        },
+        {
+          "text": "基本設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "店舗設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/location_links"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/customers"
+        },
+        {
+          "text": "SKU一覧",
+          "href": "/admin/catalogs/e2a819ab-3f81-558d-ad76-5fae9e8422d2_Catalog?tab=sku"
+        }
+      ],
+      "fields": [],
+      "includes": {
+        "productSetting": false,
+        "inventorySetting": false,
+        "transactionSetting": false,
+        "externalAccessToken": false,
+        "unlink": false,
+        "tokenCreateButton": false,
+        "locationLinks": true,
+        "products": true,
+        "customers": true,
+        "stockDirection": false
+      }
+    },
+    "顧客管理": {
+      "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/customers",
+      "h1": [
+        "TEST_FAQ_20260624_スマレジ_100908"
+      ],
+      "h2": [
+        "顧客管理"
+      ],
+      "labels": [],
+      "buttons": [
+        "メニューを切り替える",
+        "stack-ps-yosuke 陽介 河野",
+        "メニューを閉じる",
+        "顧客管理",
+        "その他のビュー",
+        "すべて",
+        "検索と絞り込みの結果",
+        "前へ",
+        "次へ"
+      ],
+      "tableHeaders": [],
+      "links": [
+        {
+          "text": "コンテンツにスキップ",
+          "href": "#AppFrameMain"
+        },
+        {
+          "text": "ホーム",
+          "href": "/admin"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/products"
+        },
+        {
+          "text": "在庫管理",
+          "href": "/admin/inventory_items"
+        },
+        {
+          "text": "注文管理",
+          "href": "/admin/orders"
+        },
+        {
+          "text": "顧客管理",
+          "href": "/admin/purchasing_customers"
+        },
+        {
+          "text": "発注管理",
+          "href": "/admin/inventory_purchase_orders"
+        },
+        {
+          "text": "販売設定",
+          "href": "/admin/product_price_rules"
+        },
+        {
+          "text": "会計",
+          "href": "/admin/sale_change_line_items"
+        },
+        {
+          "text": "分析",
+          "href": "/admin/analytics"
+        },
+        {
+          "text": "入荷管理",
+          "href": "/admin/inventory_inbound_orders"
+        },
+        {
+          "text": "出荷管理",
+          "href": "/admin/inventory_outbound_orders"
+        },
+        {
+          "text": "在庫依頼 未完了の在庫依頼 3件 3",
+          "href": "/admin/inventory_allocation_requests"
+        },
+        {
+          "text": "ディスカウント",
+          "href": "/admin/order_price_adjustment_rules"
+        },
+        {
+          "text": "ポイント",
+          "href": "/admin/point_calculation_rules"
+        },
+        {
+          "text": "会員ランク",
+          "href": "/admin/customer_rank_calculation_rules"
+        },
+        {
+          "text": "Shopify",
+          "href": "/admin/shopify_integrations"
+        },
+        {
+          "text": "OmnibusCore",
+          "href": "/admin/omnibus_core_integrations"
+        },
+        {
+          "text": "スマレジ",
+          "href": "/admin/smaregi_integrations"
+        },
+        {
+          "text": "リテールポータル",
+          "href": "/admin/retail_portal_integrations"
+        },
+        {
+          "text": "卸売",
+          "href": "/admin/b2b"
+        },
+        {
+          "text": "設定",
+          "href": "/admin/settings"
+        },
+        {
+          "text": "",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "基本設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "店舗設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/location_links"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/products"
+        },
+        {
+          "text": "基本設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration"
+        },
+        {
+          "text": "店舗設定",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/location_links"
+        },
+        {
+          "text": "商品管理",
+          "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/products"
+        }
+      ],
+      "fields": [],
+      "includes": {
+        "productSetting": false,
+        "inventorySetting": false,
+        "transactionSetting": false,
+        "externalAccessToken": false,
+        "unlink": false,
+        "tokenCreateButton": false,
+        "locationLinks": true,
+        "products": true,
+        "customers": true,
+        "stockDirection": false
+      }
+    }
+  },
+  "detail": {
+    "url": "https://www.sqstackstaging.com/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration",
+    "h1": [
+      "TEST_FAQ_20260624_スマレジ_100908"
+    ],
+    "h2": [
+      "商品連携設定",
+      "在庫設定",
+      "取引連携設定",
+      "外部アクセストークン",
+      "連携を解除",
+      "基本情報"
+    ],
+    "labels": [
+      "カタログ",
+      "在庫同期の方向",
+      "注文による在庫変動を起こさない",
+      "取引の連携を有効にする",
+      "プラン"
+    ],
+    "buttons": [
+      "メニューを切り替える",
+      "stack-ps-yosuke 陽介 河野",
+      "メニューを閉じる",
+      "基本設定",
+      "その他のビュー",
+      "トークンを作成",
+      "解除する",
+      "保存する"
+    ],
+    "tableHeaders": [],
+    "links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "#AppFrameMain"
+      },
+      {
+        "text": "ホーム",
+        "href": "/admin"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/products"
+      },
+      {
+        "text": "在庫管理",
+        "href": "/admin/inventory_items"
+      },
+      {
+        "text": "注文管理",
+        "href": "/admin/orders"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/purchasing_customers"
+      },
+      {
+        "text": "発注管理",
+        "href": "/admin/inventory_purchase_orders"
+      },
+      {
+        "text": "販売設定",
+        "href": "/admin/product_price_rules"
+      },
+      {
+        "text": "会計",
+        "href": "/admin/sale_change_line_items"
+      },
+      {
+        "text": "分析",
+        "href": "/admin/analytics"
+      },
+      {
+        "text": "入荷管理",
+        "href": "/admin/inventory_inbound_orders"
+      },
+      {
+        "text": "出荷管理",
+        "href": "/admin/inventory_outbound_orders"
+      },
+      {
+        "text": "在庫依頼 未完了の在庫依頼 3件 3",
+        "href": "/admin/inventory_allocation_requests"
+      },
+      {
+        "text": "ディスカウント",
+        "href": "/admin/order_price_adjustment_rules"
+      },
+      {
+        "text": "ポイント",
+        "href": "/admin/point_calculation_rules"
+      },
+      {
+        "text": "会員ランク",
+        "href": "/admin/customer_rank_calculation_rules"
+      },
+      {
+        "text": "Shopify",
+        "href": "/admin/shopify_integrations"
+      },
+      {
+        "text": "OmnibusCore",
+        "href": "/admin/omnibus_core_integrations"
+      },
+      {
+        "text": "スマレジ",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "リテールポータル",
+        "href": "/admin/retail_portal_integrations"
+      },
+      {
+        "text": "卸売",
+        "href": "/admin/b2b"
+      },
+      {
+        "text": "設定",
+        "href": "/admin/settings"
+      },
+      {
+        "text": "",
+        "href": "/admin/smaregi_integrations"
+      },
+      {
+        "text": "店舗設定",
+        "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/location_links"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/products"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/customers"
+      },
+      {
+        "text": "店舗設定",
+        "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/location_links"
+      },
+      {
+        "text": "商品管理",
+        "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/products"
+      },
+      {
+        "text": "顧客管理",
+        "href": "/admin/smaregi_integrations/a1ff4fd5-5636-571d-9c40-f222135d52ef_SmaregiIntegration/customers"
+      }
+    ],
+    "fields": [
+      {
+        "tag": "select",
+        "type": "",
+        "placeholder": "",
+        "disabled": false,
+        "options": [
+          "選択してください",
+          "TEST_FAQ_カタログ001",
+          "UNIQLO"
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "placeholder": "",
+        "disabled": false,
+        "options": [
+          "スマレジからSQへ在庫を同期する",
+          "SQからスマレジへ在庫を同期する",
+          "在庫を同期しない"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "disabled": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "placeholder": "",
+        "disabled": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "placeholder": "",
+        "disabled": false,
+        "options": [
+          "スタンダード",
+          "プレミアム",
+          "プレミアムプラス",
+          "フードビジネス",
+          "リテールビジネス"
+        ]
+      }
+    ],
+    "includes": {
+      "productSetting": true,
+      "inventorySetting": true,
+      "transactionSetting": true,
+      "externalAccessToken": true,
+      "unlink": true,
+      "tokenCreateButton": true,
+      "locationLinks": true,
+      "products": true,
+      "customers": true,
+      "stockDirection": true
+    }
+  },
+  "facts": {
+    "hasProductSetting": true,
+    "hasInventorySetting": true,
+    "hasTransactionSetting": true,
+    "hasExternalAccessToken": true,
+    "hasUnlink": true,
+    "hasTokenCreateButton": true,
+    "hasStockDirection": true,
+    "hasLocationLinksTab": true,
+    "hasProductsTab": true,
+    "hasCustomersTab": true,
+    "errors": []
+  }
+}

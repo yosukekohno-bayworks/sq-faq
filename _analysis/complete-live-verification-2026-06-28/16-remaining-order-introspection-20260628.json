@@ -1,0 +1,2621 @@
+{
+  "generatedAt": "2026-06-28T04:57:10.129881+00:00",
+  "targetSku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+  "types": {
+    "ProductVariant": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "ProductVariant",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "externalID",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "shopifyID",
+            "type": "ShopifyID",
+            "args": [
+              {
+                "name": "shopifyIntegrationID",
+                "type": "ID!"
+              }
+            ]
+          },
+          {
+            "name": "product",
+            "type": "Product!",
+            "args": []
+          },
+          {
+            "name": "title",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "price",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "index",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "inventoryPolicy",
+            "type": "ProductVariantInventoryPolicy!",
+            "args": []
+          },
+          {
+            "name": "barcode",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "jan",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "ean",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "upc",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "status",
+            "type": "ProductVariantStatus!",
+            "args": []
+          },
+          {
+            "name": "selectedOptions",
+            "type": "[ProductVariantSelectedOption!]!",
+            "args": []
+          },
+          {
+            "name": "catalogProductVariant",
+            "type": "CatalogProductVariant",
+            "args": [
+              {
+                "name": "catalogID",
+                "type": "ID!"
+              }
+            ]
+          },
+          {
+            "name": "catalogProductVariants",
+            "type": "CatalogProductVariantConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "CatalogProductVariantSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "inCatalogs",
+            "type": "Boolean!",
+            "args": [
+              {
+                "name": "catalogIDs",
+                "type": "[ID!]!"
+              }
+            ]
+          },
+          {
+            "name": "inventoryItem",
+            "type": "InventoryItem!",
+            "args": []
+          },
+          {
+            "name": "locationAvailability",
+            "type": "LocationAvailability!",
+            "args": [
+              {
+                "name": "locationID",
+                "type": "ID!"
+              },
+              {
+                "name": "tenantID",
+                "type": "ID"
+              }
+            ]
+          },
+          {
+            "name": "metafield",
+            "type": "Metafield",
+            "args": [
+              {
+                "name": "namespace",
+                "type": "String!"
+              },
+              {
+                "name": "key",
+                "type": "String!"
+              }
+            ]
+          },
+          {
+            "name": "metafieldDefinitions",
+            "type": "MetafieldDefinitionConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "MetafieldDefinitionSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "images",
+            "type": "ImageConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "ProductVariantImageSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "featuredImage",
+            "type": "Image",
+            "args": []
+          },
+          {
+            "name": "imageCount",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "isLocalPickupAvailable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "sellingPrice",
+            "type": "ProductVariantSellingPrice!",
+            "args": [
+              {
+                "name": "productPriceRuleID",
+                "type": "ID!"
+              }
+            ]
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "InventoryItem": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "InventoryItem",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "productVariant",
+            "type": "ProductVariant!",
+            "args": []
+          },
+          {
+            "name": "sku",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "supplierSKU",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "requiresShipping",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "isTracked",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "unitCost",
+            "type": "InventoryUnitCost",
+            "args": [
+              {
+                "name": "currencyCode",
+                "type": "CurrencyCode"
+              }
+            ]
+          },
+          {
+            "name": "unitCosts",
+            "type": "InventoryUnitCostConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "InventoryUnitCostSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "inventoryLevel",
+            "type": "InventoryLevel!",
+            "args": [
+              {
+                "name": "locationID",
+                "type": "ID!"
+              }
+            ]
+          },
+          {
+            "name": "inventoryLevelByLocationCode",
+            "type": "InventoryLevel",
+            "args": [
+              {
+                "name": "locationCode",
+                "type": "String!"
+              }
+            ]
+          },
+          {
+            "name": "hasInventory",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "weight",
+            "type": "Weight",
+            "args": []
+          },
+          {
+            "name": "countryOfOrigin",
+            "type": "Country",
+            "args": []
+          },
+          {
+            "name": "harmonizedSystemCode",
+            "type": "String!",
+            "args": []
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "InventoryLevel": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "InventoryLevel",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "inventoryItem",
+            "type": "InventoryItem!",
+            "args": []
+          },
+          {
+            "name": "location",
+            "type": "Location!",
+            "args": []
+          },
+          {
+            "name": "quantity",
+            "type": "InventoryQuantity!",
+            "args": [
+              {
+                "name": "calculatesAt",
+                "type": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "isBackOrderEnable",
+            "type": "Boolean!",
+            "args": [
+              {
+                "name": "inventoryBackOrderRuleID",
+                "type": "ID!"
+              }
+            ]
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "InventoryQuantity": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "InventoryQuantity",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "incoming",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "inTransit",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "available",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "committed",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "reserved",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "damaged",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "safetyStock",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "qualityControl",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "onHand",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "isBelowThreshold",
+            "type": "Boolean!",
+            "args": [
+              {
+                "name": "inventoryThresholdRuleID",
+                "type": "ID"
+              }
+            ]
+          },
+          {
+            "name": "backOrderQuantity",
+            "type": "Int!",
+            "args": [
+              {
+                "name": "inventoryBackOrderRuleID",
+                "type": "ID!"
+              }
+            ]
+          },
+          {
+            "name": "sellableQuantity",
+            "type": "Int!",
+            "args": [
+              {
+                "name": "inventorySaleLimitRuleID",
+                "type": "ID"
+              },
+              {
+                "name": "inventoryThresholdRuleID",
+                "type": "ID"
+              },
+              {
+                "name": "inventoryBackOrderRuleID",
+                "type": "ID"
+              }
+            ]
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "LocationAvailability": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "LocationAvailability",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "location",
+            "type": "Location!",
+            "args": []
+          },
+          {
+            "name": "inventoryQuantity",
+            "type": "Int!",
+            "args": []
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "InventoryLogicalAdjustmentGroup": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "InventoryLogicalAdjustmentGroup",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "reason",
+            "type": "InventoryLogicalAdjustmentGroupReason!",
+            "args": []
+          },
+          {
+            "name": "changes",
+            "type": "[InventoryLogicalChange!]!",
+            "args": []
+          },
+          {
+            "name": "quantitySnapshot",
+            "type": "InventoryLogicalAdjustmentGroupQuantitySnapshot!",
+            "args": [
+              {
+                "name": "inventoryItemID",
+                "type": "ID!"
+              },
+              {
+                "name": "locationID",
+                "type": "ID!"
+              }
+            ]
+          },
+          {
+            "name": "createdAt",
+            "type": "DateTime!",
+            "args": []
+          },
+          {
+            "name": "updatedAt",
+            "type": "DateTime!",
+            "args": []
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "Order": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "Order",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "externalID",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "source",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "sourceURL",
+            "type": "URL",
+            "args": []
+          },
+          {
+            "name": "isSource",
+            "type": "Boolean!",
+            "args": [
+              {
+                "name": "source",
+                "type": "String!"
+              }
+            ]
+          },
+          {
+            "name": "createdFromDraftOrder",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "draftOrder",
+            "type": "DraftOrder",
+            "args": []
+          },
+          {
+            "name": "managementCode",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "receiptNumber",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "managementNumber",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "currencyCode",
+            "type": "CurrencyCode!",
+            "args": []
+          },
+          {
+            "name": "tenant",
+            "type": "Tenant!",
+            "args": []
+          },
+          {
+            "name": "isCancelled",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "isDeleted",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "isEditable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "isLocked",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "inventoryBehavior",
+            "type": "InventoryBehavior!",
+            "args": []
+          },
+          {
+            "name": "bypassesPointCalculation",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "excludesFromCustomerRankCalculation",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "excludesFromSalesRecording",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "merchantCancellable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "merchantRefundable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "merchantShippingRefundable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "merchantReturnable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "merchantFulfillable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "totalReturnableQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "hasActiveOrderReturns",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "purchasedAt",
+            "type": "DateTime!",
+            "args": []
+          },
+          {
+            "name": "fulfilledAt",
+            "type": "DateTime",
+            "args": []
+          },
+          {
+            "name": "cancelledAt",
+            "type": "DateTime",
+            "args": []
+          },
+          {
+            "name": "deletedAt",
+            "type": "DateTime",
+            "args": []
+          },
+          {
+            "name": "deliveryDate",
+            "type": "DateTime",
+            "args": []
+          },
+          {
+            "name": "note",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "tags",
+            "type": "[String!]!",
+            "args": []
+          },
+          {
+            "name": "externalTags",
+            "type": "[String!]!",
+            "args": []
+          },
+          {
+            "name": "internalTags",
+            "type": "[String!]!",
+            "args": []
+          },
+          {
+            "name": "hasAnyTags",
+            "type": "Boolean!",
+            "args": [
+              {
+                "name": "tags",
+                "type": "[String!]!"
+              }
+            ]
+          },
+          {
+            "name": "paymentStatus",
+            "type": "OrderPaymentStatus!",
+            "args": []
+          },
+          {
+            "name": "paymentGateways",
+            "type": "[OrderPaymentGateway!]!",
+            "args": []
+          },
+          {
+            "name": "paymentMethods",
+            "type": "[PaymentMethod!]!",
+            "args": []
+          },
+          {
+            "name": "hasAnyPaymentMethod",
+            "type": "Boolean!",
+            "args": [
+              {
+                "name": "paymentMethodCodes",
+                "type": "[String!]!"
+              }
+            ]
+          },
+          {
+            "name": "transactions",
+            "type": "OrderTransactionConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderTransactionSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              },
+              {
+                "name": "filter",
+                "type": "OrderTransactionFilter"
+              }
+            ]
+          },
+          {
+            "name": "additionalFees",
+            "type": "[OrderAdditionalFee!]!",
+            "args": []
+          },
+          {
+            "name": "isFulfillmentInProgress",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "fulfillmentStatus",
+            "type": "OrderFulfillmentStatus!",
+            "args": []
+          },
+          {
+            "name": "requiresFulfillment",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "retailLocation",
+            "type": "Location",
+            "args": []
+          },
+          {
+            "name": "retailStaffMember",
+            "type": "RetailStaffMember",
+            "args": []
+          },
+          {
+            "name": "purchasingCustomer",
+            "type": "PurchasingCustomer",
+            "args": []
+          },
+          {
+            "name": "purchasingCompany",
+            "type": "PurchasingCompany",
+            "args": []
+          },
+          {
+            "name": "billingAddress",
+            "type": "OrderBillingAddress",
+            "args": []
+          },
+          {
+            "name": "shippingAddress",
+            "type": "OrderShippingAddress",
+            "args": []
+          },
+          {
+            "name": "isShippingAddressInternallyUpdated",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "email",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "attributes",
+            "type": "[OrderAttribute!]!",
+            "args": []
+          },
+          {
+            "name": "shopifyIntegration",
+            "type": "ShopifyIntegration",
+            "args": []
+          },
+          {
+            "name": "shopifyIntegrations",
+            "type": "[ShopifyIntegration!]!",
+            "args": []
+          },
+          {
+            "name": "totalQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "currentTotalQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "lineItems",
+            "type": "OrderLineItemConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderLineItemSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "shippingLines",
+            "type": "OrderShippingLineConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderShippingLineSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "taxLines",
+            "type": "[TaxLine!]!",
+            "args": []
+          },
+          {
+            "name": "currentTaxLines",
+            "type": "[TaxLine!]!",
+            "args": []
+          },
+          {
+            "name": "discounts",
+            "type": "[OrderDiscount!]!",
+            "args": []
+          },
+          {
+            "name": "hasOrderDiscounts",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "priceAdjustmentUsages",
+            "type": "OrderPriceAdjustmentUsageConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderPriceAdjustmentUsageSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "hasShippingDiscounts",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "orderLevelDiscountCount",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "orderLineItemLevelDiscountCount",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "pointApplication",
+            "type": "OrderPointApplication",
+            "args": []
+          },
+          {
+            "name": "hasPointApplication",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "taxesIncluded",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "totalLineItemPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalLineItemPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "subtotalPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentSubtotalPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalOrderDiscountPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalOrderDiscountPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalOrderLevelDiscountPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalOrderLevelDiscountPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalOrderLineItemLevelDiscountPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalOrderLineItemLevelDiscountPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalShippingPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalShippingPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalShippingPriceAfterTaxes",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalShippingDiscountPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalDiscountPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "pointApplicationPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentPointApplicationPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalAdditionalFeePrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalTaxPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalTaxPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalLineItemTaxPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentShippingTaxPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalOrderRefundPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalOrderRefundTaxPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalRefundPriceAfterTaxes",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "currentTotalPrice",
+            "type": "Money!",
+            "args": []
+          },
+          {
+            "name": "totalPriceChanged",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "inventoryOutboundOrders",
+            "type": "InventoryOutboundOrderConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "InventoryOutboundOrderSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "inventoryAllocationRequests",
+            "type": "InventoryAllocationRequestConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "InventoryAllocationRequestSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "inventoryAllocationRequestCount",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "inventoryAdjustmentOrders",
+            "type": "InventoryAdjustmentOrderConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "InventoryAdjustmentOrderSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "fulfillments",
+            "type": "FulfillmentConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "FulfillmentSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "returns",
+            "type": "OrderReturnConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderReturnSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              },
+              {
+                "name": "filter",
+                "type": "OrderReturnFilter"
+              }
+            ]
+          },
+          {
+            "name": "orderReturnCount",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "refunds",
+            "type": "OrderRefundConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderRefundSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "isLineItemChanged",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "earnedPoints",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "usedPoints",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "revokedPoints",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "restoredPoints",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "metafield",
+            "type": "Metafield",
+            "args": [
+              {
+                "name": "namespace",
+                "type": "String!"
+              },
+              {
+                "name": "key",
+                "type": "String!"
+              }
+            ]
+          },
+          {
+            "name": "metafieldDefinitions",
+            "type": "MetafieldDefinitionConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "MetafieldDefinitionSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "saleChangeActivities",
+            "type": "SaleChangeActivityConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "SaleChangeActivitySortKey!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "updatedAt",
+            "type": "DateTime!",
+            "args": []
+          },
+          {
+            "name": "createdAt",
+            "type": "DateTime!",
+            "args": []
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "OrderFilter": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "INPUT_OBJECT",
+        "name": "OrderFilter",
+        "enumValues": [],
+        "fields": [],
+        "inputFields": [
+          {
+            "name": "tenantID",
+            "type": "ID"
+          },
+          {
+            "name": "managementCode",
+            "type": "String"
+          },
+          {
+            "name": "tag",
+            "type": "String"
+          },
+          {
+            "name": "tagNot",
+            "type": "String"
+          },
+          {
+            "name": "purchasingCustomerID",
+            "type": "ID"
+          },
+          {
+            "name": "source",
+            "type": "String"
+          }
+        ]
+      },
+      "errors": null
+    },
+    "OrderCountFilter": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "INPUT_OBJECT",
+        "name": "OrderCountFilter",
+        "enumValues": [],
+        "fields": [],
+        "inputFields": [
+          {
+            "name": "inventoryOutboundOrderWorkingStatuses",
+            "type": "[InventoryOutboundOrderWorkingStatus!]"
+          },
+          {
+            "name": "retailLocationID",
+            "type": "ID"
+          },
+          {
+            "name": "isCancelled",
+            "type": "Boolean"
+          }
+        ]
+      },
+      "errors": null
+    },
+    "OrderPaymentStatus": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "ENUM",
+        "name": "OrderPaymentStatus",
+        "enumValues": [
+          "UNPAID",
+          "PENDING",
+          "AUTHORIZED",
+          "PARTIALLY_PAID",
+          "PAID",
+          "PARTIALLY_REFUNDED",
+          "REFUNDED",
+          "VOIDED"
+        ],
+        "fields": [],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "OrderFulfillmentStatus": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "ENUM",
+        "name": "OrderFulfillmentStatus",
+        "enumValues": [
+          "UNFULFILLED",
+          "REJECTED",
+          "CANCELLED",
+          "PARTIALLY_FULFILLED",
+          "FULFILLED"
+        ],
+        "fields": [],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "OrderReturn": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "OrderReturn",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "managementCode",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "externalID",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "order",
+            "type": "Order!",
+            "args": []
+          },
+          {
+            "name": "lineItems",
+            "type": "OrderReturnLineItemConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderReturnLineItemSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "exchangeLineItemCount",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "hasExchangeLineItems",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "exchangeLineItems",
+            "type": "OrderExchangeLineItemConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderExchangeLineItemSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "receivable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "completable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "cancellable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "totalQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "totalReceivedQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "status",
+            "type": "OrderReturnStatus!",
+            "args": []
+          },
+          {
+            "name": "refunds",
+            "type": "OrderRefundConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "OrderRefundSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "exchangeInventoryOutboundOrder",
+            "type": "InventoryOutboundOrder",
+            "args": []
+          },
+          {
+            "name": "tenant",
+            "type": "Tenant",
+            "args": []
+          },
+          {
+            "name": "createdAt",
+            "type": "DateTime!",
+            "args": []
+          },
+          {
+            "name": "cancelledAt",
+            "type": "DateTime",
+            "args": []
+          },
+          {
+            "name": "updatedAt",
+            "type": "DateTime!",
+            "args": []
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "OrderReturnLineItem": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "OrderReturnLineItem",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "externalID",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "productVariant",
+            "type": "ProductVariant",
+            "args": []
+          },
+          {
+            "name": "orderLineItem",
+            "type": "OrderLineItem!",
+            "args": []
+          },
+          {
+            "name": "reason",
+            "type": "String",
+            "args": []
+          },
+          {
+            "name": "quantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "receivedQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "removedQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "receivableQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "currentQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "fullReceived",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "tenant",
+            "type": "Tenant",
+            "args": []
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "OrderExchangeLineItem": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "OrderExchangeLineItem",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "productVariant",
+            "type": "ProductVariant",
+            "args": []
+          },
+          {
+            "name": "quantity",
+            "type": "Int!",
+            "args": []
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "OrderReturnLineItemCreateInput": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "INPUT_OBJECT",
+        "name": "OrderReturnLineItemCreateInput",
+        "enumValues": [],
+        "fields": [],
+        "inputFields": [
+          {
+            "name": "externalID",
+            "type": "String"
+          },
+          {
+            "name": "orderLineItemID",
+            "type": "ID!"
+          },
+          {
+            "name": "quantity",
+            "type": "Int!"
+          },
+          {
+            "name": "reason",
+            "type": "String"
+          },
+          {
+            "name": "exchangeLineItem",
+            "type": "OrderReturnLineItemCreateExchangeLineItemInput"
+          }
+        ]
+      },
+      "errors": null
+    },
+    "OrderReturnLineItemCreateExchangeLineItemInput": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "INPUT_OBJECT",
+        "name": "OrderReturnLineItemCreateExchangeLineItemInput",
+        "enumValues": [],
+        "fields": [],
+        "inputFields": [
+          {
+            "name": "productVariantID",
+            "type": "ID!"
+          }
+        ]
+      },
+      "errors": null
+    },
+    "InventoryOutboundOrder": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "OBJECT",
+        "name": "InventoryOutboundOrder",
+        "enumValues": [],
+        "fields": [
+          {
+            "name": "id",
+            "type": "ID!",
+            "args": []
+          },
+          {
+            "name": "externalID",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "managementCode",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "kind",
+            "type": "InventoryOutboundOrderKind!",
+            "args": []
+          },
+          {
+            "name": "workingStatus",
+            "type": "InventoryOutboundOrderWorkingStatus!",
+            "args": []
+          },
+          {
+            "name": "workingStatusChanges",
+            "type": "InventoryOutboundOrderWorkingStatusChangeConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "InventoryOutboundOrderWorkingStatusChangeSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "inventoryLocation",
+            "type": "Location!",
+            "args": []
+          },
+          {
+            "name": "destinationLocation",
+            "type": "Location",
+            "args": []
+          },
+          {
+            "name": "localPickupRetailLocation",
+            "type": "Location",
+            "args": []
+          },
+          {
+            "name": "lineItems",
+            "type": "InventoryOutboundOrderLineItemConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "InventoryOutboundOrderLineItemSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "attributes",
+            "type": "[InventoryOutboundOrderAttribute!]!",
+            "args": []
+          },
+          {
+            "name": "attribute",
+            "type": "InventoryOutboundOrderAttribute",
+            "args": [
+              {
+                "name": "name",
+                "type": "String!"
+              }
+            ]
+          },
+          {
+            "name": "deliveryMethod",
+            "type": "InventoryOutboundOrderDeliveryMethod!",
+            "args": []
+          },
+          {
+            "name": "deliveryDate",
+            "type": "DateTime",
+            "args": []
+          },
+          {
+            "name": "isRetried",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "isCOD",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "note",
+            "type": "String!",
+            "args": []
+          },
+          {
+            "name": "order",
+            "type": "Order",
+            "args": []
+          },
+          {
+            "name": "inventoryMovementOrder",
+            "type": "InventoryMovementOrder",
+            "args": []
+          },
+          {
+            "name": "totalQuantity",
+            "type": "Int!",
+            "args": []
+          },
+          {
+            "name": "isInventoryAllocated",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "isFulfillable",
+            "type": "Boolean!",
+            "args": []
+          },
+          {
+            "name": "inventoryAllocationStatus",
+            "type": "InventoryOutboundOrderInventoryAllocationStatus!",
+            "args": []
+          },
+          {
+            "name": "tenant",
+            "type": "Tenant",
+            "args": []
+          },
+          {
+            "name": "shippingCompanyLocation",
+            "type": "CompanyLocation",
+            "args": []
+          },
+          {
+            "name": "shippingAddress",
+            "type": "InventoryOutboundOrderShippingAddress",
+            "args": []
+          },
+          {
+            "name": "fulfillments",
+            "type": "FulfillmentConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "FulfillmentSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "packages",
+            "type": "InventoryShipmentPackageConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "InventoryShipmentPackageSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "metafield",
+            "type": "Metafield",
+            "args": [
+              {
+                "name": "namespace",
+                "type": "String!"
+              },
+              {
+                "name": "key",
+                "type": "String!"
+              }
+            ]
+          },
+          {
+            "name": "metafieldDefinitions",
+            "type": "MetafieldDefinitionConnection!",
+            "args": [
+              {
+                "name": "first",
+                "type": "Int"
+              },
+              {
+                "name": "last",
+                "type": "Int"
+              },
+              {
+                "name": "before",
+                "type": "String"
+              },
+              {
+                "name": "after",
+                "type": "String"
+              },
+              {
+                "name": "sortKeys",
+                "type": "MetafieldDefinitionSortKeys!"
+              },
+              {
+                "name": "isReverse",
+                "type": "Boolean!"
+              }
+            ]
+          },
+          {
+            "name": "createdAt",
+            "type": "DateTime!",
+            "args": []
+          },
+          {
+            "name": "updatedAt",
+            "type": "DateTime!",
+            "args": []
+          }
+        ],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "InventoryOutboundOrderWorkingStatus": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "ENUM",
+        "name": "InventoryOutboundOrderWorkingStatus",
+        "enumValues": [
+          "WAITING",
+          "ON_HOLD",
+          "REQUESTED",
+          "IN_PROGRESS",
+          "REJECTED",
+          "COMPLETE",
+          "CANCELLED"
+        ],
+        "fields": [],
+        "inputFields": []
+      },
+      "errors": null
+    },
+    "InventoryOutboundOrderFilter": {
+      "rawStatus": 200,
+      "type": {
+        "kind": "INPUT_OBJECT",
+        "name": "InventoryOutboundOrderFilter",
+        "enumValues": [],
+        "fields": [],
+        "inputFields": [
+          {
+            "name": "managementCode",
+            "type": "String"
+          },
+          {
+            "name": "tenantID",
+            "type": "ID"
+          },
+          {
+            "name": "inventoryLocationID",
+            "type": "ID"
+          },
+          {
+            "name": "workingStatuses",
+            "type": "[InventoryOutboundOrderWorkingStatus!]"
+          },
+          {
+            "name": "deliveryMethod",
+            "type": "InventoryOutboundOrderDeliveryMethod"
+          },
+          {
+            "name": "localPickupRetailLocationID",
+            "type": "ID"
+          },
+          {
+            "name": "countryCodes",
+            "type": "[CountryCode!]"
+          },
+          {
+            "name": "isCOD",
+            "type": "Boolean"
+          }
+        ]
+      },
+      "errors": null
+    }
+  },
+  "support": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "productVariantBySKU": {
+          "id": "9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant",
+          "title": "NAVY / M",
+          "externalID": "",
+          "status": "ACTIVE",
+          "product": {
+            "id": "91f45bd1-03b7-5aad-a888-42530a13011d_Product",
+            "title": "TEST_E2E_20260622 GU検証Tシャツ 1905"
+          },
+          "inventoryItem": {
+            "id": "137c461d-51a3-545e-8c58-2402bae9fef7_InventoryItem",
+            "sku": "TEST_E2E_20260622_GU_1905_NAVY_M"
+          }
+        },
+        "locations": {
+          "nodes": [
+            {
+              "id": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+              "name": "ユニクロ物流倉庫",
+              "code": "W0001",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+              "name": "ユニクロ - 銀座店",
+              "code": "R0001",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+              "name": "TEST_FAQ_DEEP2_202606080343_ロケーション",
+              "code": "test_faq_deep2_202606080343_loc",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location",
+              "name": "ユニクロEC",
+              "code": "TESTEC01",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location",
+              "name": "GU 倉庫",
+              "code": "TFCLOC3698",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location",
+              "name": "GU 銀座店",
+              "code": "12456789098765",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "45ffa873-a7f2-5581-8117-5758f5a45c73_Location",
+              "name": "TEST_FLAGOFF_20260621",
+              "code": "FLAGOFF01",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location",
+              "name": "TEST_E2E_20260622_GU店舗_OFF_1740",
+              "code": "TEST_E2E_20260622_STORE_1740",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "78ae0d92-71dc-56e9-8fc5-a01216b37db1_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1740",
+              "code": "TEST_E2E_20260622_WH_1740",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "960d77a3-59f8-586e-9087-fd1ee6a719ee_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1755",
+              "code": "TEST_E2E_20260622_WH_1755",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "cbe47a67-ca31-507c-865d-6968d4e12187_Location",
+              "name": "TEST_E2E_20260622_GU店舗_OFF_1830",
+              "code": "TEST_E2E_20260622_STORE_1830",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "eca69a97-1e36-5dfa-8496-44e1c51fd96b_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1830",
+              "code": "TEST_E2E_20260622_WH_1830",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "6dd32852-58dd-5f7a-a496-ea0c8bc03623_Location",
+              "name": "TEST_E2E_20260622_GU店舗_OFF_1845",
+              "code": "TEST_E2E_20260622_STORE_1845",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "6241e39d-9ed7-5004-9b1d-d2d3f280fa68_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1845",
+              "code": "TEST_E2E_20260622_WH_1845",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "4f100847-e242-5aaf-b97a-eb47683a7c95_Location",
+              "name": "TEST_E2E_20260622_GU店舗_OFF_1905",
+              "code": "TEST_E2E_20260622_STORE_1905",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "d018dd79-47b6-5a93-a1bf-0e12cac23d3e_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "code": "TEST_E2E_20260622_WH_1905",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "295e5a69-c97b-53df-b947-1dc9f559d00d_Location",
+              "name": "TEST_FAQ_20260624_GU店舗_OFF_092214",
+              "code": "TEST_FAQ_20260624_STORE_092214",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "b111b7e0-f00b-5823-a41f-2d345f56badc_Location",
+              "name": "TEST_FAQ_20260624_GU倉庫_ON_092214",
+              "code": "TEST_FAQ_20260624_WH_092214",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "3b99b707-3f5c-548a-9aef-13a90be279e8_Location",
+              "name": "TEST_NOTION_20260627_店舗_041001",
+              "code": "TEST_NOTION_STORE_041001",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "e1e784d4-f65d-59bb-a432-6af679010f26_Location",
+              "name": "TEST_FAQ_POINT_PAYMENT_20260628061324",
+              "code": "PTPAY28061324",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "3e8bd42b-4ec4-5ed3-994a-1238a2f0e8d6_Location",
+              "name": "TEST_FAQ_POINT_PAYMENT_20260628061449",
+              "code": "PTPAY28061449",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "8ba699d3-f806-5924-8c0e-81912dde4af2_Location",
+              "name": "TEST_FAQ_POINT_PAYMENT_20260628061555",
+              "code": "PTPAY28061555",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "36fbaaf7-6edd-50bd-bae9-d7daf5da7ac7_Location",
+              "name": "TEST_FAQ_POINT_PAYMENT_20260628061656",
+              "code": "PTPAY28061656",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            }
+          ]
+        }
+      }
+    },
+    "textSample": "{\"data\":{\"productVariantBySKU\":{\"id\":\"9d94e684-4882-5ebc-bbbb-513915a8bfc7_ProductVariant\",\"title\":\"NAVY / M\",\"externalID\":\"\",\"status\":\"ACTIVE\",\"product\":{\"id\":\"91f45bd1-03b7-5aad-a888-42530a13011d_Product\",\"title\":\"TEST_E2E_20260622 GU検証Tシャツ 1905\"},\"inventoryItem\":{\"id\":\"137c461d-51a3-545e-8c58-2402bae9fef7_InventoryItem\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\"}},\"locations\":{\"nodes\":[{\"id\":\"8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location\",\"name\":\"ユニクロ物流倉庫\",\"code\":\"W0001\",\"locationType\":\"WAREHOUSE\",\"isRetailLocation\":false,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":false,\"isClosed\":false},{\"id\":\"b12adcce-247e-5b58-b65a-4d7397be8f79_Location\",\"name\":\"ユニクロ - 銀座店\",\"code\":\"R0001\",\"locationType\":\"RETAIL\",\"isRetailLocation\":true,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":false,\"isClosed\":false},{\"id\":\"b9f67abc-3da0-5165-953b-ea304a92460b_Location\",\"name\":\"TEST_FAQ_DEEP2_202606080343_ロケーション\",\"code\":\"test_faq_deep2_202606080343_loc\",\"locationType\":\"RETAIL\",\"isRetailLocation\":true,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":true,\"isClosed\":false},{\"id\":\"8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location\",\"name\":\"ユニクロEC\",\"code\":\"TESTEC01\",\"locationType\":\"RETAIL\",\"isRetailLocation\":true,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":false,\"isClosed\":false},{\"id\":\"8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location\",\"name\":\"GU 倉庫\",\"code\":\"TFCLOC3698\",\"locationType\":\"WAREHOUSE\",\"isRetailLocation\":false,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":false,\"isClosed\":false},{\"id\":\"0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location\",\"name\":\"GU 銀座店\",\"code\":\"12456789098765\",\"locationType\":\"RETAIL\",\"is"
+  },
+  "pages": {
+    "ordersBodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 注文管理。このページの準備が整いました 注文管理 すべて すべてのアイテムを選択する 注文 制限 注文日時 顧客 チャネル 店舗 アイテム 合計 決済状況 出荷状況 返品状況 タグ アイテムを選択する FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 検証顧客ユニクロ095318FAQ FAQ_INTERNAL_GRAPHQL 0個のアイテム ￥0 成功 完了 支払い済み 成功 完了 発送済み #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS"
+  },
+  "errors": []
+}

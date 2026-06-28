@@ -1,0 +1,1 @@
+result: {'url': 'https://www.sqstackstaging.com/admin/settings/users?query=%E9%99%BD%E4%BB%8B', 'input': [{'placeholder': 'キーワードで検索する', 'value': '陽介'}, {'placeholder': None, 'value': 'on'}], 'rows': [['名前', 'メールアドレス', '権限グループ'], ['河野陽介', 'yosuke.kohno@bay-works.com', '特権管理者']]}

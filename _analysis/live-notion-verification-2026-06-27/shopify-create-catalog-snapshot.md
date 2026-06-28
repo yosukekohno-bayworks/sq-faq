@@ -1,0 +1,249 @@
+- generic [active] [ref=e1] [box=0,0,1492,841]:
+  - generic [ref=e11] [box=0,0,1492,1080]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e14] [box=0,0,1492,56]:
+      - link [ref=e17] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e19] [box=986,0,506,56]:
+        - button [ref=e23] [cursor=pointer] [box=1296,12,32,32]:
+          - img [ref=e25] [box=1302,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer] [box=1336,12,148,32]:
+          - generic [ref=e30] [box=1338,14,116,28]:
+            - paragraph [ref=e31] [box=1348,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e33] [box=1348,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35] [box=1454,14,28,28]
+    - generic "メニュー" [ref=e36] [box=0,56,240,785]:
+      - navigation [ref=e37] [box=0,56,240,785]:
+        - generic [ref=e38] [box=0,56,240,785]:
+          - list [ref=e39] [box=0,72,240,268]:
+            - listitem [ref=e40] [box=0,72,240,28]:
+              - link "ホーム" [ref=e43] [cursor=pointer] [box=12,72,216,28]:
+                - /url: /admin
+                - img [ref=e46] [box=20,76,20,20]
+                - generic [ref=e48] [box=48,76,176,20]: ホーム
+            - listitem [ref=e49] [box=0,100,240,28]:
+              - link "商品管理" [ref=e52] [cursor=pointer] [box=12,100,216,28]:
+                - /url: /admin/products
+                - img [ref=e55] [box=20,104,20,20]
+                - generic [ref=e57] [box=48,104,176,20]: 商品管理
+            - listitem [ref=e58] [box=0,128,240,28]:
+              - link "在庫管理" [ref=e61] [cursor=pointer] [box=12,128,216,28]:
+                - /url: /admin/inventory_items
+                - img [ref=e64] [box=20,132,20,20]
+                - generic [ref=e66] [box=48,132,176,20]: 在庫管理
+            - listitem [ref=e67] [box=0,156,240,28]:
+              - link "注文管理" [ref=e70] [cursor=pointer] [box=12,156,216,28]:
+                - /url: /admin/orders
+                - img [ref=e73] [box=20,160,20,20]
+                - generic [ref=e75] [box=48,160,172,20]: 注文管理
+            - listitem [ref=e76] [box=0,184,240,28]:
+              - link "顧客管理" [ref=e79] [cursor=pointer] [box=12,184,216,28]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82] [box=20,188,20,20]
+                - generic [ref=e85] [box=48,188,176,20]: 顧客管理
+            - listitem [ref=e86] [box=0,212,240,28]:
+              - link "発注管理" [ref=e89] [cursor=pointer] [box=12,212,216,28]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92] [box=20,216,20,20]
+                - generic [ref=e95] [box=48,216,176,20]: 発注管理
+            - listitem [ref=e96] [box=0,240,240,28]:
+              - link "販売設定" [ref=e99] [cursor=pointer] [box=12,240,216,28]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102] [box=20,244,20,20]
+                - generic [ref=e107] [box=48,244,176,20]: 販売設定
+            - listitem [ref=e108] [box=0,268,240,28]:
+              - link "会計" [ref=e111] [cursor=pointer] [box=12,268,216,28]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114] [box=20,272,20,20]
+                - generic [ref=e116] [box=48,272,176,20]: 会計
+            - listitem [ref=e117] [box=0,296,240,28]:
+              - generic [ref=e118] [box=0,296,240,28]:
+                - generic [box=12,296,216,28]:
+                  - link "分析" [box=12,296,216,28]:
+                    - /url: /admin/analytics
+                    - generic [box=20,300,20,20]:
+                      - generic [box=20,300,20,20]:
+                        - img [box=20,300,20,20]
+                    - generic [box=48,300,176,20]: 分析
+          - list [ref=e119] [box=0,340,240,132]:
+            - listitem [ref=e120] [box=0,348,240,24]:
+              - generic [ref=e121] [box=20,352,216,16]: オペレーション
+            - listitem [ref=e122] [box=0,372,240,28]:
+              - link "入荷管理" [ref=e125] [cursor=pointer] [box=12,372,216,28]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128] [box=20,376,20,20]
+                - generic [ref=e132] [box=48,376,172,20]: 入荷管理
+            - listitem [ref=e133] [box=0,400,240,28]:
+              - link "出荷管理" [ref=e136] [cursor=pointer] [box=12,400,216,28]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139] [box=20,404,20,20]
+                - generic [ref=e141] [box=48,404,172,20]: 出荷管理
+            - listitem [ref=e142] [box=0,428,240,28]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer] [box=12,428,216,28]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148] [box=20,432,20,20]
+                - generic [ref=e151] [box=48,432,149,20]: 在庫依頼
+                - generic [ref=e153] [box=201,432,23,20]:
+                  - generic [ref=e154] [box=209,428,1,1]: 未完了の在庫依頼 3件
+                  - generic [ref=e155] [box=209,434,7,16]: "3"
+          - list [ref=e156] [box=0,472,240,132]:
+            - listitem [ref=e157] [box=0,480,240,24]:
+              - generic [ref=e158] [box=20,484,216,16]: CRM
+            - listitem [ref=e159] [box=0,504,240,28]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer] [box=12,504,216,28]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165] [box=20,508,20,20]
+                - generic [ref=e167] [box=48,508,176,20]: ディスカウント
+            - listitem [ref=e168] [box=0,532,240,28]:
+              - link "ポイント" [ref=e171] [cursor=pointer] [box=12,532,216,28]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174] [box=20,536,20,20]
+                - generic [ref=e176] [box=48,536,176,20]: ポイント
+            - listitem [ref=e177] [box=0,560,240,28]:
+              - link "会員ランク" [ref=e180] [cursor=pointer] [box=12,560,216,28]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183] [box=20,564,20,20]
+                - generic [ref=e186] [box=48,564,176,20]: 会員ランク
+          - list [ref=e187] [box=0,604,240,188]:
+            - listitem [ref=e188] [box=0,612,240,24]:
+              - generic [ref=e189] [box=20,616,216,16]: 販売チャネル
+            - listitem [ref=e190] [box=0,636,240,28]:
+              - link "Shopify" [ref=e193] [cursor=pointer] [box=12,636,216,28]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194] [box=20,640,204,20]: Shopify
+            - listitem [ref=e195] [box=0,664,240,28]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer] [box=12,664,216,28]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199] [box=20,668,204,20]: OmnibusCore
+            - listitem [ref=e200] [box=0,692,240,28]:
+              - link "スマレジ" [ref=e203] [cursor=pointer] [box=12,692,216,28]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204] [box=20,696,204,20]: スマレジ
+            - listitem [ref=e205] [box=0,720,240,28]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer] [box=12,720,216,28]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209] [box=20,724,204,20]: リテールポータル
+            - listitem [ref=e210] [box=0,748,240,28]:
+              - generic [ref=e211] [box=0,748,240,28]:
+                - generic [box=12,748,216,28]:
+                  - link "卸売" [box=12,748,216,28]:
+                    - /url: /admin/b2b
+                    - generic [box=20,752,204,20]: 卸売
+          - list [ref=e212] [box=0,792,240,52]:
+            - listitem [ref=e213] [box=0,800,240,28]:
+              - link "設定" [ref=e216] [cursor=pointer] [box=12,800,216,28]:
+                - /url: /admin/settings
+                - img [ref=e219] [box=20,804,20,20]
+                - generic [ref=e221] [box=48,804,176,20]: 設定
+    - main [ref=e222] [box=0,0,1492,1080]:
+      - generic [ref=e225] [box=535,56,662,992]:
+        - generic [ref=e226] [box=559,56,614,76]:
+          - status [box=559,80,614,0]:
+            - paragraph [ref=e227] [box=559,56,1,1]: ストアを連携する。このページの準備が整いました
+          - generic [ref=e229] [box=559,80,614,28]:
+            - link [ref=e232] [cursor=pointer] [box=559,80,28,28]:
+              - /url: /admin/shopify_integrations
+              - img [ref=e235] [box=563,84,20,20]
+            - heading "ストアを連携する" [level=1] [ref=e239] [box=591,82,158,24]
+        - generic [ref=e241] [box=543,116,630,932]:
+          - generic [ref=e243] [box=559,132,614,840]:
+            - generic [ref=e246] [box=575,148,582,648]:
+              - generic [ref=e248] [box=575,148,582,56]:
+                - generic [ref=e251] [box=575,148,62,20]: ストア名*
+                - textbox "ストア名*" [ref=e255] [box=575,172,582,32]:
+                  - /placeholder: オンラインストア
+              - generic [ref=e257] [box=575,220,582,80]:
+                - generic [ref=e260] [box=575,220,113,20]: ショップドメイン*
+                - textbox "ショップドメイン*" [ref=e264] [box=575,244,582,32]:
+                  - /placeholder: stack.myshopify.com
+                - generic [ref=e265] [box=575,280,582,20]: shop.myshopify.com の形式で入力してください
+              - generic [ref=e267] [box=575,316,582,80]:
+                - generic [ref=e270] [box=575,316,63,20]: テナント*
+                - generic [ref=e271] [box=575,340,582,32]:
+                  - combobox "テナント*" [ref=e272] [box=575,340,582,32]:
+                    - option "選択してください" [disabled] [selected] [box=0,0,0,0]
+                    - option "ユニクロ" [box=0,0,0,0]
+                    - option "TEST_FAQ_COVERAGE_20260615_テナント_EDIT" [box=0,0,0,0]
+                    - option "テストテナント" [box=0,0,0,0]
+                    - option "TEST_FAQ_20260624_TENANT_170037" [box=0,0,0,0]
+                  - generic [ref=e273] [box=575,340,582,32]:
+                    - generic [ref=e274] [box=587,346,542,20]: 選択してください
+                    - img [ref=e277] [box=1129,346,20,20]
+                - generic [ref=e281] [box=575,376,582,20]: このストアから作成された注文は、選択されたテナントに紐付けられます。
+              - generic [ref=e283] [box=575,412,582,56]:
+                - generic [ref=e286] [box=575,412,63,20]: カタログ*
+                - generic [ref=e287] [box=575,436,582,32]:
+                  - combobox "カタログ*" [ref=e288] [box=575,436,582,32]:
+                    - option "選択してください" [disabled] [selected] [box=0,0,0,0]
+                    - option "TEST_FAQ_カタログ001" [box=0,0,0,0]
+                    - option "UNIQLO" [box=0,0,0,0]
+                  - generic [ref=e289] [box=575,436,582,32]:
+                    - generic [ref=e290] [box=587,442,542,20]: 選択してください
+                    - img [ref=e293] [box=1129,442,20,20]
+              - generic [ref=e298] [box=575,484,582,100]:
+                - generic [ref=e301] [box=575,484,138,20]: ロケーショングループ*
+                - generic [ref=e302] [box=575,508,582,32]:
+                  - combobox "ロケーショングループ*" [ref=e303] [box=575,508,582,32]:
+                    - option "選択してください" [disabled] [selected] [box=0,0,0,0]
+                    - option "GU グループ" [box=0,0,0,0]
+                    - option "ユニクログループ" [box=0,0,0,0]
+                    - option "TEST_FAQ_20260624_LG_171810" [box=0,0,0,0]
+                  - generic [ref=e304] [box=575,508,582,32]:
+                    - generic [ref=e305] [box=587,514,542,20]: 選択してください
+                    - img [ref=e308] [box=1129,514,20,20]
+                - generic [ref=e312] [box=575,544,582,40]: Shopifyから連携される注文の在庫は、ロケーションの指定がない限り設定されたロケーショングループのデフォルトのロケーションから引き当てられます
+              - generic [ref=e314] [box=575,600,582,80]:
+                - generic [ref=e317] [box=575,600,90,20]: 販売価格ルール
+                - generic [ref=e318] [box=575,624,582,32]:
+                  - combobox "販売価格ルール" [ref=e319] [box=575,624,582,32]:
+                    - option "選択してください" [disabled] [selected] [box=0,0,0,0]
+                    - option "TEST_FAQ_販売価格ルール" [box=0,0,0,0]
+                    - option "TEST_FAQ_販売価格ルール_遷移確認_20260607" [box=0,0,0,0]
+                    - option "TEST_FAQ_DEEP_202606080340_販売価格ルール" [box=0,0,0,0]
+                    - option "TEST_FAQ_20260624_販売価格_100908" [box=0,0,0,0]
+                  - generic [ref=e320] [box=575,624,582,32]:
+                    - generic [ref=e321] [box=587,630,542,20]: 選択してください
+                    - img [ref=e324] [box=1129,630,20,20]
+                - generic [ref=e328] [box=575,660,582,20]: 選択した販売価格ルールに基づいて、Shopifyの販売価格を設定します
+              - generic [ref=e330] [box=575,696,582,100]:
+                - generic [ref=e333] [box=575,696,117,20]: 会員番号の生成方法
+                - generic [ref=e334] [box=575,720,582,32]:
+                  - combobox "会員番号の生成方法" [ref=e335] [box=575,720,582,32]:
+                    - option "Shopify ID（数値部分）" [selected] [box=0,0,0,0]
+                    - option "JAN-13コード（モジュラス10/ウェイト3方式）" [box=0,0,0,0]
+                  - generic [ref=e336] [box=575,720,582,32]:
+                    - generic [ref=e337] [box=587,726,542,20]: Shopify ID（数値部分）
+                    - img [ref=e340] [box=1129,726,20,20]
+                - generic [ref=e344] [box=575,756,582,40]: Shopifyから連携される顧客の会員番号の生成方法を指定します。会員証バーコードにもこの番号が使用されます
+            - generic [ref=e347] [box=575,844,582,112]:
+              - generic [ref=e348] [cursor=pointer] [box=575,844,582,28]:
+                - generic [ref=e350] [box=576,850,16,16]:
+                  - checkbox "商品価格は税込価格を連携する" [ref=e351] [box=576,850,16,16]
+                  - generic [box=578,852,12,12]:
+                    - img [box=578,852,12,12]
+                - generic [ref=e353] [box=601,848,182,20]: 商品価格は税込価格を連携する
+              - generic [ref=e354] [cursor=pointer] [box=575,872,582,28]:
+                - generic [ref=e356] [box=576,878,16,16]:
+                  - checkbox "0円の商品バリエーションを連携する" [ref=e357] [box=576,878,16,16]
+                  - generic [box=578,880,12,12]:
+                    - img [box=578,880,12,12]
+                - generic [ref=e359] [box=601,876,216,20]: 0円の商品バリエーションを連携する
+              - generic [ref=e360] [cursor=pointer] [box=575,900,582,28]:
+                - generic [ref=e362] [box=576,906,16,16]:
+                  - checkbox "送料は税込として処理する" [ref=e363] [box=576,906,16,16]
+                  - generic [box=578,908,12,12]:
+                    - img [box=578,908,12,12]
+                - generic [ref=e365] [box=601,904,155,20]: 送料は税込として処理する
+              - generic [ref=e366] [cursor=pointer] [box=575,928,582,28]:
+                - generic [ref=e368] [box=576,934,16,16]:
+                  - checkbox "注文による在庫変動を起こさない" [ref=e369] [box=576,934,16,16]
+                  - generic [box=578,936,12,12]:
+                    - img [box=578,936,12,12]
+                - generic [ref=e371] [box=601,932,195,20]: 注文による在庫変動を起こさない
+          - button "連携する" [ref=e376] [cursor=pointer] [box=1101,1004,72,28]:
+            - generic [ref=e377] [box=1113,1010,48,16]: 連携する
+  - region "Notifications alt+T" [box=0,1080,1492,0]
+  - alert [ref=e10] [box=-1,1079,1,1]

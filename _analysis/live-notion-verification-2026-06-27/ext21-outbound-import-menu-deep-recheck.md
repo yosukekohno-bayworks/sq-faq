@@ -1,0 +1,1117 @@
+- generic [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e256] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e258]:
+                  - generic [ref=e259]: 未完了の在庫依頼 3件
+                  - generic [ref=e260]: "3"
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - generic [ref=e154]: CRM
+            - listitem [ref=e155]:
+              - link "ディスカウント" [ref=e158] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e161]
+                - generic [ref=e163]: ディスカウント
+            - listitem [ref=e164]:
+              - link "ポイント" [ref=e167] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e170]
+                - generic [ref=e172]: ポイント
+            - listitem [ref=e173]:
+              - link "会員ランク" [ref=e176] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e179]
+                - generic [ref=e182]: 会員ランク
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - generic [ref=e185]: 販売チャネル
+            - listitem [ref=e186]:
+              - link "Shopify" [ref=e189] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e190]: Shopify
+            - listitem [ref=e191]:
+              - link "OmnibusCore" [ref=e194] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e195]: OmnibusCore
+            - listitem [ref=e196]:
+              - link "スマレジ" [ref=e199] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e200]: スマレジ
+            - listitem [ref=e201]:
+              - link "リテールポータル" [ref=e204] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e205]: リテールポータル
+            - listitem [ref=e206]:
+              - generic [ref=e207]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "設定" [ref=e212] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e215]
+                - generic [ref=e217]: 設定
+    - main [ref=e221]:
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - status:
+            - paragraph [ref=e263]: 出荷管理。このページの準備が整いました
+          - generic [ref=e265]:
+            - heading "出荷管理" [level=1] [ref=e268]
+            - generic [ref=e272]:
+              - button "インポート ヤマトB2クラウド（出荷実績） DHL（出荷実績）" [expanded] [ref=e1403] [cursor=pointer]:
+                - img [ref=e278]
+                - generic [ref=e281]: インポート
+                - img [ref=e284]
+                - list [ref=e1408]:
+                  - listitem [ref=e1409]:
+                    - link "ヤマトB2クラウド（出荷実績）" [ref=e1411]:
+                      - /url: /admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds
+                      - generic [ref=e1415]: ヤマトB2クラウド（出荷実績）
+                  - listitem [ref=e1416]:
+                    - link "DHL（出荷実績）" [ref=e1418]:
+                      - /url: /admin/csv_import/csv_import_operation_fulfillment_by_dhls
+                      - generic [ref=e1422]: DHL（出荷実績）
+              - button "条件指定でエクスポート" [ref=e288] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e294]: 条件指定でエクスポート
+                - img [ref=e297]
+        - generic [ref=e303]:
+          - generic [ref=e309]:
+            - tablist [ref=e316]:
+              - tab "すべて" [selected] [ref=e317] [cursor=pointer]:
+                - generic [ref=e319]: すべて
+              - tab "保留中 新規 0" [ref=e320] [cursor=pointer]:
+                - generic [ref=e321]:
+                  - generic [ref=e322]: 保留中
+                  - generic [ref=e323]:
+                    - generic [ref=e324]: 新規
+                    - generic [ref=e325]: "0"
+              - tab "出荷待ち 新規 0" [ref=e326] [cursor=pointer]:
+                - generic [ref=e327]:
+                  - generic [ref=e328]: 出荷待ち
+                  - generic [ref=e329]:
+                    - generic [ref=e330]: 新規
+                    - generic [ref=e331]: "0"
+              - tab "依頼済み 新規 0" [ref=e332] [cursor=pointer]:
+                - generic [ref=e333]:
+                  - generic [ref=e334]: 依頼済み
+                  - generic [ref=e335]:
+                    - generic [ref=e336]: 新規
+                    - generic [ref=e337]: "0"
+              - tab "作業中 新規 0" [ref=e338] [cursor=pointer]:
+                - generic [ref=e339]:
+                  - generic [ref=e340]: 作業中
+                  - generic [ref=e341]:
+                    - generic [ref=e342]: 新規
+                    - generic [ref=e343]: "0"
+              - tab "欠品・要対応 新規 0" [ref=e344] [cursor=pointer]:
+                - generic [ref=e345]:
+                  - generic [ref=e346]: 欠品・要対応
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: 新規
+                    - generic [ref=e349]: "0"
+              - tab "出荷完了" [ref=e350] [cursor=pointer]:
+                - generic [ref=e352]: 出荷完了
+            - button "検索と絞り込みの結果" [ref=e356] [cursor=pointer]:
+              - generic [ref=e358]:
+                - img [ref=e360]
+                - img [ref=e363]
+          - generic [ref=e368]:
+            - table [ref=e370]:
+              - rowgroup [ref=e371]:
+                - row "すべてのアイテムを選択する 管理番号 作業ステータス 引当ステータス 作成元 出荷場所 アイテム 出荷方法 決済種別 作成日時" [ref=e372]:
+                  - columnheader "すべてのアイテムを選択する" [ref=e373]:
+                    - generic [ref=e375] [cursor=pointer]:
+                      - generic [ref=e377]:
+                        - checkbox "すべてのアイテムを選択する" [ref=e378]
+                        - generic
+                      - generic [ref=e380]: すべてのアイテムを選択する
+                  - columnheader "管理番号" [ref=e381]:
+                    - generic [ref=e382]: 管理番号
+                  - columnheader "作業ステータス" [ref=e383]:
+                    - generic [ref=e384]: 作業ステータス
+                  - columnheader "引当ステータス" [ref=e385]:
+                    - generic [ref=e386]: 引当ステータス
+                  - columnheader "作成元" [ref=e387]:
+                    - generic [ref=e388]: 作成元
+                  - columnheader "出荷場所" [ref=e389]:
+                    - generic [ref=e390]: 出荷場所
+                  - columnheader "アイテム" [ref=e391]:
+                    - generic [ref=e392]: アイテム
+                  - columnheader "出荷方法" [ref=e393]:
+                    - generic [ref=e394]: 出荷方法
+                  - columnheader "決済種別" [ref=e395]:
+                    - generic [ref=e396]: 決済種別
+                  - columnheader "作成日時" [ref=e397]:
+                    - generic [ref=e398]: 作成日時
+              - rowgroup [ref=e399]:
+                - 'row "アイテムを選択する #IO-1025 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月27日 01:01" [ref=e400] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e401]:
+                    - generic [ref=e403]:
+                      - generic [ref=e405]:
+                        - checkbox "アイテムを選択する" [ref=e406]
+                        - generic
+                      - generic [ref=e408]: アイテムを選択する
+                  - cell "#IO-1025" [ref=e409]:
+                    - link "#IO-1025" [ref=e410]:
+                      - /url: /admin/inventory_outbound_orders/c4193b40-0c12-5f7c-bddc-c07605fbb49a_InventoryOutboundOrder
+                      - paragraph [ref=e411]: "#IO-1025"
+                  - cell "成功 完了 出荷完了" [ref=e412]:
+                    - generic [ref=e413]:
+                      - generic [ref=e415]:
+                        - generic [ref=e416]: 成功 完了
+                        - img [ref=e417]
+                      - generic [ref=e419]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e420]:
+                    - generic [ref=e421]:
+                      - generic [ref=e423]:
+                        - generic [ref=e424]: 情報 未完了
+                        - img [ref=e425]
+                      - generic [ref=e427]: 引当待ち
+                  - cell [ref=e428]
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1905" [ref=e429]:
+                    - paragraph [ref=e430]: TEST_E2E_20260622_GU倉庫_ON_1905
+                  - cell "1個" [ref=e431]:
+                    - paragraph [ref=e432]: 1個
+                  - cell "配送" [ref=e433]:
+                    - paragraph [ref=e434]: 配送
+                  - cell "-" [ref=e435]:
+                    - paragraph [ref=e436]: "-"
+                  - cell "2026年06月27日 01:01" [ref=e437]:
+                    - paragraph [ref=e438]: 2026年06月27日 01:01
+                - 'row "アイテムを選択する #IO-1024 成功 完了 出荷完了 情報 未完了 引当待ち TEST_FAQ_20260624_GU倉庫_ON_092214 1個 配送 - 2026年06月24日 09:49" [ref=e439] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e440]:
+                    - generic [ref=e442]:
+                      - generic [ref=e444]:
+                        - checkbox "アイテムを選択する" [ref=e445]
+                        - generic
+                      - generic [ref=e447]: アイテムを選択する
+                  - cell "#IO-1024" [ref=e448]:
+                    - link "#IO-1024" [ref=e449]:
+                      - /url: /admin/inventory_outbound_orders/9adf7a2b-802f-5b6c-9d05-ea3e07a7c5f7_InventoryOutboundOrder
+                      - paragraph [ref=e450]: "#IO-1024"
+                  - cell "成功 完了 出荷完了" [ref=e451]:
+                    - generic [ref=e452]:
+                      - generic [ref=e454]:
+                        - generic [ref=e455]: 成功 完了
+                        - img [ref=e456]
+                      - generic [ref=e458]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e459]:
+                    - generic [ref=e460]:
+                      - generic [ref=e462]:
+                        - generic [ref=e463]: 情報 未完了
+                        - img [ref=e464]
+                      - generic [ref=e466]: 引当待ち
+                  - cell [ref=e467]
+                  - cell "TEST_FAQ_20260624_GU倉庫_ON_092214" [ref=e468]:
+                    - paragraph [ref=e469]: TEST_FAQ_20260624_GU倉庫_ON_092214
+                  - cell "1個" [ref=e470]:
+                    - paragraph [ref=e471]: 1個
+                  - cell "配送" [ref=e472]:
+                    - paragraph [ref=e473]: 配送
+                  - cell "-" [ref=e474]:
+                    - paragraph [ref=e475]: "-"
+                  - cell "2026年06月24日 09:49" [ref=e476]:
+                    - paragraph [ref=e477]: 2026年06月24日 09:49
+                - 'row "アイテムを選択する #IO-1023 成功 完了 出荷完了 情報 未完了 引当待ち TEST_E2E_20260622_GU倉庫_ON_1905 1個 配送 - 2026年06月22日 08:41" [ref=e478] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e479]:
+                    - generic [ref=e481]:
+                      - generic [ref=e483]:
+                        - checkbox "アイテムを選択する" [ref=e484]
+                        - generic
+                      - generic [ref=e486]: アイテムを選択する
+                  - cell "#IO-1023" [ref=e487]:
+                    - link "#IO-1023" [ref=e488]:
+                      - /url: /admin/inventory_outbound_orders/823b625c-5e37-518f-a2f0-f324a0abc013_InventoryOutboundOrder
+                      - paragraph [ref=e489]: "#IO-1023"
+                  - cell "成功 完了 出荷完了" [ref=e490]:
+                    - generic [ref=e491]:
+                      - generic [ref=e493]:
+                        - generic [ref=e494]: 成功 完了
+                        - img [ref=e495]
+                      - generic [ref=e497]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e498]:
+                    - generic [ref=e499]:
+                      - generic [ref=e501]:
+                        - generic [ref=e502]: 情報 未完了
+                        - img [ref=e503]
+                      - generic [ref=e505]: 引当待ち
+                  - cell [ref=e506]
+                  - cell "TEST_E2E_20260622_GU倉庫_ON_1905" [ref=e507]:
+                    - paragraph [ref=e508]: TEST_E2E_20260622_GU倉庫_ON_1905
+                  - cell "1個" [ref=e509]:
+                    - paragraph [ref=e510]: 1個
+                  - cell "配送" [ref=e511]:
+                    - paragraph [ref=e512]: 配送
+                  - cell "-" [ref=e513]:
+                    - paragraph [ref=e514]: "-"
+                  - cell "2026年06月22日 08:41" [ref=e515]:
+                    - paragraph [ref=e516]: 2026年06月22日 08:41
+                - 'row "アイテムを選択する #IO-1022 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 3個 配送 - 2026年06月21日 14:03" [ref=e517] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e518]:
+                    - generic [ref=e520]:
+                      - generic [ref=e522]:
+                        - checkbox "アイテムを選択する" [ref=e523]
+                        - generic
+                      - generic [ref=e525]: アイテムを選択する
+                  - cell "#IO-1022" [ref=e526]:
+                    - link "#IO-1022" [ref=e527]:
+                      - /url: /admin/inventory_outbound_orders/de6aa7c3-d276-5c7d-bed5-29e9af103bec_InventoryOutboundOrder
+                      - paragraph [ref=e528]: "#IO-1022"
+                  - cell "成功 完了 出荷完了" [ref=e529]:
+                    - generic [ref=e530]:
+                      - generic [ref=e532]:
+                        - generic [ref=e533]: 成功 完了
+                        - img [ref=e534]
+                      - generic [ref=e536]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e537]:
+                    - generic [ref=e538]:
+                      - generic [ref=e540]:
+                        - generic [ref=e541]: 情報 未完了
+                        - img [ref=e542]
+                      - generic [ref=e544]: 引当待ち
+                  - cell [ref=e545]
+                  - cell "ユニクロ物流倉庫" [ref=e546]:
+                    - paragraph [ref=e547]: ユニクロ物流倉庫
+                  - cell "3個" [ref=e548]:
+                    - paragraph [ref=e549]: 3個
+                  - cell "配送" [ref=e550]:
+                    - paragraph [ref=e551]: 配送
+                  - cell "-" [ref=e552]:
+                    - paragraph [ref=e553]: "-"
+                  - cell "2026年06月21日 14:03" [ref=e554]:
+                    - paragraph [ref=e555]: 2026年06月21日 14:03
+                - 'row "アイテムを選択する #IO-1021 成功 完了 出荷完了 情報 未完了 引当待ち TEST_FAQ_DEEP2_202606080343_ロケーション 1個 配送 - 2026年06月21日 13:57" [ref=e556] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e557]:
+                    - generic [ref=e559]:
+                      - generic [ref=e561]:
+                        - checkbox "アイテムを選択する" [ref=e562]
+                        - generic
+                      - generic [ref=e564]: アイテムを選択する
+                  - cell "#IO-1021" [ref=e565]:
+                    - link "#IO-1021" [ref=e566]:
+                      - /url: /admin/inventory_outbound_orders/31afdaa7-979f-5196-ac8a-22ed0acd62c3_InventoryOutboundOrder
+                      - paragraph [ref=e567]: "#IO-1021"
+                  - cell "成功 完了 出荷完了" [ref=e568]:
+                    - generic [ref=e569]:
+                      - generic [ref=e571]:
+                        - generic [ref=e572]: 成功 完了
+                        - img [ref=e573]
+                      - generic [ref=e575]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e576]:
+                    - generic [ref=e577]:
+                      - generic [ref=e579]:
+                        - generic [ref=e580]: 情報 未完了
+                        - img [ref=e581]
+                      - generic [ref=e583]: 引当待ち
+                  - cell [ref=e584]
+                  - cell "TEST_FAQ_DEEP2_202606080343_ロケーション" [ref=e585]:
+                    - paragraph [ref=e586]: TEST_FAQ_DEEP2_202606080343_ロケーション
+                  - cell "1個" [ref=e587]:
+                    - paragraph [ref=e588]: 1個
+                  - cell "配送" [ref=e589]:
+                    - paragraph [ref=e590]: 配送
+                  - cell "-" [ref=e591]:
+                    - paragraph [ref=e592]: "-"
+                  - cell "2026年06月21日 13:57" [ref=e593]:
+                    - paragraph [ref=e594]: 2026年06月21日 13:57
+                - 'row "アイテムを選択する #IO-1020 成功 完了 出荷完了 成功 完了 引当済み ユニクロ - 銀座店 5個 配送 - 2026年06月21日 12:34" [ref=e595] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e596]:
+                    - generic [ref=e598]:
+                      - generic [ref=e600]:
+                        - checkbox "アイテムを選択する" [ref=e601]
+                        - generic
+                      - generic [ref=e603]: アイテムを選択する
+                  - cell "#IO-1020" [ref=e604]:
+                    - link "#IO-1020" [ref=e605]:
+                      - /url: /admin/inventory_outbound_orders/7a4f2644-d1f0-5edb-aca7-0364ce0db0e0_InventoryOutboundOrder
+                      - paragraph [ref=e606]: "#IO-1020"
+                  - cell "成功 完了 出荷完了" [ref=e607]:
+                    - generic [ref=e608]:
+                      - generic [ref=e610]:
+                        - generic [ref=e611]: 成功 完了
+                        - img [ref=e612]
+                      - generic [ref=e614]: 出荷完了
+                  - cell "成功 完了 引当済み" [ref=e615]:
+                    - generic [ref=e616]:
+                      - generic [ref=e618]:
+                        - generic [ref=e619]: 成功 完了
+                        - img [ref=e620]
+                      - generic [ref=e622]: 引当済み
+                  - cell [ref=e623]
+                  - cell "ユニクロ - 銀座店" [ref=e624]:
+                    - paragraph [ref=e625]: ユニクロ - 銀座店
+                  - cell "5個" [ref=e626]:
+                    - paragraph [ref=e627]: 5個
+                  - cell "配送" [ref=e628]:
+                    - paragraph [ref=e629]: 配送
+                  - cell "-" [ref=e630]:
+                    - paragraph [ref=e631]: "-"
+                  - cell "2026年06月21日 12:34" [ref=e632]:
+                    - paragraph [ref=e633]: 2026年06月21日 12:34
+                - 'row "アイテムを選択する #IO-1019 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 15個 配送 - 2026年06月21日 12:10" [ref=e634] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e635]:
+                    - generic [ref=e637]:
+                      - generic [ref=e639]:
+                        - checkbox "アイテムを選択する" [ref=e640]
+                        - generic
+                      - generic [ref=e642]: アイテムを選択する
+                  - cell "#IO-1019" [ref=e643]:
+                    - link "#IO-1019" [ref=e644]:
+                      - /url: /admin/inventory_outbound_orders/0de36243-d11f-5168-84fc-67491fa162c9_InventoryOutboundOrder
+                      - paragraph [ref=e645]: "#IO-1019"
+                  - cell "成功 完了 出荷完了" [ref=e646]:
+                    - generic [ref=e647]:
+                      - generic [ref=e649]:
+                        - generic [ref=e650]: 成功 完了
+                        - img [ref=e651]
+                      - generic [ref=e653]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e654]:
+                    - generic [ref=e655]:
+                      - generic [ref=e657]:
+                        - generic [ref=e658]: 情報 未完了
+                        - img [ref=e659]
+                      - generic [ref=e661]: 引当待ち
+                  - cell [ref=e662]
+                  - cell "ユニクロ物流倉庫" [ref=e663]:
+                    - paragraph [ref=e664]: ユニクロ物流倉庫
+                  - cell "15個" [ref=e665]:
+                    - paragraph [ref=e666]: 15個
+                  - cell "配送" [ref=e667]:
+                    - paragraph [ref=e668]: 配送
+                  - cell "-" [ref=e669]:
+                    - paragraph [ref=e670]: "-"
+                  - cell "2026年06月21日 12:10" [ref=e671]:
+                    - paragraph [ref=e672]: 2026年06月21日 12:10
+                - 'row "アイテムを選択する #IO-1018 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月20日 03:37" [ref=e673] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e674]:
+                    - generic [ref=e676]:
+                      - generic [ref=e678]:
+                        - checkbox "アイテムを選択する" [ref=e679]
+                        - generic
+                      - generic [ref=e681]: アイテムを選択する
+                  - cell "#IO-1018" [ref=e682]:
+                    - link "#IO-1018" [ref=e683]:
+                      - /url: /admin/inventory_outbound_orders/8db8e26b-6b0b-512a-9480-adf24c6ed96e_InventoryOutboundOrder
+                      - paragraph [ref=e684]: "#IO-1018"
+                  - cell "成功 完了 出荷完了" [ref=e685]:
+                    - generic [ref=e686]:
+                      - generic [ref=e688]:
+                        - generic [ref=e689]: 成功 完了
+                        - img [ref=e690]
+                      - generic [ref=e692]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e693]:
+                    - generic [ref=e694]:
+                      - generic [ref=e696]:
+                        - generic [ref=e697]: 情報 未完了
+                        - img [ref=e698]
+                      - generic [ref=e700]: 引当待ち
+                  - cell [ref=e701]
+                  - cell "ユニクロ物流倉庫" [ref=e702]:
+                    - paragraph [ref=e703]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e704]:
+                    - paragraph [ref=e705]: 1個
+                  - cell "配送" [ref=e706]:
+                    - paragraph [ref=e707]: 配送
+                  - cell "-" [ref=e708]:
+                    - paragraph [ref=e709]: "-"
+                  - cell "2026年06月20日 03:37" [ref=e710]:
+                    - paragraph [ref=e711]: 2026年06月20日 03:37
+                - 'row "アイテムを選択する #IO-1017 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:38" [ref=e712] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e713]:
+                    - generic [ref=e715]:
+                      - generic [ref=e717]:
+                        - checkbox "アイテムを選択する" [ref=e718]
+                        - generic
+                      - generic [ref=e720]: アイテムを選択する
+                  - cell "#IO-1017" [ref=e721]:
+                    - link "#IO-1017" [ref=e722]:
+                      - /url: /admin/inventory_outbound_orders/b9c3f9c5-aa21-5835-b0ea-242834458207_InventoryOutboundOrder
+                      - paragraph [ref=e723]: "#IO-1017"
+                  - cell "成功 完了 出荷完了" [ref=e724]:
+                    - generic [ref=e725]:
+                      - generic [ref=e727]:
+                        - generic [ref=e728]: 成功 完了
+                        - img [ref=e729]
+                      - generic [ref=e731]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e732]:
+                    - generic [ref=e733]:
+                      - generic [ref=e735]:
+                        - generic [ref=e736]: 情報 未完了
+                        - img [ref=e737]
+                      - generic [ref=e739]: 引当待ち
+                  - cell [ref=e740]
+                  - cell "ユニクロ物流倉庫" [ref=e741]:
+                    - paragraph [ref=e742]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e743]:
+                    - paragraph [ref=e744]: 1個
+                  - cell "配送" [ref=e745]:
+                    - paragraph [ref=e746]: 配送
+                  - cell "-" [ref=e747]:
+                    - paragraph [ref=e748]: "-"
+                  - cell "2026年06月18日 22:38" [ref=e749]:
+                    - paragraph [ref=e750]: 2026年06月18日 22:38
+                - 'row "アイテムを選択する #IO-1016 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:27" [ref=e751] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e752]:
+                    - generic [ref=e754]:
+                      - generic [ref=e756]:
+                        - checkbox "アイテムを選択する" [ref=e757]
+                        - generic
+                      - generic [ref=e759]: アイテムを選択する
+                  - cell "#IO-1016" [ref=e760]:
+                    - link "#IO-1016" [ref=e761]:
+                      - /url: /admin/inventory_outbound_orders/e48c92ae-5a12-547d-908c-665bfa4ac114_InventoryOutboundOrder
+                      - paragraph [ref=e762]: "#IO-1016"
+                  - cell "成功 完了 出荷完了" [ref=e763]:
+                    - generic [ref=e764]:
+                      - generic [ref=e766]:
+                        - generic [ref=e767]: 成功 完了
+                        - img [ref=e768]
+                      - generic [ref=e770]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e771]:
+                    - generic [ref=e772]:
+                      - generic [ref=e774]:
+                        - generic [ref=e775]: 情報 未完了
+                        - img [ref=e776]
+                      - generic [ref=e778]: 引当待ち
+                  - cell [ref=e779]
+                  - cell "ユニクロ物流倉庫" [ref=e780]:
+                    - paragraph [ref=e781]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e782]:
+                    - paragraph [ref=e783]: 1個
+                  - cell "配送" [ref=e784]:
+                    - paragraph [ref=e785]: 配送
+                  - cell "-" [ref=e786]:
+                    - paragraph [ref=e787]: "-"
+                  - cell "2026年06月18日 22:27" [ref=e788]:
+                    - paragraph [ref=e789]: 2026年06月18日 22:27
+                - 'row "アイテムを選択する #IO-1015 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月18日 22:25" [ref=e790] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e791]:
+                    - generic [ref=e793]:
+                      - generic [ref=e795]:
+                        - checkbox "アイテムを選択する" [ref=e796]
+                        - generic
+                      - generic [ref=e798]: アイテムを選択する
+                  - cell "#IO-1015" [ref=e799]:
+                    - link "#IO-1015" [ref=e800]:
+                      - /url: /admin/inventory_outbound_orders/ce627e74-830a-5b37-964d-8985994e28eb_InventoryOutboundOrder
+                      - paragraph [ref=e801]: "#IO-1015"
+                  - cell "キャンセル済み" [ref=e802]:
+                    - generic [ref=e804]: キャンセル済み
+                  - cell "情報 未完了 引当待ち" [ref=e805]:
+                    - generic [ref=e806]:
+                      - generic [ref=e808]:
+                        - generic [ref=e809]: 情報 未完了
+                        - img [ref=e810]
+                      - generic [ref=e812]: 引当待ち
+                  - cell [ref=e813]
+                  - cell "ユニクロ物流倉庫" [ref=e814]:
+                    - paragraph [ref=e815]: ユニクロ物流倉庫
+                  - cell "0個" [ref=e816]:
+                    - paragraph [ref=e817]: 0個
+                  - cell "配送" [ref=e818]:
+                    - paragraph [ref=e819]: 配送
+                  - cell "-" [ref=e820]:
+                    - paragraph [ref=e821]: "-"
+                  - cell "2026年06月18日 22:25" [ref=e822]:
+                    - paragraph [ref=e823]: 2026年06月18日 22:25
+                - 'row "アイテムを選択する #IO-1014 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月18日 22:21" [ref=e824] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e825]:
+                    - generic [ref=e827]:
+                      - generic [ref=e829]:
+                        - checkbox "アイテムを選択する" [ref=e830]
+                        - generic
+                      - generic [ref=e832]: アイテムを選択する
+                  - cell "#IO-1014" [ref=e833]:
+                    - link "#IO-1014" [ref=e834]:
+                      - /url: /admin/inventory_outbound_orders/527ecb19-a1c2-5a3b-b221-59b319eb81e8_InventoryOutboundOrder
+                      - paragraph [ref=e835]: "#IO-1014"
+                  - cell "キャンセル済み" [ref=e836]:
+                    - generic [ref=e838]: キャンセル済み
+                  - cell "情報 未完了 引当待ち" [ref=e839]:
+                    - generic [ref=e840]:
+                      - generic [ref=e842]:
+                        - generic [ref=e843]: 情報 未完了
+                        - img [ref=e844]
+                      - generic [ref=e846]: 引当待ち
+                  - cell [ref=e847]
+                  - cell "ユニクロ物流倉庫" [ref=e848]:
+                    - paragraph [ref=e849]: ユニクロ物流倉庫
+                  - cell "0個" [ref=e850]:
+                    - paragraph [ref=e851]: 0個
+                  - cell "配送" [ref=e852]:
+                    - paragraph [ref=e853]: 配送
+                  - cell "-" [ref=e854]:
+                    - paragraph [ref=e855]: "-"
+                  - cell "2026年06月18日 22:21" [ref=e856]:
+                    - paragraph [ref=e857]: 2026年06月18日 22:21
+                - 'row "アイテムを選択する #IO-1013 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:20" [ref=e858] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e859]:
+                    - generic [ref=e861]:
+                      - generic [ref=e863]:
+                        - checkbox "アイテムを選択する" [ref=e864]
+                        - generic
+                      - generic [ref=e866]: アイテムを選択する
+                  - cell "#IO-1013" [ref=e867]:
+                    - link "#IO-1013" [ref=e868]:
+                      - /url: /admin/inventory_outbound_orders/6d63163b-281e-5d9e-a92c-4f200fa6cec9_InventoryOutboundOrder
+                      - paragraph [ref=e869]: "#IO-1013"
+                  - cell "成功 完了 出荷完了" [ref=e870]:
+                    - generic [ref=e871]:
+                      - generic [ref=e873]:
+                        - generic [ref=e874]: 成功 完了
+                        - img [ref=e875]
+                      - generic [ref=e877]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e878]:
+                    - generic [ref=e879]:
+                      - generic [ref=e881]:
+                        - generic [ref=e882]: 情報 未完了
+                        - img [ref=e883]
+                      - generic [ref=e885]: 引当待ち
+                  - cell [ref=e886]
+                  - cell "ユニクロ物流倉庫" [ref=e887]:
+                    - paragraph [ref=e888]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e889]:
+                    - paragraph [ref=e890]: 1個
+                  - cell "配送" [ref=e891]:
+                    - paragraph [ref=e892]: 配送
+                  - cell "-" [ref=e893]:
+                    - paragraph [ref=e894]: "-"
+                  - cell "2026年06月18日 22:20" [ref=e895]:
+                    - paragraph [ref=e896]: 2026年06月18日 22:20
+                - 'row "アイテムを選択する #IO-1012 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月18日 22:18" [ref=e897] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e898]:
+                    - generic [ref=e900]:
+                      - generic [ref=e902]:
+                        - checkbox "アイテムを選択する" [ref=e903]
+                        - generic
+                      - generic [ref=e905]: アイテムを選択する
+                  - cell "#IO-1012" [ref=e906]:
+                    - link "#IO-1012" [ref=e907]:
+                      - /url: /admin/inventory_outbound_orders/d6240c4e-f7f1-5172-9e5c-e5fa8cb66217_InventoryOutboundOrder
+                      - paragraph [ref=e908]: "#IO-1012"
+                  - cell "成功 完了 出荷完了" [ref=e909]:
+                    - generic [ref=e910]:
+                      - generic [ref=e912]:
+                        - generic [ref=e913]: 成功 完了
+                        - img [ref=e914]
+                      - generic [ref=e916]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e917]:
+                    - generic [ref=e918]:
+                      - generic [ref=e920]:
+                        - generic [ref=e921]: 情報 未完了
+                        - img [ref=e922]
+                      - generic [ref=e924]: 引当待ち
+                  - cell [ref=e925]
+                  - cell "ユニクロ物流倉庫" [ref=e926]:
+                    - paragraph [ref=e927]: ユニクロ物流倉庫
+                  - cell "2個" [ref=e928]:
+                    - paragraph [ref=e929]: 2個
+                  - cell "配送" [ref=e930]:
+                    - paragraph [ref=e931]: 配送
+                  - cell "-" [ref=e932]:
+                    - paragraph [ref=e933]: "-"
+                  - cell "2026年06月18日 22:18" [ref=e934]:
+                    - paragraph [ref=e935]: 2026年06月18日 22:18
+                - 'row "アイテムを選択する #IO-1011 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:15" [ref=e936] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e937]:
+                    - generic [ref=e939]:
+                      - generic [ref=e941]:
+                        - checkbox "アイテムを選択する" [ref=e942]
+                        - generic
+                      - generic [ref=e944]: アイテムを選択する
+                  - cell "#IO-1011" [ref=e945]:
+                    - link "#IO-1011" [ref=e946]:
+                      - /url: /admin/inventory_outbound_orders/ac72a22d-dd6d-5df5-b8c3-e5dd8484423d_InventoryOutboundOrder
+                      - paragraph [ref=e947]: "#IO-1011"
+                  - cell "成功 完了 出荷完了" [ref=e948]:
+                    - generic [ref=e949]:
+                      - generic [ref=e951]:
+                        - generic [ref=e952]: 成功 完了
+                        - img [ref=e953]
+                      - generic [ref=e955]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e956]:
+                    - generic [ref=e957]:
+                      - generic [ref=e959]:
+                        - generic [ref=e960]: 情報 未完了
+                        - img [ref=e961]
+                      - generic [ref=e963]: 引当待ち
+                  - cell [ref=e964]
+                  - cell "ユニクロ物流倉庫" [ref=e965]:
+                    - paragraph [ref=e966]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e967]:
+                    - paragraph [ref=e968]: 1個
+                  - cell "配送" [ref=e969]:
+                    - paragraph [ref=e970]: 配送
+                  - cell "-" [ref=e971]:
+                    - paragraph [ref=e972]: "-"
+                  - cell "2026年06月18日 22:15" [ref=e973]:
+                    - paragraph [ref=e974]: 2026年06月18日 22:15
+                - 'row "アイテムを選択する #IO-1010 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月18日 22:05" [ref=e975] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e976]:
+                    - generic [ref=e978]:
+                      - generic [ref=e980]:
+                        - checkbox "アイテムを選択する" [ref=e981]
+                        - generic
+                      - generic [ref=e983]: アイテムを選択する
+                  - cell "#IO-1010" [ref=e984]:
+                    - link "#IO-1010" [ref=e985]:
+                      - /url: /admin/inventory_outbound_orders/c7e2b883-f414-525e-b936-07fd3002a40d_InventoryOutboundOrder
+                      - paragraph [ref=e986]: "#IO-1010"
+                  - cell "成功 完了 出荷完了" [ref=e987]:
+                    - generic [ref=e988]:
+                      - generic [ref=e990]:
+                        - generic [ref=e991]: 成功 完了
+                        - img [ref=e992]
+                      - generic [ref=e994]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e995]:
+                    - generic [ref=e996]:
+                      - generic [ref=e998]:
+                        - generic [ref=e999]: 情報 未完了
+                        - img [ref=e1000]
+                      - generic [ref=e1002]: 引当待ち
+                  - cell [ref=e1003]
+                  - cell "ユニクロ物流倉庫" [ref=e1004]:
+                    - paragraph [ref=e1005]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e1006]:
+                    - paragraph [ref=e1007]: 1個
+                  - cell "配送" [ref=e1008]:
+                    - paragraph [ref=e1009]: 配送
+                  - cell "-" [ref=e1010]:
+                    - paragraph [ref=e1011]: "-"
+                  - cell "2026年06月18日 22:05" [ref=e1012]:
+                    - paragraph [ref=e1013]: 2026年06月18日 22:05
+                - 'row "アイテムを選択する #IO-1009 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月16日 23:19" [ref=e1014] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1015]:
+                    - generic [ref=e1017]:
+                      - generic [ref=e1019]:
+                        - checkbox "アイテムを選択する" [ref=e1020]
+                        - generic
+                      - generic [ref=e1022]: アイテムを選択する
+                  - cell "#IO-1009" [ref=e1023]:
+                    - link "#IO-1009" [ref=e1024]:
+                      - /url: /admin/inventory_outbound_orders/e068a208-c4e3-5f44-9d2e-064ffd272039_InventoryOutboundOrder
+                      - paragraph [ref=e1025]: "#IO-1009"
+                  - cell "成功 完了 出荷完了" [ref=e1026]:
+                    - generic [ref=e1027]:
+                      - generic [ref=e1029]:
+                        - generic [ref=e1030]: 成功 完了
+                        - img [ref=e1031]
+                      - generic [ref=e1033]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e1034]:
+                    - generic [ref=e1035]:
+                      - generic [ref=e1037]:
+                        - generic [ref=e1038]: 情報 未完了
+                        - img [ref=e1039]
+                      - generic [ref=e1041]: 引当待ち
+                  - cell [ref=e1042]
+                  - cell "ユニクロ物流倉庫" [ref=e1043]:
+                    - paragraph [ref=e1044]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e1045]:
+                    - paragraph [ref=e1046]: 1個
+                  - cell "配送" [ref=e1047]:
+                    - paragraph [ref=e1048]: 配送
+                  - cell "-" [ref=e1049]:
+                    - paragraph [ref=e1050]: "-"
+                  - cell "2026年06月16日 23:19" [ref=e1051]:
+                    - paragraph [ref=e1052]: 2026年06月16日 23:19
+                - 'row "アイテムを選択する #IO-1008 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月16日 23:05" [ref=e1053] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1054]:
+                    - generic [ref=e1056]:
+                      - generic [ref=e1058]:
+                        - checkbox "アイテムを選択する" [ref=e1059]
+                        - generic
+                      - generic [ref=e1061]: アイテムを選択する
+                  - cell "#IO-1008" [ref=e1062]:
+                    - link "#IO-1008" [ref=e1063]:
+                      - /url: /admin/inventory_outbound_orders/b4cf8da0-c368-58fe-8000-528f5cb56054_InventoryOutboundOrder
+                      - paragraph [ref=e1064]: "#IO-1008"
+                  - cell "成功 完了 出荷完了" [ref=e1065]:
+                    - generic [ref=e1066]:
+                      - generic [ref=e1068]:
+                        - generic [ref=e1069]: 成功 完了
+                        - img [ref=e1070]
+                      - generic [ref=e1072]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e1073]:
+                    - generic [ref=e1074]:
+                      - generic [ref=e1076]:
+                        - generic [ref=e1077]: 情報 未完了
+                        - img [ref=e1078]
+                      - generic [ref=e1080]: 引当待ち
+                  - cell [ref=e1081]
+                  - cell "ユニクロ物流倉庫" [ref=e1082]:
+                    - paragraph [ref=e1083]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e1084]:
+                    - paragraph [ref=e1085]: 1個
+                  - cell "配送" [ref=e1086]:
+                    - paragraph [ref=e1087]: 配送
+                  - cell "-" [ref=e1088]:
+                    - paragraph [ref=e1089]: "-"
+                  - cell "2026年06月16日 23:05" [ref=e1090]:
+                    - paragraph [ref=e1091]: 2026年06月16日 23:05
+                - 'row "アイテムを選択する #IO-1007 キャンセル済み 情報 未完了 引当待ち ユニクロ物流倉庫 0個 配送 - 2026年06月16日 09:26" [ref=e1092] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1093]:
+                    - generic [ref=e1095]:
+                      - generic [ref=e1097]:
+                        - checkbox "アイテムを選択する" [ref=e1098]
+                        - generic
+                      - generic [ref=e1100]: アイテムを選択する
+                  - cell "#IO-1007" [ref=e1101]:
+                    - link "#IO-1007" [ref=e1102]:
+                      - /url: /admin/inventory_outbound_orders/097f0d71-76fe-57f7-b398-97b1c7b95e3e_InventoryOutboundOrder
+                      - paragraph [ref=e1103]: "#IO-1007"
+                  - cell "キャンセル済み" [ref=e1104]:
+                    - generic [ref=e1106]: キャンセル済み
+                  - cell "情報 未完了 引当待ち" [ref=e1107]:
+                    - generic [ref=e1108]:
+                      - generic [ref=e1110]:
+                        - generic [ref=e1111]: 情報 未完了
+                        - img [ref=e1112]
+                      - generic [ref=e1114]: 引当待ち
+                  - cell [ref=e1115]
+                  - cell "ユニクロ物流倉庫" [ref=e1116]:
+                    - paragraph [ref=e1117]: ユニクロ物流倉庫
+                  - cell "0個" [ref=e1118]:
+                    - paragraph [ref=e1119]: 0個
+                  - cell "配送" [ref=e1120]:
+                    - paragraph [ref=e1121]: 配送
+                  - cell "-" [ref=e1122]:
+                    - paragraph [ref=e1123]: "-"
+                  - cell "2026年06月16日 09:26" [ref=e1124]:
+                    - paragraph [ref=e1125]: 2026年06月16日 09:26
+                - 'row "アイテムを選択する #IO-1006 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 1個 配送 - 2026年06月15日 18:11" [ref=e1126] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1127]:
+                    - generic [ref=e1129]:
+                      - generic [ref=e1131]:
+                        - checkbox "アイテムを選択する" [ref=e1132]
+                        - generic
+                      - generic [ref=e1134]: アイテムを選択する
+                  - cell "#IO-1006" [ref=e1135]:
+                    - link "#IO-1006" [ref=e1136]:
+                      - /url: /admin/inventory_outbound_orders/bed1900a-1d18-5bc4-8724-5d193124224f_InventoryOutboundOrder
+                      - paragraph [ref=e1137]: "#IO-1006"
+                  - cell "成功 完了 出荷完了" [ref=e1138]:
+                    - generic [ref=e1139]:
+                      - generic [ref=e1141]:
+                        - generic [ref=e1142]: 成功 完了
+                        - img [ref=e1143]
+                      - generic [ref=e1145]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e1146]:
+                    - generic [ref=e1147]:
+                      - generic [ref=e1149]:
+                        - generic [ref=e1150]: 情報 未完了
+                        - img [ref=e1151]
+                      - generic [ref=e1153]: 引当待ち
+                  - cell [ref=e1154]
+                  - cell "ユニクロ物流倉庫" [ref=e1155]:
+                    - paragraph [ref=e1156]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e1157]:
+                    - paragraph [ref=e1158]: 1個
+                  - cell "配送" [ref=e1159]:
+                    - paragraph [ref=e1160]: 配送
+                  - cell "-" [ref=e1161]:
+                    - paragraph [ref=e1162]: "-"
+                  - cell "2026年06月15日 18:11" [ref=e1163]:
+                    - paragraph [ref=e1164]: 2026年06月15日 18:11
+                - 'row "アイテムを選択する #IO-1005 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月14日 01:24" [ref=e1165] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1166]:
+                    - generic [ref=e1168]:
+                      - generic [ref=e1170]:
+                        - checkbox "アイテムを選択する" [ref=e1171]
+                        - generic
+                      - generic [ref=e1173]: アイテムを選択する
+                  - cell "#IO-1005" [ref=e1174]:
+                    - link "#IO-1005" [ref=e1175]:
+                      - /url: /admin/inventory_outbound_orders/6d306528-210b-5a8f-bdcc-495bab9ec79d_InventoryOutboundOrder
+                      - paragraph [ref=e1176]: "#IO-1005"
+                  - cell "成功 完了 出荷完了" [ref=e1177]:
+                    - generic [ref=e1178]:
+                      - generic [ref=e1180]:
+                        - generic [ref=e1181]: 成功 完了
+                        - img [ref=e1182]
+                      - generic [ref=e1184]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e1185]:
+                    - generic [ref=e1186]:
+                      - generic [ref=e1188]:
+                        - generic [ref=e1189]: 情報 未完了
+                        - img [ref=e1190]
+                      - generic [ref=e1192]: 引当待ち
+                  - cell [ref=e1193]
+                  - cell "ユニクロ物流倉庫" [ref=e1194]:
+                    - paragraph [ref=e1195]: ユニクロ物流倉庫
+                  - cell "2個" [ref=e1196]:
+                    - paragraph [ref=e1197]: 2個
+                  - cell "配送" [ref=e1198]:
+                    - paragraph [ref=e1199]: 配送
+                  - cell "-" [ref=e1200]:
+                    - paragraph [ref=e1201]: "-"
+                  - cell "2026年06月14日 01:24" [ref=e1202]:
+                    - paragraph [ref=e1203]: 2026年06月14日 01:24
+                - 'row "アイテムを選択する #IO-1004 成功 完了 出荷完了 警告 未完了 在庫待ち ユニクロ物流倉庫 1個 配送 - 2026年06月12日 08:48" [ref=e1204] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1205]:
+                    - generic [ref=e1207]:
+                      - generic [ref=e1209]:
+                        - checkbox "アイテムを選択する" [ref=e1210]
+                        - generic
+                      - generic [ref=e1212]: アイテムを選択する
+                  - cell "#IO-1004" [ref=e1213]:
+                    - link "#IO-1004" [ref=e1214]:
+                      - /url: /admin/inventory_outbound_orders/86832be0-72e2-5a76-9020-fc74fbf8b955_InventoryOutboundOrder
+                      - paragraph [ref=e1215]: "#IO-1004"
+                  - cell "成功 完了 出荷完了" [ref=e1216]:
+                    - generic [ref=e1217]:
+                      - generic [ref=e1219]:
+                        - generic [ref=e1220]: 成功 完了
+                        - img [ref=e1221]
+                      - generic [ref=e1223]: 出荷完了
+                  - cell "警告 未完了 在庫待ち" [ref=e1224]:
+                    - generic [ref=e1225]:
+                      - generic [ref=e1227]:
+                        - generic [ref=e1228]: 警告 未完了
+                        - img [ref=e1229]
+                      - generic [ref=e1231]: 在庫待ち
+                  - cell [ref=e1232]
+                  - cell "ユニクロ物流倉庫" [ref=e1233]:
+                    - paragraph [ref=e1234]: ユニクロ物流倉庫
+                  - cell "1個" [ref=e1235]:
+                    - paragraph [ref=e1236]: 1個
+                  - cell "配送" [ref=e1237]:
+                    - paragraph [ref=e1238]: 配送
+                  - cell "-" [ref=e1239]:
+                    - paragraph [ref=e1240]: "-"
+                  - cell "2026年06月12日 08:48" [ref=e1241]:
+                    - paragraph [ref=e1242]: 2026年06月12日 08:48
+                - 'row "アイテムを選択する #IO-1003 キャンセル済み 情報 未完了 引当待ち ユニクロ - 銀座店 0個 配送 - 2026年06月10日 09:32" [ref=e1243] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1244]:
+                    - generic [ref=e1246]:
+                      - generic [ref=e1248]:
+                        - checkbox "アイテムを選択する" [ref=e1249]
+                        - generic
+                      - generic [ref=e1251]: アイテムを選択する
+                  - cell "#IO-1003" [ref=e1252]:
+                    - link "#IO-1003" [ref=e1253]:
+                      - /url: /admin/inventory_outbound_orders/69170c29-24cd-52bf-be99-d42130d9b5ac_InventoryOutboundOrder
+                      - paragraph [ref=e1254]: "#IO-1003"
+                  - cell "キャンセル済み" [ref=e1255]:
+                    - generic [ref=e1257]: キャンセル済み
+                  - cell "情報 未完了 引当待ち" [ref=e1258]:
+                    - generic [ref=e1259]:
+                      - generic [ref=e1261]:
+                        - generic [ref=e1262]: 情報 未完了
+                        - img [ref=e1263]
+                      - generic [ref=e1265]: 引当待ち
+                  - cell [ref=e1266]
+                  - cell "ユニクロ - 銀座店" [ref=e1267]:
+                    - paragraph [ref=e1268]: ユニクロ - 銀座店
+                  - cell "0個" [ref=e1269]:
+                    - paragraph [ref=e1270]: 0個
+                  - cell "配送" [ref=e1271]:
+                    - paragraph [ref=e1272]: 配送
+                  - cell "-" [ref=e1273]:
+                    - paragraph [ref=e1274]: "-"
+                  - cell "2026年06月10日 09:32" [ref=e1275]:
+                    - paragraph [ref=e1276]: 2026年06月10日 09:32
+                - 'row "アイテムを選択する #IO-1002 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月09日 14:38" [ref=e1277] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1278]:
+                    - generic [ref=e1280]:
+                      - generic [ref=e1282]:
+                        - checkbox "アイテムを選択する" [ref=e1283]
+                        - generic
+                      - generic [ref=e1285]: アイテムを選択する
+                  - cell "#IO-1002" [ref=e1286]:
+                    - link "#IO-1002" [ref=e1287]:
+                      - /url: /admin/inventory_outbound_orders/9a7c1300-7218-58b7-ad39-0ec56bd30b13_InventoryOutboundOrder
+                      - paragraph [ref=e1288]: "#IO-1002"
+                  - cell "成功 完了 出荷完了" [ref=e1289]:
+                    - generic [ref=e1290]:
+                      - generic [ref=e1292]:
+                        - generic [ref=e1293]: 成功 完了
+                        - img [ref=e1294]
+                      - generic [ref=e1296]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e1297]:
+                    - generic [ref=e1298]:
+                      - generic [ref=e1300]:
+                        - generic [ref=e1301]: 情報 未完了
+                        - img [ref=e1302]
+                      - generic [ref=e1304]: 引当待ち
+                  - cell [ref=e1305]
+                  - cell "ユニクロ物流倉庫" [ref=e1306]:
+                    - paragraph [ref=e1307]: ユニクロ物流倉庫
+                  - cell "2個" [ref=e1308]:
+                    - paragraph [ref=e1309]: 2個
+                  - cell "配送" [ref=e1310]:
+                    - paragraph [ref=e1311]: 配送
+                  - cell "-" [ref=e1312]:
+                    - paragraph [ref=e1313]: "-"
+                  - cell "2026年06月09日 14:38" [ref=e1314]:
+                    - paragraph [ref=e1315]: 2026年06月09日 14:38
+                - 'row "アイテムを選択する #IO-1001 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月08日 10:57" [ref=e1316] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1317]:
+                    - generic [ref=e1319]:
+                      - generic [ref=e1321]:
+                        - checkbox "アイテムを選択する" [ref=e1322]
+                        - generic
+                      - generic [ref=e1324]: アイテムを選択する
+                  - cell "#IO-1001" [ref=e1325]:
+                    - link "#IO-1001" [ref=e1326]:
+                      - /url: /admin/inventory_outbound_orders/b6e0aaf1-8c54-58f8-9ee8-6cebc84e80bb_InventoryOutboundOrder
+                      - paragraph [ref=e1327]: "#IO-1001"
+                  - cell "成功 完了 出荷完了" [ref=e1328]:
+                    - generic [ref=e1329]:
+                      - generic [ref=e1331]:
+                        - generic [ref=e1332]: 成功 完了
+                        - img [ref=e1333]
+                      - generic [ref=e1335]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e1336]:
+                    - generic [ref=e1337]:
+                      - generic [ref=e1339]:
+                        - generic [ref=e1340]: 情報 未完了
+                        - img [ref=e1341]
+                      - generic [ref=e1343]: 引当待ち
+                  - cell [ref=e1344]
+                  - cell "ユニクロ物流倉庫" [ref=e1345]:
+                    - paragraph [ref=e1346]: ユニクロ物流倉庫
+                  - cell "2個" [ref=e1347]:
+                    - paragraph [ref=e1348]: 2個
+                  - cell "配送" [ref=e1349]:
+                    - paragraph [ref=e1350]: 配送
+                  - cell "-" [ref=e1351]:
+                    - paragraph [ref=e1352]: "-"
+                  - cell "2026年06月08日 10:57" [ref=e1353]:
+                    - paragraph [ref=e1354]: 2026年06月08日 10:57
+                - 'row "アイテムを選択する #IO-1000 成功 完了 出荷完了 情報 未完了 引当待ち ユニクロ物流倉庫 2個 配送 - 2026年06月05日 20:20" [ref=e1355] [cursor=pointer]':
+                  - cell "アイテムを選択する" [ref=e1356]:
+                    - generic [ref=e1358]:
+                      - generic [ref=e1360]:
+                        - checkbox "アイテムを選択する" [ref=e1361]
+                        - generic
+                      - generic [ref=e1363]: アイテムを選択する
+                  - cell "#IO-1000" [ref=e1364]:
+                    - link "#IO-1000" [ref=e1365]:
+                      - /url: /admin/inventory_outbound_orders/3efa7222-0ad1-5568-85cc-f966805aa090_InventoryOutboundOrder
+                      - paragraph [ref=e1366]: "#IO-1000"
+                  - cell "成功 完了 出荷完了" [ref=e1367]:
+                    - generic [ref=e1368]:
+                      - generic [ref=e1370]:
+                        - generic [ref=e1371]: 成功 完了
+                        - img [ref=e1372]
+                      - generic [ref=e1374]: 出荷完了
+                  - cell "情報 未完了 引当待ち" [ref=e1375]:
+                    - generic [ref=e1376]:
+                      - generic [ref=e1378]:
+                        - generic [ref=e1379]: 情報 未完了
+                        - img [ref=e1380]
+                      - generic [ref=e1382]: 引当待ち
+                  - cell [ref=e1383]
+                  - cell "ユニクロ物流倉庫" [ref=e1384]:
+                    - paragraph [ref=e1385]: ユニクロ物流倉庫
+                  - cell "2個" [ref=e1386]:
+                    - paragraph [ref=e1387]: 2個
+                  - cell "配送" [ref=e1388]:
+                    - paragraph [ref=e1389]: 配送
+                  - cell "-" [ref=e1390]:
+                    - paragraph [ref=e1391]: "-"
+                  - cell "2026年06月05日 20:20" [ref=e1392]:
+                    - paragraph [ref=e1393]: 2026年06月05日 20:20
+            - navigation "ページネーション" [ref=e1397]:
+              - generic [ref=e1400]:
+                - generic [ref=e1401]:
+                  - button "前へ" [disabled]:
+                    - generic:
+                      - generic:
+                        - img
+                - generic [ref=e1402]:
+                  - button "次へ" [disabled]:
+                    - generic:
+                      - generic:
+                        - img
+  - region "Notifications alt+T"
+  - alert [ref=e10]

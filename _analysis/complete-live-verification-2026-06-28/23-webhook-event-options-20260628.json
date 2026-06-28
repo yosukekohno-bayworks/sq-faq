@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-06-27T19:36:45.365572+00:00",
+  "base": "https://www.sqstackstaging.com",
+  "appRoute": "/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+  "appName": "TEST_FAQ_20260624_APP_113636",
+  "errors": [],
+  "result": {
+    "url": "https://www.sqstackstaging.com/admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App",
+    "h1": "TEST_FAQ_20260624_APP_113636",
+    "dialogSnapshot": {
+      "text": "Webhookを追加する イベント 選択してください 注文の作成 注文の更新 在庫の更新 選択してください エンドポイント キャンセル 保存する",
+      "selects": [
+        {
+          "index": 0,
+          "name": null,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "選択してください",
+              "disabled": true
+            },
+            {
+              "value": "ORDER_CREATE",
+              "text": "注文の作成",
+              "disabled": false
+            },
+            {
+              "value": "ORDER_UPDATE",
+              "text": "注文の更新",
+              "disabled": false
+            },
+            {
+              "value": "INVENTORY_LOGICAL_CHANGE_CREATE",
+              "text": "在庫の更新",
+              "disabled": false
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "type": "url",
+          "name": null,
+          "placeholder": "https://stackservice.com/webhook",
+          "valueLength": 0
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "disabled": false
+        },
+        {
+          "text": "キャンセル",
+          "disabled": false
+        },
+        {
+          "text": "保存する",
+          "disabled": false
+        }
+      ]
+    },
+    "eventSelect": {
+      "options": [
+        {
+          "value": "",
+          "text": "選択してください",
+          "disabled": true
+        },
+        {
+          "value": "ORDER_CREATE",
+          "text": "注文の作成",
+          "disabled": false
+        },
+        {
+          "value": "ORDER_UPDATE",
+          "text": "注文の更新",
+          "disabled": false
+        },
+        {
+          "value": "INVENTORY_LOGICAL_CHANGE_CREATE",
+          "text": "在庫の更新",
+          "disabled": false
+        }
+      ],
+      "selectableCount": 3,
+      "selectableTexts": [
+        "注文の作成",
+        "注文の更新",
+        "在庫の更新"
+      ],
+      "selectionChecks": [
+        {
+          "requested": {
+            "value": "ORDER_CREATE",
+            "text": "注文の作成",
+            "disabled": false
+          },
+          "selected": {
+            "value": "ORDER_CREATE",
+            "text": "注文の作成"
+          },
+          "matched": true
+        },
+        {
+          "requested": {
+            "value": "ORDER_UPDATE",
+            "text": "注文の更新",
+            "disabled": false
+          },
+          "selected": {
+            "value": "ORDER_UPDATE",
+            "text": "注文の更新"
+          },
+          "matched": true
+        },
+        {
+          "requested": {
+            "value": "INVENTORY_LOGICAL_CHANGE_CREATE",
+            "text": "在庫の更新",
+            "disabled": false
+          },
+          "selected": {
+            "value": "INVENTORY_LOGICAL_CHANGE_CREATE",
+            "text": "在庫の更新"
+          },
+          "matched": true
+        }
+      ],
+      "onlyExpectedEvents": true
+    },
+    "dialogClosed": true
+  }
+}

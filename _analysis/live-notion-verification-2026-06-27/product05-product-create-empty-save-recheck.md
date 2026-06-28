@@ -1,0 +1,71 @@
+- generic [active] [ref=e1] [box=0,-531,1492,841]:
+  - generic [ref=e2] [box=0,-531,1492,1468]:
+    - generic [box=8,10,164,32]:
+      - link "コンテンツにスキップ" [box=8,10,164,32]:
+        - /url: "#AppFrameMain"
+        - generic [box=20,16,140,20]: コンテンツにスキップ
+    - generic [ref=e5] [box=0,0,1492,56]:
+      - link [ref=e8] [cursor=pointer] [box=16,15,40,27]:
+        - /url: /admin
+      - generic [ref=e10] [box=986,0,506,56]:
+        - button [ref=e14] [cursor=pointer] [box=1296,12,32,32]:
+          - img [ref=e16] [box=1302,18,20,20]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e20] [cursor=pointer] [box=1336,12,148,32]:
+          - generic [ref=e21] [box=1338,14,116,28]:
+            - paragraph [ref=e22] [box=1348,14,98,16]: stack-ps-yosuke
+            - paragraph [ref=e24] [box=1348,30,98,12]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e26] [box=1454,14,28,28]
+    - generic "メニュー" [ref=e27] [box=0,56,240,785]:
+      - navigation [ref=e28] [box=0,56,240,785]:
+        - generic [ref=e29] [box=0,56,240,785]:
+          - list [ref=e30] [box=0,72,240,332]:
+            - listitem [ref=e31] [box=0,72,240,28]
+            - listitem [ref=e40] [box=0,100,240,92]
+            - listitem [ref=e62] [box=0,192,240,28]
+            - listitem [ref=e71] [box=0,220,240,28]
+            - listitem [ref=e80] [box=0,248,240,28]
+            - listitem [ref=e90] [box=0,276,240,28]
+            - listitem [ref=e100] [box=0,304,240,28]
+            - listitem [ref=e112] [box=0,332,240,28]
+            - listitem [ref=e121] [box=0,360,240,28]
+          - list [ref=e123] [box=0,404,240,132]:
+            - listitem [ref=e124] [box=0,412,240,24]
+            - listitem [ref=e126] [box=0,436,240,28]
+            - listitem [ref=e137] [box=0,464,240,28]
+            - listitem [ref=e146] [box=0,492,240,28]
+          - list [ref=e160] [box=0,536,240,132]:
+            - listitem [ref=e161] [box=0,544,240,24]
+            - listitem [ref=e163] [box=0,568,240,28]
+            - listitem [ref=e172] [box=0,596,240,28]
+            - listitem [ref=e181] [box=0,624,240,28]
+          - list [ref=e191] [box=0,668,240,188]:
+            - listitem [ref=e192] [box=0,676,240,24]
+            - listitem [ref=e194] [box=0,700,240,28]
+            - listitem [ref=e199] [box=0,728,240,28]
+            - listitem [ref=e204] [box=0,756,240,28]
+            - listitem [ref=e209] [box=0,784,240,28]
+            - listitem [ref=e214] [box=0,812,240,28]
+          - list [ref=e216] [box=0,856,240,52]:
+            - listitem [ref=e217] [box=0,864,240,28]
+    - main [ref=e226] [box=0,-531,1492,1468]:
+      - generic [ref=e229] [box=367,-475,998,1380]:
+        - generic [ref=e230] [box=391,-475,950,76]:
+          - status [box=391,-451,950,0]:
+            - paragraph [ref=e231] [box=391,-475,1,1]: 商品を作成する。このページの準備が整いました
+          - generic [ref=e233] [box=391,-451,950,28]:
+            - link [ref=e236] [cursor=pointer] [box=391,-451,28,28]:
+              - /url: /admin/products
+            - heading "商品を作成する" [level=1] [ref=e243] [box=423,-449,139,24]
+        - generic [ref=e245] [box=375,-415,966,1320]:
+          - generic [ref=e247] [box=391,-399,623,1228]:
+            - generic [ref=e250] [box=407,-383,591,515]
+            - generic [ref=e299] [box=407,180,591,319]
+            - generic [ref=e370] [box=407,547,591,266]
+          - generic [ref=e392] [box=1029,-399,311,476]:
+            - generic [ref=e395] [box=1045,-383,279,64]
+            - generic [ref=e410] [box=1045,-271,279,232]
+            - generic [ref=e445] [box=1045,9,279,52]
+          - button "保存する" [ref=e461] [cursor=pointer] [box=1269,861,72,28]:
+            - generic [ref=e462] [box=1281,867,48,16]: 保存する
+  - region "Notifications alt+T" [box=0,937,1492,0]
+  - alert [ref=e463] [box=-1,936,1,1]

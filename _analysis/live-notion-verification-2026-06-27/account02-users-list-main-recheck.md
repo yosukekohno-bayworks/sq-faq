@@ -1,0 +1,99 @@
+- generic [ref=e260]:
+  - generic [ref=e261]:
+    - status:
+      - paragraph [ref=e262]: 管理メンバー。このページの準備が整いました
+    - generic [ref=e264]:
+      - link [ref=e267] [cursor=pointer]:
+        - /url: /admin/settings
+        - img [ref=e270]
+      - heading "管理メンバー" [level=1] [ref=e274]
+      - generic [ref=e275]:
+        - generic [ref=e278]:
+          - link "権限グループ一覧" [ref=e280] [cursor=pointer]:
+            - /url: /admin/settings/permission_groups
+            - generic [ref=e281]: 権限グループ一覧
+          - link "インポート" [ref=e283] [cursor=pointer]:
+            - /url: /admin/csv_import/csv_import_operation_users
+            - img [ref=e286]
+            - generic [ref=e289]: インポート
+        - link "追加する" [ref=e292] [cursor=pointer]:
+          - /url: /admin/settings/users/create
+          - generic [ref=e293]: 追加する
+  - generic [ref=e298]:
+    - generic [ref=e303]:
+      - generic [ref=e308]:
+        - generic [ref=e311]: キーワードで検索する
+        - generic [ref=e314]:
+          - img [ref=e318]
+          - textbox "キーワードで検索する" [active] [ref=e320]
+      - button "絞り込みを追加" [ref=e327] [cursor=pointer]:
+        - generic [ref=e328]: 絞り込みを追加
+        - img [ref=e329]
+    - generic [ref=e332]:
+      - table [ref=e334]:
+        - rowgroup [ref=e335]:
+          - row "名前 メールアドレス 権限グループ" [ref=e336]:
+            - columnheader "名前" [ref=e337]:
+              - generic [ref=e338]: 名前
+            - columnheader "メールアドレス" [ref=e339]:
+              - generic [ref=e340]: メールアドレス
+            - columnheader "権限グループ" [ref=e341]:
+              - generic [ref=e342]: 権限グループ
+        - rowgroup [ref=e343]:
+          - row "サポートアカウントStack erp.delivery.admin@stack.inc 特権管理者" [ref=e344]:
+            - cell "サポートアカウントStack" [ref=e345]:
+              - link "サポートアカウントStack" [ref=e346] [cursor=pointer]:
+                - /url: /admin/settings/users/user_358DNqj6iJtcvMhxAwTLlCzyGWU
+                - generic [ref=e347]: サポートアカウントStack
+            - cell "erp.delivery.admin@stack.inc" [ref=e348]:
+              - paragraph [ref=e349]: erp.delivery.admin@stack.inc
+            - cell "特権管理者" [ref=e350]:
+              - paragraph [ref=e351]: 特権管理者
+          - row "福田涼介 yz@stack.inc 特権管理者" [ref=e352]:
+            - cell "福田涼介" [ref=e353]:
+              - link "福田涼介" [ref=e354] [cursor=pointer]:
+                - /url: /admin/settings/users/user_35E68KNK1pCOobD4ZwdoaHsnNo0
+                - generic [ref=e355]: 福田涼介
+            - cell "yz@stack.inc" [ref=e356]:
+              - paragraph [ref=e357]: yz@stack.inc
+            - cell "特権管理者" [ref=e358]:
+              - paragraph [ref=e359]: 特権管理者
+          - row "菅野将貴 sugano@stack.inc 特権管理者" [ref=e360]:
+            - cell "菅野将貴" [ref=e361]:
+              - link "菅野将貴" [ref=e362] [cursor=pointer]:
+                - /url: /admin/settings/users/user_3CbpZwl1x5ohfuyFmuv1t8VQXyo
+                - generic [ref=e363]: 菅野将貴
+            - cell "sugano@stack.inc" [ref=e364]:
+              - paragraph [ref=e365]: sugano@stack.inc
+            - cell "特権管理者" [ref=e366]:
+              - paragraph [ref=e367]: 特権管理者
+          - row "河野陽介 yosuke.kohno@bay-works.com 特権管理者" [ref=e368]:
+            - cell "河野陽介" [ref=e369]:
+              - link "河野陽介" [ref=e370] [cursor=pointer]:
+                - /url: /admin/settings/users/user_3Dz5ZnyYjoaDwlnz2ffJE7NZTGb
+                - generic [ref=e371]: 河野陽介
+            - cell "yosuke.kohno@bay-works.com" [ref=e372]:
+              - paragraph [ref=e373]: yosuke.kohno@bay-works.com
+            - cell "特権管理者" [ref=e374]:
+              - paragraph [ref=e375]: 特権管理者
+          - row "権限テスト you.4235@gmail.com TEST_権限検証_20260620" [ref=e376]:
+            - cell "権限テスト" [ref=e377]:
+              - link "権限テスト" [ref=e378] [cursor=pointer]:
+                - /url: /admin/settings/users/user_3FOeZAow9g1pTX8HYyjifwXk4re
+                - generic [ref=e379]: 権限テスト
+            - cell "you.4235@gmail.com" [ref=e380]:
+              - paragraph [ref=e381]: you.4235@gmail.com
+            - cell "TEST_権限検証_20260620" [ref=e382]:
+              - paragraph [ref=e383]: TEST_権限検証_20260620
+      - navigation "ページネーション" [ref=e387]:
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - button "前へ" [disabled]:
+              - generic:
+                - generic:
+                  - img
+          - generic [ref=e392]:
+            - button "次へ" [disabled]:
+              - generic:
+                - generic:
+                  - img

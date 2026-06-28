@@ -1,0 +1,129 @@
+viewport: 1209x785
+page: 1209x1179
+scroll: (0, 0)
+[70395]<a />
+	コンテンツにスキップ
+[70524]<div />
+[70398]<button data-state=closed expanded=false />
+[70399]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[70541]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[70403]<a />
+		ホーム
+	[70404]<a />
+		商品管理
+	[70405]<a />
+		在庫管理
+	[70406]<a />
+		注文管理
+		[70592]<div />
+	[70407]<a />
+		顧客管理
+	[70408]<a />
+		発注管理
+	[70409]<a />
+		販売設定
+	[70410]<a />
+		会計
+	[70411]<a />
+		分析
+	オペレーション
+	[70412]<a />
+		入荷管理
+		[70676]<div />
+	[70413]<a />
+		出荷管理
+		[70687]<div />
+	[70414]<a />
+		在庫依頼
+		未完了の在庫依頼 3件
+	CRM
+	[70415]<a />
+		ディスカウント
+	[70416]<a />
+		ポイント
+	[70417]<a />
+		会員ランク
+	販売チャネル
+	[70418]<a />
+		Shopify
+	[70419]<a />
+		OmnibusCore
+	[70420]<a />
+		スマレジ
+	[70421]<a />
+		リテールポータル
+	[70422]<a />
+		卸売
+	[70423]<a />
+		設定
+スマレジ連携を作成する。このページの準備が整いました
+[70805]<div />
+	[70806]<div />
+		[70425]<a />
+スマレジ連携を作成する
+[70820]<div role=status live=polite />
+	[70827]<div />
+		[70828]<span />
+			[70829]<span />
+				[70830]<svg /> <!-- SVG content collapsed -->
+	スマレジ連携を利用するには、スマレジにアプリをインストールする必要があります。
+基本情報
+[70846]<hr />
+[70852]<div />
+	[70855]<span />
+		名前
+|SHADOW(open)|[70385]<input id=:r1c: autocomplete=off type=text required=true />
+テナント
+選択してください
+[70881]<span />
+	[70882]<span />
+		[70883]<svg /> <!-- SVG content collapsed -->
+[70890]<div />
+	[70893]<span />
+		契約ID
+|SHADOW(open)|[70387]<input id=:r1e: autocomplete=off type=text required=true />
+[70902]<div />
+	[70905]<span />
+		プラン
+リテールビジネス
+[70921]<span />
+	[70922]<span />
+		[70923]<svg /> <!-- SVG content collapsed -->
+商品連携設定
+[70933]<hr />
+カタログ
+選択してください
+[70953]<span />
+	[70954]<span />
+		[70955]<svg /> <!-- SVG content collapsed -->
+在庫設定
+[70965]<hr />
+在庫同期の方向
+スマレジからSQへ在庫を同期する
+[70985]<span />
+	[70986]<span />
+		[70987]<svg /> <!-- SVG content collapsed -->
+[70993]<span />
+	[70428]<span />
+	[70996]<svg /> <!-- SVG content collapsed -->
+[70998]<span />
+	[70999]<span />
+		注文による在庫変動を起こさない
+取引連携設定
+[71007]<hr />
+[71013]<span />
+	[70429]<span />
+	[71015]<span />
+		[71016]<svg /> <!-- SVG content collapsed -->
+[71018]<span />
+	[71019]<span />
+		取引の連携を有効にする
+スマレジの取引をSQに連携し、注文や返品を作成します。無効にすると商品連携などの取引以外の連携だけを行います。
+[70384]<button />
+	保存する
+[71032]<section aria-label=Notifications alt+T live=polite />
+[70430]<div id=PolarisPortalsContainer />
+[70432]<div id=clerk-components />

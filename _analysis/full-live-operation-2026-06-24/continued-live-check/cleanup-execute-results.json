@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/admin/settings/brands",
+    "target": "TEST_FAQ_20260624_ブランド_092214",
+    "action": "削除する",
+    "confirm": "削除する",
+    "present_before": true,
+    "clicked_action": true,
+    "clicked_confirm": true,
+    "present_after": false,
+    "notifications": [
+      "ブランドを削除しました"
+    ]
+  },
+  {
+    "path": "/admin/settings/payment_methods",
+    "target": "TEST_FAQ_20260624_決済_092214",
+    "action": "削除する",
+    "confirm": "削除する",
+    "present_before": true,
+    "clicked_action": true,
+    "clicked_confirm": true,
+    "present_after": false,
+    "notifications": [
+      "削除する",
+      "決済方法を削除しました",
+      "決済方法を削除しますか？",
+      "選択されている決済方法を削除します。この処理は巻き戻すことができません。",
+      "削除する"
+    ]
+  },
+  {
+    "path": "/admin/settings/translation/translation_rules",
+    "target": "TEST_FAQ_20260624_TRANSLATION_CRUD_093701",
+    "action": "削除する",
+    "confirm": "削除する",
+    "present_before": true,
+    "clicked_action": true,
+    "clicked_confirm": true,
+    "present_after": false,
+    "notifications": [
+      "翻訳を削除しました"
+    ]
+  },
+  {
+    "path": "/admin/settings/suppliers",
+    "target": "TEST_FAQ_20260624_取引先_092214",
+    "action": "アーカイブする",
+    "confirm": "アーカイブする",
+    "present_before": true,
+    "clicked_action": true,
+    "confirm_error": "Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=re.compile(r\"アーカイブする\")).last\n    - locator resolved to <button type",
+    "present_after": true,
+    "notifications": [
+      "アーカイブ",
+      "アーカイブする",
+      "取引先を削除しますか？",
+      "選択されている1件の取引先を削除します。以下に当てはまる取引先は削除されません。",
+      "削除する"
+    ]
+  }
+]

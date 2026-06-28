@@ -1,0 +1,157 @@
+result: [
+  {
+    "i": 0,
+    "text": "コンテンツにスキップ",
+    "href": "https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips#AppFrameMain"
+  },
+  {
+    "i": 1,
+    "text": "メニューを切り替える",
+    "href": "",
+    "disabled": false
+  },
+  {
+    "i": 2,
+    "text": "",
+    "href": "https://www.sqstackstaging.com/admin"
+  },
+  {
+    "i": 4,
+    "text": "stack-ps-yosuke\n\n陽介 河野",
+    "href": "",
+    "disabled": false
+  },
+  {
+    "i": 5,
+    "text": "",
+    "href": "https://www.sqstackstaging.com/admin"
+  },
+  {
+    "i": 6,
+    "text": "ホーム",
+    "href": "https://www.sqstackstaging.com/admin"
+  },
+  {
+    "i": 7,
+    "text": "商品管理",
+    "href": "https://www.sqstackstaging.com/admin/products"
+  },
+  {
+    "i": 8,
+    "text": "在庫管理",
+    "href": "https://www.sqstackstaging.com/admin/inventory_items"
+  },
+  {
+    "i": 9,
+    "text": "注文管理",
+    "href": "https://www.sqstackstaging.com/admin/orders"
+  },
+  {
+    "i": 10,
+    "text": "顧客管理",
+    "href": "https://www.sqstackstaging.com/admin/purchasing_customers"
+  },
+  {
+    "i": 11,
+    "text": "発注管理",
+    "href": "https://www.sqstackstaging.com/admin/inventory_purchase_orders"
+  },
+  {
+    "i": 12,
+    "text": "販売設定",
+    "href": "https://www.sqstackstaging.com/admin/product_price_rules"
+  },
+  {
+    "i": 13,
+    "text": "会計",
+    "href": "https://www.sqstackstaging.com/admin/sale_change_line_items"
+  },
+  {
+    "i": 14,
+    "text": "分析",
+    "href": "https://www.sqstackstaging.com/admin/analytics"
+  },
+  {
+    "i": 15,
+    "text": "入荷管理",
+    "href": "https://www.sqstackstaging.com/admin/inventory_inbound_orders"
+  },
+  {
+    "i": 16,
+    "text": "出荷管理",
+    "href": "https://www.sqstackstaging.com/admin/inventory_outbound_orders"
+  },
+  {
+    "i": 17,
+    "text": "在庫依頼\n未完了の在庫依頼 3件\n3",
+    "href": "https://www.sqstackstaging.com/admin/inventory_allocation_requests"
+  },
+  {
+    "i": 18,
+    "text": "ディスカウント",
+    "href": "https://www.sqstackstaging.com/admin/order_price_adjustment_rules"
+  },
+  {
+    "i": 19,
+    "text": "ポイント",
+    "href": "https://www.sqstackstaging.com/admin/point_calculation_rules"
+  },
+  {
+    "i": 20,
+    "text": "会員ランク",
+    "href": "https://www.sqstackstaging.com/admin/customer_rank_calculation_rules"
+  },
+  {
+    "i": 21,
+    "text": "Shopify",
+    "href": "https://www.sqstackstaging.com/admin/shopify_integrations"
+  },
+  {
+    "i": 22,
+    "text": "OmnibusCore",
+    "href": "https://www.sqstackstaging.com/admin/omnibus_core_integrations"
+  },
+  {
+    "i": 23,
+    "text": "スマレジ",
+    "href": "https://www.sqstackstaging.com/admin/smaregi_integrations"
+  },
+  {
+    "i": 24,
+    "text": "リテールポータル",
+    "href": "https://www.sqstackstaging.com/admin/retail_portal_integrations"
+  },
+  {
+    "i": 25,
+    "text": "卸売",
+    "href": "https://www.sqstackstaging.com/admin/b2b"
+  },
+  {
+    "i": 26,
+    "text": "設定",
+    "href": "https://www.sqstackstaging.com/admin/settings"
+  },
+  {
+    "i": 27,
+    "text": "メニューを閉じる",
+    "href": "",
+    "disabled": false
+  },
+  {
+    "i": 28,
+    "text": "",
+    "href": "https://www.sqstackstaging.com/admin/pdf_export"
+  },
+  {
+    "i": 29,
+    "text": "前へ",
+    "href": "",
+    "disabled": false
+  },
+  {
+    "i": 30,
+    "text": "次へ",
+    "href": "",
+    "disabled": false
+  }
+]

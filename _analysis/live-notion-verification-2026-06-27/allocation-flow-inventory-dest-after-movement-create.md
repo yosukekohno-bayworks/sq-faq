@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+              - list [ref=e69]:
+                - listitem [ref=e70]
+                - listitem [ref=e75]
+                - listitem [ref=e80]
+            - listitem [ref=e85]:
+              - link "注文管理" [ref=e88] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e91]
+                - generic [ref=e93]: 注文管理
+            - listitem [ref=e94]:
+              - link "顧客管理" [ref=e97] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e100]
+                - generic [ref=e103]: 顧客管理
+            - listitem [ref=e104]:
+              - link "発注管理" [ref=e107] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e110]
+                - generic [ref=e113]: 発注管理
+            - listitem [ref=e114]:
+              - link "販売設定" [ref=e117] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e120]
+                - generic [ref=e125]: 販売設定
+            - listitem [ref=e126]:
+              - link "会計" [ref=e129] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e132]
+                - generic [ref=e134]: 会計
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - generic
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e139]: オペレーション
+            - listitem [ref=e140]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=e143] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e146]
+                - generic [ref=e150]: 入荷管理
+                - generic [ref=e152]
+            - listitem [ref=e155]:
+              - link "出荷管理 未完了の出荷指示 1件 1" [ref=e158] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e161]
+                - generic [ref=e163]: 出荷管理
+                - generic [ref=e165]
+            - listitem [ref=e168]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e171] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e174]
+                - generic [ref=e177]: 在庫依頼
+                - generic [ref=e179]
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - generic [ref=e184]: CRM
+            - listitem [ref=e185]:
+              - link "ディスカウント" [ref=e188] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e191]
+                - generic [ref=e193]: ディスカウント
+            - listitem [ref=e194]:
+              - link "ポイント" [ref=e197] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e200]
+                - generic [ref=e202]: ポイント
+            - listitem [ref=e203]:
+              - link "会員ランク" [ref=e206] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e209]
+                - generic [ref=e212]: 会員ランク
+          - list [ref=e213]:
+            - listitem [ref=e214]:
+              - generic [ref=e215]: 販売チャネル
+            - listitem [ref=e216]:
+              - link "Shopify" [ref=e219] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e220]: Shopify
+            - listitem [ref=e221]:
+              - link "OmnibusCore" [ref=e224] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e225]: OmnibusCore
+            - listitem [ref=e226]:
+              - link "スマレジ" [ref=e229] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e230]: スマレジ
+            - listitem [ref=e231]:
+              - link "リテールポータル" [ref=e234] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e235]: リテールポータル
+            - listitem [ref=e236]:
+              - generic [ref=e237]:
+                - generic
+          - list [ref=e238]:
+            - listitem [ref=e239]:
+              - link "設定" [ref=e242] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e245]
+                - generic [ref=e247]: 設定
+    - main [ref=e248]:
+      - generic [ref=e251]:
+        - generic [ref=e252]:
+          - status:
+            - paragraph [ref=e253]: "在庫管理 : 。このページの準備が整いました"
+          - generic [ref=e255]:
+            - generic [ref=e257]:
+              - heading "在庫管理 :" [level=1] [ref=e258]
+              - button "TEST_E2E_20260622_GU店舗_OFF_1905" [ref=e260] [cursor=pointer]:
+                - generic [ref=e261]: TEST_E2E_20260622_GU店舗_OFF_1905
+                - img [ref=e264]
+            - generic [ref=e269]:
+              - link "インポート" [ref=e271] [cursor=pointer]:
+                - /url: /admin/csv_import/csv_import_operation_inventory_logical_available_quantities
+                - img [ref=e274]
+                - generic [ref=e277]: インポート
+              - link "エクスポート" [ref=e279] [cursor=pointer]:
+                - /url: /admin/csv_export/csv_export_operation_inventory_logical_quantities
+                - img [ref=e282]
+                - generic [ref=e285]: エクスポート
+        - generic [ref=e290]:
+          - generic [ref=e296]:
+            - tablist [ref=e303]:
+              - tab "すべて" [selected] [ref=e304] [cursor=pointer]:
+                - generic [ref=e306]: すべて
+            - button "検索と絞り込みの結果" [ref=e310] [cursor=pointer]:
+              - generic [ref=e312]:
+                - img [ref=e314]
+                - img [ref=e317]
+          - generic [ref=e322]:
+            - table [ref=e324]:
+              - rowgroup [ref=e325]:
+                - row "すべてのアイテムを選択する 商品 品番(SKU) 販売可能 引当済み 取置中 手持ち" [ref=e326]
+              - rowgroup [ref=e348]:
+                - row "アイテムを選択する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1905 NAVY / M TEST_E2E_20260622_GU_1905_NAVY_M 情報 入荷予定 1 0 0 1" [ref=e349] [cursor=pointer]
+                - row "アイテムを選択する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1845 NAVY / M TEST_E2E_20260622_GU_1845_NAVY_M 0 0 0 0" [ref=e385] [cursor=pointer]
+                - row "アイテムを選択する product variant thumbnail TEST_E2E_20260622 GU検証Tシャツ 1830 NAVY / M TEST_E2E_20260622_GU_1830_NAVY_M 0 0 0 0" [ref=e417] [cursor=pointer]
+                - row "アイテムを選択する product variant thumbnail 半袖シャツ M / グレー 21 0 0 0 0" [ref=e449] [cursor=pointer]
+                - row "アイテムを選択する product variant thumbnail 半袖シャツ S / グレー 124 0 0 0 0" [ref=e481] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ BLUE / 36 487973-64-36 0 0 0 0" [ref=e513] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ GREEN / XL 486102-52-XL 0 0 0 0" [ref=e541] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ BLACK / XL 486125-09-XL 0 0 0 0" [ref=e569] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ WHITE / L 486102-00-L 0 0 0 0" [ref=e597] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンT LIGHT GRAY / L 483457-02-L 0 0 0 0" [ref=e625] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ BLACK / L 486125-09-L 0 0 0 0" [ref=e653] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンT WHITE / S 483457-00-S 0 0 0 0" [ref=e681] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail ポケモン UT RED / 100(3-4歳) 483674-15-100 0 0 0 0" [ref=e709] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンT WHITE / XL 483457-00-XL 0 0 0 0" [ref=e737] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ GRAY / L 486125-03-L 0 0 0 0" [ref=e765] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ GREEN / XS 486102-52-XS 0 0 0 0" [ref=e793] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ NAVY / L 486125-69-L 0 0 0 0" [ref=e821] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンT BLACK / S 483457-09-S 0 0 0 0" [ref=e849] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ BLUE / 28 487973-64-28 0 0 0 0" [ref=e877] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ GRAY / XS 486125-03-XS 0 0 0 0" [ref=e905] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / L 486102-08-L 0 0 0 0" [ref=e933] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ NAVY / XL 486125-69-XL 0 0 0 0" [ref=e961] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ BLACK / L 486102-09-L 0 0 0 0" [ref=e989] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ LIGHT PURPLE / L 486102-70-L 0 0 0 0" [ref=e1017] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンT PINK / L 483457-10-L 0 0 0 0" [ref=e1045] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ BLUE / 24 487973-64-24 0 0 0 0" [ref=e1073] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail オーバーサイズスウェットシャツ NAVY / XS 486125-69-XS 0 0 0 0" [ref=e1101] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail ポケモン UT RED / 110(4-5歳) 483674-15-110 0 0 0 0" [ref=e1129] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail エアリズムコットンクルーネックTシャツ DARK GRAY / XS 486102-08-XS 0 0 0 0" [ref=e1157] [cursor=pointer]
+                - row "アイテムを選択する product thumbnail バギーカーブジーンズ BLUE / 25 487973-64-25 0 0 0 0" [ref=e1185] [cursor=pointer]
+            - navigation "ページネーション" [ref=e1216]:
+              - generic [ref=e1219]:
+                - generic [ref=e1220]
+                - button "次へ" [ref=e1222] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=e10]

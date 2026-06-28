@@ -1,0 +1,124 @@
+viewport: 1209x785
+page: 1209x2312
+scroll: (0, 0)
+[71184]<a />
+	コンテンツにスキップ
+[71339]<div />
+[71187]<button data-state=closed expanded=false />
+[71188]<button data-state=closed expanded=false />
+	stack-ps-yosuke
+	陽介 河野
+	[71356]<span aria-label=stack-ps-yosuke role=img />
+|scroll element|<div /> (0.0 pages above, 0.1 pages below)
+	[71192]<a />
+		ホーム
+	[71193]<a />
+		商品管理
+	[71194]<a />
+		在庫管理
+	[71195]<a />
+		注文管理
+		[71407]<div />
+	[71196]<a />
+		顧客管理
+	[71197]<a />
+		発注管理
+	[71198]<a />
+		販売設定
+	[71199]<a />
+		会計
+	[71200]<a />
+		分析
+	オペレーション
+	[71201]<a />
+		入荷管理
+		[71491]<div />
+	[71202]<a />
+		出荷管理
+		[71502]<div />
+	[71203]<a />
+		在庫依頼
+		[71514]<div />
+	CRM
+	[71204]<a />
+		ディスカウント
+	[71205]<a />
+		ポイント
+	[71206]<a />
+		会員ランク
+	販売チャネル
+	[71207]<a />
+		Shopify
+	[71208]<a />
+		OmnibusCore
+	[71209]<a />
+		スマレジ
+	[71210]<a />
+		リテールポータル
+	[71211]<a />
+		卸売
+	[71212]<a />
+		設定
+ロジザード連携を作成する。このページの準備が整いました
+[71616]<div />
+	[71617]<div />
+		[71214]<a />
+ロジザード連携を作成する
+[71638]<div />
+	[71641]<span />
+		設定名
+|SHADOW(open)|[71164]<input id=:r19: autocomplete=off type=text required=true />
+接続情報
+[71653]<hr />
+グループ番号
+|SHADOW(open)|[71165]<input id=:r1a: placeholder=001 autocomplete=off type=text required=true />
+ロジザードZEROのAPIエンドポイントURLに使用される3桁の番号。
+接続番号
+|SHADOW(open)|[71166]<input id=:r1b: placeholder=001 autocomplete=off type=text required=true />
+ロジザードZEROのAPIエンドポイントURLに使用される3桁の番号。
+[71687]<span />
+	[71218]<span />
+	[71690]<svg /> <!-- SVG content collapsed -->
+[71692]<span />
+	[71693]<span />
+		Partner APIエンドポイントを使用する
+認証情報
+[71701]<hr />
+オーナーID
+|SHADOW(open)|[71167]<input id=:r1d: autocomplete=off type=text required=true />
+ユーザーID
+|SHADOW(open)|[71168]<input id=:r1e: autocomplete=off type=text required=true />
+パスワード
+|SHADOW(open)|[71169]<input id=:r1f: autocomplete=off type=password required=true />
+アプリケーションキー
+|SHADOW(open)|[71170]<input id=:r1g: autocomplete=off type=text required=true />
+[71754]<span />
+	[71223]<span />
+	[71757]<svg /> <!-- SVG content collapsed -->
+[71759]<span />
+	[71760]<span />
+		AuthKeyの発行をスキップする
+すでにAuthKeyを発行済みの場合に有効にしてください。
+入荷設定
+[71772]<hr />
+入荷予定登録ファイルID
+|SHADOW(open)|[71171]<input id=:r1i: autocomplete=off type=text required=true />
+ロジザードZEROの入荷予定登録APIに使用するファイルIDです。
+入荷予定登録パターンID
+|SHADOW(open)|[71172]<input id=:r1j: autocomplete=off type=text required=true />
+ロジザードZEROの入荷予定登録APIに使用するパターンIDです。
+出荷設定
+[71811]<hr />
+出荷予定登録(通販)ファイルID
+|SHADOW(open)|[71173]<input id=:r1k: autocomplete=off type=text required=true />
+ロジザードZEROの出荷予定登録(通販)APIに使用するファイルIDです。
+出荷予定登録(通販)パターンID
+|SHADOW(open)|[71174]<input id=:r1l: autocomplete=off type=text required=true />
+ロジザードZEROの出荷予定登録(通販)APIに使用するパターンIDです。
+出荷予定登録(卸)ファイルID
+|SHADOW(open)|[71175]<input id=:r1m: autocomplete=off type=text required=true />
+ロジザードZEROの出荷予定登録(卸)APIに使用するファイルIDです。
+出荷予定登録(卸)パターンID
+|SHADOW(open)|[71176]<input id=:r1n: autocomplete=off type=text required=true />
+ロジザードZEROの出荷予定登録(卸)APIに使用するパターンIDです。
+出荷箱明細実績エクスポート設定

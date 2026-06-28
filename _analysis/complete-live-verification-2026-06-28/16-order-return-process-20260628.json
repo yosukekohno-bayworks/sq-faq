@@ -1,0 +1,303 @@
+{
+  "generatedAt": "2026-06-28T01:19:50.509819+00:00",
+  "orderID": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+  "returnID": "f2c59ab8-81e6-57a4-8f32-a5859b1778fb_OrderReturn",
+  "restockLocationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+  "restockLocationName": "ユニクロ物流倉庫",
+  "steps": [
+    {
+      "label": "order-detail-before-process",
+      "url": "https://www.sqstackstaging.com/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ-ORDER-BYPASS-20260628100919。このページの準備が整いました FAQ-ORDER-BYPASS-20260628100919 成功 完了 支払い済み 成功 完了 発送済み 情報 一部完了済み 返品処理中 2026年06月28日 10:11 にFAQ_INTERNAL_GRAPHQL FAQ-ORDER-BYPASS-20260628100919 から注文 返金 その他の操作 注文情報 返金履歴 出荷指示 在庫依頼 この注文による在庫変動は無視されます この注文によって発生する在庫減少はSQで管理されている在庫数には反映されません。 返品 FAQ-ORDER-BYPASS-20260628100919-R1 2026年06月28日 10:13 作成 注意 返品受取済み (1) 1 個中の 1 個を受け取り済み product thumbnail FAQ検証商品 NAVY / M SKU: TEST_E2E_20260622_GU_1905_NAVY_M 1個中の1個を受け取り済み x 1 返品を完了する 注文詳細 最新の注文 最初の注文 FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 ￥1,990 product thumbnail FAQ検証商品 新規 NAVY / M - TEST_E2E_20260622_GU_1905_NAVY_M 単価 ￥1,990 x 1 ￥1,990 支払い情報 成功 完了 支払い済み 支払い合計 ￥1,990 小計 1個のアイテム ￥1,990 送料 ￥0 税 ￥0 合計 ￥1,990 決済履歴 決済履歴がありません。ポイント利用などで注文の合計が0円の場合はトランザクションは発生しません。 メモ FAQ実機検証: orderCreate inventoryBehavior=BYPASS 顧客情報 検証顧客ユニクロ095318FAQ 過去に1個の注文 連絡先情報 sq-faq-uniqlo-customer-20260628095318@example.invalid 配送先住所 配送先住所なし 請求先住所 請求先住所なし ポイント 付与対象に含む 成功 はい ポイント付与 0ポイント 会員ランク 算出対象に含む 成功 はい タグ #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS",
+      "headers": [
+        "FAQ-ORDER-BYPASS-20260628100919",
+        "この注文による在庫変動は無視されます",
+        "返品",
+        "注文詳細",
+        "FAQ-ORDER-BYPASS-20260628100919",
+        "￥1,990",
+        "支払い情報",
+        "支払い合計",
+        "決済履歴",
+        "メモ",
+        "顧客情報",
+        "連絡先情報",
+        "配送先住所",
+        "請求先住所",
+        "ポイント",
+        "付与対象に含む",
+        "ポイント付与",
+        "会員ランク",
+        "算出対象に含む",
+        "タグ"
+      ],
+      "rows": [],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "その他の操作",
+        "注文情報",
+        "その他のビュー",
+        "返品を完了する",
+        "最新の注文",
+        "最初の注文",
+        "その他のビュー",
+        "sq-faq-uniqlo-customer-20260628095318@example.invalid"
+      ]
+    },
+    {
+      "label": "order-detail-after-process",
+      "url": "https://www.sqstackstaging.com/admin/orders/4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 FAQ-ORDER-BYPASS-20260628100919。このページの準備が整いました FAQ-ORDER-BYPASS-20260628100919 成功 完了 支払い済み 成功 完了 発送済み 2026年06月28日 10:11 にFAQ_INTERNAL_GRAPHQL FAQ-ORDER-BYPASS-20260628100919 から注文 返金 返品・交換を作成 その他の操作 注文情報 返金履歴 出荷指示 在庫依頼 この注文による在庫変動は無視されます この注文によって発生する在庫減少はSQで管理されている在庫数には反映されません。 返品 FAQ-ORDER-BYPASS-20260628100919-R1 2026年06月28日 10:13 作成 成功 返品処理済み 1 個中の 1 個を受け取り済み product thumbnail FAQ検証商品 NAVY / M SKU: TEST_E2E_20260622_GU_1905_NAVY_M 1個中の1個を受け取り済み x 1 注文詳細 最新の注文 最初の注文 FAQ-ORDER-BYPASS-20260628100919 2026年06月28日 10:11 ￥0 product thumbnail FAQ検証商品 新規 NAVY / M - TEST_E2E_20260622_GU_1905_NAVY_M 単価 ￥1,990 x 0 ￥0 支払い情報 成功 完了 支払い済み 支払い合計 ￥0 最初の注文 1個のアイテム ￥1,990 小計 0個のアイテム ￥0 送料 ￥0 税 ￥0 合計 ￥0 支払い済み ￥1,990 返金済み - ￥1,990 純支払い額 ￥0 決済履歴 決済履歴がありません。ポイント利用などで注文の合計が0円の場合はトランザクションは発生しません。 メモ FAQ実機検証: orderCreate inventoryBehavior=BYPASS 顧客情報 検証顧客ユニクロ095318FAQ 過去に1個の注文 連絡先情報 sq-faq-uniqlo-customer-20260628095318@example.invalid 配送先住所 配送先住所なし 請求先住所 請求先住所なし ポイント 付与対象に含む 成功 はい ポイント付与 0ポイント 会員ランク 算出対象に含む 成功 はい タグ #ON-1 FAQ_E2E_20260628 FAQ_ORDER_BYPASS",
+      "headers": [
+        "FAQ-ORDER-BYPASS-20260628100919",
+        "この注文による在庫変動は無視されます",
+        "返品",
+        "注文詳細",
+        "FAQ-ORDER-BYPASS-20260628100919",
+        "￥0",
+        "支払い情報",
+        "支払い合計",
+        "決済履歴",
+        "メモ",
+        "顧客情報",
+        "連絡先情報",
+        "配送先住所",
+        "請求先住所",
+        "ポイント",
+        "付与対象に含む",
+        "ポイント付与",
+        "会員ランク",
+        "算出対象に含む",
+        "タグ"
+      ],
+      "rows": [],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "その他の操作",
+        "注文情報",
+        "その他のビュー",
+        "最新の注文",
+        "最初の注文",
+        "その他のビュー",
+        "sq-faq-uniqlo-customer-20260628095318@example.invalid"
+      ]
+    },
+    {
+      "label": "order-returns-list-after-process",
+      "url": "https://www.sqstackstaging.com/admin/order_returns",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 下書き 返品 顧客管理 発注管理 販売設定 会計 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 返品。このページの準備が整いました 返品 すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時 アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13",
+      "headers": [
+        "返品",
+        "すべてのアイテムを選択する",
+        "返品",
+        "返品状況",
+        "交換出荷状況",
+        "作成日時"
+      ],
+      "rows": [
+        "すべてのアイテムを選択する 返品 返品状況 交換出荷状況 作成日時",
+        "アイテムを選択する FAQ-ORDER-BYPASS-20260628100919-R1 成功 完了 返品処理済み 2026年06月28日 10:13"
+      ],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野"
+      ]
+    },
+    {
+      "label": "sale-change-line-items-after-return-process",
+      "url": "https://www.sqstackstaging.com/admin/sale_change_line_items",
+      "bodySample": "コンテンツにスキップ stack-ps-yosuke 陽介 河野 ホーム 商品管理 在庫管理 注文管理 顧客管理 発注管理 販売設定 会計 売上実績 分析 オペレーション 入荷管理 出荷管理 在庫依頼 未完了の在庫依頼 3件 3 CRM ディスカウント ポイント 会員ランク 販売チャネル Shopify OmnibusCore スマレジ リテールポータル 卸売 設定 売上実績。このページの準備が整いました 売上実績 エクスポート 売上実績を作成する 計上日 テナント 作成元 店舗 商品コード SKU 数量 売上 税金 作成日時 2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M -1 -￥1,990 ￥0 2026年06月28日 10:19 2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M 1 ￥1,990 ￥0 2026年06月28日 10:11",
+      "headers": [
+        "売上実績",
+        "計上日",
+        "テナント",
+        "作成元",
+        "店舗",
+        "商品コード",
+        "SKU",
+        "数量",
+        "売上",
+        "税金",
+        "作成日時"
+      ],
+      "rows": [
+        "計上日 テナント 作成元 店舗 商品コード SKU 数量 売上 税金 作成日時",
+        "2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M -1 -￥1,990 ￥0 2026年06月28日 10:19",
+        "2026年06月28日 ユニクロ FAQ_INTERNAL_GRAPHQL TEST_E2E_20260622_GU_1905 TEST_E2E_20260622_GU_1905_NAVY_M 1 ￥1,990 ￥0 2026年06月28日 10:11"
+      ],
+      "buttons": [
+        "stack-ps-yosuke 陽介 河野",
+        "エクスポート"
+      ]
+    }
+  ],
+  "facts": {
+    "afterReturn": {
+      "id": "f2c59ab8-81e6-57a4-8f32-a5859b1778fb_OrderReturn",
+      "managementCode": "FAQ-ORDER-BYPASS-20260628100919-R1",
+      "status": "REFUNDED",
+      "receivable": false,
+      "completable": false,
+      "cancellable": false,
+      "totalQuantity": 1,
+      "totalReceivedQuantity": 1,
+      "order": {
+        "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+        "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+        "fulfillmentStatus": "FULFILLED",
+        "paymentStatus": "PAID",
+        "totalReturnableQuantity": 0,
+        "hasActiveOrderReturns": false
+      },
+      "lineItems": {
+        "nodes": [
+          {
+            "id": "cb32c5f0-a09b-5ea8-b7b5-4fff61e02c1a_OrderReturnLineItem",
+            "quantity": 1,
+            "receivedQuantity": 1,
+            "receivableQuantity": 0,
+            "currentQuantity": 1,
+            "fullReceived": true,
+            "orderLineItem": {
+              "id": "1baf2794-4a27-5f71-a568-3ee34253729f_OrderLineItem",
+              "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+              "returnableQuantity": 0,
+              "refundableQuantity": 0,
+              "currentQuantity": 0
+            }
+          }
+        ]
+      },
+      "refunds": {
+        "nodes": [
+          {
+            "id": "71bb5d90-ed76-57d0-83bf-bf1bdee7d684_OrderRefund"
+          }
+        ]
+      }
+    }
+  },
+  "errors": [],
+  "beforeQuery": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "orderReturn": {
+          "id": "f2c59ab8-81e6-57a4-8f32-a5859b1778fb_OrderReturn",
+          "managementCode": "FAQ-ORDER-BYPASS-20260628100919-R1",
+          "status": "RECEIVED",
+          "receivable": false,
+          "completable": true,
+          "cancellable": false,
+          "totalQuantity": 1,
+          "totalReceivedQuantity": 1,
+          "order": {
+            "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+            "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+            "fulfillmentStatus": "FULFILLED",
+            "paymentStatus": "PAID",
+            "totalReturnableQuantity": 0,
+            "hasActiveOrderReturns": true
+          },
+          "lineItems": {
+            "nodes": [
+              {
+                "id": "cb32c5f0-a09b-5ea8-b7b5-4fff61e02c1a_OrderReturnLineItem",
+                "quantity": 1,
+                "receivedQuantity": 1,
+                "receivableQuantity": 0,
+                "currentQuantity": 1,
+                "fullReceived": true,
+                "orderLineItem": {
+                  "id": "1baf2794-4a27-5f71-a568-3ee34253729f_OrderLineItem",
+                  "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                  "returnableQuantity": 0,
+                  "refundableQuantity": 1,
+                  "currentQuantity": 1
+                }
+              }
+            ]
+          },
+          "refunds": {
+            "nodes": []
+          }
+        }
+      }
+    },
+    "textSample": "{\"data\":{\"orderReturn\":{\"id\":\"f2c59ab8-81e6-57a4-8f32-a5859b1778fb_OrderReturn\",\"managementCode\":\"FAQ-ORDER-BYPASS-20260628100919-R1\",\"status\":\"RECEIVED\",\"receivable\":false,\"completable\":true,\"cancellable\":false,\"totalQuantity\":1,\"totalReceivedQuantity\":1,\"order\":{\"id\":\"4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order\",\"managementCode\":\"FAQ-ORDER-BYPASS-20260628100919\",\"fulfillmentStatus\":\"FULFILLED\",\"paymentStatus\":\"PAID\",\"totalReturnableQuantity\":0,\"hasActiveOrderReturns\":true},\"lineItems\":{\"nodes\":[{\"id\":\"cb32c5f0-a09b-5ea8-b7b5-4fff61e02c1a_OrderReturnLineItem\",\"quantity\":1,\"receivedQuantity\":1,\"receivableQuantity\":0,\"currentQuantity\":1,\"fullReceived\":true,\"orderLineItem\":{\"id\":\"1baf2794-4a27-5f71-a568-3ee34253729f_OrderLineItem\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"returnableQuantity\":0,\"refundableQuantity\":1,\"currentQuantity\":1}}]},\"refunds\":{\"nodes\":[]}}}}"
+  },
+  "processInput": {
+    "orderReturnID": "f2c59ab8-81e6-57a4-8f32-a5859b1778fb_OrderReturn",
+    "refundLineItems": [
+      {
+        "orderLineItemID": "1baf2794-4a27-5f71-a568-3ee34253729f_OrderLineItem",
+        "refundedPrice": {
+          "amount": "1990",
+          "currencyCode": "JPY"
+        },
+        "refundedTaxPrice": {
+          "amount": "0",
+          "currencyCode": "JPY"
+        }
+      }
+    ],
+    "notifyCustomer": false,
+    "refundsShipping": false,
+    "restockInventoryLocationID": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location"
+  },
+  "processResult": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "orderReturnProcess": {
+          "orderReturn": {
+            "id": "f2c59ab8-81e6-57a4-8f32-a5859b1778fb_OrderReturn",
+            "managementCode": "FAQ-ORDER-BYPASS-20260628100919-R1",
+            "status": "REFUNDED",
+            "receivable": false,
+            "completable": false,
+            "cancellable": false,
+            "totalQuantity": 1,
+            "totalReceivedQuantity": 1,
+            "order": {
+              "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+              "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+              "fulfillmentStatus": "FULFILLED",
+              "paymentStatus": "PAID",
+              "totalReturnableQuantity": 0,
+              "hasActiveOrderReturns": false
+            },
+            "lineItems": {
+              "nodes": [
+                {
+                  "id": "cb32c5f0-a09b-5ea8-b7b5-4fff61e02c1a_OrderReturnLineItem",
+                  "quantity": 1,
+                  "receivedQuantity": 1,
+                  "receivableQuantity": 0,
+                  "currentQuantity": 1,
+                  "fullReceived": true,
+                  "orderLineItem": {
+                    "id": "1baf2794-4a27-5f71-a568-3ee34253729f_OrderLineItem",
+                    "sku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+                    "returnableQuantity": 0,
+                    "refundableQuantity": 0,
+                    "currentQuantity": 0
+                  }
+                }
+              ]
+            },
+            "refunds": {
+              "nodes": [
+                {
+                  "id": "71bb5d90-ed76-57d0-83bf-bf1bdee7d684_OrderRefund"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "textSample": "{\"data\":{\"orderReturnProcess\":{\"orderReturn\":{\"id\":\"f2c59ab8-81e6-57a4-8f32-a5859b1778fb_OrderReturn\",\"managementCode\":\"FAQ-ORDER-BYPASS-20260628100919-R1\",\"status\":\"REFUNDED\",\"receivable\":false,\"completable\":false,\"cancellable\":false,\"totalQuantity\":1,\"totalReceivedQuantity\":1,\"order\":{\"id\":\"4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order\",\"managementCode\":\"FAQ-ORDER-BYPASS-20260628100919\",\"fulfillmentStatus\":\"FULFILLED\",\"paymentStatus\":\"PAID\",\"totalReturnableQuantity\":0,\"hasActiveOrderReturns\":false},\"lineItems\":{\"nodes\":[{\"id\":\"cb32c5f0-a09b-5ea8-b7b5-4fff61e02c1a_OrderReturnLineItem\",\"quantity\":1,\"receivedQuantity\":1,\"receivableQuantity\":0,\"currentQuantity\":1,\"fullReceived\":true,\"orderLineItem\":{\"id\":\"1baf2794-4a27-5f71-a568-3ee34253729f_OrderLineItem\",\"sku\":\"TEST_E2E_20260622_GU_1905_NAVY_M\",\"returnableQuantity\":0,\"refundableQuantity\":0,\"currentQuantity\":0}}]},\"refunds\":{\"nodes\":[{\"id\":\"71bb5d90-ed76-57d0-83bf-bf1bdee7d684_OrderRefund\"}]}}}}}"
+  }
+}

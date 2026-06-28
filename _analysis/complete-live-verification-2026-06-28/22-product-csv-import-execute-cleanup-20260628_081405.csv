@@ -1,0 +1,2 @@
+command,product_code,title,description,product_status,brand_code,product_vendor,product_type,tags,option1_name,option1_type,option2_name,option2_type,option3_name,option3_type,seo_title,seo_description,is_outlet,sale_start_date,sale_end_date
+NEW,TEST_FAQ_CSV_EXEC_20260628_081405,TEST_FAQ_CSV_EXEC_20260628_081405_商品,CSV実行検証用。作成後に削除する。,DRAFT,,TEST_FAQ,TEST_FAQ_CSV,TEST_FAQ_CSV_EXEC,サイズ,SIZE,,,,,,,FALSE,,

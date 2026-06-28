@@ -1,0 +1,1391 @@
+[
+  {
+    "tag": "SELECT",
+    "id": ":r2i:",
+    "type": null,
+    "label": "",
+    "placeholder": null,
+    "value": "",
+    "options": [
+      {
+        "text": "選択してください",
+        "value": "",
+        "selected": true
+      },
+      {
+        "text": "M",
+        "value": "M",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2k:",
+    "type": "number",
+    "label": "上代 / 円",
+    "placeholder": "10000",
+    "value": "",
+    "checked": false
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2m:",
+    "type": "text",
+    "label": "SKU (最小管理単位)",
+    "placeholder": "9999990000T001",
+    "value": "",
+    "checked": false
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2n:",
+    "type": "text",
+    "label": "メーカーSKU",
+    "placeholder": "9999990000T001",
+    "value": "",
+    "checked": false
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2o:",
+    "type": "checkbox",
+    "label": "",
+    "placeholder": null,
+    "value": "on",
+    "checked": false
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2p:",
+    "type": "checkbox",
+    "label": "",
+    "placeholder": null,
+    "value": "on",
+    "checked": false
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2q:",
+    "type": "text",
+    "label": "バーコード",
+    "placeholder": null,
+    "value": "",
+    "checked": false
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2s:",
+    "type": "text",
+    "label": "JAN",
+    "placeholder": null,
+    "value": "",
+    "checked": false
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2t:",
+    "type": "text",
+    "label": "EAN",
+    "placeholder": null,
+    "value": "",
+    "checked": false
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r2v:",
+    "type": "number",
+    "label": "重量",
+    "placeholder": null,
+    "value": "",
+    "checked": false
+  },
+  {
+    "tag": "SELECT",
+    "id": ":r30:",
+    "type": null,
+    "label": "",
+    "placeholder": null,
+    "value": "KILOGRAMS",
+    "options": [
+      {
+        "text": "グラム",
+        "value": "GRAMS",
+        "selected": false
+      },
+      {
+        "text": "キログラム",
+        "value": "KILOGRAMS",
+        "selected": true
+      },
+      {
+        "text": "オンス",
+        "value": "OUNCES",
+        "selected": false
+      },
+      {
+        "text": "ポンド",
+        "value": "POUNDS",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r31:",
+    "type": "checkbox",
+    "label": "",
+    "placeholder": null,
+    "value": "on",
+    "checked": true
+  },
+  {
+    "tag": "SELECT",
+    "id": ":r32:",
+    "type": null,
+    "label": "",
+    "placeholder": null,
+    "value": "",
+    "options": [
+      {
+        "text": "選択してください",
+        "value": "",
+        "selected": true
+      },
+      {
+        "text": "チュニジア",
+        "value": "TN",
+        "selected": false
+      },
+      {
+        "text": "中国",
+        "value": "CN",
+        "selected": false
+      },
+      {
+        "text": "イラク",
+        "value": "IQ",
+        "selected": false
+      },
+      {
+        "text": "セーシェル",
+        "value": "SC",
+        "selected": false
+      },
+      {
+        "text": "トケラウ",
+        "value": "TK",
+        "selected": false
+      },
+      {
+        "text": "ウズベキスタン",
+        "value": "UZ",
+        "selected": false
+      },
+      {
+        "text": "フランス領ポリネシア",
+        "value": "PF",
+        "selected": false
+      },
+      {
+        "text": "エチオピア",
+        "value": "ET",
+        "selected": false
+      },
+      {
+        "text": "北朝鮮",
+        "value": "KP",
+        "selected": false
+      },
+      {
+        "text": "パナマ",
+        "value": "PA",
+        "selected": false
+      },
+      {
+        "text": "スペイン",
+        "value": "ES",
+        "selected": false
+      },
+      {
+        "text": "ナウル",
+        "value": "NR",
+        "selected": false
+      },
+      {
+        "text": "セルビア",
+        "value": "RS",
+        "selected": false
+      },
+      {
+        "text": "ソマリア",
+        "value": "SO",
+        "selected": false
+      },
+      {
+        "text": "バチカン市国",
+        "value": "VA",
+        "selected": false
+      },
+      {
+        "text": "インドネシア",
+        "value": "ID",
+        "selected": false
+      },
+      {
+        "text": "ベネズエラ",
+        "value": "VE",
+        "selected": false
+      },
+      {
+        "text": "香港",
+        "value": "HK",
+        "selected": false
+      },
+      {
+        "text": "カタール",
+        "value": "QA",
+        "selected": false
+      },
+      {
+        "text": "クリスマス島",
+        "value": "CX",
+        "selected": false
+      },
+      {
+        "text": "ガーンジー",
+        "value": "GG",
+        "selected": false
+      },
+      {
+        "text": "マルタ",
+        "value": "MT",
+        "selected": false
+      },
+      {
+        "text": "ネパール",
+        "value": "NP",
+        "selected": false
+      },
+      {
+        "text": "オーストラリア",
+        "value": "AU",
+        "selected": false
+      },
+      {
+        "text": "イスラエル",
+        "value": "IL",
+        "selected": false
+      },
+      {
+        "text": "シリア",
+        "value": "SY",
+        "selected": false
+      },
+      {
+        "text": "ケイマン諸島",
+        "value": "KY",
+        "selected": false
+      },
+      {
+        "text": "ラオス",
+        "value": "LA",
+        "selected": false
+      },
+      {
+        "text": "スリナム",
+        "value": "SR",
+        "selected": false
+      },
+      {
+        "text": "パキスタン",
+        "value": "PK",
+        "selected": false
+      },
+      {
+        "text": "タイ",
+        "value": "TH",
+        "selected": false
+      },
+      {
+        "text": "日本",
+        "value": "JP",
+        "selected": false
+      },
+      {
+        "text": "オーランド諸島",
+        "value": "AX",
+        "selected": false
+      },
+      {
+        "text": "コートジボワール",
+        "value": "CI",
+        "selected": false
+      },
+      {
+        "text": "クウェート",
+        "value": "KW",
+        "selected": false
+      },
+      {
+        "text": "サン・バルテルミー",
+        "value": "BL",
+        "selected": false
+      },
+      {
+        "text": "カナダ",
+        "value": "CA",
+        "selected": false
+      },
+      {
+        "text": "クック諸島",
+        "value": "CK",
+        "selected": false
+      },
+      {
+        "text": "フィジー",
+        "value": "FJ",
+        "selected": false
+      },
+      {
+        "text": "イギリス",
+        "value": "GB",
+        "selected": false
+      },
+      {
+        "text": "スリランカ",
+        "value": "LK",
+        "selected": false
+      },
+      {
+        "text": "アンゴラ",
+        "value": "AO",
+        "selected": false
+      },
+      {
+        "text": "バルバドス",
+        "value": "BB",
+        "selected": false
+      },
+      {
+        "text": "モナコ",
+        "value": "MC",
+        "selected": false
+      },
+      {
+        "text": "マダガスカル",
+        "value": "MG",
+        "selected": false
+      },
+      {
+        "text": "オランダ",
+        "value": "NL",
+        "selected": false
+      },
+      {
+        "text": "合衆国領有小離島",
+        "value": "UM",
+        "selected": false
+      },
+      {
+        "text": "アルメニア",
+        "value": "AM",
+        "selected": false
+      },
+      {
+        "text": "アルゼンチン",
+        "value": "AR",
+        "selected": false
+      },
+      {
+        "text": "北マケドニア",
+        "value": "MK",
+        "selected": false
+      },
+      {
+        "text": "ノーフォーク島",
+        "value": "NF",
+        "selected": false
+      },
+      {
+        "text": "シエラレオネ",
+        "value": "SL",
+        "selected": false
+      },
+      {
+        "text": "コスタリカ",
+        "value": "CR",
+        "selected": false
+      },
+      {
+        "text": "キュラソー",
+        "value": "CW",
+        "selected": false
+      },
+      {
+        "text": "ルクセンブルク",
+        "value": "LU",
+        "selected": false
+      },
+      {
+        "text": "ノルウェー",
+        "value": "NO",
+        "selected": false
+      },
+      {
+        "text": "セントヘレナ",
+        "value": "SH",
+        "selected": false
+      },
+      {
+        "text": "エルサルバドル",
+        "value": "SV",
+        "selected": false
+      },
+      {
+        "text": "トルクメニスタン",
+        "value": "TM",
+        "selected": false
+      },
+      {
+        "text": "アルバ",
+        "value": "AW",
+        "selected": false
+      },
+      {
+        "text": "ブルンジ",
+        "value": "BI",
+        "selected": false
+      },
+      {
+        "text": "コンゴ共和国",
+        "value": "CG",
+        "selected": false
+      },
+      {
+        "text": "ピトケアン諸島",
+        "value": "PN",
+        "selected": false
+      },
+      {
+        "text": "パラグアイ",
+        "value": "PY",
+        "selected": false
+      },
+      {
+        "text": "スーダン",
+        "value": "SD",
+        "selected": false
+      },
+      {
+        "text": "セネガル",
+        "value": "SN",
+        "selected": false
+      },
+      {
+        "text": "シント・マールテン",
+        "value": "SX",
+        "selected": false
+      },
+      {
+        "text": "ルーマニア",
+        "value": "RO",
+        "selected": false
+      },
+      {
+        "text": "スロベニア",
+        "value": "SI",
+        "selected": false
+      },
+      {
+        "text": "ウルグアイ",
+        "value": "UY",
+        "selected": false
+      },
+      {
+        "text": "アンギラ",
+        "value": "AI",
+        "selected": false
+      },
+      {
+        "text": "スロバキア",
+        "value": "SK",
+        "selected": false
+      },
+      {
+        "text": "ドイツ",
+        "value": "DE",
+        "selected": false
+      },
+      {
+        "text": "サウスジョージア・サウスサンドウィッチ諸島",
+        "value": "GS",
+        "selected": false
+      },
+      {
+        "text": "コモロ",
+        "value": "KM",
+        "selected": false
+      },
+      {
+        "text": "その他の地域",
+        "value": "ZZ",
+        "selected": false
+      },
+      {
+        "text": "アゼルバイジャン",
+        "value": "AZ",
+        "selected": false
+      },
+      {
+        "text": "ガイアナ",
+        "value": "GY",
+        "selected": false
+      },
+      {
+        "text": "カザフスタン",
+        "value": "KZ",
+        "selected": false
+      },
+      {
+        "text": "リヒテンシュタイン",
+        "value": "LI",
+        "selected": false
+      },
+      {
+        "text": "フィリピン",
+        "value": "PH",
+        "selected": false
+      },
+      {
+        "text": "タンザニア",
+        "value": "TZ",
+        "selected": false
+      },
+      {
+        "text": "アメリカ合衆国",
+        "value": "US",
+        "selected": false
+      },
+      {
+        "text": "フェロー諸島",
+        "value": "FO",
+        "selected": false
+      },
+      {
+        "text": "アンティグア・バーブーダ",
+        "value": "AG",
+        "selected": false
+      },
+      {
+        "text": "バミューダ",
+        "value": "BM",
+        "selected": false
+      },
+      {
+        "text": "エジプト",
+        "value": "EG",
+        "selected": false
+      },
+      {
+        "text": "トンガ",
+        "value": "TO",
+        "selected": false
+      },
+      {
+        "text": "エストニア",
+        "value": "EE",
+        "selected": false
+      },
+      {
+        "text": "ナミビア",
+        "value": "NA",
+        "selected": false
+      },
+      {
+        "text": "サンピエール・ミクロン",
+        "value": "PM",
+        "selected": false
+      },
+      {
+        "text": "アンドラ",
+        "value": "AD",
+        "selected": false
+      },
+      {
+        "text": "中央アフリカ共和国",
+        "value": "CF",
+        "selected": false
+      },
+      {
+        "text": "エリトリア",
+        "value": "ER",
+        "selected": false
+      },
+      {
+        "text": "ニカラグア",
+        "value": "NI",
+        "selected": false
+      },
+      {
+        "text": "ハンガリー",
+        "value": "HU",
+        "selected": false
+      },
+      {
+        "text": "南スーダン",
+        "value": "SS",
+        "selected": false
+      },
+      {
+        "text": "リベリア",
+        "value": "LR",
+        "selected": false
+      },
+      {
+        "text": "パレスチナ",
+        "value": "PS",
+        "selected": false
+      },
+      {
+        "text": "ベリーズ",
+        "value": "BZ",
+        "selected": false
+      },
+      {
+        "text": "キューバ",
+        "value": "CU",
+        "selected": false
+      },
+      {
+        "text": "オーストリア",
+        "value": "AT",
+        "selected": false
+      },
+      {
+        "text": "クロアチア",
+        "value": "HR",
+        "selected": false
+      },
+      {
+        "text": "マン島",
+        "value": "IM",
+        "selected": false
+      },
+      {
+        "text": "イエメン",
+        "value": "YE",
+        "selected": false
+      },
+      {
+        "text": "オランダ領カリブ",
+        "value": "BQ",
+        "selected": false
+      },
+      {
+        "text": "ガンビア",
+        "value": "GM",
+        "selected": false
+      },
+      {
+        "text": "グアドループ",
+        "value": "GP",
+        "selected": false
+      },
+      {
+        "text": "ギニアビサウ",
+        "value": "GW",
+        "selected": false
+      },
+      {
+        "text": "ジャージー",
+        "value": "JE",
+        "selected": false
+      },
+      {
+        "text": "ニウエ",
+        "value": "NU",
+        "selected": false
+      },
+      {
+        "text": "ペルー",
+        "value": "PE",
+        "selected": false
+      },
+      {
+        "text": "スヴァールバル諸島およびヤンマイエン島",
+        "value": "SJ",
+        "selected": false
+      },
+      {
+        "text": "オランダ領アンティル",
+        "value": "AN",
+        "selected": false
+      },
+      {
+        "text": "キプロス",
+        "value": "CY",
+        "selected": false
+      },
+      {
+        "text": "アルジェリア",
+        "value": "DZ",
+        "selected": false
+      },
+      {
+        "text": "ハイチ",
+        "value": "HT",
+        "selected": false
+      },
+      {
+        "text": "セントルシア",
+        "value": "LC",
+        "selected": false
+      },
+      {
+        "text": "セントビンセント・グレナディーン",
+        "value": "VC",
+        "selected": false
+      },
+      {
+        "text": "サモア",
+        "value": "WS",
+        "selected": false
+      },
+      {
+        "text": "ジンバブエ",
+        "value": "ZW",
+        "selected": false
+      },
+      {
+        "text": "バーレーン",
+        "value": "BH",
+        "selected": false
+      },
+      {
+        "text": "エクアドル",
+        "value": "EC",
+        "selected": false
+      },
+      {
+        "text": "メキシコ",
+        "value": "MX",
+        "selected": false
+      },
+      {
+        "text": "モザンビーク",
+        "value": "MZ",
+        "selected": false
+      },
+      {
+        "text": "サウジアラビア",
+        "value": "SA",
+        "selected": false
+      },
+      {
+        "text": "エスワティニ",
+        "value": "SZ",
+        "selected": false
+      },
+      {
+        "text": "ブルネイ",
+        "value": "BN",
+        "selected": false
+      },
+      {
+        "text": "フォークランド諸島",
+        "value": "FK",
+        "selected": false
+      },
+      {
+        "text": "グレナダ",
+        "value": "GD",
+        "selected": false
+      },
+      {
+        "text": "グリーンランド",
+        "value": "GL",
+        "selected": false
+      },
+      {
+        "text": "マラウイ",
+        "value": "MW",
+        "selected": false
+      },
+      {
+        "text": "チャド",
+        "value": "TD",
+        "selected": false
+      },
+      {
+        "text": "フランス南方・南極地域",
+        "value": "TF",
+        "selected": false
+      },
+      {
+        "text": "ウガンダ",
+        "value": "UG",
+        "selected": false
+      },
+      {
+        "text": "コロンビア",
+        "value": "CO",
+        "selected": false
+      },
+      {
+        "text": "カーボベルデ",
+        "value": "CV",
+        "selected": false
+      },
+      {
+        "text": "モーリシャス",
+        "value": "MU",
+        "selected": false
+      },
+      {
+        "text": "西サハラ",
+        "value": "EH",
+        "selected": false
+      },
+      {
+        "text": "サン・マルタン",
+        "value": "MF",
+        "selected": false
+      },
+      {
+        "text": "パプアニューギニア",
+        "value": "PG",
+        "selected": false
+      },
+      {
+        "text": "サンマリノ",
+        "value": "SM",
+        "selected": false
+      },
+      {
+        "text": "アフガニスタン",
+        "value": "AF",
+        "selected": false
+      },
+      {
+        "text": "ジブチ",
+        "value": "DJ",
+        "selected": false
+      },
+      {
+        "text": "ジョージア",
+        "value": "GE",
+        "selected": false
+      },
+      {
+        "text": "トリニダード・トバゴ",
+        "value": "TT",
+        "selected": false
+      },
+      {
+        "text": "ブルガリア",
+        "value": "BG",
+        "selected": false
+      },
+      {
+        "text": "ボリビア",
+        "value": "BO",
+        "selected": false
+      },
+      {
+        "text": "コンゴ民主共和国",
+        "value": "CD",
+        "selected": false
+      },
+      {
+        "text": "チェコ",
+        "value": "CZ",
+        "selected": false
+      },
+      {
+        "text": "ギニア",
+        "value": "GN",
+        "selected": false
+      },
+      {
+        "text": "イギリス領インド洋地域",
+        "value": "IO",
+        "selected": false
+      },
+      {
+        "text": "ニューカレドニア",
+        "value": "NC",
+        "selected": false
+      },
+      {
+        "text": "シンガポール",
+        "value": "SG",
+        "selected": false
+      },
+      {
+        "text": "バングラデシュ",
+        "value": "BD",
+        "selected": false
+      },
+      {
+        "text": "トーゴ",
+        "value": "TG",
+        "selected": false
+      },
+      {
+        "text": "ベラルーシ",
+        "value": "BY",
+        "selected": false
+      },
+      {
+        "text": "アイルランド",
+        "value": "IE",
+        "selected": false
+      },
+      {
+        "text": "ココス諸島",
+        "value": "CC",
+        "selected": false
+      },
+      {
+        "text": "チリ",
+        "value": "CL",
+        "selected": false
+      },
+      {
+        "text": "カメルーン",
+        "value": "CM",
+        "selected": false
+      },
+      {
+        "text": "ガーナ",
+        "value": "GH",
+        "selected": false
+      },
+      {
+        "text": "グアテマラ",
+        "value": "GT",
+        "selected": false
+      },
+      {
+        "text": "ナイジェリア",
+        "value": "NG",
+        "selected": false
+      },
+      {
+        "text": "ルワンダ",
+        "value": "RW",
+        "selected": false
+      },
+      {
+        "text": "ベトナム",
+        "value": "VN",
+        "selected": false
+      },
+      {
+        "text": "アイスランド",
+        "value": "IS",
+        "selected": false
+      },
+      {
+        "text": "モロッコ",
+        "value": "MA",
+        "selected": false
+      },
+      {
+        "text": "ポーランド",
+        "value": "PL",
+        "selected": false
+      },
+      {
+        "text": "イギリス領ヴァージン諸島",
+        "value": "VG",
+        "selected": false
+      },
+      {
+        "text": "キルギス",
+        "value": "KG",
+        "selected": false
+      },
+      {
+        "text": "リトアニア",
+        "value": "LT",
+        "selected": false
+      },
+      {
+        "text": "ミャンマー",
+        "value": "MM",
+        "selected": false
+      },
+      {
+        "text": "バハマ",
+        "value": "BS",
+        "selected": false
+      },
+      {
+        "text": "カンボジア",
+        "value": "KH",
+        "selected": false
+      },
+      {
+        "text": "モントセラト",
+        "value": "MS",
+        "selected": false
+      },
+      {
+        "text": "タークス・カイコス諸島",
+        "value": "TC",
+        "selected": false
+      },
+      {
+        "text": "台湾",
+        "value": "TW",
+        "selected": false
+      },
+      {
+        "text": "バヌアツ",
+        "value": "VU",
+        "selected": false
+      },
+      {
+        "text": "マヨット",
+        "value": "YT",
+        "selected": false
+      },
+      {
+        "text": "ラトビア",
+        "value": "LV",
+        "selected": false
+      },
+      {
+        "text": "ボスニア・ヘルツェゴビナ",
+        "value": "BA",
+        "selected": false
+      },
+      {
+        "text": "ジャマイカ",
+        "value": "JM",
+        "selected": false
+      },
+      {
+        "text": "コソボ",
+        "value": "XK",
+        "selected": false
+      },
+      {
+        "text": "オマーン",
+        "value": "OM",
+        "selected": false
+      },
+      {
+        "text": "タジキスタン",
+        "value": "TJ",
+        "selected": false
+      },
+      {
+        "text": "アセンション島",
+        "value": "AC",
+        "selected": false
+      },
+      {
+        "text": "アラブ首長国連邦",
+        "value": "AE",
+        "selected": false
+      },
+      {
+        "text": "ガボン",
+        "value": "GA",
+        "selected": false
+      },
+      {
+        "text": "ホンジュラス",
+        "value": "HN",
+        "selected": false
+      },
+      {
+        "text": "マカオ",
+        "value": "MO",
+        "selected": false
+      },
+      {
+        "text": "レユニオン",
+        "value": "RE",
+        "selected": false
+      },
+      {
+        "text": "ソロモン諸島",
+        "value": "SB",
+        "selected": false
+      },
+      {
+        "text": "スウェーデン",
+        "value": "SE",
+        "selected": false
+      },
+      {
+        "text": "フィンランド",
+        "value": "FI",
+        "selected": false
+      },
+      {
+        "text": "ギリシャ",
+        "value": "GR",
+        "selected": false
+      },
+      {
+        "text": "ハード島とマクドナルド諸島",
+        "value": "HM",
+        "selected": false
+      },
+      {
+        "text": "セントクリストファー・ネイビス",
+        "value": "KN",
+        "selected": false
+      },
+      {
+        "text": "トルコ",
+        "value": "TR",
+        "selected": false
+      },
+      {
+        "text": "ドミニカ共和国",
+        "value": "DO",
+        "selected": false
+      },
+      {
+        "text": "ニュージーランド",
+        "value": "NZ",
+        "selected": false
+      },
+      {
+        "text": "フランス",
+        "value": "FR",
+        "selected": false
+      },
+      {
+        "text": "フランス領ギアナ",
+        "value": "GF",
+        "selected": false
+      },
+      {
+        "text": "韓国",
+        "value": "KR",
+        "selected": false
+      },
+      {
+        "text": "ポルトガル",
+        "value": "PT",
+        "selected": false
+      },
+      {
+        "text": "ザンビア",
+        "value": "ZM",
+        "selected": false
+      },
+      {
+        "text": "ベルギー",
+        "value": "BE",
+        "selected": false
+      },
+      {
+        "text": "スイス",
+        "value": "CH",
+        "selected": false
+      },
+      {
+        "text": "モンゴル",
+        "value": "MN",
+        "selected": false
+      },
+      {
+        "text": "ブラジル",
+        "value": "BR",
+        "selected": false
+      },
+      {
+        "text": "赤道ギニア",
+        "value": "GQ",
+        "selected": false
+      },
+      {
+        "text": "ベナン",
+        "value": "BJ",
+        "selected": false
+      },
+      {
+        "text": "デンマーク",
+        "value": "DK",
+        "selected": false
+      },
+      {
+        "text": "レバノン",
+        "value": "LB",
+        "selected": false
+      },
+      {
+        "text": "モルディブ",
+        "value": "MV",
+        "selected": false
+      },
+      {
+        "text": "ブーベ島",
+        "value": "BV",
+        "selected": false
+      },
+      {
+        "text": "レソト",
+        "value": "LS",
+        "selected": false
+      },
+      {
+        "text": "モルドバ",
+        "value": "MD",
+        "selected": false
+      },
+      {
+        "text": "マレーシア",
+        "value": "MY",
+        "selected": false
+      },
+      {
+        "text": "サントメ・プリンシペ",
+        "value": "ST",
+        "selected": false
+      },
+      {
+        "text": "南アフリカ",
+        "value": "ZA",
+        "selected": false
+      },
+      {
+        "text": "マルティニーク",
+        "value": "MQ",
+        "selected": false
+      },
+      {
+        "text": "イラン",
+        "value": "IR",
+        "selected": false
+      },
+      {
+        "text": "ニジェール",
+        "value": "NE",
+        "selected": false
+      },
+      {
+        "text": "ブータン",
+        "value": "BT",
+        "selected": false
+      },
+      {
+        "text": "ボツワナ",
+        "value": "BW",
+        "selected": false
+      },
+      {
+        "text": "マリ",
+        "value": "ML",
+        "selected": false
+      },
+      {
+        "text": "モーリタニア",
+        "value": "MR",
+        "selected": false
+      },
+      {
+        "text": "東ティモール",
+        "value": "TL",
+        "selected": false
+      },
+      {
+        "text": "ウクライナ",
+        "value": "UA",
+        "selected": false
+      },
+      {
+        "text": "ウォリス・フツナ",
+        "value": "WF",
+        "selected": false
+      },
+      {
+        "text": "ドミニカ国",
+        "value": "DM",
+        "selected": false
+      },
+      {
+        "text": "ジブラルタル",
+        "value": "GI",
+        "selected": false
+      },
+      {
+        "text": "ツバル",
+        "value": "TV",
+        "selected": false
+      },
+      {
+        "text": "ブルキナファソ",
+        "value": "BF",
+        "selected": false
+      },
+      {
+        "text": "インド",
+        "value": "IN",
+        "selected": false
+      },
+      {
+        "text": "モンテネグロ",
+        "value": "ME",
+        "selected": false
+      },
+      {
+        "text": "ロシア",
+        "value": "RU",
+        "selected": false
+      },
+      {
+        "text": "トリスタン・ダ・クーニャ",
+        "value": "TA",
+        "selected": false
+      },
+      {
+        "text": "アルバニア",
+        "value": "AL",
+        "selected": false
+      },
+      {
+        "text": "イタリア",
+        "value": "IT",
+        "selected": false
+      },
+      {
+        "text": "ヨルダン",
+        "value": "JO",
+        "selected": false
+      },
+      {
+        "text": "ケニア",
+        "value": "KE",
+        "selected": false
+      },
+      {
+        "text": "キリバス",
+        "value": "KI",
+        "selected": false
+      },
+      {
+        "text": "リビア",
+        "value": "LY",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "id": ":r33:",
+    "type": "text",
+    "label": "統計品目 (HS) コード",
+    "placeholder": null,
+    "value": "",
+    "checked": false
+  }
+]

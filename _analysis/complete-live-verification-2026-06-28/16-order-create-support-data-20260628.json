@@ -1,0 +1,446 @@
+{
+  "generatedAt": "2026-06-28T01:11:05.762329+00:00",
+  "targetSku": "TEST_E2E_20260622_GU_1905_NAVY_M",
+  "locationsResult": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "data": {
+        "locations": {
+          "nodes": [
+            {
+              "id": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+              "name": "ユニクロ物流倉庫",
+              "displayName": "ユニクロ物流倉庫",
+              "code": "W0001",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+              "name": "ユニクロ - 銀座店",
+              "displayName": "ユニクロ - 銀座店",
+              "code": "R0001",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "b9f67abc-3da0-5165-953b-ea304a92460b_Location",
+              "name": "TEST_FAQ_DEEP2_202606080343_ロケーション",
+              "displayName": "TEST_FAQ_DEEP2_202606080343_ロケーション_表示",
+              "code": "test_faq_deep2_202606080343_loc",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location",
+              "name": "ユニクロEC",
+              "displayName": "ユニクロEC",
+              "code": "TESTEC01",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location",
+              "name": "GU 倉庫",
+              "displayName": "GU 倉庫",
+              "code": "TFCLOC3698",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location",
+              "name": "GU 銀座店",
+              "displayName": "GU 銀座店",
+              "code": "12456789098765",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "45ffa873-a7f2-5581-8117-5758f5a45c73_Location",
+              "name": "TEST_FLAGOFF_20260621",
+              "displayName": "TEST_FLAGOFF_20260621",
+              "code": "FLAGOFF01",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location",
+              "name": "TEST_E2E_20260622_GU店舗_OFF_1740",
+              "displayName": "TEST_E2E_20260622_GU店舗_OFF_1740",
+              "code": "TEST_E2E_20260622_STORE_1740",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "78ae0d92-71dc-56e9-8fc5-a01216b37db1_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1740",
+              "displayName": "TEST_E2E_20260622_GU倉庫_ON_1740",
+              "code": "TEST_E2E_20260622_WH_1740",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "960d77a3-59f8-586e-9087-fd1ee6a719ee_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1755",
+              "displayName": "TEST_E2E_20260622_GU倉庫_ON_1755",
+              "code": "TEST_E2E_20260622_WH_1755",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "cbe47a67-ca31-507c-865d-6968d4e12187_Location",
+              "name": "TEST_E2E_20260622_GU店舗_OFF_1830",
+              "displayName": "TEST_E2E_20260622_GU店舗_OFF_1830",
+              "code": "TEST_E2E_20260622_STORE_1830",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "eca69a97-1e36-5dfa-8496-44e1c51fd96b_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1830",
+              "displayName": "TEST_E2E_20260622_GU倉庫_ON_1830",
+              "code": "TEST_E2E_20260622_WH_1830",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "6dd32852-58dd-5f7a-a496-ea0c8bc03623_Location",
+              "name": "TEST_E2E_20260622_GU店舗_OFF_1845",
+              "displayName": "TEST_E2E_20260622_GU店舗_OFF_1845",
+              "code": "TEST_E2E_20260622_STORE_1845",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "6241e39d-9ed7-5004-9b1d-d2d3f280fa68_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1845",
+              "displayName": "TEST_E2E_20260622_GU倉庫_ON_1845",
+              "code": "TEST_E2E_20260622_WH_1845",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "4f100847-e242-5aaf-b97a-eb47683a7c95_Location",
+              "name": "TEST_E2E_20260622_GU店舗_OFF_1905",
+              "displayName": "TEST_E2E_20260622_GU店舗_OFF_1905",
+              "code": "TEST_E2E_20260622_STORE_1905",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "d018dd79-47b6-5a93-a1bf-0e12cac23d3e_Location",
+              "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "displayName": "TEST_E2E_20260622_GU倉庫_ON_1905",
+              "code": "TEST_E2E_20260622_WH_1905",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": false,
+              "isClosed": false
+            },
+            {
+              "id": "295e5a69-c97b-53df-b947-1dc9f559d00d_Location",
+              "name": "TEST_FAQ_20260624_GU店舗_OFF_092214",
+              "displayName": "TEST_FAQ_20260624_GU店舗_OFF_092214",
+              "code": "TEST_FAQ_20260624_STORE_092214",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "b111b7e0-f00b-5823-a41f-2d345f56badc_Location",
+              "name": "TEST_FAQ_20260624_GU倉庫_ON_092214",
+              "displayName": "TEST_FAQ_20260624_GU倉庫_ON_092214",
+              "code": "TEST_FAQ_20260624_WH_092214",
+              "locationType": "WAREHOUSE",
+              "isRetailLocation": false,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "3b99b707-3f5c-548a-9aef-13a90be279e8_Location",
+              "name": "TEST_NOTION_20260627_店舗_041001",
+              "displayName": "TEST_NOTION_20260627_店舗_041001",
+              "code": "TEST_NOTION_STORE_041001",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": true,
+              "isInventoryAllocationRequestEnabled": true,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "e1e784d4-f65d-59bb-a432-6af679010f26_Location",
+              "name": "TEST_FAQ_POINT_PAYMENT_20260628061324",
+              "displayName": "TEST_FAQ_POINT_PAYMENT_20260628061324",
+              "code": "PTPAY28061324",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "3e8bd42b-4ec4-5ed3-994a-1238a2f0e8d6_Location",
+              "name": "TEST_FAQ_POINT_PAYMENT_20260628061449",
+              "displayName": "TEST_FAQ_POINT_PAYMENT_20260628061449",
+              "code": "PTPAY28061449",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "8ba699d3-f806-5924-8c0e-81912dde4af2_Location",
+              "name": "TEST_FAQ_POINT_PAYMENT_20260628061555",
+              "displayName": "TEST_FAQ_POINT_PAYMENT_20260628061555",
+              "code": "PTPAY28061555",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            },
+            {
+              "id": "36fbaaf7-6edd-50bd-bae9-d7daf5da7ac7_Location",
+              "name": "TEST_FAQ_POINT_PAYMENT_20260628061656",
+              "displayName": "TEST_FAQ_POINT_PAYMENT_20260628061656",
+              "code": "PTPAY28061656",
+              "locationType": "RETAIL",
+              "isRetailLocation": true,
+              "isLocalPickupEnabled": false,
+              "isInventoryAllocationRequestEnabled": false,
+              "isArchived": true,
+              "isClosed": false
+            }
+          ]
+        }
+      }
+    },
+    "textSample": "{\"data\":{\"locations\":{\"nodes\":[{\"id\":\"8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location\",\"name\":\"ユニクロ物流倉庫\",\"displayName\":\"ユニクロ物流倉庫\",\"code\":\"W0001\",\"locationType\":\"WAREHOUSE\",\"isRetailLocation\":false,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":false,\"isClosed\":false},{\"id\":\"b12adcce-247e-5b58-b65a-4d7397be8f79_Location\",\"name\":\"ユニクロ - 銀座店\",\"displayName\":\"ユニクロ - 銀座店\",\"code\":\"R0001\",\"locationType\":\"RETAIL\",\"isRetailLocation\":true,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":false,\"isClosed\":false},{\"id\":\"b9f67abc-3da0-5165-953b-ea304a92460b_Location\",\"name\":\"TEST_FAQ_DEEP2_202606080343_ロケーション\",\"displayName\":\"TEST_FAQ_DEEP2_202606080343_ロケーション_表示\",\"code\":\"test_faq_deep2_202606080343_loc\",\"locationType\":\"RETAIL\",\"isRetailLocation\":true,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":true,\"isClosed\":false},{\"id\":\"8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location\",\"name\":\"ユニクロEC\",\"displayName\":\"ユニクロEC\",\"code\":\"TESTEC01\",\"locationType\":\"RETAIL\",\"isRetailLocation\":true,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":false,\"isClosed\":false},{\"id\":\"8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location\",\"name\":\"GU 倉庫\",\"displayName\":\"GU 倉庫\",\"code\":\"TFCLOC3698\",\"locationType\":\"WAREHOUSE\",\"isRetailLocation\":false,\"isLocalPickupEnabled\":false,\"isInventoryAllocationRequestEnabled\":false,\"isArchived\":false,\"isClosed\":false},{\"id\":\"0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location\",\"name\":\"GU 銀座店\",\"displayName\":\"GU 銀座店\",\"code\":\"12456789098765\",\"locationTyp"
+  },
+  "productVariantsResult": {
+    "status": 200,
+    "ok": true,
+    "json": {
+      "errors": [
+        {
+          "message": "エラーが発生しました。しばらくしてから再度お試しください",
+          "locations": [
+            {
+              "line": 11,
+              "column": 26
+            }
+          ],
+          "extensions": {
+            "code": "UNKNOWN",
+            "http_status_code": 500,
+            "original_error": "Cannot query field \"code\" on type \"Product\".",
+            "severity": 500
+          }
+        }
+      ],
+      "data": null
+    },
+    "textSample": "{\"errors\":[{\"message\":\"エラーが発生しました。しばらくしてから再度お試しください\",\"locations\":[{\"line\":11,\"column\":26}],\"extensions\":{\"code\":\"UNKNOWN\",\"http_status_code\":500,\"original_error\":\"Cannot query field \\\"code\\\" on type \\\"Product\\\".\",\"severity\":500}}],\"data\":null}"
+  },
+  "facts": {
+    "locationCount": 23,
+    "activeLocations": [
+      {
+        "id": "8b7c4983-7e88-549c-b23a-6fafc2c4d52c_Location",
+        "name": "ユニクロ物流倉庫",
+        "code": "W0001",
+        "locationType": "WAREHOUSE",
+        "isRetailLocation": false,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "b12adcce-247e-5b58-b65a-4d7397be8f79_Location",
+        "name": "ユニクロ - 銀座店",
+        "code": "R0001",
+        "locationType": "RETAIL",
+        "isRetailLocation": true,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "8046cfc4-14d2-5fd3-9603-868d5e79f3ae_Location",
+        "name": "ユニクロEC",
+        "code": "TESTEC01",
+        "locationType": "RETAIL",
+        "isRetailLocation": true,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "8b3bd7b3-3efe-549b-a1c5-6352492dbdc7_Location",
+        "name": "GU 倉庫",
+        "code": "TFCLOC3698",
+        "locationType": "WAREHOUSE",
+        "isRetailLocation": false,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "0f856b5d-5c17-5880-9583-a0f351ba9f7f_Location",
+        "name": "GU 銀座店",
+        "code": "12456789098765",
+        "locationType": "RETAIL",
+        "isRetailLocation": true,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "45ffa873-a7f2-5581-8117-5758f5a45c73_Location",
+        "name": "TEST_FLAGOFF_20260621",
+        "code": "FLAGOFF01",
+        "locationType": "RETAIL",
+        "isRetailLocation": true,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "1f0fd500-ee41-50b5-afb9-217ab8af9db3_Location",
+        "name": "TEST_E2E_20260622_GU店舗_OFF_1740",
+        "code": "TEST_E2E_20260622_STORE_1740",
+        "locationType": "RETAIL",
+        "isRetailLocation": true,
+        "isLocalPickupEnabled": true
+      },
+      {
+        "id": "78ae0d92-71dc-56e9-8fc5-a01216b37db1_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1740",
+        "code": "TEST_E2E_20260622_WH_1740",
+        "locationType": "WAREHOUSE",
+        "isRetailLocation": false,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "960d77a3-59f8-586e-9087-fd1ee6a719ee_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1755",
+        "code": "TEST_E2E_20260622_WH_1755",
+        "locationType": "WAREHOUSE",
+        "isRetailLocation": false,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "cbe47a67-ca31-507c-865d-6968d4e12187_Location",
+        "name": "TEST_E2E_20260622_GU店舗_OFF_1830",
+        "code": "TEST_E2E_20260622_STORE_1830",
+        "locationType": "RETAIL",
+        "isRetailLocation": true,
+        "isLocalPickupEnabled": true
+      },
+      {
+        "id": "eca69a97-1e36-5dfa-8496-44e1c51fd96b_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1830",
+        "code": "TEST_E2E_20260622_WH_1830",
+        "locationType": "WAREHOUSE",
+        "isRetailLocation": false,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "6dd32852-58dd-5f7a-a496-ea0c8bc03623_Location",
+        "name": "TEST_E2E_20260622_GU店舗_OFF_1845",
+        "code": "TEST_E2E_20260622_STORE_1845",
+        "locationType": "RETAIL",
+        "isRetailLocation": true,
+        "isLocalPickupEnabled": true
+      },
+      {
+        "id": "6241e39d-9ed7-5004-9b1d-d2d3f280fa68_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1845",
+        "code": "TEST_E2E_20260622_WH_1845",
+        "locationType": "WAREHOUSE",
+        "isRetailLocation": false,
+        "isLocalPickupEnabled": false
+      },
+      {
+        "id": "4f100847-e242-5aaf-b97a-eb47683a7c95_Location",
+        "name": "TEST_E2E_20260622_GU店舗_OFF_1905",
+        "code": "TEST_E2E_20260622_STORE_1905",
+        "locationType": "RETAIL",
+        "isRetailLocation": true,
+        "isLocalPickupEnabled": true
+      },
+      {
+        "id": "d018dd79-47b6-5a93-a1bf-0e12cac23d3e_Location",
+        "name": "TEST_E2E_20260622_GU倉庫_ON_1905",
+        "code": "TEST_E2E_20260622_WH_1905",
+        "locationType": "WAREHOUSE",
+        "isRetailLocation": false,
+        "isLocalPickupEnabled": false
+      }
+    ],
+    "targetVariantCountInFirst100": 0,
+    "targetVariants": []
+  },
+  "errors": []
+}

@@ -1,0 +1,365 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/settings/locations",
+  "h1": [
+    "ロケーション"
+  ],
+  "headers": [
+    "名前",
+    "コード",
+    "場所種別",
+    "公開",
+    "アーカイブ",
+    "ロケーショングループ",
+    "タグ"
+  ],
+  "rows": [
+    [
+      "名前",
+      "コード",
+      "場所種別",
+      "公開",
+      "アーカイブ",
+      "ロケーショングループ",
+      "タグ"
+    ],
+    [
+      "GU 倉庫",
+      "TFCLOC3698",
+      "倉庫",
+      "成功\n公開中",
+      "",
+      "1個のグループ",
+      ""
+    ],
+    [
+      "GU 銀座店",
+      "12456789098765",
+      "情報\n店舗",
+      "成功\n公開中",
+      "",
+      "1個のグループ",
+      "店舗"
+    ],
+    [
+      "TEST_E2E_20260622_GU倉庫_ON_1740",
+      "TEST_E2E_20260622_WH_1740",
+      "倉庫",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_E2E_20260622_GU倉庫_ON_1755",
+      "TEST_E2E_20260622_WH_1755",
+      "倉庫",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_E2E_20260622_GU倉庫_ON_1830",
+      "TEST_E2E_20260622_WH_1830",
+      "倉庫",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_E2E_20260622_GU倉庫_ON_1845",
+      "TEST_E2E_20260622_WH_1845",
+      "倉庫",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_E2E_20260622_GU倉庫_ON_1905",
+      "TEST_E2E_20260622_WH_1905",
+      "倉庫",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_E2E_20260622_GU店舗_OFF_1740",
+      "TEST_E2E_20260622_STORE_1740",
+      "情報\n店舗",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_E2E_20260622_GU店舗_OFF_1830",
+      "TEST_E2E_20260622_STORE_1830",
+      "情報\n店舗",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_E2E_20260622_GU店舗_OFF_1845",
+      "TEST_E2E_20260622_STORE_1845",
+      "情報\n店舗",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_E2E_20260622_GU店舗_OFF_1905",
+      "TEST_E2E_20260622_STORE_1905",
+      "情報\n店舗",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_FAQ_20260624_GU倉庫_ON_092214",
+      "TEST_FAQ_20260624_WH_092214",
+      "倉庫",
+      "情報\n非公開",
+      "アーカイブ済み",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_FAQ_20260624_GU店舗_OFF_092214",
+      "TEST_FAQ_20260624_STORE_092214",
+      "情報\n店舗",
+      "情報\n非公開",
+      "アーカイブ済み",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_FAQ_DEEP2_202606080343_ロケーション",
+      "test_faq_deep2_202606080343_loc",
+      "情報\n店舗",
+      "情報\n非公開",
+      "アーカイブ済み",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_FLAGOFF_20260621",
+      "FLAGOFF01",
+      "情報\n店舗",
+      "成功\n公開中",
+      "",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "TEST_NOTION_20260627_店舗_041001",
+      "TEST_NOTION_STORE_041001",
+      "情報\n店舗",
+      "情報\n非公開",
+      "アーカイブ済み",
+      "0個のグループ",
+      ""
+    ],
+    [
+      "ユニクロ - 銀座店",
+      "R0001",
+      "情報\n店舗",
+      "成功\n公開中",
+      "",
+      "2個のグループ",
+      ""
+    ],
+    [
+      "ユニクロEC",
+      "TESTEC01",
+      "情報\n店舗",
+      "成功\n公開中",
+      "",
+      "2個のグループ",
+      ""
+    ],
+    [
+      "ユニクロ物流倉庫",
+      "W0001",
+      "倉庫",
+      "成功\n公開中",
+      "",
+      "3個のグループ",
+      ""
+    ]
+  ],
+  "buttons": [
+    {
+      "text": "コンテンツにスキップ",
+      "href": "#AppFrameMain",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "ホーム",
+      "href": "/admin",
+      "disabled": false
+    },
+    {
+      "text": "商品管理",
+      "href": "/admin/products",
+      "disabled": false
+    },
+    {
+      "text": "在庫管理",
+      "href": "/admin/inventory_items",
+      "disabled": false
+    },
+    {
+      "text": "注文管理",
+      "href": "/admin/orders",
+      "disabled": false
+    },
+    {
+      "text": "顧客管理",
+      "href": "/admin/purchasing_customers",
+      "disabled": false
+    },
+    {
+      "text": "発注管理",
+      "href": "/admin/inventory_purchase_orders",
+      "disabled": false
+    },
+    {
+      "text": "販売設定",
+      "href": "/admin/product_price_rules",
+      "disabled": false
+    },
+    {
+      "text": "会計",
+      "href": "/admin/sale_change_line_items",
+      "disabled": false
+    },
+    {
+      "text": "分析",
+      "href": "/admin/analytics",
+      "disabled": false
+    },
+    {
+      "text": "入荷管理",
+      "href": "/admin/inventory_inbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "出荷管理",
+      "href": "/admin/inventory_outbound_orders",
+      "disabled": false
+    },
+    {
+      "text": "在庫依頼\n未完了の在庫依頼 3件\n3",
+      "href": "/admin/inventory_allocation_requests",
+      "disabled": false
+    },
+    {
+      "text": "ディスカウント",
+      "href": "/admin/order_price_adjustment_rules",
+      "disabled": false
+    },
+    {
+      "text": "ポイント",
+      "href": "/admin/point_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "会員ランク",
+      "href": "/admin/customer_rank_calculation_rules",
+      "disabled": false
+    },
+    {
+      "text": "Shopify",
+      "href": "/admin/shopify_integrations",
+      "disabled": false
+    },
+    {
+      "text": "OmnibusCore",
+      "href": "/admin/omnibus_core_integrations",
+      "disabled": false
+    },
+    {
+      "text": "スマレジ",
+      "href": "/admin/smaregi_integrations",
+      "disabled": false
+    },
+    {
+      "text": "リテールポータル",
+      "href": "/admin/retail_portal_integrations",
+      "disabled": false
+    },
+    {
+      "text": "卸売",
+      "href": "/admin/b2b",
+      "disabled": false
+    },
+    {
+      "text": "設定",
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin/settings",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin/csv_import/csv_import_operation_locations",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "href": "/admin/csv_export/csv_export_operation_location_by_location_group",
+      "disabled": false
+    },
+    {
+      "text": "インポート",
+      "href": "/admin/csv_import/csv_import_operation_locations",
+      "disabled": false
+    },
+    {
+      "text": "エクスポート",
+      "href": "/admin/csv_export/csv_export_operation_location_by_location_group",
+      "disabled": false
+    },
+    {
+      "text": "ロケーションを作成",
+      "href": "/admin/settings/locations/create",
+      "disabled": false
+    },
+    {
+      "text": "すべて",
+      "href": null,
+      "disabled": false
+    },
+    {
+      "text": "その他のビュー",
+      "href": null,
+      "disabled": false
+    }
+  ],
+  "body": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nロケーション。このページの準備が整いました\n\nロケーション\nインポート\nエクスポート\nロケーションを作成\nすべて\n名前\n\t\nコード\n\t\n場所種別\n\t\n公開\n\t\nアーカイブ\n\t\nロケーショングループ\n\t\nタグ\n\n\n\nGU 倉庫\n\n\t\n\nTFCLOC3698\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n1個のグループ\n\n\t\n\n\n\nGU 銀座店\n\n\t\n\n12456789098765\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n1個のグループ\n\n\t\n店舗\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1740\n\n\t\n\nTEST_E2E_20260622_WH_1740\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1755\n\n\t\n\nTEST_E2E_20260622_WH_1755\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1830\n\n\t\n\nTEST_E2E_20260622_WH_1830\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1845\n\n\t\n\nTEST_E2E_20260622_WH_1845\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU倉庫_ON_1905\n\n\t\n\nTEST_E2E_20260622_WH_1905\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU店舗_OFF_1740\n\n\t\n\nTEST_E2E_20260622_STORE_1740\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU店舗_OFF_1830\n\n\t\n\nTEST_E2E_20260622_STORE_1830\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU店舗_OFF_1845\n\n\t\n\nTEST_E2E_20260622_STORE_1845\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_E2E_20260622_GU店舗_OFF_1905\n\n\t\n\nTEST_E2E_20260622_STORE_1905\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_FAQ_20260624_GU倉庫_ON_092214\n\n\t\n\nTEST_FAQ_20260624_WH_092214\n\n\t\n倉庫\n\t\n情報\n非公開\n\t\nアーカイブ済み\n\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_FAQ_20260624_GU店舗_OFF_092214\n\n\t\n\nTEST_FAQ_20260624_STORE_092214\n\n\t\n情報\n店舗\n\t\n情報\n非公開\n\t\nアーカイブ済み\n\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_FAQ_DEEP2_202606080343_ロケーション\n\n\t\n\ntest_faq_deep2_202606080343_loc\n\n\t\n情報\n店舗\n\t\n情報\n非公開\n\t\nアーカイブ済み\n\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_FLAGOFF_20260621\n\n\t\n\nFLAGOFF01\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n0個のグループ\n\n\t\n\n\n\nTEST_NOTION_20260627_店舗_041001\n\n\t\n\nTEST_NOTION_STORE_041001\n\n\t\n情報\n店舗\n\t\n情報\n非公開\n\t\nアーカイブ済み\n\t\n\n0個のグループ\n\n\t\n\n\n\nユニクロ - 銀座店\n\n\t\n\nR0001\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n2個のグループ\n\n\t\n\n\n\nユニクロEC\n\n\t\n\nTESTEC01\n\n\t\n情報\n店舗\n\t\n成功\n公開中\n\t\t\n\n2個のグループ\n\n\t\n\n\n\nユニクロ物流倉庫\n\n\t\n\nW0001\n\n\t\n倉庫\n\t\n成功\n公開中\n\t\t\n\n3個のグループ\n\n\t"
+}

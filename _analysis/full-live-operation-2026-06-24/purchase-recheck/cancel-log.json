@@ -1,0 +1,26 @@
+[
+  {
+    "step": "issued_detail_before_cancel",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/4595e603-f142-5345-9047-1ef968b0d047_InventoryPurchaseOrder",
+    "detail": null,
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1005。このページの準備が整いました\n\n#IP-1005\n情報\n発注済み\nその他の操作\n取引先\n取引先\nテナント\n通貨\n発注済み商品\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥110\n\n詳細\n作成日時\n2026年06月24日 10:58\n発注者\n河野陽介\n発注日時\n2026年06月24日 10:59"
+  },
+  {
+    "step": "action_menu_opened",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/4595e603-f142-5345-9047-1ef968b0d047_InventoryPurchaseOrder",
+    "detail": null,
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1005。このページの準備が整いました\n\n#IP-1005\n情報\n発注済み\nその他の操作\n取引先\n取引先\nテナント\n通貨\n発注済み商品\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥110\n\n詳細\n作成日時\n2026年06月24日 10:58\n発注者\n河野陽介\n発注日時\n2026年06月24日 10:59\nキャンセルする"
+  },
+  {
+    "step": "cancel_dialog_opened",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/4595e603-f142-5345-9047-1ef968b0d047_InventoryPurchaseOrder",
+    "detail": null,
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1005。このページの準備が整いました\n\n#IP-1005\n情報\n発注済み\nその他の操作\n取引先\n取引先\nテナント\n通貨\n発注済み商品\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥110\n\n詳細\n作成日時\n2026年06月24日 10:58\n発注者\n河野陽介\n発注日時\n2026年06月24日 10:59\n発注伝票をキャンセルしますか？\n\n発注伝票をキャンセルします。この処理は巻き戻すことができません。\n\n閉じる\nキャンセルする"
+  },
+  {
+    "step": "after_cancel_confirm",
+    "url": "https://www.sqstackstaging.com/admin/inventory_purchase_orders/4595e603-f142-5345-9047-1ef968b0d047_InventoryPurchaseOrder",
+    "detail": null,
+    "excerpt": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n出荷管理\n在庫依頼\n未完了の在庫依頼 3件\n3\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\n#IP-1005。このページの準備が整いました\n\n#IP-1005\nキャンセル済み\nその他の操作\n取引先\n取引先\nテナント\n通貨\n発注済み商品\nSKU\n\t\n単価\n\t\n数量\n\t\n税率\n\t\n金額\n\n\n\n486125-31-XL\n\n\t\n単価\n￥\n\t\n数量\n\t\n税率\n%\n\t\n\n￥110\n\n詳細\n作成日時\n2026年06月24日 10:58\n発注者\n河野陽介\n発注日時\n2026年06月24日 10:59\nキャンセル者\n河野陽介\nキャンセル日時\n2026年06月24日 11:01\n発注伝票をキャンセルしました"
+  }
+]

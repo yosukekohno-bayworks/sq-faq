@@ -1,0 +1,241 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=e14]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e19]:
+        - button [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: stack-ps-yosuke
+            - paragraph [ref=e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=e35]
+    - generic "メニュー" [ref=e36]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "ホーム" [ref=e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=e46]
+                - generic [ref=e48]: ホーム
+            - listitem [ref=e49]:
+              - link "商品管理" [ref=e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=e55]
+                - generic [ref=e57]: 商品管理
+            - listitem [ref=e58]:
+              - link "在庫管理" [ref=e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=e64]
+                - generic [ref=e66]: 在庫管理
+            - listitem [ref=e67]:
+              - link "注文管理" [ref=e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=e73]
+                - generic [ref=e75]: 注文管理
+            - listitem [ref=e76]:
+              - link "顧客管理" [ref=e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=e82]
+                - generic [ref=e85]: 顧客管理
+            - listitem [ref=e86]:
+              - link "発注管理" [ref=e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=e92]
+                - generic [ref=e95]: 発注管理
+            - listitem [ref=e96]:
+              - link "販売設定" [ref=e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=e102]
+                - generic [ref=e107]: 販売設定
+            - listitem [ref=e108]:
+              - link "会計" [ref=e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=e114]
+                - generic [ref=e116]: 会計
+            - listitem [ref=e117]:
+              - generic [ref=e118]:
+                - generic:
+                  - link "分析":
+                    - /url: /admin/analytics
+                    - generic:
+                      - generic:
+                        - img
+                    - generic: 分析
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: オペレーション
+            - listitem [ref=e122]:
+              - link "入荷管理" [ref=e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=e128]
+                - generic [ref=e132]: 入荷管理
+            - listitem [ref=e133]:
+              - link "出荷管理" [ref=e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=e139]
+                - generic [ref=e141]: 出荷管理
+            - listitem [ref=e142]:
+              - link "在庫依頼 未完了の在庫依頼 3件 3" [ref=e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=e148]
+                - generic [ref=e151]: 在庫依頼
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 未完了の在庫依頼 3件
+                  - generic [ref=e155]: "3"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - generic [ref=e158]: CRM
+            - listitem [ref=e159]:
+              - link "ディスカウント" [ref=e162] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=e165]
+                - generic [ref=e167]: ディスカウント
+            - listitem [ref=e168]:
+              - link "ポイント" [ref=e171] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=e174]
+                - generic [ref=e176]: ポイント
+            - listitem [ref=e177]:
+              - link "会員ランク" [ref=e180] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=e183]
+                - generic [ref=e186]: 会員ランク
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]: 販売チャネル
+            - listitem [ref=e190]:
+              - link "Shopify" [ref=e193] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=e194]: Shopify
+            - listitem [ref=e195]:
+              - link "OmnibusCore" [ref=e198] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=e199]: OmnibusCore
+            - listitem [ref=e200]:
+              - link "スマレジ" [ref=e203] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=e204]: スマレジ
+            - listitem [ref=e205]:
+              - link "リテールポータル" [ref=e208] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=e209]: リテールポータル
+            - listitem [ref=e210]:
+              - generic [ref=e211]:
+                - generic:
+                  - link "卸売":
+                    - /url: /admin/b2b
+                    - generic: 卸売
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "設定" [ref=e216] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=e219]
+                - generic [ref=e221]: 設定
+    - main [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - status:
+            - paragraph [ref=e227]: TEST_FAQ_20260624_APP_113636。このページの準備が整いました
+          - generic [ref=e229]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: /admin/settings/apps
+              - img [ref=e235]
+            - heading "TEST_FAQ_20260624_APP_113636" [level=1] [ref=e239]
+            - link "ヘルプページ" [ref=e245] [cursor=pointer]:
+              - /url: https://docs.sqstack.com/docs/api
+              - img [ref=e248]
+              - generic [ref=e255]: ヘルプページ
+        - generic [ref=e259]:
+          - generic [ref=e261]:
+            - generic [ref=e263]:
+              - heading "Admin API" [level=2] [ref=e264]
+              - generic [ref=e265]:
+                - generic [ref=e268]: アクセストークン
+                - generic [ref=e269]:
+                  - textbox "アクセストークン" [ref=e272]: <SECRET_REDACTED>
+                  - button [ref=e274] [cursor=pointer]:
+                    - img [ref=e277]
+                - generic [ref=e279]: 2026年06月24日 11:36に作成されました
+              - generic [ref=e280]:
+                - generic [ref=e283]: シークレット
+                - generic [ref=e284]:
+                  - textbox "シークレット" [ref=e287]: <SECRET_REDACTED>
+                  - button [ref=e289] [cursor=pointer]:
+                    - img [ref=e292]
+                - generic [ref=e294]: 2026年06月24日 11:36に作成されました
+            - separator [ref=e295]
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - heading "検証方法" [level=3] [ref=e299]
+                - paragraph [ref=e300]: Playgroundのヘッダー設定で、アクセストークンを使用してリクエストを送信できます。
+              - link "Playgroundを開く" [ref=e302] [cursor=pointer]:
+                - /url: https://sq.stackservice.com/api/admin/v1/playground
+                - generic [ref=e303]: Playgroundを開く
+            - separator [ref=e304]
+            - generic [ref=e306]:
+              - generic [ref=e307]:
+                - heading "リクエストログ" [level=3] [ref=e308]
+                - paragraph [ref=e309]: このトークンを使用して行われたリクエストのログを閲覧することができます。
+              - link "リクエストログを見る" [ref=e311] [cursor=pointer]:
+                - /url: /admin/settings/apps/c960abe2-56d7-5b23-b8f2-ec66df6c8060_App/admin_api
+                - generic [ref=e312]: リクエストログを見る
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - heading "Storefront API" [level=2] [ref=e317]
+              - paragraph [ref=e318]: アクセストークンを発行することで、ストアフロントAPIにアクセスできるようになります。
+            - button "トークンを発行する" [ref=e320] [cursor=pointer]:
+              - generic [ref=e321]: トークンを発行する
+          - generic [ref=e324]:
+            - generic [ref=e325]:
+              - heading "Webhook" [level=3] [ref=e326]
+              - paragraph [ref=e327]: イベントに関するJSON通知をURLに送信します
+            - button "Webhookを作成する" [ref=e330] [cursor=pointer]:
+              - img [ref=e333]
+              - generic [ref=e335]: Webhookを作成する
+  - region "Notifications alt+T"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - dialog "Webhookを追加する":
+              - generic [ref=e336]:
+                - generic [ref=e338]:
+                  - heading "Webhookを追加する" [level=2] [ref=e340]
+                  - button "閉じる" [ref=e341] [cursor=pointer]:
+                    - img [ref=e344]
+                - generic [ref=e349]:
+                  - generic [ref=e351]:
+                    - generic [ref=e354]: イベント*
+                    - generic [ref=e355]:
+                      - combobox "イベント*" [invalid] [ref=e356]:
+                        - option "選択してください" [disabled] [selected]
+                        - option "注文の作成"
+                        - option "注文の更新"
+                        - option "在庫の更新"
+                      - generic [ref=e357]:
+                        - generic [ref=e358]: 選択してください
+                        - img [ref=e361]
+                    - generic [ref=e384]:
+                      - img [ref=e387]
+                      - generic [ref=e391]: イベントを選択してください
+                  - generic [ref=e366]:
+                    - generic [ref=e369]: エンドポイント*
+                    - textbox "エンドポイント*" [invalid] [ref=e373]:
+                      - /placeholder: https://stackservice.com/webhook
+                    - generic [ref=e393]:
+                      - img [ref=e396]
+                      - generic [ref=e400]: エンドポイントを入力してください
+                - generic [ref=e377]:
+                  - button "キャンセル" [ref=e378] [cursor=pointer]:
+                    - generic [ref=e379]: キャンセル
+                  - button "保存する" [ref=e380] [cursor=pointer]:
+                    - generic [ref=e381]: 保存する
+  - alert [ref=e10]
