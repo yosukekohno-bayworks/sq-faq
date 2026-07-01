@@ -1,0 +1,115 @@
+{
+  "data": {
+    "pdfExportOperationPackageSlips": {
+      "nodes": [
+        {
+          "id": "4bad4180-a3b9-5602-87ba-34166e057a3c_PDFExportOperationPackageSlip",
+          "createdAt": "2026-07-01T14:04:08Z",
+          "updatedAt": "2026-07-01T14:04:08Z",
+          "filepath": "",
+          "downloadURL": null,
+          "isRunningExecutionJob": false,
+          "isCompletedExecutionJob": false,
+          "isFailedExecutionJob": true,
+          "inventoryOutboundOrders": {
+            "nodes": [
+              {
+                "id": "7a4f2644-d1f0-5edb-aca7-0364ce0db0e0_InventoryOutboundOrder",
+                "managementCode": "#IO-1020",
+                "workingStatus": "COMPLETE",
+                "inventoryAllocationStatus": "ALLOCATED",
+                "deliveryMethod": "SHIPPING",
+                "totalQuantity": 5,
+                "__typename": "InventoryOutboundOrder"
+              }
+            ],
+            "__typename": "InventoryOutboundOrderConnection"
+          },
+          "__typename": "PDFExportOperationPackageSlip"
+        },
+        {
+          "id": "72baef05-ee74-59ef-8f23-8990e2de8366_PDFExportOperationPackageSlip",
+          "createdAt": "2026-07-01T14:03:23Z",
+          "updatedAt": "2026-07-01T14:03:23Z",
+          "filepath": "",
+          "downloadURL": null,
+          "isRunningExecutionJob": false,
+          "isCompletedExecutionJob": false,
+          "isFailedExecutionJob": true,
+          "inventoryOutboundOrders": {
+            "nodes": [
+              {
+                "id": "fe9c2dbb-4ca5-54bb-afb9-f864659c2d4f_InventoryOutboundOrder",
+                "managementCode": "#IO-1048",
+                "workingStatus": "COMPLETE",
+                "inventoryAllocationStatus": "WAITING",
+                "deliveryMethod": "SHIPPING",
+                "totalQuantity": 1,
+                "__typename": "InventoryOutboundOrder"
+              }
+            ],
+            "__typename": "InventoryOutboundOrderConnection"
+          },
+          "__typename": "PDFExportOperationPackageSlip"
+        },
+        {
+          "id": "733c983c-2a4b-5f43-ad44-a9602439fede_PDFExportOperationPackageSlip",
+          "createdAt": "2026-07-01T13:07:16Z",
+          "updatedAt": "2026-07-01T13:07:16Z",
+          "filepath": "",
+          "downloadURL": null,
+          "isRunningExecutionJob": false,
+          "isCompletedExecutionJob": false,
+          "isFailedExecutionJob": true,
+          "inventoryOutboundOrders": {
+            "nodes": [
+              {
+                "id": "e030b4bf-2fc4-5714-b639-e11c6fbce3f7_InventoryOutboundOrder",
+                "managementCode": "#IO-1046",
+                "workingStatus": "COMPLETE",
+                "inventoryAllocationStatus": "WAITING",
+                "deliveryMethod": "SHIPPING",
+                "totalQuantity": 1,
+                "__typename": "InventoryOutboundOrder"
+              }
+            ],
+            "__typename": "InventoryOutboundOrderConnection"
+          },
+          "__typename": "PDFExportOperationPackageSlip"
+        },
+        {
+          "id": "41b49f59-365c-53c3-9aa2-231c940aa842_PDFExportOperationPackageSlip",
+          "createdAt": "2026-07-01T13:05:13Z",
+          "updatedAt": "2026-07-01T13:05:13Z",
+          "filepath": "",
+          "downloadURL": null,
+          "isRunningExecutionJob": false,
+          "isCompletedExecutionJob": false,
+          "isFailedExecutionJob": true,
+          "inventoryOutboundOrders": {
+            "nodes": [
+              {
+                "id": "65202d87-7a2a-52dc-a078-b4a504878ef2_InventoryOutboundOrder",
+                "managementCode": "#IO-1047",
+                "workingStatus": "COMPLETE",
+                "inventoryAllocationStatus": "WAITING",
+                "deliveryMethod": "RETAIL",
+                "totalQuantity": 1,
+                "__typename": "InventoryOutboundOrder"
+              }
+            ],
+            "__typename": "InventoryOutboundOrderConnection"
+          },
+          "__typename": "PDFExportOperationPackageSlip"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "4",
+        "hasPreviousPage": false,
+        "__typename": "PageInfo"
+      },
+      "__typename": "PDFExportOperationPackageSlipConnection"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+36. [POST] https://www.sqstackstaging.com/api/graphql => [FAILED] net::ERR_ABORTED
+47. [POST] https://www.sqstackstaging.com/api/graphql => [200] 
+49. [POST] https://www.sqstackstaging.com/api/graphql => [200] 
+50. [POST] https://www.sqstackstaging.com/api/graphql => [200] 
+
+Note: 83 static requests not shown, run with "static" option to see them.

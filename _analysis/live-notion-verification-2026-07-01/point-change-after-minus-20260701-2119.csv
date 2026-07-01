@@ -1,0 +1,3 @@
+PointChangeID,PurchasingCustomerID,PurchasingCustomerBarcode,Title,Delta,AvailableAt,ExpiresDate,PointChangeCreatedAt,PointChangeActivityType,Note
+bcc6da83-3001-53f7-905b-cd3fc5d39eac_PointChange,e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer,FAQUNI0628095318,FAQ_POINT_PLUS_20260701,5,2026-07-01T12:08:04Z,2026-07-30T15:00:00Z,2026-07-01T12:08:04Z,EARNED,FAQ verification plus 20260701
+bfe37ed2-f096-5a69-9a2c-0daf1b6de2ee_PointChange,e284db39-9ba1-587e-a3b1-aa0700076c2e_PurchasingCustomer,FAQUNI0628095318,FAQ_POINT_MINUS_20260701,-2,2026-07-01T12:17:01Z,,2026-07-01T12:17:01Z,USED,FAQ verification minus 20260701

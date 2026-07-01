@@ -1,0 +1,293 @@
+{
+  "generatedAt": "2026-06-28T15:34:15.650288+00:00",
+  "before": {
+    "orderCount": 5,
+    "sources": [
+      "FAQ_INTERNAL_GRAPHQL",
+      "FAQ_REMAINING_AUTHONLY",
+      "FAQ_REMAINING_DECREMENT",
+      "FAQ_REMAINING_EXCHANGE",
+      "FAQ_REMAINING_UNPAID-NOFULFILL"
+    ],
+    "orders": [
+      {
+        "id": "68dee76e-36de-5a27-a182-5505ed6dd576_Order",
+        "managementCode": "FAQ-REMAINING-AUTHONLY-20260628140300",
+        "managementNumber": "7",
+        "source": "FAQ_REMAINING_AUTHONLY",
+        "externalID": "FAQ_REMAINING_AUTHONLY_20260628140300",
+        "createdAt": "2026-06-28T05:03:09Z",
+        "isCancelled": false
+      },
+      {
+        "id": "2d53b63c-df1e-58c4-89b8-338b2537276a_Order",
+        "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+        "managementNumber": "6",
+        "source": "FAQ_REMAINING_EXCHANGE",
+        "externalID": "FAQ_REMAINING_EXCHANGE_20260628140117",
+        "createdAt": "2026-06-28T05:01:33Z",
+        "isCancelled": false
+      },
+      {
+        "id": "c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order",
+        "managementCode": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+        "managementNumber": "5",
+        "source": "FAQ_REMAINING_UNPAID-NOFULFILL",
+        "externalID": "FAQ_REMAINING_UNPAID_NOFULFILL_20260628140117",
+        "createdAt": "2026-06-28T05:01:27Z",
+        "isCancelled": false
+      },
+      {
+        "id": "d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order",
+        "managementCode": "FAQ-REMAINING-DECREMENT-20260628135953",
+        "managementNumber": "2",
+        "source": "FAQ_REMAINING_DECREMENT",
+        "externalID": "FAQ_REMAINING_DECREMENT_20260628135953",
+        "createdAt": "2026-06-28T05:00:04Z",
+        "isCancelled": false
+      },
+      {
+        "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+        "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+        "managementNumber": "1",
+        "source": "FAQ_INTERNAL_GRAPHQL",
+        "externalID": "FAQ_ORDER_BYPASS_20260628100919",
+        "createdAt": "2026-06-28T01:11:33Z",
+        "isCancelled": false
+      }
+    ],
+    "targets": [
+      {
+        "id": "68dee76e-36de-5a27-a182-5505ed6dd576_Order",
+        "managementCode": "FAQ-REMAINING-AUTHONLY-20260628140300",
+        "managementNumber": "7",
+        "source": "FAQ_REMAINING_AUTHONLY",
+        "externalID": "FAQ_REMAINING_AUTHONLY_20260628140300",
+        "createdAt": "2026-06-28T05:03:09Z",
+        "isCancelled": false
+      },
+      {
+        "id": "2d53b63c-df1e-58c4-89b8-338b2537276a_Order",
+        "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+        "managementNumber": "6",
+        "source": "FAQ_REMAINING_EXCHANGE",
+        "externalID": "FAQ_REMAINING_EXCHANGE_20260628140117",
+        "createdAt": "2026-06-28T05:01:33Z",
+        "isCancelled": false
+      },
+      {
+        "id": "c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order",
+        "managementCode": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+        "managementNumber": "5",
+        "source": "FAQ_REMAINING_UNPAID-NOFULFILL",
+        "externalID": "FAQ_REMAINING_UNPAID_NOFULFILL_20260628140117",
+        "createdAt": "2026-06-28T05:01:27Z",
+        "isCancelled": false
+      },
+      {
+        "id": "d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order",
+        "managementCode": "FAQ-REMAINING-DECREMENT-20260628135953",
+        "managementNumber": "2",
+        "source": "FAQ_REMAINING_DECREMENT",
+        "externalID": "FAQ_REMAINING_DECREMENT_20260628135953",
+        "createdAt": "2026-06-28T05:00:04Z",
+        "isCancelled": false
+      },
+      {
+        "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+        "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+        "managementNumber": "1",
+        "source": "FAQ_INTERNAL_GRAPHQL",
+        "externalID": "FAQ_ORDER_BYPASS_20260628100919",
+        "createdAt": "2026-06-28T01:11:33Z",
+        "isCancelled": false
+      }
+    ],
+    "nonTargets": []
+  },
+  "deleteResults": [
+    {
+      "order": {
+        "id": "68dee76e-36de-5a27-a182-5505ed6dd576_Order",
+        "managementCode": "FAQ-REMAINING-AUTHONLY-20260628140300",
+        "managementNumber": "7",
+        "source": "FAQ_REMAINING_AUTHONLY",
+        "externalID": "FAQ_REMAINING_AUTHONLY_20260628140300",
+        "createdAt": "2026-06-28T05:03:09Z",
+        "isCancelled": false
+      },
+      "deleteResult": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDelete": {
+              "orderID": "68dee76e-36de-5a27-a182-5505ed6dd576_Order"
+            }
+          }
+        }
+      }
+    },
+    {
+      "order": {
+        "id": "2d53b63c-df1e-58c4-89b8-338b2537276a_Order",
+        "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+        "managementNumber": "6",
+        "source": "FAQ_REMAINING_EXCHANGE",
+        "externalID": "FAQ_REMAINING_EXCHANGE_20260628140117",
+        "createdAt": "2026-06-28T05:01:33Z",
+        "isCancelled": false
+      },
+      "deleteResult": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDelete": {
+              "orderID": "2d53b63c-df1e-58c4-89b8-338b2537276a_Order"
+            }
+          }
+        }
+      }
+    },
+    {
+      "order": {
+        "id": "c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order",
+        "managementCode": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+        "managementNumber": "5",
+        "source": "FAQ_REMAINING_UNPAID-NOFULFILL",
+        "externalID": "FAQ_REMAINING_UNPAID_NOFULFILL_20260628140117",
+        "createdAt": "2026-06-28T05:01:27Z",
+        "isCancelled": false
+      },
+      "deleteResult": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDelete": {
+              "orderID": "c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order"
+            }
+          }
+        }
+      }
+    },
+    {
+      "order": {
+        "id": "d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order",
+        "managementCode": "FAQ-REMAINING-DECREMENT-20260628135953",
+        "managementNumber": "2",
+        "source": "FAQ_REMAINING_DECREMENT",
+        "externalID": "FAQ_REMAINING_DECREMENT_20260628135953",
+        "createdAt": "2026-06-28T05:00:04Z",
+        "isCancelled": false
+      },
+      "deleteResult": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDelete": {
+              "orderID": "d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order"
+            }
+          }
+        }
+      }
+    },
+    {
+      "order": {
+        "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+        "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+        "managementNumber": "1",
+        "source": "FAQ_INTERNAL_GRAPHQL",
+        "externalID": "FAQ_ORDER_BYPASS_20260628100919",
+        "createdAt": "2026-06-28T01:11:33Z",
+        "isCancelled": false
+      },
+      "deleteResult": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDelete": {
+              "orderID": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "after": {
+    "orderCount": 0,
+    "sources": [],
+    "orders": [],
+    "faqRemaining": []
+  },
+  "deletedChecks": [
+    {
+      "id": "68dee76e-36de-5a27-a182-5505ed6dd576_Order",
+      "managementCode": "FAQ-REMAINING-AUTHONLY-20260628140300",
+      "result": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDeleted": {
+              "id": "68dee76e-36de-5a27-a182-5505ed6dd576_Order"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "2d53b63c-df1e-58c4-89b8-338b2537276a_Order",
+      "managementCode": "FAQ-REMAINING-EXCHANGE-20260628140117",
+      "result": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDeleted": {
+              "id": "2d53b63c-df1e-58c4-89b8-338b2537276a_Order"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order",
+      "managementCode": "FAQ-REMAINING-UNPAID-NOFULFILL-20260628140117",
+      "result": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDeleted": {
+              "id": "c5d520b4-39f1-518e-ad2f-e2b655a0684f_Order"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order",
+      "managementCode": "FAQ-REMAINING-DECREMENT-20260628135953",
+      "result": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDeleted": {
+              "id": "d9b7286d-ad50-5bac-ac3b-36d0e02c1860_Order"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order",
+      "managementCode": "FAQ-ORDER-BYPASS-20260628100919",
+      "result": {
+        "status": 200,
+        "json": {
+          "data": {
+            "orderDeleted": {
+              "id": "4c7e4e96-6d5b-5c73-bf86-9693cf7c4734_Order"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

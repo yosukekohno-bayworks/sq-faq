@@ -1,0 +1,29 @@
+#47 [POST] https://www.sqstackstaging.com/api/graphql
+
+  General
+    status:    [200] 
+    duration:  1797ms
+    type:      fetch
+
+  Request headers
+    sec-ch-ua-platform: "macOS"
+    referer: https://www.sqstackstaging.com/admin/pdf_export/pdf_export_operation_packing_slips
+    user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+    accept: application/graphql-response+json,application/json;q=0.9
+    sec-ch-ua: "Google Chrome";v="149", "Chromium";v="149", "Not)A;Brand";v="24"
+    content-type: application/json
+    sec-ch-ua-mobile: ?0
+
+  Response headers
+    strict-transport-security: max-age=63072000
+    content-security-policy: frame-ancestors 'none';
+    cache-control: public, max-age=0, must-revalidate
+    x-vercel-cache: MISS
+    x-matched-path: /api/graphql
+    date: Wed, 01 Jul 2026 14:00:05 GMT
+    vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch
+    server: Vercel
+    x-vercel-id: hnd1::iad1::488zg-1782914403446-a1254b97ee81
+
+Call browser_network_request with part="request-body" to read the request body.
+Call browser_network_request with part="response-body" to read the response body.

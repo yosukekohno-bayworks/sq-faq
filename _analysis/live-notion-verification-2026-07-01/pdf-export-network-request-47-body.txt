@@ -1,0 +1,1 @@
+{"operationName":"PermissionContextProvider","variables":{},"extensions":{"clientLibrary":{"name":"@apollo/client","version":"4.1.6"}},"query":"query PermissionContextProvider {\n  myPermissions\n}"}

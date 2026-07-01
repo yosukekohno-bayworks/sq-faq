@@ -1,0 +1,1 @@
+{"data":{"inventoryOutboundOrderShippingCountries":{"nodes":[{"name":"日本","code":"JP","__typename":"Country"}],"__typename":"CountryConnection"}}}
