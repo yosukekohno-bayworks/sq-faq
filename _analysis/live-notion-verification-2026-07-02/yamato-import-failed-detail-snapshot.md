@@ -1,0 +1,165 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=f5e14]:
+      - link [ref=f5e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=f5e19]:
+        - button [ref=f5e23] [cursor=pointer]:
+          - img [ref=f5e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=f5e29] [cursor=pointer]:
+          - generic [ref=f5e30]:
+            - paragraph [ref=f5e31]: stack-ps-yosuke
+            - paragraph [ref=f5e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=f5e35]
+    - generic "メニュー" [ref=f5e36]:
+      - navigation [ref=f5e37]:
+        - generic [ref=f5e38]:
+          - list [ref=f5e39]:
+            - listitem [ref=f5e40]:
+              - link "ホーム" [ref=f5e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=f5e46]
+                - generic [ref=f5e48]: ホーム
+            - listitem [ref=f5e49]:
+              - link "商品管理" [ref=f5e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=f5e55]
+                - generic [ref=f5e57]: 商品管理
+            - listitem [ref=f5e58]:
+              - link "在庫管理" [ref=f5e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=f5e64]
+                - generic [ref=f5e66]: 在庫管理
+            - listitem [ref=f5e67]:
+              - link "注文管理" [ref=f5e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=f5e73]
+                - generic [ref=f5e75]: 注文管理
+            - listitem [ref=f5e76]:
+              - link "顧客管理" [ref=f5e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=f5e82]
+                - generic [ref=f5e85]: 顧客管理
+            - listitem [ref=f5e86]:
+              - link "発注管理" [ref=f5e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=f5e92]
+                - generic [ref=f5e95]: 発注管理
+            - listitem [ref=f5e96]:
+              - link "販売設定" [ref=f5e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=f5e102]
+                - generic [ref=f5e107]: 販売設定
+            - listitem [ref=f5e108]:
+              - link "会計" [ref=f5e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=f5e114]
+                - generic [ref=f5e116]: 会計
+            - listitem [ref=f5e117]:
+              - generic [ref=f5e118]:
+                - generic
+          - list [ref=f5e119]:
+            - listitem [ref=f5e120]:
+              - generic [ref=f5e121]: オペレーション
+            - listitem [ref=f5e122]:
+              - link "入荷管理" [ref=f5e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=f5e128]
+                - generic [ref=f5e132]: 入荷管理
+            - listitem [ref=f5e133]:
+              - link "出荷管理" [ref=f5e136] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=f5e139]
+                - generic [ref=f5e141]: 出荷管理
+            - listitem [ref=f5e142]:
+              - link "在庫依頼" [ref=f5e145] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=f5e148]
+                - generic [ref=f5e151]: 在庫依頼
+          - list [ref=f5e152]:
+            - listitem [ref=f5e153]:
+              - generic [ref=f5e154]: CRM
+            - listitem [ref=f5e155]:
+              - link "ディスカウント" [ref=f5e158] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=f5e161]
+                - generic [ref=f5e163]: ディスカウント
+            - listitem [ref=f5e164]:
+              - link "ポイント" [ref=f5e167] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=f5e170]
+                - generic [ref=f5e172]: ポイント
+            - listitem [ref=f5e173]:
+              - link "会員ランク" [ref=f5e176] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=f5e179]
+                - generic [ref=f5e182]: 会員ランク
+          - list [ref=f5e183]:
+            - listitem [ref=f5e184]:
+              - generic [ref=f5e185]: 販売チャネル
+            - listitem [ref=f5e186]:
+              - link "Shopify" [ref=f5e189] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=f5e190]: Shopify
+            - listitem [ref=f5e191]:
+              - link "OmnibusCore" [ref=f5e194] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=f5e195]: OmnibusCore
+            - listitem [ref=f5e196]:
+              - link "スマレジ" [ref=f5e199] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=f5e200]: スマレジ
+            - listitem [ref=f5e201]:
+              - link "リテールポータル" [ref=f5e204] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=f5e205]: リテールポータル
+            - listitem [ref=f5e206]:
+              - generic [ref=f5e207]:
+                - generic
+          - list [ref=f5e208]:
+            - listitem [ref=f5e209]:
+              - link "設定" [ref=f5e212] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f5e215]
+                - generic [ref=f5e217]: 設定
+    - main [ref=f5e218]:
+      - generic [ref=f5e221]:
+        - generic [ref=f5e222]:
+          - status:
+            - paragraph [ref=f5e223]: CSVインポート操作の詳細。このページの準備が整いました
+          - generic [ref=f5e225]:
+            - link [ref=f5e228] [cursor=pointer]:
+              - /url: /admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds
+              - img [ref=f5e231]
+            - heading "CSVインポート操作の詳細" [level=1] [ref=f5e235]
+            - generic [ref=f5e238]:
+              - button "実行する" [disabled]:
+                - generic: 実行する
+        - generic [ref=f5e242]:
+          - status [ref=f5e243]:
+            - generic [ref=f5e247]:
+              - img [ref=f5e252]
+              - paragraph [ref=f5e260]: CSVのバリデーションを実行しています。バリデーションが完了すると、取り込み処理を実行できるようになります。
+          - generic [ref=f5e263]:
+            - generic [ref=f5e264]:
+              - heading "作成日" [level=3] [ref=f5e265]
+              - paragraph [ref=f5e266]: 2026年07月01日
+            - generic [ref=f5e267]:
+              - heading "実行ステータス" [level=3] [ref=f5e268]
+              - generic [ref=f5e271]: 未実行
+            - generic [ref=f5e272]:
+              - heading "検証成功" [level=3] [ref=f5e273]
+              - link "0件の出荷結果" [ref=f5e274] [cursor=pointer]:
+                - /url: /admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds/257523da-22f9-5086-9db8-4a01a9a76e4f_CSVImportOperationFulfillmentByYamatoB2Cloud/validation_success
+                - paragraph [ref=f5e275]: 0件の出荷結果
+            - generic [ref=f5e276]:
+              - heading "検証失敗" [level=3] [ref=f5e277]
+              - link "0件の出荷結果" [ref=f5e278] [cursor=pointer]:
+                - /url: /admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds/257523da-22f9-5086-9db8-4a01a9a76e4f_CSVImportOperationFulfillmentByYamatoB2Cloud/validation_failure
+                - paragraph [ref=f5e279]: 0件の出荷結果
+  - region "Notifications alt+T"
+  - alert [ref=f5e10]

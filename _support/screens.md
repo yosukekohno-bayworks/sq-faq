@@ -69,9 +69,9 @@
 | 設定 > アプリ > リクエストログ | リクエストログ | /admin/settings/apps/{id}/admin_api | 対象アプリのAdmin APIログ画面。2026-06-27時点の本文はTODO | 23-API・Webhook・開発者連携.md |
 | 設定 > ロジザード | ロジザード連携 | /admin/logizard_integrations | ロジザードZERO（WMS）との連携設定 | 設定.md |
 | 設定 > Recustomer | Recustomer連携 | /admin/recustomer_integrations | Recustomerアカウント接続設定（ストアID・シークレット） | 設定.md |
-| 設定 > 翻訳 | 翻訳 | /admin/settings/translation | 多言語翻訳ルールの管理（10言語対応） | 設定.md |
+| 販売設定 > 翻訳言語 | 翻訳 | /admin/settings/translation | 多言語翻訳ルールの管理（10言語対応） | 販売設定.md / 設定.md |
 | 設定 > メタフィールド定義 | メタフィールド定義 | /admin/settings/metafield_definitions | 各オブジェクトへのカスタムフィールド追加定義 | 設定.md |
-| 設定 > 採寸ルール | 採寸ルール | /admin/settings/product_measurement_rules | 衣料品の採寸項目・単位の定義 | 設定.md |
+| 販売設定 > 採寸定義 | 採寸ルール | /admin/settings/product_measurement_rules | 衣料品の採寸項目・単位の定義 | 販売設定.md / 設定.md |
 | ツール > CSVインポート | CSVインポート | /admin/csv_import | 22カテゴリ対応の一括データインポート | CSVインポート.md |
 | ツール > CSVエクスポート | CSVエクスポート | /admin/csv_export | 在庫・売上実績・ポイント変動履歴などのCSV出力 | CSVエクスポート・PDFエクスポート.md |
-| ツール > PDFエクスポート | PDFエクスポート | /admin/pdf_export | 納品書PDFのエクスポートカテゴリ確認。2026-06-28時点では納品書カテゴリページは空状態、任意新規生成ボタンは表示されず、直接作成URLは存在しない画面 | CSVエクスポート・PDFエクスポート.md |
+| ツール > PDFエクスポート | PDFエクスポート | /admin/pdf_export | 納品書PDFのエクスポートカテゴリ確認。納品書カテゴリページは履歴画面で、任意新規生成ボタンは表示されず、直接作成URLは存在しない画面。出荷一覧一括アクションから履歴作成は可能だが2026-07-03時点の検証ジョブは出荷完了/出荷待ち/キャンセル済みで失敗 | CSVエクスポート・PDFエクスポート.md |

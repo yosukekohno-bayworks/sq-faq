@@ -1,0 +1,45 @@
+{
+  "url": "https://www.sqstackstaging.com/admin/csv_import/csv_import_operation_fulfillment_by_dhls/create",
+  "text": "コンテンツにスキップ\n\nstack-ps-yosuke\n\n陽介 河野\n\nホーム\n商品管理\n在庫管理\n注文管理\n顧客管理\n発注管理\n販売設定\n会計\n分析\nオペレーション\n入荷管理\n未完了の入荷指示 1件\n1\n出荷管理\n在庫依頼\n未完了の在庫依頼 1件\n1\nCRM\nディスカウント\nポイント\n会員ランク\n販売チャネル\nShopify\nOmnibusCore\nスマレジ\nリテールポータル\n卸売\n設定\n\nDHLの出荷実績をCSVでインポートする。このページの準備が整いました\n\nDHLの出荷実績をCSVでインポートする\nCSVファイル\nファイルをアップロード\nファイルを選択する\n\nもしくはドラッグ&ドロップでアップロードすることができます\n\n保存する",
+  "inputs": [
+    {
+      "type": "file",
+      "required": false,
+      "value": "",
+      "validation": "",
+      "accept": "text/csv"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "disabled": false,
+      "type": "button"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "type": "button"
+    },
+    {
+      "text": "stack-ps-yosuke\n\n陽介 河野",
+      "disabled": false,
+      "type": "button"
+    },
+    {
+      "text": "",
+      "disabled": false,
+      "type": "button"
+    },
+    {
+      "text": "ファイルを選択する",
+      "disabled": false,
+      "type": "button"
+    },
+    {
+      "text": "保存する",
+      "disabled": false,
+      "type": "button"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+- application [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - iframe [ref=e3]:
+    
+  - banner "メニューバー" [ref=e4]:
+    - generic [ref=e7]:
+      - link "スプレッドシート ホーム" [ref=e9] [cursor=pointer]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - generic [ref=e16]:
+        - generic "ヤマトB2クラウド" [ref=e18]:
+          - generic [ref=e20]: ヤマトB2クラウド
+          - 'button "ドキュメントのステータス: ドライブに保存しました." [ref=e24]':
+            - generic [ref=e29] [cursor=pointer]: ドライブに保存しました
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - button "共有します。リンクを知っている全員; Stack Inc のリンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [disabled] [ref=e34]: 共有
+            - button "クイック共有操作" [disabled] [ref=e36]
+          - link "ログイン" [ref=e40] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1liCCh2eOLkH3Xac1JKUVOiGJPS53S7jFwUZmqmTTVPo/edit&followup=https://docs.google.com/spreadsheets/d/1liCCh2eOLkH3Xac1JKUVOiGJPS53S7jFwUZmqmTTVPo/edit&ltmpl=sheets&ec=GAZAmwI
+    - generic [ref=e41]:
+      - menubar [ref=e43]:
+        - menuitem "ファイル" [ref=e44] [cursor=pointer]
+        - menuitem "編集" [ref=e45] [cursor=pointer]
+        - menuitem "表示" [ref=e46] [cursor=pointer]
+        - menuitem "挿入" [disabled] [ref=e47]
+        - menuitem "表示形式" [disabled] [ref=e48]
+        - menuitem "データ" [ref=e49] [cursor=pointer]
+        - menuitem "ツール" [ref=e50] [cursor=pointer]
+        - menuitem "拡張機能" [disabled] [ref=e51]
+        - menuitem "ヘルプ" [ref=e52] [cursor=pointer]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - toolbar "メニューを検索 (option+/)" [ref=e55]:
+            - combobox "メニュー" [ref=e57]
+          - toolbar "メイン" [ref=e58]:
+            - button "印刷 (⌘P)" [ref=e59] [cursor=pointer]
+            - button "フィルタ表示" [ref=e64] [cursor=pointer]
+            - combobox "ズーム" [ref=e73] [cursor=pointer]:
+              - option "ズーム のリストで 100% を選択しています。" [selected] [ref=e76]:
+                - textbox "ズーム" [ref=e77]: 100%
+            - button "モード" [ref=e81] [cursor=pointer]:
+              - generic [ref=e82]: 閲覧のみ
+        - toolbar "モードと表示" [ref=e85]:
+          - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e86] [cursor=pointer]
+    - generic [ref=e93]:
+      - generic "名前ボックス (⌘ + J)" [ref=e94]:
+        - textbox [ref=e95]: A1
+        - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e97] [cursor=pointer]
+      - textbox [ref=e113]
+  - generic [ref=e116]:
+    - generic [ref=e135]:
+      - generic [ref=e136]: 一番下に
+      - textbox "追加する行数" [disabled] [ref=e137]: "1000"
+      - text: 行
+      - button "追加" [disabled] [ref=e138] [cursor=pointer]
+    - navigation "シートタブバー" [ref=e151]:
+      - toolbar [ref=e152]:
+        - button "すべてのシート" [ref=e153] [cursor=pointer]
+      - toolbar [ref=e160]:
+        - button "定義書" [ref=e161]:
+          - generic [ref=e165]: 定義書
+        - button "フォーマット" [ref=e169] [cursor=pointer]:
+          - generic [ref=e173]: フォーマット
+      - toolbar [ref=e177]
+  - generic [ref=e178]:
+    - textbox [active]
+  - link "スクリーン リーダーのサポートを有効にする" [ref=e179] [cursor=pointer]:
+    - /url: "#"
+  - textbox [ref=e180]
+  - generic [ref=e181]: バナーを非表示にしました
+  - region
+  - region [ref=e182]: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。

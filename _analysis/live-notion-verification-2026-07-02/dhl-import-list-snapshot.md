@@ -1,0 +1,157 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=f6e14]:
+      - link [ref=f6e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=f6e19]:
+        - button [ref=f6e23] [cursor=pointer]:
+          - img [ref=f6e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=f6e29] [cursor=pointer]:
+          - generic [ref=f6e30]:
+            - paragraph [ref=f6e31]: stack-ps-yosuke
+            - paragraph [ref=f6e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=f6e35]
+    - generic "メニュー" [ref=f6e36]:
+      - navigation [ref=f6e37]:
+        - generic [ref=f6e38]:
+          - list [ref=f6e39]:
+            - listitem [ref=f6e40]:
+              - link "ホーム" [ref=f6e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=f6e46]
+                - generic [ref=f6e48]: ホーム
+            - listitem [ref=f6e49]:
+              - link "商品管理" [ref=f6e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=f6e55]
+                - generic [ref=f6e57]: 商品管理
+            - listitem [ref=f6e58]:
+              - link "在庫管理" [ref=f6e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=f6e64]
+                - generic [ref=f6e66]: 在庫管理
+            - listitem [ref=f6e67]:
+              - link "注文管理" [ref=f6e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=f6e73]
+                - generic [ref=f6e75]: 注文管理
+            - listitem [ref=f6e76]:
+              - link "顧客管理" [ref=f6e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=f6e82]
+                - generic [ref=f6e85]: 顧客管理
+            - listitem [ref=f6e86]:
+              - link "発注管理" [ref=f6e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=f6e92]
+                - generic [ref=f6e95]: 発注管理
+            - listitem [ref=f6e96]:
+              - link "販売設定" [ref=f6e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=f6e102]
+                - generic [ref=f6e107]: 販売設定
+            - listitem [ref=f6e108]:
+              - link "会計" [ref=f6e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=f6e114]
+                - generic [ref=f6e116]: 会計
+            - listitem [ref=f6e117]:
+              - generic [ref=f6e118]:
+                - generic
+          - list [ref=f6e119]:
+            - listitem [ref=f6e120]:
+              - generic [ref=f6e121]: オペレーション
+            - listitem [ref=f6e122]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=f6e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=f6e128]
+                - generic [ref=f6e132]: 入荷管理
+                - generic [ref=f6e134]
+            - listitem [ref=f6e137]:
+              - link "出荷管理" [ref=f6e140] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=f6e143]
+                - generic [ref=f6e145]: 出荷管理
+            - listitem [ref=f6e146]:
+              - link "在庫依頼 未完了の在庫依頼 1件 1" [ref=f6e149] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=f6e152]
+                - generic [ref=f6e155]: 在庫依頼
+                - generic [ref=f6e157]
+          - list [ref=f6e160]:
+            - listitem [ref=f6e161]:
+              - generic [ref=f6e162]: CRM
+            - listitem [ref=f6e163]:
+              - link "ディスカウント" [ref=f6e166] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=f6e169]
+                - generic [ref=f6e171]: ディスカウント
+            - listitem [ref=f6e172]:
+              - link "ポイント" [ref=f6e175] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=f6e178]
+                - generic [ref=f6e180]: ポイント
+            - listitem [ref=f6e181]:
+              - link "会員ランク" [ref=f6e184] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=f6e187]
+                - generic [ref=f6e190]: 会員ランク
+          - list [ref=f6e191]:
+            - listitem [ref=f6e192]:
+              - generic [ref=f6e193]: 販売チャネル
+            - listitem [ref=f6e194]:
+              - link "Shopify" [ref=f6e197] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=f6e198]: Shopify
+            - listitem [ref=f6e199]:
+              - link "OmnibusCore" [ref=f6e202] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=f6e203]: OmnibusCore
+            - listitem [ref=f6e204]:
+              - link "スマレジ" [ref=f6e207] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=f6e208]: スマレジ
+            - listitem [ref=f6e209]:
+              - link "リテールポータル" [ref=f6e212] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=f6e213]: リテールポータル
+            - listitem [ref=f6e214]:
+              - generic [ref=f6e215]:
+                - generic
+          - list [ref=f6e216]:
+            - listitem [ref=f6e217]:
+              - link "設定" [ref=f6e220] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f6e223]
+                - generic [ref=f6e225]: 設定
+    - main [ref=f6e226]:
+      - generic [ref=f6e229]:
+        - generic [ref=f6e230]:
+          - status:
+            - paragraph [ref=f6e231]: DHLの出荷実績をCSVでインポートする。このページの準備が整いました
+          - generic [ref=f6e233]:
+            - link [ref=f6e236] [cursor=pointer]:
+              - /url: /admin/csv_import
+              - img [ref=f6e239]
+            - heading "DHLの出荷実績をCSVでインポートする" [level=1] [ref=f6e243]
+            - link "新規インポート" [ref=f6e247] [cursor=pointer]:
+              - /url: /admin/csv_import/csv_import_operation_fulfillment_by_dhls/create
+              - img [ref=f6e250]
+              - generic [ref=f6e253]: 新規インポート
+        - generic [ref=f6e260]:
+          - generic [ref=f6e262]:
+            - img "空の検索結果" [ref=f6e264]
+            - paragraph [ref=f6e266]: アイテムが見つかりませんでした
+            - paragraph [ref=f6e269]: 絞り込みや検索ワードを変更してみてください
+          - navigation "ページネーション" [ref=f6e271]:
+            - generic [ref=f6e274]:
+              - generic [ref=f6e275]:
+                - button "前へ" [disabled]
+              - generic [ref=f6e276]:
+                - button "次へ" [disabled]
+  - region "Notifications alt+T"
+  - alert [ref=f6e10]

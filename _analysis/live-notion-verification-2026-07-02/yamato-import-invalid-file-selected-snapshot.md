@@ -1,0 +1,153 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e11]:
+    - generic:
+      - link "コンテンツにスキップ":
+        - /url: "#AppFrameMain"
+        - generic: コンテンツにスキップ
+    - generic [ref=f8e14]:
+      - link [ref=f8e17] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=f8e19]:
+        - button [ref=f8e23] [cursor=pointer]:
+          - img [ref=f8e25]
+        - button "stack-ps-yosuke 陽介 河野 stack-ps-yosuke" [ref=f8e29] [cursor=pointer]:
+          - generic [ref=f8e30]:
+            - paragraph [ref=f8e31]: stack-ps-yosuke
+            - paragraph [ref=f8e33]: 陽介 河野
+          - img "stack-ps-yosuke" [ref=f8e35]
+    - generic "メニュー" [ref=f8e36]:
+      - navigation [ref=f8e37]:
+        - generic [ref=f8e38]:
+          - list [ref=f8e39]:
+            - listitem [ref=f8e40]:
+              - link "ホーム" [ref=f8e43] [cursor=pointer]:
+                - /url: /admin
+                - img [ref=f8e46]
+                - generic [ref=f8e48]: ホーム
+            - listitem [ref=f8e49]:
+              - link "商品管理" [ref=f8e52] [cursor=pointer]:
+                - /url: /admin/products
+                - img [ref=f8e55]
+                - generic [ref=f8e57]: 商品管理
+            - listitem [ref=f8e58]:
+              - link "在庫管理" [ref=f8e61] [cursor=pointer]:
+                - /url: /admin/inventory_items
+                - img [ref=f8e64]
+                - generic [ref=f8e66]: 在庫管理
+            - listitem [ref=f8e67]:
+              - link "注文管理" [ref=f8e70] [cursor=pointer]:
+                - /url: /admin/orders
+                - img [ref=f8e73]
+                - generic [ref=f8e75]: 注文管理
+            - listitem [ref=f8e76]:
+              - link "顧客管理" [ref=f8e79] [cursor=pointer]:
+                - /url: /admin/purchasing_customers
+                - img [ref=f8e82]
+                - generic [ref=f8e85]: 顧客管理
+            - listitem [ref=f8e86]:
+              - link "発注管理" [ref=f8e89] [cursor=pointer]:
+                - /url: /admin/inventory_purchase_orders
+                - img [ref=f8e92]
+                - generic [ref=f8e95]: 発注管理
+            - listitem [ref=f8e96]:
+              - link "販売設定" [ref=f8e99] [cursor=pointer]:
+                - /url: /admin/product_price_rules
+                - img [ref=f8e102]
+                - generic [ref=f8e107]: 販売設定
+            - listitem [ref=f8e108]:
+              - link "会計" [ref=f8e111] [cursor=pointer]:
+                - /url: /admin/sale_change_line_items
+                - img [ref=f8e114]
+                - generic [ref=f8e116]: 会計
+            - listitem [ref=f8e117]:
+              - generic [ref=f8e118]:
+                - generic
+          - list [ref=f8e119]:
+            - listitem [ref=f8e120]:
+              - generic [ref=f8e121]: オペレーション
+            - listitem [ref=f8e122]:
+              - link "入荷管理 未完了の入荷指示 1件 1" [ref=f8e125] [cursor=pointer]:
+                - /url: /admin/inventory_inbound_orders
+                - img [ref=f8e128]
+                - generic [ref=f8e132]: 入荷管理
+                - generic [ref=f8e134]
+            - listitem [ref=f8e137]:
+              - link "出荷管理" [ref=f8e140] [cursor=pointer]:
+                - /url: /admin/inventory_outbound_orders
+                - img [ref=f8e143]
+                - generic [ref=f8e145]: 出荷管理
+            - listitem [ref=f8e146]:
+              - link "在庫依頼 未完了の在庫依頼 1件 1" [ref=f8e149] [cursor=pointer]:
+                - /url: /admin/inventory_allocation_requests
+                - img [ref=f8e152]
+                - generic [ref=f8e155]: 在庫依頼
+                - generic [ref=f8e157]
+          - list [ref=f8e160]:
+            - listitem [ref=f8e161]:
+              - generic [ref=f8e162]: CRM
+            - listitem [ref=f8e163]:
+              - link "ディスカウント" [ref=f8e166] [cursor=pointer]:
+                - /url: /admin/order_price_adjustment_rules
+                - img [ref=f8e169]
+                - generic [ref=f8e171]: ディスカウント
+            - listitem [ref=f8e172]:
+              - link "ポイント" [ref=f8e175] [cursor=pointer]:
+                - /url: /admin/point_calculation_rules
+                - img [ref=f8e178]
+                - generic [ref=f8e180]: ポイント
+            - listitem [ref=f8e181]:
+              - link "会員ランク" [ref=f8e184] [cursor=pointer]:
+                - /url: /admin/customer_rank_calculation_rules
+                - img [ref=f8e187]
+                - generic [ref=f8e190]: 会員ランク
+          - list [ref=f8e191]:
+            - listitem [ref=f8e192]:
+              - generic [ref=f8e193]: 販売チャネル
+            - listitem [ref=f8e194]:
+              - link "Shopify" [ref=f8e197] [cursor=pointer]:
+                - /url: /admin/shopify_integrations
+                - generic [ref=f8e198]: Shopify
+            - listitem [ref=f8e199]:
+              - link "OmnibusCore" [ref=f8e202] [cursor=pointer]:
+                - /url: /admin/omnibus_core_integrations
+                - generic [ref=f8e203]: OmnibusCore
+            - listitem [ref=f8e204]:
+              - link "スマレジ" [ref=f8e207] [cursor=pointer]:
+                - /url: /admin/smaregi_integrations
+                - generic [ref=f8e208]: スマレジ
+            - listitem [ref=f8e209]:
+              - link "リテールポータル" [ref=f8e212] [cursor=pointer]:
+                - /url: /admin/retail_portal_integrations
+                - generic [ref=f8e213]: リテールポータル
+            - listitem [ref=f8e214]:
+              - generic [ref=f8e215]:
+                - generic
+          - list [ref=f8e216]:
+            - listitem [ref=f8e217]:
+              - link "設定" [ref=f8e220] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f8e223]
+                - generic [ref=f8e225]: 設定
+    - main [ref=f8e226]:
+      - generic [ref=f8e229]:
+        - generic [ref=f8e230]:
+          - status:
+            - paragraph [ref=f8e231]: ヤマトB2クラウドの出荷実績をCSVでインポートする。このページの準備が整いました
+          - generic [ref=f8e233]:
+            - link [ref=f8e236] [cursor=pointer]:
+              - /url: /admin/csv_import/csv_import_operation_fulfillment_by_yamato_b2_clouds
+              - img [ref=f8e239]
+            - heading "ヤマトB2クラウドの出荷実績をCSVでインポートする" [level=1] [ref=f8e243]
+        - generic [ref=f8e245]:
+          - generic [ref=f8e249]:
+            - heading "CSVファイル" [level=3] [ref=f8e250]
+            - generic [ref=f8e272]:
+              - generic [ref=f8e273]:
+                - img [ref=f8e276]
+                - paragraph [ref=f8e278]: yamato-b2-import-invalid-management-20260702.csv
+              - button [ref=f8e279] [cursor=pointer]:
+                - img [ref=f8e282]
+          - button "保存する" [ref=f8e270] [cursor=pointer]:
+            - generic [ref=f8e271]: 保存する
+  - region "Notifications alt+T"
+  - alert [ref=f8e10]

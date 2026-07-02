@@ -3,6 +3,7 @@
 SQアプリの調査一次記録置き場。FAQ執筆では、最新の実機確認ログと正本資料を優先する。
 
 ## 正本（優先順位順）
+0. `RETAIL-PORTAL-LIVE-VERIFICATION-2026-07-03.md` — リテールポータル（店舗スタッフ側）の初実測。客注フロー・販売員ゲート・連携設定と実効の対応はこれが正本
 1. `live-option-impact-audit-2026-06-21/SUMMARY.md` / `scan-results.md` / `scan-results.json` — 2026-06-21の全ページ項目・選択肢スキャンと重点差分
 2. `INVENTORY-TRACKING-FLAG-2026-06-21.md` — 在庫追跡OFFの実効範囲
 3. `NOTION-WBS-AUDIT-2026-06-21.md` — Notion/WBS系資料の再監査
