@@ -36,10 +36,11 @@
 | ポイント | 注文ポイント | /admin/point_calculation_rules | 注文ポイント付与ルールの作成・管理。ナビ名「ポイント」と画面h1「注文ポイント」は不一致 | ポイント.md |
 | ポイント > 注文ポイント > 会員ランク倍率 | 会員ランク倍率 | /admin/point_calculation_rules/{id}/rank_multipliers | タブと「追加する」ボタン、追加ダイアログ（会員ランク・倍率）まで確認済み。保存後反映は未確認 | ポイント.md |
 | ポイント > 注文ポイント > 商品倍率 | 商品倍率 | /admin/point_calculation_rules/{id}/point_multiplier_products | タブと「追加する」ボタン、追加ダイアログ（商品・倍率）、商品倍率0倍の保存・削除まで確認済み。実注文計算は未確認 | ポイント.md |
+| ポイント > 注文ポイント > 対象外店舗 | 対象外店舗 | /admin/point_calculation_rules/{id}/retail_location_exclusions | ポイント付与対象から除外する店舗を選択するタブ。ロケーション選択ダイアログ確認済み | ポイント.md |
 | ポイント > キャンペーン | ポイントキャンペーン | /admin/point_campaign_order_rules | ポイント増倍・追加付与キャンペーンの管理 | ポイント.md |
 | ポイント > キャンペーン > 会員ランク設定 | 会員ランクのキャンペーン設定 | /admin/point_campaign_order_rules/{id}/customer_ranks | 会員ランク種別キャンペーンのランク別倍率を追加・削除する | ポイント.md |
 | ポイント > キャンペーン > 購入金額設定 | 購入金額のキャンペーン設定 | /admin/point_campaign_order_rules/{id}/purchase_prices | 購入金額種別キャンペーンの金額条件と倍率を追加・削除する | ポイント.md |
-| ポイント > キャンペーン > 商品設定 | 商品のキャンペーン設定 | /admin/point_campaign_order_rules/{id}/product_variants | 商品種別キャンペーンの対象SKUと倍率を追加・削除する | ポイント.md |
+| ポイント > キャンペーン > 商品設定（旧導線） | 商品のキャンペーン設定 | /admin/point_campaign_order_rules/{id}/product_variants | 2026-07-16時点の新規作成フォームでは商品種別を選べない。既存データでの扱いは未確認 | ポイント.md |
 | ポイント > 誕生日 | 誕生日ポイント付与ルール | /admin/point_calculation_birthday_rules | 誕生日ボーナスポイントのルール管理 | ポイント.md |
 | ポイント > 誕生日 > 会員ランク別設定 | 会員ランク | /admin/point_calculation_birthday_rules/{id}/customer_ranks | 誕生日ポイントを会員ランク別に上書き設定する | ポイント.md |
 | ポイント > 利用外商品 | 利用外商品 | /admin/point_application_excluded_products | ポイント利用を止めたい商品の登録。追加・一覧反映・削除まで確認済み | ポイント.md |
