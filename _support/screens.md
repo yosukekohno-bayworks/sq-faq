@@ -58,7 +58,7 @@
 | 設定 > ロケーション | ロケーション | /admin/settings/locations | 在庫拠点（店舗・倉庫）マスタの管理 | 設定.md |
 | 設定 > ロケーショングループ | ロケーショングループ | /admin/settings/location_groups | ロケーションをグループ化する設定 | 設定.md |
 | 設定 > ブランド | ブランド | /admin/settings/brands | 商品に紐づけるブランドマスタの管理 | 設定.md |
-| 設定 > 取引先 | 取引先 | /admin/settings/suppliers | 仕入先（発注の相手）マスタの管理 | 設定.md |
+| 発注管理 > 取引先 | 取引先 | /admin/inventory_suppliers | 仕入先（発注の相手）マスタの管理 | 設定.md |
 | 設定 > 決済方法 | 決済方法 | /admin/settings/payment_methods | 顧客が使用する決済方法マスタの管理 | 設定.md |
 | 設定 > 販売員 | 販売員 | /admin/settings/retail_staff_members | 販売員マスタの管理 | 設定.md |
 | 設定 > 納品書 | 納品書 | /admin/settings/pdf_template_package_slip | 納品書PDFテンプレートの管理 | 設定.md |
